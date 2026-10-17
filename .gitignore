@@ -1,0 +1,19 @@
+# 运行环境和下载（setup_mac.sh 生成）
+.mac-env/
+.mac-downloads/
+
+# 模型：放在 Release（es-kit-preview），setup_mac.sh 下载
+西班牙语/models/qwen3-base/
+西班牙语/models/supertonic3/
+*.zip
+*.zip.[0-9][0-9][0-9]
+
+# 成品视频放在 Release（videos），太大不进 git
+西班牙语/最终视频/*.mp4
+
+# 预览截图（./run_mac.sh 文章编号 --stills）
+预览截图/
+
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,159 @@
+{
+ "id": "es02",
+ "title_es": "Mi vida diaria",
+ "title_zh": "我的日常生活",
+ "series": "每日一练",
+ "_说明": "西班牙语阅读《Mi vida diaria 我的日常生活》（用户 2026-10-17 在对话里发来的原文，原样）。zh：逐句中文翻译；w：生词栏，h 词头、pos 词性（《现代西班牙语》/《新西汉词典》习惯）、zh 释义、surface 句中原形（必须在句中恰好出现一次）、source=supplement 为补充词条（这篇没有原文档自带的重点词汇）。同一个词第二次出现时不再重复列（hermano、familia 只在第一次出现的句子里列）。hermano 原文没有说是哥哥还是弟弟，翻译暂作“哥哥”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "num.": "数词",
+  "interj.": "感叹词",
+  "loc.": "短语，固定搭配"
+ },
+ "paras": [
+  [
+   {
+    "es": "Hola, me llamo Laura y tengo dieciocho años.",
+    "zh": "你好，我叫劳拉，今年十八岁。",
+    "w": [
+     {"h": "hola", "pos": "interj.", "zh": "你好", "surface": "Hola", "source": "supplement"},
+     {"h": "me llamo", "pos": "loc.", "zh": "我叫……", "surface": "me llamo", "source": "supplement"},
+     {"h": "dieciocho", "pos": "num.", "zh": "十八", "surface": "dieciocho", "source": "supplement"},
+     {"h": "año", "pos": "m.", "zh": "年；岁", "surface": "años", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Vivo en Madrid con mi familia.",
+    "zh": "我和家人住在马德里。",
+    "w": [
+     {"h": "vivir", "pos": "intr.", "zh": "居住，生活", "surface": "Vivo", "source": "supplement"},
+     {"h": "con", "pos": "prep.", "zh": "和……一起", "surface": "con", "source": "supplement"},
+     {"h": "familia", "pos": "f.", "zh": "家庭；家人", "surface": "familia", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Somos cuatro personas: mi padre, mi madre, mi hermano y yo.",
+    "zh": "我们家有四口人：爸爸、妈妈、哥哥和我。",
+    "w": [
+     {"h": "ser", "pos": "intr.", "zh": "是", "surface": "Somos", "source": "supplement"},
+     {"h": "persona", "pos": "f.", "zh": "人", "surface": "personas", "source": "supplement"},
+     {"h": "padre", "pos": "m.", "zh": "父亲，爸爸", "surface": "padre", "source": "supplement"},
+     {"h": "madre", "pos": "f.", "zh": "母亲，妈妈", "surface": "madre", "source": "supplement"},
+     {"h": "hermano", "pos": "m.", "zh": "兄弟（哥哥或弟弟）", "surface": "hermano", "source": "supplement"}
+    ]
+   }
+  ],
+  [
+   {
+    "es": "De lunes a viernes, me levanto a las siete de la mañana.",
+    "zh": "从周一到周五，我早上七点起床。",
+    "w": [
+     {"h": "de lunes a viernes", "pos": "loc.", "zh": "从周一到周五", "surface": "De lunes a viernes", "source": "supplement"},
+     {"h": "levantarse", "pos": "prnl.", "zh": "起床", "surface": "me levanto", "source": "supplement"},
+     {"h": "a las + 钟点", "pos": "loc.", "zh": "在……点钟", "surface": "a las siete", "source": "supplement"},
+     {"h": "de la mañana", "pos": "loc.", "zh": "早上，上午", "surface": "de la mañana", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Desayuno leche y pan.",
+    "zh": "早餐我喝牛奶、吃面包。",
+    "w": [
+     {"h": "desayunar", "pos": "tr.", "zh": "早餐吃（喝）", "surface": "Desayuno", "source": "supplement"},
+     {"h": "leche", "pos": "f.", "zh": "牛奶", "surface": "leche", "source": "supplement"},
+     {"h": "pan", "pos": "m.", "zh": "面包", "surface": "pan", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Después, voy a la universidad en autobús.",
+    "zh": "然后，我坐公交车去大学。",
+    "w": [
+     {"h": "después", "pos": "adv.", "zh": "然后，之后", "surface": "Después", "source": "supplement"},
+     {"h": "ir", "pos": "intr.", "zh": "去", "surface": "voy", "source": "supplement"},
+     {"h": "universidad", "pos": "f.", "zh": "大学", "surface": "universidad", "source": "supplement"},
+     {"h": "en autobús", "pos": "loc.", "zh": "乘公交车", "surface": "en autobús", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Estudio español e inglés.",
+    "zh": "我学习西班牙语和英语。",
+    "w": [
+     {"h": "estudiar", "pos": "tr.", "zh": "学习", "surface": "Estudio", "source": "supplement"},
+     {"h": "español", "pos": "m.", "zh": "西班牙语", "surface": "español", "source": "supplement"},
+     {"h": "inglés", "pos": "m.", "zh": "英语", "surface": "inglés", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "A las dos, como con mis amigos en la cafetería.",
+    "zh": "两点钟，我和朋友们在学校餐厅吃午饭。",
+    "w": [
+     {"h": "a las dos", "pos": "loc.", "zh": "在两点钟", "surface": "A las dos", "source": "supplement"},
+     {"h": "comer", "pos": "intr.", "zh": "吃饭；吃午饭", "surface": "como", "source": "supplement"},
+     {"h": "amigo", "pos": "m.", "zh": "朋友", "surface": "amigos", "source": "supplement"},
+     {"h": "cafetería", "pos": "f.", "zh": "咖啡馆；（学校）餐厅", "surface": "cafetería", "source": "supplement"}
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Por la tarde, hago los deberes y escucho música.",
+    "zh": "下午，我写作业、听音乐。",
+    "w": [
+     {"h": "por la tarde", "pos": "loc.", "zh": "下午", "surface": "Por la tarde", "source": "supplement"},
+     {"h": "hacer los deberes", "pos": "loc.", "zh": "做作业", "surface": "hago los deberes", "source": "supplement"},
+     {"h": "escuchar", "pos": "tr.", "zh": "听", "surface": "escucho", "source": "supplement"},
+     {"h": "música", "pos": "f.", "zh": "音乐", "surface": "música", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "A veces, voy al parque con mi hermano.",
+    "zh": "有时候，我和哥哥去公园。",
+    "w": [
+     {"h": "a veces", "pos": "loc.", "zh": "有时候", "surface": "A veces", "source": "supplement"},
+     {"h": "ir a", "pos": "loc.", "zh": "去（某地）；al = a + el", "surface": "voy al", "source": "supplement"},
+     {"h": "parque", "pos": "m.", "zh": "公园", "surface": "parque", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Por la noche, ceno con mi familia y veo la televisión.",
+    "zh": "晚上，我和家人一起吃晚饭、看电视。",
+    "w": [
+     {"h": "por la noche", "pos": "loc.", "zh": "晚上", "surface": "Por la noche", "source": "supplement"},
+     {"h": "cenar", "pos": "intr.", "zh": "吃晚饭", "surface": "ceno", "source": "supplement"},
+     {"h": "ver", "pos": "tr.", "zh": "看", "surface": "veo", "source": "supplement"},
+     {"h": "televisión", "pos": "f.", "zh": "电视", "surface": "televisión", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Normalmente, me acuesto a las diez y media.",
+    "zh": "我通常十点半睡觉。",
+    "w": [
+     {"h": "normalmente", "pos": "adv.", "zh": "通常，一般", "surface": "Normalmente", "source": "supplement"},
+     {"h": "acostarse", "pos": "prnl.", "zh": "上床睡觉", "surface": "me acuesto", "source": "supplement"},
+     {"h": "diez", "pos": "num.", "zh": "十", "surface": "diez", "source": "supplement"},
+     {"h": "y media", "pos": "loc.", "zh": "（……点）半", "surface": "y media", "source": "supplement"}
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Me gusta mi vida porque tengo una familia maravillosa.",
+    "zh": "我喜欢我的生活，因为我有一个很棒的家庭。",
+    "w": [
+     {"h": "me gusta", "pos": "loc.", "zh": "我喜欢", "surface": "Me gusta", "source": "supplement"},
+     {"h": "vida", "pos": "f.", "zh": "生活", "surface": "vida", "source": "supplement"},
+     {"h": "porque", "pos": "conj.", "zh": "因为", "surface": "porque", "source": "supplement"},
+     {"h": "tener", "pos": "tr.", "zh": "有", "surface": "tengo", "source": "supplement"},
+     {"h": "maravilloso", "pos": "adj.", "zh": "极好的，美妙的", "surface": "maravillosa", "source": "supplement"}
+    ]
+   }
+  ]
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "qwen3_M1F5_25": {
+  "es02": {
+   "file": "qwen3_M1F5_25/es02_Mi_vida_diaria.mp3",
+   "duration": 50.5,
+   "loudness": {
+    "integrated_lufs": -16.48,
+    "sentence_max_dev_lu": 0.82,
+    "short_term_std_lu": 0.91,
+    "peak_dbfs": -1.72,
+    "buzz_hz": 8818.4,
+    "buzz_db": 5.9,
+    "comb_db": -0.0
+   },
+   "voice_cfg": {
+    "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）",
+    "engine": "worker",
+    "python": "self",
+    "script": "qwen3tts.py",
+    "mode": "clone",
+    "model_dir": "西班牙语/models/qwen3-base",
+    "language": "spanish",
+    "seed": 1234,
+    "num_threads": 4,
+    "dtype": "float32",
+    "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+    "ref_text": "Tengo una gran pasión por los viajes. Me encanta conocer lugares nuevos, culturas diferentes y probar comidas típicas de cada región.",
+    "lead_in": 1.5,
+    "sentence_pause": 0.8,
+    "tail": 2.0,
+    "clause_pause": 0.28,
+    "lufs": -16.0,
+    "kbps": 128,
+    "debuzz": []
+   },
+   "sentences": [
+    {
+     "k": 1,
+     "para": 1,
+     "start": 1.5,
+     "end": 4.48,
+     "parts": [
+      [
+       1.5,
+       4.48
+      ]
+     ],
+     "segments": [
+      "Hola, me llamo Laura y tengo dieciocho años."
+     ],
+     "text": "Hola, me llamo Laura y tengo dieciocho años.",
+     "read": "Hola, me llamo Laura y tengo dieciocho años."
+    },
+    {
+     "k": 2,
+     "para": 1,
+     "start": 5.28,
+     "end": 6.92,
+     "parts": [
+      [
+       5.28,
+       6.92
+      ]
+     ],
+     "segments": [
+      "Vivo en Madrid con mi familia."
+     ],
+     "text": "Vivo en Madrid con mi familia.",
+     "read": "Vivo en Madrid con mi familia."
+    },
+    {
+     "k": 3,
+     "para": 1,
+     "start": 7.72,
+     "end": 12.46,
+     "parts": [
+      [
+       7.72,
+       9.27
+      ],
+      [
+       9.55,
+       12.46
+      ]
+     ],
+     "segments": [
+      "Somos cuatro personas:",
+      "mi padre, mi madre, mi hermano y yo."
+     ],
+     "text": "Somos cuatro personas: mi padre, mi madre, mi hermano y yo.",
+     "read": "Somos cuatro personas: mi padre, mi madre, mi hermano y yo."
+    },
+    {
+     "k": 4,
+     "para": 2,
+     "start": 13.26,
+     "end": 16.83,
+     "parts": [
+      [
+       13.26,
+       14.42
+      ],
+      [
+       14.7,
+       16.83
+      ]
+     ],
+     "segments": [
+      "De lunes a viernes,",
+      "me levanto a las siete de la mañana."
+     ],
+     "text": "De lunes a viernes, me levanto a las siete de la mañana.",
+     "read": "De lunes a viernes, me levanto a las siete de la mañana."
+    },
+    {
+     "k": 5,
+     "para": 2,
+     "start": 17.63,
+     "end": 19.15,
+     "parts": [
+      [
+       17.63,
+       19.15
+      ]
+     ],
+     "segments": [
+      "Desayuno leche y pan."
+     ],
+     "text": "Desayuno leche y pan.",
+     "read": "Desayuno leche y pan."
+    },
+    {
+     "k": 6,
+     "para": 2,
+     "start": 19.95,
+     "end": 22.52,
+     "parts": [
+      [
+       19.95,
+       22.52
+      ]
+     ],
+     "segments": [
+      "Después, voy a la universidad en autobús."
+     ],
+     "text": "Después, voy a la universidad en autobús.",
+     "read": "Después, voy a la universidad en autobús."
+    },
+    {
+     "k": 7,
+     "para": 2,
+     "start": 23.32,
+     "end": 24.75,
+     "parts": [
+      [
+       23.32,
+       24.75
+      ]
+     ],
+     "segments": [
+      "Estudio español e inglés."
+     ],
+     "text": "Estudio español e inglés.",
+     "read": "Estudio español e inglés."
+    },
+    {
+     "k": 8,
+     "para": 2,
+     "start": 25.55,
+     "end": 28.94,
+     "parts": [
+      [
+       25.55,
+       26.52
+      ],
+      [
+       26.8,
+       28.94
+      ]
+     ],
+     "segments": [
+      "A las dos,",
+      "como con mis amigos en la cafetería."
+     ],
+     "text": "A las dos, como con mis amigos en la cafetería.",
+     "read": "A las dos, como con mis amigos en la cafetería."
+    },
+    {
+     "k": 9,
+     "para": 3,
+     "start": 29.74,
+     "end": 33.35,
+     "parts": [
+      [
+       29.74,
+       30.72
+      ],
+      [
+       31.0,
+       33.35
+      ]
+     ],
+     "segments": [
+      "Por la tarde,",
+      "hago los deberes y escucho música."
+     ],
+     "text": "Por la tarde, hago los deberes y escucho música.",
+     "read": "Por la tarde, hago los deberes y escucho música."
+    },
+    {
+     "k": 10,
+     "para": 3,
+     "start": 34.15,
+     "end": 36.66,
+     "parts": [
+      [
+       34.15,
+       34.74
+      ],
+      [
+       35.02,
+       36.66
+      ]
+     ],
+     "segments": [
+      "A veces,",
+      "voy al parque con mi hermano."
+     ],
+     "text": "A veces, voy al parque con mi hermano.",
+     "read": "A veces, voy al parque con mi hermano."
+    },
+    {
+     "k": 11,
+     "para": 3,
+     "start": 37.46,
+     "end": 41.22,
+     "parts": [
+      [
+       37.46,
+       38.46
+      ],
+      [
+       38.74,
+       41.22
+      ]
+     ],
+     "segments": [
+      "Por la noche,",
+      "ceno con mi familia y veo la televisión."
+     ],
+     "text": "Por la noche, ceno con mi familia y veo la televisión.",
+     "read": "Por la noche, ceno con mi familia y veo la televisión."
+    },
+    {
+     "k": 12,
+     "para": 3,
+     "start": 42.02,
+     "end": 44.8,
+     "parts": [
+      [
+       42.02,
+       44.8
+      ]
+     ],
+     "segments": [
+      "Normalmente, me acuesto a las diez y media."
+     ],
+     "text": "Normalmente, me acuesto a las diez y media.",
+     "read": "Normalmente, me acuesto a las diez y media."
+    },
+    {
+     "k": 13,
+     "para": 4,
+     "start": 45.6,
+     "end": 48.5,
+     "parts": [
+      [
+       45.6,
+       48.5
+      ]
+     ],
+     "segments": [
+      "Me gusta mi vida porque tengo una familia maravillosa."
+     ],
+     "text": "Me gusta mi vida porque tengo una familia maravillosa.",
+     "read": "Me gusta mi vida porque tengo una familia maravillosa."
+    }
+   ],
+   "draft_issues": []
+  }
+ },
+ "_final": "supertonic3_M1"
+}
