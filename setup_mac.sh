@@ -1,7 +1,8 @@
 #!/bin/zsh
 # macOS 一键安装：运行环境 + 两个模型，全部从网上取回（conda-forge、PyPI、本仓库的 Release），不用管理员密码。
-#   git clone https://github.com/lx912412146-afk/spanish-video-kit.git
-#   cd spanish-video-kit && ./setup_mac.sh
+#   curl -L https://github.com/lx912412146-afk/spanish-video-kit/archive/refs/heads/main.tar.gz | tar -xz
+#   cd spanish-video-kit-main && zsh setup_mac.sh
+# （用 .tar.gz，不要用 .zip：macOS 自带的 unzip 解压 GitHub 的 zip 时中文文件名会出错）
 # 装好后生成视频：./run_mac.sh es02
 # 磁盘：环境约 3 GB，模型约 4.4 GB，合并模型分卷时临时再多占约 4.5 GB。可以重复运行，做完的步骤会跳过。
 # 在 Apple 芯片的 Mac（arm64，16 GB 内存）上测试通过；版本号固定为 2026-10-17 测试时的版本。

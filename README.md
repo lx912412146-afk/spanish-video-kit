@@ -5,12 +5,17 @@
 
 ## 快速开始（macOS）
 
+在“终端”里依次运行（不需要 git，也不需要管理员密码）：
+
 ```bash
-git clone https://github.com/lx912412146-afk/spanish-video-kit.git
-cd spanish-video-kit
-./setup_mac.sh          # 装环境、下载并校验模型（约 10 GB 磁盘，不需要管理员密码）
-./run_mac.sh es02       # 生成朗读音频 + 4K 视频
+curl -L https://github.com/lx912412146-afk/spanish-video-kit/archive/refs/heads/main.tar.gz | tar -xz
+cd spanish-video-kit-main
+zsh setup_mac.sh        # 装环境、下载并校验模型（约 10 GB 磁盘、20 分钟）
+zsh run_mac.sh es02     # 生成朗读音频 + 4K 视频（Apple 芯片上约 5 分钟）
 ```
+
+- 要用 `.tar.gz`：macOS 自带的 `unzip` 解压 GitHub 的 `.zip` 时，中文文件名会出错。
+- 装了 git 也可以用 `git clone https://github.com/lx912412146-afk/spanish-video-kit.git`。
 
 - 只看画面：`./run_mac.sh es02 --stills`（截图写到 `预览截图/es02/`）
 - 换音色：`./run_mac.sh es02 supertonic3_M1F5_25`（音色名见 `西班牙语/tools/voices.json`）
