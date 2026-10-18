@@ -3,12 +3,21 @@
 #   curl -L https://github.com/lx912412146-afk/spanish-video-kit/archive/refs/heads/main.tar.gz | tar -xz
 #   cd spanish-video-kit-main && zsh setup_mac.sh
 # （用 .tar.gz，不要用 .zip：macOS 自带的 unzip 解压 GitHub 的 zip 时中文文件名会出错）
+#   zsh setup_mac.sh --cache    # 另外下载 Qwen3 原始合成缓存（约 161 MB）：重做已有文章不用重新合成，省约 2.5 小时
 # 装好后生成视频：./run_mac.sh es02
 # 磁盘：环境约 3 GB，模型约 4.4 GB，合并模型分卷时临时再多占约 4.5 GB。可以重复运行，做完的步骤会跳过。
 # 在 Apple 芯片的 Mac（arm64，16 GB 内存）上测试通过；版本号固定为 2026-10-17 测试时的版本。
 set -euo pipefail
 KIT="${0:A:h}"
+WITH_CACHE=0
+for a in "$@"; do
+  case "$a" in
+    --cache) WITH_CACHE=1 ;;
+    *) echo "不认识的参数：$a（只支持 --cache）" >&2; exit 1 ;;
+  esac
+done
 REL="https://github.com/lx912412146-afk/spanish-video-kit/releases/download/es-kit-preview"
+WF="https://github.com/lx912412146-afk/spanish-video-kit/releases/download/work-files"
 MM_REL="https://github.com/mamba-org/micromamba-releases/releases/download/2.9.0-0"
 ES_ENV="${ES_ENV:-$KIT/.mac-env}"
 DL="$KIT/.mac-downloads"
@@ -20,14 +29,15 @@ case "$(uname -m)" in
 esac
 mkdir -p "$DL" "$M"
 
-sha_ok() {  # sha_ok 文件名：按 SHA256SUMS.txt 核对 $DL 里的文件
-  (cd "$DL" && grep -E " $1\$" SHA256SUMS.txt | shasum -a 256 -c - >/dev/null 2>&1)
+sha_ok() {  # sha_ok 文件名 [校验文件]：按校验文件（默认 SHA256SUMS.txt）核对 $DL 里的文件
+  (cd "$DL" && grep -E " $1\$" "${2:-SHA256SUMS.txt}" | shasum -a 256 -c - >/dev/null 2>&1)
 }
-fetch() {   # fetch 文件名：从本仓库 Release 下载到 $DL（已下载且校验通过就跳过，断了可以续传）
-  sha_ok "$1" && return 0
+fetch() {   # fetch 文件名 [Release 地址] [校验文件]：从本仓库 Release 下载到 $DL（已下载且校验通过就跳过，断了可以续传）
+  local base="${2:-$REL}" sums="${3:-SHA256SUMS.txt}"
+  sha_ok "$1" "$sums" && return 0
   echo "== 下载 $1"
-  curl -fL --retry 5 --retry-delay 5 -C - -o "$DL/$1" "$REL/$1" || curl -fL --retry 5 -o "$DL/$1" "$REL/$1"
-  sha_ok "$1" || { echo "$1 校验失败，删掉后请重新运行" >&2; rm -f "$DL/$1"; exit 1; }
+  curl -fL --retry 5 --retry-delay 5 -C - -o "$DL/$1" "$base/$1" || curl -fL --retry 5 -o "$DL/$1" "$base/$1"
+  sha_ok "$1" "$sums" || { echo "$1 校验失败，删掉后请重新运行" >&2; rm -f "$DL/$1"; exit 1; }
 }
 
 # 1. micromamba（conda-forge 的单文件安装器，固定 2.9.0）
@@ -79,7 +89,18 @@ if [[ ! -f "$M/supertonic3/tts.json" ]]; then
   unzip -q -o -j "$DL/SPANISH-video-kit-preview.zip" '*/models/supertonic3/*' -d "$M/supertonic3"
 fi
 
-# 6. 自检
+# 6. （可选，--cache）Qwen3 原始合成缓存：分级阅读 50 篇和 es02 的全部片段（Release work-files）。
+#    缓存键只看文字和合成设置（不含本机路径），换电脑照样命中；没有它也能生成，只是要重新合成
+if (( WITH_CACHE )); then
+  curl -fsSL -o "$DL/work-files-SHA256SUMS.txt" "$WF/work-files-SHA256SUMS.txt"
+  fetch qwen3-synthesis-cache.zip "$WF" work-files-SHA256SUMS.txt
+  C="$KIT/西班牙语/audio/_合成缓存"
+  mkdir -p "$C"
+  unzip -q -o "$DL/qwen3-synthesis-cache.zip" -d "$C"
+  echo "== 合成缓存已就位：$(ls "$C" | wc -l | tr -d ' ') 段"
+fi
+
+# 7. 自检
 "$PY" -c "import qwen_tts, sherpa_onnx, playwright, soundfile, soxr, pyloudnorm, lameenc, num2words" 2>/dev/null
 "$ES_ENV/bin/ffmpeg" -version >/dev/null
 "$ES_ENV/bin/ffprobe" -version >/dev/null

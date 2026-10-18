@@ -1,0 +1,101 @@
+  合成缓存：8 段直接用缓存，0 段新合成
+CACHED a1_01 8 segments 0s
+  合成缓存：0 段直接用缓存，9 段新合成
+CACHED a2_01 9 segments 150s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED b1_01 10 segments 165s
+  合成缓存：0 段直接用缓存，9 段新合成
+CACHED b2_01 9 segments 163s
+  合成缓存：0 段直接用缓存，14 段新合成
+CACHED c1_01 14 segments 220s
+  合成缓存：7 段直接用缓存，0 段新合成
+CACHED a1_02 7 segments 0s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED a2_02 10 segments 146s
+  合成缓存：0 段直接用缓存，12 段新合成
+CACHED b1_02 12 segments 188s
+  合成缓存：0 段直接用缓存，11 段新合成
+CACHED b2_02 11 segments 198s
+  合成缓存：0 段直接用缓存，11 段新合成
+CACHED c1_02 11 segments 209s
+  合成缓存：0 段直接用缓存，8 段新合成
+CACHED a1_03 8 segments 137s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED a2_03 10 segments 170s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED b1_03 10 segments 189s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED b2_03 10 segments 187s
+  合成缓存：1 段直接用缓存，11 段新合成
+CACHED c1_03 12 segments 200s
+  合成缓存：0 段直接用缓存，9 段新合成
+CACHED a1_04 9 segments 136s
+  合成缓存：0 段直接用缓存，11 段新合成
+CACHED a2_04 11 segments 160s
+  合成缓存：0 段直接用缓存，9 段新合成
+CACHED b1_04 9 segments 166s
+  合成缓存：1 段直接用缓存，9 段新合成
+CACHED b2_04 10 segments 166s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED c1_04 10 segments 187s
+  合成缓存：0 段直接用缓存，12 段新合成
+CACHED a1_05 12 segments 153s
+  合成缓存：0 段直接用缓存，11 段新合成
+CACHED a2_05 11 segments 161s
+  合成缓存：2 段直接用缓存，9 段新合成
+CACHED b1_05 11 segments 156s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED b2_05 10 segments 178s
+  合成缓存：0 段直接用缓存，9 段新合成
+CACHED c1_05 9 segments 181s
+  合成缓存：0 段直接用缓存，8 段新合成
+CACHED a1_06 8 segments 126s
+  合成缓存：2 段直接用缓存，7 段新合成
+CACHED a2_06 9 segments 124s
+  合成缓存：1 段直接用缓存，10 段新合成
+CACHED b1_06 11 segments 167s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED b2_06 10 segments 186s
+  合成缓存：1 段直接用缓存，11 段新合成
+CACHED c1_06 12 segments 192s
+  合成缓存：0 段直接用缓存，8 段新合成
+CACHED a1_07 8 segments 127s
+  合成缓存：1 段直接用缓存，9 段新合成
+CACHED a2_07 10 segments 148s
+  合成缓存：1 段直接用缓存，9 段新合成
+CACHED b1_07 10 segments 164s
+  合成缓存：1 段直接用缓存，10 段新合成
+CACHED b2_07 11 segments 183s
+  合成缓存：0 段直接用缓存，12 段新合成
+CACHED c1_07 12 segments 214s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED a1_08 10 segments 136s
+  合成缓存：1 段直接用缓存，11 段新合成
+CACHED a2_08 12 segments 164s
+  合成缓存：2 段直接用缓存，8 段新合成
+CACHED b1_08 10 segments 154s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED b2_08 10 segments 167s
+  合成缓存：0 段直接用缓存，12 段新合成
+CACHED c1_08 12 segments 212s
+  合成缓存：0 段直接用缓存，8 段新合成
+CACHED a1_09 8 segments 123s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED a2_09 10 segments 154s
+  合成缓存：0 段直接用缓存，8 段新合成
+CACHED b1_09 8 segments 156s
+  合成缓存：1 段直接用缓存，9 段新合成
+CACHED b2_09 10 segments 171s
+  合成缓存：1 段直接用缓存，13 段新合成
+CACHED c1_09 14 segments 217s
+  合成缓存：0 段直接用缓存，8 段新合成
+CACHED a1_10 8 segments 141s
+  合成缓存：0 段直接用缓存，10 段新合成
+CACHED a2_10 10 segments 156s
+  合成缓存：1 段直接用缓存，7 段新合成
+CACHED b1_10 8 segments 146s
+  合成缓存：0 段直接用缓存，9 段新合成
+CACHED b2_10 9 segments 172s
+  合成缓存：1 段直接用缓存，11 段新合成
+CACHED c1_10 12 segments 199s
+FILL_DONE

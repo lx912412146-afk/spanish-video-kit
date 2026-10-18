@@ -16,6 +16,7 @@ zsh run_mac.sh es02     # 生成朗读音频 + 4K 视频（Apple 芯片上约 5 
 
 - 要用 `.tar.gz`：macOS 自带的 `unzip` 解压 GitHub 的 `.zip` 时，中文文件名会出错。
 - 装了 git 也可以用 `git clone https://github.com/lx912412146-afk/spanish-video-kit.git`。
+- `zsh setup_mac.sh --cache`：另外下载 Qwen3 原始合成缓存（Release `work-files`，约 161 MB）。有了缓存，重做 es02 和分级阅读 50 篇不用重新合成，可以省约 2.5 小时。
 
 常用命令：
 
@@ -42,6 +43,26 @@ zsh run_mac.sh es02     # 生成朗读音频 + 4K 视频（Apple 芯片上约 5 
 
 Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`（不进 git）。只改语速、音高、停顿、电平时，重跑不用重新合成，几秒钟就好。
 要换速度或音高，复制一个音色，改 `tempo`（0.8 = 慢到 0.8 倍）和 `pitch_cents`（100 = 一个半音）就行。
+- 缓存的文件名由文字、合成设置和参考录音的内容算出来，不含本机路径，所以换电脑也能直接用。
+- 2026-10-18 的缓存打包在 Release `work-files` 的 `qwen3-synthesis-cache.zip`：可以用 `setup_mac.sh --cache` 下载，也可以手动 `unzip qwen3-synthesis-cache.zip -d 西班牙语/audio/_合成缓存`。
+
+## 辅助工具（`西班牙语/tools/`）
+
+| 脚本 | 用途 |
+|---|---|
+| `check_articles.py 编号… [-v]` | 生成前检查文章 JSON：生词、词性图例、不停顿逗号；`-v` 打印朗读分段 |
+| `fill_cache.py 音色 编号…` | 只做 Qwen3 合成、存进缓存，不做后期也不出视频。批量生成前先跑它，最慢的一步就和后期参数无关了 |
+| `long_merge_rule.py 编号…` | 不停顿合并后超过 100 字符的长段恢复逗号停顿，并写进 `_说明` |
+| `loudness_survey.py [--voices 音色,…] 编号…` | 只用缓存，比较“原测法”和“朗读范围”两种短时响度波动 |
+| `prep_release.py 输出文件夹 [说明文件]` | 把 50 个视频复制成英文文件名，合并核查报告，写好 Release 说明 |
+
+## 仓库里的其他资料
+
+- `原始资料/`：用户发来的《西班牙语A1-C1分级阅读文章集》Word 原件、从中提取的文本 `articles.txt`、生成 50 篇骨架的 `make_skeletons.py`。
+- `记录/`：
+  - `文章补写/`：补写翻译和生词时给 5 个助手的统一规范 `补写规范.md`，以及他们的填写脚本和数据（结果以 `西班牙语/文章/*.json` 为准）。
+  - `响度测法对比_50篇.txt`：两种测法在 50 篇上的对比数据。
+  - `日志/`：合成缓存填充、截图排版检查、批量生成的日志，本机路径已替换成 `<KIT>` 等占位符。
 
 ## 新文章怎么加
 
@@ -153,8 +174,9 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | 标签 | 内容 |
 |---|---|
 | `es-kit-preview` | 原始工具包 `SPANISH-video-kit-preview.zip`、Qwen3-TTS 1.7B 模型分卷 `.001–.003`、`join_qwen3_parts.py`、`SHA256SUMS.txt` |
-| `videos` | es02 的视频（MP4）、朗读、字幕和核查报告 |
+| `videos` | es02 的视频（MP4）、朗读、字幕和核查报告；0.8 倍速样片 `es02_Mi_vida_diaria_4K_slow.mp4` 和它的核查报告 |
 | `graded-reading` | 分级阅读 50 篇的 4K 视频（`A1-01_….mp4` …）和全部核查报告 |
+| `work-files` | 工作文件：Qwen3 原始合成缓存 `qwen3-synthesis-cache.zip`（505 段）、50 篇和 es02 的预览截图 `preview-stills.zip`、`work-files-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -173,3 +195,6 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - `make_video.py`：页眉可按文章设置（`header`）；分级阅读按“等级-篇号”命名；新增 `--print-name`。
     - 新增 `batch_mac.sh`（批量生成）、`check_articles.py`（文章检查）、音色 `qwen3_M1F5_25_slow`、分级阅读 50 篇。
     - 新增 `loudness.py`：短时响度波动只统计朗读范围，用户确认。`make_audio.py` 新增安全线和逐级加强电平；`make_video.py` 的核查改用 `loudness.verify`，原测法数值记在 `info`。
+  - 2026-10-19：
+    - 新增 `原始资料/`、`记录/`，以及 `fill_cache.py`、`long_merge_rule.py`、`loudness_survey.py`、`prep_release.py` 四个辅助工具。
+    - `setup_mac.sh` 新增 `--cache`；新增 Release `work-files`。
