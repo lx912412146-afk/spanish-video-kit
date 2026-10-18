@@ -169,6 +169,12 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 
 </details>
 
+## 试卷
+
+- [`试卷/第一册高考模拟卷/`](试卷/第一册高考模拟卷/)：按 2024 年起的高考西班牙语新课标卷题型出的原创模拟卷，范围是《现代西班牙语》第一册老版，满分 150 分。
+  - 原文是 `试卷.md`。学生版、教师版 PDF 和约 10 分钟的听力音频在 Release `exam-book1`。
+  - 听力用本仓库的 Qwen3 音色合成男女声对话，每句都用语音识别和录音稿逐词核对过。
+
 ## Releases
 
 | 标签 | 内容 |
@@ -177,6 +183,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `videos` | es02 的视频（MP4）、朗读、字幕和核查报告；0.8 倍速样片 `es02_Mi_vida_diaria_4K_slow.mp4` 和它的核查报告 |
 | `graded-reading` | 分级阅读 50 篇的 4K 视频（`A1-01_….mp4` …）和全部核查报告 |
 | `work-files` | 工作文件：Qwen3 原始合成缓存 `qwen3-synthesis-cache.zip`（505 段）、50 篇和 es02 的预览截图 `preview-stills.zip`、`work-files-SHA256SUMS.txt` |
+| `exam-book1` | 第一册高考模拟卷：学生版 / 教师版 PDF、整套听力 `listening_full.mp3`、分段听力 `texto_1.mp3` … `texto_9.mp3` |
 
 ## 来源与改动
 
@@ -198,3 +205,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 2026-10-19：
     - 新增 `原始资料/`、`记录/`，以及 `fill_cache.py`、`long_merge_rule.py`、`loudness_survey.py`、`prep_release.py` 四个辅助工具。
     - `setup_mac.sh` 新增 `--cache`；新增 Release `work-files`。
+    - 新增 `试卷/第一册高考模拟卷/`（试卷原文、听力生成、语音识别核对、PDF 排版）和 Release `exam-book1`。
