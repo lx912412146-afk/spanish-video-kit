@@ -1,0 +1,88 @@
+{
+ "id": "c1_08",
+ "level": "C1",
+ "no": 8,
+ "title_es": "La confianza en la información",
+ "title_zh": "对信息的信任",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 8 篇",
+ "header": "分级阅读 C1-08",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 8 篇《La confianza en la información 对信息的信任》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。特别判断：第 5 句 disciplina 指上一句所说的一整套求证做法，意译为“严谨的求证习惯”；第 3 句 que la repita 为虚拟式（先行词是不确定的“某篇报道”）；第 4 句 identificar…, comprobar…, distinguir… y considerar… 是并列的不定式短语，按四级规则照常停顿；prueba 在此是“证据”，不是“考试”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "La abundancia de información no elimina la incertidumbre; en ocasiones, la multiplica.",
+    "zh": "信息的丰富并不能消除不确定性；有时，它反而会使不确定性倍增。",
+    "w": [
+     {"h": "abundancia", "pos": "f.", "zh": "大量，丰富", "surface": "abundancia", "source": "supplement"},
+     {"h": "incertidumbre", "pos": "f.", "zh": "不确定性", "surface": "incertidumbre", "source": "supplement"},
+     {"h": "en ocasiones", "pos": "loc.", "zh": "有时", "surface": "en ocasiones", "source": "supplement"},
+     {"h": "multiplicar", "pos": "tr.", "zh": "使倍增", "surface": "multiplica", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Las noticias circulan a gran velocidad y los contenidos diseñados para provocar indignación o miedo pueden difundirse más que las explicaciones matizadas.",
+    "zh": "新闻以极快的速度传播，而那些专为激起愤慨或恐惧而设计的内容，可能比细致入微的解释传播得更广。",
+    "w": [
+     {"h": "circular", "pos": "intr.", "zh": "流传，传播", "surface": "circulan", "source": "supplement"},
+     {"h": "a gran velocidad", "pos": "loc.", "zh": "以极快的速度", "surface": "a gran velocidad", "source": "supplement"},
+     {"h": "indignación", "pos": "f.", "zh": "愤慨，义愤", "surface": "indignación", "source": "supplement"},
+     {"h": "difundirse", "pos": "prnl.", "zh": "传播，扩散", "surface": "difundirse", "source": "supplement"},
+     {"h": "matizado", "pos": "adj.", "zh": "细致入微的", "surface": "matizadas", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Ante este panorama, verificar una afirmación exige algo más que buscar una segunda publicación que la repita.",
+    "zh": "面对这种局面，核实一个说法所需要的，不只是再找一篇重复该说法的报道。",
+    "w": [
+     {"h": "ante", "pos": "prep.", "zh": "面对，在……面前", "surface": "Ante", "source": "supplement"},
+     {"h": "panorama", "pos": "m.", "zh": "局面，形势", "surface": "panorama", "source": "supplement"},
+     {"h": "afirmación", "pos": "f.", "zh": "说法，断言", "surface": "afirmación", "source": "supplement"},
+     {"h": "algo más que", "pos": "loc.", "zh": "不仅仅是", "surface": "algo más que", "source": "supplement"},
+     {"h": "repetir", "pos": "tr.", "zh": "重复（虚拟式）", "surface": "repita", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Es necesario identificar la fuente original, comprobar la fecha, distinguir los datos de las interpretaciones y considerar qué pruebas podrían refutar la conclusión.",
+    "zh": "我们必须找出原始出处、核对日期、把数据与解读区分开来，并思考哪些证据可能推翻这一结论。",
+    "w": [
+     {"h": "fuente original", "pos": "f.", "zh": "原始出处", "surface": "fuente original", "source": "supplement"},
+     {"h": "comprobar", "pos": "tr.", "zh": "核对，查证", "surface": "comprobar", "source": "supplement"},
+     {"h": "distinguir A de B", "pos": "loc.", "zh": "把A与B区分开", "surface": "distinguir", "source": "supplement"},
+     {"h": "prueba", "pos": "f.", "zh": "证据", "surface": "pruebas", "source": "supplement"},
+     {"h": "refutar", "pos": "tr.", "zh": "驳倒，推翻", "surface": "refutar", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Esta disciplina no garantiza una certeza absoluta, pero reduce la posibilidad de aceptar una afirmación por familiaridad o afinidad ideológica.",
+    "zh": "这种严谨的求证习惯并不能保证绝对的确定，但能降低因为熟悉或意识形态上的亲近而接受某个说法的可能性。",
+    "w": [
+     {"h": "disciplina", "pos": "f.", "zh": "严格的做法，自律", "surface": "disciplina", "source": "supplement"},
+     {"h": "certeza", "pos": "f.", "zh": "确定（性）", "surface": "certeza", "source": "supplement"},
+     {"h": "familiaridad", "pos": "f.", "zh": "熟悉，熟识", "surface": "familiaridad", "source": "supplement"},
+     {"h": "afinidad ideológica", "pos": "f.", "zh": "意识形态上的亲近", "surface": "afinidad ideológica", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "La alfabetización mediática debería entenderse como una competencia ciudadana fundamental.",
+    "zh": "媒介素养应当被视为一项基本的公民能力。",
+    "w": [
+     {"h": "alfabetización mediática", "pos": "f.", "zh": "媒介素养", "surface": "alfabetización mediática", "source": "supplement"},
+     {"h": "deber + inf.", "pos": "loc.", "zh": "（条件式）应当", "surface": "debería", "source": "supplement"},
+     {"h": "entenderse como", "pos": "loc.", "zh": "被理解为，被视为", "surface": "entenderse como", "source": "supplement"},
+     {"h": "competencia ciudadana", "pos": "f.", "zh": "公民能力", "surface": "competencia ciudadana", "source": "supplement"}
+    ]
+   }
+  ]
+ ]
+}

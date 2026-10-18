@@ -1,0 +1,254 @@
+{
+ "id": "b2_09",
+ "level": "B2",
+ "no": 9,
+ "title_es": "Consumir menos, elegir mejor",
+ "title_zh": "少消费，选得更好",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 9 篇",
+ "header": "分级阅读 B2-09",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B2 第 9 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一词头只在第一次出现的句子里列。no_pause_commas：只登记列举（A, B y C）处不停顿的逗号，从句、句首状语、no…sino、mientras que 前的逗号照常停顿。第 4 句 lo nuevo 是“lo + 形容词”的名词化结构；decisiones más conscientes 译作“更加审慎的决定”；第 6 句 las hagan viables 中 las 指 elecciones；elección 复数也有“选举”义，释义里作了区分；第 3 句是三个不定式短语的列举，列举的逗号不停顿。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 3 句「antes de comprar,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "gastos,",
+    "why": "列举：gastos, desorden y residuos（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "La publicidad suele asociar la compra de nuevos productos con la mejora de nuestra vida.",
+    "zh": "广告往往把购买新产品和改善我们的生活联系在一起。",
+    "w": [
+     {
+      "h": "publicidad",
+      "pos": "f.",
+      "zh": "广告",
+      "surface": "publicidad",
+      "source": "supplement"
+     },
+     {
+      "h": "soler + inf.",
+      "pos": "loc.",
+      "zh": "通常，往往",
+      "surface": "suele",
+      "source": "supplement"
+     },
+     {
+      "h": "asociar",
+      "pos": "tr.",
+      "zh": "把……与……联系起来",
+      "surface": "asociar",
+      "source": "supplement"
+     },
+     {
+      "h": "mejora",
+      "pos": "f.",
+      "zh": "改善，提高",
+      "surface": "mejora",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, acumular objetos no garantiza una mayor satisfacción y puede generar gastos, desorden y residuos.",
+    "zh": "然而，囤积物品并不能保证带来更大的满足感，还可能造成开支、杂乱和垃圾。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "acumular",
+      "pos": "tr.",
+      "zh": "积攒，囤积",
+      "surface": "acumular",
+      "source": "supplement"
+     },
+     {
+      "h": "garantizar",
+      "pos": "tr.",
+      "zh": "保证，确保",
+      "surface": "garantiza",
+      "source": "supplement"
+     },
+     {
+      "h": "gasto",
+      "pos": "m.",
+      "zh": "开支，花费",
+      "surface": "gastos",
+      "source": "supplement"
+     },
+     {
+      "h": "desorden",
+      "pos": "m.",
+      "zh": "杂乱，无序",
+      "surface": "desorden",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Una alternativa consiste en evaluar las necesidades reales antes de comprar, comparar la durabilidad de los productos y reparar lo que todavía funciona.",
+    "zh": "一种替代做法是：购物前先评估自己的真实需求，比较产品的耐用程度，并修理那些还能用的东西。",
+    "w": [
+     {
+      "h": "consistir en",
+      "pos": "loc.",
+      "zh": "在于，就是",
+      "surface": "consiste en",
+      "source": "supplement"
+     },
+     {
+      "h": "evaluar",
+      "pos": "tr.",
+      "zh": "评估",
+      "surface": "evaluar",
+      "source": "supplement"
+     },
+     {
+      "h": "necesidad real",
+      "pos": "f.",
+      "zh": "真实需求",
+      "surface": "necesidades reales",
+      "source": "supplement"
+     },
+     {
+      "h": "durabilidad",
+      "pos": "f.",
+      "zh": "耐用性",
+      "surface": "durabilidad",
+      "source": "supplement"
+     },
+     {
+      "h": "reparar",
+      "pos": "tr.",
+      "zh": "修理",
+      "surface": "reparar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Esta actitud no exige renunciar a todo lo nuevo, sino tomar decisiones más conscientes.",
+    "zh": "这种态度并不要求放弃一切新事物，而是要做出更加审慎的决定。",
+    "w": [
+     {
+      "h": "exigir",
+      "pos": "tr.",
+      "zh": "要求",
+      "surface": "exige",
+      "source": "supplement"
+     },
+     {
+      "h": "renunciar a",
+      "pos": "loc.",
+      "zh": "放弃",
+      "surface": "renunciar a",
+      "source": "supplement"
+     },
+     {
+      "h": "lo + adj.",
+      "pos": "loc.",
+      "zh": "……的东西（名词化）",
+      "surface": "lo nuevo",
+      "source": "supplement"
+     },
+     {
+      "h": "no…, sino…",
+      "pos": "loc.",
+      "zh": "不是……而是……",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "consciente",
+      "pos": "adj.",
+      "zh": "有意识的，审慎的",
+      "surface": "conscientes",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También puede impulsar a las empresas a ofrecer productos reparables y servicios de mantenimiento.",
+    "zh": "这种态度还能推动企业提供可维修的产品和维护保养服务。",
+    "w": [
+     {
+      "h": "impulsar",
+      "pos": "tr.",
+      "zh": "推动，促使",
+      "surface": "impulsar",
+      "source": "supplement"
+     },
+     {
+      "h": "ofrecer",
+      "pos": "tr.",
+      "zh": "提供",
+      "surface": "ofrecer",
+      "source": "supplement"
+     },
+     {
+      "h": "reparable",
+      "pos": "adj.",
+      "zh": "可修理的",
+      "surface": "reparables",
+      "source": "supplement"
+     },
+     {
+      "h": "mantenimiento",
+      "pos": "m.",
+      "zh": "维护，保养",
+      "surface": "mantenimiento",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El consumo responsable depende de las elecciones individuales, pero necesita condiciones que las hagan viables.",
+    "zh": "负责任的消费取决于个人的选择，但也需要有让这些选择切实可行的条件。",
+    "w": [
+     {
+      "h": "consumo responsable",
+      "pos": "m.",
+      "zh": "负责任的消费",
+      "surface": "consumo responsable",
+      "source": "supplement"
+     },
+     {
+      "h": "depender de",
+      "pos": "loc.",
+      "zh": "取决于",
+      "surface": "depende de",
+      "source": "supplement"
+     },
+     {
+      "h": "elección",
+      "pos": "f.",
+      "zh": "选择（复数也指选举）",
+      "surface": "elecciones",
+      "source": "supplement"
+     },
+     {
+      "h": "viable",
+      "pos": "adj.",
+      "zh": "可行的",
+      "surface": "viables",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

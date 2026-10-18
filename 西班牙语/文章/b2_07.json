@@ -1,0 +1,215 @@
+{
+ "id": "b2_07",
+ "level": "B2",
+ "no": 7,
+ "title_es": "La brecha digital",
+ "title_zh": "数字鸿沟",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 7 篇",
+ "header": "分级阅读 B2-07",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B2 第 7 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一词头只在第一次出现的句子里列。no_pause_commas：只登记列举（A, B y C）处不停顿的逗号，从句、句首状语、no…sino、mientras que 前的逗号照常停顿。第 3 句 también lo están 里的 lo 是中性代词，代替前面的表语 afectadas；第 4 句 no consiste en…, sino en… 拆成 consistir en 和 no…, sino… 两条；canales presenciales 译作“线下服务渠道”；formación 在这里是“培训”；为少选同源词，excluir、modernización 没有列入。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 2 句「conexión,」；第 5 句「canales presenciales,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "La expansión de los servicios en línea ha simplificado numerosos trámites, desde solicitar una cita hasta realizar operaciones bancarias.",
+    "zh": "在线服务的普及简化了许多手续，从预约到办理银行业务都是如此。",
+    "w": [
+     {
+      "h": "en línea",
+      "pos": "loc.",
+      "zh": "在线，网上",
+      "surface": "en línea",
+      "source": "supplement"
+     },
+     {
+      "h": "trámite",
+      "pos": "m.",
+      "zh": "手续",
+      "surface": "trámites",
+      "source": "supplement"
+     },
+     {
+      "h": "desde… hasta…",
+      "pos": "loc.",
+      "zh": "从……到……",
+      "surface": "desde",
+      "source": "supplement"
+     },
+     {
+      "h": "solicitar una cita",
+      "pos": "loc.",
+      "zh": "预约，申请预约",
+      "surface": "solicitar una cita",
+      "source": "supplement"
+     },
+     {
+      "h": "realizar operaciones bancarias",
+      "pos": "loc.",
+      "zh": "办理银行业务",
+      "surface": "realizar operaciones bancarias",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, esta digitalización puede excluir a quienes carecen de conexión, dispositivos adecuados o habilidades informáticas.",
+    "zh": "然而，这种数字化可能会把那些缺少网络连接、合适的设备或电脑技能的人排除在外。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "quien",
+      "pos": "pron.",
+      "zh": "……的人（无先行词）",
+      "surface": "quienes",
+      "source": "supplement"
+     },
+     {
+      "h": "carecer de",
+      "pos": "loc.",
+      "zh": "缺乏，缺少",
+      "surface": "carecen de",
+      "source": "supplement"
+     },
+     {
+      "h": "dispositivo",
+      "pos": "m.",
+      "zh": "设备，装置",
+      "surface": "dispositivos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Las personas mayores no son las únicas afectadas: también lo están quienes viven en zonas con mala cobertura o no pueden permitirse equipos actualizados.",
+    "zh": "受影响的不只是老年人：住在信号覆盖差的地区的人，或者买不起新设备的人，同样受到影响。",
+    "w": [
+     {
+      "h": "afectado",
+      "pos": "adj.",
+      "zh": "受影响的",
+      "surface": "afectadas",
+      "source": "supplement"
+     },
+     {
+      "h": "lo",
+      "pos": "pron.",
+      "zh": "代替前面的表语",
+      "surface": "lo",
+      "source": "supplement"
+     },
+     {
+      "h": "cobertura",
+      "pos": "f.",
+      "zh": "（信号）覆盖",
+      "surface": "cobertura",
+      "source": "supplement"
+     },
+     {
+      "h": "permitirse",
+      "pos": "prnl.",
+      "zh": "负担得起",
+      "surface": "permitirse",
+      "source": "supplement"
+     },
+     {
+      "h": "equipo actualizado",
+      "pos": "m.",
+      "zh": "新款设备",
+      "surface": "equipos actualizados",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La solución no consiste en frenar la modernización, sino en diseñarla para todos.",
+    "zh": "解决办法不在于阻止现代化，而在于让现代化的设计面向所有人。",
+    "w": [
+     {
+      "h": "consistir en",
+      "pos": "loc.",
+      "zh": "在于",
+      "surface": "consiste en",
+      "source": "supplement"
+     },
+     {
+      "h": "frenar",
+      "pos": "tr.",
+      "zh": "阻止，遏制",
+      "surface": "frenar",
+      "source": "supplement"
+     },
+     {
+      "h": "no…, sino…",
+      "pos": "loc.",
+      "zh": "不是……而是……",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "diseñar",
+      "pos": "tr.",
+      "zh": "设计（-la 指现代化）",
+      "surface": "diseñarla",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mantener canales presenciales, ofrecer formación accesible y crear páginas sencillas son medidas que permiten aprovechar la tecnología sin convertirla en una barrera.",
+    "zh": "保留线下服务渠道、提供人人可及的培训、设计简单易用的网页，这些措施能让人们利用技术，而不让技术变成障碍。",
+    "w": [
+     {
+      "h": "canal presencial",
+      "pos": "m.",
+      "zh": "线下（面对面）渠道",
+      "surface": "canales presenciales",
+      "source": "supplement"
+     },
+     {
+      "h": "formación",
+      "pos": "f.",
+      "zh": "培训",
+      "surface": "formación",
+      "source": "supplement"
+     },
+     {
+      "h": "aprovechar",
+      "pos": "tr.",
+      "zh": "利用",
+      "surface": "aprovechar",
+      "source": "supplement"
+     },
+     {
+      "h": "convertir algo en",
+      "pos": "loc.",
+      "zh": "把……变成",
+      "surface": "convertirla en",
+      "source": "supplement"
+     },
+     {
+      "h": "barrera",
+      "pos": "f.",
+      "zh": "障碍",
+      "surface": "barrera",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

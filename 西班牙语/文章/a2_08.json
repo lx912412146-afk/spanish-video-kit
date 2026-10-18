@@ -1,0 +1,265 @@
+{
+ "id": "a2_08",
+ "level": "A2",
+ "no": 8,
+ "title_es": "Aprender de los errores",
+ "title_zh": "从错误中学习",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 8 篇",
+ "header": "分级阅读 A2-08",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 8 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：mi profesora 译“我的老师”（女老师，中文不必标性别）；第 2 句 conocía la respuesta 释义取“知道”；第 3 句 eran 是间接引语里的未完成过去时，列在 ser；largo 是假朋友（“长的”，不是英语 large），释义里注明；no… sino… 只能标连续的 sino，释义写出整个结构；seguir practicando 词头写 seguir + gerundio。no_pause_commas：无（句首状语、pero/sino 前的逗号照常停顿）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Cuando empecé a estudiar español, me daba vergüenza hablar porque temía equivocarme.",
+    "zh": "我刚开始学西班牙语的时候，不好意思开口说话，因为怕说错。",
+    "w": [
+     {
+      "h": "empezar a + inf.",
+      "pos": "loc.",
+      "zh": "开始（做某事）",
+      "surface": "empecé a",
+      "source": "supplement"
+     },
+     {
+      "h": "dar vergüenza",
+      "pos": "loc.",
+      "zh": "（某人）感到难为情",
+      "surface": "me daba vergüenza",
+      "source": "supplement"
+     },
+     {
+      "h": "temer",
+      "pos": "tr.",
+      "zh": "害怕，担心",
+      "surface": "temía",
+      "source": "supplement"
+     },
+     {
+      "h": "equivocarse",
+      "pos": "prnl.",
+      "zh": "弄错，犯错",
+      "surface": "equivocarme",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por eso, muchas veces conocía la respuesta, pero no levantaba la mano.",
+    "zh": "所以，很多时候我知道答案，却不举手。",
+    "w": [
+     {
+      "h": "por eso",
+      "pos": "loc.",
+      "zh": "所以，因此",
+      "surface": "Por eso",
+      "source": "supplement"
+     },
+     {
+      "h": "muchas veces",
+      "pos": "loc.",
+      "zh": "很多次，常常",
+      "surface": "muchas veces",
+      "source": "supplement"
+     },
+     {
+      "h": "conocer",
+      "pos": "tr.",
+      "zh": "知道",
+      "surface": "conocía",
+      "source": "supplement"
+     },
+     {
+      "h": "respuesta",
+      "pos": "f.",
+      "zh": "答案，回答",
+      "surface": "respuesta",
+      "source": "supplement"
+     },
+     {
+      "h": "levantar la mano",
+      "pos": "loc.",
+      "zh": "举手",
+      "surface": "levantaba la mano",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Un día, mi profesora me dijo que los errores eran una parte normal del aprendizaje.",
+    "zh": "有一天，我的老师对我说，犯错是学习过程中很正常的一部分。",
+    "w": [
+     {
+      "h": "un día",
+      "pos": "loc.",
+      "zh": "有一天",
+      "surface": "Un día",
+      "source": "supplement"
+     },
+     {
+      "h": "decir",
+      "pos": "tr.",
+      "zh": "说，告诉",
+      "surface": "dijo",
+      "source": "supplement"
+     },
+     {
+      "h": "error",
+      "pos": "m.",
+      "zh": "错误",
+      "surface": "errores",
+      "source": "supplement"
+     },
+     {
+      "h": "ser",
+      "pos": "intr.",
+      "zh": "是",
+      "surface": "eran",
+      "source": "supplement"
+     },
+     {
+      "h": "aprendizaje",
+      "pos": "m.",
+      "zh": "学习（过程）",
+      "surface": "aprendizaje",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Desde entonces intento participar más y anoto las expresiones que no entiendo.",
+    "zh": "从那以后，我尽量多参与，并把不懂的表达记下来。",
+    "w": [
+     {
+      "h": "desde entonces",
+      "pos": "loc.",
+      "zh": "从那时起",
+      "surface": "Desde entonces",
+      "source": "supplement"
+     },
+     {
+      "h": "intentar",
+      "pos": "tr.",
+      "zh": "尽量，试图",
+      "surface": "intento",
+      "source": "supplement"
+     },
+     {
+      "h": "anotar",
+      "pos": "tr.",
+      "zh": "记下",
+      "surface": "anoto",
+      "source": "supplement"
+     },
+     {
+      "h": "expresión",
+      "pos": "f.",
+      "zh": "表达，说法",
+      "surface": "expresiones",
+      "source": "supplement"
+     },
+     {
+      "h": "entender",
+      "pos": "tr.",
+      "zh": "懂，理解",
+      "surface": "entiendo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Todavía confundo algunos tiempos verbales, pero ahora puedo mantener conversaciones más largas.",
+    "zh": "我仍然会弄混一些动词时态，但现在已经能进行更长的对话了。",
+    "w": [
+     {
+      "h": "todavía",
+      "pos": "adv.",
+      "zh": "仍然，还",
+      "surface": "Todavía",
+      "source": "supplement"
+     },
+     {
+      "h": "confundir",
+      "pos": "tr.",
+      "zh": "混淆，弄混",
+      "surface": "confundo",
+      "source": "supplement"
+     },
+     {
+      "h": "tiempo verbal",
+      "pos": "m.",
+      "zh": "动词时态",
+      "surface": "tiempos verbales",
+      "source": "supplement"
+     },
+     {
+      "h": "mantener una conversación",
+      "pos": "loc.",
+      "zh": "进行对话，交谈",
+      "surface": "mantener conversaciones",
+      "source": "supplement"
+     },
+     {
+      "h": "largo",
+      "pos": "adj.",
+      "zh": "长的（≠英语 large）",
+      "surface": "largas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "He comprendido que progresar no significa hacerlo todo perfectamente, sino seguir practicando y aprender de cada dificultad.",
+    "zh": "我已经明白，进步并不意味着把一切都做得完美，而是坚持练习，并从每一次困难中学习。",
+    "w": [
+     {
+      "h": "comprender",
+      "pos": "tr.",
+      "zh": "理解，明白",
+      "surface": "He comprendido",
+      "source": "supplement"
+     },
+     {
+      "h": "progresar",
+      "pos": "intr.",
+      "zh": "进步",
+      "surface": "progresar",
+      "source": "supplement"
+     },
+     {
+      "h": "sino",
+      "pos": "conj.",
+      "zh": "而是（no…sino…）",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "seguir + gerundio",
+      "pos": "loc.",
+      "zh": "继续（做某事）",
+      "surface": "seguir practicando",
+      "source": "supplement"
+     },
+     {
+      "h": "aprender de",
+      "pos": "loc.",
+      "zh": "从……中学习",
+      "surface": "aprender de",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

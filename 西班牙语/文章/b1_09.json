@@ -1,0 +1,228 @@
+{
+ "id": "b1_09",
+ "level": "B1",
+ "no": 9,
+ "title_es": "Aprender durante toda la vida",
+ "title_zh": "终身学习",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 9 篇",
+ "header": "分级阅读 B1-09",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 9 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 1 句 título 指学历证书，译作“学位”；第 3 句 lo hacen 的 lo 指“学习”这件事，词条写成 hacerlo；第 1 句较短，只给 3 个词条（terminar、obtener、título）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "La educación no termina cuando una persona obtiene un título.",
+    "zh": "教育并不会在一个人拿到学位时就结束。",
+    "w": [
+     {
+      "h": "terminar",
+      "pos": "intr.",
+      "zh": "结束",
+      "surface": "termina",
+      "source": "supplement"
+     },
+     {
+      "h": "obtener",
+      "pos": "tr.",
+      "zh": "获得，取得",
+      "surface": "obtiene",
+      "source": "supplement"
+     },
+     {
+      "h": "título",
+      "pos": "m.",
+      "zh": "学位，文凭",
+      "surface": "título",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Los cambios tecnológicos y sociales hacen necesario adquirir nuevas habilidades a lo largo de la vida.",
+    "zh": "科技和社会的变化，使人们有必要在一生中不断掌握新的技能。",
+    "w": [
+     {
+      "h": "hacer necesario + inf.",
+      "pos": "loc.",
+      "zh": "使……成为必要",
+      "surface": "hacen necesario",
+      "source": "supplement"
+     },
+     {
+      "h": "adquirir",
+      "pos": "tr.",
+      "zh": "获得，掌握",
+      "surface": "adquirir",
+      "source": "supplement"
+     },
+     {
+      "h": "habilidad",
+      "pos": "f.",
+      "zh": "技能，能力",
+      "surface": "habilidades",
+      "source": "supplement"
+     },
+     {
+      "h": "a lo largo de",
+      "pos": "loc.",
+      "zh": "在……整个过程中",
+      "surface": "a lo largo de",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Algunas personas estudian para cambiar de profesión, mientras que otras lo hacen por curiosidad o satisfacción personal.",
+    "zh": "有些人学习是为了转行，而另一些人学习则是出于好奇或个人的满足感。",
+    "w": [
+     {
+      "h": "cambiar de profesión",
+      "pos": "loc.",
+      "zh": "转行，换职业",
+      "surface": "cambiar de profesión",
+      "source": "supplement"
+     },
+     {
+      "h": "mientras que",
+      "pos": "loc.",
+      "zh": "而（表对比）",
+      "surface": "mientras que",
+      "source": "supplement"
+     },
+     {
+      "h": "hacerlo",
+      "pos": "loc.",
+      "zh": "这样做（lo 指学习）",
+      "surface": "lo hacen",
+      "source": "supplement"
+     },
+     {
+      "h": "por curiosidad",
+      "pos": "loc.",
+      "zh": "出于好奇",
+      "surface": "por curiosidad",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aprender de adulto puede resultar difícil debido a las responsabilidades familiares y laborales, pero existen cursos flexibles y recursos gratuitos.",
+    "zh": "成年后再学习可能会比较困难，因为要承担家庭和工作上的责任，但也有灵活的课程和免费的资源可供选择。",
+    "w": [
+     {
+      "h": "de adulto",
+      "pos": "loc.",
+      "zh": "成年后",
+      "surface": "de adulto",
+      "source": "supplement"
+     },
+     {
+      "h": "resultar",
+      "pos": "intr.",
+      "zh": "显得，变得",
+      "surface": "resultar",
+      "source": "supplement"
+     },
+     {
+      "h": "debido a",
+      "pos": "loc.",
+      "zh": "由于，因为",
+      "surface": "debido a",
+      "source": "supplement"
+     },
+     {
+      "h": "laboral",
+      "pos": "adj.",
+      "zh": "工作的，劳动的",
+      "surface": "laborales",
+      "source": "supplement"
+     },
+     {
+      "h": "gratuito",
+      "pos": "adj.",
+      "zh": "免费的",
+      "surface": "gratuitos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La clave está en fijar metas realistas y practicar con regularidad.",
+    "zh": "关键在于设定切合实际的目标，并有规律地坚持练习。",
+    "w": [
+     {
+      "h": "la clave está en",
+      "pos": "loc.",
+      "zh": "关键在于",
+      "surface": "La clave está en",
+      "source": "supplement"
+     },
+     {
+      "h": "fijar metas",
+      "pos": "loc.",
+      "zh": "设定目标",
+      "surface": "fijar metas",
+      "source": "supplement"
+     },
+     {
+      "h": "realista",
+      "pos": "adj.",
+      "zh": "切合实际的",
+      "surface": "realistas",
+      "source": "supplement"
+     },
+     {
+      "h": "con regularidad",
+      "pos": "loc.",
+      "zh": "有规律地，经常",
+      "surface": "con regularidad",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mantener la curiosidad ayuda a comprender mejor el mundo y a adaptarse a situaciones nuevas.",
+    "zh": "保持好奇心，有助于更好地理解世界，也有助于适应新的情况。",
+    "w": [
+     {
+      "h": "mantener la curiosidad",
+      "pos": "loc.",
+      "zh": "保持好奇心",
+      "surface": "Mantener la curiosidad",
+      "source": "supplement"
+     },
+     {
+      "h": "ayudar a + inf.",
+      "pos": "loc.",
+      "zh": "有助于",
+      "surface": "ayuda a",
+      "source": "supplement"
+     },
+     {
+      "h": "mejor",
+      "pos": "adv.",
+      "zh": "更好地（bien 的比较级）",
+      "surface": "mejor",
+      "source": "supplement"
+     },
+     {
+      "h": "adaptarse a",
+      "pos": "loc.",
+      "zh": "适应",
+      "surface": "adaptarse a",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

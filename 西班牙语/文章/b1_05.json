@@ -1,0 +1,256 @@
+{
+ "id": "b1_05",
+ "level": "B1",
+ "no": 5,
+ "title_es": "La comida y la memoria",
+ "title_zh": "食物与记忆",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 5 篇",
+ "header": "分级阅读 B1-05",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 5 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 2 句 dulce 是名词“甜点”；transportarnos、recordarnos、ayudarles 都是不定式后接代词，释义里注明代词所指；第 6 句 mesa 借指“一起吃饭”，译文保留“餐桌”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Los sabores y los olores están estrechamente relacionados con nuestros recuerdos.",
+    "zh": "味道和气味与我们的记忆紧密相连。",
+    "w": [
+     {
+      "h": "sabor",
+      "pos": "m.",
+      "zh": "味道",
+      "surface": "sabores",
+      "source": "supplement"
+     },
+     {
+      "h": "olor",
+      "pos": "m.",
+      "zh": "气味",
+      "surface": "olores",
+      "source": "supplement"
+     },
+     {
+      "h": "estrechamente",
+      "pos": "adv.",
+      "zh": "紧密地",
+      "surface": "estrechamente",
+      "source": "supplement"
+     },
+     {
+      "h": "relacionado con",
+      "pos": "loc.",
+      "zh": "与……有关的",
+      "surface": "relacionados con",
+      "source": "supplement"
+     },
+     {
+      "h": "recuerdo",
+      "pos": "m.",
+      "zh": "记忆，回忆",
+      "surface": "recuerdos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Una sopa puede transportarnos a la cocina de nuestros abuelos, mientras que un dulce puede recordarnos una fiesta de la infancia.",
+    "zh": "一碗汤可以把我们带回祖父母的厨房，而一份甜点则能让我们想起童年时的某个节日。",
+    "w": [
+     {
+      "h": "transportar",
+      "pos": "tr.",
+      "zh": "带到（nos 指我们）",
+      "surface": "transportarnos",
+      "source": "supplement"
+     },
+     {
+      "h": "mientras que",
+      "pos": "loc.",
+      "zh": "而（表对比）",
+      "surface": "mientras que",
+      "source": "supplement"
+     },
+     {
+      "h": "dulce",
+      "pos": "m.",
+      "zh": "甜食，甜点",
+      "surface": "dulce",
+      "source": "supplement"
+     },
+     {
+      "h": "recordar",
+      "pos": "tr.",
+      "zh": "使想起（nos 指我们）",
+      "surface": "recordarnos",
+      "source": "supplement"
+     },
+     {
+      "h": "infancia",
+      "pos": "f.",
+      "zh": "童年",
+      "surface": "infancia",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por eso, la comida no cumple solamente una función nutritiva: también transmite historias y costumbres familiares.",
+    "zh": "因此，食物的作用不仅仅是提供营养，它还传递着家庭的故事和习俗。",
+    "w": [
+     {
+      "h": "por eso",
+      "pos": "loc.",
+      "zh": "因此，所以",
+      "surface": "Por eso",
+      "source": "supplement"
+     },
+     {
+      "h": "cumplir una función",
+      "pos": "loc.",
+      "zh": "起……作用",
+      "surface": "cumple",
+      "source": "supplement"
+     },
+     {
+      "h": "nutritivo",
+      "pos": "adj.",
+      "zh": "营养的",
+      "surface": "nutritiva",
+      "source": "supplement"
+     },
+     {
+      "h": "transmitir",
+      "pos": "tr.",
+      "zh": "传递，传承",
+      "surface": "transmite",
+      "source": "supplement"
+     },
+     {
+      "h": "costumbre",
+      "pos": "f.",
+      "zh": "习俗，传统",
+      "surface": "costumbres",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Cuando las personas emigran, preparar recetas de su país puede ayudarles a mantener un vínculo con su lugar de origen.",
+    "zh": "人们移居国外后，做家乡菜能帮助他们与故土保持联系。",
+    "w": [
+     {
+      "h": "emigrar",
+      "pos": "intr.",
+      "zh": "移居国外",
+      "surface": "emigran",
+      "source": "supplement"
+     },
+     {
+      "h": "receta",
+      "pos": "f.",
+      "zh": "食谱，菜谱",
+      "surface": "recetas",
+      "source": "supplement"
+     },
+     {
+      "h": "ayudar a + inf.",
+      "pos": "loc.",
+      "zh": "帮助（les 指他们）做",
+      "surface": "ayudarles a",
+      "source": "supplement"
+     },
+     {
+      "h": "vínculo",
+      "pos": "m.",
+      "zh": "纽带，联系",
+      "surface": "vínculo",
+      "source": "supplement"
+     },
+     {
+      "h": "lugar de origen",
+      "pos": "m.",
+      "zh": "故乡，原籍",
+      "surface": "lugar de origen",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Al mismo tiempo, compartir esos platos con otras personas favorece el intercambio cultural.",
+    "zh": "同时，和别人分享这些菜肴，也能促进文化交流。",
+    "w": [
+     {
+      "h": "al mismo tiempo",
+      "pos": "loc.",
+      "zh": "同时",
+      "surface": "Al mismo tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "compartir",
+      "pos": "tr.",
+      "zh": "分享",
+      "surface": "compartir",
+      "source": "supplement"
+     },
+     {
+      "h": "favorecer",
+      "pos": "tr.",
+      "zh": "促进，有利于",
+      "surface": "favorece",
+      "source": "supplement"
+     },
+     {
+      "h": "intercambio cultural",
+      "pos": "m.",
+      "zh": "文化交流",
+      "surface": "intercambio cultural",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La mesa se convierte así en un espacio donde se construyen relaciones.",
+    "zh": "就这样，餐桌变成了一个建立人际关系的地方。",
+    "w": [
+     {
+      "h": "mesa",
+      "pos": "f.",
+      "zh": "餐桌；借指共餐",
+      "surface": "mesa",
+      "source": "supplement"
+     },
+     {
+      "h": "convertirse en",
+      "pos": "loc.",
+      "zh": "变成，成为",
+      "surface": "se convierte",
+      "source": "supplement"
+     },
+     {
+      "h": "así",
+      "pos": "adv.",
+      "zh": "就这样，因此",
+      "surface": "así",
+      "source": "supplement"
+     },
+     {
+      "h": "construir",
+      "pos": "tr.",
+      "zh": "建立（se 表被动）",
+      "surface": "se construyen",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

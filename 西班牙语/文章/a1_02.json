@@ -1,0 +1,291 @@
+{
+ "id": "a1_02",
+ "level": "A1",
+ "no": 2,
+ "title_es": "Un día normal",
+ "title_zh": "平常的一天",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 2 篇",
+ "header": "分级阅读 A1-02",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 2 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：第 5 句 cafetería 在大学语境里译作“学校餐厅”，comer 在西班牙指吃午饭；第 1 句把“a las + 钟点”作为句型列出，第 5、6 句的 A las dos、a las seis 不再重复列。第 4 句（课程列举）和第 7 句（preparo la cena, escucho música y leo… 一串并列动作）按列举处理，逗号不停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "num.": "数词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "español,",
+    "why": "列举课程（español, historia y arte），不停顿"
+   }
+  ],
+  "7": [
+   {
+    "after": "la cena,",
+    "why": "列举一串并列动作（preparo…, escucho… y leo…），不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Todos los días me levanto a las siete.",
+    "zh": "我每天七点起床。",
+    "w": [
+     {
+      "h": "todos los días",
+      "pos": "loc.",
+      "zh": "每天",
+      "surface": "Todos los días",
+      "source": "supplement"
+     },
+     {
+      "h": "levantarse",
+      "pos": "prnl.",
+      "zh": "起床",
+      "surface": "me levanto",
+      "source": "supplement"
+     },
+     {
+      "h": "a las + 钟点",
+      "pos": "loc.",
+      "zh": "在……点钟",
+      "surface": "a las",
+      "source": "supplement"
+     },
+     {
+      "h": "siete",
+      "pos": "num.",
+      "zh": "七",
+      "surface": "siete",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Primero me ducho y desayuno café con leche y tostadas.",
+    "zh": "我先洗个澡，然后早餐喝牛奶咖啡、吃烤面包片。",
+    "w": [
+     {
+      "h": "primero",
+      "pos": "adv.",
+      "zh": "首先，先",
+      "surface": "Primero",
+      "source": "supplement"
+     },
+     {
+      "h": "ducharse",
+      "pos": "prnl.",
+      "zh": "洗澡，淋浴",
+      "surface": "me ducho",
+      "source": "supplement"
+     },
+     {
+      "h": "desayunar",
+      "pos": "tr.",
+      "zh": "早餐吃（喝）",
+      "surface": "desayuno",
+      "source": "supplement"
+     },
+     {
+      "h": "café con leche",
+      "pos": "m.",
+      "zh": "牛奶咖啡",
+      "surface": "café con leche",
+      "source": "supplement"
+     },
+     {
+      "h": "tostada",
+      "pos": "f.",
+      "zh": "烤面包片",
+      "surface": "tostadas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Después voy a la universidad en autobús.",
+    "zh": "之后我坐公交车去大学。",
+    "w": [
+     {
+      "h": "después",
+      "pos": "adv.",
+      "zh": "然后，之后",
+      "surface": "Después",
+      "source": "supplement"
+     },
+     {
+      "h": "ir",
+      "pos": "intr.",
+      "zh": "去",
+      "surface": "voy",
+      "source": "supplement"
+     },
+     {
+      "h": "universidad",
+      "pos": "f.",
+      "zh": "大学",
+      "surface": "universidad",
+      "source": "supplement"
+     },
+     {
+      "h": "en autobús",
+      "pos": "loc.",
+      "zh": "乘公交车",
+      "surface": "en autobús",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Tengo clases de español, historia y arte.",
+    "zh": "我有西班牙语课、历史课和艺术课。",
+    "w": [
+     {
+      "h": "tener",
+      "pos": "tr.",
+      "zh": "有",
+      "surface": "Tengo",
+      "source": "supplement"
+     },
+     {
+      "h": "clase",
+      "pos": "f.",
+      "zh": "课",
+      "surface": "clases",
+      "source": "supplement"
+     },
+     {
+      "h": "historia",
+      "pos": "f.",
+      "zh": "历史",
+      "surface": "historia",
+      "source": "supplement"
+     },
+     {
+      "h": "arte",
+      "pos": "m.",
+      "zh": "艺术",
+      "surface": "arte",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "A las dos como con mis compañeros en la cafetería.",
+    "zh": "两点钟，我和同学们在学校餐厅吃午饭。",
+    "w": [
+     {
+      "h": "comer",
+      "pos": "intr.",
+      "zh": "吃饭；吃午饭",
+      "surface": "como",
+      "source": "supplement"
+     },
+     {
+      "h": "con",
+      "pos": "prep.",
+      "zh": "和……一起",
+      "surface": "con",
+      "source": "supplement"
+     },
+     {
+      "h": "compañero",
+      "pos": "m.",
+      "zh": "同学，同伴",
+      "surface": "compañeros",
+      "source": "supplement"
+     },
+     {
+      "h": "cafetería",
+      "pos": "f.",
+      "zh": "咖啡馆；（学校）餐厅",
+      "surface": "cafetería",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la tarde estudio en la biblioteca y vuelvo a casa a las seis.",
+    "zh": "下午我在图书馆学习，六点回家。",
+    "w": [
+     {
+      "h": "por la tarde",
+      "pos": "loc.",
+      "zh": "下午",
+      "surface": "Por la tarde",
+      "source": "supplement"
+     },
+     {
+      "h": "estudiar",
+      "pos": "intr.",
+      "zh": "学习",
+      "surface": "estudio",
+      "source": "supplement"
+     },
+     {
+      "h": "biblioteca",
+      "pos": "f.",
+      "zh": "图书馆",
+      "surface": "biblioteca",
+      "source": "supplement"
+     },
+     {
+      "h": "volver a casa",
+      "pos": "loc.",
+      "zh": "回家",
+      "surface": "vuelvo a casa",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la noche preparo la cena, escucho música y leo un poco antes de dormir.",
+    "zh": "晚上我做晚饭、听音乐，睡前再看一会儿书。",
+    "w": [
+     {
+      "h": "por la noche",
+      "pos": "loc.",
+      "zh": "晚上",
+      "surface": "Por la noche",
+      "source": "supplement"
+     },
+     {
+      "h": "preparar la cena",
+      "pos": "loc.",
+      "zh": "做晚饭",
+      "surface": "preparo la cena",
+      "source": "supplement"
+     },
+     {
+      "h": "escuchar",
+      "pos": "tr.",
+      "zh": "听",
+      "surface": "escucho",
+      "source": "supplement"
+     },
+     {
+      "h": "leer",
+      "pos": "intr.",
+      "zh": "阅读，看书",
+      "surface": "leo",
+      "source": "supplement"
+     },
+     {
+      "h": "antes de + inf.",
+      "pos": "loc.",
+      "zh": "在（做某事）之前",
+      "surface": "antes de",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

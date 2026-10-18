@@ -1,0 +1,220 @@
+{
+ "id": "b2_03",
+ "level": "B2",
+ "no": 3,
+ "title_es": "La vivienda en las ciudades",
+ "title_zh": "城市住房",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 3 篇",
+ "header": "分级阅读 B2-03",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B2 第 3 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一词头只在第一次出现的句子里列。no_pause_commas：只登记列举（A, B y C）处不停顿的逗号，从句、句首状语、no…sino、mientras que 前的逗号照常停顿。vivienda asequible 译作“负担得起的住房”；salarios modestos 译作“工资不高”（modesto 在这里是“微薄的”，不是“谦虚的”）；servicios esenciales 译作“基本服务设施”；第 4 句冒号后是三个不定式短语作主语的列举，列举的逗号不停顿。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 4 句「construir más,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "El acceso a una vivienda asequible se ha convertido en una preocupación central para numerosos habitantes de las grandes ciudades.",
+    "zh": "获得一套负担得起的住房，已成为大城市众多居民关注的核心问题。",
+    "w": [
+     {
+      "h": "vivienda",
+      "pos": "f.",
+      "zh": "住房，住宅",
+      "surface": "vivienda",
+      "source": "supplement"
+     },
+     {
+      "h": "asequible",
+      "pos": "adj.",
+      "zh": "（价格）负担得起的",
+      "surface": "asequible",
+      "source": "supplement"
+     },
+     {
+      "h": "convertirse en",
+      "pos": "loc.",
+      "zh": "变成，成为",
+      "surface": "se ha convertido en",
+      "source": "supplement"
+     },
+     {
+      "h": "preocupación",
+      "pos": "f.",
+      "zh": "担忧，关注的问题",
+      "surface": "preocupación",
+      "source": "supplement"
+     },
+     {
+      "h": "numeroso",
+      "pos": "adj.",
+      "zh": "众多的，大量的",
+      "surface": "numerosos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El crecimiento del empleo y la concentración de servicios atraen población, mientras que la oferta de viviendas no siempre aumenta al mismo ritmo.",
+    "zh": "就业增长和服务的集中吸引了人口，而住房供应却并不总是以同样的速度增加。",
+    "w": [
+     {
+      "h": "crecimiento",
+      "pos": "m.",
+      "zh": "增长",
+      "surface": "crecimiento",
+      "source": "supplement"
+     },
+     {
+      "h": "empleo",
+      "pos": "m.",
+      "zh": "就业，工作",
+      "surface": "empleo",
+      "source": "supplement"
+     },
+     {
+      "h": "atraer",
+      "pos": "tr.",
+      "zh": "吸引",
+      "surface": "atraen",
+      "source": "supplement"
+     },
+     {
+      "h": "oferta",
+      "pos": "f.",
+      "zh": "供应，供给",
+      "surface": "oferta",
+      "source": "supplement"
+     },
+     {
+      "h": "al mismo ritmo",
+      "pos": "loc.",
+      "zh": "以同样的速度",
+      "surface": "al mismo ritmo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En consecuencia, los alquileres pueden absorber una parte excesiva de los ingresos, especialmente entre jóvenes y trabajadores con salarios modestos.",
+    "zh": "因此，房租可能会占去收入中过高的比例，在年轻人和工资不高的劳动者中尤其如此。",
+    "w": [
+     {
+      "h": "en consecuencia",
+      "pos": "loc.",
+      "zh": "因此，结果",
+      "surface": "En consecuencia",
+      "source": "supplement"
+     },
+     {
+      "h": "alquiler",
+      "pos": "m.",
+      "zh": "房租，租金",
+      "surface": "alquileres",
+      "source": "supplement"
+     },
+     {
+      "h": "absorber",
+      "pos": "tr.",
+      "zh": "吞掉，占去",
+      "surface": "absorber",
+      "source": "supplement"
+     },
+     {
+      "h": "ingreso",
+      "pos": "m.",
+      "zh": "收入（常用复数）",
+      "surface": "ingresos",
+      "source": "supplement"
+     },
+     {
+      "h": "modesto",
+      "pos": "adj.",
+      "zh": "微薄的，不高的",
+      "surface": "modestos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Las soluciones no son simples: construir más, rehabilitar edificios vacíos y ampliar el transporte hacia zonas periféricas son medidas que requieren planificación.",
+    "zh": "解决办法并不简单：多建住房、修缮空置的建筑、把交通延伸到城市周边地区，这些都是需要规划的措施。",
+    "w": [
+     {
+      "h": "rehabilitar",
+      "pos": "tr.",
+      "zh": "修缮，翻新（建筑）",
+      "surface": "rehabilitar",
+      "source": "supplement"
+     },
+     {
+      "h": "vacío",
+      "pos": "adj.",
+      "zh": "空的，空置的",
+      "surface": "vacíos",
+      "source": "supplement"
+     },
+     {
+      "h": "ampliar",
+      "pos": "tr.",
+      "zh": "扩大，延伸",
+      "surface": "ampliar",
+      "source": "supplement"
+     },
+     {
+      "h": "periférico",
+      "pos": "adj.",
+      "zh": "周边的，城郊的",
+      "surface": "periféricas",
+      "source": "supplement"
+     },
+     {
+      "h": "medida",
+      "pos": "f.",
+      "zh": "措施",
+      "surface": "medidas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El objetivo debería ser evitar que vivir cerca del trabajo o de los servicios esenciales se convierta en un privilegio.",
+    "zh": "目标应当是避免让住在工作地点或基本服务设施附近变成一种特权。",
+    "w": [
+     {
+      "h": "deber + inf.",
+      "pos": "loc.",
+      "zh": "应当（条件式语气委婉）",
+      "surface": "debería",
+      "source": "supplement"
+     },
+     {
+      "h": "evitar que + subj.",
+      "pos": "loc.",
+      "zh": "避免……（后接虚拟式）",
+      "surface": "evitar que",
+      "source": "supplement"
+     },
+     {
+      "h": "servicio esencial",
+      "pos": "m.",
+      "zh": "基本公共服务",
+      "surface": "servicios esenciales",
+      "source": "supplement"
+     },
+     {
+      "h": "privilegio",
+      "pos": "m.",
+      "zh": "特权",
+      "surface": "privilegio",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "id": "a2_02",
+ "level": "A2",
+ "no": 2,
+ "title_es": "Una visita a Salamanca",
+ "title_zh": "萨拉曼卡之行",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 2 篇",
+ "header": "分级阅读 A2-02",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 2 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：Plaza Mayor 译“马约尔广场”（萨拉曼卡主广场的通行译名）；chocolate con churros 译“热巧克力配吉事果”，作名词短语跟中心词 chocolate 标 m.；fachada 译“正立面”；sábado、domingo 只列名词本身（el + 星期 = 在星期几）。no_pause_commas：无。第 7 句 cansados, pero muy contentos 由 pero 引出转折，照常停顿，未按并列形容词登记。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prep.": "介词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "El mes pasado pasé un fin de semana en Salamanca con dos amigos.",
+    "zh": "上个月，我和两个朋友在萨拉曼卡度过了一个周末。",
+    "w": [
+     {
+      "h": "el mes pasado",
+      "pos": "loc.",
+      "zh": "上个月",
+      "surface": "El mes pasado",
+      "source": "supplement"
+     },
+     {
+      "h": "pasar",
+      "pos": "tr.",
+      "zh": "度过（时间）",
+      "surface": "pasé",
+      "source": "supplement"
+     },
+     {
+      "h": "fin de semana",
+      "pos": "m.",
+      "zh": "周末",
+      "surface": "fin de semana",
+      "source": "supplement"
+     },
+     {
+      "h": "amigo",
+      "pos": "m.",
+      "zh": "朋友",
+      "surface": "amigos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Llegamos el sábado por la mañana y dejamos las maletas en el hotel.",
+    "zh": "我们星期六上午到达，把行李箱放在了酒店。",
+    "w": [
+     {
+      "h": "llegar",
+      "pos": "intr.",
+      "zh": "到达",
+      "surface": "Llegamos",
+      "source": "supplement"
+     },
+     {
+      "h": "sábado",
+      "pos": "m.",
+      "zh": "星期六",
+      "surface": "sábado",
+      "source": "supplement"
+     },
+     {
+      "h": "por la mañana",
+      "pos": "loc.",
+      "zh": "上午，早上",
+      "surface": "por la mañana",
+      "source": "supplement"
+     },
+     {
+      "h": "dejar",
+      "pos": "tr.",
+      "zh": "放下，存放",
+      "surface": "dejamos",
+      "source": "supplement"
+     },
+     {
+      "h": "maleta",
+      "pos": "f.",
+      "zh": "行李箱",
+      "surface": "maletas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Después caminamos hasta la Plaza Mayor, donde desayunamos chocolate con churros.",
+    "zh": "然后我们步行到马约尔广场，在那里吃了热巧克力配吉事果当早餐。",
+    "w": [
+     {
+      "h": "caminar",
+      "pos": "intr.",
+      "zh": "步行，走路",
+      "surface": "caminamos",
+      "source": "supplement"
+     },
+     {
+      "h": "hasta",
+      "pos": "prep.",
+      "zh": "直到，到（某处）",
+      "surface": "hasta",
+      "source": "supplement"
+     },
+     {
+      "h": "donde",
+      "pos": "adv.",
+      "zh": "在那里（关系副词）",
+      "surface": "donde",
+      "source": "supplement"
+     },
+     {
+      "h": "desayunar",
+      "pos": "tr.",
+      "zh": "早餐吃",
+      "surface": "desayunamos",
+      "source": "supplement"
+     },
+     {
+      "h": "chocolate con churros",
+      "pos": "m.",
+      "zh": "热巧克力配吉事果",
+      "surface": "chocolate con churros",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Visitamos la universidad y vimos la fachada histórica, llena de detalles.",
+    "zh": "我们参观了大学，看到了那历史悠久、细节繁复的正立面。",
+    "w": [
+     {
+      "h": "visitar",
+      "pos": "tr.",
+      "zh": "参观",
+      "surface": "Visitamos",
+      "source": "supplement"
+     },
+     {
+      "h": "ver",
+      "pos": "tr.",
+      "zh": "看到，看见",
+      "surface": "vimos",
+      "source": "supplement"
+     },
+     {
+      "h": "fachada",
+      "pos": "f.",
+      "zh": "（建筑物的）正面",
+      "surface": "fachada",
+      "source": "supplement"
+     },
+     {
+      "h": "lleno de",
+      "pos": "loc.",
+      "zh": "充满……的，满是",
+      "surface": "llena de",
+      "source": "supplement"
+     },
+     {
+      "h": "detalle",
+      "pos": "m.",
+      "zh": "细节",
+      "surface": "detalles",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la tarde entramos en una catedral y subimos a una torre para contemplar la ciudad.",
+    "zh": "下午，我们走进一座大教堂，还登上一座塔楼眺望全城。",
+    "w": [
+     {
+      "h": "entrar en",
+      "pos": "loc.",
+      "zh": "进入，走进",
+      "surface": "entramos en",
+      "source": "supplement"
+     },
+     {
+      "h": "catedral",
+      "pos": "f.",
+      "zh": "大教堂",
+      "surface": "catedral",
+      "source": "supplement"
+     },
+     {
+      "h": "subir a",
+      "pos": "loc.",
+      "zh": "登上，爬上",
+      "surface": "subimos a",
+      "source": "supplement"
+     },
+     {
+      "h": "torre",
+      "pos": "f.",
+      "zh": "塔，塔楼",
+      "surface": "torre",
+      "source": "supplement"
+     },
+     {
+      "h": "contemplar",
+      "pos": "tr.",
+      "zh": "凝望，眺望",
+      "surface": "contemplar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El domingo compramos recuerdos y comimos en un restaurante tradicional.",
+    "zh": "星期天，我们买了些纪念品，在一家传统餐馆吃了饭。",
+    "w": [
+     {
+      "h": "domingo",
+      "pos": "m.",
+      "zh": "星期天",
+      "surface": "domingo",
+      "source": "supplement"
+     },
+     {
+      "h": "comprar",
+      "pos": "tr.",
+      "zh": "买",
+      "surface": "compramos",
+      "source": "supplement"
+     },
+     {
+      "h": "recuerdo",
+      "pos": "m.",
+      "zh": "纪念品",
+      "surface": "recuerdos",
+      "source": "supplement"
+     },
+     {
+      "h": "comer",
+      "pos": "intr.",
+      "zh": "吃饭",
+      "surface": "comimos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Volvimos a casa cansados, pero muy contentos.",
+    "zh": "我们回到家时很累，但非常开心。",
+    "w": [
+     {
+      "h": "volver a casa",
+      "pos": "loc.",
+      "zh": "回家",
+      "surface": "Volvimos a casa",
+      "source": "supplement"
+     },
+     {
+      "h": "cansado",
+      "pos": "adj.",
+      "zh": "疲倦的，累的",
+      "surface": "cansados",
+      "source": "supplement"
+     },
+     {
+      "h": "contento",
+      "pos": "adj.",
+      "zh": "高兴的，满意的",
+      "surface": "contentos",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

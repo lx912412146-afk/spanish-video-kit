@@ -1,0 +1,215 @@
+{
+ "id": "b1_04",
+ "level": "B1",
+ "no": 4,
+ "title_es": "Turismo responsable",
+ "title_zh": "负责任的旅游",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 4 篇",
+ "header": "分级阅读 B1-04",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 4 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 3 句 comercios 指“商店”而不是“商业”，故意列出；第 4 句 dañen 是关系从句里的虚拟式（先行词不确指）；第 3 句三个谓语并列（utilizan…, respetan… y compran…）按列举处理，逗号不停顿。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 3 句「transporte público,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "El turismo genera empleo y permite conocer otras culturas, pero también puede causar problemas cuando se desarrolla sin planificación.",
+    "zh": "旅游业能创造就业，让人了解其他文化，但如果在缺乏规划的情况下发展，也可能带来问题。",
+    "w": [
+     {
+      "h": "generar empleo",
+      "pos": "loc.",
+      "zh": "创造就业",
+      "surface": "genera empleo",
+      "source": "supplement"
+     },
+     {
+      "h": "permitir + inf.",
+      "pos": "loc.",
+      "zh": "使能够，让",
+      "surface": "permite",
+      "source": "supplement"
+     },
+     {
+      "h": "desarrollarse",
+      "pos": "prnl.",
+      "zh": "发展",
+      "surface": "se desarrolla",
+      "source": "supplement"
+     },
+     {
+      "h": "planificación",
+      "pos": "f.",
+      "zh": "规划",
+      "surface": "planificación",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En algunos destinos, el aumento de visitantes encarece la vivienda y produce ruido o acumulación de residuos.",
+    "zh": "在一些旅游目的地，游客增多推高了房价，还带来噪音或垃圾堆积的问题。",
+    "w": [
+     {
+      "h": "destino",
+      "pos": "m.",
+      "zh": "（旅游）目的地",
+      "surface": "destinos",
+      "source": "supplement"
+     },
+     {
+      "h": "encarecer",
+      "pos": "tr.",
+      "zh": "使涨价",
+      "surface": "encarece",
+      "source": "supplement"
+     },
+     {
+      "h": "vivienda",
+      "pos": "f.",
+      "zh": "住房",
+      "surface": "vivienda",
+      "source": "supplement"
+     },
+     {
+      "h": "ruido",
+      "pos": "m.",
+      "zh": "噪音",
+      "surface": "ruido",
+      "source": "supplement"
+     },
+     {
+      "h": "residuo",
+      "pos": "m.",
+      "zh": "垃圾，废弃物",
+      "surface": "residuos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Los viajeros pueden contribuir a reducir estos efectos si utilizan el transporte público, respetan las normas locales y compran en pequeños comercios.",
+    "zh": "游客如果乘坐公共交通、遵守当地规定、在小商店购物，就能为减少这些影响出一份力。",
+    "w": [
+     {
+      "h": "contribuir a",
+      "pos": "loc.",
+      "zh": "有助于，为……出力",
+      "surface": "contribuir a",
+      "source": "supplement"
+     },
+     {
+      "h": "reducir",
+      "pos": "tr.",
+      "zh": "减少",
+      "surface": "reducir",
+      "source": "supplement"
+     },
+     {
+      "h": "respetar",
+      "pos": "tr.",
+      "zh": "遵守，尊重",
+      "surface": "respetan",
+      "source": "supplement"
+     },
+     {
+      "h": "norma",
+      "pos": "f.",
+      "zh": "规定，规范",
+      "surface": "normas",
+      "source": "supplement"
+     },
+     {
+      "h": "comercio",
+      "pos": "m.",
+      "zh": "商店，店铺",
+      "surface": "comercios",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También es importante evitar comportamientos que dañen los espacios naturales.",
+    "zh": "避免破坏自然区域的行为也很重要。",
+    "w": [
+     {
+      "h": "evitar",
+      "pos": "tr.",
+      "zh": "避免",
+      "surface": "evitar",
+      "source": "supplement"
+     },
+     {
+      "h": "comportamiento",
+      "pos": "m.",
+      "zh": "行为，举止",
+      "surface": "comportamientos",
+      "source": "supplement"
+     },
+     {
+      "h": "dañar",
+      "pos": "tr.",
+      "zh": "损害（此为虚拟式）",
+      "surface": "dañen",
+      "source": "supplement"
+     },
+     {
+      "h": "espacio natural",
+      "pos": "m.",
+      "zh": "自然区域",
+      "surface": "espacios naturales",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Viajar de forma responsable no significa renunciar a disfrutar, sino comprender que los lugares visitados son hogares para quienes viven allí durante todo el año.",
+    "zh": "负责任地旅行并不意味着放弃享受，而是要明白：我们到访的地方，是那些常年生活在那里的人的家园。",
+    "w": [
+     {
+      "h": "de forma responsable",
+      "pos": "loc.",
+      "zh": "负责任地",
+      "surface": "de forma responsable",
+      "source": "supplement"
+     },
+     {
+      "h": "renunciar a",
+      "pos": "loc.",
+      "zh": "放弃",
+      "surface": "renunciar a",
+      "source": "supplement"
+     },
+     {
+      "h": "sino",
+      "pos": "conj.",
+      "zh": "而是（no…sino…）",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "hogar",
+      "pos": "m.",
+      "zh": "家，家园",
+      "surface": "hogares",
+      "source": "supplement"
+     },
+     {
+      "h": "quienes",
+      "pos": "pron.",
+      "zh": "……的人（们）",
+      "surface": "quienes",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "id": "a1_08",
+ "level": "A1",
+ "no": 8,
+ "title_es": "En el restaurante",
+ "title_zh": "在餐厅",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 8 篇",
+ "header": "分级阅读 A1-08",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 8 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：第 1、4 句 compañero(s) 原文没说是同学还是同事，暂译“同学”；第 1 句 voy a cenar 按“ir a + 不定式”（将要）列出；第 3 句的 pedir 只在这里列，第 5 句 pedimos 不再重复列，所以第 3、5 句各 3 个生词。第 8 句 “sencilla, pero muy agradable” 带 pero 转折，逗号照常停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "El viernes voy a cenar con mis compañeros a un restaurante italiano.",
+    "zh": "星期五我要和同学们去一家意大利餐厅吃晚饭。",
+    "w": [
+     {
+      "h": "viernes",
+      "pos": "m.",
+      "zh": "星期五",
+      "surface": "viernes",
+      "source": "supplement"
+     },
+     {
+      "h": "ir a + inf.",
+      "pos": "loc.",
+      "zh": "将要，打算（做某事）",
+      "surface": "voy a",
+      "source": "supplement"
+     },
+     {
+      "h": "cenar",
+      "pos": "intr.",
+      "zh": "吃晚饭",
+      "surface": "cenar",
+      "source": "supplement"
+     },
+     {
+      "h": "compañero",
+      "pos": "m.",
+      "zh": "同学，同伴",
+      "surface": "compañeros",
+      "source": "supplement"
+     },
+     {
+      "h": "restaurante italiano",
+      "pos": "m.",
+      "zh": "意大利餐厅",
+      "surface": "restaurante italiano",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El camarero nos da una mesa cerca de la ventana.",
+    "zh": "服务员给我们安排了一张靠窗的桌子。",
+    "w": [
+     {
+      "h": "camarero",
+      "pos": "m.",
+      "zh": "服务员",
+      "surface": "camarero",
+      "source": "supplement"
+     },
+     {
+      "h": "dar",
+      "pos": "tr.",
+      "zh": "给",
+      "surface": "da",
+      "source": "supplement"
+     },
+     {
+      "h": "mesa",
+      "pos": "f.",
+      "zh": "桌子",
+      "surface": "mesa",
+      "source": "supplement"
+     },
+     {
+      "h": "cerca de",
+      "pos": "loc.",
+      "zh": "在……附近，靠近",
+      "surface": "cerca de",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Yo pido una pizza de verduras y agua.",
+    "zh": "我点了一份蔬菜披萨和水。",
+    "w": [
+     {
+      "h": "pedir",
+      "pos": "tr.",
+      "zh": "点（菜），要",
+      "surface": "pido",
+      "source": "supplement"
+     },
+     {
+      "h": "verdura",
+      "pos": "f.",
+      "zh": "蔬菜",
+      "surface": "verduras",
+      "source": "supplement"
+     },
+     {
+      "h": "agua",
+      "pos": "f.",
+      "zh": "水（单数用 el agua）",
+      "surface": "agua",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mi amiga pide pasta con tomate y mi compañero elige una ensalada.",
+    "zh": "我的朋友点了番茄意面，我的同学选了一份沙拉。",
+    "w": [
+     {
+      "h": "amiga",
+      "pos": "f.",
+      "zh": "（女性）朋友",
+      "surface": "amiga",
+      "source": "supplement"
+     },
+     {
+      "h": "pasta con tomate",
+      "pos": "f.",
+      "zh": "番茄意面",
+      "surface": "pasta con tomate",
+      "source": "supplement"
+     },
+     {
+      "h": "elegir",
+      "pos": "tr.",
+      "zh": "选择，挑选",
+      "surface": "elige",
+      "source": "supplement"
+     },
+     {
+      "h": "ensalada",
+      "pos": "f.",
+      "zh": "沙拉",
+      "surface": "ensalada",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Para compartir, pedimos pan de ajo.",
+    "zh": "我们点了蒜香面包，大家一起分着吃。",
+    "w": [
+     {
+      "h": "para + inf.",
+      "pos": "loc.",
+      "zh": "为了（做某事）",
+      "surface": "Para",
+      "source": "supplement"
+     },
+     {
+      "h": "compartir",
+      "pos": "tr.",
+      "zh": "分享，一起分",
+      "surface": "compartir",
+      "source": "supplement"
+     },
+     {
+      "h": "pan de ajo",
+      "pos": "m.",
+      "zh": "蒜香面包",
+      "surface": "pan de ajo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La comida está muy rica y el servicio es rápido.",
+    "zh": "饭菜非常好吃，服务也很快。",
+    "w": [
+     {
+      "h": "comida",
+      "pos": "f.",
+      "zh": "饭菜，食物",
+      "surface": "comida",
+      "source": "supplement"
+     },
+     {
+      "h": "estar",
+      "pos": "intr.",
+      "zh": "（表示状态）是",
+      "surface": "está",
+      "source": "supplement"
+     },
+     {
+      "h": "rico",
+      "pos": "adj.",
+      "zh": "（食物）好吃的",
+      "surface": "rica",
+      "source": "supplement"
+     },
+     {
+      "h": "rápido",
+      "pos": "adj.",
+      "zh": "快的，迅速的",
+      "surface": "rápido",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Después pagamos la cuenta entre todos y caminamos hasta la plaza.",
+    "zh": "之后我们大家一起分摊了账单，然后走到广场。",
+    "w": [
+     {
+      "h": "pagar la cuenta",
+      "pos": "loc.",
+      "zh": "结账，买单",
+      "surface": "pagamos la cuenta",
+      "source": "supplement"
+     },
+     {
+      "h": "entre todos",
+      "pos": "loc.",
+      "zh": "大家一起（分摊）",
+      "surface": "entre todos",
+      "source": "supplement"
+     },
+     {
+      "h": "caminar",
+      "pos": "intr.",
+      "zh": "走路，步行",
+      "surface": "caminamos",
+      "source": "supplement"
+     },
+     {
+      "h": "hasta",
+      "pos": "prep.",
+      "zh": "到，直到",
+      "surface": "hasta",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Es una noche sencilla, pero muy agradable.",
+    "zh": "这是一个简单却非常愉快的夜晚。",
+    "w": [
+     {
+      "h": "noche",
+      "pos": "f.",
+      "zh": "夜晚，晚上",
+      "surface": "noche",
+      "source": "supplement"
+     },
+     {
+      "h": "sencillo",
+      "pos": "adj.",
+      "zh": "简单的，朴素的",
+      "surface": "sencilla",
+      "source": "supplement"
+     },
+     {
+      "h": "pero",
+      "pos": "conj.",
+      "zh": "但是",
+      "surface": "pero",
+      "source": "supplement"
+     },
+     {
+      "h": "agradable",
+      "pos": "adj.",
+      "zh": "令人愉快的",
+      "surface": "agradable",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

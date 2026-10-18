@@ -1,0 +1,234 @@
+{
+ "id": "b1_08",
+ "level": "B1",
+ "no": 8,
+ "title_es": "La influencia de las redes sociales",
+ "title_zh": "社交网络的影响",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 8 篇",
+ "header": "分级阅读 B1-08",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 8 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 2 句 comparación 译作“攀比心理”；第 5 句 seguir 指在社交网络上“关注”账号；第 3 句 “…seleccionados, no la vida completa…” 的逗号是对比附加语，按说明照常停顿，不登记。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 1 句「noticias,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Las redes sociales permiten mantener el contacto con personas que viven lejos y descubrir noticias, ideas o proyectos interesantes.",
+    "zh": "社交网络让我们能与远方的人保持联系，还能发现有趣的新闻、想法或项目。",
+    "w": [
+     {
+      "h": "redes sociales",
+      "pos": "f.",
+      "zh": "社交网络",
+      "surface": "redes sociales",
+      "source": "supplement"
+     },
+     {
+      "h": "permitir + inf.",
+      "pos": "loc.",
+      "zh": "使能够，让",
+      "surface": "permiten",
+      "source": "supplement"
+     },
+     {
+      "h": "mantener el contacto con",
+      "pos": "loc.",
+      "zh": "与……保持联系",
+      "surface": "mantener el contacto con",
+      "source": "supplement"
+     },
+     {
+      "h": "descubrir",
+      "pos": "tr.",
+      "zh": "发现",
+      "surface": "descubrir",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No obstante, su uso constante también puede generar comparación y ansiedad.",
+    "zh": "然而，频繁使用社交网络也可能引发攀比心理和焦虑。",
+    "w": [
+     {
+      "h": "no obstante",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "No obstante",
+      "source": "supplement"
+     },
+     {
+      "h": "constante",
+      "pos": "adj.",
+      "zh": "持续的，频繁的",
+      "surface": "constante",
+      "source": "supplement"
+     },
+     {
+      "h": "generar",
+      "pos": "tr.",
+      "zh": "引起，产生",
+      "surface": "generar",
+      "source": "supplement"
+     },
+     {
+      "h": "ansiedad",
+      "pos": "f.",
+      "zh": "焦虑",
+      "surface": "ansiedad",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Las imágenes que aparecen en una pantalla suelen mostrar momentos seleccionados, no la vida completa de una persona.",
+    "zh": "屏幕上出现的图像，展示的往往是精挑细选的瞬间，而不是一个人生活的全貌。",
+    "w": [
+     {
+      "h": "aparecer",
+      "pos": "intr.",
+      "zh": "出现",
+      "surface": "aparecen",
+      "source": "supplement"
+     },
+     {
+      "h": "pantalla",
+      "pos": "f.",
+      "zh": "屏幕",
+      "surface": "pantalla",
+      "source": "supplement"
+     },
+     {
+      "h": "soler + inf.",
+      "pos": "loc.",
+      "zh": "通常，往往",
+      "surface": "suelen",
+      "source": "supplement"
+     },
+     {
+      "h": "mostrar",
+      "pos": "tr.",
+      "zh": "展示，显示",
+      "surface": "mostrar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por eso, comparar nuestra rutina con esas imágenes puede producir una sensación injusta de fracaso.",
+    "zh": "因此，拿自己的日常生活和这些图像比较，可能会产生一种并不公正的失败感。",
+    "w": [
+     {
+      "h": "comparar A con B",
+      "pos": "loc.",
+      "zh": "把A和B比较",
+      "surface": "comparar",
+      "source": "supplement"
+     },
+     {
+      "h": "rutina",
+      "pos": "f.",
+      "zh": "日常生活",
+      "surface": "rutina",
+      "source": "supplement"
+     },
+     {
+      "h": "injusto",
+      "pos": "adj.",
+      "zh": "不公正的",
+      "surface": "injusta",
+      "source": "supplement"
+     },
+     {
+      "h": "fracaso",
+      "pos": "m.",
+      "zh": "失败",
+      "surface": "fracaso",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Una solución es revisar cuánto tiempo dedicamos a las aplicaciones y elegir con cuidado las cuentas que seguimos.",
+    "zh": "一个解决办法是，检查我们在各种应用上花了多少时间，并谨慎选择要关注的账号。",
+    "w": [
+     {
+      "h": "revisar",
+      "pos": "tr.",
+      "zh": "检查，审视",
+      "surface": "revisar",
+      "source": "supplement"
+     },
+     {
+      "h": "dedicar tiempo a",
+      "pos": "loc.",
+      "zh": "把时间花在……上",
+      "surface": "dedicamos a",
+      "source": "supplement"
+     },
+     {
+      "h": "con cuidado",
+      "pos": "loc.",
+      "zh": "谨慎地，仔细地",
+      "surface": "con cuidado",
+      "source": "supplement"
+     },
+     {
+      "h": "cuenta",
+      "pos": "f.",
+      "zh": "账号",
+      "surface": "cuentas",
+      "source": "supplement"
+     },
+     {
+      "h": "seguir",
+      "pos": "tr.",
+      "zh": "关注（账号）",
+      "surface": "seguimos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La tecnología puede ser útil si la utilizamos con intención y límites claros.",
+    "zh": "如果我们有目的地使用科技，并给自己设定明确的界限，科技就会很有用。",
+    "w": [
+     {
+      "h": "útil",
+      "pos": "adj.",
+      "zh": "有用的",
+      "surface": "útil",
+      "source": "supplement"
+     },
+     {
+      "h": "utilizar",
+      "pos": "tr.",
+      "zh": "使用（la 指科技）",
+      "surface": "la utilizamos",
+      "source": "supplement"
+     },
+     {
+      "h": "con intención",
+      "pos": "loc.",
+      "zh": "有目的地",
+      "surface": "con intención",
+      "source": "supplement"
+     },
+     {
+      "h": "límite",
+      "pos": "m.",
+      "zh": "界限，限度",
+      "surface": "límites",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

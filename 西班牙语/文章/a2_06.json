@@ -1,0 +1,256 @@
+{
+ "id": "a2_06",
+ "level": "A2",
+ "no": 6,
+ "title_es": "El transporte público",
+ "title_zh": "公共交通",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 6 篇",
+ "header": "分级阅读 A2-06",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 6 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：cita 译“约会”（泛指约好的事，释义写“约会，预约”）；tráfico 译“交通拥堵”；ayudaría 是条件式，释义写“（会）有助于”；soler + inf. 按“动词 + 不定式”迂说结构标 loc.；Los fines de semana 作时间状语整体标 loc.。no_pause_commas：无（Sin embargo、Por eso 后和 cuando 从句两边的逗号照常停顿）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "En mi ciudad mucha gente utiliza el autobús para ir al trabajo o a la universidad.",
+    "zh": "在我的城市，很多人坐公交车去上班或上大学。",
+    "w": [
+     {
+      "h": "mucha gente",
+      "pos": "f.",
+      "zh": "很多人",
+      "surface": "mucha gente",
+      "source": "supplement"
+     },
+     {
+      "h": "utilizar",
+      "pos": "tr.",
+      "zh": "使用，利用",
+      "surface": "utiliza",
+      "source": "supplement"
+     },
+     {
+      "h": "autobús",
+      "pos": "m.",
+      "zh": "公交车",
+      "surface": "autobús",
+      "source": "supplement"
+     },
+     {
+      "h": "ir al trabajo",
+      "pos": "loc.",
+      "zh": "去上班",
+      "surface": "ir al trabajo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Es más barato que conducir y no hay que buscar aparcamiento.",
+    "zh": "这比开车便宜，而且不用找停车位。",
+    "w": [
+     {
+      "h": "más + adj. + que",
+      "pos": "loc.",
+      "zh": "比……更……",
+      "surface": "más barato que",
+      "source": "supplement"
+     },
+     {
+      "h": "conducir",
+      "pos": "intr.",
+      "zh": "开车",
+      "surface": "conducir",
+      "source": "supplement"
+     },
+     {
+      "h": "no hay que + inf.",
+      "pos": "loc.",
+      "zh": "不必，不用",
+      "surface": "no hay que",
+      "source": "supplement"
+     },
+     {
+      "h": "aparcamiento",
+      "pos": "m.",
+      "zh": "停车位，停车场",
+      "surface": "aparcamiento",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, durante las horas punta los vehículos suelen ir llenos y a veces llegan tarde.",
+    "zh": "不过，在高峰时段，车上往往挤得满满的，有时还会晚点。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "hora punta",
+      "pos": "f.",
+      "zh": "高峰时段",
+      "surface": "horas punta",
+      "source": "supplement"
+     },
+     {
+      "h": "soler + inf.",
+      "pos": "loc.",
+      "zh": "通常，往往",
+      "surface": "suelen",
+      "source": "supplement"
+     },
+     {
+      "h": "lleno",
+      "pos": "adj.",
+      "zh": "满的，挤满的",
+      "surface": "llenos",
+      "source": "supplement"
+     },
+     {
+      "h": "llegar tarde",
+      "pos": "loc.",
+      "zh": "迟到，晚点",
+      "surface": "llegan tarde",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por eso, cuando tengo una cita importante, salgo de casa con tiempo suficiente.",
+    "zh": "所以，有重要约会的时候，我会留足时间出门。",
+    "w": [
+     {
+      "h": "por eso",
+      "pos": "loc.",
+      "zh": "所以，因此",
+      "surface": "Por eso",
+      "source": "supplement"
+     },
+     {
+      "h": "cita",
+      "pos": "f.",
+      "zh": "约会，预约",
+      "surface": "cita",
+      "source": "supplement"
+     },
+     {
+      "h": "salir de casa",
+      "pos": "loc.",
+      "zh": "出门",
+      "surface": "salgo de casa",
+      "source": "supplement"
+     },
+     {
+      "h": "con tiempo",
+      "pos": "loc.",
+      "zh": "提前，留有余地",
+      "surface": "con tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "suficiente",
+      "pos": "adj.",
+      "zh": "足够的",
+      "surface": "suficiente",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Los fines de semana prefiero moverme en bicicleta si hace buen tiempo.",
+    "zh": "周末如果天气好，我更喜欢骑自行车出行。",
+    "w": [
+     {
+      "h": "los fines de semana",
+      "pos": "loc.",
+      "zh": "每逢周末",
+      "surface": "Los fines de semana",
+      "source": "supplement"
+     },
+     {
+      "h": "preferir",
+      "pos": "tr.",
+      "zh": "更喜欢，宁愿",
+      "surface": "prefiero",
+      "source": "supplement"
+     },
+     {
+      "h": "moverse",
+      "pos": "prnl.",
+      "zh": "出行，走动",
+      "surface": "moverme",
+      "source": "supplement"
+     },
+     {
+      "h": "en bicicleta",
+      "pos": "loc.",
+      "zh": "骑自行车",
+      "surface": "en bicicleta",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer buen tiempo",
+      "pos": "loc.",
+      "zh": "天气好",
+      "surface": "hace buen tiempo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Creo que mejorar el transporte público ayudaría a reducir el tráfico y la contaminación.",
+    "zh": "我觉得，改善公共交通会有助于减少交通拥堵和污染。",
+    "w": [
+     {
+      "h": "creer que",
+      "pos": "loc.",
+      "zh": "认为，觉得",
+      "surface": "Creo que",
+      "source": "supplement"
+     },
+     {
+      "h": "mejorar",
+      "pos": "tr.",
+      "zh": "改善",
+      "surface": "mejorar",
+      "source": "supplement"
+     },
+     {
+      "h": "ayudar a + inf.",
+      "pos": "loc.",
+      "zh": "（会）有助于",
+      "surface": "ayudaría a",
+      "source": "supplement"
+     },
+     {
+      "h": "reducir",
+      "pos": "tr.",
+      "zh": "减少",
+      "surface": "reducir",
+      "source": "supplement"
+     },
+     {
+      "h": "contaminación",
+      "pos": "f.",
+      "zh": "污染",
+      "surface": "contaminación",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

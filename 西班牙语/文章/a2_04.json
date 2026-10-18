@@ -1,0 +1,285 @@
+{
+ "id": "a2_04",
+ "level": "A2",
+ "no": 4,
+ "title_es": "La compra por internet",
+ "title_zh": "网上购物",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 4 篇",
+ "header": "分级阅读 A2-04",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 4 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：第 1 句 Cada vez compro más 整体标为 cada vez más（越来越……，中间插入动词）；第 4 句 dos días después 词头写“时间 + después”；第 3 句把 política de devolución 作为名词短语列出，第 5 句的 devolución 不再重复列；compra/comprar 太基础未列。no_pause_commas：无（第 3、4、6、7 句的逗号分别在句首状语、pero 分句、aunque 从句处，照常停顿）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Cada vez compro más cosas por internet porque es cómodo comparar precios desde casa.",
+    "zh": "我在网上买的东西越来越多，因为在家就能比较价格，很方便。",
+    "w": [
+     {
+      "h": "cada vez más",
+      "pos": "loc.",
+      "zh": "越来越（多）",
+      "surface": "Cada vez compro más",
+      "source": "supplement"
+     },
+     {
+      "h": "por internet",
+      "pos": "loc.",
+      "zh": "通过网络，在网上",
+      "surface": "por internet",
+      "source": "supplement"
+     },
+     {
+      "h": "cómodo",
+      "pos": "adj.",
+      "zh": "方便的，舒适的",
+      "surface": "cómodo",
+      "source": "supplement"
+     },
+     {
+      "h": "precio",
+      "pos": "m.",
+      "zh": "价格",
+      "surface": "precios",
+      "source": "supplement"
+     },
+     {
+      "h": "desde casa",
+      "pos": "loc.",
+      "zh": "在家，足不出户",
+      "surface": "desde casa",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La semana pasada pedí unos zapatos y una mochila.",
+    "zh": "上周我订购了一双鞋和一个双肩包。",
+    "w": [
+     {
+      "h": "la semana pasada",
+      "pos": "loc.",
+      "zh": "上周",
+      "surface": "La semana pasada",
+      "source": "supplement"
+     },
+     {
+      "h": "pedir",
+      "pos": "tr.",
+      "zh": "订购，下单",
+      "surface": "pedí",
+      "source": "supplement"
+     },
+     {
+      "h": "zapato",
+      "pos": "m.",
+      "zh": "鞋",
+      "surface": "zapatos",
+      "source": "supplement"
+     },
+     {
+      "h": "mochila",
+      "pos": "f.",
+      "zh": "双肩背包",
+      "surface": "mochila",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Antes de comprar, leí las opiniones de otros clientes y comprobé la política de devolución.",
+    "zh": "买之前，我看了其他顾客的评价，还查看了退货政策。",
+    "w": [
+     {
+      "h": "antes de + inf.",
+      "pos": "loc.",
+      "zh": "在（做）……之前",
+      "surface": "Antes de",
+      "source": "supplement"
+     },
+     {
+      "h": "leer",
+      "pos": "tr.",
+      "zh": "读，阅读",
+      "surface": "leí",
+      "source": "supplement"
+     },
+     {
+      "h": "opinión",
+      "pos": "f.",
+      "zh": "意见；（顾客）评价",
+      "surface": "opiniones",
+      "source": "supplement"
+     },
+     {
+      "h": "comprobar",
+      "pos": "tr.",
+      "zh": "核实，查看",
+      "surface": "comprobé",
+      "source": "supplement"
+     },
+     {
+      "h": "política de devolución",
+      "pos": "f.",
+      "zh": "退货政策",
+      "surface": "política de devolución",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El paquete llegó dos días después, pero los zapatos eran demasiado pequeños.",
+    "zh": "两天后包裹到了，可是鞋子太小了。",
+    "w": [
+     {
+      "h": "paquete",
+      "pos": "m.",
+      "zh": "包裹",
+      "surface": "paquete",
+      "source": "supplement"
+     },
+     {
+      "h": "llegar",
+      "pos": "intr.",
+      "zh": "到达，寄到",
+      "surface": "llegó",
+      "source": "supplement"
+     },
+     {
+      "h": "时间 + después",
+      "pos": "loc.",
+      "zh": "（多久）之后",
+      "surface": "dos días después",
+      "source": "supplement"
+     },
+     {
+      "h": "demasiado",
+      "pos": "adv.",
+      "zh": "太，过于",
+      "surface": "demasiado",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Solicité una devolución y recibí las instrucciones por correo electrónico.",
+    "zh": "我申请了退货，并通过电子邮件收到了操作说明。",
+    "w": [
+     {
+      "h": "solicitar",
+      "pos": "tr.",
+      "zh": "申请",
+      "surface": "Solicité",
+      "source": "supplement"
+     },
+     {
+      "h": "recibir",
+      "pos": "tr.",
+      "zh": "收到",
+      "surface": "recibí",
+      "source": "supplement"
+     },
+     {
+      "h": "instrucción",
+      "pos": "f.",
+      "zh": "说明，指示",
+      "surface": "instrucciones",
+      "source": "supplement"
+     },
+     {
+      "h": "por correo electrónico",
+      "pos": "loc.",
+      "zh": "通过电子邮件",
+      "surface": "por correo electrónico",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aunque el proceso fue sencillo, prefiero probarme la ropa en una tienda cuando es posible.",
+    "zh": "虽然流程很简单，但在可能的情况下，我还是更喜欢去店里试穿衣服。",
+    "w": [
+     {
+      "h": "aunque",
+      "pos": "conj.",
+      "zh": "虽然，尽管",
+      "surface": "Aunque",
+      "source": "supplement"
+     },
+     {
+      "h": "sencillo",
+      "pos": "adj.",
+      "zh": "简单的",
+      "surface": "sencillo",
+      "source": "supplement"
+     },
+     {
+      "h": "preferir",
+      "pos": "tr.",
+      "zh": "更喜欢，宁愿",
+      "surface": "prefiero",
+      "source": "supplement"
+     },
+     {
+      "h": "probarse",
+      "pos": "prnl.",
+      "zh": "试穿",
+      "surface": "probarme",
+      "source": "supplement"
+     },
+     {
+      "h": "ropa",
+      "pos": "f.",
+      "zh": "衣服",
+      "surface": "ropa",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Comprar en línea ahorra tiempo, pero hay que hacerlo con cuidado.",
+    "zh": "网上购物能节省时间，但必须谨慎。",
+    "w": [
+     {
+      "h": "en línea",
+      "pos": "loc.",
+      "zh": "在线，网上",
+      "surface": "en línea",
+      "source": "supplement"
+     },
+     {
+      "h": "ahorrar",
+      "pos": "tr.",
+      "zh": "节省",
+      "surface": "ahorra",
+      "source": "supplement"
+     },
+     {
+      "h": "hay que + inf.",
+      "pos": "loc.",
+      "zh": "必须，得（做）",
+      "surface": "hay que",
+      "source": "supplement"
+     },
+     {
+      "h": "con cuidado",
+      "pos": "loc.",
+      "zh": "小心地，谨慎地",
+      "surface": "con cuidado",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "id": "a2_10",
+ "level": "A2",
+ "no": 10,
+ "title_es": "Una excursión a la montaña",
+ "title_zh": "一次山间远足",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 10 篇",
+ "header": "分级阅读 A2-10",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 10 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：第 1 句 El pasado otoño 的 pasado 放在名词前（与 el otoño pasado 同义），单列 pasado；hicimos una excursión 词头写 hacer una excursión，所以第 8 句的 excursión 不再列；bocadillo 译“三明治”（西班牙的长面包夹馅三明治）；第 5 句 se veían 是无人称/被动的 se，词头写 verse；cubierto 是 cubrir 的不规则过去分词，按 cubierto de 列；第 7 句 terminamos cansados 的 terminar 取“最后（落得）”义。no_pause_commas：第 2 句 agua, fruta, bocadillos y ropa de abrigo 是列举，两个逗号都不停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "agua,",
+    "why": "列举：llevamos [agua], [fruta], [bocadillos] y [ropa de abrigo]（A, B, C y D）"
+   },
+   {
+    "after": "fruta,",
+    "why": "同上，列举的第二个逗号"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "El pasado otoño hicimos una excursión a la montaña.",
+    "zh": "去年秋天，我们去山里远足了一次。",
+    "w": [
+     {
+      "h": "pasado",
+      "pos": "adj.",
+      "zh": "上一个的（可放名词前）",
+      "surface": "pasado",
+      "source": "supplement"
+     },
+     {
+      "h": "otoño",
+      "pos": "m.",
+      "zh": "秋天",
+      "surface": "otoño",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer una excursión",
+      "pos": "loc.",
+      "zh": "去远足，郊游",
+      "surface": "hicimos una excursión",
+      "source": "supplement"
+     },
+     {
+      "h": "montaña",
+      "pos": "f.",
+      "zh": "山，山区",
+      "surface": "montaña",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Salimos temprano y llevamos agua, fruta, bocadillos y ropa de abrigo.",
+    "zh": "我们很早就出发了，带了水、水果、三明治和保暖的衣服。",
+    "w": [
+     {
+      "h": "salir",
+      "pos": "intr.",
+      "zh": "出发，出门",
+      "surface": "Salimos",
+      "source": "supplement"
+     },
+     {
+      "h": "temprano",
+      "pos": "adv.",
+      "zh": "早，早早地",
+      "surface": "temprano",
+      "source": "supplement"
+     },
+     {
+      "h": "llevar",
+      "pos": "tr.",
+      "zh": "带，携带",
+      "surface": "llevamos",
+      "source": "supplement"
+     },
+     {
+      "h": "bocadillo",
+      "pos": "m.",
+      "zh": "（长面包）三明治",
+      "surface": "bocadillos",
+      "source": "supplement"
+     },
+     {
+      "h": "ropa de abrigo",
+      "pos": "f.",
+      "zh": "御寒衣物",
+      "surface": "ropa de abrigo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Al principio el camino era fácil, pero después encontramos una subida bastante empinada.",
+    "zh": "一开始路很好走，但后来我们遇到了一段相当陡的上坡。",
+    "w": [
+     {
+      "h": "al principio",
+      "pos": "loc.",
+      "zh": "起初，一开始",
+      "surface": "Al principio",
+      "source": "supplement"
+     },
+     {
+      "h": "camino",
+      "pos": "m.",
+      "zh": "路，小路",
+      "surface": "camino",
+      "source": "supplement"
+     },
+     {
+      "h": "encontrar",
+      "pos": "tr.",
+      "zh": "遇到，碰到",
+      "surface": "encontramos",
+      "source": "supplement"
+     },
+     {
+      "h": "subida",
+      "pos": "f.",
+      "zh": "上坡，上坡路",
+      "surface": "subida",
+      "source": "supplement"
+     },
+     {
+      "h": "empinado",
+      "pos": "adj.",
+      "zh": "陡峭的",
+      "surface": "empinada",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Paramos varias veces para descansar y observar el paisaje.",
+    "zh": "我们停下来好几次，休息一下，欣赏风景。",
+    "w": [
+     {
+      "h": "parar",
+      "pos": "intr.",
+      "zh": "停下",
+      "surface": "Paramos",
+      "source": "supplement"
+     },
+     {
+      "h": "varias veces",
+      "pos": "loc.",
+      "zh": "好几次",
+      "surface": "varias veces",
+      "source": "supplement"
+     },
+     {
+      "h": "descansar",
+      "pos": "intr.",
+      "zh": "休息",
+      "surface": "descansar",
+      "source": "supplement"
+     },
+     {
+      "h": "paisaje",
+      "pos": "m.",
+      "zh": "风景，景色",
+      "surface": "paisaje",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Desde la cima se veían pequeños pueblos y un valle cubierto de árboles.",
+    "zh": "从山顶上可以看到一些小村庄，还有一片长满树木的山谷。",
+    "w": [
+     {
+      "h": "cima",
+      "pos": "f.",
+      "zh": "山顶",
+      "surface": "cima",
+      "source": "supplement"
+     },
+     {
+      "h": "verse",
+      "pos": "prnl.",
+      "zh": "能看到，看得见",
+      "surface": "se veían",
+      "source": "supplement"
+     },
+     {
+      "h": "pueblo",
+      "pos": "m.",
+      "zh": "村镇，村庄",
+      "surface": "pueblos",
+      "source": "supplement"
+     },
+     {
+      "h": "valle",
+      "pos": "m.",
+      "zh": "山谷",
+      "surface": "valle",
+      "source": "supplement"
+     },
+     {
+      "h": "cubierto de",
+      "pos": "loc.",
+      "zh": "覆盖着……的",
+      "surface": "cubierto de",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Comimos allí antes de empezar el descenso.",
+    "zh": "开始下山之前，我们在那儿吃了饭。",
+    "w": [
+     {
+      "h": "comer",
+      "pos": "intr.",
+      "zh": "吃饭",
+      "surface": "Comimos",
+      "source": "supplement"
+     },
+     {
+      "h": "allí",
+      "pos": "adv.",
+      "zh": "那里",
+      "surface": "allí",
+      "source": "supplement"
+     },
+     {
+      "h": "antes de + inf.",
+      "pos": "loc.",
+      "zh": "在（做）……之前",
+      "surface": "antes de",
+      "source": "supplement"
+     },
+     {
+      "h": "descenso",
+      "pos": "m.",
+      "zh": "下山，下降",
+      "surface": "descenso",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aunque terminamos cansados, la experiencia mereció la pena.",
+    "zh": "虽然最后我们都很累，但这次经历很值得。",
+    "w": [
+     {
+      "h": "aunque",
+      "pos": "conj.",
+      "zh": "虽然，尽管",
+      "surface": "Aunque",
+      "source": "supplement"
+     },
+     {
+      "h": "terminar",
+      "pos": "intr.",
+      "zh": "最后（落得）",
+      "surface": "terminamos",
+      "source": "supplement"
+     },
+     {
+      "h": "cansado",
+      "pos": "adj.",
+      "zh": "疲倦的，累的",
+      "surface": "cansados",
+      "source": "supplement"
+     },
+     {
+      "h": "merecer la pena",
+      "pos": "loc.",
+      "zh": "值得",
+      "surface": "mereció la pena",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Desde entonces intentamos organizar una excursión cada mes.",
+    "zh": "从那以后，我们每个月都尽量组织一次远足。",
+    "w": [
+     {
+      "h": "desde entonces",
+      "pos": "loc.",
+      "zh": "从那以后",
+      "surface": "Desde entonces",
+      "source": "supplement"
+     },
+     {
+      "h": "intentar",
+      "pos": "tr.",
+      "zh": "尽量，试图",
+      "surface": "intentamos",
+      "source": "supplement"
+     },
+     {
+      "h": "organizar",
+      "pos": "tr.",
+      "zh": "组织",
+      "surface": "organizar",
+      "source": "supplement"
+     },
+     {
+      "h": "cada mes",
+      "pos": "loc.",
+      "zh": "每个月",
+      "surface": "cada mes",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

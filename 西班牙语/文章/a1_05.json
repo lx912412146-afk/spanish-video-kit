@@ -1,0 +1,319 @@
+{
+ "id": "a1_05",
+ "level": "A1",
+ "no": 5,
+ "title_es": "Mi mejor amiga",
+ "title_zh": "我最好的朋友",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 5 篇",
+ "header": "分级阅读 A1-05",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 5 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：Sofía 译作“索菲娅”。第 5 句 A las dos 是“对我们两个（女生）来说”（las dos 指“我”和 Sofía 两位女性），不是“两点钟”，单独列出提醒；nos gusta 也列在这一句。第 3 句是并列形容词，第 5 句是动词列举，逗号不停顿；第 7 句两个 si 条件从句和分号照常停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "alegre,",
+    "why": "并列形容词（alegre, inteligente y muy paciente），不停顿"
+   }
+  ],
+  "5": [
+   {
+    "after": "dibujar,",
+    "why": "列举（dibujar, viajar y probar…），不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Mi mejor amiga se llama Sofía.",
+    "zh": "我最好的朋友叫索菲娅。",
+    "w": [
+     {
+      "h": "mejor",
+      "pos": "adj.",
+      "zh": "最好的；更好的",
+      "surface": "mejor",
+      "source": "supplement"
+     },
+     {
+      "h": "amiga",
+      "pos": "f.",
+      "zh": "（女性）朋友",
+      "surface": "amiga",
+      "source": "supplement"
+     },
+     {
+      "h": "llamarse",
+      "pos": "prnl.",
+      "zh": "名叫，叫做",
+      "surface": "se llama",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Tiene veintidós años y estudia diseño.",
+    "zh": "她二十二岁，学的是设计。",
+    "w": [
+     {
+      "h": "tener",
+      "pos": "tr.",
+      "zh": "有；（年龄）……岁",
+      "surface": "Tiene",
+      "source": "supplement"
+     },
+     {
+      "h": "veintidós",
+      "pos": "num.",
+      "zh": "二十二",
+      "surface": "veintidós",
+      "source": "supplement"
+     },
+     {
+      "h": "estudiar",
+      "pos": "tr.",
+      "zh": "学，攻读（专业）",
+      "surface": "estudia",
+      "source": "supplement"
+     },
+     {
+      "h": "diseño",
+      "pos": "m.",
+      "zh": "设计",
+      "surface": "diseño",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Es alegre, inteligente y muy paciente.",
+    "zh": "她性格开朗、聪明，而且很有耐心。",
+    "w": [
+     {
+      "h": "ser",
+      "pos": "intr.",
+      "zh": "是（表示性格特点）",
+      "surface": "Es",
+      "source": "supplement"
+     },
+     {
+      "h": "alegre",
+      "pos": "adj.",
+      "zh": "开朗的，快乐的",
+      "surface": "alegre",
+      "source": "supplement"
+     },
+     {
+      "h": "inteligente",
+      "pos": "adj.",
+      "zh": "聪明的",
+      "surface": "inteligente",
+      "source": "supplement"
+     },
+     {
+      "h": "paciente",
+      "pos": "adj.",
+      "zh": "有耐心的",
+      "surface": "paciente",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Nos conocimos en una clase de español hace tres años.",
+    "zh": "我们是三年前在一节西班牙语课上认识的。",
+    "w": [
+     {
+      "h": "conocerse",
+      "pos": "prnl.",
+      "zh": "相识，互相认识",
+      "surface": "Nos conocimos",
+      "source": "supplement"
+     },
+     {
+      "h": "clase",
+      "pos": "f.",
+      "zh": "课",
+      "surface": "clase",
+      "source": "supplement"
+     },
+     {
+      "h": "español",
+      "pos": "m.",
+      "zh": "西班牙语",
+      "surface": "español",
+      "source": "supplement"
+     },
+     {
+      "h": "hace + 时间段",
+      "pos": "loc.",
+      "zh": "……以前",
+      "surface": "hace tres años",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "A las dos nos gusta dibujar, viajar y probar restaurantes nuevos.",
+    "zh": "我们俩都喜欢画画、旅行，还有去尝试新的餐厅。",
+    "w": [
+     {
+      "h": "a las dos",
+      "pos": "loc.",
+      "zh": "对我们俩（女生）来说",
+      "surface": "A las dos",
+      "source": "supplement"
+     },
+     {
+      "h": "nos gusta + inf.",
+      "pos": "loc.",
+      "zh": "我们喜欢做……",
+      "surface": "nos gusta",
+      "source": "supplement"
+     },
+     {
+      "h": "dibujar",
+      "pos": "intr.",
+      "zh": "画画",
+      "surface": "dibujar",
+      "source": "supplement"
+     },
+     {
+      "h": "viajar",
+      "pos": "intr.",
+      "zh": "旅行",
+      "surface": "viajar",
+      "source": "supplement"
+     },
+     {
+      "h": "probar",
+      "pos": "tr.",
+      "zh": "尝试，品尝",
+      "surface": "probar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Normalmente quedamos los viernes por la tarde.",
+    "zh": "我们通常每周五下午见面。",
+    "w": [
+     {
+      "h": "normalmente",
+      "pos": "adv.",
+      "zh": "通常，一般",
+      "surface": "Normalmente",
+      "source": "supplement"
+     },
+     {
+      "h": "quedar",
+      "pos": "intr.",
+      "zh": "约好见面",
+      "surface": "quedamos",
+      "source": "supplement"
+     },
+     {
+      "h": "los viernes",
+      "pos": "loc.",
+      "zh": "每个星期五",
+      "surface": "los viernes",
+      "source": "supplement"
+     },
+     {
+      "h": "por la tarde",
+      "pos": "loc.",
+      "zh": "下午",
+      "surface": "por la tarde",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Si hace buen tiempo, paseamos por el centro; si llueve, vemos una película en casa.",
+    "zh": "如果天气好，我们就去市中心散步；如果下雨，我们就在家看电影。",
+    "w": [
+     {
+      "h": "si",
+      "pos": "conj.",
+      "zh": "如果",
+      "surface": "Si",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer buen tiempo",
+      "pos": "loc.",
+      "zh": "天气好",
+      "surface": "hace buen tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "pasear",
+      "pos": "intr.",
+      "zh": "散步，逛",
+      "surface": "paseamos",
+      "source": "supplement"
+     },
+     {
+      "h": "llover",
+      "pos": "intr.",
+      "zh": "下雨",
+      "surface": "llueve",
+      "source": "supplement"
+     },
+     {
+      "h": "película",
+      "pos": "f.",
+      "zh": "电影",
+      "surface": "película",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aunque tenemos horarios diferentes, hablamos casi todos los días.",
+    "zh": "虽然我们的作息时间不一样，但我们几乎每天都聊天。",
+    "w": [
+     {
+      "h": "aunque",
+      "pos": "conj.",
+      "zh": "虽然，尽管",
+      "surface": "Aunque",
+      "source": "supplement"
+     },
+     {
+      "h": "horario",
+      "pos": "m.",
+      "zh": "作息时间，时间表",
+      "surface": "horarios",
+      "source": "supplement"
+     },
+     {
+      "h": "casi",
+      "pos": "adv.",
+      "zh": "几乎",
+      "surface": "casi",
+      "source": "supplement"
+     },
+     {
+      "h": "todos los días",
+      "pos": "loc.",
+      "zh": "每天",
+      "surface": "todos los días",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

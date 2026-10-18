@@ -1,0 +1,250 @@
+{
+ "id": "c1_10",
+ "level": "C1",
+ "no": 10,
+ "title_es": "La paciencia como forma de resistencia",
+ "title_zh": "作为抵抗方式的耐心",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 10 篇",
+ "header": "分级阅读 C1-10",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 10 篇《La paciencia como forma de resistencia 作为抵抗方式的耐心》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。特别判断：第 2 句 resistirse a abandonar… 意译为“克制住……放弃……的冲动”；第 3 句 Aprender una lengua, investigar… o construir… 是并列的不定式短语，按四级规则照常停顿，后面 repetición, revisión y tolerancia 是名词列举，登记为不停顿；第 5 句 Su valor 的 su 指耐心。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 3 句「repetición,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "En un contexto que valora la rapidez, la paciencia puede parecer una virtud pasiva.",
+    "zh": "在一个推崇速度的环境里，耐心可能看起来像是一种被动的美德。",
+    "w": [
+     {
+      "h": "valorar",
+      "pos": "tr.",
+      "zh": "重视，推崇",
+      "surface": "valora",
+      "source": "supplement"
+     },
+     {
+      "h": "rapidez",
+      "pos": "f.",
+      "zh": "快速，迅速",
+      "surface": "rapidez",
+      "source": "supplement"
+     },
+     {
+      "h": "parecer",
+      "pos": "intr.",
+      "zh": "显得，看起来",
+      "surface": "parecer",
+      "source": "supplement"
+     },
+     {
+      "h": "virtud",
+      "pos": "f.",
+      "zh": "美德",
+      "surface": "virtud",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No obstante, perseverar en una tarea compleja implica una decisión activa: resistirse a abandonar un proceso porque sus resultados no son inmediatos.",
+    "zh": "然而，在一项复杂的任务上坚持不懈，意味着一个主动的抉择：克制住因成果不能立竿见影就放弃整个过程的冲动。",
+    "w": [
+     {
+      "h": "no obstante",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "No obstante",
+      "source": "supplement"
+     },
+     {
+      "h": "perseverar en",
+      "pos": "loc.",
+      "zh": "坚持（做）",
+      "surface": "perseverar en",
+      "source": "supplement"
+     },
+     {
+      "h": "implicar",
+      "pos": "tr.",
+      "zh": "意味着",
+      "surface": "implica",
+      "source": "supplement"
+     },
+     {
+      "h": "resistirse a",
+      "pos": "loc.",
+      "zh": "抗拒，不肯（做）",
+      "surface": "resistirse a",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aprender una lengua, investigar un problema o construir una relación de confianza requiere repetición, revisión y tolerancia a la incertidumbre.",
+    "zh": "学习一门语言、研究一个问题或建立一段互信的关系，都需要重复、修正，以及对不确定性的包容。",
+    "w": [
+     {
+      "h": "relación de confianza",
+      "pos": "f.",
+      "zh": "互信关系",
+      "surface": "relación de confianza",
+      "source": "supplement"
+     },
+     {
+      "h": "requerir",
+      "pos": "tr.",
+      "zh": "需要，要求",
+      "surface": "requiere",
+      "source": "supplement"
+     },
+     {
+      "h": "revisión",
+      "pos": "f.",
+      "zh": "检查修正，复查",
+      "surface": "revisión",
+      "source": "supplement"
+     },
+     {
+      "h": "tolerancia a",
+      "pos": "f.",
+      "zh": "对……的容忍",
+      "surface": "tolerancia a",
+      "source": "supplement"
+     },
+     {
+      "h": "incertidumbre",
+      "pos": "f.",
+      "zh": "不确定性",
+      "surface": "incertidumbre",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La paciencia tampoco debe confundirse con aceptar condiciones injustas o posponer indefinidamente una decisión necesaria.",
+    "zh": "耐心也不应被混同于接受不公正的条件，或是无限期地拖延一个必要的决定。",
+    "w": [
+     {
+      "h": "tampoco",
+      "pos": "adv.",
+      "zh": "也不",
+      "surface": "tampoco",
+      "source": "supplement"
+     },
+     {
+      "h": "confundirse con",
+      "pos": "loc.",
+      "zh": "与……混淆",
+      "surface": "confundirse con",
+      "source": "supplement"
+     },
+     {
+      "h": "posponer",
+      "pos": "tr.",
+      "zh": "推迟，拖延",
+      "surface": "posponer",
+      "source": "supplement"
+     },
+     {
+      "h": "indefinidamente",
+      "pos": "adv.",
+      "zh": "无限期地",
+      "surface": "indefinidamente",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Su valor reside en distinguir entre la demora improductiva y el tiempo que un proceso necesita para desarrollarse.",
+    "zh": "耐心的价值在于分清无谓的拖延与一个过程发展所需的时间。",
+    "w": [
+     {
+      "h": "residir en",
+      "pos": "loc.",
+      "zh": "在于",
+      "surface": "reside en",
+      "source": "supplement"
+     },
+     {
+      "h": "distinguir entre",
+      "pos": "loc.",
+      "zh": "区分，辨别",
+      "surface": "distinguir entre",
+      "source": "supplement"
+     },
+     {
+      "h": "demora",
+      "pos": "f.",
+      "zh": "拖延，耽搁",
+      "surface": "demora",
+      "source": "supplement"
+     },
+     {
+      "h": "improductivo",
+      "pos": "adj.",
+      "zh": "无成效的，徒劳的",
+      "surface": "improductiva",
+      "source": "supplement"
+     },
+     {
+      "h": "desarrollarse",
+      "pos": "prnl.",
+      "zh": "发展，展开",
+      "surface": "desarrollarse",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Frente a la presión por mostrar resultados constantes, la paciencia permite proteger el trabajo profundo y reconocer avances que no siempre son visibles.",
+    "zh": "面对必须不断拿出成果的压力，耐心让人得以守护深度工作，并看到那些并不总是显而易见的进步。",
+    "w": [
+     {
+      "h": "frente a",
+      "pos": "loc.",
+      "zh": "面对",
+      "surface": "Frente a",
+      "source": "supplement"
+     },
+     {
+      "h": "presión por + inf.",
+      "pos": "f.",
+      "zh": "（急于）做……的压力",
+      "surface": "presión por",
+      "source": "supplement"
+     },
+     {
+      "h": "permitir",
+      "pos": "tr.",
+      "zh": "使能够，让",
+      "surface": "permite",
+      "source": "supplement"
+     },
+     {
+      "h": "trabajo profundo",
+      "pos": "m.",
+      "zh": "深度工作",
+      "surface": "trabajo profundo",
+      "source": "supplement"
+     },
+     {
+      "h": "avance",
+      "pos": "m.",
+      "zh": "进展，进步",
+      "surface": "avances",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

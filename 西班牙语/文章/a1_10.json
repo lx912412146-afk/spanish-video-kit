@@ -1,0 +1,296 @@
+{
+ "id": "a1_10",
+ "level": "A1",
+ "no": 10,
+ "title_es": "Aprender español",
+ "title_zh": "学习西班牙语",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 10 篇",
+ "header": "分级阅读 A1-10",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 10 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：第 2 句 practicamos…, aprendemos… y hacemos… 是一串并列动作，按列举处理，逗号不停顿；第 5 句 pero 前的逗号照常停顿。第 6 句 conversar con la gente 译作“和那里的人交谈”（la gente 承接前面的“西班牙”）。第 1 句列 vez（次），第 7 句的 una sola vez 作为固定说法另列。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "pronunciación,",
+    "why": "列举一串并列动作（practicamos…, aprendemos… y hacemos…），不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Estudio español tres veces por semana.",
+    "zh": "我每周学三次西班牙语。",
+    "w": [
+     {
+      "h": "estudiar",
+      "pos": "tr.",
+      "zh": "学习",
+      "surface": "Estudio",
+      "source": "supplement"
+     },
+     {
+      "h": "español",
+      "pos": "m.",
+      "zh": "西班牙语",
+      "surface": "español",
+      "source": "supplement"
+     },
+     {
+      "h": "vez",
+      "pos": "f.",
+      "zh": "次，回（复数 veces）",
+      "surface": "veces",
+      "source": "supplement"
+     },
+     {
+      "h": "por semana",
+      "pos": "loc.",
+      "zh": "每周",
+      "surface": "por semana",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En clase practicamos la pronunciación, aprendemos palabras nuevas y hacemos diálogos.",
+    "zh": "课上，我们练习发音、学习新单词，还做对话练习。",
+    "w": [
+     {
+      "h": "practicar",
+      "pos": "tr.",
+      "zh": "练习",
+      "surface": "practicamos",
+      "source": "supplement"
+     },
+     {
+      "h": "pronunciación",
+      "pos": "f.",
+      "zh": "发音",
+      "surface": "pronunciación",
+      "source": "supplement"
+     },
+     {
+      "h": "aprender",
+      "pos": "tr.",
+      "zh": "学，学会",
+      "surface": "aprendemos",
+      "source": "supplement"
+     },
+     {
+      "h": "palabra",
+      "pos": "f.",
+      "zh": "单词，词",
+      "surface": "palabras",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer diálogos",
+      "pos": "loc.",
+      "zh": "做对话练习",
+      "surface": "hacemos diálogos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mi profesora habla despacio y explica la gramática con ejemplos.",
+    "zh": "我的老师说话很慢，还会用例子讲解语法。",
+    "w": [
+     {
+      "h": "profesora",
+      "pos": "f.",
+      "zh": "（女）老师",
+      "surface": "profesora",
+      "source": "supplement"
+     },
+     {
+      "h": "despacio",
+      "pos": "adv.",
+      "zh": "慢慢地",
+      "surface": "despacio",
+      "source": "supplement"
+     },
+     {
+      "h": "explicar",
+      "pos": "tr.",
+      "zh": "解释，讲解",
+      "surface": "explica",
+      "source": "supplement"
+     },
+     {
+      "h": "ejemplo",
+      "pos": "m.",
+      "zh": "例子",
+      "surface": "ejemplos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En casa escucho canciones españolas y veo vídeos cortos con subtítulos.",
+    "zh": "在家里，我听西班牙歌曲，看带字幕的短视频。",
+    "w": [
+     {
+      "h": "escuchar",
+      "pos": "tr.",
+      "zh": "听",
+      "surface": "escucho",
+      "source": "supplement"
+     },
+     {
+      "h": "canción",
+      "pos": "f.",
+      "zh": "歌曲",
+      "surface": "canciones",
+      "source": "supplement"
+     },
+     {
+      "h": "ver",
+      "pos": "tr.",
+      "zh": "看",
+      "surface": "veo",
+      "source": "supplement"
+     },
+     {
+      "h": "corto",
+      "pos": "adj.",
+      "zh": "短的",
+      "surface": "cortos",
+      "source": "supplement"
+     },
+     {
+      "h": "subtítulo",
+      "pos": "m.",
+      "zh": "字幕",
+      "surface": "subtítulos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "A veces cometo errores, pero intento hablar sin miedo.",
+    "zh": "有时我会犯错，但我尽量大胆地开口说。",
+    "w": [
+     {
+      "h": "a veces",
+      "pos": "loc.",
+      "zh": "有时候",
+      "surface": "A veces",
+      "source": "supplement"
+     },
+     {
+      "h": "cometer errores",
+      "pos": "loc.",
+      "zh": "犯错",
+      "surface": "cometo errores",
+      "source": "supplement"
+     },
+     {
+      "h": "intentar",
+      "pos": "tr.",
+      "zh": "尽力，试图",
+      "surface": "intento",
+      "source": "supplement"
+     },
+     {
+      "h": "sin miedo",
+      "pos": "loc.",
+      "zh": "不害怕，大胆地",
+      "surface": "sin miedo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mi objetivo es poder viajar por España y conversar con la gente.",
+    "zh": "我的目标是能去西班牙各地旅行，和那里的人交谈。",
+    "w": [
+     {
+      "h": "objetivo",
+      "pos": "m.",
+      "zh": "目标",
+      "surface": "objetivo",
+      "source": "supplement"
+     },
+     {
+      "h": "poder",
+      "pos": "tr.",
+      "zh": "能，能够",
+      "surface": "poder",
+      "source": "supplement"
+     },
+     {
+      "h": "viajar por",
+      "pos": "loc.",
+      "zh": "在……各地旅行",
+      "surface": "viajar por",
+      "source": "supplement"
+     },
+     {
+      "h": "conversar con",
+      "pos": "loc.",
+      "zh": "和……交谈",
+      "surface": "conversar con",
+      "source": "supplement"
+     },
+     {
+      "h": "gente",
+      "pos": "f.",
+      "zh": "人们（集合名词）",
+      "surface": "gente",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Creo que estudiar un poco cada día es mejor que estudiar muchas horas una sola vez.",
+    "zh": "我觉得每天学一点，比一次学好几个小时更好。",
+    "w": [
+     {
+      "h": "creer que",
+      "pos": "loc.",
+      "zh": "认为，觉得",
+      "surface": "Creo que",
+      "source": "supplement"
+     },
+     {
+      "h": "un poco",
+      "pos": "loc.",
+      "zh": "一点儿",
+      "surface": "un poco",
+      "source": "supplement"
+     },
+     {
+      "h": "cada día",
+      "pos": "loc.",
+      "zh": "每天",
+      "surface": "cada día",
+      "source": "supplement"
+     },
+     {
+      "h": "mejor que",
+      "pos": "loc.",
+      "zh": "比……更好",
+      "surface": "mejor que",
+      "source": "supplement"
+     },
+     {
+      "h": "una sola vez",
+      "pos": "loc.",
+      "zh": "仅仅一次",
+      "surface": "una sola vez",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

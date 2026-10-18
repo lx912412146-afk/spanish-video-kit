@@ -1,0 +1,92 @@
+{
+ "id": "c1_03",
+ "level": "C1",
+ "no": 3,
+ "title_es": "La ciudad como espacio de negociación",
+ "title_zh": "作为协商空间的城市",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 3 篇",
+ "header": "分级阅读 C1-03",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 3 篇《La ciudad como espacio de negociación 作为协商空间的城市》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。特别判断：第 2 句开头的名词列举登记为不停顿；第 5 句 hace visibles…, escucha…, evalúa… 是三个并列谓语，按四级规则照常停顿；第 4 句 reducir algo a 的 a 与动词不相邻，surface 只标 Reducir；第 3 句 quienes 指“（步行的）人”，词头写 quien。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "Residentes,",
+    "why": "列举：Residentes, comerciantes, turistas, conductores y peatones（名词并列）"
+   },
+   {
+    "after": "comerciantes,",
+    "why": "同上，列举的第二个逗号"
+   },
+   {
+    "after": "turistas,",
+    "why": "同上，列举的第三个逗号"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Una ciudad no es simplemente un conjunto de edificios e infraestructuras; es un espacio donde distintos grupos negocian continuamente el uso de recursos limitados.",
+    "zh": "城市不只是建筑与基础设施的集合；它是一个不同群体围绕有限资源的使用不断进行协商的空间。",
+    "w": [
+     {"h": "simplemente", "pos": "adv.", "zh": "仅仅，只不过", "surface": "simplemente", "source": "supplement"},
+     {"h": "conjunto", "pos": "m.", "zh": "集合，整体", "surface": "conjunto", "source": "supplement"},
+     {"h": "infraestructura", "pos": "f.", "zh": "基础设施", "surface": "infraestructuras", "source": "supplement"},
+     {"h": "negociar", "pos": "tr.", "zh": "协商，谈判", "surface": "negocian", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Residentes, comerciantes, turistas, conductores y peatones pueden tener intereses legítimos que, sin embargo, entran en conflicto.",
+    "zh": "居民、商户、游客、司机和行人都可能有正当的利益诉求，然而这些利益却会彼此冲突。",
+    "w": [
+     {"h": "comerciante", "pos": "m.", "zh": "商户，商人", "surface": "comerciantes", "source": "supplement"},
+     {"h": "conductor", "pos": "m.", "zh": "司机，驾驶员", "surface": "conductores", "source": "supplement"},
+     {"h": "peatón", "pos": "m.", "zh": "行人", "surface": "peatones", "source": "supplement"},
+     {"h": "legítimo", "pos": "adj.", "zh": "正当的，合理的", "surface": "legítimos", "source": "supplement"},
+     {"h": "entrar en conflicto", "pos": "loc.", "zh": "发生冲突", "surface": "entran en conflicto", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "La expansión de las zonas peatonales, por ejemplo, mejora la experiencia de quienes caminan, pero puede suscitar preocupación entre negocios que dependen del acceso de vehículos.",
+    "zh": "例如，扩大步行区能改善步行者的体验，但也可能引起那些依赖车辆通行的商家的担忧。",
+    "w": [
+     {"h": "zona peatonal", "pos": "f.", "zh": "步行区", "surface": "zonas peatonales", "source": "supplement"},
+     {"h": "quien", "pos": "pron.", "zh": "（……的）人", "surface": "quienes", "source": "supplement"},
+     {"h": "suscitar", "pos": "tr.", "zh": "引起，激起", "surface": "suscitar", "source": "supplement"},
+     {"h": "negocio", "pos": "m.", "zh": "商家，店铺", "surface": "negocios", "source": "supplement"},
+     {"h": "depender de", "pos": "loc.", "zh": "依赖，取决于", "surface": "dependen del", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Reducir estos debates a una oposición entre progreso y resistencia impide comprender su complejidad.",
+    "zh": "把这些争论简化为进步与抵制之间的对立，会妨碍人们理解其复杂性。",
+    "w": [
+     {"h": "reducir algo a", "pos": "loc.", "zh": "把……简化为", "surface": "Reducir", "source": "supplement"},
+     {"h": "oposición", "pos": "f.", "zh": "对立", "surface": "oposición", "source": "supplement"},
+     {"h": "resistencia", "pos": "f.", "zh": "抵制，阻力", "surface": "resistencia", "source": "supplement"},
+     {"h": "impedir", "pos": "tr.", "zh": "妨碍，使无法", "surface": "impide", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "La planificación urbana más sólida es aquella que hace visibles los costes y beneficios de cada alternativa, escucha a los afectados y evalúa los resultados después de aplicar las medidas.",
+    "zh": "最稳健的城市规划，是那种让每种方案的成本与收益清晰可见、倾听受影响者的意见，并在措施实施之后评估其效果的规划。",
+    "w": [
+     {"h": "sólido", "pos": "adj.", "zh": "稳健的，扎实的", "surface": "sólida", "source": "supplement"},
+     {"h": "aquel que", "pos": "pron.", "zh": "那种……的（人或物）", "surface": "aquella que", "source": "supplement"},
+     {"h": "hacer visible", "pos": "loc.", "zh": "使……清晰可见", "surface": "hace visibles", "source": "supplement"},
+     {"h": "afectado", "pos": "m.", "zh": "受影响者", "surface": "afectados", "source": "supplement"},
+     {"h": "aplicar medidas", "pos": "loc.", "zh": "实施措施", "surface": "aplicar las medidas", "source": "supplement"}
+    ]
+   }
+  ]
+ ]
+}

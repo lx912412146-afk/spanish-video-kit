@@ -1,0 +1,214 @@
+{
+ "id": "b2_06",
+ "level": "B2",
+ "no": 6,
+ "title_es": "La preservación del patrimonio",
+ "title_zh": "文化遗产的保护",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 6 篇",
+ "header": "分级阅读 B2-06",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B2 第 6 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一词头只在第一次出现的句子里列。no_pause_commas：只登记列举（A, B y C）处不停顿的逗号，从句、句首状语、no…sino、mientras que 前的逗号照常停顿。patrimonio 在文中包括建筑、传统和公共空间，标题译作“文化遗产的保护”，第 1 句 patrimonio histórico 译作“历史遗产”；actual 是假朋友（当前的，不是“实际的”）；escenario turístico 译作“旅游布景”；elementos irrecuperables 译作“无法复原的东西”；为少选同源词，conservación、restauración、transformación 没有列入。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 2 句「Los edificios,」；第 3 句「vivienda,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Conservar el patrimonio histórico supone mucho más que mantener fachadas antiguas.",
+    "zh": "保护历史遗产远远不只是维护古老的建筑外立面。",
+    "w": [
+     {
+      "h": "patrimonio histórico",
+      "pos": "m.",
+      "zh": "历史遗产",
+      "surface": "patrimonio histórico",
+      "source": "supplement"
+     },
+     {
+      "h": "suponer",
+      "pos": "tr.",
+      "zh": "意味着",
+      "surface": "supone",
+      "source": "supplement"
+     },
+     {
+      "h": "mucho más que",
+      "pos": "loc.",
+      "zh": "远不只是",
+      "surface": "mucho más que",
+      "source": "supplement"
+     },
+     {
+      "h": "fachada",
+      "pos": "f.",
+      "zh": "（建筑）正面，外立面",
+      "surface": "fachadas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Los edificios, las tradiciones y los espacios públicos forman parte de la memoria colectiva y ayudan a explicar cómo ha evolucionado una comunidad.",
+    "zh": "建筑、传统和公共空间都是集体记忆的一部分，有助于解释一个社区是如何演变而来的。",
+    "w": [
+     {
+      "h": "espacio público",
+      "pos": "m.",
+      "zh": "公共空间",
+      "surface": "espacios públicos",
+      "source": "supplement"
+     },
+     {
+      "h": "formar parte de",
+      "pos": "loc.",
+      "zh": "是……的一部分",
+      "surface": "forman parte de",
+      "source": "supplement"
+     },
+     {
+      "h": "memoria colectiva",
+      "pos": "f.",
+      "zh": "集体记忆",
+      "surface": "memoria colectiva",
+      "source": "supplement"
+     },
+     {
+      "h": "ayudar a + inf.",
+      "pos": "loc.",
+      "zh": "有助于，帮助",
+      "surface": "ayudan a",
+      "source": "supplement"
+     },
+     {
+      "h": "evolucionar",
+      "pos": "intr.",
+      "zh": "演变，发展",
+      "surface": "ha evolucionado",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No obstante, la conservación puede entrar en conflicto con las necesidades actuales de vivienda, movilidad y actividad económica.",
+    "zh": "然而，保护工作可能会与当下在住房、出行和经济活动方面的需求发生冲突。",
+    "w": [
+     {
+      "h": "no obstante",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "No obstante",
+      "source": "supplement"
+     },
+     {
+      "h": "entrar en conflicto con",
+      "pos": "loc.",
+      "zh": "与……发生冲突",
+      "surface": "entrar en conflicto con",
+      "source": "supplement"
+     },
+     {
+      "h": "actual",
+      "pos": "adj.",
+      "zh": "当前的（≠实际的）",
+      "surface": "actuales",
+      "source": "supplement"
+     },
+     {
+      "h": "movilidad",
+      "pos": "f.",
+      "zh": "出行，交通",
+      "surface": "movilidad",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Una restauración excesivamente rígida puede convertir un barrio en un escenario turístico, mientras que una transformación sin criterios puede destruir elementos irrecuperables.",
+    "zh": "过于僵化的修复可能会把一个街区变成旅游布景，而毫无章法的改造则可能毁掉无法复原的东西。",
+    "w": [
+     {
+      "h": "rígido",
+      "pos": "adj.",
+      "zh": "僵化的，死板的",
+      "surface": "rígida",
+      "source": "supplement"
+     },
+     {
+      "h": "escenario",
+      "pos": "m.",
+      "zh": "舞台，布景",
+      "surface": "escenario",
+      "source": "supplement"
+     },
+     {
+      "h": "mientras que",
+      "pos": "loc.",
+      "zh": "而（表对比）",
+      "surface": "mientras que",
+      "source": "supplement"
+     },
+     {
+      "h": "sin criterios",
+      "pos": "loc.",
+      "zh": "毫无章法，不加考量",
+      "surface": "sin criterios",
+      "source": "supplement"
+     },
+     {
+      "h": "irrecuperable",
+      "pos": "adj.",
+      "zh": "无法挽回的，不可复原的",
+      "surface": "irrecuperables",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La planificación debe buscar un equilibrio entre protección y uso cotidiano, incorporando a los residentes en las decisiones que afectan a su entorno.",
+    "zh": "规划应当在保护和日常使用之间寻求平衡，并让居民参与到影响自身生活环境的决策中来。",
+    "w": [
+     {
+      "h": "buscar un equilibrio",
+      "pos": "loc.",
+      "zh": "寻求平衡",
+      "surface": "buscar un equilibrio",
+      "source": "supplement"
+     },
+     {
+      "h": "cotidiano",
+      "pos": "adj.",
+      "zh": "日常的",
+      "surface": "cotidiano",
+      "source": "supplement"
+     },
+     {
+      "h": "incorporar",
+      "pos": "tr.",
+      "zh": "吸纳，使参与",
+      "surface": "incorporando",
+      "source": "supplement"
+     },
+     {
+      "h": "afectar a",
+      "pos": "loc.",
+      "zh": "影响",
+      "surface": "afectan a",
+      "source": "supplement"
+     },
+     {
+      "h": "entorno",
+      "pos": "m.",
+      "zh": "周边环境",
+      "surface": "entorno",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

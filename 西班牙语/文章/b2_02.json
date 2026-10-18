@@ -1,0 +1,249 @@
+{
+ "id": "b2_02",
+ "level": "B2",
+ "no": 2,
+ "title_es": "¿Es suficiente con reciclar?",
+ "title_zh": "只靠回收就够了吗？",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 2 篇",
+ "header": "分级阅读 B2-02",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B2 第 2 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一词头只在第一次出现的句子里列。no_pause_commas：只登记列举（A, B y C）处不停顿的逗号，从句、句首状语、no…sino、mientras que 前的逗号照常停顿。标题 ¿Es suficiente con reciclar? 中“ser suficiente con + inf.”意为“只要……就够了”，译作“只靠回收就够了吗？”；administraciones 指政府、公共管理部门，不是“管理”；devolución y recogida 指包装的退还和回收体系；第 3 句 reutilizarse 是被动意义的自复形式，按句中用法标 prnl.；第 3 句 instalaciones 后的逗号引出新分句（y algunos materiales…），照常停顿。为少选同源词，reducción、transformación、producción 没有列入。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "energía,",
+    "why": "列举：energía, transporte e instalaciones（A, B e C）"
+   }
+  ],
+  "4": [
+   {
+    "after": "reducción de residuos,",
+    "why": "列举：la reducción de residuos, la reparación y la reutilización（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "El reciclaje suele presentarse como una respuesta sencilla al problema de los residuos.",
+    "zh": "回收常常被说成是应对垃圾问题的简单办法。",
+    "w": [
+     {
+      "h": "reciclaje",
+      "pos": "m.",
+      "zh": "回收利用",
+      "surface": "reciclaje",
+      "source": "supplement"
+     },
+     {
+      "h": "soler + inf.",
+      "pos": "loc.",
+      "zh": "通常，往往",
+      "surface": "suele",
+      "source": "supplement"
+     },
+     {
+      "h": "presentarse como",
+      "pos": "loc.",
+      "zh": "被说成，被看作",
+      "surface": "presentarse como",
+      "source": "supplement"
+     },
+     {
+      "h": "residuo",
+      "pos": "m.",
+      "zh": "垃圾，废弃物",
+      "surface": "residuos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aunque resulta necesario, no basta para reducir el impacto ambiental del consumo.",
+    "zh": "回收虽然必要，但并不足以减少消费对环境造成的影响。",
+    "w": [
+     {
+      "h": "resultar",
+      "pos": "intr.",
+      "zh": "显得，是",
+      "surface": "resulta",
+      "source": "supplement"
+     },
+     {
+      "h": "bastar para + inf.",
+      "pos": "loc.",
+      "zh": "足以（做某事）",
+      "surface": "basta para",
+      "source": "supplement"
+     },
+     {
+      "h": "impacto ambiental",
+      "pos": "m.",
+      "zh": "环境影响",
+      "surface": "impacto ambiental",
+      "source": "supplement"
+     },
+     {
+      "h": "consumo",
+      "pos": "m.",
+      "zh": "消费",
+      "surface": "consumo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Reciclar requiere energía, transporte e instalaciones, y algunos materiales no pueden reutilizarse indefinidamente.",
+    "zh": "回收本身需要能源、运输和设施，而且有些材料无法无限次地重复利用。",
+    "w": [
+     {
+      "h": "requerir",
+      "pos": "tr.",
+      "zh": "需要，要求",
+      "surface": "requiere",
+      "source": "supplement"
+     },
+     {
+      "h": "instalación",
+      "pos": "f.",
+      "zh": "设施，设备",
+      "surface": "instalaciones",
+      "source": "supplement"
+     },
+     {
+      "h": "reutilizarse",
+      "pos": "prnl.",
+      "zh": "被重复利用",
+      "surface": "reutilizarse",
+      "source": "supplement"
+     },
+     {
+      "h": "indefinidamente",
+      "pos": "adv.",
+      "zh": "无限地，无限期地",
+      "surface": "indefinidamente",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por eso, conviene priorizar la reducción de residuos, la reparación y la reutilización de productos.",
+    "zh": "因此，应当优先做到减少垃圾、维修物品和重复使用产品。",
+    "w": [
+     {
+      "h": "convenir",
+      "pos": "intr.",
+      "zh": "宜，最好（做某事）",
+      "surface": "conviene",
+      "source": "supplement"
+     },
+     {
+      "h": "priorizar",
+      "pos": "tr.",
+      "zh": "优先考虑",
+      "surface": "priorizar",
+      "source": "supplement"
+     },
+     {
+      "h": "reparación",
+      "pos": "f.",
+      "zh": "修理，维修",
+      "surface": "reparación",
+      "source": "supplement"
+     },
+     {
+      "h": "reutilización",
+      "pos": "f.",
+      "zh": "再利用，重复使用",
+      "surface": "reutilización",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Las empresas pueden diseñar envases más duraderos, y las administraciones pueden facilitar sistemas de devolución y recogida.",
+    "zh": "企业可以设计更耐用的包装，而政府部门可以为退还和回收体系提供便利。",
+    "w": [
+     {
+      "h": "envase",
+      "pos": "m.",
+      "zh": "包装，容器",
+      "surface": "envases",
+      "source": "supplement"
+     },
+     {
+      "h": "duradero",
+      "pos": "adj.",
+      "zh": "耐用的，持久的",
+      "surface": "duraderos",
+      "source": "supplement"
+     },
+     {
+      "h": "administración",
+      "pos": "f.",
+      "zh": "政府部门，行政机关",
+      "surface": "administraciones",
+      "source": "supplement"
+     },
+     {
+      "h": "devolución",
+      "pos": "f.",
+      "zh": "退还，返还",
+      "surface": "devolución",
+      "source": "supplement"
+     },
+     {
+      "h": "recogida",
+      "pos": "f.",
+      "zh": "收集，回收",
+      "surface": "recogida",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La responsabilidad individual importa, pero será más eficaz si forma parte de una transformación más amplia de la producción y el consumo.",
+    "zh": "个人责任固然重要，但如果它能成为生产和消费领域更广泛变革的一部分，就会更加有效。",
+    "w": [
+     {
+      "h": "importar",
+      "pos": "intr.",
+      "zh": "重要，要紧",
+      "surface": "importa",
+      "source": "supplement"
+     },
+     {
+      "h": "eficaz",
+      "pos": "adj.",
+      "zh": "有效的，有成效的",
+      "surface": "eficaz",
+      "source": "supplement"
+     },
+     {
+      "h": "formar parte de",
+      "pos": "loc.",
+      "zh": "是……的一部分",
+      "surface": "forma parte de",
+      "source": "supplement"
+     },
+     {
+      "h": "amplio",
+      "pos": "adj.",
+      "zh": "广泛的，宽广的",
+      "surface": "amplia",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

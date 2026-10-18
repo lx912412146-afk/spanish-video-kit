@@ -1,0 +1,222 @@
+{
+ "id": "c1_04",
+ "level": "C1",
+ "no": 4,
+ "title_es": "El idioma y la identidad",
+ "title_zh": "语言与身份认同",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 4 篇",
+ "header": "分级阅读 C1-04",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 4 篇《El idioma y la identidad 语言与身份认同》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。特别判断：第 4 句 más bien 承接否定，译作“更确切地说”；al ofrecer 的 al + inf. 表方式，译作“通过”；第 5 句 preguntar, revisar… y aprender… 是并列的不定式短语，按四级规则照常停顿；competencia 在此是“能力”（不是“竞争”）。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 2 句「convenciones sociales,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Aprender una lengua extranjera implica mucho más que memorizar vocabulario y dominar estructuras gramaticales.",
+    "zh": "学习一门外语所涉及的，远不止背单词、掌握语法结构。",
+    "w": [
+     {
+      "h": "lengua extranjera",
+      "pos": "f.",
+      "zh": "外语",
+      "surface": "lengua extranjera",
+      "source": "supplement"
+     },
+     {
+      "h": "implicar",
+      "pos": "tr.",
+      "zh": "意味着，涉及",
+      "surface": "implica",
+      "source": "supplement"
+     },
+     {
+      "h": "mucho más que",
+      "pos": "loc.",
+      "zh": "远不止",
+      "surface": "mucho más que",
+      "source": "supplement"
+     },
+     {
+      "h": "dominar",
+      "pos": "tr.",
+      "zh": "掌握，精通",
+      "surface": "dominar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También supone entrar en contacto con convenciones sociales, referencias culturales y maneras particulares de organizar la experiencia.",
+    "zh": "它还意味着接触种种社会惯例、文化典故，以及组织经验的独特方式。",
+    "w": [
+     {
+      "h": "suponer",
+      "pos": "tr.",
+      "zh": "意味着",
+      "surface": "supone",
+      "source": "supplement"
+     },
+     {
+      "h": "entrar en contacto con",
+      "pos": "loc.",
+      "zh": "接触",
+      "surface": "entrar en contacto con",
+      "source": "supplement"
+     },
+     {
+      "h": "convención",
+      "pos": "f.",
+      "zh": "惯例，常规",
+      "surface": "convenciones",
+      "source": "supplement"
+     },
+     {
+      "h": "referencia cultural",
+      "pos": "f.",
+      "zh": "文化典故，文化参照",
+      "surface": "referencias culturales",
+      "source": "supplement"
+     },
+     {
+      "h": "particular",
+      "pos": "adj.",
+      "zh": "特有的，独特的",
+      "surface": "particulares",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Quien aprende otro idioma puede descubrir que ciertas ideas se expresan con matices difíciles de traducir, o que una misma frase adquiere significados distintos según el contexto.",
+    "zh": "学习另一门语言的人可能会发现，某些想法在表达时带有难以翻译的细微差别，或者同一句话会因语境不同而产生不同的含义。",
+    "w": [
+     {
+      "h": "quien",
+      "pos": "pron.",
+      "zh": "（泛指）……的人",
+      "surface": "Quien",
+      "source": "supplement"
+     },
+     {
+      "h": "cierto",
+      "pos": "adj.",
+      "zh": "（前置）某些",
+      "surface": "ciertas",
+      "source": "supplement"
+     },
+     {
+      "h": "matiz",
+      "pos": "m.",
+      "zh": "细微差别",
+      "surface": "matices",
+      "source": "supplement"
+     },
+     {
+      "h": "difícil de + inf.",
+      "pos": "loc.",
+      "zh": "难以……的",
+      "surface": "difíciles de",
+      "source": "supplement"
+     },
+     {
+      "h": "adquirir",
+      "pos": "tr.",
+      "zh": "获得，具有",
+      "surface": "adquiere",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Este proceso no obliga a abandonar la identidad propia; más bien, puede ampliarla al ofrecer nuevas perspectivas.",
+    "zh": "这一过程并不迫使人放弃自身的身份认同；更确切地说，它能通过提供新的视角来拓展这种认同。",
+    "w": [
+     {
+      "h": "obligar a + inf.",
+      "pos": "loc.",
+      "zh": "迫使（做某事）",
+      "surface": "obliga a",
+      "source": "supplement"
+     },
+     {
+      "h": "propio",
+      "pos": "adj.",
+      "zh": "（后置）自己的",
+      "surface": "propia",
+      "source": "supplement"
+     },
+     {
+      "h": "más bien",
+      "pos": "loc.",
+      "zh": "更确切地说，而是",
+      "surface": "más bien",
+      "source": "supplement"
+     },
+     {
+      "h": "ampliar",
+      "pos": "tr.",
+      "zh": "扩大，拓展",
+      "surface": "ampliarla",
+      "source": "supplement"
+     },
+     {
+      "h": "al + inf.",
+      "pos": "loc.",
+      "zh": "通过……；在……时",
+      "surface": "al ofrecer",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La competencia intercultural surge cuando el hablante acepta la posibilidad de interpretar mal una situación y está dispuesto a preguntar, revisar sus suposiciones y aprender de la interacción.",
+    "zh": "当说话者接受自己有可能误解某个情境，并愿意提问、反思自己的预设、从互动中学习时，跨文化能力便由此产生。",
+    "w": [
+     {
+      "h": "competencia intercultural",
+      "pos": "f.",
+      "zh": "跨文化能力",
+      "surface": "competencia intercultural",
+      "source": "supplement"
+     },
+     {
+      "h": "surgir",
+      "pos": "intr.",
+      "zh": "产生，出现",
+      "surface": "surge",
+      "source": "supplement"
+     },
+     {
+      "h": "interpretar mal",
+      "pos": "loc.",
+      "zh": "误解，曲解",
+      "surface": "interpretar mal",
+      "source": "supplement"
+     },
+     {
+      "h": "estar dispuesto a",
+      "pos": "loc.",
+      "zh": "愿意（做某事）",
+      "surface": "está dispuesto a",
+      "source": "supplement"
+     },
+     {
+      "h": "suposición",
+      "pos": "f.",
+      "zh": "假设，预设",
+      "surface": "suposiciones",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

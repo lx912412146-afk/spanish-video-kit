@@ -101,7 +101,8 @@ def vocab_html(s):
 
 
 def head(p):
-    return f'每日一练 · <i lang="es" style="font-family:\'EB Garamond\'">{esc(p["title_es"])}</i>　{esc(p["title_zh"])}'
+    return (f'{esc(p.get("header") or "每日一练")} · <i lang="es" style="font-family:\'EB Garamond\'">{esc(p["title_es"])}</i>'
+            f'　{esc(p["title_zh"])}')
 
 
 def words(p):
@@ -164,6 +165,9 @@ def buzz_check(mp4, times):
 
 
 def video_name(p):
+    if p.get('level') and p.get('no'):                 # 分级阅读：按等级、篇号排序；: ? 换成全角（Windows 文件名不能有）
+        t = f'{p["title_es"]} {p["title_zh"]}'.translate(str.maketrans({':': '：', '?': '？'}))
+        return f'西班牙语分级阅读 {p["level"]}-{p["no"]:02d} {t}.mp4'
     return f'西班牙语 每日一练 {p["title_es"]} {p["title_zh"]}.mp4'
 
 
@@ -177,9 +181,13 @@ def main():
     ap.add_argument('--name', help='输出文件名（默认「西班牙语 每日一练 标题.mp4」）')
     ap.add_argument('--stills', action='store_true', help='只截图（写到 --out），不编码视频')
     ap.add_argument('--draft', action='store_true', help='草稿：核查不通过也保留成品（只打印问题）')
+    ap.add_argument('--print-name', action='store_true', help='只打印默认的输出文件名（批量脚本用）')
     a = ap.parse_args()
 
     p = load(a.pid)
+    if a.print_name:
+        print(a.name or video_name(p))
+        return
     sents = [s for para in p['paras'] for s in para]
     free = shutil.disk_usage(ES).free / 2**30
     if free < 3:                                    # 踩坑 29

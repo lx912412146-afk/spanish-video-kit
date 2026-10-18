@@ -1,0 +1,305 @@
+{
+ "id": "a2_09",
+ "level": "A2",
+ "no": 9,
+ "title_es": "Un día sin móvil",
+ "title_zh": "没有手机的一天",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 9 篇",
+ "header": "分级阅读 A2-09",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 9 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：第 3 句 había visto 是过去完成时（visto 为不规则过去分词），词头写 ver；librería 是假朋友（书店，不是图书馆），释义里注明；banco 取“长椅”义并注明也指银行；teléfono de casa 译“座机”；第 7 句 pero sí 是强调肯定（“但确实要”）；utilizar 在第 1 句已列，第 7 句的 utilizarlo 不再列，改列同义词 usar。no_pause_commas：无（porque、pero 前和句首状语后的逗号照常停顿）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "El sábado pasado decidí pasar un día sin utilizar el móvil.",
+    "zh": "上周六，我决定一整天都不用手机。",
+    "w": [
+     {
+      "h": "el sábado pasado",
+      "pos": "loc.",
+      "zh": "上周六",
+      "surface": "El sábado pasado",
+      "source": "supplement"
+     },
+     {
+      "h": "decidir",
+      "pos": "tr.",
+      "zh": "决定",
+      "surface": "decidí",
+      "source": "supplement"
+     },
+     {
+      "h": "sin",
+      "pos": "prep.",
+      "zh": "没有，不（+inf.）",
+      "surface": "sin",
+      "source": "supplement"
+     },
+     {
+      "h": "utilizar",
+      "pos": "tr.",
+      "zh": "使用，利用",
+      "surface": "utilizar",
+      "source": "supplement"
+     },
+     {
+      "h": "móvil",
+      "pos": "m.",
+      "zh": "手机",
+      "surface": "móvil",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Al principio fue extraño, porque normalmente miro los mensajes nada más levantarme.",
+    "zh": "一开始感觉很奇怪，因为我平时一起床就看消息。",
+    "w": [
+     {
+      "h": "al principio",
+      "pos": "loc.",
+      "zh": "起初，一开始",
+      "surface": "Al principio",
+      "source": "supplement"
+     },
+     {
+      "h": "extraño",
+      "pos": "adj.",
+      "zh": "奇怪的",
+      "surface": "extraño",
+      "source": "supplement"
+     },
+     {
+      "h": "mensaje",
+      "pos": "m.",
+      "zh": "消息，短信",
+      "surface": "mensajes",
+      "source": "supplement"
+     },
+     {
+      "h": "nada más + inf.",
+      "pos": "loc.",
+      "zh": "一……就……",
+      "surface": "nada más",
+      "source": "supplement"
+     },
+     {
+      "h": "levantarse",
+      "pos": "prnl.",
+      "zh": "起床",
+      "surface": "levantarme",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Después de desayunar, salí a caminar y descubrí una librería que nunca había visto.",
+    "zh": "吃完早饭后，我出去散步，发现了一家以前从没见过的书店。",
+    "w": [
+     {
+      "h": "después de + inf.",
+      "pos": "loc.",
+      "zh": "（做完）……之后",
+      "surface": "Después de",
+      "source": "supplement"
+     },
+     {
+      "h": "salir a + inf.",
+      "pos": "loc.",
+      "zh": "出去（做某事）",
+      "surface": "salí a",
+      "source": "supplement"
+     },
+     {
+      "h": "descubrir",
+      "pos": "tr.",
+      "zh": "发现",
+      "surface": "descubrí",
+      "source": "supplement"
+     },
+     {
+      "h": "librería",
+      "pos": "f.",
+      "zh": "书店（≠图书馆）",
+      "surface": "librería",
+      "source": "supplement"
+     },
+     {
+      "h": "ver",
+      "pos": "tr.",
+      "zh": "看见，见过",
+      "surface": "había visto",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Compré una novela y leí varias páginas en un banco del parque.",
+    "zh": "我买了一本小说，在公园的长椅上读了好几页。",
+    "w": [
+     {
+      "h": "comprar",
+      "pos": "tr.",
+      "zh": "买",
+      "surface": "Compré",
+      "source": "supplement"
+     },
+     {
+      "h": "novela",
+      "pos": "f.",
+      "zh": "小说",
+      "surface": "novela",
+      "source": "supplement"
+     },
+     {
+      "h": "leer",
+      "pos": "tr.",
+      "zh": "读，阅读",
+      "surface": "leí",
+      "source": "supplement"
+     },
+     {
+      "h": "varios",
+      "pos": "adj.",
+      "zh": "好几个，若干",
+      "surface": "varias",
+      "source": "supplement"
+     },
+     {
+      "h": "banco",
+      "pos": "m.",
+      "zh": "长椅（也指银行）",
+      "surface": "banco",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la tarde cociné una receta nueva y llamé a un amigo desde el teléfono de casa.",
+    "zh": "下午，我照着一份新食谱做了菜，还用家里的座机给一个朋友打了电话。",
+    "w": [
+     {
+      "h": "por la tarde",
+      "pos": "loc.",
+      "zh": "下午",
+      "surface": "Por la tarde",
+      "source": "supplement"
+     },
+     {
+      "h": "cocinar",
+      "pos": "tr.",
+      "zh": "烹饪，做（菜）",
+      "surface": "cociné",
+      "source": "supplement"
+     },
+     {
+      "h": "receta",
+      "pos": "f.",
+      "zh": "食谱，菜谱",
+      "surface": "receta",
+      "source": "supplement"
+     },
+     {
+      "h": "llamar a",
+      "pos": "loc.",
+      "zh": "给……打电话",
+      "surface": "llamé a",
+      "source": "supplement"
+     },
+     {
+      "h": "teléfono de casa",
+      "pos": "m.",
+      "zh": "座机，家庭电话",
+      "surface": "teléfono de casa",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Me di cuenta de que tenía más tiempo y estaba menos distraído.",
+    "zh": "我发现自己有了更多时间，也没那么分心了。",
+    "w": [
+     {
+      "h": "darse cuenta de",
+      "pos": "loc.",
+      "zh": "意识到，发觉",
+      "surface": "Me di cuenta de",
+      "source": "supplement"
+     },
+     {
+      "h": "tener",
+      "pos": "tr.",
+      "zh": "有",
+      "surface": "tenía",
+      "source": "supplement"
+     },
+     {
+      "h": "menos",
+      "pos": "adv.",
+      "zh": "更少，较少",
+      "surface": "menos",
+      "source": "supplement"
+     },
+     {
+      "h": "distraído",
+      "pos": "adj.",
+      "zh": "分心的，心不在焉的",
+      "surface": "distraído",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No quiero dejar de usar el móvil, pero sí utilizarlo de forma más consciente.",
+    "zh": "我并不想停止使用手机，但确实想更有意识地使用它。",
+    "w": [
+     {
+      "h": "dejar de + inf.",
+      "pos": "loc.",
+      "zh": "停止（做某事）",
+      "surface": "dejar de",
+      "source": "supplement"
+     },
+     {
+      "h": "usar",
+      "pos": "tr.",
+      "zh": "使用，用",
+      "surface": "usar",
+      "source": "supplement"
+     },
+     {
+      "h": "pero sí",
+      "pos": "loc.",
+      "zh": "但确实（要）",
+      "surface": "pero sí",
+      "source": "supplement"
+     },
+     {
+      "h": "de forma + adj.",
+      "pos": "loc.",
+      "zh": "以……的方式",
+      "surface": "de forma",
+      "source": "supplement"
+     },
+     {
+      "h": "consciente",
+      "pos": "adj.",
+      "zh": "有意识的，清醒的",
+      "surface": "consciente",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "id": "a1_06",
+ "level": "A1",
+ "no": 6,
+ "title_es": "Un fin de semana",
+ "title_zh": "一个周末",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 6 篇",
+ "header": "分级阅读 A1-06",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 6 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：第 3 句 Max 译作“马克斯”，“mi perro, Max” 是同位语，逗号照常停顿；第 5 句 hermana 原文没说长幼，暂译“姐姐”，abuelos 按口语译作“爷爷奶奶”；第 6 句 horario 结合第 1 句的上课，译作“课表”。第 1 句 tener que 和第 7 句 tener tiempo de 是两个不同的固定搭配，分别列出。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "El sábado me despierto tarde porque no tengo que ir a clase.",
+    "zh": "星期六我起得很晚，因为不用去上课。",
+    "w": [
+     {
+      "h": "sábado",
+      "pos": "m.",
+      "zh": "星期六",
+      "surface": "sábado",
+      "source": "supplement"
+     },
+     {
+      "h": "despertarse",
+      "pos": "prnl.",
+      "zh": "醒来",
+      "surface": "me despierto",
+      "source": "supplement"
+     },
+     {
+      "h": "tarde",
+      "pos": "adv.",
+      "zh": "晚，迟",
+      "surface": "tarde",
+      "source": "supplement"
+     },
+     {
+      "h": "tener que + inf.",
+      "pos": "loc.",
+      "zh": "必须，得（做某事）",
+      "surface": "tengo que",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Desayuno tranquilamente y limpio mi habitación.",
+    "zh": "我悠闲地吃完早饭，然后打扫自己的房间。",
+    "w": [
+     {
+      "h": "desayunar",
+      "pos": "intr.",
+      "zh": "吃早饭",
+      "surface": "Desayuno",
+      "source": "supplement"
+     },
+     {
+      "h": "tranquilamente",
+      "pos": "adv.",
+      "zh": "从容地，悠闲地",
+      "surface": "tranquilamente",
+      "source": "supplement"
+     },
+     {
+      "h": "limpiar",
+      "pos": "tr.",
+      "zh": "打扫，清洁",
+      "surface": "limpio",
+      "source": "supplement"
+     },
+     {
+      "h": "habitación",
+      "pos": "f.",
+      "zh": "房间，卧室",
+      "surface": "habitación",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la tarde voy al parque con mi perro, Max.",
+    "zh": "下午我带着我的狗马克斯去公园。",
+    "w": [
+     {
+      "h": "por la tarde",
+      "pos": "loc.",
+      "zh": "下午",
+      "surface": "Por la tarde",
+      "source": "supplement"
+     },
+     {
+      "h": "ir a",
+      "pos": "loc.",
+      "zh": "去（某地）；al = a + el",
+      "surface": "voy al",
+      "source": "supplement"
+     },
+     {
+      "h": "parque",
+      "pos": "m.",
+      "zh": "公园",
+      "surface": "parque",
+      "source": "supplement"
+     },
+     {
+      "h": "perro",
+      "pos": "m.",
+      "zh": "狗",
+      "surface": "perro",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Después quedo con unos amigos para tomar algo.",
+    "zh": "之后我约几个朋友去喝点东西。",
+    "w": [
+     {
+      "h": "después",
+      "pos": "adv.",
+      "zh": "然后，之后",
+      "surface": "Después",
+      "source": "supplement"
+     },
+     {
+      "h": "quedar con",
+      "pos": "loc.",
+      "zh": "和（某人）约见面",
+      "surface": "quedo con",
+      "source": "supplement"
+     },
+     {
+      "h": "amigo",
+      "pos": "m.",
+      "zh": "朋友",
+      "surface": "amigos",
+      "source": "supplement"
+     },
+     {
+      "h": "tomar algo",
+      "pos": "loc.",
+      "zh": "喝点东西",
+      "surface": "tomar algo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El domingo cocino con mi hermana y llamo a mis abuelos.",
+    "zh": "星期天我和姐姐一起做饭，还给爷爷奶奶打电话。",
+    "w": [
+     {
+      "h": "domingo",
+      "pos": "m.",
+      "zh": "星期天",
+      "surface": "domingo",
+      "source": "supplement"
+     },
+     {
+      "h": "cocinar",
+      "pos": "intr.",
+      "zh": "做饭",
+      "surface": "cocino",
+      "source": "supplement"
+     },
+     {
+      "h": "hermana",
+      "pos": "f.",
+      "zh": "姐妹；这里指姐姐",
+      "surface": "hermana",
+      "source": "supplement"
+     },
+     {
+      "h": "llamar",
+      "pos": "tr.",
+      "zh": "给……打电话",
+      "surface": "llamo",
+      "source": "supplement"
+     },
+     {
+      "h": "abuelo",
+      "pos": "m.",
+      "zh": "祖父；（复数）祖父母",
+      "surface": "abuelos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la noche preparo la mochila y miro el horario de la semana.",
+    "zh": "晚上我收拾好书包，看看这一周的课表。",
+    "w": [
+     {
+      "h": "por la noche",
+      "pos": "loc.",
+      "zh": "晚上",
+      "surface": "Por la noche",
+      "source": "supplement"
+     },
+     {
+      "h": "preparar",
+      "pos": "tr.",
+      "zh": "准备，收拾",
+      "surface": "preparo",
+      "source": "supplement"
+     },
+     {
+      "h": "mochila",
+      "pos": "f.",
+      "zh": "书包，背包",
+      "surface": "mochila",
+      "source": "supplement"
+     },
+     {
+      "h": "mirar",
+      "pos": "tr.",
+      "zh": "看，查看",
+      "surface": "miro",
+      "source": "supplement"
+     },
+     {
+      "h": "horario",
+      "pos": "m.",
+      "zh": "课表，时间表",
+      "surface": "horario",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Me gustan los fines de semana porque puedo descansar y hacer cosas que normalmente no tengo tiempo de hacer.",
+    "zh": "我喜欢周末，因为我可以休息，还能做一些平时没时间做的事情。",
+    "w": [
+     {
+      "h": "me gustan",
+      "pos": "loc.",
+      "zh": "我喜欢（复数事物）",
+      "surface": "Me gustan",
+      "source": "supplement"
+     },
+     {
+      "h": "fin de semana",
+      "pos": "m.",
+      "zh": "周末",
+      "surface": "fines de semana",
+      "source": "supplement"
+     },
+     {
+      "h": "poder",
+      "pos": "tr.",
+      "zh": "能，可以",
+      "surface": "puedo",
+      "source": "supplement"
+     },
+     {
+      "h": "descansar",
+      "pos": "intr.",
+      "zh": "休息",
+      "surface": "descansar",
+      "source": "supplement"
+     },
+     {
+      "h": "tener tiempo de + inf.",
+      "pos": "loc.",
+      "zh": "有时间做某事",
+      "surface": "tengo tiempo de",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

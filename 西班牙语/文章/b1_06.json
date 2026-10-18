@@ -1,0 +1,215 @@
+{
+ "id": "b1_06",
+ "level": "B1",
+ "no": 6,
+ "title_es": "Estudiar en grupo",
+ "title_zh": "小组学习",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 6 篇",
+ "header": "分级阅读 B1-06",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 6 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 3 句 reunión 指小组碰头讨论，译作“小组讨论”；una sola persona 的 sola 前置，意思是“唯一的”，单列 solo adj.；第 2、4 句的 para que、consistir en que 后接虚拟式，释义里注明；第 5 句 no solo…sino que 以 sino que 为标注位置。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "5": [
+   {
+    "after": "a escuchar,",
+    "why": "列举：aprende a escuchar, argumentar y colaborar（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Estudiar con otras personas puede mejorar la comprensión de una materia, ya que cada estudiante aporta conocimientos y maneras distintas de explicar los conceptos.",
+    "zh": "和别人一起学习可以加深对一门学科的理解，因为每个学生都会带来自己的知识和不同的讲解方式。",
+    "w": [
+     {
+      "h": "materia",
+      "pos": "f.",
+      "zh": "科目，学科",
+      "surface": "materia",
+      "source": "supplement"
+     },
+     {
+      "h": "ya que",
+      "pos": "loc.",
+      "zh": "因为，既然",
+      "surface": "ya que",
+      "source": "supplement"
+     },
+     {
+      "h": "aportar",
+      "pos": "tr.",
+      "zh": "贡献，带来",
+      "surface": "aporta",
+      "source": "supplement"
+     },
+     {
+      "h": "conocimiento",
+      "pos": "m.",
+      "zh": "知识",
+      "surface": "conocimientos",
+      "source": "supplement"
+     },
+     {
+      "h": "distinto",
+      "pos": "adj.",
+      "zh": "不同的",
+      "surface": "distintas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, para que el grupo funcione, es necesario establecer objetivos y repartir las tareas.",
+    "zh": "不过，要让小组有效运作，就必须确立目标、分配任务。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "para que",
+      "pos": "loc.",
+      "zh": "为了，以便（+虚拟式）",
+      "surface": "para que",
+      "source": "supplement"
+     },
+     {
+      "h": "funcionar",
+      "pos": "intr.",
+      "zh": "运转（此为虚拟式）",
+      "surface": "funcione",
+      "source": "supplement"
+     },
+     {
+      "h": "repartir",
+      "pos": "tr.",
+      "zh": "分配",
+      "surface": "repartir",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Si todos hablan al mismo tiempo o una sola persona hace todo el trabajo, la reunión pierde eficacia.",
+    "zh": "如果大家同时说话，或者只有一个人包揽全部工作，小组讨论就会失去效率。",
+    "w": [
+     {
+      "h": "al mismo tiempo",
+      "pos": "loc.",
+      "zh": "同时",
+      "surface": "al mismo tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "solo",
+      "pos": "adj.",
+      "zh": "唯一的，单独的",
+      "surface": "sola",
+      "source": "supplement"
+     },
+     {
+      "h": "reunión",
+      "pos": "f.",
+      "zh": "碰头，聚会",
+      "surface": "reunión",
+      "source": "supplement"
+     },
+     {
+      "h": "perder eficacia",
+      "pos": "loc.",
+      "zh": "失去效果",
+      "surface": "pierde eficacia",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Una buena estrategia consiste en que cada miembro prepare una parte y después la explique a los demás.",
+    "zh": "一个好办法是：每个成员各准备一部分，然后讲给其他人听。",
+    "w": [
+     {
+      "h": "consistir en que",
+      "pos": "loc.",
+      "zh": "在于（+虚拟式）",
+      "surface": "consiste en que",
+      "source": "supplement"
+     },
+     {
+      "h": "miembro",
+      "pos": "m.",
+      "zh": "成员",
+      "surface": "miembro",
+      "source": "supplement"
+     },
+     {
+      "h": "explicar",
+      "pos": "tr.",
+      "zh": "讲解（la 指那部分）",
+      "surface": "la explique",
+      "source": "supplement"
+     },
+     {
+      "h": "los demás",
+      "pos": "pron.",
+      "zh": "其他人，别人",
+      "surface": "los demás",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "De esta manera, el grupo no solo repasa información, sino que aprende a escuchar, argumentar y colaborar.",
+    "zh": "这样一来，小组不仅能复习知识，还能学会倾听、论证与合作。",
+    "w": [
+     {
+      "h": "de esta manera",
+      "pos": "loc.",
+      "zh": "这样一来",
+      "surface": "De esta manera",
+      "source": "supplement"
+     },
+     {
+      "h": "repasar",
+      "pos": "tr.",
+      "zh": "复习",
+      "surface": "repasa",
+      "source": "supplement"
+     },
+     {
+      "h": "no solo…sino que",
+      "pos": "loc.",
+      "zh": "不仅……而且……",
+      "surface": "sino que",
+      "source": "supplement"
+     },
+     {
+      "h": "aprender a + inf.",
+      "pos": "loc.",
+      "zh": "学会做某事",
+      "surface": "aprende a",
+      "source": "supplement"
+     },
+     {
+      "h": "argumentar",
+      "pos": "intr.",
+      "zh": "论证，说理",
+      "surface": "argumentar",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

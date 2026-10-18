@@ -1,0 +1,213 @@
+{
+ "id": "c1_02",
+ "level": "C1",
+ "no": 2,
+ "title_es": "La paradoja de la conectividad",
+ "title_zh": "互联互通的悖论",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 2 篇",
+ "header": "分级阅读 C1-02",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 2 篇《La paradoja de la conectividad 互联互通的悖论》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。特别判断：第 1 句 Nunca había sido tan 作为过去完成时结构整体列出（从未如此……过）；第 5 句 depender menos de… que de… 译作“与其说取决于……不如说取决于……”；disponibilidad mutua 指彼此随时能为对方腾出时间、作出回应，意译为“彼此的随时相伴”。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 5 句「la atención,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Nunca había sido tan sencillo comunicarse con alguien que vive a miles de kilómetros; sin embargo, la facilidad de contacto no garantiza la profundidad de los vínculos.",
+    "zh": "与远在数千公里之外的人沟通，从未像今天这样简单；然而，联系的便利并不能保证关系的深度。",
+    "w": [
+     {
+      "h": "nunca había sido tan + adj.",
+      "pos": "loc.",
+      "zh": "从未如此……过",
+      "surface": "Nunca había sido tan",
+      "source": "supplement"
+     },
+     {
+      "h": "a miles de kilómetros",
+      "pos": "loc.",
+      "zh": "在数千公里之外",
+      "surface": "a miles de kilómetros",
+      "source": "supplement"
+     },
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而",
+      "surface": "sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "facilidad",
+      "pos": "f.",
+      "zh": "容易，便利",
+      "surface": "facilidad",
+      "source": "supplement"
+     },
+     {
+      "h": "vínculo",
+      "pos": "m.",
+      "zh": "纽带，（人际）关系",
+      "surface": "vínculos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La comunicación digital permite mantener relaciones valiosas, especialmente cuando la distancia impide los encuentros frecuentes.",
+    "zh": "数字通信让人们得以维系珍贵的关系，尤其是在距离使人难以经常见面的时候。",
+    "w": [
+     {
+      "h": "mantener",
+      "pos": "tr.",
+      "zh": "维持，维系",
+      "surface": "mantener",
+      "source": "supplement"
+     },
+     {
+      "h": "valioso",
+      "pos": "adj.",
+      "zh": "宝贵的，珍贵的",
+      "surface": "valiosas",
+      "source": "supplement"
+     },
+     {
+      "h": "impedir",
+      "pos": "tr.",
+      "zh": "阻碍，使无法",
+      "surface": "impide",
+      "source": "supplement"
+     },
+     {
+      "h": "encuentro",
+      "pos": "m.",
+      "zh": "见面，相聚",
+      "surface": "encuentros",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Al mismo tiempo, la abundancia de interacciones puede crear una ilusión de cercanía que no siempre se traduce en apoyo real.",
+    "zh": "与此同时，大量的互动可能营造出一种亲近的错觉，而这种错觉并不总能转化为真正的支持。",
+    "w": [
+     {
+      "h": "al mismo tiempo",
+      "pos": "loc.",
+      "zh": "与此同时",
+      "surface": "Al mismo tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "abundancia",
+      "pos": "f.",
+      "zh": "大量，丰富",
+      "surface": "abundancia",
+      "source": "supplement"
+     },
+     {
+      "h": "ilusión",
+      "pos": "f.",
+      "zh": "错觉，幻觉",
+      "surface": "ilusión",
+      "source": "supplement"
+     },
+     {
+      "h": "cercanía",
+      "pos": "f.",
+      "zh": "亲近，接近",
+      "surface": "cercanía",
+      "source": "supplement"
+     },
+     {
+      "h": "traducirse en",
+      "pos": "loc.",
+      "zh": "转化为，体现为",
+      "surface": "se traduce en",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La cuestión no consiste en idealizar el pasado ni en rechazar las nuevas tecnologías, sino en reconocer que cada medio favorece determinadas formas de relación.",
+    "zh": "问题的关键不在于美化过去，也不在于排斥新技术，而在于认识到每一种媒介都有利于某些特定的关系形式。",
+    "w": [
+     {
+      "h": "consistir en",
+      "pos": "loc.",
+      "zh": "在于",
+      "surface": "consiste en",
+      "source": "supplement"
+     },
+     {
+      "h": "rechazar",
+      "pos": "tr.",
+      "zh": "拒绝，排斥",
+      "surface": "rechazar",
+      "source": "supplement"
+     },
+     {
+      "h": "medio",
+      "pos": "m.",
+      "zh": "媒介，手段",
+      "surface": "medio",
+      "source": "supplement"
+     },
+     {
+      "h": "favorecer",
+      "pos": "tr.",
+      "zh": "有利于，促成",
+      "surface": "favorece",
+      "source": "supplement"
+     },
+     {
+      "h": "determinado",
+      "pos": "adj.",
+      "zh": "（前置）某些，特定的",
+      "surface": "determinadas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La calidad de un vínculo depende menos de la cantidad de mensajes que de la atención, la confianza y la disponibilidad mutua que lo sostienen.",
+    "zh": "一段关系的质量，与其说取决于消息的多少，不如说取决于维系它的关注、信任和彼此的随时相伴。",
+    "w": [
+     {
+      "h": "depender menos de… que de…",
+      "pos": "loc.",
+      "zh": "与其说取决于…不如说…",
+      "surface": "depende menos de",
+      "source": "supplement"
+     },
+     {
+      "h": "disponibilidad",
+      "pos": "f.",
+      "zh": "随时相伴，有空",
+      "surface": "disponibilidad",
+      "source": "supplement"
+     },
+     {
+      "h": "mutuo",
+      "pos": "adj.",
+      "zh": "相互的",
+      "surface": "mutua",
+      "source": "supplement"
+     },
+     {
+      "h": "sostener",
+      "pos": "tr.",
+      "zh": "支撑，维系",
+      "surface": "sostienen",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

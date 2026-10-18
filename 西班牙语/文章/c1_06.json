@@ -1,0 +1,208 @@
+{
+ "id": "c1_06",
+ "level": "C1",
+ "no": 6,
+ "title_es": "La memoria colectiva y sus silencios",
+ "title_zh": "集体记忆及其沉默",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 6 篇",
+ "header": "分级阅读 C1-06",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 6 篇《La memoria colectiva y sus silencios 集体记忆及其沉默》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。特别判断：第 2 句 que determinan 的先行词理解为前面列举的全部因素（语法上也可只指 decisiones políticas），译文按前者处理；第 4 句 sustituir A por B 是“用 B 取代 A”，注意方向；第 4 句 ampliar…, reconocer… y diferenciar… 是并列的不定式短语，按四级规则照常停顿；第 5 句较短，只列 4 个。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 2 句「relatos familiares,」；第 2 句「monumentos,」；第 2 句「celebraciones,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "La memoria colectiva no es un archivo neutral en el que todos los acontecimientos ocupan el mismo lugar.",
+    "zh": "集体记忆并不是一座让所有事件都占据同等位置的中立档案馆。",
+    "w": [
+     {
+      "h": "memoria colectiva",
+      "pos": "f.",
+      "zh": "集体记忆",
+      "surface": "memoria colectiva",
+      "source": "supplement"
+     },
+     {
+      "h": "archivo",
+      "pos": "m.",
+      "zh": "档案（馆）",
+      "surface": "archivo",
+      "source": "supplement"
+     },
+     {
+      "h": "en el que",
+      "pos": "loc.",
+      "zh": "在其中（关系从句）",
+      "surface": "en el que",
+      "source": "supplement"
+     },
+     {
+      "h": "acontecimiento",
+      "pos": "m.",
+      "zh": "（重大）事件",
+      "surface": "acontecimientos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Se construye mediante relatos familiares, monumentos, celebraciones, instituciones educativas y decisiones políticas que determinan qué se recuerda y qué queda al margen.",
+    "zh": "它是通过家族讲述、纪念碑、庆典、教育机构以及政治决策建构起来的，这些因素决定了什么被铭记、什么被置于边缘。",
+    "w": [
+     {
+      "h": "construirse",
+      "pos": "prnl.",
+      "zh": "被建构，形成",
+      "surface": "Se construye",
+      "source": "supplement"
+     },
+     {
+      "h": "mediante",
+      "pos": "prep.",
+      "zh": "通过，借助",
+      "surface": "mediante",
+      "source": "supplement"
+     },
+     {
+      "h": "relato",
+      "pos": "m.",
+      "zh": "叙述，讲述",
+      "surface": "relatos",
+      "source": "supplement"
+     },
+     {
+      "h": "quedar al margen",
+      "pos": "loc.",
+      "zh": "被边缘化，被排除",
+      "surface": "queda al margen",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por ello, revisar la historia pública puede provocar desacuerdos: no solo se discuten los hechos, sino también las identidades y los valores que una sociedad desea transmitir.",
+    "zh": "因此，重新审视公共历史可能引发分歧：人们争论的不只是事实，还有一个社会希望传承的身份认同与价值观。",
+    "w": [
+     {
+      "h": "por ello",
+      "pos": "loc.",
+      "zh": "因此",
+      "surface": "Por ello",
+      "source": "supplement"
+     },
+     {
+      "h": "revisar",
+      "pos": "tr.",
+      "zh": "重新审视，修订",
+      "surface": "revisar",
+      "source": "supplement"
+     },
+     {
+      "h": "desacuerdo",
+      "pos": "m.",
+      "zh": "分歧，异议",
+      "surface": "desacuerdos",
+      "source": "supplement"
+     },
+     {
+      "h": "no solo… sino también…",
+      "pos": "loc.",
+      "zh": "不仅……而且……",
+      "surface": "no solo",
+      "source": "supplement"
+     },
+     {
+      "h": "transmitir",
+      "pos": "tr.",
+      "zh": "传递，传承",
+      "surface": "transmitir",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La solución no consiste en sustituir un relato único por otro igualmente cerrado, sino en ampliar las fuentes, reconocer experiencias antes ignoradas y diferenciar la investigación histórica de la simplificación propagandística.",
+    "zh": "解决之道不在于用另一种同样封闭的叙事取代单一叙事，而在于拓宽史料来源、承认以往被忽视的经历，并把历史研究与宣传性的简单化区分开来。",
+    "w": [
+     {
+      "h": "consistir en",
+      "pos": "loc.",
+      "zh": "在于",
+      "surface": "consiste en",
+      "source": "supplement"
+     },
+     {
+      "h": "sustituir A por B",
+      "pos": "loc.",
+      "zh": "用B取代A",
+      "surface": "sustituir",
+      "source": "supplement"
+     },
+     {
+      "h": "ignorado",
+      "pos": "adj.",
+      "zh": "被忽视的",
+      "surface": "ignoradas",
+      "source": "supplement"
+     },
+     {
+      "h": "diferenciar A de B",
+      "pos": "loc.",
+      "zh": "把A与B区分开",
+      "surface": "diferenciar",
+      "source": "supplement"
+     },
+     {
+      "h": "propagandístico",
+      "pos": "adj.",
+      "zh": "宣传性的",
+      "surface": "propagandística",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Una memoria democrática necesita pluralidad y rigor.",
+    "zh": "民主的记忆需要多元性与严谨性。",
+    "w": [
+     {
+      "h": "memoria democrática",
+      "pos": "f.",
+      "zh": "民主记忆",
+      "surface": "memoria democrática",
+      "source": "supplement"
+     },
+     {
+      "h": "necesitar",
+      "pos": "tr.",
+      "zh": "需要",
+      "surface": "necesita",
+      "source": "supplement"
+     },
+     {
+      "h": "pluralidad",
+      "pos": "f.",
+      "zh": "多元性",
+      "surface": "pluralidad",
+      "source": "supplement"
+     },
+     {
+      "h": "rigor",
+      "pos": "m.",
+      "zh": "严谨，严密",
+      "surface": "rigor",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

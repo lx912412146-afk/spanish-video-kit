@@ -1,0 +1,217 @@
+{
+ "id": "b2_08",
+ "level": "B2",
+ "no": 8,
+ "title_es": "La importancia de escuchar",
+ "title_zh": "倾听的重要性",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 8 篇",
+ "header": "分级阅读 B2-08",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B2 第 8 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一词头只在第一次出现的句子里列。no_pause_commas：只登记列举（A, B y C）处不停顿的逗号，从句、句首状语、no…sino、mientras que 前的逗号照常停顿。第 1 句 la otra 指 la otra persona（对方）；第 5 句 donde 的先行词既可理解为前面两个领域，也可只指 relaciones personales，译文用“在这些场合”保留这一含混；interpretaciones apresuradas 译作“草率的理解”；第 3 句是三个动词短语的列举，列举的逗号不停顿。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 3 句「prestar atención,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "En una discusión, muchas personas preparan su respuesta mientras la otra todavía está hablando.",
+    "zh": "在讨论中，很多人会在对方还在说话的时候就开始准备自己的回答。",
+    "w": [
+     {
+      "h": "discusión",
+      "pos": "f.",
+      "zh": "讨论，争论",
+      "surface": "discusión",
+      "source": "supplement"
+     },
+     {
+      "h": "mientras",
+      "pos": "conj.",
+      "zh": "当……的时候",
+      "surface": "mientras",
+      "source": "supplement"
+     },
+     {
+      "h": "otro",
+      "pos": "pron.",
+      "zh": "另一个；（此处）对方",
+      "surface": "la otra",
+      "source": "supplement"
+     },
+     {
+      "h": "todavía",
+      "pos": "adv.",
+      "zh": "还，仍然",
+      "surface": "todavía",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Este hábito puede hacer que la conversación se convierta en una competición, en lugar de una oportunidad para comprender puntos de vista distintos.",
+    "zh": "这种习惯可能会让对话变成一场比赛，而不是理解不同观点的机会。",
+    "w": [
+     {
+      "h": "hábito",
+      "pos": "m.",
+      "zh": "习惯",
+      "surface": "hábito",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer que + subj.",
+      "pos": "loc.",
+      "zh": "使得（后接虚拟式）",
+      "surface": "hacer que",
+      "source": "supplement"
+     },
+     {
+      "h": "convertirse en",
+      "pos": "loc.",
+      "zh": "变成，成为",
+      "surface": "se convierta en",
+      "source": "supplement"
+     },
+     {
+      "h": "en lugar de",
+      "pos": "loc.",
+      "zh": "而不是，代替",
+      "surface": "en lugar de",
+      "source": "supplement"
+     },
+     {
+      "h": "punto de vista",
+      "pos": "m.",
+      "zh": "观点，看法",
+      "surface": "puntos de vista",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Escuchar activamente implica prestar atención, preguntar cuando algo no está claro y resumir lo que hemos entendido antes de responder.",
+    "zh": "积极倾听意味着集中注意力，有不明白的地方就提问，并在回应之前把自己理解的内容概括一遍。",
+    "w": [
+     {
+      "h": "escuchar activamente",
+      "pos": "loc.",
+      "zh": "积极倾听",
+      "surface": "Escuchar activamente",
+      "source": "supplement"
+     },
+     {
+      "h": "implicar",
+      "pos": "tr.",
+      "zh": "意味着，需要",
+      "surface": "implica",
+      "source": "supplement"
+     },
+     {
+      "h": "prestar atención",
+      "pos": "loc.",
+      "zh": "集中注意力，留意",
+      "surface": "prestar atención",
+      "source": "supplement"
+     },
+     {
+      "h": "resumir",
+      "pos": "tr.",
+      "zh": "总结，概括",
+      "surface": "resumir",
+      "source": "supplement"
+     },
+     {
+      "h": "lo que",
+      "pos": "pron.",
+      "zh": "……的东西（内容）",
+      "surface": "lo que",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No significa estar de acuerdo con todo, sino reconocer que la otra persona merece ser comprendida.",
+    "zh": "这并不意味着要认同一切，而是承认对方值得被理解。",
+    "w": [
+     {
+      "h": "estar de acuerdo con",
+      "pos": "loc.",
+      "zh": "同意，赞同",
+      "surface": "estar de acuerdo con",
+      "source": "supplement"
+     },
+     {
+      "h": "no…, sino…",
+      "pos": "loc.",
+      "zh": "不是……而是……",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "reconocer",
+      "pos": "tr.",
+      "zh": "承认",
+      "surface": "reconocer",
+      "source": "supplement"
+     },
+     {
+      "h": "merecer",
+      "pos": "tr.",
+      "zh": "值得",
+      "surface": "merece",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Esta práctica resulta útil tanto en el ámbito laboral como en las relaciones personales, donde numerosos conflictos nacen de interpretaciones apresuradas.",
+    "zh": "这种做法无论在职场上还是在人际关系中都很有用，在这些场合，许多冲突都源于草率的理解。",
+    "w": [
+     {
+      "h": "resultar",
+      "pos": "intr.",
+      "zh": "显得，证明是",
+      "surface": "resulta",
+      "source": "supplement"
+     },
+     {
+      "h": "tanto… como…",
+      "pos": "loc.",
+      "zh": "无论……还是……",
+      "surface": "tanto",
+      "source": "supplement"
+     },
+     {
+      "h": "ámbito laboral",
+      "pos": "m.",
+      "zh": "职场，工作领域",
+      "surface": "ámbito laboral",
+      "source": "supplement"
+     },
+     {
+      "h": "nacer de",
+      "pos": "loc.",
+      "zh": "源于，产生于",
+      "surface": "nacen de",
+      "source": "supplement"
+     },
+     {
+      "h": "apresurado",
+      "pos": "adj.",
+      "zh": "仓促的，草率的",
+      "surface": "apresuradas",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

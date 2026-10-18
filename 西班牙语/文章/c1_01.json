@@ -1,0 +1,87 @@
+{
+ "id": "c1_01",
+ "level": "C1",
+ "no": 1,
+ "title_es": "La atención como recurso escaso",
+ "title_zh": "作为稀缺资源的注意力",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 1 篇",
+ "header": "分级阅读 C1-01",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 1 篇《La atención como recurso escaso 作为稀缺资源的注意力》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。本篇没有名词性列举，no_pause_commas 为 {}（第 2 句冒号、desde 前的逗号，第 6 句 por tanto 两边都照常停顿）。特别判断：第 2 句 no solo 后没有 sino también，而是用冒号承接，译作“不只是……：它们还……”；permanencia 指用户在平台上的停留时长；第 3 句 no…sino 的 sino 单列为 conj.。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "En una economía basada en la información, la atención se ha convertido en un recurso disputado.",
+    "zh": "在以信息为基础的经济中，注意力已经成为一种被争夺的资源。",
+    "w": [
+     {"h": "basado en", "pos": "loc.", "zh": "以……为基础的", "surface": "basada en", "source": "supplement"},
+     {"h": "convertirse en", "pos": "loc.", "zh": "变成，成为", "surface": "se ha convertido en", "source": "supplement"},
+     {"h": "recurso", "pos": "m.", "zh": "资源", "surface": "recurso", "source": "supplement"},
+     {"h": "disputado", "pos": "adj.", "zh": "被争夺的", "surface": "disputado", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Las plataformas digitales no solo ofrecen contenidos: diseñan mecanismos destinados a prolongar nuestra permanencia, desde las notificaciones hasta la reproducción automática.",
+    "zh": "数字平台不只是提供内容：它们还设计了从消息通知到自动播放等种种机制，用来延长我们的停留时间。",
+    "w": [
+     {"h": "no solo", "pos": "loc.", "zh": "不仅，不只", "surface": "no solo", "source": "supplement"},
+     {"h": "destinado a", "pos": "loc.", "zh": "旨在，用于", "surface": "destinados a", "source": "supplement"},
+     {"h": "prolongar", "pos": "tr.", "zh": "延长", "surface": "prolongar", "source": "supplement"},
+     {"h": "permanencia", "pos": "f.", "zh": "停留，逗留", "surface": "permanencia", "source": "supplement"},
+     {"h": "reproducción automática", "pos": "f.", "zh": "自动播放", "surface": "reproducción automática", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "El resultado no es necesariamente una incapacidad general para concentrarse, sino un entorno que fragmenta de manera sistemática la concentración.",
+    "zh": "其结果未必是普遍的专注力丧失，而是一个系统性地将专注切割得支离破碎的环境。",
+    "w": [
+     {"h": "incapacidad", "pos": "f.", "zh": "无能力，不能", "surface": "incapacidad", "source": "supplement"},
+     {"h": "sino", "pos": "conj.", "zh": "（no…sino）而是", "surface": "sino", "source": "supplement"},
+     {"h": "entorno", "pos": "m.", "zh": "环境", "surface": "entorno", "source": "supplement"},
+     {"h": "fragmentar", "pos": "tr.", "zh": "使碎片化，割裂", "surface": "fragmenta", "source": "supplement"},
+     {"h": "de manera sistemática", "pos": "loc.", "zh": "系统性地", "surface": "de manera sistemática", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Frente a esta dinámica, atribuir toda la responsabilidad al individuo resulta insuficiente.",
+    "zh": "面对这种态势，把全部责任都归于个人是不够的。",
+    "w": [
+     {"h": "frente a", "pos": "loc.", "zh": "面对，针对", "surface": "Frente a", "source": "supplement"},
+     {"h": "dinámica", "pos": "f.", "zh": "态势，动态", "surface": "dinámica", "source": "supplement"},
+     {"h": "atribuir", "pos": "tr.", "zh": "把……归于", "surface": "atribuir", "source": "supplement"},
+     {"h": "resultar", "pos": "intr.", "zh": "（+adj.）显得，是", "surface": "resulta", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "La educación puede fomentar hábitos de atención, pero también es necesario debatir sobre el diseño de los servicios y los incentivos económicos que premian el tiempo de pantalla.",
+    "zh": "教育可以培养专注的习惯，但也有必要探讨服务的设计，以及那些奖励屏幕使用时长的经济激励机制。",
+    "w": [
+     {"h": "fomentar", "pos": "tr.", "zh": "促进，培养", "surface": "fomentar", "source": "supplement"},
+     {"h": "debatir sobre", "pos": "loc.", "zh": "就……进行讨论", "surface": "debatir sobre", "source": "supplement"},
+     {"h": "incentivo", "pos": "m.", "zh": "激励（措施）", "surface": "incentivos", "source": "supplement"},
+     {"h": "premiar", "pos": "tr.", "zh": "奖励", "surface": "premian", "source": "supplement"},
+     {"h": "tiempo de pantalla", "pos": "m.", "zh": "屏幕使用时间", "surface": "tiempo de pantalla", "source": "supplement"}
+    ]
+   },
+   {
+    "es": "Recuperar la atención exige, por tanto, decisiones personales y cambios estructurales.",
+    "zh": "因此，要找回注意力，既需要个人的抉择，也需要结构性的变革。",
+    "w": [
+     {"h": "recuperar", "pos": "tr.", "zh": "找回，恢复", "surface": "Recuperar", "source": "supplement"},
+     {"h": "exigir", "pos": "tr.", "zh": "要求，需要", "surface": "exige", "source": "supplement"},
+     {"h": "por tanto", "pos": "loc.", "zh": "因此", "surface": "por tanto", "source": "supplement"},
+     {"h": "estructural", "pos": "adj.", "zh": "结构性的", "surface": "estructurales", "source": "supplement"}
+    ]
+   }
+  ]
+ ]
+}

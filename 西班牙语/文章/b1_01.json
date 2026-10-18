@@ -1,0 +1,201 @@
+{
+ "id": "b1_01",
+ "level": "B1",
+ "no": 1,
+ "title_es": "La importancia de organizar el tiempo",
+ "title_zh": "合理安排时间的重要性",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 1 篇",
+ "header": "分级阅读 B1-01",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 1 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 3 句 siempre que 后接虚拟式，“se distingan” 是被动 se + 虚拟式，词条写成 distinguir A de B 并注明；第 4 句 conviene + inf. 译作“最好……”；reservar 这里是“留出”，不是“预订”，故意列出。第 1 句的 suficiente 做成 ser suficiente para + inf.（足以）这个结构。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 5 句「el trabajo,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Muchas personas sienten que las horas del día no son suficientes para cumplir con todas sus responsabilidades.",
+    "zh": "很多人觉得，一天的时间不足以让他们履行所有的职责。",
+    "w": [
+     {
+      "h": "sentir",
+      "pos": "tr.",
+      "zh": "觉得，感到（e→ie）",
+      "surface": "sienten",
+      "source": "supplement"
+     },
+     {
+      "h": "ser suficiente para + inf.",
+      "pos": "loc.",
+      "zh": "足以（做某事）",
+      "surface": "son suficientes para",
+      "source": "supplement"
+     },
+     {
+      "h": "cumplir con",
+      "pos": "loc.",
+      "zh": "履行，完成（职责等）",
+      "surface": "cumplir con",
+      "source": "supplement"
+     },
+     {
+      "h": "responsabilidad",
+      "pos": "f.",
+      "zh": "责任，职责",
+      "surface": "responsabilidades",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El problema no siempre es la falta de tiempo, sino la manera de utilizarlo.",
+    "zh": "问题并不总是缺少时间，而是使用时间的方式。",
+    "w": [
+     {
+      "h": "falta",
+      "pos": "f.",
+      "zh": "缺乏，不足",
+      "surface": "falta",
+      "source": "supplement"
+     },
+     {
+      "h": "sino",
+      "pos": "conj.",
+      "zh": "而是（no…sino…）",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "manera",
+      "pos": "f.",
+      "zh": "方式，方法",
+      "surface": "manera",
+      "source": "supplement"
+     },
+     {
+      "h": "utilizar",
+      "pos": "tr.",
+      "zh": "使用（lo 指 tiempo）",
+      "surface": "utilizarlo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Hacer una lista de tareas puede ayudar, siempre que se distingan las actividades urgentes de las importantes.",
+    "zh": "列一张任务清单会有帮助，前提是要把紧急的事和重要的事区分开来。",
+    "w": [
+     {
+      "h": "lista de tareas",
+      "pos": "f.",
+      "zh": "任务清单",
+      "surface": "lista de tareas",
+      "source": "supplement"
+     },
+     {
+      "h": "siempre que",
+      "pos": "loc.",
+      "zh": "只要（+虚拟式）",
+      "surface": "siempre que",
+      "source": "supplement"
+     },
+     {
+      "h": "distinguir A de B",
+      "pos": "loc.",
+      "zh": "区分A与B（被动，虚拟式）",
+      "surface": "se distingan",
+      "source": "supplement"
+     },
+     {
+      "h": "urgente",
+      "pos": "adj.",
+      "zh": "紧急的",
+      "surface": "urgentes",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También conviene reservar momentos de descanso, porque trabajar sin parar no garantiza mejores resultados.",
+    "zh": "最好也留出一些休息时间，因为不停地工作并不能保证更好的结果。",
+    "w": [
+     {
+      "h": "convenir + inf.",
+      "pos": "loc.",
+      "zh": "（做……）为宜，最好",
+      "surface": "conviene",
+      "source": "supplement"
+     },
+     {
+      "h": "reservar",
+      "pos": "tr.",
+      "zh": "留出，预留",
+      "surface": "reservar",
+      "source": "supplement"
+     },
+     {
+      "h": "descanso",
+      "pos": "m.",
+      "zh": "休息",
+      "surface": "descanso",
+      "source": "supplement"
+     },
+     {
+      "h": "sin parar",
+      "pos": "loc.",
+      "zh": "不停地",
+      "surface": "sin parar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Cuando organizamos la semana con cierta flexibilidad, resulta más fácil afrontar los imprevistos y mantener un equilibrio entre el trabajo, la familia y la vida personal.",
+    "zh": "当我们安排一周的日程时留有一定的弹性，就更容易应对突发情况，并在工作、家庭和个人生活之间保持平衡。",
+    "w": [
+     {
+      "h": "cierto",
+      "pos": "adj.",
+      "zh": "一定的（置于名词前）",
+      "surface": "cierta",
+      "source": "supplement"
+     },
+     {
+      "h": "resultar",
+      "pos": "intr.",
+      "zh": "显得，结果是",
+      "surface": "resulta",
+      "source": "supplement"
+     },
+     {
+      "h": "afrontar",
+      "pos": "tr.",
+      "zh": "面对，应对",
+      "surface": "afrontar",
+      "source": "supplement"
+     },
+     {
+      "h": "imprevisto",
+      "pos": "m.",
+      "zh": "意外情况",
+      "surface": "imprevistos",
+      "source": "supplement"
+     },
+     {
+      "h": "mantener un equilibrio",
+      "pos": "loc.",
+      "zh": "保持平衡",
+      "surface": "mantener un equilibrio",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

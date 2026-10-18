@@ -1,0 +1,222 @@
+{
+ "id": "c1_05",
+ "level": "C1",
+ "no": 5,
+ "title_es": "El trabajo y el sentido de la vida",
+ "title_zh": "工作与人生意义",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 5 篇",
+ "header": "分级阅读 C1-05",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 5 篇《El trabajo y el sentido de la vida 工作与人生意义》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。特别判断：第 3 句后半句省略了 puede interpretarse（el fracaso profesional [puede interpretarse] como…），译文补出“也可能被看作”；第 4 句 convertirlo 的 lo 指 trabajo，译作“把工作变成”；realizar 是“从事、进行”，不是“意识到”。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 5 句「Las relaciones,」；第 5 句「la participación comunitaria,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "propósito,",
+    "why": "列举：propósito, reconocimiento y pertenencia（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "La relación entre trabajo e identidad se ha intensificado en sociedades donde la profesión suele funcionar como una de las principales formas de presentarse ante los demás.",
+    "zh": "有些社会里，职业往往是人们向他人介绍自己的主要方式之一；在这样的社会中，工作与身份认同之间的关系日益紧密。",
+    "w": [
+     {
+      "h": "intensificarse",
+      "pos": "prnl.",
+      "zh": "加强，加剧",
+      "surface": "se ha intensificado",
+      "source": "supplement"
+     },
+     {
+      "h": "soler + inf.",
+      "pos": "loc.",
+      "zh": "通常，往往",
+      "surface": "suele",
+      "source": "supplement"
+     },
+     {
+      "h": "funcionar como",
+      "pos": "loc.",
+      "zh": "充当，起……作用",
+      "surface": "funcionar como",
+      "source": "supplement"
+     },
+     {
+      "h": "presentarse",
+      "pos": "prnl.",
+      "zh": "介绍自己，亮相",
+      "surface": "presentarse",
+      "source": "supplement"
+     },
+     {
+      "h": "ante los demás",
+      "pos": "loc.",
+      "zh": "在别人面前",
+      "surface": "ante los demás",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Esta asociación puede aportar propósito, reconocimiento y pertenencia, pero también genera vulnerabilidad cuando una persona pierde su empleo o atraviesa una etapa de agotamiento.",
+    "zh": "这种关联能带来目标感、认可和归属感，但当一个人失去工作或经历一段身心耗竭的时期时，它也会让人变得脆弱。",
+    "w": [
+     {
+      "h": "aportar",
+      "pos": "tr.",
+      "zh": "带来，提供",
+      "surface": "aportar",
+      "source": "supplement"
+     },
+     {
+      "h": "reconocimiento",
+      "pos": "m.",
+      "zh": "认可，承认",
+      "surface": "reconocimiento",
+      "source": "supplement"
+     },
+     {
+      "h": "pertenencia",
+      "pos": "f.",
+      "zh": "归属（感）",
+      "surface": "pertenencia",
+      "source": "supplement"
+     },
+     {
+      "h": "atravesar",
+      "pos": "tr.",
+      "zh": "经历，度过",
+      "surface": "atraviesa",
+      "source": "supplement"
+     },
+     {
+      "h": "agotamiento",
+      "pos": "m.",
+      "zh": "精疲力竭，倦怠",
+      "surface": "agotamiento",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Si el valor individual se mide exclusivamente por la productividad, el descanso puede interpretarse como pereza y el fracaso profesional como un defecto personal.",
+    "zh": "如果个人价值完全以生产效率来衡量，那么休息就可能被视为懒惰，职业上的失败也可能被看作个人的缺陷。",
+    "w": [
+     {
+      "h": "medirse por",
+      "pos": "loc.",
+      "zh": "以……来衡量",
+      "surface": "se mide",
+      "source": "supplement"
+     },
+     {
+      "h": "interpretarse como",
+      "pos": "loc.",
+      "zh": "被理解为，被视为",
+      "surface": "interpretarse como",
+      "source": "supplement"
+     },
+     {
+      "h": "pereza",
+      "pos": "f.",
+      "zh": "懒惰",
+      "surface": "pereza",
+      "source": "supplement"
+     },
+     {
+      "h": "fracaso",
+      "pos": "m.",
+      "zh": "失败",
+      "surface": "fracaso",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Conviene distinguir entre realizar un trabajo significativo y convertirlo en la única fuente de sentido.",
+    "zh": "有必要区分两件事：从事一份有意义的工作，和把工作变成意义的唯一来源。",
+    "w": [
+     {
+      "h": "convenir",
+      "pos": "intr.",
+      "zh": "（+inf.）宜，最好",
+      "surface": "Conviene",
+      "source": "supplement"
+     },
+     {
+      "h": "distinguir entre",
+      "pos": "loc.",
+      "zh": "区分，辨别",
+      "surface": "distinguir entre",
+      "source": "supplement"
+     },
+     {
+      "h": "realizar",
+      "pos": "tr.",
+      "zh": "从事，进行",
+      "surface": "realizar",
+      "source": "supplement"
+     },
+     {
+      "h": "convertir algo en",
+      "pos": "loc.",
+      "zh": "把……变成",
+      "surface": "convertirlo en",
+      "source": "supplement"
+     },
+     {
+      "h": "fuente",
+      "pos": "f.",
+      "zh": "来源，源泉",
+      "surface": "fuente",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Las relaciones, la participación comunitaria, el aprendizaje y el ocio también contribuyen a una vida plena.",
+    "zh": "人际关系、社区参与、学习和休闲，同样有助于成就充实的人生。",
+    "w": [
+     {
+      "h": "aprendizaje",
+      "pos": "m.",
+      "zh": "学习（过程）",
+      "surface": "aprendizaje",
+      "source": "supplement"
+     },
+     {
+      "h": "ocio",
+      "pos": "m.",
+      "zh": "休闲，闲暇",
+      "surface": "ocio",
+      "source": "supplement"
+     },
+     {
+      "h": "contribuir a",
+      "pos": "loc.",
+      "zh": "有助于，促成",
+      "surface": "contribuyen a",
+      "source": "supplement"
+     },
+     {
+      "h": "pleno",
+      "pos": "adj.",
+      "zh": "充实的，圆满的",
+      "surface": "plena",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

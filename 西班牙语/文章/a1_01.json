@@ -1,0 +1,279 @@
+{
+ "id": "a1_01",
+ "level": "A1",
+ "no": 1,
+ "title_es": "Mi familia",
+ "title_zh": "我的家庭",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 1 篇",
+ "header": "分级阅读 A1-01",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 1 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：第 2 句 hermano 原文没说长幼，根据第 4 句“在 colegio（中小学）上学”判断是弟弟，译作“弟弟”；第 5 句 por la tarde 和 cenar（吃晚饭）连用，指傍晚，译作“傍晚”；第 6 句 abuelos 原文不分祖父母、外祖父母，按口语译作“爷爷奶奶”；第 7 句 estamos unidos 说的是一家人关系亲密，译作“很亲密”。第 4 句 le gusta 只在这里列（第 7 句的 Me gusta 不再重复列）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Me llamo Laura y tengo veinte años.",
+    "zh": "我叫劳拉，今年二十岁。",
+    "w": [
+     {
+      "h": "llamarse",
+      "pos": "prnl.",
+      "zh": "名叫，叫做",
+      "surface": "Me llamo",
+      "source": "supplement"
+     },
+     {
+      "h": "tener",
+      "pos": "tr.",
+      "zh": "有；（年龄）……岁",
+      "surface": "tengo",
+      "source": "supplement"
+     },
+     {
+      "h": "veinte",
+      "pos": "num.",
+      "zh": "二十",
+      "surface": "veinte",
+      "source": "supplement"
+     },
+     {
+      "h": "año",
+      "pos": "m.",
+      "zh": "年；岁",
+      "surface": "años",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Vivo en una casa pequeña con mis padres y mi hermano.",
+    "zh": "我和父母、弟弟住在一栋小房子里。",
+    "w": [
+     {
+      "h": "vivir",
+      "pos": "intr.",
+      "zh": "居住，生活",
+      "surface": "Vivo",
+      "source": "supplement"
+     },
+     {
+      "h": "casa",
+      "pos": "f.",
+      "zh": "房子；家",
+      "surface": "casa",
+      "source": "supplement"
+     },
+     {
+      "h": "pequeño",
+      "pos": "adj.",
+      "zh": "小的",
+      "surface": "pequeña",
+      "source": "supplement"
+     },
+     {
+      "h": "padre",
+      "pos": "m.",
+      "zh": "父亲；（复数）父母",
+      "surface": "padres",
+      "source": "supplement"
+     },
+     {
+      "h": "hermano",
+      "pos": "m.",
+      "zh": "兄弟；这里指弟弟",
+      "surface": "hermano",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mi madre trabaja en un hospital y mi padre es profesor.",
+    "zh": "我妈妈在医院工作，我爸爸是老师。",
+    "w": [
+     {
+      "h": "madre",
+      "pos": "f.",
+      "zh": "母亲，妈妈",
+      "surface": "madre",
+      "source": "supplement"
+     },
+     {
+      "h": "trabajar",
+      "pos": "intr.",
+      "zh": "工作",
+      "surface": "trabaja",
+      "source": "supplement"
+     },
+     {
+      "h": "hospital",
+      "pos": "m.",
+      "zh": "医院",
+      "surface": "hospital",
+      "source": "supplement"
+     },
+     {
+      "h": "profesor",
+      "pos": "m.",
+      "zh": "老师，教师",
+      "surface": "profesor",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mi hermano estudia en el colegio y le gusta jugar al fútbol.",
+    "zh": "我弟弟在学校念书，他喜欢踢足球。",
+    "w": [
+     {
+      "h": "estudiar",
+      "pos": "intr.",
+      "zh": "学习，上学",
+      "surface": "estudia",
+      "source": "supplement"
+     },
+     {
+      "h": "colegio",
+      "pos": "m.",
+      "zh": "（中小学）学校",
+      "surface": "colegio",
+      "source": "supplement"
+     },
+     {
+      "h": "le gusta + inf.",
+      "pos": "loc.",
+      "zh": "他（她）喜欢做……",
+      "surface": "le gusta",
+      "source": "supplement"
+     },
+     {
+      "h": "jugar al fútbol",
+      "pos": "loc.",
+      "zh": "踢足球",
+      "surface": "jugar al fútbol",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la tarde, cenamos juntos y hablamos de nuestro día.",
+    "zh": "傍晚，我们一起吃晚饭，聊聊这一天的事。",
+    "w": [
+     {
+      "h": "por la tarde",
+      "pos": "loc.",
+      "zh": "下午；傍晚",
+      "surface": "Por la tarde",
+      "source": "supplement"
+     },
+     {
+      "h": "cenar",
+      "pos": "intr.",
+      "zh": "吃晚饭",
+      "surface": "cenamos",
+      "source": "supplement"
+     },
+     {
+      "h": "junto",
+      "pos": "adj.",
+      "zh": "一起的，在一起的",
+      "surface": "juntos",
+      "source": "supplement"
+     },
+     {
+      "h": "hablar de",
+      "pos": "loc.",
+      "zh": "谈论，聊（某事）",
+      "surface": "hablamos de",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Los fines de semana visitamos a mis abuelos o damos un paseo por el parque.",
+    "zh": "周末我们会去看望爷爷奶奶，或者去公园散步。",
+    "w": [
+     {
+      "h": "fin de semana",
+      "pos": "m.",
+      "zh": "周末",
+      "surface": "fines de semana",
+      "source": "supplement"
+     },
+     {
+      "h": "visitar",
+      "pos": "tr.",
+      "zh": "看望，拜访",
+      "surface": "visitamos",
+      "source": "supplement"
+     },
+     {
+      "h": "abuelo",
+      "pos": "m.",
+      "zh": "祖父；（复数）祖父母",
+      "surface": "abuelos",
+      "source": "supplement"
+     },
+     {
+      "h": "dar un paseo",
+      "pos": "loc.",
+      "zh": "散步",
+      "surface": "damos un paseo",
+      "source": "supplement"
+     },
+     {
+      "h": "parque",
+      "pos": "m.",
+      "zh": "公园",
+      "surface": "parque",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Me gusta pasar tiempo con mi familia porque siempre estamos unidos.",
+    "zh": "我喜欢和家人一起度过时光，因为我们一家人总是很亲密。",
+    "w": [
+     {
+      "h": "pasar tiempo",
+      "pos": "loc.",
+      "zh": "度过时间，共处",
+      "surface": "pasar tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "porque",
+      "pos": "conj.",
+      "zh": "因为",
+      "surface": "porque",
+      "source": "supplement"
+     },
+     {
+      "h": "siempre",
+      "pos": "adv.",
+      "zh": "总是，一直",
+      "surface": "siempre",
+      "source": "supplement"
+     },
+     {
+      "h": "estar unido",
+      "pos": "loc.",
+      "zh": "团结，关系亲密",
+      "surface": "estamos unidos",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

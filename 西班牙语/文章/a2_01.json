@@ -1,0 +1,270 @@
+{
+ "id": "a2_01",
+ "level": "A2",
+ "no": 1,
+ "title_es": "Mi primer trabajo",
+ "title_zh": "我的第一份工作",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 1 篇",
+ "header": "分级阅读 A2-01",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 1 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：第 6 句 el trabajo era cansado 是 ser cansado（累人的），不是 estar cansado（疲倦的），释义按“累人的”；primer 词头写原形 primero；me gustó 词头写 gustar（intr.），surface 连同 me 一起标出；con más seguridad 词头写 con (más) seguridad。no_pause_commas：第 5 句 a trabajar en equipo, a organizar… y a resolver… 是列举，逗号不停顿；第 4 句 y, después de una semana, 是插入语，两边照常停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "5": [
+   {
+    "after": "en equipo,",
+    "why": "列举：aprendí [a trabajar en equipo], [a organizar mi tiempo] y [a resolver pequeños problemas]（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "El verano pasado conseguí mi primer trabajo en una cafetería cerca de la estación.",
+    "zh": "去年夏天，我在车站附近的一家咖啡馆找到了我的第一份工作。",
+    "w": [
+     {
+      "h": "el verano pasado",
+      "pos": "loc.",
+      "zh": "去年夏天",
+      "surface": "El verano pasado",
+      "source": "supplement"
+     },
+     {
+      "h": "conseguir",
+      "pos": "tr.",
+      "zh": "得到，找到（工作）",
+      "surface": "conseguí",
+      "source": "supplement"
+     },
+     {
+      "h": "primero",
+      "pos": "adj.",
+      "zh": "第一的",
+      "surface": "primer",
+      "source": "supplement"
+     },
+     {
+      "h": "cerca de",
+      "pos": "loc.",
+      "zh": "在……附近",
+      "surface": "cerca de",
+      "source": "supplement"
+     },
+     {
+      "h": "estación",
+      "pos": "f.",
+      "zh": "车站",
+      "surface": "estación",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Empezaba a las ocho de la mañana y terminaba a las dos.",
+    "zh": "我早上八点开始上班，两点下班。",
+    "w": [
+     {
+      "h": "empezar",
+      "pos": "intr.",
+      "zh": "开始（上班）",
+      "surface": "Empezaba",
+      "source": "supplement"
+     },
+     {
+      "h": "a las + 钟点",
+      "pos": "loc.",
+      "zh": "在……点钟",
+      "surface": "a las ocho",
+      "source": "supplement"
+     },
+     {
+      "h": "de la mañana",
+      "pos": "loc.",
+      "zh": "早上，上午",
+      "surface": "de la mañana",
+      "source": "supplement"
+     },
+     {
+      "h": "terminar",
+      "pos": "intr.",
+      "zh": "结束，下班",
+      "surface": "terminaba",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Al principio estaba nervioso porque no conocía el menú y me costaba entender algunos pedidos.",
+    "zh": "一开始我很紧张，因为我不熟悉菜单，有些顾客点的东西我也很难听懂。",
+    "w": [
+     {
+      "h": "al principio",
+      "pos": "loc.",
+      "zh": "起初，一开始",
+      "surface": "Al principio",
+      "source": "supplement"
+     },
+     {
+      "h": "estar nervioso",
+      "pos": "loc.",
+      "zh": "感到紧张",
+      "surface": "estaba nervioso",
+      "source": "supplement"
+     },
+     {
+      "h": "conocer",
+      "pos": "tr.",
+      "zh": "熟悉，了解",
+      "surface": "conocía",
+      "source": "supplement"
+     },
+     {
+      "h": "costarle a uno + inf.",
+      "pos": "loc.",
+      "zh": "（某人）觉得做……很难",
+      "surface": "me costaba",
+      "source": "supplement"
+     },
+     {
+      "h": "pedido",
+      "pos": "m.",
+      "zh": "（顾客的）点单",
+      "surface": "pedidos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mis compañeros me ayudaron mucho y, después de una semana, ya podía atender a los clientes con más seguridad.",
+    "zh": "同事们帮了我很多，一周以后，我已经能更有把握地接待顾客了。",
+    "w": [
+     {
+      "h": "compañero",
+      "pos": "m.",
+      "zh": "同事，伙伴",
+      "surface": "compañeros",
+      "source": "supplement"
+     },
+     {
+      "h": "ayudar",
+      "pos": "tr.",
+      "zh": "帮助",
+      "surface": "ayudaron",
+      "source": "supplement"
+     },
+     {
+      "h": "después de",
+      "pos": "loc.",
+      "zh": "在……之后",
+      "surface": "después de",
+      "source": "supplement"
+     },
+     {
+      "h": "atender",
+      "pos": "tr.",
+      "zh": "接待，招呼（顾客）",
+      "surface": "atender",
+      "source": "supplement"
+     },
+     {
+      "h": "con (más) seguridad",
+      "pos": "loc.",
+      "zh": "（更）有把握地，自信地",
+      "surface": "con más seguridad",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aprendí a trabajar en equipo, a organizar mi tiempo y a resolver pequeños problemas.",
+    "zh": "我学会了团队合作、规划自己的时间以及解决小问题。",
+    "w": [
+     {
+      "h": "aprender a + inf.",
+      "pos": "loc.",
+      "zh": "学会（做某事）",
+      "surface": "Aprendí a",
+      "source": "supplement"
+     },
+     {
+      "h": "trabajar en equipo",
+      "pos": "loc.",
+      "zh": "团队合作",
+      "surface": "trabajar en equipo",
+      "source": "supplement"
+     },
+     {
+      "h": "organizar",
+      "pos": "tr.",
+      "zh": "安排，规划",
+      "surface": "organizar",
+      "source": "supplement"
+     },
+     {
+      "h": "resolver",
+      "pos": "tr.",
+      "zh": "解决",
+      "surface": "resolver",
+      "source": "supplement"
+     },
+     {
+      "h": "problema",
+      "pos": "m.",
+      "zh": "问题，难题",
+      "surface": "problemas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aunque el trabajo era cansado, me gustó tener mi propio dinero.",
+    "zh": "虽然工作很累人，但我很喜欢拥有自己的钱。",
+    "w": [
+     {
+      "h": "aunque",
+      "pos": "conj.",
+      "zh": "虽然，尽管",
+      "surface": "Aunque",
+      "source": "supplement"
+     },
+     {
+      "h": "cansado",
+      "pos": "adj.",
+      "zh": "累人的，使人疲劳的",
+      "surface": "cansado",
+      "source": "supplement"
+     },
+     {
+      "h": "gustar",
+      "pos": "intr.",
+      "zh": "使（某人）喜欢",
+      "surface": "me gustó",
+      "source": "supplement"
+     },
+     {
+      "h": "propio",
+      "pos": "adj.",
+      "zh": "自己的",
+      "surface": "propio",
+      "source": "supplement"
+     },
+     {
+      "h": "dinero",
+      "pos": "m.",
+      "zh": "钱",
+      "surface": "dinero",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

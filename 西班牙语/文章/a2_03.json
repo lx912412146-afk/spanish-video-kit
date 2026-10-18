@@ -1,0 +1,298 @@
+{
+ "id": "a2_03",
+ "level": "A2",
+ "no": 3,
+ "title_es": "Una vida más saludable",
+ "title_zh": "更健康的生活",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 3 篇",
+ "header": "分级阅读 A2-03",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 3 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：第 6 句 consigo 是 conseguir 的现在时第一人称（conseguir + inf. 做到），不是代词 consigo（与自己）；he notado 为现在完成时，词头写 notar；第 2 句 antes（以前）与第 3 句 antes de（在……之前）是不同词头。no_pause_commas：第 2 句 dormía poco, comía a cualquier hora y casi nunca hacía ejercicio 是三个过去习惯的列举，逗号不停顿；第 6 句 especialmente cuando… 是插入成分，两边照常停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "dormía poco,",
+    "why": "列举：[dormía poco], [comía a cualquier hora] y [casi nunca hacía ejercicio]（A, B y C，三个过去习惯）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Hace unos meses decidí cambiar algunos hábitos.",
+    "zh": "几个月前，我决定改变一些习惯。",
+    "w": [
+     {
+      "h": "hace + 时间",
+      "pos": "loc.",
+      "zh": "……以前",
+      "surface": "Hace unos meses",
+      "source": "supplement"
+     },
+     {
+      "h": "decidir",
+      "pos": "tr.",
+      "zh": "决定",
+      "surface": "decidí",
+      "source": "supplement"
+     },
+     {
+      "h": "cambiar",
+      "pos": "tr.",
+      "zh": "改变",
+      "surface": "cambiar",
+      "source": "supplement"
+     },
+     {
+      "h": "hábito",
+      "pos": "m.",
+      "zh": "习惯",
+      "surface": "hábitos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Antes dormía poco, comía a cualquier hora y casi nunca hacía ejercicio.",
+    "zh": "以前我睡得很少，吃饭不分时间，而且几乎从不运动。",
+    "w": [
+     {
+      "h": "antes",
+      "pos": "adv.",
+      "zh": "以前，从前",
+      "surface": "Antes",
+      "source": "supplement"
+     },
+     {
+      "h": "dormir",
+      "pos": "intr.",
+      "zh": "睡觉",
+      "surface": "dormía",
+      "source": "supplement"
+     },
+     {
+      "h": "a cualquier hora",
+      "pos": "loc.",
+      "zh": "随时，不分时间",
+      "surface": "a cualquier hora",
+      "source": "supplement"
+     },
+     {
+      "h": "casi nunca",
+      "pos": "loc.",
+      "zh": "几乎从不",
+      "surface": "casi nunca",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer ejercicio",
+      "pos": "loc.",
+      "zh": "锻炼，做运动",
+      "surface": "hacía ejercicio",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Ahora intento acostarme antes de las once y preparo la comida en casa.",
+    "zh": "现在我尽量在十一点前睡觉，并且在家做饭。",
+    "w": [
+     {
+      "h": "intentar",
+      "pos": "tr.",
+      "zh": "尽量，试图",
+      "surface": "intento",
+      "source": "supplement"
+     },
+     {
+      "h": "acostarse",
+      "pos": "prnl.",
+      "zh": "上床睡觉",
+      "surface": "acostarme",
+      "source": "supplement"
+     },
+     {
+      "h": "antes de",
+      "pos": "loc.",
+      "zh": "在……之前",
+      "surface": "antes de",
+      "source": "supplement"
+     },
+     {
+      "h": "preparar",
+      "pos": "tr.",
+      "zh": "准备，做（饭）",
+      "surface": "preparo",
+      "source": "supplement"
+     },
+     {
+      "h": "en casa",
+      "pos": "loc.",
+      "zh": "在家",
+      "surface": "en casa",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Tres días a la semana salgo a caminar durante media hora.",
+    "zh": "我每周有三天会出去散步半小时。",
+    "w": [
+     {
+      "h": "a la semana",
+      "pos": "loc.",
+      "zh": "每周（……次）",
+      "surface": "a la semana",
+      "source": "supplement"
+     },
+     {
+      "h": "salir a + inf.",
+      "pos": "loc.",
+      "zh": "出去（做某事）",
+      "surface": "salgo a",
+      "source": "supplement"
+     },
+     {
+      "h": "caminar",
+      "pos": "intr.",
+      "zh": "散步，步行",
+      "surface": "caminar",
+      "source": "supplement"
+     },
+     {
+      "h": "durante",
+      "pos": "prep.",
+      "zh": "在……期间，持续",
+      "surface": "durante",
+      "source": "supplement"
+     },
+     {
+      "h": "media hora",
+      "pos": "f.",
+      "zh": "半小时",
+      "surface": "media hora",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También llevo una botella de agua al trabajo para beber más.",
+    "zh": "我还会带一瓶水去上班，好多喝点水。",
+    "w": [
+     {
+      "h": "también",
+      "pos": "adv.",
+      "zh": "也，还",
+      "surface": "También",
+      "source": "supplement"
+     },
+     {
+      "h": "llevar",
+      "pos": "tr.",
+      "zh": "带，携带",
+      "surface": "llevo",
+      "source": "supplement"
+     },
+     {
+      "h": "botella de agua",
+      "pos": "f.",
+      "zh": "一瓶水，水瓶",
+      "surface": "botella de agua",
+      "source": "supplement"
+     },
+     {
+      "h": "beber",
+      "pos": "intr.",
+      "zh": "喝（水）",
+      "surface": "beber",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No siempre consigo cumplir todos mis objetivos, especialmente cuando tengo mucho trabajo, pero he notado que tengo más energía.",
+    "zh": "我并不总能完成所有的目标，尤其是工作很多的时候，但我发现自己的精力更充沛了。",
+    "w": [
+     {
+      "h": "conseguir + inf.",
+      "pos": "loc.",
+      "zh": "做到，成功（做某事）",
+      "surface": "consigo",
+      "source": "supplement"
+     },
+     {
+      "h": "cumplir",
+      "pos": "tr.",
+      "zh": "完成，实现（目标）",
+      "surface": "cumplir",
+      "source": "supplement"
+     },
+     {
+      "h": "objetivo",
+      "pos": "m.",
+      "zh": "目标",
+      "surface": "objetivos",
+      "source": "supplement"
+     },
+     {
+      "h": "especialmente",
+      "pos": "adv.",
+      "zh": "尤其，特别是",
+      "surface": "especialmente",
+      "source": "supplement"
+     },
+     {
+      "h": "notar",
+      "pos": "tr.",
+      "zh": "注意到，发觉",
+      "surface": "he notado",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Para mí, los cambios pequeños son más fáciles de mantener.",
+    "zh": "对我来说，小的改变更容易坚持下去。",
+    "w": [
+     {
+      "h": "para mí",
+      "pos": "loc.",
+      "zh": "对我来说",
+      "surface": "Para mí",
+      "source": "supplement"
+     },
+     {
+      "h": "cambio",
+      "pos": "m.",
+      "zh": "改变，变化",
+      "surface": "cambios",
+      "source": "supplement"
+     },
+     {
+      "h": "fácil de + inf.",
+      "pos": "loc.",
+      "zh": "容易（做）的",
+      "surface": "fáciles de",
+      "source": "supplement"
+     },
+     {
+      "h": "mantener",
+      "pos": "tr.",
+      "zh": "保持，坚持",
+      "surface": "mantener",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

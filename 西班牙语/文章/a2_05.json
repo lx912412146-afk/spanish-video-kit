@@ -1,0 +1,292 @@
+{
+ "id": "a2_05",
+ "level": "A2",
+ "no": 5,
+ "title_es": "Una nueva compañera de piso",
+ "title_zh": "新室友",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 5 篇",
+ "header": "分级阅读 A2-05",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 5 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：叙述者是女性（cada una、cocinamos juntas）；compañera de piso 按句中阴性写词头，标 f.；Elena 译“埃莱娜”；第 5 句 invitáramos 是虚拟式过去时，超出 A2 重点，释义里注明形式；avisarnos、se escuchan 是相互意义的代词式动词，标 prnl.；calendario 在此指值日表。no_pause_commas：第 4 句 limpiar la cocina, sacar la basura y comprar productos comunes 是列举，逗号不停顿；第 6 句 de vez en cuando 是插入语，两边照常停顿。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 4 句「la cocina,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Hace dos meses llegó una nueva compañera de piso.",
+    "zh": "两个月前，搬来了一位新室友。",
+    "w": [
+     {
+      "h": "hace + 时间",
+      "pos": "loc.",
+      "zh": "……以前",
+      "surface": "Hace dos meses",
+      "source": "supplement"
+     },
+     {
+      "h": "llegar",
+      "pos": "intr.",
+      "zh": "来到，到来",
+      "surface": "llegó",
+      "source": "supplement"
+     },
+     {
+      "h": "nuevo",
+      "pos": "adj.",
+      "zh": "新的",
+      "surface": "nueva",
+      "source": "supplement"
+     },
+     {
+      "h": "compañera de piso",
+      "pos": "f.",
+      "zh": "合租室友（女）",
+      "surface": "compañera de piso",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Se llama Elena y trabaja en una clínica dental.",
+    "zh": "她叫埃莱娜，在一家牙科诊所工作。",
+    "w": [
+     {
+      "h": "llamarse",
+      "pos": "prnl.",
+      "zh": "名叫",
+      "surface": "Se llama",
+      "source": "supplement"
+     },
+     {
+      "h": "trabajar en",
+      "pos": "loc.",
+      "zh": "在……工作",
+      "surface": "trabaja en",
+      "source": "supplement"
+     },
+     {
+      "h": "clínica",
+      "pos": "f.",
+      "zh": "诊所",
+      "surface": "clínica",
+      "source": "supplement"
+     },
+     {
+      "h": "dental",
+      "pos": "adj.",
+      "zh": "牙科的，牙齿的",
+      "surface": "dental",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Al principio tuvimos que hablar sobre las tareas de casa, porque cada una tenía costumbres diferentes.",
+    "zh": "一开始，我们不得不谈一谈家务的事，因为我们俩的习惯各不相同。",
+    "w": [
+     {
+      "h": "al principio",
+      "pos": "loc.",
+      "zh": "起初，一开始",
+      "surface": "Al principio",
+      "source": "supplement"
+     },
+     {
+      "h": "tener que + inf.",
+      "pos": "loc.",
+      "zh": "不得不，必须",
+      "surface": "tuvimos que",
+      "source": "supplement"
+     },
+     {
+      "h": "hablar sobre",
+      "pos": "loc.",
+      "zh": "谈论（某事）",
+      "surface": "hablar sobre",
+      "source": "supplement"
+     },
+     {
+      "h": "tareas de casa",
+      "pos": "f.",
+      "zh": "家务活",
+      "surface": "tareas de casa",
+      "source": "supplement"
+     },
+     {
+      "h": "costumbre",
+      "pos": "f.",
+      "zh": "习惯",
+      "surface": "costumbres",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Decidimos preparar un calendario para limpiar la cocina, sacar la basura y comprar productos comunes.",
+    "zh": "我们决定制定一张值日表，安排打扫厨房、倒垃圾和购买公用物品。",
+    "w": [
+     {
+      "h": "decidir",
+      "pos": "tr.",
+      "zh": "决定",
+      "surface": "Decidimos",
+      "source": "supplement"
+     },
+     {
+      "h": "calendario",
+      "pos": "m.",
+      "zh": "日程表，值日表",
+      "surface": "calendario",
+      "source": "supplement"
+     },
+     {
+      "h": "limpiar",
+      "pos": "tr.",
+      "zh": "打扫，清洁",
+      "surface": "limpiar",
+      "source": "supplement"
+     },
+     {
+      "h": "sacar la basura",
+      "pos": "loc.",
+      "zh": "倒垃圾",
+      "surface": "sacar la basura",
+      "source": "supplement"
+     },
+     {
+      "h": "común",
+      "pos": "adj.",
+      "zh": "共同的，公用的",
+      "surface": "comunes",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También acordamos avisarnos cuando invitáramos a alguien.",
+    "zh": "我们还约定，邀请别人来的时候要互相告知一声。",
+    "w": [
+     {
+      "h": "acordar",
+      "pos": "tr.",
+      "zh": "商定，约定",
+      "surface": "acordamos",
+      "source": "supplement"
+     },
+     {
+      "h": "avisarse",
+      "pos": "prnl.",
+      "zh": "互相告知",
+      "surface": "avisarnos",
+      "source": "supplement"
+     },
+     {
+      "h": "invitar",
+      "pos": "tr.",
+      "zh": "邀请（虚拟式过去时）",
+      "surface": "invitáramos",
+      "source": "supplement"
+     },
+     {
+      "h": "alguien",
+      "pos": "pron.",
+      "zh": "某人，别人",
+      "surface": "alguien",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Ahora convivimos bastante bien y, de vez en cuando, cocinamos juntas.",
+    "zh": "现在我们相处得相当不错，偶尔还会一起做饭。",
+    "w": [
+     {
+      "h": "convivir",
+      "pos": "intr.",
+      "zh": "共同生活，相处",
+      "surface": "convivimos",
+      "source": "supplement"
+     },
+     {
+      "h": "bastante",
+      "pos": "adv.",
+      "zh": "相当，挺",
+      "surface": "bastante",
+      "source": "supplement"
+     },
+     {
+      "h": "de vez en cuando",
+      "pos": "loc.",
+      "zh": "偶尔，有时",
+      "surface": "de vez en cuando",
+      "source": "supplement"
+     },
+     {
+      "h": "cocinar",
+      "pos": "intr.",
+      "zh": "做饭",
+      "surface": "cocinamos",
+      "source": "supplement"
+     },
+     {
+      "h": "junto",
+      "pos": "adj.",
+      "zh": "一起的，在一起",
+      "surface": "juntas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "He aprendido que compartir una vivienda es más fácil cuando las normas están claras y las dos personas se escuchan.",
+    "zh": "我明白了，当规则明确、两个人又能互相倾听时，合住一套房子会更容易。",
+    "w": [
+     {
+      "h": "aprender",
+      "pos": "tr.",
+      "zh": "学到，明白",
+      "surface": "He aprendido",
+      "source": "supplement"
+     },
+     {
+      "h": "compartir",
+      "pos": "tr.",
+      "zh": "合用，分享",
+      "surface": "compartir",
+      "source": "supplement"
+     },
+     {
+      "h": "vivienda",
+      "pos": "f.",
+      "zh": "住房，住所",
+      "surface": "vivienda",
+      "source": "supplement"
+     },
+     {
+      "h": "estar claro",
+      "pos": "loc.",
+      "zh": "清楚，明确",
+      "surface": "están claras",
+      "source": "supplement"
+     },
+     {
+      "h": "escucharse",
+      "pos": "prnl.",
+      "zh": "互相倾听",
+      "surface": "se escuchan",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

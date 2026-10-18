@@ -1,0 +1,230 @@
+{
+ "id": "b1_02",
+ "level": "B1",
+ "no": 2,
+ "title_es": "Vivir en otro país",
+ "title_zh": "在国外生活",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 2 篇",
+ "header": "分级阅读 B1-02",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 2 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 3 句 la persona 泛指搬到国外的人，译作“移居者”；acostumbrarse a 和 costumbre 同源，两个都列，方便对照；第 2 句较长，给 5 个词条；第 4 句较短，只给 3 个（es normal + inf.、sentir nostalgia、echar de menos）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Mudarse a otro país puede ser una experiencia emocionante, aunque también exige paciencia.",
+    "zh": "搬到另一个国家生活可能是一段令人兴奋的经历，不过也需要耐心。",
+    "w": [
+     {
+      "h": "mudarse",
+      "pos": "prnl.",
+      "zh": "搬家，迁居",
+      "surface": "Mudarse",
+      "source": "supplement"
+     },
+     {
+      "h": "emocionante",
+      "pos": "adj.",
+      "zh": "令人兴奋的",
+      "surface": "emocionante",
+      "source": "supplement"
+     },
+     {
+      "h": "aunque",
+      "pos": "conj.",
+      "zh": "不过，虽然",
+      "surface": "aunque",
+      "source": "supplement"
+     },
+     {
+      "h": "exigir",
+      "pos": "tr.",
+      "zh": "需要，要求",
+      "surface": "exige",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Durante las primeras semanas, incluso las actividades más sencillas, como abrir una cuenta bancaria o pedir una cita médica, pueden resultar complicadas.",
+    "zh": "在最初的几个星期里，即使是最简单的事，比如开银行账户或预约看病，也可能变得很复杂。",
+    "w": [
+     {
+      "h": "incluso",
+      "pos": "adv.",
+      "zh": "甚至，即使",
+      "surface": "incluso",
+      "source": "supplement"
+     },
+     {
+      "h": "sencillo",
+      "pos": "adj.",
+      "zh": "简单的",
+      "surface": "sencillas",
+      "source": "supplement"
+     },
+     {
+      "h": "cuenta bancaria",
+      "pos": "f.",
+      "zh": "银行账户",
+      "surface": "cuenta bancaria",
+      "source": "supplement"
+     },
+     {
+      "h": "pedir una cita médica",
+      "pos": "loc.",
+      "zh": "预约看病",
+      "surface": "pedir una cita médica",
+      "source": "supplement"
+     },
+     {
+      "h": "resultar",
+      "pos": "intr.",
+      "zh": "变得，显得",
+      "surface": "resultar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Además, la persona tiene que acostumbrarse a nuevas costumbres y aprender a comunicarse en otro idioma.",
+    "zh": "此外，移居者还必须适应新的习俗，并学会用另一种语言交流。",
+    "w": [
+     {
+      "h": "acostumbrarse a",
+      "pos": "loc.",
+      "zh": "习惯于，适应",
+      "surface": "acostumbrarse a",
+      "source": "supplement"
+     },
+     {
+      "h": "costumbre",
+      "pos": "f.",
+      "zh": "习俗，习惯",
+      "surface": "costumbres",
+      "source": "supplement"
+     },
+     {
+      "h": "aprender a + inf.",
+      "pos": "loc.",
+      "zh": "学会做某事",
+      "surface": "aprender a",
+      "source": "supplement"
+     },
+     {
+      "h": "comunicarse",
+      "pos": "prnl.",
+      "zh": "交流，沟通",
+      "surface": "comunicarse",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Es normal sentir nostalgia y echar de menos a los amigos.",
+    "zh": "感到思乡、想念朋友，这是很正常的。",
+    "w": [
+     {
+      "h": "es normal + inf.",
+      "pos": "loc.",
+      "zh": "……是正常的",
+      "surface": "Es normal",
+      "source": "supplement"
+     },
+     {
+      "h": "sentir nostalgia",
+      "pos": "loc.",
+      "zh": "思乡，怀念",
+      "surface": "sentir nostalgia",
+      "source": "supplement"
+     },
+     {
+      "h": "echar de menos",
+      "pos": "loc.",
+      "zh": "想念（某人）",
+      "surface": "echar de menos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, participar en actividades locales y mantener una actitud abierta facilita la adaptación.",
+    "zh": "不过，参加当地活动、保持开放的心态，能让人更容易适应。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "participar en",
+      "pos": "loc.",
+      "zh": "参加，参与",
+      "surface": "participar en",
+      "source": "supplement"
+     },
+     {
+      "h": "actitud abierta",
+      "pos": "f.",
+      "zh": "开放的心态",
+      "surface": "actitud abierta",
+      "source": "supplement"
+     },
+     {
+      "h": "facilitar",
+      "pos": "tr.",
+      "zh": "使容易，促进",
+      "surface": "facilita",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Con el tiempo, las diferencias dejan de parecer obstáculos y se convierten en oportunidades para aprender.",
+    "zh": "随着时间的推移，这些差异不再像是障碍，而是变成了学习的机会。",
+    "w": [
+     {
+      "h": "con el tiempo",
+      "pos": "loc.",
+      "zh": "随着时间推移",
+      "surface": "Con el tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "dejar de + inf.",
+      "pos": "loc.",
+      "zh": "不再（做某事）",
+      "surface": "dejan de",
+      "source": "supplement"
+     },
+     {
+      "h": "obstáculo",
+      "pos": "m.",
+      "zh": "障碍",
+      "surface": "obstáculos",
+      "source": "supplement"
+     },
+     {
+      "h": "convertirse en",
+      "pos": "loc.",
+      "zh": "变成，成为",
+      "surface": "se convierten en",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

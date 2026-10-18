@@ -1,5 +1,5 @@
 {
- "_说明": "西班牙语音色。engine=kokoro：本进程用 Kokoro-82M（tools/tts/models）；engine=worker：用 python 指定的环境运行 engines/ 里的 script。debuzz：Kokoro 声码器的固定频点（60 Hz 单向陷波）；deline：Supertonic 声码器的帧频梳状线清单（每段原始合成上减掉），见 buzz.py。mix：Supertonic 预置音色按权重混合（见 engines/sherpa.py）。_final：成品用的音色。",
+ "_说明": "西班牙语音色。engine=kokoro：本进程用 Kokoro-82M（tools/tts/models）；engine=worker：用 python 指定的环境运行 engines/ 里的 script。debuzz：Kokoro 声码器的固定频点（60 Hz 单向陷波）；deline：Supertonic 声码器的帧频梳状线清单（每段原始合成上减掉），见 buzz.py。mix：Supertonic 预置音色按权重混合（见 engines/sherpa.py）。_final：成品用的音色。 tempo：合成后变速（0.8 = 慢到 0.8 倍，不改音高）；pitch_cents：合成后变调（100 音分 = 一个半音），用 soxr 重采样 + ffmpeg atempo，见 make_audio.tempo_pitch。 leveler_win / leveler_rng：慢速电平的窗长（秒）和增益范围（±dB），默认 1.0 / 4.0。",
  "_final": "supertonic3_M1",
  "kokoro_em_alex": {
   "label": "Kokoro em_alex（西语男声，基线）",
@@ -135,5 +135,30 @@
   "lufs": -16.0,
   "kbps": 128,
   "debuzz": []
+ },
+ "qwen3_M1F5_25_slow": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "ref_text": "Tengo una gran pasión por los viajes. Me encanta conocer lugares nuevos, culturas diferentes y probar comidas típicas de cada región.",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0
  }
 }

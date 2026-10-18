@@ -1,0 +1,229 @@
+{
+ "id": "c1_07",
+ "level": "C1",
+ "no": 7,
+ "title_es": "La sostenibilidad más allá del individuo",
+ "title_zh": "超越个人层面的可持续性",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 7 篇",
+ "header": "分级阅读 C1-07",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）C1 第 7 篇《La sostenibilidad más allá del individuo 超越个人层面的可持续性》。es：原文（原样，按句号切句）；zh：逐句中文翻译（书面语）；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法）、zh 句中义释义、surface 句中原形（在句中恰好出现一次）；每句 4–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在首次出现的句子列出。no_pause_commas：名词性列举（A, B y C）的逗号不停顿；并列的动词短语（谓语或不定式短语）按 es01 的先例（四级规则：较长的谓语并列仍然停顿）照常停顿；从句、句首状语、插入语两边照常停顿。特别判断：第 1 句 como 后面三个不定式短语（reducir…, separar… o utilizar…）按四级规则照常停顿；第 5 句 hagan 是虚拟式（que 引导的关系从句表目的、结果）；administraciones 指各级政府部门；separar residuos 译作“垃圾分类”。2026-10-18 统一规则：不停顿合并后超过 100 字符的一段（0.8 倍速下一口气超过约 8 秒）恢复逗号停顿（同 es01“较长的并列谓语仍然停顿”），取消了：第 5 句「inversiones,」。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "ciudadanos,",
+    "why": "列举：ciudadanos, empresas y administraciones（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Las campañas de sostenibilidad suelen concentrarse en acciones individuales, como reducir el consumo de agua, separar residuos o utilizar bolsas reutilizables.",
+    "zh": "可持续发展的宣传活动往往聚焦于个人行动，比如减少用水、垃圾分类或使用可重复使用的购物袋。",
+    "w": [
+     {
+      "h": "campaña",
+      "pos": "f.",
+      "zh": "运动，宣传活动",
+      "surface": "campañas",
+      "source": "supplement"
+     },
+     {
+      "h": "soler + inf.",
+      "pos": "loc.",
+      "zh": "通常，往往",
+      "surface": "suelen",
+      "source": "supplement"
+     },
+     {
+      "h": "concentrarse en",
+      "pos": "loc.",
+      "zh": "集中于，聚焦于",
+      "surface": "concentrarse en",
+      "source": "supplement"
+     },
+     {
+      "h": "separar residuos",
+      "pos": "loc.",
+      "zh": "垃圾分类",
+      "surface": "separar residuos",
+      "source": "supplement"
+     },
+     {
+      "h": "reutilizable",
+      "pos": "adj.",
+      "zh": "可重复使用的",
+      "surface": "reutilizables",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Estas prácticas tienen valor, pero su alcance es limitado cuando las infraestructuras y los modelos de producción permanecen intactos.",
+    "zh": "这些做法固然有其价值，但当基础设施和生产模式保持原封不动时，它们的作用范围就很有限。",
+    "w": [
+     {
+      "h": "alcance",
+      "pos": "m.",
+      "zh": "影响范围，作用",
+      "surface": "alcance",
+      "source": "supplement"
+     },
+     {
+      "h": "infraestructura",
+      "pos": "f.",
+      "zh": "基础设施",
+      "surface": "infraestructuras",
+      "source": "supplement"
+     },
+     {
+      "h": "modelo de producción",
+      "pos": "m.",
+      "zh": "生产模式",
+      "surface": "modelos de producción",
+      "source": "supplement"
+     },
+     {
+      "h": "permanecer",
+      "pos": "intr.",
+      "zh": "保持，仍然（处于）",
+      "surface": "permanecen",
+      "source": "supplement"
+     },
+     {
+      "h": "intacto",
+      "pos": "adj.",
+      "zh": "原封不动的",
+      "surface": "intactos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Una persona puede querer desplazarse en transporte público y descubrir que no existe una conexión razonable; puede intentar comprar productos duraderos y encontrarse con precios prohibitivos.",
+    "zh": "一个人也许想乘坐公共交通出行，却发现没有合理的交通衔接；也许想购买经久耐用的产品，却遇上高得令人望而却步的价格。",
+    "w": [
+     {
+      "h": "desplazarse",
+      "pos": "prnl.",
+      "zh": "出行，移动",
+      "surface": "desplazarse",
+      "source": "supplement"
+     },
+     {
+      "h": "conexión",
+      "pos": "f.",
+      "zh": "（交通）衔接，线路",
+      "surface": "conexión",
+      "source": "supplement"
+     },
+     {
+      "h": "duradero",
+      "pos": "adj.",
+      "zh": "耐用的",
+      "surface": "duraderos",
+      "source": "supplement"
+     },
+     {
+      "h": "encontrarse con",
+      "pos": "loc.",
+      "zh": "遇到，碰上",
+      "surface": "encontrarse con",
+      "source": "supplement"
+     },
+     {
+      "h": "prohibitivo",
+      "pos": "adj.",
+      "zh": "（价格）高得难以承受",
+      "surface": "prohibitivos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por tanto, la responsabilidad ambiental debe distribuirse entre ciudadanos, empresas y administraciones.",
+    "zh": "因此，环境责任应当由公民、企业和政府部门共同分担。",
+    "w": [
+     {
+      "h": "por tanto",
+      "pos": "loc.",
+      "zh": "因此",
+      "surface": "Por tanto",
+      "source": "supplement"
+     },
+     {
+      "h": "ambiental",
+      "pos": "adj.",
+      "zh": "环境的",
+      "surface": "ambiental",
+      "source": "supplement"
+     },
+     {
+      "h": "distribuirse",
+      "pos": "prnl.",
+      "zh": "（被）分摊，分配",
+      "surface": "distribuirse",
+      "source": "supplement"
+     },
+     {
+      "h": "administración",
+      "pos": "f.",
+      "zh": "政府部门，行政机构",
+      "surface": "administraciones",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El cambio requiere decisiones cotidianas, pero también inversiones, regulación e innovación que hagan posible elegir opciones de menor impacto sin imponer costes desproporcionados a quienes disponen de menos recursos.",
+    "zh": "变革需要日常的抉择，但也需要投资、监管与创新，让人们能够选择影响更小的方案，同时不把过高的成本强加给资源较少的人。",
+    "w": [
+     {
+      "h": "cotidiano",
+      "pos": "adj.",
+      "zh": "日常的",
+      "surface": "cotidianas",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer posible",
+      "pos": "loc.",
+      "zh": "使……成为可能",
+      "surface": "hagan posible",
+      "source": "supplement"
+     },
+     {
+      "h": "imponer",
+      "pos": "tr.",
+      "zh": "强加",
+      "surface": "imponer",
+      "source": "supplement"
+     },
+     {
+      "h": "desproporcionado",
+      "pos": "adj.",
+      "zh": "不成比例的，过高的",
+      "surface": "desproporcionados",
+      "source": "supplement"
+     },
+     {
+      "h": "disponer de",
+      "pos": "loc.",
+      "zh": "拥有，具备",
+      "surface": "disponen de",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

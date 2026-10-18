@@ -1,0 +1,297 @@
+{
+ "id": "a2_07",
+ "level": "A2",
+ "no": 7,
+ "title_es": "Una celebración familiar",
+ "title_zh": "一次家庭庆祝会",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 7 篇",
+ "header": "分级阅读 A2-07",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A2 第 7 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（取句中义）、surface 句中原形；同一个词头只在第一次出现的句子里列。A2 选词重点：过去时（简单过去时、未完成过去时、现在完成时）的不规则变位，描述经历和习惯的常用搭配，生活场景词汇。特别判断：原文没说 abuela、tíos、prima 是父系还是母系，按母系统一译作“外婆”“舅舅舅妈”“表姐”（年龄长幼原文也没说，暂作“表姐”），释义写成中性的“祖母（奶奶或外婆）”“堂（表）姐妹”等；paella 用通行译名“西班牙海鲜饭”；第 7 句 las personas que quiero 的 querer 是“爱”；第 4 句列 después de + inf.，第 5 句 fotos 单独列 foto（以 -o 结尾的阴性名词）。no_pause_commas：无。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "El domingo celebramos el cumpleaños de mi abuela.",
+    "zh": "星期天，我们给外婆过了生日。",
+    "w": [
+     {
+      "h": "domingo",
+      "pos": "m.",
+      "zh": "星期天",
+      "surface": "domingo",
+      "source": "supplement"
+     },
+     {
+      "h": "celebrar",
+      "pos": "tr.",
+      "zh": "庆祝",
+      "surface": "celebramos",
+      "source": "supplement"
+     },
+     {
+      "h": "cumpleaños",
+      "pos": "m.",
+      "zh": "生日（单复数同形）",
+      "surface": "cumpleaños",
+      "source": "supplement"
+     },
+     {
+      "h": "abuela",
+      "pos": "f.",
+      "zh": "祖母（奶奶或外婆）",
+      "surface": "abuela",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Toda la familia se reunió en casa de mis tíos.",
+    "zh": "全家人都聚到了舅舅舅妈家。",
+    "w": [
+     {
+      "h": "toda la familia",
+      "pos": "f.",
+      "zh": "全家人",
+      "surface": "Toda la familia",
+      "source": "supplement"
+     },
+     {
+      "h": "reunirse",
+      "pos": "prnl.",
+      "zh": "相聚，聚集",
+      "surface": "se reunió",
+      "source": "supplement"
+     },
+     {
+      "h": "en casa de",
+      "pos": "loc.",
+      "zh": "在……家",
+      "surface": "en casa de",
+      "source": "supplement"
+     },
+     {
+      "h": "tío",
+      "pos": "m.",
+      "zh": "叔叔，舅舅（复数含其妻）",
+      "surface": "tíos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mi prima preparó una tarta de chocolate y mi padre cocinó paella para todos.",
+    "zh": "表姐做了一个巧克力蛋糕，我爸爸给大家做了西班牙海鲜饭。",
+    "w": [
+     {
+      "h": "prima",
+      "pos": "f.",
+      "zh": "堂（表）姐妹",
+      "surface": "prima",
+      "source": "supplement"
+     },
+     {
+      "h": "preparar",
+      "pos": "tr.",
+      "zh": "做，准备",
+      "surface": "preparó",
+      "source": "supplement"
+     },
+     {
+      "h": "tarta de chocolate",
+      "pos": "f.",
+      "zh": "巧克力蛋糕",
+      "surface": "tarta de chocolate",
+      "source": "supplement"
+     },
+     {
+      "h": "cocinar",
+      "pos": "tr.",
+      "zh": "烹饪，做（饭菜）",
+      "surface": "cocinó",
+      "source": "supplement"
+     },
+     {
+      "h": "paella",
+      "pos": "f.",
+      "zh": "西班牙海鲜饭",
+      "surface": "paella",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Después de comer, vimos fotografías antiguas y escuchamos las historias de mi abuela sobre su juventud.",
+    "zh": "饭后，我们看了些老照片，还听外婆讲了她年轻时的故事。",
+    "w": [
+     {
+      "h": "después de + inf.",
+      "pos": "loc.",
+      "zh": "（做完）……之后",
+      "surface": "Después de",
+      "source": "supplement"
+     },
+     {
+      "h": "ver",
+      "pos": "tr.",
+      "zh": "看",
+      "surface": "vimos",
+      "source": "supplement"
+     },
+     {
+      "h": "antiguo",
+      "pos": "adj.",
+      "zh": "旧的，老的",
+      "surface": "antiguas",
+      "source": "supplement"
+     },
+     {
+      "h": "historia",
+      "pos": "f.",
+      "zh": "故事；经历",
+      "surface": "historias",
+      "source": "supplement"
+     },
+     {
+      "h": "juventud",
+      "pos": "f.",
+      "zh": "青年时代，青春",
+      "surface": "juventud",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Ella se emocionó cuando le regalamos un álbum con fotos de diferentes épocas.",
+    "zh": "当我们送给她一本收录了不同年代照片的相册时，她很感动。",
+    "w": [
+     {
+      "h": "emocionarse",
+      "pos": "prnl.",
+      "zh": "感动，激动",
+      "surface": "se emocionó",
+      "source": "supplement"
+     },
+     {
+      "h": "regalar",
+      "pos": "tr.",
+      "zh": "赠送（礼物）",
+      "surface": "regalamos",
+      "source": "supplement"
+     },
+     {
+      "h": "álbum",
+      "pos": "m.",
+      "zh": "相册",
+      "surface": "álbum",
+      "source": "supplement"
+     },
+     {
+      "h": "foto",
+      "pos": "f.",
+      "zh": "照片",
+      "surface": "fotos",
+      "source": "supplement"
+     },
+     {
+      "h": "época",
+      "pos": "f.",
+      "zh": "时期，年代",
+      "surface": "épocas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No fue una fiesta lujosa, pero pasamos muchas horas juntos.",
+    "zh": "那不是一场奢华的聚会，但我们一起度过了好几个小时。",
+    "w": [
+     {
+      "h": "ser",
+      "pos": "intr.",
+      "zh": "是",
+      "surface": "fue",
+      "source": "supplement"
+     },
+     {
+      "h": "fiesta",
+      "pos": "f.",
+      "zh": "聚会，派对",
+      "surface": "fiesta",
+      "source": "supplement"
+     },
+     {
+      "h": "lujoso",
+      "pos": "adj.",
+      "zh": "豪华的，奢侈的",
+      "surface": "lujosa",
+      "source": "supplement"
+     },
+     {
+      "h": "pasar",
+      "pos": "tr.",
+      "zh": "度过（时间）",
+      "surface": "pasamos",
+      "source": "supplement"
+     },
+     {
+      "h": "junto",
+      "pos": "adj.",
+      "zh": "一起的，在一起",
+      "surface": "juntos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Para mí, lo más importante de estas celebraciones es compartir tiempo con las personas que quiero.",
+    "zh": "对我来说，这类庆祝活动最重要的，是和我爱的人一起度过时光。",
+    "w": [
+     {
+      "h": "para mí",
+      "pos": "loc.",
+      "zh": "对我来说",
+      "surface": "Para mí",
+      "source": "supplement"
+     },
+     {
+      "h": "lo más importante",
+      "pos": "loc.",
+      "zh": "最重要的（事）",
+      "surface": "lo más importante",
+      "source": "supplement"
+     },
+     {
+      "h": "celebración",
+      "pos": "f.",
+      "zh": "庆祝活动",
+      "surface": "celebraciones",
+      "source": "supplement"
+     },
+     {
+      "h": "compartir tiempo",
+      "pos": "loc.",
+      "zh": "共度时光",
+      "surface": "compartir tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "querer",
+      "pos": "tr.",
+      "zh": "爱，喜爱",
+      "surface": "quiero",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

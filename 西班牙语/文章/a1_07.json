@@ -1,0 +1,299 @@
+{
+ "id": "a1_07",
+ "level": "A1",
+ "no": 7,
+ "title_es": "Mi habitación",
+ "title_zh": "我的房间",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 7 篇",
+ "header": "分级阅读 A1-07",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 7 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：hay 的词头写 haber（无人称用法，标 tr.），第 2 句的 Hay 不列、留到第 4 句列，第 2 句改列 junto a、frente a 两个方位短语。foto（阴性）、mapa（阳性）是词尾和阴阳性不一致的常见词，词性照实标。第 3 句是物品列举，逗号不停顿；第 1 句 “grande, pero es cómoda” 是转折，照常停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "ordenador,",
+    "why": "列举（un ordenador, dos cuadernos y una lámpara），不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Mi habitación no es muy grande, pero es cómoda.",
+    "zh": "我的房间不是很大，但很舒适。",
+    "w": [
+     {
+      "h": "habitación",
+      "pos": "f.",
+      "zh": "房间，卧室",
+      "surface": "habitación",
+      "source": "supplement"
+     },
+     {
+      "h": "grande",
+      "pos": "adj.",
+      "zh": "大的",
+      "surface": "grande",
+      "source": "supplement"
+     },
+     {
+      "h": "pero",
+      "pos": "conj.",
+      "zh": "但是",
+      "surface": "pero",
+      "source": "supplement"
+     },
+     {
+      "h": "cómodo",
+      "pos": "adj.",
+      "zh": "舒适的",
+      "surface": "cómoda",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Hay una cama junto a la ventana y un escritorio frente a la puerta.",
+    "zh": "窗边有一张床，门对面有一张书桌。",
+    "w": [
+     {
+      "h": "cama",
+      "pos": "f.",
+      "zh": "床",
+      "surface": "cama",
+      "source": "supplement"
+     },
+     {
+      "h": "junto a",
+      "pos": "loc.",
+      "zh": "在……旁边",
+      "surface": "junto a",
+      "source": "supplement"
+     },
+     {
+      "h": "ventana",
+      "pos": "f.",
+      "zh": "窗户",
+      "surface": "ventana",
+      "source": "supplement"
+     },
+     {
+      "h": "escritorio",
+      "pos": "m.",
+      "zh": "书桌，写字台",
+      "surface": "escritorio",
+      "source": "supplement"
+     },
+     {
+      "h": "frente a",
+      "pos": "loc.",
+      "zh": "在……对面",
+      "surface": "frente a",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sobre el escritorio tengo un ordenador, dos cuadernos y una lámpara.",
+    "zh": "我的书桌上有一台电脑、两个笔记本和一盏台灯。",
+    "w": [
+     {
+      "h": "sobre",
+      "pos": "prep.",
+      "zh": "在……上面",
+      "surface": "Sobre",
+      "source": "supplement"
+     },
+     {
+      "h": "tener",
+      "pos": "tr.",
+      "zh": "有",
+      "surface": "tengo",
+      "source": "supplement"
+     },
+     {
+      "h": "ordenador",
+      "pos": "m.",
+      "zh": "电脑（西班牙用法）",
+      "surface": "ordenador",
+      "source": "supplement"
+     },
+     {
+      "h": "cuaderno",
+      "pos": "m.",
+      "zh": "笔记本，本子",
+      "surface": "cuadernos",
+      "source": "supplement"
+     },
+     {
+      "h": "lámpara",
+      "pos": "f.",
+      "zh": "灯，台灯",
+      "surface": "lámpara",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En la pared hay fotos de mi familia y un mapa de España.",
+    "zh": "墙上有我家人的照片和一张西班牙地图。",
+    "w": [
+     {
+      "h": "pared",
+      "pos": "f.",
+      "zh": "墙，墙壁",
+      "surface": "pared",
+      "source": "supplement"
+     },
+     {
+      "h": "haber",
+      "pos": "tr.",
+      "zh": "有（hay：无人称形式）",
+      "surface": "hay",
+      "source": "supplement"
+     },
+     {
+      "h": "foto",
+      "pos": "f.",
+      "zh": "照片",
+      "surface": "fotos",
+      "source": "supplement"
+     },
+     {
+      "h": "mapa",
+      "pos": "m.",
+      "zh": "地图",
+      "surface": "mapa",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Guardo la ropa en un armario blanco y los libros en una estantería.",
+    "zh": "我把衣服放在一个白色的衣柜里，把书放在书架上。",
+    "w": [
+     {
+      "h": "guardar",
+      "pos": "tr.",
+      "zh": "存放，收好",
+      "surface": "Guardo",
+      "source": "supplement"
+     },
+     {
+      "h": "ropa",
+      "pos": "f.",
+      "zh": "衣服",
+      "surface": "ropa",
+      "source": "supplement"
+     },
+     {
+      "h": "armario",
+      "pos": "m.",
+      "zh": "衣柜",
+      "surface": "armario",
+      "source": "supplement"
+     },
+     {
+      "h": "blanco",
+      "pos": "adj.",
+      "zh": "白色的",
+      "surface": "blanco",
+      "source": "supplement"
+     },
+     {
+      "h": "estantería",
+      "pos": "f.",
+      "zh": "书架，搁架",
+      "surface": "estantería",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la mañana entra mucha luz.",
+    "zh": "早上会有很多光线照进来。",
+    "w": [
+     {
+      "h": "por la mañana",
+      "pos": "loc.",
+      "zh": "早上，上午",
+      "surface": "Por la mañana",
+      "source": "supplement"
+     },
+     {
+      "h": "entrar",
+      "pos": "intr.",
+      "zh": "进入，照进来",
+      "surface": "entra",
+      "source": "supplement"
+     },
+     {
+      "h": "mucho",
+      "pos": "adj.",
+      "zh": "很多的",
+      "surface": "mucha",
+      "source": "supplement"
+     },
+     {
+      "h": "luz",
+      "pos": "f.",
+      "zh": "光，光线",
+      "surface": "luz",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Me gusta mantener mi habitación ordenada porque así puedo estudiar mejor.",
+    "zh": "我喜欢让房间保持整洁，因为这样我能更好地学习。",
+    "w": [
+     {
+      "h": "me gusta",
+      "pos": "loc.",
+      "zh": "我喜欢",
+      "surface": "Me gusta",
+      "source": "supplement"
+     },
+     {
+      "h": "mantener",
+      "pos": "tr.",
+      "zh": "保持",
+      "surface": "mantener",
+      "source": "supplement"
+     },
+     {
+      "h": "ordenado",
+      "pos": "adj.",
+      "zh": "整齐的，整洁的",
+      "surface": "ordenada",
+      "source": "supplement"
+     },
+     {
+      "h": "así",
+      "pos": "adv.",
+      "zh": "这样",
+      "surface": "así",
+      "source": "supplement"
+     },
+     {
+      "h": "mejor",
+      "pos": "adv.",
+      "zh": "更好地",
+      "surface": "mejor",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

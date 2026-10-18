@@ -1,0 +1,309 @@
+{
+ "id": "a1_04",
+ "level": "A1",
+ "no": 4,
+ "title_es": "En el supermercado",
+ "title_zh": "在超市",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 4 篇",
+ "header": "分级阅读 A1-04",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 4 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：hay 的词头写 haber（无人称用法，标 tr.）；第 1 句 ir a 释义注明 al = a + el。第 2 句是购物清单列举，逗号不停顿（冒号照常停顿）。第 6 句 para comer 照字面译作“做一份沙拉吃”，没有译成“当午饭”。第 3 句的 comprar 只在这里列，第 7 句句首的 Comprar 不再重复列。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "leche,",
+    "why": "购物清单列举，不停顿"
+   },
+   {
+    "after": "huevos,",
+    "why": "列举，不停顿"
+   },
+   {
+    "after": "arroz,",
+    "why": "列举，不停顿"
+   },
+   {
+    "after": "tomates,",
+    "why": "列举，不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Hoy voy al supermercado porque no hay comida en casa.",
+    "zh": "今天我去超市，因为家里没有吃的了。",
+    "w": [
+     {
+      "h": "hoy",
+      "pos": "adv.",
+      "zh": "今天",
+      "surface": "Hoy",
+      "source": "supplement"
+     },
+     {
+      "h": "ir a",
+      "pos": "loc.",
+      "zh": "去（某地）；al = a + el",
+      "surface": "voy al",
+      "source": "supplement"
+     },
+     {
+      "h": "haber",
+      "pos": "tr.",
+      "zh": "有（hay：无人称形式）",
+      "surface": "hay",
+      "source": "supplement"
+     },
+     {
+      "h": "comida",
+      "pos": "f.",
+      "zh": "食物，吃的",
+      "surface": "comida",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Llevo una lista: leche, huevos, arroz, tomates, manzanas y pan.",
+    "zh": "我带着一张清单：牛奶、鸡蛋、大米、西红柿、苹果和面包。",
+    "w": [
+     {
+      "h": "llevar",
+      "pos": "tr.",
+      "zh": "带着，携带",
+      "surface": "Llevo",
+      "source": "supplement"
+     },
+     {
+      "h": "leche",
+      "pos": "f.",
+      "zh": "牛奶",
+      "surface": "leche",
+      "source": "supplement"
+     },
+     {
+      "h": "huevo",
+      "pos": "m.",
+      "zh": "鸡蛋",
+      "surface": "huevos",
+      "source": "supplement"
+     },
+     {
+      "h": "arroz",
+      "pos": "m.",
+      "zh": "大米，米饭",
+      "surface": "arroz",
+      "source": "supplement"
+     },
+     {
+      "h": "manzana",
+      "pos": "f.",
+      "zh": "苹果",
+      "surface": "manzanas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En la sección de frutas compro también plátanos y naranjas.",
+    "zh": "在水果区，我还买了香蕉和橙子。",
+    "w": [
+     {
+      "h": "fruta",
+      "pos": "f.",
+      "zh": "水果",
+      "surface": "frutas",
+      "source": "supplement"
+     },
+     {
+      "h": "comprar",
+      "pos": "tr.",
+      "zh": "买",
+      "surface": "compro",
+      "source": "supplement"
+     },
+     {
+      "h": "también",
+      "pos": "adv.",
+      "zh": "也，还",
+      "surface": "también",
+      "source": "supplement"
+     },
+     {
+      "h": "plátano",
+      "pos": "m.",
+      "zh": "香蕉",
+      "surface": "plátanos",
+      "source": "supplement"
+     },
+     {
+      "h": "naranja",
+      "pos": "f.",
+      "zh": "橙子",
+      "surface": "naranjas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Después busco aceite y pasta.",
+    "zh": "然后我去找食用油和意大利面。",
+    "w": [
+     {
+      "h": "después",
+      "pos": "adv.",
+      "zh": "然后，之后",
+      "surface": "Después",
+      "source": "supplement"
+     },
+     {
+      "h": "buscar",
+      "pos": "tr.",
+      "zh": "找，寻找",
+      "surface": "busco",
+      "source": "supplement"
+     },
+     {
+      "h": "aceite",
+      "pos": "m.",
+      "zh": "油，食用油",
+      "surface": "aceite",
+      "source": "supplement"
+     },
+     {
+      "h": "pasta",
+      "pos": "f.",
+      "zh": "意大利面",
+      "surface": "pasta",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En la caja pago con tarjeta y guardo la compra en una bolsa reutilizable.",
+    "zh": "在收银台，我刷卡付款，然后把买的东西装进一个可重复使用的购物袋。",
+    "w": [
+     {
+      "h": "caja",
+      "pos": "f.",
+      "zh": "收银台",
+      "surface": "caja",
+      "source": "supplement"
+     },
+     {
+      "h": "pagar con tarjeta",
+      "pos": "loc.",
+      "zh": "刷卡付款",
+      "surface": "pago con tarjeta",
+      "source": "supplement"
+     },
+     {
+      "h": "guardar",
+      "pos": "tr.",
+      "zh": "收好，装进",
+      "surface": "guardo",
+      "source": "supplement"
+     },
+     {
+      "h": "compra",
+      "pos": "f.",
+      "zh": "买的东西",
+      "surface": "compra",
+      "source": "supplement"
+     },
+     {
+      "h": "bolsa reutilizable",
+      "pos": "f.",
+      "zh": "可重复使用的袋子",
+      "surface": "bolsa reutilizable",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Cuando llego a casa, pongo los productos en la nevera y preparo una ensalada para comer.",
+    "zh": "回到家后，我把买来的东西放进冰箱，再做一份沙拉吃。",
+    "w": [
+     {
+      "h": "cuando",
+      "pos": "conj.",
+      "zh": "当……的时候",
+      "surface": "Cuando",
+      "source": "supplement"
+     },
+     {
+      "h": "llegar a casa",
+      "pos": "loc.",
+      "zh": "到家",
+      "surface": "llego a casa",
+      "source": "supplement"
+     },
+     {
+      "h": "poner",
+      "pos": "tr.",
+      "zh": "放，摆",
+      "surface": "pongo",
+      "source": "supplement"
+     },
+     {
+      "h": "nevera",
+      "pos": "f.",
+      "zh": "冰箱",
+      "surface": "nevera",
+      "source": "supplement"
+     },
+     {
+      "h": "ensalada",
+      "pos": "f.",
+      "zh": "沙拉",
+      "surface": "ensalada",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Comprar con una lista me ayuda a no olvidar nada.",
+    "zh": "带着清单买东西，能帮我什么都不忘。",
+    "w": [
+     {
+      "h": "lista",
+      "pos": "f.",
+      "zh": "清单",
+      "surface": "lista",
+      "source": "supplement"
+     },
+     {
+      "h": "ayudar a + inf.",
+      "pos": "loc.",
+      "zh": "帮（某人）做某事",
+      "surface": "ayuda a",
+      "source": "supplement"
+     },
+     {
+      "h": "olvidar",
+      "pos": "tr.",
+      "zh": "忘记",
+      "surface": "olvidar",
+      "source": "supplement"
+     },
+     {
+      "h": "nada",
+      "pos": "pron.",
+      "zh": "（与 no 连用）什么也不",
+      "surface": "nada",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

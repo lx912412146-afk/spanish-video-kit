@@ -1,0 +1,263 @@
+{
+ "id": "a1_09",
+ "level": "A1",
+ "no": 9,
+ "title_es": "El tiempo",
+ "title_zh": "天气",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 9 篇",
+ "header": "分级阅读 A1-09",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 9 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：标题和第 6 句的 tiempo 都是“天气”的意思（不是“时间”），在第 6 句列出。第 1 句 hace mucho sol 按“hacer sol”列出（surface 含 mucho）。第 2 句 llevar 在这里是“穿着”。本篇没有列举逗号，逗号都照常停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Hoy hace mucho sol y la temperatura es agradable.",
+    "zh": "今天阳光明媚，气温也很宜人。",
+    "w": [
+     {
+      "h": "hoy",
+      "pos": "adv.",
+      "zh": "今天",
+      "surface": "Hoy",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer sol",
+      "pos": "loc.",
+      "zh": "出太阳，阳光好",
+      "surface": "hace mucho sol",
+      "source": "supplement"
+     },
+     {
+      "h": "temperatura",
+      "pos": "f.",
+      "zh": "气温，温度",
+      "surface": "temperatura",
+      "source": "supplement"
+     },
+     {
+      "h": "agradable",
+      "pos": "adj.",
+      "zh": "宜人的，舒适的",
+      "surface": "agradable",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Por la mañana llevo una chaqueta ligera, pero al mediodía hace calor.",
+    "zh": "早上我穿一件薄外套，不过到了中午天就热了。",
+    "w": [
+     {
+      "h": "llevar",
+      "pos": "tr.",
+      "zh": "穿着",
+      "surface": "llevo",
+      "source": "supplement"
+     },
+     {
+      "h": "chaqueta",
+      "pos": "f.",
+      "zh": "外套，夹克",
+      "surface": "chaqueta",
+      "source": "supplement"
+     },
+     {
+      "h": "ligero",
+      "pos": "adj.",
+      "zh": "轻薄的",
+      "surface": "ligera",
+      "source": "supplement"
+     },
+     {
+      "h": "al mediodía",
+      "pos": "loc.",
+      "zh": "在中午",
+      "surface": "al mediodía",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer calor",
+      "pos": "loc.",
+      "zh": "（天气）热",
+      "surface": "hace calor",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En verano me gusta ir a la playa y nadar en el mar.",
+    "zh": "夏天我喜欢去海滩，在海里游泳。",
+    "w": [
+     {
+      "h": "verano",
+      "pos": "m.",
+      "zh": "夏天",
+      "surface": "verano",
+      "source": "supplement"
+     },
+     {
+      "h": "me gusta",
+      "pos": "loc.",
+      "zh": "我喜欢",
+      "surface": "me gusta",
+      "source": "supplement"
+     },
+     {
+      "h": "playa",
+      "pos": "f.",
+      "zh": "海滩",
+      "surface": "playa",
+      "source": "supplement"
+     },
+     {
+      "h": "nadar",
+      "pos": "intr.",
+      "zh": "游泳",
+      "surface": "nadar",
+      "source": "supplement"
+     },
+     {
+      "h": "mar",
+      "pos": "m.",
+      "zh": "大海",
+      "surface": "mar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En otoño llueve con frecuencia y las hojas de los árboles cambian de color.",
+    "zh": "秋天经常下雨，树上的叶子也会变色。",
+    "w": [
+     {
+      "h": "otoño",
+      "pos": "m.",
+      "zh": "秋天",
+      "surface": "otoño",
+      "source": "supplement"
+     },
+     {
+      "h": "llover",
+      "pos": "intr.",
+      "zh": "下雨",
+      "surface": "llueve",
+      "source": "supplement"
+     },
+     {
+      "h": "con frecuencia",
+      "pos": "loc.",
+      "zh": "经常",
+      "surface": "con frecuencia",
+      "source": "supplement"
+     },
+     {
+      "h": "hoja",
+      "pos": "f.",
+      "zh": "叶子",
+      "surface": "hojas",
+      "source": "supplement"
+     },
+     {
+      "h": "cambiar de color",
+      "pos": "loc.",
+      "zh": "变色",
+      "surface": "cambian de color",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En invierno hace frío y a veces nieva en las montañas.",
+    "zh": "冬天天气寒冷，山上有时会下雪。",
+    "w": [
+     {
+      "h": "invierno",
+      "pos": "m.",
+      "zh": "冬天",
+      "surface": "invierno",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer frío",
+      "pos": "loc.",
+      "zh": "（天气）冷",
+      "surface": "hace frío",
+      "source": "supplement"
+     },
+     {
+      "h": "a veces",
+      "pos": "loc.",
+      "zh": "有时候",
+      "surface": "a veces",
+      "source": "supplement"
+     },
+     {
+      "h": "nevar",
+      "pos": "intr.",
+      "zh": "下雪",
+      "surface": "nieva",
+      "source": "supplement"
+     },
+     {
+      "h": "montaña",
+      "pos": "f.",
+      "zh": "山",
+      "surface": "montañas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Antes de salir de casa, miro el tiempo en el móvil para elegir la ropa adecuada.",
+    "zh": "出门前，我会用手机查一下天气，好选择合适的衣服。",
+    "w": [
+     {
+      "h": "antes de + inf.",
+      "pos": "loc.",
+      "zh": "在（做某事）之前",
+      "surface": "Antes de",
+      "source": "supplement"
+     },
+     {
+      "h": "salir de casa",
+      "pos": "loc.",
+      "zh": "出门",
+      "surface": "salir de casa",
+      "source": "supplement"
+     },
+     {
+      "h": "tiempo",
+      "pos": "m.",
+      "zh": "天气",
+      "surface": "tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "móvil",
+      "pos": "m.",
+      "zh": "手机",
+      "surface": "móvil",
+      "source": "supplement"
+     },
+     {
+      "h": "adecuado",
+      "pos": "adj.",
+      "zh": "合适的，恰当的",
+      "surface": "adecuada",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

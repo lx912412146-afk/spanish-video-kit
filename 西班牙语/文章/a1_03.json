@@ -1,0 +1,302 @@
+{
+ "id": "a1_03",
+ "level": "A1",
+ "no": 3,
+ "title_es": "Mi ciudad",
+ "title_zh": "我的城市",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 3 篇",
+ "header": "分级阅读 A1-03",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）A1 第 3 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：hay 的词头写 haber（无人称用法，按《新西汉词典》标 tr.），释义注明 hay 是无人称形式；第 3 句的 hay 不再重复列。第 2 句是地点列举，逗号不停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "grande,",
+    "why": "列举（una plaza grande, un mercado, dos parques y…），不停顿"
+   },
+   {
+    "after": "mercado,",
+    "why": "列举，不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Vivo en una ciudad tranquila del norte de España.",
+    "zh": "我住在西班牙北部一座安静的城市。",
+    "w": [
+     {
+      "h": "vivir",
+      "pos": "intr.",
+      "zh": "居住，生活",
+      "surface": "Vivo",
+      "source": "supplement"
+     },
+     {
+      "h": "ciudad",
+      "pos": "f.",
+      "zh": "城市",
+      "surface": "ciudad",
+      "source": "supplement"
+     },
+     {
+      "h": "tranquilo",
+      "pos": "adj.",
+      "zh": "安静的，宁静的",
+      "surface": "tranquila",
+      "source": "supplement"
+     },
+     {
+      "h": "norte",
+      "pos": "m.",
+      "zh": "北方，北部",
+      "surface": "norte",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Hay una plaza grande, un mercado, dos parques y muchas cafeterías.",
+    "zh": "这里有一个大广场、一个市场、两个公园和许多咖啡馆。",
+    "w": [
+     {
+      "h": "haber",
+      "pos": "tr.",
+      "zh": "有（hay：无人称形式）",
+      "surface": "Hay",
+      "source": "supplement"
+     },
+     {
+      "h": "plaza",
+      "pos": "f.",
+      "zh": "广场",
+      "surface": "plaza",
+      "source": "supplement"
+     },
+     {
+      "h": "mercado",
+      "pos": "m.",
+      "zh": "市场，集市",
+      "surface": "mercado",
+      "source": "supplement"
+     },
+     {
+      "h": "parque",
+      "pos": "m.",
+      "zh": "公园",
+      "surface": "parques",
+      "source": "supplement"
+     },
+     {
+      "h": "cafetería",
+      "pos": "f.",
+      "zh": "咖啡馆",
+      "surface": "cafeterías",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Cerca de mi casa hay una farmacia y una parada de autobús.",
+    "zh": "我家附近有一家药店和一个公交车站。",
+    "w": [
+     {
+      "h": "cerca de",
+      "pos": "loc.",
+      "zh": "在……附近",
+      "surface": "Cerca de",
+      "source": "supplement"
+     },
+     {
+      "h": "casa",
+      "pos": "f.",
+      "zh": "家；房子",
+      "surface": "casa",
+      "source": "supplement"
+     },
+     {
+      "h": "farmacia",
+      "pos": "f.",
+      "zh": "药店",
+      "surface": "farmacia",
+      "source": "supplement"
+     },
+     {
+      "h": "parada de autobús",
+      "pos": "f.",
+      "zh": "公交车站",
+      "surface": "parada de autobús",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Los domingos voy al centro con mis amigos.",
+    "zh": "每个星期天，我都和朋友们去市中心。",
+    "w": [
+     {
+      "h": "los domingos",
+      "pos": "loc.",
+      "zh": "每个星期天",
+      "surface": "Los domingos",
+      "source": "supplement"
+     },
+     {
+      "h": "ir",
+      "pos": "intr.",
+      "zh": "去",
+      "surface": "voy",
+      "source": "supplement"
+     },
+     {
+      "h": "centro",
+      "pos": "m.",
+      "zh": "市中心",
+      "surface": "centro",
+      "source": "supplement"
+     },
+     {
+      "h": "amigo",
+      "pos": "m.",
+      "zh": "朋友",
+      "surface": "amigos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "A veces visitamos un museo y después tomamos chocolate caliente.",
+    "zh": "有时我们会去参观博物馆，然后喝杯热巧克力。",
+    "w": [
+     {
+      "h": "a veces",
+      "pos": "loc.",
+      "zh": "有时候",
+      "surface": "A veces",
+      "source": "supplement"
+     },
+     {
+      "h": "visitar",
+      "pos": "tr.",
+      "zh": "参观",
+      "surface": "visitamos",
+      "source": "supplement"
+     },
+     {
+      "h": "museo",
+      "pos": "m.",
+      "zh": "博物馆",
+      "surface": "museo",
+      "source": "supplement"
+     },
+     {
+      "h": "tomar",
+      "pos": "tr.",
+      "zh": "喝；吃",
+      "surface": "tomamos",
+      "source": "supplement"
+     },
+     {
+      "h": "chocolate caliente",
+      "pos": "m.",
+      "zh": "热巧克力",
+      "surface": "chocolate caliente",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En invierno hace frío y llueve bastante, pero en primavera las calles tienen muchas flores.",
+    "zh": "冬天很冷，雨也下得挺多，但到了春天，街道上到处是鲜花。",
+    "w": [
+     {
+      "h": "invierno",
+      "pos": "m.",
+      "zh": "冬天",
+      "surface": "invierno",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer frío",
+      "pos": "loc.",
+      "zh": "（天气）冷",
+      "surface": "hace frío",
+      "source": "supplement"
+     },
+     {
+      "h": "llover",
+      "pos": "intr.",
+      "zh": "下雨",
+      "surface": "llueve",
+      "source": "supplement"
+     },
+     {
+      "h": "bastante",
+      "pos": "adv.",
+      "zh": "相当，挺",
+      "surface": "bastante",
+      "source": "supplement"
+     },
+     {
+      "h": "primavera",
+      "pos": "f.",
+      "zh": "春天",
+      "surface": "primavera",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Me gusta mi ciudad porque es bonita y la gente es amable.",
+    "zh": "我喜欢我的城市，因为它很漂亮，这里的人也很友善。",
+    "w": [
+     {
+      "h": "me gusta",
+      "pos": "loc.",
+      "zh": "我喜欢",
+      "surface": "Me gusta",
+      "source": "supplement"
+     },
+     {
+      "h": "porque",
+      "pos": "conj.",
+      "zh": "因为",
+      "surface": "porque",
+      "source": "supplement"
+     },
+     {
+      "h": "bonito",
+      "pos": "adj.",
+      "zh": "漂亮的",
+      "surface": "bonita",
+      "source": "supplement"
+     },
+     {
+      "h": "gente",
+      "pos": "f.",
+      "zh": "人们（集合名词）",
+      "surface": "gente",
+      "source": "supplement"
+     },
+     {
+      "h": "amable",
+      "pos": "adj.",
+      "zh": "友善的，和蔼的",
+      "surface": "amable",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

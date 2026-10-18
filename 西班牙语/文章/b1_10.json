@@ -1,0 +1,234 @@
+{
+ "id": "b1_10",
+ "level": "B1",
+ "no": 10,
+ "title_es": "La ciudad y los espacios verdes",
+ "title_zh": "城市与绿地",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 10 篇",
+ "header": "分级阅读 B1-10",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 10 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 5 句 autoridades 译作“有关部门”，deberían 是条件式，语气比 deben 委婉；第 6 句 Diseñarlos 的 los 指这些绿地；第 4 句 “…zonas verdes, y algunas…” 是两个分句之间的逗号，照常停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "caminar,",
+    "why": "列举：para caminar, hacer ejercicio y reunirse…（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Los parques y jardines urbanos mejoran la calidad de vida de los habitantes.",
+    "zh": "城市里的公园和花园能提高居民的生活质量。",
+    "w": [
+     {
+      "h": "jardín",
+      "pos": "m.",
+      "zh": "花园",
+      "surface": "jardines",
+      "source": "supplement"
+     },
+     {
+      "h": "mejorar",
+      "pos": "tr.",
+      "zh": "改善，提高",
+      "surface": "mejoran",
+      "source": "supplement"
+     },
+     {
+      "h": "calidad de vida",
+      "pos": "f.",
+      "zh": "生活质量",
+      "surface": "calidad de vida",
+      "source": "supplement"
+     },
+     {
+      "h": "habitante",
+      "pos": "m.",
+      "zh": "居民",
+      "surface": "habitantes",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Proporcionan lugares para caminar, hacer ejercicio y reunirse con otras personas.",
+    "zh": "它们为人们提供了散步、锻炼以及与他人相聚的场所。",
+    "w": [
+     {
+      "h": "proporcionar",
+      "pos": "tr.",
+      "zh": "提供",
+      "surface": "Proporcionan",
+      "source": "supplement"
+     },
+     {
+      "h": "caminar",
+      "pos": "intr.",
+      "zh": "散步，步行",
+      "surface": "caminar",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer ejercicio",
+      "pos": "loc.",
+      "zh": "锻炼，做运动",
+      "surface": "hacer ejercicio",
+      "source": "supplement"
+     },
+     {
+      "h": "reunirse con",
+      "pos": "loc.",
+      "zh": "与……相聚",
+      "surface": "reunirse con",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Además, los árboles ofrecen sombra y ayudan a reducir la temperatura durante los meses calurosos.",
+    "zh": "此外，树木能提供树荫，还有助于在炎热的月份里降低气温。",
+    "w": [
+     {
+      "h": "sombra",
+      "pos": "f.",
+      "zh": "阴凉，树荫",
+      "surface": "sombra",
+      "source": "supplement"
+     },
+     {
+      "h": "ayudar a + inf.",
+      "pos": "loc.",
+      "zh": "有助于",
+      "surface": "ayudan a",
+      "source": "supplement"
+     },
+     {
+      "h": "reducir",
+      "pos": "tr.",
+      "zh": "降低，减少",
+      "surface": "reducir",
+      "source": "supplement"
+     },
+     {
+      "h": "caluroso",
+      "pos": "adj.",
+      "zh": "炎热的",
+      "surface": "calurosos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, no todos los barrios cuentan con suficientes zonas verdes, y algunas están mal cuidadas.",
+    "zh": "然而，并不是每个街区都有足够的绿地，而且有些绿地疏于管护。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "contar con",
+      "pos": "loc.",
+      "zh": "拥有，具备",
+      "surface": "cuentan con",
+      "source": "supplement"
+     },
+     {
+      "h": "zona verde",
+      "pos": "f.",
+      "zh": "绿地",
+      "surface": "zonas verdes",
+      "source": "supplement"
+     },
+     {
+      "h": "mal cuidado",
+      "pos": "loc.",
+      "zh": "疏于照料的",
+      "surface": "mal cuidadas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Las autoridades deberían considerar estos espacios como una parte esencial de la planificación urbana.",
+    "zh": "有关部门应当把这些空间视为城市规划中不可或缺的一部分。",
+    "w": [
+     {
+      "h": "autoridad",
+      "pos": "f.",
+      "zh": "（复）当局，有关部门",
+      "surface": "autoridades",
+      "source": "supplement"
+     },
+     {
+      "h": "deber + inf.",
+      "pos": "loc.",
+      "zh": "应该（条件式，较委婉）",
+      "surface": "deberían",
+      "source": "supplement"
+     },
+     {
+      "h": "considerar A como B",
+      "pos": "loc.",
+      "zh": "把A看作B",
+      "surface": "considerar",
+      "source": "supplement"
+     },
+     {
+      "h": "planificación urbana",
+      "pos": "f.",
+      "zh": "城市规划",
+      "surface": "planificación urbana",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Diseñarlos con la participación de los vecinos puede favorecer que respondan a las necesidades reales de la comunidad.",
+    "zh": "在居民的参与下设计这些绿地，能促使它们更好地满足社区的实际需求。",
+    "w": [
+     {
+      "h": "diseñar",
+      "pos": "tr.",
+      "zh": "设计（los 指绿地）",
+      "surface": "Diseñarlos",
+      "source": "supplement"
+     },
+     {
+      "h": "vecino",
+      "pos": "m.",
+      "zh": "居民，邻居",
+      "surface": "vecinos",
+      "source": "supplement"
+     },
+     {
+      "h": "favorecer que",
+      "pos": "loc.",
+      "zh": "促使（+虚拟式）",
+      "surface": "favorecer que",
+      "source": "supplement"
+     },
+     {
+      "h": "responder a",
+      "pos": "loc.",
+      "zh": "满足，回应（需求）",
+      "surface": "respondan a",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

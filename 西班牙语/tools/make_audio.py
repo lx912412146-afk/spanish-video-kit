@@ -17,6 +17,7 @@
 import argparse
 import json
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -89,30 +90,55 @@ class KokoroES:
         return out
 
 
+CACHE = ES / 'audio' / '_合成缓存'
+# 只影响合成之后的处理、不影响模型原始输出的设置：不进缓存键（改这些不用重新合成）
+POST_KEYS = {'label', 'python', 'lead_in', 'sentence_pause', 'tail', 'clause_pause', 'lufs', 'kbps', 'debuzz', 'deline',
+             'tempo', 'pitch_cents', 'leveler_win', 'leveler_rng'}
+
+
 class Worker:
-    """在别的 Python 环境里运行 engines/<script>：输入 JSON（片段文字 + 设置），每段输出一个 wav。"""
+    """在别的 Python 环境里运行 engines/<script>：输入 JSON（片段文字 + 设置），每段输出一个 wav。
+    每段的模型原始输出按（文字 + 合成设置 + 参考录音内容）缓存在 audio/_合成缓存/：同样的输入不再重新合成
+    （Qwen3 每段合成前都重设种子，同一台机器上重跑的结果本来就逐位一致）。"""
 
     def __init__(self, cfg):
+        import hashlib
+        key = {k: v for k, v in cfg.items() if k not in POST_KEYS}
         cfg = dict(cfg)
         if cfg.get('python', 'self') == 'self':                 # "self" = 用运行 make_audio.py 的这个 Python 环境
             cfg['python'] = sys.executable
         for k in ('model_dir', 'ref_audio'):                    # 相对路径按工具包根目录解析（换电脑不用改 voices.json）
             if cfg.get(k) and not Path(cfg[k]).is_absolute():
                 cfg[k] = str(ROOT / cfg[k])
+        if cfg.get('ref_audio') and Path(cfg['ref_audio']).exists():
+            key['ref_audio_sha256'] = hashlib.sha256(Path(cfg['ref_audio']).read_bytes()).hexdigest()
+        self.key = json.dumps(key, sort_keys=True, ensure_ascii=False)
         self.cfg = cfg
+
+    def _cached(self, text):
+        import hashlib
+        return CACHE / (hashlib.sha256(f'{self.key}\n{text}'.encode('utf-8')).hexdigest()[:32] + '.wav')
 
     def synth_all(self, texts):
         import soundfile as sf
-        with tempfile.TemporaryDirectory(prefix='es_tts_') as td:
-            td = Path(td)
-            (td / 'in.json').write_text(json.dumps({'texts': texts, 'cfg': self.cfg}, ensure_ascii=False), 'utf-8')
-            cmd = [self.cfg['python'], str(HERE / 'engines' / self.cfg['script']), str(td / 'in.json'), str(td)]
-            subprocess.run(cmd, check=True)
-            out = []
-            for i in range(len(texts)):
-                a, sr = sf.read(str(td / f'{i:03d}.wav'), dtype='float32')
-                out.append((a if a.ndim == 1 else a.mean(1), sr))
-            return out
+        files = [self._cached(t) for t in texts]
+        todo = [i for i, f in enumerate(files) if not f.exists()]
+        if todo:
+            CACHE.mkdir(parents=True, exist_ok=True)
+            with tempfile.TemporaryDirectory(prefix='es_tts_') as td:
+                td = Path(td)
+                job = {'texts': [texts[i] for i in todo], 'cfg': self.cfg}
+                (td / 'in.json').write_text(json.dumps(job, ensure_ascii=False), 'utf-8')
+                cmd = [self.cfg['python'], str(HERE / 'engines' / self.cfg['script']), str(td / 'in.json'), str(td)]
+                subprocess.run(cmd, check=True)
+                for j, i in enumerate(todo):
+                    shutil.copyfile(td / f'{j:03d}.wav', files[i])
+        print(f'  合成缓存：{len(texts) - len(todo)} 段直接用缓存，{len(todo)} 段新合成')
+        out = []
+        for f in files:
+            a, sr = sf.read(str(f), dtype='float32')
+            out.append((a if a.ndim == 1 else a.mean(1), sr))
+        return out
 
 
 def engine_for(cfg):
@@ -125,11 +151,34 @@ def to_sr(a, sr):
     return a if sr == SR else soxr.resample(a, sr, SR, quality='VHQ').astype(np.float32)
 
 
+def tempo_pitch(a, sr, tempo, cents):
+    """合成后变速变调。音高：soxr（VHQ）重采样，音高和语速一起升 cents 音分（100 音分 = 一个半音）；
+    语速：再用 ffmpeg atempo（WSOLA 类时域算法，只改语速不改音高）补到目标语速 tempo。
+    只做一次时域伸缩，失真最少。（conda-forge 的 SoX 和 ffmpeg 依赖的 lame 版本冲突，所以不用 SoX。）"""
+    import soxr
+    r = 2 ** (cents / 1200)
+    b = np.asarray(a, np.float32)
+    if cents:
+        b = soxr.resample(b, sr * r, sr, quality='VHQ').astype(np.float32)   # 当作 sr×r 采样的声音重采样回 sr：变短、变高
+    rest = tempo / r
+    if abs(rest - 1) > 1e-6:
+        if not 0.5 <= rest <= 2.0:
+            raise RuntimeError(f'atempo 系数 {rest:.3f} 超出 0.5–2.0')
+        ff = Path(sys.executable).with_name('ffmpeg')
+        ff = str(ff) if ff.exists() else (shutil.which('ffmpeg') or 'ffmpeg')
+        b = np.frombuffer(subprocess.run(
+            [ff, '-v', 'error', '-f', 'f32le', '-ar', str(sr), '-ac', '1', '-i', 'pipe:0',
+             '-af', f'atempo={rest:.6f}', '-f', 'f32le', '-ar', str(sr), '-ac', '1', 'pipe:1'],
+            input=b.tobytes(), capture_output=True, check=True).stdout, np.float32).copy()
+    return b
+
+
 def chain(cfg):
     """把 G 的电平、压缩换成西语这条链（四级的 K 加权电平 + 这个声音自己的去电磁音频点 + 压缩 + 慢速电平）。"""
     tones = cfg.get('debuzz', [])
+    win, rng = cfg.get('leveler_win', 1.0), cfg.get('leveler_rng', 4.0)   # 慢速电平的窗长（秒）、增益范围（±dB）
     G.level = C4A.level_k
-    G.compress = lambda x, sr: C4A.leveler(C4A._comp(buzz.debuzz(x, sr, tones), sr), sr)
+    G.compress = lambda x, sr: C4A.leveler(C4A._comp(buzz.debuzz(x, sr, tones), sr), sr, win=win, rng=rng)
 
 
 def verify(mp3, items, lufs):
@@ -147,7 +196,8 @@ def build(p, cfg, eng, sents=None, log=print):
     chain(cfg)
     PAUSES.clear()
     PAUSES.update({k: v for k, v in PAUSES_ALL.get(p['id'], {}).items() if not k.startswith('_')})
-    allsent =[(pi, si, s) for pi, para in enumerate(p['paras']) for si, s in enumerate(para)]
+    PAUSES.update({k: v for k, v in p.get('no_pause_commas', {}).items() if not k.startswith('_')})   # 也可以写在文章 JSON 里
+    allsent = [(pi, si, s) for pi, para in enumerate(p['paras']) for si, s in enumerate(para)]
     pick = [x for k, x in enumerate(allsent, 1) if not sents or k in sents]
     plan = []
     for pi, si, s in pick:
@@ -159,6 +209,10 @@ def build(p, cfg, eng, sents=None, log=print):
     if cfg.get('deline'):                                         # Supertonic：每段原始输出（帧网格对齐、未裁剪）先去帧频梳状线
         comb = buzz.load_comb(cfg['deline'])
         raw = [(buzz.deline(a, sr, comb), sr) for a, sr in raw]
+    tempo, cents = cfg.get('tempo', 1.0), cfg.get('pitch_cents', 0)
+    if tempo != 1.0 or cents:                                     # 变速变调在去梳状线之后（梳状线按原始帧网格算）
+        raw = [(tempo_pitch(a, sr, tempo, cents), sr) for a, sr in raw]
+        log(f'  变速变调：语速 {tempo} 倍，音高 {cents:+d} 音分')
     audio = iter(raw)
     log(f'  合成 {len(texts)} 段，用时 {time.time() - t0:.0f} 秒')
     cp = cfg['clause_pause']

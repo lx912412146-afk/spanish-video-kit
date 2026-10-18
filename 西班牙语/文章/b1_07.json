@@ -1,0 +1,212 @@
+{
+ "id": "b1_07",
+ "level": "B1",
+ "no": 7,
+ "title_es": "El comercio de barrio",
+ "title_zh": "社区小商店",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 7 篇",
+ "header": "分级阅读 B1-07",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 7 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 2 句 trato personal 译作“贴心的个人服务”；第 5 句 los hace diferentes 的 los 指小商店，词条写成 hacer + 宾语 + adj.；comercio de barrio 标题译作“社区小商店”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "trato personal,",
+    "why": "列举：trato personal, conocimiento del vecindario y productos…（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "En muchas ciudades, las pequeñas tiendas tienen dificultades para competir con las grandes cadenas y las plataformas digitales.",
+    "zh": "在很多城市，小商店很难与大型连锁店和数字平台竞争。",
+    "w": [
+     {
+      "h": "tener dificultades para",
+      "pos": "loc.",
+      "zh": "难以（做某事）",
+      "surface": "tienen dificultades para",
+      "source": "supplement"
+     },
+     {
+      "h": "competir con",
+      "pos": "loc.",
+      "zh": "与……竞争",
+      "surface": "competir con",
+      "source": "supplement"
+     },
+     {
+      "h": "cadena",
+      "pos": "f.",
+      "zh": "连锁店",
+      "surface": "cadenas",
+      "source": "supplement"
+     },
+     {
+      "h": "plataforma digital",
+      "pos": "f.",
+      "zh": "数字平台",
+      "surface": "plataformas digitales",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, ofrecen ventajas que no siempre se reflejan en el precio: trato personal, conocimiento del vecindario y productos seleccionados con cuidado.",
+    "zh": "不过，它们有一些未必体现在价格上的优势：贴心的个人服务、对街坊的了解，以及精心挑选的商品。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "ventaja",
+      "pos": "f.",
+      "zh": "优势，好处",
+      "surface": "ventajas",
+      "source": "supplement"
+     },
+     {
+      "h": "reflejarse en",
+      "pos": "loc.",
+      "zh": "体现在……上",
+      "surface": "se reflejan en",
+      "source": "supplement"
+     },
+     {
+      "h": "trato personal",
+      "pos": "m.",
+      "zh": "贴心的个人服务",
+      "surface": "trato personal",
+      "source": "supplement"
+     },
+     {
+      "h": "vecindario",
+      "pos": "m.",
+      "zh": "街坊，社区",
+      "surface": "vecindario",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Comprar en estos establecimientos puede ayudar a mantener viva la actividad económica de una zona.",
+    "zh": "在这些店里购物，有助于让一个地区的经济活动保持活力。",
+    "w": [
+     {
+      "h": "establecimiento",
+      "pos": "m.",
+      "zh": "商店，店铺",
+      "surface": "establecimientos",
+      "source": "supplement"
+     },
+     {
+      "h": "ayudar a + inf.",
+      "pos": "loc.",
+      "zh": "有助于",
+      "surface": "ayudar a",
+      "source": "supplement"
+     },
+     {
+      "h": "mantener vivo",
+      "pos": "loc.",
+      "zh": "使保持活力",
+      "surface": "mantener viva",
+      "source": "supplement"
+     },
+     {
+      "h": "zona",
+      "pos": "f.",
+      "zh": "地区，片区",
+      "surface": "zona",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Para adaptarse, algunos comerciantes han empezado a utilizar redes sociales y servicios de entrega.",
+    "zh": "为了适应变化，一些商家已经开始使用社交网络和送货服务。",
+    "w": [
+     {
+      "h": "adaptarse",
+      "pos": "prnl.",
+      "zh": "适应",
+      "surface": "adaptarse",
+      "source": "supplement"
+     },
+     {
+      "h": "empezar a + inf.",
+      "pos": "loc.",
+      "zh": "开始做某事",
+      "surface": "han empezado a",
+      "source": "supplement"
+     },
+     {
+      "h": "redes sociales",
+      "pos": "f.",
+      "zh": "社交网络",
+      "surface": "redes sociales",
+      "source": "supplement"
+     },
+     {
+      "h": "servicio de entrega",
+      "pos": "m.",
+      "zh": "送货服务",
+      "surface": "servicios de entrega",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El reto consiste en combinar las nuevas herramientas con aquello que los hace diferentes: la cercanía y la confianza de sus clientes.",
+    "zh": "挑战在于把新工具与让它们与众不同的东西结合起来：与顾客的亲近，以及顾客的信任。",
+    "w": [
+     {
+      "h": "reto",
+      "pos": "m.",
+      "zh": "挑战",
+      "surface": "reto",
+      "source": "supplement"
+     },
+     {
+      "h": "herramienta",
+      "pos": "f.",
+      "zh": "工具",
+      "surface": "herramientas",
+      "source": "supplement"
+     },
+     {
+      "h": "aquello que",
+      "pos": "loc.",
+      "zh": "……的东西（中性）",
+      "surface": "aquello que",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer + 宾语 + adj.",
+      "pos": "loc.",
+      "zh": "使……变得",
+      "surface": "los hace",
+      "source": "supplement"
+     },
+     {
+      "h": "cercanía",
+      "pos": "f.",
+      "zh": "亲近，贴近",
+      "surface": "cercanía",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

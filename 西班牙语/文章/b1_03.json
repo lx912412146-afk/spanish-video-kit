@@ -1,0 +1,251 @@
+{
+ "id": "b1_03",
+ "level": "B1",
+ "no": 3,
+ "title_es": "El valor de las bibliotecas",
+ "title_zh": "图书馆的价值",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 3 篇",
+ "header": "分级阅读 B1-03",
+ "_说明": "西班牙语分级阅读文章集（用户 2026-10-18 发来的 Word 文档《西班牙语A1-C1分级阅读文章集》）B1 第 3 篇。es：原文（原样，按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性、zh 释义（按本句语境）、surface 句中原形（在句中恰好出现一次）；B1 选词侧重连接词、带虚拟式的结构、动词搭配和社会生活类词汇，少选一眼就懂的同源词；同一词头只在首次出现的句子里列。no_pause_commas：只登记列举中不停顿的逗号，其余逗号照常停顿。特别判断：第 3 句句首的 Muchas 是代词，指前文的 bibliotecas，单列为 pron.；第 2 句 encuentro 译作“交流”（人与人相聚、碰面）；sino 只在第 2 句列，第 6 句不重复；第 4 句 podrían 是条件式，词条注明。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "de estudio,",
+    "why": "列举：espacios de estudio, encuentro y participación cultural（A, B y C）"
+   }
+  ],
+  "3": [
+   {
+    "after": "talleres,",
+    "why": "列举：talleres, clubes de lectura y actividades para niños（A, B y C）"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Aunque hoy tenemos acceso a una enorme cantidad de información digital, las bibliotecas siguen desempeñando una función importante.",
+    "zh": "虽然如今我们可以获取海量的数字信息，但图书馆仍然发挥着重要的作用。",
+    "w": [
+     {
+      "h": "aunque",
+      "pos": "conj.",
+      "zh": "虽然，尽管",
+      "surface": "Aunque",
+      "source": "supplement"
+     },
+     {
+      "h": "tener acceso a",
+      "pos": "loc.",
+      "zh": "能获取，能使用",
+      "surface": "tenemos acceso a",
+      "source": "supplement"
+     },
+     {
+      "h": "una enorme cantidad de",
+      "pos": "loc.",
+      "zh": "大量的，海量的",
+      "surface": "una enorme cantidad de",
+      "source": "supplement"
+     },
+     {
+      "h": "seguir + 副动词",
+      "pos": "loc.",
+      "zh": "仍在……，继续……",
+      "surface": "siguen",
+      "source": "supplement"
+     },
+     {
+      "h": "desempeñar una función",
+      "pos": "loc.",
+      "zh": "发挥作用",
+      "surface": "desempeñando una función",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No son únicamente lugares donde se guardan libros, sino espacios de estudio, encuentro y participación cultural.",
+    "zh": "图书馆不只是存放书籍的地方，更是学习、交流和参与文化活动的空间。",
+    "w": [
+     {
+      "h": "únicamente",
+      "pos": "adv.",
+      "zh": "仅仅，只",
+      "surface": "únicamente",
+      "source": "supplement"
+     },
+     {
+      "h": "guardar",
+      "pos": "tr.",
+      "zh": "存放（se 表被动）",
+      "surface": "se guardan",
+      "source": "supplement"
+     },
+     {
+      "h": "sino",
+      "pos": "conj.",
+      "zh": "而是（no…sino…）",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "encuentro",
+      "pos": "m.",
+      "zh": "相聚，交流",
+      "surface": "encuentro",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Muchas ofrecen talleres, clubes de lectura y actividades para niños.",
+    "zh": "很多图书馆都开设工作坊、读书会和儿童活动。",
+    "w": [
+     {
+      "h": "mucho",
+      "pos": "pron.",
+      "zh": "许多（此处指图书馆）",
+      "surface": "Muchas",
+      "source": "supplement"
+     },
+     {
+      "h": "ofrecer",
+      "pos": "tr.",
+      "zh": "提供，开设",
+      "surface": "ofrecen",
+      "source": "supplement"
+     },
+     {
+      "h": "taller",
+      "pos": "m.",
+      "zh": "工作坊，研习班",
+      "surface": "talleres",
+      "source": "supplement"
+     },
+     {
+      "h": "club de lectura",
+      "pos": "m.",
+      "zh": "读书会",
+      "surface": "clubes de lectura",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Además, permiten acceder gratuitamente a recursos que algunas personas no podrían pagar.",
+    "zh": "此外，图书馆让人们能够免费获取一些资源，而这些资源有些人可能负担不起。",
+    "w": [
+     {
+      "h": "permitir + inf.",
+      "pos": "loc.",
+      "zh": "使能够，允许",
+      "surface": "permiten",
+      "source": "supplement"
+     },
+     {
+      "h": "acceder a",
+      "pos": "loc.",
+      "zh": "获取，使用",
+      "surface": "acceder",
+      "source": "supplement"
+     },
+     {
+      "h": "gratuitamente",
+      "pos": "adv.",
+      "zh": "免费地",
+      "surface": "gratuitamente",
+      "source": "supplement"
+     },
+     {
+      "h": "poder",
+      "pos": "tr.",
+      "zh": "能够（此为条件式）",
+      "surface": "podrían",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En una sociedad donde abundan las distracciones, la biblioteca ofrece un entorno tranquilo para concentrarse.",
+    "zh": "在一个充满各种干扰的社会里，图书馆提供了一个能让人静心专注的安静环境。",
+    "w": [
+     {
+      "h": "abundar",
+      "pos": "intr.",
+      "zh": "大量存在，比比皆是",
+      "surface": "abundan",
+      "source": "supplement"
+     },
+     {
+      "h": "distracción",
+      "pos": "f.",
+      "zh": "使人分心的事",
+      "surface": "distracciones",
+      "source": "supplement"
+     },
+     {
+      "h": "entorno",
+      "pos": "m.",
+      "zh": "环境",
+      "surface": "entorno",
+      "source": "supplement"
+     },
+     {
+      "h": "concentrarse",
+      "pos": "prnl.",
+      "zh": "集中注意力",
+      "surface": "concentrarse",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Su futuro no depende de competir con internet, sino de combinar los recursos digitales con el valor de un espacio compartido.",
+    "zh": "图书馆的未来不在于与互联网竞争，而在于把数字资源与共享空间的价值结合起来。",
+    "w": [
+     {
+      "h": "depender de",
+      "pos": "loc.",
+      "zh": "取决于",
+      "surface": "depende de",
+      "source": "supplement"
+     },
+     {
+      "h": "competir con",
+      "pos": "loc.",
+      "zh": "与……竞争",
+      "surface": "competir con",
+      "source": "supplement"
+     },
+     {
+      "h": "combinar A con B",
+      "pos": "loc.",
+      "zh": "把A与B结合",
+      "surface": "combinar",
+      "source": "supplement"
+     },
+     {
+      "h": "compartido",
+      "pos": "adj.",
+      "zh": "共享的",
+      "surface": "compartido",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}
