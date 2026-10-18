@@ -32,6 +32,7 @@ ROOT = ES.parent
 sys.path.insert(0, str(HERE))
 import c4  # noqa: E402
 import buzz  # noqa: E402
+import loudness  # noqa: E402
 G = c4.load('gaokao_tts', 'tools/tts/gaokao_tts.py')
 C4A = c4.load('cet4_make_audio', '四级/tools/make_audio.py')   # 四级的 K 加权电平、慢速电平（导入时会改 G 的几个函数，下面全部明确重设）
 sys.path.insert(0, str(HERE))                                    # 四级 make_audio 会把 四级/tools 插到最前面，这里恢复
@@ -93,7 +94,7 @@ class KokoroES:
 CACHE = ES / 'audio' / '_合成缓存'
 # 只影响合成之后的处理、不影响模型原始输出的设置：不进缓存键（改这些不用重新合成）
 POST_KEYS = {'label', 'python', 'lead_in', 'sentence_pause', 'tail', 'clause_pause', 'lufs', 'kbps', 'debuzz', 'deline',
-             'tempo', 'pitch_cents', 'leveler_win', 'leveler_rng'}
+             'tempo', 'pitch_cents', 'leveler_win', 'leveler_rng', 'leveler_ladder', 'safe_short_term'}
 
 
 class Worker:
@@ -184,7 +185,7 @@ def chain(cfg):
 def verify(mp3, items, lufs):
     import io
     import soundfile as sf
-    rep, errs = C4A._verify(mp3, items, lufs)               # 高考原版的响度四项（独立测量，ITU-R BS.1770）
+    rep, errs = loudness.verify(mp3, items, lufs)           # 高考原版的响度四项（独立测量，ITU-R BS.1770；短时波动只看朗读范围，见 loudness.py）
     a, sr = sf.read(io.BytesIO(mp3), dtype='float32')
     f0, r, c, e = buzz.check(a if a.ndim == 1 else a.mean(1), sr, items)
     rep['buzz_hz'], rep['buzz_db'], rep['comb_db'] = f0, round(r, 1), round(c, 2)
@@ -273,11 +274,30 @@ def main():
             lo, _, hi = x.partition('-')
             sents |= set(range(int(lo), int(hi or lo) + 1))
     eng = engine_for(cfg)
-    a48, items = build(p, cfg, eng, sents)
-    mp3 = G.encode_mp3(a48, kbps=cfg.get('kbps', 128))
-    rep, errs = verify(mp3, items, cfg.get('lufs', -16.0))
-    print(f"  响度：整体 {rep['integrated_lufs']} LUFS，句间最大偏差 {rep['sentence_max_dev_lu']} LU，短时波动 "
-          f"{rep['short_term_std_lu']} LU，峰值 {rep['peak_dbfs']} dBFS；电磁音：梳状线 {rep['comb_db']:+.2f} dB，全频段最强 {rep['buzz_hz']:.0f} Hz {rep['buzz_db']:+.1f} dB")
+    # 短时响度波动的安全线：视频核查会对视频里重新编码的 AAC 音轨再测一次，结果和 MP3 差零点零几，
+    # 所以音频阶段先压到 safe_short_term 以下（判定上限仍是 1.0）。超过时只对这一篇按 leveler_ladder 依次加强慢速电平再试
+    # （同四级 c14 的做法），用第一档全部通过且不超过安全线的；都不行就用全部通过里最好的一档。原始合成有缓存，每档只要几秒。
+    safe = cfg.get('safe_short_term')
+    ladder = [(cfg.get('leveler_win', 1.0), cfg.get('leveler_rng', 4.0))] + [tuple(x) for x in cfg.get('leveler_ladder', [])]
+    tried = []
+    for win, rng in ladder:
+        c = dict(cfg, leveler_win=win, leveler_rng=rng)
+        a48, items = build(p, c, eng, sents, log=print if not tried else (lambda *_: None))
+        mp3 = G.encode_mp3(a48, kbps=c.get('kbps', 128))
+        rep, errs = verify(mp3, items, c.get('lufs', -16.0))
+        tried.append((not errs, rep['short_term_std_lu'], win, rng, c, a48, items, mp3, rep, errs))
+        if safe is None or (not errs and rep['short_term_std_lu'] <= safe):
+            break
+        print(f"  慢速电平 {win} 秒 ±{rng:g} dB：短时波动 {rep['short_term_std_lu']} LU"
+              + (f"，{'；'.join(errs)}" if errs else f'，高于安全线 {safe}') + '，加强一档再试')
+    ok_runs = [t for t in tried if t[0]]
+    pick = (next((t for t in ok_runs if safe is None or t[1] <= safe), None)
+            or min(ok_runs, key=lambda t: t[1], default=None) or tried[0])
+    _, _, win, rng, cfg, a48, items, mp3, rep, errs = pick
+    if len(tried) > 1:
+        print(f'  用慢速电平 {win} 秒 ±{rng:g} dB')
+    print(f"  响度：整体 {rep['integrated_lufs']} LUFS，句间最大偏差 {rep['sentence_max_dev_lu']} LU，短时波动（朗读范围）"
+          f"{rep['short_term_std_lu']} LU（含首尾静音的原测法 {rep['short_term_std_full_lu']}，只记录），峰值 {rep['peak_dbfs']} dBFS；电磁音：梳状线 {rep['comb_db']:+.2f} dB，全频段最强 {rep['buzz_hz']:.0f} Hz {rep['buzz_db']:+.1f} dB")
     if a.sample:
         Path(a.sample).write_bytes(mp3)
         print(('  检查：' + '；'.join(errs)) if errs else '  检查全部通过', f'\n已保存试听样片 {a.sample}')

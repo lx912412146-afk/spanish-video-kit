@@ -1,5 +1,5 @@
 {
- "_说明": "西班牙语音色。engine=kokoro：本进程用 Kokoro-82M（tools/tts/models）；engine=worker：用 python 指定的环境运行 engines/ 里的 script。debuzz：Kokoro 声码器的固定频点（60 Hz 单向陷波）；deline：Supertonic 声码器的帧频梳状线清单（每段原始合成上减掉），见 buzz.py。mix：Supertonic 预置音色按权重混合（见 engines/sherpa.py）。_final：成品用的音色。 tempo：合成后变速（0.8 = 慢到 0.8 倍，不改音高）；pitch_cents：合成后变调（100 音分 = 一个半音），用 soxr 重采样 + ffmpeg atempo，见 make_audio.tempo_pitch。 leveler_win / leveler_rng：慢速电平的窗长（秒）和增益范围（±dB），默认 1.0 / 4.0。",
+ "_说明": "西班牙语音色。engine=kokoro：本进程用 Kokoro-82M（tools/tts/models）；engine=worker：用 python 指定的环境运行 engines/ 里的 script。debuzz：Kokoro 声码器的固定频点（60 Hz 单向陷波）；deline：Supertonic 声码器的帧频梳状线清单（每段原始合成上减掉），见 buzz.py。mix：Supertonic 预置音色按权重混合（见 engines/sherpa.py）。_final：成品用的音色。 tempo：合成后变速（0.8 = 慢到 0.8 倍，不改音高）；pitch_cents：合成后变调（100 音分 = 一个半音），用 soxr 重采样 + ffmpeg atempo，见 make_audio.tempo_pitch。 leveler_win / leveler_rng：慢速电平的窗长（秒）和增益范围（±dB），默认 1.0 / 4.0。 safe_short_term / leveler_ladder：短时响度波动超过安全线时，只对这一篇依次换用 ladder 里更强的慢速电平（窗长秒, ±dB）再试（判定上限仍是 1.0，见 make_audio.main）。",
  "_final": "supertonic3_M1",
  "kokoro_em_alex": {
   "label": "Kokoro em_alex（西语男声，基线）",
@@ -159,6 +159,17 @@
   "tempo": 0.8,
   "pitch_cents": 100,
   "leveler_win": 0.75,
-  "leveler_rng": 6.0
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ]
  }
 }

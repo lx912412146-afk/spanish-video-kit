@@ -247,22 +247,39 @@ def main():
                                               str(out / name)], capture_output=True, text=True).stdout.split()]
     dur = min(durs)
     # 成品核查：高考 / 四级同一套 verify_videos.check（分辨率、流畅度、声画等长、朗读与画面逐句一致、静音、停顿、响度、切屏……）
+    # 响度四项换成 loudness.verify：短时波动只统计朗读范围（片头、结尾静音另有两项单独核查），上限不变；原测法的数值另记一行
+    import loudness
+    gk = c4.load('gaokao_tts', 'tools/tts/gaokao_tts.py')
+    seen = {}
+
+    def verify_loudness(mp3, items, lufs):
+        rep, errs = loudness.verify(mp3, items, lufs)
+        seen.update(rep)
+        return rep, errs
+
+    gk.verify_loudness = verify_loudness
     from verify_videos import check
     pv = {'year': '', 'paper': '', 'part': '', 'title': '',
           'paras': [[{'en': s['es'], 'w': s['w']} for s in para] for para in p['paras']]}
     tmv = {**tm, 'sentences': [{**t, 'text': t['text']} for t in times]}
     res = [r for r in check(out / name, pv, tmv) if not r[0].startswith('文件名')]
     res.append(buzz_check(out / name, times))
+    if 'short_term_std_full_lu' not in seen:
+        raise SystemExit('响度核查没有走 loudness.verify（verify_videos 的导入方式变了？）')
+    info = {'短时响度波动·原测法（含片头 1.5 秒、结尾 2 秒静音，只记录不判定）': f"{seen['short_term_std_full_lu']} LU"}
     fails = [f'{n}：{d}' for n, c, d in res if not c]
     for n, c, d in res:
         print(f"  {'✅' if c else '❌'} {n}：{d}")
+    for n, d in info.items():
+        print(f'  · {n}：{d}')
     if fails and a.draft:
         print('  草稿：以下核查未通过，成品保留：\n  ' + '\n  '.join(fails))
     elif fails:
         (out / name).unlink()
         raise SystemExit('核查未通过，已删除成品：\n  ' + '\n  '.join(fails))
     (out / (Path(name).stem + '_核查.json')).write_text(json.dumps(
-        {'video': name, 'voice': voice, 'duration': round(dur, 3), 'checks': [{'item': n, 'ok': c, 'detail': d} for n, c, d in res]},
+        {'video': name, 'voice': voice, 'duration': round(dur, 3), 'checks': [{'item': n, 'ok': c, 'detail': d} for n, c, d in res],
+         'info': info},
         ensure_ascii=False, indent=1), 'utf-8')
     print(f'已生成{"（草稿，有未通过的核查项）" if fails else "并核查通过"} {out / name}（时长 {dur:.2f} 秒，读完后静音 {dur - ends[-1]:.2f} 秒）')
 
