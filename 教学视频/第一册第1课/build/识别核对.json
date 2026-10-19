@@ -1,0 +1,1175 @@
+[
+ {
+  "voice": "ZH",
+  "text": "同学们好！欢迎来到西班牙语课堂。今天我们学习《现代西班牙语》第一册第一课。",
+  "errors": 0,
+  "asr": "同学们好欢迎来到西班牙语课堂今天我们学习现代西班牙语第一册第一课",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "这一课的题目是：",
+  "errors": 0,
+  "asr": "这一课的题目是",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "¿Quién es él?",
+  "errors": 0,
+  "asr": "¿Quién es él?",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "意思是“他是谁？”。",
+  "errors": 0,
+  "asr": "意思是他是谁",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "这节课分几个部分。先学语音：五个元音、六个辅音，还有音节划分、重音和连读的基本规则。",
+  "errors": 0,
+  "asr": "这节课分几个部分先学语音五个元音六个辅音还有音节划分重音和连读的基本规则",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "然后学课文，用西班牙语说出一个人是谁、是哪国人。",
+  "errors": 0,
+  "asr": "然后学课文用西班牙语说出一个人是谁是哪国人",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "最后总结本课的语法和单词，再做几道小练习。",
+  "errors": 0,
+  "asr": "最后总结本课的语法和单词再做几道小练习",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "我们先学元音。西班牙语一共有五个元音。请听。",
+  "errors": 0,
+  "asr": "我们先学元音西班牙语一共有五个元音请听",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "a, e, i, o, u.",
+  "errors": 0,
+  "asr": "A, E, I, O, U.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "西班牙语的元音发音短促、清楚。发音的时候，口型从头到尾保持不变，不能像英语那样滑动。",
+  "errors": 0,
+  "asr": "西班牙语的原因发音短促清楚发音的时候口型从头到尾保持不变不能像英语那样滑动",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第一个元音。嘴张大，舌头平放，和汉语的“啊”差不多。请听，然后跟着读。",
+  "errors": 0,
+  "asr": "第一个原因嘴张大舌头平放和汉语的啊差不多请听然后跟着读",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "mapa.",
+  "errors": 0,
+  "asr": "Mapa",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "papá.",
+  "errors": 0,
+  "asr": "Papa.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "mamá.",
+  "errors": 0,
+  "asr": "Mama",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第二个元音。嘴角稍微向两边拉开，舌面抬起，有点像汉语“也”字的韵母，但是更短、更紧，口型不要变。",
+  "errors": 0,
+  "asr": "第二个原因嘴角稍微向两边拉开舌面抬起有点像汉语也字的韵母但是更短更紧口型不要变",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "mesa.",
+  "errors": 0,
+  "asr": "Mesa",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "pelo.",
+  "errors": 0,
+  "asr": "Pelo",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "tela.",
+  "errors": 0,
+  "asr": "Tela",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第三个元音。和汉语的“衣”差不多，嘴角向两边拉开，舌尖抵住下齿。",
+  "errors": 0,
+  "asr": "第三个原因和汉语的一差不多嘴角向两边拉开舌尖抵住下齿",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "pino.",
+  "errors": 0,
+  "asr": "Pino",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "sí.",
+  "errors": 0,
+  "asr": "C.",
+  "diff": [
+   [
+    "si",
+    "c"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "lima.",
+  "errors": 0,
+  "asr": "Lima",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第四个元音。双唇收圆，有点像汉语的“哦”，但是口型自始至终不变，不要变成“欧”。",
+  "errors": 1,
+  "asr": "第四个原因双唇收元有点像汉语的哦但是口型自始至终不变不要变成 o",
+  "diff": [
+   [
+    "ou1",
+    ""
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "no.",
+  "errors": 0,
+  "asr": "No.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "solo.",
+  "errors": 0,
+  "asr": "Solo",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "mono.",
+  "errors": 0,
+  "asr": "Mono",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第五个元音。双唇收圆，向前突出，和汉语的“乌”差不多。",
+  "errors": 0,
+  "asr": "第五个原因双唇收圆向前突出和汉语的屋差不多",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "mula.",
+  "errors": 0,
+  "asr": "Mula",
+  "diff": [],
+  "seed": 5000
+ },
+ {
+  "voice": "ES_F",
+  "text": "luna.",
+  "errors": 0,
+  "asr": "Luna",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "puma.",
+  "errors": 0,
+  "asr": "Puma",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "接下来学辅音。先学两个不送气的辅音。",
+  "errors": 0,
+  "asr": "接下来学辅音先学两个不送气的辅音",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第一个是双唇音。双唇紧闭，然后突然打开，气流很弱，不送气。它和汉语“爸”字的声母差不多，不要读成“趴”。",
+  "errors": 0,
+  "asr": "第一个是双唇音双唇紧闭然后突然打开气流很弱不送气它和汉语霸字的声母差不多不要读成趴",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "Pepe.",
+  "errors": 0,
+  "asr": "Pepe",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "sopa.",
+  "errors": 0,
+  "asr": "Sopa",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第二个是舌尖音。舌尖抵住上齿背，然后放开，同样不送气。它和汉语“大”字的声母差不多，不要读成“他”。",
+  "errors": 0,
+  "asr": "第二个是舌尖音舌尖抵住上齿背然后放开同样不送气它和汉语大字的声母差不多不要读成它",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "tapa.",
+  "errors": 0,
+  "asr": "Tapa",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "tomate.",
+  "errors": 0,
+  "asr": "Tomate",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "下面两个是鼻音，和汉语的发音方法基本一样。",
+  "errors": 0,
+  "asr": "下面两个是鼻音和汉语的发音方法基本一样",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "发第一个鼻音时，双唇闭合，气流从鼻腔出来。",
+  "errors": 0,
+  "asr": "发第一个鼻音时双唇闭合气流从鼻腔出来",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "mano.",
+  "errors": 0,
+  "asr": "Mano",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "发第二个鼻音时，舌尖抵住上齿龈，气流也从鼻腔出来。",
+  "errors": 0,
+  "asr": "发第二个鼻音时舌尖抵住上齿龈气流也从鼻腔出来",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "nota.",
+  "errors": 0,
+  "asr": "Nota",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "这个辅音是边音。舌尖抵住上齿龈，气流从舌头两边出来，和汉语“了”字的声母差不多。",
+  "errors": 0,
+  "asr": "这个辅音是编音舌尖抵柱上齿龈气流从舌头两边出来和汉语了字的声母差不多",
+  "diff": [],
+  "seed": 2000
+ },
+ {
+  "voice": "ZH",
+  "text": "注意，它出现在单词末尾的时候，舌尖也要抵住上齿龈，发得清清楚楚。",
+  "errors": 0,
+  "asr": "注意他出现在单词末尾的时候舌尖也要抵住上齿龈发的清清楚楚",
+  "diff": [
+   [
+    "de2",
+    "de5"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "lana.",
+  "errors": 0,
+  "asr": "Lana",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "sol.",
+  "errors": 0,
+  "asr": "Sol",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "papel.",
+  "errors": 0,
+  "asr": "Papel",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "最后一个辅音。舌尖靠近上齿龈，气流从缝隙中摩擦而出，声带不振动，和汉语“丝”字的声母差不多。",
+  "errors": 0,
+  "asr": "最后一个辅音舌尖靠近上齿龈气流从缝隙中摩擦而出声带不振动和汉语私字的声母差不多",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "sala.",
+  "errors": 0,
+  "asr": "Sala",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "但是，它后面紧跟着一个浊辅音的时候，要读成浊音，声带振动。请听下面这两个词。",
+  "errors": 0,
+  "asr": "但是他后面紧跟着一个浊辅音的时候要读成浊音声带震动请听下面这两个词",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "mismo.",
+  "errors": 0,
+  "asr": "Mismo.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "isla.",
+  "errors": 0,
+  "asr": "Isla",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "西班牙语的单词由音节组成，每个音节里都有元音。下面学音节划分的三条基本规则。",
+  "errors": 0,
+  "asr": "西班牙语的单词由音节组成每个音节里都有原音下面学音节划分的三条基本规则",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第一，一个元音可以单独成为一个音节，也可以和前面的辅音一起构成音节。比如这个名字，分成两个音节。",
+  "errors": 0,
+  "asr": "第一一个元音可以单独成为一个音节也可以和前面的辅音一起构成音节比如这个名字分成两个音节",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "Ana.",
+  "errors": 0,
+  "asr": "Anna",
+  "diff": [
+   [
+    "ana",
+    "anna"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第二，两个元音之间只有一个辅音的时候，这个辅音和后面的元音构成音节。",
+  "errors": 0,
+  "asr": "第二两个元音之间只有一个辅音的时候这个辅音和后面的元音构成音节",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第三，两个辅音连在一起的时候，从中间分开：前一个辅音归前面的音节，后一个辅音归后面的音节。",
+  "errors": 0,
+  "asr": "第三两个辅音连在一起的时候从中间分开前一个辅音归前面的音节后一个辅音归后面的音节",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "alto.",
+  "errors": 0,
+  "asr": "Alto.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "salsa.",
+  "errors": 0,
+  "asr": "Salsa",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "还有一些特殊的情况，我们以后再学。",
+  "errors": 0,
+  "asr": "还有一些特殊的情况我们以后再学",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "接下来是重音。西班牙语的每个单词都有一个重读音节，读得更响、更长一些。",
+  "errors": 0,
+  "asr": "接下来是重音西班牙语的每个单词都有一个重读音节读得更响更长一些",
+  "diff": [],
+  "seed": 3000
+ },
+ {
+  "voice": "ZH",
+  "text": "第一条规则：以元音结尾，或者以屏幕上标出的两个辅音结尾的单词，重音在倒数第二个音节。",
+  "errors": 0,
+  "asr": "第一条规则以元音结尾或者以屏幕上标出的两个辅音结尾的单词重音在倒数第二个音节",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第二条规则：以其他辅音结尾的单词，重音在最后一个音节。",
+  "errors": 0,
+  "asr": "第二条规则以其他辅音结尾的单词重音在最后一个音节",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第三条规则：不符合这两条规律的单词，要在重读的元音上标出重音符号。比如“爸爸”和“妈妈”，重音都在最后一个音节。",
+  "errors": 0,
+  "asr": "第三条规则不符合这两条规律的单词要在重读的原因上标出重音符号比如爸爸和妈妈重音都在最后一个音节",
+  "diff": [],
+  "seed": 2000
+ },
+ {
+  "voice": "ZH",
+  "text": "在句子里，如果前一个词以辅音结尾，后一个词以元音开头，就要把它们连起来读，中间不停顿。请听，然后跟读。",
+  "errors": 0,
+  "asr": "在句子里如果前一个词以辅音结尾后一个词以元音开头就要把它们连起来读中间不停顿请听然后跟读",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Él es Paco.",
+  "errors": 0,
+  "asr": "El espaco.",
+  "diff": [
+   [
+    "es paco",
+    "espaco"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Son amigos.",
+  "errors": 0,
+  "asr": "Son amigos.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Es Ana.",
+  "errors": 0,
+  "asr": "Esana.",
+  "diff": [
+   [
+    "es ana",
+    "esana"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "下面进入课文。第一课的课文介绍了几个来自不同国家的人。我们仿照课文的内容，编了一段小对话。先完整地听一遍。",
+  "errors": 0,
+  "asr": "下面进入课文第一课的课文介绍了几个来自不同国家的人我们仿照课文的内容编了一段小对话先完整的听一遍",
+  "diff": [
+   [
+    "di4",
+    "de5"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "¿Quién es él?",
+  "errors": 0,
+  "asr": "¿Quién es él?",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Es Paco.",
+  "errors": 0,
+  "asr": "Es Paco.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "¿Es cubano?",
+  "errors": 0,
+  "asr": "¿Es cubano?",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Sí, es cubano.",
+  "errors": 0,
+  "asr": "Sí, es cubano.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "Y ella, ¿quién es?",
+  "errors": 0,
+  "asr": "Y ella, ¿quién es?",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Ella se llama Ana. Es panameña.",
+  "errors": 0,
+  "asr": "Ella se llama Ana, es panameña.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "¿Quiénes son ellos?",
+  "errors": 0,
+  "asr": "¿Quiénes son ellos?",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Son Pepe y Li Xin. Son amigos.",
+  "errors": 0,
+  "asr": "Son Pepe y Lizín. Son amigos.",
+  "diff": [
+   [
+    "li xin",
+    "lizin"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "¿Es chileno Li Xin?",
+  "errors": 0,
+  "asr": "¿Es chileno Lichin?",
+  "diff": [
+   [
+    "li xin",
+    "lichin"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "No, no es chileno. Es chino.",
+  "errors": 0,
+  "asr": "No, no es chileno, es chino.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "¿Y Pepe?",
+  "errors": 0,
+  "asr": "¿Y Pepe?",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Pepe es chileno.",
+  "errors": 0,
+  "asr": "Pepe es chileno.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "现在我们逐句学习，每一句都请跟着读。",
+  "errors": 0,
+  "asr": "现在我们逐句学习每一句都请跟着读",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第一句用疑问词“谁”提问。西班牙语的问句，前面要加一个倒写的问号。",
+  "errors": 0,
+  "asr": "第一句用疑问词谁提问西班牙语的问句前面要加一个倒写的问号",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "回答的时候可以省略主语，直接说“是帕科”。",
+  "errors": 0,
+  "asr": "回答的时候可以省略主语直接说是帕科",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "这是一般疑问句，没有疑问词，句尾的语调要上升。",
+  "errors": 0,
+  "asr": "这是一般疑问句没有疑问词句尾的语调要上升",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "肯定回答，先说“是的”，再把句子说完整。",
+  "errors": 0,
+  "asr": "肯定回答先说是的再把句子说完整",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "这里问的是一位女士，所以用阴性的代词“她”。",
+  "errors": 0,
+  "asr": "这里问的是一位女士所以用阴性的代词她",
+  "diff": [],
+  "seed": 2000
+ },
+ {
+  "voice": "ZH",
+  "text": "“她叫安娜”是一个固定说法，现在先整体记住。安娜是女性，所以“巴拿马人”要用阴性形式。",
+  "errors": 0,
+  "asr": "他叫安娜是一个固定说法现在先整体记住安娜是女性所以巴拿马人要用阴性形式",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "问几个人是谁的时候，疑问词和动词都要用复数形式。",
+  "errors": 0,
+  "asr": "问几个人是谁的时候疑问词和动词都要用复数形式",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "回答也用复数，“朋友”这个词也要变成复数。",
+  "errors": 0,
+  "asr": "回答也用复数朋友这个词也要变成复数",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "这也是一般疑问句，主语放在了句子最后。",
+  "errors": 0,
+  "asr": "这也是一般疑问句主语放在了句子最后",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "否定回答里有两个“不”：第一个回答问题，第二个放在动词前面，表示否定。",
+  "errors": 0,
+  "asr": "否定回答里有两个不第一个回答问题第二个放在动词前面表示否定",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "最后两句很简单：“那佩佩呢？”“佩佩是智利人。”",
+  "errors": 0,
+  "asr": "最后两句很简单那佩佩呢佩佩是智力人",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "现在总结本课的语法。第一，阴阳性。西班牙语的名词分阳性和阴性。",
+  "errors": 0,
+  "asr": "现在总结本课的语法第一阴阳性西班牙语的名词分阳性和阴性",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "一般来说，以“喔”的音结尾的多是阳性，以“阿”的音结尾的多是阴性。表示国籍的词也是这样：说男性用阳性，说女性用阴性。请跟读。",
+  "errors": 2,
+  "asr": "一般来说以 o 的音结尾的多是阳性以 r 的音结尾的多是阴性表示国籍的词也是这样说男性用阳性说女性用阴性请跟读",
+  "diff": [
+   [
+    "o1",
+    ""
+   ],
+   [
+    "a1",
+    ""
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "cubano, cubana.",
+  "errors": 0,
+  "asr": "Cubano, cubana.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "chileno, chilena.",
+  "errors": 0,
+  "asr": "Chileno, chilena.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "panameño, panameña.",
+  "errors": 0,
+  "asr": "Panameño, panameña,",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "chino, china.",
+  "errors": 0,
+  "asr": "Chino, China",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "amigo, amiga.",
+  "errors": 0,
+  "asr": "Amigo, amiga.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第二，复数。以元音结尾的名词和形容词，在词尾加上一个辅音字母，读“丝”的音，就构成了复数。请跟读。",
+  "errors": 0,
+  "asr": "第二复数以元音结尾的名词和形容词在词尾加上一个辅音字母读思的音就构成了复数请跟读",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "amigo, amigos.",
+  "errors": 0,
+  "asr": "Amigo, amigos.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "chino, chinos.",
+  "errors": 0,
+  "asr": "Chino, Chinos.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "cubana, cubanas.",
+  "errors": 0,
+  "asr": "Cubana, cubanas.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "注意：男女在一起的时候，用阳性复数。比如帕科和安娜都是古巴人，要这样说：",
+  "errors": 0,
+  "asr": "注意男女在一起的时候用阳性复述比如帕科和安娜都是古巴人要这样说",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Paco y Ana son cubanos.",
+  "errors": 0,
+  "asr": "Paco y Ana son cubanos.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第三，动词“是”。这一课学它的两个形式。",
+  "errors": 0,
+  "asr": "第三动词是这一课学它的两个形式",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "主语是“他”或者“她”的时候，用第一个形式。",
+  "errors": 0,
+  "asr": "主语是他或者他的时候用第一个形式",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Ella es Ana.",
+  "errors": 0,
+  "asr": "Ella es Ana.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "主语是“他们”或者“她们”的时候，用第二个形式。",
+  "errors": 0,
+  "asr": "主语是他们或者他们的时候用第二个形式",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Ellos son amigos.",
+  "errors": 0,
+  "asr": "Ellos son amigos.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第四，疑问句和否定句。用“谁”提问的时候，问一个人和问几个人，形式不一样。",
+  "errors": 0,
+  "asr": "第四疑问句和否定句用谁提问的时候问一个人和问几个人形式不一样",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "一般疑问句不用疑问词，回答时先说“是的”或者“不”。",
+  "errors": 0,
+  "asr": "一般疑问句不用疑问词回答时先说是的或者不",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "¿Es Paco cubano?",
+  "errors": 0,
+  "asr": "¿Es Paco cubano?",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "否定句很简单，在动词前面加上“不”就可以了。",
+  "errors": 0,
+  "asr": "否定句很简单在动词前面加上不就可以了",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "No, no es chino.",
+  "errors": 0,
+  "asr": "No, no es chino.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "最后是书写。西班牙语的问句和感叹句，前面要加倒写的问号或感叹号，后面再加正常的问号或感叹号。",
+  "errors": 0,
+  "asr": "最后是书写西班牙语的问句和感叹句前面要加倒写的问号或感叹号后面再加正常的问号或感叹号",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "¿Quién es?",
+  "errors": 0,
+  "asr": "¿Quién es?",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "¡Es Ana!",
+  "errors": 0,
+  "asr": "Es Ana.",
+  "diff": [],
+  "seed": 2000
+ },
+ {
+  "voice": "ZH",
+  "text": "句子开头的字母和人名要大写，表示国籍的词要小写。",
+  "errors": 0,
+  "asr": "句子开头的字母和人名要大写表示国籍的词要小写",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "我们把这一课的单词复习一遍。请跟着读。",
+  "errors": 0,
+  "asr": "我们把这一课的单词复习一遍请跟着读",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "él.",
+  "errors": 0,
+  "asr": "El",
+  "diff": [],
+  "seed": 3000
+ },
+ {
+  "voice": "ES_F",
+  "text": "ella.",
+  "errors": 0,
+  "asr": "Ella",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "ellos.",
+  "errors": 0,
+  "asr": "Ellos.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "quién, quiénes.",
+  "errors": 0,
+  "asr": "¿Quién? ¿Quién es?",
+  "diff": [
+   [
+    "quienes",
+    "quien es"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "最后做几道小练习。每道题后面有几秒钟思考时间，你也可以暂停视频。",
+  "errors": 0,
+  "asr": "最后做几道小练习每道题后面有几秒钟思考时间你也可以暂停视频",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第一题：用括号里的词填空。注意安娜是女性。",
+  "errors": 0,
+  "asr": "第一题用括号里的词填空注意安娜是女性",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "答案是：",
+  "errors": 0,
+  "asr": "答案是",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "Ana es china.",
+  "errors": 0,
+  "asr": "Anna es China.",
+  "diff": [
+   [
+    "ana",
+    "anna"
+   ]
+  ],
+  "seed": 3000
+ },
+ {
+  "voice": "ZH",
+  "text": "第二题：两个人做主语，选哪个形式？",
+  "errors": 0,
+  "asr": "第二题两个人做主语选哪个形式",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_F",
+  "text": "Pepe y Paco son amigos.",
+  "errors": 0,
+  "asr": "Pepe y Paco son amigos.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第三题：给“西红柿”这个词划分音节。",
+  "errors": 0,
+  "asr": "第三题给西红柿这个词划分音节",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "答案是三个音节。",
+  "errors": 0,
+  "asr": "答案是三个音节",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "第四题：把句子改成否定句。",
+  "errors": 0,
+  "asr": "第四题把句子改成否定句",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "Paco no es chileno.",
+  "errors": 0,
+  "asr": "Paco no es chileno.",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "今天我们学了五个元音和六个辅音，学了音节划分、重音和连读的基本规则，还学会了问“他是谁”、说出一个人是哪国人。",
+  "errors": 0,
+  "asr": "今天我们学了五个元音和六个辅音学了音节划分重音和连读的基本规则还学会了问他是谁说出一个人是哪国人",
+  "diff": [],
+  "seed": null
+ },
+ {
+  "voice": "ZH",
+  "text": "课后请把对话多读几遍，注意元音要读得短促、清楚。我们下节课见！",
+  "errors": 0,
+  "asr": "课后请把对话多读几遍注意原因要读的短促清楚我们下节课见",
+  "diff": [
+   [
+    "de2",
+    "de5"
+   ]
+  ],
+  "seed": null
+ },
+ {
+  "voice": "ES_M",
+  "text": "¡Hasta luego!",
+  "errors": 0,
+  "asr": "Hasta luego.",
+  "diff": [],
+  "seed": null
+ }
+]

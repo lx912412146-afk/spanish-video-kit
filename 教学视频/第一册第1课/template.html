@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>第一课教学视频画面</title>
+<link rel="stylesheet" href="FONTS_CSS">
+<style>
+  :root {
+    --bg: #FBF6EC; --ink: #1E2A38; --muted: #6B7280; --navy: #234E70; --teal: #0F766E;
+    --amber: #F2A93B; --amber-soft: #FFF1D6; --coral: #E4664F; --card: #FFFFFF; --line: #E7DCC8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--bg); color: var(--ink);
+    font-family: "Noto Sans SC", "PingFang SC", sans-serif; }
+  .es, .es * { font-family: "Nunito", "Noto Sans SC", sans-serif; }
+  #app { position: relative; width: 1920px; height: 1080px; }
+  header { height: 104px; background: var(--navy); color: #fff; display: flex; align-items: center;
+    justify-content: space-between; padding: 0 64px; }
+  header .lesson { font-size: 34px; font-weight: 500; letter-spacing: 1px; }
+  header .lesson .es { font-weight: 700; margin-left: 18px; color: #FFD58A; }
+  header .section { font-size: 30px; background: rgba(255,255,255,.14); padding: 10px 26px; border-radius: 40px; }
+  main { position: absolute; top: 104px; left: 0; right: 0; bottom: 136px; padding: 36px 96px 28px; display: flex; flex-direction: column; }
+  .body { flex: 1; display: flex; flex-direction: column; justify-content: center; min-height: 0; }
+  footer { position: absolute; left: 0; right: 0; bottom: 0; height: 136px; background: var(--ink); color: #fff;
+    display: flex; align-items: center; justify-content: center; padding: 0 180px; text-align: center;
+    font-size: 40px; line-height: 1.35; }
+  footer.es-line { font-size: 46px; font-weight: 700; color: #FFD58A; }
+  footer.es-line .gl { font-family: "Noto Sans SC", sans-serif; font-weight: 400; color: #fff; font-size: 34px; margin-left: 28px; }
+  #badge { position: absolute; right: 64px; top: 128px; font-size: 32px; font-weight: 700; padding: 10px 28px;
+    border-radius: 40px; color: #fff; display: none; }
+  #badge.listen { display: block; background: var(--teal); }
+  #badge.repeat { display: block; background: var(--coral); }
+  #badge.think { display: block; background: var(--navy); }
+  h1 { font-size: 64px; font-weight: 700; margin-bottom: 10px; }
+  h1 .es { font-weight: 800; }
+  .note { font-size: 36px; color: var(--teal); margin-bottom: 22px; font-weight: 500; }
+  ul.rules { list-style: none; margin: 10px 0 24px; }
+  ul.rules li { font-size: 36px; line-height: 1.45; padding: 8px 0 8px 44px; position: relative; }
+  ul.rules li::before { content: ""; position: absolute; left: 8px; top: 26px; width: 16px; height: 16px; border-radius: 50%; background: var(--amber); }
+  ul.rules.small li { font-size: 34px; padding: 4px 0 4px 40px; }
+  ul.rules.small li::before { top: 22px; width: 13px; height: 13px; }
+  ul.rules.big li { font-size: 48px; padding: 16px 0 16px 56px; }
+  ul.rules.big li::before { top: 40px; width: 18px; height: 18px; }
+  .grid { display: grid; gap: 28px; grid-template-columns: repeat(3, 1fr); }
+  .grid.two { grid-template-columns: repeat(2, 1fr); }
+  .card { background: var(--card); border: 3px solid var(--line); border-radius: 26px; padding: 26px 30px; min-height: 300px;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+    box-shadow: 0 6px 0 rgba(35,78,112,.06); transition: none; }
+  .card .w { font-size: 104px; font-weight: 800; line-height: 1.15; }
+  .card .nt { font-size: 40px; color: var(--teal); margin-top: 6px; font-weight: 700; }
+  .card .gl { font-size: 36px; color: var(--muted); margin-top: 6px; }
+  .card.big { grid-column: 1 / -1; min-height: 460px; }
+  .card.big .w { font-size: 200px; letter-spacing: 40px; }
+  .card.wide { grid-column: 1 / -1; }
+  .card.wide .w { font-size: 64px; }
+  .small-cards .card { min-height: 190px; padding: 16px 22px; }
+  .small-cards .card .w { font-size: 70px; }
+  .small-cards .card .nt { font-size: 34px; }
+  .small-cards .card .gl { font-size: 30px; }
+  .on { border-color: var(--amber) !important; background: var(--amber-soft) !important; box-shadow: 0 0 0 6px rgba(242,169,59,.25) !important; }
+  /* 标题页 */
+  .titlepage { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+  .titlepage .book { font-size: 44px; color: var(--navy); margin-bottom: 30px; }
+  .titlepage .big { font-size: 150px; font-weight: 800; color: var(--ink); padding: 10px 50px; border-radius: 30px; }
+  .titlepage .zh { font-size: 60px; color: var(--muted); margin-top: 20px; }
+  .titlepage .parts { margin-top: 56px; font-size: 34px; color: var(--teal); letter-spacing: 6px; }
+  /* 对话 */
+  .dlg { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; margin-top: 4px; }
+  .ln { display: flex; align-items: flex-start; gap: 16px; padding: 5px 14px; border-radius: 16px; border: 3px solid transparent; }
+  .ln .who { flex: none; width: 46px; height: 46px; border-radius: 50%; color: #fff; font-size: 28px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center; margin-top: 4px; }
+  .ln .who.A { background: var(--coral); } .ln .who.B { background: var(--teal); }
+  .ln .w { font-size: 35px; font-weight: 700; line-height: 1.25; }
+  .ln .gl { font-size: 25px; color: var(--muted); margin-top: 0; }
+  /* 表格 */
+  table { border-collapse: separate; border-spacing: 0; width: 100%; background: #fff; border-radius: 18px; overflow: hidden; border: 3px solid var(--line); }
+  th { background: var(--navy); color: #fff; font-size: 32px; font-weight: 500; padding: 12px 24px; text-align: left; }
+  td { font-size: 46px; padding: 14px 28px; border-top: 2px solid var(--line); }
+  td.c0, td.c1 { font-weight: 700; }
+  tr.on td { background: var(--amber-soft); }
+  table.dense td { font-size: 38px; padding: 9px 24px; }
+  .tables { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; align-items: start; }
+  table.dense th { font-size: 26px; padding: 8px 24px; }
+  /* 练习 */
+  .quiz { margin-top: 16px; }
+  .q { background: #fff; border: 3px solid var(--line); border-radius: 18px; padding: 10px 30px; margin-bottom: 12px; }
+  .q .qt { font-size: 40px; }
+  .q .ans { font-size: 46px; font-weight: 800; color: var(--teal); margin-top: 6px; min-height: 52px; }
+  .q .ans.hidden { color: transparent; border-bottom: 3px dashed var(--line); width: 420px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header><div class="lesson"></div><div class="section"></div></header>
+  <main id="main"></main>
+  <div id="badge"></div>
+  <footer id="sub"></footer>
+</div>
+<script>
+let DATA = null;
+const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+window.setData = d => { DATA = d; };
+
+function cardHTML(c, cls) {
+  return `<div class="card es ${cls || ''} ${c.big ? 'big' : ''} ${c.wide ? 'wide' : ''}" data-id="${c.id}">
+    <div class="w">${esc(c.es)}</div>
+    ${c.note ? `<div class="nt">${esc(c.note)}</div>` : ''}
+    ${c.gloss ? `<div class="gl">${esc(c.gloss)}</div>` : ''}</div>`;
+}
+
+function rulesHTML(rules, size) {
+  return rules && rules.length ? `<ul class="rules ${size || ''}">${rules.map(r => `<li>${esc(r)}</li>`).join('')}</ul>` : '';
+}
+
+function heading(sc) {
+  const t = /[¿¡A-Za-zÁÉÍÓÚáéíóúñ]/.test(sc.title) && !/[一-鿿]/.test(sc.title) ? `<span class="es">${esc(sc.title)}</span>` : esc(sc.title);
+  return `<h1>${t}</h1>${sc.note ? `<div class="note">${esc(sc.note)}</div>` : ''}`;
+}
+
+function layout(sc, key) {
+  switch (sc.layout) {
+    case 'title':
+      return `<div class="titlepage">
+        <div class="book">${esc(DATA.title)}</div>
+        <div class="big es card" data-id="t" style="border:none;background:none;box-shadow:none;min-height:0">${esc(sc.title)}</div>
+        <div class="zh">${esc(sc.subtitle)}</div>
+        <div class="parts">语音 · 课文 · 语法 · 单词 · 练习</div></div>`;
+    case 'rules':
+      return heading(sc) + `<div class="body">` + rulesHTML(sc.rules, 'big') +
+        (sc.cards ? `<div class="grid" style="margin-top:20px">${sc.cards.map(c => cardHTML(c)).join('')}</div>` : '') + `</div>`;
+    case 'cards': {
+      const n = sc.cards.length, small = sc.rules && sc.rules.length;
+      const cols = n === 2 || n === 4 && !sc.cards.some(c => c.wide) ? 'two' : '';
+      return heading(sc) + rulesHTML(sc.rules, 'small') +
+        `<div class="body"><div class="grid ${cols} ${small || n > 3 ? 'small-cards' : ''}">${sc.cards.map(c => cardHTML(c)).join('')}</div></div>`;
+    }
+    case 'dialogue': {
+      const half = Math.ceil(sc.cards.length / 2);
+      const col = cs => cs.map(c => `<div class="ln es" data-id="${c.id}"><div class="who ${c.who}">${c.who}</div>
+        <div><div class="w">${esc(c.es)}</div><div class="gl">${esc(c.gloss)}</div></div></div>`).join('');
+      return heading(sc) + `<div class="dlg"><div>${col(sc.cards.slice(0, half))}</div><div>${col(sc.cards.slice(half))}</div></div>`;
+    }
+    case 'table': {
+      const dense = sc.cards.length > 6 ? 'dense' : '';
+      const tbl = cs => `<table class="${dense}"><tr>${sc.head.map(h => `<th>${esc(h)}</th>`).join('')}</tr>` +
+        cs.map(c => `<tr data-id="${c.id}">${c.cols.map((x, i) => `<td class="c${i} ${i < c.cols.length - 1 || /[a-záéíóúñ]/i.test(x) ? 'es' : ''}">${esc(x)}</td>`).join('')}</tr>`).join('') + `</table>`;
+      const half = Math.ceil(sc.cards.length / 2);
+      const body = sc.split ? `<div class="tables">${tbl(sc.cards.slice(0, half))}${tbl(sc.cards.slice(half))}</div>` : tbl(sc.cards);
+      return heading(sc) + rulesHTML(sc.rules, 'small') + `<div class="body">${body}</div>`;
+    }
+    case 'quiz':
+      return heading(sc) + `<div class="body quiz">${sc.cards.map(c => `<div class="q" data-id="${c.id}">
+        <div class="qt">${esc(c.q)}</div>
+        <div class="ans es ${key.rev.includes(c.id) ? '' : 'hidden'}">${key.rev.includes(c.id) ? esc(c.es) : '&nbsp;'}</div></div>`).join('')}</div>`;
+  }
+  return '';
+}
+
+window.render = key => {
+  const sc = DATA.scenes[key.scene];
+  document.querySelector('header .lesson').innerHTML = `${esc(DATA.title)}<span class="es">¿Quién es él?</span>`;
+  document.querySelector('header .section').textContent = sc.section;
+  const main = document.getElementById('main');
+  main.innerHTML = layout(sc, key);
+  if (key.hl) main.querySelectorAll(`[data-id="${key.hl}"]`).forEach(e => e.classList.add('on'));
+  const sub = document.getElementById('sub');
+  sub.className = '';
+  if (key.sub) {
+    sub.textContent = key.sub;
+  } else if (key.hl) {
+    const c = sc.cards.find(c => c.id === key.hl);
+    const es = c.cols ? (c.tts || c.cols[0]).replace(/\.$/, '') : c.es;
+    const last = c.cols ? c.cols[c.cols.length - 1] : '';
+    const gl = c.gloss || (/[一-鿿]/.test(last) ? last : '');
+    sub.className = 'es-line es';
+    sub.innerHTML = `${esc(es)}${gl ? `<span class="gl">${esc(gl)}</span>` : ''}`;
+  } else {
+    sub.textContent = '';
+  }
+  const b = document.getElementById('badge');
+  b.className = key.badge || '';
+  b.textContent = { listen: '听', repeat: '请跟读', think: '思考时间' }[key.badge] || '';
+};
+</script>
+</body>
+</html>
