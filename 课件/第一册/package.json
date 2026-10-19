@@ -1,0 +1,6 @@
+{
+  "name": "book1-courseware",
+  "private": true,
+  "description": "《现代西班牙语》第一册（老版）分课课件生成",
+  "dependencies": { "pptxgenjs": "3.12.0" }
+}

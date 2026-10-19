@@ -1,0 +1,458 @@
+{
+  "lesson": 22,
+  "title_es": "Mi infancia",
+  "title_zh": "我的童年",
+  "goals": [
+    "分清简单过去时和过去未完成时的用法",
+    "会把直接引语变成间接引语，掌握时态后移",
+    "用 tan / tanto / tal … que 表示结果",
+    "会用 soler + 不定式谈现在和过去的习惯",
+    "能用两种过去时讲述自己的童年"
+  ],
+  "vocab": [
+    [
+      "la infancia",
+      "童年"
+    ],
+    [
+      "el pueblo",
+      "村镇，村子"
+    ],
+    [
+      "el campo",
+      "乡下；田地"
+    ],
+    [
+      "el río",
+      "河"
+    ],
+    [
+      "el árbol",
+      "树"
+    ],
+    [
+      "soler (ue) + inf.",
+      "惯常（做某事）"
+    ],
+    [
+      "jugar (ue)",
+      "玩，玩耍"
+    ],
+    [
+      "nadar",
+      "游泳"
+    ],
+    [
+      "contar (ue)",
+      "讲述；数"
+    ],
+    [
+      "el cuento",
+      "故事"
+    ],
+    [
+      "la escuela",
+      "学校；小学"
+    ],
+    [
+      "el maestro, la maestra",
+      "（小学）老师"
+    ],
+    [
+      "preguntar",
+      "问"
+    ],
+    [
+      "la vida",
+      "生活"
+    ],
+    [
+      "duro, ra",
+      "艰苦的；硬的"
+    ],
+    [
+      "de niño, de niña",
+      "小时候"
+    ],
+    [
+      "tan … que",
+      "如此……以至于……"
+    ],
+    [
+      "enseguida",
+      "立刻，马上"
+    ]
+  ],
+  "text": {
+    "title": "Mi infancia",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "De niño vivía con mis abuelos en un pueblo pequeño.",
+        "zh": "我小时候和爷爷奶奶住在一个小村子里。"
+      },
+      {
+        "who": "",
+        "es": "El pueblo era muy tranquilo y estaba cerca de un río.",
+        "zh": "村子很安静，离一条河很近。"
+      },
+      {
+        "who": "",
+        "es": "Mi abuelo solía trabajar en el campo desde muy temprano.",
+        "zh": "爷爷总是一大早就在地里干活。"
+      },
+      {
+        "who": "",
+        "es": "Mi abuela cocinaba y yo la ayudaba en casa.",
+        "zh": "奶奶做饭，我在家给她帮忙。"
+      },
+      {
+        "who": "",
+        "es": "Por la tarde jugaba con mis amigos cerca del río.",
+        "zh": "下午我和朋友们在河边玩。"
+      },
+      {
+        "who": "",
+        "es": "Un día de agosto hacía tanto calor que fuimos a nadar.",
+        "zh": "八月的一天，天热得不得了，我们就去游泳了。"
+      },
+      {
+        "who": "",
+        "es": "Mi abuela me preguntó si sabía nadar bien.",
+        "zh": "奶奶问我是不是很会游泳。"
+      },
+      {
+        "who": "",
+        "es": "Le dije que sí, pero no era verdad.",
+        "zh": "我跟她说是，可那不是真的。"
+      },
+      {
+        "who": "",
+        "es": "El agua estaba tan fría que salí enseguida.",
+        "zh": "河水凉得要命，我马上就上岸了。"
+      },
+      {
+        "who": "",
+        "es": "Por la noche, mi abuelo nos contaba cuentos.",
+        "zh": "晚上，爷爷给我们讲故事。"
+      },
+      {
+        "who": "",
+        "es": "Siempre decía que la vida en el campo era dura pero feliz.",
+        "zh": "他总说乡下的日子苦，但是很幸福。"
+      },
+      {
+        "who": "",
+        "es": "Ahora vivo en la ciudad, pero suelo volver al pueblo en verano.",
+        "zh": "现在我住在城里，但夏天常回村里。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "简单过去时和过去未完成时的区别",
+      "points": [
+        "简单过去时：叙述已经完成的动作，常和 ayer、un día、aquel año 连用。",
+        "未完成时：描写背景、状态和过去的习惯，常和 siempre、de niño 连用。",
+        "叙述中：未完成时交代背景，简单过去时讲“发生了什么”。",
+        "正在进行的动作用未完成时，打断它的动作用简单过去时。"
+      ],
+      "table": {
+        "head": [
+          "比较",
+          "简单过去时",
+          "过去未完成时"
+        ],
+        "rows": [
+          [
+            "看动作",
+            "已经完成",
+            "持续、反复，不看结束"
+          ],
+          [
+            "用途",
+            "叙述事件、情节",
+            "背景、描写、习惯"
+          ],
+          [
+            "常用词",
+            "ayer, un día",
+            "siempre, de niño"
+          ],
+          [
+            "例句",
+            "Ayer comí en casa.",
+            "Siempre comía en casa."
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Cuando era niño, vivía en el campo.",
+          "我小时候住在乡下。"
+        ],
+        [
+          "Un día mi padre me llevó a la ciudad.",
+          "有一天，爸爸带我去了城里。"
+        ],
+        [
+          "Leía un libro cuando llegó mi amigo.",
+          "我正在看书，朋友来了。"
+        ],
+        [
+          "Hacía buen tiempo y salimos al campo.",
+          "天气很好，我们去了郊外。"
+        ]
+      ]
+    },
+    {
+      "title": "直接引语变间接引语",
+      "points": [
+        "陈述句用 que 引出；一般疑问句用 si；特殊疑问句保留疑问词（带重音）。",
+        "主句动词是现在时（dice, pregunta），从句时态不变。",
+        "主句动词是过去时（dijo, preguntó）：现在时改为未完成时，未完成时不变。",
+        "人称和物主词要跟着变：yo → él / ella，mi → su，tú → yo 等。"
+      ],
+      "table": {
+        "head": [
+          "句型",
+          "直接引语",
+          "间接引语"
+        ],
+        "rows": [
+          [
+            "陈述句",
+            "«Tengo hambre»",
+            "Dijo que tenía hambre."
+          ],
+          [
+            "主句用现在时",
+            "«Tengo hambre»",
+            "Dice que tiene hambre."
+          ],
+          [
+            "一般疑问句",
+            "«¿Eres chino?»",
+            "Preguntó si era chino."
+          ],
+          [
+            "特殊疑问句",
+            "«¿Dónde vives?»",
+            "Preguntó dónde vivía."
+          ],
+          [
+            "人称、物主词",
+            "«Es mi casa»",
+            "Dijo que era su casa."
+          ],
+          [
+            "原句是未完成时",
+            "«Vivía allí»",
+            "Dijo que vivía allí."
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "«Estoy cansada» → Ana dijo que estaba cansada.",
+          "安娜说她累了。"
+        ],
+        [
+          "«Mi pueblo es bonito» → Dijo que su pueblo era bonito.",
+          "他说他的村子很漂亮。"
+        ],
+        [
+          "Me preguntó si tenía hermanos.",
+          "他问我有没有兄弟姐妹。"
+        ],
+        [
+          "La maestra nos preguntó dónde vivíamos.",
+          "老师问我们住在哪儿。"
+        ]
+      ]
+    },
+    {
+      "title": "tan / tanto / tal … que 结果从句",
+      "points": [
+        "tan + 形容词 / 副词 + que：如此……以至于……",
+        "tanto, -a, -os, -as + 名词 + que：和名词性数一致。",
+        "动词 + tanto + que：（做得）那么多，以至于……；这里 tanto 不变。",
+        "tal / tales + 名词 + que：那样的……以至于……"
+      ],
+      "examples": [
+        [
+          "El agua estaba tan fría que salí enseguida.",
+          "水凉得要命，我马上就上来了。"
+        ],
+        [
+          "Había tanta gente en la calle que no podíamos pasar.",
+          "街上人多得我们过不去。"
+        ],
+        [
+          "Mi abuelo trabajaba tanto que nunca descansaba.",
+          "爷爷干活那么拼命，从来都不休息。"
+        ],
+        [
+          "Hacía tal frío que nadie salía de casa.",
+          "天冷成那样，谁都不出门。"
+        ]
+      ]
+    },
+    {
+      "title": "soler + 不定式",
+      "points": [
+        "soler 表示“惯常、通常（做某事）”，后面直接跟不定式。",
+        "现在时词根 o → ue；谈过去的习惯用未完成时 solía…",
+        "soler 一般不用简单过去时，也不单独使用。"
+      ],
+      "table": {
+        "head": [
+          "人称",
+          "现在时",
+          "过去未完成时"
+        ],
+        "rows": [
+          [
+            "yo",
+            "suelo",
+            "solía"
+          ],
+          [
+            "tú",
+            "sueles",
+            "solías"
+          ],
+          [
+            "él / usted",
+            "suele",
+            "solía"
+          ],
+          [
+            "nosotros, -as",
+            "solemos",
+            "solíamos"
+          ],
+          [
+            "vosotros, -as",
+            "soléis",
+            "solíais"
+          ],
+          [
+            "ellos / ustedes",
+            "suelen",
+            "solían"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Los domingos suelo comer con mis padres.",
+          "星期天我通常和父母一起吃饭。"
+        ],
+        [
+          "De niña, solía jugar con mis primas en la calle.",
+          "我小时候常和表姐妹们在街上玩。"
+        ],
+        [
+          "En verano solíamos ir al río.",
+          "夏天我们常去河边。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "De niño / De niña…",
+      "我小时候……"
+    ],
+    [
+      "Cuando era pequeño…",
+      "我小的时候……"
+    ],
+    [
+      "Recuerdo que…",
+      "我记得……"
+    ],
+    [
+      "Me dijo que…",
+      "他（她）对我说……"
+    ],
+    [
+      "Me preguntó si…",
+      "他（她）问我是否……"
+    ],
+    [
+      "Todos los veranos…",
+      "每年夏天……"
+    ],
+    [
+      "Un día…",
+      "有一天……"
+    ],
+    [
+      "De repente…",
+      "突然……"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "选择",
+      "q": "Ayer ___ a casa de mis abuelos y comí con ellos. (fui / iba)",
+      "a": "fui（一次完成的动作）"
+    },
+    {
+      "type": "填空",
+      "q": "Yo ______ (leer) en mi cuarto cuando mi madre ______ (entrar).",
+      "a": "leía; entró"
+    },
+    {
+      "type": "改写",
+      "q": "Paco: «Estoy cansado» → Paco dijo que ______.",
+      "a": "Paco dijo que estaba cansado."
+    },
+    {
+      "type": "改写",
+      "q": "Ana: «¿Tienes hermanos?» → Ana me preguntó ______.",
+      "a": "Ana me preguntó si tenía hermanos."
+    },
+    {
+      "type": "改写",
+      "q": "La maestra: «¿Dónde vives?» → La maestra me preguntó ______.",
+      "a": "La maestra me preguntó dónde vivía."
+    },
+    {
+      "type": "选择",
+      "q": "Había ___ gente en la plaza que no pudimos pasar. (tan / tanta / tanto)",
+      "a": "tanta（修饰阴性名词 gente）"
+    },
+    {
+      "type": "翻译",
+      "q": "我小时候常常和爷爷去河边。（用 soler）",
+      "a": "De niño (niña), solía ir al río con mi abuelo."
+    },
+    {
+      "type": "问答",
+      "q": "¿Dónde vivías de niño? ¿Qué solías hacer en verano?",
+      "a": "（示例）De niño vivía en un pueblo y en verano solía nadar."
+    }
+  ],
+  "summary": [
+    "简单过去时讲完成的事件，未完成时讲背景、描写和习惯。",
+    "间接引语用 que / si / 疑问词引出，过去时主句要后移时态。",
+    "tan + 形容词，tanto/tal + 名词，后接 que。",
+    "soler + 不定式表示习惯，谈过去用 solía。"
+  ],
+  "homework": [
+    "用两种过去时写一篇 8–10 句的短文：Mi infancia。",
+    "采访同学的童年，用 Me dijo que… 等句型转述五句。",
+    "用 tan、tanto、tal … que 各造两个句子。"
+  ],
+  "notes": {
+    "goals": "本课是两种过去时的综合运用课，重点在“对比”而不是新变位；间接引语只做现在时 → 未完成时的后移。",
+    "vocab": "soler、jugar、contar 都是 o / u → ue 的词根变化动词，但未完成时完全规则（solía、jugaba、contaba），可借此复习未完成时变位。",
+    "text": "先让学生把课文中的动词分成两组：背景和习惯（未完成时）、具体事件（简单过去时）；再找出间接引语和 tan / tanto … que。",
+    "grammar": "原句是简单过去时的，转述时常改用过去完成时（口语里也常保留简单过去时）；原句是将来时、命令式的，转述要用条件式或虚拟式。这些本册都不讲，例句和练习一律避开。提醒学生间接疑问句里的疑问词仍带重音。",
+    "exercises": "第 2 题强调“正在进行 + 打断”；第 6 题注意 tanto 要和名词性数一致，gente 是阴性单数。"
+  }
+}

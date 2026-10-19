@@ -1,0 +1,161 @@
+{
+  "lesson": 14,
+  "title_es": "Acerca del horario",
+  "title_zh": "关于作息时间",
+  "goals": [
+    "掌握自复动词带身体部位的用法",
+    "掌握自复被动句 se + 动词的构成",
+    "掌握 recordar、efectuar 等四个新动词",
+    "会用 si 条件句和 como、porque 原因从句",
+    "能用西语介绍课表、作息和体育活动"
+  ],
+  "vocab": [
+    ["el horario", "时间表；课表"],
+    ["la asignatura", "课程；科目"],
+    ["el semestre", "学期"],
+    ["recordar (ue)", "记得"],
+    ["comenzar (ie)", "开始"],
+    ["efectuar (efectúo)", "进行；做"],
+    ["preferir (ie)", "更喜欢；宁愿"],
+    ["terminar", "结束"],
+    ["la mano", "手（阴性名词）"],
+    ["la cara", "脸"],
+    ["el diente", "牙齿"],
+    ["el deporte", "体育运动"],
+    ["el examen (pl. exámenes)", "考试"],
+    ["el baloncesto", "篮球"],
+    ["el fútbol", "足球"],
+    ["nadar", "游泳"],
+    ["la piscina", "游泳池"],
+    ["lejos", "远（副词）"]
+  ],
+  "text": {
+    "title": "Acerca del horario",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Este semestre en nuestra universidad se estudian seis asignaturas.", "zh": "这学期我们大学要学六门课。"},
+      {"who": "", "es": "Los exámenes se efectúan al final del semestre.", "zh": "考试在学期末进行。"},
+      {"who": "", "es": "Las clases comienzan a las ocho y terminan a las doce.", "zh": "课八点开始，十二点结束。"},
+      {"who": "", "es": "Como vivo lejos de la universidad, me levanto a las seis.", "zh": "因为我住得离学校远，所以六点就起床。"},
+      {"who": "", "es": "Me lavo la cara y los dientes, me visto y desayuno.", "zh": "我洗脸、刷牙、穿衣服，然后吃早饭。"},
+      {"who": "", "es": "A las seis y media salgo de casa.", "zh": "六点半我出门。"},
+      {"who": "", "es": "Por la tarde, de cuatro a cinco, hacemos deporte.", "zh": "下午四点到五点，我们做运动。"},
+      {"who": "", "es": "Mi amiga Ana prefiere el baloncesto, pero yo prefiero nadar.", "zh": "我的朋友安娜更喜欢篮球，我却更喜欢游泳。"},
+      {"who": "", "es": "Si no tengo mucho trabajo, voy a la piscina con mis compañeros.", "zh": "如果事情不多，我就和同学们去游泳池。"},
+      {"who": "", "es": "Cuando vuelvo a casa, me lavo las manos y ceno con mi familia.", "zh": "回到家后，我先洗手，再和家人一起吃晚饭。"},
+      {"who": "", "es": "Por la noche estudio dos horas en mi cuarto.", "zh": "晚上我在自己房间学习两个小时。"},
+      {"who": "", "es": "No me acuesto tarde porque necesito dormir ocho horas.", "zh": "我不晚睡，因为我需要睡八个小时。"},
+      {"who": "", "es": "Si duermo poco, no recuerdo nada en clase.", "zh": "如果睡得少，上课时我什么也记不住。"},
+      {"who": "", "es": "Éste es mi horario de todos los días.", "zh": "这就是我每天的作息时间。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "自复动词 + 身体部位",
+      "points": [
+        "自复动词可带身体部位作直接宾语：lavarse las manos",
+        "身体部位前用定冠词，不用物主形容词",
+        "不说 Me lavo mis manos，要说 Me lavo las manos",
+        "自复代词已经说明是谁的手、谁的脸"
+      ],
+      "examples": [
+        ["Me lavo las manos.", "我洗手。"],
+        ["Los niños se lavan la cara con agua fría.", "孩子们用冷水洗脸。"],
+        ["Mi hermano se lava los dientes por la noche.", "我弟弟晚上刷牙。"]
+      ]
+    },
+    {
+      "title": "自复被动句：se + 动词",
+      "points": [
+        "se + 及物动词第三人称表示被动，主语多为事物",
+        "动词与主语的数一致：se vende un libro / se venden libros",
+        "不说出动作的施动者；主语常放在动词后面"
+      ],
+      "examples": [
+        ["En esta tienda se venden libros y revistas.", "这家商店卖书和杂志。"],
+        ["Aquí se estudia español.", "这里学习西班牙语。"],
+        ["Los ejercicios se hacen en casa.", "练习在家里做。"]
+      ]
+    },
+    {
+      "title": "recordar、comenzar、efectuar、preferir",
+      "points": [
+        "recordar 是 o→ue；preferir 是 e→ie",
+        "comenzar 是 e→ie：comienzo；comenzar a + 不定式＝开始做",
+        "efectuar 的 u 重读时要加重音：efectúo、efectúan",
+        "preferir 后接名词或不定式：Prefiero nadar"
+      ],
+      "table": {
+        "head": ["人称", "recordar", "preferir", "efectuar"],
+        "rows": [
+          ["yo", "recuerdo", "prefiero", "efectúo"],
+          ["tú", "recuerdas", "prefieres", "efectúas"],
+          ["él/ella/usted", "recuerda", "prefiere", "efectúa"],
+          ["nosotros/as", "recordamos", "preferimos", "efectuamos"],
+          ["vosotros/as", "recordáis", "preferís", "efectuáis"],
+          ["ellos/ellas/ustedes", "recuerdan", "prefieren", "efectúan"]
+        ]
+      },
+      "examples": [
+        ["No recuerdo su número de teléfono.", "我不记得他的电话号码。"],
+        ["Comienzo a estudiar a las ocho.", "我八点开始学习。"],
+        ["Ana prefiere el baloncesto.", "安娜更喜欢篮球。"],
+        ["¿Dónde se efectúan los exámenes?", "考试在哪儿进行？"]
+      ]
+    },
+    {
+      "title": "si 条件句；como 和 porque",
+      "points": [
+        "si + 陈述式现在时，表示可能实现的条件",
+        "主句用现在时，也可以用 ir a + 不定式",
+        "como 引导原因从句，必须放在主句前",
+        "porque 一般放在主句后，也用来回答 ¿por qué?"
+      ],
+      "examples": [
+        ["Si tienes tiempo, podemos nadar juntos.", "如果你有时间，我们可以一起游泳。"],
+        ["Si no hay clase, voy a la piscina.", "如果没课，我就去游泳池。"],
+        ["Como hoy es sábado, me levanto tarde.", "因为今天是星期六，我起得晚。"],
+        ["¿Por qué no sales? —Porque tengo mucho trabajo.", "你为什么不出门？——因为我有很多事要做。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["lavarse las manos", "洗手"],
+    ["lavarse la cara", "洗脸"],
+    ["lavarse los dientes", "刷牙"],
+    ["se efectúan los exámenes", "举行考试"],
+    ["hacer deporte", "做运动"],
+    ["jugar al baloncesto", "打篮球"],
+    ["¿Qué deporte prefieres?", "你更喜欢什么运动？"],
+    ["el horario de clases", "课程表"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Yo no ______ su nombre. (recordar)", "a": "Yo no recuerdo su nombre."},
+    {"type": "填空", "q": "Los exámenes se ______ al final del semestre. (efectuar)", "a": "Los exámenes se efectúan al final del semestre."},
+    {"type": "填空", "q": "Las clases ______ a las ocho. (comenzar)", "a": "Las clases comienzan a las ocho."},
+    {"type": "选择", "q": "Me lavo ______ manos. (mis / las / unas)", "a": "Me lavo las manos."},
+    {"type": "选择", "q": "En esta tienda se ______ periódicos. (vende / venden / vendo)", "a": "En esta tienda se venden periódicos."},
+    {"type": "改写", "q": "No voy a clase porque estoy enfermo.（用 como 改写）", "a": "Como estoy enfermo, no voy a clase."},
+    {"type": "问答", "q": "¿Qué deporte prefieres? (nadar)", "a": "Prefiero nadar."},
+    {"type": "翻译", "q": "如果你有时间，我们可以一起去游泳池。", "a": "Si tienes tiempo, podemos ir juntos a la piscina."}
+  ],
+  "summary": [
+    "身体部位前用定冠词：me lavo las manos",
+    "se + 动词第三人称表被动，动词随主语变数",
+    "recuerdo、comienzo、prefiero：词根变化",
+    "efectuar 的 u 重读时加重音：efectúo",
+    "si + 现在时表条件；como 从句放在句首"
+  ],
+  "homework": [
+    "写出 recordar、preferir、efectuar 的现在时变位",
+    "用西语写出你这学期的课表和一天的作息",
+    "用 si、como、porque 各造两个句子"
+  ],
+  "notes": {
+    "goals": "本课把第 13 课的自复动词延伸到身体部位和被动用法，可以从课表和作息入手。",
+    "vocab": "提醒 la mano 是以 -o 结尾的阴性名词；examen 的复数 exámenes 要加重音。efectuar 比较正式，常见于 se efectúan los exámenes 这类说法，口语里多用 hacer。",
+    "text": "短文按一天的时间顺序展开，可让学生找出 se 的不同用法并分类：自复动词和被动句。",
+    "grammar": "被动句要强调动词与主语的数一致；como 和 porque 意思相近，但 como 只能放在句首。",
+    "exercises": "第 6 题注意 como 从句移到句首、中间加逗号；第 8 题 juntos 的位置可以灵活。"
+  }
+}

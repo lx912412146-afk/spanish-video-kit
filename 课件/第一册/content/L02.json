@@ -1,0 +1,203 @@
+{
+  "lesson": 2,
+  "title_es": "¿Qué es?",
+  "title_zh": "是做什么的？",
+  "goals": [
+    "掌握 c/qu、d、b/v、r 的发音",
+    "分清强弱元音，读好二重元音 ia、ie，会用重音规则",
+    "掌握主格人称代词，分清 tú 和 usted",
+    "掌握 ser 现在时的全部变位，会省略主语",
+    "会用 ser 说职业，会用 de 表示所属"
+  ],
+  "pronunciation": [
+    {
+      "title": "辅音 c/qu、d、b/v、r",
+      "intro": "ca co cu、que qui 读 [k]；d、b/v 在停顿后和词中读法不同；r 先学单击音。",
+      "items": [
+        {"sound": "c / qu", "tip": "读 [k]，像“哥”的声母，不送气；que、qui 的 u 不发音", "words": [["Paco", "帕科"], ["cuna", "摇篮"], ["queso", "奶酪"]]},
+        {"sound": "d", "tip": "停顿后和 n、l 后读 [d]，不送气；其他位置读 [ð]，舌尖微露齿间轻擦", "words": [["dedo", "手指"], ["lado", "边；侧"], ["mundo", "世界"]]},
+        {"sound": "b / v", "tip": "读音相同：停顿后和 m、n 后读 [b]；其他位置双唇不闭紧，读 [β]", "words": [["bebé", "婴儿"], ["uva", "葡萄"], ["también", "也"]]},
+        {"sound": "r", "tip": "舌尖轻弹上齿龈一次，不卷舌；词首的 r 读多击，以后再学", "words": [["pero", "但是"], ["cara", "脸"], ["ser", "是"]]}
+      ]
+    },
+    {
+      "title": "强弱元音和二重元音 ia、ie",
+      "intro": "a e o 是强元音，i u 是弱元音；强弱元音相连组成二重元音，算一个音节。",
+      "items": [
+        {"sound": "ia", "tip": "i 快速滑向 a，合成一个音节，a 读得响", "words": [["familia", "家庭"], ["piano", "钢琴"], ["Asia", "亚洲"]]},
+        {"sound": "ie", "tip": "i 快速滑向 e，合成一个音节，e 读得响", "words": [["bien", "好"], ["pie", "脚"], ["siete", "七"]]},
+        {"sound": "强 + 强", "tip": "两个强元音相连不构成二重元音，分属两个音节", "words": [["po·e·ta", "诗人"], ["mu·se·o", "博物馆"]]}
+      ]
+    },
+    {
+      "title": "重音规则",
+      "intro": "每个词只有一个重读音节；数音节时，二重元音只算一个音节。",
+      "items": [
+        {"sound": "规则①", "tip": "以元音或 n、s 结尾：重音在倒数第二个音节", "words": [["cantante", "歌手：can·TAN·te"], ["Carmen", "卡门：CAR·men"], ["familia", "家庭：fa·MI·lia"]]},
+        {"sound": "规则②", "tip": "以 n、s 以外的辅音结尾：重音在最后一个音节", "words": [["usted", "您：us·TED"], ["doctor", "医生：doc·TOR"], ["papel", "纸：pa·PEL"]]},
+        {"sound": "规则③", "tip": "不合前两条规则的，在重读元音上标重音符号", "words": [["médico", "医生：MÉ·di·co"], ["también", "也：tam·BIÉN"], ["bebé", "婴儿：be·BÉ"]]}
+      ]
+    }
+  ],
+  "vocab": [
+    ["¿qué?", "什么"],
+    ["yo", "我"],
+    ["tú", "你"],
+    ["usted (Ud.)", "您"],
+    ["nosotros, nosotras", "我们"],
+    ["vosotros, vosotras", "你们"],
+    ["ustedes (Uds.)", "您几位；你们"],
+    ["estudiante", "学生"],
+    ["médico, médica", "医生"],
+    ["enfermero, enfermera", "护士"],
+    ["cocinero, cocinera", "厨师"],
+    ["cantante", "歌手"],
+    ["padre / madre", "父亲 / 母亲"],
+    ["hermano, hermana", "兄弟；姐妹"],
+    ["hijo, hija", "儿子；女儿"],
+    ["de", "……的（表示所属）"],
+    ["pero", "但是"],
+    ["también", "也"]
+  ],
+  "text": {
+    "title": "¿Qué es?",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¿Es usted enfermera?", "zh": "您是护士吗？"},
+      {"who": "B", "es": "No, soy médica. Y vosotros, ¿qué sois?", "zh": "不，我是医生。你们呢，你们是做什么的？"},
+      {"who": "A", "es": "Somos estudiantes. Yo soy Li Xin y él es Pepe.", "zh": "我们是学生。我是李欣，他是佩佩。"},
+      {"who": "B", "es": "¿Sois chinos?", "zh": "你们是中国人吗？"},
+      {"who": "A", "es": "Yo soy chino, pero Pepe es chileno.", "zh": "我是中国人，而佩佩是智利人。"},
+      {"who": "B", "es": "¿Y ella? ¿Qué es?", "zh": "那她呢？她是做什么的？"},
+      {"who": "A", "es": "Es Lola. Es cantante.", "zh": "她是洛拉，是歌手。"},
+      {"who": "B", "es": "¿De quién es hermana Lola?", "zh": "洛拉是谁的姐姐？"},
+      {"who": "A", "es": "Es hermana de Pepe. ¿Y usted? ¿Es cubana?", "zh": "她是佩佩的姐姐。您呢？您是古巴人吗？"},
+      {"who": "B", "es": "No, soy panameña. Soy Ana.", "zh": "不，我是巴拿马人。我是安娜。"},
+      {"who": "A", "es": "¿Y Paco? ¿Es médico también?", "zh": "那帕科呢？他也是医生吗？"},
+      {"who": "B", "es": "No, Paco es cocinero.", "zh": "不，帕科是厨师。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "主格人称代词",
+      "points": [
+        "usted、ustedes 是尊称（您、您几位），动词用第三人称形式",
+        "nosotras、vosotras、ellas 只指全是女性；有男有女用阳性",
+        "拉丁美洲一般不用 vosotros，“你们”都说 ustedes"
+      ],
+      "table": {
+        "head": ["人称", "单数", "复数"],
+        "rows": [
+          ["第一人称", "yo", "nosotros, nosotras"],
+          ["第二人称", "tú", "vosotros, vosotras"],
+          ["第三人称", "él, ella", "ellos, ellas"],
+          ["尊称", "usted (Ud.)", "ustedes (Uds.)"]
+        ]
+      },
+      "examples": [
+        ["Yo soy Li Xin y él es Pepe.", "我是李欣，他是佩佩。"],
+        ["¿Es usted médica?", "您是医生吗？"],
+        ["Ustedes son cocineros.", "您几位是厨师。"]
+      ]
+    },
+    {
+      "title": "动词 ser 的现在时",
+      "points": [
+        "ser 是不规则动词，六个形式要逐个记牢",
+        "动词形式已经表明人称，主语常常省略：Soy estudiante.",
+        "需要强调、对比，或 es、son 指谁不清楚时，要说出主语"
+      ],
+      "table": {
+        "head": ["主语", "ser"],
+        "rows": [
+          ["yo", "soy"],
+          ["tú", "eres"],
+          ["él, ella, usted", "es"],
+          ["nosotros, nosotras", "somos"],
+          ["vosotros, vosotras", "sois"],
+          ["ellos, ellas, ustedes", "son"]
+        ]
+      },
+      "examples": [
+        ["Soy estudiante. ¿Y tú?", "我是学生。你呢？"],
+        ["¿Sois amigos?", "你们是朋友吗？"],
+        ["Yo soy chino, pero Pepe es chileno.", "我是中国人，而佩佩是智利人。"]
+      ]
+    },
+    {
+      "title": "职业的说法",
+      "points": [
+        "说职业、身份：ser + 职业名词，名词前不加冠词",
+        "职业名词有阴阳性：médico → médica，cocinero → cocinera",
+        "以 -e 结尾的 estudiante、cantante 阴阳同形",
+        "问职业：¿Qué es usted? / ¿Qué eres? / ¿Qué sois?"
+      ],
+      "table": {
+        "head": ["阳性", "阴性", "意思"],
+        "rows": [
+          ["médico", "médica", "医生"],
+          ["enfermero", "enfermera", "护士"],
+          ["cocinero", "cocinera", "厨师"],
+          ["estudiante", "estudiante", "学生"],
+          ["cantante", "cantante", "歌手"]
+        ]
+      },
+      "examples": [
+        ["¿Qué es usted? — Soy cocinero.", "您是做什么的？——我是厨师。"],
+        ["Ana es médica y Lola es cantante.", "安娜是医生，洛拉是歌手。"],
+        ["Somos estudiantes.", "我们是学生。"]
+      ]
+    },
+    {
+      "title": "de 表示所属；¿de quién?",
+      "points": [
+        "名词 + de + 人：表示“某人的……”，语序和汉语相反",
+        "问“是谁的……”：¿De quién es…?；问几个人用 ¿De quiénes…?",
+        "家人、朋友的关系也这样说：hermana de Pepe 佩佩的姐姐"
+      ],
+      "examples": [
+        ["Lola es hermana de Pepe.", "洛拉是佩佩的姐姐。"],
+        ["Paco es hijo de Carmen.", "帕科是卡门的儿子。"],
+        ["¿De quién es amigo Pepe?", "佩佩是谁的朋友？"],
+        ["Es amigo de Li Xin.", "他是李欣的朋友。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Qué es usted?", "您是做什么的？"],
+    ["¿Qué eres?", "你是做什么的？"],
+    ["Soy estudiante.", "我是学生。"],
+    ["¿Y tú? / ¿Y usted?", "你呢？／您呢？"],
+    ["¿De quién es hermana?", "她是谁的姐姐（妹妹）？"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "用 ser 的适当形式填空：Nosotros ______ estudiantes.", "a": "Nosotros somos estudiantes."},
+    {"type": "填空", "q": "用 ser 填空：Tú ______ cocinero y yo ______ médico.", "a": "Tú eres cocinero y yo soy médico."},
+    {"type": "选择", "q": "¿______ usted enfermera? (Eres / Es)", "a": "¿Es usted enfermera?"},
+    {"type": "选择", "q": "______ sois amigos. (Vosotros / Ustedes)", "a": "Vosotros sois amigos."},
+    {"type": "改写", "q": "改成复数：Soy médico.", "a": "Somos médicos."},
+    {"type": "翻译", "q": "我们是学生，不是医生。", "a": "Somos estudiantes. No somos médicos."},
+    {"type": "问答", "q": "根据课文回答：¿De quién es hermana Lola?", "a": "Lola es hermana de Pepe."},
+    {"type": "语音", "q": "哪个词里的 b/v 读 [β]？vaso / uva / también", "a": "uva（vaso 的 v 在停顿后、también 的 b 在 m 后，都读 [b]）"}
+  ],
+  "summary": [
+    "c/qu 读 [k] 不送气；d、b/v 有两种读法",
+    "r 是单击颤音；ia、ie 是二重元音，算一个音节",
+    "usted、ustedes 是尊称，动词用第三人称",
+    "ser：soy eres es somos sois son",
+    "说职业不加冠词；de 表示所属：amigo de Ana"
+  ],
+  "homework": [
+    "熟读课文，注意 d、b/v 在不同位置的两种读法",
+    "背诵 ser 的六个形式，每个人称造一个句子",
+    "仿照课文，用 ser 和 de 介绍三个人的职业和关系"
+  ],
+  "notes": {
+    "goals": "本课仍以语音为主，语法集中在人称代词和 ser 的六个形式。建议先复习第 1 课的 es / son，再扩展到全部人称。",
+    "pronunciation": "c、qu 和第 1 课的 p、t 一样不送气。[ð]、[β] 发音时口腔不闭紧、摩擦很轻：[ð] 近似英语 this 里的 th 但更松，[β] 是双唇音，不是英语的唇齿音 v；词尾 d（如 usted）很弱，口语里常几乎听不见。本课 r 只练单击，词首 r 和 rr 的多击颤音第 5 课学。",
+    "vocab": "cocinero 的 ci、enfermero 的 f、hermano 的 h、hijo 的 j 本课先模仿，第 3、5 课正式学。padre、madre 说“某人的父亲、母亲”时一般要加定冠词（第 3 课学），本课只认词。",
+    "text": "A 是李欣，B 是安娜：学生对不认识的医生用 usted，医生对年轻学生用 vosotros，可借此讲清称呼的区别。Lola 是新人物，佩佩的姐姐。",
+    "grammar": "usted 意义上是第二人称、动词用第三人称，是本课难点。说职业不加冠词，学生还没学冠词，先让他们模仿；de 表所属要提醒语序和汉语相反。",
+    "exercises": "第 3、4 题考 usted 与 tú、vosotros 的对应变位。第 6 题也可以说 Nosotros somos estudiantes。第 8 题让学生先读出来再判断。"
+  }
+}

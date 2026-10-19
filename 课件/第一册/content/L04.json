@@ -1,0 +1,175 @@
+{
+  "lesson": 4,
+  "title_es": "¿Cómo es la familia de Paco?",
+  "title_zh": "帕科家是什么样的？",
+  "goals": [
+    "读准 g、gu、gü、ch、ñ 和 ua、ue、uo。",
+    "掌握不定冠词 un / una / unos / unas。",
+    "掌握形容词的性数一致和位置。",
+    "区分 ser 和 estar 的基本用法。",
+    "会用 ¿Cómo es? 和 ¿Cómo está? 问答。"
+  ],
+  "pronunciation": [
+    {
+      "title": "辅音 g：ga go gu、gue gui、güe güi",
+      "intro": "g 在 a、o、u 前读 [g]；ge、gi 的读法第 5 课再学。",
+      "items": [
+        {"sound": "ga go gu", "tip": "舌根抵软腭后放开，声带振动 [g]（汉语 g 不振动）；元音间较松。", "words": [["gato", "猫"], ["amigo", "朋友"], ["segundo", "第二"]]},
+        {"sound": "gue gui", "tip": "u 不发音，只让 g 保持 [g]：gue 读 [ge]，gui 读 [gi]。", "words": [["Miguel", "米格尔"], ["guerra", "战争"], ["guitarra", "吉他"]]},
+        {"sound": "güe güi", "tip": "ü 上的两点表示 u 要发音：güe 读 [gwe]，güi 读 [gwi]。", "words": [["bilingüe", "双语的"], ["pingüino", "企鹅"], ["cigüeña", "鹳"]]}
+      ]
+    },
+    {
+      "title": "辅音 ch 和 ñ",
+      "intro": "ch 是两个字母表示一个音；ñ 是西语特有的字母。",
+      "items": [
+        {"sound": "ch", "tip": "舌面前部贴硬腭前部再放开 [tʃ]，似英语 church 的 ch，不送气。", "words": [["chino", "中国人"], ["coche", "汽车"], ["mucho", "许多"]]},
+        {"sound": "ñ", "tip": "舌面贴硬腭，气流从鼻腔出 [ɲ]，近似“尼”的声母加 i 的滑音。", "words": [["España", "西班牙"], ["señor", "先生"], ["pequeño", "小的"]]}
+      ]
+    },
+    {
+      "title": "二重元音 ua、ue、uo",
+      "intro": "弱元音 u 在前，快速滑向强元音，合成一个音节；gua、guo 里的 u 要发音。",
+      "items": [
+        {"sound": "ua", "tip": "u 轻而短，迅速滑到 a，近似汉语“蛙”[wa]。", "words": [["agua", "水"], ["cuaderno", "本子"], ["guapo", "漂亮的"]]},
+        {"sound": "ue", "tip": "u 迅速滑到 e [we]，结尾不带 i 音，不要读成汉语“威”。", "words": [["bueno", "好的"], ["nuevo", "新的"], ["escuela", "学校"]]},
+        {"sound": "uo", "tip": "u 迅速滑到 o [wo]，近似汉语“窝”，合成一个音节。", "words": [["antiguo", "古老的"], ["individuo", "个人"]]}
+      ]
+    }
+  ],
+  "vocab": [
+    ["grande", "大的"],
+    ["pequeño, pequeña", "小的"],
+    ["bonito, bonita", "漂亮的"],
+    ["nuevo, nueva", "新的"],
+    ["viejo, vieja", "旧的；老的"],
+    ["alto, alta", "高的"],
+    ["bajo, baja", "矮的"],
+    ["simpático, simpática", "和蔼的；讨人喜欢的"],
+    ["inteligente", "聪明的"],
+    ["contento, contenta", "高兴的"],
+    ["cansado, cansada", "疲倦的"],
+    ["lápiz (pl. lápices)", "铅笔"],
+    ["bolígrafo", "圆珠笔"],
+    ["cuaderno", "本子"],
+    ["libro", "书"],
+    ["revista", "杂志"],
+    ["periódico", "报纸"],
+    ["diccionario", "词典"]
+  ],
+  "text": {
+    "title": "¿Cómo es la familia de Paco?",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¿Cómo es la familia de Paco?", "zh": "帕科家是什么样的？"},
+      {"who": "B", "es": "Es una familia muy simpática.", "zh": "是很讨人喜欢的一家。"},
+      {"who": "A", "es": "¿Cómo es el padre de Paco?", "zh": "帕科的父亲是什么样的人？"},
+      {"who": "B", "es": "Es alto y simpático. Es médico.", "zh": "他个子高，很和蔼。他是医生。"},
+      {"who": "A", "es": "¿Y la madre?", "zh": "母亲呢？"},
+      {"who": "B", "es": "Es baja y muy bonita. Es enfermera.", "zh": "她个子不高，很漂亮。她是护士。"},
+      {"who": "A", "es": "¿Quién es Isabel?", "zh": "伊莎贝尔是谁？"},
+      {"who": "B", "es": "Es la hermana de Paco. Es pequeña e inteligente.", "zh": "她是帕科的妹妹，年纪小，很聪明。"},
+      {"who": "A", "es": "¿Dónde está la casa de la familia?", "zh": "他们家的房子在哪儿？"},
+      {"who": "B", "es": "Está en las afueras. Es una casa vieja y grande.", "zh": "在郊区。是一座又旧又大的房子。"},
+      {"who": "A", "es": "¿Y cómo está Paco?", "zh": "帕科现在怎么样？"},
+      {"who": "B", "es": "Está cansado. En su mesa hay unos libros y unos cuadernos.", "zh": "他累了。他桌上有一些书和本子。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "不定冠词 un / una / unos / unas",
+      "points": [
+        "不定冠词表示“一个、一些”，与名词性数一致，用于初次提到的人或物。",
+        "复数：元音后加 -s，辅音后加 -es，z 变 c：lápiz → lápices。",
+        "hay 后不用定冠词：Hay un libro en la mesa。",
+        "职业名词前不用冠词，带形容词时要用：Es un médico simpático."
+      ],
+      "table": {"head": ["", "阳性", "阴性"], "rows": [["单数", "un libro", "una revista"], ["复数", "unos libros", "unas revistas"]]},
+      "examples": [
+        ["Hay un periódico en la mesa.", "桌上有一份报纸。"],
+        ["Hay unos lápices y unas revistas.", "有几支铅笔和几本杂志。"],
+        ["Es médico. Es un médico simpático.", "他是医生，是一位和蔼的医生。"]
+      ]
+    },
+    {
+      "title": "形容词的性数一致和位置",
+      "points": [
+        "形容词与所修饰的名词性数一致：un libro nuevo，una casa nueva。",
+        "-o 结尾的形容词有四种形式：alto，alta，altos，altas。",
+        "-e 结尾的阴阳同形，只变数：grande → grandes。",
+        "形容词一般放在名词后：una casa grande，unos libros nuevos。"
+      ],
+      "table": {"head": ["", "单数", "复数"], "rows": [["阳性", "un libro nuevo", "unos libros nuevos"], ["阴性", "una casa nueva", "unas casas nuevas"], ["阴阳同形", "una casa grande", "unas casas grandes"]]},
+      "examples": [
+        ["La casa es grande y bonita.", "房子又大又漂亮。"],
+        ["Los cuadernos son nuevos.", "本子是新的。"],
+        ["Pepe y Ana son simpáticos.", "佩佩和安娜都很和蔼。"]
+      ]
+    },
+    {
+      "title": "ser 和 estar 的区别",
+      "points": [
+        "ser + 形容词：说人或物本身的特征，如高矮、大小、新旧、性格。",
+        "estar + 形容词：说一时的状态，如累不累、高兴不高兴、身体好不好。",
+        "ser 还说身份、职业、国籍；estar 还说位置（第 3 课）。"
+      ],
+      "table": {"head": ["ser", "estar"], "rows": [["特征：Es alto.", "状态：Está cansado."], ["职业：Es médico.", "位置：Está en casa."], ["国籍：Es chino.", "身体：Está bien."]]},
+      "examples": [
+        ["Paco es alto y simpático.", "帕科个子高，人很和蔼。"],
+        ["Paco está cansado.", "帕科累了。"],
+        ["Ana es bonita. Está contenta.", "安娜很漂亮。她（现在）很高兴。"],
+        ["El diccionario está en la mesa.", "词典在桌子上。"]
+      ]
+    },
+    {
+      "title": "疑问词 ¿cómo? 和连词 y → e",
+      "points": [
+        "¿Cómo es…? 问特征（什么样）；¿Cómo está…? 问状态（怎么样）。",
+        "回答用形容词：¿Cómo es la casa? —Es grande.",
+        "y 在 i-、hi- 开头的词前变 e：Ana e Isabel，padre e hijo。"
+      ],
+      "examples": [
+        ["¿Cómo es tu casa? —Es pequeña y bonita.", "你家房子什么样？——又小又漂亮。"],
+        ["¿Cómo está usted? —Estoy bien.", "您好吗？——我很好。"],
+        ["Mi hermana es alta e inteligente.", "我姐姐个子高，又聪明。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Cómo es tu casa?", "你家房子什么样？"],
+    ["¿Cómo está usted?", "您好吗？"],
+    ["Muy bien, gracias.", "很好，谢谢。"],
+    ["¿Qué hay en la mesa?", "桌上有什么？"],
+    ["Es muy bonito.", "真漂亮。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "用不定冠词填空：Hay ______ lápices y ______ revista en la mesa.", "a": "Hay unos lápices y una revista en la mesa."},
+    {"type": "选择", "q": "Paco ______ cansado. (es / está)", "a": "Paco está cansado."},
+    {"type": "选择", "q": "La casa ______ grande y bonita. (es / está)", "a": "La casa es grande y bonita."},
+    {"type": "填空", "q": "Las casas son ______. (pequeño)", "a": "Las casas son pequeñas."},
+    {"type": "改写", "q": "改成复数：El lápiz es nuevo y la revista es vieja.", "a": "Los lápices son nuevos y las revistas son viejas."},
+    {"type": "填空", "q": "Ana ______ Isabel son altas ______ simpáticas. (y / e)", "a": "Ana e Isabel son altas y simpáticas."},
+    {"type": "翻译", "q": "我的本子是新的，在桌子上。", "a": "Mi cuaderno es nuevo. Está en la mesa."},
+    {"type": "问答", "q": "按课文回答：¿Cómo es la madre de Paco?", "a": "Es baja y muy bonita."}
+  ],
+  "summary": [
+    "不定冠词 un、una、unos、unas 与名词性数一致。",
+    "形容词与名词性数一致，一般放在名词后。",
+    "ser 说特征、身份；estar 说状态和位置。",
+    "¿Cómo es? 问特征，¿Cómo está? 问状态。",
+    "y 在 i-、hi- 开头的词前变成 e。"
+  ],
+  "homework": [
+    "朗读本课语音例词各三遍，注意 gue/gui 与 güe/güi 的区别。",
+    "用 ser 和本课形容词写 5 句话，描述你的家人。",
+    "用 hay 和不定冠词写 3 句话，说说你桌上有什么。"
+  ],
+  "notes": {
+    "goals": "本课是描述人和物的起点，重点是形容词的性数一致以及它和 ser、estar 的搭配。本课动词仍只有 ser、estar、hay。",
+    "pronunciation": "gue/gui 与 güe/güi 对比着读，先听后读。ch 提醒学生不要送气；ñ 是一个辅音，不要拆成 n 加 i 两个音节。",
+    "vocab": "形容词成对教（grande–pequeño、nuevo–viejo、alto–bajo），同时给出阴性形式。lápiz 的复数 lápices 单独板书。",
+    "text": "先让学生找出 ser 和 estar 的句子，说明各表示特征还是状态。然后用自己的家替换人物复述。",
+    "grammar": "y → e 的例外（hie- 开头的词前如 agua y hielo，以及句首问句 ¿Y Isabel?）老师了解即可，不必展开。",
+    "exercises": "第 2、3 题是 ser / estar 对比，讲评时要求学生说出理由。第 8 题答案以课文为准。"
+  }
+}

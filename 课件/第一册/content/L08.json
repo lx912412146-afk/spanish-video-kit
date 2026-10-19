@@ -1,0 +1,219 @@
+{
+  "lesson": 8,
+  "title_es": "En clase",
+  "title_zh": "在课堂上",
+  "goals": [
+    "掌握第二变位（-er）规则动词的现在时",
+    "掌握 poder、ver 和 tener que + 不定式",
+    "会用人称前置词 a 和宾格代词表示直接宾语",
+    "能谈论课堂活动、语言和一天的各个时段",
+    "读准 cl、tr 等连缀和 c + 辅音，分清重读词"
+  ],
+  "pronunciation": [
+    {
+      "title": "辅音连缀 cl cr fl fr gl",
+      "intro": "两个辅音连成一体，和后面的元音同属一个音节，中间不能加元音。",
+      "items": [
+        {"sound": "cl", "tip": "c 读 [k]，舌根离开软腭时紧接 l", "words": [["clase", "课；教室"], ["claro", "明亮的；当然"], ["bicicleta", "自行车"]]},
+        {"sound": "cr", "tip": "[k] 后紧接单击颤音 r，不加元音", "words": [["crema", "奶油"], ["creer", "相信；认为"], ["cruz", "十字"]]},
+        {"sound": "fl", "tip": "上齿轻触下唇，气流摩擦而出，随即发 l", "words": [["flor", "花"], ["flaco", "瘦的"]]},
+        {"sound": "fr", "tip": "f 摩擦出气后舌尖弹一下发 r", "words": [["francés", "法语"], ["fruta", "水果"], ["frío", "冷的"]]},
+        {"sound": "gl", "tip": "g 舌根抵软腭，紧接 l", "words": [["inglés", "英语"], ["regla", "尺子"], ["iglesia", "教堂"]]}
+      ]
+    },
+    {
+      "title": "tl、tr 和 c 在 c、n、t、d 前",
+      "intro": "c 在辅音前读得轻而短，近似 [k]，各地读法不一，有时接近 [g]；cc 中第二个 c 读 [θ]（拉美读 [s]）。",
+      "items": [
+        {"sound": "tl", "tip": "西班牙多读 at-las，墨西哥等地读 a-tlas，两种都对", "words": [["atlas", "地图册"], ["atleta", "运动员"]]},
+        {"sound": "tr", "tip": "t 舌尖抵上齿背，紧接单击颤音 r", "words": [["tres", "三"], ["trabajar", "工作"], ["otro", "另一个"]]},
+        {"sound": "cc", "tip": "第一个 c 轻读近似 [k]，第二个读 [θ]，拉美读 [s]", "words": [["lección", "课"], ["dirección", "地址；方向"]]},
+        {"sound": "cn", "tip": "c 轻而短，只作成阻，紧接 n", "words": [["técnico", "技术员"], ["técnica", "技术"]]},
+        {"sound": "ct、cd", "tip": "c 轻读近似 [k]，不要加元音读成 ke", "words": [["doctor", "医生；博士"], ["actor", "演员"], ["anécdota", "轶事"]]}
+      ]
+    },
+    {
+      "title": "重读词和非重读词",
+      "intro": "句子里实词重读；定冠词、前置词等虚词不重读，要和相邻的词连读。",
+      "items": [
+        {"sound": "实词", "tip": "名词、形容词、动词、副词在句中重读", "words": [["clase", "课"], ["leer", "读"], ["bien", "好"]]},
+        {"sound": "代词、疑问词", "tip": "主格代词和带重音符号的疑问词重读", "words": [["él", "他"], ["¿qué?", "什么"], ["¿dónde?", "哪里"]]},
+        {"sound": "定冠词、前置词", "tip": "不重读，和后面的词连成一体", "words": [["el libro", "书"], ["de Ana", "安娜的"], ["en clase", "在课上"]]},
+        {"sound": "mi、lo 等", "tip": "非重读物主形容词、宾格代词依附相邻的词", "words": [["mi libro", "我的书"], ["lo leo", "我读它"], ["te veo", "我看见你"]]},
+        {"sound": "连词", "tip": "y、o、pero 不重读", "words": [["Ana y Pepe", "安娜和佩佩"], ["hoy o mañana", "今天或明天"]]}
+      ]
+    }
+  ],
+  "vocab": [
+    ["la clase", "课；教室；班"],
+    ["comer", "吃；吃饭"],
+    ["leer", "读；看（书报）"],
+    ["aprender", "学；学会"],
+    ["comprender", "懂；理解"],
+    ["poder", "能；可以"],
+    ["ver", "看见；看"],
+    ["el texto", "课文"],
+    ["la palabra", "词；单词"],
+    ["la pizarra", "黑板"],
+    ["la lección", "课"],
+    ["el idioma", "语言"],
+    ["el inglés", "英语"],
+    ["la mañana", "早晨；上午"],
+    ["la tarde", "下午"],
+    ["la noche", "晚上；夜里"],
+    ["o", "或者；还是"],
+    ["en voz alta", "大声地"]
+  ],
+  "text": {
+    "title": "En clase",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Buenos días, chicos. No veo a Paco. ¿Dónde está?", "zh": "早上好，同学们。我没看见帕科，他在哪儿？"},
+      {"who": "B", "es": "Está en el hospital con su madre.", "zh": "他和他妈妈在医院。"},
+      {"who": "A", "es": "Bien. Hoy vamos a leer un texto nuevo. ¿Tenéis el libro?", "zh": "好。今天我们要读一篇新课文。你们带课本了吗？"},
+      {"who": "B", "es": "Sí, lo tenemos. ¿Podemos leerlo en voz alta?", "zh": "带了。我们可以大声朗读吗？"},
+      {"who": "A", "es": "Claro. Primero lo leo yo y vosotros escucháis.", "zh": "当然可以。我先读，你们听。"},
+      {"who": "B", "es": "Profesor, no comprendo la palabra «pizarra». ¿Puede explicarla?", "zh": "老师，我不懂 pizarra 这个词，您能解释一下吗？"},
+      {"who": "A", "es": "Sí. ¿Veis esto? Es la pizarra.", "zh": "好。你们看见这个了吗？这就是黑板。"},
+      {"who": "B", "es": "Ah, ya comprendo. Gracias, profesor.", "zh": "啊，我明白了。谢谢老师。"},
+      {"who": "A", "es": "Por la tarde tenéis que leer el texto otra vez.", "zh": "下午你们得把课文再读一遍。"},
+      {"who": "B", "es": "¿Y las palabras nuevas? ¿Tenemos que aprenderlas también?", "zh": "那生词呢？我们也得记住吗？"},
+      {"who": "A", "es": "Sí. Podéis aprenderlas por la noche, en casa o en la biblioteca.", "zh": "对。你们晚上可以在家或者在图书馆背。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "第二变位（-er）规则动词的现在时",
+      "points": [
+        "去掉词尾 -er，加上 -o、-es、-e、-emos、-éis、-en。",
+        "和 -ar 动词相比，词尾的 a 换成了 e（yo 仍是 -o）。",
+        "leer 的 vosotros 形式 leéis，两个 e 分开读，é 带重音符号。",
+        "连词 o 表示“或者、还是”，常用于选择问句。"
+      ],
+      "table": {
+        "head": ["人称", "comer", "leer", "aprender"],
+        "rows": [
+          ["yo", "como", "leo", "aprendo"],
+          ["tú", "comes", "lees", "aprendes"],
+          ["él, ella, usted", "come", "lee", "aprende"],
+          ["nosotros, -as", "comemos", "leemos", "aprendemos"],
+          ["vosotros, -as", "coméis", "leéis", "aprendéis"],
+          ["ellos, ellas, ustedes", "comen", "leen", "aprenden"]
+        ]
+      },
+      "examples": [
+        ["Leemos el texto en voz alta.", "我们大声朗读课文。"],
+        ["¿Lees en español o en inglés?", "你用西班牙语读还是用英语读？"],
+        ["No comprendo esta palabra.", "我不懂这个词。"]
+      ]
+    },
+    {
+      "title": "poder、ver 和 tener que + 不定式",
+      "points": [
+        "poder 词根 o 变 ue，nosotros、vosotros 两个人称不变。",
+        "poder + 不定式 表示“能、可以”：¿Puedo leer?",
+        "ver 的 yo 是 veo；ves、ve、veis、ven 是单音节，不写重音符号。",
+        "tener que + 不定式 表示“必须、得”：Tengo que estudiar."
+      ],
+      "table": {
+        "head": ["人称", "poder", "ver"],
+        "rows": [
+          ["yo", "puedo", "veo"],
+          ["tú", "puedes", "ves"],
+          ["él, ella, usted", "puede", "ve"],
+          ["nosotros, -as", "podemos", "vemos"],
+          ["vosotros, -as", "podéis", "veis"],
+          ["ellos, ellas, ustedes", "pueden", "ven"]
+        ]
+      },
+      "examples": [
+        ["¿Puedes ver la pizarra?", "你看得见黑板吗？"],
+        ["No podemos comer en clase.", "我们不能在教室里吃东西。"],
+        ["Esta noche tenemos que leer el texto.", "今天晚上我们得读课文。"]
+      ]
+    },
+    {
+      "title": "直接宾语和人称前置词 a",
+      "points": [
+        "直接宾语是动作直接涉及的人或事物：Leo el libro.",
+        "直接宾语是确指的人时，前面要加 a：Veo a Ana.",
+        "直接宾语是事物时不加 a：Veo la pizarra.；a + el 缩合成 al。",
+        "问“谁”作直接宾语用 ¿a quién?：¿A quién ves?"
+      ],
+      "examples": [
+        ["¿A quién ves? —Veo a mi profesor.", "你看见谁了？——我看见我的老师了。"],
+        ["Esperamos al profesor en clase.", "我们在教室里等老师。"],
+        ["Leo el periódico por la mañana.", "我上午看报纸。"],
+        ["Visito a mis abuelos los domingos.", "我每个星期天去看望祖父母。"]
+      ]
+    },
+    {
+      "title": "宾格代词及其位置",
+      "points": [
+        "宾格代词代替直接宾语；lo、la、los、las 既可指人也可指物。",
+        "放在变位动词前：Lo leo.；否定时 no 在代词前：No lo veo.",
+        "和不定式连用时，可放在变位动词前，也可连写在不定式后。",
+        "例如 Lo puedo ver. = Puedo verlo.，两种位置都对。"
+      ],
+      "table": {
+        "head": ["人称", "宾格代词"],
+        "rows": [
+          ["yo", "me"],
+          ["tú", "te"],
+          ["él, usted（阳性）", "lo"],
+          ["ella, usted（阴性）", "la"],
+          ["nosotros, -as", "nos"],
+          ["vosotros, -as", "os"],
+          ["ellos, ellas, ustedes", "los / las"]
+        ]
+      },
+      "examples": [
+        ["¿Lees el texto? —Sí, lo leo.", "你读课文吗？——是的，我读。"],
+        ["¿Ves a Ana y a Lucía? —No, no las veo.", "你看见安娜和露西娅了吗？——没有，我没看见她们。"],
+        ["¿Me ves? —Sí, te veo.", "你看得见我吗？——看得见。"],
+        ["¿Y las palabras? —Tenemos que aprenderlas.", "那些单词呢？——我们得把它们学会。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Puedo leer?", "我可以读吗？"],
+    ["No comprendo.", "我不懂。"],
+    ["¿Puede explicarlo otra vez?", "您能再讲一遍吗？"],
+    ["en voz alta", "大声地"],
+    ["otra vez", "再一次"],
+    ["por la mañana", "在上午"],
+    ["por la tarde", "在下午"],
+    ["por la noche", "在晚上"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Vosotros ______ (leer) el periódico y nosotros ______ (comer).", "a": "Vosotros leéis el periódico y nosotros comemos."},
+    {"type": "填空", "q": "Yo no ______ (poder) ver la pizarra.", "a": "Yo no puedo ver la pizarra."},
+    {"type": "选择", "q": "Veo ___ Pepe en clase. (a / al / 不填)", "a": "Veo a Pepe en clase."},
+    {"type": "选择", "q": "¿Lees la lección? —Sí, ___ leo. (lo / la / las)", "a": "Sí, la leo."},
+    {"type": "改写", "q": "用宾格代词改写，代词连写在不定式后：Tengo que aprender las palabras.", "a": "Tengo que aprenderlas."},
+    {"type": "改写", "q": "用宾格代词回答：¿Ves a tus amigos? —No, ______.", "a": "No, no los veo."},
+    {"type": "翻译", "q": "今天晚上我得读课文。", "a": "Esta noche tengo que leer el texto."},
+    {"type": "问答", "q": "用 sí 和宾格代词回答：¿Nos veis?", "a": "Sí, os vemos."}
+  ],
+  "summary": [
+    "-er 动词词尾：-o、-es、-e、-emos、-éis、-en",
+    "poder：puedo、puedes…；ver：veo、ves…",
+    "确指人的直接宾语前加 a：Veo a Ana.",
+    "宾格代词放在变位动词前，或连写在不定式后",
+    "tener que + 不定式＝必须；o＝或者、还是"
+  ],
+  "homework": [
+    "背诵 comer、leer、poder、ver 的现在时变位。",
+    "写 6 组问答句，答句用宾格代词代替直接宾语。",
+    "用 por la mañana / tarde / noche 写你的一天。",
+    "朗读本课辅音连缀和 c + 辅音的例词各三遍。"
+  ],
+  "notes": {
+    "goals": "本课是语音阶段的最后一课，语法点多，可分两课时：先讲 -er 动词和 poder、ver，再讲直接宾语和宾格代词。",
+    "pronunciation": "c 在辅音前要轻读，不要读成 ke；重读词和非重读词可结合课文句子练习连读。",
+    "vocab": "idioma 是阳性名词；lección 的复数 lecciones 去掉重音符号。",
+    "text": "课文是仿照本课课文编写的课堂对话。课堂指令暂不用命令式（第 15 课才学），一律用 poder、tener que、ir a 表达。",
+    "grammar": "宾格代词先讲指物，再讲指人；用 le 指男性的用法（leísmo）暂不涉及。本课例句不用 -ir 动词。",
+    "exercises": "第 5 题要求代词连写在不定式后，可顺带提醒另一种位置 Las tengo que aprender.；第 8 题注意 nos 要换成 os，动词用 vemos。"
+  }
+}

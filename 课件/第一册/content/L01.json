@@ -1,0 +1,201 @@
+{
+  "lesson": 1,
+  "title_es": "¿Quién es él?",
+  "title_zh": "他是谁？",
+  "goals": [
+    "掌握五个元音和 p、t、m、n、l、s 六个辅音",
+    "会划分音节、判断重音位置，会在句中连读",
+    "能用 es / son 说出一个人是谁、是哪国人",
+    "掌握名词、形容词的阴阳性和复数（加 -s）",
+    "会用 ¿quién? 提问，会用 no 构成否定句"
+  ],
+  "pronunciation": [
+    {
+      "title": "元音 a e i o u",
+      "intro": "西语只有五个元音，发音短促清楚，口型自始至终不变，不像英语那样滑动。",
+      "items": [
+        {"sound": "a", "tip": "嘴张大，舌头平放，像汉语的“啊”", "words": [["mapa", "地图"], ["papá", "爸爸"], ["mamá", "妈妈"]]},
+        {"sound": "e", "tip": "嘴角稍向两边拉开，舌面抬起，像“也”的韵母，更短更紧", "words": [["mesa", "桌子"], ["pelo", "头发"], ["tela", "布"]]},
+        {"sound": "i", "tip": "像汉语的“衣”，嘴角向两边拉开，舌尖抵住下齿", "words": [["pino", "松树"], ["sí", "是的"], ["lima", "青柠"]]},
+        {"sound": "o", "tip": "双唇收圆，像“哦”，口型不变，不要滑成“欧”", "words": [["no", "不"], ["solo", "单独的"], ["mono", "猴子"]]},
+        {"sound": "u", "tip": "双唇收圆并向前突出，像汉语的“乌”", "words": [["mula", "骡子"], ["luna", "月亮"], ["puma", "美洲狮"]]}
+      ]
+    },
+    {
+      "title": "辅音 p t m n l s",
+      "intro": "p、t 是不送气的清塞音，m、n 是鼻音，l 是边音，s 是清擦音。",
+      "items": [
+        {"sound": "p", "tip": "双唇紧闭后突然放开，不送气：像“爸”的声母，不是“趴”", "words": [["papá", "爸爸"], ["Pepe", "佩佩（人名）"], ["sopa", "汤"]]},
+        {"sound": "t", "tip": "舌尖抵住上齿背后放开，不送气：像“大”的声母，不是“他”", "words": [["tapa", "盖子"], ["tomate", "西红柿"], ["tela", "布"]]},
+        {"sound": "m", "tip": "双唇闭合，气流从鼻腔出来，和汉语的 m 一样", "words": [["mamá", "妈妈"], ["mano", "手"], ["mesa", "桌子"]]},
+        {"sound": "n", "tip": "舌尖抵住上齿龈，气流从鼻腔出来", "words": [["no", "不"], ["nota", "分数"], ["luna", "月亮"]]},
+        {"sound": "l", "tip": "舌尖抵住上齿龈，气流从舌头两边出来；词尾也要发清楚", "words": [["lana", "羊毛"], ["sol", "太阳"], ["papel", "纸"]]},
+        {"sound": "s", "tip": "像“丝”的声母，声带不振动；在浊辅音前读浊音", "words": [["sala", "客厅"], ["mismo", "同样的（s 浊化）"], ["isla", "岛（s 浊化）"]]}
+      ]
+    },
+    {
+      "title": "音节、重音和连读",
+      "intro": "每个音节必有元音；每个词有一个重读音节；句中的词要连起来读。",
+      "items": [
+        {"sound": "音节①", "tip": "元音可自成音节；两个元音间的一个辅音归后一个音节", "words": [["A·na", "安娜（人名）"], ["me·sa", "桌子"], ["to·ma·te", "西红柿"]]},
+        {"sound": "音节②", "tip": "两个辅音相连时从中间分开，分别归前后两个音节", "words": [["al·to", "高的"], ["sal·sa", "调味汁"]]},
+        {"sound": "重音①", "tip": "以元音或 n、s 结尾：重音在倒数第二个音节", "words": [["mesa", "桌子：ME·sa"], ["tomate", "to·MA·te"], ["lunes", "星期一：LU·nes"]]},
+        {"sound": "重音②", "tip": "以 n、s 以外的辅音结尾：重音在最后一个音节", "words": [["papel", "纸：pa·PEL"], ["mantel", "桌布：man·TEL"]]},
+        {"sound": "重音③", "tip": "不合以上两条的，在重读元音上标重音符号", "words": [["papá", "爸爸：pa·PÁ"], ["mamá", "妈妈：ma·MÁ"]]},
+        {"sound": "连读", "tip": "前一个词以辅音结尾、后一个词以元音开头时连起来读", "words": [["Él es Paco.", "é·les·pa·co"], ["Son amigos.", "so·na·mi·gos"], ["Es Ana.", "e·sa·na"]]}
+      ]
+    }
+  ],
+  "vocab": [
+    ["él", "他"],
+    ["ella", "她"],
+    ["ellos, ellas", "他们；她们"],
+    ["es / son", "是（ser 的两个形式）"],
+    ["¿quién? / ¿quiénes?", "谁"],
+    ["sí", "是的"],
+    ["no", "不"],
+    ["y", "和"],
+    ["amigo, amiga", "朋友"],
+    ["cubano, cubana", "古巴人；古巴的"],
+    ["chileno, chilena", "智利人；智利的"],
+    ["panameño, panameña", "巴拿马人；巴拿马的"],
+    ["chino, china", "中国人；中国的"]
+  ],
+  "text": {
+    "title": "¿Quién es él?",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¿Quién es él?", "zh": "他是谁？"},
+      {"who": "B", "es": "Es Paco.", "zh": "是帕科。"},
+      {"who": "A", "es": "¿Es cubano?", "zh": "他是古巴人吗？"},
+      {"who": "B", "es": "Sí, es cubano.", "zh": "是的，他是古巴人。"},
+      {"who": "A", "es": "Y ella, ¿quién es?", "zh": "那她是谁？"},
+      {"who": "B", "es": "Ella se llama Ana. Es panameña.", "zh": "她叫安娜，是巴拿马人。"},
+      {"who": "A", "es": "¿Quiénes son ellos?", "zh": "他们是谁？"},
+      {"who": "B", "es": "Son Pepe y Li Xin. Son amigos.", "zh": "是佩佩和李欣。他们是朋友。"},
+      {"who": "A", "es": "¿Es chileno Li Xin?", "zh": "李欣是智利人吗？"},
+      {"who": "B", "es": "No, no es chileno. Es chino.", "zh": "不，他不是智利人，他是中国人。"},
+      {"who": "A", "es": "¿Y Pepe?", "zh": "那佩佩呢？"},
+      {"who": "B", "es": "Pepe es chileno.", "zh": "佩佩是智利人。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "名词和形容词的阴阳性",
+      "points": [
+        "名词分阳性和阴性：以 -o 结尾的多为阳性，以 -a 结尾的多为阴性",
+        "表示国籍、身份的词：说男性用阳性，说女性用阴性",
+        "把词尾 -o 换成 -a 就得到阴性：cubano → cubana"
+      ],
+      "table": {
+        "head": ["阳性", "阴性", "意思"],
+        "rows": [
+          ["cubano", "cubana", "古巴人"],
+          ["chileno", "chilena", "智利人"],
+          ["panameño", "panameña", "巴拿马人"],
+          ["chino", "china", "中国人"],
+          ["amigo", "amiga", "朋友"]
+        ]
+      },
+      "examples": [
+        ["Paco es cubano.", "帕科是古巴人。"],
+        ["Ana es panameña.", "安娜是巴拿马人。"],
+        ["Li Xin es chino.", "李欣是中国人。"]
+      ]
+    },
+    {
+      "title": "名词和形容词的复数",
+      "points": [
+        "以元音结尾的名词和形容词，在词尾加 -s 构成复数",
+        "主语是复数时，后面的名词、形容词也要用复数",
+        "男女在一起时用阳性复数：Paco y Ana son amigos."
+      ],
+      "table": {
+        "head": ["单数", "复数"],
+        "rows": [
+          ["amigo", "amigos"],
+          ["amiga", "amigas"],
+          ["chino", "chinos"],
+          ["cubana", "cubanas"]
+        ]
+      },
+      "examples": [
+        ["Pepe y Li Xin son amigos.", "佩佩和李欣是朋友。"],
+        ["Ellos son chinos.", "他们是中国人。"],
+        ["Ellas son chilenas.", "她们是智利人。"]
+      ]
+    },
+    {
+      "title": "动词 ser：es 和 son",
+      "points": [
+        "ser 意思是“是”，用来说明一个人是谁、是哪国人",
+        "主语是一个人（él、ella 或一个人名）时用 es",
+        "主语是几个人（ellos、ellas 或几个人名）时用 son"
+      ],
+      "table": {
+        "head": ["主语", "ser", "例句"],
+        "rows": [
+          ["él / ella", "es", "Él es Paco."],
+          ["ellos / ellas", "son", "Ellas son amigas."]
+        ]
+      },
+      "examples": [
+        ["Ella es Ana.", "她是安娜。"],
+        ["Ellos son Pepe y Li Xin.", "他们是佩佩和李欣。"],
+        ["Paco es cubano y Pepe es chileno.", "帕科是古巴人，佩佩是智利人。"]
+      ]
+    },
+    {
+      "title": "疑问句、否定句和书写",
+      "points": [
+        "问“谁”：一个人用 ¿Quién es…?，几个人用 ¿Quiénes son…?",
+        "一般疑问句不用疑问词，句尾语调上升；回答先说 sí 或 no",
+        "否定句在动词前加 no：No, no es chino.",
+        "问句前加 ¿，感叹句前加 ¡；句首和人名大写，国籍词小写"
+      ],
+      "examples": [
+        ["¿Quién es ella?", "她是谁？"],
+        ["¿Quiénes son ellos?", "他们是谁？"],
+        ["¿Es chileno Li Xin?", "李欣是智利人吗？"],
+        ["No, no es chileno.", "不，他不是智利人。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Quién es él?", "他是谁？"],
+    ["¿Quiénes son ellos?", "他们是谁？"],
+    ["Se llama Ana.", "她叫安娜。"],
+    ["¿Y Pepe?", "那佩佩呢？"],
+    ["¡Hasta luego!", "再见！"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "用括号里的词填空：Ana es ______. (chino)", "a": "Ana es china."},
+    {"type": "选择", "q": "Pepe y Paco ______ amigos. (es / son)", "a": "Pepe y Paco son amigos."},
+    {"type": "选择", "q": "¿______ son ellos? (Quién / Quiénes)", "a": "¿Quiénes son ellos?"},
+    {"type": "改写", "q": "改成否定句：Paco es chileno.", "a": "Paco no es chileno."},
+    {"type": "改写", "q": "改成复数：Él es chino.", "a": "Ellos son chinos."},
+    {"type": "语音", "q": "划分音节，并指出重读音节：tomate，papel", "a": "to·ma·te（重读 ma）；pa·pel（重读 pel）"},
+    {"type": "翻译", "q": "李欣是中国人，不是智利人。", "a": "Li Xin es chino. No es chileno."},
+    {"type": "问答", "q": "根据课文回答：¿Es cubano Pepe?", "a": "No, no es cubano. Es chileno."}
+  ],
+  "summary": [
+    "元音 a e i o u：短促清楚，口型不变",
+    "p、t 不送气；s 在浊辅音前读浊音",
+    "音节划分、重音位置和连读的基本规则",
+    "-o 阳性、-a 阴性；元音结尾加 -s 变复数",
+    "ser：一人用 es，几人用 son；否定加 no"
+  ],
+  "homework": [
+    "把课文对话朗读三遍，注意 p、t 不送气、元音口型不变",
+    "抄写本课单词，写出每个国籍词的阴性和复数形式",
+    "用 es / son 写四句话，介绍课文里的四个人"
+  ],
+  "notes": {
+    "goals": "本课是语音入门课，语法只用 ser 的 es / son。建议语音占一半以上课时，课文和语法以模仿、替换为主。",
+    "pronunciation": "重点纠正两点：元音不要滑动（o 不要读成“欧”），p、t 不要送气，可让学生对着纸条练习。s 在 m、l 等浊辅音前浊化只要求听辨，连读示范时先慢后快。solo 在这里是形容词“单独的”，不带重音符号；作副词“只”时本教材写作 sólo，RAE 2010 年起已不再要求这个重音符号。",
+    "vocab": "国籍词成对出现，先教阳性再变阴性。quién 里的 qu、cubano 里的 c 和 b、ella 里的 ll、amigo 里的 g、chileno 里的 ch、panameño 里的 ñ 本课只模仿，第 2–4 课正式学。",
+    "text": "se llama 作为固定说法整体记忆，不讲变位。逐句跟读后，让学生替换人名和国籍做问答。",
+    "grammar": "阴阳性只讲 -o / -a，复数只讲元音结尾加 -s。强调男女混合用阳性复数、问句的倒问号和一般疑问句的升调。",
+    "exercises": "先口头做再出示答案。第 6 题让学生先读出来再划分音节；第 7 题第二句也可以说成 Li Xin no es chileno."
+  }
+}

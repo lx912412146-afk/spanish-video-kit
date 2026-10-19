@@ -1,0 +1,186 @@
+{
+  "lesson": 11,
+  "title_es": "En la biblioteca",
+  "title_zh": "在图书馆",
+  "goals": [
+    "掌握两个代词连用的位置，特别是和不定式连用",
+    "会问时间、说钟点：¿Qué hora es?",
+    "掌握 dar、traer 的现在时变位",
+    "会用 para + 不定式表示目的",
+    "能在图书馆借书、问开门时间"
+  ],
+  "vocab": [
+    ["la biblioteca", "图书馆"],
+    ["bibliotecario, -a", "图书管理员"],
+    ["el carné de biblioteca", "借书证"],
+    ["la sala de lectura", "阅览室"],
+    ["la novela", "小说"],
+    ["prestar", "借给"],
+    ["sacar", "（从图书馆）借书；取出"],
+    ["la hora", "钟点；小时"],
+    ["el minuto", "分钟"],
+    ["el reloj", "钟；表"],
+    ["en punto", "（几点）整"],
+    ["y media", "（几点）半"],
+    ["y cuarto / menos cuarto", "过一刻 / 差一刻"],
+    ["dar", "给"],
+    ["traer", "带来；拿来"],
+    ["todavía", "还；仍然"],
+    ["tarde", "晚（副词）"],
+    ["para", "为了；给"]
+  ],
+  "text": {
+    "title": "En la biblioteca",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Buenas tardes. ¿Me presta usted esta novela?", "zh": "下午好。您能把这本小说借给我吗？"},
+      {"who": "B", "es": "Sí, se la presto. ¿Me da su carné de biblioteca?", "zh": "可以，借给您。请把您的借书证给我。"},
+      {"who": "A", "es": "Aquí lo tiene. ¿Y estos diccionarios? ¿Puede prestármelos también?", "zh": "给您。那这几本词典呢？也能借给我吗？"},
+      {"who": "B", "es": "No, los diccionarios son para leer aquí, en la sala de lectura.", "zh": "不行，词典只供在这儿的阅览室里看。"},
+      {"who": "A", "es": "Entonces voy a la sala de lectura para buscar unas palabras.", "zh": "那我去阅览室查几个词。"},
+      {"who": "B", "es": "Muy bien. Tiene que traernos la novela el viernes.", "zh": "好的。这本小说您星期五要还回来。"},
+      {"who": "A", "es": "De acuerdo. ¿A qué hora abre la biblioteca el viernes?", "zh": "好的。星期五图书馆几点开门？"},
+      {"who": "B", "es": "A las ocho de la mañana.", "zh": "早上八点。"},
+      {"who": "A", "es": "¿Y qué hora es ahora? No tengo reloj.", "zh": "那现在几点了？我没带表。"},
+      {"who": "B", "es": "Son las cuatro y media.", "zh": "四点半。"},
+      {"who": "A", "es": "¡Uy! Tengo clase a las cinco menos cuarto.", "zh": "哎呀！我四点三刻有课。"},
+      {"who": "B", "es": "Todavía tiene usted un cuarto de hora.", "zh": "您还有一刻钟呢。"},
+      {"who": "A", "es": "Gracias. El viernes se la traigo.", "zh": "谢谢。星期五我把它给您带来。"},
+      {"who": "B", "es": "Hasta el viernes.", "zh": "星期五见。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "与格、宾格代词连用（续）：位置",
+      "points": [
+        "两个代词总是连在一起：与格在前，宾格在后，中间不插别的词。",
+        "和变位动词连用放在动词前；否定时 no 在代词前：No te lo doy。",
+        "和不定式连用：放在变位动词前，或连写在不定式后，意思一样。",
+        "连写在不定式后要加重音，保持原来的重读：dártelo、prestármelos。"
+      ],
+      "table": {
+        "head": ["结构", "代词在前", "代词连写在后"],
+        "rows": [
+          ["ir a + 不定式", "Te lo voy a dar.", "Voy a dártelo."],
+          ["tener que + 不定式", "Se la tengo que traer.", "Tengo que traérsela."],
+          ["poder + 不定式", "Me los puede prestar.", "Puede prestármelos."],
+          ["querer + 不定式", "Nos la quiere dar.", "Quiere dárnosla."]
+        ]
+      },
+      "examples": [
+        ["—¿Me das tu diccionario? —Sí, te lo doy.", "——你把词典给我好吗？——好，给你。"],
+        ["—¿Me presta esta novela? —Sí, se la presto.", "——您能把这本小说借给我吗？——可以，借给您。"],
+        ["Mañana voy a traérselos a ustedes.", "明天我把它们给你们带来。"],
+        ["No te la puedo dar ahora.", "我现在不能把它给你。"]
+      ]
+    },
+    {
+      "title": "钟点的表达",
+      "points": [
+        "¿Qué hora es? 一点说 Es la una，其余说 Son las + 数字。",
+        "过几分用 y，差几分用 menos；一刻说 cuarto，半点说 media。",
+        "问几点做某事：¿A qué hora…? 答：A la una / A las ocho。",
+        "具体钟点后用 de la mañana / tarde / noche 区分早晚。"
+      ],
+      "table": {
+        "head": ["时间", "西语"],
+        "rows": [
+          ["12:45", "Es la una menos cuarto"],
+          ["1:00", "Es la una en punto"],
+          ["1:30", "Es la una y media"],
+          ["1:50", "Son las dos menos diez"],
+          ["2:05", "Son las dos y cinco"],
+          ["3:15", "Son las tres y cuarto"],
+          ["4:30", "Son las cuatro y media"]
+        ]
+      },
+      "examples": [
+        ["—¿Qué hora es? —Son las tres y diez.", "——现在几点？——三点十分。"],
+        ["—¿A qué hora abre la biblioteca? —A las ocho.", "——图书馆几点开门？——八点。"],
+        ["Vuelvo a casa a las seis de la tarde.", "我下午六点回家。"],
+        ["Son las diez de la noche. Es tarde.", "晚上十点了，很晚了。"]
+      ]
+    },
+    {
+      "title": "动词 dar 和 traer",
+      "points": [
+        "dar 只有 yo 不规则：doy；vosotros 的形式 dais 不加重音。",
+        "traer 只有 yo 不规则：traigo；其余按 -er 动词规则变位。",
+        "这两个动词常带与格代词：Te doy… / ¿Me traes…?",
+        "traer 是“拿来、带来”（到说话人这边），“带去”说 llevar。"
+      ],
+      "table": {
+        "head": ["人称", "dar", "traer"],
+        "rows": [
+          ["yo", "doy", "traigo"],
+          ["tú", "das", "traes"],
+          ["él, ella, usted", "da", "trae"],
+          ["nosotros, nosotras", "damos", "traemos"],
+          ["vosotros, vosotras", "dais", "traéis"],
+          ["ellos, ellas, ustedes", "dan", "traen"]
+        ]
+      },
+      "examples": [
+        ["¿Me das tu carné, por favor?", "请把你的借书证给我好吗？"],
+        ["Mañana te traigo la novela.", "明天我把小说给你带来。"],
+        ["¿Qué nos traéis, chicos?", "孩子们，你们给我们带来了什么？"],
+        ["El bibliotecario les da los libros a los estudiantes.", "图书管理员把书交给学生们。"]
+      ]
+    },
+    {
+      "title": "para + 不定式",
+      "points": [
+        "para + 不定式表示目的，意思是“为了……”“来／去做……”。",
+        "不定式的动作者一般就是句子的主语。",
+        "问目的说 ¿Para qué…?，回答可以只说 Para + 不定式。",
+        "para + 名词表示用途或对象：para la tos、para los niños。"
+      ],
+      "examples": [
+        ["Voy a la biblioteca para sacar libros.", "我去图书馆借书。"],
+        ["Estudio español para leer novelas en español.", "我学西班牙语是为了读西语小说。"],
+        ["—¿Para qué vas a la sala de lectura? —Para estudiar.", "——你去阅览室干什么？——去学习。"],
+        ["Necesito el diccionario para hacer los ejercicios.", "我需要词典来做练习。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Qué hora es?", "几点了？"],
+    ["¿A qué hora…?", "几点……？"],
+    ["Es la una en punto.", "一点整。"],
+    ["Son las ocho y media.", "八点半。"],
+    ["¿Me presta este libro?", "您能借给我这本书吗？"],
+    ["Aquí lo tiene.", "给您。"],
+    ["De acuerdo.", "好的。"],
+    ["Hasta el viernes.", "星期五见。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Yo te ___ (dar) mi diccionario.", "a": "Yo te doy mi diccionario."},
+    {"type": "填空", "q": "Mañana nosotros os ___ (traer) las novelas.", "a": "Mañana nosotros os traemos las novelas."},
+    {"type": "选择", "q": "___ la una y media. (Es / Son)", "a": "Es la una y media."},
+    {"type": "翻译", "q": "现在是三点差一刻。", "a": "Son las tres menos cuarto."},
+    {"type": "改写", "q": "Te lo voy a traer.（把代词连写在不定式后）", "a": "Voy a traértelo."},
+    {"type": "问答", "q": "¿Me presta usted los diccionarios?（用 Sí 和两个代词回答）", "a": "Sí, se los presto."},
+    {"type": "选择", "q": "Estudio español ___ leer novelas en español. (para / de)", "a": "Estudio español para leer novelas en español."},
+    {"type": "问答", "q": "¿A qué hora abre la biblioteca?（上午 8:00）", "a": "Abre a las ocho de la mañana."}
+  ],
+  "summary": [
+    "代词连用：与格在前，宾格在后；le 遇 lo 变 se。",
+    "和不定式连用：放变位动词前，或连写在后并加重音。",
+    "钟点：Es la una；Son las dos y media。",
+    "dar：doy, das…；traer：traigo, traes…",
+    "para + 不定式表示目的（为了……）。"
+  ],
+  "homework": [
+    "熟读课文，分角色表演在图书馆借书的对话。",
+    "画 6 个钟面，用西语写出时间并读出来。",
+    "用 dar、traer 加两个代词，各写 3 组问答。",
+    "用 para + 不定式写 3 句话，说说你为什么学西语。"
+  ],
+  "notes": {
+    "goals": "本课把代词连用和钟点放在一起练，借东西、约时间都很实用。",
+    "vocab": "钟点用语（en punto、y media、menos cuarto）可配合钟面教具。本课分钟只用 cinco、diez、cuarto、media，较大的数字第 12 课再学。",
+    "text": "A 是学生，B 是图书管理员。先听读，再让学生找出 se la、prestármelos、se la traigo，说清各指什么。",
+    "grammar": "强调 Es la una 和 Son las dos 的单复数；代词连写在不定式后要加重音，可让学生数音节体会。de la mañana 跟具体钟点，por la mañana 不跟钟点。",
+    "exercises": "钟点题可用钟面教具快问快答；改写题注意检查重音。"
+  }
+}

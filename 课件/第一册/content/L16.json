@@ -1,0 +1,189 @@
+{
+  "lesson": 16,
+  "title_es": "De compras",
+  "title_zh": "购物",
+  "goals": [
+    "掌握 usted、ustedes、nosotros 命令式",
+    "会给命令式连写代词，并正确标重音",
+    "会用 más / menos…que、tan…como 比较",
+    "会用 gustar、apetecer、parecer 说喜好",
+    "能在商店问价格、尺码、颜色，会谈天气"
+  ],
+  "vocab": [
+    ["tienda", "商店"],
+    ["dependiente, dependienta", "店员，售货员"],
+    ["talla", "（衣服的）尺码"],
+    ["probador", "试衣间"],
+    ["caja", "收银台；盒子"],
+    ["precio", "价格"],
+    ["caro, cara", "贵的"],
+    ["barato, barata", "便宜的"],
+    ["costar (ue)", "值（多少钱）"],
+    ["probarse (ue)", "试穿"],
+    ["llevarse", "买下，拿走"],
+    ["gustar", "使喜欢"],
+    ["apetecer", "使想要（吃、做）"],
+    ["parecer", "使觉得；好像"],
+    ["abrigo", "大衣"],
+    ["demasiado", "太，过于"],
+    ["tiempo", "天气；时间"],
+    ["llover (ue)", "下雨"]
+  ],
+  "text": {
+    "title": "De compras",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Hoy hace mucho frío. Entremos en esta tienda.", "zh": "今天真冷。我们进这家商店看看吧。"},
+      {"who": "B", "es": "Buena idea. Necesitas un abrigo nuevo.", "zh": "好主意。你需要一件新大衣。"},
+      {"who": "A", "es": "Perdone, señora, enséñenos esos abrigos, por favor.", "zh": "劳驾，女士，请给我们看看那些大衣。"},
+      {"who": "B", "es": "Mira, el negro cuesta cien euros, el azul noventa y el gris setenta.", "zh": "你看，黑色的一百欧元，蓝色的九十，灰色的七十。"},
+      {"who": "A", "es": "El gris es más barato, pero me gusta más el azul.", "zh": "灰色的便宜些，可是我更喜欢蓝色的。"},
+      {"who": "B", "es": "A mí también. Es más elegante que el gris.", "zh": "我也是。它比灰色的好看。"},
+      {"who": "A", "es": "Pero ¿hay uno de mi talla? Uso la 50.", "zh": "可是有我的尺码吗？我穿 50 号。"},
+      {"who": "B", "es": "Sí, aquí hay uno de la 50. Pruébatelo.", "zh": "有，这儿有一件 50 号的。你试试吧。"},
+      {"who": "A", "es": "Ya está. ¿Qué te parece?", "zh": "穿好了。你觉得怎么样？"},
+      {"who": "B", "es": "Me parece muy bonito, y no es tan caro como el negro.", "zh": "我觉得很好看，而且没有黑色的那么贵。"},
+      {"who": "A", "es": "Entonces, comprémoslo. Señora, nos lo llevamos.", "zh": "那我们就买下吧。女士，这件我们要了。"},
+      {"who": "B", "es": "Ahora paguemos en caja y busquemos una cafetería.", "zh": "现在我们去收银台付款，再找家咖啡馆吧。"},
+      {"who": "A", "es": "Sí, sentémonos un rato. ¿Te apetece un chocolate caliente?", "zh": "好，我们坐一会儿吧。你想喝杯热巧克力吗？"},
+      {"who": "B", "es": "Sí, me apetece mucho.", "zh": "好啊，我很想喝。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "usted、ustedes、nosotros 的肯定命令式",
+      "points": [
+        "构成：取陈述式现在时 yo 的形式，去掉词尾 -o",
+        "-ar 动词加 -e、-en、-emos；-er、-ir 动词加 -a、-an、-amos",
+        "nosotros 命令式表示“我们……吧”：hablemos，comamos",
+        "-car→-que，-gar→-gue，-zar→-ce：busque，empecemos"
+      ],
+      "table": {
+        "head": ["不定式", "usted", "ustedes", "nosotros"],
+        "rows": [
+          ["hablar", "hable", "hablen", "hablemos"],
+          ["comprar", "compre", "compren", "compremos"],
+          ["comer", "coma", "coman", "comamos"],
+          ["beber", "beba", "beban", "bebamos"],
+          ["escribir", "escriba", "escriban", "escribamos"],
+          ["abrir", "abra", "abran", "abramos"],
+          ["pagar", "pague", "paguen", "paguemos"]
+        ]
+      },
+      "examples": [
+        ["Hable más despacio, por favor.", "请您说慢一点。"],
+        ["Pasen y miren, señores.", "先生们，请进来看看。"],
+        ["Comamos en este restaurante.", "我们在这家饭馆吃饭吧。"],
+        ["Pague en caja, por favor.", "请您到收银台付款。"]
+      ]
+    },
+    {
+      "title": "命令式加代词",
+      "points": [
+        "代词（包括自复代词）连写在肯定命令式后面，成为一个词",
+        "加代词后重音位置不变，常要补写重音符号：compre → cómprelo",
+        "nosotros 形式后接 nos 或 se 时，去掉词尾 -s：sentémonos",
+        "ustedes 形式直接加 se：lávense，不能写成 lávensen"
+      ],
+      "table": {
+        "head": ["人称", "命令式 + 代词", "连写后"],
+        "rows": [
+          ["usted", "compre + lo", "cómprelo"],
+          ["ustedes", "compren + lo", "cómprenlo"],
+          ["nosotros", "compremos + lo", "comprémoslo"],
+          ["usted", "lave + se", "lávese"],
+          ["ustedes", "laven + se", "lávense"],
+          ["nosotros", "lavemos + nos", "lavémonos"],
+          ["nosotros", "compremos + se + lo", "comprémoselo"]
+        ]
+      },
+      "examples": [
+        ["Es un buen libro. Cómprelo.", "这是本好书。您买下吧。"],
+        ["Ya es tarde. Levántense, por favor.", "已经不早了，请大家起床吧。"],
+        ["Estamos cansados. Sentémonos aquí.", "我们累了。我们在这儿坐下吧。"],
+        ["A Pepe le gusta este reloj. Comprémoselo.", "佩佩喜欢这块表。我们给他买下吧。"]
+      ]
+    },
+    {
+      "title": "比较级",
+      "points": [
+        "más + 形容词/副词 + que：比……更……；数字前用 más de",
+        "menos + 形容词/副词 + que：不如……",
+        "tan + 形容词/副词 + como：和……一样……",
+        "bueno → mejor，malo → peor；年龄大小用 mayor、menor"
+      ],
+      "examples": [
+        ["Esta falda es más cara que ésa.", "这条裙子比那条贵。"],
+        ["Estos zapatos son menos bonitos que aquéllos.", "这双鞋不如那双好看。"],
+        ["Ana es tan alta como su hermano.", "安娜和她哥哥一样高。"],
+        ["Este abrigo es mejor y cuesta más de ochenta euros.", "这件大衣更好，价钱在八十欧元以上。"]
+      ]
+    },
+    {
+      "title": "gustar、apetecer、parecer",
+      "points": [
+        "结构：与格代词 + gusta / gustan + 主语（喜欢的东西）",
+        "主语是单数名词或不定式用 gusta，是复数名词用 gustan",
+        "要强调或说明是谁时，前面加 a + 名词/代词：A Ana le gusta…",
+        "apetecer（想要）、parecer（觉得）用法相同：¿Qué te parece?"
+      ],
+      "table": {
+        "head": ["强调（可省）", "与格代词", "动词"],
+        "rows": [
+          ["a mí", "me", "gusta / gustan"],
+          ["a ti", "te", "gusta / gustan"],
+          ["a él/ella, a usted", "le", "gusta / gustan"],
+          ["a nosotros, -as", "nos", "gusta / gustan"],
+          ["a vosotros, -as", "os", "gusta / gustan"],
+          ["a ellos/-as, a ustedes", "les", "gusta / gustan"]
+        ]
+      },
+      "examples": [
+        ["Me gusta esta camisa, pero no me gustan esos pantalones.", "我喜欢这件衬衣，可是不喜欢那条裤子。"],
+        ["A Ana le gusta comprar ropa.", "安娜喜欢买衣服。"],
+        ["¿Te apetece un café?", "你想喝杯咖啡吗？"],
+        ["¿Qué le parece este color? —Me parece muy bonito.", "您觉得这个颜色怎么样？——我觉得很好看。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Qué desea usted?", "您想买点什么？"],
+    ["¿Cuánto cuesta? / ¿Cuánto cuestan?", "多少钱？"],
+    ["¿Qué talla usa usted?", "您穿多大号？"],
+    ["¿Puedo probármelo?", "我可以试一下吗？"],
+    ["Es demasiado caro.", "太贵了。"],
+    ["Me lo llevo.", "这个我要了。"],
+    ["¿Qué tiempo hace hoy?", "今天天气怎么样？"],
+    ["Hace calor. / Hace frío. / Llueve.", "天热。／天冷。／下雨。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Señora, ______ (pasar) y ______ (mirar) estos vestidos. (usted)", "a": "Señora, pase y mire estos vestidos."},
+    {"type": "填空", "q": "Tengo hambre. ______ (comer, nosotros) algo.", "a": "Comamos algo."},
+    {"type": "选择", "q": "A mi madre le ______ las flores. (gusta / gustan)", "a": "gustan"},
+    {"type": "选择", "q": "Este abrigo es ______ caro como ése. (tan / más)", "a": "tan"},
+    {"type": "改写", "q": "改成 usted 命令式：Escribe tu nombre aquí.", "a": "Escriba su nombre aquí."},
+    {"type": "改写", "q": "改成 nosotros 命令式：Vamos a sentarnos aquí.", "a": "Sentémonos aquí."},
+    {"type": "翻译", "q": "这件衬衣比那件便宜，可是我更喜欢那件。", "a": "Esta camisa es más barata que ésa, pero me gusta más ésa."},
+    {"type": "问答", "q": "¿Qué te parece esta falda? (很好看)", "a": "Me parece muy bonita."}
+  ],
+  "summary": [
+    "命令式：-ar 动词换 -e，-er、-ir 动词换 -a",
+    "代词连写在命令式后，注意补重音符号",
+    "nosotros 命令式后接 nos、se 时去掉 -s",
+    "比较：más…que，tan…como，mejor，peor",
+    "gustar：与格代词 + gusta / gustan + 主语"
+  ],
+  "homework": [
+    "写出十个规则动词的 usted、ustedes、nosotros 命令式",
+    "用 gustar、parecer 写五句话，谈谈你喜欢的衣服",
+    "两人一组编一段买衣服的对话，下次课表演",
+    "用比较级比较两件商品的价格、颜色和大小"
+  ],
+  "notes": {
+    "goals": "本课是命令式的第二课，先复习第 15 课的 tú / vosotros 命令式，再对比引出 usted / ustedes / nosotros。",
+    "vocab": "costar、probarse、llover 是词根变化动词，提醒学生 cuesta / cuestan、llueve 的形式。apetecer、parecer 和 gustar 一样，常用的是第三人称。",
+    "text": "对话里有三种命令式：tú（mira、pruébatelo）、usted（perdone、enséñenos）、nosotros（entremos、comprémoslo、paguemos、busquemos、sentémonos），可让学生分类找出。价格只用 100 以内的数。",
+    "grammar": "本课的 usted 命令式只讲规则动词（-car、-gar、-zar 只是拼写变化），decir 型和词根变化动词的 usted / ustedes 命令式（siéntese、vuelva 等）放在第 17 课；-ar 动词的 nosotros 形式词根不变，所以 sentémonos、empecemos 本课就能用。gustar 可对照汉语“……让我喜欢”，帮助学生理解喜欢的东西是主语。比较句里的指示代词按老版课本写作 ése、ésa、aquéllos，RAE 2010 年起已不再要求这个重音符号，两种写法都会见到。",
+    "exercises": "改写题要提醒学生物主形容词 tu 也要变成 su。翻译题把 ésa 换成 aquélla 也对。"
+  }
+}

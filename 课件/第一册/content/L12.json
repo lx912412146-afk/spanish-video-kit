@@ -1,0 +1,187 @@
+{
+  "lesson": 12,
+  "title_es": "Lucía y Ema",
+  "title_zh": "露西娅和埃玛",
+  "goals": [
+    "会读、会写 1–100 的基数词",
+    "掌握 un、una、veintiún、cien 的用法",
+    "掌握 decir、conocer 的现在时变位",
+    "分清 saber 和 conocer",
+    "能谈论邻居、楼房和商品价格"
+  ],
+  "vocab": [
+    ["el vecino, la vecina", "邻居"],
+    ["el edificio", "楼房；大楼"],
+    ["el piso", "楼层；（西）公寓"],
+    ["la tienda", "商店"],
+    ["el precio", "价格"],
+    ["el euro", "欧元"],
+    ["el kilo", "公斤"],
+    ["la docena", "一打（十二个）"],
+    ["la manzana", "苹果"],
+    ["el huevo", "鸡蛋"],
+    ["la leche", "牛奶"],
+    ["caro, cara", "贵的"],
+    ["barato, barata", "便宜的"],
+    ["cerca", "在附近；近"],
+    ["simpático, simpática", "和蔼的；讨人喜欢的"],
+    ["decir", "说；告诉"],
+    ["conocer", "认识；了解"],
+    ["cien, ciento", "一百"]
+  ],
+  "text": {
+    "title": "Lucía y Ema",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Buenos días. ¿Eres la nueva vecina?", "zh": "早上好。你是新搬来的邻居吗？"},
+      {"who": "B", "es": "Sí, soy Ema. Vivo en el número treinta y uno.", "zh": "是的，我是埃玛，住 31 号。"},
+      {"who": "A", "es": "Yo soy Lucía y vivo en el treinta y dos. ¿Conoces a los vecinos?", "zh": "我是露西娅，住 32 号。你认识这儿的邻居吗？"},
+      {"who": "B", "es": "Todavía no. ¿Cuántas personas viven en el edificio?", "zh": "还不认识。这栋楼里住着多少人？"},
+      {"who": "A", "es": "Unas cien. Hay cuarenta y cinco familias y muchos niños.", "zh": "大约一百人。有四十五户人家，还有很多孩子。"},
+      {"who": "B", "es": "¿Sabes dónde hay una tienda? Necesito leche y fruta.", "zh": "你知道哪儿有商店吗？我要买牛奶和水果。"},
+      {"who": "A", "es": "Sí, conozco una tienda pequeña aquí cerca. Es del señor Ruiz.", "zh": "知道，附近有一家小店，是鲁伊斯先生开的。"},
+      {"who": "B", "es": "¿Es cara?", "zh": "贵吗？"},
+      {"who": "A", "es": "No, es barata. Las manzanas están a dos euros el kilo.", "zh": "不贵，很便宜。苹果两欧元一公斤。"},
+      {"who": "B", "es": "¿Y la leche?", "zh": "牛奶呢？"},
+      {"who": "A", "es": "La leche está a un euro, y los huevos, a tres euros la docena.", "zh": "牛奶一欧元，鸡蛋三欧元一打。"},
+      {"who": "B", "es": "¿Y es simpático el señor Ruiz?", "zh": "鲁伊斯先生人好吗？"},
+      {"who": "A", "es": "Sí, mucho. Tiene setenta y un años y siempre nos dice «hola».", "zh": "很好。他七十一岁了，总是跟我们打招呼。"},
+      {"who": "B", "es": "Pues hoy voy a comprar allí.", "zh": "那我今天就去那儿买。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "基数词 11–30",
+      "points": [
+        "11–15 要单独记：once, doce, trece, catorce, quince。",
+        "16–19 连写成一个词：dieci + 个位；16 要加重音：dieciséis。",
+        "21–29 也连写：veinti + 个位；22、23、26、veintiún 加重音。",
+        "数词放在名词前；除了以 uno 结尾的数，没有阴阳性变化。"
+      ],
+      "table": {
+        "head": ["数", "西语", "数", "西语"],
+        "rows": [
+          ["11", "once", "16", "dieciséis"],
+          ["12", "doce", "17", "diecisiete"],
+          ["13", "trece", "18", "dieciocho"],
+          ["14", "catorce", "19", "diecinueve"],
+          ["15", "quince", "20", "veinte"],
+          ["21", "veintiuno", "22", "veintidós"],
+          ["23", "veintitrés", "26", "veintiséis"]
+        ]
+      },
+      "examples": [
+        ["En mi clase hay veinticuatro estudiantes.", "我们班有二十四个学生。"],
+        ["Veintidós y ocho son treinta.", "二十二加八等于三十。"],
+        ["—¿Cuántos años tienes? —Tengo diecinueve.", "——你多大了？——十九岁。"],
+        ["Mi tío vive en el piso catorce.", "我叔叔住在十四层。"]
+      ]
+    },
+    {
+      "title": "整十、31–100 和 un / una / cien",
+      "points": [
+        "31 起分开写，用 y 连接：treinta y uno, cuarenta y dos。",
+        "uno 在阳性名词前变 un，在阴性名词前用 una：un libro, una casa。",
+        "以 1 结尾的数也这样变：veintiún libros, veintiuna casas。",
+        "100 单说或在名词前都用 cien；ciento 只用于 101–199。"
+      ],
+      "table": {
+        "head": ["数", "西语", "数", "西语"],
+        "rows": [
+          ["30", "treinta", "31", "treinta y uno"],
+          ["40", "cuarenta", "45", "cuarenta y cinco"],
+          ["50", "cincuenta", "58", "cincuenta y ocho"],
+          ["60", "sesenta", "67", "sesenta y siete"],
+          ["70", "setenta", "71", "setenta y uno"],
+          ["80", "ochenta", "86", "ochenta y seis"],
+          ["90", "noventa", "100", "cien"]
+        ]
+      },
+      "examples": [
+        ["Tengo veintiún años.", "我二十一岁。"],
+        ["En la clase hay veintiuna chicas.", "班上有二十一个女生。"],
+        ["Mi abuela tiene setenta y un años.", "我奶奶七十一岁。"],
+        ["En el edificio viven cien personas.", "楼里住着一百个人。"]
+      ]
+    },
+    {
+      "title": "动词 decir 和 conocer",
+      "points": [
+        "decir 不规则：yo digo；dices、dice、dicen 里的 e 变 i。",
+        "conocer 只有 yo 不规则：conozco，其余按 -er 动词规则变位。",
+        "decir 常带与格代词：Te digo… / ¿Me dices…?"
+      ],
+      "table": {
+        "head": ["人称", "decir", "conocer"],
+        "rows": [
+          ["yo", "digo", "conozco"],
+          ["tú", "dices", "conoces"],
+          ["él, ella, usted", "dice", "conoce"],
+          ["nosotros, nosotras", "decimos", "conocemos"],
+          ["vosotros, vosotras", "decís", "conocéis"],
+          ["ellos, ellas, ustedes", "dicen", "conocen"]
+        ]
+      },
+      "examples": [
+        ["¿Me dices tu número de teléfono?", "你能告诉我你的电话号码吗？"],
+        ["El señor Ruiz nos dice el precio.", "鲁伊斯先生告诉我们价格。"],
+        ["Conozco a muchos vecinos del edificio.", "我认识楼里的很多邻居。"],
+        ["—¿Conocéis a Ema? —Sí, la conocemos.", "——你们认识埃玛吗？——认识。"]
+      ]
+    },
+    {
+      "title": "saber 和 conocer 的区别",
+      "points": [
+        "conocer：认识（人）、熟悉或去过（地方）；宾语是人时加 a。",
+        "saber：知道（事实、消息），后面常跟疑问词或名词。",
+        "saber + 不定式：会（做某事）；conocer 不能跟不定式。"
+      ],
+      "examples": [
+        ["—¿Conoces a Lucía? —Sí, es mi vecina.", "——你认识露西娅吗？——认识，她是我的邻居。"],
+        ["Conozco una tienda pequeña aquí cerca.", "我知道附近有一家小商店。"],
+        ["¿Sabes a cuánto están los tomates?", "你知道西红柿多少钱一公斤吗？"],
+        ["Ema sabe hablar inglés.", "埃玛会说英语。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Cuánto es?", "多少钱？"],
+    ["¿Cuánto es en total?", "一共多少钱？"],
+    ["Son veinte euros.", "二十欧元。"],
+    ["¿A cuánto están las manzanas?", "苹果多少钱一公斤？"],
+    ["Están a dos euros el kilo.", "两欧元一公斤。"],
+    ["¿Me da un kilo de tomates?", "请给我一公斤西红柿好吗？"],
+    ["—¿Algo más? —Nada más, gracias.", "——还要别的吗？——不要了，谢谢。"],
+    ["Es muy barato.", "很便宜。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Veintiuno y diez son ______.（用西语写出得数）", "a": "Veintiuno y diez son treinta y uno."},
+    {"type": "选择", "q": "Mi padre tiene cuarenta y ___ años. (uno / un / una)", "a": "Mi padre tiene cuarenta y un años."},
+    {"type": "选择", "q": "Son ___ euros. (cien / ciento)", "a": "Son cien euros."},
+    {"type": "填空", "q": "Yo ___ (conocer) a tu vecina Ema.", "a": "Yo conozco a tu vecina Ema."},
+    {"type": "填空", "q": "¿Qué ___ (decir) vosotros?", "a": "¿Qué decís vosotros?"},
+    {"type": "选择", "q": "¿___ dónde está la tienda? (Sabes / Conoces)", "a": "¿Sabes dónde está la tienda?"},
+    {"type": "翻译", "q": "苹果两欧元一公斤。（用 estar a）", "a": "Las manzanas están a dos euros el kilo."},
+    {"type": "问答", "q": "¿Cuántos estudiantes hay en tu clase?（26）", "a": "Hay veintiséis estudiantes en mi clase."}
+  ],
+  "summary": [
+    "11–15 单独记；16–29 连写，注意重音。",
+    "31 起用 y 连接；uno 在名词前变 un / una。",
+    "100 是 cien；ciento 用于 101–199。",
+    "decir：digo…；conocer：conozco…",
+    "认识人、地方用 conocer，知道事情用 saber。"
+  ],
+  "homework": [
+    "从 1 数到 100，默写 11–30 和整十。",
+    "写出 decir、conocer 的现在时变位，各造两个句子。",
+    "编一段在小商店买东西的对话，用上至少 5 个价格。",
+    "用 saber 和 conocer 各写 3 句话，介绍你的邻居和住处。"
+  ],
+  "notes": {
+    "goals": "本课第一次系统学 1–100，课堂上多做口头数数、报价的练习。",
+    "vocab": "问价用 ¿Cuánto es? 和 estar a，不用 costar（词根变化动词，本课不学）。piso 在西班牙既指楼层，也指一套公寓；本课例句里 piso 只作“楼层”讲（el piso catorce）。",
+    "text": "A 是露西娅，B 是埃玛。先听读，再让学生找出所有数字和 conocer、saber、decir 的句子，可改编成买东西的角色扮演。",
+    "grammar": "重点是 un / una 和名词一致、veintiún 的重音、cien 和 ciento 的区别；saber 和 conocer 可以和第 10 课对照。",
+    "exercises": "数字题可补充快问快答、听写电话号码（两位一组）等练习。"
+  }
+}

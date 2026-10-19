@@ -1,0 +1,170 @@
+{
+  "lesson": 21,
+  "title_es": "El tráfico de la ciudad",
+  "title_zh": "城市交通",
+  "goals": [
+    "掌握过去未完成时的规则变位",
+    "记住 ir、ser、ver 的过去未完成时",
+    "理解未完成时的用法：背景、习惯、描写",
+    "区分 cuando 从句里的两种过去时",
+    "会用 al + 不定式和 aunque 让步从句"
+  ],
+  "vocab": [
+    ["el tráfico", "交通；车流"],
+    ["la hora punta", "（交通）高峰时间"],
+    ["el atasco", "堵车"],
+    ["la ambulancia", "救护车"],
+    ["conductor, conductora", "司机"],
+    ["el claxon", "（汽车）喇叭"],
+    ["la bicicleta", "自行车"],
+    ["la plaza", "广场"],
+    ["central", "中心的"],
+    ["lleno, llena", "满的"],
+    ["moverse", "动，移动"],
+    ["tranquilo, tranquila", "安静的，平静的"],
+    ["alguno, alguna", "某个；一些"],
+    ["ninguno, ninguna", "一个也没有"],
+    ["aunque", "虽然，尽管"],
+    ["el metro", "地铁"]
+  ],
+  "text": {
+    "title": "El tráfico de la ciudad",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Cuando yo era niño, en mi ciudad había pocos coches.", "zh": "我小时候，我们城里汽车很少。"},
+      {"who": "", "es": "Casi todo el mundo iba en bicicleta y las calles eran tranquilas.", "zh": "几乎人人都骑自行车，街道很安静。"},
+      {"who": "", "es": "Ahora hay muchos coches y en la hora punta siempre hay atascos.", "zh": "现在汽车很多，高峰时间总是堵车。"},
+      {"who": "", "es": "Ayer por la mañana yo iba a la oficina en autobús.", "zh": "昨天早上，我正坐公共汽车去上班。"},
+      {"who": "", "es": "Eran las ocho, llovía y el autobús estaba lleno de gente.", "zh": "那时是八点，天正下着雨，车上挤满了人。"},
+      {"who": "", "es": "Cuando llegamos a la plaza central, había un gran atasco.", "zh": "我们到中心广场的时候，那里堵得很厉害。"},
+      {"who": "", "es": "Los coches no se movían y algunos conductores tocaban el claxon.", "zh": "汽车一动不动，有些司机在按喇叭。"},
+      {"who": "", "es": "En ese momento oímos una ambulancia detrás de nosotros.", "zh": "就在这时，我们听见后面来了一辆救护车。"},
+      {"who": "", "es": "Al oírla, todos los coches se pusieron a un lado para dejarla pasar.", "zh": "一听到救护车的声音，所有的车都让到一边，让它通过。"},
+      {"who": "", "es": "La ambulancia pasó en un minuto, sin ningún problema.", "zh": "救护车一分钟就顺利地开过去了。"},
+      {"who": "", "es": "Aunque salí de casa temprano, llegué tarde a la oficina.", "zh": "虽然我很早就出了门，上班还是迟到了。"},
+      {"who": "", "es": "Mi jefe no me dijo nada, porque él también llegó tarde.", "zh": "领导什么也没说，因为他也迟到了。"},
+      {"who": "", "es": "Por eso, desde mañana voy a ir a la oficina en metro.", "zh": "所以，从明天起我打算坐地铁上班。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "过去未完成时：规则变位",
+      "points": [
+        "-ar 动词词尾 -aba…；-er 和 -ir 动词词尾相同，都是 -ía…。",
+        "-aba 只在 nosotros 带重音：hablábamos；-ía 每个人称都带。",
+        "yo 和 él 同形（hablaba、comía），必要时加主语区分。",
+        "hay 的过去未完成时是 había：Había pocos coches。"
+      ],
+      "table": {
+        "head": ["人称", "hablar", "comer", "vivir"],
+        "rows": [
+          ["yo", "hablaba", "comía", "vivía"],
+          ["tú", "hablabas", "comías", "vivías"],
+          ["él / ella / usted", "hablaba", "comía", "vivía"],
+          ["nosotros, -as", "hablábamos", "comíamos", "vivíamos"],
+          ["vosotros, -as", "hablabais", "comíais", "vivíais"],
+          ["ellos/ellas/ustedes", "hablaban", "comían", "vivían"]
+        ]
+      },
+      "examples": [
+        ["Mi abuelo vivía en el campo.", "我爷爷那时住在乡下。"],
+        ["Antes comíamos en casa todos los días.", "以前我们每天在家吃饭。"],
+        ["Mi madre trabajaba en un hospital.", "我妈妈那时在一家医院工作。"]
+      ]
+    },
+    {
+      "title": "ir、ser、ver 和未完成时的用法",
+      "points": [
+        "只有 ir、ser、ver 三个动词不规则，要单独记。",
+        "用法一：过去正在进行的动作或背景（Llovía.）。",
+        "用法二：过去经常、反复发生的动作（Iba a pie.）。",
+        "用法三：描写过去的人、物、时间、状态（Eran las ocho.）。"
+      ],
+      "table": {
+        "head": ["人称", "ir", "ser", "ver"],
+        "rows": [
+          ["yo", "iba", "era", "veía"],
+          ["tú", "ibas", "eras", "veías"],
+          ["él / ella / usted", "iba", "era", "veía"],
+          ["nosotros, -as", "íbamos", "éramos", "veíamos"],
+          ["vosotros, -as", "ibais", "erais", "veíais"],
+          ["ellos/ellas/ustedes", "iban", "eran", "veían"]
+        ]
+      },
+      "examples": [
+        ["Eran las siete y hacía frío.", "那时是七点，天很冷。"],
+        ["De niño iba a la escuela a pie.", "我小时候步行上学。"],
+        ["Mi abuela veía la tele todas las noches.", "我奶奶那时每天晚上都看电视。"],
+        ["¿Qué hacías cuando te llamé?", "我给你打电话的时候，你在做什么？"]
+      ]
+    },
+    {
+      "title": "cuando 从句：两种过去时的对比",
+      "points": [
+        "简单过去时讲“发生了什么”，未完成时讲“当时是什么情况”。",
+        "Cuando llegué, llovía：我到的时候，正在下雨（背景）。",
+        "Cuando llegué, empezó a llover：我到了，接着下起雨来（先后）。",
+        "cuando 从句用未完成时，可表示一段时期：Cuando era niño…"
+      ],
+      "examples": [
+        ["Cuando salí de casa, llovía mucho.", "我出门的时候，雨下得很大。"],
+        ["Cuando yo iba a la oficina, vi un accidente.", "我去上班的路上看见了一起事故。"],
+        ["Cuando llegó la ambulancia, los coches pararon.", "救护车一来，汽车都停了下来。"],
+        ["Cuando vivíamos en Madrid, íbamos mucho al parque.", "我们住在马德里的时候常去公园。"]
+      ]
+    },
+    {
+      "title": "al + 不定式；aunque；algún / ningún",
+      "points": [
+        "al + 不定式表示“在……的时候、一……就”，主语一般和主句相同。",
+        "代词接在不定式后面：al verla、al levantarme。",
+        "aunque 引导让步从句，意为“虽然”；主句前不能再加 pero。",
+        "alguno、ninguno 在阳性单数名词前变成 algún、ningún。"
+      ],
+      "examples": [
+        ["Al llegar a casa, llamé a mi madre.", "我一到家就给妈妈打了电话。"],
+        ["Aunque había mucho tráfico, llegamos a tiempo.", "虽然车很多，我们还是按时到了。"],
+        ["No vi a ningún policía en la calle.", "我在街上一个警察也没看见。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["en la hora punta", "在高峰时间"],
+    ["ir en autobús / en metro", "坐公共汽车／坐地铁"],
+    ["ir a pie", "步行"],
+    ["tocar el claxon", "按喇叭"],
+    ["cruzar la calle", "过马路"],
+    ["¿Hay algún autobús para el centro?", "有去市中心的公共汽车吗？"],
+    ["de niño, de niña", "小时候"],
+    ["sin ningún problema", "毫无问题，顺利地"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Cuando yo ______ (ser) niño, ______ (vivir) en el campo.", "a": "Cuando yo era niño, vivía en el campo."},
+    {"type": "选择", "q": "Cuando salí de casa, ___ las ocho. (fueron / eran)", "a": "Cuando salí de casa, eran las ocho."},
+    {"type": "选择", "q": "（正在去的路上）Ayer, cuando yo ___ a la oficina, vi un accidente. (iba / fui)", "a": "Ayer, cuando yo iba a la oficina, vi un accidente."},
+    {"type": "填空", "q": "No hay ______ autobús a esta hora. (ninguno)", "a": "No hay ningún autobús a esta hora."},
+    {"type": "改写", "q": "用 al + 不定式改写：Cuando entré en la clase, saludé al profesor.", "a": "Al entrar en la clase, saludé al profesor."},
+    {"type": "改写", "q": "用 aunque 合并：Había mucho tráfico. Llegamos a tiempo.", "a": "Aunque había mucho tráfico, llegamos a tiempo."},
+    {"type": "翻译", "q": "以前我们每天坐公共汽车去上班。", "a": "Antes íbamos al trabajo en autobús todos los días."},
+    {"type": "问答", "q": "Según el texto, ¿por qué llegó él tarde a la oficina?", "a": "Porque había un gran atasco en la plaza central."}
+  ],
+  "summary": [
+    "未完成时：-ar 用 -aba…，-er、-ir 用 -ía…。",
+    "不规则只有 iba、era、veía；hay → había。",
+    "未完成时：背景、习惯、描写；简单过去时：发生的事。",
+    "al + 不定式 = 在……时；aunque 后不再用 pero。",
+    "algún、ningún 用在阳性单数名词前。"
+  ],
+  "homework": [
+    "写出 trabajar、tener、salir 的过去未完成时变位。",
+    "用未完成时写 6 句话，描述你小时候的生活习惯。",
+    "用 cuando 各写一句表示背景和表示先后的句子。"
+  ],
+  "notes": {
+    "goals": "本课是第二个过去时。核心是两种过去时的分工：简单过去时推动情节，未完成时交代背景和习惯。",
+    "vocab": "la hora punta 是西班牙用法，拉美多说 la hora pico。ninguno 和 no 连用时 no 放在动词前（No vi a ningún policía）。",
+    "text": "课文前三句对比“过去和现在”，第 4–7 句主要用未完成时交代背景，第 8–12 句用简单过去时叙述事件，可用两种颜色标出。第 9 句是 al + 不定式，第 11 句是 aunque。",
+    "grammar": "可以在黑板上画时间轴：未完成时是一条线，简单过去时是线上的一个点。提醒学生中文“虽然……但是……”在西语里只用 aunque，不再加 pero。",
+    "exercises": "选择题第 2、3 题考两种过去时的区别，讲评时请学生说明理由（钟点用未完成时；“正在去”是背景）。"
+  }
+}

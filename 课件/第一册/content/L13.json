@@ -1,0 +1,174 @@
+{
+  "lesson": 13,
+  "title_es": "Mis padres",
+  "title_zh": "我的父母",
+  "goals": [
+    "掌握自复动词的变位和代词的位置",
+    "掌握 e→ie、o→ue、e→i 三类词根变化动词",
+    "会用 todo、nada 和 cuando 从句",
+    "会用 de…a、desde…hasta 说时间范围",
+    "能用西语介绍家人一天的作息和四季"
+  ],
+  "vocab": [
+    ["levantarse", "起床"],
+    ["despertarse (ie)", "醒来"],
+    ["lavarse", "洗（自己）；洗漱"],
+    ["vestirse (i)", "穿衣服"],
+    ["acostarse (ue)", "上床睡觉"],
+    ["dormir (ue)", "睡觉"],
+    ["empezar (ie)", "开始"],
+    ["pensar (ie)", "想；打算"],
+    ["almorzar (ue)", "吃午饭"],
+    ["salir (yo salgo)", "出去；离开"],
+    ["desayunar", "吃早饭"],
+    ["cenar", "吃晚饭"],
+    ["todo, toda", "全部的；所有的"],
+    ["la primavera", "春天"],
+    ["el verano", "夏天"],
+    ["el otoño", "秋天"],
+    ["el invierno", "冬天"],
+    ["temprano", "早（副词）"]
+  ],
+  "text": {
+    "title": "Mis padres",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Mi padre es médico y mi madre es profesora de inglés.", "zh": "我爸爸是医生，妈妈是英语老师。"},
+      {"who": "", "es": "Todos los días mi padre se despierta a las seis.", "zh": "爸爸每天六点醒来。"},
+      {"who": "", "es": "Se levanta, se lava y se viste en quince minutos.", "zh": "他起床、洗漱、穿衣服只用十五分钟。"},
+      {"who": "", "es": "Desayuna con mi madre y sale de casa a las siete.", "zh": "他和妈妈一起吃早饭，七点出门。"},
+      {"who": "", "es": "Trabaja en un hospital de lunes a viernes, de ocho a cinco.", "zh": "他在一家医院工作，周一到周五，从八点到五点。"},
+      {"who": "", "es": "Almuerza en el hospital porque no tiene tiempo para volver a casa.", "zh": "他在医院吃午饭，因为没有时间回家。"},
+      {"who": "", "es": "Mi madre enseña no sólo inglés, sino también francés.", "zh": "妈妈不但教英语，还教法语。"},
+      {"who": "", "es": "Está en la universidad desde las nueve hasta las cuatro.", "zh": "她从九点到四点都在大学里。"},
+      {"who": "", "es": "Cuando mis padres vuelven a casa, preparamos la cena juntos.", "zh": "父母回到家的时候，我们一起做晚饭。"},
+      {"who": "", "es": "Por la noche mi padre lee el periódico y mi madre ve la televisión.", "zh": "晚上爸爸看报，妈妈看电视。"},
+      {"who": "", "es": "Se acuestan a las once y duermen siete horas.", "zh": "他们十一点上床，睡七个小时。"},
+      {"who": "", "es": "En verano toda la familia va a casa de mis abuelos.", "zh": "夏天全家去祖父母家。"},
+      {"who": "", "es": "Allí mis padres duermen mucho y no hacen nada.", "zh": "在那儿父母睡得很多，什么也不做。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "自复动词和代词的位置",
+      "points": [
+        "自复代词 me、te、se、nos、os、se 与主语同人称、同数",
+        "代词放在变位动词前；否定时 no 放在代词前",
+        "接不定式时，代词可连写在不定式后，也可放在变位动词前",
+        "不带自复代词时，动作落在别人身上：Despierto a mi hermano"
+      ],
+      "table": {
+        "head": ["人称", "levantarse", "vestirse (i)"],
+        "rows": [
+          ["yo", "me levanto", "me visto"],
+          ["tú", "te levantas", "te vistes"],
+          ["él/ella/usted", "se levanta", "se viste"],
+          ["nosotros/as", "nos levantamos", "nos vestimos"],
+          ["vosotros/as", "os levantáis", "os vestís"],
+          ["ellos/ellas/ustedes", "se levantan", "se visten"]
+        ]
+      },
+      "examples": [
+        ["Me levanto a las seis y media.", "我六点半起床。"],
+        ["Los niños no se acuestan tarde.", "孩子们不晚睡。"],
+        ["Voy a acostarme. / Me voy a acostar.", "我要去睡了。（两种位置都对）"],
+        ["Mi madre despierta a mi hermano a las siete.", "妈妈七点叫醒我弟弟。"]
+      ]
+    },
+    {
+      "title": "词根变化动词和 salir",
+      "points": [
+        "despertar、pensar 和 empezar 一样：e→ie；vestir：e→i",
+        "acostar、almorzar 和 dormir 一样：o→ue",
+        "只有重读的词根元音才变，所以 nosotros、vosotros 不变",
+        "salir 只有 yo 的形式不规则：salgo, sales, sale…"
+      ],
+      "table": {
+        "head": ["人称", "empezar (ie)", "dormir (ue)", "vestir (i)"],
+        "rows": [
+          ["yo", "empiezo", "duermo", "visto"],
+          ["tú", "empiezas", "duermes", "vistes"],
+          ["él/ella/usted", "empieza", "duerme", "viste"],
+          ["nosotros/as", "empezamos", "dormimos", "vestimos"],
+          ["vosotros/as", "empezáis", "dormís", "vestís"],
+          ["ellos/ellas/ustedes", "empiezan", "duermen", "visten"]
+        ]
+      },
+      "examples": [
+        ["Las clases empiezan a las ocho.", "八点开始上课。"],
+        ["Mi hermano duerme ocho horas.", "我弟弟睡八个小时。"],
+        ["Pienso ir a la biblioteca esta tarde.", "我打算今天下午去图书馆。"],
+        ["Salgo de casa a las siete y media.", "我七点半出门。"]
+      ]
+    },
+    {
+      "title": "todo、nada 和季节名词",
+      "points": [
+        "todo + 冠词 + 名词，todo 与名词性数一致：toda la familia",
+        "todos los días 每天，todas las mañanas 每天早上",
+        "nada 放在动词后时，动词前要加 no：No hago nada",
+        "季节名词在 en 后不用冠词：en verano；作主语时要用冠词"
+      ],
+      "examples": [
+        ["Toda la familia se levanta temprano.", "全家人都起得早。"],
+        ["Todos los días almuerzo a las doce.", "我每天十二点吃午饭。"],
+        ["Los domingos no hago nada.", "星期天我什么也不做。"],
+        ["En invierno me levanto a las siete.", "冬天我七点起床。"]
+      ]
+    },
+    {
+      "title": "cuando 从句和几个常用句型",
+      "points": [
+        "cuando 引导时间从句，可放在主句前，也可放在主句后",
+        "de…a、desde…hasta 表示时间或地点的起止",
+        "desde…hasta 说钟点时一般带冠词：desde las ocho",
+        "no sólo…sino también 连接两个同类成分：不但…而且"
+      ],
+      "examples": [
+        ["Cuando me levanto, me lavo y me visto.", "我起床以后就洗漱、穿衣服。"],
+        ["Trabajo de lunes a viernes.", "我周一到周五上班。"],
+        ["Estudio desde las ocho hasta las doce.", "我从八点学习到十二点。"],
+        ["Habla no sólo inglés, sino también francés.", "他不但会说英语，还会说法语。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿A qué hora te levantas?", "你几点起床？"],
+    ["todos los días", "每天"],
+    ["de lunes a viernes", "从星期一到星期五"],
+    ["a las seis y media", "在六点半"],
+    ["levantarse temprano", "早起"],
+    ["acostarse tarde", "晚睡"],
+    ["salir de casa", "出门"],
+    ["en primavera / en otoño", "在春天／在秋天"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Yo ______ a las seis y media. (levantarse)", "a": "Yo me levanto a las seis y media."},
+    {"type": "填空", "q": "Las clases ______ a las ocho. (empezar)", "a": "Las clases empiezan a las ocho."},
+    {"type": "填空", "q": "Nosotros ______ en la universidad. (almorzar)", "a": "Nosotros almorzamos en la universidad."},
+    {"type": "选择", "q": "Mi hermano ______ ocho horas. (dorme / duerme / duermo)", "a": "Mi hermano duerme ocho horas."},
+    {"type": "选择", "q": "Yo ______ de casa a las siete. (salo / sale / salgo)", "a": "Yo salgo de casa a las siete."},
+    {"type": "改写", "q": "Voy a acostarme a las once.（把代词移到变位动词前）", "a": "Me voy a acostar a las once."},
+    {"type": "问答", "q": "¿A qué hora te acuestas? (11:00)", "a": "Me acuesto a las once."},
+    {"type": "翻译", "q": "冬天我们七点起床。", "a": "En invierno nos levantamos a las siete."}
+  ],
+  "summary": [
+    "自复代词与主语同人称，放在变位动词前",
+    "接不定式时代词可连写：voy a levantarme",
+    "e→ie、o→ue、e→i；nosotros、vosotros 不变",
+    "salir 第一人称是 salgo；todo 与名词性数一致",
+    "季节在 en 后不用冠词；desde…hasta 表起止"
+  ],
+  "homework": [
+    "写出 despertarse、acostarse、vestirse 的全部变位",
+    "用 8–10 句话介绍父母一天的作息",
+    "用 cuando 和 desde…hasta 各造两个句子"
+  ],
+  "notes": {
+    "goals": "本课重点是自复动词和词根变化动词，可以用一天的作息把全课串起来。",
+    "vocab": "自复动词带 se 列出，提醒学生变位时 se 要随人称变化；括号里标的是词根变化类型。",
+    "text": "短文按时间顺序写父母的一天，可让学生先找出所有自复动词，再用 yo 复述。",
+    "grammar": "先对比 lavar 和 lavarse；强调词根变化只发生在重读音节上。老版课本副词写 sólo，本课件沿用；2010 年 RAE 正字法起不再要求这个重音，现在多写 solo，可向学生说明。",
+    "exercises": "第 6 题两种代词位置都正确，只是练习转换；问答和翻译题的主语人称代词可有可无。"
+  }
+}

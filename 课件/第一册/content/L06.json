@@ -1,0 +1,598 @@
+{
+  "lesson": 6,
+  "title_es": "¿Cuántos son y cuántos años tienen?",
+  "title_zh": "他们有几个人？多大年纪？",
+  "goals": [
+    "读准 x、k、w 和以 n 结尾的音节。",
+    "会用 ¿cuántos? 问数目，会说 1–15。",
+    "会用 tener … años 问答年龄。",
+    "用 ser、estar、tener 描述家人。",
+    "掌握疑问句语序，复习疑问词。"
+  ],
+  "pronunciation": [
+    {
+      "title": "字母 x、k、w",
+      "intro": "x 的读音看位置；k、w 只出现在外来词里。",
+      "items": [
+        {
+          "sound": "x（元音间）",
+          "tip": "读 [ks]，先发 k 再发 s，两音都要清楚。",
+          "words": [
+            [
+              "taxi",
+              "出租车"
+            ],
+            [
+              "examen",
+              "考试"
+            ],
+            [
+              "éxito",
+              "成功"
+            ]
+          ]
+        },
+        {
+          "sound": "x（辅音前）",
+          "tip": "口语中常读 [s]，认真读时读 [ks]。",
+          "words": [
+            [
+              "texto",
+              "课文"
+            ],
+            [
+              "explicar",
+              "解释"
+            ],
+            [
+              "extranjero",
+              "外国人"
+            ]
+          ]
+        },
+        {
+          "sound": "x（墨西哥）",
+          "tip": "México、mexicano 等词保留旧拼法，x 读 [x]，同 j。",
+          "words": [
+            [
+              "México",
+              "墨西哥"
+            ],
+            [
+              "mexicano",
+              "墨西哥人"
+            ],
+            [
+              "Oaxaca",
+              "瓦哈卡"
+            ]
+          ]
+        },
+        {
+          "sound": "k",
+          "tip": "读 [k]，不送气，近似汉语拼音 g，不是汉语 k。",
+          "words": [
+            [
+              "kilo",
+              "公斤"
+            ],
+            [
+              "kilómetro",
+              "公里"
+            ],
+            [
+              "Kenia",
+              "肯尼亚"
+            ]
+          ]
+        },
+        {
+          "sound": "w",
+          "tip": "英语来源的词读 [w]（或 [gw]），德语来源的读 [b]。",
+          "words": [
+            [
+              "web",
+              "网站"
+            ],
+            [
+              "whisky",
+              "威士忌"
+            ],
+            [
+              "Wagner",
+              "瓦格纳"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "以 n 结尾的音节",
+      "intro": "西语没有 -ng 韵尾，词尾 n 读舌尖 [n]；词中 n 会随后面的辅音改变部位。",
+      "items": [
+        {
+          "sound": "-n",
+          "tip": "舌尖抵上齿龈 [n]，像汉语 an、en 的韵尾，别读成 ng。",
+          "words": [
+            [
+              "joven",
+              "年轻的"
+            ],
+            [
+              "son",
+              "（他们）是"
+            ],
+            [
+              "tienen",
+              "（他们）有"
+            ]
+          ]
+        },
+        {
+          "sound": "n + b, v, p, m",
+          "tip": "n 在双唇音前读 [m]：un beso 读 [um-]。",
+          "words": [
+            [
+              "un beso",
+              "一个吻"
+            ],
+            [
+              "enviar",
+              "寄送"
+            ],
+            [
+              "un padre",
+              "一位父亲"
+            ]
+          ]
+        },
+        {
+          "sound": "n + c(a,o,u), g, j",
+          "tip": "n 在 [k]、[g]、[x] 前读 [ŋ]，舌根抬起，似汉语 ng。",
+          "words": [
+            [
+              "cinco",
+              "五"
+            ],
+            [
+              "tengo",
+              "我有"
+            ],
+            [
+              "ángel",
+              "天使"
+            ]
+          ]
+        },
+        {
+          "sound": "n + 元音",
+          "tip": "词尾 n 和下一个词的元音连读：un amigo 读 u-na-mi-go。",
+          "words": [
+            [
+              "un amigo",
+              "一个朋友"
+            ],
+            [
+              "son ocho",
+              "是八个"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    [
+      "cuántos, cuántas",
+      "多少"
+    ],
+    [
+      "año",
+      "年；岁"
+    ],
+    [
+      "persona",
+      "人"
+    ],
+    [
+      "abuelo, abuela",
+      "（外）祖父；（外）祖母"
+    ],
+    [
+      "niño, niña",
+      "男孩；女孩"
+    ],
+    [
+      "mayor",
+      "年纪较大的"
+    ],
+    [
+      "menor",
+      "年纪较小的"
+    ],
+    [
+      "joven (pl. jóvenes)",
+      "年轻的；年轻人"
+    ],
+    [
+      "gordo, gorda",
+      "胖的"
+    ],
+    [
+      "delgado, delgada",
+      "瘦的"
+    ],
+    [
+      "rubio, rubia",
+      "金发的"
+    ],
+    [
+      "moreno, morena",
+      "黑发的；肤色较深的"
+    ],
+    [
+      "guapo, guapa",
+      "好看的"
+    ],
+    [
+      "feo, fea",
+      "难看的"
+    ],
+    [
+      "pelo",
+      "头发"
+    ],
+    [
+      "ojo",
+      "眼睛"
+    ]
+  ],
+  "text": {
+    "title": "¿Cuántos sois en tu familia?",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "A",
+        "es": "Pepe, ¿cuántos sois en tu familia?",
+        "zh": "佩佩，你家有几口人？"
+      },
+      {
+        "who": "B",
+        "es": "Somos seis: mis abuelos, mis padres, mi hermana y yo.",
+        "zh": "六口：祖父母、父母、妹妹和我。"
+      },
+      {
+        "who": "A",
+        "es": "¿Cuántos años tiene tu hermana?",
+        "zh": "你妹妹几岁？"
+      },
+      {
+        "who": "B",
+        "es": "Tiene ocho años. Es pequeña y muy simpática.",
+        "zh": "八岁。她年纪小，很可爱。"
+      },
+      {
+        "who": "A",
+        "es": "¿Es rubia?",
+        "zh": "她是金发吗？"
+      },
+      {
+        "who": "B",
+        "es": "No, es morena. Tiene el pelo negro y los ojos grandes.",
+        "zh": "不是，她是黑头发，眼睛大大的。"
+      },
+      {
+        "who": "A",
+        "es": "¿Y tú? ¿Cuántos años tienes?",
+        "zh": "你呢？你多大了？"
+      },
+      {
+        "who": "B",
+        "es": "Tengo quince años. ¿Y vosotros? ¿Cuántos sois?",
+        "zh": "我十五岁。你们家呢？几口人？"
+      },
+      {
+        "who": "A",
+        "es": "Somos tres: mi padre, mi madre y yo. No tengo hermanos.",
+        "zh": "三口：爸爸、妈妈和我。我没有兄弟姐妹。"
+      },
+      {
+        "who": "B",
+        "es": "¿Cómo es tu padre?",
+        "zh": "你爸爸长什么样？"
+      },
+      {
+        "who": "A",
+        "es": "Es alto y delgado. Tiene el pelo rubio y los ojos azules.",
+        "zh": "他又高又瘦，金头发，蓝眼睛。"
+      },
+      {
+        "who": "B",
+        "es": "¿Está en casa tu padre?",
+        "zh": "你爸爸在家吗？"
+      },
+      {
+        "who": "A",
+        "es": "No, está en el hospital. Es médico.",
+        "zh": "不在，他在医院。他是医生。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "¿cuántos? 和数词 1–15",
+      "points": [
+        "¿cuántos? / ¿cuántas? 与名词性一致：¿cuántas faldas?",
+        "问一家几口人：¿Cuántos sois? —Somos cinco.（ser + 数目）",
+        "uno 在名词前变 un / una：un hermano，una hermana。",
+        "其他数词没有阴阳性，放在名词前：tres hermanos，tres hermanas。"
+      ],
+      "table": {
+        "head": [
+          "1–5",
+          "6–10",
+          "11–15"
+        ],
+        "rows": [
+          [
+            "1 uno",
+            "6 seis",
+            "11 once"
+          ],
+          [
+            "2 dos",
+            "7 siete",
+            "12 doce"
+          ],
+          [
+            "3 tres",
+            "8 ocho",
+            "13 trece"
+          ],
+          [
+            "4 cuatro",
+            "9 nueve",
+            "14 catorce"
+          ],
+          [
+            "5 cinco",
+            "10 diez",
+            "15 quince"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "¿Cuántos sois en tu familia? —Somos cinco.",
+          "你家有几口人？——五口。"
+        ],
+        [
+          "¿Cuántas faldas tienes? —Tengo tres.",
+          "你有几条裙子？——三条。"
+        ],
+        [
+          "Tengo un hermano y una hermana.",
+          "我有一个兄弟和一个姐妹。"
+        ]
+      ]
+    },
+    {
+      "title": "tener … años 表示年龄",
+      "points": [
+        "年龄用 tener + 数目 + años，不用 ser：Tengo diez años.",
+        "问年龄：¿Cuántos años tienes / tiene usted?",
+        "一岁说 un año：Mi hermano tiene un año.",
+        "mayor、menor 阴阳同形：hermana mayor 姐姐。"
+      ],
+      "examples": [
+        [
+          "¿Cuántos años tienes? —Tengo catorce años.",
+          "你几岁了？——十四岁。"
+        ],
+        [
+          "Mi hermana menor tiene ocho años.",
+          "我妹妹八岁。"
+        ],
+        [
+          "¿Cuántos años tiene el niño? —Tiene un año.",
+          "那个孩子几岁？——一岁。"
+        ]
+      ]
+    },
+    {
+      "title": "ser、estar、tener 描述人",
+      "points": [
+        "ser + 形容词说外貌、性格：Es alto. Es rubia. Es joven.",
+        "estar 说一时的状态和位置：Está cansado. Está en casa.",
+        "tener 也说外貌：Tiene los ojos azules.",
+        "用 tener 说头发、眼睛时加定冠词 el、los，不用 su。"
+      ],
+      "table": {
+        "head": [
+          "ser",
+          "estar",
+          "tener"
+        ],
+        "rows": [
+          [
+            "Es alto.",
+            "Está cansado.",
+            "Tiene diez años."
+          ],
+          [
+            "Es rubia.",
+            "Está en casa.",
+            "Tiene el pelo negro."
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Mi padre es alto y moreno.",
+          "我父亲个子高，黑头发。"
+        ],
+        [
+          "Mi madre está cansada.",
+          "我母亲累了。"
+        ],
+        [
+          "Ana tiene el pelo rubio y los ojos azules.",
+          "安娜金头发，蓝眼睛。"
+        ]
+      ]
+    },
+    {
+      "title": "疑问句的语序和疑问词复习",
+      "points": [
+        "一般疑问句常把动词放在主语前：¿Es rubia tu hermana?",
+        "特殊疑问句：疑问词 + 动词 + 主语：¿Dónde está tu padre?",
+        "疑问词都带重音，前面可加介词：¿De quién es? ¿De qué color es?"
+      ],
+      "table": {
+        "head": [
+          "疑问词",
+          "问什么",
+          "例子"
+        ],
+        "rows": [
+          [
+            "¿quién?",
+            "人",
+            "¿Quién es él?"
+          ],
+          [
+            "¿qué?",
+            "事物",
+            "¿Qué es esto?"
+          ],
+          [
+            "¿de quién?",
+            "所属",
+            "¿De quién es esto?"
+          ],
+          [
+            "¿dónde?",
+            "地点",
+            "¿Dónde está?"
+          ],
+          [
+            "¿cómo?",
+            "样子、状态",
+            "¿Cómo es tu casa?"
+          ],
+          [
+            "¿cuántos?",
+            "数目",
+            "¿Cuántos sois?"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "¿Es rubia tu hermana? —No, es morena.",
+          "你妹妹是金发吗？——不，是黑发。"
+        ],
+        [
+          "¿Cuántos años tiene tu hermano?",
+          "你哥哥几岁了？"
+        ],
+        [
+          "¿Dónde está tu abuela? —Está en casa.",
+          "你奶奶在哪儿？——在家。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "¿Cuántos sois en tu familia?",
+      "你家有几口人？"
+    ],
+    [
+      "Somos cinco.",
+      "我们（家）五口人。"
+    ],
+    [
+      "¿Cuántos años tienes?",
+      "你几岁了？"
+    ],
+    [
+      "¿Cuántos años tiene usted?",
+      "您多大年纪？"
+    ],
+    [
+      "Tengo doce años.",
+      "我十二岁。"
+    ],
+    [
+      "No tengo hermanos.",
+      "我没有兄弟姐妹。"
+    ],
+    [
+      "¿Cómo es tu hermano?",
+      "你哥哥长什么样？"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "填空",
+      "q": "¿______ hermanas tienes? —Tengo dos.",
+      "a": "¿Cuántas hermanas tienes? —Tengo dos."
+    },
+    {
+      "type": "选择",
+      "q": "Mi hermano ______ diez años. (es / tiene)",
+      "a": "Mi hermano tiene diez años."
+    },
+    {
+      "type": "选择",
+      "q": "¿Cuántos ______ en tu familia? —Somos cinco. (sois / tenéis)",
+      "a": "¿Cuántos sois en tu familia?"
+    },
+    {
+      "type": "填空",
+      "q": "用 uno 的适当形式填空：Tengo ______ hermano y ______ hermana.",
+      "a": "Tengo un hermano y una hermana."
+    },
+    {
+      "type": "改写",
+      "q": "对 quince 提问：Pepe tiene quince años.",
+      "a": "¿Cuántos años tiene Pepe?"
+    },
+    {
+      "type": "改写",
+      "q": "对 en casa 提问：Mi abuela está en casa.",
+      "a": "¿Dónde está tu abuela?"
+    },
+    {
+      "type": "选择",
+      "q": "Mi padre ______ alto y ______ en casa. (es / está)",
+      "a": "Mi padre es alto y está en casa."
+    },
+    {
+      "type": "翻译",
+      "q": "我哥哥十二岁，个子高，很瘦。",
+      "a": "Mi hermano mayor tiene doce años. Es alto y muy delgado."
+    }
+  ],
+  "summary": [
+    "¿cuántos? / ¿cuántas? 与名词性一致。",
+    "问几口人：¿Cuántos sois? —Somos cinco.",
+    "年龄用 tener … años，不用 ser。",
+    "uno 在名词前变 un、una：un año，una hija。",
+    "疑问词都带重音；一般疑问句常把动词提前。"
+  ],
+  "homework": [
+    "朗读本课语音例词各三遍，注意 x 的三种读法。",
+    "写 6 句话介绍你家：几口人、外貌、兄弟姐妹的年龄。",
+    "两人一组，用 ¿Cuántos…? ¿Cómo es…? 互问家庭情况。"
+  ],
+  "notes": {
+    "goals": "本课把 ser、estar、tener 放在一起描述家人，可当作第 1–6 课的小结。tener 的变位第 5 课已学，本课直接使用。",
+    "pronunciation": "x 的三种读法用例词对比。n 的同化（un beso、cinco）让学生模仿即可，不必要求说出规则；重点纠正把词尾 n 读成后鼻音。",
+    "vocab": "数词只教 1–15。年龄话题只问兄弟姐妹或孩子的年龄，避开父母、祖父母的年龄这类大数目。",
+    "text": "以本课对话为模板，让学生替换人数、年龄和外貌，介绍自己的家。",
+    "grammar": "强调年龄用 tener 不用 ser，这是中国学生最常见的错误（*Soy quince años）。tener + 身体部位用定冠词：Tiene los ojos azules，不说 *Tiene sus ojos azules。",
+    "exercises": "第 5、6 题是对画线部分提问，提醒学生 mi 要改成 tu。第 8 题“哥哥”译作 hermano mayor。"
+  }
+}

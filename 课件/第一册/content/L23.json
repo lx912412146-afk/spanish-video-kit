@@ -1,0 +1,186 @@
+{
+  "lesson": 23,
+  "title_es": "Una vuelta por la ciudad",
+  "title_zh": "城里一游",
+  "goals": [
+    "掌握绝对最高级 -ísimo 的构成和性数变化",
+    "记住 -ísimo 的拼写变化：c→qu、g→gu、z→c",
+    "会用 muchísimo、lejísimos 等副词形式",
+    "会用 tanto como、tan … como 作同等比较",
+    "能讲述游览马德里等城市的经历"
+  ],
+  "vocab": [
+    ["dar una vuelta", "转一转，兜一圈"],
+    ["el museo", "博物馆"],
+    ["el cuadro", "画，图画"],
+    ["la pintura", "绘画；油画"],
+    ["el pintor, la pintora", "画家"],
+    ["el palacio", "宫殿"],
+    ["el parque", "公园"],
+    ["el metro", "地铁"],
+    ["la estación (de metro)", "（地铁）站"],
+    ["la línea", "（地铁）线路"],
+    ["el billete", "票"],
+    ["pasear", "散步"],
+    ["famoso, sa", "著名的"],
+    ["antiguo, gua", "古老的"],
+    ["madrileño, ña", "马德里人；马德里的"],
+    ["el / la turista", "游客"],
+    ["lejísimos", "非常远"],
+    ["cerquísima", "非常近"]
+  ],
+  "text": {
+    "title": "Una vuelta por Madrid",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "El sábado pasado di una vuelta por Madrid con mi amigo Pablo.", "zh": "上星期六，我和朋友巴勃罗在马德里城里转了一圈。"},
+      {"who": "", "es": "Hacía un día buenísimo y había muchísima gente en la calle.", "zh": "那天天气好极了，街上人非常多。"},
+      {"who": "", "es": "Primero tomamos el metro hasta la Puerta del Sol.", "zh": "我们先坐地铁到了太阳门。"},
+      {"who": "", "es": "El metro de Madrid es rapidísimo y no es caro.", "zh": "马德里的地铁非常快，而且不贵。"},
+      {"who": "", "es": "Desde allí, la Plaza Mayor estaba cerquísima y fuimos a pie.", "zh": "从那儿到主广场非常近，我们就走着去了。"},
+      {"who": "", "es": "Allí tomamos un chocolate riquísimo.", "zh": "我们在那儿喝了一杯好喝极了的热巧克力。"},
+      {"who": "", "es": "Después visitamos el Museo del Prado, que es grandísimo.", "zh": "然后我们参观了普拉多博物馆，它大极了。"},
+      {"who": "", "es": "Vimos cuadros famosísimos de Velázquez y de Goya.", "zh": "我们看了委拉斯开兹和戈雅非常有名的画。"},
+      {"who": "", "es": "A Pablo le gusta la pintura tanto como a mí.", "zh": "巴勃罗和我一样喜欢绘画。"},
+      {"who": "", "es": "Por la tarde paseamos por el Parque del Retiro.", "zh": "下午我们在丽池公园散步。"},
+      {"who": "", "es": "Caminamos muchísimo y volvimos tardísimo.", "zh": "我们走了很多很多路，回来得非常晚。"},
+      {"who": "", "es": "Vivo lejísimos del centro, pero llegué a casa contentísimo.", "zh": "我住得离市中心非常远，可回到家时开心极了。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "绝对最高级 -ísimo 的构成",
+      "points": [
+        "-ísimo 表示“非常、极其”，意思接近 muy + 形容词，语气更强。",
+        "以元音结尾：去掉词尾元音再加 -ísimo；以辅音结尾：直接加 -ísimo。",
+        "重音落在 -ísimo 上，原词的重音符号去掉：fácil → facilísimo。",
+        "性数要一致（-ísima, -ísimos…），前面不再加 muy。"
+      ],
+      "table": {
+        "head": ["原形", "-ísimo", "说明"],
+        "rows": [
+          ["alto", "altísimo", "去掉词尾元音"],
+          ["grande", "grandísimo", "去掉词尾元音"],
+          ["sucio", "sucísimo", "-io 只留一个 i"],
+          ["fácil", "facilísimo", "辅音结尾，直接加"],
+          ["rápido", "rapidísimo", "原重音符号去掉"],
+          ["amable", "amabilísimo", "-ble → -bilísimo"]
+        ]
+      },
+      "examples": [
+        ["La Gran Vía es una calle importantísima.", "格兰大道是一条非常重要的街道。"],
+        ["Estas casas son altísimas.", "这些房子高极了。"],
+        ["El examen fue facilísimo.", "考试容易极了。"],
+        ["Los madrileños son amabilísimos.", "马德里人非常友善。"]
+      ]
+    },
+    {
+      "title": "-ísimo 的拼写变化",
+      "points": [
+        "为了保留原来的读音，词尾辅音在 -ísimo 前要改写。",
+        "c → qu：rico → riquísimo，poco → poquísimo。",
+        "g → gu：largo → larguísimo（保留 [g] 的读音）。",
+        "z → c：feliz → felicísimo（i 前一般不写 z）。"
+      ],
+      "table": {
+        "head": ["原形", "-ísimo", "变化"],
+        "rows": [
+          ["rico", "riquísimo", "c → qu"],
+          ["blanco", "blanquísimo", "c → qu"],
+          ["largo", "larguísimo", "g → gu"],
+          ["feliz", "felicísimo", "z → c"]
+        ]
+      },
+      "examples": [
+        ["La comida de este restaurante es riquísima.", "这家餐馆的饭菜好吃极了。"],
+        ["Esta calle es larguísima.", "这条街非常长。"],
+        ["Los niños estaban felicísimos en el parque.", "孩子们在公园里开心极了。"],
+        ["En invierno hay poquísimos turistas.", "冬天游客非常少。"]
+      ]
+    },
+    {
+      "title": "副词的 -ísimo：muchísimo、lejísimos",
+      "points": [
+        "部分副词可加 -ísimo，如 tardísimo、tempranísimo。",
+        "lejísimos 词尾留 -s；cerquísima 词尾留 -a，且 c → qu。",
+        "副词 muchísimo 不变；作形容词要一致：muchísima gente。"
+      ],
+      "table": {
+        "head": ["副词", "-ísimo"],
+        "rows": [
+          ["mucho", "muchísimo"],
+          ["poco", "poquísimo"],
+          ["tarde", "tardísimo"],
+          ["temprano", "tempranísimo"],
+          ["lejos", "lejísimos"],
+          ["cerca", "cerquísima"]
+        ]
+      },
+      "examples": [
+        ["Mi hotel está cerquísima del Museo del Prado.", "我住的旅馆离普拉多博物馆非常近。"],
+        ["La universidad está lejísimos de mi casa.", "大学离我家非常远。"],
+        ["Ayer me levanté tempranísimo.", "昨天我起得非常早。"],
+        ["En Madrid hay muchísimos museos.", "马德里有非常多的博物馆。"]
+      ]
+    },
+    {
+      "title": "同等比较：tanto como 和 tan … como",
+      "points": [
+        "动词 + tanto como：比较动作的程度，tanto 作副词，没有性数变化。",
+        "tan + 形容词 / 副词 + como（第 16 课学过）；形、副前不用 tanto。",
+        "tanto, -a, -os, -as + 名词 + como：和名词性数一致。",
+        "否定 no … tanto como / tan … como：不如……那么……"
+      ],
+      "table": {
+        "head": ["结构", "例子"],
+        "rows": [
+          ["动词 + tanto como", "Lee tanto como tú."],
+          ["tan + 形容词 + como", "Es tan alto como tú."],
+          ["tan + 副词 + como", "Va tan rápido como tú."],
+          ["tanto/a/os/as + 名词", "tantos libros como tú"]
+        ]
+      },
+      "examples": [
+        ["Pablo camina tanto como yo.", "巴勃罗和我走得一样多。"],
+        ["Pablo se levanta tan temprano como yo.", "巴勃罗和我起得一样早。"],
+        ["Hoy no hace tanto calor como ayer.", "今天没有昨天那么热。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["dar una vuelta por la ciudad", "在城里转一转"],
+    ["ir a pie / ir en metro", "步行 / 坐地铁"],
+    ["tomar la línea 1", "坐 1 号线"],
+    ["bajar en la estación de Sol", "在太阳门站下车"],
+    ["Está a diez minutos a pie.", "步行十分钟就到。"],
+    ["comprar las entradas", "买门票"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "写出绝对最高级：rico → ______；largo → ______；feliz → ______", "a": "riquísimo；larguísimo；felicísimo"},
+    {"type": "填空", "q": "写出绝对最高级：fácil → ______；amable → ______；lejos → ______", "a": "facilísimo；amabilísimo；lejísimos"},
+    {"type": "改写", "q": "Esta calle es muy larga. → Esta calle es ______.", "a": "Esta calle es larguísima."},
+    {"type": "选择", "q": "Este museo es ______. (muy grandísimo / grandísimo)", "a": "grandísimo（-ísimo 前不再加 muy）"},
+    {"type": "选择", "q": "Hoy no hace ___ calor como ayer. (tan / tanto / tanta)", "a": "tanto（calor 是阳性名词）"},
+    {"type": "选择", "q": "Mi hermano estudia ___ como yo. (tan / tanto)", "a": "tanto（修饰动词 estudia）"},
+    {"type": "翻译", "q": "我家离市中心非常远，可是离地铁站非常近。", "a": "Mi casa está lejísimos del centro, pero cerquísima del metro."},
+    {"type": "问答", "q": "¿Qué lugares visitaste en tu última vuelta por la ciudad?", "a": "（示例）Visité un museo grandísimo y un parque bonitísimo."}
+  ],
+  "summary": [
+    "-ísimo 表示“非常”：去掉词尾元音，或直接加在辅音后。",
+    "拼写变化 c→qu、g→gu、z→c；原词重音符号去掉。",
+    "副词：muchísimo、tardísimo、lejísimos。",
+    "动词 + tanto como；tan + 形/副 + como。"
+  ],
+  "homework": [
+    "找出课文里所有 -ísimo，写出原形并说明变化。",
+    "写一段 8 句左右的短文，介绍你游览过的一座城市。",
+    "用 tanto como 和 tan … como 各造三个句子。"
+  ],
+  "notes": {
+    "goals": "本课新语法量不大，重点是 -ísimo 的拼写和重音；可以用马德里地图和名胜图片导入话题。",
+    "vocab": "la estación 也有“季节”的意思，提醒一词多义；lejísimos、cerquísima 词尾特殊，单独记。",
+    "text": "课文是原创游记短文。先让学生画出一日游路线（太阳门 → 主广场 → 普拉多博物馆 → 丽池公园），再找出所有 -ísimo 并还原原形。",
+    "grammar": "拼写变化可以联系语音阶段的 ca / que / qui、ga / gue / gui 来讲。tanto como 按“动词后作副词、不变”处理，tan … como 作为第 16 课的复习带过。",
+    "exercises": "第 4 题针对常见错误 muy + -ísimo；第 5、6 题区分“tanto + 名词”和“动词 + tanto”。"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "lesson": 7,
+  "title_es": "¿Adónde van?",
+  "title_zh": "他们去哪儿？",
+  "goals": [
+    "掌握第一变位（-ar）规则动词的现在时",
+    "掌握 ir、hacer 的现在时和 ir a + 不定式",
+    "会用 ¿adónde? 问去向、¿por qué? 问原因",
+    "会说一周七天，谈论学习、工作和买菜",
+    "读准 pl、pr 等辅音连缀、三重元音和分音"
+  ],
+  "pronunciation": [
+    {
+      "title": "辅音连缀 pl pr bl br dr gr",
+      "intro": "两个辅音紧紧相连，和后面的元音同属一个音节，中间不能加元音。",
+      "items": [
+        {"sound": "pl", "tip": "p 不送气，双唇一开立刻接 l", "words": [["plaza", "广场"], ["plato", "盘子"], ["pluma", "羽毛；钢笔"]]},
+        {"sound": "pr", "tip": "p 后紧接单击颤音 r，不要读成 pu-r", "words": [["primo", "堂（表）兄弟"], ["profesor", "老师"], ["comprar", "买"]]},
+        {"sound": "bl", "tip": "b 双唇轻合，直接过渡到 l", "words": [["blanco", "白色的"], ["hablar", "说"], ["pueblo", "村镇"]]},
+        {"sound": "br", "tip": "b 与单击颤音 r 连读，中间不加元音", "words": [["libro", "书"], ["hombre", "男人"], ["nombre", "名字"]]},
+        {"sound": "dr", "tip": "d 舌尖轻触上齿背，随即弹出 r", "words": [["padre", "父亲"], ["madre", "母亲"], ["cuadro", "画"]]},
+        {"sound": "gr", "tip": "g 舌根抵软腭，紧接 r，中间不加元音", "words": [["grande", "大的"], ["negro", "黑色的"], ["gracias", "谢谢"]]}
+      ]
+    },
+    {
+      "title": "三重元音",
+      "intro": "弱元音＋强元音＋弱元音连成一个音节，中间的强元音读得最响。",
+      "items": [
+        {"sound": "iai", "tip": "由 i 滑向响亮的 a，再滑到 i，一口气读完", "words": [["estudiáis", "你们学习"], ["limpiáis", "你们打扫"]]},
+        {"sound": "uai / uay", "tip": "u 轻、a 响、i 轻；在词尾 i 写作 y", "words": [["averiguáis", "你们查明"], ["Paraguay", "巴拉圭"], ["Uruguay", "乌拉圭"]]},
+        {"sound": "uey", "tip": "u 轻滑向 e，再滑到 y，只算一个音节", "words": [["buey", "牛"], ["Camagüey", "卡马圭（古巴城市）"]]}
+      ]
+    },
+    {
+      "title": "重读弱元音的分音",
+      "intro": "弱元音 i、u 重读时写重音符号，和旁边的元音分成两个音节。",
+      "items": [
+        {"sound": "ía", "tip": "í 重读，分成两个音节：dí-a", "words": [["día", "天；日"], ["tía", "姑姑；阿姨"], ["María", "玛丽亚"]]},
+        {"sound": "ío", "tip": "í 重读，o 轻读，分成两个音节：tí-o", "words": [["tío", "叔叔；伯父"], ["río", "河"], ["frío", "冷的"]]},
+        {"sound": "aí", "tip": "a 和 í 分开读，í 读得重：pa-ís", "words": [["país", "国家"], ["maíz", "玉米"]]},
+        {"sound": "aú", "tip": "a 和 ú 分开读，ú 读得重：Ra-úl", "words": [["Raúl", "劳尔"], ["baúl", "箱子"]]}
+      ]
+    }
+  ],
+  "vocab": [
+    ["ir", "去"],
+    ["hacer", "做；干"],
+    ["trabajar", "工作"],
+    ["estudiar", "学习"],
+    ["comprar", "买"],
+    ["cenar", "吃晚饭"],
+    ["la universidad", "大学"],
+    ["la fábrica", "工厂"],
+    ["el hospital", "医院"],
+    ["el mercado", "市场；菜市场"],
+    ["la verdura", "蔬菜"],
+    ["la fruta", "水果"],
+    ["el tío, la tía", "叔叔，伯父；姑姑，阿姨"],
+    ["el primo, la prima", "堂（表）兄弟姐妹"],
+    ["la semana", "星期；周"],
+    ["¿adónde?", "去哪里"],
+    ["porque", "因为"],
+    ["hoy", "今天"]
+  ],
+  "text": {
+    "title": "¿Adónde van?",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Hola, Pepe. ¿Adónde vas?", "zh": "你好，佩佩。你去哪儿？"},
+      {"who": "B", "es": "Voy a la universidad. Hoy es lunes y tengo clase.", "zh": "我去大学。今天星期一，我有课。"},
+      {"who": "A", "es": "¿Y tus padres? ¿Trabajan hoy?", "zh": "你父母呢？他们今天上班吗？"},
+      {"who": "B", "es": "Sí. Mi padre trabaja en una fábrica y mi madre, en un hospital.", "zh": "上班。我父亲在工厂工作，我母亲在医院工作。"},
+      {"who": "A", "es": "¿Y tu hermana? ¿Adónde va?", "zh": "你姐姐呢？她去哪儿？"},
+      {"who": "B", "es": "Va al mercado. Compra verdura y fruta para la familia.", "zh": "她去市场，给家里买蔬菜和水果。"},
+      {"who": "A", "es": "¿Por qué va ella al mercado?", "zh": "为什么是她去市场？"},
+      {"who": "B", "es": "Porque hoy no tiene clase.", "zh": "因为她今天没有课。"},
+      {"who": "A", "es": "¿Qué hacéis los domingos?", "zh": "你们星期天一般做什么？"},
+      {"who": "B", "es": "Casi siempre vamos a casa de mis tíos.", "zh": "我们差不多总是去我叔叔阿姨家。"},
+      {"who": "A", "es": "¿Y este domingo?", "zh": "那这个星期天呢？"},
+      {"who": "B", "es": "Este domingo mis tíos van a cenar en nuestra casa.", "zh": "这个星期天我叔叔阿姨要来我们家吃晚饭。"},
+      {"who": "A", "es": "¡Qué bien! Hasta luego, Pepe.", "zh": "真好！回头见，佩佩。"},
+      {"who": "B", "es": "Hasta luego, Ana.", "zh": "回头见，安娜。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "第一变位（-ar）规则动词的现在时",
+      "points": [
+        "去掉词尾 -ar，加上 -o、-as、-a、-amos、-áis、-an。",
+        "词尾已经表明人称，主语代词常省略：Trabajo en Pekín.",
+        "vosotros 的词尾 -áis 带重音符号，其余重音在倒数第二音节。",
+        "否定句把 no 放在动词前：Hoy no trabajo."
+      ],
+      "table": {
+        "head": ["人称", "hablar", "trabajar", "estudiar"],
+        "rows": [
+          ["yo", "hablo", "trabajo", "estudio"],
+          ["tú", "hablas", "trabajas", "estudias"],
+          ["él, ella, usted", "habla", "trabaja", "estudia"],
+          ["nosotros, -as", "hablamos", "trabajamos", "estudiamos"],
+          ["vosotros, -as", "habláis", "trabajáis", "estudiáis"],
+          ["ellos, ellas, ustedes", "hablan", "trabajan", "estudian"]
+        ]
+      },
+      "examples": [
+        ["Mi padre trabaja en una fábrica.", "我父亲在一家工厂工作。"],
+        ["¿Estudiáis español en la universidad?", "你们在大学学西班牙语吗？"],
+        ["Compramos fruta en el mercado.", "我们在市场买水果。"]
+      ]
+    },
+    {
+      "title": "不规则动词 ir 和 hacer",
+      "points": [
+        "ir（去）完全不规则：voy、vas、va、vamos、vais、van。",
+        "hacer（做）只有 yo 的形式 hago 特殊，其余见表。",
+        "vais、va 等单音节形式不写重音符号。",
+        "¿Qué haces? 问“你做什么”，回答时换用具体的动词。"
+      ],
+      "table": {
+        "head": ["人称", "ir", "hacer"],
+        "rows": [
+          ["yo", "voy", "hago"],
+          ["tú", "vas", "haces"],
+          ["él, ella, usted", "va", "hace"],
+          ["nosotros, -as", "vamos", "hacemos"],
+          ["vosotros, -as", "vais", "hacéis"],
+          ["ellos, ellas, ustedes", "van", "hacen"]
+        ]
+      },
+      "examples": [
+        ["Voy al mercado con mi madre.", "我和妈妈去市场。"],
+        ["¿Qué hacéis los sábados?", "你们星期六做什么？"],
+        ["Hago los ejercicios de español en casa.", "我在家做西班牙语练习。"]
+      ]
+    },
+    {
+      "title": "¿adónde? 和 ir a + 不定式",
+      "points": [
+        "¿adónde? 问“去哪里”，和 ir 等表示去向的动词连用。",
+        "¿dónde? 问“在哪里”：¿Dónde está? / ¿Adónde va?",
+        "前置词 a 和 el 要缩合成 al：Voy al hospital.；a la 不缩合。",
+        "ir a + 不定式 表示打算或即将做的事，只变 ir，后面用原形。"
+      ],
+      "examples": [
+        ["¿Adónde van ustedes? —Vamos a la fábrica.", "你们去哪儿？——我们去工厂。"],
+        ["Esta tarde voy a estudiar en casa.", "今天下午我要在家学习。"],
+        ["Mis tíos van a cenar con nosotros.", "我叔叔阿姨要和我们一起吃晚饭。"]
+      ]
+    },
+    {
+      "title": "¿por qué? / porque；星期的说法",
+      "points": [
+        "¿por qué? 分写两个词，qué 带重音符号，用来问原因。",
+        "porque 连写一个词，不带重音符号，用来回答原因。",
+        "星期名词都是阳性、小写：el lunes 在周一，los lunes 每逢周一。",
+        "lunes 到 viernes 单复数同形；sábado、domingo 复数加 -s。"
+      ],
+      "table": {
+        "head": ["中文", "西语"],
+        "rows": [
+          ["星期一", "lunes"],
+          ["星期二", "martes"],
+          ["星期三", "miércoles"],
+          ["星期四", "jueves"],
+          ["星期五", "viernes"],
+          ["星期六", "sábado"],
+          ["星期日", "domingo"]
+        ]
+      },
+      "examples": [
+        ["¿Por qué no trabajas hoy? —Porque es domingo.", "你今天为什么不上班？——因为今天是星期天。"],
+        ["Los sábados compramos verdura en el mercado.", "每个星期六我们都在市场买菜。"],
+        ["¿Qué día es hoy? —Hoy es miércoles.", "今天星期几？——今天星期三。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Adónde vas?", "你去哪儿？"],
+    ["Voy a la universidad.", "我去大学。"],
+    ["¿Qué haces los domingos?", "你星期天做什么？"],
+    ["¿Qué día es hoy?", "今天星期几？"],
+    ["Hoy es viernes.", "今天星期五。"],
+    ["¿Por qué? —Porque…", "为什么？——因为……"],
+    ["Hasta el lunes.", "星期一见。"],
+    ["Hasta mañana.", "明天见。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Nosotros ______ (estudiar) español en la universidad.", "a": "Nosotros estudiamos español en la universidad."},
+    {"type": "填空", "q": "¿Adónde ______ (ir) vosotros? —______ (ir) al mercado.", "a": "¿Adónde vais vosotros? —Vamos al mercado."},
+    {"type": "选择", "q": "Yo ______ los ejercicios en casa. (hace / hago / hacemos)", "a": "Yo hago los ejercicios en casa."},
+    {"type": "选择", "q": "¿______ no vas a la fábrica? —______ hoy es sábado. (Por qué / Porque)", "a": "¿Por qué no vas a la fábrica? —Porque hoy es sábado."},
+    {"type": "填空", "q": "用 a 或 al 填空：Mi madre va ___ hospital y yo voy ___ la fábrica.", "a": "Mi madre va al hospital y yo voy a la fábrica."},
+    {"type": "改写", "q": "用 ir a + 不定式改写：Compro fruta en el mercado.", "a": "Voy a comprar fruta en el mercado."},
+    {"type": "翻译", "q": "我哥哥在一家医院工作。", "a": "Mi hermano trabaja en un hospital."},
+    {"type": "问答", "q": "Hoy es martes. ¿Qué día es mañana?", "a": "Mañana es miércoles."}
+  ],
+  "summary": [
+    "-ar 动词词尾：-o、-as、-a、-amos、-áis、-an",
+    "ir：voy、vas、va…；hacer：hago、haces…",
+    "¿adónde? 问去向；a + el 缩合成 al",
+    "ir a + 不定式 表示打算或即将做的事",
+    "¿por qué? 问原因，porque 答原因；星期阳性小写"
+  ],
+  "homework": [
+    "抄写并背诵 hablar、trabajar、ir、hacer 的现在时变位。",
+    "用 ir a + 不定式写 5 句话，说说你这个周末的打算。",
+    "两人一组，用 ¿Adónde vas? 和 ¿Por qué? 互相问答。",
+    "朗读本课辅音连缀、三重元音和分音的例词各三遍。"
+  ],
+  "notes": {
+    "goals": "从本课起动词大量出现，重点是 -ar 规则变位和 ir、hacer。先让学生熟记词尾，再扩展到整句。",
+    "pronunciation": "辅音连缀中间不能加元音，pr 不要读成 pu-r；三重元音一口气读完；分音词提醒学生看重音符号。",
+    "vocab": "星期名词集中在语法第 4 点讲；亲戚名词可复习第 2 课的家庭成员。",
+    "text": "课文是仿照本课课文编写的原创对话，可分角色朗读，再让学生替换地点和星期复述。",
+    "grammar": "ir a + 不定式只讲“打算、即将”，不引申到将来时。人称前置词 a 第 8 课才学，本课例句避开以人作直接宾语。",
+    "exercises": "第 2、5 题注意 a + el → al；第 4 题对比 ¿por qué? 和 porque 的写法；翻译题可省略主语。"
+  }
+}

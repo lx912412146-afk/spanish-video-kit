@@ -1,0 +1,184 @@
+{
+  "lesson": 5,
+  "title_es": "¿De quién es esto?",
+  "title_zh": "这是谁的？",
+  "goals": [
+    "读准 j、ge/gi、rr、y 和 ei、oi、ui。",
+    "掌握陈述句和疑问句的语调。",
+    "掌握指示形容词、指示代词和中性代词。",
+    "掌握 tener 的现在时，区分 tener 和 hay。",
+    "会用 tampoco、nada 表示否定。"
+  ],
+  "pronunciation": [
+    {
+      "title": "辅音 j 和 g（e, i）",
+      "intro": "j 和 ge、gi 里的 g 读同一个音 [x]。",
+      "items": [
+        {"sound": "j", "tip": "舌根靠近软腭，气流摩擦而出 [x]；近似汉语 h，但摩擦更重。", "words": [["jefe", "上司"], ["hijo", "儿子"], ["rojo", "红色的"]]},
+        {"sound": "ge gi", "tip": "g 在 e、i 前读 [x]，和 j 同音：ge = je，gi = ji。", "words": [["gente", "人们"], ["general", "一般的"], ["página", "页"]]},
+        {"sound": "g 的两种读法", "tip": "ga、go、gu、gue、gui 读 [g]；ge、gi 读 [x]。", "words": [["gato", "猫"], ["gente", "人们"], ["guitarra", "吉他"]]}
+      ]
+    },
+    {
+      "title": "rr、y 和二重元音 ei、oi、ui",
+      "intro": "rr 是多击颤音；y 在元音前是辅音，在词尾读 [i]。",
+      "items": [
+        {"sound": "rr", "tip": "舌尖抵上齿龈连续颤动 [r]；词首 r 和 n、l、s 后的 r 也这样读。", "words": [["perro", "狗"], ["marrón", "棕色的"], ["ropa", "衣服"]]},
+        {"sound": "r / rr", "tip": "元音间单写 r 只弹一下，双写 rr 要颤几下，意思不同。", "words": [["pero", "但是"], ["perro", "狗"]]},
+        {"sound": "y", "tip": "元音前读 [ʝ]：舌面贴近硬腭，像“衣”加摩擦；词尾读 [i]。", "words": [["yo", "我"], ["ayuda", "帮助"], ["muy", "很"]]},
+        {"sound": "ei (ey)", "tip": "e 滑向 i，合成一个音节，近似汉语“黑”的韵母 ei。", "words": [["peine", "梳子"], ["reina", "王后"], ["rey", "国王"]]},
+        {"sound": "oi (oy)", "tip": "o 滑向 i，合成一个音节 [oi]；词尾写作 oy。", "words": [["boina", "贝雷帽"], ["soy", "我是"], ["hoy", "今天"]]},
+        {"sound": "ui (uy)", "tip": "合成一个音节，一般读 [wi]；词尾 uy 读 [ui]，如 muy。", "words": [["muy", "很"], ["ruido", "噪音"], ["cuidado", "小心"]]}
+      ]
+    },
+    {
+      "title": "陈述句和疑问句的语调",
+      "intro": "西语的语调主要看句末：陈述句下降，是非问句上升。",
+      "items": [
+        {"sound": "陈述句", "tip": "句末音调下降，语气平稳。", "words": [["Esto es una falda.", "这是一条裙子。"], ["No tengo nada.", "我什么也没有。"]]},
+        {"sound": "一般疑问句", "tip": "用 sí / no 回答，句末上升；词序可与陈述句相同。", "words": [["¿Es tu camisa?", "是你的衬衫吗？"], ["¿Tienes un abrigo negro?", "你有黑大衣吗？"]]},
+        {"sound": "特殊疑问句", "tip": "带疑问词，疑问词重读，句末下降。", "words": [["¿De quién es esto?", "这是谁的？"], ["¿Qué es eso?", "那是什么？"]]}
+      ]
+    }
+  ],
+  "vocab": [
+    ["tener", "有"],
+    ["tampoco", "也不"],
+    ["nada", "什么也（不）"],
+    ["ropa", "衣服"],
+    ["camisa", "衬衫"],
+    ["chaqueta", "夹克"],
+    ["falda", "裙子"],
+    ["pantalones", "裤子"],
+    ["zapato", "鞋"],
+    ["abrigo", "大衣"],
+    ["armario", "衣柜"],
+    ["color", "颜色"],
+    ["blanco, blanca", "白色的"],
+    ["negro, negra", "黑色的"],
+    ["rojo, roja", "红色的"],
+    ["amarillo, amarilla", "黄色的"],
+    ["azul", "蓝色的"],
+    ["verde", "绿色的"]
+  ],
+  "text": {
+    "title": "¿De quién es esto?",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Isabel, ¿de quién es esto?", "zh": "伊莎贝尔，这是谁的？"},
+      {"who": "B", "es": "¿Esto? Es mi falda roja.", "zh": "这个？是我的红裙子。"},
+      {"who": "A", "es": "¿Y esa chaqueta negra? ¿Es de papá?", "zh": "那件黑夹克呢？是爸爸的吗？"},
+      {"who": "B", "es": "No, es de mamá. Mamá tiene una chaqueta negra y una blanca.", "zh": "不，是妈妈的。妈妈有一件黑夹克和一件白夹克。"},
+      {"who": "A", "es": "¿Y aquellos zapatos negros?", "zh": "那边那双黑鞋呢？"},
+      {"who": "B", "es": "Son de papá. Son nuevos.", "zh": "是爸爸的。是新的。"},
+      {"who": "A", "es": "¿Qué hay en aquel armario?", "zh": "那个衣柜里有什么？"},
+      {"who": "B", "es": "Hay unos pantalones azules y una camisa verde.", "zh": "有一条蓝裤子和一件绿衬衫。"},
+      {"who": "A", "es": "¿Es tu camisa?", "zh": "是你的衬衫吗？"},
+      {"who": "B", "es": "No, yo no tengo camisa verde. ¿Y tú?", "zh": "不是，我没有绿衬衫。你呢？"},
+      {"who": "A", "es": "Yo tampoco. Es de papá.", "zh": "我也没有。那是爸爸的。"},
+      {"who": "B", "es": "¿Y qué hay en esta mesa?", "zh": "这张桌子上有什么？"},
+      {"who": "A", "es": "No hay nada.", "zh": "什么也没有。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "指示形容词和指示代词",
+      "points": [
+        "este 指近处（这），ese 指离听话人近的（那），aquel 指远处（那）。",
+        "放在名词前，与名词性数一致：esta falda，esos zapatos。",
+        "单独使用、代替名词时是指示代词：Ésta es roja y ésa es azul.",
+        "按旧版课本，指示代词加重音（éste、ésa、aquéllos…），形容词不加。"
+      ],
+      "table": {"head": ["", "近（这）", "中（那）", "远（那）"], "rows": [["阳性单数", "este", "ese", "aquel"], ["阴性单数", "esta", "esa", "aquella"], ["阳性复数", "estos", "esos", "aquellos"], ["阴性复数", "estas", "esas", "aquellas"], ["中性", "esto", "eso", "aquello"]]},
+      "examples": [
+        ["Esta camisa es blanca.", "这件衬衫是白色的。"],
+        ["Esos zapatos son negros.", "那双鞋是黑色的。"],
+        ["Aquella falda es de Ana.", "那边那条裙子是安娜的。"],
+        ["Esta chaqueta es verde y ésa es roja.", "这件夹克是绿的，那件是红的。"]
+      ]
+    },
+    {
+      "title": "中性指示代词 esto / eso / aquello",
+      "points": [
+        "指不知道名称或笼统的事物，相当于“这个东西、那个东西”。",
+        "只能单独使用，不放在名词前；没有复数，从不加重音。",
+        "回答时说出具体名词，性数按名词：¿Qué es esto? —Es una falda."
+      ],
+      "examples": [
+        ["¿Qué es esto? —Es una chaqueta.", "这是什么？——是一件夹克。"],
+        ["¿De quién es eso? —Es de Paco.", "那是谁的？——是帕科的。"],
+        ["Aquello es un abrigo.", "那边那个是一件大衣。"]
+      ]
+    },
+    {
+      "title": "动词 tener 的现在时；tener 和 hay",
+      "points": [
+        "tener 是不规则动词，意思是“（某人）有”。",
+        "hay 说“某处有（存在）”，只有这一个形式，单复数都用 hay。",
+        "tener 的主语是拥有者；hay 没有主语，后面是存在的东西。",
+        "否定在动词前加 no：No tengo abrigo. No hay camisas."
+      ],
+      "table": {"head": ["人称", "tener"], "rows": [["yo", "tengo"], ["tú", "tienes"], ["él, ella, usted", "tiene"], ["nosotros, nosotras", "tenemos"], ["vosotros, vosotras", "tenéis"], ["ellos, ellas, ustedes", "tienen"]]},
+      "examples": [
+        ["Tengo una chaqueta azul.", "我有一件蓝夹克。"],
+        ["¿Tienes una camisa blanca? —Sí, tengo una.", "你有白衬衫吗？——有一件。"],
+        ["Nosotros tenemos unos abrigos negros.", "我们有几件黑大衣。"],
+        ["En el armario hay unos pantalones.", "衣柜里有一条裤子。"]
+      ]
+    },
+    {
+      "title": "tampoco 和 nada",
+      "points": [
+        "también 用于肯定句，tampoco 用于否定句，意思是“也不”。",
+        "tampoco 放在动词前，就不再用 no：Yo tampoco tengo abrigo.",
+        "nada 在动词后时，动词前要加 no：No tengo nada.",
+        "也可单独回答：Yo tampoco.（我也不）/ Nada.（什么也没有）"
+      ],
+      "examples": [
+        ["No tengo abrigo. —Yo tampoco.", "我没有大衣。——我也没有。"],
+        ["Isabel tampoco tiene falda verde.", "伊莎贝尔也没有绿裙子。"],
+        ["En esta mesa no hay nada.", "这张桌子上什么也没有。"],
+        ["¿Qué tienes? —Nada.", "你有什么？——什么也没有。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿De quién es esto?", "这是谁的？"],
+    ["¿Qué es eso?", "那是什么？"],
+    ["¿De qué color es?", "是什么颜色的？"],
+    ["¿Y tú?", "你呢？"],
+    ["Yo también.", "我也是。"],
+    ["Yo tampoco.", "我也不。"],
+    ["No es nada.", "没什么。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "用 este 的适当形式填空：______ falda es roja y ______ zapatos son negros.", "a": "Esta falda es roja y estos zapatos son negros."},
+    {"type": "选择", "q": "¿Qué es ______? —Es una camisa. (esto / este)", "a": "¿Qué es esto? —Es una camisa."},
+    {"type": "填空", "q": "Nosotros ______ unos abrigos nuevos. (tener)", "a": "Nosotros tenemos unos abrigos nuevos."},
+    {"type": "选择", "q": "En el armario ______ una chaqueta azul. (tiene / hay)", "a": "En el armario hay una chaqueta azul."},
+    {"type": "填空", "q": "Tengo unos pantalones ______ y una camisa ______. (blanco, azul)", "a": "Tengo unos pantalones blancos y una camisa azul."},
+    {"type": "改写", "q": "用 tampoco 改写第二句（放在动词前）：Pepe no tiene abrigo. Yo no tengo abrigo.", "a": "Pepe no tiene abrigo. Yo tampoco tengo abrigo."},
+    {"type": "翻译", "q": "这张桌子上什么也没有。", "a": "En esta mesa no hay nada."},
+    {"type": "问答", "q": "按课文回答：¿De quién es la chaqueta negra?", "a": "Es de mamá."}
+  ],
+  "summary": [
+    "este / ese / aquel 指近、中、远，与名词性数一致。",
+    "esto / eso / aquello 是中性，指不知名的事物。",
+    "tener 不规则：tengo, tienes, tiene…",
+    "tener 说“谁有”，hay 说“哪里有”。",
+    "tampoco 在动词前不再用 no；no + 动词 + nada。"
+  ],
+  "homework": [
+    "朗读本课语音例词各三遍，注意 r 和 rr 的区别。",
+    "用 este、ese、aquel 写 5 句话，说说衣服的颜色。",
+    "用 tener 写 4 句话，说说你和家人有什么衣服。"
+  ],
+  "notes": {
+    "goals": "本课重点是“这、那”的三分法和动词 tener。tener 的现在时在本课完整给出，第 6 课直接使用。",
+    "pronunciation": "r 与 rr 用最小对立词（pero–perro）操练。语调部分让学生用同一句话分别读成陈述句和疑问句（Es tu camisa. / ¿Es tu camisa?）。",
+    "vocab": "颜色词分两类讲：-o 结尾的有四种形式（rojo, roja, rojos, rojas），-e 或辅音结尾的只变数（verde → verdes，azul → azules）。pantalones 一般用复数，指一条裤子。",
+    "text": "让学生指认教室里远近不同的东西，用 este、ese、aquel 替换后复述对话。",
+    "grammar": "本课件按旧版课本写法：指示代词加重音（éste、ésa、aquéllos…），指示形容词不加；2010 年 RAE 正字法起已不再要求代词加重音，讲解时说明两种写法都会见到。中性代词 esto、eso、aquello 任何时候都不加重音。",
+    "exercises": "第 6 题强调 tampoco 在动词前时不再用 no；若放在动词后要说 Yo no tengo abrigo tampoco。"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "lesson": 20,
+  "title_es": "Unas semanas intensas",
+  "title_zh": "紧张的几个星期",
+  "goals": [
+    "掌握 pidió、durmió 类词根变化的过去时",
+    "掌握 -u-、-i-、-j- 型不规则过去时",
+    "掌握 dar、ver、oír、ir 的简单过去时",
+    "注意不规则形式不加重音：vine、hizo",
+    "会用 como 原因从句讲述一段学习经历"
+  ],
+  "vocab": [
+    ["intenso, intensa", "紧张的；强烈的"],
+    ["el departamento", "系；部门"],
+    ["el, la especialista", "专家"],
+    ["el aeropuerto", "机场"],
+    ["la conferencia", "讲座，报告"],
+    ["la literatura", "文学"],
+    ["mexicano, mexicana", "墨西哥的；墨西哥人"],
+    ["despacio", "慢慢地"],
+    ["claro (adv.)", "清楚地"],
+    ["el examen", "考试"],
+    ["la canción", "歌曲"],
+    ["la película", "电影"],
+    ["el favor", "帮助；恩惠"],
+    ["el artículo", "文章"],
+    ["traducir", "翻译"],
+    ["conducir", "驾驶"],
+    ["pedir", "请求，要"],
+    ["despedirse (de)", "（和……）告别"]
+  ],
+  "text": {
+    "title": "Unas semanas intensas",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Las dos últimas semanas fueron muy intensas en nuestro departamento.", "zh": "最近两个星期，我们系里非常忙。"},
+      {"who": "", "es": "Vino a visitarnos el profesor Ruiz, un especialista de México.", "zh": "墨西哥专家鲁伊斯教授来我们系访问。"},
+      {"who": "", "es": "El profesor Wang condujo el coche y yo fui con él al aeropuerto.", "zh": "王老师开车，我陪他一起去机场接人。"},
+      {"who": "", "es": "El profesor Ruiz llegó muy cansado y aquella noche durmió diez horas.", "zh": "鲁伊斯教授到的时候很累，那天晚上睡了十个小时。"},
+      {"who": "", "es": "Al día siguiente dio su primera conferencia sobre literatura mexicana.", "zh": "第二天，他作了第一场关于墨西哥文学的报告。"},
+      {"who": "", "es": "Como habló despacio y claro, todos lo entendimos bien.", "zh": "由于他讲得又慢又清楚，我们都听懂了。"},
+      {"who": "", "es": "Después le hicimos muchas preguntas y él las contestó todas.", "zh": "然后我们向他提了很多问题，他一一作了回答。"},
+      {"who": "", "es": "Dio seis conferencias. Como tuve un examen, no pude ir a la tercera.", "zh": "他一共作了六场报告。因为我有考试，第三场没能去听。"},
+      {"who": "", "es": "En sus clases oímos canciones mexicanas y vimos una película.", "zh": "在他的课上，我们听了墨西哥歌曲，还看了一部电影。"},
+      {"who": "", "es": "Nos trajo unos libros de México y los puso en nuestra biblioteca.", "zh": "他从墨西哥给我们带来一些书，放在了我们的图书室里。"},
+      {"who": "", "es": "Un día nos pidió un favor: traducir un artículo suyo al chino.", "zh": "有一天他请我们帮个忙：把他的一篇文章译成中文。"},
+      {"who": "", "es": "Mis compañeros y yo lo tradujimos en tres días y se lo dimos.", "zh": "我和同学们用三天译完，交给了他。"},
+      {"who": "", "es": "Antes de volver a México, se despidió y nos dijo: «Hasta pronto».", "zh": "回墨西哥之前，他和大家告别，对我们说：“后会有期。”"},
+      {"who": "", "es": "Fueron dos semanas intensas, pero aprendimos mucho.", "zh": "这两个星期很紧张，但我们学到了很多东西。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "-ir 词根变化动词：e → i，o → u",
+      "points": [
+        "-ir 词根变化动词只在第三人称单、复数变：e → i，o → u。",
+        "同类：repetir、servir、vestirse；morir → murió。",
+        "其他人称照常：pedí、pedimos；dormí、dormimos。",
+        "-ar、-er 词根变化动词过去时规则：pensé、volvió、empezó。"
+      ],
+      "table": {
+        "head": ["人称", "pedir", "dormir"],
+        "rows": [
+          ["yo", "pedí", "dormí"],
+          ["tú", "pediste", "dormiste"],
+          ["él / ella / usted", "pidió", "durmió"],
+          ["nosotros, -as", "pedimos", "dormimos"],
+          ["vosotros, -as", "pedisteis", "dormisteis"],
+          ["ellos/ellas/ustedes", "pidieron", "durmieron"]
+        ]
+      },
+      "examples": [
+        ["El profesor nos pidió un favor.", "老师请我们帮个忙。"],
+        ["Los niños durmieron diez horas.", "孩子们睡了十个小时。"],
+        ["Ella se vistió y salió.", "她穿好衣服出去了。"],
+        ["Ayer Ana se sintió mal y no vino a clase.", "昨天安娜感觉不舒服，没来上课。"]
+      ]
+    },
+    {
+      "title": "不规则词根：-u- 型和 -i- 型",
+      "points": [
+        "词根不规则（estuv-、tuv-、pud-、vin-、hic-…），要逐个记。",
+        "词尾统一：-e, -iste, -o, -imos, -isteis, -ieron。",
+        "yo 的 -e、él 的 -o 都不带重音：vine、vino，不写 viné。",
+        "hacer 第三人称单数写 hizo（c → z），保持读音。"
+      ],
+      "table": {
+        "head": ["不定式", "yo", "él / ella", "ellos / ellas"],
+        "rows": [
+          ["estar", "estuve", "estuvo", "estuvieron"],
+          ["tener", "tuve", "tuvo", "tuvieron"],
+          ["poder", "pude", "pudo", "pudieron"],
+          ["poner", "puse", "puso", "pusieron"],
+          ["saber", "supe", "supo", "supieron"],
+          ["venir", "vine", "vino", "vinieron"],
+          ["hacer", "hice", "hizo", "hicieron"]
+        ]
+      },
+      "examples": [
+        ["Ayer no pude ir a clase.", "昨天我没能去上课。"],
+        ["Mi tío vino a Pekín el mes pasado.", "我叔叔上个月来了北京。"],
+        ["Estuvimos dos horas en la biblioteca.", "我们在图书馆待了两个小时。"],
+        ["¿Dónde pusiste mis libros?", "你把我的书放哪儿了？"]
+      ]
+    },
+    {
+      "title": "-j- 型；dar、ver、oír、ir",
+      "points": [
+        "词根以 j 结尾的，第三人称复数用 -eron：dijeron、trajeron。",
+        "traducir 照 conducir 变：traduje, tradujo。",
+        "di、dio、vi、vio、fui、fue 是单音节，不加重音。",
+        "oír 第三人称变 y：oyó、oyeron；oí、oíste、oímos 带重音。"
+      ],
+      "table": {
+        "head": ["不定式", "yo", "él / ella", "ellos / ellas"],
+        "rows": [
+          ["decir", "dije", "dijo", "dijeron"],
+          ["traer", "traje", "trajo", "trajeron"],
+          ["conducir", "conduje", "condujo", "condujeron"],
+          ["oír", "oí", "oyó", "oyeron"],
+          ["dar", "di", "dio", "dieron"],
+          ["ver", "vi", "vio", "vieron"],
+          ["ir / ser", "fui", "fue", "fueron"]
+        ]
+      },
+      "examples": [
+        ["Mis amigos me trajeron un regalo.", "朋友们给我带来了一件礼物。"],
+        ["Ellos no me dijeron nada.", "他们什么也没跟我说。"],
+        ["Anoche oímos la radio en casa.", "昨晚我们在家听了广播。"],
+        ["Ayer vi a Ana y le di tu libro.", "昨天我见到了安娜，把你的书给了她。"]
+      ]
+    },
+    {
+      "title": "como 引导的原因从句",
+      "points": [
+        "como 表示原因，意思是“由于、因为”，从句放在句首。",
+        "porque 从句一般放在主句之后；放句首表原因要用 como。",
+        "连词 como 不写重音；疑问词 cómo 才写重音。"
+      ],
+      "examples": [
+        ["Como llovió todo el día, no salimos.", "由于下了一整天雨，我们没出门。"],
+        ["Como no tuve tiempo, no te llamé.", "因为没有时间，我没给你打电话。"],
+        ["No vine porque estuve enfermo.", "我没来，是因为我病了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["dar una conferencia", "作报告，开讲座"],
+    ["hacer preguntas", "提问"],
+    ["pedir un favor", "请人帮忙"],
+    ["¿Cuándo vino usted a China?", "您是什么时候来中国的？"],
+    ["despedirse de alguien", "和某人告别"],
+    ["dar las gracias", "道谢"],
+    ["al día siguiente", "第二天"],
+    ["Hasta pronto.", "回头见；后会有期。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Anoche los niños ______ (dormir) nueve horas.", "a": "Anoche los niños durmieron nueve horas."},
+    {"type": "填空", "q": "El mes pasado mi tío ______ (venir) a Pekín.", "a": "El mes pasado mi tío vino a Pekín."},
+    {"type": "选择", "q": "Ayer ella me ___ un regalo. (trajo / trajó / traió)", "a": "Ayer ella me trajo un regalo."},
+    {"type": "选择", "q": "Los profesores no ___ nada. (dijeron / dijieron)", "a": "Los profesores no dijeron nada."},
+    {"type": "改写", "q": "改成简单过去时：Pido un café y lo pongo en la mesa.", "a": "Pedí un café y lo puse en la mesa."},
+    {"type": "改写", "q": "用 como 改写：No vine a clase porque estuve enfermo.", "a": "Como estuve enfermo, no vine a clase."},
+    {"type": "翻译", "q": "上星期我们看了一部西班牙电影。", "a": "La semana pasada vimos una película española."},
+    {"type": "问答", "q": "¿Qué hicieron los estudiantes con el artículo del profesor Ruiz?", "a": "Lo tradujeron al chino en tres días y se lo dieron."}
+  ],
+  "summary": [
+    "-ir 词根变化只变第三人称：pidió、durmió。",
+    "不规则词根：estuve、tuve、pude、vine、hice。",
+    "不规则形式的 -e、-o 不加重音：vine、vino、hizo。",
+    "-j- 型复数用 -eron：dijeron；oír → oyó。",
+    "como 表原因，从句放句首；porque 放主句后。"
+  ],
+  "homework": [
+    "写出 tener、decir、traer、oír 的简单过去时变位。",
+    "仿照课文，用 8–10 句话写一位客人来访的经过。",
+    "用 como 造三个原因句，动词用简单过去时。"
+  ],
+  "notes": {
+    "goals": "本课是不规则过去时的集中讲解。建议按“词根变化 → -u-/-i- 型 → -j- 型 → 单音节”分组记忆，不要按字母顺序背。",
+    "vocab": "conducir、traducir 放在一起讲，说明 -ducir 动词变法相同。despedirse 是 e → i 动词，课文里的 se despidió 可以顺便复习。",
+    "text": "让学生在课文里找出所有不规则过去时并说出不定式（vino → venir，condujo → conducir，durmió → dormir 等）。第 6、8 句是 como 原因从句。",
+    "grammar": "反复强调不规则形式不加重音（vine、hizo、puso），而规则形式要加（llegué、llegó），这是学生最容易出错的地方。dijeron、trajeron 常被误写成 dijieron。",
+    "exercises": "选择题专门针对重音和 -eron 两个易错点。问答题依据课文，可以要求学生用宾格、与格代词作答。"
+  }
+}

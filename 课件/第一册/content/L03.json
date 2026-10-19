@@ -1,0 +1,201 @@
+{
+  "lesson": 3,
+  "title_es": "¿Dónde está la casa?",
+  "title_zh": "房子在哪儿？",
+  "goals": [
+    "掌握 z/c(e,i)、f、ll、h 的发音",
+    "读好二重元音 ai、io、iu 和辅音组 tr、br",
+    "掌握定冠词 el、la、los、las 和缩合形式 del",
+    "会用 mi、tu、su、nuestro 等表示所属",
+    "会用 estar 说位置，用 hay 说“某处有某物”"
+  ],
+  "pronunciation": [
+    {
+      "title": "辅音 z/c(e,i)、f、ll、h",
+      "intro": "z 和 ce、ci 读音相同；f 和汉语相同；ll 的读法有地区差别；h 不发音。",
+      "items": [
+        {"sound": "z, ce, ci", "tip": "西班牙读 [θ]，舌尖夹在上下齿间摩擦；拉美读 [s]", "words": [["taza", "杯子"], ["cine", "电影院"], ["cocina", "厨房"]]},
+        {"sound": "f", "tip": "上齿轻触下唇，气流摩擦而出，和汉语的 f 一样", "words": [["sofá", "沙发"], ["café", "咖啡"], ["foto", "照片"]]},
+        {"sound": "ll", "tip": "传统读 [ʎ]：舌面贴硬腭，气流从舌两侧出；今多读同 y [ʝ]", "words": [["silla", "椅子"], ["calle", "街道"], ["ella", "她"]]},
+        {"sound": "h", "tip": "不发音，直接读后面的元音；ch 是另一个音，第 4 课学", "words": [["hola", "你好"], ["hay", "有"], ["hermano", "兄弟"]]}
+      ]
+    },
+    {
+      "title": "二重元音 ai、io、iu；辅音组 tr、br",
+      "intro": "二重元音读成一个音节；tr、br 紧连不能拆开，中间不加元音。",
+      "items": [
+        {"sound": "ai / ay", "tip": "a 滑向 i，合成一个音节，a 读得响；在词尾写作 ay", "words": [["aire", "空气"], ["baile", "舞蹈"], ["hay", "有"]]},
+        {"sound": "io", "tip": "i 快速滑向 o，合成一个音节，o 读得响", "words": [["dormitorio", "卧室"], ["adiós", "再见"], ["edificio", "大楼"]]},
+        {"sound": "iu", "tip": "两个弱元音：i 滑向 u，合成一个音节，u 较响", "words": [["ciudad", "城市"], ["triunfo", "胜利"]]},
+        {"sound": "tr", "tip": "t 不送气，紧接单击 r；tr 同属一个音节：cen·tro", "words": [["tres", "三"], ["centro", "市中心"], ["otro", "另一个"]]},
+        {"sound": "br", "tip": "b 后紧接单击 r，同属一个音节：li·bro、hom·bre", "words": [["libro", "书"], ["hombre", "男人"], ["brazo", "胳膊"]]}
+      ]
+    }
+  ],
+  "vocab": [
+    ["¿dónde?", "哪里"],
+    ["estar", "在；处于"],
+    ["hay", "有（某处有某物）"],
+    ["en", "在……（里、上）"],
+    ["cerca de", "在……附近"],
+    ["la casa", "房子；家"],
+    ["la sala", "客厅"],
+    ["el dormitorio", "卧室"],
+    ["la cocina", "厨房"],
+    ["la mesa", "桌子"],
+    ["la silla", "椅子"],
+    ["el sofá", "沙发"],
+    ["la cama", "床"],
+    ["el libro", "书"],
+    ["el centro", "市中心"],
+    ["las afueras", "郊区"],
+    ["el parque", "公园"],
+    ["hola / adiós", "你好 / 再见"]
+  ],
+  "text": {
+    "title": "¿Dónde está la casa?",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¡Hola, Paco! ¿Qué tal?", "zh": "你好，帕科！你好吗？"},
+      {"who": "B", "es": "Bien, gracias. ¿Y tú, Li Xin?", "zh": "很好，谢谢。你呢，李欣？"},
+      {"who": "A", "es": "Bien. Paco, ¿dónde está tu casa?", "zh": "很好。帕科，你家在哪儿？"},
+      {"who": "B", "es": "Mi casa está en las afueras. ¿Y vuestra casa?", "zh": "我家在郊区。你们家呢？"},
+      {"who": "A", "es": "Nuestra casa está en el centro, cerca del parque.", "zh": "我们家在市中心，在公园附近。"},
+      {"who": "B", "es": "¿Qué hay en vuestra casa?", "zh": "你们家里有什么？"},
+      {"who": "A", "es": "Hay sala, cocina y dormitorios.", "zh": "有客厅、厨房和几间卧室。"},
+      {"who": "B", "es": "¿Dónde está Pepe? ¿Está en casa?", "zh": "佩佩在哪儿？他在家吗？"},
+      {"who": "A", "es": "No, está en el parque.", "zh": "不在，他在公园。"},
+      {"who": "B", "es": "¿Y sus libros? ¿Dónde están?", "zh": "那他的书呢？在哪儿？"},
+      {"who": "A", "es": "Están en la mesa del dormitorio.", "zh": "在卧室的桌子上。"},
+      {"who": "B", "es": "¡Hasta luego, Li Xin!", "zh": "回头见，李欣！"},
+      {"who": "A", "es": "¡Adiós, Paco!", "zh": "再见，帕科！"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "定冠词 el、la、los、las 和 del",
+      "points": [
+        "定冠词放在名词前，与名词性数一致，指已知或特指的人和物",
+        "-o 结尾多为阳性，-a 结尾多为阴性；也有例外：el sofá",
+        "de + el 必须缩合成 del：la mesa del dormitorio",
+        "冠词 el 没有重音符号，代词 él（他）有重音符号"
+      ],
+      "table": {
+        "head": ["数", "阳性", "阴性"],
+        "rows": [
+          ["单数", "el", "la"],
+          ["复数", "los", "las"]
+        ]
+      },
+      "examples": [
+        ["La casa de Paco está en las afueras.", "帕科的家在郊区。"],
+        ["El sofá está en la sala.", "沙发在客厅里。"],
+        ["Los libros están en la mesa del dormitorio.", "书在卧室的桌子上。"]
+      ]
+    },
+    {
+      "title": "非重读物主形容词",
+      "points": [
+        "放在名词前，代替冠词：mi casa（不说 la mi casa）",
+        "与后面的名词性数一致，不随所有者的性数变：nuestra casa",
+        "mi、tu、su 只变数；nuestro、vuestro 既变性又变数",
+        "su 可指他、她、您、他们等；意思不清时用 de：la casa de Ana"
+      ],
+      "table": {
+        "head": ["所有者", "单数名词前", "复数名词前"],
+        "rows": [
+          ["yo", "mi", "mis"],
+          ["tú", "tu", "tus"],
+          ["él, ella, usted", "su", "sus"],
+          ["nosotros, nosotras", "nuestro, nuestra", "nuestros, nuestras"],
+          ["vosotros, vosotras", "vuestro, vuestra", "vuestros, vuestras"],
+          ["ellos, ellas, ustedes", "su", "sus"]
+        ]
+      },
+      "examples": [
+        ["Mi casa está en el centro.", "我家在市中心。"],
+        ["¿Dónde están tus libros?", "你的书在哪儿？"],
+        ["Nuestra casa está cerca del parque.", "我们家在公园附近。"]
+      ]
+    },
+    {
+      "title": "estar 表示位置",
+      "points": [
+        "estar + en + 地点：表示人或物“在某处”",
+        "问位置：¿Dónde está…?（单数）／¿Dónde están…?（复数）",
+        "注意重音符号：estás、está、estáis、están",
+        "estar en casa：在家（casa 前不加冠词）"
+      ],
+      "table": {
+        "head": ["主语", "estar"],
+        "rows": [
+          ["yo", "estoy"],
+          ["tú", "estás"],
+          ["él, ella, usted", "está"],
+          ["nosotros, nosotras", "estamos"],
+          ["vosotros, vosotras", "estáis"],
+          ["ellos, ellas, ustedes", "están"]
+        ]
+      },
+      "examples": [
+        ["¿Dónde estás? — Estoy en casa.", "你在哪儿？——我在家。"],
+        ["Paco y Ana están en el centro.", "帕科和安娜在市中心。"],
+        ["La cocina está cerca de la sala.", "厨房在客厅附近。"]
+      ]
+    },
+    {
+      "title": "hay 和 estar",
+      "points": [
+        "hay 意为“（某处）有……”，只有这一个形式，单复数通用",
+        "hay 后的名词前不加定冠词：En la sala hay sillas.",
+        "说确定的人或物在哪里用 estar：Las sillas están en la sala.",
+        "问“有什么”：¿Qué hay en…?"
+      ],
+      "examples": [
+        ["En la sala hay sillas y mesas.", "客厅里有椅子和桌子。"],
+        ["¿Qué hay en tu dormitorio?", "你的卧室里有什么？"],
+        ["Hay libros en la mesa.", "桌子上有书。"],
+        ["Los libros están en la mesa.", "书在桌子上。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¡Hola! ¿Qué tal?", "你好！你好吗？"],
+    ["Bien, gracias. ¿Y tú?", "很好，谢谢。你呢？"],
+    ["Buenos días.", "早上好。"],
+    ["¿Dónde está…?", "……在哪儿？"],
+    ["estar en casa", "在家"],
+    ["¡Hasta luego!", "回头见！"],
+    ["¡Adiós!", "再见！"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "填定冠词：______ casa de Paco está en ______ afueras.", "a": "La casa de Paco está en las afueras."},
+    {"type": "填空", "q": "用 estar 填空：Yo ______ en casa y tú ______ en el parque.", "a": "Yo estoy en casa y tú estás en el parque."},
+    {"type": "选择", "q": "En la sala ______ sillas. (hay / están)", "a": "En la sala hay sillas."},
+    {"type": "选择", "q": "（nosotros）______ casa está en el centro. (Nuestro / Nuestra)", "a": "Nuestra casa está en el centro."},
+    {"type": "改写", "q": "用缩合形式改写：Los libros están en la mesa de el dormitorio.", "a": "Los libros están en la mesa del dormitorio."},
+    {"type": "翻译", "q": "我的卧室里有椅子和书。", "a": "En mi dormitorio hay sillas y libros."},
+    {"type": "问答", "q": "根据课文回答：¿Dónde está la casa de Paco?", "a": "Su casa está en las afueras."},
+    {"type": "语音", "q": "按西班牙读音，哪个词里有 [θ]？casa / cine / Paco", "a": "cine（拉美读 [s]）"}
+  ],
+  "summary": [
+    "z、ce、ci 读 [θ]（拉美读 [s]）；h 不发音",
+    "ll 今多读同 y；tr、br 不拆开，同属一个音节",
+    "定冠词 el la los las；de + el = del",
+    "物主形容词放在名词前，与所有物性数一致",
+    "estar 说某人某物在哪儿；hay 说某处有什么"
+  ],
+  "homework": [
+    "朗读课文，注意 z/ce/ci、ll、h 和 tr、br 的发音",
+    "画出你家的平面图，用 estar 和 hay 写五句话",
+    "用 mi、tu、su、nuestro、vuestro 各写一个句子"
+  ],
+  "notes": {
+    "goals": "本课语法量明显增加：冠词、物主形容词、estar 和 hay。建议语音一课时、语法两课时，以房间和家具为情境反复操练。",
+    "pronunciation": "[θ] 是西班牙大部分地区的读音；拉美、加那利群岛和安达卢西亚部分地区读 [s]（seseo），两种都是标准读音。ll 的传统读音 [ʎ] 是舌面贴住硬腭的边音，今天只在西班牙北部部分地区、安第斯地区和巴拉圭等地保留，多数地区读得和 y 一样（yeísmo），阿根廷等地读近似 [ʃ]、[ʒ]。tr、br 不拆开，是对第 1 课“两个辅音从中间分开”的补充。",
+    "vocab": "名词连同冠词一起记，顺便记住阴阳性；注意 el sofá 以 -á 结尾却是阳性，afueras 只用复数 las afueras。hola 的 h 不发音，adiós 的 io 是二重元音。",
+    "text": "A 是李欣，B 是帕科。hay 后的名词不带冠词（Hay sala, cocina y dormitorios），estar 的主语则带冠词、物主形容词或是人名，可用课文对比。sus libros 里的 su 指佩佩。",
+    "grammar": "物主形容词与所有物一致，而不是与所有者一致，是学生最常错的地方，可用 nuestra casa / nuestros libros 对比。tu（你的）和 tú（你）、el（冠词）和 él（他）靠重音符号区别。不定冠词 un、una 第 4 课才学，本课 hay 后只用复数名词或不带冠词的名词。",
+    "exercises": "第 3 题考 hay 与 estar 的区别；第 4 题提醒看名词 casa 的性。第 7 题也可答 Está en las afueras.；第 8 题提醒 cine 在拉美读 [s]。"
+  }
+}

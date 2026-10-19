@@ -1,0 +1,181 @@
+{
+  "lesson": 19,
+  "title_es": "Un día atareado",
+  "title_zh": "忙碌的一天",
+  "goals": [
+    "掌握简单过去时规则变位和重音符号",
+    "掌握 -car、-gar、-zar 的 yo 形式拼写变化",
+    "记住 ser / ir 和 hacer 的简单过去时",
+    "会用 donde、hace + 时间、antes de",
+    "能用简单过去时讲述自己忙碌的一天"
+  ],
+  "vocab": [
+    ["atareado, atareada", "忙碌的"],
+    ["la entrevista", "面试；会见"],
+    ["la empresa", "公司，企业"],
+    ["el puesto", "职位，岗位"],
+    ["solicitar", "申请"],
+    ["el jefe, la jefa", "领导，上司"],
+    ["la pregunta", "问题"],
+    ["contestar", "回答"],
+    ["terminar", "结束；完成"],
+    ["limpiar", "打扫，弄干净"],
+    ["lavar la ropa", "洗衣服"],
+    ["fregar los platos", "刷盘子，洗碗"],
+    ["la escuela nocturna", "夜校"],
+    ["el curso", "课程"],
+    ["cansado, cansada", "累的，疲劳的"],
+    ["ayer", "昨天"],
+    ["pasado, pasada", "过去的；上一个"]
+  ],
+  "text": {
+    "title": "Un día atareado",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Ayer fue un día muy atareado para mí.", "zh": "昨天对我来说是非常忙碌的一天。"},
+      {"who": "", "es": "Me levanté a las seis y desayuné en diez minutos.", "zh": "我六点起床，十分钟就吃完了早饭。"},
+      {"who": "", "es": "Antes de salir, fregué los platos y limpié la cocina.", "zh": "出门以前，我洗了碗，打扫了厨房。"},
+      {"who": "", "es": "Hace un mes solicité un puesto en una empresa.", "zh": "一个月前，我申请了一家公司的职位。"},
+      {"who": "", "es": "La entrevista empezó a las nueve; llegué diez minutos antes.", "zh": "面试九点开始，我提前十分钟到了。"},
+      {"who": "", "es": "El jefe me hizo muchas preguntas y yo las contesté todas.", "zh": "主管问了我很多问题，我都一一作了回答。"},
+      {"who": "", "es": "La entrevista terminó a las once y media.", "zh": "面试十一点半结束。"},
+      {"who": "", "es": "A la una comí con mi hermana y ella pagó la comida.", "zh": "一点钟我和姐姐一起吃饭，饭钱是她付的。"},
+      {"who": "", "es": "Por la tarde volví a casa, lavé la ropa y busqué unos libros.", "zh": "下午我回到家，洗了衣服，又找了几本书。"},
+      {"who": "", "es": "A las siete fui a la escuela nocturna donde estudio inglés.", "zh": "七点我去了我学英语的那所夜校。"},
+      {"who": "", "es": "Empecé este curso hace tres meses.", "zh": "这门课我是三个月前开始上的。"},
+      {"who": "", "es": "La clase terminó a las nueve y media y llegué a casa muy cansado.", "zh": "九点半下课，我回到家时累极了。"},
+      {"who": "", "es": "Antes de acostarme, hablé con mis padres por teléfono.", "zh": "睡觉以前，我给父母打了个电话。"},
+      {"who": "", "es": "Fue un día largo, pero también un buen día.", "zh": "这一天很漫长，但也是很好的一天。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "简单过去时：规则变位",
+      "points": [
+        "表示过去某个时间已经完成的动作，常与 ayer、anoche 等时间词连用。",
+        "-er 和 -ir 动词的词尾完全相同：-í, -iste, -ió…（见表）。",
+        "yo 和 él 形式带重音：hablé、habló；hablo（不带重音）是现在时。",
+        "-ar、-ir 动词 nosotros 形式与现在时同形（hablamos），靠上下文区分。"
+      ],
+      "table": {
+        "head": ["人称", "hablar", "comer", "vivir"],
+        "rows": [
+          ["yo", "hablé", "comí", "viví"],
+          ["tú", "hablaste", "comiste", "viviste"],
+          ["él / ella / usted", "habló", "comió", "vivió"],
+          ["nosotros, -as", "hablamos", "comimos", "vivimos"],
+          ["vosotros, -as", "hablasteis", "comisteis", "vivisteis"],
+          ["ellos/ellas/ustedes", "hablaron", "comieron", "vivieron"]
+        ]
+      },
+      "examples": [
+        ["Ayer hablé con el profesor.", "昨天我和老师谈过了。"],
+        ["Mi hermana comió en casa de una amiga.", "我妹妹在一个朋友家吃的饭。"],
+        ["Anoche escribí una carta a mis abuelos.", "昨晚我给祖父母写了一封信。"]
+      ]
+    },
+    {
+      "title": "yo 形式的拼写变化",
+      "points": [
+        "-car、-gar、-zar 动词的 yo 形式要改写辅音，以保持读音、符合拼写规则。",
+        "c → qu：busqué；g → gu：llegué；z → c：empecé。",
+        "只有 yo 形式变，其他人称照常：buscó、llegó、empezó。"
+      ],
+      "table": {
+        "head": ["不定式", "yo", "él / ella / usted"],
+        "rows": [
+          ["buscar", "busqué", "buscó"],
+          ["sacar", "saqué", "sacó"],
+          ["llegar", "llegué", "llegó"],
+          ["pagar", "pagué", "pagó"],
+          ["empezar", "empecé", "empezó"],
+          ["almorzar", "almorcé", "almorzó"]
+        ]
+      },
+      "examples": [
+        ["Llegué tarde a clase.", "我上课迟到了。"],
+        ["Empecé a estudiar español el año pasado.", "我去年开始学西班牙语。"],
+        ["Pagué la comida y mi amigo pagó el café.", "我付了饭钱，我朋友付了咖啡钱。"]
+      ]
+    },
+    {
+      "title": "常用不规则动词：ser / ir、hacer",
+      "points": [
+        "ser 和 ir 的简单过去时形式完全相同，靠上下文区分。",
+        "Fue un día largo（ser）；Fue a clase（ir）。",
+        "hacer 的词根变成 hic-，第三人称单数写成 hizo（c → z）。",
+        "这些不规则形式都不带重音符号：fui、fue、hice、hizo。"
+      ],
+      "table": {
+        "head": ["人称", "ser / ir", "hacer"],
+        "rows": [
+          ["yo", "fui", "hice"],
+          ["tú", "fuiste", "hiciste"],
+          ["él / ella / usted", "fue", "hizo"],
+          ["nosotros, -as", "fuimos", "hicimos"],
+          ["vosotros, -as", "fuisteis", "hicisteis"],
+          ["ellos/ellas/ustedes", "fueron", "hicieron"]
+        ]
+      },
+      "examples": [
+        ["Ayer fui a la biblioteca.", "我昨天去了图书馆。"],
+        ["La fiesta fue muy bonita.", "晚会办得很好。"],
+        ["¿Qué hiciste anoche?", "你昨晚做了什么？"],
+        ["Anoche hice los deberes.", "我昨晚做了作业。"]
+      ]
+    },
+    {
+      "title": "donde；hace + 时间；antes de + 不定式",
+      "points": [
+        "donde 引导关系从句，修饰地点名词：la escuela donde estudio。",
+        "hace + 时间段，表示“……以前”：Llegué hace dos días。",
+        "antes de + 不定式表示“在……之前”，不定式的主语一般就是句子主语。",
+        "自复动词的代词随主语变：antes de acostarme / acostarte。"
+      ],
+      "examples": [
+        ["Visité la escuela donde estudió mi padre.", "我参观了父亲读过书的学校。"],
+        ["Terminé el curso hace un año.", "我一年前学完了这门课程。"],
+        ["Antes de salir, cerré la ventana.", "出门以前，我关上了窗户。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["ayer por la mañana", "昨天上午"],
+    ["anteayer", "前天"],
+    ["anoche", "昨天晚上"],
+    ["la semana pasada", "上星期"],
+    ["¿Adónde fuiste el domingo?", "你星期天去哪儿了？"],
+    ["el año pasado", "去年"],
+    ["hace tres días", "三天前"],
+    ["¿Qué hiciste ayer?", "你昨天做了什么？"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Ayer yo ______ (llegar) tarde a la oficina.", "a": "Ayer yo llegué tarde a la oficina."},
+    {"type": "填空", "q": "Anoche mi hermano ______ (comer) en un restaurante chino.", "a": "Anoche mi hermano comió en un restaurante chino."},
+    {"type": "选择", "q": "La semana pasada nosotros ___ a casa de los abuelos. (fuimos / fueron)", "a": "La semana pasada nosotros fuimos a casa de los abuelos."},
+    {"type": "选择", "q": "Yo ___ a trabajar a las ocho. (empezé / empecé / empezó)", "a": "Yo empecé a trabajar a las ocho."},
+    {"type": "改写", "q": "改成简单过去时（Hoy → Ayer）：Hoy limpio la cocina y friego los platos.", "a": "Ayer limpié la cocina y fregué los platos."},
+    {"type": "翻译", "q": "昨天我去了我姐姐工作的公司。", "a": "Ayer fui a la empresa donde trabaja mi hermana."},
+    {"type": "翻译", "q": "两年前我们来到了北京。", "a": "Llegamos a Pekín hace dos años.（hace dos años 也可放句首）"},
+    {"type": "问答", "q": "Según el texto, ¿qué hizo él antes de salir de casa?", "a": "Fregó los platos y limpió la cocina."}
+  ],
+  "summary": [
+    "简单过去时表示过去已完成的动作，常和 ayer、anoche 连用。",
+    "重音不能丢：hablé、habló、comí、comió。",
+    "yo 形式拼写变化：busqué、llegué、empecé。",
+    "ser、ir 同形：fui；hacer：hice, hizo。",
+    "donde 指地点；hace…以前；antes de…之前。"
+  ],
+  "homework": [
+    "写出 trabajar、aprender、escribir 的简单过去时变位。",
+    "用简单过去时写 8–10 句话，讲讲你忙碌的一天。",
+    "用 hace + 时间造三个句子，说说你过去做过的事。"
+  ],
+  "notes": {
+    "goals": "本课第一次学过去时。先用 ayer、anoche、la semana pasada 等时间词建立“过去已完成”的概念，再讲变位。",
+    "vocab": "fregar 现在时 e → ie（friego），简单过去时却是规则的 fregué，正好同时练拼写变化。puesto、empresa、entrevista 可结合求职话题一起讲。",
+    "text": "先让学生找出课文里所有 yo 形式，再比较 llegué / llegó、empecé / empezó。第 4、11 句是 hace + 时间，第 3、13 句是 antes de + 不定式，第 10 句是 donde。",
+    "grammar": "重点是重音：hablo（我说）和 habló（他说了）只差一个重音。-er 动词 nosotros 形式与现在时不同（comemos / comimos），-ar、-ir 相同。本课只要求 ser / ir 和 hacer 两类不规则，其余放到第 20 课。",
+    "exercises": "填空题要求写完整句子并注意重音；选择题第 4 题专门考拼写变化。问答题可两人一组互相问答。"
+  }
+}

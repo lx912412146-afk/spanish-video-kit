@@ -1,0 +1,196 @@
+{
+  "lesson": 17,
+  "title_es": "Una visita",
+  "title_zh": "一次拜访",
+  "goals": [
+    "掌握 decir 型命令式：diga，haga，tenga",
+    "掌握词根变化动词的命令式：siéntese，durmamos",
+    "会给 ustedes 命令式连写代词：siéntense",
+    "会说月份和日期，会问 ¿A cuántos estamos?",
+    "能用西班牙语接待客人和做客"
+  ],
+  "vocab": [
+    ["visita", "拜访；来访的客人"],
+    ["invitar", "邀请"],
+    ["cumpleaños", "生日"],
+    ["fecha", "日期"],
+    ["mes", "月，月份"],
+    ["primero, primera", "第一；（每月）一号"],
+    ["flor", "花"],
+    ["regalo", "礼物"],
+    ["quitarse", "脱掉（衣帽）"],
+    ["calefacción", "暖气"],
+    ["nevar (ie)", "下雪"],
+    ["té", "茶"],
+    ["dulce", "甜食，点心"],
+    ["rico, rica", "（食物）好吃的"],
+    ["saludar", "问候，打招呼"],
+    ["de mi parte", "代表我"],
+    ["pasarlo bien", "过得愉快"]
+  ],
+  "text": {
+    "title": "Una visita",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Buenas tardes, señores Li. Pasen, pasen, por favor.", "zh": "李先生、李太太，下午好。请进，请进。"},
+      {"who": "B", "es": "Buenas tardes, señora Pérez. ¡Qué frío hace hoy!", "zh": "佩雷斯太太，下午好。今天真冷啊！"},
+      {"who": "A", "es": "Sí, en diciembre siempre hace frío. Quítense el abrigo y siéntense.", "zh": "是啊，十二月总是很冷。请脱下大衣坐吧。"},
+      {"who": "B", "es": "Gracias. Tenga, señora, unas flores para usted.", "zh": "谢谢。太太，给您，这些花是送您的。"},
+      {"who": "A", "es": "¡Qué bonitas! Muchas gracias. ¿Les apetece un té caliente?", "zh": "真漂亮！太感谢了。你们想喝杯热茶吗？"},
+      {"who": "B", "es": "Sí, gracias. Con la calefacción, aquí se está muy bien.", "zh": "好的，谢谢。有暖气，这儿真舒服。"},
+      {"who": "A", "es": "Díganme, ¿cuándo vuelven ustedes a China?", "zh": "告诉我，你们什么时候回中国？"},
+      {"who": "B", "es": "El uno de febrero. ¿A cuántos estamos hoy?", "zh": "二月一号。今天几号？"},
+      {"who": "A", "es": "Estamos a veinte de diciembre. Vengan a cenar el treinta y uno.", "zh": "今天十二月二十号。三十一号请来我家吃晚饭吧。"},
+      {"who": "B", "es": "Con mucho gusto. Muchas gracias por la invitación.", "zh": "我们很乐意。非常感谢您的邀请。"},
+      {"who": "A", "es": "Aquí tienen el té y unos dulces. Pruébenlos.", "zh": "茶和点心来了。你们尝尝吧。"},
+      {"who": "B", "es": "Están muy ricos. Pero ya es tarde y tenemos que irnos.", "zh": "真好吃。不过已经不早了，我们得走了。"},
+      {"who": "A", "es": "Bueno. Saluden a sus hijos de mi parte. Duerman bien.", "zh": "好吧。代我问候你们的孩子。祝你们睡个好觉。"},
+      {"who": "B", "es": "Gracias por todo, señora. Buenas noches.", "zh": "太太，谢谢您的款待。晚安。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "不规则命令式（decir 型）",
+      "points": [
+        "陈述式现在时 yo 的形式不规则的动词，命令式以 yo 的形式为基础",
+        "去掉 yo 形式的 -o，加 -a、-an、-amos：digo → diga",
+        "同类动词：hacer，tener，venir，traer，salir，conocer",
+        "加代词照常连写、补重音：dígame，tráiganlos"
+      ],
+      "table": {
+        "head": ["不定式（yo）", "usted", "ustedes", "nosotros"],
+        "rows": [
+          ["decir (digo)", "diga", "digan", "digamos"],
+          ["hacer (hago)", "haga", "hagan", "hagamos"],
+          ["tener (tengo)", "tenga", "tengan", "tengamos"],
+          ["venir (vengo)", "venga", "vengan", "vengamos"],
+          ["traer (traigo)", "traiga", "traigan", "traigamos"],
+          ["salir (salgo)", "salga", "salgan", "salgamos"],
+          ["conocer (conozco)", "conozca", "conozcan", "conozcamos"]
+        ]
+      },
+      "examples": [
+        ["Dígame su nombre, por favor.", "请告诉我您的名字。"],
+        ["Vengan a mi casa el sábado.", "星期六请到我家来。"],
+        ["Hagan los ejercicios y tráiganlos mañana.", "请做练习，明天带来。"],
+        ["Tenga, es un regalo para usted.", "给您，这是送您的礼物。"]
+      ]
+    },
+    {
+      "title": "词根变化动词的命令式（dormir 型）",
+      "points": [
+        "usted、ustedes 形式照样变词根：siéntese，vuelva",
+        "-ar、-er 动词 nosotros 形式词根不变：sentémonos，volvamos",
+        "-ir 动词 nosotros 形式 o→u、e→i：durmamos，vistámonos",
+        "自复动词照常连写代词，nosotros 形式去掉 -s"
+      ],
+      "table": {
+        "head": ["不定式", "usted", "ustedes", "nosotros"],
+        "rows": [
+          ["sentarse", "siéntese", "siéntense", "sentémonos"],
+          ["pensar", "piense", "piensen", "pensemos"],
+          ["empezar", "empiece", "empiecen", "empecemos"],
+          ["volver", "vuelva", "vuelvan", "volvamos"],
+          ["acostarse", "acuéstese", "acuéstense", "acostémonos"],
+          ["dormir", "duerma", "duerman", "durmamos"],
+          ["vestirse", "vístase", "vístanse", "vistámonos"]
+        ]
+      },
+      "examples": [
+        ["Siéntese aquí, por favor.", "请您坐这儿。"],
+        ["Vuelva usted pronto.", "欢迎您再来。"],
+        ["Ya es tarde. Acuéstense y duerman bien.", "已经不早了，你们去睡吧，好好睡一觉。"],
+        ["Mañana es domingo. Durmamos un poco más.", "明天是星期天，我们多睡一会儿吧。"]
+      ]
+    },
+    {
+      "title": "ustedes 命令式加代词",
+      "points": [
+        "代词直接连写在 ustedes 形式后面，并补写重音：pásenlo",
+        "自复动词加 se：siéntense，quítense；不要写成 siéntensen",
+        "两个代词连用时与格在前，le / les 变成 se：díganselo"
+      ],
+      "table": {
+        "head": ["构成", "连写后", "意思"],
+        "rows": [
+          ["sienten + se", "siéntense", "请坐"],
+          ["quiten + se", "quítense (el abrigo)", "请脱下（大衣）"],
+          ["pasen + lo", "pásenlo bien", "祝你们过得愉快"],
+          ["traigan + me + lo", "tráiganmelo", "给我拿来"],
+          ["digan + le + lo", "díganselo", "告诉他（这件事）"]
+        ]
+      },
+      "examples": [
+        ["Pasen, pasen. Quítense el abrigo y siéntense.", "请进，请进。请脱下大衣坐吧。"],
+        ["Es importante. Díganselo a su profesor.", "这很重要，请告诉你们的老师。"],
+        ["Aquí tienen los libros. Léanlos esta semana.", "书在这儿，请你们这周读一读。"],
+        ["Adiós, y pásenlo bien.", "再见，祝你们玩得愉快。"]
+      ]
+    },
+    {
+      "title": "月份和日期",
+      "points": [
+        "月份名称一般小写，前面不加冠词：en octubre",
+        "日期：el + 基数词 + de + 月份，如 el 15 de octubre",
+        "每月一号说 el uno 或 el primero（拉美多说 primero）",
+        "问日期：¿Qué fecha es hoy? 或 ¿A cuántos estamos?"
+      ],
+      "table": {
+        "head": ["西语", "中文", "西语", "中文"],
+        "rows": [
+          ["enero", "一月", "julio", "七月"],
+          ["febrero", "二月", "agosto", "八月"],
+          ["marzo", "三月", "septiembre", "九月"],
+          ["abril", "四月", "octubre", "十月"],
+          ["mayo", "五月", "noviembre", "十一月"],
+          ["junio", "六月", "diciembre", "十二月"]
+        ]
+      },
+      "examples": [
+        ["¿A cuántos estamos hoy? —Estamos a 19 de octubre.", "今天几号？——今天10月19日。"],
+        ["El uno de octubre es la Fiesta Nacional de China.", "10月1日是中国的国庆节。"],
+        ["Mi cumpleaños es el 25 de diciembre.", "我的生日是12月25日。"],
+        ["En enero hace mucho frío y a veces nieva.", "一月很冷，有时下雪。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Se puede? —Pase, pase.", "可以进来吗？——请进，请进。"],
+    ["Siéntese, por favor.", "请坐。"],
+    ["Está usted en su casa.", "请别客气，就当在自己家。"],
+    ["¿Qué fecha es hoy?", "今天几月几号？"],
+    ["¿A cuántos estamos? —Estamos a 3 de mayo.", "今天几号？——今天5月3日。"],
+    ["¿Qué día es hoy? —Hoy es viernes.", "今天星期几？——今天星期五。"],
+    ["Saludos a su familia.", "代问您家里人好。"],
+    ["Gracias por todo.", "谢谢您的款待。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "______ (decir, usted) su nombre, por favor.", "a": "Diga su nombre, por favor."},
+    {"type": "填空", "q": "Señores, ______ (venir, ustedes) a mi casa el domingo.", "a": "Señores, vengan a mi casa el domingo."},
+    {"type": "选择", "q": "Mañana es domingo. ______ un poco más. (Durmamos / Duermamos)", "a": "Durmamos"},
+    {"type": "改写", "q": "用代词改写：Traigan los libros.", "a": "Tráiganlos."},
+    {"type": "改写", "q": "改成命令式：Ustedes se sientan aquí.", "a": "Siéntense aquí."},
+    {"type": "翻译", "q": "请您把这件事告诉他。", "a": "Dígaselo, por favor."},
+    {"type": "问答", "q": "¿Cuándo es la Fiesta Nacional de China?", "a": "Es el uno (el primero) de octubre."},
+    {"type": "翻译", "q": "今天是五月三号，星期五。", "a": "Hoy es viernes, tres de mayo."}
+  ],
+  "summary": [
+    "decir 型：以 yo 形式为基础，diga，haga，tenga",
+    "词根变化：siéntese，vuelva，duerma",
+    "-ir 动词 nosotros 形式 o→u：durmamos",
+    "ustedes 命令式加代词：siéntense，díganselo",
+    "日期：el + 数字 + de + 月份，月份小写"
+  ],
+  "homework": [
+    "背诵十二个月份，说出家里每个人的生日",
+    "写出 decir、hacer、dormir、vestirse 的三种命令式",
+    "编一段接待客人的对话，至少用五个命令式"
+  ],
+  "notes": {
+    "goals": "先复习第 16 课的规则命令式和代词连写，再引出以 yo 形式为基础的不规则命令式。",
+    "vocab": "月份放在语法表里，不另列生词，提醒学生月份小写。de mi parte、pasarlo bien 作为整体记忆。",
+    "text": "对话里待客用的命令式很集中：pasen、quítense、siéntense、tenga、díganme、vengan、pruébenlos、saluden、duerman，可让学生找出后分角色表演。",
+    "grammar": "decir 型的关键是先说出 yo 形式（digo、hago、tengo）。dormir 型要对比：-ar、-er 动词 nosotros 形式不变词根，-ir 动词 o 变 u、e 变 i。empezar 既变词根又有 -zar → -ce 的拼写变化（empiece，empecemos），可联系第 16 课的 busque、pague。",
+    "exercises": "第 3 题针对 durmamos，常见错误是 duermamos。最后一题写成 Estamos a viernes, tres de mayo 也对。"
+  }
+}

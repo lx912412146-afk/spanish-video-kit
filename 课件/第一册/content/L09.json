@@ -1,0 +1,185 @@
+{
+  "lesson": 9,
+  "title_es": "Pepe y Paco",
+  "title_zh": "佩佩和帕科",
+  "goals": [
+    "掌握第三变位（-ir）规则动词的现在时",
+    "掌握 querer、venir 的现在时变位和用法",
+    "会用重读物主形容词和物主代词（el mío…）",
+    "认识间接宾语，会用 a 引出动作的接受者",
+    "能谈论住处、钥匙，接待来访的客人"
+  ],
+  "vocab": [
+    ["vivir", "住；生活"],
+    ["escribir", "写"],
+    ["abrir", "打开"],
+    ["subir", "上去；登上"],
+    ["recibir", "收到；接待"],
+    ["querer", "想要；爱"],
+    ["venir", "来"],
+    ["tomar", "喝；吃"],
+    ["la llave", "钥匙"],
+    ["la puerta", "门"],
+    ["el piso", "楼层；（一套）公寓"],
+    ["la carta", "信"],
+    ["el fin de semana", "周末"],
+    ["el café", "咖啡"],
+    ["el invitado, la invitada", "客人"],
+    ["mío, mía", "我的"],
+    ["tuyo, tuya", "你的"],
+    ["suyo, suya", "他（她、您、他们）的"]
+  ],
+  "text": {
+    "title": "Pepe y Paco",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Hola, Pepe. ¿Vives aquí?", "zh": "你好，佩佩。你住在这儿吗？"},
+      {"who": "B", "es": "Sí, vivo aquí con mi hermano. ¿Quieres subir?", "zh": "是的，我和我哥哥住在这儿。你想上去坐坐吗？"},
+      {"who": "A", "es": "Sí, gracias. ¿Tienes la llave?", "zh": "好啊，谢谢。你带钥匙了吗？"},
+      {"who": "B", "es": "Un momento… Esta llave no es mía. Es de mi hermano.", "zh": "等一下……这把钥匙不是我的，是我哥哥的。"},
+      {"who": "A", "es": "¿Y dónde está la tuya?", "zh": "那你的在哪儿？"},
+      {"who": "B", "es": "Está en mi mesa. Pero podemos abrir la puerta con la suya.", "zh": "在我桌子上。不过我们可以用他的钥匙开门。"},
+      {"who": "A", "es": "Vuestro piso es muy bonito.", "zh": "你们的公寓真漂亮。"},
+      {"who": "B", "es": "Gracias, pero no es nuestro. Es de mis tíos.", "zh": "谢谢，不过不是我们的，是我叔叔阿姨的。"},
+      {"who": "A", "es": "¿Y dónde viven ellos?", "zh": "那他们住在哪儿？"},
+      {"who": "B", "es": "Viven en Sevilla y vienen aquí los fines de semana.", "zh": "他们住在塞维利亚，周末来这儿。"},
+      {"who": "A", "es": "¿Es tuya esta carta?", "zh": "这封信是你的吗？"},
+      {"who": "B", "es": "Sí, es mía. Escribo a mis padres. ¿Quieres tomar un café?", "zh": "是我的，我在给父母写信。你想喝杯咖啡吗？"},
+      {"who": "A", "es": "Sí, con mucho gusto.", "zh": "好的，非常乐意。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "第三变位（-ir）规则动词的现在时",
+      "points": [
+        "去掉词尾 -ir，加上 -o、-es、-e、-imos、-ís、-en。",
+        "和 -er 动词只差两个人称：nosotros（-imos）、vosotros（-ís）。",
+        "vosotros 的词尾 -ís 带重音符号：vivís、escribís。",
+        "vivir en + 地点 表示“住在……”：Vivo en las afueras."
+      ],
+      "table": {
+        "head": ["人称", "vivir", "escribir", "abrir"],
+        "rows": [
+          ["yo", "vivo", "escribo", "abro"],
+          ["tú", "vives", "escribes", "abres"],
+          ["él, ella, usted", "vive", "escribe", "abre"],
+          ["nosotros, -as", "vivimos", "escribimos", "abrimos"],
+          ["vosotros, -as", "vivís", "escribís", "abrís"],
+          ["ellos, ellas, ustedes", "viven", "escriben", "abren"]
+        ]
+      },
+      "examples": [
+        ["¿Dónde vivís? —Vivimos en el centro.", "你们住在哪儿？——我们住在市中心。"],
+        ["Paco abre la puerta con su llave.", "帕科用他的钥匙开门。"],
+        ["Recibimos a los invitados en casa.", "我们在家里接待客人。"]
+      ]
+    },
+    {
+      "title": "不规则动词 querer 和 venir",
+      "points": [
+        "querer 词根 e 变 ie，nosotros、vosotros 不变。",
+        "venir 的 yo 是 vengo；tú、él、ellos 词根变 ie：vienes…",
+        "querer + 名词／不定式：想要／想做；querer a + 人：爱。",
+        "venir 是“来”，ir 是“去”；venir de + 地点：从……来。"
+      ],
+      "table": {
+        "head": ["人称", "querer", "venir"],
+        "rows": [
+          ["yo", "quiero", "vengo"],
+          ["tú", "quieres", "vienes"],
+          ["él, ella, usted", "quiere", "viene"],
+          ["nosotros, -as", "queremos", "venimos"],
+          ["vosotros, -as", "queréis", "venís"],
+          ["ellos, ellas, ustedes", "quieren", "vienen"]
+        ]
+      },
+      "examples": [
+        ["¿Quieres un café? —Sí, gracias.", "你想要杯咖啡吗？——好的，谢谢。"],
+        ["Queremos visitar a nuestros tíos.", "我们想去看望叔叔阿姨。"],
+        ["¿De dónde vienes? —Vengo de la universidad.", "你从哪儿来？——我从大学来。"],
+        ["Mis amigos vienen a casa esta tarde.", "我的朋友们今天下午来家里。"]
+      ]
+    },
+    {
+      "title": "重读物主形容词和物主代词",
+      "points": [
+        "重读物主形容词放在名词后，性数和名词一致：un amigo mío.",
+        "常直接作 ser 的表语：Esta llave es mía.",
+        "定冠词 + 重读物主形容词＝物主代词，代替前面说过的名词。",
+        "suyo 可指他、她、您、他们、她们、您们，要靠上下文判断。"
+      ],
+      "table": {
+        "head": ["人称", "阳性 单 / 复", "阴性 单 / 复"],
+        "rows": [
+          ["yo", "mío / míos", "mía / mías"],
+          ["tú", "tuyo / tuyos", "tuya / tuyas"],
+          ["él, ella, usted", "suyo / suyos", "suya / suyas"],
+          ["nosotros, -as", "nuestro / nuestros", "nuestra / nuestras"],
+          ["vosotros, -as", "vuestro / vuestros", "vuestra / vuestras"],
+          ["ellos, ellas, ustedes", "suyo / suyos", "suya / suyas"]
+        ]
+      },
+      "examples": [
+        ["Paco es un amigo mío.", "帕科是我的一个朋友。"],
+        ["¿Es tuya esta llave? —No, no es mía.", "这把钥匙是你的吗？——不，不是我的。"],
+        ["Tu piso es grande y el mío es pequeño.", "你的公寓大，我的小。"],
+        ["Mis llaves están aquí. ¿Dónde están las tuyas?", "我的钥匙在这儿。你的在哪儿？"]
+      ]
+    },
+    {
+      "title": "间接宾语",
+      "points": [
+        "间接宾语表示动作的接受者或对象，前面用前置词 a。",
+        "直接宾语多回答“什么”，间接宾语回答“给谁”：¿A quién escribes?",
+        "两种宾语可以同时出现：Escribo una carta a Paco.",
+        "注意区分：Veo a Paco. 里的 a Paco 是直接宾语。"
+      ],
+      "examples": [
+        ["Escribo una carta a mis padres.", "我给父母写一封信。"],
+        ["Pepe enseña el piso a los invitados.", "佩佩带客人们看公寓。"],
+        ["El profesor explica la lección a los estudiantes.", "老师给学生们讲解课文。"],
+        ["¿A quién escribes? —A mi hermana.", "你给谁写信？——给我姐姐。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Dónde vives?", "你住在哪儿？"],
+    ["Vivo en el centro.", "我住在市中心。"],
+    ["¿Quieres pasar?", "你想进来吗？"],
+    ["¿Quieres tomar un café?", "你想喝杯咖啡吗？"],
+    ["Con mucho gusto.", "非常乐意。"],
+    ["Un momento.", "稍等一下。"],
+    ["¿De quién es esta llave?", "这把钥匙是谁的？"],
+    ["Es mía.", "是我的。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Nosotros ______ (vivir) en el centro y ellos ______ (vivir) en las afueras.", "a": "Nosotros vivimos en el centro y ellos viven en las afueras."},
+    {"type": "填空", "q": "¿______ (venir) tú a mi casa esta tarde? —Sí, ______ (venir) con Ana.", "a": "¿Vienes tú a mi casa esta tarde? —Sí, vengo con Ana."},
+    {"type": "选择", "q": "¿Qué ______ vosotros, café o té? (quieres / queréis / quieren)", "a": "¿Qué queréis vosotros, café o té?"},
+    {"type": "选择", "q": "—¿Es tuya esta llave? —Sí, es ______. (mi / mío / mía)", "a": "Sí, es mía."},
+    {"type": "改写", "q": "用物主代词避免重复：Mi casa es pequeña y tu casa es grande.", "a": "Mi casa es pequeña y la tuya es grande."},
+    {"type": "填空", "q": "Paco recibe ___ invitado y escribe una carta ___ su madre.", "a": "Paco recibe al invitado y escribe una carta a su madre."},
+    {"type": "翻译", "q": "这些钥匙是我们的。", "a": "Estas llaves son nuestras."},
+    {"type": "问答", "q": "¿De dónde vienes? (de la biblioteca)", "a": "Vengo de la biblioteca."}
+  ],
+  "summary": [
+    "-ir 动词词尾：-o、-es、-e、-imos、-ís、-en",
+    "querer：quiero…；venir：vengo、vienes…",
+    "重读物主形容词放在名词后或作表语：Es mía.",
+    "定冠词 + 重读物主形容词＝物主代词：la mía",
+    "间接宾语前用 a，表示动作的接受者"
+  ],
+  "homework": [
+    "背诵 vivir、escribir、querer、venir 的现在时变位。",
+    "用 mío、tuyo、el mío 等写 5 组问答句。",
+    "写一段约 6 句的短文，介绍你住的地方。",
+    "两人一组，表演到朋友家做客的对话。"
+  ],
+  "notes": {
+    "goals": "本课没有语音部分；三种规则变位至此学完，可以做一次 -ar、-er、-ir 对比复习。",
+    "vocab": "piso 在西班牙指一套公寓，也指楼层；fin de semana 的复数是 fines de semana。",
+    "text": "课文是仿照本课课文编写的原创对话。接待客人用 ¿Quieres…? 表达邀请，Pasa 等命令式留到第 15 课。",
+    "grammar": "间接宾语本课只用 a + 名词，与格代词 le、les 第 10 课再学，例句不用 me、te 作间接宾语；注意和人称前置词 a 引出的直接宾语区分。",
+    "exercises": "第 4 题对比非重读的 mi 和重读的 mía；第 6 题注意 a + el → al，前一个 a 引出直接宾语，后一个引出间接宾语；第 7 题 nuestras 要和 llaves 性数一致。"
+  }
+}

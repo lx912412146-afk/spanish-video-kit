@@ -1,0 +1,175 @@
+{
+  "lesson": 24,
+  "title_es": "Un carnicero que quería ser médico",
+  "title_zh": "想当医生的屠夫",
+  "goals": [
+    "复习叙述中简单过去时和未完成时的分工",
+    "掌握 sentir 和 sentirse 的区别和变位",
+    "会用 hace + 时间 表示“……以前”“已经……了”",
+    "会用 sacar 和 enseñar a + 不定式",
+    "能用两种过去时讲一个寓言故事"
+  ],
+  "vocab": [
+    ["el carnicero, la carnicera", "屠夫；卖肉的"],
+    ["la fábula", "寓言"],
+    ["la moraleja", "寓意，教训"],
+    ["sentir (ie)", "感到；遗憾"],
+    ["sentirse (ie)", "觉得（身体、心情）"],
+    ["sacar", "拿出，取出"],
+    ["enseñar a + inf.", "教（某人）做……"],
+    ["hace + 时间", "……以前"],
+    ["el gato", "猫"],
+    ["el pescado", "鱼（食用的）"],
+    ["quemarse", "烧焦"],
+    ["sucio, cia", "脏的"],
+    ["el dolor", "疼痛"],
+    ["el miedo", "害怕"],
+    ["la nota", "分数，成绩"],
+    ["la foto", "照片"],
+    ["siguiente", "下一个的"],
+    ["pobre", "可怜的；穷的"]
+  ],
+  "text": {
+    "title": "El gato que quería ser cocinero",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Hace muchos años, un gato vivía en la casa de un cocinero.", "zh": "很多年以前，一只猫住在一位厨师家里。"},
+      {"who": "", "es": "Todos los días miraba al cocinero cuando preparaba la comida.", "zh": "厨师做饭的时候，它天天在一旁看着。"},
+      {"who": "", "es": "El gato pensaba: «Cocinar es facilísimo; yo también puedo».", "zh": "猫心想：“做饭容易极了，我也会。”"},
+      {"who": "", "es": "Un día el cocinero salió de casa muy temprano.", "zh": "有一天，厨师一大早就出门了。"},
+      {"who": "", "es": "El gato entró en la cocina y sacó un pescado grandísimo.", "zh": "猫走进厨房，拿出一条大极了的鱼。"},
+      {"who": "", "es": "Quería preparar una comida riquísima para el cocinero.", "zh": "它想给厨师做一顿特别好吃的饭。"},
+      {"who": "", "es": "Pero no sabía cocinar y el pescado se quemó.", "zh": "可是它不会做饭，鱼烧焦了。"},
+      {"who": "", "es": "Cuando volvió el cocinero, la cocina estaba sucísima.", "zh": "厨师回来的时候，厨房脏极了。"},
+      {"who": "", "es": "El pobre gato se sintió muy mal y le dijo: «Lo siento».", "zh": "可怜的猫心里很难过，对他说：“对不起。”"},
+      {"who": "", "es": "Al día siguiente, el cocinero enseñó al gato a preparar pescado.", "zh": "第二天，厨师教猫怎么做鱼。"},
+      {"who": "", "es": "Un año después, el gato ya cocinaba muy bien.", "zh": "一年以后，这只猫已经很会做饭了。"},
+      {"who": "", "es": "Moraleja: para hacer bien un trabajo, primero tenemos que aprender.", "zh": "寓意：要做好一件事，先得好好学。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "复习：叙述中的两种过去时",
+      "points": [
+        "未完成时：交代背景、人物状态和习惯：vivía, miraba, pensaba。",
+        "简单过去时：推动情节的一个个动作：salió, entró, sacó。",
+        "寓言常用 Hace muchos años… / Había una vez… 开头。",
+        "sabía 知道 / supo 得知；conocía 认识 / conoció 结识。"
+      ],
+      "table": {
+        "head": ["叙述成分", "时态", "课文例子"],
+        "rows": [
+          ["背景、状态", "过去未完成时", "un gato vivía…"],
+          ["习惯动作", "过去未完成时", "todos los días miraba…"],
+          ["情节动作", "简单过去时", "salió, entró, sacó"],
+          ["结果、反应", "简单过去时", "se sintió muy mal"]
+        ]
+      },
+      "examples": [
+        ["Era de noche y llovía cuando llegamos al pueblo.", "我们到村子的时候，天已经黑了，还下着雨。"],
+        ["Cuando lo supe, llamé a mi madre.", "我得知这件事以后，给妈妈打了电话。"],
+        ["Conocí a Ana en la universidad; ella vivía en Pekín.", "我是在大学认识安娜的，那时她住在北京。"]
+      ]
+    },
+    {
+      "title": "sentir 和 sentirse",
+      "points": [
+        "sentir + 名词：感到……：sentir frío, sentir miedo。",
+        "sentirse + 形容词/副词：觉得：sentirse bien / mal。",
+        "Lo siento：对不起；很遗憾。",
+        "现在时 e → ie（siento）；简单过去时第三人称 e → i（sintió）。"
+      ],
+      "table": {
+        "head": ["人称", "现在时", "简单过去时"],
+        "rows": [
+          ["yo", "me siento", "me sentí"],
+          ["tú", "te sientes", "te sentiste"],
+          ["él / usted", "se siente", "se sintió"],
+          ["nosotros, -as", "nos sentimos", "nos sentimos"],
+          ["vosotros, -as", "os sentís", "os sentisteis"],
+          ["ellos / ustedes", "se sienten", "se sintieron"]
+        ]
+      },
+      "examples": [
+        ["Hoy no me siento bien; tengo fiebre.", "我今天不舒服，发烧了。"],
+        ["En el río, el niño sintió mucho frío.", "在河里，孩子觉得很冷。"],
+        ["Lo siento, no puedo ir contigo.", "对不起，我不能和你一起去。"]
+      ]
+    },
+    {
+      "title": "hace + 时间",
+      "points": [
+        "简单过去时 + hace + 时间：……以前：Llegué hace dos días。",
+        "Hace + 时间 + que + 现在时：（到现在）已经……了。",
+        "讲过去用 Hacía + 时间 + que + 未完成时：（那时）已经……了。",
+        "问多久：¿Cuánto tiempo hace que…?"
+      ],
+      "examples": [
+        ["Vine a Pekín hace tres años.", "我三年前来到北京。"],
+        ["Hace dos años que estudio español.", "我学西班牙语已经两年了。"],
+        ["Hacía un año que el gato aprendía a cocinar.", "那时这只猫学做饭已经一年了。"]
+      ]
+    },
+    {
+      "title": "sacar 和 enseñar a",
+      "points": [
+        "sacar：拿出，取出；sacar algo de…：从……里拿出……",
+        "简单过去时 yo 形式 c → qu：saqué，其他人称规则。",
+        "enseñar a alguien a + 不定式：教某人做某事。",
+        "enseñar 也可直接带名词：enseñar español（教西班牙语）。"
+      ],
+      "table": {
+        "head": ["搭配", "意思"],
+        "rows": [
+          ["sacar dinero", "取钱"],
+          ["sacar fotos", "拍照"],
+          ["sacar buenas notas", "取得好成绩"],
+          ["sacar un libro de…", "从……拿出一本书"]
+        ]
+      },
+      "examples": [
+        ["Ayer saqué dinero del banco.", "昨天我去银行取了钱。"],
+        ["Ana sacó muy buenas notas el año pasado.", "安娜去年成绩非常好。"],
+        ["Mi abuelo me enseñó a nadar en el río.", "爷爷教我在河里游泳。"],
+        ["La maestra nos enseñaba a leer y a escribir.", "那时老师教我们读书写字。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Hace muchos años…", "很多年以前……"],
+    ["Había una vez…", "从前……"],
+    ["Un día…", "有一天……"],
+    ["Al día siguiente…", "第二天……"],
+    ["Un año después…", "一年以后……"],
+    ["Lo siento.", "对不起；很遗憾。"],
+    ["Moraleja: …", "寓意：……"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Hace años, un viejo ___ en el campo. Un día fue a la ciudad. (vivió / vivía)", "a": "vivía（交代背景）"},
+    {"type": "填空", "q": "Cuando el cocinero ______ (volver), la cocina ______ (estar) sucísima.", "a": "volvió; estaba"},
+    {"type": "填空", "q": "Ayer ______ (sacar, yo) dinero del banco.", "a": "saqué"},
+    {"type": "选择", "q": "El niño ___ mucho frío en el río. (sintió / se sintió)", "a": "sintió（sentir + 名词）"},
+    {"type": "选择", "q": "Hoy no ___ bien; me duele la cabeza. (siento / me siento)", "a": "me siento（sentirse + 副词）"},
+    {"type": "翻译", "q": "我两年前开始学西班牙语。", "a": "Empecé a estudiar español hace dos años."},
+    {"type": "翻译", "q": "去年夏天，爷爷教我游泳。（用 enseñar a）", "a": "El verano pasado mi abuelo me enseñó a nadar."},
+    {"type": "问答", "q": "¿Cuánto tiempo hace que estudias español?", "a": "（示例）Hace un año que estudio español."}
+  ],
+  "summary": [
+    "叙述：背景、状态、习惯用未完成时，情节动作用简单过去时。",
+    "sentir + 名词：感到；sentirse + 形/副：觉得。",
+    "hace + 时间：……以前；hace … que：已经……了。",
+    "sacar 拿出；enseñar a + 不定式：教……做……"
+  ],
+  "homework": [
+    "用两种过去时编一则 8–10 句的小寓言，最后写出寓意。",
+    "用 sentir、sentirse、sacar、enseñar a 各造一句。",
+    "复习第 19–23 课，整理简单过去时的不规则变位。"
+  ],
+  "notes": {
+    "goals": "大纲里本课没有单列语法，课件按复习课安排：两种过去时在叙述中的分工，加上本课几个重点词语。",
+    "vocab": "sentir 是词根变化动词，简单过去时第三人称 e → i（sintió, sintieron），可和第 20 课的 e → i 动词一起复习；saqué 是正字法变化。",
+    "text": "课文是原创的寓言式短文，不是课本里的寓言。先让学生找出背景句（未完成时）和情节句（简单过去时），再看图复述故事。",
+    "grammar": "四个板块都是复习和词语用法，不要当作本课新语法讲。enseñar a + 不定式的人称宾语，例句只用 me / nos，避开 le / la 的用法争议。",
+    "exercises": "第 4、5 题对比 sentir + 名词 和 sentirse + 副词；第 6、8 题练 hace + 时间。"
+  }
+}

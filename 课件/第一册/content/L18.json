@@ -1,0 +1,184 @@
+{
+  "lesson": 18,
+  "title_es": "La casa",
+  "title_zh": "房子",
+  "goals": [
+    "能介绍房屋布局，能说出自己的地址",
+    "会用常用方位短语描述位置",
+    "理解 al + 不定式 和 se ve / se ven",
+    "会说房间的尺寸和面积，会问路、指路",
+    "复习 nosotros 命令式加代词"
+  ],
+  "vocab": [
+    ["dirección", "地址；方向"],
+    ["piso", "（一套）公寓；楼层"],
+    ["sala de estar", "起居室，客厅"],
+    ["dormitorio", "卧室"],
+    ["cuarto de baño", "卫生间"],
+    ["pasillo", "走廊"],
+    ["terraza", "阳台，露台"],
+    ["metro (cuadrado)", "米（平方米）"],
+    ["medir (i)", "量；（尺寸）有……"],
+    ["de largo / de ancho", "长……／宽……"],
+    ["enfrente de", "在……对面"],
+    ["al fondo de", "在……尽头"],
+    ["esquina", "街角"],
+    ["seguir (i) todo recto", "一直往前走"],
+    ["doblar", "拐弯"],
+    ["explicar", "解释，讲解"],
+    ["llegar", "到达"],
+    ["librería", "书店"]
+  ],
+  "text": {
+    "title": "La casa de Paco",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Paco, ¿cuál es tu nueva dirección?", "zh": "帕科，你的新地址是什么？"},
+      {"who": "B", "es": "Calle de la Paz, número 15.", "zh": "和平街15号。"},
+      {"who": "A", "es": "¿Cómo voy desde la universidad?", "zh": "我从大学怎么去？"},
+      {"who": "B", "es": "Al salir de la universidad, dobla a la derecha y sigue todo recto.", "zh": "一出大学就往右拐，然后一直往前走。"},
+      {"who": "A", "es": "¿Está lejos?", "zh": "远吗？"},
+      {"who": "B", "es": "No, está muy cerca, enfrente del parque Central.", "zh": "不远，很近，就在中央公园对面。"},
+      {"who": "A", "es": "¿Y cómo es tu piso?", "zh": "你的公寓什么样？"},
+      {"who": "B", "es": "Es bastante grande: tiene noventa metros cuadrados.", "zh": "挺大的，有九十平方米。"},
+      {"who": "A", "es": "¿Cuántos dormitorios tiene?", "zh": "有几间卧室？"},
+      {"who": "B", "es": "Tres. Los dormitorios están al fondo del pasillo.", "zh": "三间。卧室在走廊尽头。"},
+      {"who": "A", "es": "¿Y la sala de estar?", "zh": "那客厅呢？"},
+      {"who": "B", "es": "Mide seis por cinco y tiene terraza. Desde allí se ve todo el parque.", "zh": "六米乘五米，还有阳台。从那儿能看到整个公园。"},
+      {"who": "A", "es": "¡Qué bien! Ana también quiere verlo, pero no sabe llegar.", "zh": "太好了！安娜也想去看看，可是她不认识路。"},
+      {"who": "B", "es": "Pues llamémosla ahora y expliquémoselo.", "zh": "那我们现在就给她打电话，跟她讲讲怎么走吧。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "课文语言点：方位短语",
+      "points": [
+        "方位短语后面接名词要加 de：delante de，cerca de",
+        "de 和 el 要合写成 del：al fondo del pasillo",
+        "说某物在哪儿用 estar；说某处有什么用 hay",
+        "entre… y… 表示“在……和……之间”"
+      ],
+      "table": {
+        "head": ["方位短语", "意思", "方位短语", "意思"],
+        "rows": [
+          ["delante de", "在……前面", "detrás de", "在……后面"],
+          ["encima de", "在……上面", "debajo de", "在……下面"],
+          ["al lado de", "在……旁边", "enfrente de", "在……对面"],
+          ["cerca de", "离……近", "lejos de", "离……远"],
+          ["a la derecha de", "在……右边", "a la izquierda de", "在……左边"],
+          ["dentro de", "在……里面", "fuera de", "在……外面"],
+          ["al fondo de", "在……尽头", "entre… y…", "在……之间"]
+        ]
+      },
+      "examples": [
+        ["El cuarto de baño está al fondo del pasillo.", "卫生间在走廊尽头。"],
+        ["Enfrente de mi casa hay un parque.", "我家对面有一个公园。"],
+        ["La mesa está entre la ventana y la puerta.", "桌子在窗户和门之间。"],
+        ["El banco está a la izquierda del cine.", "银行在电影院左边。"]
+      ]
+    },
+    {
+      "title": "课文语言点：al + 不定式；se ve / se ven",
+      "points": [
+        "al + 不定式 表示“……的时候”“一……就……”",
+        "al + 不定式 可以放在句首，也可以放在句尾",
+        "se ve / se ven 是自复被动句：主语单数用 ve，复数用 ven",
+        "常和 desde 连用：Desde aquí se ve…（从这儿能看到……）"
+      ],
+      "examples": [
+        ["Al entrar en el piso, a la derecha está la cocina.", "一进公寓，右边就是厨房。"],
+        ["Siempre cierro la puerta con llave al salir de casa.", "我出门的时候总是把门锁上。"],
+        ["Desde la terraza se ve todo el parque.", "从阳台上能看到整个公园。"],
+        ["Desde aquí se ven las luces de la ciudad.", "从这儿能看到城市的灯光。"]
+      ]
+    },
+    {
+      "title": "课文语言点：尺寸和面积",
+      "points": [
+        "问尺寸：¿Cuánto mide…? 答：Mide… metros.",
+        "长、宽、高：… metros de largo / de ancho / de alto",
+        "也可以用 tener：La sala tiene seis metros de largo.",
+        "面积用 metros cuadrados；几乘几用 por：cuatro por tres"
+      ],
+      "table": {
+        "head": ["人称", "medir", "人称", "medir"],
+        "rows": [
+          ["yo", "mido", "nosotros, -as", "medimos"],
+          ["tú", "mides", "vosotros, -as", "medís"],
+          ["él, ella, usted", "mide", "ellos, ellas, ustedes", "miden"]
+        ]
+      },
+      "examples": [
+        ["La sala mide seis metros de largo y cuatro de ancho.", "客厅长六米，宽四米。"],
+        ["El dormitorio tiene doce metros cuadrados.", "卧室有十二平方米。"],
+        ["La cocina mide tres metros por cuatro.", "厨房三米乘四米。"],
+        ["Mi hermano mide un metro ochenta.", "我哥哥身高一米八。"]
+      ]
+    },
+    {
+      "title": "复习：nosotros 命令式加代词",
+      "points": [
+        "nosotros 命令式：-ar 动词用 -emos，-er、-ir 动词用 -amos",
+        "加 lo、la、le 直接连写，在原重音音节上标重音：comprémosla",
+        "后接 nos 时去掉 -s：sentemos + nos → sentémonos",
+        "后接 se 时也去掉一个 s：expliquémoselo"
+      ],
+      "table": {
+        "head": ["nosotros 形式 + 代词", "连写后", "意思"],
+        "rows": [
+          ["compremos + la", "comprémosla", "我们买下它吧"],
+          ["llamemos + la", "llamémosla", "我们给她打电话吧"],
+          ["expliquemos + se + lo", "expliquémoselo", "我们给他讲讲吧"],
+          ["enseñemos + se + la", "enseñémosela", "我们带他看看吧"],
+          ["digamos + se + lo", "digámoselo", "我们告诉他吧"],
+          ["sentemos + nos", "sentémonos", "我们坐下吧"]
+        ]
+      },
+      "examples": [
+        ["Esta casa nos gusta mucho. Comprémosla.", "我们很喜欢这座房子。我们买下吧。"],
+        ["Los Li quieren ver el piso. Enseñémoselo.", "李家想看看这套公寓。我们带他们看看吧。"],
+        ["Pepe no sabe llegar. Expliquémoselo.", "佩佩不认识路。我们给他讲讲吧。"],
+        ["Estamos cansados. Sentémonos en la terraza.", "我们累了。我们在阳台上坐坐吧。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Cuál es su dirección?", "您的地址是什么？"],
+    ["Vivo en la calle Mayor, número 8.", "我住在马约尔街8号。"],
+    ["Perdone, ¿dónde está la calle de la Paz?", "劳驾，和平街在哪儿？"],
+    ["Siga todo recto.", "请一直往前走。"],
+    ["Tome la primera calle a la derecha.", "走右手第一条街。"],
+    ["Doble a la izquierda en la esquina.", "在街角往左拐。"],
+    ["Está a cinco minutos de aquí.", "离这儿五分钟路。"],
+    ["¿Está lejos? —No, está muy cerca.", "远吗？——不远，很近。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "El cuarto de baño está al fondo ______ pasillo.", "a": "del"},
+    {"type": "选择", "q": "______ entrar en casa, me quito los zapatos. (Al / En)", "a": "Al entrar en casa, me quito los zapatos."},
+    {"type": "选择", "q": "Desde aquí se ______ las luces de la ciudad. (ve / ven)", "a": "ven"},
+    {"type": "改写", "q": "用代词改写：Expliquemos la lección a Pepe.", "a": "Expliquémosela."},
+    {"type": "改写", "q": "改成 nosotros 命令式：Vamos a sentarnos en la terraza.", "a": "Sentémonos en la terraza."},
+    {"type": "问答", "q": "¿Cuánto mide la sala? (长 6 米，宽 4 米)", "a": "Mide seis metros de largo y cuatro de ancho."},
+    {"type": "翻译", "q": "我家对面有一家书店。", "a": "Enfrente de mi casa hay una librería."},
+    {"type": "翻译", "q": "请您一直往前走，然后往右拐。", "a": "Siga todo recto y luego doble a la derecha."}
+  ],
+  "summary": [
+    "方位短语 + de：delante de，enfrente de",
+    "al + 不定式：“……的时候”“一……就……”",
+    "se ve / se ven：从某处能看到，动词随主语单复数",
+    "尺寸：mide / tiene … metros de largo",
+    "nosotros 命令式接 nos、se 去掉 -s"
+  ],
+  "homework": [
+    "画出你家的平面图，用西语介绍各个房间的位置",
+    "用 usted 命令式写出从学校到你家的路线",
+    "用代词改写五个 nosotros 命令式句子，标好重音"
+  ],
+  "notes": {
+    "goals": "本课没有单列语法，课件按大纲安排课文中的语言点（方位、al + 不定式、se ve、尺寸），再复习 nosotros 命令式加代词，不要讲成“本课新语法”。",
+    "vocab": "seguir 的命令式 siga 既有词根变化又有拼写变化（gu → g），可顺带复习第 17 课的 dormir 型。metro 还有“地铁”的意思。",
+    "text": "课文是问路加介绍房子，可让学生边听边画路线图和平面图。第 4 行的 dobla、sigue 是 tú 命令式，指路用语里的 siga、doble 是 usted 命令式，可让学生对比。",
+    "grammar": "al + 不定式在第 21 课还会出现，这里只要求理解“……的时候”。nosotros 命令式接 se 时去掉一个 s，是学生最容易错的地方，要多练。",
+    "exercises": "第 4 题要分几步：a Pepe 先变 le 再变 se，la lección 变 la，最后去掉一个 s 并标重音。"
+  }
+}

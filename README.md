@@ -178,6 +178,11 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 每套一个文件夹，原文是 `试卷.md`；`课程大纲.md` 是各课语法和话题，`出题要求.md`、`审校要求.md` 是出题和审校的规则。
   - PDF 和听力音频在 Release `exam-book1-stages`。
 
+## 课件
+
+- [`课件/第一册/`](课件/第一册/)：《现代西班牙语》第一册（老版）第 1–24 课的分课课件（PowerPoint 16:9，另有 PDF）。每课：目标、语音（第 1–8 课）、词汇、课文、语法、常用表达、练习和答案、小结、作业，附教学备注。
+  - 每课内容是一个 JSON（`content/Lxx.json`），`build_decks.js` 统一排版生成。PPTX 和 PDF 在 Release `courseware-book1`。
+
 ## 教学视频
 
 - [`教学视频/第一册第1课/`](教学视频/第一册第1课/)：《现代西班牙语》第一册第一课 ¿Quién es él? 的教学视频（约 13 分钟，1920×1080）。中文讲解＋西语示范和跟读：元音、辅音、音节划分、重音、连读，仿照课文的对话，语法、单词和小练习。
@@ -194,6 +199,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `exam-book1` | 第一册高考模拟卷：学生版 / 教师版 PDF、整套听力 `listening_full.mp3`、分段听力 `texto_1.mp3` … `texto_9.mp3` |
 | `exam-book1-stages` | 8 套分阶段卷，文件名以卷号开头（`L01-04` … `L01-20B`）：`_student.pdf`、`_teacher.pdf`、`_listening.mp3`、`_texto_1.mp3` … `_texto_9.mp3` |
 | `lesson-videos` | 教学视频：`book1_lesson01_quien_es_el.mp4`（第一册第一课）、`lesson-videos-SHA256SUMS.txt` |
+| `courseware-book1` | 第一册分课课件：`book1_L01.pptx` … `book1_L24.pptx` 和同名 PDF、`courseware-book1-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -218,3 +224,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `试卷/第一册高考模拟卷/`（试卷原文、听力生成、语音识别核对、PDF 排版）和 Release `exam-book1`。
     - 新增 `试卷/第一册分阶段模拟卷/`（8 套）和 Release `exam-book1-stages`；全册卷按查到的第 22–24 课内容改了完形 51、57 题和知识点覆盖表；新增 `check_paper.py`（格式自检）、`asr_retry.py`（读错的句子换种子重合成）。
     - 新增 `教学视频/第一册第1课/`（脚本、合成和核对、画面模板）和 Release `lesson-videos`。
+    - 新增 `课件/第一册/`（24 课的课件内容和生成程序）和 Release `courseware-book1`。

@@ -1,0 +1,172 @@
+{
+  "lesson": 15,
+  "title_es": "La comida",
+  "title_zh": "吃饭",
+  "goals": [
+    "掌握 tú、vosotros 的肯定命令式",
+    "记住 ven、di、haz 等八个不规则形式",
+    "掌握命令式后连写代词和重音的变化",
+    "会用 ni、无人称 se、que 从句和 sin",
+    "能用西语谈一日三餐和中西餐"
+  ],
+  "vocab": [
+    ["el desayuno", "早饭"],
+    ["el almuerzo", "午饭"],
+    ["la cena", "晚饭"],
+    ["la comida", "饭；食物；午饭"],
+    ["el plato", "盘子；一道菜"],
+    ["el arroz", "米饭；大米"],
+    ["la carne", "肉"],
+    ["el pescado", "鱼（食用的）"],
+    ["la sopa", "汤"],
+    ["el pan", "面包"],
+    ["los palillos", "筷子"],
+    ["el tenedor", "叉子"],
+    ["el cuchillo", "刀"],
+    ["el restaurante", "餐馆"],
+    ["rico, rica", "好吃的"],
+    ["caliente", "热的；烫的"],
+    ["sentarse (ie)", "坐下"],
+    ["tener hambre", "饿"]
+  ],
+  "text": {
+    "title": "La comida",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Pepe, la cena está casi lista. Pon los platos en la mesa.", "zh": "佩佩，晚饭快好了。把盘子摆到桌上。"},
+      {"who": "B", "es": "Ya voy, mamá. Tengo mucha hambre. ¿Qué hay de cena?", "zh": "就来，妈妈。我饿极了。晚饭吃什么？"},
+      {"who": "A", "es": "Comida china: arroz, pescado y sopa. Llama a Ana, por favor.", "zh": "中餐：米饭、鱼和汤。请去叫一下安娜。"},
+      {"who": "B", "es": "Ana, ven a la mesa. Ya es hora de cenar.", "zh": "安娜，到桌边来，该吃晚饭了。"},
+      {"who": "A", "es": "Niños, primero lavaos las manos y después sentaos.", "zh": "孩子们，先洗手，然后坐下。"},
+      {"who": "B", "es": "Mamá, no sé comer con palillos. Enséñame, por favor.", "zh": "妈妈，我不会用筷子吃饭。请教教我。"},
+      {"who": "A", "es": "Es fácil. Toma los palillos así y haz como yo.", "zh": "很简单。像这样拿筷子，照我的样子做。"},
+      {"who": "B", "es": "Para mí es difícil. No puedo comer sin tenedor.", "zh": "对我来说很难。没有叉子我吃不了饭。"},
+      {"who": "A", "es": "Bueno, aquí tienes uno. Y ten cuidado: la sopa está muy caliente.", "zh": "好吧，给你一把。小心，汤很烫。"},
+      {"who": "B", "es": "Creo que el pescado está muy rico, mamá.", "zh": "妈妈，我觉得鱼很好吃。"},
+      {"who": "A", "es": "Gracias, hijo. Y recuerda: en China se come con palillos.", "zh": "谢谢，儿子。不过记住：在中国，人们用筷子吃饭。"},
+      {"who": "B", "es": "Mamá, Ana no come arroz ni pescado.", "zh": "妈妈，安娜不吃米饭，也不吃鱼。"},
+      {"who": "A", "es": "Ana, sé buena y come un poco. Luego salid a jugar.", "zh": "安娜，乖，吃一点。吃完你们再出去玩。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "肯定命令式 tú / vosotros（规则）",
+      "points": [
+        "tú 的肯定命令式＝陈述式现在时第三人称单数：habla",
+        "词根变化动词照样变：empieza、duerme、vuelve",
+        "vosotros：把不定式词尾的 -r 换成 -d：hablad、comed",
+        "命令句一般不说主语；称呼语用逗号隔开"
+      ],
+      "table": {
+        "head": ["不定式", "tú", "vosotros"],
+        "rows": [
+          ["hablar", "habla", "hablad"],
+          ["comer", "come", "comed"],
+          ["escribir", "escribe", "escribid"],
+          ["empezar", "empieza", "empezad"],
+          ["dormir", "duerme", "dormid"],
+          ["volver", "vuelve", "volved"]
+        ]
+      },
+      "examples": [
+        ["Come despacio, Pepe.", "佩佩，慢点吃。"],
+        ["Niños, abrid los libros.", "孩子们，把书打开。"],
+        ["Vuelve pronto, hijo.", "孩子，早点回来。"],
+        ["Escribid vuestros nombres aquí.", "在这儿写上你们的名字。"]
+      ]
+    },
+    {
+      "title": "不规则的 tú 命令式",
+      "points": [
+        "下面八个动词的 tú 命令式不规则，要单独记",
+        "它们的 vosotros 命令式仍然规则：venid、decid、haced、id",
+        "sé（ser）带重音符号，与代词 se 区分",
+        "ve＝去（ir），ven＝来（venir），不要混淆"
+      ],
+      "table": {
+        "head": ["不定式", "tú", "不定式", "tú"],
+        "rows": [
+          ["venir", "ven", "decir", "di"],
+          ["hacer", "haz", "poner", "pon"],
+          ["salir", "sal", "tener", "ten"],
+          ["ir", "ve", "ser", "sé"]
+        ]
+      },
+      "examples": [
+        ["Ven aquí, Ana.", "安娜，过来。"],
+        ["Haz los ejercicios, Pepe.", "佩佩，做练习。"],
+        ["Pon el pan en la mesa.", "把面包放到桌上。"],
+        ["Sé bueno, hijo.", "孩子，乖一点。"]
+      ]
+    },
+    {
+      "title": "命令式后连写代词",
+      "points": [
+        "宾格、与格和自复代词都连写在肯定命令式后面",
+        "连写后原来的重读音节不变，需要时加重音符号：siéntate、dímelo",
+        "vosotros 接 os 时去掉 -d：sentaos、lavaos；例外：idos",
+        "-ir 动词去掉 -d 后，i 要加重音：vestíos"
+      ],
+      "examples": [
+        ["Dímelo, por favor.", "请告诉我（这件事）。"],
+        ["Siéntate aquí, Ana.", "安娜，坐这儿。"],
+        ["Niños, lavaos las manos.", "孩子们，洗洗手。"],
+        ["Comedlo todo.", "你们把它都吃了。"]
+      ]
+    },
+    {
+      "title": "ni、无人称 se、que 从句和 sin",
+      "points": [
+        "ni 连接两个否定成分：no…ni…",
+        "无人称 se：se + 动词第三人称单数，泛指「人们」",
+        "que 引导从句：Creo que…（宾语）；el plato que…（定语）",
+        "sin + 名词或不定式：sin azúcar；salir sin desayunar"
+      ],
+      "examples": [
+        ["No como carne ni pescado.", "我不吃肉，也不吃鱼。"],
+        ["En China se come con palillos.", "在中国，人们用筷子吃饭。"],
+        ["Creo que la sopa está muy rica.", "我觉得汤很好喝。"],
+        ["Pepe sale de casa sin desayunar.", "佩佩不吃早饭就出门。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Pon la mesa.", "摆好餐桌。"],
+    ["Aquí tienes.", "给你。"],
+    ["Ten cuidado.", "小心。"],
+    ["¡Buen provecho!", "祝你胃口好！"],
+    ["La cena está lista.", "晚饭好了。"],
+    ["Tengo hambre.", "我饿了。"],
+    ["Ya voy.", "这就来。"],
+    ["con palillos / con tenedor", "用筷子／用叉子"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Pepe, ______ la sopa. (comer, tú)", "a": "Pepe, come la sopa."},
+    {"type": "填空", "q": "Ana, ______ los ejercicios. (hacer, tú)", "a": "Ana, haz los ejercicios."},
+    {"type": "填空", "q": "Niños, ______ la puerta. (abrir, vosotros)", "a": "Niños, abrid la puerta."},
+    {"type": "选择", "q": "Niños, ______ las manos. (lavados / lavaos / lávaos)", "a": "Niños, lavaos las manos."},
+    {"type": "选择", "q": "Ana no come ______ bebe. (ni / o / sin)", "a": "Ana no come ni bebe."},
+    {"type": "改写", "q": "Tienes que sentarte aquí.（改成 tú 的命令式）", "a": "Siéntate aquí."},
+    {"type": "改写", "q": "Dime el precio.（用代词代替 el precio）", "a": "Dímelo."},
+    {"type": "翻译", "q": "我喝咖啡不加糖。", "a": "Tomo el café sin azúcar."}
+  ],
+  "summary": [
+    "tú 命令式＝现在时第三人称单数：come",
+    "vosotros 命令式：-r 换成 -d：hablad、comed",
+    "不规则：ven、di、haz、pon、sal、ten、ve、sé",
+    "代词连写在后，需要时加重音：dímelo",
+    "os 前去掉 -d：sentaos、lavaos；但 idos"
+  ],
+  "homework": [
+    "写出十个动词的 tú 和 vosotros 肯定命令式",
+    "以妈妈的口吻写六句吃饭时说的命令句",
+    "用 ni、sin、se come 各造一个句子，谈中西餐"
+  ],
+  "notes": {
+    "goals": "本课开始学命令式，只讲肯定式；可以用家里吃饭的情景来练。",
+    "vocab": "在西班牙 comida 常指午饭；hambre 是阴性名词，所以说 mucha hambre。",
+    "text": "A 是妈妈，B 是儿子佩佩。可让两名学生分角色朗读，再找出所有命令式和连写的代词，说说哪些要加重音。",
+    "grammar": "先由陈述式第三人称单数引出 tú 命令式；连写代词后的重音可复习重音规则来解释。",
+    "exercises": "第 4 题考 os 前去 -d 且不加重音；第 7 题注意 dímelo 的重音；翻译题 el 可省略。"
+  }
+}

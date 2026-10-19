@@ -1,0 +1,185 @@
+{
+  "lesson": 10,
+  "title_es": "El hijo está enfermo",
+  "title_zh": "儿子病了",
+  "goals": [
+    "掌握与格代词 me、te、le、nos、os、les",
+    "会把与格、宾格代词连用，掌握 le → se 的变化",
+    "掌握 volver、saber 的现在时变位和用法",
+    "会用 ¿cuál? / ¿cuáles? 提问",
+    "能简单谈论生病、看病和买药"
+  ],
+  "vocab": [
+    ["enfermo, enferma", "生病的；病人"],
+    ["el hospital", "医院"],
+    ["la farmacia", "药店"],
+    ["la medicina", "药"],
+    ["la receta", "处方"],
+    ["la pastilla", "药片"],
+    ["la fiebre", "发烧"],
+    ["la tos", "咳嗽"],
+    ["el dolor de cabeza", "头疼"],
+    ["la temperatura", "体温；温度"],
+    ["grave", "严重的"],
+    ["pasar", "发生"],
+    ["recetar", "开（药方）"],
+    ["descansar", "休息"],
+    ["explicar", "解释；讲解"],
+    ["volver", "回来；返回"],
+    ["saber", "知道；会"],
+    ["cuál, cuáles", "哪个；哪些"]
+  ],
+  "text": {
+    "title": "El hijo está enfermo",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Buenos días, doctor. Mi hijo está enfermo.", "zh": "医生，早上好。我儿子病了。"},
+      {"who": "B", "es": "Buenos días, señora. ¿Qué le pasa al niño?", "zh": "早上好，太太。孩子怎么了？"},
+      {"who": "A", "es": "Tiene fiebre y tos, y no quiere comer nada.", "zh": "他发烧、咳嗽，什么都不想吃。"},
+      {"who": "B", "es": "Vamos a ver... Tiene un poco de fiebre, pero no es grave.", "zh": "我看看……有点儿发烧，不过不严重。"},
+      {"who": "A", "es": "¿Qué medicina tiene que tomar?", "zh": "他得吃什么药？"},
+      {"who": "B", "es": "Le receto unas pastillas blancas y unas pastillas amarillas.", "zh": "我给他开一些白药片和一些黄药片。"},
+      {"who": "A", "es": "¿Cuáles son para la fiebre?", "zh": "哪些是退烧的？"},
+      {"who": "B", "es": "Las blancas. Las amarillas son para la tos.", "zh": "白的。黄的是治咳嗽的。"},
+      {"who": "A", "es": "Doctor, no sé cuántas tiene que tomar. ¿Me lo explica?", "zh": "医生，我不知道他该吃几片。您给我讲讲好吗？"},
+      {"who": "B", "es": "Se lo explico: una blanca por la mañana y una amarilla por la noche.", "zh": "我给您讲：早上吃一片白的，晚上吃一片黄的。"},
+      {"who": "A", "es": "¿Y cuándo volvemos?", "zh": "那我们什么时候再来？"},
+      {"who": "B", "es": "Vuelven ustedes el jueves. Ahora el niño tiene que descansar.", "zh": "你们星期四再来。现在孩子得好好休息。"},
+      {"who": "A", "es": "Muchas gracias. ¿Sabe usted dónde hay una farmacia?", "zh": "非常感谢。您知道哪儿有药店吗？"},
+      {"who": "B", "es": "Sí, hay una al lado del hospital.", "zh": "知道，医院旁边就有一家。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "与格代词",
+      "points": [
+        "与格代词作间接宾语，表示动作的对象：给谁、对谁、为谁。",
+        "me、te、nos、os 和宾格代词同形；第三人称用 le、les。",
+        "le 指他、她、您，les 指他们、她们、您们；常与 a + 名词连用。",
+        "位置同宾格代词：放在变位动词前，或连写在不定式后。"
+      ],
+      "table": {
+        "head": ["主格", "与格", "例句"],
+        "rows": [
+          ["yo", "me", "Me receta pastillas."],
+          ["tú", "te", "Te compro el jarabe."],
+          ["él, ella, usted", "le", "Le explico la receta."],
+          ["nosotros, nosotras", "nos", "Nos vende medicinas."],
+          ["vosotros, vosotras", "os", "Os escribo una carta."],
+          ["ellos, ellas, ustedes", "les", "Les leo el periódico."]
+        ]
+      },
+      "examples": [
+        ["¿Qué te pasa, Pepe?", "佩佩，你怎么了？"],
+        ["El médico le receta unas pastillas al niño.", "医生给孩子开了一些药片。"],
+        ["Mi madre nos compra la medicina.", "妈妈给我们买药。"],
+        ["Voy a explicarles la lección.", "我来给他们讲这一课。"]
+      ]
+    },
+    {
+      "title": "与格和宾格代词连用",
+      "points": [
+        "两个代词连用时，与格在前，宾格在后：Me lo explica。",
+        "le、les 后面紧跟 lo、la、los、las 时，一律变成 se。",
+        "se 指谁不清楚时，可加 a él、a ella、a usted 等说明。",
+        "连写在不定式后时要加重音符号：Voy a explicárselo。"
+      ],
+      "table": {
+        "head": ["组合", "例句", "意思"],
+        "rows": [
+          ["me + lo", "Me lo explica.", "他给我讲（这个）。"],
+          ["te + la", "Te la compro.", "我给你买（它）。"],
+          ["nos + los", "Nos los vende.", "他把（它们）卖给我们。"],
+          ["le + lo → se lo", "Se lo receto.", "我给他开（这个药）。"],
+          ["les + las → se las", "Se las explico.", "我给他们讲（这些）。"]
+        ]
+      },
+      "examples": [
+        ["—¿Me compras el jarabe? —Sí, te lo compro.", "——你给我买糖浆吗？——好，我给你买。"],
+        ["Le explico la receta. → Se la explico a usted.", "我给您讲讲处方。→ 我给您讲讲（它）。"],
+        ["—¿Les lees el periódico a tus abuelos? —Sí, se lo leo.", "——你给爷爷奶奶读报吗？——是的，我给他们读。"],
+        ["Voy a explicárselo a usted.", "我来给您讲讲（这个）。"]
+      ]
+    },
+    {
+      "title": "动词 volver 和 saber",
+      "points": [
+        "volver 词根 o 变 ue：vuelvo…；nosotros、vosotros 不变。",
+        "volver a + 地点：回到某处；volver de + 地点：从某处回来。",
+        "saber 只有 yo 不规则：sé（带重音，区别于代词 se）。",
+        "saber + 名词或疑问词：知道；saber + 不定式：会（做某事）。"
+      ],
+      "table": {
+        "head": ["人称", "volver", "saber"],
+        "rows": [
+          ["yo", "vuelvo", "sé"],
+          ["tú", "vuelves", "sabes"],
+          ["él, ella, usted", "vuelve", "sabe"],
+          ["nosotros, nosotras", "volvemos", "sabemos"],
+          ["vosotros, vosotras", "volvéis", "sabéis"],
+          ["ellos, ellas, ustedes", "vuelven", "saben"]
+        ]
+      },
+      "examples": [
+        ["—¿Cuándo vuelves a casa? —Vuelvo el sábado.", "——你什么时候回家？——星期六回。"],
+        ["Mis padres vuelven del hospital.", "我父母从医院回来。"],
+        ["No sé dónde está la farmacia.", "我不知道药店在哪儿。"],
+        ["Mi hijo ya sabe leer.", "我儿子已经认字了。"]
+      ]
+    },
+    {
+      "title": "疑问词 ¿cuál? / ¿cuáles?",
+      "points": [
+        "¿cuál? 问“哪一个”，复数 ¿cuáles? 问“哪些”，没有阴阳性变化。",
+        "常用 ¿Cuál es…? / ¿Cuáles son…? 和 ¿Cuál de…? 结构。",
+        "问地址、名字、号码等用 ¿Cuál es…?，不说 ¿Qué es…?。",
+        "¿qué? 可直接跟名词（¿Qué medicina?），¿cuál? 一般不跟名词。"
+      ],
+      "examples": [
+        ["—¿Cuál es tu casa? —Es aquélla.", "——哪个是你家？——是那个。"],
+        ["—¿Cuáles son tus libros? —Son éstos.", "——哪些是你的书？——是这些。"],
+        ["¿Cuál de estas pastillas es para la fiebre?", "这些药片里哪一种是退烧的？"],
+        ["¿Cuál es la dirección del hospital?", "医院的地址是什么？"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Qué te pasa?", "你怎么了？"],
+    ["¿Qué le pasa al niño?", "孩子怎么了？"],
+    ["Tengo fiebre y tos.", "我发烧、咳嗽。"],
+    ["Tengo dolor de cabeza.", "我头疼。"],
+    ["No es grave.", "不严重。"],
+    ["Tienes que descansar.", "你得休息。"],
+    ["Aquí tiene la receta.", "这是您的处方。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "El médico ___ receta unas pastillas a mi hermano.（填与格代词）", "a": "El médico le receta unas pastillas a mi hermano."},
+    {"type": "选择", "q": "¿___ son tus libros? —Son éstos. (Qué / Cuáles)", "a": "¿Cuáles son tus libros? —Son éstos."},
+    {"type": "填空", "q": "Yo no ___ (saber) dónde está el hospital.", "a": "Yo no sé dónde está el hospital."},
+    {"type": "填空", "q": "¿Cuándo ___ (volver) vosotros a casa?", "a": "¿Cuándo volvéis vosotros a casa?"},
+    {"type": "改写", "q": "Le explico la lección a Ana.（把 la lección 换成代词）", "a": "Se la explico a Ana."},
+    {"type": "改写", "q": "Mi madre me compra las medicinas.（把 las medicinas 换成代词）", "a": "Mi madre me las compra."},
+    {"type": "翻译", "q": "孩子有点儿发烧，但是不严重。", "a": "El niño tiene un poco de fiebre, pero no es grave."},
+    {"type": "问答", "q": "¿Me explicas la receta?（用 Sí 和代词回答）", "a": "Sí, te la explico."}
+  ],
+  "summary": [
+    "与格代词 me、te、le、nos、os、les：给谁、对谁。",
+    "两个代词连用时与格在前、宾格在后：Me lo explica。",
+    "le、les 后面跟 lo、la 等时变成 se。",
+    "volver：vuelvo…；saber：sé, sabes…",
+    "¿cuál? / ¿cuáles? 问“哪个、哪些”，一般不跟名词。"
+  ],
+  "homework": [
+    "熟读课文，和同学分角色表演看病的对话。",
+    "写出 volver、saber 的现在时变位，各造两个句子。",
+    "用两个代词连用的形式写 4 组问答，其中 2 组用 se。",
+    "用 ¿cuál? 和 ¿cuáles? 各写一个问题并回答。"
+  ],
+  "notes": {
+    "goals": "本课是代词的难点课。先复习第 8 课的宾格代词和第 9 课的间接宾语，再引出与格代词。",
+    "vocab": "生病的词可配合动作和图片教；tener fiebre / tos / dolor de cabeza 当作整体记。提醒 cuál、cuáles 的重音。",
+    "text": "A 是母亲，B 是医生。先听读，再让学生找出 le、me lo、se lo，说清各指谁、指什么，然后分角色表演。",
+    "grammar": "强调“与格在前、宾格在后”，西语里没有 le lo、les la 这样的组合。se 指“您”时可加 a usted 说明。指示代词按旧版课本写作 aquélla、éstos，2010 年 RAE 正字法起不再要求加重音。",
+    "exercises": "改写题先让学生标出直接宾语和间接宾语，再换成代词；连写在不定式后的形式要检查重音。"
+  }
+}
