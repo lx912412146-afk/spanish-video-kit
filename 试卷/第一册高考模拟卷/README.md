@@ -6,9 +6,10 @@
 |---|---|
 | `试卷.md` | 全卷原文：命题说明、注意事项、四部分试题、答案与评分标准、听力原文、知识点覆盖表 |
 | Release [`exam-book1`](../../releases/tag/exam-book1) | `exam_book1_student.pdf`（学生版，9 页）、`exam_book1_teacher.pdf`（教师版，含答案和听力原文）、`listening_full.mp3`（整套听力，约 10 分钟，按真题的读题、作答停顿）、`texto_1.mp3` … `texto_9.mp3`（每段只播一遍，供练习） |
-| `make_listening.py` | 从 `试卷.md` 的“听力原文”生成听力音频。男声 `qwen3_M1F5_25`；女声用 Qwen3-TTS 克隆 Supertonic 3 F1（参考录音 `听力/ref_female_F1.wav`） |
+| `make_listening.py` | 从 `试卷.md` 的“听力原文”生成听力音频。男声 `qwen3_M1F5_25`；女声用 Qwen3-TTS 克隆 Supertonic 3 F1（参考录音 `听力/ref_female_F1.wav`，[分阶段卷](../第一册分阶段模拟卷/) 也用这一份） |
 | `asr_check.py` | 用语音识别（Parakeet-TDT 0.6B v3）把每句录音转回文字，和录音稿逐词比对，结果在 `听力/听力_识别核对.json` |
 | `asr_retry.py` | 识别有错词的句子换随机种子重新合成，挑识别最准的一版；挑中的种子记在 `听力/seed_overrides.json`，`make_listening.py` 照着用 |
+| `check_paper.py` | 格式自检：题号、选项、答案表、完形答案和选项、语法填空提示词、听力原文、范文词数前后一致 |
 | `build_pdf.py` | 把 `试卷.md` 排成 A4 的学生版、教师版 PDF |
 
 ## 重新生成

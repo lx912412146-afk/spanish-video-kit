@@ -1,0 +1,1102 @@
+[
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "Nuria, tú prefieres el verano, ¿verdad?",
+  "seed": null,
+  "asr": "Nuria, tú prefieres el verano, ¿verdad?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "No, Álvaro.",
+  "seed": null,
+  "asr": "No, Álvaro.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "En verano hace mucho calor aquí en Sevilla.",
+  "seed": null,
+  "asr": "En verano hace mucho calor aquí en Sevilla.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "Entonces prefieres la primavera.",
+  "seed": null,
+  "asr": "Entonces prefieres la primavera.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Tampoco.",
+  "seed": null,
+  "asr": "Tampoco.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "En primavera hace mucho viento.",
+  "seed": null,
+  "asr": "En primavera hace mucho viento.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Prefiero el otoño, porque hace buen tiempo.",
+  "seed": null,
+  "asr": "Prefiero el otoño, porque hace buen tiempo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "Diego, tu padre es cocinero en un hotel, ¿verdad?",
+  "seed": null,
+  "asr": "Diego, tu padre es cocinero en un hotel, ¿verdad?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Sí.",
+  "seed": null,
+  "asr": "C",
+  "errors": 0,
+  "diff": [
+   [
+    "si",
+    "c"
+   ]
+  ],
+  "ignored": [
+   [
+    "si",
+    "c"
+   ]
+  ]
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Por eso se levanta muy temprano todos los días.",
+  "seed": null,
+  "asr": "Por eso se levanta muy temprano todos los días.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "¿A qué hora se levanta?",
+  "seed": null,
+  "asr": "¿A qué hora se levanta?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Se despierta a las cinco y se levanta a las cinco y media.",
+  "seed": null,
+  "asr": "Se despierta a las 5 y se levanta a las 5 y media.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Empieza a trabajar a las seis.",
+  "seed": null,
+  "asr": "Empieza a trabajar a las seis.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "Sergio, ¿juegas al baloncesto con nosotros el sábado por la mañana?",
+  "seed": null,
+  "asr": "Sergio, ¿juegas al baloncesto con nosotros el sábado por la mañana?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "No puedo.",
+  "seed": null,
+  "asr": "No puedo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "Los sábados por la mañana voy a la piscina con mi hermano.",
+  "seed": null,
+  "asr": "Los sábados por la mañana voy a la piscina con mi hermano.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "¿Y el domingo?",
+  "seed": null,
+  "asr": "¿Y el domingo?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "El domingo por la mañana corro en el parque, pero por la tarde estoy libre.",
+  "seed": null,
+  "asr": "El domingo por la mañana corro en el parque, pero por la tarde estoy libre.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "Rocío, ¿tienes el horario de este curso?",
+  "seed": null,
+  "asr": "¿Rocío? ¿Tienes el horario de este curso?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Sí, aquí está.",
+  "seed": null,
+  "asr": "Sí, aquí está.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Los lunes la primera clase es de educación física, a las ocho.",
+  "seed": null,
+  "asr": "Los lunes la primera clase es de educación física, a las 8.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "¿Y después tenemos matemáticas?",
+  "seed": null,
+  "asr": "Y después tenemos matemáticas.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "No, después tenemos inglés.",
+  "seed": null,
+  "asr": "No, después tenemos inglés.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "La clase de matemáticas comienza a las diez y cuarto.",
+  "seed": null,
+  "asr": "La clase de matemáticas comienza a las 10 y cuarto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "Javier, ¿qué vamos a hacer el domingo?",
+  "seed": null,
+  "asr": "Javier, ¿qué vamos a hacer el domingo?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Si hace buen tiempo, vamos a la montaña con mis primos.",
+  "seed": null,
+  "asr": "Si hace buen tiempo vamos a la montaña con mis primos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "¿Y si hace mucho viento?",
+  "seed": null,
+  "asr": "¿Y si hace mucho viento?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Entonces vamos al cine o al museo.",
+  "seed": null,
+  "asr": "Entonces vamos al cine o al museo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Tú decides.",
+  "seed": null,
+  "asr": "Tú decides.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Hola, Silvia.",
+  "seed": null,
+  "asr": "Hola, Silvia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Qué tal tu nuevo horario?",
+  "seed": null,
+  "asr": "¿Qué tal tu nuevo horario?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Bien, Óscar.",
+  "seed": null,
+  "asr": "Bien, Oscar.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Tengo clases de lunes a viernes, desde las ocho hasta las doce.",
+  "seed": null,
+  "asr": "Tengo clases de lunes a viernes, desde las 8 hasta las 12.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Y por la tarde?",
+  "seed": null,
+  "asr": "Y por la tarde.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Por la tarde sólo tengo clases los martes y los jueves.",
+  "seed": null,
+  "asr": "Por la tarde solo tengo clases los martes y los jueves.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¡Qué bien!",
+  "seed": null,
+  "asr": "¡Qué bien!",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Entonces puedes venir a nuestro club de baloncesto los lunes y los miércoles.",
+  "seed": null,
+  "asr": "Entonces puedes venir a nuestro club de baloncesto los lunes y los miércoles.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿A qué hora empezáis?",
+  "seed": null,
+  "asr": "¿A qué hora empezáis?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿A las cuatro?",
+  "seed": null,
+  "asr": "A las cuatro.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "No, a las cinco.",
+  "seed": null,
+  "asr": "No a las cinco.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Muchos compañeros salen de clase a las cuatro y media.",
+  "seed": null,
+  "asr": "Muchos compañeros salen de clase a las cuatro y media.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Vale.",
+  "seed": null,
+  "asr": "Vale.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿Y los viernes?",
+  "seed": null,
+  "asr": "¿Y los viernes?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Los viernes por la tarde tenemos un partido.",
+  "seed": null,
+  "asr": "Los viernes por la tarde tenemos un partido.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Puedes venir?",
+  "seed": null,
+  "asr": "¿Puedes venir?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Los viernes no tengo clase, pero tampoco estoy libre.",
+  "seed": null,
+  "asr": "Los viernes no tengo clase, pero tampoco estoy libre.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Ayudo a mi madre en su tienda.",
+  "seed": null,
+  "asr": "Ayudo a mi madre en su tienda.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "No pasa nada.",
+  "seed": null,
+  "asr": "No pasa nada.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Entonces nos vemos el lunes a las cinco.",
+  "seed": null,
+  "asr": "Entonces nos vemos el lunes a las 5.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "De acuerdo.",
+  "seed": null,
+  "asr": "De acuerdo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Hasta el lunes.",
+  "seed": null,
+  "asr": "Hasta el lunes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Inés, tu madre es enfermera, ¿verdad?",
+  "seed": null,
+  "asr": "Inés, tu madre es enfermera, ¿verdad?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "No, Rubén.",
+  "seed": null,
+  "asr": "No, Rubén.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Mi tía es enfermera.",
+  "seed": null,
+  "asr": "Mi tía es enfermera.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Mi madre es médica.",
+  "seed": null,
+  "asr": "Mi madre es médica.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Y tu padre?",
+  "seed": null,
+  "asr": "¿Y tu padre?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿También trabaja en un hospital?",
+  "seed": null,
+  "asr": "¿También trabaja en un hospital?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "No, mi padre es profesor de historia en una escuela.",
+  "seed": null,
+  "asr": "No, mi padre es profesor de historia en una escuela.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Tus padres trabajan mucho.",
+  "seed": null,
+  "asr": "Tus padres trabajan mucho.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿A qué hora salen de casa?",
+  "seed": null,
+  "asr": "¿A qué hora salen de casa?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Mi madre sale a las siete.",
+  "seed": null,
+  "asr": "Mi madre sale a las 7.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Mi padre y yo desayunamos juntos y él sale a las siete y cuarto.",
+  "seed": null,
+  "asr": "Mi padre y yo desayunamos juntos, y él sale a las siete y cuarto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Sus clases empiezan a las ocho?",
+  "seed": null,
+  "asr": "¿Sus clases empiezan a las 8?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Sí, a las ocho.",
+  "seed": null,
+  "asr": "Sí, a las ocho.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Su escuela está cerca de casa.",
+  "seed": null,
+  "asr": "Su escuela está cerca de casa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Y almuerzan en casa?",
+  "seed": null,
+  "asr": "¿Y almuerzan en casa?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Mi padre sí, pero mi madre no tiene tiempo.",
+  "seed": null,
+  "asr": "Mi padre sí, pero mi madre no tiene tiempo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Ella almuerza en el hospital.",
+  "seed": null,
+  "asr": "Ella almuerza en el hospital.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Y los domingos descansan?",
+  "seed": null,
+  "asr": "¿Y los domingos descansan?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Sí.",
+  "seed": null,
+  "asr": "C",
+  "errors": 0,
+  "diff": [
+   [
+    "si",
+    "c"
+   ]
+  ],
+  "ignored": [
+   [
+    "si",
+    "c"
+   ]
+  ]
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Los domingos duermen hasta las ocho y después pasean por el parque.",
+  "seed": null,
+  "asr": "Los domingos duermen hasta las ocho y después pasean por el parque.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Me llamo Tomás y tengo dieciséis años.",
+  "seed": 2000,
+  "asr": "Me llamo Tomás y tengo 16 años.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Vivo en Valencia.",
+  "seed": null,
+  "asr": "Vivo en Valencia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Hago deporte todo el año.",
+  "seed": null,
+  "asr": "Hago deporte todo el año.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "En primavera corro en el parque.",
+  "seed": null,
+  "asr": "En primavera corro en el parque.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Me levanto a las seis y corro media hora.",
+  "seed": null,
+  "asr": "Me levanto a las seis y corro media hora.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "En verano hace mucho calor y prefiero nadar.",
+  "seed": null,
+  "asr": "En verano hace mucho calor y prefiero nadar.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Mis amigos van a la piscina, pero yo prefiero el mar.",
+  "seed": null,
+  "asr": "Mis amigos van a la piscina, pero yo prefiero el mar.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Como vivo cerca de la playa, voy allí todas las tardes.",
+  "seed": null,
+  "asr": "Como vivo cerca de la playa, voy allí todas las tardes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "En otoño juego al fútbol con el equipo de mi escuela.",
+  "seed": null,
+  "asr": "En otoño juego al fútbol con el equipo de mi escuela.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Los partidos se efectúan los sábados por la mañana.",
+  "seed": null,
+  "asr": "Los partidos se efectúan los sábados por la mañana.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Los domingos por la tarde descanso en casa.",
+  "seed": null,
+  "asr": "Los domingos por la tarde descanso en casa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "En invierno no corro, porque hace frío y por la mañana todavía está oscuro.",
+  "seed": null,
+  "asr": "En invierno no corro, porque hace frío y por la mañana todavía está oscuro.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Entonces voy al gimnasio con mi padre los martes y los jueves por la tarde.",
+  "seed": null,
+  "asr": "Entonces voy al gimnasio con mi padre los martes y los jueves por la tarde.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "M",
+  "text": "Cuando vuelvo a casa, me ducho, ceno y estudio un poco.",
+  "seed": null,
+  "asr": "Cuando vuelvo a casa, me ducho, ceno y estudio un poco.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Buenos días.",
+  "seed": null,
+  "asr": "Buenos días.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Quiero información sobre las clases de natación para niños.",
+  "seed": null,
+  "asr": "Quiero información sobre las clases de natación para niños.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Buenos días, señor.",
+  "seed": null,
+  "asr": "Buenos días, señor.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "¿Cuántos años tiene el niño?",
+  "seed": null,
+  "asr": "¿Cuántos años tiene el niño?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Es una niña, mi hija.",
+  "seed": null,
+  "asr": "Es una niña, mi hija.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Tiene ocho años.",
+  "seed": 3000,
+  "asr": "Tiene 8 años.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Muy bien.",
+  "seed": null,
+  "asr": "Muy bien.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Tenemos clases para niños de seis a diez años.",
+  "seed": null,
+  "asr": "Tenemos clases para niños de 6 a 10 años.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Qué días son las clases?",
+  "seed": 2000,
+  "asr": "¿Qué días son las clases?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Hay dos grupos: uno los martes y los jueves por la tarde.",
+  "seed": null,
+  "asr": "Hay dos grupos, uno los martes y los jueves por la tarde.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "El otro, los sábados por la mañana.",
+  "seed": null,
+  "asr": "El otro, los sábados por la mañana.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Entre semana mi hija sale de la escuela a las cinco y media.",
+  "seed": null,
+  "asr": "Entre semana mi hija sale de la escuela a las cinco y media.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Prefiere el sábado.",
+  "seed": null,
+  "asr": "Prefiere el sábado.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Entonces el grupo del sábado.",
+  "seed": null,
+  "asr": "Entonces el grupo del sábado.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "La clase comienza a las diez y termina a las once.",
+  "seed": null,
+  "asr": "La clase comienza a las 10 y termina a las 11.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Y cuánto es?",
+  "seed": null,
+  "asr": "¿Y cuánto es?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "El grupo del sábado, cincuenta euros al mes.",
+  "seed": null,
+  "asr": "El grupo del sábado, 50 euros al mes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "El otro grupo, sesenta.",
+  "seed": null,
+  "asr": "El otro grupo, 60.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Bien.",
+  "seed": null,
+  "asr": "Bien.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Qué tiene que traer mi hija?",
+  "seed": null,
+  "asr": "¿Qué tiene que traer mi hija?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Su ropa de baño y una foto para el carné.",
+  "seed": null,
+  "asr": "Su ropa de baño y una foto para el carné.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Muchas gracias.",
+  "seed": null,
+  "asr": "Muchas gracias.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Entonces el sábado venimos a las diez menos cuarto.",
+  "seed": null,
+  "asr": "Entonces el sábado venimos a las 10 menos cuarto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ }
+]

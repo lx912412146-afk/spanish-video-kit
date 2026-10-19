@@ -1,0 +1,1082 @@
+[
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "Inés, ¿por qué no viniste al cine anoche?",
+  "seed": 2000,
+  "asr": "Inés, ¿por qué no viniste al cine anoche?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Lo siento, Ramón.",
+  "seed": null,
+  "asr": "Lo siento, Ramón.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Mi madre llegó tarde del trabajo y tuve que ayudar en casa.",
+  "seed": null,
+  "asr": "Mi madre llegó tarde del trabajo y tuve que ayudar en casa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "¿Hiciste la cena?",
+  "seed": null,
+  "asr": "¿Hiciste la cena?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "No, la cena la hizo mi padre.",
+  "seed": null,
+  "asr": "No, la cena la hizo mi padre.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Yo lavé la ropa y luego limpié la cocina.",
+  "seed": null,
+  "asr": "Yo lavé la ropa y luego limpie la cocina.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "Tomás, ¿todavía estudias inglés en la escuela nocturna?",
+  "seed": null,
+  "asr": "Tomás, todavía estudias inglés en la escuela nocturna.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Sí, voy tres noches a la semana.",
+  "seed": null,
+  "asr": "Sí, voy tres noches a la semana.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "¿Cuándo empezaste?",
+  "seed": null,
+  "asr": "¿Cuándo empezaste?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "¿Hace un año?",
+  "seed": null,
+  "asr": "Hace un año,",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "No, empecé hace cinco meses.",
+  "seed": null,
+  "asr": "No, empecé hace cinco meses.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Mi hermano empezó hace tres meses.",
+  "seed": null,
+  "asr": "Mi hermano empezó hace tres meses.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "Óscar, ¿qué te pasa?",
+  "seed": null,
+  "asr": "Oscar, ¿qué te pasa?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "Estás muy cansado.",
+  "seed": null,
+  "asr": "Estás muy cansado.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "Ayer fue un día muy atareado.",
+  "seed": null,
+  "asr": "Ayer fue un día muy atareado.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "Volví a casa a las diez de la noche.",
+  "seed": null,
+  "asr": "Volví a casa a las 10 de la noche.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "¿Y te acostaste a las once, como siempre?",
+  "seed": null,
+  "asr": "¿Y te acostaste a las once, como siempre?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "No, antes de acostarme preparé la reunión de hoy.",
+  "seed": null,
+  "asr": "No, antes de acostarme, preparé la reunión de hoy.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "Me acosté a las doce y media.",
+  "seed": null,
+  "asr": "Me acosté a las doce y media.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "Silvia, ¿qué tal tus entrevistas de trabajo?",
+  "seed": null,
+  "asr": "Silvia, ¿qué tal tus entrevistas de trabajo?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Hice dos: una en una agencia de viajes y otra en un hotel.",
+  "seed": null,
+  "asr": "Hice dos, una en una agencia de viajes y otra en un hotel.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "¿Y qué te dijeron?",
+  "seed": null,
+  "asr": "¿Y qué te dijeron?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "En la agencia, nada, pero el hotel me llamó ayer.",
+  "seed": null,
+  "asr": "En la agencia, nada, pero el hotel me llamó ayer.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Empiezo allí el lunes.",
+  "seed": null,
+  "asr": "Empiezo allí el lunes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "¿Conoces al profesor Ortega?",
+  "seed": null,
+  "asr": "¿Conoces al profesor Ortega?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "Vino a la facultad la semana pasada.",
+  "seed": null,
+  "asr": "Vino a la facultad la semana pasada.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Sí, ayer me dio clase.",
+  "seed": null,
+  "asr": "Sí, ayer me dio clase.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Es muy simpático.",
+  "seed": null,
+  "asr": "Es muy simpático.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "¿Es peruano, como su esposa?",
+  "seed": null,
+  "asr": "¿Es peruano, como su esposa?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "No, él es chileno.",
+  "seed": null,
+  "asr": "No, él es chileno.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Pero vivió diez años en México.",
+  "seed": null,
+  "asr": "pero vivió 10 años en México.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Hola, ¿conoces a la profesora Navarro?",
+  "seed": null,
+  "asr": "Hola, ¿conoces a la profesora Navarro?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿La profesora nueva de Sevilla?",
+  "seed": null,
+  "asr": "La profesora nueva de Sevilla,",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Sí, nos dio clase el martes.",
+  "seed": null,
+  "asr": "Sí, nos dio clase el martes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Cuándo llegó a Beijing?",
+  "seed": null,
+  "asr": "¿Cuándo llegó a Beijing?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Llegó hace dos semanas, pero empezó las clases hace una semana.",
+  "seed": null,
+  "asr": "Llegó hace dos semanas, pero empezó las clases hace una semana.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Y qué clase os da?",
+  "seed": null,
+  "asr": "¿Y qué clase os da?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Literatura?",
+  "seed": null,
+  "asr": "¿Literatura?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "No, nos da conversación.",
+  "seed": null,
+  "asr": "No, nos da conversación.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "La gramática nos la da el profesor Molina, como siempre.",
+  "seed": null,
+  "asr": "La gramática nos la da el profesor Molina, como siempre.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Qué tal fue la primera clase?",
+  "seed": null,
+  "asr": "¿Qué tal fue la primera clase?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Muy divertida.",
+  "seed": null,
+  "asr": "Muy divertida.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Nos trajo fotos de Sevilla y nos las enseñó todas.",
+  "seed": null,
+  "asr": "Nos trajo fotos de Sevilla y nos las enseñó todas.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Os puso un examen?",
+  "seed": null,
+  "asr": "¿Os puso un examen?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "No, no.",
+  "seed": null,
+  "asr": "No no.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Dijo que el examen es en enero.",
+  "seed": null,
+  "asr": "Dijo que el examen es en enero.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¡Qué suerte!",
+  "seed": null,
+  "asr": "¡Qué suerte!",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Yo quiero ir a su clase un día.",
+  "seed": null,
+  "asr": "Yo quiero ir a su clase un día.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Pues ven conmigo el martes.",
+  "seed": null,
+  "asr": "Pues ven conmigo el martes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Empieza a las diez.",
+  "seed": null,
+  "asr": "Empieza a las 10.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Buenos días, siéntese, por favor.",
+  "seed": null,
+  "asr": "Buenos días, siéntese, por favor.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Usted es Mateo Gil, ¿verdad?",
+  "seed": null,
+  "asr": "Usted es Mateo Gil, ¿verdad?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Sí, señora.",
+  "seed": null,
+  "asr": "Sí, señora.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Buenos días.",
+  "seed": null,
+  "asr": "Buenos días.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Usted quiere trabajar como guía en nuestra agencia.",
+  "seed": null,
+  "asr": "Usted quiere trabajar como guía en nuestra agencia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "¿Dónde estudió?",
+  "seed": null,
+  "asr": "¿Dónde estudió?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Estudié Turismo en la Universidad de Salamanca.",
+  "seed": null,
+  "asr": "Estudié turismo en la Universidad de Salamanca.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Terminé la carrera hace un año.",
+  "seed": null,
+  "asr": "Terminé la carrera hace un año.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "¿Y qué hizo después?",
+  "seed": 2000,
+  "asr": "¿Y qué hizo después?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Trabajé seis meses en la recepción de un hotel de Madrid.",
+  "seed": null,
+  "asr": "Trabajé seis meses en la recepción de un hotel de Madrid.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "¿Qué lenguas habla?",
+  "seed": null,
+  "asr": "¿Qué lenguas habla?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Español, inglés y un poco de chino.",
+  "seed": null,
+  "asr": "Español, inglés y un poco de chino.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Estudié chino dos años en una escuela nocturna.",
+  "seed": null,
+  "asr": "Estudié chino dos años en una escuela nocturna.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Muy bien, muchos de nuestros clientes son chinos.",
+  "seed": null,
+  "asr": "Muy bien, muchos de nuestros clientes son chinos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "¿Puede trabajar los fines de semana?",
+  "seed": null,
+  "asr": "¿Puede trabajar los fines de semana?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Sí, los sábados y domingos no tengo problema.",
+  "seed": null,
+  "asr": "Sí, los sábados y domingos no tengo problema.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "¿Y cuándo puede empezar?",
+  "seed": null,
+  "asr": "¿Y cuándo puede empezar?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "El próximo lunes, si ustedes quieren.",
+  "seed": null,
+  "asr": "El próximo lunes, si ustedes quieren.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Perfecto.",
+  "seed": null,
+  "asr": "Perfecto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Lo llamamos mañana por la mañana.",
+  "seed": null,
+  "asr": "Lo llamamos mañana por la mañana.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Me llamo Teresa y soy enfermera en un hospital de Valencia.",
+  "seed": 2000,
+  "asr": "Me llamo Teresa y soy enfermera en un hospital de Valencia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Ayer fue un día muy atareado para mí.",
+  "seed": null,
+  "asr": "Ayer fue un día muy atareado para mí.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Normalmente me levanto a las seis, pero ayer me levanté a las cinco y media.",
+  "seed": null,
+  "asr": "Normalmente me levanto a las seis, pero ayer me levanté a las cinco y media.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Antes de salir de casa, preparé el desayuno para mis hijos.",
+  "seed": null,
+  "asr": "Antes de salir de casa, preparé el desayuno para mis hijos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Llegué al hospital a las siete.",
+  "seed": null,
+  "asr": "Llegué al hospital a las 7.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Por la mañana vinieron muchos enfermos y no tuve tiempo para descansar.",
+  "seed": null,
+  "asr": "Por la mañana vinieron muchos enfermos y no tuve tiempo para descansar.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Normalmente almuerzo arroz o pescado en el comedor, pero ayer no pude.",
+  "seed": null,
+  "asr": "Normalmente almuerzo arroz o pescado en el comedor, pero ayer no pude.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Sólo tomé un bocadillo y un café en diez minutos.",
+  "seed": null,
+  "asr": "Solo tomé un bocadillo y un café en 10 minutos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Por la tarde tuve una reunión con los médicos hasta las seis.",
+  "seed": 3000,
+  "asr": "Por la tarde tuve una reunión con los médicos hasta las seis.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Volví a casa a las siete y media.",
+  "seed": null,
+  "asr": "Volví a casa a las 7 y media.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Mi marido hizo la cena y mis hijos pusieron la mesa.",
+  "seed": 4000,
+  "asr": "Mi marido hizo la cena y mis hijos pusieron la mesa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Después de cenar, ayudé a mi hija con los deberes de matemáticas.",
+  "seed": null,
+  "asr": "Después de cenar, ayudé a mi hija con los deberes de matemáticas.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Me acosté a las once, muy cansada.",
+  "seed": 2000,
+  "asr": "Me acosté a las once, muy cansada.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Por suerte, hoy tengo el día libre y voy a descansar en casa.",
+  "seed": null,
+  "asr": "Por suerte, hoy tengo el día libre y voy a descansar en casa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Elisa, ¿adónde vas los martes por la noche?",
+  "seed": null,
+  "asr": "Elisa, ¿a dónde vas los martes por la noche?",
+  "errors": 0,
+  "diff": [
+   [
+    "adonde",
+    "a donde"
+   ]
+  ],
+  "ignored": [
+   [
+    "adonde",
+    "a donde"
+   ]
+  ]
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Nunca estás en casa.",
+  "seed": null,
+  "asr": "Nunca estás en casa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Voy a la escuela nocturna, Alberto.",
+  "seed": null,
+  "asr": "Voy a la escuela nocturna, Alberto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Estudio cocina española.",
+  "seed": null,
+  "asr": "Estudio Cocina Española.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Cocina?",
+  "seed": null,
+  "asr": "¿Cocina?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿No estudias inglés?",
+  "seed": null,
+  "asr": "¿No estudias inglés?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "No, el inglés lo estudié el año pasado.",
+  "seed": null,
+  "asr": "No, el inglés lo estudié el año pasado.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Este año estudio cocina.",
+  "seed": null,
+  "asr": "Este año estudio Cocina.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Y es caro el curso?",
+  "seed": null,
+  "asr": "¿Y es caro el curso?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "No mucho, cuesta ochenta yuanes al mes.",
+  "seed": 2000,
+  "asr": "No mucho, cuesta 80 yuanes al mes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "El de inglés cuesta noventa.",
+  "seed": null,
+  "asr": "El de inglés cuesta 90.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Qué días tienes clase?",
+  "seed": null,
+  "asr": "¿Qué días tienes clase?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Los martes y los jueves, de siete a nueve.",
+  "seed": null,
+  "asr": "Los martes y los jueves, de 7 a 9.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Y qué aprendiste la semana pasada?",
+  "seed": null,
+  "asr": "¿Y qué aprendiste la semana pasada?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "El martes preparamos una paella y el jueves, gazpacho.",
+  "seed": null,
+  "asr": "El martes preparamos una paella y el jueves, gazpacho.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Te salió bien la paella?",
+  "seed": null,
+  "asr": "¿Te salió bien la paella?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Sí.",
+  "seed": null,
+  "asr": "C",
+  "errors": 0,
+  "diff": [
+   [
+    "si",
+    "c"
+   ]
+  ],
+  "ignored": [
+   [
+    "si",
+    "c"
+   ]
+  ]
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Traje un poco a casa y a mi madre le gustó mucho.",
+  "seed": null,
+  "asr": "Traje un poco a casa, y a mi madre le gustó mucho.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Yo también quiero aprender a cocinar.",
+  "seed": null,
+  "asr": "Yo también quiero aprender a cocinar.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Puedo ir contigo?",
+  "seed": null,
+  "asr": "¿Puedo ir contigo?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "¡Claro!",
+  "seed": null,
+  "asr": "Claro.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Ven el jueves a las siete menos cuarto y te espero en la puerta.",
+  "seed": null,
+  "asr": "Ven el jueves a las 7 menos cuarto y te espero en la puerta.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ }
+]

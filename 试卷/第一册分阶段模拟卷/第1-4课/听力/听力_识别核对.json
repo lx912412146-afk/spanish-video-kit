@@ -1,0 +1,1042 @@
+[
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Hola, me llamo Sofía y soy cubana.",
+  "seed": null,
+  "asr": "Hola, me llamo Sofía y soy cubana.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "¿Y tú?",
+  "seed": null,
+  "asr": "¿Y tú?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "Me llamo Diego.",
+  "seed": null,
+  "asr": "Me llamo Diego.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "Mucho gusto, Sofía.",
+  "seed": null,
+  "asr": "Mucho gusto, Sofía.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Mucho gusto.",
+  "seed": null,
+  "asr": "Mucho gusto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "¿Eres mexicano, Diego?",
+  "seed": null,
+  "asr": "¿Eres mexicano, Diego?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "No, no soy mexicano.",
+  "seed": null,
+  "asr": "No, no soy mexicano.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "Soy chileno, de Santiago.",
+  "seed": null,
+  "asr": "Soy chileno, de Santiago.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Rosa, ¿tu madre es médica?",
+  "seed": null,
+  "asr": "¿Rosa? ¿Tu madre es médica?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "No, mi madre no es médica.",
+  "seed": 4000,
+  "asr": "No, mi madre no es médica.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "Es enfermera.",
+  "seed": null,
+  "asr": "Es enfermera.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "¿Y tu padre?",
+  "seed": null,
+  "asr": "¿Y tu padre?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "¿Es profesor?",
+  "seed": null,
+  "asr": "Es profesor.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "Sí, mi padre es profesor de inglés.",
+  "seed": null,
+  "asr": "Sí, mi padre es profesor de inglés.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "Mamá, ¿dónde están mis lápices?",
+  "seed": null,
+  "asr": "Mamá, ¿dónde están mis lápices?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "No están en mi mesa.",
+  "seed": null,
+  "asr": "No están en mi mesa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "¿No están en la cocina?",
+  "seed": null,
+  "asr": "¿No están en la cocina?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "No, en la cocina no están.",
+  "seed": null,
+  "asr": "No, en la cocina no están.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "¡Ah, sí!",
+  "seed": 4000,
+  "asr": "Ah, sí.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "Están en la sala, en el sofá.",
+  "seed": null,
+  "asr": "Están en la sala, en el sofá.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "Inés, ¿cómo es tu casa?",
+  "seed": null,
+  "asr": "Inés, ¿cómo es tu casa?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "¿Es grande?",
+  "seed": null,
+  "asr": "¿Es grande?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "No, no es grande.",
+  "seed": null,
+  "asr": "No, no es grande.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Es pequeña y muy bonita.",
+  "seed": null,
+  "asr": "Es pequeña y muy bonita.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "¿Es una casa nueva?",
+  "seed": null,
+  "asr": "¿Es una casa nueva?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "No, no es nueva.",
+  "seed": null,
+  "asr": "No, no es nueva.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Es una casa vieja.",
+  "seed": null,
+  "asr": "Es una casa vieja.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "Tomás, ¿de quién es la casa grande?",
+  "seed": null,
+  "asr": "Tomás, ¿de quién es la casa grande?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "¿Es del profesor Navarro?",
+  "seed": null,
+  "asr": "¿Es del profesor Navarro?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "No, no es del profesor Navarro.",
+  "seed": null,
+  "asr": "No, no es del profesor Navarro.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Es del médico, el señor Gómez.",
+  "seed": null,
+  "asr": "Es del médico, el señor Gómez.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "¿Y la casa pequeña?",
+  "seed": null,
+  "asr": "¿Y la casa pequeña?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "¿De quién es?",
+  "seed": null,
+  "asr": "¿De quién es?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Es de la enfermera, la señora Ortiz.",
+  "seed": null,
+  "asr": "Es de la enfermera, la señora Ortiz.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Buenos días, señor.",
+  "seed": null,
+  "asr": "Buenos días, señor.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿Es usted el padre de Hugo?",
+  "seed": null,
+  "asr": "¿Es usted el padre de Hugo?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Sí, soy su padre.",
+  "seed": null,
+  "asr": "Sí, soy su padre.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Y tú, quién eres?",
+  "seed": null,
+  "asr": "¿Y tú quién eres?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Me llamo Irene.",
+  "seed": null,
+  "asr": "Me llamo Irene.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Soy amiga de Hugo.",
+  "seed": null,
+  "asr": "Soy amiga de Hugo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Mucho gusto, Irene.",
+  "seed": null,
+  "asr": "Mucho gusto, Irene.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Hugo no está en casa.",
+  "seed": 3000,
+  "asr": "Hugo no está en casa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿Está en la escuela?",
+  "seed": null,
+  "asr": "¿Está en la escuela?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "No, no está en la escuela.",
+  "seed": null,
+  "asr": "No, no está en la escuela.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Está en la casa de su tía.",
+  "seed": null,
+  "asr": "Está en la casa de su tía.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿Dónde está la casa de su tía?",
+  "seed": null,
+  "asr": "¿Dónde está la casa de su tía?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Está en el centro.",
+  "seed": null,
+  "asr": "Está en el centro.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Eres española, Irene?",
+  "seed": null,
+  "asr": "¿Eres española, Irene?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "No, soy peruana, de Lima.",
+  "seed": null,
+  "asr": "No, soy peruana, de Lima.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿Y usted?",
+  "seed": null,
+  "asr": "¿Y usted?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Yo soy español, de Madrid.",
+  "seed": null,
+  "asr": "Yo soy español, de Madrid.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "La madre de Hugo es argentina.",
+  "seed": null,
+  "asr": "La madre de Hugo es argentina.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Muchas gracias, señor.",
+  "seed": null,
+  "asr": "Muchas gracias, señor.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Adiós.",
+  "seed": null,
+  "asr": "Adiós.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Adiós, Irene.",
+  "seed": null,
+  "asr": "Adiós, Irene.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Julia, ¿dónde está tu piso nuevo?",
+  "seed": null,
+  "asr": "Julia, ¿dónde está tu piso nuevo?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Está en las afueras?",
+  "seed": null,
+  "asr": "Está en las afueras.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "No, no está en las afueras.",
+  "seed": null,
+  "asr": "No, no está en las afueras.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Está en el centro de la ciudad.",
+  "seed": null,
+  "asr": "Está en el centro de la ciudad.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Y cómo es?",
+  "seed": null,
+  "asr": "¿Y cómo es?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Es grande?",
+  "seed": null,
+  "asr": "¿Es grande?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "No, no es grande.",
+  "seed": null,
+  "asr": "No, no es grande.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Es pequeño y muy bonito.",
+  "seed": null,
+  "asr": "Es pequeño y muy bonito.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Cómo es tu habitación?",
+  "seed": null,
+  "asr": "¿Cómo es tu habitación?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Mi habitación es pequeña.",
+  "seed": null,
+  "asr": "Mi habitación es pequeña.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "La habitación de mis padres es grande.",
+  "seed": null,
+  "asr": "La habitación de mis padres es grande.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Qué hay en tu habitación?",
+  "seed": null,
+  "asr": "¿Qué hay en tu habitación?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Hay una cama, una mesa y un estante.",
+  "seed": null,
+  "asr": "Hay una cama, una mesa y un estante.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "El sofá está en la sala.",
+  "seed": null,
+  "asr": "El sofá está en la sala.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Hay un armario en tu habitación?",
+  "seed": null,
+  "asr": "¿Hay un armario en tu habitación?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "No, no hay armario.",
+  "seed": null,
+  "asr": "No, no hay armario.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "El armario está en la habitación de mis padres.",
+  "seed": null,
+  "asr": "El armario está en la habitación de mis padres.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Hola, me llamo Teresa.",
+  "seed": null,
+  "asr": "Hola, me llamo Teresa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Soy española, de Valencia.",
+  "seed": null,
+  "asr": "Soy española, de Valencia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Mi padre es ingeniero.",
+  "seed": null,
+  "asr": "Mi padre es ingeniero.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Es alto y delgado.",
+  "seed": null,
+  "asr": "Es alto y delgado.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Mi madre es cantante.",
+  "seed": null,
+  "asr": "Mi madre es cantante.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Es guapa y muy simpática.",
+  "seed": null,
+  "asr": "Es guapa y muy simpática.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Mi hermano Mario es cocinero.",
+  "seed": null,
+  "asr": "Mi hermano Mario es cocinero.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Es bajo y gordo.",
+  "seed": null,
+  "asr": "Es bajo y gordo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Mi hermana Nuria y yo somos estudiantes.",
+  "seed": null,
+  "asr": "Mi hermana Nuria y yo somos estudiantes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Nuestra casa está en las afueras de Valencia.",
+  "seed": null,
+  "asr": "Nuestra casa está en las afueras de Valencia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Es una casa vieja y muy bonita.",
+  "seed": null,
+  "asr": "Es una casa vieja y muy bonita.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Mis abuelos son de Sevilla.",
+  "seed": null,
+  "asr": "Mis abuelos son de Sevilla.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Están en nuestra casa.",
+  "seed": null,
+  "asr": "Están en nuestra casa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Hola, Alicia.",
+  "seed": null,
+  "asr": "Hola, Alicia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Qué tal tu escuela?",
+  "seed": null,
+  "asr": "¿Qué tal tu escuela?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Muy bien, gracias.",
+  "seed": null,
+  "asr": "Muy bien, gracias.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Es una escuela grande y muy bonita.",
+  "seed": null,
+  "asr": "Es una escuela grande y muy bonita.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Es una escuela nueva?",
+  "seed": null,
+  "asr": "¿Es una escuela nueva?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "No, no es nueva.",
+  "seed": null,
+  "asr": "No, no es nueva.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Es vieja.",
+  "seed": null,
+  "asr": "Es vieja.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Cómo es tu profesora de chino?",
+  "seed": null,
+  "asr": "¿Cómo es tu profesora de chino?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Es joven y muy simpática.",
+  "seed": null,
+  "asr": "Es joven y muy simpática.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Se llama Beatriz.",
+  "seed": null,
+  "asr": "Se llama Beatriz.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Es china?",
+  "seed": null,
+  "asr": "¿Es China?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "No, no es china.",
+  "seed": null,
+  "asr": "No, no es China.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Es española, de Barcelona.",
+  "seed": null,
+  "asr": "Es española, de Barcelona.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Hay estudiantes chinos en tu clase?",
+  "seed": null,
+  "asr": "Hay estudiantes chinos en tu clase.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Sí, hay unos estudiantes chinos.",
+  "seed": null,
+  "asr": "Sí, hay unos estudiantes chinos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Son muy simpáticos.",
+  "seed": null,
+  "asr": "Son muy simpáticos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Son de Beijing?",
+  "seed": null,
+  "asr": "¿Son de Beijing?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "No, no son de Beijing.",
+  "seed": null,
+  "asr": "No, no son de Beijing.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Son de Shanghai.",
+  "seed": null,
+  "asr": "Son de Shanghai.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ }
+]

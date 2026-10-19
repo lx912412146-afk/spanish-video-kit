@@ -1,0 +1,1157 @@
+[
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Diego, ¿qué hora es?",
+  "seed": null,
+  "asr": "Diego, ¿qué hora es?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "Son las tres y cuarto.",
+  "seed": null,
+  "asr": "Son las tres y cuarto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "¿Por qué?",
+  "seed": null,
+  "asr": "¿Por qué?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Mi prima viene de Sevilla.",
+  "seed": null,
+  "asr": "Mi prima viene de Sevilla.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "F",
+  "text": "Su tren llega a las cuatro menos cuarto.",
+  "seed": null,
+  "asr": "Su tren llega a las 4 menos cuarto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "Entonces tienes media hora.",
+  "seed": null,
+  "asr": "Entonces tienes media hora.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 1,
+  "speaker": "M",
+  "text": "La estación está cerca de aquí.",
+  "seed": null,
+  "asr": "La estación está cerca de aquí.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Buenos días, señora.",
+  "seed": null,
+  "asr": "Buenos días, señora.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "¿Cuánto es un cuaderno?",
+  "seed": null,
+  "asr": "¿Cuánto es un cuaderno?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "El grande, doce yuanes.",
+  "seed": null,
+  "asr": "El grande, 12 yuanes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "El pequeño, ocho.",
+  "seed": null,
+  "asr": "El pequeño, 8.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "Entonces quiero dos pequeños.",
+  "seed": null,
+  "asr": "Entonces quiero dos pequeños.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "M",
+  "text": "¿Y este bolígrafo azul?",
+  "seed": null,
+  "asr": "¿Y este bolígrafo azul?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "Tres yuanes.",
+  "seed": null,
+  "asr": "Tres Yuanes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 2,
+  "speaker": "F",
+  "text": "Son diecinueve yuanes en total.",
+  "seed": null,
+  "asr": "Son 19 yuanes en total.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "Hola, Raúl.",
+  "seed": null,
+  "asr": "Hola Raúl.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "¿No vienes hoy a la universidad?",
+  "seed": null,
+  "asr": "¿No vienes hoy a la universidad?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "No, Inés, estoy enfermo.",
+  "seed": null,
+  "asr": "No, Inés, estoy enfermo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "Tengo fiebre y mucha tos.",
+  "seed": null,
+  "asr": "Tengo fiebre y mucha tos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "F",
+  "text": "¿Tienes también dolor de cabeza?",
+  "seed": null,
+  "asr": "¿Tienes también dolor de cabeza?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "No, eso no.",
+  "seed": null,
+  "asr": "No, eso no.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 3,
+  "speaker": "M",
+  "text": "Ahora voy al hospital con mi padre.",
+  "seed": null,
+  "asr": "Ahora voy al hospital con mi padre.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Buenas tardes.",
+  "seed": null,
+  "asr": "Buenas tardes.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "¿Es usted el nuevo vecino?",
+  "seed": null,
+  "asr": "¿Es usted el nuevo vecino?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "Sí, señora, me llamo Andrés.",
+  "seed": null,
+  "asr": "Sí, señora. Me llamo Andrés.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "Vivo en el apartamento treinta y cuatro.",
+  "seed": null,
+  "asr": "Vivo en el apartamento 34.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Mucho gusto, yo soy Teresa.",
+  "seed": null,
+  "asr": "Mucho gusto, yo soy Teresa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "F",
+  "text": "Vivo en el cuarenta y tres, con mi hija.",
+  "seed": null,
+  "asr": "Vivo en el 43, con mi hija.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "Encantado, Teresa.",
+  "seed": null,
+  "asr": "Encantado, Teresa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 4,
+  "speaker": "M",
+  "text": "Mi mujer y mis hijos vienen el domingo.",
+  "seed": null,
+  "asr": "Mi mujer y mis hijos vienen el domingo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "Hola, Hugo, adelante.",
+  "seed": null,
+  "asr": "Hola Hugo, adelante.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "¿Quieres tomar un café?",
+  "seed": null,
+  "asr": "¿Quieres tomar un café?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Gracias, Elisa, pero por la noche no tomo café.",
+  "seed": null,
+  "asr": "Gracias, Elisa, pero por la noche no tomo café.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "F",
+  "text": "¿Un vaso de agua o un té?",
+  "seed": null,
+  "asr": "¿Un vaso de agua o un té?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 5,
+  "speaker": "M",
+  "text": "Un té con un poco de leche, por favor.",
+  "seed": null,
+  "asr": "Un té con un poco de leche, por favor.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Buenas tardes, señora.",
+  "seed": null,
+  "asr": "Buenas tardes, señora.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Qué desea?",
+  "seed": null,
+  "asr": "¿Qué desea?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Necesito estas medicinas.",
+  "seed": null,
+  "asr": "Necesito estas medicinas.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Aquí tiene la receta.",
+  "seed": null,
+  "asr": "Aquí tiene la receta.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "A ver.",
+  "seed": null,
+  "asr": "A ver.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "¿Son para usted?",
+  "seed": null,
+  "asr": "¿Son para usted?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "No, son para mi hijo.",
+  "seed": null,
+  "asr": "No, son para mi hijo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Tiene tos y treinta y ocho grados de fiebre.",
+  "seed": null,
+  "asr": "Tiene 2 y 38 grados de fiebre.",
+  "errors": 1,
+  "diff": [
+   [
+    "tos",
+    "dos"
+   ]
+  ],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Este jarabe es para la tos.",
+  "seed": null,
+  "asr": "Este jarabe es para la tos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Su hijo tiene que tomarlo tres veces al día.",
+  "seed": null,
+  "asr": "Su hijo tiene que tomarlo tres veces al día.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿Y estas pastillas?",
+  "seed": null,
+  "asr": "¿Y estas pastillas?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Son para la fiebre.",
+  "seed": null,
+  "asr": "Son para la fiebre.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Una por la mañana y otra por la noche.",
+  "seed": null,
+  "asr": "Una por la mañana y otra por la noche.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Muy bien.",
+  "seed": null,
+  "asr": "Muy bien.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "¿Cuánto es?",
+  "seed": null,
+  "asr": "¿Cuánto es?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "El jarabe, nueve euros, y las pastillas, seis.",
+  "seed": null,
+  "asr": "El jarabe, 9 euros, y las pastillas, 6.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "F",
+  "text": "Aquí tiene veinte euros.",
+  "seed": null,
+  "asr": "Aquí tiene 20 euros.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Gracias.",
+  "seed": null,
+  "asr": "Gracias.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 6,
+  "speaker": "M",
+  "text": "Aquí tiene su cambio, cinco euros.",
+  "seed": null,
+  "asr": "Aquí tiene su cambio, 5 euros.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Buenos días, señorita.",
+  "seed": null,
+  "asr": "Buenos días, señorita.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Busco un libro de historia de España.",
+  "seed": null,
+  "asr": "Busco un libro de Historia de España.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Tenemos dos, uno grande y otro pequeño.",
+  "seed": null,
+  "asr": "Tenemos dos, uno grande y otro pequeño.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "¿Cuál quiere usted?",
+  "seed": null,
+  "asr": "¿Cuál quiere usted?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "El pequeño, por favor.",
+  "seed": null,
+  "asr": "El pequeño, por favor.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Es para mi compañero de cuarto.",
+  "seed": null,
+  "asr": "Es para mi compañero de cuarto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "¿Y por qué no viene él?",
+  "seed": null,
+  "asr": "¿Y por qué no viene él?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Está enfermo, y el viernes tiene un examen de historia.",
+  "seed": null,
+  "asr": "Está enfermo, y el viernes tiene un examen de historia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Entonces necesito el carné de su compañero.",
+  "seed": null,
+  "asr": "Entonces necesito el carné de su compañero.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Aquí lo tiene.",
+  "seed": null,
+  "asr": "Aquí lo tiene.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿Cuántos días puede tener el libro?",
+  "seed": null,
+  "asr": "¿Cuántos días puede tener el libro?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Veintiún días.",
+  "seed": null,
+  "asr": "21 días.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Pero tiene que traerlo a tiempo.",
+  "seed": null,
+  "asr": "Pero tiene que traerlo a tiempo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Muy bien.",
+  "seed": null,
+  "asr": "Muy bien.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "¿A qué hora abre la biblioteca los sábados?",
+  "seed": null,
+  "asr": "¿A qué hora abre la biblioteca los sábados?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Los sábados abrimos a las nueve y media.",
+  "seed": null,
+  "asr": "Los sábados abrimos a las 9 y media.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Los otros días, a las ocho.",
+  "seed": null,
+  "asr": "Los otros días, a las 8,",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Gracias.",
+  "seed": null,
+  "asr": "Gracias.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "M",
+  "text": "Entonces vuelvo el sábado por la mañana.",
+  "seed": null,
+  "asr": "Entonces vuelvo el sábado por la mañana.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "De nada.",
+  "seed": null,
+  "asr": "De nada.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 7,
+  "speaker": "F",
+  "text": "Hasta el sábado.",
+  "seed": null,
+  "asr": "Hasta el sábado.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Me llamo Nuria y estudio medicina en la universidad.",
+  "seed": null,
+  "asr": "Me llamo Nuria y estudio medicina en la universidad.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Vivo en un edificio de doce plantas, cerca de la facultad.",
+  "seed": null,
+  "asr": "Vivo en un edificio de 12 plantas, cerca de la facultad.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "En la planta baja hay una tienda pequeña.",
+  "seed": null,
+  "asr": "En la planta baja, hay una tienda pequeña.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Es del señor Ramón, un vecino muy simpático.",
+  "seed": null,
+  "asr": "Es del señor Ramón, un vecino muy simpático.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "La tienda abre a las siete y media de la mañana.",
+  "seed": null,
+  "asr": "La tienda abre a las 7 y media de la mañana.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Yo tengo clase a las ocho y media, y antes compro allí mi desayuno.",
+  "seed": null,
+  "asr": "Yo tengo clase a las ocho y media, y antes compro allí mi desayuno.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "En la tienda venden pan, leche, fruta y periódicos.",
+  "seed": null,
+  "asr": "En la tienda venden pan, leche, fruta y periódicos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Las cosas no son caras.",
+  "seed": null,
+  "asr": "Las cosas no son caras.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Una barra de pan está a un euro.",
+  "seed": null,
+  "asr": "Una barra de pan está a un euro.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Las manzanas están a dos euros y cincuenta céntimos el kilo.",
+  "seed": null,
+  "asr": "Las manzanas están a 2 euros y 50 céntimos el kilo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "La mujer del señor Ramón es profesora y trabaja en una escuela.",
+  "seed": null,
+  "asr": "La mujer del señor Ramón es profesora y trabaja en una escuela.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Los domingos viene su hija para ayudarlo.",
+  "seed": null,
+  "asr": "Los domingos viene su hija para ayudarlo.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Ella es enfermera y trabaja en un hospital de Valencia.",
+  "seed": null,
+  "asr": "Ella es enfermera y trabaja en un hospital de Valencia.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "El señor Ramón conoce a los vecinos del edificio.",
+  "seed": null,
+  "asr": "El señor Ramón conoce a los vecinos del edificio.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Sabe el nombre de cada niño.",
+  "seed": null,
+  "asr": "Sabe el nombre de cada niño.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 8,
+  "speaker": "F",
+  "text": "Los vecinos lo quieren mucho.",
+  "seed": null,
+  "asr": "Los vecinos lo quieren mucho.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¡Hola, Lola, bienvenida a Madrid!",
+  "seed": null,
+  "asr": "Hola Lola, bienvenida a Madrid.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "¿Qué tal el viaje?",
+  "seed": null,
+  "asr": "¿Qué tal el viaje?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Muy bien, Javier, gracias.",
+  "seed": null,
+  "asr": "Muy bien, Javier. Gracias.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Estoy un poco cansada, nada más.",
+  "seed": null,
+  "asr": "Estoy un poco cansada, nada más.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Mi casa está cerca de la estación.",
+  "seed": null,
+  "asr": "Mi casa está cerca de la estación.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Vamos a pie, son diez minutos.",
+  "seed": 2000,
+  "asr": "Vamos a pie. Son 10 minutos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Perfecto.",
+  "seed": null,
+  "asr": "Perfecto.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "¿Vives solo?",
+  "seed": null,
+  "asr": "¿Vives solo?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "No, vivo con dos compañeros.",
+  "seed": null,
+  "asr": "No, vivo con dos compañeros.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Pero este fin de semana están con sus familias.",
+  "seed": null,
+  "asr": "Pero este fin de semana están con sus familias.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "¿Y cuál es mi habitación?",
+  "seed": null,
+  "asr": "¿Y cuál es mi habitación?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "La habitación de la ventana grande.",
+  "seed": null,
+  "asr": "La habitación de la ventana grande.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Es pequeña, pero muy bonita.",
+  "seed": null,
+  "asr": "Es pequeña, pero muy bonita.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Gracias.",
+  "seed": null,
+  "asr": "Gracias.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "¿Qué hacemos mañana?",
+  "seed": null,
+  "asr": "¿Qué hacemos mañana?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Mañana por la mañana tengo clase, pero tengo otras llaves de casa.",
+  "seed": null,
+  "asr": "Mañana por la mañana tengo clase, pero tengo otras llaves de casa.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Te las doy ahora.",
+  "seed": null,
+  "asr": "Te las doy ahora.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Entonces mañana por la mañana voy a visitar el Museo del Prado.",
+  "seed": null,
+  "asr": "Entonces mañana por la mañana voy a visitar el Museo del Prado.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Buena idea.",
+  "seed": null,
+  "asr": "Buena idea.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Yo vuelvo a casa a la una y media y comemos juntos.",
+  "seed": null,
+  "asr": "Yo vuelvo a casa a la una y media y comemos juntos.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "Muy bien.",
+  "seed": null,
+  "asr": "Muy bien.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "F",
+  "text": "¿Conoces un restaurante bueno y barato?",
+  "seed": null,
+  "asr": "¿Conoces un restaurante bueno y barato?",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "Sí, conozco uno cerca de la universidad.",
+  "seed": null,
+  "asr": "Sí, conozco uno cerca de la universidad.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ },
+ {
+  "texto": 9,
+  "speaker": "M",
+  "text": "El menú del día es de doce euros.",
+  "seed": null,
+  "asr": "El menú del día es de 12 euros.",
+  "errors": 0,
+  "diff": [],
+  "ignored": []
+ }
+]

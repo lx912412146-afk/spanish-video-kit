@@ -2,7 +2,7 @@
 
     python asr_check.py 工具包目录 试卷.md 音频目录 识别模型目录
 
-比对前统一成小写、去掉重音和标点，数字换成西语单词。只差空格（mejor en / mejoren）和人名、地名（Xi'an、Wang）
+比对前统一成小写、去掉重音和标点，数字换成西语单词。只差空格（mejor en / mejoren）、人名地名（Xi'an、Wang）和同音（单独的 Sí 识别成 c）
 的出入记「≈」、不算错词，其余人工判断。读得不对的句子可以用 asr_retry.py 换种子重新合成。
 输出：每句的错词数，对不上的片段；最后汇总。写到 音频目录/听力_识别核对.json。
 """
@@ -25,12 +25,15 @@ sys.argv = [sys.argv[0], str(KIT), str(PAPER), str(AUDIO)]
 ml = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(ml)
 NAMES = {'xian', 'wang', 'beijing', 'shanghai'}       # 识别模型认不准的中国人名、地名
+APOCOPE = {'veintiun': 'veintiuno', 'un': 'uno', 'una': 'uno'}
+HOMOPHONES = {('si', 'c'), ('ah', 'a'), ('tambien', 'tan bien')}   # 读音相同：单独的 Sí 识别成字母 c，Ah 识别成 a，también 识别成 tan bien
 
 
 def norm(t):
     t = re.sub(r'\d+', lambda m: ' ' + num2words(int(m.group()), lang='es') + ' ', t.lower())
     t = ''.join(c for c in unicodedata.normalize('NFD', t) if unicodedata.category(c) != 'Mn')
-    return re.sub(r"[^a-zñ ]", ' ', t.replace("'", '')).split()
+    words = re.sub(r"[^a-zñ ]", ' ', t.replace("'", '')).split()
+    return [APOCOPE.get(w, w) for w in words]               # 21 识别成数字再转回来是 veintiuno，和 veintiún 视为相同
 
 
 def recognizer():
@@ -57,7 +60,7 @@ def compare(s, hyp):
         if op == 'equal':
             continue
         x, y = ' '.join(r[i1:i2]), ' '.join(h[j1:j2])
-        counts = x.replace(' ', '') != y.replace(' ', '') and not (set(r[i1:i2]) & NAMES)
+        counts = x.replace(' ', '') != y.replace(' ', '') and not (set(r[i1:i2]) & NAMES) and (x, y) not in HOMOPHONES
         ops.append((x, y, counts))
         err += max(len(x.split()), len(y.split())) if counts else 0
     return err, ops
@@ -89,7 +92,7 @@ def main():
     bad = [x for x in report if x['errors']]
     near = [x for x in report if x['ignored'] and not x['errors']]
     print(f'共 {len(report)} 句、{total_words} 词；有错词的句子 {len(bad)} 句，错词 {total_err} 个'
-          f'（词错误率 {total_err / total_words:.1%}）；只差空格或人名的 {len(near)} 句')
+          f'（词错误率 {total_err / total_words:.1%}）；只差空格、人名或同音的 {len(near)} 句')
 
 
 if __name__ == '__main__':

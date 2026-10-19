@@ -56,8 +56,12 @@ def parse(md):
 
 def female_ref(male_cfg):
     """Supertonic 3 F1 合成女声参考录音（去帧频梳状线），写到 OUT/ref_female_F1.wav。"""
+    import shutil
     import soundfile as sf
     path = OUT / 'ref_female_F1.wav'
+    shared = Path(__file__).with_name('听力') / 'ref_female_F1.wav'   # 仓库里各套卷共用这一份（同一份参考录音，合成缓存才对得上）
+    if not path.exists() and shared.exists():
+        shutil.copyfile(shared, path)
     if not path.exists():
         cfg = {'engine': 'worker', 'python': 'self', 'script': 'sherpa.py', 'kind': 'supertonic',
                'model_dir': '西班牙语/models/supertonic3', 'sid': 0, 'lang': 'es', 'num_steps': 32, 'speed': 1.0}

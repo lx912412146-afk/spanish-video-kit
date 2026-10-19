@@ -1,0 +1,77 @@
+{
+ "total_s": 671.02,
+ "texts": [
+  {
+   "texto": 1,
+   "start": 1.0,
+   "duration": 25.62,
+   "questions": 1,
+   "plays": 1,
+   "dialogue_s": 13.19
+  },
+  {
+   "texto": 2,
+   "start": 26.62,
+   "duration": 22.91,
+   "questions": 1,
+   "plays": 1,
+   "dialogue_s": 10.45
+  },
+  {
+   "texto": 3,
+   "start": 49.53,
+   "duration": 25.03,
+   "questions": 1,
+   "plays": 1,
+   "dialogue_s": 12.62
+  },
+  {
+   "texto": 4,
+   "start": 74.56,
+   "duration": 28.47,
+   "questions": 1,
+   "plays": 1,
+   "dialogue_s": 16.12
+  },
+  {
+   "texto": 5,
+   "start": 103.03,
+   "duration": 28.59,
+   "questions": 1,
+   "plays": 1,
+   "dialogue_s": 16.04
+  },
+  {
+   "texto": 6,
+   "start": 131.62,
+   "duration": 120.37,
+   "questions": 3,
+   "plays": 2,
+   "dialogue_s": 42.98
+  },
+  {
+   "texto": 7,
+   "start": 251.99,
+   "duration": 115.19,
+   "questions": 4,
+   "plays": 2,
+   "dialogue_s": 35.34
+  },
+  {
+   "texto": 8,
+   "start": 367.18,
+   "duration": 153.97,
+   "questions": 4,
+   "plays": 2,
+   "dialogue_s": 54.73
+  },
+  {
+   "texto": 9,
+   "start": 521.15,
+   "duration": 147.87,
+   "questions": 4,
+   "plays": 2,
+   "dialogue_s": 51.73
+  }
+ ]
+}
