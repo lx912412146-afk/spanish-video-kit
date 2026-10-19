@@ -1,0 +1,196 @@
+{
+  "book": 3,
+  "lesson": 8,
+  "title_es": "El Nuevo Mundo y sus alimentos",
+  "title_zh": "新大陆和它的食物",
+  "goals": [
+    "会用条件式说委婉的请求、愿望和建议",
+    "分清限定性和解释性形容词从句",
+    "归纳 hacia、hasta、para、por 等八个前置词",
+    "能介绍几种原产美洲的食物"
+  ],
+  "vocab": [
+    ["probar(se)", "尝；试；试穿"],
+    ["recomendar", "推荐；劝告"],
+    ["el compromiso", "承诺；约会；为难处境"],
+    ["efectivo, va", "有效的；（m.）现金"],
+    ["adaptar(se)", "使适应；适应"],
+    ["acordar(se)", "商定；记得（de）"],
+    ["pertenecer", "属于"],
+    ["observar", "观察；注意到"],
+    ["el alimento", "食物，食品"],
+    ["el maíz", "玉米"],
+    ["la patata (Am. papa)", "土豆，马铃薯"],
+    ["el tomate", "西红柿，番茄"],
+    ["el cacao", "可可；可可树"],
+    ["el cacahuete (Am. maní)", "花生"],
+    ["el chile", "（美洲）辣椒"],
+    ["cultivar", "种植，栽培"],
+    ["originario, ria", "原产于……的"],
+    ["el continente", "大陆；洲"]
+  ],
+  "text": {
+    "title": "En un restaurante mexicano",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Perdone, ¿podría recomendarnos algún plato típico mexicano?", "zh": "劳驾，您能给我们推荐一道墨西哥特色菜吗？"},
+      {"who": "B", "es": "Les recomendaría el mole poblano, que lleva chiles y chocolate.", "zh": "我推荐普埃布拉莫莱酱，里面有辣椒和巧克力。"},
+      {"who": "A", "es": "¿Chocolate con carne? ¡Qué curioso! Me gustaría probarlo.", "zh": "巧克力配肉？真新鲜！我很想尝尝。"},
+      {"who": "B", "es": "El chocolate se hace con cacao, que es originario de América.", "zh": "巧克力是用可可做的，可可原产美洲。"},
+      {"who": "B", "es": "Los aztecas lo tomaban como bebida y usaban sus semillas como moneda.", "zh": "阿兹特克人把它做成饮料，还把可可豆当钱用。"},
+      {"who": "A", "es": "¿Y el tomate y la patata también vienen de América?", "zh": "西红柿和土豆也是从美洲来的吗？"},
+      {"who": "B", "es": "Sí. Los aztecas cultivaban el tomate, y los incas, la patata.", "zh": "是的。阿兹特克人种西红柿，印加人种土豆。"},
+      {"who": "A", "es": "En China también comemos muchos alimentos que vinieron de América.", "zh": "在中国，我们也吃很多从美洲传来的食物。"},
+      {"who": "B", "es": "Los chiles, por ejemplo, llegaron a China hacia finales del siglo XVI.", "zh": "比如辣椒，是 16 世纪末前后传到中国的。"},
+      {"who": "A", "es": "No lo sabía. Sin ellos, la cocina de Sichuan sería muy diferente.", "zh": "这我还真不知道。没有辣椒，川菜可就大不一样了。"},
+      {"who": "B", "es": "Bueno, ¿desearían tomar algo?", "zh": "那么，二位想喝点什么吗？"},
+      {"who": "A", "es": "Sí, querríamos dos chocolates. ¿Podríamos pagar en efectivo?", "zh": "好的，我们要两杯热巧克力。可以付现金吗？"},
+      {"who": "B", "es": "Por supuesto. Ahora mismo se los traigo.", "zh": "当然可以。我马上给您端来。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "简单条件式用于礼貌用语",
+      "points": [
+        "用条件式代替现在时，请求、愿望显得委婉客气：¿Podría…?",
+        "愿望：Me gustaría / Querría / Desearía + 原形动词或名词。",
+        "主语不同时：Me gustaría que + 虚拟式过去未完成时（vinieras）。",
+        "委婉的建议：Deberías…；Yo que tú, lo probaría。"
+      ],
+      "table": {
+        "head": ["直接说法", "委婉说法"],
+        "rows": [
+          ["¿Puede ayudarme?", "¿Podría ayudarme?"],
+          ["Quiero un café.", "Querría un café."],
+          ["Deseo verlo.", "Desearía verlo."],
+          ["Quiero probarlo.", "Me gustaría probarlo."],
+          ["Debes descansar.", "Deberías descansar."],
+          ["¿Le importa venir?", "¿Le importaría venir?"]
+        ]
+      },
+      "examples": [
+        ["¿Podría traernos la cuenta, por favor?", "请您把账单拿来好吗？"],
+        ["Me gustaría probar la comida peruana.", "我很想尝尝秘鲁菜。"],
+        ["Querríamos una mesa para cuatro.", "我们想要一张四人桌。"],
+        ["Me gustaría que probaras este plato.", "我希望你尝尝这道菜。"]
+      ]
+    },
+    {
+      "title": "限定性和解释性形容词从句",
+      "points": [
+        "限定性从句不加逗号，限定先行词的范围，去掉后句意会变。",
+        "解释性从句前后加逗号，只作补充说明，去掉后句意基本不变。",
+        "先行词是专有名词或独一无二的事物时，从句一般是解释性的。",
+        "本课两种从句都用陈述式，说的是确实存在的人和事。"
+      ],
+      "table": {
+        "head": ["比较", "限定性", "解释性"],
+        "rows": [
+          ["逗号", "不加", "前后加逗号"],
+          ["作用", "缩小范围", "补充说明"],
+          ["去掉从句", "句意改变", "句意基本不变"],
+          ["朗读", "和先行词连读", "逗号处停顿"]
+        ]
+      },
+      "examples": [
+        ["Los alumnos que viven lejos llegan tarde.", "住得远的学生来得晚。（只是一部分学生）"],
+        ["Los alumnos, que viven lejos, llegan tarde.", "学生们来得晚，他们都住得远。（指全体）"],
+        ["El cacao, que viene de América, hoy crece también en África.", "可可原产美洲，如今在非洲也有种植。"],
+        ["Los tomates que compraste ayer están muy buenos.", "你昨天买的西红柿很好吃。"]
+      ]
+    },
+    {
+      "title": "前置词用法小结（二）：hacia、hasta、para、por",
+      "points": [
+        "hacia：朝……方向；大约（时间）：hacia el sur, hacia 1570。",
+        "hasta：直到（时间、地点、数量）；也作副词，意为“甚至”。",
+        "para：目的、去向、对象、期限；para mí 意为“对我来说”。",
+        "por：原因、经过、途径、大致时间、被动句的施事者、交换。"
+      ],
+      "table": {
+        "head": ["前置词", "意义", "例子"],
+        "rows": [
+          ["hacia", "朝……方向；大约", "viajar hacia el oeste"],
+          ["hasta", "直到；甚至", "hasta mañana"],
+          ["para", "目的；对象", "para hacer chocolate"],
+          ["para", "去向；期限", "para el lunes"],
+          ["por", "原因；经过", "por la lluvia"],
+          ["por", "被动句的施事者", "fue traído por Colón"],
+          ["por", "途径；时间段", "por la mañana"]
+        ]
+      },
+      "examples": [
+        ["Colón navegó hacia el oeste para llegar a Asia.", "哥伦布向西航行，想到达亚洲。"],
+        ["Hasta los niños conocen el chocolate.", "连孩子们都知道巧克力。"],
+        ["El maíz era muy importante para los mayas.", "玉米对玛雅人非常重要。"],
+        ["Muchos alimentos llegaron a Europa por Sevilla.", "许多食物经塞维利亚传入欧洲。"]
+      ]
+    },
+    {
+      "title": "前置词用法小结（二，续）：según、sin、sobre、tras",
+      "points": [
+        "según：根据、按照；随……而定；后接人称代词用 yo、tú：según tú。",
+        "sin：没有、缺少；sin + 原形动词：Se fue sin decir nada。",
+        "sobre：在……上面；关于；大约（钟点）：sobre las cinco。",
+        "tras：在……之后（时间、空间），多用于书面语：tras la guerra。"
+      ],
+      "table": {
+        "head": ["前置词", "意义", "例子"],
+        "rows": [
+          ["según", "根据；按照", "según los expertos"],
+          ["según", "随……而定", "según la estación"],
+          ["sin", "没有", "café sin azúcar"],
+          ["sobre", "在……上面", "sobre la mesa"],
+          ["sobre", "关于；大约", "un libro sobre el maíz"],
+          ["tras", "在……之后", "tras la conquista"],
+          ["tras", "接连", "día tras día"]
+        ]
+      },
+      "examples": [
+        ["Según los expertos, la patata llegó a España hacia 1570.", "专家认为，土豆是 1570 年前后传到西班牙的。"],
+        ["Los aztecas tomaban el chocolate sin azúcar.", "阿兹特克人喝巧克力不加糖。"],
+        ["Hemos leído un artículo sobre el maíz.", "我们读了一篇关于玉米的文章。"],
+        ["Tras el viaje de Colón, muchos alimentos cruzaron el océano.", "哥伦布远航之后，许多食物漂洋过海。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Puedo probarme estos zapatos?", "我能试穿这双鞋吗？"],
+    ["Te recomiendo este restaurante.", "我向你推荐这家餐馆。"],
+    ["Lo siento, esta noche tengo un compromiso.", "抱歉，今晚我有约了。"],
+    ["La patata se adaptó bien al clima de Europa.", "土豆很好地适应了欧洲的气候。"],
+    ["Acordamos vernos a las ocho.", "我们约好八点见面。"],
+    ["¿Te acuerdas de aquel restaurante?", "你还记得那家餐馆吗？"],
+    ["El tomate pertenece a la misma familia que la patata.", "西红柿和土豆同属茄科。"],
+    ["Observó con atención cómo se cultivaba el maíz.", "他仔细观察了玉米是怎么种的。"]
+  ],
+  "exercises": [
+    {"type": "改写", "q": "Quiero hablar con el director.（用 gustar 的条件式）→ ______", "a": "Me gustaría hablar con el director."},
+    {"type": "填空", "q": "¿Le ______ (importar) esperar un momento?（委婉语气）", "a": "importaría"},
+    {"type": "翻译", "q": "我希望你尝尝这道菜。（用 gustar 的条件式）", "a": "Me gustaría que probaras (probases) este plato."},
+    {"type": "选择", "q": "我只有一个哥哥。Mi hermano___ que vive en Lima___ es médico.（加逗号 / 不加）", "a": "加逗号：Mi hermano, que vive en Lima, es médico."},
+    {"type": "改写", "q": "合并（解释性从句）：El maíz es la base de la cocina mexicana. Viene de América.", "a": "El maíz, que viene de América, es la base de la cocina mexicana."},
+    {"type": "填空", "q": "___ los expertos, la patata llegó a España ___ 1570. (según / hacia)", "a": "Según; hacia"},
+    {"type": "选择", "q": "Gracias ___ tu ayuda; este regalo es ___ ti. (por / para)", "a": "por; para"},
+    {"type": "问答", "q": "¿Para qué usaban los aztecas las semillas de cacao?", "a": "Las usaban como moneda y para hacer una bebida."}
+  ],
+  "summary": [
+    "条件式表委婉：¿Podría…? Me gustaría…",
+    "Me gustaría que + 虚拟式过去未完成时。",
+    "限定性从句不加逗号，解释性从句加逗号。",
+    "本课形容词从句只用陈述式。",
+    "por 和 para、hacia 和 hasta 要分清。"
+  ],
+  "homework": [
+    "用条件式写一段在餐馆点菜的对话（8 句以上）。",
+    "用解释性从句介绍三种来自美洲的食物。",
+    "用 por、para、según、sin、sobre、tras 各造一句。"
+  ],
+  "notes": {
+    "goals": "条件式的委婉用法第二册第 16 课已接触，本课系统归纳。形容词从句只用陈述式，从句里用虚拟式留到第 11 课。前置词接第 7 课，讲剩下的八个。",
+    "vocab": "probar、recomendar、acordar 是词根变化动词（pruebo、recomiendo、acuerdo）；pertenecer 第一人称 pertenezco。acordar 是“商定”，acordarse de 是“记得”；en efectivo 意为“用现金”。",
+    "text": "原创对话，场景是墨西哥餐馆。让学生找出条件式礼貌用语（podría、recomendaría、gustaría、desearían、querríamos、podríamos）和两种形容词从句。mole poblano 是普埃布拉的传统酱汁，用多种辣椒和巧克力等调成。",
+    "grammar": "解释性从句朗读时在逗号处停顿，可借此让学生体会区别。por 和 para 最易混，可对比 Lo hago por ti（为了你、因为你）和 Este regalo es para ti（给你的）。",
+    "exercises": "第 4 题只有一个哥哥，从句只是补充说明，所以加逗号；第 3 题虚拟式 -ra、-se 两种形式都对。"
+  }
+}

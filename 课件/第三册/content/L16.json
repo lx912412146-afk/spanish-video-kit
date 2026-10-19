@@ -1,0 +1,166 @@
+{
+  "book": 3,
+  "lesson": 16,
+  "title_es": "Diego de Velázquez y Francisco de Goya",
+  "title_zh": "委拉斯开兹和戈雅",
+  "goals": [
+    "掌握复合原形动词的构成和先时意义",
+    "会用 lo + 形容词表达抽象概念",
+    "会用 lo + 形容词 / 副词 + que 强调程度",
+    "辨析几组常用同义词的语体和搭配",
+    "能用西语介绍委拉斯开兹和戈雅的名画"
+  ],
+  "vocab": [
+    ["cualquiera que + 虚拟式", "无论谁，凡是……的人"],
+    ["apreciar", "欣赏；重视；看出"],
+    ["caber", "容得下，装得下"],
+    ["en busca de", "寻找，寻求"],
+    ["admirar(se)", "钦佩，欣赏；惊叹"],
+    ["elevar", "提高；提升（职位）"],
+    ["impresionar", "给人深刻印象，打动"],
+    ["explicarse", "理解，想明白"],
+    ["serio, ria", "严肃的；认真的；严重的"],
+    ["cobrar", "收（钱）；领取；获得"],
+    ["el cuadro", "画，绘画作品"],
+    ["el retrato", "肖像，肖像画"],
+    ["la corte", "宫廷，朝廷"],
+    ["el pintor de cámara", "宫廷画师"],
+    ["la infanta", "（西班牙）公主"],
+    ["el espejo", "镜子"],
+    ["fusilar", "枪决"],
+    ["sordo, da", "聋的；聋人"]
+  ],
+  "text": {
+    "title": "En el Museo del Prado",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¡Qué alegría estar en el Prado! Gracias por haberme invitado.", "zh": "能来普拉多博物馆真高兴！谢谢你邀请我。"},
+      {"who": "B", "es": "Mira, éste es el cuadro de Las Meninas. Velázquez lo pintó en 1656.", "zh": "你看，这就是《宫娥》。委拉斯开兹 1656 年画的。"},
+      {"who": "A", "es": "¿Quién es la niña rubia del centro?", "zh": "中间那个金发小女孩是谁？"},
+      {"who": "B", "es": "Es la infanta Margarita. Lo curioso es que el pintor también aparece.", "zh": "是玛格丽特公主。有意思的是，画家本人也在画里。"},
+      {"who": "A", "es": "¡Es verdad! Está a la izquierda, pintando un cuadro enorme.", "zh": "真的！他在左边，正在画一幅巨大的画。"},
+      {"who": "B", "es": "Y en el espejo del fondo se ven el rey y la reina.", "zh": "后面那面镜子里还能看到国王和王后。"},
+      {"who": "A", "es": "Cualquiera que lo mire se pregunta qué está pintando Velázquez.", "zh": "凡是看这幅画的人都会问：委拉斯开兹在画什么呢？"},
+      {"who": "B", "es": "Ahora vamos a las salas de Goya, que admiraba mucho a Velázquez.", "zh": "现在我们去戈雅的展厅。戈雅非常钦佩委拉斯开兹。"},
+      {"who": "A", "es": "¿Y aquél es el famoso cuadro de Los fusilamientos del 3 de mayo?", "zh": "那幅就是有名的《1808年5月3日夜枪杀起义者》吗？"},
+      {"who": "B", "es": "Lo pintó en 1814, después de haber vivido la guerra contra Napoleón.", "zh": "他是 1814 年画的，那时他已经经历了反抗拿破仑的战争。"},
+      {"who": "A", "es": "No sabes lo mucho que me impresiona el hombre de la camisa blanca.", "zh": "你不知道那个穿白衬衫的人让我多么震撼。"},
+      {"who": "B", "es": "Ya viejo y sordo, hizo sus Pinturas negras en las paredes de su casa.", "zh": "后来他年老耳聋，在自家墙上画了《黑色绘画》。"},
+      {"who": "A", "es": "Lo mejor de hoy es haber visto las obras de dos grandes maestros.", "zh": "今天最棒的是看到了两位大师的作品。"},
+      {"who": "B", "es": "No cabe duda. Tenemos que volver otro día con más tiempo.", "zh": "毫无疑问。我们得另找时间再来一次。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "复合原形动词（haber + 过去分词）",
+      "points": [
+        "构成：haber + 过去分词，分词不变；代词附在后面：haberlo visto。",
+        "表示在主要动词之前已经完成的动作（先时性）。",
+        "常用在 después de、por（原因）、sin、gracias por 等后面。",
+        "sentir、alegrarse de 等后：主语相同用原形，不同用 que + 虚拟式。"
+      ],
+      "examples": [
+        ["Gracias por haber venido a la exposición.", "谢谢你来看展览。"],
+        ["Después de haber visitado el museo, fuimos a cenar.", "参观完博物馆，我们去吃了晚饭。"],
+        ["Siento no haberte llamado antes.", "抱歉没早点给你打电话。"],
+        ["Recuerdo haber visto este cuadro de niño.", "我记得小时候看过这幅画。"]
+      ]
+    },
+    {
+      "title": "lo + 形容词：表示抽象概念",
+      "points": [
+        "lo + 形容词（阳性单数）表示抽象的“……的事 / ……的方面”。",
+        "常作主语：Lo importante es + 原形动词 / que + 虚拟式。",
+        "也可用最高级和过去分词：lo mejor、lo más difícil、lo dicho。",
+        "对比：lo bueno（好的方面），el bueno（好的那个人 / 东西）。"
+      ],
+      "examples": [
+        ["Lo bueno de este museo es que está en el centro.", "这家博物馆的好处是它在市中心。"],
+        ["Lo importante es que entiendas el cuadro.", "重要的是你要看懂这幅画。"],
+        ["Lo más difícil fue elegir entre tantos cuadros.", "最难的是在这么多画里做出选择。"],
+        ["Lo mejor del viaje fue ver Las Meninas.", "这次旅行最棒的是看到了《宫娥》。"]
+      ]
+    },
+    {
+      "title": "lo + 形容词 / 副词 + que：强调程度",
+      "points": [
+        "lo + 形容词 / 副词 + que + 动词，意思是“多么……”，强调程度。",
+        "常作 saber、ver、imaginarse 的宾语或 sorprender 的主语。",
+        "形容词要和所说的名词性数一致：lo cansadas que están；lo 本身不变。",
+        "副词没有变化：lo bien que habla、lo mucho que trabaja。"
+      ],
+      "examples": [
+        ["No sabes lo cansado que estoy.", "你不知道我有多累。（女性说 cansada）"],
+        ["Me sorprendió lo bien que habla chino.", "他汉语说得那么好，让我很吃惊。"],
+        ["¡Mira lo grandes que son estos cuadros!", "你看这些画有多大！"],
+        ["Imagínate lo difícil que era trabajar sin oír nada.", "你想想，什么都听不见还要工作，有多难。"]
+      ]
+    },
+    {
+      "title": "同义词",
+      "points": [
+        "同义词意思相近，但常在语体、搭配和意义范围上有差别。",
+        "empezar、comenzar 通用，接 a + 原形；iniciar 较正式，多接名词。",
+        "terminar、acabar 常用，concluir 较正式（也指“得出结论”）。",
+        "cara 是日常用词，还指“正面、一面”；rostro 多见于书面和文学描写。"
+      ],
+      "table": {
+        "head": ["同义词", "语体", "常见搭配"],
+        "rows": [
+          ["empezar / comenzar", "通用", "empezar a pintar"],
+          ["iniciar", "正式", "iniciar un viaje"],
+          ["terminar / acabar", "通用", "terminar el trabajo"],
+          ["concluir", "正式", "concluir la reunión"],
+          ["cara", "日常", "lavarse la cara"],
+          ["rostro", "书面、文学", "un rostro serio"]
+        ]
+      },
+      "examples": [
+        ["Velázquez empezó (comenzó) a pintar muy joven.", "委拉斯开兹很年轻就开始画画了。"],
+        ["La exposición se inició con un discurso del director.", "展览以馆长致辞开幕。"],
+        ["Acabo de terminar el trabajo.", "我刚刚把工作做完。（acabar de：刚刚）"],
+        ["El rostro de la infanta es muy dulce.", "公主的面容很甜美。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Cualquiera que vea este cuadro se queda admirado.", "凡是看到这幅画的人都会赞叹不已。"],
+    ["Desde aquí se aprecian mejor los colores.", "从这儿看，颜色更清楚。"],
+    ["No cabe duda de que Goya fue un genio.", "毫无疑问，戈雅是个天才。"],
+    ["Muchos pintores iban a Madrid en busca de trabajo.", "很多画家到马德里去找工作。"],
+    ["En 1799 Carlos IV elevó a Goya a primer pintor de cámara.", "1799 年，卡洛斯四世把戈雅提升为首席宫廷画师。"],
+    ["No me explico cómo pudo pintar algo tan moderno.", "我想不通他怎么能画出这么现代的作品。"],
+    ["¿Cuánto te cobraron por la entrada?", "门票收了你多少钱？"],
+    ["En sus retratos, el rey siempre tiene un rostro serio.", "在肖像画里，国王总是一脸严肃。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Gracias por ______ (ayudarme) tanto.（用复合原形动词）", "a": "haberme ayudado（代词附在 haber 后）"},
+    {"type": "改写", "q": "Después de que visitamos el museo, fuimos a cenar.（用复合原形动词）", "a": "Después de haber visitado el museo, fuimos a cenar."},
+    {"type": "改写", "q": "Recuerdo que vi ese cuadro de niño.（用复合原形动词）", "a": "Recuerdo haber visto ese cuadro de niño."},
+    {"type": "选择", "q": "___ importante es llegar temprano. (Lo / El)", "a": "Lo（lo + 形容词表示抽象概念）"},
+    {"type": "选择", "q": "No sabes lo ___ que están mis hermanas. (cansado / cansadas)", "a": "cansadas（和 mis hermanas 性数一致）"},
+    {"type": "选择", "q": "Al levantarte, lávate ___. (la cara / el rostro)", "a": "la cara（日常用语）"},
+    {"type": "翻译", "q": "他西班牙语说得那么好，让我很吃惊。（用 lo + 副词 + que）", "a": "Me sorprendió lo bien que habla español."},
+    {"type": "问答", "q": "¿Qué se ve en el espejo del fondo de Las Meninas?", "a": "Se ven el rey y la reina."}
+  ],
+  "summary": [
+    "复合原形动词 = haber + 过去分词，表示先完成的动作。",
+    "代词附在 haber 后：haberlo visto。",
+    "lo + 形容词表示抽象的“……的事 / 方面”。",
+    "lo + 形容词 / 副词 + que 表示“多么……”。",
+    "同义词要注意语体、搭配和意义范围的差别。"
+  ],
+  "homework": [
+    "用 6–8 句话介绍委拉斯开兹或戈雅的一幅画。",
+    "用 después de、por、sin + 复合原形动词各造一句。",
+    "用 lo + 形容词 / 副词 + que 写三句感叹句。",
+    "查词典比较 cuadro 和 pintura，各造两句。"
+  ],
+  "notes": {
+    "goals": "建议复合原形动词一课时，lo 的两种结构一课时，同义词结合课文词汇穿插讲。",
+    "vocab": "caber 不规则：quepo、cabes…，简单过去时 cupe、cupo，将来时 cabré；no cabe duda de que 很常用。cualquiera que 后接虚拟式（第 11 课形容词从句）；explicarse 指“理解、想明白”，¿Me explico? 是“我说清楚了吗”。cobrar 除了“收钱、领工资”，还有 cobrar fama（出名）等用法。",
+    "text": "可先放映《宫娥》和《1808年5月3日夜枪杀起义者》（又译《五月三日》）的图片，让学生边看边找画中人物。课文里的复合原形动词（haberme invitado、haber vivido、haber visto）和 lo 结构（lo curioso、lo mucho que、lo mejor）可让学生划出来。",
+    "grammar": "强调 lo + 形容词 + que（多么……）和第 14 课的 lo que（……的东西）不同，前者中间有形容词或副词。复合原形动词还可和 deber de 连用推测过去（Debe de haber salido），可作补充。同义词部分可补充 cuadro / pintura（画作 / 绘画艺术、颜料）。",
+    "exercises": "第 1 题考代词位置（haberme ayudado）；第 5 题考形容词性数一致；第 6 题是语体选择，rostro 不和 lavarse 搭配。"
+  }
+}

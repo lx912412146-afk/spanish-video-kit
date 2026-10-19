@@ -1,0 +1,161 @@
+{
+  "book": 3,
+  "lesson": 15,
+  "title_es": "América Latina y su literatura moderna",
+  "title_zh": "拉丁美洲和它的现代文学",
+  "goals": [
+    "掌握虚拟式现在完成时的构成",
+    "会在各类从句里正确使用虚拟式现在完成时",
+    "认识复合词和前后缀合成（构词法三）",
+    "能简单介绍几位拉美现代作家"
+  ],
+  "vocab": [
+    ["merecer", "值得；应该得到"],
+    ["reciente", "新近的，最近的"],
+    ["iniciar", "开始，开创"],
+    ["introducir", "引进；放进"],
+    ["transformar", "改变，改造"],
+    ["destacar(se)", "突出；出众"],
+    ["adelantar(se)", "提前；超过"],
+    ["apartar(se)", "挪开；离开"],
+    ["pegar", "粘，贴；打"],
+    ["fijar(se) en", "固定；注意"],
+    ["la literatura", "文学"],
+    ["el poeta, la poetisa", "诗人"],
+    ["el, la novelista", "小说家"],
+    ["el cuento", "短篇小说；故事"],
+    ["el modernismo", "（拉美）现代主义"],
+    ["el realismo mágico", "魔幻现实主义"],
+    ["el premio Nobel", "诺贝尔奖"],
+    ["la obra maestra", "杰作"]
+  ],
+  "text": {
+    "title": "Hablando de literatura",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¿Ya has terminado «Cien años de soledad»?", "zh": "你读完《百年孤独》了吗？"},
+      {"who": "B", "es": "Todavía no; me faltan unas cien páginas. ¡Es una obra maestra!", "zh": "还没有，还差一百来页。真是一部杰作！"},
+      {"who": "A", "es": "¡Qué bien que hayas empezado a leerlo! Su autor ganó el Nobel en 1982.", "zh": "你已经开始读了，真好！它的作者 1982 年获得了诺贝尔奖。"},
+      {"who": "B", "es": "¿Fue García Márquez el primer latinoamericano que lo recibió?", "zh": "加西亚·马尔克斯是第一个获得这个奖的拉丁美洲人吗？"},
+      {"who": "A", "es": "No. La primera fue Gabriela Mistral (1945); luego, Asturias y Neruda.", "zh": "不是。第一位是加夫列拉·米斯特拉尔，1945 年；后来是阿斯图里亚斯和聂鲁达。"},
+      {"who": "B", "es": "¿Y Borges? Me extraña que no lo ganara nunca.", "zh": "那博尔赫斯呢？他从来没得过这个奖，我觉得很奇怪。"},
+      {"who": "A", "es": "Es extraño, sí. Sus cuentos destacan entre los mejores del siglo XX.", "zh": "是很奇怪。他的短篇小说在二十世纪最好的作品中也很突出。"},
+      {"who": "A", "es": "Y si te gusta la poesía, lee a Rubén Darío, que inició el modernismo.", "zh": "要是你喜欢诗歌，就读读鲁文·达里奥，他开创了现代主义。"},
+      {"who": "A", "es": "Él transformó la poesía en lengua española a finales del siglo XIX.", "zh": "他在十九世纪末改变了西班牙语诗歌的面貌。"},
+      {"who": "B", "es": "¿Y qué novela leo cuando haya terminado ésta?", "zh": "那我读完这一部以后，再读哪部小说呢？"},
+      {"who": "A", "es": "«La ciudad y los perros», de Vargas Llosa, Nobel de 2010.", "zh": "巴尔加斯·略萨的《城市与狗》，他是 2010 年诺贝尔奖得主。"},
+      {"who": "A", "es": "Cuando la hayas leído, ven a contarme qué te ha parecido.", "zh": "等你读完了，来跟我说说你觉得怎么样。"},
+      {"who": "B", "es": "Gracias. Espero que nadie la haya sacado ya de la biblioteca.", "zh": "谢谢。希望还没有人把它从图书馆借走。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "虚拟式现在完成时：构成和名词从句",
+      "points": [
+        "构成：haber 的虚拟式现在时（haya, hayas…）+ 过去分词，分词不变。",
+        "主句要求用虚拟式（愿望、情感、怀疑、否定等），而从句动作已经完成时用它。",
+        "主句动词一般是现在时、将来时、现在完成时或命令式。",
+        "对比：Creo que ha ido → No creo que haya ido。"
+      ],
+      "table": {
+        "head": ["人称", "haber（虚拟式）", "terminar", "leer"],
+        "rows": [
+          ["yo", "haya", "haya terminado", "haya leído"],
+          ["tú", "hayas", "hayas terminado", "hayas leído"],
+          ["él / ella / usted", "haya", "haya terminado", "haya leído"],
+          ["nosotros, -as", "hayamos", "hayamos terminado", "hayamos leído"],
+          ["vosotros, -as", "hayáis", "hayáis terminado", "hayáis leído"],
+          ["ellos / ustedes", "hayan", "hayan terminado", "hayan leído"]
+        ]
+      },
+      "examples": [
+        ["Espero que hayas terminado el trabajo.", "希望你已经把工作做完了。"],
+        ["No creo que lo haya leído.", "我不相信他读过这本书。"],
+        ["Me alegro de que hayas venido.", "你来了，我很高兴。"],
+        ["Es posible que hayas oído hablar de Octavio Paz.", "你可能听说过奥克塔维奥·帕斯。"]
+      ]
+    },
+    {
+      "title": "虚拟式现在完成时：状语从句和形容词从句",
+      "points": [
+        "时间从句：cuando 等 + haya + 分词，表示将来某动作完成以后。",
+        "形容词从句（第 11 课）：先行词被否定或不确定，从句动作已完成。",
+        "和虚拟式现在时对比：现在时指同时或以后的动作，现在完成时指已完成的。",
+        "ojalá + haya + 分词：但愿某事已经发生（或没有发生）。"
+      ],
+      "examples": [
+        ["Cuando hayas terminado, llámame.", "你做完以后给我打个电话。"],
+        ["No hay nadie que haya leído toda su obra.", "没有人读过他的全部作品。"],
+        ["Busco a alguien que haya vivido en Chile.", "我在找一个在智利生活过的人。"],
+        ["Ojalá no hayan cerrado la biblioteca.", "但愿图书馆还没关门。"]
+      ]
+    },
+    {
+      "title": "构词法（三）：复合词和前后缀合成",
+      "points": [
+        "复合词由两个（或几个）词合成一个词：boca + calle → bocacalle。",
+        "“动词 + 复数名词”构成阳性名词，单复数同形：el / los abrelatas。",
+        "合成时有时要换元音或加连接元音：pelo + rojo → pelirrojo。",
+        "前后缀合成：同时加前缀和后缀构成动词，如 en-…-ecer：envejecer。"
+      ],
+      "table": {
+        "head": ["类型", "构成", "例词"],
+        "rows": [
+          ["动词 + 名词", "sacar + corchos", "el sacacorchos"],
+          ["动词 + 名词", "abrir + latas", "el abrelatas"],
+          ["名词 + 名词", "boca + calle", "la bocacalle"],
+          ["名词 + 形容词", "pelo + rojo", "pelirrojo"],
+          ["形容词 + 形容词", "agrio + dulce", "agridulce"],
+          ["en- + 形容词 + -ecer", "en + viejo + ecer", "envejecer"],
+          ["en- + 形容词 + -ecer", "en + rico + ecer", "enriquecer"]
+        ]
+      },
+      "examples": [
+        ["Pásame el abrelatas, por favor.", "请把开罐器递给我。"],
+        ["Te espero en la bocacalle.", "我在路口等你。"],
+        ["Su abuelo ha envejecido mucho.", "他爷爷老了很多。"],
+        ["La obra de Darío enriqueció la lengua española.", "达里奥的作品丰富了西班牙语。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Esta novela merece la pena.", "这部小说值得一读。"],
+    ["Es su obra más reciente.", "这是他最新的作品。"],
+    ["Darío introdujo nuevos ritmos en la poesía.", "达里奥给诗歌引进了新的节奏。"],
+    ["Entre las obras de Neruda destaca «Canto general».", "在聂鲁达的作品中，《漫歌》最为突出。"],
+    ["Han adelantado el examen al lunes.", "考试提前到星期一了。"],
+    ["Apártate un poco, que no veo.", "往边上让一让，我看不见了。"],
+    ["Pega la foto en la primera página.", "把照片贴在第一页上。"],
+    ["Fíjate bien en este verso.", "好好注意这一行诗。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Espero que ya ______ (terminar, tú) la novela.", "a": "hayas terminado"},
+    {"type": "填空", "q": "Me alegro de que ______ (llegar, vosotros) bien. ¿Qué tal el viaje?", "a": "hayáis llegado"},
+    {"type": "改写", "q": "Creo que Juan ha leído a Borges. → No creo que ______.", "a": "No creo que Juan haya leído a Borges."},
+    {"type": "选择", "q": "Cuando ___ el libro, devuélvemelo. (has leído / hayas leído)", "a": "hayas leído（时间从句指将来，用虚拟式）"},
+    {"type": "选择", "q": "No hay nadie aquí que ___ a Neruda. (ha conocido / haya conocido)", "a": "haya conocido（先行词被否定）"},
+    {"type": "填空", "q": "构词：rascar + cielos → ______；en + rico + ecer → ______", "a": "rascacielos；enriquecer"},
+    {"type": "翻译", "q": "我希望你已经把信寄出去了。", "a": "Espero que hayas enviado la carta."},
+    {"type": "问答", "q": "Según el texto, ¿quiénes recibieron el Nobel antes que García Márquez?", "a": "Gabriela Mistral (1945), Asturias (1967) y Neruda (1971)."}
+  ],
+  "summary": [
+    "虚拟式现在完成时 = haya, hayas… + 过去分词。",
+    "主句要求虚拟式、从句动作已完成时，用虚拟式现在完成时。",
+    "cuando + haya + 分词：将来某动作完成以后。",
+    "“动词 + 复数名词”构成阳性复合名词，单复数同形。",
+    "前后缀合成：en-…-ecer 等，如 envejecer。"
+  ],
+  "homework": [
+    "写出 escribir, ver, volver 的虚拟式现在完成时全部变位。",
+    "用 Me alegro de que… 和 No creo que… 各造两句。",
+    "用 80 词左右介绍一位拉美作家，至少用两个虚拟式现在完成时。",
+    "找出五个“动词 + 名词”的复合词，查出意思。"
+  ],
+  "notes": {
+    "goals": "虚拟式现在完成时的变位不难，重点是什么时候用：主句要求虚拟式，而从句动作已经完成。可以把 Creo que ha… / No creo que haya… 成对练习。",
+    "vocab": "merecer 按 -cer 变位（merezco）；introducir 按 -ducir 变位（introduzco, introdujo）；destacar 在 e 前 c 变 qu（destaqué）；pegar 在 e 前 g 变 gu（pegué）；adelantar 既指“提前”，也指“超过”。",
+    "text": "可让学生做一张诺贝尔文学奖年表：米斯特拉尔 1945、阿斯图里亚斯 1967、聂鲁达 1971、加西亚·马尔克斯 1982、帕斯 1990、巴尔加斯·略萨 2010；博尔赫斯始终没有获奖。达里奥的诗文集《蓝》（Azul…，1888）通常被看作现代主义的开端。",
+    "grammar": "提醒时态呼应：主句是过去时，从句要用虚拟式过去完成时（第 9 课），如 Me alegré de que hubieras venido。复合原形动词（haber + 分词）第 16 课才学，本课不用。博尔赫斯 1986 年去世，没获奖是已经了结的事，所以课文用 Me extraña que no lo ganara nunca，不用 haya ganado。",
+    "exercises": "第 4 题 cuando 指将来，不能用陈述式；第 5 题先行词被否定，用虚拟式；第 6 题 rascacielos 也是“动词 + 复数名词”，单复数同形。"
+  }
+}

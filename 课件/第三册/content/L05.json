@@ -1,0 +1,176 @@
+{
+  "book": 3,
+  "lesson": 5,
+  "title_es": "El arca de Noé",
+  "title_zh": "诺亚方舟",
+  "goals": [
+    "区分真实条件句和非真实条件句",
+    "会用 Si tuviera…, haría… 表示假设",
+    "会用 iba a、estar a punto de 表示正要",
+    "会读写常用分数，掌握 como 的几种用法",
+    "能用西语讲述诺亚方舟的故事"
+  ],
+  "vocab": [
+    ["registrar(se)", "搜查；登记；记录"],
+    ["crear", "创造；建立"],
+    ["anunciar", "宣布，通知；预告"],
+    ["único, ca", "唯一的；独特的"],
+    ["terminar", "结束；完成"],
+    ["equivocar(se)", "弄错；~se de 搞错"],
+    ["tanto… como", "既……又……"],
+    ["referir(se)", "讲述；~se a 指，谈到"],
+    ["el arca (f.)", "方舟；大箱子"],
+    ["el diluvio", "大洪水"],
+    ["justo, ta", "公正的；正直的"],
+    ["la pareja", "一对；伴侣"],
+    ["la especie", "种，物种"],
+    ["soltar", "放开；放走"],
+    ["la paloma", "鸽子"],
+    ["el olivo", "油橄榄树"],
+    ["el arco iris", "彩虹"],
+    ["la mitad", "一半"]
+  ],
+  "text": {
+    "title": "El arca de Noé",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "B", "es": "Abuelo, ¿me cuentas otra vez la historia del arca de Noé?", "zh": "爷爷，再给我讲一遍诺亚方舟的故事好吗？"},
+      {"who": "A", "es": "Iba a apagar la luz, pero bueno, te cuento lo que dice la Biblia.", "zh": "我正要关灯呢，不过好吧，给你讲讲《圣经》里是怎么说的。"},
+      {"who": "A", "es": "Noé era el único hombre justo, y Dios le anunció un gran diluvio.", "zh": "诺亚是唯一的义人，上帝告诉他将有一场大洪水。"},
+      {"who": "A", "es": "Le mandó construir un arca de 300 codos, como de 150 metros de largo.", "zh": "上帝让他造一只方舟，长三百肘（古代长度单位），大约一百五十米。"},
+      {"who": "A", "es": "Noé metió en ella a su familia y una pareja de cada especie.", "zh": "诺亚让家人和每种动物各一对进了方舟。"},
+      {"who": "B", "es": "¿Tanto los leones como los ratones?", "zh": "狮子和老鼠都有吗？"},
+      {"who": "A", "es": "Sí. Llovió cuarenta días y cuarenta noches; el agua cubrió los montes.", "zh": "都有。后来下了四十天四十夜的雨，大水淹没了群山。"},
+      {"who": "B", "es": "Si lloviera tanto aquí, nuestra casa desaparecería bajo el agua.", "zh": "要是这里下这么多雨，我们的房子就淹没在水里了。"},
+      {"who": "A", "es": "Claro. Pasaron muchos meses antes de que el agua bajara.", "zh": "当然。过了好几个月，大水才退下去。"},
+      {"who": "A", "es": "Como Noé quería saber si había tierra seca, soltó una paloma.", "zh": "因为诺亚想知道有没有露出水面的陆地，所以他放出了一只鸽子。"},
+      {"who": "A", "es": "La paloma volvió con una hoja de olivo: ¡el agua estaba bajando!", "zh": "鸽子带着一片橄榄叶飞了回来：水正在退呢！"},
+      {"who": "A", "es": "Al final, Dios puso un arco iris en el cielo como señal de su promesa.", "zh": "最后，上帝在天上放了一道彩虹，作为他许下诺言的记号。"},
+      {"who": "B", "es": "Abuelo, si yo fuera Noé, llevaría también a mi perro.", "zh": "爷爷，我要是诺亚，还要把我的狗也带上。"},
+      {"who": "A", "es": "Y si no te duermes ya, mañana estarás muy cansada.", "zh": "你要是再不睡，明天就会很累了。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "条件句：真实条件和非真实条件",
+      "points": [
+        "真实条件：si + 陈述式现在时，主句用现在时、将来时或命令式。",
+        "非真实条件：si + 虚拟式过去未完成时，主句简单条件式，与现在事实相反或不大可能。",
+        "主从句可以互换：si 从句在前，后面加逗号；主句在前，中间一般不加逗号。",
+        "si 后面不用虚拟式现在时，也不用将来时和条件式。"
+      ],
+      "table": {
+        "head": ["类型", "si 从句", "主句", "例句"],
+        "rows": [
+          ["真实条件", "si + 陈述式现在时", "陈述式现在时", "Si llueve, no salgo."],
+          ["真实条件", "si + 陈述式现在时", "将来未完成时", "Si llueve, no saldré."],
+          ["真实条件", "si + 陈述式现在时", "命令式", "Si llueve, quédate."],
+          ["非真实条件", "si + 虚拟式过去未完成时", "简单条件式", "Si lloviera, no iría."]
+        ]
+      },
+      "examples": [
+        ["Si llueve mañana, no saldremos.", "如果明天下雨，我们就不出门。（真实条件）"],
+        ["Si tienes frío, cierra la ventana.", "你要是冷，就把窗户关上。（真实条件）"],
+        ["Si tuviera dinero, viajaría por todo el mundo.", "我要是有钱，就去周游世界。（和现在事实相反）"],
+        ["Compraría una casa si me tocara la lotería.", "要是我中了彩票，就买一所房子。（主句在前；不大可能）"]
+      ]
+    },
+    {
+      "title": "表示意图的动词短语：iba a、estar a punto de",
+      "points": [
+        "iba a + 原形动词：过去某时“正要做”某事，但被打断或没做成。",
+        "estaba a punto de + 原形动词：“眼看就要……”，比 iba a 更紧迫。",
+        "estuve a punto de + 原形动词：“差点儿……”，事情最后没有发生。",
+        "常和 cuando 引出的打断动作或 pero 引出的转折连用。"
+      ],
+      "examples": [
+        ["Iba a llamarte cuando llegaste.", "我正要给你打电话，你就来了。"],
+        ["Estábamos a punto de salir cuando empezó a llover.", "我们正要出门，天就下起雨来了。"],
+        ["Estuve a punto de perder el tren.", "我差点儿误了火车。"],
+        ["Iba a decírtelo, pero se me olvidó.", "我本来要告诉你的，可是忘了。"]
+      ]
+    },
+    {
+      "title": "分数",
+      "points": [
+        "1/2：un medio，作形容词用 medio, -a，作名词用 la mitad。",
+        "1/3 un tercio，1/4 un cuarto，1/5–1/10 用序数词。",
+        "1/11 起用基数词 + -avo：un onceavo，la onceava parte。",
+        "分子大于 1，分母用复数：dos tercios、tres cuartos。"
+      ],
+      "table": {
+        "head": ["分数", "读法", "也可以说"],
+        "rows": [
+          ["1/2", "un medio", "la mitad"],
+          ["1/3", "un tercio", "la tercera parte"],
+          ["2/3", "dos tercios", "dos terceras partes"],
+          ["1/4", "un cuarto", "la cuarta parte"],
+          ["3/4", "tres cuartos", "tres cuartas partes"],
+          ["1/5 … 1/10", "un quinto… un décimo", "la quinta parte…"],
+          ["1/11, 1/12", "un onceavo, un doceavo", "la onceava parte…"]
+        ]
+      },
+      "examples": [
+        ["Compré medio kilo de queso.", "我买了半公斤奶酪。"],
+        ["Ya he leído un tercio del libro.", "这本书我已经读了三分之一。"],
+        ["El agua cubre casi las tres cuartas partes de la Tierra.", "水覆盖了地球表面将近四分之三。"],
+        ["Un mes es la doceava parte del año.", "一个月是一年的十二分之一。"]
+      ]
+    },
+    {
+      "title": "como 的几种用法",
+      "points": [
+        "比较：tanto… como；单用表示“像”：blanco como la nieve。",
+        "方式、身份：“按照、像……那样”“作为”：como te dije，como guía。",
+        "原因：como 引出的原因从句一般放在句首：Como llovía, no salimos。",
+        "约数：como + 数量，“大约”：como cien personas。"
+      ],
+      "examples": [
+        ["Tanto Noé como su familia se salvaron.", "诺亚和他的家人都得救了。"],
+        ["Hazlo como te dije.", "照我跟你说的那样做。"],
+        ["Como no tenía dinero, no compró nada.", "他因为没钱，什么也没买。"],
+        ["En la plaza había como cien personas.", "广场上大约有一百人。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["La policía registró toda la casa.", "警察搜查了整座房子。"],
+    ["Según la Biblia, Dios creó el mundo en seis días.", "据《圣经》说，上帝用六天创造了世界。"],
+    ["Anunciaron que el tren llegaría tarde.", "广播说火车要晚点。"],
+    ["Es mi único amigo en esta ciudad.", "他是我在这座城市里唯一的朋友。"],
+    ["¿A qué hora terminas de trabajar?", "你几点下班？"],
+    ["Perdone, me he equivocado de número.", "对不起，我打错电话了。"],
+    ["Tanto Ana como Luis hablan chino.", "安娜和路易斯都会说汉语。"],
+    ["¿A qué te refieres?", "你指的是什么？"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Si ______ (tener) más tiempo, aprendería a tocar la guitarra.", "a": "tuviera（或 tuviese）"},
+    {"type": "填空", "q": "Si mañana ______ (hacer) buen tiempo, iremos de excursión.", "a": "hace"},
+    {"type": "选择", "q": "Si yo ___ tú, no diría nada. (soy / fuera)", "a": "fuera（和事实相反）"},
+    {"type": "改写", "q": "No tengo coche, por eso no voy a verte. → Si ______.", "a": "Si tuviera coche, iría a verte."},
+    {"type": "翻译", "q": "我正要给你打电话，你就来了。（用 iba a）", "a": "Iba a llamarte cuando llegaste."},
+    {"type": "填空", "q": "3/4 = tres ______；1/12 = un ______", "a": "cuartos；doceavo"},
+    {"type": "改写", "q": "No salimos porque llovía. → Como ______.", "a": "Como llovía, no salimos."},
+    {"type": "问答", "q": "¿Por qué soltó Noé una paloma?", "a": "Porque quería saber si había tierra seca."}
+  ],
+  "summary": [
+    "真实条件：si + 现在时，主句用现在时、将来时或命令式。",
+    "非真实条件：si + 虚拟式过去未完成时，主句用简单条件式。",
+    "iba a、estar a punto de：正要或差点儿，没做成。",
+    "分数：1/5–1/10 用序数词，1/11 起基数词加 -avo。",
+    "como 可表示比较、方式、原因（放句首）和约数。"
+  ],
+  "homework": [
+    "用 Si yo fuera… 或 Si tuviera… 写五句话，说说愿望。",
+    "用 iba a 和 estuve a punto de 各写两句，讲没做成的事。",
+    "用西语读出：1/2、1/3、2/3、3/4、1/8、1/10、1/12。",
+    "用 8–10 句话复述诺亚方舟的故事，至少用两个 como。"
+  ],
+  "notes": {
+    "goals": "本课重点是 si + 虚拟式过去未完成时的条件句，只讲和现在事实相反或将来不大可能的情况；和过去事实相反的 Si hubiera…, habría… 第 9 课才学。",
+    "vocab": "el arca 是阴性名词，重读 a 开头，单数用 el、un（el arca, un arca, esta arca, las arcas），形容词用阴性；el agua 同理。referir 按 sentir 变位（refiero、refirió），soltar 词根 o → ue；equivocarse de + 名词表示弄错了对象：equivocarse de número。本套课件拼写按老版课本（副词 sólo、指示代词 éste 等带重音），RAE 2010 年起不再要求，学生不加不算错。",
+    "text": "故事按《圣经·创世记》第 6–9 章讲（第 2 句点明出处）：雨下了四十昼夜；codo（肘）是古代长度单位，300 肘约合一百三十多到一百五十多米，说法不一，课文取约数。条件句：第 8、13 句是非真实条件，第 14 句是真实条件；第 2 句 iba a apagar 是没做成的动作。como 的用法：第 6 句 tanto… como（都）、第 4 句 como de 150 metros（约数）、第 10 句 Como Noé quería…（原因）、第 12 句 como señal（作为）。",
+    "grammar": "提醒：si 从句里不用虚拟式现在时，也不用将来时、条件式；-ra、-se 两种形式都可以（si tuviese）。过去未完成时本身也能表示“正要”：Ya salía cuando llamaste。onceavo 是分数，不是序数词（第十一是 undécimo）。",
+    "exercises": "第 1 题 -ra、-se 都对；第 3 题 Si yo fuera tú 是常用的劝告说法；第 6 题 1/12 也可以说 la doceava parte；第 7 题 como 引出的原因从句放在句首。"
+  }
+}

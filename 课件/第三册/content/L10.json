@@ -1,0 +1,184 @@
+{
+  "book": 3,
+  "lesson": 10,
+  "title_es": "Cristóbal Colón",
+  "title_zh": "哥伦布",
+  "goals": [
+    "掌握虚拟式过去完成时表示“过去的过去”",
+    "归纳副动词的状语用法，避免后时误用",
+    "掌握由副动词构成的常用动词短语",
+    "归纳原形动词的用法，分清原形与 que 从句",
+    "能用西语简述哥伦布的生平和航行"
+  ],
+  "vocab": [
+    ["constituir", "构成，组成；是"],
+    ["la casualidad", "偶然，巧合"],
+    ["el sentido", "感觉；意义；方向"],
+    ["guiar(se)", "引导；以……为指引"],
+    ["despertar(se)", "唤醒；引起；醒来"],
+    ["convencer", "说服，使信服"],
+    ["rechazar", "拒绝，不接受"],
+    ["establecer(se)", "建立，设立；定居"],
+    ["disculpar(se)", "原谅；道歉"],
+    ["encima", "在上面；而且，还"],
+    ["navegar", "航行"],
+    ["el marinero", "水手，海员"],
+    ["la isla", "岛，岛屿"],
+    ["el proyecto", "计划，方案"],
+    ["la corte", "宫廷，朝廷"],
+    ["los Reyes Católicos", "天主教双王"],
+    ["la brújula", "指南针，罗盘"],
+    ["el puerto", "港口"]
+  ],
+  "text": {
+    "title": "Cristóbal Colón",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Cristóbal Colón nació hacia 1451, probablemente en Génova.", "zh": "克里斯托瓦尔·哥伦布约生于 1451 年，很可能是热那亚人。"},
+      {"who": "", "es": "Estaba convencido de que, navegando hacia el oeste, llegaría a Asia.", "zh": "他坚信，一直向西航行就能到达亚洲。"},
+      {"who": "", "es": "Primero ofreció su proyecto al rey de Portugal, pero éste lo rechazó.", "zh": "他先把计划献给葡萄牙国王，但国王拒绝了。"},
+      {"who": "", "es": "Pasó años en Castilla intentando convencer a los Reyes Católicos.", "zh": "后来他在卡斯蒂利亚待了好几年，努力说服天主教双王。"},
+      {"who": "", "es": "Los sabios de la corte no creían que hubiera hecho bien sus cálculos.", "zh": "宫廷里的学者们不相信他的计算是正确的。"},
+      {"who": "", "es": "Pero su idea despertó el interés de la reina Isabel.", "zh": "但他的想法引起了伊莎贝尔女王的兴趣。"},
+      {"who": "", "es": "Por fin, en abril de 1492, los reyes aceptaron el proyecto.", "zh": "1492 年 4 月，双王终于接受了这个计划。"},
+      {"who": "", "es": "El 3 de agosto, Colón salió del puerto de Palos con tres barcos.", "zh": "8 月 3 日，哥伦布率三艘船从帕洛斯港出发。"},
+      {"who": "", "es": "Después de una parada en las islas Canarias, siguieron hacia el oeste.", "zh": "在加那利群岛停留之后，船队继续向西航行。"},
+      {"who": "", "es": "Guiándose por la brújula, navegaron más de un mes sin ver tierra.", "zh": "他们靠罗盘指引方向，航行了一个多月也没见到陆地。"},
+      {"who": "", "es": "Los marineros, nerviosos, decían que no tenía sentido seguir.", "zh": "水手们惶恐不安，说再往前走毫无意义。"},
+      {"who": "", "es": "El 12 de octubre llegaron a Guanahaní; Colón la llamó San Salvador.", "zh": "10 月 12 日，他们到达瓜纳阿尼岛，哥伦布给它取名圣萨尔瓦多。"},
+      {"who": "", "es": "Hizo cuatro viajes y estableció las primeras colonias españolas.", "zh": "他一共四次远航，建立了最早的一批西班牙殖民地。"},
+      {"who": "", "es": "Murió en 1506 creyendo, al parecer, que había llegado a Asia.", "zh": "他于 1506 年去世；一般认为，他至死都以为自己到达的是亚洲。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "虚拟式过去完成时的时间值",
+      "points": [
+        "主句是过去时、从句要用虚拟式时，从句动作如果在主句之前，用虚拟式过去完成时。",
+        "从句动作与主句同时或在其后，用虚拟式过去未完成时（第 2–3 课）。",
+        "它在虚拟式里表示“过去的过去”，相当于陈述式的过去完成时。",
+        "-ra、-se 两套都可用：hubiera venido = hubiese venido。"
+      ],
+      "table": {
+        "head": ["主句（过去时）", "从句动作在先", "从句动作同时或在后"],
+        "rows": [
+          ["No creía que", "lo hubiera hecho.", "lo hiciera."],
+          ["Sentí que", "no hubieras venido.", "no vinieras."],
+          ["Me alegré de que", "hubierais llegado.", "llegarais."],
+          ["对比：Sabía que", "lo había hecho.", "lo hacía / lo haría."]
+        ]
+      },
+      "examples": [
+        ["Sentí que no hubieras venido a la fiesta.", "你没来参加晚会，我感到很遗憾。（没来在先）"],
+        ["No creía que lo hubiera hecho él solo.", "我不相信那是他一个人干的。"],
+        ["Me alegré de que ya hubierais terminado el trabajo.", "你们已经把活儿干完了，我很高兴。"],
+        ["Dudaban que Colón hubiera calculado bien la distancia.", "他们怀疑哥伦布没有把距离算对。"]
+      ]
+    },
+    {
+      "title": "副动词的用法小结",
+      "points": [
+        "副动词作状语，可以表示方式、时间、原因、条件和让步（让步常加 aun）。",
+        "副动词的动作和主要动词同时或稍早发生，逻辑主语一般就是句子的主语。",
+        "不能表示之后的动作：说 Salió… y llegó…，不说 *…, llegando…",
+        "不能修饰名词：una caja que contiene…，不说 *conteniendo"
+      ],
+      "examples": [
+        ["Paseando por el puerto, conoció a un viejo marinero.", "他在港口散步时认识了一位老水手。（时间）"],
+        ["Siendo extranjero, le costó mucho convencer a los reyes.", "因为是外国人，他很难说服双王。（原因）"],
+        ["Saliendo ahora, llegaremos a tiempo.", "现在出发的话，我们能准时到。（条件）"],
+        ["Aun sabiendo los peligros, decidió partir.", "尽管知道有危险，他还是决定出发。（让步）"]
+      ]
+    },
+    {
+      "title": "副动词构成的动词短语",
+      "points": [
+        "estar + 副动词：动作正在进行；seguir + 副动词：动作仍在继续。",
+        "llevar + 时间 + 副动词：某个动作已经持续了多久。",
+        "ir + 副动词：动作逐渐进行；venir + 副动词：从过去一直持续到现在。",
+        "前面的助动词照常变位，副动词本身没有变化。"
+      ],
+      "table": {
+        "head": ["动词短语", "意思", "例"],
+        "rows": [
+          ["estar + 副动词", "正在……", "Está lloviendo."],
+          ["seguir + 副动词", "仍在，继续……", "Sigue lloviendo."],
+          ["llevar + 时间 + 副动词", "已经……了多久", "Lleva años luchando."],
+          ["ir + 副动词", "逐渐……", "Va mejorando."],
+          ["venir + 副动词", "一直（至今）……", "Lo vengo diciendo."]
+        ]
+      },
+      "examples": [
+        ["Cuando los reyes aceptaron, Colón llevaba años esperando.", "双王同意时，哥伦布已经等了好几年。"],
+        ["Los marineros iban perdiendo la esperanza.", "水手们渐渐失去了希望。"],
+        ["A pesar del miedo, siguieron navegando hacia el oeste.", "尽管害怕，他们还是继续向西航行。"],
+        ["Hace meses que te vengo diciendo lo mismo.", "几个月来我一直在跟你说同样的话。"]
+      ]
+    },
+    {
+      "title": "原形动词的用法小结",
+      "points": [
+        "原形动词可当名词，作主语、宾语等；al + 原形动词相当于 cuando 从句。",
+        "前置词后用原形：para、sin、antes de、después de 等。",
+        "动词短语：ir a、acabar de、volver a、dejar de + 原形。",
+        "主语相同用原形，不同用从句：Quiero ir / Quiero que vayas。"
+      ],
+      "table": {
+        "head": ["用法", "例"],
+        "rows": [
+          ["作主语", "Navegar era su vida."],
+          ["al + 原形动词", "Al ver tierra, gritó."],
+          ["前置词 + 原形动词", "Salió sin decir nada."],
+          ["动词短语", "Volvió a intentarlo."],
+          ["主语相同：用原形", "Quería viajar."],
+          ["主语不同：用从句", "Quería que viajaras."]
+        ]
+      },
+      "examples": [
+        ["Al ver tierra, el marinero gritó de alegría.", "一看到陆地，那个水手高兴得大叫起来。"],
+        ["Colón salió de Palos sin saber adónde llegaría.", "哥伦布从帕洛斯出发时，并不知道会到达哪里。"],
+        ["Los reyes querían que Colón buscara oro y especias.", "双王希望哥伦布去寻找黄金和香料。（主语不同）"],
+        ["En 1504 volvió a España y dejó de navegar.", "1504 年他回到西班牙，从此不再航海。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Su llegada constituyó el comienzo de una nueva época.", "他的到达成了一个新时代的开端。"],
+    ["Nos encontramos por casualidad en el puerto.", "我们在港口偶然碰见了。"],
+    ["No tiene sentido seguir esperando.", "再等下去没有意义。"],
+    ["El ruido despertó a todo el barrio.", "那声音把整个街区的人都吵醒了。"],
+    ["Sus razones no me convencen.", "他的理由说服不了我。"],
+    ["China y España establecieron relaciones diplomáticas en 1973.", "中国和西班牙于 1973 年建交。"],
+    ["Disculpe, ¿podría decirme dónde está el puerto?", "对不起，您能告诉我港口在哪儿吗？"],
+    ["Hacía frío y, encima, empezó a llover.", "天很冷，而且还下起雨来了。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Me alegré de que ya ______ (terminar, vosotros) el trabajo cuando llegué.", "a": "hubierais terminado（或 hubieseis terminado）"},
+    {"type": "选择", "q": "No creí que el barco ya ___. (había salido / hubiera salido)", "a": "hubiera salido（creer 否定，从句用虚拟式，动作在先）"},
+    {"type": "选择", "q": "Los reyes querían que Colón ___ oro. (buscar / buscara)", "a": "buscara（主从句主语不同，用 que 从句）"},
+    {"type": "改写", "q": "Como estaba enfermo, no fue a clase. →（用副动词）", "a": "Estando enfermo, no fue a clase."},
+    {"type": "改写", "q": "改正：Colón salió de Palos en agosto, llegando a Guanahaní en octubre.", "a": "Colón salió de Palos en agosto y llegó a Guanahaní en octubre."},
+    {"type": "填空", "q": "Cuando los reyes aceptaron, Colón ______ (llevar) años ______ (esperar).", "a": "llevaba；esperando"},
+    {"type": "翻译", "q": "一看到陆地，水手们都高兴得叫了起来。（用 al + 原形动词）", "a": "Al ver tierra, los marineros gritaron de alegría."},
+    {"type": "问答", "q": "¿Qué pensaban los sabios de la corte de los cálculos de Colón?", "a": "No creían que los hubiera hecho bien."}
+  ],
+  "summary": [
+    "过去时主句要求虚拟式：从句动作在先，用虚拟式过去完成时。",
+    "从句动作同时或在后，用虚拟式过去未完成时。",
+    "副动词表示方式、时间、原因、条件、让步，不表示之后的动作。",
+    "副动词短语表示进行、继续、持续、渐进等进程。",
+    "前置词后用原形；主语相同用原形，主语不同用 que 从句。"
+  ],
+  "homework": [
+    "用 10 句话介绍哥伦布的生平，至少用三个副动词。",
+    "用 No creía que…、Sentí que… 各造两句，从句动作在先。",
+    "用 llevar、ir、venir + 副动词各写一句关于自己的话。"
+  ],
+  "notes": {
+    "goals": "后三个语法点是第二册所学内容的小结，重点放在虚拟式过去完成时的时间值和副动词的误用上。虚拟式现在完成时第 15 课才学，本课不讲主句是现在时的情况。",
+    "vocab": "constituir 变位同 destruir（constituyo、constituyó）；guiar 现在时重音在 i 上（guío、guías）；despertar 的 e 变 ie；convencer、establecer 第一人称是 convenzo、establezco。encima 口语里常表示“而且，还”。",
+    "text": "史实：1492 年 8 月 3 日从帕洛斯出发，在加那利群岛停留后于 9 月 6 日西行，10 月 12 日到达巴哈马群岛的瓜纳阿尼岛；共四次航行（1492–1504），1506 年死于巴利亚多利德。学者们认为他把距离算短了，这一点其实是对的。他是否至死都以为到的是亚洲，说法不一，课文用 al parecer 留有余地。",
+    "grammar": "用时间轴画出主句和从句动作的先后，对比 hiciera 和 hubiera hecho。让学生先自己找出 *llegando 这类“后时副动词”的错误，再改成并列句。原形动词部分以复习为主，表格可让学生补充例句。",
+    "exercises": "第 2 题考 creer 否定后用虚拟式过去完成时；第 3 题考主语不同用从句；第 5 题改正副动词的后时误用。"
+  }
+}

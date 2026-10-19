@@ -1,0 +1,173 @@
+{
+  "book": 3,
+  "lesson": 9,
+  "title_es": "Las civilizaciones precolombinas",
+  "title_zh": "哥伦布到达前的美洲文明",
+  "goals": [
+    "掌握虚拟式过去完成时和复合条件式的构成",
+    "会用 Si hubiera…, habría… 假设过去",
+    "会用 como si + 虚拟式过去完成时",
+    "会用过去未完成时提出客气的请求",
+    "能简单介绍玛雅、阿兹特克和印加文明"
+  ],
+  "vocab": [
+    ["alcanzar", "达到；赶上；够到"],
+    ["destruir", "摧毁，毁坏"],
+    ["construir", "建造，修建"],
+    ["alzar(se)", "举起；建起；起义"],
+    ["mover(se)", "移动；搬动"],
+    ["agitar", "摇动；挥动；使不安"],
+    ["inventar", "发明；编造"],
+    ["sostener", "支撑；维持；坚持"],
+    ["la civilización", "文明"],
+    ["precolombino, na", "哥伦布到达前的"],
+    ["el imperio", "帝国"],
+    ["la pirámide", "金字塔"],
+    ["el templo", "神庙，庙宇"],
+    ["la escritura", "文字；书写"],
+    ["el calendario", "历法；日历"],
+    ["las ruinas", "废墟，遗迹"],
+    ["la selva", "热带丛林，森林"],
+    ["el muro", "墙"]
+  ],
+  "text": {
+    "title": "En el museo",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Perdone, quería hacerle unas preguntas sobre los mayas.", "zh": "劳驾，我想问您几个关于玛雅人的问题。"},
+      {"who": "B", "es": "Con mucho gusto. Vivían en el sur de México y en Centroamérica.", "zh": "很乐意。玛雅人生活在墨西哥南部和中美洲。"},
+      {"who": "B", "es": "Alcanzaron un gran nivel en astronomía y usaban el cero.", "zh": "他们的天文学达到了很高的水平，还会用零。"},
+      {"who": "A", "es": "¿Es verdad que también tenían su propia escritura?", "zh": "听说他们还有自己的文字，是真的吗？"},
+      {"who": "B", "es": "Sí, y alzaron pirámides y templos en medio de la selva, como en Tikal.", "zh": "是的，他们还在丛林中建起了金字塔和神庙，比如蒂卡尔。"},
+      {"who": "A", "es": "¡Qué pena! Si lo hubiera sabido, habría ido a Tikal el año pasado.", "zh": "真可惜！早知道这些，我去年就去蒂卡尔了。"},
+      {"who": "B", "es": "Los aztecas, en cambio, fundaron Tenochtitlan en una isla de un lago.", "zh": "阿兹特克人则把特诺奇蒂特兰城建在湖中的一个岛上。"},
+      {"who": "B", "es": "En 1521 los españoles la destruyeron y construyeron encima su capital.", "zh": "1521 年西班牙人摧毁了这座城，又在上面建起了他们的首府。"},
+      {"who": "A", "es": "Mirando estas piedras, me siento como si hubiera viajado al pasado.", "zh": "看着这些石头，我觉得自己好像回到了过去。"},
+      {"who": "B", "es": "Los incas, por su parte, crearon un enorme imperio en los Andes.", "zh": "印加人则在安第斯山区建立了一个庞大的帝国。"},
+      {"who": "B", "es": "Sus muros de piedra todavía sostienen muchas casas de Cuzco.", "zh": "他们砌的石墙至今还支撑着库斯科的许多房屋。"},
+      {"who": "A", "es": "¿Cómo movían piedras tan grandes sin caballos ni ruedas?", "zh": "没有马，也不用轮子，他们怎么搬动这么大的石头？"},
+      {"who": "B", "es": "Probablemente con cuerdas, rampas y el trabajo de miles de personas.", "zh": "大概是靠绳子、坡道和成千上万人的劳动。"},
+      {"who": "A", "es": "Muchas gracias. Si no hubiera venido, no sabría nada de esto.", "zh": "非常感谢。要不是来了这一趟，这些我都不会知道。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "虚拟式过去完成时和复合条件式",
+      "points": [
+        "虚拟式过去完成时 = hubiera（或 hubiese）+ 过去分词。",
+        "复合条件式 = habría + 过去分词；两种时态里分词都不变。",
+        "宾格、与格代词放在助动词前：Si me lo hubieras dicho…",
+        "复合条件式单用，表示过去本可能发生、实际没有发生的事。"
+      ],
+      "table": {
+        "head": ["人称", "hubiera 式", "hubiese 式", "复合条件式"],
+        "rows": [
+          ["yo", "hubiera", "hubiese", "habría"],
+          ["tú", "hubieras", "hubieses", "habrías"],
+          ["él / ella / usted", "hubiera", "hubiese", "habría"],
+          ["nosotros, -as", "hubiéramos", "hubiésemos", "habríamos"],
+          ["vosotros, -as", "hubierais", "hubieseis", "habríais"],
+          ["ellos / ustedes", "hubieran", "hubiesen", "habrían"],
+          ["+ 分词（例）", "hubiera visto", "hubiese visto", "habría visto"]
+        ]
+      },
+      "examples": [
+        ["Yo, en tu lugar, habría visitado Machu Picchu.", "我要是你，就去马丘比丘看看了。"],
+        ["Con más tiempo, habríamos visto más ruinas.", "要是时间多一点，我们就能多看些遗迹了。"],
+        ["¿Quién lo habría pensado?", "谁会想到呢？"]
+      ]
+    },
+    {
+      "title": "与过去事实相反的条件句",
+      "points": [
+        "Si + 虚拟式过去完成时，主句用复合条件式：与过去事实相反。",
+        "对比第 5 课：Si + 虚拟式过去未完成时，主句用简单条件式。",
+        "混合句：过去的条件影响现在，主句用简单条件式，常带 ahora、hoy。",
+        "主句也常用 hubiera + 分词代替 habría + 分词，意思相同。"
+      ],
+      "table": {
+        "head": ["类型", "si 从句", "主句"],
+        "rows": [
+          ["可能实现", "Si estudias,", "aprobarás."],
+          ["与现在相反", "Si estudiaras,", "aprobarías."],
+          ["与过去相反", "Si hubieras estudiado,", "habrías aprobado."],
+          ["混合：过去→现在", "Si hubieras comido,", "no tendrías hambre."]
+        ]
+      },
+      "examples": [
+        ["Si Colón no hubiera llegado, la historia habría sido otra.", "要是哥伦布没有到达美洲，历史就会是另一个样子。"],
+        ["Si lo hubiera sabido, no hubiera venido.", "早知道这样，我就不来了。（= no habría venido）"],
+        ["Si los incas hubieran escrito libros, hoy sabríamos más.", "要是印加人留下了书，今天我们会知道得更多。"],
+        ["Si no hubieras perdido el mapa, ya estaríamos en Cuzco.", "要不是你把地图弄丢了，我们现在已经到库斯科了。"]
+      ]
+    },
+    {
+      "title": "como si + 虚拟式过去完成时",
+      "points": [
+        "como si 后面只用虚拟式过去时，不管主句是什么时态。",
+        "虚拟式过去未完成时：和主句动作同时（第 3 课）。",
+        "虚拟式过去完成时：比主句动作先发生：como si hubiera estado allí。"
+      ],
+      "examples": [
+        ["Habla de Cuzco como si hubiera vivido allí.", "他说起库斯科来，好像在那儿住过似的。"],
+        ["Me miró como si nunca me hubiera visto.", "他看着我，好像从来没见过我似的。"],
+        ["Los muros parecen nuevos, como si los hubieran hecho ayer.", "这些墙看上去很新，好像昨天才砌好似的。"],
+        ["Habla como si fuera un inca.", "他说话的样子好像他是个印加人。（同时）"]
+      ]
+    },
+    {
+      "title": "陈述式过去未完成时用于礼貌用语",
+      "points": [
+        "用过去未完成时代替现在时，使请求、询问显得客气、不唐突。",
+        "说的是现在的事，并不指过去：Quería… 意为“我想……”。",
+        "常用 querer、venir、llamar：Venía a…, Llamaba para…",
+        "在商店、办公室等场合很常用：Quería un kilo de tomates。"
+      ],
+      "examples": [
+        ["Quería pedirle un favor.", "我想请您帮个忙。"],
+        ["Venía a preguntar por el horario del museo.", "我是来问博物馆开放时间的。"],
+        ["Llamaba para reservar dos entradas.", "我打电话是想订两张票。"],
+        ["Buenos días, quería un kilo de tomates.", "您好，我要一公斤西红柿。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Corre, todavía puedes alcanzar el autobús.", "快跑，你还赶得上公共汽车。"],
+    ["El fuego destruyó toda la biblioteca.", "大火烧毁了整个图书馆。"],
+    ["Aquí van a construir un museo.", "这里要建一座博物馆。"],
+    ["El niño alzó la mano para preguntar.", "孩子举手提问。"],
+    ["No te muevas, que te hago una foto.", "别动，我给你拍张照。"],
+    ["La gente agitaba banderas en la calle.", "人们在街上挥舞着旗子。"],
+    ["¿Quién inventó el papel?", "纸是谁发明的？"],
+    ["Cuatro columnas sostienen el techo.", "四根柱子支撑着屋顶。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Si ______ (salir, nosotros) antes, habríamos llegado a tiempo.", "a": "hubiéramos salido（或 hubiésemos salido）"},
+    {"type": "填空", "q": "Si me lo hubieras dicho, te ______ (ayudar).（用复合条件式）", "a": "habría ayudado"},
+    {"type": "改写", "q": "No estudié y no aprobé. → Si ______", "a": "Si hubiera estudiado, habría aprobado."},
+    {"type": "改写", "q": "Anoche no dormí y ahora estoy cansado. → Si ______", "a": "Si hubiera dormido anoche, ahora no estaría cansado."},
+    {"type": "选择", "q": "Habla de Tikal como si ___ allí muchas veces. (estuvo / hubiera estado)", "a": "hubiera estado"},
+    {"type": "翻译", "q": "我是来问一下博物馆几点开门的。（用过去未完成时）", "a": "Venía a preguntar a qué hora abre el museo."},
+    {"type": "翻译", "q": "要是你早告诉我，我就陪你去了。（主句用复合条件式）", "a": "Si me lo hubieras dicho antes, habría ido contigo."},
+    {"type": "问答", "q": "¿Dónde fundaron los aztecas Tenochtitlan?", "a": "En una isla de un lago."}
+  ],
+  "summary": [
+    "hubiera(-se) + 分词；habría + 分词。",
+    "Si hubiera…, habría…：与过去事实相反。",
+    "Si hubiera…, ahora + 简单条件式：混合条件句。",
+    "como si + 虚拟式过去完成时：先于主句动作。",
+    "Quería… / Venía a…：过去未完成时表客气。"
+  ],
+  "homework": [
+    "写出 ver、hacer、poner 的虚拟式过去完成时和复合条件式。",
+    "用 Si hubiera…, habría… 写五句话，谈谈过去的遗憾。",
+    "用 6–8 句话介绍一种美洲古代文明。"
+  ],
+  "notes": {
+    "goals": "本课是第三册条件句的重点：先复习第 5 课 Si tuviera…, haría…，再引出与过去事实相反的条件句和混合句。虚拟式过去完成时的其他时间值留到第 10 课。",
+    "vocab": "destruir、construir 变位要加 y（destruyo、construyó）；mover 是 o→ue（muevo）；alcanzar 简单过去时 yo alcancé；sostener 按 tener 变位（sostuvo、sostendría）。",
+    "text": "原创对话，场景是博物馆。玛雅分布在今墨西哥南部和中美洲；阿兹特克都城特诺奇蒂特兰在特斯科科湖的岛上，即今墨西哥城；印加以库斯科为中心。rampas（坡道）不在词表里，课上口头解释。",
+    "grammar": "反复强调复合时态里分词不变；hubiera 和 hubiese 意思相同，口语多用 hubiera。混合条件句的主句常有 ahora、hoy、ya 等表示现在的词。主句里代替 habría 的只能是 -ra 形式（no hubiera venido），不用 hubiese。",
+    "exercises": "第 1 题两种形式都对；第 7 题主句也可用 hubiera ido，但题目要求用复合条件式；第 4 题注意主句用简单条件式。"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "book": 3,
+  "lesson": 1,
+  "title_es": "La lengua española",
+  "title_zh": "西班牙语",
+  "goals": [
+    "归纳虚拟式现在时在名词性从句里的用法",
+    "掌握时间状语从句里虚拟式和陈述式的选择",
+    "会用 para que、antes de que + 虚拟式",
+    "会读写一百万到十亿的数，分清 billón",
+    "能用西语介绍西班牙语在世界上的使用情况"
+  ],
+  "vocab": [
+    ["extender(se)", "扩展；伸开；蔓延"],
+    ["unos, unas", "大约；一些"],
+    ["contar(se)", "数；讲述；（se）算作"],
+    ["convenir", "适宜，对……有利"],
+    ["sufrir", "遭受；忍受；患（病）"],
+    ["cambiar(se)", "改变；更换"],
+    ["detener(se)", "使停下；停住，停留"],
+    ["romper", "打破，弄断"],
+    ["la lengua", "语言；舌头"],
+    ["el idioma", "语言"],
+    ["el / la hablante", "讲某种语言的人"],
+    ["hispanohablante", "讲西班牙语的"],
+    ["oficial", "官方的，正式的"],
+    ["el millón", "百万"],
+    ["el latín", "拉丁语"],
+    ["el origen", "起源，来源"],
+    ["la influencia", "影响"],
+    ["la barrera", "障碍，隔阂"]
+  ],
+  "text": {
+    "title": "La lengua española",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "El español es una de las lenguas más habladas del mundo.", "zh": "西班牙语是世界上使用人数最多的语言之一。"},
+      {"who": "", "es": "Unos 500 millones de personas lo hablan como lengua materna.", "zh": "约有五亿人以西班牙语为母语。"},
+      {"who": "", "es": "Es lengua oficial en unos veinte países de Europa, América y África.", "zh": "它是欧洲、美洲和非洲大约二十个国家的官方语言。"},
+      {"who": "", "es": "Nació del latín en Castilla, en el norte de la península ibérica.", "zh": "它由拉丁语演变而来，诞生在伊比利亚半岛北部的卡斯蒂利亚。"},
+      {"who": "", "es": "A partir de 1492 se extendió por gran parte de América.", "zh": "从 1492 年起，它传播到美洲的大部分地区。"},
+      {"who": "", "es": "Con el tiempo cambió mucho y sufrió la influencia de otras lenguas.", "zh": "随着时间推移，它变化很大，也受到其他语言的影响。"},
+      {"who": "", "es": "Tiene, por ejemplo, miles de palabras de origen árabe, como «aceite».", "zh": "比如，它有几千个源自阿拉伯语的词，像 aceite（油）。"},
+      {"who": "", "es": "México es el país con más hablantes de español: más de 120 millones.", "zh": "墨西哥是讲西班牙语人数最多的国家：超过一亿两千万。"},
+      {"who": "", "es": "El español se cuenta también entre las lenguas más estudiadas.", "zh": "西班牙语也是学习人数最多的语言之一。"},
+      {"who": "", "es": "Como toda lengua viva, nunca se detiene: sigue cambiando cada día.", "zh": "和一切活的语言一样，它从不停步，每天都在变化。"},
+      {"who": "", "es": "Hablar otras lenguas nos ayuda a romper las barreras entre culturas.", "zh": "会说别的语言，能帮我们打破不同文化之间的隔阂。"},
+      {"who": "", "es": "Para aprender bien el español, conviene que lo practiques a diario.", "zh": "要学好西班牙语，最好每天练习。"},
+      {"who": "", "es": "Cuando viajes a un país hispanohablante, habla con la gente sin miedo.", "zh": "去讲西班牙语的国家旅行时，要大胆地和当地人交谈。"},
+      {"who": "", "es": "No esperes hasta que lo sepas todo: empieza a hablar en cuanto puedas.", "zh": "不要等到什么都会了才开口：一有机会就开始说吧。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "虚拟式现在时小结（一）：名词性从句",
+      "points": [
+        "愿望、请求、命令：querer, pedir, mandar que…",
+        "情感：alegrarse de, sentir, temer que…",
+        "怀疑、否定：dudar que, no creer que…",
+        "无人称句：es necesario que, conviene que…"
+      ],
+      "table": {
+        "head": ["主句", "从句", "例句"],
+        "rows": [
+          ["愿望、请求、命令", "虚拟式", "Quiero que vengas."],
+          ["情感", "虚拟式", "Siento que te vayas."],
+          ["怀疑、否定", "虚拟式", "Dudo que lo sepa."],
+          ["无人称句", "虚拟式", "Conviene que lo leas."],
+          ["确信", "陈述式", "Creo que viene."],
+          ["es verdad que", "陈述式", "Es verdad que llueve."]
+        ]
+      },
+      "examples": [
+        ["Mis padres quieren que estudie una lengua extranjera.", "父母希望我学一门外语。"],
+        ["Me alegro de que te guste el español.", "你喜欢西班牙语，我很高兴。"],
+        ["No creo que el español sea tan difícil.", "我不认为西班牙语有那么难。"],
+        ["Conviene que practiquéis todos los días.", "你们最好每天练习。"]
+      ]
+    },
+    {
+      "title": "虚拟式现在时小结（二）：时间状语从句",
+      "points": [
+        "cuando, hasta que, en cuanto 等引导时间从句。",
+        "从句的动作还没发生（将来）：用虚拟式，主句多为将来时或命令式。",
+        "从句是习惯或已经发生的事：用陈述式。",
+        "cuando 从句不用将来时：不说 cuando llegarás。"
+      ],
+      "table": {
+        "head": ["连词", "将来的事：虚拟式", "习惯、过去：陈述式"],
+        "rows": [
+          ["cuando", "cuando llegues…", "cuando llego…"],
+          ["hasta que", "hasta que vuelva…", "hasta que volvió…"],
+          ["en cuanto", "en cuanto lo sepa…", "en cuanto lo supo…"],
+          ["mientras", "mientras estés aquí…", "mientras estaba aquí…"]
+        ]
+      },
+      "examples": [
+        ["Cuando llegues a Madrid, llámame por teléfono.", "你到了马德里，给我打个电话。"],
+        ["Cuando llego a casa, siempre preparo la cena.", "我每次回到家都做晚饭。（习惯）"],
+        ["Esperaremos aquí hasta que vuelva el profesor.", "我们在这儿等，直到老师回来。"],
+        ["Te lo diré en cuanto lo sepa.", "我一知道就告诉你。"]
+      ]
+    },
+    {
+      "title": "虚拟式现在时小结（三）：para que、antes de que",
+      "points": [
+        "para que 表示目的，后面总用虚拟式；主从句主语不同。",
+        "主语相同时用 para + 原形动词：Estudio para aprender。",
+        "antes de que 后面总用虚拟式，说习惯的事也一样。",
+        "主语相同时用 antes de + 原形动词：Lávate antes de comer。"
+      ],
+      "examples": [
+        ["Hablo despacio para que me entiendan todos.", "我说得很慢，好让大家都听懂。"],
+        ["Te dejo el diccionario para que lo uses.", "我把词典留给你用。"],
+        ["Vuelve a casa antes de que llueva.", "趁还没下雨，回家去吧。"],
+        ["Siempre repaso la lección antes de que empiece la clase.", "我总是在上课前复习课文。"]
+      ]
+    },
+    {
+      "title": "基数词（1 000 000 – 1 000 000 000）",
+      "points": [
+        "millón 是阳性名词，有复数：un millón, dos millones。",
+        "直接接名词要加 de：un millón de personas；后面还有数字时不加 de。",
+        "百位数用阳性：doscientos millones de personas。",
+        "un billón 是一万亿，不等于英语的 billion（十亿）。"
+      ],
+      "table": {
+        "head": ["数字", "西语", "中文"],
+        "rows": [
+          ["1 000 000", "un millón", "一百万"],
+          ["2 000 000", "dos millones", "两百万"],
+          ["10 000 000", "diez millones", "一千万"],
+          ["100 000 000", "cien millones", "一亿"],
+          ["500 000 000", "quinientos millones", "五亿"],
+          ["1 000 000 000", "mil millones", "十亿"],
+          ["1 000 000 000 000", "un billón", "一万亿"]
+        ]
+      },
+      "examples": [
+        ["Casi seiscientos millones de personas hablan español.", "将近六亿人讲西班牙语。"],
+        ["China tiene unos mil cuatrocientos millones de habitantes.", "中国大约有十四亿人口。"],
+        ["La ciudad tiene un millón doscientos mil habitantes.", "这座城市有一百二十万居民。"],
+        ["Un billón es un millón de millones.", "一个 billón 等于一百万个一百万。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["La noticia se extendió por toda la ciudad.", "消息传遍了全城。"],
+    ["En la sala había unas cien personas.", "大厅里大约有一百人。"],
+    ["Se cuenta entre los mejores escritores de su época.", "他被列为那个时代最优秀的作家之一。"],
+    ["No te conviene salir con este frío.", "这么冷，你不宜出门。"],
+    ["Sufrió mucho durante la guerra.", "他在战争期间吃了很多苦。"],
+    ["Espera, voy a cambiarme de ropa.", "等一下，我去换件衣服。"],
+    ["El coche se detuvo delante de la puerta.", "汽车在门前停了下来。"],
+    ["¿Quién ha roto la ventana?", "谁把窗户打破了？"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Mis padres quieren que yo ______ (estudiar) medicina.", "a": "estudie"},
+    {"type": "选择", "q": "Cuando ___ a Madrid, te llamaré. (llego / llegue)", "a": "llegue（将来的事，用虚拟式）"},
+    {"type": "选择", "q": "Cuando ___ a casa, siempre ceno con mis padres. (llego / llegue)", "a": "llego（习惯的事，用陈述式）"},
+    {"type": "填空", "q": "Hablaré despacio para que todos me ______ (entender).", "a": "entiendan"},
+    {"type": "改写", "q": "Vámonos ya. Va a llover. → Vámonos antes de que ______.", "a": "Vámonos antes de que llueva."},
+    {"type": "填空", "q": "用西语写出：1 500 000 000 = ______", "a": "mil quinientos millones"},
+    {"type": "问答", "q": "¿Cuántos ceros tiene un billón en español?", "a": "Doce: un billón es un millón de millones."},
+    {"type": "翻译", "q": "这个国家有两百五十万居民。", "a": "Este país tiene dos millones quinientos mil habitantes."}
+  ],
+  "summary": [
+    "愿望、情感、怀疑否定、无人称句后，从句用虚拟式。",
+    "时间从句指将来用虚拟式，指习惯或过去用陈述式。",
+    "para que、antes de que 后面总用虚拟式。",
+    "millón 是阳性名词，直接接名词时要加 de。",
+    "十亿是 mil millones，un billón 是一万亿。"
+  ],
+  "homework": [
+    "用 cuando、en cuanto 各写两句：一句将来，一句习惯。",
+    "用 conviene que 给学西语的新同学写五条建议。",
+    "查一查中国和三个西语国家的人口，用西语写出并读出来。"
+  ],
+  "notes": {
+    "goals": "本课先复习第二册第 9、10 课的名词性从句（主从句主语相同用原形动词，确信用陈述式），再扩展到时间、目的状语从句；难点是 cuando 从句的语气选择。本册西语按老课本正字法：副词 sólo、指示代词 éste、ése、aquél 带重音（作形容词时不带）；RAE 2010 年起不再要求，两种写法学生都要认得。",
+    "vocab": "extender、contar 是词根变化动词（extiende、cuenta）；convenir、detener 分别按 venir、tener 变位（conviene、detuvo）；romper 的过去分词是 roto。unos 在数词前表示“大约”：unos veinte países。el idioma 是阳性。",
+    "text": "课文数字都是约数，采用塞万提斯学院近年年度报告的估计：以西班牙语为母语的约 5 亿人，使用者总数将近 6 亿；通常算作 20 个国家的官方语言（西班牙、赤道几内亚和 18 个美洲国家），算上波多黎各也常说 21 个，所以写 unos veinte；阿拉伯语借词一般估计约四千个（含派生词），如 aceite、almohada、azúcar。让学生找出 conviene que、cuando viajes、hasta que lo sepas、en cuanto puedas，并说明为什么用虚拟式。",
+    "grammar": "强调时间从句用什么语气，要看从句动作是否已经发生，而不是看连词本身；antes de que 用于过去的事要用虚拟式过去未完成时，第 2 课学。英语的 billion 西语说 mil millones（也有 millardo 一词，但很少用）。本课件数字分节统一用空格（1 000 000，RAE 现行推荐）；老课本和西班牙常见的 1.000.000 也要认得。",
+    "exercises": "第 2、3 题对比将来和习惯；第 6 题十亿是 mil millones；第 8 题 millones 后面还有数字，不加 de。"
+  }
+}

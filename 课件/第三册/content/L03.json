@@ -1,0 +1,184 @@
+{
+  "book": 3,
+  "lesson": 3,
+  "title_es": "El premio gordo de la lotería",
+  "title_zh": "彩票头奖",
+  "goals": [
+    "理解虚拟式过去未完成时的时间值",
+    "会用 como si + 虚拟式过去未完成时",
+    "认识利益与格：Le robaron la cartera",
+    "分清副动词和过去分词的意义和用法",
+    "能用西语谈论中彩票和之后的打算"
+  ],
+  "vocab": [
+    ["la lotería", "彩票"],
+    ["el billete de lotería", "彩票（一整张）"],
+    ["el sorteo", "抽签；开奖"],
+    ["el premio gordo", "头奖"],
+    ["premiado, da", "得奖的，中奖的"],
+    ["tocarle a uno (algo)", "（某人）中（奖）"],
+    ["millonario, ria", "百万富翁"],
+    ["la mitad", "一半"],
+    ["compartir", "分享，分摊"],
+    ["ahorrar", "节省；存钱"],
+    ["corresponder", "属于；归于；相当于"],
+    ["prometer", "答应，许诺"],
+    ["hacer(se)", "做；（se）变成，成为"],
+    ["depender (de)", "取决于；依靠"],
+    ["tratar(se)", "对待；（se de）是关于"],
+    ["aplicar(se)", "运用；（se）用功"],
+    ["limitar(se)", "限制；（se a）只限于"],
+    ["persuadir", "说服，劝服"]
+  ],
+  "text": {
+    "title": "El premio gordo de la lotería",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¡Carmen! ¿Es verdad que os ha tocado el premio gordo?", "zh": "卡门！你们真的中了头奖吗？"},
+      {"who": "B", "es": "¡Sí! Estaba viendo el sorteo y se me cayó el vaso de la mano.", "zh": "是啊！我正看开奖呢，杯子都从手里掉下去了。"},
+      {"who": "A", "es": "¡Enhorabuena! ¿Y cuánto dinero os corresponde?", "zh": "恭喜恭喜！那你们能分到多少钱？"},
+      {"who": "B", "es": "Compramos el billete entero entre veinte: doscientos mil cada uno.", "zh": "那一整张彩票是我们二十个人合买的：每人二十万。"},
+      {"who": "A", "es": "¿Pepe también? Yo creía que nunca jugaba a la lotería.", "zh": "佩佩也有份？我还以为他从来不买彩票呢。"},
+      {"who": "B", "es": "No quería, pero lo persuadí de que comprara su parte.", "zh": "他本来不想买，是我劝他买了他那一份。"},
+      {"who": "A", "es": "¿Y qué hizo al saber la noticia?", "zh": "他听到消息后是什么反应？"},
+      {"who": "B", "es": "Salió corriendo a la calle, gritando como si estuviera loco.", "zh": "他跑到街上，大喊大叫，像疯了一样。"},
+      {"who": "A", "es": "¿Y tú? ¿Qué vas a hacer con tanto dinero?", "zh": "那你呢？这么多钱你打算干什么？"},
+      {"who": "B", "es": "Le prometí a mi madre que la llevaría de viaje en cuanto lo tuviera.", "zh": "我答应过妈妈，一拿到钱就带她去旅行。"},
+      {"who": "A", "es": "Ten cuidado: hay gente que se hace millonaria y lo pierde todo.", "zh": "可要当心：有人成了百万富翁，到头来却一无所有。"},
+      {"who": "B", "es": "Ya lo sé. Me limitaré a pagar el piso y ahorraré el resto.", "zh": "我知道。我只付清房款，剩下的都存起来。"},
+      {"who": "A", "es": "Bien pensado. La felicidad no depende sólo del dinero.", "zh": "想得周到。幸福可不光取决于钱。"},
+      {"who": "B", "es": "Tienes razón. Pero esta noche, ¡nos bebemos una botella de champán!", "zh": "你说得对。不过今晚咱们得喝掉一瓶香槟！"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "虚拟式过去未完成时的时间值",
+      "points": [
+        "它表示相对时间，以主句的过去时间为参照。",
+        "表示和主句动作同时：No creía que estuviera en casa。",
+        "表示在主句动作之后：Me pidió que volviera pronto。",
+        "之后的动作可延到现在或将来：Ayer me dijo que lo llamara hoy。"
+      ],
+      "table": {
+        "head": ["主句（过去）", "从句", "时间关系"],
+        "rows": [
+          ["No creía", "que estuviera allí.", "同时"],
+          ["Me alegré de", "que vinieras.", "同时"],
+          ["Me pidió", "que volviera pronto.", "之后"],
+          ["Prometió llamarme", "en cuanto llegara.", "之后"],
+          ["Ayer me dijo", "que lo llamara hoy.", "之后，延到现在"]
+        ]
+      },
+      "examples": [
+        ["Me alegré mucho de que mis padres estuvieran allí.", "我父母在场，我很高兴。（同时）"],
+        ["Mi madre quería que yo estudiara medicina.", "妈妈想让我学医。（之后）"],
+        ["Prometió que me llamaría en cuanto llegara.", "他答应一到就给我打电话。（之后）"],
+        ["Ayer el director me pidió que volviera mañana.", "昨天主任让我明天再来。（延到将来）"]
+      ]
+    },
+    {
+      "title": "como si + 虚拟式过去未完成时",
+      "points": [
+        "como si 意为“好像，仿佛”，引出与事实不符或想象的情况。",
+        "后面不用陈述式，也不用虚拟式现在时。",
+        "表示和主句同时的情况，主句是现在时、过去时都一样。"
+      ],
+      "examples": [
+        ["Habla como si fuera rico.", "他说起话来好像自己很有钱。"],
+        ["Gasta dinero como si tuviera millones.", "他花钱就像有几百万似的。"],
+        ["Me miró como si no me conociera.", "他看着我，好像不认识我。"],
+        ["Hablaba como si lo supiera todo.", "他说话的样子好像什么都知道。"]
+      ]
+    },
+    {
+      "title": "利益与格（dativo de interés）",
+      "points": [
+        "与格代词指出谁因动作受益或受损：Le robaron la cartera。",
+        "se + 与格 + 动词：表示非故意发生的事，与格指受影响的人。",
+        "表示说话人关切：No me toques eso；Cuídame bien al niño。",
+        "这种表示关切的与格去掉后，基本意思不变，只少了感情色彩。"
+      ],
+      "table": {
+        "head": ["用法", "例句", "意思"],
+        "rows": [
+          ["受益", "Le arreglé el coche.", "我帮他把车修好了。"],
+          ["受损", "Le robaron la cartera.", "他的钱包被偷了。"],
+          ["非故意", "Se me olvidó la cita.", "我把约会忘了。"],
+          ["非故意", "Se le rompió el vaso.", "他把杯子打碎了。"],
+          ["说话人的关切", "No me llores.", "（求你）别哭了。"],
+          ["说话人的关切", "Cuídamelo bien.", "替我好好照顾他。"]
+        ]
+      },
+      "examples": [
+        ["Se me ha muerto el perro.", "我的狗死了。"],
+        ["A Juan le robaron la cartera en el metro.", "胡安在地铁上被人偷了钱包。"],
+        ["No me toques eso, que se rompe.", "别给我碰那个，会碎的。"],
+        ["Cuídame bien al niño mientras yo esté fuera.", "我不在的时候，替我好好照看孩子。"]
+      ]
+    },
+    {
+      "title": "副动词和过去分词的区别",
+      "points": [
+        "副动词表示主动、进行中或与主要动词同时的动作，没有性数变化。",
+        "过去分词多表示被动、完成或结果状态，作形容词时性数一致。",
+        "estar + 副动词＝正在……；estar + 过去分词＝处于某种状态。",
+        "都可作状语：Llegó corriendo（跑着）；Llegó cansada（累了）。"
+      ],
+      "table": {
+        "head": ["比较项", "副动词", "过去分词"],
+        "rows": [
+          ["形式", "-ando / -iendo", "-ado / -ido"],
+          ["性数变化", "没有", "作形容词时有"],
+          ["意义", "主动；进行、同时", "完成、结果；及物动词多为被动"],
+          ["estar + …", "Está sentándose.", "Está sentada."],
+          ["作状语", "Salió corriendo.", "Salió preocupada."],
+          ["作宾语补语", "Vi a Ana llorando.", "Vi a Ana cansada."]
+        ]
+      },
+      "examples": [
+        ["La abuela estaba sentada, leyendo el periódico.", "奶奶坐着看报。"],
+        ["Los niños salieron corriendo de la escuela.", "孩子们跑着出了学校。"],
+        ["Cuando llegué, la tienda ya estaba cerrada.", "我到的时候，商店已经关门了。"],
+        ["Leyendo el periódico, vio que su número estaba premiado.", "他看报时发现自己的号码中奖了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["A cada uno le corresponde la misma parte.", "每人分得同样的一份。"],
+    ["Te prometo que no volverá a pasar.", "我向你保证，这事不会再发生了。"],
+    ["Trabajó mucho y se hizo rico.", "他拼命工作，发了财。"],
+    ["—¿Vienes mañana? —Depende del tiempo.", "——你明天来吗？——看天气吧。"],
+    ["No se trata de dinero, sino de amistad.", "这不是钱的问题，而是友情的问题。"],
+    ["Es un alumno que se aplica mucho.", "他是个很用功的学生。"],
+    ["No dijo nada; se limitó a sonreír.", "他什么也没说，只是笑了笑。"],
+    ["Lo persuadimos de que no dejara los estudios.", "我们说服他不要放弃学业。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Ayer me pidió que lo ______ (llamar) hoy.", "a": "llamara (llamase)"},
+    {"type": "选择", "q": "Gasta dinero como si ___ millonario. (es / fuera)", "a": "fuera（como si 后用虚拟式过去未完成时）"},
+    {"type": "改写", "q": "Me mira. Parece que no me conoce. → Me mira como si ______.", "a": "Me mira como si no me conociera (conociese)."},
+    {"type": "改写", "q": "Olvidé las llaves en casa. → Se me ______ en casa.", "a": "Se me olvidaron las llaves en casa."},
+    {"type": "选择", "q": "Las ventanas estaban ___ y no entraba aire. (cerrando / cerradas)", "a": "cerradas（表示结果状态，和主语性数一致）"},
+    {"type": "填空", "q": "Los niños salieron ______ (correr) de la escuela.", "a": "corriendo"},
+    {"type": "翻译", "q": "她答应我一回到家就给我打电话。", "a": "Me prometió que me llamaría en cuanto llegara a casa."},
+    {"type": "问答", "q": "¿Qué hizo Pepe al saber la noticia?", "a": "Salió corriendo a la calle, gritando como si estuviera loco."}
+  ],
+  "summary": [
+    "虚拟式过去未完成时表示与过去主句同时或之后的动作。",
+    "como si 后用虚拟式过去未完成时，表示与事实不符。",
+    "利益与格表示受益受损、非故意或说话人的关切。",
+    "副动词表示进行、同时；过去分词表示完成、结果。"
+  ],
+  "homework": [
+    "把 Me pide que…、Me dice que… 各三句改成过去时。",
+    "用 como si 写五句话，描写一个刚中了彩票的人。",
+    "用 se me olvidó、se me rompió 等各写一句自己的经历。"
+  ],
+  "notes": {
+    "goals": "本课把第 2 课的虚拟式过去未完成时用到更多场合；Si me tocara la lotería… 这类条件句第 5 课才学，学生问到可说明以后再讲。",
+    "vocab": "persuadir a alguien de que + 虚拟式＝劝人做某事；corresponder 常和与格连用：Me corresponde la mitad；tratarse de 只用第三人称单数：Se trata de…；tocarle a uno la lotería＝中彩票。el Gordo 是西班牙圣诞彩票头奖的俗称。",
+    "text": "让学生找出 se me cayó（利益与格）、corriendo、gritando（副动词）、como si estuviera loco、que comprara、en cuanto lo tuviera 和 Bien pensado（过去分词）；nos bebemos 的 nos 表示加强，不算利益与格。西班牙圣诞彩票一整张（billete）分 10 个 décimo，每个 20 欧元；头奖 el Gordo 每个 décimo 得 40 万欧元（税前），一整张 400 万，二十人合买每人 20 万；2013 年起奖金超过免税额（现为每个 décimo 4 万欧元）的部分交 20% 的税，所以每人实得约 16.4 万。副词 sólo（第 13 行）按老课本正字法带重音，RAE 2010 年起不再要求。",
+    "grammar": "在主句之前发生的动作要用虚拟式过去完成时（第 9 课学）。Me comí todo el pastel、nos bebemos una botella 里的代词表示加强、动作彻底完成（一般称强调或体貌用法），是另一种说法，不要当利益与格的核心例句；No me llores、Cuídame bien al niño 这类表示说话人关切的与格也叫伦理与格。",
+    "exercises": "第 1 题两种形式都对；第 4 题 llaves 是复数，动词用 olvidaron；第 5、6 题先判断是结果状态还是进行中的动作。"
+  }
+}

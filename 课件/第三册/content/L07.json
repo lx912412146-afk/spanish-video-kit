@@ -1,0 +1,189 @@
+{
+  "book": 3,
+  "lesson": 7,
+  "title_es": "El clima",
+  "title_zh": "气候",
+  "goals": [
+    "系统归纳过去分词的各种用法",
+    "分清分词不变和性数一致的两类情况",
+    "会用独立分词结构：Terminada la clase, …",
+    "归纳 a、ante、bajo、con 等九个前置词",
+    "能用西语介绍不同地区的气候特点"
+  ],
+  "vocab": [
+    ["formar(se)", "形成；组成；培养"],
+    ["producir(se)", "生产；产生；发生"],
+    ["dividir(se)", "分，划分"],
+    ["incluso", "甚至；连……也"],
+    ["variar", "变化；改变"],
+    ["cubrir", "覆盖；遮盖"],
+    ["caer(se)", "落下；（节日）适逢"],
+    ["trasladar(se)", "搬迁；转移；调动"],
+    ["el clima", "气候"],
+    ["la temperatura", "温度，气温"],
+    ["la estación", "季节；车站"],
+    ["la lluvia", "雨，雨水"],
+    ["húmedo, da", "潮湿的"],
+    ["seco, ca", "干燥的；干的"],
+    ["templado, da", "温和的；温带的"],
+    ["tropical", "热带的"],
+    ["el ecuador", "赤道"],
+    ["la altitud", "海拔，高度"]
+  ],
+  "text": {
+    "title": "El clima",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "El clima depende de la latitud, la altitud y la distancia al mar.", "zh": "气候取决于纬度、海拔和离海的远近。"},
+      {"who": "", "es": "Por eso varía mucho, incluso dentro de un mismo país.", "zh": "所以各地气候差别很大，甚至在同一个国家里也是如此。"},
+      {"who": "", "es": "La Tierra está dividida en cinco zonas climáticas.", "zh": "地球分为五个气候带（一个热带、两个温带、两个寒带）。"},
+      {"who": "", "es": "Cerca del ecuador, en las tierras bajas, hace calor todo el año.", "zh": "在赤道附近的低地，一年到头都很热。"},
+      {"who": "", "es": "En las zonas templadas, el año se divide en cuatro estaciones.", "zh": "在温带，一年分为四季。"},
+      {"who": "", "es": "Con la altitud, la temperatura baja unos 6,5 grados cada mil metros.", "zh": "海拔每升高一千米，气温大约下降 6.5 度。"},
+      {"who": "", "es": "Quito está casi en el ecuador, pero a unos 2 850 metros de altitud.", "zh": "基多几乎就在赤道上，但海拔约 2850 米。"},
+      {"who": "", "es": "Por eso sus temperaturas son suaves y apenas varían durante el año.", "zh": "所以那里气温温和，全年几乎没有变化。"},
+      {"who": "", "es": "Y algunos volcanes cercanos tienen la cumbre cubierta de nieve.", "zh": "附近有些火山的山顶还覆盖着积雪。"},
+      {"who": "", "es": "Los vientos trasladan el aire húmedo desde el mar hacia el interior.", "zh": "风把潮湿的空气从海上带到内陆。"},
+      {"who": "", "es": "Al chocar contra las montañas, ese aire sube, se enfría y forma nubes.", "zh": "这些空气遇到山脉阻挡，就会上升、冷却，形成云。"},
+      {"who": "", "es": "Así se producen lluvias en un lado; el otro queda mucho más seco.", "zh": "这样，山的一侧多雨，另一侧就干燥得多。"},
+      {"who": "", "es": "Llegado el verano, caen lluvias muy fuertes en el sur de China.", "zh": "一到夏天，中国南方就会下大雨。"},
+      {"who": "", "es": "En el desierto de Atacama, en Chile, pueden pasar años sin llover.", "zh": "在智利的阿塔卡马沙漠，有的地方可以几年不下雨。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "过去分词用法小结（一）：复合时态和被动语态",
+      "points": [
+        "haber + 分词构成各种复合时态，分词永远不变（-o 结尾）。",
+        "ser + 分词构成被动语态，分词和主语性数一致，施事者用 por 引出。",
+        "除复合时态以外，分词都要和它说明的名词性数一致（见表）。",
+        "代词放在 haber 前面，haber 和分词之间不插入别的词。"
+      ],
+      "table": {
+        "head": ["结构", "意义", "分词的变化", "例子"],
+        "rows": [
+          ["haber + 分词", "复合时态", "不变", "Ha llovido."],
+          ["ser + 分词", "被动语态", "与主语一致", "fue construida"],
+          ["estar + 分词", "完成后的状态", "与主语一致", "está cubierta"],
+          ["quedar + 分词", "变化后的结果", "与主语一致", "quedó destruida"],
+          ["tener / llevar + 分词", "已完成的结果", "与直接宾语一致", "tengo hechas…"],
+          ["名词 + 分词", "作定语", "与名词一致", "una zona habitada"],
+          ["分词 + 名词，主句", "独立分词结构", "与该名词一致", "Terminada la clase,"]
+        ]
+      },
+      "examples": [
+        ["Mi abuela ha escrito dos cartas.", "我奶奶写了两封信。（分词不变）"],
+        ["Las cartas fueron escritas por mi abuela.", "那两封信是我奶奶写的。（阴性复数）"],
+        ["Muchas casas fueron destruidas por la tormenta.", "许多房屋被暴风雨毁坏了。"]
+      ]
+    },
+    {
+      "title": "过去分词用法小结（二）：动词短语、定语和独立结构",
+      "points": [
+        "estar + 分词表示状态，quedar + 分词表示变化后的结果，都随主语变。",
+        "tener / llevar + 分词随直接宾语变；llevar 强调到现在为止的量。",
+        "作定语放在名词后，相当于形容词：una región situada al norte。",
+        "独立分词结构：分词 + 名词放在句首，表示先完成的动作，用逗号隔开。"
+      ],
+      "examples": [
+        ["Las cumbres están cubiertas de nieve.", "山顶覆盖着积雪。（estar）"],
+        ["La carretera quedó cortada por la nieve.", "公路被大雪封住了。（quedar）"],
+        ["Ya tengo hechos los deberes.", "我已经把作业做完了。（tener）"],
+        ["Terminada la clase, salimos al patio.", "下课以后，我们来到院子里。（独立结构）"]
+      ]
+    },
+    {
+      "title": "前置词用法小结（一）：a、ante、bajo、con、contra",
+      "points": [
+        "a：方向、时间点、距离；还引出人称直接宾语和间接宾语。",
+        "ante：在……面前、面对（多用于抽象意义）；bajo：在……下面。",
+        "con：伴随、工具、方式、带有；和 mí、ti、sí 合成 conmigo 等。",
+        "contra：反对、对抗；撞向、靠着：chocar contra un árbol。"
+      ],
+      "table": {
+        "head": ["前置词", "意义", "例子"],
+        "rows": [
+          ["a", "方向、目的地", "Vamos a la costa."],
+          ["a", "时间点；距离", "a las tres; a 5 km"],
+          ["ante", "在……面前；面对", "ante el peligro"],
+          ["bajo", "在……下面", "diez grados bajo cero"],
+          ["con", "伴随；工具；方式", "con cuidado"],
+          ["con", "带有（某种特点）", "un país con mucho sol"],
+          ["contra", "反对；撞向；靠着", "contra la sequía"]
+        ]
+      },
+      "examples": [
+        ["Quito está a unos 2 850 metros de altitud.", "基多海拔约 2850 米。"],
+        ["Ayer estábamos a diez grados bajo cero.", "昨天气温是零下十度。"],
+        ["Ante el peligro, no perdió la calma.", "面对危险，他没有慌。"],
+        ["El coche chocó contra un árbol.", "汽车撞到了一棵树上。"]
+      ]
+    },
+    {
+      "title": "前置词用法小结（一，续）：de、desde、en、entre",
+      "points": [
+        "de：所属、来源、材料、特征；de… a… 表示时间或距离的起止。",
+        "desde：时间、地点的起点；desde… hasta…；desde hace + 时段。",
+        "en：地点、时间（月、年、季节）、交通工具、语言；dividir en 分成。",
+        "entre：在两者或多者之间；后面用 yo、tú：entre tú y yo。"
+      ],
+      "table": {
+        "head": ["前置词", "意义", "例子"],
+        "rows": [
+          ["de", "所属；来源", "el clima de Chile"],
+          ["de", "材料；特征", "una zona de clima seco"],
+          ["desde", "起点（时间、地点）", "desde abril"],
+          ["desde hace", "持续到现在的时段", "desde hace un mes"],
+          ["en", "地点；时间", "en la costa; en verano"],
+          ["en", "分成；交通工具", "dividir en partes"],
+          ["entre", "在……之间", "entre 10 y 20 grados"]
+        ]
+      },
+      "examples": [
+        ["Aquí llueve de mayo a octubre.", "这里从五月到十月都下雨。"],
+        ["No llueve desde hace tres meses.", "已经三个月没下雨了。"],
+        ["En verano estamos entre 25 y 30 grados.", "夏天这里气温在 25 到 30 度之间。"],
+        ["Chile está entre los Andes y el océano Pacífico.", "智利位于安第斯山脉和太平洋之间。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["La clase está formada por treinta alumnos.", "这个班由三十名学生组成。"],
+    ["Esta región produce mucho arroz.", "这个地区盛产大米。"],
+    ["Dividimos el pastel en ocho partes.", "我们把蛋糕分成八块。"],
+    ["Incluso en agosto hace fresco aquí.", "这里连八月都很凉快。"],
+    ["Los precios varían de una tienda a otra.", "各家商店的价格不一样。"],
+    ["La nieve cubría todo el campo.", "白雪覆盖了整个田野。"],
+    ["Este año la Navidad cae en domingo.", "今年圣诞节正好是星期天。"],
+    ["La empresa se trasladó a Barcelona.", "公司搬到了巴塞罗那。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Este año han ___ muchas lluvias. (caído / caídas)", "a": "caído（复合时态里分词不变）"},
+    {"type": "选择", "q": "Las montañas están ___ de nieve. (cubierto / cubiertas)", "a": "cubiertas（和主语 las montañas 一致）"},
+    {"type": "填空", "q": "Estas casas ______ (construir) por mi abuelo en 1950.（被动语态）", "a": "fueron construidas"},
+    {"type": "改写", "q": "Cuando terminó la reunión, todos se fueron. → ______, todos se fueron.", "a": "Terminada la reunión, todos se fueron."},
+    {"type": "填空", "q": "Ya llevo ______ (escribir) tres páginas del informe.", "a": "escritas（和 tres páginas 一致）"},
+    {"type": "填空", "q": "Estamos a cinco grados ___ cero. El coche chocó ___ un árbol.", "a": "bajo; contra（chocó con 也对）"},
+    {"type": "翻译", "q": "从三月起这里就没下过雨。（用 desde）", "a": "Aquí no ha llovido desde marzo.（也可说 no llueve）"},
+    {"type": "问答", "q": "¿Por qué Quito tiene temperaturas suaves si está casi en el ecuador?", "a": "Porque está a unos 2 850 metros de altitud."}
+  ],
+  "summary": [
+    "haber + 分词构成复合时态，分词不变。",
+    "ser、estar、quedar + 分词：分词随主语性数变化。",
+    "tener、llevar + 分词：分词随直接宾语变化。",
+    "独立结构 Terminada la clase, … 表示先完成。",
+    "前置词结合搭配记：bajo cero、desde hace…"
+  ],
+  "homework": [
+    "用 8–10 句话介绍家乡的气候，至少用四种分词用法。",
+    "把五个 cuando 时间从句改写成独立分词结构。",
+    "给本课九个前置词各造一个句子。"
+  ],
+  "notes": {
+    "goals": "本课是归纳课：分词的各种用法第二册和本册第 4 课都学过，重点是让学生分清“不变”（复合时态）和“性数一致”两类。前置词按字母顺序讲 a 到 entre 九个，其余八个在第 8 课。",
+    "vocab": "cubrir 的过去分词不规则：cubierto；caer 变位 caigo、cayó、cayeron，分词 caído 带重音；variar 重读的 i 带重音（varío、varía）；producir 简单过去时 produje、produjo。",
+    "text": "课文是原创说明文。可让学生找出分词并说明用法：dividida（estar）、cubierta（tener 的宾语补语）、Llegado el verano（独立结构）。6.5 度是气温随海拔下降的平均值，基多海拔约 2850 米。",
+    "grammar": "独立分词结构里分词和后面的名词性数一致，逻辑主语可以和主句主语不同，多用于书面语。前置词不必面面俱到，抓住基本意义和常用搭配（bajo cero、chocar contra、desde hace）。",
+    "exercises": "第 1、2 题对比分词变与不变；第 5 题 escritas 要和 tres páginas 一致；第 7 题现在完成时和现在时两种答案都对。"
+  }
+}

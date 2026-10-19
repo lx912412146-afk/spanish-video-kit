@@ -1,0 +1,160 @@
+{
+  "book": 3,
+  "lesson": 12,
+  "title_es": "Las fiestas",
+  "title_zh": "节日",
+  "goals": [
+    "复习过去分词、副动词和原形动词的用法",
+    "复习常用前置词和表示礼貌的条件式",
+    "复习形容词从句里的陈述式和虚拟式",
+    "复习条件句 Si hubiera…, habría…",
+    "能用西语介绍西语国家的主要节日"
+  ],
+  "vocab": [
+    ["celebrar", "庆祝；举行"],
+    ["vincular(se)", "使联系，使结合"],
+    ["el ambiente", "气氛；环境"],
+    ["soler", "惯常，通常"],
+    ["en realidad", "实际上，其实"],
+    ["presenciar", "亲眼看到，目睹"],
+    ["el carácter", "性格；性质，特点"],
+    ["el honor", "荣誉；敬意"],
+    ["existir", "存在"],
+    ["extrañar", "使惊奇；想念（拉美）"],
+    ["la Nochebuena", "平安夜"],
+    ["la Nochevieja", "（新年）除夕夜"],
+    ["la uva", "葡萄"],
+    ["la campanada", "钟声"],
+    ["los Reyes Magos", "东方三王"],
+    ["la Semana Santa", "圣周（复活节前一周）"],
+    ["la procesión", "（宗教）游行队伍"],
+    ["el difunto, la difunta", "死者，亡人"]
+  ],
+  "text": {
+    "title": "Las fiestas",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "En los países hispánicos casi no hay pueblo que no celebre su fiesta.", "zh": "在西语国家，几乎没有哪个村镇不过自己的节日。"},
+      {"who": "", "es": "Existen fiestas de todo tipo; muchas están vinculadas a la religión.", "zh": "节日五花八门，其中很多都和宗教有关。"},
+      {"who": "", "es": "La Navidad empieza en Nochebuena: las familias suelen cenar juntas.", "zh": "圣诞节从平安夜开始，这天晚上家家户户通常一起吃晚饭。"},
+      {"who": "", "es": "En Nochevieja, al dar las doce, se come una uva con cada campanada.", "zh": "除夕夜钟敲十二点时，每响一声就吃一颗葡萄。"},
+      {"who": "", "es": "Dicen que quien se coma las doce uvas tendrá suerte todo el año.", "zh": "据说，谁把十二颗葡萄都吃下去，谁就一年走运。"},
+      {"who": "", "es": "El 6 de enero, los niños reciben los regalos de los Reyes Magos.", "zh": "1 月 6 日，孩子们收到东方三王送来的礼物。"},
+      {"who": "", "es": "En Semana Santa, miles de personas presencian las procesiones.", "zh": "圣周期间，成千上万的人观看宗教游行。"},
+      {"who": "", "es": "En julio, Pamplona celebra sus fiestas en honor de San Fermín.", "zh": "七月，潘普洛纳举行纪念圣费尔明的节庆。"},
+      {"who": "", "es": "Cada mañana, muchos jóvenes corren delante de los toros.", "zh": "每天早上，许多年轻人在公牛前面奔跑。"},
+      {"who": "", "es": "Durante nueve días, la ciudad vive en un ambiente de fiesta.", "zh": "整整九天，全城都沉浸在节日的气氛中。"},
+      {"who": "", "es": "En México, el 1 y el 2 de noviembre se celebra el Día de Muertos.", "zh": "在墨西哥，11 月 1 日和 2 日过亡灵节。"},
+      {"who": "", "es": "Las familias recuerdan a sus difuntos con altares de flores y comida.", "zh": "各家摆上放满鲜花和食物的祭坛，纪念去世的亲人。"},
+      {"who": "", "es": "A muchos les extraña que se recuerde a los muertos con alegría.", "zh": "很多人感到奇怪：怎么会欢欢喜喜地纪念死者。"},
+      {"who": "", "es": "En realidad, para ellos los muertos siguen siendo parte de la familia.", "zh": "其实，在他们看来，去世的人仍然是家庭的一员。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "复习：过去分词、副动词和原形动词（第 7、10 课）",
+      "points": [
+        "过去分词作形容词要性数一致；可构成独立结构：Terminada la cena, …",
+        "副动词表示方式、时间、原因等，不表示之后的动作；seguir、llevar + 副动词。",
+        "原形动词可作名词，用在前置词后；al + 原形动词表示“……的时候”。"
+      ],
+      "examples": [
+        ["Terminada la cena, todos salen a la calle.", "吃完晚饭，大家都上街去。（分词独立结构）"],
+        ["Al dar las doce, comemos las uvas.", "钟敲十二点时，我们吃葡萄。"],
+        ["Los jóvenes corren por las calles gritando.", "年轻人边喊边在街上跑。"],
+        ["Llevamos un mes preparando la fiesta.", "我们准备这个节日已经一个月了。"]
+      ]
+    },
+    {
+      "title": "复习：前置词（第 7、8 课）",
+      "points": [
+        "a：时间点、方向、间接宾语；en：地点、时间；de：所属、来源、材料。",
+        "por：原因、经过的地点、大致的时间；para：目的、去向、期限。",
+        "en honor de（a）：为纪念……；desde… hasta…：从……到……。"
+      ],
+      "examples": [
+        ["Las fiestas se celebran en honor de San Fermín.", "这些节庆是为纪念圣费尔明而举行的。"],
+        ["Los toros corren por las calles hasta la plaza.", "公牛穿过街道，一直跑到斗牛场。"],
+        ["Compramos uvas para la Nochevieja.", "我们为除夕夜买了葡萄。"],
+        ["Por Navidad vamos a casa de los abuelos.", "圣诞节前后我们去爷爷奶奶家。"]
+      ]
+    },
+    {
+      "title": "复习：形容词从句（第 8、11 课）",
+      "points": [
+        "限定性从句限定先行词，不加逗号；解释性从句补充说明，前后加逗号。",
+        "先行词确实存在、已知，从句用陈述式。",
+        "先行词被否定、不确定或指将来，从句用虚拟式。",
+        "主句是过去时，从句的虚拟式用过去未完成时。"
+      ],
+      "examples": [
+        ["Pamplona, que está en Navarra, es famosa por San Fermín.", "潘普洛纳位于纳瓦拉，以圣费尔明节闻名。（解释性）"],
+        ["Los niños que se portan bien reciben regalos.", "表现好的孩子会收到礼物。（限定性）"],
+        ["No hay nadie que no conozca esta fiesta.", "没有人不知道这个节日。"],
+        ["Buscábamos un hotel que estuviera cerca de la plaza.", "我们当时在找一家离广场近的旅馆。"]
+      ]
+    },
+    {
+      "title": "复习：条件式、条件句和虚拟式过去完成时（第 8–10 课）",
+      "points": [
+        "简单条件式和陈述式过去未完成时可表示礼貌：¿Podría…?、Quería pedirle…",
+        "与现在事实相反：Si + 虚拟式过去未完成时，主句用简单条件式。",
+        "与过去事实相反：Si + 虚拟式过去完成时，主句用复合条件式。",
+        "主句是过去时、从句要用虚拟式时，动作在先用虚拟式过去完成时。"
+      ],
+      "table": {
+        "head": ["类型", "si 从句", "主句"],
+        "rows": [
+          ["可能实现", "Si puedo,", "iré a la fiesta."],
+          ["与现在事实相反", "Si pudiera,", "iría a la fiesta."],
+          ["与过去事实相反", "Si hubiera podido,", "habría ido."]
+        ]
+      },
+      "examples": [
+        ["¿Podría decirme dónde está la plaza de toros?", "您能告诉我斗牛场在哪儿吗？"],
+        ["Si estuviera en México, celebraría el Día de Muertos.", "我要是在墨西哥，就能过亡灵节了。"],
+        ["Si hubieras venido en julio, habrías visto los encierros.", "你要是七月来，就能看到奔牛了。"],
+        ["No creía que ya hubieran empezado las fiestas.", "我没想到节庆已经开始了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Cómo celebráis la Navidad en vuestro país?", "你们国家怎么过圣诞节？"],
+    ["Esta fiesta está vinculada a la historia de la ciudad.", "这个节日和城市的历史有关。"],
+    ["¡Qué buen ambiente hay en la plaza!", "广场上气氛真好！"],
+    ["Los domingos solíamos comer con los abuelos.", "以前每个星期天我们都和爷爷奶奶一起吃饭。"],
+    ["Presencié el encierro desde un balcón.", "我在一个阳台上亲眼看了奔牛。"],
+    ["Es una persona de carácter alegre.", "他是个性格开朗的人。"],
+    ["Me extraña que Juan no esté en casa.", "胡安不在家，真奇怪。"],
+    ["Extraño mucho a mi familia.", "我很想念家人。（拉美用法）"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "______ (terminar) la cena, todos salimos a la calle.（用过去分词）", "a": "Terminada"},
+    {"type": "选择", "q": "Las fiestas se celebran ___ honor de San Fermín. (en / con)", "a": "en"},
+    {"type": "选择", "q": "No hay nadie en Pamplona que no ___ esta fiesta. (conoce / conozca)", "a": "conozca（先行词被否定，用虚拟式）"},
+    {"type": "改写", "q": "No fuiste a Pamplona; por eso no viste los encierros. → Si…", "a": "Si hubieras ido a Pamplona, habrías visto los encierros."},
+    {"type": "改写", "q": "¿Puede usted decirme dónde está la plaza? →（更客气）", "a": "¿Podría usted decirme dónde está la plaza?"},
+    {"type": "填空", "q": "Los jóvenes corrían delante de los toros ______ (gritar).", "a": "gritando"},
+    {"type": "翻译", "q": "我们通常在家里和家人一起过平安夜。（用 soler）", "a": "Solemos celebrar la Nochebuena en casa con la familia."},
+    {"type": "问答", "q": "¿Qué hace la gente en Nochevieja al dar las doce?", "a": "Come una uva con cada campanada."}
+  ],
+  "summary": [
+    "分词要性数一致；副动词不表示之后的动作。",
+    "al + 原形 = cuando 从句；por、para 要分清。",
+    "先行词被否定或不确定，形容词从句用虚拟式。",
+    "Si hubiera…, habría… 表示与过去事实相反。",
+    "西语国家的节日多和宗教有关，各有习俗。"
+  ],
+  "homework": [
+    "用 10 句话介绍一个西语国家的节日，至少用两个形容词从句。",
+    "比较中国春节和西班牙的圣诞节，写一段短文。",
+    "用 Si hubiera…, habría… 写三句话，说说你错过的节日活动。"
+  ],
+  "notes": {
+    "goals": "本课是复习课，课本没有新语法。建议一课时讲课文和重点词汇，一课时做第 7–11 课的综合复习。",
+    "vocab": "soler 主要用现在时和过去未完成时，后接原形动词（suelo、solía）；carácter 复数重音后移：caracteres；extrañar 在西班牙多表示“使惊奇”，拉美常表示“想念”；en honor de / a 都可以说。",
+    "text": "史实：除夕夜随十二下钟声吃十二颗葡萄；1 月 6 日三王节孩子收礼物；潘普洛纳圣费尔明节 7 月 6 日至 14 日，7 日起每天早上奔牛；墨西哥亡灵节 11 月 1 日、2 日，融合了印第安传统和天主教节日。",
+    "grammar": "让学生从课文中找出复习点：no hay pueblo que no celebre、quien se coma（虚拟式形容词从句）、al dar las doce（al + 原形）、siguen siendo（副动词短语）、vinculadas（分词）。",
+    "exercises": "第 3 题先行词被否定用虚拟式；第 4 题与过去事实相反，用虚拟式过去完成时和复合条件式；第 7 题 celebrar 也可换成 pasar。"
+  }
+}

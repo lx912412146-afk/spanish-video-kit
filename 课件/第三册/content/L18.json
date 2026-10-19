@@ -1,0 +1,160 @@
+{
+  "book": 3,
+  "lesson": 18,
+  "title_es": "Prometeo",
+  "title_zh": "普罗米修斯",
+  "goals": [
+    "复习将来完成时及表示推测的用法",
+    "复习虚拟式现在完成时和复合原形动词",
+    "复习关系词 el cual、lo cual、lo que",
+    "复习 lo + 形容词 / 副词 的两种结构",
+    "能用西语讲述普罗米修斯盗火的故事"
+  ],
+  "vocab": [
+    ["admitir", "接受，容许；承认"],
+    ["conceder", "给予，准许；承认"],
+    ["andar", "走；处于（某种状态）"],
+    ["encender", "点燃；打开（灯等）"],
+    ["reservar", "保留；预订"],
+    ["manejar", "操作，使用；〈拉美〉开车"],
+    ["burlar(se)", "骗过，躲过；嘲笑"],
+    ["repartir", "分配，分发"],
+    ["sujetar", "抓住，固定；制服"],
+    ["renovar(se)", "更新；复原"],
+    ["el titán", "提坦（巨神）"],
+    ["robar", "偷，盗"],
+    ["castigar", "惩罚"],
+    ["la cadena", "链子，锁链"],
+    ["la roca", "岩石"],
+    ["el águila (f.)", "鹰（阴性名词）"],
+    ["el hígado", "肝脏"]
+  ],
+  "text": {
+    "title": "Prometeo",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "En los mitos griegos, Prometeo era un titán, amigo de los hombres.", "zh": "在希腊神话里，普罗米修斯是一位提坦神，是人类的朋友。"},
+      {"who": "", "es": "Su hermano Epimeteo había repartido las cualidades entre los animales.", "zh": "他的兄弟厄庇墨透斯把各种本领都分给了动物。"},
+      {"who": "", "es": "Lo malo fue que, para los hombres, ya no quedaba nada.", "zh": "糟糕的是，轮到人类时，什么也没剩下。"},
+      {"who": "", "es": "Andaban desnudos y débiles, y Zeus reservaba el fuego para los dioses.", "zh": "人类赤身裸体，弱小无力，而宙斯把火留给了众神。"},
+      {"who": "", "es": "Prometeo no podía admitir que vivieran en el frío y la oscuridad.", "zh": "普罗米修斯不能容忍人类生活在寒冷和黑暗之中。"},
+      {"who": "", "es": "Un día burló a Zeus: robó el fuego y lo escondió dentro de una caña.", "zh": "一天，他骗过宙斯，盗走火种，藏在一根空心的茎秆里。"},
+      {"who": "", "es": "Bajó a la tierra y enseñó a los hombres a encender y manejar el fuego.", "zh": "他来到人间，教人类点火、用火。"},
+      {"who": "", "es": "Gracias a él, aprendieron a cocinar y a trabajar los metales.", "zh": "多亏了他，人类学会了烹饪和冶炼金属。"},
+      {"who": "", "es": "Al ver la luz de los fuegos en la tierra, Zeus se puso furioso.", "zh": "宙斯看到人间的火光，勃然大怒。"},
+      {"who": "", "es": "Decidió castigar a Prometeo por haber robado lo que era de los dioses.", "zh": "他决定惩罚普罗米修斯，因为他偷了属于众神的东西。"},
+      {"who": "", "es": "Mandó sujetarlo con cadenas a una roca de las montañas del Cáucaso.", "zh": "他命人用铁链把普罗米修斯锁在高加索山的一块岩石上。"},
+      {"who": "", "es": "Cada día venía un águila, la cual le comía el hígado.", "zh": "每天都有一只鹰飞来啄食他的肝脏。"},
+      {"who": "", "es": "Por la noche el hígado se le renovaba, y su dolor volvía a empezar.", "zh": "到了夜里，肝脏又长好了，他的痛苦又重新开始。"},
+      {"who": "", "es": "Muchos años después, Hércules mató al águila y Prometeo quedó libre.", "zh": "许多年后，赫拉克勒斯杀死了那只鹰，普罗米修斯才获得自由。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "复习：将来完成时和虚拟式现在完成时（第 13、15 课）",
+      "points": [
+        "将来完成时 = habré, habrás… + 过去分词，表示将来某时以前已完成的事。",
+        "将来完成时推测已完成的事（Habrá salido）；将来未完成时推测现在的事。",
+        "虚拟式现在完成时 = haya, hayas… + 过去分词，用在要求虚拟式的从句里。",
+        "cuando + 虚拟式现在完成时，指将来先完成的事，主句用将来时或命令式。"
+      ],
+      "table": {
+        "head": ["人称", "将来完成时", "虚拟式现在完成时"],
+        "rows": [
+          ["yo", "habré terminado", "haya terminado"],
+          ["tú", "habrás terminado", "hayas terminado"],
+          ["él / ella / usted", "habrá terminado", "haya terminado"],
+          ["nosotros, -as", "habremos terminado", "hayamos terminado"],
+          ["vosotros, -as", "habréis terminado", "hayáis terminado"],
+          ["ellos / ustedes", "habrán terminado", "hayan terminado"]
+        ]
+      },
+      "examples": [
+        ["Para el lunes ya habré terminado el trabajo.", "到星期一我就已经完成工作了。"],
+        ["Luis no contesta. Habrá salido.", "路易斯不接电话，大概是出去了。"],
+        ["No tengo reloj, pero serán las diez.", "我没带表，不过大概十点了。"],
+        ["Me alegro de que hayas leído el mito.", "我很高兴你读了这个神话。"]
+      ]
+    },
+    {
+      "title": "复习：复合原形动词（第 16 课）",
+      "points": [
+        "haber + 过去分词，表示先于主要动词完成的动作；代词附在 haber 后。",
+        "常用在 después de、por、sin、gracias por 等后面。",
+        "sentir 等动词后：主语相同用复合原形动词，不同用 que + 虚拟式。"
+      ],
+      "examples": [
+        ["Prometeo fue castigado por haber robado el fuego.", "普罗米修斯因为盗火受到了惩罚。"],
+        ["Gracias por haberme ayudado.", "谢谢你帮了我。"],
+        ["Siento haber llegado tarde.", "抱歉，我来晚了。（主语相同）"],
+        ["Siento que hayas tenido que esperar.", "让你久等了，真抱歉。（主语不同）"]
+      ]
+    },
+    {
+      "title": "复习：关系词（第 13、14、17 课）",
+      "points": [
+        "a、con、de、en 后指物可单用 que；其他用 el que / el cual。",
+        "el cual 和先行词性数一致，冠词不能省；不带前置词的限定性从句只用 que。",
+        "lo que 可单独使用（“……的东西 / 事”）；lo cual 只指前面整句话。"
+      ],
+      "examples": [
+        ["Es el mito de que te hablé ayer.", "这就是我昨天跟你说的那个神话。"],
+        ["Ésta es la roca a la cual lo sujetaron.", "这就是他被锁在上面的那块岩石。"],
+        ["Robó el fuego, lo cual enfadó mucho a Zeus.", "他盗走了火种，这让宙斯非常恼怒。"],
+        ["Lo que hizo Prometeo fue muy valiente.", "普罗米修斯的所作所为非常勇敢。"]
+      ]
+    },
+    {
+      "title": "复习：lo + 形容词 / 副词（第 16 课）",
+      "points": [
+        "lo + 形容词阳性单数，表示“……的事 / 方面”：lo bueno、lo peor。",
+        "lo + 形容词 / 副词 + que 表示“多么……”，形容词和所指名词性数一致。",
+        "区分：lo que + 动词（……的东西）；lo + 形容词 + que（多么……）。"
+      ],
+      "examples": [
+        ["Lo peor del castigo era que no tenía fin.", "这种惩罚最糟的是它永无尽头。"],
+        ["Imagínate lo terrible que era aquel dolor.", "你想想那种痛苦有多可怕。"],
+        ["Todos saben lo valiente que fue Prometeo.", "大家都知道普罗米修斯有多勇敢。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Zeus no quiso conceder el fuego a los hombres.", "宙斯不肯把火赐给人类。"],
+    ["No admito que me hables así.", "我不允许你这样跟我说话。"],
+    ["Últimamente ando muy ocupado.", "最近我很忙。"],
+    ["¿Puedes encender la luz, por favor?", "请你把灯打开好吗？"],
+    ["He reservado una mesa para cuatro.", "我订了一张四人桌。"],
+    ["¿Sabes manejar esta máquina?", "你会操作这台机器吗？"],
+    ["No te burles de tus compañeros.", "不要嘲笑你的同学。"],
+    ["Tengo que renovar el pasaporte.", "我得去换新护照。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Para las ocho ya ______ (terminar, yo) los deberes.", "a": "habré terminado"},
+    {"type": "改写", "q": "Probablemente Ana ha salido. → Ana ______.（用将来完成时表示推测）", "a": "Ana habrá salido."},
+    {"type": "填空", "q": "Cuando ______ (leer, tú) el mito, cuéntamelo.（用虚拟式现在完成时）", "a": "hayas leído"},
+    {"type": "选择", "q": "Siento ___ tarde; perdóname. (haber llegado / que haya llegado)", "a": "haber llegado（主语相同）"},
+    {"type": "填空", "q": "Ésta es la roca a ______ sujetaron a Prometeo.（用 cual 的适当形式）", "a": "la cual"},
+    {"type": "选择", "q": "___ más me gusta del mito es el final. (Lo cual / Lo que)", "a": "Lo que（没有先行词）"},
+    {"type": "翻译", "q": "你想象不到这个故事有多美。（用 lo + 形容词 + que）", "a": "No te imaginas lo bonita que es esta historia."},
+    {"type": "问答", "q": "¿Por qué castigó Zeus a Prometeo?", "a": "Por haber robado el fuego para dárselo a los hombres."}
+  ],
+  "summary": [
+    "将来完成时 habré + 过去分词，也可推测已完成的事。",
+    "虚拟式现在完成时 haya + 过去分词，用在虚拟式从句里。",
+    "sentir 等后：主语相同用复合原形，不同用 que + 虚拟式。",
+    "el cual 冠词不省；lo cual 只指前面整句话。",
+    "lo + 形容词表抽象概念，加 que 表示程度。"
+  ],
+  "homework": [
+    "用 10 句左右复述普罗米修斯的故事，至少用五个重点词。",
+    "写出 hacer、decir、volver 的将来完成时和虚拟式现在完成时。",
+    "用 el cual、lo cual、lo que 和复合原形动词各造两句。"
+  ],
+  "notes": {
+    "goals": "本课是复习课，课本没有新语法；语法部分复习第 13–17 课，以普罗米修斯的故事为线索串联。",
+    "vocab": "encender、renovar 分别是 e→ie、o→ue 词根变化动词（enciendo、renuevo）；burlar 是“骗过、躲过”，burlarse de 是“嘲笑”；manejar 在拉美常指“开车”。el águila 是阴性名词，因以重读 a 开头才用 el（un águila、esa águila、la cual）。",
+    "text": "普罗米修斯的故事古代有不同版本（赫西俄德、埃斯库罗斯、柏拉图等），课文综合了几种说法，不代表某一部作品。讲故事前可问学生知道哪些希腊神话。课文里的过去完成时、复合原形动词（por haber robado）、lo que、lo malo 和 la cual 可让学生逐一找出。",
+    "grammar": "四个复习点都可以拿课文句子做例子；重点对比 Siento haber… 和 Siento que hayas…，以及 lo que 和 lo + 形容词 + que。",
+    "exercises": "第 3 题如不限定时态也可用 leas；第 4 题由 perdóname 看出主语相同；第 7 题 bonita 要和 historia 一致。"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "book": 3,
+  "lesson": 2,
+  "title_es": "El paño maravilloso",
+  "title_zh": "神布",
+  "goals": [
+    "掌握虚拟式过去未完成时 -ra、-se 两套变位",
+    "会从简单过去时第三人称复数推出变位",
+    "掌握主句是过去时的名词性从句的时态配合",
+    "会用 ir + 形容词／过去分词描写状态",
+    "能用自己的话讲述“神布”的故事"
+  ],
+  "vocab": [
+    ["el paño", "布，呢料"],
+    ["maravilloso, sa", "神奇的，奇妙的"],
+    ["proponer", "提议，建议"],
+    ["llevar(se)", "带；拿走，带走"],
+    ["al cabo de", "在……之后"],
+    ["averiguar", "查明，弄清"],
+    ["antes", "以前；先"],
+    ["asustar(se)", "使害怕；害怕"],
+    ["importar", "要紧，有关系；进口"],
+    ["reconocer", "认出；承认"],
+    ["la corte", "宫廷，朝廷"],
+    ["estafador, ra", "骗子"],
+    ["tejer", "织"],
+    ["la seda", "丝绸"],
+    ["el oro", "金子，黄金"],
+    ["encerrar(se)", "关起来；把自己关在"],
+    ["desnudo, da", "裸体的"],
+    ["el criado, la criada", "仆人"]
+  ],
+  "text": {
+    "title": "El paño maravilloso",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Hace muchos siglos, tres estafadores llegaron a la corte de un rey.", "zh": "好几百年前，三个骗子来到一位国王的宫廷。"},
+      {"who": "", "es": "Le propusieron tejer para él un paño maravilloso.", "zh": "他们提出要为国王织一块神奇的布。"},
+      {"who": "", "es": "Explicaron que el paño era invisible para los hijos ilegítimos.", "zh": "他们解释说，私生子是看不见这块布的。"},
+      {"who": "", "es": "Al rey le gustó la idea: así podría averiguar muchos secretos.", "zh": "国王很喜欢这个主意：这样他就能查明许多秘密了。"},
+      {"who": "", "es": "Les dio oro y seda, y les pidió que empezaran el trabajo enseguida.", "zh": "他给了他们金子和丝绸，要他们马上动工。"},
+      {"who": "", "es": "Los estafadores se encerraron en una sala y fingían tejer día y noche.", "zh": "骗子们把自己关在一间屋里，日夜假装织布。"},
+      {"who": "", "es": "Al cabo de unos días, el rey mandó al ministro que fuera a verlo.", "zh": "几天以后，国王派大臣去看那块布。"},
+      {"who": "", "es": "El ministro no vio nada y se asustó, pero no quiso reconocerlo.", "zh": "大臣什么也没看见，吓坏了，可是不肯承认。"},
+      {"who": "", "es": "Le dijo al rey que nunca antes había visto un paño tan bonito.", "zh": "他对国王说，他从来没见过这么漂亮的布。"},
+      {"who": "", "es": "Luego fue el rey; tampoco vio nada, pero dijo que era precioso.", "zh": "后来国王亲自去看，也什么都没看见，却说布美极了。"},
+      {"who": "", "es": "Les ordenó que le hicieran un traje para la gran fiesta de la ciudad.", "zh": "他命令他们用这块布给他做一套衣服，好在城里的大节日穿。"},
+      {"who": "", "es": "Aquel día el rey salió a caballo; iba desnudo, pero nadie decía nada.", "zh": "那天国王骑马出行，他光着身子，可谁也不说话。"},
+      {"who": "", "es": "Sólo un criado pobre gritó: «¡El rey va desnudo!»", "zh": "只有一个穷仆人大声喊道：“国王光着身子！”"},
+      {"who": "", "es": "Todos lo reconocieron, pero los tres ya se habían llevado el oro.", "zh": "大家这才都承认了，可那三个骗子早已带着金子跑了。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "虚拟式过去未完成时：构成",
+      "points": [
+        "简单过去时第三人称复数去掉 -ron，再加词尾。",
+        "-ra 式词尾：-ra, -ras, -ra, -ramos, -rais, -ran。",
+        "-se 式词尾：-se, -ses, -se, -semos, -seis, -sen。",
+        "两式通用；nosotros 加重音：habláramos / hablásemos。"
+      ],
+      "table": {
+        "head": ["人称", "hablar (hablaron)", "comer (comieron)", "vivir (vivieron)"],
+        "rows": [
+          ["yo", "hablara", "comiera", "viviera"],
+          ["tú", "hablaras", "comieras", "vivieras"],
+          ["él / ella / usted", "hablara", "comiera", "viviera"],
+          ["nosotros, -as", "habláramos", "comiéramos", "viviéramos"],
+          ["vosotros, -as", "hablarais", "comierais", "vivierais"],
+          ["ellos/ellas/ustedes", "hablaran", "comieran", "vivieran"],
+          ["-se 式（yo）", "hablase", "comiese", "viviese"]
+        ]
+      },
+      "examples": [
+        ["Quería que habláramos con el rey.", "他想让我们去和国王谈谈。"],
+        ["Le pedí que comiera algo.", "我请他吃点东西。"],
+        ["Mis padres querían que viviese con ellos.", "父母想让我和他们一起住。"]
+      ]
+    },
+    {
+      "title": "不规则动词：从简单过去时推出",
+      "points": [
+        "简单过去时不规则，虚拟式过去未完成时也跟着不规则。",
+        "ser 和 ir 同形：fueron → fuera / fuese，靠上下文区分。",
+        "词根变化照留：pidieron → pidiera，murieron → muriera。",
+        "注意 dijeron → dijera，trajeron → trajera（没有 i）。"
+      ],
+      "table": {
+        "head": ["不定式", "ellos（简单过去时）", "虚拟式过去未完成时"],
+        "rows": [
+          ["ser / ir", "fueron", "fuera / fuese"],
+          ["tener", "tuvieron", "tuviera / tuviese"],
+          ["hacer", "hicieron", "hiciera / hiciese"],
+          ["decir", "dijeron", "dijera / dijese"],
+          ["poder", "pudieron", "pudiera / pudiese"],
+          ["pedir", "pidieron", "pidiera / pidiese"],
+          ["leer", "leyeron", "leyera / leyese"]
+        ]
+      },
+      "examples": [
+        ["Les pedí que me dijeran la verdad.", "我请他们对我说实话。"],
+        ["No creía que fuera tan fácil.", "我没想到会这么容易。"],
+        ["Mi madre quería que yo durmiera más.", "妈妈想让我多睡一会儿。"],
+        ["Nos dijo que tuviéramos cuidado.", "他叫我们小心。"]
+      ]
+    },
+    {
+      "title": "时态配合：主句是过去时的名词性从句",
+      "points": [
+        "主句是现在时、将来时或命令式，从句用虚拟式现在时。",
+        "主句是过去时，从句用虚拟式过去未完成时。",
+        "要求虚拟式的条件不变：愿望、请求、情感、怀疑、无人称句等。",
+        "pedir / decir que + 虚拟式：转述请求或命令。"
+      ],
+      "table": {
+        "head": ["主句时态", "从句", "例句"],
+        "rows": [
+          ["现在时", "虚拟式现在时", "Quiero que vengas."],
+          ["将来时", "虚拟式现在时", "Le pediré que venga."],
+          ["命令式", "虚拟式现在时", "Dile que venga."],
+          ["简单过去时", "虚拟式过去未完成时", "Me pidió que viniera."],
+          ["过去未完成时", "虚拟式过去未完成时", "Quería que vinieras."]
+        ]
+      },
+      "examples": [
+        ["Quiero que vengas. → Quería que vinieras.", "我希望你来。→ 我（当时）希望你来。"],
+        ["Me pidió que le prestara el diccionario.", "他请我把词典借给他。"],
+        ["No le importaba que la gente se riera de él.", "别人笑话他，他也不在乎。"],
+        ["Era necesario que todos estuvieran presentes.", "大家都必须到场。"]
+      ]
+    },
+    {
+      "title": "混合补语：ir + 形容词／过去分词",
+      "points": [
+        "ir 后接形容词或过去分词，说明主语当时的样子或状态。",
+        "形容词、分词要和主语性数一致。",
+        "常见：ir vestido de…、ir desnudo、ir contento。",
+        "这里 ir 不一定表示“去”，意思接近 estar，但更生动。"
+      ],
+      "examples": [
+        ["Iba muy contento porque había aprobado el examen.", "他考试及格了，心里美滋滋的。"],
+        ["Siempre va vestido de negro.", "他总是穿一身黑。"],
+        ["El rey iba desnudo por la calle.", "国王光着身子走在街上。"],
+        ["Las niñas iban muy cansadas.", "女孩们都很累了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Te propongo un plan: vamos al cine.", "我提个建议：咱们去看电影吧。"],
+    ["Alguien se llevó mi paraguas.", "有人把我的伞拿走了。"],
+    ["Al cabo de un mes, volvió a su país.", "一个月以后，他回国了。"],
+    ["Quiero averiguar quién lo ha hecho.", "我想查明这是谁干的。"],
+    ["Antes vivíamos en el campo.", "我们以前住在乡下。"],
+    ["No te asustes, sólo es el viento.", "别害怕，只是风声。"],
+    ["¿Te importa cerrar la ventana?", "你介意把窗户关上吗？"],
+    ["¡Cuánto has cambiado! No te he reconocido.", "你变化真大！我都没认出你来。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "hablar →（yo）______ / ______（写出 -ra 式和 -se 式）", "a": "hablara / hablase"},
+    {"type": "填空", "q": "tener →（nosotros）______（-ra 式）", "a": "tuviéramos"},
+    {"type": "改写", "q": "Quiero que vengas. → Quería que ______.", "a": "Quería que vinieras (vinieses)."},
+    {"type": "改写", "q": "El profesor nos dice que leamos el texto. → El profesor nos dijo que ______.", "a": "El profesor nos dijo que leyéramos (leyésemos) el texto."},
+    {"type": "选择", "q": "Mi madre me pidió que ___ temprano. (vuelva / volviera)", "a": "volviera（主句是过去时）"},
+    {"type": "选择", "q": "Las chicas iban muy ___ . (contento / contentas)", "a": "contentas（和主语性数一致）"},
+    {"type": "翻译", "q": "国王请骗子们马上开始干活。", "a": "El rey pidió a los estafadores que empezaran a trabajar enseguida."},
+    {"type": "问答", "q": "¿Por qué nadie decía que el rey iba desnudo?", "a": "Porque nadie quería reconocer que no veía el paño."}
+  ],
+  "summary": [
+    "ellos 的简单过去时去掉 -ron，加 -ra 或 -se。",
+    "-ra、-se 两式通用；nosotros 形式加重音。",
+    "主句是过去时，名词性从句用虚拟式过去未完成时。",
+    "ir + 形容词／分词描写主语状态，和主语性数一致。"
+  ],
+  "homework": [
+    "写出 ser、hacer、decir、venir 的 -ra 式全部变位。",
+    "把五个 Quiero que…、Me pide que… 的句子改成过去时。",
+    "用 8–10 句话复述“神布”的故事，用上 pidió que 和 iba。"
+  ],
+  "notes": {
+    "goals": "本课只把虚拟式过去未完成时用在名词性从句里；como si（第 3 课）、aunque + 虚拟式（第 4 课）、Si tuviera…, haría…（第 5 课）以后再学。",
+    "vocab": "proponer 按 poner 变位（propuse、propusieron）；averiguar 在 e 前写成 gü：averigüé、averigüe；reconocer 有“认出”和“承认”两个意思，第一人称 reconozco；importar 和 gustar 一样用与格：No me importa。",
+    "text": "课文是原创复述，故事取自 14 世纪胡安·曼努埃尔《卢卡诺尔伯爵》第 32 则（和安徒生《皇帝的新装》情节相近）：原故事里是一位摩尔人国王，骗子说只有真是自己父亲亲生的人才看得见这块布，按摩尔人的规矩不是亲生的不能继承家业，所以谁也不敢说看不见；课文用 hijos ilegítimos（私生子）概括这层意思。副词 sólo（第 13 行等处）按老课本正字法带重音，RAE 2010 年起不再要求。让学生找出 pidió que empezaran、mandó al ministro que fuera、ordenó que hicieran 和 iba desnudo、va desnudo。",
+    "grammar": "从 ellos 的简单过去时出发就不会错：durmieron → durmiera，leyeron → leyera。课上以 -ra 式为主，-se 式会认会写即可。主句是条件式（过去的将来）时，从句一般也用虚拟式过去未完成时，可只点一句。ir + 形容词就是第二册第 16 课讲的双重补语。",
+    "exercises": "第 3、4、5 题练时态配合，先找主句动词的时态，-se 式也算对；第 5 题按本课规则填 volviera（请求的事到说话时还没发生，实际语言里也有人用 vuelva，课上不展开）；第 6 题考 ir + 形容词的性数一致。"
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "book": 3,
+  "lesson": 14,
+  "title_es": "Las Pirámides de Egipto y la Esfinge",
+  "title_zh": "埃及金字塔和狮身人面像",
+  "goals": [
+    "掌握中性关系代词 lo que 的用法",
+    "理解定冠词的指示功能和概括功能",
+    "认识常见的名词、形容词后缀（构词法二）",
+    "能用西语介绍金字塔和狮身人面像"
+  ],
+  "vocab": [
+    [
+      "la oportunidad",
+      "机会，时机"
+    ],
+    [
+      "medir",
+      "测量；（身高、长度）有"
+    ],
+    [
+      "requerir",
+      "需要，要求"
+    ],
+    [
+      "proteger",
+      "保护"
+    ],
+    [
+      "adornar",
+      "装饰，点缀"
+    ],
+    [
+      "convertir(se) en",
+      "（使）变成"
+    ],
+    [
+      "acertar",
+      "猜中；做对；说对"
+    ],
+    [
+      "dar con",
+      "找到；碰上"
+    ],
+    [
+      "arrojar",
+      "扔，投，抛"
+    ],
+    [
+      "costar",
+      "值（多少钱）；费力"
+    ],
+    [
+      "la pirámide",
+      "金字塔；棱锥"
+    ],
+    [
+      "la esfinge",
+      "狮身人面像"
+    ],
+    [
+      "el faraón",
+      "法老"
+    ],
+    [
+      "la tumba",
+      "坟墓，陵墓"
+    ],
+    [
+      "el desierto",
+      "沙漠"
+    ],
+    [
+      "el bloque",
+      "（石、木等）块"
+    ],
+    [
+      "arqueólogo, ga",
+      "考古学家"
+    ],
+    [
+      "el misterio",
+      "谜，奥秘"
+    ]
+  ],
+  "text": {
+    "title": "Las Pirámides de Egipto y la Esfinge",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "Cerca de El Cairo, en Giza, se alzan tres grandes pirámides.",
+        "zh": "在开罗附近的吉萨，矗立着三座大金字塔。"
+      },
+      {
+        "who": "",
+        "es": "Son las tumbas de tres faraones: Keops, Kefrén y Micerino.",
+        "zh": "它们是三位法老的陵墓：胡夫、哈夫拉和孟卡拉。"
+      },
+      {
+        "who": "",
+        "es": "La mayor es la de Keops, construida hace unos 4500 años.",
+        "zh": "最大的是胡夫金字塔，建于大约四千五百年前。"
+      },
+      {
+        "who": "",
+        "es": "Al principio medía unos 146 metros de alto; hoy mide unos 138.",
+        "zh": "它起初高约 146 米，如今约 138 米。"
+      },
+      {
+        "who": "",
+        "es": "Su construcción requirió más de dos millones de bloques de piedra.",
+        "zh": "建造它用了两百多万块石块。"
+      },
+      {
+        "who": "",
+        "es": "Se cree que costó unos veinte años de trabajo.",
+        "zh": "一般认为，建造它花了大约二十年。"
+      },
+      {
+        "who": "",
+        "es": "Lo que todavía no sabemos bien es cómo subieron los bloques tan alto.",
+        "zh": "我们至今还不太清楚的，是人们怎样把石块运到那么高的。"
+      },
+      {
+        "who": "",
+        "es": "Los arqueólogos han dado con el pueblo en que vivían los obreros.",
+        "zh": "考古学家已经找到了当年工人们居住的村子。"
+      },
+      {
+        "who": "",
+        "es": "Delante de las pirámides, la Esfinge parece proteger el lugar.",
+        "zh": "狮身人面像在金字塔前面，好像在守护着这片地方。"
+      },
+      {
+        "who": "",
+        "es": "Tiene cuerpo de león y cabeza humana, y mide unos 73 metros de largo.",
+        "zh": "它长着狮子的身体、人的头，长约 73 米。"
+      },
+      {
+        "who": "",
+        "es": "Durante siglos, la arena del desierto la cubrió hasta los hombros.",
+        "zh": "几百年间，沙漠里的沙子一直埋到它的肩膀。"
+      },
+      {
+        "who": "",
+        "es": "Mucha gente cree que los soldados de Napoleón le rompieron la nariz.",
+        "zh": "很多人以为是拿破仑的士兵打掉了它的鼻子。"
+      },
+      {
+        "who": "",
+        "es": "No aciertan: dibujos anteriores a Napoleón ya la muestran sin nariz.",
+        "zh": "其实没说对：拿破仑以前的画上，它就已经没有鼻子了。"
+      },
+      {
+        "who": "",
+        "es": "Allí uno comprende lo que el hombre es capaz de hacer.",
+        "zh": "在那里，人们会明白人类能创造出什么样的奇迹。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "lo que 的用法",
+      "points": [
+        "lo que 是中性关系代词，不指具体的名词，而指一件事、一种情况。",
+        "可作主语、直接宾语或表语：Lo que dices es verdad.",
+        "复指前面整句的意思：Llegó tarde, lo que enfadó a todos.",
+        "指不确定的事物时，从句用虚拟式（第 11 课）：Haz lo que quieras."
+      ],
+      "examples": [
+        [
+          "Lo que dices es verdad.",
+          "你说的是真的。"
+        ],
+        [
+          "No entiendo lo que pasa.",
+          "我不明白发生了什么事。"
+        ],
+        [
+          "Haz lo que quieras.",
+          "你想做什么就做什么吧。"
+        ],
+        [
+          "Lo que más me gustó fue la Esfinge.",
+          "我最喜欢的是狮身人面像。"
+        ]
+      ]
+    },
+    {
+      "title": "定冠词的指示功能和概括功能",
+      "points": [
+        "指示功能：说话双方都知道的或独一无二的事物用定冠词：el sol。",
+        "概括功能：定冠词 + 名词可以表示一整类事物（第二册第 17 课）。",
+        "抽象名词、物质名词表示泛指、作主语时，一般也要带定冠词。",
+        "定冠词 + de / que 可代替上文的名词，避免重复：la de Keops。"
+      ],
+      "table": {
+        "head": [
+          "功能",
+          "例子"
+        ],
+        "rows": [
+          [
+            "独一无二",
+            "el sol, la Esfinge"
+          ],
+          [
+            "双方都知道",
+            "Cierra la puerta."
+          ],
+          [
+            "概括（单数）",
+            "El hombre es mortal."
+          ],
+          [
+            "概括（复数）",
+            "Los perros son fieles."
+          ],
+          [
+            "抽象名词",
+            "La paciencia es útil."
+          ],
+          [
+            "代替名词",
+            "la de Keops, el que vi"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "El sol sale por el este.",
+          "太阳从东方升起。"
+        ],
+        [
+          "El hombre es mortal.",
+          "人都是要死的。"
+        ],
+        [
+          "La salud vale más que el dinero.",
+          "健康比金钱更宝贵。"
+        ],
+        [
+          "La mayor pirámide es la de Keops.",
+          "最大的金字塔是胡夫金字塔。"
+        ]
+      ]
+    },
+    {
+      "title": "构词法（二）：后缀派生",
+      "points": [
+        "在词根后加后缀可以构成新词，词类常常随之改变：jugar → jugador。",
+        "-ero、-ista、-dor 构成表示人的名词：职业、爱好或动作的执行者。",
+        "-ble 由动词派生，意为“能被……的”；-oso 由名词派生形容词。",
+        "指小词、指大词（第二册第 15 课）也是后缀派生，常带感情色彩。"
+      ],
+      "table": {
+        "head": [
+          "后缀",
+          "意思",
+          "例词"
+        ],
+        "rows": [
+          [
+            "-ero, -era",
+            "职业；器物",
+            "zapatero, azucarero"
+          ],
+          [
+            "-ería",
+            "店铺，作坊",
+            "zapatería, librería"
+          ],
+          [
+            "-ista",
+            "职业、主张（阴阳同形）",
+            "periodista, deportista"
+          ],
+          [
+            "-dor, -dora",
+            "做……的人或机器",
+            "jugador, lavadora"
+          ],
+          [
+            "-ble",
+            "能被……的",
+            "aceptable, lavable"
+          ],
+          [
+            "-oso, -osa",
+            "有……的，多……的",
+            "famoso, misterioso"
+          ],
+          [
+            "-ito / -ón",
+            "指小 / 指大",
+            "casita / hombrón"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "El zapatero arregla zapatos en su zapatería.",
+          "鞋匠在他的鞋铺里修鞋。"
+        ],
+        [
+          "Mi hermana es periodista deportiva.",
+          "我姐姐是体育记者。"
+        ],
+        [
+          "La Esfinge es una figura misteriosa.",
+          "狮身人面像是一个神秘的形象。"
+        ],
+        [
+          "Su explicación no es aceptable.",
+          "他的解释让人无法接受。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "No pierdas esta oportunidad.",
+      "别错过这个机会。"
+    ],
+    [
+      "—¿Cuánto mides? —Mido un metro setenta.",
+      "——你多高？——我一米七。"
+    ],
+    [
+      "Adornaron la sala con flores.",
+      "他们用鲜花装饰了大厅。"
+    ],
+    [
+      "El agua se convierte en hielo a cero grados.",
+      "水在零度时结成冰。"
+    ],
+    [
+      "Acertó todas las preguntas del examen.",
+      "考试的题他全答对了。"
+    ],
+    [
+      "Por fin dimos con la casa de Ana.",
+      "我们终于找到了安娜的家。"
+    ],
+    [
+      "No arrojes papeles al suelo.",
+      "不要往地上扔纸。"
+    ],
+    [
+      "Me costó mucho entender el texto.",
+      "我费了很大劲才看懂课文。"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "选择",
+      "q": "No entiendo ___ dices. (que / lo que)",
+      "a": "lo que"
+    },
+    {
+      "type": "填空",
+      "q": "Puedes hacer lo que ______ (querer, tú).（做什么都行）",
+      "a": "quieras（泛指任何想做的事，用虚拟式；quieres 则指已知的那件事）"
+    },
+    {
+      "type": "改写",
+      "q": "Llegó tarde. Eso enfadó al profesor. → Llegó tarde, ______.",
+      "a": "Llegó tarde, lo que enfadó al profesor."
+    },
+    {
+      "type": "填空",
+      "q": "______ hombre es mortal.（填冠词）",
+      "a": "El（概括功能）"
+    },
+    {
+      "type": "选择",
+      "q": "Esta pirámide es más alta que ___ de Micerino. (la / lo)",
+      "a": "la（代替 la pirámide）"
+    },
+    {
+      "type": "填空",
+      "q": "加后缀构词：trabajar → ______（人）；fama → ______；aceptar → ______",
+      "a": "trabajador；famoso；aceptable"
+    },
+    {
+      "type": "翻译",
+      "q": "我不明白你想说什么。",
+      "a": "No entiendo lo que quieres decir."
+    },
+    {
+      "type": "问答",
+      "q": "¿Le rompieron la nariz a la Esfinge los soldados de Napoleón?",
+      "a": "No. Dibujos anteriores a Napoleón ya la muestran sin nariz."
+    }
+  ],
+  "summary": [
+    "lo que 指一件事，可作主语、宾语，也可复指前句。",
+    "lo que 指不确定的事要用虚拟式：lo que quieras。",
+    "定冠词可指已知或唯一的事物，也可概括一整类事物。",
+    "el de、la que 等可以代替上文已经提到的名词。",
+    "指人：-ero、-ista、-dor；形容词：-ble、-oso。"
+  ],
+  "homework": [
+    "用 lo que 写五个句子，其中两句用虚拟式。",
+    "从课文和词汇表里找出五个派生词，说明词根和后缀。",
+    "用 8–10 句话介绍金字塔和狮身人面像。"
+  ],
+  "notes": {
+    "goals": "lo que 和定冠词都和学过的内容相连：lo que + 虚拟式接第 11 课形容词从句，定冠词的概括功能和代替功能接第二册第 17 课。构词法（二）以名词、形容词后缀为主，以认词为目的。",
+    "vocab": "medir 词根 e→i（mido, midió）；requerir 现在时 e→ie（requiere），简单过去时第三人称和副动词 e→i（requirió, requiriendo）；proteger 在 o、a 前 g 变 j（protejo）；convertir 同 sentir（convierte, convirtió）；acertar e→ie（acierto）；costar o→ue（cuesta）。",
+    "text": "课文里的冠词可逐个分析：la Esfinge（独一无二）、la de Keops（代替 la pirámide）、el hombre（概括）。数据都是约数：胡夫金字塔原高约 146 米，现高约 138 米；狮身人面像长约 73 米、高约 20 米。obreros 是 obra + -ero 的派生词。",
+    "grammar": "强调 lo que 指“事情”，不能指上文的具体名词：el libro que compré / lo que compré。构词法只要求认识后缀的意义，不要求学生自己生造新词。",
+    "exercises": "第 2 题 lo que 后指不确定的事，用虚拟式；第 3 题 lo que 复指前句；第 5 题 la 代替 la pirámide，不能用中性的 lo。"
+  }
+}

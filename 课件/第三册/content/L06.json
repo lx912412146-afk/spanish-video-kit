@@ -1,0 +1,163 @@
+{
+  "book": 3,
+  "lesson": 6,
+  "title_es": "El argumento de una novela",
+  "title_zh": "一部小说的情节",
+  "goals": [
+    "了解加西亚·马尔克斯和《一桩事先张扬的凶杀案》",
+    "能用现在时简述一部小说的情节",
+    "复习虚拟式现在时和过去未完成时的用法",
+    "复习 aunque、间接引语和条件句",
+    "掌握 propio、deber(se) 等八个重点词的用法"
+  ],
+  "vocab": [
+    ["propio, pia", "自己的；本身的"],
+    ["amanecer", "天亮；el ~ 黎明"],
+    ["deber(se)", "应该；~se a 由于"],
+    ["intentar", "试图，设法"],
+    ["casar(se)", "使成婚；~se 结婚"],
+    ["obligar", "强迫，迫使"],
+    ["vengar(se)", "报仇；~se de 向…报复"],
+    ["ofrecer", "提供；主动给予"],
+    ["el argumento", "情节；论据"],
+    ["la crónica", "纪事；报道"],
+    ["la boda", "婚礼"],
+    ["la honra", "名誉，荣誉"],
+    ["gemelo, la", "双胞胎（之一）"],
+    ["el narrador, la narradora", "叙述者"],
+    ["el obispo", "主教"],
+    ["el crimen", "罪行；凶杀案"]
+  ],
+  "text": {
+    "title": "Crónica de una muerte anunciada",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Gabriel García Márquez (1927-2014) nació en Aracataca, Colombia.", "zh": "加夫列尔·加西亚·马尔克斯（1927–2014）生于哥伦比亚的阿拉卡塔卡。"},
+      {"who": "", "es": "Fue periodista antes de hacerse famoso como novelista.", "zh": "他成为著名小说家之前当过记者。"},
+      {"who": "", "es": "En 1967 publicó «Cien años de soledad»; en 1982 ganó el Premio Nobel.", "zh": "他 1967 年出版了《百年孤独》，1982 年获得诺贝尔文学奖。"},
+      {"who": "", "es": "Otra novela famosa suya es «Crónica de una muerte anunciada» (1981).", "zh": "他的另一部名作是《一桩事先张扬的凶杀案》（1981）。"},
+      {"who": "", "es": "Bayardo San Román, un joven rico, quiere casarse con Ángela Vicario.", "zh": "有钱的年轻人巴亚尔多·圣罗曼想娶安赫拉·维卡里奥。"},
+      {"who": "", "es": "Ella no lo quiere, pero su propia familia insiste en que se case.", "zh": "她并不爱他，可她自己的家人坚持要她嫁给他。"},
+      {"who": "", "es": "La noche de bodas, él descubre que ella no es virgen y la devuelve.", "zh": "新婚之夜，新郎发现她已不是处女，把她送回了娘家。"},
+      {"who": "", "es": "Sus hermanos gemelos la obligan a decir un nombre: Santiago Nasar.", "zh": "她的孪生兄弟逼她说出一个名字：圣地亚哥·纳萨尔。"},
+      {"who": "", "es": "Ellos creen que deben matarlo para vengar la honra de la familia.", "zh": "兄弟俩认为必须杀了他，为家族雪耻。"},
+      {"who": "", "es": "Lo anuncian a todos, como si quisieran que alguien los detuviera.", "zh": "他们逢人便说，好像希望有人来阻止他们似的。"},
+      {"who": "", "es": "Aunque casi todo el pueblo lo sabe, nadie consigue avisar a Santiago.", "zh": "虽然几乎全镇的人都知道，却没有人能及时告诉圣地亚哥。"},
+      {"who": "", "es": "Al amanecer, Santiago sale a esperar el barco del obispo.", "zh": "天刚亮，圣地亚哥就出门去等主教的船。"},
+      {"who": "", "es": "Intenta entrar en casa, pero la puerta está cerrada y allí lo matan.", "zh": "他想进家门，门却关着，他就在门口被杀了。"},
+      {"who": "", "es": "Años después, el narrador intenta entender por qué nadie lo evitó.", "zh": "多年以后，叙述者想弄明白，为什么没有人阻止这件事。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "复习：虚拟式现在时用法小结（第 1 课）",
+      "points": [
+        "名词性从句：主句表示愿望、命令、情感、怀疑，主从句主语不同用虚拟式。",
+        "时间从句说将来的事用虚拟式：Cuando llegues, llámame。",
+        "说习惯或已经发生的事，时间从句用陈述式：Cuando llego, ceno。",
+        "para que、antes de que、sin que 后面总用虚拟式。"
+      ],
+      "examples": [
+        ["Espero que te guste esta novela.", "希望你喜欢这部小说。"],
+        ["Te la dejaré cuando la termine.", "等我看完了就借给你。"],
+        ["Te lo explico para que lo entiendas.", "我给你解释一下，好让你明白。"],
+        ["No creo que llegue a tiempo.", "我看他不能按时到。"]
+      ]
+    },
+    {
+      "title": "复习：虚拟式过去未完成时和 como si（第 2–3 课）",
+      "points": [
+        "构成：去掉简单过去时 ellos 形式的 -ron，加 -ra 或 -se。",
+        "主句是过去时或条件式，从句要用虚拟式时用过去未完成时。",
+        "como si + 虚拟式过去未完成时：“好像……似的”，说的是不真实的情况。",
+        "nosotros 形式要加重音：habláramos、tuviéramos。"
+      ],
+      "table": {
+        "head": ["人称", "hablar", "tener", "ser / ir"],
+        "rows": [
+          ["yo", "hablara", "tuviera", "fuera"],
+          ["tú", "hablaras", "tuvieras", "fueras"],
+          ["él / ella / usted", "hablara", "tuviera", "fuera"],
+          ["nosotros, -as", "habláramos", "tuviéramos", "fuéramos"],
+          ["vosotros, -as", "hablarais", "tuvierais", "fuerais"],
+          ["ellos / ustedes", "hablaran", "tuvieran", "fueran"]
+        ]
+      },
+      "examples": [
+        ["Su familia quería que se casara con él.", "她家里想让她嫁给他。"],
+        ["Le pidieron que dijera la verdad.", "他们要她说实话。"],
+        ["Habla como si lo supiera todo.", "他说起话来好像什么都知道。"],
+        ["Me gustaría que leyeras esta novela.", "我真希望你读读这部小说。"]
+      ]
+    },
+    {
+      "title": "复习：aunque 和间接引语（第 4 课）",
+      "points": [
+        "aunque + 陈述式说事实；+ 虚拟式说假设，或承认而不争论的事实。",
+        "主句过去时：现在时 → 过去未完成时，将来时 → 简单条件式。",
+        "简单过去时、现在完成时 → 过去完成时；命令式 → 虚拟式过去未完成时。",
+        "人称和时间地点词也要变：hoy → aquel día，aquí → allí。"
+      ],
+      "examples": [
+        ["Aunque todos lo sabían, nadie hizo nada.", "虽然大家都知道，却谁也没做什么。"],
+        ["Aunque llueva, iremos a la boda.", "即使下雨，我们也去参加婚礼。"],
+        ["Dijeron que lo matarían aquel mismo día.", "他们说当天就要杀了他。（原话：«Lo mataremos hoy mismo.»）"],
+        ["Su madre le dijo que tuviera cuidado.", "他母亲叫他小心。（原话：«Ten cuidado.»）"]
+      ]
+    },
+    {
+      "title": "复习：条件句和 iba a（第 5 课）",
+      "points": [
+        "真实条件：si + 陈述式现在时，主句用现在时、将来时或命令式。",
+        "非真实条件：si + 虚拟式过去未完成时，主句用简单条件式。",
+        "si 从句不用虚拟式现在时，也不用将来时、条件式。",
+        "iba a / estaba a punto de + 原形动词：正要做却没做成。"
+      ],
+      "examples": [
+        ["Si tienes tiempo, lee esta novela.", "你要是有时间，就读读这部小说。"],
+        ["Si tuviera tiempo, la leería otra vez.", "我要是有时间，就再读一遍。"],
+        ["Si yo fuera tú, no saldría de casa hoy.", "我要是你，今天就不出门。"],
+        ["Iba a entrar en su casa cuando lo mataron.", "他正要进家门，就被杀了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Lo vi con mis propios ojos.", "这是我亲眼看见的。"],
+    ["En verano amanece muy temprano.", "夏天天亮得很早。"],
+    ["El retraso se debe a la lluvia.", "晚点是因为下雨。"],
+    ["Intenté llamarte, pero no contestabas.", "我试着给你打电话，可你没接。"],
+    ["Se casó con un compañero de trabajo.", "她和一位同事结婚了。"],
+    ["Nadie te obliga a venir.", "没人强迫你来。"],
+    ["Juró vengarse de sus enemigos.", "他发誓要向仇人报仇。"],
+    ["Me ofreció su ayuda.", "他主动提出帮我。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Te llamaré cuando ______ (llegar) a Madrid.", "a": "llegue"},
+    {"type": "填空", "q": "Mis padres querían que yo ______ (estudiar) medicina.", "a": "estudiara（或 estudiase）"},
+    {"type": "选择", "q": "Habla como si ___ todo. (sabe / supiera)", "a": "supiera"},
+    {"type": "选择", "q": "Aunque ___ cansado, terminó el trabajo. (estaba / esté)", "a": "estaba（过去的事实）"},
+    {"type": "改写", "q": "«Ten cuidado», le dijo su madre. → Su madre le dijo que ______.", "a": "Su madre le dijo que tuviera cuidado."},
+    {"type": "改写", "q": "No tengo tiempo; por eso no leo más novelas. → Si ______.", "a": "Si tuviera tiempo, leería más novelas."},
+    {"type": "翻译", "q": "他们逼她说出一个名字。", "a": "La obligaron a decir un nombre."},
+    {"type": "问答", "q": "¿Por qué los gemelos Vicario quieren matar a Santiago Nasar?", "a": "Porque creen que deben vengar la honra de su familia."}
+  ],
+  "summary": [
+    "加西亚·马尔克斯：哥伦比亚作家，1982 年获诺贝尔文学奖。",
+    "虚拟式现在时：名词性从句、将来的时间从句、目的从句。",
+    "主句过去时，从句的虚拟式用过去未完成时；como si 也用它。",
+    "aunque + 陈述式说事实，+ 虚拟式说假设或不争论的事实。",
+    "si + 虚拟式过去未完成时，主句简单条件式：不真实条件。"
+  ],
+  "homework": [
+    "用 8–10 句话（现在时）介绍你喜欢的一部小说的情节。",
+    "用本课八个重点词各造一个句子。",
+    "把课文第 5–9 句改用过去时讲述，注意时态呼应。"
+  ],
+  "notes": {
+    "goals": "本课是复习课，课本目录里没有新语法；借小说情节复习第 1–5 课的虚拟式、aunque、间接引语和条件句，不讲新的语法点。",
+    "vocab": "deber + 原形动词是“应该”，deber de + 原形动词表示推测，deberse a 表示原因；obligar、vengar 在 e 前写 gu（obligué、vengué）；ofrecer 第一人称是 ofrezco；amanecer 表示“天亮”时只用第三人称单数（Amanece a las seis）。casarse con alguien，不说 casarse a。",
+    "text": "课文是原创的情节梗概，没有引用小说原文；按西语习惯，讲情节用现在时；可补充：作者 2014 年逝世于墨西哥城。第 7 句是小说情节的起因，课文只作客观交代，讲解时点到为止，重点放在“家族荣誉”观念和全镇的沉默上。第 6 句 insiste en que se case（虚拟式现在时），第 10 句 como si quisieran que…（第 3 课），第 11 句 aunque + 陈述式说事实，可让学生逐一找出并说明原因。",
+    "grammar": "先抓时态呼应：主句现在时 → 从句虚拟式现在时，主句过去时 → 虚拟式过去未完成时。第四部分对比真实条件和非真实条件，提醒 si 后面不用虚拟式现在时。拼写按老版课本（副词 sólo、指示代词 éste 等带重音），RAE 2010 年起不再要求，学生不加不算错。",
+    "exercises": "第 2 题 estudiase 也对；第 4 题主句是过去时，从句不能用 esté；第 6 题是非真实条件；第 7 题注意 obligar a + 原形动词。"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "book": 3,
+  "lesson": 13,
+  "title_es": "Los deportes",
+  "title_zh": "体育运动",
+  "goals": [
+    "掌握陈述式将来完成时的构成和两种用法",
+    "会用将来时和将来完成时表示推测",
+    "会用“前置词 + 关系代词 que”连接句子",
+    "能用西语谈论体育运动和比赛"
+  ],
+  "vocab": [
+    ["faltar", "缺少；差；缺席"],
+    ["entretener(se)", "消遣；耽搁"],
+    ["consistir en", "在于；由……构成"],
+    ["incluir", "包括，包含"],
+    ["dedicar(se) a", "把……用于；从事"],
+    ["elegir", "选择；选举"],
+    ["jugar a", "玩；打（球），下（棋）"],
+    ["mientras que", "而，然而（表示对比）"],
+    ["aburrir(se)", "使厌烦；感到无聊"],
+    ["quejarse de", "抱怨，诉苦"],
+    ["el deporte", "体育运动"],
+    ["el equipo", "队；设备"],
+    ["el partido", "比赛；政党"],
+    ["el campeonato", "锦标赛"],
+    ["el jugador, la jugadora", "运动员，队员"],
+    ["aficionado, da", "爱好者；球迷"],
+    ["la natación", "游泳（运动）"],
+    ["el ajedrez", "国际象棋"]
+  ],
+  "text": {
+    "title": "Antes del partido",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¡Qué raro! Pedro todavía no ha llegado. ¿Dónde estará?", "zh": "真奇怪！佩德罗还没到。他会在哪儿呢？"},
+      {"who": "B", "es": "Estará en la biblioteca. Se habrá entretenido con algún libro.", "zh": "大概在图书馆吧，可能被哪本书耽搁了。"},
+      {"who": "A", "es": "Pues falta media hora para el partido, y es nuestro mejor jugador.", "zh": "可是离比赛只剩半小时了，他是我们最好的队员。"},
+      {"who": "B", "es": "Tranquila, para las cinco ya habrá llegado, ya verás.", "zh": "别着急，五点以前他肯定已经到了，你瞧着吧。"},
+      {"who": "A", "es": "Oye, ¿en qué consiste el campeonato en que participamos?", "zh": "哎，我们参加的这个锦标赛是怎么比的？"},
+      {"who": "B", "es": "Incluye doce equipos; para junio se habrán jugado todos los partidos.", "zh": "一共十二支队。到六月，所有比赛就都打完了。"},
+      {"who": "A", "es": "Me encanta el baloncesto, mientras que mi hermano se aburre viéndolo.", "zh": "我特别喜欢篮球，而我弟弟一看篮球就觉得无聊。"},
+      {"who": "B", "es": "¿Y a qué dedica él su tiempo libre?", "zh": "那他的空闲时间都用来干什么呢？"},
+      {"who": "A", "es": "Al ajedrez. Ha elegido un club en el que pasa horas y horas.", "zh": "下国际象棋。他选了一个俱乐部，常在那儿一待就是好几个钟头。"},
+      {"who": "B", "es": "¡Mira, ahí viene Pedro corriendo! ¿Qué le habrá pasado?", "zh": "瞧，佩德罗跑过来了！他出什么事了？"},
+      {"who": "A", "es": "Seguro que se quejará del autobús, como siempre.", "zh": "他肯定又要抱怨公共汽车了，跟往常一样。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "陈述式将来完成时",
+      "points": [
+        "构成：haber 的将来未完成时（habré, habrás…）+ 过去分词，分词不变。",
+        "用法一：将来某一时刻以前已经完成的动作，常和 para + 时间连用。",
+        "用法二：推测已经发生的事，相当于 probablemente + 现在完成时。",
+        "不规则分词照旧：habré hecho, habrán vuelto。"
+      ],
+      "table": {
+        "head": ["人称", "haber（将来时）", "terminar", "volver"],
+        "rows": [
+          ["yo", "habré", "habré terminado", "habré vuelto"],
+          ["tú", "habrás", "habrás terminado", "habrás vuelto"],
+          ["él / ella / usted", "habrá", "habrá terminado", "habrá vuelto"],
+          ["nosotros, -as", "habremos", "habremos terminado", "habremos vuelto"],
+          ["vosotros, -as", "habréis", "habréis terminado", "habréis vuelto"],
+          ["ellos / ustedes", "habrán", "habrán terminado", "habrán vuelto"]
+        ]
+      },
+      "examples": [
+        ["Para las ocho ya habré terminado los deberes.", "八点以前我就会把作业做完。"],
+        ["Cuando llegues, el partido ya habrá empezado.", "等你到的时候，比赛已经开始了。"],
+        ["Nadie contesta al teléfono. Habrán salido.", "电话没人接，他们大概出去了。（推测）"],
+        ["¿Quién habrá ganado el partido?", "不知道比赛谁赢了？（推测）"]
+      ]
+    },
+    {
+      "title": "将来未完成时表示可能或猜测",
+      "points": [
+        "将来未完成时可表示对现在情况的推测，相当于 probablemente + 现在时。",
+        "用在疑问句里表示揣测、疑惑：¿Qué hora será? ¿Dónde estará?",
+        "推测已完成、与现在相关的事用将来完成时，推测过去的事用简单条件式。",
+        "Mañana estará aquí 是将来；Ahora estará aquí 是推测。"
+      ],
+      "table": {
+        "head": ["确定的说法", "推测的说法", "推测的对象"],
+        "rows": [
+          ["Son las diez.", "Serán las diez.", "现在的情况"],
+          ["Está en casa.", "Estará en casa.", "现在的情况"],
+          ["Ha salido.", "Habrá salido.", "已完成、与现在相关"],
+          ["Eran las diez.", "Serían las diez.", "过去的情况"],
+          ["Salió temprano.", "Saldría temprano.", "过去的事"]
+        ]
+      },
+      "examples": [
+        ["—¿Qué hora es? —No tengo reloj; serán las diez.", "——几点了？——我没戴表，大概十点吧。"],
+        ["Juan no ha venido hoy. Estará enfermo.", "胡安今天没来，大概是病了。"],
+        ["¿Quién será a estas horas?", "这个时候会是谁呢？"],
+        ["El entrenador tendrá unos cuarenta años.", "教练大概四十岁上下。"]
+      ]
+    },
+    {
+      "title": "前置词 + 关系代词 que",
+      "points": [
+        "关系词在从句里作前置词补语时，前置词要放在关系词前面。",
+        "先行词是物：a、con、de、en 后可以只用 que，也常用 el que 等。",
+        "先行词是人：前置词后用 quien(es) 或 el que、la que 等。",
+        "por、para、sin、sobre 等后多用带冠词的形式：por la que。"
+      ],
+      "table": {
+        "head": ["简单句", "前置词 + 关系词"],
+        "rows": [
+          ["Hablé de un libro.", "el libro de que hablé"],
+          ["Vivo en una casa.", "la casa en que vivo"],
+          ["Juego con un balón.", "el balón con que juego"],
+          ["Voy a un club.", "el club al que voy"],
+          ["Vivo con mi tío.", "el tío con quien vivo"]
+        ]
+      },
+      "examples": [
+        ["El balón con que jugamos es de Pedro.", "我们玩的那个球是佩德罗的。"],
+        ["Ésta es la piscina en que aprendí a nadar.", "这就是我学会游泳的那个游泳池。"],
+        ["No sé la razón por la que se queja.", "我不知道他抱怨的原因。"],
+        ["El amigo al que me refería juega en nuestro equipo.", "我说的那个朋友在我们队里打球。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Falta media hora para el partido.", "离比赛还有半个小时。"],
+    ["El examen consiste en una redacción y un diálogo.", "考试包括一篇作文和一段对话。"],
+    ["El precio incluye la comida.", "价钱里包括饭费。"],
+    ["Dedica todas las tardes a la natación.", "他每天下午都用来游泳。"],
+    ["Lo eligieron capitán del equipo.", "他被选为队长。"],
+    ["¿Juegas al fútbol o al baloncesto?", "你踢足球还是打篮球？"],
+    ["Los partidos largos me aburren.", "时间长的比赛让我觉得无聊。"],
+    ["No te quejes tanto del entrenador.", "别老抱怨教练了。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Para el domingo ya ______ (terminar, nosotros) el campeonato.", "a": "habremos terminado"},
+    {"type": "改写", "q": "Probablemente son las once. → ______ las once.", "a": "Serán las once."},
+    {"type": "改写", "q": "Probablemente Ana ha perdido el autobús. → Ana ______ el autobús.", "a": "Ana habrá perdido el autobús."},
+    {"type": "选择", "q": "Ésta es la casa ___ vive mi entrenador. (que / en que)", "a": "en que（vivir en una casa）"},
+    {"type": "选择", "q": "El chico ___ jugué al tenis es cubano. (con que / con quien)", "a": "con quien（先行词是人）"},
+    {"type": "填空", "q": "No entiendo la razón por ___ que se queja.（填冠词）", "a": "la（la razón por la que…）"},
+    {"type": "翻译", "q": "等你到的时候，比赛已经开始了。（用将来完成时）", "a": "Cuando llegues, el partido ya habrá empezado."},
+    {"type": "问答", "q": "Según B, ¿por qué no ha llegado Pedro todavía?", "a": "Porque se habrá entretenido con algún libro en la biblioteca."}
+  ],
+  "summary": [
+    "将来完成时 = habré, habrás… + 过去分词。",
+    "将来完成时表示将来某时以前已完成的事，也可推测已发生的事。",
+    "推测：现在时→将来时，现在完成时→将来完成时，过去时→条件式。",
+    "前置词放在关系词前面：el libro de que hablé。",
+    "先行词是人，前置词后用 quien 或 el que、la que。"
+  ],
+  "homework": [
+    "写出 hacer, decir, poner, ver 的将来完成时全部变位。",
+    "用 para + 时间 写五句话，说明到那时你已经完成的事。",
+    "写 80 词左右的短文介绍你喜欢的运动，用三处“前置词 + que”。"
+  ],
+  "notes": {
+    "goals": "将来完成时是本课重点，先复习 haber 的将来时（habré…），再讲两种用法。推测用法可以和第二册第 8 课（将来时推测）、第 16 课（条件式推测）连起来，做成一张对照表。",
+    "vocab": "faltar 的用法同 gustar（Me falta tiempo）；entretener 按 tener 变位（entretuvo）；elegir 词根 e→i，在 o、a 前 g 变 j（elijo, eligió）；incluir 要加 y（incluyo, incluyó）；jugar 词根 u→ue，西班牙说 jugar al fútbol，拉美常省去 al。",
+    "text": "让学生找出推测句（estará, se habrá entretenido, ¿qué le habrá pasado?）和表示将来已完成的 habrá llegado、se habrán jugado；再找出 en que、en el que 两处“前置词 + 关系词”。",
+    "grammar": "讲前置词 + que 时，先让学生把从句还原成简单句（participamos en el campeonato），看动词要求哪个前置词。先行词是人时提醒用 quien 或 el que；el cual 留到第 17 课。",
+    "exercises": "第 2、3 题都是把 probablemente 句改成推测句，注意第 3 题原句是现在完成时，所以用将来完成时。第 5 题先行词是人，con el que 也对，但选项里只给了 con quien。"
+  }
+}

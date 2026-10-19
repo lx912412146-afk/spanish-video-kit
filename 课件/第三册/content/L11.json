@@ -1,0 +1,160 @@
+{
+  "book": 3,
+  "lesson": 11,
+  "title_es": "La Independencia de Hispanoamérica",
+  "title_zh": "西班牙语美洲的独立",
+  "goals": [
+    "掌握主句否定时形容词从句用虚拟式",
+    "会用虚拟式表示不确定或将来的先行词",
+    "分清形容词从句里的陈述式和虚拟式",
+    "掌握 re-、des-、in-、pre- 等常用前缀",
+    "能简述西语美洲独立的主要人物和年代"
+  ],
+  "vocab": [
+    ["igual", "相同的；平等的"],
+    ["en medio de", "在……中间；在……之中"],
+    ["disminuir", "减少，降低"],
+    ["surgir", "出现，产生"],
+    ["agregar", "添加；补充说"],
+    ["prohibir", "禁止"],
+    ["ceder", "让与，让出；让步"],
+    ["adquirir", "获得，取得；购置"],
+    ["actuar", "行动；起作用；表演"],
+    ["conservar", "保存，保留"],
+    ["la independencia", "独立"],
+    ["la colonia", "殖民地"],
+    ["criollo, criolla", "土生白人（的）"],
+    ["el libertador", "解放者"],
+    ["liberar", "解放"],
+    ["la batalla", "战役，战斗"],
+    ["el cargo", "职位，职务"],
+    ["el cura", "神父"]
+  ],
+  "text": {
+    "title": "La Independencia de Hispanoamérica",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "A principios del siglo XIX, España llevaba tres siglos en América.", "zh": "19 世纪初，西班牙人在美洲已经三百年了。"},
+      {"who": "", "es": "Los criollos, blancos nacidos en América, tenían tierras y dinero.", "zh": "土生白人，即生在美洲的白人，有土地也有钱。"},
+      {"who": "", "es": "Sin embargo, casi no había criollos que ocuparan los cargos más altos.", "zh": "可是，担任最高职位的土生白人几乎一个也没有。"},
+      {"who": "", "es": "Además, España prohibía a las colonias comerciar con otros países.", "zh": "而且，西班牙禁止殖民地同别的国家通商。"},
+      {"who": "", "es": "Muchos criollos habían adquirido ideas nuevas en Europa.", "zh": "许多土生白人在欧洲接受了新思想。"},
+      {"who": "", "es": "En 1808, Napoleón invadió España y el poder español disminuyó.", "zh": "1808 年拿破仑入侵西班牙，西班牙的统治力量削弱了。"},
+      {"who": "", "es": "En medio de esta crisis surgieron los movimientos de independencia.", "zh": "就在这场危机中，独立运动兴起了。"},
+      {"who": "", "es": "En México, el cura Miguel Hidalgo llamó al pueblo a la lucha en 1810.", "zh": "在墨西哥，神父米格尔·伊达尔戈于 1810 年号召人民起来斗争。"},
+      {"who": "", "es": "En el sur, San Martín cruzó los Andes, liberó Chile y entró en Lima.", "zh": "在南方，圣马丁翻越安第斯山，解放了智利，进入利马。"},
+      {"who": "", "es": "En el norte, Simón Bolívar, «el Libertador», actuó con gran valor.", "zh": "在北方，“解放者”西蒙·玻利瓦尔英勇作战。"},
+      {"who": "", "es": "En 1822 San Martín se retiró, y Bolívar terminó la campaña.", "zh": "1822 年，圣马丁引退，此后的战事由玻利瓦尔完成。"},
+      {"who": "", "es": "En 1824, la batalla de Ayacucho decidió la guerra.", "zh": "1824 年，阿亚库乔战役决定了战争的结局。"},
+      {"who": "", "es": "Hacia 1825, España sólo conservaba Cuba y Puerto Rico en América.", "zh": "到 1825 年前后，西班牙在美洲只剩下古巴和波多黎各。"},
+      {"who": "", "es": "Bolívar soñaba con una nación que uniera a todos, pero no lo logró.", "zh": "玻利瓦尔梦想建立一个把大家联合起来的国家，但没有实现。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "主句否定时，形容词从句用虚拟式",
+      "points": [
+        "先行词被否定（nadie、nada、ningún、no hay…），从句用虚拟式。",
+        "说话人否定这样的人或物存在；如果确有其人其物，就用陈述式。",
+        "从句时态随主句：主句现在时用虚拟式现在时，过去时用虚拟式过去未完成时。",
+        "nadie、alguien 作宾语时要加 a：No conozco a nadie que…"
+      ],
+      "examples": [
+        ["No hay nadie aquí que sepa hablar quechua.", "这里没有人会说克丘亚语。"],
+        ["No conozco a nadie que viva en Caracas.", "我不认识住在加拉加斯的人。"],
+        ["Casi no había criollos que ocuparan altos cargos.", "担任高级职务的土生白人几乎没有。"],
+        ["Conozco a un chico que vive en Caracas.", "我认识一个住在加拉加斯的小伙子。（确有其人，用陈述式）"]
+      ]
+    },
+    {
+      "title": "先行词不确定或指将来时用虚拟式",
+      "points": [
+        "要找的、需要的、还不知是否存在的人或物作先行词，从句用虚拟式。",
+        "指将来才能确定的人或事，也用虚拟式：Haz lo que quieras。",
+        "先行词已知、确定，用陈述式：Busco el piso que tiene terraza。",
+        "不确定的人作宾语常不加 a；alguien、nadie 前必须加 a。"
+      ],
+      "table": {
+        "head": ["陈述式：已知、确定", "虚拟式：不确定、将来"],
+        "rows": [
+          ["el piso que tiene…", "un piso que tenga…"],
+          ["Hago lo que dices.", "Haz lo que quieras."],
+          ["El que llegó primero…", "El que llegue primero…"],
+          ["Los que vinieron…", "Los que vengan…"]
+        ]
+      },
+      "examples": [
+        ["Busco un piso que tenga terraza.", "我在找一套带露台的公寓。（还不知道有没有）"],
+        ["Haz lo que quieras.", "你想怎么做就怎么做吧。"],
+        ["El que llegue primero comprará las entradas.", "谁先到谁买票。"],
+        ["Bolívar soñaba con una nación que uniera a todos.", "玻利瓦尔梦想建立一个把大家联合起来的国家。"]
+      ]
+    },
+    {
+      "title": "构词法（一）：前缀",
+      "points": [
+        "前缀一般不改变词类：dependencia → independencia。",
+        "in-：p、b 前变 im-，l 前变 i-，r 前变 ir-（irreal）。",
+        "re- 表示“再，重新”；des- 和 in- 表示否定或相反。",
+        "pre- 表示“在……之前”，sub- 表示“在……之下”，ex- 表示“向外”。"
+      ],
+      "table": {
+        "head": ["前缀", "意义", "例词"],
+        "rows": [
+          ["re-", "再，重新", "leer → releer"],
+          ["des-", "相反，否定", "igual → desigual"],
+          ["in- / im- / i-", "不，无", "útil → inútil"],
+          ["pre-", "在……之前", "historia → prehistoria"],
+          ["sub-", "在……之下", "marino → submarino"],
+          ["ex-", "向外", "traer → extraer"]
+        ]
+      },
+      "examples": [
+        ["Hidalgo luchó por la independencia de México.", "伊达尔戈为墨西哥的独立而战。"],
+        ["Los criollos protestaban contra la desigualdad.", "土生白人抗议不平等。"],
+        ["Después de la guerra hubo que reconstruir las ciudades.", "战后不得不重建各个城市。"],
+        ["Las civilizaciones precolombinas eran muy avanzadas.", "前哥伦布时期的文明十分发达。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Me da igual; haz lo que quieras.", "我无所谓，你想怎么做就怎么做。"],
+    ["En medio de la plaza hay una estatua de Bolívar.", "广场中央有一座玻利瓦尔的雕像。"],
+    ["Este año ha disminuido el número de turistas.", "今年游客人数减少了。"],
+    ["Agregó que volvería al día siguiente.", "他又补充说第二天会回来。"],
+    ["Mis padres me prohibieron que saliera de noche.", "父母不许我晚上出门。"],
+    ["Cedió su asiento a una señora mayor.", "他把座位让给了一位老太太。"],
+    ["Ha adquirido mucha experiencia en este trabajo.", "他在这份工作中积累了很多经验。"],
+    ["Todavía conserva las cartas de su abuelo.", "他还保存着祖父的信。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "No hay nadie en el pueblo que ______ (saber) hablar quechua.", "a": "sepa"},
+    {"type": "填空", "q": "En aquella época casi no había criollos que ______ (ocupar) altos cargos.", "a": "ocuparan（或 ocupasen）"},
+    {"type": "选择", "q": "Busco a la chica que ___ en el tercer piso. (vive / viva)", "a": "vive（已知的人，用陈述式）"},
+    {"type": "选择", "q": "Necesitamos un guía que ___ hablar inglés. (sabe / sepa)", "a": "sepa（还不确定有没有这样的人）"},
+    {"type": "改写", "q": "Conozco a alguien que vive en Lima. →（改成否定句）", "a": "No conozco a nadie que viva en Lima."},
+    {"type": "翻译", "q": "谁先到电影院谁就买票。", "a": "El que llegue primero al cine comprará las entradas.（也可用 Quien）"},
+    {"type": "填空", "q": "加前缀：posible → ______；legal → ______；hacer → ______（相反）", "a": "imposible；ilegal；deshacer"},
+    {"type": "问答", "q": "¿Qué territorios conservaba España en América hacia 1825?", "a": "Sólo conservaba Cuba y Puerto Rico."}
+  ],
+  "summary": [
+    "先行词被否定（nadie、nada、ningún），从句用虚拟式。",
+    "先行词不确定或指将来用虚拟式；已知、确定用陈述式。",
+    "从句时态随主句：现在时配虚拟式现在时，过去时配虚拟式过去未完成时。",
+    "in-：p、b 前变 im-，l 前变 i-，r 前变 ir-。",
+    "前缀：re- 重新，des- 相反，pre- 之前，sub- 之下。"
+  ],
+  "homework": [
+    "仿照 No conozco a nadie que… 写三个句子。",
+    "写一则租房或招聘启事，至少用四个带虚拟式的形容词从句。",
+    "用 8–10 句话介绍玻利瓦尔或圣马丁。",
+    "为 re-、des-、in-、pre- 各找三个例词并注明词义。"
+  ],
+  "notes": {
+    "goals": "本课核心是形容词从句里两种语式的对立：说话人认为先行词确实存在、已知，用陈述式；否定它存在，或还不确定、指将来，用虚拟式。",
+    "vocab": "prohibir、actuar 重读时 i、u 加重音（prohíbo、actúo、actúan）；adquirir 的 i 变 ie（adquiero）；disminuir 加 y（disminuyó）；surgir 的 g 在 o、a 前变 j（surjo）；agregar 的 g 在 e 前变 gu（agregué）。ceder algo a alguien 是“把某物让给某人”。",
+    "text": "史实：1808 年拿破仑入侵西班牙；1810 年多地爆发独立运动，伊达尔戈 9 月 16 日发出“多洛雷斯呼声”；圣马丁 1817 年翻越安第斯山，1821 年在利马宣布秘鲁独立；1822 年 7 月他和玻利瓦尔在瓜亚基尔会面（谈话内容说法不一），此后引退，由玻利瓦尔完成秘鲁的解放战争；1824 年阿亚库乔战役由苏克雷指挥；墨西哥 1821 年独立；古巴、波多黎各到 1898 年才脱离西班牙。",
+    "grammar": "可用找房、招聘等情境练习：广告里要找的东西一律用虚拟式。构词法本课只讲前缀；ex- 还可表示“前任”，旧规范分写（ex presidente），2010 年后连写（expresidente）。",
+    "exercises": "第 3、4 题对比已知和不确定的先行词；第 6 题 el que 也可换成 quien；第 7 题注意 in- 的拼写变化；i- 加在 r 前时 r 要双写（irreal、irregular）。"
+  }
+}

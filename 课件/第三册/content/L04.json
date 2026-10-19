@@ -1,0 +1,165 @@
+{
+  "book": 3,
+  "lesson": 4,
+  "title_es": "Numancia",
+  "title_zh": "努曼西亚",
+  "goals": [
+    "掌握 aunque 后用陈述式和虚拟式的区别",
+    "会把直接引语变成间接引语，掌握时态推移",
+    "会用 sí、consigo 指回第三人称主语",
+    "会用 tener + 过去分词表示动作的结果",
+    "能用西语讲述努曼西亚抵抗罗马的历史"
+  ],
+  "vocab": [
+    ["disponer(se)", "安排；~se a 准备（做）"],
+    ["evitar", "避免"],
+    ["aprovechar", "利用（时间、机会）"],
+    ["resultar", "结果是；证明是"],
+    ["negar(se)", "否认；~se a 拒绝"],
+    ["último, ma", "最后的；最近的"],
+    ["suponer", "假定，猜想；意味着"],
+    ["insistir", "坚持；~ en 坚持要"],
+    ["celtíbero, ra", "凯尔特伊比利亚人（的）"],
+    ["romano, na", "罗马的；罗马人"],
+    ["el ejército", "军队"],
+    ["el cerco", "包围，围困"],
+    ["resistir", "抵抗；经受住"],
+    ["rendirse", "投降；屈服"],
+    ["el hambre (f.)", "饥饿"],
+    ["prisionero, ra", "俘虏，囚犯"],
+    ["quemar", "烧，焚烧"]
+  ],
+  "text": {
+    "title": "Una visita a Numancia",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Aproveché el fin de semana para visitar las ruinas de Numancia.", "zh": "我利用周末去参观了努曼西亚遗址。"},
+      {"who": "B", "es": "¿Numancia? ¿No es la ciudad celtíbera que resistió a los romanos?", "zh": "努曼西亚？不就是那座抵抗过罗马人的凯尔特伊比利亚城市吗？"},
+      {"who": "A", "es": "Sí. El guía nos contó que la ciudad había resistido muchos años.", "zh": "对。导游跟我们说，这座城坚持抵抗了很多年。"},
+      {"who": "B", "es": "¿Tanto tiempo? Supongo que los numantinos eran muchos.", "zh": "那么久？我猜努曼西亚人一定很多吧。"},
+      {"who": "A", "es": "No. Aunque eran pocos, sabían defenderse muy bien.", "zh": "不。他们虽然人少，却很善于防守。"},
+      {"who": "A", "es": "En 134 a. C., Roma envió a Escipión Emiliano con un gran ejército.", "zh": "公元前 134 年，罗马派小西庇阿率大军前来。"},
+      {"who": "A", "es": "Escipión quería evitar las batallas y rodeó la ciudad con un cerco.", "zh": "西庇阿想避免交战，就筑起包围圈把城围住。"},
+      {"who": "A", "es": "Los numantinos pidieron la paz, pero él exigió que se rindieran.", "zh": "努曼西亚人求和，可他要求他们投降。"},
+      {"who": "A", "es": "Ellos se negaron y dijeron que resistirían aunque murieran todos.", "zh": "他们拒绝了，说即使全都战死也要抵抗到底。"},
+      {"who": "B", "es": "¿Y qué pasó al final?", "zh": "那最后怎么样了？"},
+      {"who": "A", "es": "Según fuentes antiguas, muchos eligieron morir y quemaron la ciudad.", "zh": "据古代史书记载，许多人宁死不降，放火烧了城。"},
+      {"who": "A", "es": "Escipión volvió a Roma y llevó consigo a cincuenta prisioneros.", "zh": "西庇阿回罗马时，随身带走了五十名俘虏。"},
+      {"who": "B", "es": "Aunque sea una historia triste, me gustaría ver ese lugar.", "zh": "虽说这段历史让人伤感，我还是想去那儿看看。"},
+      {"who": "A", "es": "Tengo hechas muchas fotos. El guía nos dijo que volviéramos en verano.", "zh": "我拍了好多照片。导游让我们夏天再去。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "让步从句：aunque + 陈述式 / 虚拟式",
+      "points": [
+        "aunque + 陈述式：说话人把让步的内容当作事实提出，“虽然……”。",
+        "aunque + 虚拟式现在时：还不知道或可能发生的事，“即使……”。",
+        "已知事实也可用虚拟式：说话人承认它，但认为它不影响结论。",
+        "主句是过去时，或假设不大可能时，用虚拟式过去未完成时：aunque lloviera。"
+      ],
+      "examples": [
+        ["Aunque llueve, vamos a salir.", "虽然在下雨，我们还是要出去。（事实）"],
+        ["Aunque llueva mañana, iremos a Numancia.", "即使明天下雨，我们也去努曼西亚。（假设）"],
+        ["Aunque sea tu amigo, no tiene razón.", "他是你朋友不假，可他没道理。（不争论的事实）"],
+        ["Dijeron que resistirían aunque murieran todos.", "他们说即使全都战死也要抵抗。（主句是过去时）"]
+      ]
+    },
+    {
+      "title": "直接引语和间接引语",
+      "points": [
+        "主句 dice que… 从句时态不变；dijo que… 从句时态往过去推一步（见下表）。",
+        "转述命令：dice que + 虚拟式现在时，dijo que + 虚拟式过去未完成时。",
+        "人称、物主词、时间词要改：hoy → aquel día（见例句）。",
+        "视角变了，词也要变：aquí → allí，este → aquel，venir → ir。"
+      ],
+      "table": {
+        "head": ["原话的时态", "原话", "转述的时态", "Me dijo que…"],
+        "rows": [
+          ["现在时", "«Estoy cansado.»", "过去未完成时", "estaba cansado"],
+          ["简单过去时", "«Lo vi.»", "过去完成时（口语常不变）", "lo había visto"],
+          ["现在完成时", "«He terminado.»", "过去完成时", "había terminado"],
+          ["将来未完成时", "«Volveré.»", "简单条件式", "volvería"],
+          ["命令式", "«Ven aquí.»", "虚拟式过去未完成时", "fuera allí"],
+          ["虚拟式现在时", "«Quiero que estudies.»", "虚拟式过去未完成时", "quería que estudiara"],
+          ["过去未完成时、过去完成时等", "«Era tarde.»", "不变", "era tarde"]
+        ]
+      },
+      "examples": [
+        ["Dice que lo esperes aquí.", "他说让你在这儿等他。（原话：«Espérame aquí.»）"],
+        ["Dijo que volvería al día siguiente.", "他说他第二天回来。（原话：«Volveré mañana.»）"],
+        ["Me dijo que fuera allí aquel mismo día.", "他让我当天就去那儿。（原话：«Ven aquí hoy mismo.»）"],
+        ["Nos preguntó si habíamos estado en Soria.", "他问我们去没去过索里亚。（原话：«¿Habéis estado en Soria?»）"]
+      ]
+    },
+    {
+      "title": "夺格人称代词的第三人称：sí、consigo",
+      "points": [
+        "前置词后的第三人称代词指回主语时用 sí（带重音），con + sí 写作 consigo。",
+        "sí、consigo 不分性数，也用于 usted；可加 mismo：sí mismo。",
+        "不指主语用 él：Habla de sí mismo 说自己，Habla de él 说他。",
+        "常用：volver en sí 苏醒，fuera de sí 失控，entre sí 彼此。"
+      ],
+      "examples": [
+        ["Escipión llevó consigo a cincuenta prisioneros.", "西庇阿随身带走了五十名俘虏。"],
+        ["Sólo piensa en sí misma.", "她只想着自己。"],
+        ["Los soldados hablaban en voz baja entre sí.", "士兵们彼此低声交谈。"],
+        ["¿Lleva usted el pasaporte consigo?", "您随身带着护照吗？"]
+      ]
+    },
+    {
+      "title": "混合补语：tener + 过去分词",
+      "points": [
+        "tener + 过去分词 + 直接宾语：动作已经完成，结果还保持着，“已经……好了”。",
+        "分词兼说明动词和宾语，与宾语性数一致：Tengo escritas tres cartas。",
+        "对比：He escrito tres cartas，haber 后的分词不变，只说完成。",
+        "llevar + 分词表示累计：Llevo leídas cien páginas。"
+      ],
+      "examples": [
+        ["Ya tengo escritas tres cartas.", "我已经写好三封信了。"],
+        ["Cuando llegamos, mi madre tenía preparada la cena.", "我们到的时候，妈妈已经把晚饭做好了。"],
+        ["Los romanos tenían rodeada la ciudad.", "罗马人已经把城团团围住了。"],
+        ["Llevo leídas cien páginas de la novela.", "这本小说我已经读了一百页。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Se dispusieron a defender la ciudad.", "他们准备保卫城市。"],
+    ["No disponemos de mucho tiempo.", "我们的时间不多。"],
+    ["Salimos temprano para evitar el tráfico.", "我们早点出发，好避开堵车。"],
+    ["Aprovecha la ocasión para practicar español.", "抓住机会练练西班牙语。"],
+    ["Resultó imposible tomar la ciudad.", "结果证明，这座城根本攻不下来。"],
+    ["Se niega a decir la verdad.", "他拒绝说实话。"],
+    ["Es la última vez que te lo digo.", "这是我最后一次跟你说。"],
+    ["Insistió en que fuéramos con él.", "他坚持要我们跟他去。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Aunque ______ (llover) mañana, iremos a ver las ruinas.（还不知道会不会下雨）", "a": "llueva"},
+    {"type": "选择", "q": "No sé qué tiempo hará, pero saldré aunque ___ frío. (hace / haga)", "a": "haga（天气还不知道，是假设）"},
+    {"type": "改写", "q": "«Volveré mañana», dijo Pedro.（几天后转述）→ Pedro dijo que ______.", "a": "Pedro dijo que volvería al día siguiente."},
+    {"type": "改写", "q": "«No toquéis nada», nos dijo el guía. → El guía nos dijo que ______.", "a": "El guía nos dijo que no tocáramos nada.（或 tocásemos）"},
+    {"type": "选择", "q": "Juan siempre lleva el pasaporte ___. (con él / consigo)", "a": "consigo（指回主语 Juan 本人）"},
+    {"type": "填空", "q": "Ya tengo ______ (hacer) las maletas.", "a": "hechas（和 las maletas 性数一致）"},
+    {"type": "翻译", "q": "他们说即使全都战死也不投降。（用 aunque）", "a": "Dijeron que no se rendirían aunque murieran todos."},
+    {"type": "问答", "q": "¿Por qué Escipión rodeó Numancia con un cerco?", "a": "Porque quería evitar las batallas."}
+  ],
+  "summary": [
+    "aunque + 陈述式说事实，+ 虚拟式说假设或不争论的事实。",
+    "主句是过去时，转述时从句时态要往过去推一步。",
+    "转述命令用虚拟式过去未完成时：Me dijo que fuera。",
+    "指回第三人称主语用 sí、consigo，可加 mismo 强调。",
+    "tener + 过去分词表示结果，分词和宾语性数一致。"
+  ],
+  "homework": [
+    "用 8–10 句话讲努曼西亚的故事，至少用两个 aunque 句。",
+    "把五句课堂指令改成间接引语：El profesor nos dijo que…",
+    "用 tener + 过去分词写三句话，说说你已经做好的事。"
+  ],
+  "notes": {
+    "goals": "让步从句和间接引语是重点，各用一课时；sí、consigo 第二册第 5 课学过，这里复习加深；tener + 过去分词作补充。本课还不讲 Si tuviera…, haría…（第 5 课）。",
+    "vocab": "disponer、suponer 按 poner 变位（dispuse、supuse，分词 dispuesto、supuesto）；disponer de 是“拥有、可支配”，disponerse a 是“准备做”。negar 词根 e → ie（niego），rendirse 按 pedir 变位（se rinde、se rindieron）；el hambre 是阴性名词：tener mucha hambre。",
+    "text": "第 3、9、14 句是间接引语，可让学生还原成直接引语（«Volved en verano»）。第 5 句 aunque + 陈述式说事实；第 9 句 aunque murieran 是转述过去说的假设，第 13 句 aunque sea 是承认事实而不争论。史实：小西庇阿（Escipión Emiliano）公元前 134 年率军围城，前 133 年城破；宁死不降、焚城等细节出自古代史家，各家说法不一，所以第 11 句用 según fuentes antiguas。",
+    "grammar": "简单过去时转述时变过去完成时，口语里也常保持不变（Dijo que lo vio）；地点视角变了，venir 常改为 ir（«Ven aquí» → Me dijo que fuera allí）。口语里也有人用 con él mismo 指回主语，课本规范是 sí、consigo。拼写按老版课本：副词 sólo、指示代词 éste、ése、aquél 带重音（作形容词时不带）；RAE 2010 年起不再要求，学生不加不算错。",
+    "exercises": "第 1、2 题天气未知，只能用虚拟式；第 3 题若当天转述，也可说 volvería mañana；第 5 题按课本规范选 consigo；第 6 题注意 hacer 的不规则分词 hecho。第 8 题可补充：西庇阿围而不攻，是想用饥饿（el hambre）逼守城者投降。"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "book": 3,
+  "lesson": 17,
+  "title_es": "Miguel de Cervantes Saavedra",
+  "title_zh": "塞万提斯",
+  "goals": [
+    "掌握关系代词 el cual 的形式和性数一致",
+    "分清 el cual 与 que 的用法",
+    "分清 lo cual 与 lo que 的用法",
+    "会用前缀 in-、des- 和词汇对立表示反义",
+    "能用西语简述塞万提斯的生平和代表作"
+  ],
+  "vocab": [
+    ["publicar", "出版，发表；公布"],
+    ["de acuerdo", "同意；（意见）一致"],
+    ["tomar parte (en)", "参加，参与"],
+    ["por fin", "终于，最后"],
+    ["superar", "克服；超过，胜过"],
+    ["colocar", "放置，安放"],
+    ["ambos, bas", "两个都，双方"],
+    ["lanzar(se)", "投，扔；冲向"],
+    ["atribuir", "把……归于"],
+    ["describir", "描写，描述"],
+    ["la batalla", "战役，战斗"],
+    ["herir", "使受伤"],
+    ["cautivo, va", "被俘的；俘虏"],
+    ["el pirata", "海盗"],
+    ["la cárcel", "监狱"],
+    ["el caballero", "骑士；绅士"],
+    ["el molino de viento", "风车"],
+    ["el gigante", "巨人"]
+  ],
+  "text": {
+    "title": "Miguel de Cervantes Saavedra",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Cervantes nació en 1547 en Alcalá de Henares, cerca de Madrid.", "zh": "塞万提斯 1547 年出生在马德里附近的阿尔卡拉-德埃纳雷斯。"},
+      {"who": "", "es": "De joven fue soldado y en 1571 tomó parte en la batalla de Lepanto.", "zh": "他年轻时当过兵，1571 年参加了勒班陀海战。"},
+      {"who": "", "es": "Allí lo hirieron en la mano izquierda, la cual le quedó inútil.", "zh": "他在那里左手受了伤，从此这只手就不能用了。"},
+      {"who": "", "es": "En 1575, el barco en el cual volvía a España fue atacado por piratas.", "zh": "1575 年，他乘坐的回国船只遭到海盗袭击。"},
+      {"who": "", "es": "Lo llevaron a Argel, donde estuvo cautivo cinco años.", "zh": "海盗把他带到阿尔及尔，他在那里当了五年俘虏。"},
+      {"who": "", "es": "Intentó escapar cuatro veces, lo cual pudo costarle la vida.", "zh": "他四次设法逃跑，这差点让他丢了性命。"},
+      {"who": "", "es": "Por fin, en 1580, unos religiosos pagaron por su libertad.", "zh": "1580 年，几位修士终于出钱赎他，他重获自由。"},
+      {"who": "", "es": "Ya en España, tuvo problemas de dinero e incluso estuvo en la cárcel.", "zh": "回到西班牙后，他手头拮据，甚至坐过牢。"},
+      {"who": "", "es": "En 1605 salió la primera parte del Quijote, la cual tuvo gran éxito.", "zh": "1605 年《堂吉诃德》第一部问世，大获成功。"},
+      {"who": "", "es": "Publicó la segunda parte en 1615, pocos meses antes de morir.", "zh": "1615 年他出版了第二部，几个月后就去世了。"},
+      {"who": "", "es": "El protagonista lee tantos libros de caballerías que se vuelve loco.", "zh": "小说的主人公读骑士小说读得太多，发了疯。"},
+      {"who": "", "es": "Se cree caballero y, con su escudero Sancho Panza, busca aventuras.", "zh": "他自以为是骑士，和侍从桑丘·潘沙一起四处寻找冒险。"},
+      {"who": "", "es": "Don Quijote es idealista y Sancho, realista; ambos son inolvidables.", "zh": "堂吉诃德是理想主义者，桑丘是现实主义者，两人都令人难忘。"},
+      {"who": "", "es": "Cervantes murió en Madrid en 1616, año en el cual murió Shakespeare.", "zh": "塞万提斯 1616 年在马德里去世，莎士比亚也死于这一年。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "关系代词 el cual 的形式",
+      "points": [
+        "el cual 等四种形式和先行词性数一致，冠词不能省。",
+        "a、de 和阳性单数冠词要缩合：al cual、del cual。",
+        "多用在前置词后，或逗号隔开的解释性从句里，书面语色彩较浓。",
+        "作关系代词的 cual 不带重音；带重音的 cuál 是疑问词。"
+      ],
+      "table": {
+        "head": ["类别", "单数", "复数"],
+        "rows": [
+          ["阳性", "el cual", "los cuales"],
+          ["阴性", "la cual", "las cuales"],
+          ["中性（指整件事）", "lo cual", "—"],
+          ["a + 阳性", "al cual", "a los cuales"],
+          ["de + 阳性", "del cual", "de los cuales"]
+        ]
+      },
+      "examples": [
+        ["Alcalá es la ciudad en la cual nació Cervantes.", "阿尔卡拉是塞万提斯出生的城市。"],
+        ["Leí el libro del cual me hablaste.", "我读了你跟我提过的那本书。"],
+        ["Tengo dos hermanos, los cuales viven en Madrid.", "我有两个兄弟，他们都住在马德里。"],
+        ["Fueron cinco años durante los cuales sufrió mucho.", "在那五年里，他吃了很多苦。"]
+      ]
+    },
+    {
+      "title": "el cual 和 que 的比较",
+      "points": [
+        "不带前置词的限定性从句只用 que，不用 el cual。",
+        "解释性从句可用 que 或 el cual；el cual 能标明性数，避免指代不清。",
+        "a、con、de、en 这些短前置词后指物时，que、el que、el cual 都可以。",
+        "较长的前置词和 por、sin、tras 后一般用 el que 或 el cual。"
+      ],
+      "examples": [
+        ["La hermana de Pedro, la cual vive en Alcalá, es médica.", "佩德罗的姐姐住在阿尔卡拉，是医生。（la cual 指姐姐）"],
+        ["Ésta es la ciudad en que (en la cual) vivo.", "这就是我住的城市。"],
+        ["Es un tema sobre el cual se ha escrito mucho.", "这是一个人们写过很多文章的话题。"]
+      ]
+    },
+    {
+      "title": "lo cual 和 lo que",
+      "points": [
+        "lo cual 指前面整句话或整件事，前面要有逗号。",
+        "这时也可说 lo que：Llegó tarde, lo que me molestó。",
+        "没有先行词、作“……的东西 / 事”讲时，只能用 lo que。",
+        "常见搭配：por lo cual（因此）、con lo cual（这样一来）。"
+      ],
+      "examples": [
+        ["No vino a clase, lo cual sorprendió a todos.", "他没来上课，这让大家很吃惊。"],
+        ["Estaba enfermo, por lo cual no pudo venir.", "他病了，因此没能来。"],
+        ["Lo que dice Sancho tiene mucho sentido.", "桑丘说的话很有道理。"]
+      ]
+    },
+    {
+      "title": "反义词",
+      "points": [
+        "反义词有两种：意义相反的不同的词，和加前缀构成的词。",
+        "in- 在 p、b 前变 im-，在 l、r 前变 i-：ilegal、irregular。",
+        "des- 表示相反：hacer → deshacer，igual → desigual。",
+        "不是每个词都能加前缀，要查词典：bueno 的反义词是 malo。"
+      ],
+      "table": {
+        "head": ["构成", "原词", "反义词"],
+        "rows": [
+          ["in-", "útil / justo", "inútil / injusto"],
+          ["im-（p、b 前）", "posible / paciente", "imposible / impaciente"],
+          ["i-（l、r 前）", "legal / regular", "ilegal / irregular"],
+          ["des-", "hacer / conocido", "deshacer / desconocido"],
+          ["des-", "aparecer / igual", "desaparecer / desigual"],
+          ["不同的词", "ganar / nacer", "perder / morir"]
+        ]
+      },
+      "examples": [
+        ["Para don Quijote nada era imposible.", "对堂吉诃德来说，没有不可能的事。"],
+        ["Unos están de acuerdo; otros, en desacuerdo.", "有人同意，有人不同意。"],
+        ["El autor de este poema es desconocido.", "这首诗的作者不详。"],
+        ["En Lepanto, los cristianos ganaron y los turcos perdieron.", "勒班陀一战，基督教联军赢了，土耳其人输了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["En sus obras describe la España de su tiempo.", "他在作品中描写了当时的西班牙。"],
+    ["Estoy de acuerdo contigo.", "我同意你的看法。"],
+    ["Muchos jóvenes tomaron parte en la batalla.", "许多年轻人参加了这场战斗。"],
+    ["Superó muchas dificultades a lo largo de su vida.", "他一生克服了许多困难。"],
+    ["Colocaron una estatua de Cervantes en la plaza.", "他们在广场上立了一座塞万提斯雕像。"],
+    ["Ambos personajes son muy diferentes.", "两个人物截然不同。"],
+    ["Don Quijote se lanzó contra los molinos de viento.", "堂吉诃德向风车冲了过去。"],
+    ["Don Quijote atribuía sus derrotas a los encantadores.", "堂吉诃德把自己的失败归咎于魔法师。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Lepanto es la batalla en ______ Cervantes fue herido.（用 cual 的适当形式）", "a": "la cual"},
+    {"type": "选择", "q": "Éstas son mis primas, con ___ viajé a Toledo. (los cuales / las cuales)", "a": "las cuales（先行词 mis primas 是阴性复数）"},
+    {"type": "改写", "q": "No llegó a tiempo. Eso enfadó al profesor.（用 lo cual 合成一句）", "a": "No llegó a tiempo, lo cual enfadó al profesor."},
+    {"type": "选择", "q": "___ me contaste es muy interesante. (Lo cual / Lo que)", "a": "Lo que（没有先行词，不能用 lo cual）"},
+    {"type": "改写", "q": "改正错误：El libro el cual leí es de Cervantes.", "a": "El libro que leí es de Cervantes.（限定性从句不带前置词只用 que）"},
+    {"type": "填空", "q": "写出反义词：posible → ___；legal → ___；conocido → ___", "a": "imposible；ilegal；desconocido"},
+    {"type": "翻译", "q": "这就是我们谈过的那个问题。（用 sobre + el cual）", "a": "Éste es el problema sobre el cual hablamos."},
+    {"type": "问答", "q": "¿Cuándo se publicaron las dos partes del Quijote?", "a": "La primera, en 1605, y la segunda, en 1615."}
+  ],
+  "summary": [
+    "el cual 与先行词性数一致，冠词不能省。",
+    "不带前置词的限定性从句只用 que。",
+    "el cual 多用在前置词后和解释性从句里。",
+    "lo cual 指前面整句话；无先行词只能用 lo que。",
+    "反义词：不同的词，或加前缀 in-（im-、i-）、des-。"
+  ],
+  "homework": [
+    "用 8–10 句话介绍塞万提斯，至少用三次 el cual 类关系代词。",
+    "自拟三组句子，用 lo cual 把每组两句合成一句。",
+    "用 in-（im-、i-）和 des- 各写五个反义词并造句。"
+  ],
+  "notes": {
+    "goals": "本课重点是 el cual 和 que 的分工，建议先复习第 13 课的“前置词 + que”和第 14 课的 lo que，再引入 el cual。",
+    "vocab": "atribuir 变位同 construir（atribuyo、atribuyó）；herir 是 e→ie / e→i 变化（hiero、hirió）。ambos 只用复数，有阴阳性（ambas partes）；lanzarse contra 指“冲向”。",
+    "text": "可配地图标出阿尔卡拉、勒班陀、阿尔及尔。让学生找出课文里的 el cual、la cual、lo cual，并说出各自的先行词。",
+    "grammar": "提醒学生 el cual 不用在不带前置词的限定性从句里；指人的解释性从句也常用 quien，可顺带提一下。反义词部分强调 in- 在 p、b 前变 im-，在 l、r 前变 i-，irregular 要写两个 r。",
+    "exercises": "第 2 题看先行词的性数；第 4、5 题考不能用 cual 的情况；第 7 题也可说 hemos hablado。"
+  }
+}
