@@ -17,8 +17,11 @@ def check(path):
     except Exception as x:
         return [f'JSON 读不出来：{x}']
     n = d.get('lesson')
-    if not isinstance(n, int) or not 1 <= n <= 24:
-        e.append('lesson 应为 1–24')
+    book = d.get('book', 1)
+    if book not in (1, 2, 3, 4):
+        e.append('book 应为 1–4')
+    if not isinstance(n, int) or not 1 <= n <= 30:
+        e.append('lesson 应为 1–30')
     for k in ('title_es', 'title_zh', 'goals', 'vocab', 'text', 'grammar', 'exercises', 'summary', 'homework', 'notes'):
         if k not in d:
             e.append(f'缺字段 {k}')
@@ -37,10 +40,12 @@ def check(path):
     for s in d['goals']:
         mx('goals', s, 30)
     pr = d.get('pronunciation') or []
-    if pr and n > 8:
-        e.append('第 9 课以后不写 pronunciation')
-    if n <= 8 and not pr:
-        e.append('第 1–8 课要有 pronunciation')
+    if book == 1 and pr and n > 8:
+        e.append('第一册第 9 课以后不写 pronunciation')
+    if book == 1 and n <= 8 and not pr:
+        e.append('第一册第 1–8 课要有 pronunciation')
+    if book > 1 and pr:
+        e.append('第二册起不写 pronunciation')
     rng('pronunciation', pr, 0, 3)
     for g in pr:
         rng(f'pronunciation「{g.get("title")}」items', g.get('items', []), 2, 6)

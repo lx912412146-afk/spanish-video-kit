@@ -1,0 +1,187 @@
+{
+  "book": 2,
+  "lesson": 5,
+  "title_es": "Dos fábulas",
+  "title_zh": "两则寓言",
+  "goals": [
+    "会用副动词表示动作的方式和手段",
+    "分清副动词和过去分词作状语的区别",
+    "掌握常用代词式动词及 ir / irse 等的区别",
+    "会用 mí、ti、sí、conmigo 等前置词代词",
+    "能用西语复述一则寓言并说出寓意"
+  ],
+  "vocab": [
+    ["la fábula", "寓言"],
+    ["la moraleja", "寓意，教训"],
+    ["el bosque", "树林，森林"],
+    ["el oso", "熊"],
+    ["el cuervo", "乌鸦"],
+    ["el zorro, la zorra", "狐狸"],
+    ["el queso", "奶酪"],
+    ["orgulloso, sa", "骄傲的，得意的"],
+    ["de pronto", "突然"],
+    ["subir", "上，登；爬上"],
+    ["según", "根据；据……说"],
+    ["echar(se)", "扔，倒；（se）躺下"],
+    ["observar", "观察，注视"],
+    ["pensar (ie)", "想；（+ 不定式）打算"],
+    ["quejarse (de)", "抱怨"],
+    ["atreverse (a)", "敢于"],
+    ["darse cuenta (de)", "发觉，意识到"],
+    ["quedarse", "留下；（处于）某状态"]
+  ],
+  "text": {
+    "title": "Dos fábulas",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Dos amigos caminaban por el bosque charlando tranquilamente.", "zh": "两个朋友一边聊天，一边悠闲地在林中走着。"},
+      {"who": "", "es": "De pronto, vieron un oso enorme delante de ellos.", "zh": "突然，他们看见面前有一头大熊。"},
+      {"who": "", "es": "El más joven subió corriendo a un árbol y no pensó en su compañero.", "zh": "年轻的那个飞快地爬上一棵树，根本没想到同伴。"},
+      {"who": "", "es": "El otro, asustado, se echó al suelo y se hizo el muerto.", "zh": "另一个吓坏了，就躺倒在地上装死。"},
+      {"who": "", "es": "El oso se acercó, lo observó un rato y luego se fue.", "zh": "熊走过来，打量了他一会儿，然后走开了。"},
+      {"who": "", "es": "El joven bajó del árbol riéndose: «¿Qué te dijo el oso al oído?»", "zh": "年轻人笑着从树上下来：“熊在你耳边说了什么？”"},
+      {"who": "", "es": "—Me dijo: «No viajes con amigos que piensan en sí mismos y no en ti».", "zh": "“它说：‘别跟只顾自己、不顾你的人结伴出门。’”"},
+      {"who": "", "es": "Un cuervo estaba en una rama con un queso en el pico.", "zh": "一只乌鸦叼着一块奶酪，停在树枝上。"},
+      {"who": "", "es": "Una zorra lo observaba desde abajo y pensó: «Ese queso es para mí».", "zh": "一只狐狸在树下盯着它，心想：“那块奶酪归我了。”"},
+      {"who": "", "es": "—¡Buenos días, señor Cuervo! —le dijo—. Según dicen, canta muy bien.", "zh": "“早上好，乌鸦先生！”它说，“听说您唱歌特别好听。”"},
+      {"who": "", "es": "Muy orgulloso, el cuervo abrió el pico para cantar y el queso se cayó.", "zh": "乌鸦得意极了，张嘴就唱，奶酪掉了下去。"},
+      {"who": "", "es": "La zorra se lo llevó y se fue corriendo, riéndose del pobre cuervo.", "zh": "狐狸叼起奶酪就跑，还嘲笑那只可怜的乌鸦。"},
+      {"who": "", "es": "El cuervo se quedó en la rama, triste, y se dio cuenta de su error.", "zh": "乌鸦呆在树枝上，很难过，这才明白自己错了。"},
+      {"who": "", "es": "Moraleja: no creas a quien habla bien de ti para conseguir algo.", "zh": "寓意：有人为了得到好处而奉承你，别轻信他。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "副动词的用法（二）：表示方式",
+      "points": [
+        "副动词可作方式状语，说明动作怎样进行，回答 ¿cómo?：Habla gritando.",
+        "也可表示手段，相当于“靠……、通过……”：Aprendo español leyendo.",
+        "表示“不……地”，一般用 sin + 不定式：Se fue sin decir nada.",
+        "代词连写在副动词后，要加重音：haciéndose el muerto。"
+      ],
+      "examples": [
+        ["La zorra le habló sonriendo.", "狐狸笑眯眯地跟它说话。"],
+        ["Los niños bajaron la escalera corriendo.", "孩子们跑着下了楼梯。"],
+        ["Aprendí muchas palabras leyendo fábulas.", "我通过读寓言学会了很多词。"],
+        ["El hombre se salvó haciéndose el muerto.", "那人靠装死保住了性命。"]
+      ]
+    },
+    {
+      "title": "副动词和过去分词的区别",
+      "points": [
+        "副动词表示与谓语动词同时进行的动作，没有性数变化：Entró llorando.",
+        "过去分词作状语表示状态或已完成的结果，与主语性数一致。",
+        "对比：Llegó corriendo（跑着来）；Llegó cansado（来时很累）。",
+        "estar + 副动词表示正在进行；estar + 过去分词表示状态。"
+      ],
+      "table": {
+        "head": ["比较", "副动词", "过去分词"],
+        "rows": [
+          ["词尾", "-ando / -iendo", "-ado / -ido"],
+          ["性数变化", "没有", "与主语性数一致"],
+          ["意义", "动作正在进行", "完成后的状态"],
+          ["例句", "Entró llorando.", "Entró cansada."],
+          ["例句", "Está sentándose.", "Está sentado."]
+        ]
+      },
+      "examples": [
+        ["La niña entró llorando.", "小女孩哭着走了进来。"],
+        ["La niña entró muy cansada.", "小女孩进来时已经很累了。"],
+        ["El joven bajó del árbol riéndose.", "年轻人笑着从树上下来。"],
+        ["El otro amigo se quedó echado en el suelo.", "另一个朋友一直躺在地上。"]
+      ]
+    },
+    {
+      "title": "代词式动词",
+      "points": [
+        "代词式动词总带自复代词 me、te、se…，但动作不一定落到自己身上。",
+        "有的只有代词式，如 quejarse、atreverse，常带固定前置词。",
+        "有的加 se 后意思会变：ir 去，irse 离开（见下表）。",
+        "代词随主语变化：me quejo、te quejas、se queja…"
+      ],
+      "table": {
+        "head": ["动词", "意思", "代词式", "意思"],
+        "rows": [
+          ["ir", "去", "irse", "离开，走掉"],
+          ["dormir", "睡觉", "dormirse", "睡着，入睡"],
+          ["quedar", "约定；剩下", "quedarse", "留下；变得"],
+          ["llevar", "带去；穿着", "llevarse", "拿走，带走"],
+          ["echar", "扔；倒", "echarse", "躺下；（a + 不定式）突然开始"],
+          ["hacer", "做", "hacerse", "变成；装作"]
+        ]
+      },
+      "examples": [
+        ["Nadie se atrevía a moverse.", "谁都不敢动。"],
+        ["El cuervo no se dio cuenta de nada.", "乌鸦什么也没察觉。"],
+        ["El niño se durmió leyendo la fábula.", "孩子读着寓言睡着了。"],
+        ["No te quejes tanto.", "别老抱怨了。"]
+      ]
+    },
+    {
+      "title": "与前置词连用的人称代词",
+      "points": [
+        "前置词后用主格代词，只有 yo → mí、tú → ti：para mí、sin ti。",
+        "mí 带重音，区别于物主形容词 mi；ti 不带重音。",
+        "con 和 mí、ti、sí 合成 conmigo、contigo、consigo。",
+        "sí、consigo 指回第三人称主语本人；entre、según 后用 yo、tú。"
+      ],
+      "table": {
+        "head": ["主格", "前置词后", "con + 代词"],
+        "rows": [
+          ["yo", "mí", "conmigo"],
+          ["tú", "ti", "contigo"],
+          ["él, ella, usted", "él, ella, usted", "con él, con ella…"],
+          ["nosotros, -as", "nosotros, -as", "con nosotros…"],
+          ["vosotros, -as", "vosotros, -as", "con vosotros…"],
+          ["ellos, ellas, ustedes", "ellos, ellas, ustedes", "con ellos…"],
+          ["（第三人称自复）", "sí", "consigo"]
+        ]
+      },
+      "examples": [
+        ["Este queso es para mí.", "这块奶酪是我的。"],
+        ["¿Quieres venir conmigo al bosque?", "你愿意跟我去树林吗？"],
+        ["Entre tú y yo, el cuervo no canta bien.", "咱俩私下说，乌鸦唱得并不好。"],
+        ["Siempre lleva el dinero consigo.", "他总是把钱带在身上。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["De pronto, apareció un oso.", "突然出现了一头熊。"],
+    ["subir a un árbol / al autobús", "爬上树／上公共汽车"],
+    ["Según él… / Según dicen…", "据他说……／据说……"],
+    ["echarse al suelo / echarse a reír", "躺倒在地／突然笑起来"],
+    ["observar a los animales", "观察动物"],
+    ["pensar en alguien / pensar + inf.", "想着某人／打算做某事"],
+    ["quejarse del ruido", "抱怨噪音"],
+    ["darse cuenta de un error", "意识到错误"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Mi madre volvió del trabajo muy ___. (cansando / cansada)", "a": "cansada（过去分词表示状态，与主语性数一致）"},
+    {"type": "填空", "q": "Los niños bajaron la escalera ______ (correr).", "a": "corriendo"},
+    {"type": "改写", "q": "Contestó y sonreía al mismo tiempo. → Contestó ______.", "a": "Contestó sonriendo."},
+    {"type": "选择", "q": "Este regalo es para ___. (mi / mí / yo)", "a": "mí（前置词后用 mí，带重音）"},
+    {"type": "填空", "q": "¿Quieres ir al cine ______ (con + yo)?", "a": "conmigo"},
+    {"type": "选择", "q": "Estaba tan cansado que ___ leyendo. (dormí / me dormí)", "a": "me dormí（dormirse 表示“睡着”）"},
+    {"type": "翻译", "q": "他从来不想别人，总是想着自己。", "a": "Nunca piensa en los demás; siempre piensa en sí mismo."},
+    {"type": "问答", "q": "Según la primera fábula, ¿cómo es un buen amigo?", "a": "（示例）Un buen amigo no se va cuando estás en peligro."}
+  ],
+  "summary": [
+    "副动词可表示方式和手段；“不……地”用 sin + 不定式。",
+    "副动词表示进行中的动作，过去分词表示状态，要性数一致。",
+    "quejarse、atreverse 等是常用的代词式动词。",
+    "irse 离开、dormirse 睡着：加 se 后意思改变。",
+    "前置词后用 mí、ti、sí；con 合成 conmigo 等。"
+  ],
+  "homework": [
+    "用自己的话写一则 8–10 句的寓言，至少用三个副动词。",
+    "用 irse、dormirse、quedarse、quejarse 各造一句。",
+    "用 para mí、contigo、según tú 各造一个句子。"
+  ],
+  "notes": {
+    "goals": "副动词表示方式可以和第 4 课的伴随用法合起来讲；代词式动词和前置词代词都可以直接从两则寓言里找例子。",
+    "vocab": "echar 用法多：echar agua（倒水）、echarse al suelo（躺倒）、echarse a reír（突然笑起来）。pensar en + 名词是“想着”，pensar + 不定式是“打算”；subir a + 地点。",
+    "text": "第 1–7 行是《两个朋友和熊》，第 8–14 行是《乌鸦和狐狸》，均为自编改写。先找副动词（charlando、corriendo、riéndose）和分词 asustado，再找代词式动词（se echó、se fue、se cayó、se dio cuenta 等）。",
+    "grammar": "提醒学生：según、entre 后面用 yo、tú（según tú、entre tú y yo），不用 mí、ti。用“Me dijo que…”转述命令要用虚拟式过去时，本册不讲，所以课文里用直接引语。",
+    "exercises": "第 1 题注意分词与主语 mi madre 性数一致；第 6 题 dormirse 表示“睡着”这一变化，dormir 只表示“睡觉”。"
+  }
+}

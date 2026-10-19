@@ -1,0 +1,193 @@
+{
+  "book": 2,
+  "lesson": 4,
+  "title_es": "Primera vez como intérprete",
+  "title_zh": "第一次当翻译",
+  "goals": [
+    "分清并列复合句和主从复合句，会用常用连词",
+    "会用副动词表示同时发生的伴随动作",
+    "分清 ser 和 estar 表示处所的不同用法",
+    "掌握 servir、olvidarse 等重点词的用法",
+    "能讲述一次给外国游客当翻译的经历"
+  ],
+  "vocab": [
+    ["el / la intérprete", "口译员，翻译"],
+    ["traducir", "翻译"],
+    ["el / la turista", "游客"],
+    ["mexicano, na", "墨西哥人；墨西哥的"],
+    ["el aeropuerto", "机场"],
+    ["el equipaje", "行李"],
+    ["el pasaporte", "护照"],
+    ["la recepción", "（旅馆的）前台"],
+    ["el / la guía", "导游"],
+    ["acompañar", "陪同，陪伴"],
+    ["el ruido", "噪音，响声"],
+    ["servir (i)", "服务；有用；（de）充当"],
+    ["olvidar(se) (de)", "忘记"],
+    ["molestar(se)", "打扰，使烦；（se）费心"],
+    ["bastar", "足够"],
+    ["colgar (ue)", "挂；挂断（电话）"],
+    ["entregar", "交，交给"]
+  ],
+  "text": {
+    "title": "Primera vez como intérprete",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Oye, Li Ming, ¿qué tal tu primer día como intérprete?", "zh": "喂，李明，你第一天当翻译怎么样？"},
+      {"who": "B", "es": "Fue un día largo e interesante. Acompañé a seis turistas mexicanos.", "zh": "这一天很长，也很有意思。我陪了六位墨西哥游客。"},
+      {"who": "A", "es": "¿Cómo los encontraste en el aeropuerto?", "zh": "你在机场是怎么找到他们的？"},
+      {"who": "B", "es": "Fue fácil: salieron hablando y riendo en voz alta.", "zh": "很容易：他们是大声说笑着走出来的。"},
+      {"who": "A", "es": "¿Y en el hotel?", "zh": "到了酒店呢？"},
+      {"who": "B", "es": "Entregué sus pasaportes en recepción y nos dieron las llaves.", "zh": "我把他们的护照交到前台，前台给了我们钥匙。"},
+      {"who": "A", "es": "¿Estaban todos contentos?", "zh": "大家都满意吗？"},
+      {"who": "B", "es": "A una señora le molestaba el ruido, pero le dieron otra habitación.", "zh": "有位女士嫌吵，不过酒店给她换了一个房间。"},
+      {"who": "A", "es": "¿Y adónde fuisteis por la tarde?", "zh": "下午你们去哪儿了？"},
+      {"who": "B", "es": "Visitamos el Palacio Imperial. La cena fue en un restaurante famoso.", "zh": "我们参观了故宫。晚饭是在一家有名的饭馆吃的。"},
+      {"who": "A", "es": "¿Te sirvieron de algo nuestras clases de español?", "zh": "我们的西语课派上用场了吗？"},
+      {"who": "B", "es": "Sí. Pero ¡me olvidé de cenar! Estaba traduciendo todo el tiempo.", "zh": "派上了。可我忘了吃晚饭！我一直在翻译。"},
+      {"who": "A", "es": "¡Pobre! Ya ves: para ser intérprete no basta con saber español.", "zh": "真可怜！你看，当翻译光会西班牙语还不够。"},
+      {"who": "B", "es": "Es verdad. Pero, aunque estaba muy cansado, volví a casa cantando.", "zh": "没错。不过，虽然很累，我还是唱着歌回了家。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "并列复合句",
+      "points": [
+        "由两个或两个以上分句构成、分句之间地位平等的句子，叫并列复合句。",
+        "联合用 y、ni，转折用 pero、sino，选择用 o。",
+        "y 在 i-、hi- 开头的词前变 e；o 在 o-、ho- 开头的词前变 u。",
+        "前句否定、后句纠正用 sino；后面接变位动词时用 sino que。"
+      ],
+      "table": {
+        "head": ["关系", "连词", "例句"],
+        "rows": [
+          ["联合", "y (e)", "Entró y se sentó."],
+          ["否定的联合", "ni", "No come ni bebe."],
+          ["转折", "pero", "Llueve, pero salgo."],
+          ["纠正", "sino (que)", "No es él, sino ella."],
+          ["选择", "o (u)", "¿Vienes o no vienes?"]
+        ]
+      },
+      "examples": [
+        ["El avión llegó tarde, pero los turistas estaban contentos.", "飞机晚点了，但游客们很高兴。"],
+        ["No es mexicano, sino colombiano.", "他不是墨西哥人，而是哥伦比亚人。"],
+        ["La señora no comió ni bebió nada en el avión.", "那位女士在飞机上什么都没吃，也没喝。"],
+        ["¿Vamos al museo o damos un paseo por el centro?", "我们是去博物馆，还是在市中心转转？"]
+      ]
+    },
+    {
+      "title": "主从复合句",
+      "points": [
+        "一个分句（从句）从属于另一个分句（主句），这样的句子叫主从复合句。",
+        "从句由 que、cuando、porque、si、aunque、donde 等词引出。",
+        "本课的从句一律用陈述式：si 表示“如果”，aunque 表示“虽然”。",
+        "中文说“虽然……但是……”，西语只用 aunque，不再加 pero。"
+      ],
+      "table": {
+        "head": ["从句", "连接词", "例句"],
+        "rows": [
+          ["宾语从句", "que", "Dice que está cansado."],
+          ["时间从句", "cuando", "Cuando llegó, llovía."],
+          ["原因从句", "porque, como", "No sale porque llueve."],
+          ["条件从句", "si", "Si llueve, no salgo."],
+          ["让步从句", "aunque", "Aunque llueve, salgo."],
+          ["定语从句", "que, donde", "Es el hotel que busco."]
+        ]
+      },
+      "examples": [
+        ["Cuando llegamos al hotel, entregué los pasaportes.", "我们到了酒店，我就把护照交了上去。"],
+        ["La señora no dormía bien porque le molestaba el ruido.", "那位女士睡不好，因为噪音让她心烦。"],
+        ["Si no entiendes una palabra, pregúntale al guía.", "要是有哪个词不懂，就问导游。"],
+        ["El hotel donde vivían los turistas estaba en el centro.", "游客们住的酒店在市中心。"]
+      ]
+    },
+    {
+      "title": "副动词的用法（一）：伴随动作",
+      "points": [
+        "副动词可作状语，表示与谓语动词同时发生、伴随进行的动作。",
+        "副动词的逻辑主语一般就是句子的主语：Salió cantando.（他唱着歌出去）",
+        "副动词没有人称、性数变化；代词连写在后面，要加重音：mirándolo。",
+        "副动词不能表示在谓语动词之后才发生的动作。"
+      ],
+      "table": {
+        "head": ["不定式", "副动词", "说明"],
+        "rows": [
+          ["cantar", "cantando", "-ar → -ando"],
+          ["correr / salir", "corriendo / saliendo", "-er、-ir → -iendo"],
+          ["leer / oír", "leyendo / oyendo", "词根以元音结尾 → -yendo"],
+          ["decir / servir", "diciendo / sirviendo", "词根 e → i"],
+          ["dormir", "durmiendo", "词根 o → u"],
+          ["ir", "yendo", "特殊形式"]
+        ]
+      },
+      "examples": [
+        ["Salió del hotel cantando.", "他唱着歌走出了酒店。"],
+        ["Colgó el teléfono y salió corriendo.", "他挂了电话，跑了出去。"],
+        ["Paseando por el centro, vimos la catedral.", "在市中心散步时，我们看到了大教堂。"],
+        ["El camarero nos sirvió la comida sonriendo.", "服务员笑着给我们上了菜。"]
+      ]
+    },
+    {
+      "title": "ser 和 estar 的区别（二）",
+      "points": [
+        "事件（晚会、会议、音乐会等）在哪儿、何时举行，用 ser。",
+        "人或物在哪儿，用 estar：Juan está en casa.",
+        "estar + 过去分词表示动作完成后的状态，分词与主语性数一致。",
+        "问事件地点说 ¿Dónde es…?，问人或物的位置说 ¿Dónde está…?"
+      ],
+      "table": {
+        "head": ["用法", "ser", "estar"],
+        "rows": [
+          ["表示处所", "La fiesta es aquí.", "Juan está aquí."],
+          ["提问", "¿Dónde es la cena?", "¿Dónde está el hotel?"],
+          ["结果状态", "—", "El bar está cerrado."]
+        ]
+      },
+      "examples": [
+        ["La cena de bienvenida es en el hotel.", "欢迎晚宴在酒店举行。"],
+        ["Los turistas ya están en el hotel.", "游客们已经在酒店了。"],
+        ["El museo está cerrado los lunes.", "博物馆星期一闭馆。"],
+        ["Las habitaciones ya están preparadas.", "房间都已经准备好了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿En qué puedo servirle?", "您需要什么帮助？"],
+    ["servir de intérprete", "当翻译"],
+    ["Olvidé el pasaporte. / Me olvidé del pasaporte.", "我忘了带护照。"],
+    ["¿Le molesta el ruido?", "噪音吵着您了吗？"],
+    ["No se moleste, por favor.", "您别费心了。"],
+    ["Basta con el pasaporte.", "有护照就够了。"],
+    ["colgar el teléfono / un cuadro", "挂断电话／挂一幅画"],
+    ["entregar la llave en recepción", "把钥匙交到前台"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "No es japonés, ___ chino. (pero / sino)", "a": "sino（前句否定，后句纠正）"},
+    {"type": "选择", "q": "El concierto ___ en el parque. (es / está)", "a": "es（表示事件举行的地点）"},
+    {"type": "选择", "q": "Los turistas ___ en el museo. (son / están)", "a": "están（表示人所在的位置）"},
+    {"type": "填空", "q": "Los niños llegaron ______ (correr) a la puerta del hotel.", "a": "corriendo"},
+    {"type": "改写", "q": "Salió del hotel. Cantaba al mismo tiempo. → Salió del hotel ______.", "a": "Salió del hotel cantando."},
+    {"type": "填空", "q": "No ______ (olvidarse, tú) del pasaporte.", "a": "No te olvides del pasaporte."},
+    {"type": "翻译", "q": "虽然很累，他还是陪游客去了博物馆。", "a": "Aunque estaba cansado, acompañó a los turistas al museo."},
+    {"type": "问答", "q": "¿Qué hace un intérprete? ¿Te gusta ese trabajo? ¿Por qué?", "a": "（示例）Traduce para los turistas. Sí, me gusta porque es interesante."}
+  ],
+  "summary": [
+    "并列复合句用 y、ni、pero、sino、o 连接平等的分句。",
+    "主从复合句用 que、cuando、si、aunque 等引出从句。",
+    "副动词表示同时发生的伴随动作，主语与谓语动词一致。",
+    "事件在哪儿举行用 ser，人和物在哪儿用 estar。",
+    "estar + 过去分词表示状态，分词要性数一致。"
+  ],
+  "homework": [
+    "用 pero、sino、aunque、cuando 各写一个和旅游有关的句子。",
+    "写短文 Mi primer día como guía，至少用两个副动词。",
+    "用本课六个重点动词各造一个句子。"
+  ],
+  "notes": {
+    "goals": "本课三个语法点都是前面内容的延伸：复合句重在会用连词，不必深究术语；副动词接第 3 课；ser / estar 接第 2 课。",
+    "vocab": "servir 是 e → i 型（sirvo、sirvió、sirviendo），colgar 是 o → ue 型（cuelgo）；colgar、entregar 简单过去时第一人称拼写为 colgué、entregué。olvidar + 名词 = olvidarse de + 名词；molestar 用法同 gustar（Me molesta el ruido）。",
+    "text": "让学生找出课文里的 y、pero、aunque 等连词，判断是并列还是主从；再找出副动词 hablando y riendo、cantando 和 la cena fue en…（ser 表示事件地点）。",
+    "grammar": "aunque、si 本课只接陈述式。“Me molesta que…”从句要用虚拟式，第 9 课才学，本课只用 me molesta + 名词。提醒学生不要用副动词表示后发生的动作。",
+    "exercises": "第 2、3 题对比 ser 和 estar 表示处所；第 6 题复习第 3 课的否定命令式，代词放在动词前。"
+  }
+}

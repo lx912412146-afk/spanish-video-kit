@@ -1,0 +1,187 @@
+{
+  "book": 2,
+  "lesson": 10,
+  "title_es": "Discurso de bienvenida",
+  "title_zh": "欢迎辞",
+  "goals": [
+    "分清 es + 形容词 + que 后用虚拟式还是陈述式",
+    "会用 dudar、permitir 等引出虚拟式从句",
+    "认识直接宾语的补语，注意性数一致",
+    "会用 seguir / llevar + 副动词表示持续",
+    "能写、能说一段简短的正式欢迎辞"
+  ],
+  "vocab": [
+    ["el discurso", "讲话，演说"],
+    ["la bienvenida", "欢迎"],
+    ["dar la bienvenida a uno", "欢迎某人"],
+    ["el motivo", "原因，理由"],
+    ["permitir", "允许，准许"],
+    ["prohibir (prohíbo)", "禁止"],
+    ["dedicar, dedicarse a", "献给，用于；从事"],
+    ["especialmente", "特别，尤其"],
+    ["necesario, ria", "必要的，必需的"],
+    ["útil", "有用的"],
+    ["posible", "可能的"],
+    ["evidente", "明显的"],
+    ["dudar", "怀疑"],
+    ["nombrar", "任命"],
+    ["elegir (i)", "选举；挑选"],
+    ["el honor", "荣誉，荣幸"],
+    ["la facultad", "系；学院"],
+    ["cordial", "热诚的，诚挚的"]
+  ],
+  "text": {
+    "title": "Discurso de bienvenida",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Queridos profesores y estudiantes de Salamanca, señoras y señores:", "zh": "亲爱的萨拉曼卡的老师们、同学们，女士们、先生们："},
+      {"who": "", "es": "Permítanme que les dé una cordial bienvenida a nuestra facultad.", "zh": "请允许我对各位来到我们系表示诚挚的欢迎。"},
+      {"who": "", "es": "Consideramos su visita un gran honor para todos nosotros.", "zh": "我们大家都把各位的来访看作莫大的荣幸。"},
+      {"who": "", "es": "El motivo de su viaje es conocer la vida de los estudiantes chinos.", "zh": "各位此行的目的是了解中国学生的生活。"},
+      {"who": "", "es": "Nuestra facultad lleva cuarenta años enseñando español.", "zh": "我们系教西班牙语已经四十年了。"},
+      {"who": "", "es": "Muchos antiguos alumnos se dedican hoy a la diplomacia o al comercio.", "zh": "许多老校友如今从事外交或贸易工作。"},
+      {"who": "", "es": "Y hoy seguimos trabajando con el mismo entusiasmo.", "zh": "今天我们仍然怀着同样的热情工作着。"},
+      {"who": "", "es": "Es verdad que nuestros alumnos estudian mucho en clase.", "zh": "我们的学生在课堂上确实很用功。"},
+      {"who": "", "es": "Pero no creo que eso sea suficiente para aprender bien una lengua.", "zh": "但我认为，光靠这些还学不好一门语言。"},
+      {"who": "", "es": "Es necesario que los alumnos hablen con ustedes y conozcan su cultura.", "zh": "学生们有必要和各位交谈，了解各位的文化。"},
+      {"who": "", "es": "Por eso, durante estas dos semanas, viviremos y estudiaremos juntos.", "zh": "所以，这两个星期里我们将一起生活、一起学习。"},
+      {"who": "", "es": "Esperamos que estos días les sean útiles y agradables.", "zh": "希望这些日子对各位既有收获又愉快。"},
+      {"who": "", "es": "Deseo especialmente que se sientan aquí como en su casa.", "zh": "我特别希望各位在这里能像在家里一样。"},
+      {"who": "", "es": "¡Bienvenidos a nuestra universidad y muchas gracias!", "zh": "欢迎来到我们学校！谢谢大家！"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "虚拟式现在时（二）：es + 形容词 + que",
+      "points": [
+        "es + 形容词 + que… 是无人称句，que 引出的从句是句子真正的主语。",
+        "形容词表示必要、重要、有用、可能等时，从句用虚拟式。",
+        "肯定事实的 es verdad / evidente que 用陈述式；否定后用虚拟式。",
+        "不针对具体的人时直接用原形动词：Es necesario estudiar。"
+      ],
+      "table": {
+        "head": ["主句", "从句", "例子"],
+        "rows": [
+          ["Es necesario que…", "虚拟式", "…que estudies más."],
+          ["Es importante que…", "虚拟式", "…que lleguen a tiempo."],
+          ["Es útil / posible que…", "虚拟式", "…que lo sepas."],
+          ["Es verdad que…", "陈述式", "…que es difícil."],
+          ["Es evidente que…", "陈述式", "…que está cansado."],
+          ["No es verdad que…", "虚拟式", "…que sea difícil."]
+        ]
+      },
+      "examples": [
+        ["Es necesario que todos hablemos más en clase.", "我们大家都有必要在课上多开口。"],
+        ["Es importante que los alumnos conozcan otras culturas.", "学生了解别的文化很重要。"],
+        ["Es verdad que el español es útil para el trabajo.", "西班牙语对工作确实有用。"],
+        ["Es posible estudiar y trabajar al mismo tiempo.", "边学习边工作是可以做到的。"]
+      ]
+    },
+    {
+      "title": "虚拟式现在时（二）：怀疑、否定、允许、禁止",
+      "points": [
+        "怀疑、否定（dudar, no creer, negar）后，从句用虚拟式。",
+        "creer, pensar 肯定时用陈述式；no dudar 多用陈述式，也可用虚拟式。",
+        "permitir, dejar, prohibir（允许、禁止）后，从句用虚拟式。",
+        "这几个动词也常用“宾语代词 + 原形动词”：Te permito salir。"
+      ],
+      "table": {
+        "head": ["主句", "从句", "例句"],
+        "rows": [
+          ["Creo que…", "陈述式", "Creo que viene."],
+          ["No creo que…", "虚拟式", "No creo que venga."],
+          ["Dudo que…", "虚拟式", "Dudo que lo sepa."],
+          ["No dudo que…", "多用陈述式", "No dudo que lo sabe."],
+          ["permitir que…", "虚拟式", "Te permito que salgas."],
+          ["prohibir que…", "虚拟式", "Te prohíbo que fumes."]
+        ]
+      },
+      "examples": [
+        ["No creo que el director llegue hoy.", "我想主任今天到不了。"],
+        ["Dudo que haya clase mañana.", "我不太相信明天有课。"],
+        ["Mis padres no me dejan que vuelva tarde a casa.", "父母不让我晚回家。"],
+        ["El profesor nos permite usar el diccionario.", "老师允许我们用词典。"]
+      ]
+    },
+    {
+      "title": "直接宾语的补语",
+      "points": [
+        "有的动词除了直接宾语，还带一个说明宾语身份或状态的成分。",
+        "常用于 nombrar, elegir, considerar, encontrar 等。",
+        "形容词作补语要和宾语性数一致：Encuentro útiles las clases。",
+        "表示职务的名词作补语一般不加冠词：La nombraron directora。"
+      ],
+      "examples": [
+        ["La nombraron directora del departamento.", "她被任命为系主任。"],
+        ["Encuentro interesante este libro.", "我觉得这本书很有意思。"],
+        ["Lo considero un amigo.", "我把他当作朋友。"],
+        ["Eligieron a Ana representante de la clase.", "大家选安娜当班级代表。"]
+      ]
+    },
+    {
+      "title": "seguir / llevar + 副动词",
+      "points": [
+        "seguir + 副动词：仍在、继续做某事：Sigo estudiando español。",
+        "llevar + 时间 + 副动词：某个动作已经持续了多久，现在还在做。",
+        "同义说法：hace + 时间 + que + 动词现在时。",
+        "seguir 词根 e → i，sigo 里 gu 写成 g；副动词 siguiendo。"
+      ],
+      "table": {
+        "head": ["人称", "seguir", "llevar"],
+        "rows": [
+          ["yo", "sigo", "llevo"],
+          ["tú", "sigues", "llevas"],
+          ["él / usted", "sigue", "lleva"],
+          ["nosotros, -as", "seguimos", "llevamos"],
+          ["vosotros, -as", "seguís", "lleváis"],
+          ["ellos / ustedes", "siguen", "llevan"]
+        ]
+      },
+      "examples": [
+        ["Sigo estudiando español en la universidad.", "我还在大学里学西班牙语。"],
+        ["¿Sigues trabajando en esa empresa?", "你还在那家公司工作吗？"],
+        ["Llevo dos años estudiando español.", "我学西班牙语已经两年了。"],
+        ["¿Cuánto tiempo llevas esperando el autobús?", "你等公共汽车等了多久了？"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Permítanme que les dé la bienvenida.", "请允许我向各位表示欢迎。"],
+    ["Bienvenidos a nuestra universidad.", "欢迎来到我们学校。"],
+    ["Es un gran honor para nosotros.", "这是我们莫大的荣幸。"],
+    ["por motivos de trabajo", "由于工作原因"],
+    ["dedicar mucho tiempo a…", "在……上花很多时间"],
+    ["¿A qué se dedica usted?", "您是做什么工作的？"],
+    ["Les deseo una feliz estancia.", "祝各位在这里过得愉快。"],
+    ["Muchas gracias por su atención.", "谢谢各位。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Es necesario que tú ______ (estudiar) más.", "a": "estudies"},
+    {"type": "选择", "q": "Es evidente que Ana ___ cansada. (está / esté)", "a": "está（es evidente que 表示肯定，用陈述式）"},
+    {"type": "选择", "q": "No creo que ellos ___ hoy. (vienen / vengan)", "a": "vengan（no creer 表示否定，用虚拟式）"},
+    {"type": "改写", "q": "Creo que el examen es fácil. → No creo que ______.", "a": "No creo que el examen sea fácil."},
+    {"type": "填空", "q": "Mis padres no me permiten que ______ (volver) tarde a casa.", "a": "vuelva"},
+    {"type": "改写", "q": "Hace tres años que vivo en Pekín. → Llevo ______.", "a": "Llevo tres años viviendo en Pekín."},
+    {"type": "翻译", "q": "他们任命她为系主任。（用 nombrar）", "a": "La nombraron directora del departamento."},
+    {"type": "问答", "q": "¿Cuánto tiempo llevas estudiando español? ¿Sigues viviendo en la residencia?", "a": "（示例）Llevo un año estudiándolo. Sí, sigo viviendo allí."}
+  ],
+  "summary": [
+    "es necesario / posible que + 虚拟式。",
+    "es verdad que、creer que 等表肯定，用陈述式。",
+    "怀疑、否定、允许、禁止类主句后，从句用虚拟式。",
+    "直接宾语的补语说明宾语的身份、状态，形容词要性数一致。",
+    "seguir / llevar + 副动词表示动作在持续。"
+  ],
+  "homework": [
+    "写一篇 8–10 句的欢迎辞，至少用三个 es … que 句型。",
+    "用 Llevo… 和 Sigo… 各写三句话，介绍自己的学习和生活。",
+    "用 Creo que… 和 No creo que… 各写五个句子。"
+  ],
+  "notes": {
+    "goals": "本课在第 9 课的基础上扩大虚拟式在名词性从句里的使用范围，重点是判断主句要求虚拟式还是陈述式。",
+    "vocab": "prohibir 重读在词根上时要加重音：prohíbo, prohíbe, prohíba；elegir 变位 elijo, elige（e → i，g 在 o, a 前变 j）。dedicarse a 后面接名词或原形动词。",
+    "text": "先让学生找出课文里所有 que 从句，按虚拟式、陈述式分类并说明理由；再找出 llevar / seguir + 副动词和直接宾语的补语（Consideramos su visita un gran honor）。",
+    "grammar": "本课虚拟式都在名词性从句里，不要引出虚拟式过去时或状语从句。¿Crees que…? 这类疑问句两种语气都有人用，本课不作要求。",
+    "exercises": "第 2、3 题对比肯定和否定的主句；第 6 题做完可让学生再改回 Hace … que 句型；第 8 题鼓励学生用完整句子回答。"
+  }
+}

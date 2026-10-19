@@ -1,0 +1,453 @@
+{
+  "book": 2,
+  "lesson": 16,
+  "title_es": "El caballo de Troya",
+  "title_zh": "特洛伊木马",
+  "goals": [
+    "掌握简单条件式的规则和不规则变位",
+    "会用条件式表示过去的将来、委婉、推测和建议",
+    "会用 ser + 过去分词的被动句，并和自复被动句对比",
+    "认识双重补语和副动词的几种用法",
+    "能用自己的话讲述特洛伊木马的故事"
+  ],
+  "vocab": [
+    [
+      "tomar… por…",
+      "把……当成……"
+    ],
+    [
+      "decidir(se)",
+      "决定；下决心"
+    ],
+    [
+      "dirigir(se)",
+      "领导；走向；对……说话"
+    ],
+    [
+      "retirar(se)",
+      "撤走；撤退，退出"
+    ],
+    [
+      "obtener",
+      "获得，取得"
+    ],
+    [
+      "esconder(se)",
+      "藏；躲藏"
+    ],
+    [
+      "la guerra",
+      "战争"
+    ],
+    [
+      "el caballo",
+      "马"
+    ],
+    [
+      "la madera",
+      "木头，木材"
+    ],
+    [
+      "el soldado",
+      "士兵"
+    ],
+    [
+      "griego, ga",
+      "希腊的；希腊人"
+    ],
+    [
+      "troyano, na",
+      "特洛伊的；特洛伊人"
+    ],
+    [
+      "la muralla",
+      "城墙"
+    ],
+    [
+      "rodear",
+      "包围；环绕"
+    ],
+    [
+      "luchar",
+      "战斗，斗争"
+    ],
+    [
+      "fingir",
+      "假装"
+    ],
+    [
+      "destruir",
+      "摧毁，毁坏"
+    ],
+    [
+      "el regalo",
+      "礼物"
+    ]
+  ],
+  "text": {
+    "title": "El caballo de Troya",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "Troya era una ciudad rica, rodeada de altas murallas.",
+        "zh": "特洛伊是一座富裕的城市，四周有高高的城墙。"
+      },
+      {
+        "who": "",
+        "es": "Un príncipe troyano se llevó a Helena, esposa del rey de Esparta.",
+        "zh": "一位特洛伊王子带走了斯巴达国王的妻子海伦。"
+      },
+      {
+        "who": "",
+        "es": "Los griegos se dirigieron a Troya en mil barcos y rodearon la ciudad.",
+        "zh": "希腊人乘一千艘船开往特洛伊，包围了这座城。"
+      },
+      {
+        "who": "",
+        "es": "Pasaron diez años luchando, pero no obtuvieron la victoria.",
+        "zh": "他们打了十年仗，却没能取得胜利。"
+      },
+      {
+        "who": "",
+        "es": "Viendo que no ganaban, decidieron engañar a los troyanos.",
+        "zh": "眼看打不赢，他们决定用计骗特洛伊人。"
+      },
+      {
+        "who": "",
+        "es": "Ulises dijo que harían un enorme caballo de madera.",
+        "zh": "尤利西斯说，大家要造一匹巨大的木马。"
+      },
+      {
+        "who": "",
+        "es": "El caballo fue construido pronto y unos soldados se metieron dentro.",
+        "zh": "木马很快就造好了，一些士兵钻了进去。"
+      },
+      {
+        "who": "",
+        "es": "Los demás fingieron retirarse y se escondieron detrás de una isla.",
+        "zh": "其余的人假装撤退，躲到了一座小岛后面。"
+      },
+      {
+        "who": "",
+        "es": "Al ver el caballo, los troyanos lo tomaron por un regalo.",
+        "zh": "特洛伊人看到木马，把它当成了一件礼物。"
+      },
+      {
+        "who": "",
+        "es": "Algunos dijeron que sería peligroso, pero nadie los escuchó.",
+        "zh": "有人说那样会很危险，可是没人听他们的。"
+      },
+      {
+        "who": "",
+        "es": "Lo llevaron a la ciudad y celebraron la victoria bebiendo y cantando.",
+        "zh": "他们把木马拉进城，喝酒唱歌庆祝胜利。"
+      },
+      {
+        "who": "",
+        "es": "A medianoche, los soldados salieron silenciosos del caballo.",
+        "zh": "半夜，士兵们悄无声息地从木马里出来。"
+      },
+      {
+        "who": "",
+        "es": "Abrieron las puertas a sus compañeros, que habían vuelto en silencio.",
+        "zh": "他们给悄悄返回的同伴打开了城门。"
+      },
+      {
+        "who": "",
+        "es": "Así, Troya fue tomada y destruida por los griegos.",
+        "zh": "就这样，特洛伊被希腊人攻占并摧毁了。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "简单条件式",
+      "points": [
+        "构成：原形动词 + -ía 等词尾；hacer → har-，decir → dir-。",
+        "词根变 d（同将来时）：tendr-、pondr-、saldr-、vendr-、valdr-",
+        "去掉 e（同将来时）：podr-、sabr-、querr-、habr-、cabr-",
+        "用法：过去的将来、委婉的请求、推测过去的情况、提建议。"
+      ],
+      "table": {
+        "head": [
+          "人称",
+          "hablar",
+          "vivir",
+          "tener（tendr-）"
+        ],
+        "rows": [
+          [
+            "yo",
+            "hablaría",
+            "viviría",
+            "tendría"
+          ],
+          [
+            "tú",
+            "hablarías",
+            "vivirías",
+            "tendrías"
+          ],
+          [
+            "él / ella / usted",
+            "hablaría",
+            "viviría",
+            "tendría"
+          ],
+          [
+            "nosotros, -as",
+            "hablaríamos",
+            "viviríamos",
+            "tendríamos"
+          ],
+          [
+            "vosotros, -as",
+            "hablaríais",
+            "viviríais",
+            "tendríais"
+          ],
+          [
+            "ellos / ustedes",
+            "hablarían",
+            "vivirían",
+            "tendrían"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Dijo que vendría al día siguiente.",
+          "他说他第二天会来。（过去的将来）"
+        ],
+        [
+          "¿Podría usted ayudarme?",
+          "您能帮帮我吗？（委婉）"
+        ],
+        [
+          "Serían las diez cuando llegaron.",
+          "他们到的时候大概十点钟。（推测）"
+        ],
+        [
+          "Yo que tú, no iría.",
+          "我要是你，就不去。（建议）"
+        ]
+      ]
+    },
+    {
+      "title": "被动语态：ser + 过去分词",
+      "points": [
+        "构成：ser + 过去分词，分词和主语性数一致；ser 可用各种时态。",
+        "施事者（动作的执行者）用前置词 por 引出，也可以不说出来。",
+        "自复被动句 se + 动词（第 2 课）：主语多是物，一般不带施事者。",
+        "口语多用主动句或自复被动句，ser 被动句多见于书面语和历史叙述。"
+      ],
+      "table": {
+        "head": [
+          "时态",
+          "la muralla",
+          "los barcos"
+        ],
+        "rows": [
+          [
+            "现在时",
+            "es destruida",
+            "son destruidos"
+          ],
+          [
+            "简单过去时",
+            "fue destruida",
+            "fueron destruidos"
+          ],
+          [
+            "过去未完成时",
+            "era destruida",
+            "eran destruidos"
+          ],
+          [
+            "将来未完成时",
+            "será destruida",
+            "serán destruidos"
+          ],
+          [
+            "现在完成时",
+            "ha sido destruida",
+            "han sido destruidos"
+          ],
+          [
+            "简单条件式",
+            "sería destruida",
+            "serían destruidos"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Troya fue destruida por los griegos.",
+          "特洛伊被希腊人摧毁了。"
+        ],
+        [
+          "El caballo fue construido en pocos días.",
+          "木马几天之内就造好了。"
+        ],
+        [
+          "Este libro ha sido traducido a muchas lenguas.",
+          "这本书已经被译成多种语言。"
+        ],
+        [
+          "Se construyó un caballo de madera.",
+          "造了一匹木马。（自复被动句）"
+        ]
+      ]
+    },
+    {
+      "title": "双重补语",
+      "points": [
+        "形容词（有时是名词）既说明动词，又说明主语的状态，叫双重补语。",
+        "形容词作双重补语，要和主语性数一致：Ella llegó cansada.",
+        "常和 llegar, volver, salir, vivir, dormir 等动词连用。",
+        "区别：第 10 课“直接宾语的补语”说明的是宾语，和宾语性数一致。"
+      ],
+      "examples": [
+        [
+          "Los soldados volvieron cansados a sus barcos.",
+          "士兵们疲惫地回到船上。"
+        ],
+        [
+          "Aquella noche los troyanos dormían tranquilos.",
+          "那天夜里，特洛伊人睡得很安稳。"
+        ],
+        [
+          "Encontraron abiertas las puertas de la ciudad.",
+          "他们发现城门开着。（对比：直接宾语的补语）"
+        ],
+        [
+          "Los soldados salieron silenciosos del caballo.",
+          "士兵们悄无声息地从木马里出来。"
+        ]
+      ]
+    },
+    {
+      "title": "副动词的用法：时间、方式、原因、条件",
+      "points": [
+        "时间：表示和主要动词同时发生的动作，相当于 cuando 从句。",
+        "方式：说明动作怎样进行，回答 ¿cómo?，一般放在动词后面。",
+        "原因：相当于 como 从句，常放在句首；条件：相当于 si 从句。",
+        "副动词没有性数变化，它的逻辑主语一般就是句子的主语。"
+      ],
+      "examples": [
+        [
+          "Volviendo a casa, me encontré con Ana.",
+          "我在回家的路上碰见了安娜。（时间）"
+        ],
+        [
+          "Los troyanos celebraron la victoria cantando.",
+          "特洛伊人唱着歌庆祝胜利。（方式）"
+        ],
+        [
+          "Estando enfermo, Juan no vino a clase.",
+          "胡安因为生病没来上课。（原因）"
+        ],
+        [
+          "Trabajando juntos, lo terminaremos pronto.",
+          "我们一起干的话，很快就能干完。（条件）"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "Tomaron el caballo por un regalo.",
+      "他们把木马当成了礼物。"
+    ],
+    [
+      "Por fin se decidió a hablar con el rey.",
+      "他终于下决心去和国王谈。"
+    ],
+    [
+      "Los soldados se dirigieron a la playa.",
+      "士兵们朝海边走去。"
+    ],
+    [
+      "El profesor se dirigió a los alumnos.",
+      "老师对学生们讲话。"
+    ],
+    [
+      "Los griegos se retiraron a sus barcos.",
+      "希腊人撤回到船上。"
+    ],
+    [
+      "Obtuvieron la victoria después de diez años.",
+      "十年之后他们取得了胜利。"
+    ],
+    [
+      "El niño se escondió detrás de la puerta.",
+      "孩子躲在门后。"
+    ],
+    [
+      "¿Podría decirme la hora, por favor?",
+      "请问您能告诉我几点了吗？"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "填空",
+      "q": "Él dijo que ______ (venir) a vernos al día siguiente.",
+      "a": "vendría"
+    },
+    {
+      "type": "填空",
+      "q": "¿______ (poder) usted cerrar la ventana, por favor?（用委婉语气）",
+      "a": "Podría"
+    },
+    {
+      "type": "改写",
+      "q": "Probablemente eran las once cuando volvió. → ______ las once cuando volvió.",
+      "a": "Serían las once cuando volvió."
+    },
+    {
+      "type": "改写",
+      "q": "Los griegos destruyeron Troya. → Troya ______.",
+      "a": "Troya fue destruida por los griegos."
+    },
+    {
+      "type": "选择",
+      "q": "Estas cartas ___ escritas por mi abuelo. (fue / fueron)",
+      "a": "fueron（主语 estas cartas 是复数）"
+    },
+    {
+      "type": "选择",
+      "q": "Las niñas volvieron muy ___ del parque. (cansado / cansadas)",
+      "a": "cansadas（和主语 las niñas 性数一致）"
+    },
+    {
+      "type": "翻译",
+      "q": "特洛伊人唱着歌庆祝胜利。（用副动词）",
+      "a": "Los troyanos celebraron la victoria cantando."
+    },
+    {
+      "type": "问答",
+      "q": "¿Por qué los troyanos llevaron el caballo a la ciudad?",
+      "a": "Porque lo tomaron por un regalo."
+    }
+  ],
+  "summary": [
+    "条件式 = 原形动词 + -ía 等，不规则词根同将来时。",
+    "条件式表示过去的将来、委婉、推测过去和建议。",
+    "ser + 过去分词构成被动句，分词性数一致，施事者用 por。",
+    "双重补语同时说明动词和主语，要和主语性数一致。",
+    "副动词可以表示时间、方式、原因和条件。"
+  ],
+  "homework": [
+    "用 8–10 句话复述特洛伊木马的故事，至少用三个被动句。",
+    "写出 hacer, decir, salir, poder 的条件式全部变位。",
+    "用条件式写三句委婉的请求和两条建议（Yo que tú…）。"
+  ],
+  "notes": {
+    "goals": "本课新语法多，建议条件式、被动语态各用一课时，双重补语和副动词作补充。条件式只讲单独使用的几种用法，不讲 si 引导的假设句（要用虚拟式过去时，本册不学）。",
+    "vocab": "obtener 按 tener 变位（obtuvo、obtendría）；dirigir、fingir 在 o、a 前 g 变 j（dirijo、finjo）；destruir 的变位要加 y（destruyo、destruyes…，简单过去时 destruyó、destruyeron）。tomar… por 是“误认为、当作”。",
+    "text": "先讲故事梗概，再让学生找出条件式（harían、sería）、被动句（fue construido、fue tomada y destruida）、副动词（luchando、viendo、bebiendo y cantando）、decidir + 原形动词和双重补语（salieron silenciosos）。",
+    "grammar": "条件式的不规则词根可直接对照将来时复习（har- 来自 hacer，dir- 来自 decir；hay 的条件式是 habría）。被动语态要强调分词随主语变性数，口语里更常用自复被动句。本课件把双重补语按说明主语的 complemento predicativo（同时说明动词和主语）来讲，并和第 10 课“直接宾语的补语”（说明宾语）对比区分。",
+    "exercises": "第 3 题是推测过去，用条件式代替 probablemente + 未完成时；第 5、6 题都考性数一致。"
+  }
+}

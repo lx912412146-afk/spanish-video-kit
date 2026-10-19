@@ -1,0 +1,188 @@
+{
+  "book": 2,
+  "lesson": 1,
+  "title_es": "En el hospital",
+  "title_zh": "在医院",
+  "goals": [
+    "分清简单过去时和过去未完成时的基本用法",
+    "掌握规则和不规则过去分词的构成",
+    "会把过去分词当形容词用，做到性数一致",
+    "能找出简单句的主语、谓语和补语",
+    "会用 quitarse、seguir、tocar 等词谈看病"
+  ],
+  "vocab": [
+    ["el baloncesto", "篮球"],
+    ["sudar", "出汗"],
+    ["resfriarse; el resfriado", "感冒，着凉；感冒"],
+    ["la fiebre", "发烧"],
+    ["el termómetro", "体温计"],
+    ["la garganta", "喉咙，嗓子"],
+    ["el pecho", "胸，胸口"],
+    ["toser", "咳嗽"],
+    ["doler (ue)", "疼，痛"],
+    ["tapado, tapada", "堵住的；盖着的"],
+    ["preocupado, preocupada", "担心的，不放心的"],
+    ["la inyección", "注射，打针"],
+    ["la pastilla", "药片"],
+    ["quitar(se)", "拿走，去掉；脱下"],
+    ["seguir (i)", "继续；仍然；跟随"],
+    ["tocar", "碰，摸；演奏；轮到"],
+    ["ir(se)", "去；离开，走掉"],
+    ["poner(se)", "放；穿上；变得"]
+  ],
+  "text": {
+    "title": "En el hospital",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "El sábado pasado jugué al baloncesto con unos compañeros.", "zh": "上星期六，我和几个同学打了篮球。"},
+      {"who": "", "es": "Hacía frío, pero yo estaba sudado y me quité la chaqueta.", "zh": "天很冷，可我一身是汗，就把外套脱了。"},
+      {"who": "", "es": "Por la noche me dolía la cabeza y tenía la nariz tapada.", "zh": "晚上我头疼，鼻子也堵了。"},
+      {"who": "", "es": "Al día siguiente seguía con fiebre y fui al hospital.", "zh": "第二天我还在发烧，就去了医院。"},
+      {"who": "", "es": "Había mucha gente y tuve que esperar casi una hora.", "zh": "医院里人很多，我等了将近一个小时。"},
+      {"who": "", "es": "Por fin me tocó a mí. El médico me preguntó qué me pasaba.", "zh": "终于轮到我了。医生问我哪儿不舒服。"},
+      {"who": "", "es": "Me puso el termómetro: tenía treinta y nueve grados.", "zh": "他给我量了体温：三十九度。"},
+      {"who": "", "es": "Luego me dijo: «Quítese la camisa, por favor».", "zh": "然后他说：“请把衬衫脱了。”"},
+      {"who": "", "es": "Me tocó el pecho y me miró la garganta, que estaba muy roja.", "zh": "他按了按我的胸口，又看了看我的嗓子，嗓子很红。"},
+      {"who": "", "es": "«Tiene usted un resfriado fuerte», me explicó.", "zh": "“您得了重感冒。”他对我解释说。"},
+      {"who": "", "es": "La enfermera me puso una inyección y me dio unas pastillas.", "zh": "护士给我打了一针，还给了我一些药片。"},
+      {"who": "", "es": "Después me fui a la residencia y me acosté enseguida.", "zh": "之后我离开医院回到宿舍，马上就躺下了。"},
+      {"who": "", "es": "Mi compañero de cuarto estaba preocupado y me preparó una sopa.", "zh": "室友很担心，给我做了一碗汤。"},
+      {"who": "", "es": "Ahora ya estoy bien, pero todavía toso un poco.", "zh": "现在我已经好了，只是还有点咳嗽。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "简单过去时和过去未完成时的区别（一）",
+      "points": [
+        "简单过去时讲“发生了什么”：已完成的动作，一个接一个推动情节。",
+        "过去未完成时讲“当时的情况”：天气、钟点、身体感觉、人和物的状态。",
+        "未完成时还表示过去的习惯：De niño me resfriaba mucho。",
+        "两者常一起用：未完成时铺背景，简单过去时讲背景下发生的事。"
+      ],
+      "table": {
+        "head": ["对比", "简单过去时", "过去未完成时"],
+        "rows": [
+          ["表示", "完成的动作、事件", "背景、描写、状态、习惯"],
+          ["常见时间词", "ayer, una vez", "antes, todos los días"],
+          ["例句", "Me quité la chaqueta.", "Hacía frío."],
+          ["例句", "Fui al hospital.", "Me dolía la cabeza."]
+        ]
+      },
+      "examples": [
+        ["Cuando salí del hospital, llovía mucho.", "我从医院出来的时候，雨下得很大。"],
+        ["Me dolía la garganta y no fui a clase.", "我嗓子疼，就没去上课。"],
+        ["Eran las diez cuando llegué al hospital.", "我到医院的时候是十点。"],
+        ["De niño me resfriaba casi todos los inviernos.", "我小时候几乎每年冬天都感冒。"]
+      ]
+    },
+    {
+      "title": "过去分词的构成",
+      "points": [
+        "规则：-ar 动词变 -ado，-er、-ir 动词变 -ido（comido）。",
+        "词根以 a、e、o 结尾的 -er、-ir 动词，í 带重音：leído、oído。",
+        "常用的不规则过去分词要单独记（见表）。",
+        "派生词照样变化：devolver → devuelto（volver）。"
+      ],
+      "table": {
+        "head": ["不定式", "过去分词", "不定式", "过去分词"],
+        "rows": [
+          ["hacer", "hecho", "abrir", "abierto"],
+          ["decir", "dicho", "volver", "vuelto"],
+          ["poner", "puesto", "morir", "muerto"],
+          ["escribir", "escrito", "ver", "visto"],
+          ["romper", "roto", "cubrir", "cubierto"]
+        ]
+      },
+      "examples": [
+        ["Todos los ejercicios están hechos.", "练习都做完了。"],
+        ["La farmacia está abierta hasta las nueve.", "药店开到九点。"],
+        ["En el suelo había un vaso roto.", "地上有一个打碎的杯子。"],
+        ["Las montañas estaban cubiertas de nieve.", "山上盖满了雪。"]
+      ]
+    },
+    {
+      "title": "过去分词用作形容词",
+      "points": [
+        "过去分词可以当形容词用，和名词性数一致：una carta escrita。",
+        "estar + 过去分词表示动作完成后的状态：La puerta está abierta。",
+        "也可作宾语补语：Tengo la nariz tapada。",
+        "不少分词已是常用形容词：cansado、sentado、preocupado。"
+      ],
+      "table": {
+        "head": ["性", "单数", "复数"],
+        "rows": [
+          ["阳性", "el libro abierto", "los libros abiertos"],
+          ["阴性", "la puerta abierta", "las puertas abiertas"]
+        ]
+      },
+      "examples": [
+        ["La puerta está abierta, pero las ventanas están cerradas.", "门开着，可窗户都关着。"],
+        ["Es un libro escrito en español.", "这是一本用西班牙语写的书。"],
+        ["Mis padres estaban muy preocupados.", "我父母那时很担心。"],
+        ["Cuando volví, la ventana estaba rota.", "我回来的时候，窗户已经破了。"]
+      ]
+    },
+    {
+      "title": "简单句的结构",
+      "points": [
+        "简单句只有一个谓语动词，由主语（sujeto）和谓语（predicado）构成。",
+        "主语和动词人称、数一致，常可省略；doler 句里疼的部位是主语。",
+        "谓语以动词为核心，可带宾语、状语等补语（c. = complemento）。",
+        "ser、estar 后面说明主语的名词、形容词叫表语（atributo）。"
+      ],
+      "table": {
+        "head": ["成分", "术语", "El médico me puso…"],
+        "rows": [
+          ["主语", "sujeto", "el médico"],
+          ["谓语动词", "verbo", "puso"],
+          ["直接宾语", "c. directo", "una inyección"],
+          ["间接宾语", "c. indirecto", "me"],
+          ["状语", "c. circunstancial", "ayer"]
+        ]
+      },
+      "examples": [
+        ["El médico me puso una inyección ayer.", "医生昨天给我打了一针。"],
+        ["Me duelen mucho los ojos.", "我眼睛疼得厉害。（主语是 los ojos）"],
+        ["Mi hermana está resfriada.", "我姐姐感冒了。（resfriada 是表语）"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Me duele la cabeza.", "我头疼。"],
+    ["tomar la temperatura a alguien", "给某人量体温"],
+    ["poner una inyección", "打针"],
+    ["quitarse la chaqueta / quitar la mesa", "脱下外套／收拾饭桌"],
+    ["seguir con fiebre / seguir a alguien", "还在发烧／跟着某人"],
+    ["tocar la guitarra / Te toca a ti.", "弹吉他／轮到你了。"],
+    ["ir a clase / irse a casa", "去上课／（离开这里）回家"],
+    ["ponerse el abrigo / ponerse rojo", "穿上大衣／脸红"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Cuando ______ (llegar, yo) al hospital, ______ (haber) mucha gente.", "a": "Cuando llegué al hospital, había mucha gente."},
+    {"type": "选择", "q": "___ las once cuando me acosté. (Fueron / Eran)", "a": "Eran las once cuando me acosté."},
+    {"type": "选择", "q": "De niño ___ al baloncesto todos los sábados. (jugué / jugaba)", "a": "De niño jugaba al baloncesto todos los sábados."},
+    {"type": "填空", "q": "Las ventanas están ______. (abrir)", "a": "Las ventanas están abiertas."},
+    {"type": "改写", "q": "用 estar + 过去分词说明现在的状态：Alguien rompió los vasos. → Los vasos…", "a": "Los vasos están rotos."},
+    {"type": "问答", "q": "Me duele mucho la garganta. 这句话的主语是什么？", "a": "主语是 la garganta（me 是间接宾语）。"},
+    {"type": "翻译", "q": "轮到你了，把外套脱了吧。", "a": "Te toca a ti. Quítate la chaqueta."},
+    {"type": "问答", "q": "Según el texto, ¿por qué se resfrió el chico?", "a": "Porque hacía frío y se quitó la chaqueta cuando estaba sudado."}
+  ],
+  "summary": [
+    "简单过去时：完成的动作；未完成时：背景、状态、习惯。",
+    "分词 -ado / -ido；hecho、dicho 等要单独记。",
+    "分词作形容词要性数一致：la puerta abierta。",
+    "简单句 = 主语 + 谓语；doler 句里疼的部位是主语。"
+  ],
+  "homework": [
+    "写出 cubrir、describir、devolver 的过去分词。",
+    "用两种过去时写 6 句话，讲讲你上次生病的经过。",
+    "用 seguir、tocar、ponerse 各造一个句子。"
+  ],
+  "notes": {
+    "goals": "本课在第一册第 21–22 课的基础上继续讲两种过去时，并引入过去分词。分词本课只当形容词用，不和 haber 连用（现在完成时第 13 课才学）。",
+    "vocab": "doler 的用法和 gustar 一样：Me duele la cabeza / Me duelen los ojos。ir 是“去”，irse 强调“离开原处”；ponerse 后接衣物是“穿上”，接形容词是“变得”（ponerse rojo、ponerse enfermo）。seguir + 副动词第 10 课才学，本课只讲 seguir + 形容词或 con + 名词。",
+    "text": "hacía frío、me dolía、seguía、había 等未完成时交代背景和状态，jugué、me quité、fui、me tocó 等简单过去时讲经过，可用两种颜色标出。请学生找出 sudado、tapada、preocupado 三个分词形容词，说出它们和谁性数一致。",
+    "grammar": "分词表可先让学生读不定式，再齐读分词。简单句的结构讲到能找出主语、谓语动词、宾语和状语即可，doler、gustar 类动词的主语是重点。",
+    "exercises": "第 2、3 题讲评时请学生说出理由（钟点用未完成时；todos los sábados 表示习惯）。第 6 题提醒：me 是间接宾语，la garganta 才是主语。"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "book": 2,
+  "lesson": 12,
+  "title_es": "La vida de Paloma",
+  "title_zh": "帕洛玛的生活",
+  "goals": [
+    "复习将来未完成时的变位和用法",
+    "复习虚拟式现在时在名词性从句里的用法",
+    "复习无人称句、数词、日期和副动词短语",
+    "掌握 exigir、cada vez más 等重点词汇",
+    "能谈论年轻人求学和求职的处境"
+  ],
+  "vocab": [
+    ["poder (ue)", "能，能够；可以"],
+    ["exigir (exijo)", "要求，强烈要求"],
+    ["cada vez más", "越来越（多）"],
+    ["presentar", "介绍；提交"],
+    ["presentarse a", "参加（考试、面试）"],
+    ["pagar (pagué)", "付（钱）"],
+    ["estar en condiciones de", "有条件（能够）做……"],
+    ["la carrera", "大学学业；职业"],
+    ["el máster", "硕士课程"],
+    ["el doctorado", "博士学位；博士课程"],
+    ["la tesis (pl. las tesis)", "学位论文"],
+    ["la competencia", "竞争"],
+    ["estar en paro", "失业"],
+    ["justo, ta", "公正的，合理的"],
+    ["mejorar", "改善，好转"],
+    ["la situación", "情况，形势"],
+    ["luchar", "奋斗；斗争"]
+  ],
+  "text": {
+    "title": "La vida de Paloma",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Paloma tiene veintiocho años y sigue estudiando en la universidad.", "zh": "帕洛玛二十八岁了，还在大学里读书。"},
+      {"who": "", "es": "Hace cinco años terminó la carrera de Economía.", "zh": "五年前她读完了经济学本科。"},
+      {"who": "", "es": "Se presentó a muchas entrevistas, pero estuvo un año en paro.", "zh": "她参加了很多次面试，可还是失业了一年。"},
+      {"who": "", "es": "La competencia es dura y las empresas exigen cada vez más.", "zh": "竞争很激烈，公司的要求越来越高。"},
+      {"who": "", "es": "Quieren que los candidatos hablen idiomas y tengan experiencia.", "zh": "它们要求应聘者会外语、有经验。"},
+      {"who": "", "es": "Por eso Paloma decidió hacer un máster y después el doctorado.", "zh": "所以帕洛玛决定先读硕士，再读博士。"},
+      {"who": "", "es": "Ahora lleva tres años preparando su tesis doctoral.", "zh": "现在她准备博士论文已经三年了。"},
+      {"who": "", "es": "Sus padres le pagan el piso: seiscientos euros al mes.", "zh": "父母替她付房租：每月六百欧元。"},
+      {"who": "", "es": "A Paloma no le gusta que sus padres paguen todo.", "zh": "帕洛玛不愿意什么都让父母掏钱。"},
+      {"who": "", "es": "Pero todavía no está en condiciones de vivir sola.", "zh": "可她现在还没有条件独立生活。"},
+      {"who": "", "es": "Se dice que la situación va a mejorar, pero ella lo duda.", "zh": "人们说形势会好转，可她并不相信。"},
+      {"who": "", "es": "En junio presentará su tesis y es posible que pueda dar clases.", "zh": "六月她将提交论文，也许能去教书。"},
+      {"who": "", "es": "«Seguiré luchando», dice Paloma, «y algún día encontraré trabajo».", "zh": "“我会继续努力，”帕洛玛说，“总有一天我会找到工作。”"},
+      {"who": "", "es": "Hoy cada vez más jóvenes viven como ella.", "zh": "如今，像她这样生活的年轻人越来越多。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "复习：将来未完成时（第 7、8 课）",
+      "points": [
+        "规则变位：原形动词 + -é, -ás, -á, -emos, -éis, -án。",
+        "不规则动词只变词根，词尾不变；另有 vendr-, pondr-, habr-。",
+        "表示将来的动作，常和 mañana, el año que viene 等连用。",
+        "表示对现在情况的推测：Serán las ocho. ¿Dónde estará?"
+      ],
+      "table": {
+        "head": ["原形", "词根", "yo", "ellos"],
+        "rows": [
+          ["tener", "tendr-", "tendré", "tendrán"],
+          ["poder", "podr-", "podré", "podrán"],
+          ["salir", "saldr-", "saldré", "saldrán"],
+          ["hacer", "har-", "haré", "harán"],
+          ["decir", "dir-", "diré", "dirán"],
+          ["querer", "querr-", "querré", "querrán"],
+          ["saber", "sabr-", "sabré", "sabrán"]
+        ]
+      },
+      "examples": [
+        ["El próximo año Paloma presentará su tesis.", "明年帕洛玛将提交论文。"],
+        ["¿Qué harás después de la carrera?", "大学毕业以后你打算做什么？"],
+        ["No contesta. Estará en la biblioteca.", "她不接电话，大概在图书馆吧。"]
+      ]
+    },
+    {
+      "title": "复习：虚拟式现在时在名词性从句里（第 9、10 课）",
+      "points": [
+        "愿望、请求、情感（querer, pedir, sentir）+ 虚拟式；同主语用原形。",
+        "es necesario / posible que… 等无人称句 + 虚拟式。",
+        "怀疑、否定（dudar, no creer）和允许、禁止（permitir）+ 虚拟式。",
+        "肯定事实（creer, es verdad que）用陈述式。"
+      ],
+      "table": {
+        "head": ["主句类型", "例句"],
+        "rows": [
+          ["愿望", "Espero que vengas."],
+          ["请求、命令", "Te pido que me ayudes."],
+          ["情感", "Siento que no vengas."],
+          ["必要、可能", "Es posible que nieve."],
+          ["怀疑、否定", "Dudo que llueva hoy."],
+          ["允许、禁止", "Te dejo que salgas."],
+          ["肯定（陈述式）", "Creo que es verdad."]
+        ]
+      },
+      "examples": [
+        ["Sus padres quieren que Paloma encuentre trabajo.", "她父母希望帕洛玛找到工作。"],
+        ["Es necesario que los jóvenes tengan experiencia.", "年轻人有必要积累经验。"],
+        ["No creo que la situación mejore pronto.", "我不认为形势很快会好转。"],
+        ["Es verdad que las empresas exigen mucho.", "公司的要求确实很高。"]
+      ]
+    },
+    {
+      "title": "复习：无人称句、数词和日期（第 11 课）",
+      "points": [
+        "无人称句：llueve, hay que, se vive, dicen que, uno。",
+        "百位数和名词性数一致：seiscientas personas；100 说 cien。",
+        "1000 不说 un mil，不变复数；年份：dos mil veinticinco。",
+        "日期：lunes, 3 de marzo；某年用 en，某天用 el。"
+      ],
+      "examples": [
+        ["Se dice que cada vez hay más jóvenes en paro.", "据说失业的年轻人越来越多。"],
+        ["El piso cuesta seiscientos euros al mes.", "这套房子每月租金六百欧元。"],
+        ["Paloma nació el 2 de abril de 1997.", "帕洛玛生于 1997 年 4 月 2 日。"]
+      ]
+    },
+    {
+      "title": "复习：ir / seguir / llevar + 副动词（第 8、10 课）",
+      "points": [
+        "ir + 副动词：动作逐渐发展：La situación va mejorando。",
+        "seguir + 副动词：继续做某事：Paloma sigue estudiando。",
+        "llevar + 时间 + 副动词：已经持续了多久。",
+        "不规则副动词：siguiendo, diciendo, leyendo, yendo。"
+      ],
+      "examples": [
+        ["La situación económica va mejorando poco a poco.", "经济形势在慢慢好转。"],
+        ["Paloma sigue preparando su tesis.", "帕洛玛还在准备论文。"],
+        ["¿Cuánto tiempo llevas buscando trabajo?", "你找工作找了多久了？"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["¿Se puede pasar? —Sí, pase.", "可以进来吗？——请进。"],
+    ["La empresa exige experiencia.", "公司要求有工作经验。"],
+    ["Es cada vez más difícil.", "越来越难了。"],
+    ["cada vez más jóvenes", "越来越多的年轻人"],
+    ["Te presento a mi amiga Paloma.", "给你介绍我的朋友帕洛玛。"],
+    ["presentarse a una entrevista", "参加面试"],
+    ["pagar el alquiler", "付房租"],
+    ["No estoy en condiciones de pagarlo.", "我没有能力付这笔钱。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "El año que viene Paloma ______ (poder) dar clases en la universidad.", "a": "podrá"},
+    {"type": "填空", "q": "Sus padres quieren que Paloma ______ (encontrar) trabajo pronto.", "a": "encuentre"},
+    {"type": "选择", "q": "No creo que la situación ___ pronto. (mejora / mejore / mejorará)", "a": "mejore（no creer 后用虚拟式）"},
+    {"type": "改写", "q": "Hace tres años que prepara la tesis. → Lleva ______.", "a": "Lleva tres años preparando la tesis."},
+    {"type": "选择", "q": "El piso cuesta ___ euros al mes. (seiscientos / seiscientas)", "a": "seiscientos（euro 是阳性）"},
+    {"type": "填空", "q": "Yo no les ______ (exigir) mucho a mis alumnos.", "a": "exijo（g 在 o 前变成 j）"},
+    {"type": "翻译", "q": "现在找工作越来越难了。（用 cada vez más）", "a": "Ahora es cada vez más difícil encontrar trabajo."},
+    {"type": "问答", "q": "¿Estás en condiciones de vivir solo? ¿Por qué?", "a": "（示例）No, todavía no estoy en condiciones de vivir solo: no trabajo."}
+  ],
+  "summary": [
+    "将来未完成时：原形 + 词尾；不规则的只变词根。",
+    "愿望、必要、怀疑、允许后的名词性从句用虚拟式。",
+    "creer、es verdad que 等表示肯定，用陈述式。",
+    "ir / seguir / llevar + 副动词表示渐进和持续。",
+    "会用 exigir、cada vez más 等重点词汇。"
+  ],
+  "homework": [
+    "用 8–10 句话复述 Paloma 的故事。",
+    "写一段短文：毕业以后你想做什么？用将来时和 Espero que…",
+    "用本课六个重点词汇各造一个句子。"
+  ],
+  "notes": {
+    "goals": "复习课不讲新语法，以课文复述和综合练习为主，检查学生对第 7–11 课的掌握情况。",
+    "vocab": "exigir 在 o, a 前 g → j（exijo, exija）；pagar 在 e 前 g → gu（pagué, pague）。presentar 是“介绍、提交”，presentarse a 是“参加（考试、面试）”。",
+    "text": "可让学生按“过去—现在—将来”三段复述 Paloma 的经历，顺带复习简单过去时、现在时和将来时；再找出课文里的虚拟式从句和副动词短语。",
+    "grammar": "四个复习点各配一两道口头练习即可；虚拟式部分仍只讲名词性从句，不引出状语从句里的虚拟式。",
+    "exercises": "第 3 题对比陈述式现在时、将来时和虚拟式；第 5 题提醒 euro 是阳性；第 6 题复习拼写变化。"
+  }
+}

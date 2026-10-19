@@ -1,0 +1,185 @@
+{
+  "book": 2,
+  "lesson": 14,
+  "title_es": "Prestaciones sociales",
+  "title_zh": "社会服务",
+  "goals": [
+    "分清现在完成时和简单过去时",
+    "了解西班牙和拉美完成时用法的差别",
+    "认识序数词 undécimo–milésimo",
+    "会用集合数词：un par de、una docena de",
+    "会用 no sólo… sino (que) también"
+  ],
+  "vocab": [
+    ["la prestación social", "社会服务；社会福利"],
+    ["prestar", "借给；提供（帮助等）"],
+    ["regresar", "回来，返回"],
+    ["cuidar (a, de)", "照顾，照料"],
+    ["cuidarse", "保重，注意身体"],
+    ["ocupar", "占据，占用"],
+    ["ocuparse de", "负责，照管"],
+    ["enterarse (de)", "得知，了解到"],
+    ["no sólo… sino también", "不仅……而且……"],
+    ["voluntario, voluntaria", "志愿者；自愿的"],
+    ["el anciano, la anciana", "老人"],
+    ["la residencia de ancianos", "养老院"],
+    ["solo, sola", "单独的，孤单的"],
+    ["el barrio", "街区，居民区"],
+    ["la compra", "（日常）购物"],
+    ["el par", "一对，一双"],
+    ["la docena", "一打（十二个）"],
+    ["el siglo", "世纪"]
+  ],
+  "text": {
+    "title": "Prestaciones sociales",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Marta, me he enterado de que eres voluntaria. ¿Es verdad?", "zh": "玛尔塔，我听说你当了志愿者，是真的吗？"},
+      {"who": "B", "es": "Sí. Este año he entrado en el grupo de voluntarios de la universidad.", "zh": "是的。今年我加入了学校的志愿者服务队。"},
+      {"who": "A", "es": "¿Y a quién ayudáis?", "zh": "那你们帮助哪些人呢？"},
+      {"who": "B", "es": "Nos ocupamos de los ancianos que viven solos en nuestro barrio.", "zh": "我们照管街区里独居的老人。"},
+      {"who": "B", "es": "Les hacemos la compra, les leemos el periódico y hablamos con ellos.", "zh": "帮他们买东西，给他们读报，陪他们聊天。"},
+      {"who": "A", "es": "¿Has ido a verlos esta semana?", "zh": "这个星期你去看过他们吗？"},
+      {"who": "B", "es": "Sí, dos veces. Ayer cuidé a la señora Gómez toda la tarde.", "zh": "去过两次。昨天我照顾了戈麦斯太太一下午。"},
+      {"who": "B", "es": "Tiene noventa años, vive sola en el piso doce y no puede salir.", "zh": "她九十岁了，一个人住在十二层，出不了门。"},
+      {"who": "B", "es": "Le llevé un par de kilos de naranjas y una docena de huevos.", "zh": "我给她带去了两公斤橙子和一打鸡蛋。"},
+      {"who": "A", "es": "¿Y a qué hora regresaste a casa?", "zh": "那你几点回的家？"},
+      {"who": "B", "es": "Regresé a las nueve, cansada pero muy contenta.", "zh": "九点才回来，累是累，可心里很高兴。"},
+      {"who": "A", "es": "¿Por qué haces este trabajo?", "zh": "你为什么做这件事呢？"},
+      {"who": "B", "es": "No sólo los ayudamos, sino que también aprendemos mucho de ellos.", "zh": "我们不仅帮助他们，而且从他们身上学到很多东西。"},
+      {"who": "A", "es": "¡Qué bien! Yo también quiero prestar ayuda. ¿Puedo ir con vosotros?", "zh": "太好了！我也想出一份力。我能和你们一起去吗？"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "现在完成时和简单过去时",
+      "points": [
+        "现在完成时：动作发生在包括现在的时段里（hoy、este año）。",
+        "简单过去时：动作发生在已经结束的时段里（ayer、el año pasado）。",
+        "问经历用完成时（¿Has estado…?），说出具体时间改用简单过去时。",
+        "没有时间词时，看说话人是否把这件事和现在联系起来。"
+      ],
+      "table": {
+        "head": ["现在完成时", "简单过去时"],
+        "rows": [
+          ["hoy", "ayer"],
+          ["esta mañana", "anoche"],
+          ["esta semana", "la semana pasada"],
+          ["este mes / este año", "el mes / el año pasado"],
+          ["ya, todavía no, nunca", "en 2020, hace dos días"],
+          ["alguna vez", "aquel día"]
+        ]
+      },
+      "examples": [
+        ["Este año he leído diez libros; el año pasado leí cinco.", "今年我读了十本书，去年读了五本。"],
+        ["Hoy me he levantado a las siete; ayer, a las ocho.", "今天我七点起床，昨天是八点。"],
+        ["¿Has estado alguna vez en México? —Sí, estuve allí en 2019.", "你去过墨西哥吗？——去过，2019 年去的。"]
+      ]
+    },
+    {
+      "title": "西班牙和拉美的用法差别",
+      "points": [
+        "西班牙大部分地区：当天发生的事常用现在完成时：Hoy he visto a Juan。",
+        "拉美大部分地区：已完成的动作多用简单过去时：Hoy vi a Juan。",
+        "拉美的现在完成时多指延续到现在或反复的事：Siempre he vivido aquí。",
+        "两种说法都正确；本课件的课文和练习以西班牙用法为准。"
+      ],
+      "examples": [
+        ["Hoy he visto a Juan. (España)", "今天我见到胡安了。（西班牙）"],
+        ["Hoy vi a Juan. (América Latina)", "今天我见到胡安了。（拉美）"],
+        ["¿Ya comiste? —Sí, ya comí. (México)", "你吃过饭了吗？——吃过了。（墨西哥）"],
+        ["¿Ya has comido? —Sí, ya he comido. (España)", "你吃过饭了吗？——吃过了。（西班牙）"]
+      ]
+    },
+    {
+      "title": "序数词 undécimo–milésimo",
+      "points": [
+        "11 undécimo，12 duodécimo，13–19 用 decimo + 个位。",
+        "21 以上个位分开写：vigésimo primero、trigésimo segundo。",
+        "十以上常用基数词，放在名词后：el piso doce、la lección quince。",
+        "王名、世纪十以上读基数词：Alfonso XIII（trece）、el siglo XXI。"
+      ],
+      "table": {
+        "head": ["数", "序数词", "数", "序数词"],
+        "rows": [
+          ["11", "undécimo", "40", "cuadragésimo"],
+          ["12", "duodécimo", "50", "quincuagésimo"],
+          ["13", "decimotercero", "60", "sexagésimo"],
+          ["14", "decimocuarto", "70", "septuagésimo"],
+          ["20", "vigésimo", "80", "octogésimo"],
+          ["21", "vigésimo primero", "90", "nonagésimo"],
+          ["30", "trigésimo", "100 / 1000", "centésimo / milésimo"]
+        ]
+      },
+      "examples": [
+        ["Es la vigésima vez que te llamo.", "这是我第二十次给你打电话了。"],
+        ["Estamos en el siglo XXI (veintiuno).", "我们生活在二十一世纪。"],
+        ["Alfonso XIII (trece) fue rey de España.", "阿方索十三世是西班牙国王。"],
+        ["Hoy estudiamos la lección quince.", "今天我们学第十五课。"]
+      ]
+    },
+    {
+      "title": "集合数词",
+      "points": [
+        "集合数词是名词；“一百来个”常说 un centenar，centena 多用于算术。",
+        "后面用 de 连接名词：una docena de huevos。",
+        "un par de 也泛指“两三个”：un par de días。",
+        "复数表示大量：decenas de、centenares de、miles de。"
+      ],
+      "table": {
+        "head": ["集合数词", "数量", "例子"],
+        "rows": [
+          ["un par", "2", "un par de zapatos"],
+          ["una decena", "10", "una decena de días"],
+          ["una docena", "12", "una docena de huevos"],
+          ["un centenar (centena)", "100", "un centenar de alumnos"],
+          ["un millar", "1000", "un millar de libros"]
+        ]
+      },
+      "examples": [
+        ["Compré una docena de huevos y un par de kilos de naranjas.", "我买了一打鸡蛋和两公斤橙子。"],
+        ["Vuelvo dentro de un par de días.", "我过两天就回来。"],
+        ["Decenas de estudiantes han prestado ayuda este año.", "今年有几十个学生提供了帮助。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["prestar ayuda / un servicio", "提供帮助／服务"],
+    ["regresar a casa", "回家"],
+    ["¡Cuídate mucho!", "多保重！"],
+    ["ocuparse de los niños", "照看孩子"],
+    ["¿Te has enterado de la noticia?", "你听说那个消息了吗？"],
+    ["Habla no sólo inglés, sino también español.", "他不仅会说英语，还会说西班牙语。"],
+    ["No sólo estudia, sino que también trabaja.", "他不仅学习，而且还工作（连接分句用 sino que）。"],
+    ["una docena de huevos", "一打鸡蛋"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "（按西班牙用法）Este año ___ en el grupo. (entré / he entrado)", "a": "Este año he entrado en el grupo."},
+    {"type": "填空", "q": "Ayer ______ (regresar, yo) tarde, pero hoy ______ (regresar) temprano.", "a": "Ayer regresé tarde, pero hoy he regresado temprano."},
+    {"type": "选择", "q": "Alfonso XIII se lee «Alfonso ___». (trece / decimotercero)", "a": "Alfonso XIII se lee «Alfonso trece»."},
+    {"type": "填空", "q": "Es la ______ vez que te lo digo. (20)", "a": "Es la vigésima vez que te lo digo."},
+    {"type": "填空", "q": "Compra ______ huevos para la tortilla.（用集合数词：12 个）", "a": "Compra una docena de huevos para la tortilla."},
+    {"type": "改写", "q": "用 no sólo… sino que también 合并：Marta estudia. Marta trabaja de voluntaria.", "a": "Marta no sólo estudia, sino que también trabaja de voluntaria."},
+    {"type": "翻译", "q": "我还没听说这个消息。", "a": "Todavía no me he enterado de la noticia."},
+    {"type": "问答", "q": "Según el texto, ¿qué le llevó Marta ayer a la señora Gómez?", "a": "Le llevó un par de kilos de naranjas y una docena de huevos."}
+  ],
+  "summary": [
+    "包括现在的时段用现在完成时，已结束的时段用简单过去时。",
+    "拉美多用简单过去时；课件以西班牙用法为准。",
+    "十以上的序数词常用基数词代替：el siglo veintiuno。",
+    "集合数词后接 de：una docena de huevos。",
+    "连接分句时用 no sólo… sino que también。"
+  ],
+  "homework": [
+    "用 este año、el año pasado 各写 3 句话，对比两种时态。",
+    "写出 11、12、15、20、30、100 的序数词。",
+    "用 6–8 句话写一次你帮助别人或做志愿者的经历。"
+  ],
+  "notes": {
+    "goals": "本课把现在完成时和简单过去时放在一起对比，判断的关键是时间词所指的时段是否包括说话的此刻。",
+    "vocab": "enterarse de 后接名词或 que 从句：Me he enterado de que…；ocuparse de 意为“负责、照管”。no sólo… sino también 第一册学过，本课补充：连接两个带变位动词的分句时用 sino que también。",
+    "text": "对话里两种时态交替出现：Este año he entrado、esta semana has ido 用完成时，Ayer cuidé、regresaste 用简单过去时，可让学生分两栏列出并圈出时间词。el piso doce 是十以上用基数词的例子。",
+    "grammar": "可补充：西班牙西北部（加利西亚、阿斯图里亚斯）和加那利群岛也多用简单过去时。11 以上的序数词只要求认得，会用 vigésimo、centésimo、milésimo 即可。centena 多见于算术（unidades、decenas、centenas 个、十、百位），日常说“一百来个”用 un centenar，复数 centenares de。",
+    "exercises": "第 1 题注明按西班牙用法，因为拉美说 entré 也对。第 3 题提醒王名十以上读基数词。第 6 题连接两个分句，要用 sino que。"
+  }
+}

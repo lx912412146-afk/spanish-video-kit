@@ -1,0 +1,188 @@
+{
+  "book": 2,
+  "lesson": 3,
+  "title_es": "No hagas eso",
+  "title_zh": "别那样做",
+  "goals": [
+    "掌握虚拟式现在时的规则和常见不规则变位",
+    "会用否定命令式，注意代词的位置",
+    "掌握副动词的构成和 estar + 副动词",
+    "会构成 -mente 副词，掌握 o 变 u",
+    "能用否定命令式提出礼仪方面的建议"
+  ],
+  "vocab": [
+    ["la costumbre", "习惯；风俗"],
+    ["el consejo", "建议，劝告"],
+    ["la educación", "教育；礼貌"],
+    ["maleducado, maleducada", "没有礼貌的"],
+    ["el beso", "吻"],
+    ["el regalo", "礼物"],
+    ["la botella", "瓶子"],
+    ["nervioso, nerviosa", "紧张的"],
+    ["el ruido", "噪音，响声"],
+    ["puntual", "准时的，守时的"],
+    ["normalmente", "通常，一般"],
+    ["tranquilamente", "平静地，从容地"],
+    ["ganar", "挣（钱）；赢"],
+    ["considerar(se)", "认为；考虑；自认为"],
+    ["hablar", "说话；谈论"],
+    ["creer", "相信；认为"],
+    ["recordar (ue)", "记得；提醒"],
+    ["acabar de + inf.", "刚刚（做完某事）"]
+  ],
+  "text": {
+    "title": "No hagas eso",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Profesora, acabo de comprar el billete para Madrid.", "zh": "老师，我刚买好去马德里的机票。"},
+      {"who": "B", "es": "¡Qué bien! ¿Quieres unos consejos sobre las costumbres de allí?", "zh": "太好了！想听听关于那边风俗习惯的建议吗？"},
+      {"who": "A", "es": "Sí, por favor. No quiero parecer maleducado.", "zh": "好的，麻烦您了。我可不想显得没礼貌。"},
+      {"who": "B", "es": "Allí muchas personas se saludan con dos besos. No te pongas nervioso.", "zh": "在那儿，很多人见面时互相亲两下脸颊。你别紧张。"},
+      {"who": "A", "es": "¿Y si un amigo me invita a su casa?", "zh": "要是有朋友请我去他家呢？"},
+      {"who": "B", "es": "Lleva unas flores, una botella de vino u otro regalo pequeño.", "zh": "带一束花、一瓶葡萄酒或者别的小礼物。"},
+      {"who": "B", "es": "Y si te dan un regalo, no lo guardes: ábrelo delante de ellos.", "zh": "要是别人送你礼物，别收起来，要当面打开。"},
+      {"who": "A", "es": "¿A qué hora se cena allí?", "zh": "那边几点吃晚饭？"},
+      {"who": "B", "es": "Normalmente a las nueve o a las diez. No llegues demasiado pronto.", "zh": "一般九点或十点。别去得太早。"},
+      {"who": "A", "es": "¿Y puedo llamar a la gente después de comer?", "zh": "吃过午饭以后可以给别人打电话吗？"},
+      {"who": "B", "es": "Mejor no. A esa hora mucha gente está descansando.", "zh": "最好别打。那个时候很多人正在休息。"},
+      {"who": "B", "es": "No preguntes a nadie cuánto gana: se considera de mala educación.", "zh": "别问人家挣多少钱，那被认为是没礼貌的。"},
+      {"who": "A", "es": "Creo que lo entiendo. Muchas gracias; lo voy a recordar todo.", "zh": "我想我明白了。非常感谢，这些我都会记住的。"},
+      {"who": "B", "es": "De nada. No te preocupes y habla tranquilamente con la gente.", "zh": "不客气。别担心，放松地跟人交谈就好。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "否定命令式（一）：虚拟式现在时的规则变位",
+      "points": [
+        "否定命令式 = no + 虚拟式现在时，用于 tú、usted、vosotros 等人称。",
+        "规则变位：-ar 动词词尾换成 e，-er、-ir 动词词尾换成 a。",
+        "-car、-gar、-zar 写成 -que、-gue、-ce：no toques。",
+        "代词放在变位动词前：no lo abras，no te sientes。"
+      ],
+      "table": {
+        "head": ["人称", "hablar", "comer", "vivir"],
+        "rows": [
+          ["yo", "hable", "coma", "viva"],
+          ["tú", "hables", "comas", "vivas"],
+          ["él / ella / usted", "hable", "coma", "viva"],
+          ["nosotros, -as", "hablemos", "comamos", "vivamos"],
+          ["vosotros, -as", "habléis", "comáis", "viváis"],
+          ["ellos/ellas/ustedes", "hablen", "coman", "vivan"]
+        ]
+      },
+      "examples": [
+        ["No hables tan alto, por favor.", "请别这么大声说话。"],
+        ["No comáis en clase.", "你们别在课堂上吃东西。"],
+        ["No toques eso.", "别碰那个。"],
+        ["No me llames después de las diez.", "十点以后别给我打电话。"]
+      ]
+    },
+    {
+      "title": "否定命令式（二）：不规则动词",
+      "points": [
+        "多数不规则动词以现在时 yo 形为词根：tengo → no tengas。",
+        "ser、ir、estar、dar、saber 不按这个规律，要单独记（见表）。",
+        "词根变化的 -ar、-er 动词复数一、二人称不变：no os sentéis。",
+        "-ir 词根变化动词这两个人称变 i 或 u：no pidáis，no durmáis。"
+      ],
+      "table": {
+        "head": ["不定式", "no + tú", "no + usted", "no + vosotros"],
+        "rows": [
+          ["hacer (hago)", "no hagas", "no haga", "no hagáis"],
+          ["decir (digo)", "no digas", "no diga", "no digáis"],
+          ["ser", "no seas", "no sea", "no seáis"],
+          ["ir", "no vayas", "no vaya", "no vayáis"],
+          ["estar", "no estés", "no esté", "no estéis"],
+          ["dar", "no des", "no dé", "no deis"],
+          ["saber", "no sepas", "no sepa", "no sepáis"]
+        ]
+      },
+      "examples": [
+        ["No lo hagas, por favor.", "请别这样做。"],
+        ["No se preocupe, señora.", "您别担心，女士。"],
+        ["No os sentéis ahí: esas sillas están rotas.", "你们别坐那儿，那几把椅子坏了。"],
+        ["No le digas nada a Ana.", "什么也别告诉安娜。"]
+      ]
+    },
+    {
+      "title": "副动词的构成和 estar + 副动词",
+      "points": [
+        "规则：-ar → -ando，-er、-ir → -iendo：comiendo。",
+        "-er、-ir 词干以元音结尾写成 -yendo：leyendo、oyendo、yendo。",
+        "-ir 词根变化动词 e → i、o → u：pidiendo、durmiendo。",
+        "estar + 副动词表示正在做；代词放 estar 前，或接在副动词后。"
+      ],
+      "table": {
+        "head": ["不定式", "副动词", "不定式", "副动词"],
+        "rows": [
+          ["hablar", "hablando", "leer", "leyendo"],
+          ["comer", "comiendo", "ir", "yendo"],
+          ["vivir", "viviendo", "oír", "oyendo"],
+          ["decir", "diciendo", "dormir", "durmiendo"],
+          ["pedir", "pidiendo", "venir", "viniendo"],
+          ["poder", "pudiendo", "traer", "trayendo"]
+        ]
+      },
+      "examples": [
+        ["¿Qué estás haciendo? —Estoy leyendo.", "你在做什么？——我在看书。"],
+        ["Los niños están durmiendo; no hagáis ruido.", "孩子们在睡觉，你们别出声。"],
+        ["Me estoy vistiendo. / Estoy vistiéndome.", "我正在穿衣服。"],
+        ["Cuando llamaste, estábamos cenando.", "你打电话来的时候，我们正在吃晚饭。"]
+      ]
+    },
+    {
+      "title": "以 -mente 结尾的副词；o 的变体 u",
+      "points": [
+        "阴性单数形容词 + -mente：rápida → rápidamente。",
+        "无阴阳变化的形容词直接加；重音符号都保留：fácilmente。",
+        "两个副词并列时，前一个省去 -mente：lenta y claramente。",
+        "选择连词 o 在 o-、ho- 开头的词前变成 u：siete u ocho。"
+      ],
+      "examples": [
+        ["Normalmente cenamos a las nueve.", "我们一般九点吃晚饭。"],
+        ["Hable lenta y claramente, por favor.", "请您说得慢一点、清楚一点。"],
+        ["Vinieron siete u ocho amigos.", "来了七八个朋友。"],
+        ["¿Quieres este libro u otro?", "你要这本书还是别的？"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["hablar alto / hablar bajo", "大声说话／小声说话"],
+    ["hablar de algo con alguien", "跟某人谈某事"],
+    ["Creo que sí. / Creo que no.", "我想是的。／我想不是。"],
+    ["No recuerdo su nombre.", "我不记得他的名字了。"],
+    ["Recuérdamelo mañana.", "明天提醒我一下。"],
+    ["Se considera de mala educación.", "这被认为是没礼貌的。"],
+    ["Me considero una persona puntual.", "我认为自己是个守时的人。"],
+    ["Acabo de llegar. / Acababa de salir.", "我刚到。／（那时）我刚出门。"]
+  ],
+  "exercises": [
+    {"type": "改写", "q": "改成否定命令式：Ábrelo.", "a": "No lo abras."},
+    {"type": "改写", "q": "改成否定命令式：Sentaos aquí.", "a": "No os sentéis aquí."},
+    {"type": "填空", "q": "No ______ (hacer, tú) ruido: el niño está durmiendo.", "a": "No hagas ruido: el niño está durmiendo."},
+    {"type": "选择", "q": "Señora, no ___ la ventana, por favor. (abra / abre)", "a": "Señora, no abra la ventana, por favor."},
+    {"type": "填空", "q": "Yo estoy ______ (leer) y mi hermano está ______ (dormir).", "a": "Yo estoy leyendo y mi hermano está durmiendo."},
+    {"type": "选择", "q": "Vinieron siete ___ ocho invitados. (o / u)", "a": "Vinieron siete u ocho invitados."},
+    {"type": "填空", "q": "Lo hizo ______. (fácil)", "a": "Lo hizo fácilmente."},
+    {"type": "翻译", "q": "别担心，我刚到。（对 tú 说）", "a": "No te preocupes, acabo de llegar."}
+  ],
+  "summary": [
+    "否定命令式：no + 虚拟式现在时，代词放在动词前。",
+    "-ar 换 e，-er / -ir 换 a；不规则多看 yo 形。",
+    "sea、vaya、esté、dé、sepa 要单独记。",
+    "-ando / -iendo；estar + 副动词表示正在做。",
+    "阴性形容词 + -mente；o 在 o-、ho- 前变 u。"
+  ],
+  "homework": [
+    "写出 decir、ir、dormir 否定命令式的五个人称。",
+    "给来中国的外国朋友写 6 条“不要……”的建议。",
+    "用 estar + 副动词写 5 句话，说说家人此刻在做什么。"
+  ],
+  "notes": {
+    "goals": "本课第一次接触虚拟式，但只用于否定命令式；虚拟式用在从句里要到第 9 课。学生已会 usted、ustedes 的肯定命令式（hable、coma、haga），它们和虚拟式同形，可由此引入。",
+    "vocab": "acabar de + 不定式表示“刚刚”，现在时（acabo de llegar）和未完成时（acababa de salir）都常用。recordar 是 o → ue 词根变化动词：no lo recuerdo；recordar algo a alguien 是“提醒”。",
+    "text": "请学生找出课文里所有的否定命令式，并说出对应的肯定形式（no lo guardes ↔ guárdalo）。第 11 句是 estar + 副动词，第 6 句是 u，第 9、14 句有 -mente 副词。",
+    "grammar": "强调代词位置：肯定命令式代词接在动词后，否定命令式代词放在动词前。副动词本课只用于 estar + 副动词，其他用法第 4、5 课再讲。y → e 第一册已学，可和 o → u 对比。",
+    "exercises": "第 2 题注意 sentarse 的 vosotros 形词根不变：no os sentéis。第 4 题对 usted 说话，用虚拟式 abra。"
+  }
+}

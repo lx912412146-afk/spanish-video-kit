@@ -1,0 +1,183 @@
+{
+  "book": 2,
+  "lesson": 6,
+  "title_es": "Un hombre y su libro",
+  "title_zh": "一个人和他的书",
+  "goals": [
+    "复习两种过去时，能用它们讲故事",
+    "复习 ser / estar 和过去分词作形容词",
+    "复习副动词、否定命令式和自复被动句",
+    "掌握 encontrar(se) 等六个重点词",
+    "能复述课文里的笑话并改编结尾"
+  ],
+  "vocab": [
+    ["encontrar(se) (ue)", "找到；（con）碰见"],
+    ["bueno, na", "好的；善良的"],
+    ["malo, la", "坏的；（estar）病了"],
+    ["necesitar", "需要"],
+    ["preocupar(se) (por)", "使担心；（se）担心"],
+    ["detrás (de)", "在（……）后面"],
+    ["grueso, sa", "厚的"],
+    ["consultar", "查阅；请教"],
+    ["el caso", "情况；事例"],
+    ["el capítulo", "章"],
+    ["la página", "页"],
+    ["el paraguas", "雨伞"],
+    ["el vecino, la vecina", "邻居"],
+    ["el saludo", "问候，打招呼"],
+    ["acercarse (a)", "走近，靠近"],
+    ["quitar", "拿走，夺走"]
+  ],
+  "text": {
+    "title": "Un hombre y su libro",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "El señor Gómez tenía un libro muy grueso: «Qué hacer en cada caso».", "zh": "戈麦斯先生有一本很厚的书，叫《遇事该怎么办》。"},
+      {"who": "", "es": "Siempre lo llevaba consigo y no hacía nada sin consultarlo.", "zh": "他总是随身带着它，不查这本书什么也不做。"},
+      {"who": "", "es": "Si llovía, buscaba el capítulo «Lluvia» y leía: «Abra el paraguas».", "zh": "下雨了，他就翻到“雨”那一章，读道：“请打开雨伞。”"},
+      {"who": "", "es": "Si se encontraba con un vecino, buscaba la página de los saludos.", "zh": "碰见邻居，他就去找讲打招呼的那一页。"},
+      {"who": "", "es": "Un día, paseando por el parque, oyó un ruido detrás de él.", "zh": "有一天，他在公园散步，听见身后有响动。"},
+      {"who": "", "es": "Era un perro muy grande que se acercaba corriendo.", "zh": "是一条大狗，正朝他跑过来。"},
+      {"who": "", "es": "El señor Gómez no se preocupó: abrió el libro por la página «Perros».", "zh": "戈麦斯先生并不慌张：他把书翻到了“狗”那一页。"},
+      {"who": "", "es": "«Si el perro es bueno, no se preocupe. Si es malo, no corra».", "zh": "“狗若温顺，不必担心；狗若凶恶，切勿奔跑。”"},
+      {"who": "", "es": "Mientras leía, el perro le quitó el libro y se lo llevó.", "zh": "他正读着，狗一把叼走了书，跑掉了。"},
+      {"who": "", "es": "El pobre hombre se quedó allí, sin saber qué hacer.", "zh": "这个可怜的人呆在原地，不知道该怎么办。"},
+      {"who": "", "es": "Unos niños que lo observaban se acercaron y le preguntaron:", "zh": "几个一直看着他的孩子走过来问他："},
+      {"who": "", "es": "—Señor, ¿necesita usted ayuda?", "zh": "“先生，您需要帮忙吗？”"},
+      {"who": "", "es": "—Sí, por favor. ¿Dónde se venden libros como el mío?", "zh": "“是的，劳驾。哪儿有卖我这种书的？”"},
+      {"who": "", "es": "—¡Sin él no sé ni cómo volver a casa! —añadió.", "zh": "“没有它，我连怎么回家都不知道！”他又说。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "复习：简单过去时和过去未完成时",
+      "points": [
+        "简单过去时：叙述已经完成的动作和事件，推动情节：oyó、abrió。",
+        "过去未完成时：描写背景、状态和过去的习惯：tenía、llevaba。",
+        "正在进行的动作用未完成时，打断它的动作用简单过去时。",
+        "un día、de pronto 常配简单过去时；siempre 常配未完成时。"
+      ],
+      "examples": [
+        ["Siempre llevaba el libro consigo.", "他总是随身带着那本书。"],
+        ["Un día oyó un ruido detrás de él.", "有一天，他听见身后有响动。"],
+        ["Mientras leía, el perro le quitó el libro.", "他正读着，狗把书叼走了。"],
+        ["Si llovía, abría el paraguas.", "那时一下雨，他就打开伞。"]
+      ]
+    },
+    {
+      "title": "复习：ser 和 estar；过去分词作形容词",
+      "points": [
+        "ser 表示身份、本质、特征，以及事件举行的地点和时间。",
+        "estar 表示人和物的位置，以及暂时的状态。",
+        "bueno、malo 等形容词和 ser、estar 连用，意思不同（见下表）。",
+        "estar + 过去分词表示结果状态，分词与主语性数一致。"
+      ],
+      "table": {
+        "head": ["形容词", "ser + 形容词", "estar + 形容词"],
+        "rows": [
+          ["bueno", "好的；善良的", "身体好；（食物）好吃"],
+          ["malo", "坏的；凶的", "病了；（食物）难吃、变质"],
+          ["listo", "聪明的", "准备好了"],
+          ["aburrido", "（令人）乏味的", "（感到）无聊的"]
+        ]
+      },
+      "examples": [
+        ["Ese perro no es malo, pero hoy está malo.", "那条狗并不凶，只是今天病了。"],
+        ["La fiesta es en casa de Ana; Ana está en la cocina.", "晚会在安娜家开；安娜在厨房里。"],
+        ["Esta sopa está muy buena.", "这汤真好喝。"],
+        ["La tienda está cerrada.", "商店关门了。"]
+      ]
+    },
+    {
+      "title": "复习：副动词和过去分词",
+      "points": [
+        "副动词表示伴随动作（Salió cantando）或方式（Aprende leyendo）。",
+        "estar + 副动词表示正在进行：Estaba leyendo.",
+        "过去分词作状语表示状态，要性数一致；副动词没有性数变化。",
+        "代词连写在副动词后，要加重音：leyéndolo、acercándose。"
+      ],
+      "table": {
+        "head": ["不定式", "副动词", "过去分词"],
+        "rows": [
+          ["leer", "leyendo", "leído"],
+          ["decir", "diciendo", "dicho"],
+          ["dormir", "durmiendo", "dormido"],
+          ["abrir", "abriendo", "abierto"],
+          ["ver", "viendo", "visto"],
+          ["poner", "poniendo", "puesto"],
+          ["volver", "volviendo", "vuelto"]
+        ]
+      },
+      "examples": [
+        ["Paseando por el parque, oyó un ruido.", "他在公园散步时听见了响动。"],
+        ["El perro se acercaba corriendo.", "那条狗跑着过来了。"],
+        ["Volvió a casa muy preocupado.", "他忧心忡忡地回了家。"],
+        ["Los niños lo observaban riéndose.", "孩子们一边看着他，一边笑。"]
+      ]
+    },
+    {
+      "title": "复习：否定命令式；自复被动句",
+      "points": [
+        "否定命令式 = no + 虚拟式现在时，代词放在动词前：No te preocupes.",
+        "以 yo 的现在时为基础：-ar 动词换 -e，-er、-ir 动词换 -a。",
+        "自复被动句：se + 第三人称动词，动词与主语（常在后面）数一致。",
+        "比较：Se venden libros（被动）；Se vive bien（无人称）。"
+      ],
+      "table": {
+        "head": ["人称", "preocuparse", "correr", "salir"],
+        "rows": [
+          ["tú", "no te preocupes", "no corras", "no salgas"],
+          ["usted", "no se preocupe", "no corra", "no salga"],
+          ["nosotros", "no nos preocupemos", "no corramos", "no salgamos"],
+          ["vosotros", "no os preocupéis", "no corráis", "no salgáis"],
+          ["ustedes", "no se preocupen", "no corran", "no salgan"]
+        ]
+      },
+      "examples": [
+        ["No se preocupe: el perro no es malo.", "您别担心，这条狗不凶。"],
+        ["No corras, que el suelo está mojado.", "别跑，地上湿着呢。"],
+        ["¿Dónde se venden estos libros?", "这种书在哪儿有卖？"],
+        ["En esta tienda se habla español.", "这家店里讲西班牙语。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["No encuentro mis llaves.", "我找不到钥匙了。"],
+    ["Me encontré con Ana en la calle.", "我在街上碰见了安娜。"],
+    ["un buen libro / un mal día", "一本好书／倒霉的一天"],
+    ["Hoy estoy malo.", "我今天病了。"],
+    ["¿Necesitas ayuda?", "你需要帮忙吗？"],
+    ["No te preocupes.", "别担心。"],
+    ["Me preocupa el examen.", "我担心考试。"],
+    ["detrás de la puerta", "在门后面"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Cuando ___ niño, vivía en el campo. (era / fui)", "a": "era（描写过去的状态）"},
+    {"type": "填空", "q": "Yo ______ (leer) cuando el perro ______ (llegar).", "a": "leía; llegó"},
+    {"type": "选择", "q": "Hoy no voy a clase porque ___ malo. (soy / estoy)", "a": "estoy（estar malo 表示生病）"},
+    {"type": "改写", "q": "Preocúpate. → No ______.", "a": "No te preocupes."},
+    {"type": "填空", "q": "En esta tienda ______ (se + vender) periódicos extranjeros.", "a": "se venden"},
+    {"type": "改写", "q": "Paseaba por el parque y vio a un amigo. → ______ por el parque, vio a un amigo.", "a": "Paseando por el parque, vio a un amigo."},
+    {"type": "翻译", "q": "昨天我在图书馆碰见了玛丽亚，她跟我一起吃了饭。", "a": "Ayer me encontré con María en la biblioteca y comió conmigo."},
+    {"type": "问答", "q": "¿Qué llevaba siempre consigo el señor Gómez?", "a": "Llevaba siempre consigo un libro muy grueso."}
+  ],
+  "summary": [
+    "简单过去时讲事件，未完成时讲背景、状态和习惯。",
+    "ser 讲本质和事件地点，estar 讲位置和状态。",
+    "副动词表示伴随和方式；分词表示状态，要性数一致。",
+    "否定命令式 = no + 虚拟式现在时，代词放在动词前。",
+    "bueno、malo 在阳性单数名词前变成 buen、mal。"
+  ],
+  "homework": [
+    "用两种过去时写一个 8–10 句的小笑话或小故事。",
+    "给课文换个结尾，至少用一个否定命令式和一个副动词。",
+    "用 encontrarse con、preocuparse 各造两句。"
+  ],
+  "notes": {
+    "goals": "复习课没有新语法，以课文为线索复习第 1–5 课：两种过去时、ser / estar、过去分词、副动词、否定命令式、自复被动句、代词式动词和前置词代词。",
+    "vocab": "bueno、malo 在阳性单数名词前去掉 -o（un buen libro、un mal día）。preocupar 用法同 gustar（Me preocupa el examen），preocuparse por 是“为……担心”；encontrar 是“找到”，encontrarse con 是“碰见”。",
+    "text": "按“习惯（未完成时）—事件（简单过去时）—笑点”三段讲。让学生找出 paseando、corriendo、no se preocupe、no corra、se venden、consigo，说出各属于哪一课的语法。",
+    "grammar": "复习以对比为主：两种过去时、ser / estar、副动词 / 过去分词、肯定 / 否定命令式、被动 se / 无人称 se。第 4 课的复合句和第 5 课的代词式动词可结合课文和练习复习。",
+    "exercises": "第 3 题 ser malo 是“坏、凶”，estar malo 是“生病”；第 6 题副动词的主语必须和主句主语一致；第 7 题注意 con + yo = conmigo。"
+  }
+}

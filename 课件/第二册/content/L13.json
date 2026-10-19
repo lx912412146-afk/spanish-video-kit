@@ -1,0 +1,195 @@
+{
+  "book": 2,
+  "lesson": 13,
+  "title_es": "Una carta",
+  "title_zh": "一封信",
+  "goals": [
+    "掌握现在完成时的构成：haber + 过去分词",
+    "记住常用的不规则过去分词和代词的位置",
+    "会用现在完成时讲包括现在的时段里的事",
+    "会用相对最高级：el / la más + 形容词 + de",
+    "掌握序数词 primero–décimo 及其省略"
+  ],
+  "vocab": [
+    ["la carta", "信"],
+    ["querido, querida", "亲爱的"],
+    ["durar", "持续，延续"],
+    ["usar", "使用"],
+    ["tratar de + inf.", "设法，尽力（做）"],
+    ["contar (ue)", "讲述；数，计算"],
+    ["enviar", "寄，发送"],
+    ["despedirse (i) (de)", "告别，辞别"],
+    ["el carácter chino", "汉字"],
+    ["el tono", "声调；语气"],
+    ["el idioma", "语言"],
+    ["el pato asado", "烤鸭"],
+    ["la Gran Muralla", "长城"],
+    ["el compañero de cuarto", "室友"],
+    ["la excursión", "远足，游览"],
+    ["todavía", "还，仍然"],
+    ["alguna vez", "（问经历）曾经"],
+    ["el abrazo", "拥抱"]
+  ],
+  "text": {
+    "title": "Una carta",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Pekín, 20 de septiembre", "zh": "9 月 20 日，于北京"},
+      {"who": "", "es": "Querida Ana:", "zh": "亲爱的安娜："},
+      {"who": "", "es": "Ya llevo dos semanas en Pekín. ¡Es mi primer viaje a Asia!", "zh": "我来北京已经两个星期了。这是我第一次来亚洲！"},
+      {"who": "", "es": "Esta semana he empezado las clases de chino en la universidad.", "zh": "这个星期我在大学开始上汉语课了。"},
+      {"who": "", "es": "Las clases duran cuatro horas y ya hemos terminado la tercera lección.", "zh": "每次课上四个小时，我们已经学完了第三课。"},
+      {"who": "", "es": "Los primeros días no entendí nada, pero ahora entiendo un poco más.", "zh": "头几天我什么也听不懂，现在能听懂一些了。"},
+      {"who": "", "es": "Para mí, los tonos son la parte más difícil del idioma.", "zh": "对我来说，声调是这门语言最难的部分。"},
+      {"who": "", "es": "Todavía no he aprendido a escribir bien los caracteres chinos.", "zh": "我还没学会把汉字写好。"},
+      {"who": "", "es": "Trato de usar el chino todos los días con mi compañero de cuarto.", "zh": "我每天都尽量和室友说汉语。"},
+      {"who": "", "es": "Hoy he comido pato asado por primera vez. ¡Es el mejor plato de Pekín!", "zh": "今天我第一次吃了烤鸭，真是北京最好吃的菜！"},
+      {"who": "", "es": "Este fin de semana hemos subido a la Gran Muralla con la clase.", "zh": "这个周末我们全班去爬了长城。"},
+      {"who": "", "es": "Te envío unas fotos. ¿Has estado tú alguna vez en Asia?", "zh": "随信寄给你几张照片。你来过亚洲吗？"},
+      {"who": "", "es": "Me despido ya. Escríbeme y cuéntame qué has hecho este verano.", "zh": "就写到这里吧。给我回信，讲讲你这个夏天都做了什么。"},
+      {"who": "", "es": "Un abrazo muy fuerte, Pablo", "zh": "紧紧拥抱你。巴勃罗"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "现在完成时的构成",
+      "points": [
+        "构成：助动词 haber 的现在时 + 过去分词。",
+        "规则分词：-ar 动词 → -ado，-er、-ir 动词 → -ido。",
+        "完成时里分词不变，永远以 -o 结尾：Ella ha llegado。",
+        "代词和 no 放在 haber 前，不能插在中间：No lo he visto。"
+      ],
+      "table": {
+        "head": ["人称", "haber", "hablar", "levantarse"],
+        "rows": [
+          ["yo", "he", "he hablado", "me he levantado"],
+          ["tú", "has", "has hablado", "te has levantado"],
+          ["él / ella / usted", "ha", "ha hablado", "se ha levantado"],
+          ["nosotros, -as", "hemos", "hemos hablado", "nos hemos levantado"],
+          ["vosotros, -as", "habéis", "habéis hablado", "os habéis levantado"],
+          ["ellos/ellas/ustedes", "han", "han hablado", "se han levantado"]
+        ]
+      },
+      "examples": [
+        ["He terminado los deberes.", "我做完作业了。"],
+        ["Nos hemos levantado muy temprano.", "我们起得很早。"],
+        ["¿Has visto a Pedro hoy? —No, no lo he visto.", "你今天见到佩德罗了吗？——没有，没见到。"]
+      ]
+    },
+    {
+      "title": "现在完成时的用法；不规则分词",
+      "points": [
+        "用于包括现在的时段：hoy、esta semana、este año。",
+        "表示到现在为止的经历：alguna vez、nunca、ya、todavía no。",
+        "过去的动作与现在有联系：He perdido la llave（现在还没找到）。",
+        "本册第 1 课的不规则分词照样用；leer、oír 的分词带重音。"
+      ],
+      "table": {
+        "head": ["不定式", "过去分词", "不定式", "过去分词"],
+        "rows": [
+          ["hacer", "hecho", "abrir", "abierto"],
+          ["decir", "dicho", "escribir", "escrito"],
+          ["ver", "visto", "poner", "puesto"],
+          ["volver", "vuelto", "morir", "muerto"],
+          ["romper", "roto", "descubrir", "descubierto"],
+          ["leer", "leído", "oír", "oído"],
+          ["traer", "traído", "creer", "creído"]
+        ]
+      },
+      "examples": [
+        ["Hoy he recibido una carta de mi madre.", "今天我收到了妈妈的一封信。"],
+        ["¿Has estado alguna vez en Shanghái? —No, nunca.", "你去过上海吗？——没有，从来没去过。"],
+        ["Todavía no he hecho los ejercicios.", "我还没做练习。"],
+        ["Ya hemos vuelto a casa.", "我们已经回到家了。"]
+      ]
+    },
+    {
+      "title": "形容词的相对最高级",
+      "points": [
+        "构成：定冠词 +（名词）+ más / menos + 形容词 + de + 范围。",
+        "冠词、形容词与名词性数一致：las calles más anchas。",
+        "特殊形式：el mejor、el peor、el mayor（年龄最大）、el menor。",
+        "mejor、peor 常放在名词前：el mejor amigo；范围也可用 que 从句。"
+      ],
+      "table": {
+        "head": ["形容词", "比较级", "相对最高级"],
+        "rows": [
+          ["bueno", "mejor", "el / la mejor"],
+          ["malo", "peor", "el / la peor"],
+          ["grande（年龄）", "mayor", "el / la mayor"],
+          ["pequeño（年龄）", "menor", "el / la menor"]
+        ]
+      },
+      "examples": [
+        ["Lucía es la más alta de la clase.", "露西娅是班上个子最高的。"],
+        ["El Yangtsé es el río más largo de China.", "长江是中国最长的河。"],
+        ["Juan es el mayor de los tres hermanos.", "胡安是三兄弟中最大的。"],
+        ["Es el mejor libro que he leído este año.", "这是我今年读过的最好的书。"]
+      ]
+    },
+    {
+      "title": "序数词 primero–décimo",
+      "points": [
+        "序数词与名词性数一致：la tercera vez、los primeros días。",
+        "primero、tercero 在阳性单数名词前变成 primer、tercer。",
+        "一般放在名词前；可省略名词：Ana es la primera de la clase。",
+        "国王、教皇名字后的数字十以内读序数词：Felipe II（segundo）。"
+      ],
+      "table": {
+        "head": ["第几", "序数词", "第几", "序数词"],
+        "rows": [
+          ["1", "primero (primer)", "6", "sexto"],
+          ["2", "segundo", "7", "séptimo"],
+          ["3", "tercero (tercer)", "8", "octavo"],
+          ["4", "cuarto", "9", "noveno"],
+          ["5", "quinto", "10", "décimo"]
+        ]
+      },
+      "examples": [
+        ["Enero es el primer mes del año.", "一月是一年中的第一个月。"],
+        ["Es la primera vez que vengo a China.", "这是我第一次来中国。"],
+        ["Hoy es el tercer día del curso.", "今天是这门课的第三天。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Querido Juan: / Querida Ana:", "亲爱的胡安：／亲爱的安娜："],
+    ["Un abrazo (muy fuerte).", "（紧紧地）拥抱你。（信尾用语）"],
+    ["Trato de hablar chino cada día.", "我每天都尽量说汉语。"],
+    ["Te envío unas fotos.", "寄给你几张照片。"],
+    ["Cuéntame qué has hecho.", "跟我讲讲你都做了些什么。"],
+    ["La clase dura dos horas.", "这节课上两个小时。"],
+    ["¿Puedo usar tu diccionario?", "我能用一下你的词典吗？"],
+    ["Ya me he despedido de mis padres.", "我已经和父母道过别了。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "（现在完成时）Esta semana nosotros ______ (levantarse) muy temprano.", "a": "Esta semana nosotros nos hemos levantado muy temprano."},
+    {"type": "填空", "q": "（现在完成时）¿______ (ver, tú) alguna vez una película china?", "a": "¿Has visto alguna vez una película china?"},
+    {"type": "选择", "q": "¿Quién ha ___ la ventana? (abrido / abierto)", "a": "¿Quién ha abierto la ventana?"},
+    {"type": "改写", "q": "用宾格代词改写：Ya he escrito la carta.", "a": "Ya la he escrito."},
+    {"type": "填空", "q": "Pedro es ___ ___ alto ___ la clase.（他是全班最高的）", "a": "Pedro es el más alto de la clase."},
+    {"type": "选择", "q": "Mañana es el ___ día del viaje. (tercero / tercer)", "a": "Mañana es el tercer día del viaje."},
+    {"type": "翻译", "q": "这是我读过的最好的书。", "a": "Es el mejor libro que he leído."},
+    {"type": "问答", "q": "Según la carta, ¿qué ha comido Pablo hoy por primera vez?", "a": "Ha comido pato asado."}
+  ],
+  "summary": [
+    "现在完成时 = haber 的现在时 + 过去分词（词尾不变）。",
+    "代词和 no 放在 haber 前：No lo he visto。",
+    "用于包括现在的时段和到现在为止的经历。",
+    "相对最高级：el / la más + 形容词 + de。",
+    "序数词性数一致；primer、tercer 用在阳性单数名词前。"
+  ],
+  "homework": [
+    "写出 10 个不规则过去分词，并各造一个完成时句子。",
+    "用现在完成时写 5 句话，说说你这个星期做了什么。",
+    "仿照课文给朋友写一封 10 句左右的信，讲讲最近的生活。",
+    "用相对最高级介绍你们班的三位同学。"
+  ],
+  "notes": {
+    "goals": "本课进入复合时态。现在完成时先抓两点：时段包括现在、到现在为止的经历；和简单过去时的系统对比放在第 14 课。",
+    "vocab": "enviar 变位时 i 重读并带重音：envío、envías、envía（nosotros、vosotros 除外）；contar 是 o→ue，despedirse 是 e→i。carácter 的复数是 caracteres，重音后移，不带重音符号。",
+    "text": "这是一封私人信件：开头 Querida Ana 后用冒号，结尾用 Un abrazo。可让学生找出所有现在完成时和相应的时间词（esta semana、hoy、este fin de semana、alguna vez）；第 6 句 Los primeros días 用简单过去时，可先点一下。",
+    "grammar": "强调 haber 和分词是一个整体，中间不能插入代词或 no。完成时里的分词不和主语性数一致（Ella ha llegado），这和第 1 课分词作形容词（la puerta está abierta）不同。",
+    "exercises": "第 3 题考不规则分词 abierto；第 5 题注意 de 引出范围，不能用 en；第 6 题考 tercer 的省略。"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "book": 2,
+  "lesson": 8,
+  "title_es": "¿Qué haremos?",
+  "title_zh": "我们将来做什么？",
+  "goals": [
+    "会用将来时表示对现在情况的推测",
+    "掌握 ir + 副动词表示动作逐渐发展",
+    "掌握中性冠词 lo + 形容词的用法",
+    "会用中性代词 lo 和 lo que",
+    "能用西语谈论自己将来想做的工作"
+  ],
+  "vocab": [
+    ["interesar(se)", "使感兴趣；（对…）感兴趣"],
+    ["preferir", "更喜欢，宁愿"],
+    ["dar", "给；作（讲座）；举办（晚会）"],
+    ["aprender", "学习；学会"],
+    ["seguro, segura", "确信的；可靠的"],
+    ["hacer falta", "需要"],
+    ["el comercio exterior", "对外贸易"],
+    ["la diplomacia", "外交"],
+    ["diplomático, diplomática", "外交官；外交的"],
+    ["la empresa", "公司，企业"],
+    ["la conferencia", "讲座；会议"],
+    ["la lengua extranjera", "外语"],
+    ["el futuro", "将来，未来"],
+    ["la carrera", "大学学业；职业"],
+    ["traductor, traductora", "笔译员，翻译"],
+    ["poco a poco", "逐渐地，慢慢地"]
+  ],
+  "text": {
+    "title": "¿Qué haremos?",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Oye, Li Ming, ¿qué haremos al terminar la carrera?", "zh": "喂，李明，大学毕业以后我们做什么呢？"},
+      {"who": "B", "es": "No lo sé todavía. A mí me interesa mucho el comercio exterior.", "zh": "我还不知道。我对外贸很感兴趣。"},
+      {"who": "A", "es": "Pues yo prefiero la diplomacia. Quiero trabajar en una embajada.", "zh": "我呢，更喜欢外交。我想在大使馆工作。"},
+      {"who": "B", "es": "Lo bueno de ese trabajo es que conocerás muchos países.", "zh": "那份工作的好处是你能去很多国家。"},
+      {"who": "A", "es": "Sí, pero lo difícil es aprender bien otras lenguas y culturas.", "zh": "是啊，可难的是学好别的语言和文化。"},
+      {"who": "B", "es": "Para eso hará falta estudiar mucho más.", "zh": "那就得更加努力学习才行。"},
+      {"who": "A", "es": "Ya lo creo. Pero poco a poco voy entendiendo mejor a los profesores.", "zh": "那当然。不过老师讲的话我渐渐能听懂了。"},
+      {"who": "B", "es": "Yo también. Y el español me va gustando cada día más.", "zh": "我也是。而且我越来越喜欢西班牙语了。"},
+      {"who": "A", "es": "Por cierto, esta tarde el profesor Zhang dará una conferencia.", "zh": "对了，今天下午张老师要做一个讲座。"},
+      {"who": "B", "es": "¿Sobre el comercio exterior? Seguro que será muy interesante.", "zh": "是讲外贸的吗？肯定很有意思。"},
+      {"who": "A", "es": "Sí. Oye, ¿qué hora será ahora?", "zh": "对。哎，现在几点了？"},
+      {"who": "B", "es": "Serán las dos y media. ¡Vamos ya, que habrá mucha gente!", "zh": "大概两点半了。快走吧，那儿肯定人很多！"},
+      {"who": "A", "es": "Tienes razón. Lo importante es llegar a tiempo.", "zh": "你说得对。最要紧的是准时到。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "将来未完成时（二）：表示推测",
+      "points": [
+        "将来时可以表示对现在情况的推测，相当于“大概、可能”。",
+        "常用于 ser、estar、tener、haber：Serán las ocho。",
+        "问句里表示疑惑、猜测：¿Qué hora será? ¿Dónde estará Ana?",
+        "注意：这是推测“现在”，不是说将来的事。"
+      ],
+      "table": {
+        "head": ["确定（现在时）", "推测（将来时）", "意思"],
+        "rows": [
+          ["Son las ocho.", "Serán las ocho.", "大概八点了"],
+          ["Está enfermo.", "Estará enfermo.", "他大概病了"],
+          ["Tiene veinte años.", "Tendrá veinte años.", "他大概二十岁"],
+          ["Hay mucha gente.", "Habrá mucha gente.", "大概有很多人"],
+          ["¿Quién es?", "¿Quién será?", "会是谁呢？"]
+        ]
+      },
+      "examples": [
+        ["¿Qué hora será? —Serán las ocho.", "现在几点了？——大概八点吧。"],
+        ["Luis no viene hoy. Estará enfermo.", "路易斯今天不来，大概是病了。"],
+        ["¿Dónde estará mi diccionario?", "我的词典会在哪儿呢？"],
+        ["Esa chica tendrá unos veinte años.", "那个姑娘大概二十岁左右。"]
+      ]
+    },
+    {
+      "title": "动词短语 ir + 副动词",
+      "points": [
+        "ir（各种时态）+ 副动词，表示动作逐渐进行、慢慢发展。",
+        "常和 poco a poco、cada día más 等连用。",
+        "estar + 副动词表示“正在”；ir + 副动词强调“渐渐地”。",
+        "代词放 ir 前或副动词后：Lo voy leyendo / Voy leyéndolo。"
+      ],
+      "examples": [
+        ["Voy entendiendo poco a poco la gramática.", "语法我渐渐弄懂了。"],
+        ["El español me va interesando cada día más.", "我对西班牙语越来越感兴趣。"],
+        ["Los alumnos iban saliendo de la clase.", "学生们陆续走出教室。"],
+        ["Poco a poco iremos aprendiendo.", "我们会一点点学会的。"]
+      ]
+    },
+    {
+      "title": "小品词 lo（一）：中性冠词",
+      "points": [
+        "lo + 形容词（阳性单数形式），表示抽象的“……的东西、……的事”。",
+        "常见：lo bueno、lo malo、lo importante、lo mejor。",
+        "lo + 形容词常作主语，动词用单数：Lo importante es aprender。",
+        "lo 本身没有性数变化，后面的形容词用阳性单数。"
+      ],
+      "examples": [
+        ["Lo importante es aprender bien la lengua.", "重要的是学好语言。"],
+        ["Lo bueno de este trabajo es que se viaja mucho.", "这份工作的好处是常出差。"],
+        ["Lo difícil es la pronunciación.", "难的是发音。"],
+        ["Lo mejor es preguntar al profesor.", "最好是问老师。"]
+      ]
+    },
+    {
+      "title": "小品词 lo（二）：中性代词和 lo que",
+      "points": [
+        "中性代词 lo 指代前面说的一件事或一句话：—¿Se marcha? —No lo sé。",
+        "lo 作表语，不变性数：—¿Estás cansada? —Sí, lo estoy。",
+        "固定说法：Ya lo creo（当然）；No lo sé；Lo siento。",
+        "lo que 意为“……的事情、……的东西”：Lo que dices es verdad。"
+      ],
+      "examples": [
+        ["¿Es usted médico? —Sí, lo soy.", "您是医生吗？——是的，我是。"],
+        ["¿Vendrá Ana mañana? —No lo sé.", "安娜明天来吗？——不知道。"],
+        ["¿Te interesa la diplomacia? —¡Ya lo creo!", "你对外交感兴趣吗？——当然啦！"],
+        ["No entiendo lo que dice el profesor.", "我听不懂老师说的话。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["interesarse por algo", "对……感兴趣"],
+    ["preferir A a B", "比起 B 更喜欢 A"],
+    ["dar una conferencia", "作讲座"],
+    ["aprender a + 不定式", "学做……"],
+    ["estar seguro de algo", "确信……"],
+    ["Seguro que…", "肯定……"],
+    ["hacer falta + 不定式", "需要做……"],
+    ["¡Ya lo creo!", "当然啦！"]
+  ],
+  "exercises": [
+    {"type": "改写", "q": "用将来时表示推测：Probablemente son las nueve.", "a": "Serán las nueve."},
+    {"type": "改写", "q": "用将来时表示推测：Creo que Luis está enfermo.", "a": "Luis estará enfermo."},
+    {"type": "填空", "q": "用将来时表推测：（有人敲门）¿Quién ___ (ser)? —___ (ser) mi hermano.", "a": "¿Quién será? —Será mi hermano."},
+    {"type": "填空", "q": "用现在时：Poco a poco yo ______ (ir + entender) la gramática.", "a": "Poco a poco yo voy entendiendo la gramática."},
+    {"type": "选择", "q": "___ importante es llegar a tiempo. (El / Lo)", "a": "Lo importante es llegar a tiempo."},
+    {"type": "选择", "q": "¿Estás cansada? —Sí, ___ estoy. (la / lo)", "a": "Sí, lo estoy."},
+    {"type": "翻译", "q": "用 lo que 翻译：你说的是真的。", "a": "Lo que dices es verdad."},
+    {"type": "问答", "q": "Según el texto, ¿qué le interesa a Li Ming?", "a": "Le interesa mucho el comercio exterior."}
+  ],
+  "summary": [
+    "将来时表推测：Serán las ocho（大概八点了）。",
+    "ir + 副动词：动作逐渐发展，常配 poco a poco。",
+    "lo + 形容词：lo bueno、lo importante 等。",
+    "中性代词 lo 指代一件事或作表语：Lo sé；Lo soy。",
+    "lo que 意为“……的事情、……的东西”。"
+  ],
+  "homework": [
+    "同学今天没来上课，用将来时写出 3 种推测。",
+    "用 ir + 副动词写 3 句话，谈你学西语的进步。",
+    "用 lo bueno、lo difícil 各写一句，谈你理想的职业。"
+  ],
+  "notes": {
+    "goals": "本课是将来时的第二课，新内容是推测用法；ir + 副动词和小品词 lo 都是高频结构，要多练。",
+    "vocab": "interesar 的用法同 gustar（Me interesa…），interesarse por 是代词式，主语是人。hacer falta 也可接名词：Me hace falta un diccionario。",
+    "text": "第 2、4、5、7、13 句有 lo；第 7、8 句是 ir + 副动词；第 11、12 句的将来时表示推测，可与第 1、4、9 句表示将来的用法对比。",
+    "grammar": "推测用法可用中文“大概、可能”对照，并强调推测的是现在。lo 的两种身份（冠词、代词）分开讲，最后用 lo que 收尾。",
+    "exercises": "第 6 题考中性 lo 作表语：主语是阴性也用 lo，不用 la。第 7 题也可答 Lo que dices es cierto。"
+  }
+}

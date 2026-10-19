@@ -1,0 +1,172 @@
+{
+  "book": 2,
+  "lesson": 18,
+  "title_es": "El inca Atahualpa",
+  "title_zh": "印加王阿塔瓦尔帕",
+  "goals": [
+    "复习现在完成时、简单过去时和过去完成时",
+    "复习简单条件式和 ser 被动语态",
+    "复习原形动词的主要用法",
+    "掌握 recibir、aceptar 等六个重点词",
+    "能用多种时态讲述阿塔瓦尔帕的故事"
+  ],
+  "vocab": [
+    ["recibir", "收到；接待，迎接"],
+    ["aceptar", "接受，同意"],
+    ["encargar", "委托，托付；订购"],
+    ["encargarse de", "负责，承担"],
+    ["mantener(se)", "保持；维持"],
+    ["darse cuenta de", "发觉，意识到"],
+    ["preparar(se)", "准备"],
+    ["el inca", "印加人；印加王"],
+    ["el imperio", "帝国"],
+    ["conquistar", "征服"],
+    ["el oro", "金子"],
+    ["la plata", "银子"],
+    ["la sala", "大厅；房间"],
+    ["capturar", "抓获，俘虏"],
+    ["prometer", "答应，许诺"],
+    ["la libertad", "自由"],
+    ["condenar a muerte", "判处死刑"],
+    ["la capital", "首都"]
+  ],
+  "text": {
+    "title": "El inca Atahualpa",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Esta mañana hemos visitado Cajamarca, en el norte de Perú.", "zh": "今天上午我们参观了秘鲁北部的卡哈马卡。"},
+      {"who": "", "es": "Allí el guía nos ha contado la historia del inca Atahualpa.", "zh": "导游在那里给我们讲了印加王阿塔瓦尔帕的故事。"},
+      {"who": "", "es": "En 1532 Atahualpa acababa de ganar una guerra contra su hermano.", "zh": "1532 年，阿塔瓦尔帕刚刚在和兄弟的战争中获胜。"},
+      {"who": "", "es": "Ese año Francisco Pizarro se dirigió a Cajamarca con unos 170 hombres.", "zh": "那一年，弗朗西斯科·皮萨罗带着约 170 人前往卡哈马卡。"},
+      {"who": "", "es": "El inca aceptó recibir a los españoles en Cajamarca.", "zh": "印加王同意在卡哈马卡接见西班牙人。"},
+      {"who": "", "es": "Pizarro ya se había preparado: había escondido a sus hombres.", "zh": "皮萨罗早已做好准备：他把手下藏了起来。"},
+      {"who": "", "es": "Al llegar a la plaza, Atahualpa fue capturado por los españoles.", "zh": "阿塔瓦尔帕一到广场，就被西班牙人抓住了。"},
+      {"who": "", "es": "Pronto se dio cuenta de que los extranjeros querían oro.", "zh": "他很快发觉这些外国人想要的是金子。"},
+      {"who": "", "es": "Prometió que llenaría una sala de oro a cambio de su libertad.", "zh": "他答应用金子装满一间屋子，来换取自由。"},
+      {"who": "", "es": "Pizarro aceptó. Durante meses llegaron oro y plata de todo el imperio.", "zh": "皮萨罗同意了，几个月里金银从帝国各地运来。"},
+      {"who": "", "es": "Pero, cuando la sala estuvo llena, no lo dejaron libre.", "zh": "可是屋子装满以后，他们并没有放他。"},
+      {"who": "", "es": "En 1533 Atahualpa fue condenado a muerte por los españoles.", "zh": "1533 年，阿塔瓦尔帕被西班牙人判处死刑。"},
+      {"who": "", "es": "Después, Pizarro se encargó de conquistar Cuzco, la capital.", "zh": "后来，皮萨罗又负责攻占了首都库斯科。"},
+      {"who": "", "es": "Hoy aquella sala todavía se mantiene en pie, y la hemos visto.", "zh": "那间屋子至今仍然矗立着，我们今天亲眼看到了。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "复习：现在完成时和简单过去时（第 13–14 课）",
+      "points": [
+        "现在完成时 haber + 过去分词：动作发生在包括现在的时间里，或和现在有关。",
+        "常和 hoy, esta mañana, ya, todavía no, nunca 连用。",
+        "简单过去时：动作发生在已经结束的过去时间里，如 ayer, en 1532。",
+        "拉美很多地区口语里多用简单过去时，现在完成时用得较少。"
+      ],
+      "table": {
+        "head": ["比较", "现在完成时", "简单过去时"],
+        "rows": [
+          ["构成", "haber + 过去分词", "单一变位形式"],
+          ["时间", "包括现在的时间段", "已经结束的过去"],
+          ["常用词", "hoy, este año, ya", "ayer, en 1532"],
+          ["例句", "Hoy he visto la sala.", "Ayer vi la sala."]
+        ]
+      },
+      "examples": [
+        ["Esta mañana hemos visitado Cajamarca.", "今天上午我们参观了卡哈马卡。"],
+        ["En 1532 Pizarro llegó a Perú.", "1532 年皮萨罗来到秘鲁。"],
+        ["¿Has estado alguna vez en Perú? —No, nunca.", "你去过秘鲁吗？——从来没去过。"]
+      ]
+    },
+    {
+      "title": "复习：过去完成时（第 15 课）",
+      "points": [
+        "构成：haber 的过去未完成时（había, habías…）+ 过去分词。",
+        "表示过去某一时刻或动作之前已经完成的动作，即“过去的过去”。",
+        "叙述中常用来补叙更早发生的事，常和 ya, todavía no, nunca 连用。",
+        "间接引语里，原句的现在完成时、简单过去时常改为过去完成时。"
+      ],
+      "table": {
+        "head": ["人称", "现在完成时", "过去完成时"],
+        "rows": [
+          ["yo", "he visitado", "había visitado"],
+          ["tú", "has visitado", "habías visitado"],
+          ["él / ella / usted", "ha visitado", "había visitado"],
+          ["nosotros, -as", "hemos visitado", "habíamos visitado"],
+          ["vosotros, -as", "habéis visitado", "habíais visitado"],
+          ["ellos / ustedes", "han visitado", "habían visitado"]
+        ]
+      },
+      "examples": [
+        ["Cuando llegó el inca, Pizarro ya se había preparado.", "印加王到的时候，皮萨罗早已准备好了。"],
+        ["Los españoles nunca habían visto tanto oro.", "西班牙人从没见过这么多金子。"],
+        ["Ana me dijo que había visitado Cuzco.", "安娜跟我说她去过库斯科。"]
+      ]
+    },
+    {
+      "title": "复习：简单条件式和被动语态（第 16 课）",
+      "points": [
+        "条件式：原形 + -ía 等，表示过去的将来、委婉、推测过去、建议。",
+        "不规则词根同将来时：tendr-, saldr-, podr-, har-, dir-…",
+        "被动语态：ser + 过去分词（和主语性数一致），施事者用 por 引出。",
+        "不说施事者、主语是物时，口语多用自复被动句：Se vendió el oro."
+      ],
+      "examples": [
+        ["Atahualpa prometió que llenaría una sala de oro.", "阿塔瓦尔帕答应用金子装满一间屋子。"],
+        ["¿Podría usted repetir la fecha, por favor?", "请您再说一遍日期好吗？"],
+        ["Atahualpa fue capturado por los españoles.", "阿塔瓦尔帕被西班牙人俘虏了。"],
+        ["La ciudad de Cuzco fue conquistada en 1533.", "库斯科城于 1533 年被攻占。"]
+      ]
+    },
+    {
+      "title": "复习：原形动词的用法（第 17 课）",
+      "points": [
+        "原形动词可作名词：Viajar es aprender.",
+        "前置词后一律用原形：sin, para, antes de, después de 等。",
+        "al + 原形动词 表示“……的时候”，主语一般和主句相同。",
+        "动词 + 原形：deber, poder, conseguir, aceptar 等。"
+      ],
+      "examples": [
+        ["Al llegar a la plaza, el inca fue capturado.", "印加王一到广场就被抓住了。"],
+        ["Atahualpa aceptó recibir a los españoles.", "阿塔瓦尔帕同意接见西班牙人。"],
+        ["Pizarro se encargó de conquistar Cuzco.", "皮萨罗负责攻占库斯科。"],
+        ["Se fue sin decir nada.", "他一句话没说就走了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Los profesores nos recibieron con alegría.", "老师们高兴地接待了我们。"],
+    ["Acepto tu invitación con mucho gusto.", "我很乐意接受你的邀请。"],
+    ["El jefe me ha encargado este trabajo.", "老板把这项工作交给了我。"],
+    ["Yo me encargo de las bebidas.", "饮料由我负责。"],
+    ["Se mantuvo tranquilo todo el tiempo.", "他始终保持镇静。"],
+    ["Me di cuenta de que era muy tarde.", "我发觉已经很晚了。"],
+    ["Nos estamos preparando para el examen.", "我们正在准备考试。"],
+    ["He recibido tu carta esta mañana.", "我今天上午收到了你的信。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Ayer mi hermano y yo ___ al museo. (hemos ido / fuimos)", "a": "fuimos（ayer 是已经结束的过去时间）"},
+    {"type": "填空", "q": "Cuando llegamos al cine, la película ya ______ (empezar).", "a": "había empezado"},
+    {"type": "填空", "q": "Atahualpa prometió que ______ (dar) mucho oro a los españoles.", "a": "daría"},
+    {"type": "改写", "q": "Los españoles capturaron al inca. → El inca ______.", "a": "El inca fue capturado por los españoles."},
+    {"type": "改写", "q": "Cuando vio el oro, Pizarro se puso contento. → ______ el oro, …", "a": "Al ver el oro, Pizarro se puso contento."},
+    {"type": "填空", "q": "Al salir de casa, me di ______ de que no tenía las llaves.", "a": "cuenta"},
+    {"type": "翻译", "q": "我来负责准备晚饭。（用 encargarse de）", "a": "Yo me encargo de preparar la cena."},
+    {"type": "问答", "q": "¿Qué prometió Atahualpa a cambio de su libertad?", "a": "Prometió que llenaría una sala de oro."}
+  ],
+  "summary": [
+    "现在完成时和现在有关，简单过去时指已经结束的过去。",
+    "过去完成时表示“过去的过去”，用来补叙更早的事。",
+    "条件式表示过去的将来；被动句：ser + 过去分词 + por。",
+    "原形动词可作名词，也跟在前置词和 aceptar 等动词后。",
+    "本课六个重点词都要会用：recibir, aceptar…"
+  ],
+  "homework": [
+    "用 10 句话复述阿塔瓦尔帕的故事，用上本课六个重点词。",
+    "写一段话，用 Hoy he… 和 Ayer… 对比两种时态。",
+    "把课文中的两个被动句改成主动句。"
+  ],
+  "notes": {
+    "goals": "本课是复习课，没有新语法；建议用课文串联第 13–17 课的时态和句型，重点放在叙述中几种过去时态的配合。",
+    "vocab": "mantener 按 tener 变位（mantengo、mantuvo、mantén）；encargar 在 e 前 g 变 gu（encargué）；darse cuenta de 后接名词或 que 从句，de 不能省。",
+    "text": "史实：1532 年 11 月皮萨罗率约 168 人在卡哈马卡俘获阿塔瓦尔帕；赎金是一屋金子、两屋银子，传统上认为的“赎金屋”（Cuarto del Rescate）至今保存；1533 年阿塔瓦尔帕被处死。课文用“今天参观”的现在完成时开头，再转入简单过去时和过去完成时的叙述，可让学生分辨时态。",
+    "grammar": "西班牙用 esta mañana hemos visitado，拉美很多地区说 esta mañana visitamos，两种说法都对。本课复习只用第 13–17 课学过的内容，不涉及将来完成时和复合条件式。",
+    "exercises": "第 1 题有 ayer，只能用简单过去时；第 5 题 al + 原形动词的主语要和主句一致；第 6 题 darse cuenta de 是固定搭配。"
+  }
+}

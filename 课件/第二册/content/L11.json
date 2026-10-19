@@ -1,0 +1,172 @@
+{
+  "book": 2,
+  "lesson": 11,
+  "title_es": "Buscando trabajo",
+  "title_zh": "找工作",
+  "goals": [
+    "掌握各类无人称句：天气、hay、se、dicen、uno",
+    "会读、会写 101–999 999 的基数词",
+    "注意百位数的阴阳性和 cien / ciento 的用法",
+    "会说日期和年份，会问 ¿A cuántos estamos?",
+    "能用西语完成简单的求职面试"
+  ],
+  "vocab": [
+    ["la entrevista", "面试；会见"],
+    ["el candidato, la candidata", "应聘者；候选人"],
+    ["la empresa", "公司，企业"],
+    ["el empleado, la empleada", "职员，雇员"],
+    ["el sueldo", "工资"],
+    ["la experiencia", "经验；经历"],
+    ["nacer (nazco)", "出生"],
+    ["la fecha de nacimiento", "出生日期"],
+    ["grande (gran)", "大的；伟大的"],
+    ["realizar", "实现；进行，完成"],
+    ["desde", "从……起，自从"],
+    ["conocer (conozco)", "认识；了解"],
+    ["capaz (pl. capaces)", "有能力的，能干的"],
+    ["cualquiera (cualquier)", "任何一个（的）"],
+    ["llover (ue)", "下雨"],
+    ["nevar (ie)", "下雪"],
+    ["la niebla", "雾"]
+  ],
+  "text": {
+    "title": "Buscando trabajo",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Buenos días. Siéntese, por favor. Hábleme un poco de usted.", "zh": "早上好。请坐。请您介绍一下自己。"},
+      {"who": "B", "es": "Me llamo Elena Ruiz. Nací el 8 de mayo de 1998, en Sevilla.", "zh": "我叫埃莱娜·鲁伊斯，1998 年 5 月 8 日生于塞维利亚。"},
+      {"who": "A", "es": "¿Su familia vive también en Madrid?", "zh": "您家里人也住在马德里吗？"},
+      {"who": "B", "es": "No, mis padres siguen viviendo en Sevilla. Aquí vivo sola.", "zh": "不，我父母还住在塞维利亚。我一个人住在这儿。"},
+      {"who": "A", "es": "¿Desde cuándo trabaja usted?", "zh": "您从什么时候开始工作的？"},
+      {"who": "B", "es": "Desde 2021. Llevo cuatro años trabajando en una empresa pequeña.", "zh": "从 2021 年起。我在一家小公司已经干了四年。"},
+      {"who": "A", "es": "¿Y por qué quiere cambiar de trabajo?", "zh": "那您为什么想换工作呢？"},
+      {"who": "B", "es": "Quiero trabajar en una empresa grande y conocer otros países.", "zh": "我想在大公司工作，去了解别的国家。"},
+      {"who": "A", "es": "Aquí se trabaja mucho y hay que realizar viajes largos.", "zh": "我们这儿工作很忙，还得出长差。"},
+      {"who": "B", "es": "No me importa. Soy capaz de hacer cualquier trabajo.", "zh": "没关系。什么样的工作我都能做。"},
+      {"who": "A", "es": "¿Cuánto espera ganar al mes?", "zh": "您希望每月挣多少？"},
+      {"who": "B", "es": "Unos dos mil cuatrocientos euros.", "zh": "两千四百欧元左右。"},
+      {"who": "A", "es": "Bien. Es posible que la llamemos antes del día 20.", "zh": "好的。我们可能在 20 号之前给您打电话。"},
+      {"who": "B", "es": "Muchas gracias. Espero su llamada.", "zh": "非常感谢。我等您的电话。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "无人称句",
+      "points": [
+        "天气动词只用第三人称单数，没有主语：llueve, nieva, hace frío。",
+        "hay（有）和 hay que + 原形动词（必须）也是无人称句，只用单数。",
+        "se + 第三人称单数动词表示泛指：Aquí se vive bien。",
+        "第三人称复数（Dicen que…）不含说话人；uno 可包括说话人。"
+      ],
+      "table": {
+        "head": ["类型", "例句", "意思"],
+        "rows": [
+          ["天气动词", "Llueve mucho en julio.", "七月雨多。"],
+          ["hacer + 天气", "Hoy hace mucho frío.", "今天很冷。"],
+          ["hay", "Hay tres candidatos.", "有三个应聘者。"],
+          ["se + 动词", "Aquí se vive bien.", "这里生活舒适。"],
+          ["第三人称复数", "Dicen que va a nevar.", "听说要下雪了。"],
+          ["uno", "Uno nunca sabe.", "谁也说不准。"]
+        ]
+      },
+      "examples": [
+        ["En invierno nieva mucho en el norte de China.", "冬天中国北方常下雪。"],
+        ["Aquí se trabaja mucho, pero se gana bien.", "这里工作很辛苦，但挣得不少。"],
+        ["Dicen que esa empresa busca empleados.", "听说那家公司在招人。"],
+        ["Cuando uno está cansado, no puede trabajar bien.", "人累了就干不好活。"]
+      ]
+    },
+    {
+      "title": "基数词（101–999 999）",
+      "points": [
+        "100 说 cien；101–199 用 ciento：ciento uno。",
+        "200–900 有阴阳性，和名词一致：doscientas personas。",
+        "1000 说 mil，不说 un mil；不变复数：dos mil, cien mil。",
+        "y 只用在十位和个位之间：ciento treinta y dos。"
+      ],
+      "table": {
+        "head": ["数字", "西语", "数字", "西语"],
+        "rows": [
+          ["100", "cien", "500", "quinientos, -as"],
+          ["101", "ciento uno", "600", "seiscientos, -as"],
+          ["150", "ciento cincuenta", "700", "setecientos, -as"],
+          ["200", "doscientos, -as", "800", "ochocientos, -as"],
+          ["300", "trescientos, -as", "900", "novecientos, -as"],
+          ["400", "cuatrocientos, -as", "1000", "mil"],
+          ["2000", "dos mil", "100 000", "cien mil"]
+        ]
+      },
+      "examples": [
+        ["En la empresa trabajan doscientas cincuenta personas.", "公司里有二百五十人。"],
+        ["Este diccionario tiene mil cien páginas.", "这本词典有一千一百页。"],
+        ["Gana tres mil quinientos yuanes al mes.", "他每月挣三千五百元。"],
+        ["La ciudad tiene novecientos mil habitantes.", "这座城市有九十万居民。"]
+      ]
+    },
+    {
+      "title": "日期表示法",
+      "points": [
+        "日期顺序：日 + de + 月 + de + 年：3 de marzo de 2025。",
+        "日子用基数词，1 日也可说 primero；月份、星期都小写。",
+        "年份照基数词读：2025 读 dos mil veinticinco。",
+        "在某年用 en：en 1999；在某天用 el：Nací el 5 de mayo。"
+      ],
+      "table": {
+        "head": ["用途", "西语"],
+        "rows": [
+          ["问日期", "¿Qué fecha es hoy?"],
+          ["问日期", "¿A cuántos estamos?"],
+          ["回答", "Estamos a 3 de marzo."],
+          ["回答", "Es lunes, 3 de marzo."],
+          ["读年份 2025", "dos mil veinticinco"],
+          ["在某天、某年", "el 5 de mayo; en 1999"]
+        ]
+      },
+      "examples": [
+        ["Hoy es lunes, 3 de marzo de 2025.", "今天是 2025 年 3 月 3 日，星期一。"],
+        ["Nací el 12 de octubre de 2004.", "我生于 2004 年 10 月 12 日。"],
+        ["Mi padre nació en mil novecientos setenta y ocho.", "我父亲生于 1978 年。"],
+        ["¿A cuántos estamos hoy? —Estamos a 15 de abril.", "今天几号？——4 月 15 日。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Hábleme un poco de usted.", "请您介绍一下自己。"],
+    ["¿Cuál es su fecha de nacimiento?", "您的出生日期是哪天？"],
+    ["¿Desde cuándo…?", "从什么时候起……？"],
+    ["Soy capaz de + inf.", "我有能力做……"],
+    ["cualquier día / cualquier cosa", "随便哪天 / 任何事"],
+    ["Eso lo sabe cualquiera.", "这事谁都知道。"],
+    ["una gran empresa", "一家大公司"],
+    ["realizar un sueño", "实现梦想"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Hoy ___ mucho frío. (hace / hay / es)", "a": "hace"},
+    {"type": "选择", "q": "¿Cómo ___ dice «trabajo» en inglés? (se / uno / hay)", "a": "se"},
+    {"type": "改写", "q": "La gente dice que esta empresa paga bien. → ______（用第三人称复数）", "a": "Dicen que esta empresa paga bien."},
+    {"type": "填空", "q": "En nuestra empresa trabajan ______ (500) mujeres.", "a": "quinientas"},
+    {"type": "填空", "q": "Este libro tiene ______ (1200) páginas.", "a": "mil doscientas"},
+    {"type": "翻译", "q": "用西语写出年份：1999，2025", "a": "mil novecientos noventa y nueve; dos mil veinticinco"},
+    {"type": "翻译", "q": "今天是 2025 年 3 月 3 日，星期一。", "a": "Hoy es lunes, 3 de marzo de 2025."},
+    {"type": "问答", "q": "¿Cuándo naciste? ¿A cuántos estamos hoy?", "a": "（示例）Nací el 5 de junio de 2006. Estamos a 4 de marzo."}
+  ],
+  "summary": [
+    "天气动词、hay、se、dicen、uno 可构成无人称句。",
+    "100 说 cien，101 说 ciento uno。",
+    "百位数和名词性数一致：quinientas personas。",
+    "1000 说 mil，不说 un mil；不变复数：dos mil。",
+    "日期：3 de marzo de 2025；某年用 en。"
+  ],
+  "homework": [
+    "写一段 8 句左右的自我介绍：出生日期、家庭、学习和工作经历。",
+    "用西语写出家人的出生年份，并大声读出来。",
+    "两人一组模拟求职面试，用 se、hay、dicen que 各说两句。"
+  ],
+  "notes": {
+    "goals": "本课三个语法点都很实用：无人称句贯穿课文，数词和日期要靠大量口头练习才能脱口而出。",
+    "vocab": "grande 在单数名词前变 gran（una gran empresa）；capaz 复数 capaces；cualquiera 在名词前变 cualquier；nacer、conocer 第一人称是 nazco、conozco。",
+    "text": "让学生找出课文里的无人称句（se trabaja、hay que）和所有数字、日期，并朗读 1998、2021 等年份；课文也复习了第 10 课的 seguir / llevar + 副动词和 es posible que。",
+    "grammar": "提醒区分本课的无人称 se 和第 2 课的自复被动句（Se venden pisos，动词和名词一致）。101 在阳性名词前说 ciento un（ciento un libros）；百位数在 mil 前也要和名词一致：doscientas mil personas。21 000 说 veintiún mil，阴性名词前 veintiún mil personas 和 veintiuna mil personas 都可以。",
+    "exercises": "第 4、5 题注意 mujeres、páginas 是阴性；第 6 题可让学生再读几个家人的出生年份。"
+  }
+}

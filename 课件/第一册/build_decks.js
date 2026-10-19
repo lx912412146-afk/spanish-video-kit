@@ -1,4 +1,4 @@
-// 《现代西班牙语》第一册（老版）分课课件生成：content/Lxx.json → out/第xx课_….pptx
+// 《现代西班牙语》（老版）分课课件生成：content/Lxx.json → out/第xx课_….pptx（JSON 里的 book 字段决定第几册，默认第一册）
 // 用法：node build_decks.js [01 02 …]（不给就生成全部）
 const fs = require('fs');
 const path = require('path');
@@ -12,6 +12,8 @@ const COL = {
   wine: '7A1F2B', wineDark: '5C1620', saffron: 'E8A33D', saffronSoft: 'FCEFD8', ink: '1F2933', body: '3E4C59',
   muted: '7B8794', line: 'E4D7D1', tint: 'F7F1EE', teal: '2F6F73', tealSoft: 'E3F0EF', white: 'FFFFFF',
 };
+const BOOKS = { 1: '第一册', 2: '第二册', 3: '第三册', 4: '第四册' };
+const bookName = (d) => BOOKS[d.book || 1];
 const W = 13.333, H = 7.5, MX = 0.6, TOP = 1.45, BOTTOM = 6.75;
 
 // ---- 文字量估算（磅 → 英寸；中文每字约 1 个字号宽，西文约 0.55）
@@ -30,9 +32,9 @@ function newDeck(d) {
   pres.layout = 'LAYOUT_WIDE';
   pres.theme = { headFontFace: FONT, bodyFontFace: FONT };
   pres.title = `第${d.lesson}课 ${d.title_es}`;
-  pres.subject = '《现代西班牙语》第一册（老版）分课课件';
+  pres.subject = `《现代西班牙语》${bookName(d)}（老版）分课课件`;
   pres.author = 'spanish-video-kit';
-  const footer = `《现代西班牙语》第一册 · 第 ${d.lesson} 课  ${d.title_es}`;
+  const footer = `《现代西班牙语》${bookName(d)} · 第 ${d.lesson} 课  ${d.title_es}`;
   pres.defineSlideMaster({
     title: 'CONTENT', background: { color: COL.white },
     objects: [
@@ -53,8 +55,9 @@ function add(pres, section, master = 'CONTENT') {
 }
 function title(slide, t) {
   t = t.replace(/([A-Za-zÁÉÍÓÚáéíóúñü!?])、(?=[A-Za-z¿¡ÁÉÍÓÚáéíóúñ])/g, '$1, ');
-  let pt = 32; while (pt > 22 && textWidth(t, pt) > (W - 2 * MX) * 0.84) pt -= 1;
-  slide.addText(t, pt < 32 ? { placeholder: 'title', fontSize: pt } : { placeholder: 'title' });
+  let pt = 32; while (pt > 20 && textWidth(t, pt) > (W - 2 * MX) * 0.84) pt -= 1;
+  // 占位符上设的字号会被版式覆盖，所以字号写在文字本身上
+  slide.addText(pt < 32 ? [{ text: t, options: { fontSize: pt } }] : t, { placeholder: 'title' });
 }
 // 不让括号里的内容、箭头和填空线跟前后拆开换行
 function glue(t) {
@@ -71,14 +74,14 @@ function circle(slide, pres, x, y, d, label, fill, color = COL.white, pt = 16) {
 // ---------------------------------------------------------------- 各种页
 function cover(pres, d) {
   const s = add(pres, '封面', 'DARK');
-  tb(s, '《现代西班牙语》第一册', { x: MX + 0.2, y: 1.0, w: 8, h: 0.5, fontSize: 20, color: 'F3D9C9' });
+  tb(s, `《现代西班牙语》${bookName(d)}`, { x: MX + 0.2, y: 1.0, w: 8, h: 0.5, fontSize: 20, color: 'F3D9C9' });
   tb(s, `第 ${d.lesson} 课`, { x: MX + 0.2, y: 1.75, w: 8, h: 0.9, fontSize: 40, bold: true, color: COL.saffron });
   let pt = 60; while (textWidth(d.title_es, pt) > W - 2 * MX - 0.6 && pt > 36) pt -= 4;
   tb(s, d.title_es, { x: MX + 0.2, y: 2.9, w: W - 2 * MX - 0.4, h: 1.6, fontSize: pt, bold: true, color: COL.white, valign: 'middle' });
   tb(s, d.title_zh, { x: MX + 0.2, y: 4.6, w: W - 2 * MX - 0.4, h: 0.7, fontSize: 28, color: 'F3D9C9' });
   const parts = ['目标', d.pronunciation && d.pronunciation.length ? '语音' : null, '词汇', '课文', '语法', '练习'].filter(Boolean);
   tb(s, parts.join('  ·  '), { x: MX + 0.2, y: 6.2, w: 10, h: 0.5, fontSize: 18, color: COL.saffron });
-  s.addNotes(`第 ${d.lesson} 课 ${d.title_es}（${d.title_zh}）。本课件按《现代西班牙语》第一册（老版）各课的语音、语法和话题整理，课文部分是仿照本课编写的原创材料。`);
+  s.addNotes(`第 ${d.lesson} 课 ${d.title_es}（${d.title_zh}）。本课件按《现代西班牙语》${bookName(d)}（老版）各课的语音、语法和话题整理，课文部分是仿照本课编写的原创材料。`);
 }
 
 function goals(pres, d) {

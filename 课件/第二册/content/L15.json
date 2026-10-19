@@ -1,0 +1,169 @@
+{
+  "book": 2,
+  "lesson": 15,
+  "title_es": "El jefe de policía y el perro",
+  "title_zh": "警察局长和狗",
+  "goals": [
+    "掌握过去完成时的构成：había + 过去分词",
+    "会用过去完成时表示“过去的过去”",
+    "认识常用的指小词和指大词",
+    "会用感知动词 + 不定式／副动词",
+    "能用几种过去时复述一个小故事"
+  ],
+  "vocab": [
+    ["el jefe de policía", "警察局长"],
+    ["la comisaría", "警察局"],
+    ["el perro, la perra", "狗"],
+    ["ladrar", "（狗）叫"],
+    ["el ladrón, la ladrona", "小偷，盗贼"],
+    ["llevarse", "拿走，带走"],
+    ["raro, rara", "奇怪的"],
+    ["junto a", "在……旁边"],
+    ["listo, lista", "聪明的；准备好的"],
+    ["acabar", "完成，结束"],
+    ["notar", "注意到，发觉"],
+    ["ocurrírsele algo (a uno)", "（某人）忽然想到"],
+    ["apenas", "刚……就；几乎不"],
+    ["lograr", "达到；成功做到"],
+    ["responder", "回答，答复"]
+  ],
+  "text": {
+    "title": "El jefe de policía y el perro",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "En un pueblecito de montaña vivía don Ramón, el jefe de policía.", "zh": "山区的一个小镇上住着警察局长拉蒙先生。"},
+      {"who": "", "es": "Tenía un perrazo llamado Tigre, que casi nunca ladraba.", "zh": "他有一条名叫“老虎”的大狗，可它几乎从来不叫。"},
+      {"who": "", "es": "Una mañana, apenas había llegado a la comisaría cuando notó algo raro.", "zh": "一天早上，他刚到警察局就发现有点不对劲。"},
+      {"who": "", "es": "Alguien había entrado por la noche y se había llevado su bicicleta.", "zh": "夜里有人进来过，把他的自行车拿走了。"},
+      {"who": "", "es": "Tigre no había ladrado: seguía durmiendo, como siempre.", "zh": "“老虎”一声也没叫，和往常一样还在睡觉。"},
+      {"who": "", "es": "Poco después llegó Juanito, un niño del pueblo, con su perrito.", "zh": "不久，镇上的小男孩胡安尼托带着他的小狗来了。"},
+      {"who": "", "es": "—Anoche, desde mi ventana, vi a dos hombres salir de aquí.", "zh": "“昨天夜里，我从窗口看见两个男人从这儿出去。”"},
+      {"who": "", "es": "—¿Y no oíste ladrar a Tigre? —le preguntó el jefe.", "zh": "“那你没听见‘老虎’叫吗？”局长问他。"},
+      {"who": "", "es": "—No, señor. Lo vi durmiendo delante de la puerta —respondió el niño.", "zh": "“没有，先生。我看见它在门口睡觉呢。”孩子回答。"},
+      {"who": "", "es": "Cuando Juanito acabó de hablar, al jefe se le ocurrió una idea.", "zh": "胡安尼托说完以后，局长想到了一个主意。"},
+      {"who": "", "es": "Siguieron al perrito, que corrió hasta una casita junto al río.", "zh": "他们跟着小狗走，小狗一直跑到河边的一座小房子前。"},
+      {"who": "", "es": "Los ladrones ya se habían marchado, pero allí estaba la bicicleta.", "zh": "小偷已经跑了，可自行车还在那儿。"},
+      {"who": "", "es": "—¡Lo hemos logrado! —gritó el jefe—. ¡Qué perrito tan listo!", "zh": "“我们成功了！”局长喊道，“多聪明的小狗啊！”"},
+      {"who": "", "es": "Desde aquel día Tigre se quedaba en casa y el perrito iba con el jefe.", "zh": "从那天起，“老虎”就待在家里，跟着局长上班的换成了那条小狗。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "过去完成时的构成",
+      "points": [
+        "构成：haber 的过去未完成时 + 过去分词，分词词尾不变。",
+        "haber 的过去未完成时是规则的：había、habías、había……",
+        "不规则分词同现在完成时：había hecho、había vuelto。",
+        "代词和 no 放在 había 前：No lo había visto nunca。"
+      ],
+      "table": {
+        "head": ["人称", "haber", "llegar", "irse"],
+        "rows": [
+          ["yo", "había", "había llegado", "me había ido"],
+          ["tú", "habías", "habías llegado", "te habías ido"],
+          ["él / ella / usted", "había", "había llegado", "se había ido"],
+          ["nosotros, -as", "habíamos", "habíamos llegado", "nos habíamos ido"],
+          ["vosotros, -as", "habíais", "habíais llegado", "os habíais ido"],
+          ["ellos/ellas/ustedes", "habían", "habían llegado", "se habían ido"]
+        ]
+      },
+      "examples": [
+        ["Hasta entonces nunca había visto un perro tan grande.", "在那以前，我从没见过这么大的狗。"],
+        ["Cuando me llamaste, ya me había acostado.", "你给我打电话的时候，我已经睡下了。"]
+      ]
+    },
+    {
+      "title": "过去完成时的用法",
+      "points": [
+        "表示在过去某一时刻或另一过去动作之前已经完成的动作。",
+        "Cuando llegué, el tren salió：我到了，火车才开。",
+        "Cuando llegué, el tren ya había salido：火车先开走了。",
+        "间接引语里现在完成时后移：Dijo que lo había visto。"
+      ],
+      "examples": [
+        ["Cuando llegamos a la estación, el tren ya había salido.", "我们到车站时，火车已经开走了。"],
+        ["Juanito me dijo que había perdido su perro.", "胡安尼托告诉我，他的狗丢了。"],
+        ["Apenas había salido de casa cuando empezó a llover.", "我刚出家门，就下起雨来了。"]
+      ]
+    },
+    {
+      "title": "指小词和指大词",
+      "points": [
+        "-ito / -ita 表示“小”或亲切：casita、perrito、Juanito。",
+        "以 -e、-n、-r 结尾的词多加 -cito：cochecito、jovencito。",
+        "单音节词和 pueblo 类词多加 -ecito：pececito、pueblecito。",
+        "-illo 也表示“小”：chiquillo；指大词 -ón、-azo：perrazo。"
+      ],
+      "table": {
+        "head": ["后缀", "例词", "意思"],
+        "rows": [
+          ["-ito, -ita", "casita, perrito", "小房子，小狗"],
+          ["-cito, -cita", "cochecito, jovencito", "小汽车，小伙子"],
+          ["-ecito, -ecita", "pueblecito, pececito", "小镇，小鱼"],
+          ["-illo, -illa", "chiquillo, bolsillo", "小孩，衣袋"],
+          ["-ón, -ona", "hombrón, casona", "大个子男人，大宅子"],
+          ["-azo, -aza", "perrazo, manaza", "大狗，大手"]
+        ]
+      },
+      "examples": [
+        ["Vivimos en una casita junto al río.", "我们住在河边的一座小房子里。"],
+        ["Espera un momentito, por favor.", "请稍等一会儿。"],
+        ["¡Qué perrazo! ¿Es tuyo?", "好大的狗啊！是你的吗？"]
+      ]
+    },
+    {
+      "title": "感知动词 + 不定式／副动词",
+      "points": [
+        "ver、oír、notar 等感知动词可接不定式：Vi salir a Juan。",
+        "不定式表示感知到动作的全过程；副动词强调动作正在进行。",
+        "被感知的人是直接宾语，可换成宾格代词：La oí cantar。",
+        "宾语位置灵活：Oí a María cantar = Oí cantar a María。"
+      ],
+      "examples": [
+        ["Vi a dos hombres salir de la comisaría.", "我看见两个男人从警察局出来。"],
+        ["¿Has oído ladrar al perro?", "你听见狗叫了吗？"],
+        ["La vi leyendo en la biblioteca.", "我看见她正在图书馆看书。"],
+        ["Oí cantar a María en la calle.", "我听见玛丽亚在街上唱歌。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Cuando acabó de hablar, se fue.", "他说完话就走了。"],
+    ["Acabo de llegar.", "我刚到。"],
+    ["Noté que estaba nervioso.", "我发觉他很紧张。"],
+    ["Se me ha ocurrido una idea.", "我想到了一个主意。"],
+    ["Apenas habla.", "他几乎不说话。"],
+    ["Por fin lo hemos logrado.", "我们终于成功了。"],
+    ["No respondió a mi pregunta.", "他没有回答我的问题。"],
+    ["llamar a la policía", "报警"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Cuando llegué a la estación, el tren ya ______ (salir).", "a": "Cuando llegué a la estación, el tren ya había salido."},
+    {"type": "填空", "q": "Hasta aquel día, nunca ______ (ver, yo) un perro tan grande.", "a": "Hasta aquel día, nunca había visto un perro tan grande."},
+    {"type": "选择", "q": "Cuando llegamos, los ladrones ya ___. (se fueron / se habían ido)", "a": "Cuando llegamos, los ladrones ya se habían ido."},
+    {"type": "改写", "q": "改成间接引语：Juanito dijo: «He visto a dos hombres».", "a": "Juanito dijo que había visto a dos hombres."},
+    {"type": "填空", "q": "写出指小词或指大词：casa（小）→ ___；coche（小）→ ___；perro（大）→ ___", "a": "casita；cochecito；perrazo"},
+    {"type": "改写", "q": "用宾格代词和不定式合并：Vi a María. Ella salió de casa.", "a": "La vi salir de casa."},
+    {"type": "翻译", "q": "我刚到家，就下起雨来了。（用 apenas 和过去完成时）", "a": "Apenas había llegado a casa cuando empezó a llover."},
+    {"type": "问答", "q": "Según el texto, ¿qué había pasado en la comisaría?", "a": "Alguien había entrado y se había llevado la bicicleta del jefe."}
+  ],
+  "summary": [
+    "过去完成时：había、habías… + 过去分词。",
+    "用于“过去的过去”：Ya se había ido。",
+    "间接引语里 he visto 变成 había visto。",
+    "指小 -ito、-cito、-ecito；指大 -ón、-azo。",
+    "感知动词 + 不定式（全过程）或 + 副动词（正在进行）。"
+  ],
+  "homework": [
+    "用过去完成时写 5 句“我到的时候，……已经……”。",
+    "给 8 个名词加上指小词词尾，注意拼写变化。",
+    "仿照课文，用 8–10 句话讲一个关于动物的小故事。"
+  ],
+  "notes": {
+    "goals": "本课是第二个复合时态。过去完成时一定有一个过去的参照点（另一个过去动作或时间），可以画时间轴：过去完成时 → 简单过去时 → 现在。",
+    "vocab": "ocurrírsele 的结构同 gustar：Se me ocurrió una idea / Se nos ocurrieron dos ideas，主语是想到的事。apenas 有“刚……就”（常和过去完成时、cuando 连用）和“几乎不”两个意思。el policía 指警察，la policía 指警方。",
+    "text": "可让学生按时间先后给事件排序，看哪些用过去完成时（第 3、4、5、12 句）。故事里的 pueblecito、perrazo、Juanito、perrito、casita 是指小词和指大词，第 7–9 句是感知动词的用法。",
+    "grammar": "指小词拼写要变：chico → chiquito、amigo → amiguito、pez → pececito。西班牙多说 pueblecito、huevecito（首音节带 ue、ie 的双音节词加 -ecito），拉美多说 pueblito；拉美指小词用得更多（ahorita、cafecito）。bolsillo 已经是独立的词（衣袋）。",
+    "exercises": "第 3 题有 ya，小偷离开在“我们到”之前，只能用过去完成时。第 5 题 pueblo 一类词西班牙和拉美说法不同，所以没有考。"
+  }
+}

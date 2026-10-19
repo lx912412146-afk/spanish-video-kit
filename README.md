@@ -182,6 +182,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 
 - [`课件/第一册/`](课件/第一册/)：《现代西班牙语》第一册（老版）第 1–24 课的分课课件（PowerPoint 16:9，另有 PDF）。每课：目标、语音（第 1–8 课）、词汇、课文、语法、常用表达、练习和答案、小结、作业，附教学备注。
   - 每课内容是一个 JSON（`content/Lxx.json`），`build_decks.js` 统一排版生成。PPTX 和 PDF 在 Release `courseware-book1`。
+- [`课件/第二册/`](课件/第二册/)：第二册（老版）第 1–18 课的分课课件，版式同上（第二册没有语音部分；第 6、12、18 课是复习课）。PPTX 和 PDF 在 Release `courseware-book2`。
 
 ## 教学视频
 
@@ -200,6 +201,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `exam-book1-stages` | 8 套分阶段卷，文件名以卷号开头（`L01-04` … `L01-20B`）：`_student.pdf`、`_teacher.pdf`、`_listening.mp3`、`_texto_1.mp3` … `_texto_9.mp3` |
 | `lesson-videos` | 教学视频：`book1_lesson01_quien_es_el.mp4`（第一册第一课）、`lesson-videos-SHA256SUMS.txt` |
 | `courseware-book1` | 第一册分课课件：`book1_L01.pptx` … `book1_L24.pptx` 和同名 PDF、`courseware-book1-SHA256SUMS.txt` |
+| `courseware-book2` | 第二册分课课件：`book2_L01.pptx` … `book2_L18.pptx` 和同名 PDF、`courseware-book2-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -225,3 +227,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `试卷/第一册分阶段模拟卷/`（8 套）和 Release `exam-book1-stages`；全册卷按查到的第 22–24 课内容改了完形 51、57 题和知识点覆盖表；新增 `check_paper.py`（格式自检）、`asr_retry.py`（读错的句子换种子重合成）。
     - 新增 `教学视频/第一册第1课/`（脚本、合成和核对、画面模板）和 Release `lesson-videos`。
     - 新增 `课件/第一册/`（24 课的课件内容和生成程序）和 Release `courseware-book1`。
+  - 2026-10-20：
+    - 新增 `课件/第二册/`（18 课的课件内容、第二册课程大纲和生成程序）和 Release `courseware-book2`；课件生成程序改成按 JSON 里的 `book` 字段区分第几册；修正长标题不缩小的问题，第一册课件重新导出（文字不变）。

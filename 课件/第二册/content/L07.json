@@ -1,0 +1,184 @@
+{
+  "book": 2,
+  "lesson": 7,
+  "title_es": "Antes de un viaje",
+  "title_zh": "出行之前",
+  "goals": [
+    "掌握将来未完成时的规则变位和基本用法",
+    "记住 12 个常用动词的不规则将来时",
+    "会用相互动词表达“互相……”",
+    "归纳小品词 se 的几种主要用法",
+    "能用将来时谈出差前的各项安排"
+  ],
+  "vocab": [
+    ["el viaje de negocios", "出差"],
+    ["el / la gerente", "经理"],
+    ["el visado", "签证"],
+    ["la embajada", "大使馆"],
+    ["el billete de avión", "飞机票"],
+    ["el programa", "日程安排；节目"],
+    ["la reunión", "会议"],
+    ["reservar", "预订"],
+    ["constantemente", "经常，不断地"],
+    ["meter(se)", "放进；进入，介入"],
+    ["urgente", "紧急的"],
+    ["mientras tanto", "与此同时，在这期间"],
+    ["acudir", "前往，赶到；出席"],
+    ["marchar(se)", "走；离开，动身"],
+    ["saludar(se)", "打招呼；互相问候"],
+    ["mutuamente", "互相地"],
+    ["valer", "值（多少钱）；有用"],
+    ["caber", "容得下，装得下"]
+  ],
+  "text": {
+    "title": "Antes de un viaje",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Señorita Li, el lunes me marcharé a Madrid. ¿Está listo el visado?", "zh": "李小姐，星期一我就要动身去马德里了。签证办好了吗？"},
+      {"who": "B", "es": "Todavía no. Mañana iré a la embajada a recogerlo.", "zh": "还没有。明天我去大使馆取。"},
+      {"who": "A", "es": "¿Y el billete? ¿A qué hora saldrá el avión?", "zh": "机票呢？飞机几点起飞？"},
+      {"who": "B", "es": "A las diez. Tendrá que estar en el aeropuerto a las ocho.", "zh": "十点。您得八点到机场。"},
+      {"who": "A", "es": "¿Quién me esperará en el aeropuerto de Madrid?", "zh": "在马德里机场谁来接我？"},
+      {"who": "B", "es": "El señor García. Ustedes se escriben constantemente, ¿verdad?", "zh": "加西亚先生。你们俩经常通信，是吧？"},
+      {"who": "A", "es": "Sí, nos llamamos y nos escribimos casi todas las semanas.", "zh": "是的，我们几乎每个星期都通电话、写信。"},
+      {"who": "B", "es": "Él le reservará una habitación en un hotel del centro.", "zh": "他会在市中心的一家旅馆给您订个房间。"},
+      {"who": "A", "es": "Muy bien. ¿Hay algo urgente antes de marcharme?", "zh": "很好。我走之前还有什么急事吗？"},
+      {"who": "B", "es": "Sí. Mañana por la tarde tendrá que acudir a una reunión.", "zh": "有。明天下午您得去参加一个会。"},
+      {"who": "A", "es": "Entonces esta noche meteré los documentos en la maleta.", "zh": "那我今晚就把文件装进箱子。"},
+      {"who": "B", "es": "Mientras tanto, yo prepararé el programa y se lo daré el viernes.", "zh": "这期间我来准备日程安排，星期五交给您。"},
+      {"who": "A", "es": "Gracias. En Madrid se cena muy tarde, ¿no?", "zh": "谢谢。在马德里，人们晚饭吃得很晚，是吧？"},
+      {"who": "B", "es": "Sí, a las diez. Pero no se preocupe, allí se vive muy bien.", "zh": "是的，十点钟。不过您别担心，那儿生活很舒服。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "将来未完成时（一）：规则变位和用法",
+      "points": [
+        "词尾直接加在整个不定式后面，三种变位的词尾相同。",
+        "词尾：-é、-ás、-á、-emos、-éis、-án，只有 nosotros 不带重音。",
+        "用法：表示将来的动作、计划，常和 mañana、el lunes 等连用。",
+        "口语里也常用 ir a + 不定式：Voy a viajar ≈ Viajaré。"
+      ],
+      "table": {
+        "head": ["人称", "hablar", "comer", "vivir"],
+        "rows": [
+          ["yo", "hablaré", "comeré", "viviré"],
+          ["tú", "hablarás", "comerás", "vivirás"],
+          ["él / ella / usted", "hablará", "comerá", "vivirá"],
+          ["nosotros, -as", "hablaremos", "comeremos", "viviremos"],
+          ["vosotros, -as", "hablaréis", "comeréis", "viviréis"],
+          ["ellos/ellas/ustedes", "hablarán", "comerán", "vivirán"]
+        ]
+      },
+      "examples": [
+        ["Mañana hablaré con el director.", "明天我要和经理谈一谈。"],
+        ["El lunes viajaremos a Madrid.", "星期一我们要去马德里。"],
+        ["¿Cuándo volverás a casa?", "你什么时候回家？"]
+      ]
+    },
+    {
+      "title": "将来未完成时：不规则动词",
+      "points": [
+        "不规则的只是词干，词尾和规则动词完全一样。",
+        "hay 的将来时是 habrá：Mañana habrá una reunión。",
+        "派生动词照样变：mantener → mantendré。",
+        "querer 的将来时是 querré，写两个 r。"
+      ],
+      "table": {
+        "head": ["变化", "不定式", "将来时词干", "yo"],
+        "rows": [
+          ["去掉 e", "poder, saber", "podr-, sabr-", "podré, sabré"],
+          ["去掉 e", "querer, haber, caber", "querr-, habr-, cabr-", "querré, habré, cabré"],
+          ["e / i 变成 d", "tener, poner", "tendr-, pondr-", "tendré, pondré"],
+          ["e / i 变成 d", "salir, venir, valer", "saldr-, vendr-, valdr-", "saldré, vendré, valdré"],
+          ["特殊", "hacer, decir", "har-, dir-", "haré, diré"]
+        ]
+      },
+      "examples": [
+        ["Mañana tendré una reunión urgente.", "明天我有个紧急会议。"],
+        ["¿A qué hora saldréis de casa?", "你们几点出门？"],
+        ["No cabremos todos en el coche.", "我们大家坐这辆车会坐不下。"],
+        ["¿Qué harás el domingo?", "你星期天打算做什么？"]
+      ]
+    },
+    {
+      "title": "相互动词",
+      "points": [
+        "复数主语 + nos / os / se + 动词，表示“互相……”。",
+        "可加 uno a otro、mutuamente 强调“互相”，避免和自复用法混淆。",
+        "Se miran 有两解：各自看自己或互相看；加 uno a otro 就只指互相看。",
+        "uno a otro 随性数变化：una a otra、unos a otros。"
+      ],
+      "examples": [
+        ["Nos escribimos constantemente.", "我们经常互相写信。"],
+        ["Al verse, Ana y Luis se saludan.", "安娜和路易斯一见面就互相打招呼。"],
+        ["Los dos hermanos se ayudan uno a otro.", "兄弟俩互相帮助。"],
+        ["Pedro y Carmen se quieren mucho.", "佩德罗和卡门彼此深爱。"]
+      ]
+    },
+    {
+      "title": "小品词 se 的用法（归纳）",
+      "points": [
+        "se 用法很多，要根据句子结构和意思来判断。",
+        "自复被动句：动词和后面的名词一致，Se venden libros。",
+        "无人称句：动词只用第三人称单数，泛指“人们”。",
+        "le / les 在 lo、la、los、las 前要变成 se：Se lo daré。"
+      ],
+      "table": {
+        "head": ["用法", "例句", "要点"],
+        "rows": [
+          ["自复", "Se levanta temprano.", "动作回到主语自身"],
+          ["相互", "Se escriben mucho.", "复数主语，互相……"],
+          ["代词式动词", "Se marcha mañana.", "se 是动词的一部分"],
+          ["自复被动", "Se venden billetes.", "动词与名词一致"],
+          ["无人称", "Aquí se vive bien.", "动词用单数，泛指人"],
+          ["代替 le / les", "Se lo daré mañana.", "le / les + lo → se lo"]
+        ]
+      },
+      "examples": [
+        ["En esta oficina se venden billetes de avión.", "这个办事处出售机票。"],
+        ["En Madrid se cena muy tarde.", "在马德里，人们晚饭吃得很晚。"],
+        ["¿El visado? Se lo daré mañana.", "签证吗？我明天交给您。"],
+        ["Mi jefe se marcha a Lima el lunes.", "我的上司星期一动身去利马。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["hacer la maleta", "收拾行李"],
+    ["meter algo en la maleta", "把……放进箱子"],
+    ["No te metas en eso.", "这件事你别管。"],
+    ["acudir a una reunión", "出席会议"],
+    ["marcharse de viaje", "出门旅行"],
+    ["Mientras tanto, esperaré aquí.", "这期间我就在这儿等着。"],
+    ["ayudarse uno a otro", "互相帮助"],
+    ["¡Buen viaje!", "一路顺风！"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Mañana yo ______ (salir) para Madrid a las diez.", "a": "Mañana yo saldré para Madrid a las diez."},
+    {"type": "填空", "q": "¿Cuándo ______ (venir) tus padres a verte?", "a": "¿Cuándo vendrán tus padres a verte?"},
+    {"type": "选择", "q": "El lunes no ___ tiempo para verte. (teneré / tendré)", "a": "El lunes no tendré tiempo para verte."},
+    {"type": "改写", "q": "用将来时改写：Voy a acudir a la reunión mañana.", "a": "Acudiré a la reunión mañana."},
+    {"type": "改写", "q": "用相互动词合并：Ana saluda a Luis. Luis saluda a Ana.", "a": "Ana y Luis se saludan."},
+    {"type": "选择", "q": "¿Le das el programa al gerente? —Sí, ___ lo daré hoy. (le / se)", "a": "Sí, se lo daré hoy."},
+    {"type": "翻译", "q": "明天我得出席一个紧急会议。", "a": "Mañana tendré que acudir a una reunión urgente."},
+    {"type": "问答", "q": "Según el texto, ¿quién esperará al gerente en Madrid?", "a": "El señor García lo esperará en el aeropuerto."}
+  ],
+  "summary": [
+    "将来时词尾：-é、-ás、-á、-emos、-éis、-án。",
+    "不规则只变词干：tendr-、har-、podr- 等，词尾不变。",
+    "相互动词表“互相”：nos/os/se，可加 uno a otro。",
+    "se：自复、相互、代词式、被动、无人称、代 le / les。"
+  ],
+  "homework": [
+    "写出 tener、hacer、salir、poder 的将来时全部变位。",
+    "用将来时写 6 句话，介绍你下个假期的安排。",
+    "用相互动词写 3 句话，说说你和好朋友之间的事。"
+  ],
+  "notes": {
+    "goals": "本课开始学将来未完成时，规则变位很简单，重点是 12 个不规则词干。本课只讲表示将来动作的用法，表示推测放到第 8 课。",
+    "vocab": "visado 是西班牙用法，拉美多说 visa。acudir 后接 a；marcharse 强调“离开、动身”，比 ir 更突出离去。",
+    "text": "A 是经理，B 是秘书，两人用 usted 交谈。可让学生找出全部将来时（共十处），并说明第 6、7 句的相互动词和第 12–14 句里 se 的不同用法。",
+    "grammar": "提醒学生：将来时词尾除 nosotros 外都带重音，不规则动词也一样。讲 se 时按表格逐行对比，再让学生给课文和例句里的 se 归类。",
+    "exercises": "第 3 题考不规则词干；第 6 题复习 le → se。讲评时请学生说出每个 se 属于哪种用法。"
+  }
+}

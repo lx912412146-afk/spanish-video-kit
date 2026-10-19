@@ -1,0 +1,168 @@
+{
+  "book": 2,
+  "lesson": 2,
+  "title_es": "Una velada",
+  "title_zh": "联欢晚会",
+  "goals": [
+    "进一步分清简单过去时和过去未完成时",
+    "掌握 conocer、saber 等在两种时态里的词义",
+    "会用自复被动句，分清无人称句和相互句",
+    "掌握形容词跟 ser、estar 时的意义区别",
+    "能用两种过去时讲述一次晚会"
+  ],
+  "vocab": [
+    ["la velada", "晚会，联欢会"],
+    ["la Nochevieja", "除夕夜（12月31日）"],
+    ["el salón", "大厅；客厅"],
+    ["la obra de teatro", "戏剧，剧目"],
+    ["popular", "民间的；受欢迎的"],
+    ["aplaudir", "鼓掌"],
+    ["el baile", "舞蹈；舞会"],
+    ["la medianoche", "午夜，夜里十二点"],
+    ["abrazar(se)", "拥抱；互相拥抱"],
+    ["reunir(se)", "收集；聚集，聚会"],
+    ["invitar", "邀请；请客"],
+    ["mirar", "看，注视"],
+    ["ver", "看见；观看"],
+    ["perder(se) (ie)", "丢失；错过；迷路"],
+    ["divertir(se) (ie, i)", "使开心；玩得愉快"],
+    ["divertido, divertida", "有趣的，好玩的"],
+    ["aburrido, aburrida", "乏味的；感到无聊的"],
+    ["listo, lista", "聪明的；准备好的"]
+  ],
+  "text": {
+    "title": "Una velada",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "En Nochevieja, los alumnos de español nos reunimos en el salón.", "zh": "除夕夜，我们西班牙语专业的学生聚在大厅里。"},
+      {"who": "", "es": "También invitamos a los profesores y a sus familias.", "zh": "我们还邀请了老师们和他们的家人。"},
+      {"who": "", "es": "Cuando llegué, mis compañeros todavía preparaban el salón.", "zh": "我到的时候，同学们还在布置大厅。"},
+      {"who": "", "es": "Mientras unos ponían las sillas, otros traían las bebidas.", "zh": "有的人在摆椅子，有的人在往里搬饮料。"},
+      {"who": "", "es": "A las siete todo estaba listo y empezó la velada.", "zh": "七点钟一切准备就绪，晚会开始了。"},
+      {"who": "", "es": "Primero vimos una obra de teatro muy divertida.", "zh": "我们先看了一出非常有趣的话剧。"},
+      {"who": "", "es": "Todos nos reíamos y aplaudíamos sin parar.", "zh": "大家笑个不停，掌声不断。"},
+      {"who": "", "es": "Después se cantaron canciones populares de España y de México.", "zh": "接着大家唱了西班牙和墨西哥的民歌。"},
+      {"who": "", "es": "El profesor Pérez tocó la guitarra; nadie sabía que tocaba tan bien.", "zh": "佩雷斯老师弹了吉他，谁都不知道他弹得这么好。"},
+      {"who": "", "es": "Luego se quitaron las mesas y empezó el baile.", "zh": "后来桌子撤走了，舞会开始了。"},
+      {"who": "", "es": "Bailamos hasta medianoche y nos divertimos muchísimo.", "zh": "我们一直跳到半夜，玩得开心极了。"},
+      {"who": "", "es": "Luis estaba aburrido: no sabía bailar y nos miraba desde una silla.", "zh": "路易斯觉得很无聊：他不会跳舞，坐在椅子上看着我们。"},
+      {"who": "", "es": "A las doce, todos nos abrazamos y nos felicitamos el Año Nuevo.", "zh": "十二点，大家互相拥抱，互祝新年快乐。"},
+      {"who": "", "es": "Esa noche perdí el último autobús y volví a pie a la residencia.", "zh": "那天晚上我错过了末班车，只好走回宿舍。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "简单过去时和过去未完成时的区别（二）",
+      "points": [
+        "过去正在进行的动作用未完成时，这时插进来的动作用简单过去时。",
+        "同时进行、不交代结束的两个动作都用未完成时：Mientras…, …",
+        "说明了持续多久或到何时为止的动作，用简单过去时。",
+        "conocer、saber、querer、poder 在两种时态里意思不同（见表）。"
+      ],
+      "table": {
+        "head": ["动词", "简单过去时", "过去未完成时"],
+        "rows": [
+          ["conocer", "conocí：认识了，结识", "conocía：认识，了解"],
+          ["saber", "supe：得知了", "sabía：知道"],
+          ["no querer", "no quise：不肯，拒绝", "no quería：不想"],
+          ["poder", "pude：（终于）做成了", "podía：能够，可以"]
+        ]
+      },
+      "examples": [
+        ["Cuando entré en el salón, todos bailaban.", "我走进大厅的时候，大家正在跳舞。"],
+        ["Mientras unos cantaban, otros preparaban la cena.", "有的人在唱歌，有的人在做晚饭。"],
+        ["Bailamos hasta las dos de la mañana.", "我们一直跳到凌晨两点。"],
+        ["En la velada conocí a Isabel.", "我在晚会上认识了伊莎贝尔。"]
+      ]
+    },
+    {
+      "title": "自复被动句、无人称句和相互句",
+      "points": [
+        "自复被动句：se + 及物动词第三人称，主语多是物，常放在动词后。",
+        "动词和主语数一致：Se vende un piso. / Se venden pisos。",
+        "无人称句没有主语，动词只用单数；指人的宾语前加 a：Se invitó a todos。",
+        "相互句：复数主语 + nos / os / se，表示“互相”：Nos abrazamos。"
+      ],
+      "table": {
+        "head": ["类型", "特点", "例句"],
+        "rows": [
+          ["自复被动句", "动词随主语变单复数", "Se venden pisos."],
+          ["无人称句", "没有主语，动词单数", "Aquí se vive bien."],
+          ["无人称句", "a + 人，动词单数", "Se invitó a todos."],
+          ["相互句", "复数主语，“互相”", "Ana y Luis se miraron."]
+        ]
+      },
+      "examples": [
+        ["En muchos países se habla español.", "很多国家都说西班牙语。"],
+        ["En la velada se cantaron canciones populares.", "晚会上唱了民歌。"],
+        ["En esta ciudad se trabaja mucho.", "这座城市里人们工作很忙。"],
+        ["Al final de la velada, todos nos abrazamos.", "晚会结束时，大家互相拥抱。"]
+      ]
+    },
+    {
+      "title": "ser 和 estar 的区别（一）：跟形容词",
+      "points": [
+        "ser + 形容词：人或物本身的特征；estar + 形容词：一时的状态。",
+        "es aburrido：人乏味；está aburrido：觉得无聊。",
+        "有些形容词跟 ser、estar 时意思明显不同（见表），要分开记。",
+        "过去分词作表语表示状态，一般用 estar：La tienda está cerrada。"
+      ],
+      "table": {
+        "head": ["形容词", "ser + 形容词", "estar + 形容词"],
+        "rows": [
+          ["aburrido", "乏味的，没意思的", "感到无聊的"],
+          ["listo", "聪明的", "准备好的"],
+          ["bueno", "好的；善良的", "身体好的；好吃的"],
+          ["malo", "坏的；不好的", "生病的；（食物）变质的"],
+          ["rico", "富有的", "（食物）好吃的"],
+          ["verde", "绿色的", "（果实）没熟的"]
+        ]
+      },
+      "examples": [
+        ["La película era aburrida y yo estaba aburrido.", "电影很乏味，我也觉得很无聊。"],
+        ["Ana es muy lista.", "安娜很聪明。"],
+        ["¿Estáis listos? Ya nos vamos.", "你们准备好了吗？我们这就走。"],
+        ["Estas manzanas todavía están verdes.", "这些苹果还没熟。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["reunirse con los amigos", "和朋友们聚会"],
+    ["invitar a alguien a cenar", "请某人吃晚饭"],
+    ["Mira, ahí viene Luis.", "你看，路易斯来了。"],
+    ["mirar por la ventana", "朝窗外看"],
+    ["No veo nada.", "我什么也看不见。"],
+    ["perder el autobús / perderse", "错过公共汽车／迷路"],
+    ["¡Diviértete!", "玩得开心点！"],
+    ["¡Feliz Año Nuevo!", "新年快乐！"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Cuando llegué, mis amigos ya ___. (bailaron / bailaban)", "a": "Cuando llegué, mis amigos ya bailaban."},
+    {"type": "选择", "q": "Anoche ___ tres horas en la velada. (bailamos / bailábamos)", "a": "Anoche bailamos tres horas en la velada."},
+    {"type": "填空", "q": "En la velada ______ (conocer, yo) a Isabel; antes no la ______ (conocer).", "a": "En la velada conocí a Isabel; antes no la conocía."},
+    {"type": "填空", "q": "En esta tienda se ______ (vender) libros en español.", "a": "En esta tienda se venden libros en español."},
+    {"type": "选择", "q": "No me gusta esta película: ___ muy aburrida. (es / está)", "a": "No me gusta esta película: es muy aburrida."},
+    {"type": "改写", "q": "用无人称 se 改写：En esta ciudad la gente vive bien.", "a": "En esta ciudad se vive bien."},
+    {"type": "翻译", "q": "他们俩互相看了看，什么也没说。", "a": "Los dos se miraron y no dijeron nada."},
+    {"type": "问答", "q": "Según el texto, ¿por qué estaba aburrido Luis?", "a": "Porque no sabía bailar."}
+  ],
+  "summary": [
+    "进行中的动作用未完成时，插进来的动作用简单过去时。",
+    "有时间界限的动作（hasta medianoche）用简单过去时。",
+    "自复被动句：动词和后面的主语保持数的一致。",
+    "无人称 se 动词只用单数；相互句表示“互相”。",
+    "ser 讲特征，estar 讲状态：es / está listo。"
+  ],
+  "homework": [
+    "用自复被动句写 4 条告示，如 Se venden pisos。",
+    "用两种过去时写一段话（8 句），讲一次聚会。",
+    "用 listo、aburrido、malo 分别和 ser、estar 造句。"
+  ],
+  "notes": {
+    "goals": "本课继续讲两种过去时，重点是“进行中被打断”“同时进行”“有时间界限”三种情形。se 的三种用法容易混，用表格对比讲。",
+    "vocab": "reunirse 现在时单数和第三人称复数带重音：me reúno、se reúnen。divertirse 简单过去时第三人称 e → i：se divirtió、se divirtieron。mirar 是有意去看，ver 是看见；perder el autobús 是“错过”，perderse 是“迷路”。",
+    "text": "第 4、7、12 句用未完成时，第 3、5、9 句两种时态并用，其余各句用简单过去时，可请学生逐句说明理由。第 8、10 句是自复被动句，第 13 句是相互句。",
+    "grammar": "提醒学生：自复被动句的主语多是物，动词和它保持数的一致；指人时用无人称句加 a（Se invitó a todos）。ser 和 estar 本课只讲跟形容词的区别，其余第 4 课再讲。",
+    "exercises": "第 1、2 题对比“正在进行”和“持续了多久”。第 6 题是无人称句，动词只用单数。"
+  }
+}

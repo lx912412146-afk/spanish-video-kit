@@ -1,0 +1,174 @@
+{
+  "book": 2,
+  "lesson": 9,
+  "title_es": "La despedida",
+  "title_zh": "送别",
+  "goals": [
+    "掌握虚拟式现在时在名词性从句里的用法",
+    "分清主语相同用原形、主语不同用从句",
+    "会用名词和形容词的补语从句",
+    "掌握前置词 a、de、en、para、por",
+    "能用西语为朋友送行、表达祝愿"
+  ],
+  "vocab": [
+    ["la despedida", "告别，送别"],
+    ["mandar", "命令；派遣；寄"],
+    ["desear", "希望；祝愿"],
+    ["dejar", "留下；离开；让"],
+    ["esperar", "希望；等待"],
+    ["querer", "想要；爱"],
+    ["guardar", "保存，收好；保守"],
+    ["alegrarse (de)", "（对……）感到高兴"],
+    ["sentir", "感到遗憾；感觉"],
+    ["la esperanza", "希望"],
+    ["contento, contenta", "高兴的，满意的"],
+    ["triste", "难过的，悲伤的"],
+    ["el regalo", "礼物"],
+    ["la noticia", "消息"],
+    ["la suerte", "运气"],
+    ["con frecuencia", "经常"],
+    ["el recuerdo", "纪念；回忆；（复）问候"]
+  ],
+  "text": {
+    "title": "La despedida",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Wang Tao, ¿es verdad que te marchas mañana a Lima?", "zh": "王涛，你真的明天就去利马吗？"},
+      {"who": "B", "es": "Sí, me mandan a trabajar a nuestra embajada en Perú.", "zh": "是的，派我到我国驻秘鲁大使馆工作。"},
+      {"who": "A", "es": "Me alegro de que trabajes allí, pero siento que te vayas tan lejos.", "zh": "你能去那儿工作，我很高兴；可你要走那么远，我又很难过。"},
+      {"who": "B", "es": "Yo también estoy triste de dejar a mis amigos y a mi familia.", "zh": "要离开朋友和家人，我也很难过。"},
+      {"who": "A", "es": "Toma, es un regalo para ti: una foto de toda la clase.", "zh": "给，这是送你的礼物：全班的合影。"},
+      {"who": "B", "es": "¡Qué bonita! La guardaré siempre. Gracias por todo.", "zh": "真漂亮！我会一直留着它。谢谢大家！"},
+      {"who": "A", "es": "Todos esperamos que nos escribas con frecuencia.", "zh": "大家都希望你常给我们写信。"},
+      {"who": "B", "es": "Claro que sí. Y yo quiero que me mandéis noticias de la clase.", "zh": "那当然。我也希望你们把班里的消息告诉我。"},
+      {"who": "A", "es": "Mis padres te desean mucha suerte en el nuevo trabajo.", "zh": "我爸妈祝你新工作一切顺利。"},
+      {"who": "B", "es": "Gracias. Diles que espero volver a verlos pronto.", "zh": "谢谢。请转告他们，我希望早日再见到他们。"},
+      {"who": "A", "es": "Al llegar a Lima, no dejes de llamarnos por teléfono.", "zh": "到了利马，一定要给我们打电话。"},
+      {"who": "B", "es": "No te preocupes. Os llamaré el mismo día.", "zh": "放心吧。我当天就给你们打。"},
+      {"who": "A", "es": "Buen viaje. Tenemos la esperanza de que vuelvas pronto.", "zh": "一路顺风。我们都盼着你早日回来。"},
+      {"who": "B", "es": "Gracias, amigos. ¡Hasta pronto!", "zh": "谢谢朋友们。回头见！"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "虚拟式现在时：变位回顾",
+      "points": [
+        "陈述式现在时 yo 去 -o：-ar 动词加 -e…，-er、-ir 加 -a…。",
+        "yo 形式不规则的照样变：tengo → tenga，hago → haga。",
+        "单独记：sea（ser）、vaya（ir）、esté、sepa、dé、haya。",
+        "-ar、-er 词根变化动词同现在时：vuelva…，但 volvamos、volváis。"
+      ],
+      "table": {
+        "head": ["人称", "hablar", "volver", "escribir"],
+        "rows": [
+          ["yo", "hable", "vuelva", "escriba"],
+          ["tú", "hables", "vuelvas", "escribas"],
+          ["él / ella / usted", "hable", "vuelva", "escriba"],
+          ["nosotros, -as", "hablemos", "volvamos", "escribamos"],
+          ["vosotros, -as", "habléis", "volváis", "escribáis"],
+          ["ellos/ellas/ustedes", "hablen", "vuelvan", "escriban"]
+        ]
+      },
+      "examples": [
+        ["No te preocupes por nosotros.", "别为我们担心。（否定命令式，第 3 课）"],
+        ["Quiero que me escribas.", "我希望你给我写信。"],
+        ["Deseo que seas feliz.", "祝你幸福。"]
+      ]
+    },
+    {
+      "title": "虚拟式现在时（一）：名词性从句",
+      "points": [
+        "主句表示愿望、请求、命令或情感，主从句主语不同时，从句用虚拟式。",
+        "愿望、请求：querer、desear、esperar、pedir、mandar…",
+        "情感：alegrarse de que…（de 不能丢）、sentir que…",
+        "主语相同时不用从句，用原形动词：Espero volver pronto。"
+      ],
+      "examples": [
+        ["Espero que vuelvas pronto.", "我希望你早点回来。"],
+        ["Espero volver pronto.", "我希望（我）早点回来。"],
+        ["Me alegro de que estés aquí.", "你在这儿，我很高兴。"],
+        ["Siento que te vayas tan pronto.", "你这么快就要走，真遗憾。"]
+      ]
+    },
+    {
+      "title": "名词和形容词的补语从句",
+      "points": [
+        "名词后用 de que 引出从句，说明名词的内容：la esperanza de que…",
+        "名词表示愿望（deseo、esperanza）时，从句用虚拟式。",
+        "contento、triste 等形容词 + de que，从句用虚拟式。",
+        "主语相同时用 de + 原形动词：Estoy contento de verte。"
+      ],
+      "examples": [
+        ["Tengo la esperanza de que nos veamos pronto.", "我盼着我们很快能再见面。"],
+        ["Estamos contentos de que trabajes en Lima.", "你在利马工作，我们很高兴。"],
+        ["Estoy triste de que te marches.", "你要走了，我很难过。"],
+        ["Estoy muy contento de estar con vosotros.", "能和你们在一起，我很高兴。"]
+      ]
+    },
+    {
+      "title": "前置词 a、de、en、para、por",
+      "points": [
+        "a：方向、时间点；还引出人称直接宾语和间接宾语。",
+        "de：所属、来源、材料；en：地点、时间、交通工具。",
+        "para：目的、去向、对象：Salgo para Lima；Es para ti。",
+        "por：原因、经过、途径、时段：Gracias por todo。"
+      ],
+      "table": {
+        "head": ["前置词", "主要用法", "例子"],
+        "rows": [
+          ["a", "方向；时间点；人称宾语", "Voy a Lima a las dos."],
+          ["de", "所属；来源；材料", "una mesa de madera"],
+          ["en", "地点；时间；交通工具", "en mayo; en avión"],
+          ["para", "目的；去向；对象", "Es un regalo para ti."],
+          ["por", "原因；经过；途径；时段", "por la mañana"],
+          ["para / por", "去向 / 经过", "para Lima / por Lima"]
+        ]
+      },
+      "examples": [
+        ["Mañana salgo para Lima.", "我明天动身去利马。"],
+        ["El avión pasa por Madrid.", "飞机途经马德里。"],
+        ["Gracias por tu regalo.", "谢谢你的礼物。"],
+        ["Te llamaré por teléfono.", "我会给你打电话。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Te deseo mucha suerte.", "祝你好运。"],
+    ["¡Buen viaje!", "一路顺风！"],
+    ["guardar un secreto", "保守秘密"],
+    ["No dejes de escribirme.", "一定要给我写信。"],
+    ["dejar a alguien + 不定式", "让某人做……"],
+    ["mandar una carta", "寄信"],
+    ["Dale recuerdos a tu madre.", "代我问候你妈妈。"],
+    ["esperar a alguien", "等某人"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Espero que tú ______ (volver) pronto.", "a": "Espero que tú vuelvas pronto."},
+    {"type": "填空", "q": "Mis padres quieren que yo ______ (ser) médico.", "a": "Mis padres quieren que yo sea médico."},
+    {"type": "选择", "q": "（我想住在马德里）Quiero ___ en Madrid. (vivir / que viva)", "a": "Quiero vivir en Madrid."},
+    {"type": "改写", "q": "用 alegrarse de que 合并：Estás aquí. Me alegro.", "a": "Me alegro de que estés aquí."},
+    {"type": "选择", "q": "Gracias ___ tu regalo. (para / por)", "a": "Gracias por tu regalo."},
+    {"type": "选择", "q": "Mañana salgo ___ Lima. (para / por)", "a": "Mañana salgo para Lima."},
+    {"type": "翻译", "q": "很遗憾你不能来参加晚会。", "a": "Siento que no puedas venir a la fiesta."},
+    {"type": "问答", "q": "Según el texto, ¿qué quiere Wang Tao que le manden sus amigos?", "a": "Quiere que le manden noticias de la clase."}
+  ],
+  "summary": [
+    "愿望、请求、情感 + que，主语不同，从句用虚拟式。",
+    "主语相同用原形动词：Espero volver pronto。",
+    "名词、形容词 + de que 引出补语从句。",
+    "para：目的、去向、对象；por：原因、经过、途径。",
+    "a、de、en 的基本用法要熟练掌握。"
+  ],
+  "homework": [
+    "写出 ir、ser、estar、tener 的虚拟式现在时变位。",
+    "用 Espero que…、Quiero que… 给出国的朋友写 5 句话。",
+    "用 para 和 por 各造 3 个句子，注明各自的用法。"
+  ],
+  "notes": {
+    "goals": "本课第一次把虚拟式用在从句里，是第二册的难点。先复习第 3 课学过的变位，再讲“主语不同用虚拟式、相同用原形动词”。",
+    "vocab": "esperar 有“希望”和“等待”两个意思，desear 常用于祝愿。dejar 有“离开、留下、让”等意思；dejar de + 不定式是“停止”，No dejes de… 是“一定要……”。",
+    "text": "课文用了 alegrarse de que、sentir que、esperar que、querer que 和 la esperanza de que，请学生找出来并说出从句的主语。第 4、10 句主语相同，用原形动词。",
+    "grammar": "本课只讲名词性从句里的虚拟式，cuando llegues 之类的状语从句用法暂不涉及。para 和 por 用“去向／经过”“目的／原因”两组对照最清楚。",
+    "exercises": "第 3 题考主语相同用原形动词；第 5、6 题考 para 与 por；第 7 题的“晚会”也可译作 velada；第 8 题的问句里含有名词性从句（que le manden…，用虚拟式），可提醒学生注意。"
+  }
+}

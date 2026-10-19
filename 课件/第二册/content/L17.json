@@ -1,0 +1,174 @@
+{
+  "book": 2,
+  "lesson": 17,
+  "title_es": "La Tierra es redonda",
+  "title_zh": "地球是圆的",
+  "goals": [
+    "掌握原形动词作名词和跟在前置词后的用法",
+    "会用 conseguir、llegar a 等 + 原形动词",
+    "会用单数定冠词表示一类事物",
+    "复习代词的指代功能，会用 lo、eso 指代上文",
+    "能用自己的话讲“地圆说”和哥伦布的故事"
+  ],
+  "vocab": [
+    ["durante", "在……期间"],
+    ["llegar a + inf.", "终于（做到）；甚至"],
+    ["sospechar", "怀疑；猜想"],
+    ["ganar", "赢得；挣（钱）"],
+    ["contra", "反对；对着，靠着"],
+    ["conseguir (i)", "得到；做到"],
+    ["la Tierra", "地球"],
+    ["redondo, da", "圆的"],
+    ["plano, na", "平的"],
+    ["el sabio, la sabia", "学者，智者"],
+    ["la sombra", "影子"],
+    ["el tamaño", "大小，尺寸"],
+    ["calcular", "计算"],
+    ["navegar", "航行"],
+    ["el oeste", "西，西方"],
+    ["el proyecto", "计划，方案"],
+    ["convencer", "说服"],
+    ["el marinero", "水手"]
+  ],
+  "text": {
+    "title": "La Tierra es redonda",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "El hombre siempre ha querido saber cómo es la Tierra.", "zh": "人类一直想知道地球是什么样子。"},
+      {"who": "", "es": "Durante muchos siglos, mucha gente pensaba que era plana.", "zh": "许多世纪里，很多人都以为它是平的。"},
+      {"who": "", "es": "Pero algunos sabios griegos empezaron a sospechar que era redonda.", "zh": "可是有些希腊学者开始猜想它是圆的。"},
+      {"who": "", "es": "Aristóteles vio que la sombra de la Tierra sobre la Luna era redonda.", "zh": "亚里士多德发现，地球投在月亮上的影子是圆的。"},
+      {"who": "", "es": "Más tarde, otro sabio griego llegó a calcular su tamaño.", "zh": "后来，另一位希腊学者甚至算出了地球的大小。"},
+      {"who": "", "es": "En tiempos de Colón, la gente culta ya lo sabía.", "zh": "到了哥伦布的时代，有学问的人都已经知道这一点。"},
+      {"who": "", "es": "Colón creía que, navegando hacia el oeste, llegaría a Asia.", "zh": "哥伦布认为，一直向西航行就能到达亚洲。"},
+      {"who": "", "es": "Para él, ir por el oeste sería más corto que rodear África.", "zh": "在他看来，往西走比绕过非洲要近。"},
+      {"who": "", "es": "Muchos sabios estaban contra él: decían que el viaje sería muy largo.", "zh": "很多学者反对他，说航程会非常远。"},
+      {"who": "", "es": "En eso tenían razón, pero Colón no cambió de idea.", "zh": "在这一点上他们是对的，但哥伦布没有改变主意。"},
+      {"who": "", "es": "Después de esperar varios años, consiguió convencer a la reina Isabel.", "zh": "等了好几年之后，他终于说服了伊莎贝尔女王。"},
+      {"who": "", "es": "En 1492 salió con tres barcos, sin saber que existía América.", "zh": "1492 年，他带着三艘船出发了，并不知道有美洲存在。"},
+      {"who": "", "es": "Llegó a América, pero murió creyendo que había estado en Asia.", "zh": "他到了美洲，却至死都以为自己到过的是亚洲。"},
+      {"who": "", "es": "En 1522, el barco de Elcano fue el primero en dar la vuelta al mundo.", "zh": "1522 年，埃尔卡诺的船第一个完成了环球航行。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "原形动词的用法（一）：作名词、跟在前置词后",
+      "points": [
+        "原形动词可以当名词用，作主语、宾语等，相当于阳性单数名词。",
+        "前面可以加 el，多见于书面语和谚语：El saber no ocupa lugar.",
+        "前置词后的动词用原形：sin, para, antes de, después de 等。",
+        "al + 原形动词 = cuando…，表示两个动作同时或紧接着发生。"
+      ],
+      "table": {
+        "head": ["结构", "意思", "例句"],
+        "rows": [
+          ["al + inf.", "……的时候", "Al llegar, llamó."],
+          ["antes de + inf.", "在……之前", "Antes de salir, comí."],
+          ["después de + inf.", "在……之后", "Después de comer, leo."],
+          ["sin + inf.", "没有……，不……", "Salió sin decir nada."],
+          ["para + inf.", "为了……", "Estudia para aprender."],
+          ["por + inf.", "因为……", "Gracias por venir."]
+        ]
+      },
+      "examples": [
+        ["Fumar es malo para la salud.", "吸烟有害健康。"],
+        ["Me gusta leer antes de dormir.", "我喜欢睡前看书。"],
+        ["Al ver tierra, los marineros se pusieron muy contentos.", "看到陆地，水手们高兴极了。"],
+        ["Colón salió sin saber que existía América.", "哥伦布出发时并不知道有美洲存在。"]
+      ]
+    },
+    {
+      "title": "原形动词的用法（二）：动词 + 原形动词",
+      "points": [
+        "deber（应该）、poder（能）、saber（会）、querer（想）后直接跟原形动词。",
+        "conseguir + 原形：经过努力做到；llegar a + 原形：终于、甚至做到。",
+        "主语不同时用从句：conseguir que + 虚拟式（第 9 课的名词性从句）。",
+        "又如 tener que, empezar a, tratar de + 原形。"
+      ],
+      "examples": [
+        ["Debemos cuidar la Tierra.", "我们应该爱护地球。"],
+        ["Colón consiguió convencer a la reina.", "哥伦布终于说服了女王。"],
+        ["Aquel sabio llegó a calcular el tamaño de la Tierra.", "那位学者甚至算出了地球的大小。"],
+        ["La profesora siempre consigue que la escuchemos.", "老师总能让我们认真听她讲。"]
+      ]
+    },
+    {
+      "title": "单数定冠词表示类别",
+      "points": [
+        "定冠词 + 单数名词可以指整个一类，而不是某一个：El perro es fiel.",
+        "也可以用复数：Los perros son fieles. 意思基本相同。",
+        "多用于下定义、讲普遍道理，动词常用陈述式现在时。",
+        "物质、抽象名词泛指时也加定冠词：El agua es necesaria."
+      ],
+      "examples": [
+        ["El perro es el mejor amigo del hombre.", "狗是人类最好的朋友。"],
+        ["El hombre es mortal.", "人都是要死的。"],
+        ["El caballo es un animal muy útil.", "马是很有用的动物。"],
+        ["El oro es más caro que la plata.", "金子比银子贵。"]
+      ]
+    },
+    {
+      "title": "某些词类的指代功能（代词复习）",
+      "points": [
+        "宾格、与格代词指代前面说过的人或物，避免重复名词。",
+        "中性 lo 指代一句话或一件事，常和 saber, creer, decir 连用。",
+        "esto, eso, aquello 也能指代前面说过的话或事，任何时候都不加重音。",
+        "éste 指后提到的（后者），aquél 指先提到的（前者）。"
+      ],
+      "table": {
+        "head": ["词", "指代什么", "例句"],
+        "rows": [
+          ["lo, la, los, las", "前面提到的人、物", "¿El mapa? Lo compré."],
+          ["lo（中性）", "一句话、一件事", "No lo sé."],
+          ["esto, eso, aquello", "说过的话、事情", "Eso no es verdad."],
+          ["éste / aquél", "后者 / 前者", "见例句"],
+          ["el mío, la tuya…", "代替物主形容词 + 名词", "Tu mapa y el mío"]
+        ]
+      },
+      "examples": [
+        ["—¿Sabes que la Tierra es redonda? —Sí, lo sé.", "——你知道地球是圆的吗？——知道。"],
+        ["Colón decía que Asia estaba cerca, pero eso no era verdad.", "哥伦布说亚洲很近，但那不是真的。"],
+        ["Colón y Elcano eran marinos: éste, vasco; aquél, genovés.", "哥伦布和埃尔卡诺都是航海家，后者是巴斯克人，前者是热那亚人。"],
+        ["Mi mapa es viejo, pero el tuyo es nuevo.", "我的地图旧了，可你的是新的。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Durante el viaje, los marineros tenían miedo.", "航行期间，水手们很害怕。"],
+    ["Colón llegó a ser almirante.", "哥伦布当上了海军上将。"],
+    ["Sospecho que no dice la verdad.", "我怀疑他没说实话。"],
+    ["Nuestro equipo ganó el partido.", "我们队赢了比赛。"],
+    ["Todos estaban contra la idea de Colón.", "大家都反对哥伦布的想法。"],
+    ["Por fin consiguió tres barcos.", "他终于弄到了三艘船。"],
+    ["Siempre consigue que todos lo escuchen.", "他总能让大家听他的。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "___ llegar a casa, encontré una carta. (Al / El / Para)", "a": "Al（al + 原形动词 表示“……的时候”）"},
+    {"type": "填空", "q": "Antes de ______ (salir), cierra la ventana, por favor.", "a": "salir（前置词后用原形动词）"},
+    {"type": "选择", "q": "Se fue sin ___ nada. (decir / dice / diciendo)", "a": "decir（sin 后用原形动词）"},
+    {"type": "改写", "q": "Cuando vio tierra, Colón se puso contento. → ______, Colón se puso contento.", "a": "Al ver tierra, Colón se puso contento."},
+    {"type": "填空", "q": "Después de muchos años, Colón ______ (conseguir) convencer a la reina.", "a": "consiguió"},
+    {"type": "填空", "q": "—¿Sabes que Colón llegó a América en 1492? —Sí, ya ___ sé.", "a": "lo（中性 lo 指代整件事）"},
+    {"type": "翻译", "q": "狗是忠实的动物。（用单数定冠词表示类别）", "a": "El perro es un animal fiel."},
+    {"type": "问答", "q": "¿Por qué muchos sabios estaban contra el proyecto de Colón?", "a": "Porque decían que el viaje sería muy largo."}
+  ],
+  "summary": [
+    "原形动词可当名词用，前面可加 el，相当于阳性单数名词。",
+    "前置词后用原形动词；al + 原形动词 = cuando…",
+    "deber、conseguir、llegar a 等后面跟原形动词。",
+    "定冠词 + 单数名词可以表示整个类别。",
+    "lo、eso、éste、aquél 等可以指代前文的人、物或事。"
+  ],
+  "homework": [
+    "用 al、antes de、sin、para + 原形动词各造一句。",
+    "用 8–10 句话讲哥伦布的故事，至少用三种原形动词结构。",
+    "用单数定冠词写三句关于动物或人的普遍道理。"
+  ],
+  "notes": {
+    "goals": "原形动词是本课重点，可占一课时以上；单数定冠词和代词的指代功能以复习、归纳为主。",
+    "vocab": "conseguir 和 seguir 一样是 e → i 词根变化动词（consigue、consiguió），gu 在 o、a 前写成 g（consigo、consiga）。llegar a + 原形表示“终于、甚至做到”，llegar a ser 表示“成为”。",
+    "text": "哥伦布时代的学者早已知道地球是圆的，争论在于地球大小和航程远近，可借此纠正“中世纪人都以为地是平的”的误解。让学生找出课文里的原形动词结构和指代词（lo、eso、él）。第 5 句的学者是埃拉托色尼；埃尔卡诺是在麦哲伦途中死后接替指挥、把船开回西班牙的。",
+    "grammar": "本课件按旧版课本写法，指示代词加重音（éste、aquél），2010 年 RAE 正字法起可以不加。conseguir que 后接虚拟式现在时，只用于主句是现在时、将来时等情况；主句是过去时要用虚拟式过去时，本册不讲。",
+    "exercises": "第 4 题把 cuando 从句改成 al + 原形动词，前后主语要相同；第 6 题的 lo 指代对方问的整件事。"
+  }
+}
