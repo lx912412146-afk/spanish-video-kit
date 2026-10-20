@@ -203,6 +203,11 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 考试结构依据 2026 年 10 月的 siele.org 和 2021 年 4 月版官方考试指南整理（`资料/`），样题和范文都是原创的。第 6 章和第 9–12 章由 DELE 白皮书的相应各章改编。
   - 各章正文是 `chapters/*.md`，`build_siele.js` 排成 Word，PDF 由 LibreOffice 转出。Word 和 PDF 在 Release `siele-whitepaper`。
 
+## 中文阅读（HSK1）
+
+- [`中文阅读/`](中文阅读/)：把《HSK 1级中文阅读教材 · 第一册：我的中文生活》（面向西班牙语母语的中文初学者，50 篇）做成逐句精读视频，版式沿用西班牙语分级阅读：汉字上方逐字注拼音、重点词汇编号并给出拼音和西语释义、原文下面是西语翻译。朗读用 Qwen3-TTS 克隆中文女声（0.85 倍速），每段用 SenseVoice 识别核对。
+  - 目前做了第 01 篇（试做）。视频在 Release `hsk1-reading`。
+
 ## 教学视频
 
 - [`教学视频/第一册第1课/`](教学视频/第一册第1课/)：《现代西班牙语》第一册第一课 ¿Quién es él? 的教学视频（约 13 分钟，1920×1080）。中文讲解＋西语示范和跟读：元音、辅音、音节划分、重音、连读，仿照课文的对话，语法、单词和小练习。
@@ -226,6 +231,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `whitepaper` | 西班牙语学习白皮书：`es-whitepaper.docx`、`es-whitepaper.pdf`、`whitepaper-SHA256SUMS.txt` |
 | `dele-whitepaper` | DELE 考试白皮书（A1–C2）：`dele-whitepaper.docx`、`dele-whitepaper.pdf`、`dele-whitepaper-SHA256SUMS.txt` |
 | `siele-whitepaper` | SIELE 考试白皮书（A1–C1）：`siele-whitepaper.docx`、`siele-whitepaper.pdf`、`siele-whitepaper-SHA256SUMS.txt` |
+| `hsk1-reading` | HSK1 中文阅读视频：`hsk1_01_wo_jiao_anna.mp4`（第 01 篇，试做）、核查结果、`hsk1-reading-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -259,3 +265,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `DELE白皮书/`（DELE 考试白皮书 A1–C2 的各章正文、考试结构资料和生成程序）和 Release `dele-whitepaper`；学习白皮书的页数改为实际的 395 页。
   - 2026-10-21：
     - 新增 `SIELE白皮书/`（SIELE 考试白皮书 A1–C1 的各章正文、考试结构资料和生成程序）和 Release `siele-whitepaper`。
+    - 新增 `中文阅读/`（HSK1 中文阅读视频的文章数据、生成程序和 Word 原件）和 Release `hsk1-reading`（第 01 篇试做）。

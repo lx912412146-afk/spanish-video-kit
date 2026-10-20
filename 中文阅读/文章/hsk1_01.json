@@ -1,0 +1,350 @@
+{
+ "id": "hsk1_01",
+ "no": 1,
+ "title_zh": "我叫安娜",
+ "title_es": "Me llamo Ana",
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第01篇",
+ "header": "HSK 1 · 第01篇",
+ "sents": [
+  {
+   "zh": "大家好！我叫安娜。",
+   "py": "Dàjiā hǎo! Wǒ jiào Ānnà.",
+   "es": "¡Hola a todos! Me llamo Ana.",
+   "ruby": [
+    [
+     "大",
+     "dà"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "！",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "叫",
+     "jiào"
+    ],
+    [
+     "安",
+     "Ān"
+    ],
+    [
+     "娜",
+     "nà"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "大家",
+     "py": "dàjiā",
+     "es": "todos",
+     "surface": "大家",
+     "source": "doc"
+    },
+    {
+     "h": "叫",
+     "py": "jiào",
+     "es": "llamarse",
+     "surface": "叫",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我今年十八岁。",
+   "py": "Wǒ jīnnián shíbā suì.",
+   "es": "Tengo dieciocho años.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "年",
+     "nián"
+    ],
+    [
+     "十",
+     "shí"
+    ],
+    [
+     "八",
+     "bā"
+    ],
+    [
+     "岁",
+     "suì"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "今年",
+     "py": "jīnnián",
+     "es": "este año",
+     "surface": "今年",
+     "source": "doc"
+    },
+    {
+     "h": "岁",
+     "py": "suì",
+     "es": "años de edad",
+     "surface": "岁",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我是学生，我学习中文。",
+   "py": "Wǒ shì xuésheng, wǒ xuéxí Zhōngwén.",
+   "es": "Soy estudiante y estudio chino.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "生",
+     "sheng"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "学生",
+     "py": "xuésheng",
+     "es": "estudiante",
+     "surface": "学生",
+     "source": "doc"
+    },
+    {
+     "h": "学习",
+     "py": "xuéxí",
+     "es": "estudiar; aprender",
+     "surface": "学习",
+     "source": "doc"
+    },
+    {
+     "h": "中文",
+     "py": "Zhōngwén",
+     "es": "chino",
+     "surface": "中文",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我喜欢看书，也喜欢听音乐。",
+   "py": "Wǒ xǐhuan kàn shū, yě xǐhuan tīng yīnyuè.",
+   "es": "Me gusta leer y también me gusta escuchar música.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "看",
+     "kàn"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "也",
+     "yě"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "听",
+     "tīng"
+    ],
+    [
+     "音",
+     "yīn"
+    ],
+    [
+     "乐",
+     "yuè"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "喜欢",
+     "py": "xǐhuan",
+     "es": "gustar",
+     "surface": "喜欢",
+     "source": "doc"
+    },
+    {
+     "h": "看书",
+     "py": "kàn shū",
+     "es": "leer",
+     "surface": "看书",
+     "source": "doc"
+    },
+    {
+     "h": "听音乐",
+     "py": "tīng yīnyuè",
+     "es": "escuchar música",
+     "surface": "听音乐",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "很高兴认识大家！",
+   "py": "Hěn gāoxìng rènshi dàjiā!",
+   "es": "¡Encantada de conoceros a todos!",
+   "ruby": [
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "高",
+     "gāo"
+    ],
+    [
+     "兴",
+     "xìng"
+    ],
+    [
+     "认",
+     "rèn"
+    ],
+    [
+     "识",
+     "shi"
+    ],
+    [
+     "大",
+     "dà"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "！",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "高兴",
+     "py": "gāoxìng",
+     "es": "contento; alegre",
+     "surface": "高兴",
+     "source": "supplement"
+    },
+    {
+     "h": "认识",
+     "py": "rènshi",
+     "es": "conocer (a alguien)",
+     "surface": "认识",
+     "source": "supplement"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 01 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 5 句原件词汇表里没有新词，补了 HSK1 词「高兴」「认识」（source=supplement）。es：逐句西语翻译，原件没有，是补写的；第 2 句“今年十八岁”只说年龄，译作 Tengo dieciocho años；第 5 句说话人是安娜（女），用 Encantada，按西班牙用法对大家用 vosotros（conoceros）。",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "叫",
+   "jiào"
+  ],
+  [
+   "安",
+   "Ān"
+  ],
+  [
+   "娜",
+   "nà"
+  ]
+ ]
+}

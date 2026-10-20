@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_01.mp3",
+ "duration": 17.64,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.19,
+  "short_term_std_lu": 0.61,
+  "short_term_std_full_lu": 0.86,
+  "peak_dbfs": -1.95,
+  "buzz_hz": 3090.8,
+  "buzz_db": 7.0,
+  "comb_db": 0.22
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.85 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.85,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.69,
+   "parts": [
+    [
+     1.5,
+     2.23
+    ],
+    [
+     2.73,
+     3.69
+    ]
+   ],
+   "segments": [
+    "大家好！",
+    "我叫安娜。"
+   ],
+   "text": "大家好！我叫安娜。",
+   "read": "大家好！我叫安娜。"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.49,
+   "end": 5.88,
+   "parts": [
+    [
+     4.49,
+     5.88
+    ]
+   ],
+   "segments": [
+    "我今年十八岁。"
+   ],
+   "text": "我今年十八岁。",
+   "read": "我今年十八岁。"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.68,
+   "end": 9.23,
+   "parts": [
+    [
+     6.68,
+     7.64
+    ],
+    [
+     7.99,
+     9.23
+    ]
+   ],
+   "segments": [
+    "我是学生，",
+    "我学习中文。"
+   ],
+   "text": "我是学生，我学习中文。",
+   "read": "我是学生，我学习中文。"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.03,
+   "end": 13.01,
+   "parts": [
+    [
+     10.03,
+     11.26
+    ],
+    [
+     11.61,
+     13.01
+    ]
+   ],
+   "segments": [
+    "我喜欢看书，",
+    "也喜欢听音乐。"
+   ],
+   "text": "我喜欢看书，也喜欢听音乐。",
+   "read": "我喜欢看书，也喜欢听音乐。"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.81,
+   "end": 15.64,
+   "parts": [
+    [
+     13.81,
+     15.64
+    ]
+   ],
+   "segments": [
+    "很高兴认识大家！"
+   ],
+   "text": "很高兴认识大家！",
+   "read": "很高兴认识大家！"
+  }
+ ],
+ "draft_issues": []
+}
