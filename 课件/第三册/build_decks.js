@@ -66,7 +66,8 @@ const fit = (x, max, min) => { let pt = max; while (pt > min && textWidth(x, pt)
 const tooLong = (t) => fit(fixTitle(t), 32, 20) < 28;
 function title(slide, t, split = false) {
   t = fixTitle(t);
-  const pt = fit(t, 32, 20), sep = t.includes('：') ? '：' : ' · ', k = t.indexOf(sep);
+  // 只在冒号处拆；没有冒号时只有课文标题可以在“ · ”处拆（语法标题的“ · ”在编号后面，不能拆）
+  const pt = fit(t, 32, 20), sep = t.includes('：') ? '：' : (t.startsWith('语法') ? null : ' · '), k = sep ? t.indexOf(sep) : -1;
   // 占位符上设的字号会被版式覆盖，所以字号写在文字本身上
   if ((pt < 28 || split) && k > 0) {
     // 标题太长：冒号（或“ · ”）前作主标题（字号和别的页一样），后面的细目另起一行用小字；（表）和分页号留在主标题
