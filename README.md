@@ -188,8 +188,14 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 
 ## 学习白皮书
 
-- [`白皮书/`](白皮书/)：《西班牙语学习白皮书》，把《现代西班牙语》（老版）第一至四册 78 课的知识点按专题整理成一本书（约 380 页）：四册学习路线和语法进度总表、语音与正字法、词法、动词、句法、分课索引和全部重点词汇、常见错误、术语对照。每个知识点标出处〔册·课〕。
+- [`白皮书/`](白皮书/)：《西班牙语学习白皮书》，把《现代西班牙语》（老版）第一至四册 78 课的知识点按专题整理成一本书（395 页）：四册学习路线和语法进度总表、语音与正字法、词法、动词、句法、分课索引和全部重点词汇、常见错误、术语对照。每个知识点标出处〔册·课〕。
   - 各章正文是 `chapters/*.md`，`build_whitepaper.js` 读各章和四册课件 JSON 排成 Word；PDF 由 LibreOffice 转出。Word 和 PDF 在 Release `whitepaper`。
+
+## DELE 考试白皮书
+
+- [`DELE白皮书/`](DELE白皮书/)：《DELE 考试白皮书》（A1–C2，436 页），面向准备 DELE 的中国考生和老师：各级考试结构（部分、任务、题量、时长、字数、及格规则），每个任务的题型模板、原创样题和答案解析，写作范文和口语示范；语法用词易错点和各项技能的应试技巧；A1–C2 常用词汇、搭配、习语和写作口语常用表达；备考计划和术语对照。
+  - 考试结构依据 2026 年 10 月的塞万提斯学院官方考试网站和考试指南整理（`资料/`），样题和范文都是原创的，不是真题或官方样卷。拼写按现行 RAE 规范（solo、este 不加重音）。
+  - 各章正文是 `chapters/*.md`，`build_dele.js` 排成 Word，PDF 由 LibreOffice 转出。Word 和 PDF 在 Release `dele-whitepaper`。
 
 ## 教学视频
 
@@ -212,6 +218,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `courseware-book3` | 第三册分课课件：`book3_L01.pptx` … `book3_L18.pptx` 和同名 PDF、`courseware-book3-SHA256SUMS.txt` |
 | `courseware-book4` | 第四册分课课件：`book4_L01.pptx` … `book4_L18.pptx` 和同名 PDF、`courseware-book4-SHA256SUMS.txt` |
 | `whitepaper` | 西班牙语学习白皮书：`es-whitepaper.docx`、`es-whitepaper.pdf`、`whitepaper-SHA256SUMS.txt` |
+| `dele-whitepaper` | DELE 考试白皮书（A1–C2）：`dele-whitepaper.docx`、`dele-whitepaper.pdf`、`dele-whitepaper-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -242,3 +249,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `课件/第三册/`（18 课的课件内容、第三册课程大纲和生成程序）和 Release `courseware-book3`。
     - 新增 `课件/第四册/`（18 课的课件内容、第四册课程大纲和生成程序）和 Release `courseware-book4`。
     - 新增 `白皮书/`（西班牙语学习白皮书的各章正文和生成程序）和 Release `whitepaper`；修正课件里的几处：第三册第 1、5、8 课几页语法标题只显示“语法 N”，第三册第 17 课 in- 在 r 前应作 ir-，第三册第 7 课四位数 2850 不分节，第二册第 10 课第二个“虚拟式现在时（二）”改为“（二，续）”，第一册第 20 课“以 j 结尾的词根用 -eron”限于不规则词根。
+    - 新增 `DELE白皮书/`（DELE 考试白皮书 A1–C2 的各章正文、考试结构资料和生成程序）和 Release `dele-whitepaper`；学习白皮书的页数改为实际的 395 页。

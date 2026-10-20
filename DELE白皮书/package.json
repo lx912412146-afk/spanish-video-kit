@@ -1,0 +1,6 @@
+{
+  "name": "dele-whitepaper",
+  "private": true,
+  "description": "DELE 考试白皮书（A1–C2）生成",
+  "dependencies": { "docx": "9.5.1" }
+}
