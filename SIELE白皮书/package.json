@@ -1,0 +1,6 @@
+{
+  "name": "siele-whitepaper",
+  "private": true,
+  "description": "SIELE 考试白皮书（A1–C1）生成",
+  "dependencies": { "docx": "9.5.1" }
+}

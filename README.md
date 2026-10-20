@@ -197,6 +197,12 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 考试结构依据 2026 年 10 月的塞万提斯学院官方考试网站和考试指南整理（`资料/`），样题和范文都是原创的，不是真题或官方样卷。拼写按现行 RAE 规范（solo、este 不加重音）。
   - 各章正文是 `chapters/*.md`，`build_dele.js` 排成 Word，PDF 由 LibreOffice 转出。Word 和 PDF 在 Release `dele-whitepaper`。
 
+## SIELE 考试白皮书
+
+- [`SIELE白皮书/`](SIELE白皮书/)：《SIELE 考试白皮书》（A1–C1，332 页），面向准备 SIELE 的中国考生和老师：考试类型（Global、S1–S5）和四项考试的每个任务（级别、题型、题量、时长、字数），各项分数段，原创样题和答案解析、写作范文和口语示范；语法用词易错点、按级别的易错题精练、电脑考试的注意事项和应试技巧；A1–C1 常考词汇、写作口语常用表达；备考计划和术语对照。
+  - 考试结构依据 2026 年 10 月的 siele.org 和 2021 年 4 月版官方考试指南整理（`资料/`），样题和范文都是原创的。第 6 章和第 9–12 章由 DELE 白皮书的相应各章改编。
+  - 各章正文是 `chapters/*.md`，`build_siele.js` 排成 Word，PDF 由 LibreOffice 转出。Word 和 PDF 在 Release `siele-whitepaper`。
+
 ## 教学视频
 
 - [`教学视频/第一册第1课/`](教学视频/第一册第1课/)：《现代西班牙语》第一册第一课 ¿Quién es él? 的教学视频（约 13 分钟，1920×1080）。中文讲解＋西语示范和跟读：元音、辅音、音节划分、重音、连读，仿照课文的对话，语法、单词和小练习。
@@ -219,6 +225,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `courseware-book4` | 第四册分课课件：`book4_L01.pptx` … `book4_L18.pptx` 和同名 PDF、`courseware-book4-SHA256SUMS.txt` |
 | `whitepaper` | 西班牙语学习白皮书：`es-whitepaper.docx`、`es-whitepaper.pdf`、`whitepaper-SHA256SUMS.txt` |
 | `dele-whitepaper` | DELE 考试白皮书（A1–C2）：`dele-whitepaper.docx`、`dele-whitepaper.pdf`、`dele-whitepaper-SHA256SUMS.txt` |
+| `siele-whitepaper` | SIELE 考试白皮书（A1–C1）：`siele-whitepaper.docx`、`siele-whitepaper.pdf`、`siele-whitepaper-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -250,3 +257,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `课件/第四册/`（18 课的课件内容、第四册课程大纲和生成程序）和 Release `courseware-book4`。
     - 新增 `白皮书/`（西班牙语学习白皮书的各章正文和生成程序）和 Release `whitepaper`；修正课件里的几处：第三册第 1、5、8 课几页语法标题只显示“语法 N”，第三册第 17 课 in- 在 r 前应作 ir-，第三册第 7 课四位数 2850 不分节，第二册第 10 课第二个“虚拟式现在时（二）”改为“（二，续）”，第一册第 20 课“以 j 结尾的词根用 -eron”限于不规则词根。
     - 新增 `DELE白皮书/`（DELE 考试白皮书 A1–C2 的各章正文、考试结构资料和生成程序）和 Release `dele-whitepaper`；学习白皮书的页数改为实际的 395 页。
+  - 2026-10-21：
+    - 新增 `SIELE白皮书/`（SIELE 考试白皮书 A1–C1 的各章正文、考试结构资料和生成程序）和 Release `siele-whitepaper`。
