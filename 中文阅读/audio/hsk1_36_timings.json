@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_36.mp3",
+ "duration": 17.921,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.24,
+  "short_term_std_lu": 0.54,
+  "short_term_std_full_lu": 0.77,
+  "peak_dbfs": -2.57,
+  "buzz_hz": 9612.3,
+  "buzz_db": 6.2,
+  "comb_db": -0.41
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.31,
+   "parts": [
+    [
+     1.5,
+     3.31
+    ]
+   ],
+   "segments": [
+    "今天的天气很好。"
+   ],
+   "text": "今天的天气很好。",
+   "read": "今天的天气很好。",
+   "asr_final": "今天的天气很好"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.11,
+   "end": 5.61,
+   "parts": [
+    [
+     4.11,
+     5.61
+    ]
+   ],
+   "segments": [
+    "早上有一点冷。"
+   ],
+   "text": "早上有一点冷。",
+   "read": "早上有一点冷。",
+   "asr_final": "早上有一点冷"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.41,
+   "end": 9.371,
+   "parts": [
+    [
+     6.41,
+     7.9
+    ],
+    [
+     8.25,
+     9.371
+    ]
+   ],
+   "segments": [
+    "中午太阳出来了，",
+    "天气很热。"
+   ],
+   "text": "中午太阳出来了，天气很热。",
+   "read": "中午太阳出来了，天气很热。",
+   "asr_final": "中午太阳出来了天气很热"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.171,
+   "end": 12.621,
+   "parts": [
+    [
+     10.171,
+     12.621
+    ]
+   ],
+   "segments": [
+    "我和朋友去公园走一走。"
+   ],
+   "text": "我和朋友去公园走一走。",
+   "read": "我和朋友去公园走一走。",
+   "asr_final": "我和朋友去公园走一走"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.421,
+   "end": 15.921,
+   "parts": [
+    [
+     13.421,
+     15.921
+    ]
+   ],
+   "segments": [
+    "我们在外面玩得很开心。"
+   ],
+   "text": "我们在外面玩得很开心。",
+   "read": "我们在外面玩得很开心。",
+   "asr_final": "我们在外面玩的很开心"
+  }
+ ],
+ "draft_issues": []
+}

@@ -1,0 +1,313 @@
+{
+ "id": "hsk1_04",
+ "no": 4,
+ "title_zh": "我的一天",
+ "title_es": "Mi día",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "一",
+   "yì"
+  ],
+  [
+   "天",
+   "tiān"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第04篇",
+ "header": "HSK 1 · 第04篇",
+ "sents": [
+  {
+   "zh": "我每天早上七点起床。",
+   "py": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng.",
+   "es": "Todos los días me levanto a las siete de la mañana.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "每",
+     "měi"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "七",
+     "qī"
+    ],
+    [
+     "点",
+     "diǎn"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "床",
+     "chuáng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "每天",
+     "py": "měitiān",
+     "es": "todos los días",
+     "surface": "每天",
+     "source": "doc"
+    },
+    {
+     "h": "早上",
+     "py": "zǎoshang",
+     "es": "por la mañana",
+     "surface": "早上",
+     "source": "doc"
+    },
+    {
+     "h": "点",
+     "py": "diǎn",
+     "es": "en punto",
+     "surface": "点",
+     "source": "doc"
+    },
+    {
+     "h": "起床",
+     "py": "qǐchuáng",
+     "es": "levantarse",
+     "surface": "起床",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "八点，我去学校。",
+   "py": "Bā diǎn, wǒ qù xuéxiào.",
+   "es": "A las ocho voy a la escuela.",
+   "ruby": [
+    [
+     "八",
+     "bā"
+    ],
+    [
+     "点",
+     "diǎn"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "学校",
+     "py": "xuéxiào",
+     "es": "escuela",
+     "surface": "学校",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "上午，我学习中文。",
+   "py": "Shàngwǔ, wǒ xuéxí Zhōngwén.",
+   "es": "Por la mañana estudio chino.",
+   "ruby": [
+    [
+     "上",
+     "shàng"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "上午",
+     "py": "shàngwǔ",
+     "es": "por la mañana",
+     "surface": "上午",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "中午，我和朋友吃饭。",
+   "py": "Zhōngwǔ, wǒ hé péngyou chī fàn.",
+   "es": "A mediodía como con mis amigos.",
+   "ruby": [
+    [
+     "中",
+     "zhōng"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "中午",
+     "py": "zhōngwǔ",
+     "es": "mediodía",
+     "surface": "中午",
+     "source": "doc"
+    },
+    {
+     "h": "吃饭",
+     "py": "chī fàn",
+     "es": "comer",
+     "surface": "吃饭",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "晚上，我看书。",
+   "py": "Wǎnshang, wǒ kàn shū.",
+   "es": "Por la noche leo.",
+   "ruby": [
+    [
+     "晚",
+     "wǎn"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "看",
+     "kàn"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "晚上",
+     "py": "wǎnshang",
+     "es": "por la noche",
+     "surface": "晚上",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 04 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；每句都有原件词条，没有补词。title_ruby：“一天”的“一”程序生成的是本调 yī，照原件课文对“一”标变调的习惯（如 yì míng、yìqǐ）改成 yì。es：逐句西语翻译，原件没有，是补写的；全篇讲每天的习惯，用一般现在时；“早上”“上午”都译作 por la mañana（照原件词汇表）；第 4 句“吃饭”在中午，按西班牙用法译作 como（comer 即吃午饭），“朋友”单复数看不出，译作 mis amigos。数字用单词（siete、ocho）。"
+}

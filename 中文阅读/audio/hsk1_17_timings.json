@@ -1,0 +1,131 @@
+{
+ "file": "hsk1_17.mp3",
+ "duration": 16.759,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.33,
+  "short_term_std_lu": 0.58,
+  "short_term_std_full_lu": 1.0,
+  "peak_dbfs": -2.37,
+  "buzz_hz": 11189.9,
+  "buzz_db": 6.3,
+  "comb_db": 0.87
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 2.729,
+   "parts": [
+    [
+     1.5,
+     2.729
+    ]
+   ],
+   "segments": [
+    "这是我的书包。"
+   ],
+   "text": "这是我的书包。",
+   "read": "这是我的书包。",
+   "asr_final": "这是我的书包"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.529,
+   "end": 6.779,
+   "parts": [
+    [
+     3.529,
+     6.779
+    ]
+   ],
+   "segments": [
+    "书包里有两本书和三个本子。"
+   ],
+   "text": "书包里有两本书和三个本子。",
+   "read": "书包里有两本书和三个本子。",
+   "asr_final": "书包里有两本书和三个本子"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.579,
+   "end": 9.219,
+   "parts": [
+    [
+     7.579,
+     9.219
+    ]
+   ],
+   "segments": [
+    "我的笔在书包里。"
+   ],
+   "text": "我的笔在书包里。",
+   "read": "我的笔在书包里。",
+   "asr_final": "我的笔在书包里"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.019,
+   "end": 12.199,
+   "parts": [
+    [
+     10.019,
+     12.199
+    ]
+   ],
+   "segments": [
+    "今天我带水去学校。"
+   ],
+   "text": "今天我带水去学校。",
+   "read": "今天我带水去学校。",
+   "asr_final": "今天我带水去学校"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.999,
+   "end": 14.759,
+   "parts": [
+    [
+     12.999,
+     14.759
+    ]
+   ],
+   "segments": [
+    "我的东西都在这里。"
+   ],
+   "text": "我的东西都在这里。",
+   "read": "我的东西都在这里。",
+   "asr_final": "我的东西都在这里"
+  }
+ ],
+ "draft_issues": []
+}

@@ -1,0 +1,146 @@
+{
+ "file": "hsk1_12.mp3",
+ "duration": 17.804,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.63,
+  "short_term_std_lu": 0.49,
+  "short_term_std_full_lu": 0.65,
+  "peak_dbfs": -1.95,
+  "buzz_hz": 2097.7,
+  "buzz_db": 6.0,
+  "comb_db": 0.15
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.271,
+   "parts": [
+    [
+     1.5,
+     3.271
+    ]
+   ],
+   "segments": [
+    "我早上喝一杯牛奶。"
+   ],
+   "text": "我早上喝一杯牛奶。",
+   "read": "我早上喝一杯牛奶。",
+   "asr_final": "我早上喝一杯牛奶"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.071,
+   "end": 6.731,
+   "parts": [
+    [
+     4.071,
+     5.351
+    ],
+    [
+     5.701,
+     6.731
+    ]
+   ],
+   "segments": [
+    "我不喝咖啡，",
+    "也不喝茶。"
+   ],
+   "text": "我不喝咖啡，也不喝茶。",
+   "read": "我不喝咖啡，也不喝茶。",
+   "asr_final": "我不喝咖啡也不喝茶"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.531,
+   "end": 10.108,
+   "parts": [
+    [
+     7.531,
+     8.561
+    ],
+    [
+     8.911,
+     10.108
+    ]
+   ],
+   "segments": [
+    "妈妈喝水，",
+    "爸爸喝茶。"
+   ],
+   "text": "妈妈喝水，爸爸喝茶。",
+   "read": "妈妈喝水，爸爸喝茶。",
+   "asr_final": "妈妈喝水爸爸喝茶"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.908,
+   "end": 12.609,
+   "parts": [
+    [
+     10.908,
+     12.609
+    ]
+   ],
+   "segments": [
+    "我们在家吃早饭。"
+   ],
+   "text": "我们在家吃早饭。",
+   "read": "我们在家吃早饭。",
+   "asr_final": "我们在家吃早饭"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.409,
+   "end": 15.804,
+   "parts": [
+    [
+     13.409,
+     14.37
+    ],
+    [
+     14.72,
+     15.804
+    ]
+   ],
+   "segments": [
+    "吃完饭，",
+    "我去学校。"
+   ],
+   "text": "吃完饭，我去学校。",
+   "read": "吃完饭，我去学校。",
+   "asr_final": "吃完饭我去学校"
+  }
+ ],
+ "draft_issues": []
+}

@@ -1,0 +1,131 @@
+{
+ "file": "hsk1_25.mp3",
+ "duration": 16.692,
+ "loudness": {
+  "integrated_lufs": -16.4,
+  "sentence_max_dev_lu": 0.07,
+  "short_term_std_lu": 0.34,
+  "short_term_std_full_lu": 0.63,
+  "peak_dbfs": -3.19,
+  "buzz_hz": 6737.5,
+  "buzz_db": 6.9,
+  "comb_db": 0.76
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.48,
+   "parts": [
+    [
+     1.5,
+     3.48
+    ]
+   ],
+   "segments": [
+    "我和妈妈去买水果。"
+   ],
+   "text": "我和妈妈去买水果。",
+   "read": "我和妈妈去买水果。",
+   "asr_final": "我和妈妈去买水果"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.28,
+   "end": 6.112,
+   "parts": [
+    [
+     4.28,
+     6.112
+    ]
+   ],
+   "segments": [
+    "我问苹果多少钱。"
+   ],
+   "text": "我问苹果多少钱。",
+   "read": "我问苹果多少钱。",
+   "asr_final": "我问苹果多少钱"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.912,
+   "end": 8.782,
+   "parts": [
+    [
+     6.912,
+     8.782
+    ]
+   ],
+   "segments": [
+    "一个苹果三块钱。"
+   ],
+   "text": "一个苹果三块钱。",
+   "read": "一个苹果三块钱。",
+   "asr_final": "一个苹果三块钱"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.582,
+   "end": 11.712,
+   "parts": [
+    [
+     9.582,
+     11.712
+    ]
+   ],
+   "segments": [
+    "妈妈买了五个苹果。"
+   ],
+   "text": "妈妈买了五个苹果。",
+   "read": "妈妈买了五个苹果。",
+   "asr_final": "妈妈买了五个苹果"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.512,
+   "end": 14.692,
+   "parts": [
+    [
+     12.512,
+     14.692
+    ]
+   ],
+   "segments": [
+    "我们还买了一些香蕉。"
+   ],
+   "text": "我们还买了一些香蕉。",
+   "read": "我们还买了一些香蕉。",
+   "asr_final": "我们还买了一些香蕉"
+  }
+ ],
+ "draft_issues": []
+}

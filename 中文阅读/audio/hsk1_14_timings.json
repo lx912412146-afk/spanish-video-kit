@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_14.mp3",
+ "duration": 18.331,
+ "loudness": {
+  "integrated_lufs": -16.41,
+  "sentence_max_dev_lu": 0.36,
+  "short_term_std_lu": 0.57,
+  "short_term_std_full_lu": 0.65,
+  "peak_dbfs": -2.56,
+  "buzz_hz": 4613.5,
+  "buzz_db": 6.1,
+  "comb_db": -1.14
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.904,
+   "parts": [
+    [
+     1.5,
+     3.904
+    ]
+   ],
+   "segments": [
+    "今天下午我在家学习。"
+   ],
+   "text": "今天下午我在家学习。",
+   "read": "今天下午我在家学习。",
+   "asr_final": "今天下午我在家学习"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.704,
+   "end": 7.183,
+   "parts": [
+    [
+     4.704,
+     5.904
+    ],
+    [
+     6.254,
+     7.183
+    ]
+   ],
+   "segments": [
+    "我打开书，",
+    "看中文。"
+   ],
+   "text": "我打开书，看中文。",
+   "read": "我打开书，看中文。",
+   "asr_final": "我打开书看中文"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.983,
+   "end": 10.063,
+   "parts": [
+    [
+     7.983,
+     10.063
+    ]
+   ],
+   "segments": [
+    "有一个字我不认识。"
+   ],
+   "text": "有一个字我不认识。",
+   "read": "有一个字我不认识。",
+   "asr_final": "有一个字我不认识"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.863,
+   "end": 13.561,
+   "parts": [
+    [
+     10.863,
+     11.983
+    ],
+    [
+     12.333,
+     13.561
+    ]
+   ],
+   "segments": [
+    "我问老师，",
+    "老师告诉我。"
+   ],
+   "text": "我问老师，老师告诉我。",
+   "read": "我问老师，老师告诉我。",
+   "asr_final": "我问老师老师告诉我"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.361,
+   "end": 16.331,
+   "parts": [
+    [
+     14.361,
+     16.331
+    ]
+   ],
+   "segments": [
+    "现在我知道这个字了。"
+   ],
+   "text": "现在我知道这个字了。",
+   "read": "现在我知道这个字了。",
+   "asr_final": "现在我知道这个字了"
+  }
+ ],
+ "draft_issues": []
+}

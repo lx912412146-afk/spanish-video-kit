@@ -54,7 +54,7 @@ def articles(docx):
         if cur is None:
             continue
         if b[0] == 't':
-            rows = [r for r in b[1] if r and r[0] != '汉字']
+            rows = [r for r in b[1] if r and r[:3] != ['汉字', '拼音', 'Español']]   # 只去掉表头行（词条本身也可能是「汉字」）
             cur['vocab'] += [{'h': r[0], 'py': r[1], 'es': r[2]} for r in rows if len(r) >= 3]
             continue
         t = b[2]
@@ -100,8 +100,8 @@ def ruby(zh, py, proper=(), keep_case=False):
     flat = ''.join(letters)
     base = strip_tone(flat)
     out, i = [], 0
-    starts = {0}                                           # 句首（含句中 ！？。 之后）：大写可能只是句首大写
-    for m in re.finditer(r'[!?.。！？]\s*', py):
+    starts = {0}                                           # 句首（含句中 ！？。 之后、引号和冒号之后）：大写可能只是句首大写
+    for m in re.finditer(r'[!?.。！？:：“"「]\s*', py):
         starts.add(len([c for c in py[:m.end()] if c.isalpha()]))
     for ch in zh:
         if not HAN.match(ch):
@@ -117,13 +117,19 @@ def ruby(zh, py, proper=(), keep_case=False):
             out.append((ch, syl, i in starts, wid[i]))
             i += len(hit)
             continue
-        if syl[0].isupper() and i in starts and not any(zh.startswith(n, len(out)) for n in proper):
-            syl = syl[0].lower() + syl[1:]
+        if syl[0].isupper() and ((i in starts and not any(zh.startswith(n, len(out)) for n in proper))
+                                 or any(zh[max(0, len(out) - j):].startswith(n) for n in NOT_PROPER for j in range(len(n)))):
+            syl = syl[0].lower() + syl[1:]                 # 句首的普通词、原件习惯大写的普通词（汉字 Hànzì）改小写
         out.append([ch, syl])
         i += len(hit)
     if i != len(base):
         raise SystemExit(f'拼音多出来：「{zh}」→“{py}”只用到第 {i}/{len(base)} 个字母')
     return out
+
+
+NOT_PROPER = {'明天', '汉字'}       # 原件在句中写成大写、但不是专有名词的词（引号里的句首“Míngtiān jiàn!”、原件习惯写 Hànzì）
+# 词汇表里的词和课文写法不同：(篇, 词表写法) → 课文里的写法、拼音、西语释义
+VOCAB_FIX = {(45, '听懂'): ('听得懂', 'tīng de dǒng', 'poder entender (al escuchar); 听懂 tīng dǒng con 得 en medio')}
 
 
 def proper_words(arts):
@@ -138,7 +144,32 @@ def proper_words(arts):
             for w in words.values():
                 if w[0][1][0].isupper() and not w[0][2]:
                     names.add(''.join(ch for ch, *_ in w))
-    return names
+    return names - NOT_PROPER
+
+
+def title_ruby(title, sents, proper):
+    """标题没有原件拼音：标题里的词在课文里出现过就用课文的注音，其余用 pypinyin（之后人工核对）。"""
+    out, i = [], 0
+    while i < len(title):
+        ch = title[i]
+        if not HAN.match(ch):
+            out.append([ch, '']); i += 1; continue
+        hit = None
+        for L in range(min(4, len(title) - i), 0, -1):          # 先找最长的、在课文里出现过的片段
+            frag = title[i:i + L]
+            for s in sents:
+                k = s['zh'].find(frag)
+                if k >= 0:
+                    hit = s['ruby'][k:k + L]; break
+            if hit:
+                break
+        if not hit:
+            hit = [[ch, pinyin(ch, style=Style.TONE)[0][0]]]
+        out += [list(x) for x in hit]
+        i += len(hit)
+    if out and out[0][1] and out[0][1][0].isupper() and not any(title.startswith(n) for n in proper):
+        out[0][1] = out[0][1][0].lower() + out[0][1][1:]
+    return out
 
 
 def main():
@@ -155,11 +186,19 @@ def main():
         for s in a['sents']:
             sents.append({'zh': s['zh'], 'py': s['py'], 'es': '', 'ruby': ruby(s['zh'], s['py'], proper), 'w': []})
         for v in a['vocab']:
+            py = v['py'] if any(v['h'].startswith(n) for n in proper) else v['py'][:1].lower() + v['py'][1:]
+            if (a['no'], v['h']) in VOCAB_FIX:
+                h, py, es = VOCAB_FIX[(a['no'], v['h'])]
+                v = dict(v, h=h, es=es)
             k = next((k for k, s in enumerate(sents) if v['h'] in s['zh']), None)
+            if k is None and v['h'] in a['title_zh']:            # 只在标题里出现：放在第一句的词汇栏里，注明“标题”
+                sents[0]['w'].append({'h': v['h'], 'py': py, 'es': v['es'], 'surface': '', 'from_title': True, 'source': 'doc'})
+                continue
             if k is None:
                 raise SystemExit(f'第 {a["no"]} 篇：词汇「{v["h"]}」在课文里找不到')
-            sents[k]['w'].append({'h': v['h'], 'py': v['py'], 'es': v['es'], 'surface': v['h'], 'source': 'doc'})
+            sents[k]['w'].append({'h': v['h'], 'py': py, 'es': v['es'], 'surface': v['h'], 'source': 'doc'})
         p = {'id': f'hsk1_{a["no"]:02d}', 'no': a['no'], 'title_zh': a['title_zh'], 'title_es': a['title_es'],
+             'title_ruby': title_ruby(a['title_zh'], sents, proper),
              'series': f'HSK 1级中文阅读 · 第一册：我的中文生活 · 第{a["no"]:02d}篇', 'header': f'HSK 1 · 第{a["no"]:02d}篇',
              'sents': sents}
         f = outdir / f'{p["id"]}.json'

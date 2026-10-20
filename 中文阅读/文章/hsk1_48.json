@@ -1,0 +1,339 @@
+{
+ "id": "hsk1_48",
+ "no": 48,
+ "title_zh": "今天是我的生日",
+ "title_es": "Hoy es mi cumpleaños",
+ "title_ruby": [
+  [
+   "今",
+   "jīn"
+  ],
+  [
+   "天",
+   "tiān"
+  ],
+  [
+   "是",
+   "shì"
+  ],
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "生",
+   "shēng"
+  ],
+  [
+   "日",
+   "rì"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第48篇",
+ "header": "HSK 1 · 第48篇",
+ "sents": [
+  {
+   "zh": "今天是我的生日。",
+   "py": "Jīntiān shì wǒ de shēngrì.",
+   "es": "Hoy es mi cumpleaños.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "生",
+     "shēng"
+    ],
+    [
+     "日",
+     "rì"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "生日",
+     "py": "shēngrì",
+     "es": "cumpleaños",
+     "surface": "生日",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我请朋友来我家。",
+   "py": "Wǒ qǐng péngyou lái wǒ jiā.",
+   "es": "Invito a mis amigos a mi casa.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "请",
+     "qǐng"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "来",
+     "lái"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "请",
+     "py": "qǐng",
+     "es": "invitar; por favor",
+     "surface": "请",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "妈妈买了一个大蛋糕。",
+   "py": "Māma mǎi le yí ge dà dàngāo.",
+   "es": "Mi madre ha comprado una tarta grande.",
+   "ruby": [
+    [
+     "妈",
+     "mā"
+    ],
+    [
+     "妈",
+     "ma"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "了",
+     "le"
+    ],
+    [
+     "一",
+     "yí"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "大",
+     "dà"
+    ],
+    [
+     "蛋",
+     "dàn"
+    ],
+    [
+     "糕",
+     "gāo"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "蛋糕",
+     "py": "dàngāo",
+     "es": "pastel; tarta",
+     "surface": "蛋糕",
+     "source": "doc"
+    },
+    {
+     "h": "大",
+     "py": "dà",
+     "es": "grande",
+     "surface": "大",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们一起吃蛋糕、喝水、听音乐。",
+   "py": "Wǒmen yìqǐ chī dàngāo, hē shuǐ, tīng yīnyuè.",
+   "es": "Comemos tarta, bebemos agua y escuchamos música juntos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "蛋",
+     "dàn"
+    ],
+    [
+     "糕",
+     "gāo"
+    ],
+    [
+     "、",
+     ""
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "、",
+     ""
+    ],
+    [
+     "听",
+     "tīng"
+    ],
+    [
+     "音",
+     "yīn"
+    ],
+    [
+     "乐",
+     "yuè"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "一起",
+     "py": "yìqǐ",
+     "es": "juntos",
+     "surface": "一起",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "这是一个很好的生日。",
+   "py": "Zhè shì yí ge hěn hǎo de shēngrì.",
+   "es": "Es un muy buen cumpleaños.",
+   "ruby": [
+    [
+     "这",
+     "zhè"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "一",
+     "yí"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "生",
+     "shēng"
+    ],
+    [
+     "日",
+     "rì"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "一个",
+     "py": "yí ge",
+     "es": "un; una",
+     "surface": "一个",
+     "source": "supplement"
+    },
+    {
+     "h": "好",
+     "py": "hǎo",
+     "es": "bueno",
+     "surface": "好",
+     "source": "supplement"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 48 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 5 句补了「一个」「好」（source=supplement；一个 照课文写作 yí ge，“一”标变调）。标题注音已核对，不用改。es：逐句西语翻译，原件没有，是补写的；说话人性别看不出来，句子里也没有要变性的词；第 2 句“请朋友”按过生日的语境用复数 mis amigos；第 3 句“妈妈买了”是今天的事，按西班牙用法用现在完成时 ha comprado，“蛋糕”取西班牙常用的 tarta；第 5 句“很好的生日”译作 un muy buen cumpleaños。"
+}

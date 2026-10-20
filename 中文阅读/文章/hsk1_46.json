@@ -1,0 +1,335 @@
+{
+ "id": "hsk1_46",
+ "no": 46,
+ "title_zh": "周末我们做什么",
+ "title_es": "¿Qué hacemos el fin de semana?",
+ "title_ruby": [
+  [
+   "周",
+   "zhōu"
+  ],
+  [
+   "末",
+   "mò"
+  ],
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "们",
+   "men"
+  ],
+  [
+   "做",
+   "zuò"
+  ],
+  [
+   "什",
+   "shén"
+  ],
+  [
+   "么",
+   "me"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第46篇",
+ "header": "HSK 1 · 第46篇",
+ "sents": [
+  {
+   "zh": "这个周末我没有课。",
+   "py": "Zhège zhōumò wǒ méiyǒu kè.",
+   "es": "Este fin de semana no tengo clase.",
+   "ruby": [
+    [
+     "这",
+     "zhè"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "周",
+     "zhōu"
+    ],
+    [
+     "末",
+     "mò"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "没",
+     "méi"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "课",
+     "kè"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "周末",
+     "py": "zhōumò",
+     "es": "fin de semana",
+     "surface": "周末",
+     "source": "doc"
+    },
+    {
+     "h": "没有课",
+     "py": "méiyǒu kè",
+     "es": "no tener clase",
+     "surface": "没有课",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "星期六，我和朋友去公园。",
+   "py": "Xīngqīliù, wǒ hé péngyou qù gōngyuán.",
+   "es": "El sábado voy al parque con un amigo.",
+   "ruby": [
+    [
+     "星",
+     "xīng"
+    ],
+    [
+     "期",
+     "qī"
+    ],
+    [
+     "六",
+     "liù"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "公",
+     "gōng"
+    ],
+    [
+     "园",
+     "yuán"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "星期六",
+     "py": "xīngqīliù",
+     "es": "sábado",
+     "surface": "星期六",
+     "source": "supplement"
+    },
+    {
+     "h": "公园",
+     "py": "gōngyuán",
+     "es": "parque",
+     "surface": "公园",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "我们走路，也说中文。",
+   "py": "Wǒmen zǒulù, yě shuō Zhōngwén.",
+   "es": "Vamos andando y también hablamos chino.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "走",
+     "zǒu"
+    ],
+    [
+     "路",
+     "lù"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "也",
+     "yě"
+    ],
+    [
+     "说",
+     "shuō"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "走路",
+     "py": "zǒulù",
+     "es": "ir a pie",
+     "surface": "走路",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "星期天，我在家看电影。",
+   "py": "Xīngqītiān, wǒ zài jiā kàn diànyǐng.",
+   "es": "El domingo veo una película en casa.",
+   "ruby": [
+    [
+     "星",
+     "xīng"
+    ],
+    [
+     "期",
+     "qī"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "看",
+     "kàn"
+    ],
+    [
+     "电",
+     "diàn"
+    ],
+    [
+     "影",
+     "yǐng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "电影",
+     "py": "diànyǐng",
+     "es": "película",
+     "surface": "电影",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "周末过得很开心。",
+   "py": "Zhōumò guò de hěn kāixīn.",
+   "es": "El fin de semana me lo paso muy bien.",
+   "ruby": [
+    [
+     "周",
+     "zhōu"
+    ],
+    [
+     "末",
+     "mò"
+    ],
+    [
+     "过",
+     "guò"
+    ],
+    [
+     "得",
+     "de"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "开",
+     "kāi"
+    ],
+    [
+     "心",
+     "xīn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "过得",
+     "py": "guò de",
+     "es": "pasarlo; vivir (un periodo)",
+     "surface": "过得",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 46 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 2 句补了「星期六」「公园」（source=supplement；星期六 句首大写改小写 xīngqīliù）。标题注音已核对，不用改。es：逐句西语翻译，原件没有，是补写的；说话人性别看不出来，句子里也没有要变性的词；第 2 句“和朋友”用单数阳性 con un amigo；第 3 句“走路”照原件释义 ir a pie 译作 Vamos andando；全篇和原件标题 ¿Qué hacemos el fin de semana? 一样用现在时，第 5 句“周末过得很开心”译作 me lo paso muy bien（对应原件「过得」的释义 pasarlo）。"
+}

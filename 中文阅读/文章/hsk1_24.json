@@ -1,0 +1,322 @@
+{
+ "id": "hsk1_24",
+ "no": 24,
+ "title_zh": "我去商店",
+ "title_es": "Voy a la tienda",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "去",
+   "qù"
+  ],
+  [
+   "商",
+   "shāng"
+  ],
+  [
+   "店",
+   "diàn"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第24篇",
+ "header": "HSK 1 · 第24篇",
+ "sents": [
+  {
+   "zh": "下午我和姐姐去商店。",
+   "py": "Xiàwǔ wǒ hé jiějie qù shāngdiàn.",
+   "es": "Por la tarde voy a la tienda con mi hermana mayor.",
+   "ruby": [
+    [
+     "下",
+     "xià"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "姐",
+     "jiě"
+    ],
+    [
+     "姐",
+     "jie"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "商",
+     "shāng"
+    ],
+    [
+     "店",
+     "diàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "姐姐",
+     "py": "jiějie",
+     "es": "hermana mayor",
+     "surface": "姐姐",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "姐姐想买一个杯子。",
+   "py": "Jiějie xiǎng mǎi yí ge bēizi.",
+   "es": "Mi hermana quiere comprar una taza.",
+   "ruby": [
+    [
+     "姐",
+     "jiě"
+    ],
+    [
+     "姐",
+     "jie"
+    ],
+    [
+     "想",
+     "xiǎng"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "一",
+     "yí"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "杯",
+     "bēi"
+    ],
+    [
+     "子",
+     "zi"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "买",
+     "py": "mǎi",
+     "es": "comprar",
+     "surface": "买",
+     "source": "doc"
+    },
+    {
+     "h": "杯子",
+     "py": "bēizi",
+     "es": "vaso; taza",
+     "surface": "杯子",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我想买一本书。",
+   "py": "Wǒ xiǎng mǎi yì běn shū.",
+   "es": "Yo quiero comprar un libro.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "想",
+     "xiǎng"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "本",
+     "běn"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "想",
+     "py": "xiǎng",
+     "es": "querer; tener ganas de",
+     "surface": "想",
+     "source": "supplement"
+    },
+    {
+     "h": "本",
+     "py": "běn",
+     "es": "clasificador para libros",
+     "surface": "本",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "这个商店很大，东西很多。",
+   "py": "Zhège shāngdiàn hěn dà, dōngxi hěn duō.",
+   "es": "Esta tienda es muy grande y tiene muchas cosas.",
+   "ruby": [
+    [
+     "这",
+     "zhè"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "商",
+     "shāng"
+    ],
+    [
+     "店",
+     "diàn"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "大",
+     "dà"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "东",
+     "dōng"
+    ],
+    [
+     "西",
+     "xi"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "多",
+     "duō"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "这个",
+     "py": "zhège",
+     "es": "este",
+     "surface": "这个",
+     "source": "doc"
+    },
+    {
+     "h": "很多",
+     "py": "hěn duō",
+     "es": "muchos",
+     "surface": "很多",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们买好东西就回家。",
+   "py": "Wǒmen mǎi hǎo dōngxi jiù huí jiā.",
+   "es": "En cuanto terminamos las compras, volvemos a casa.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "东",
+     "dōng"
+    ],
+    [
+     "西",
+     "xi"
+    ],
+    [
+     "就",
+     "jiù"
+    ],
+    [
+     "回",
+     "huí"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "就",
+     "py": "jiù",
+     "es": "entonces; ya",
+     "surface": "就",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 24 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）；title_ruby 逐字核对过。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；原件词表核对无误，未改。第 3 句补了 HSK1 词「想」「本」（source=supplement；“想”第 2 句已出现但没有列过）。es：逐句西语翻译，原件没有，是补写的；时态照原件标题 Voy a la tienda 用现在时；“杯子”原件释义 vaso; taza，句中取 una taza；第 5 句“买好东西就回家”译作 En cuanto terminamos las compras, volvemos a casa（好 = 完成，就 = 一……就）。"
+}

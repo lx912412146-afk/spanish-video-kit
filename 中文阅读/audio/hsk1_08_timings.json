@@ -1,0 +1,146 @@
+{
+ "file": "hsk1_08.mp3",
+ "duration": 19.199,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.51,
+  "short_term_std_lu": 0.5,
+  "short_term_std_full_lu": 0.76,
+  "peak_dbfs": -2.93,
+  "buzz_hz": 5191.4,
+  "buzz_db": 6.3,
+  "comb_db": -0.89
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.13,
+   "parts": [
+    [
+     1.5,
+     3.13
+    ]
+   ],
+   "segments": [
+    "今天是星期一。"
+   ],
+   "text": "今天是星期一。",
+   "read": "今天是星期一。",
+   "asr_final": "今天是星期一"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.93,
+   "end": 6.06,
+   "parts": [
+    [
+     3.93,
+     6.06
+    ]
+   ],
+   "segments": [
+    "我去学校学习中文。"
+   ],
+   "text": "我去学校学习中文。",
+   "read": "我去学校学习中文。",
+   "asr_final": "我去学校学习中文"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.86,
+   "end": 10.113,
+   "parts": [
+    [
+     6.86,
+     8.481
+    ],
+    [
+     8.831,
+     10.113
+    ]
+   ],
+   "segments": [
+    "明天是星期二，",
+    "我也去学校。"
+   ],
+   "text": "明天是星期二，我也去学校。",
+   "read": "明天是星期二，我也去学校。",
+   "asr_final": "明天是星期二我也去学校"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.913,
+   "end": 13.305,
+   "parts": [
+    [
+     10.913,
+     11.695
+    ],
+    [
+     12.045,
+     13.305
+    ]
+   ],
+   "segments": [
+    "星期六，",
+    "我不去学校。"
+   ],
+   "text": "星期六，我不去学校。",
+   "read": "星期六，我不去学校。",
+   "asr_final": "星期六我不去学校"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.105,
+   "end": 17.199,
+   "parts": [
+    [
+     14.105,
+     15.045
+    ],
+    [
+     15.395,
+     17.199
+    ]
+   ],
+   "segments": [
+    "星期天，",
+    "我和朋友一起出去。"
+   ],
+   "text": "星期天，我和朋友一起出去。",
+   "read": "星期天，我和朋友一起出去。",
+   "asr_final": "星期天我和朋友一起出去"
+  }
+ ],
+ "draft_issues": []
+}

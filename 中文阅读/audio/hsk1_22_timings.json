@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_22.mp3",
+ "duration": 18.129,
+ "loudness": {
+  "integrated_lufs": -16.41,
+  "sentence_max_dev_lu": 0.3,
+  "short_term_std_lu": 0.63,
+  "short_term_std_full_lu": 0.77,
+  "peak_dbfs": -1.96,
+  "buzz_hz": 5187.0,
+  "buzz_db": 6.7,
+  "comb_db": -1.15
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.316,
+   "parts": [
+    [
+     1.5,
+     3.316
+    ]
+   ],
+   "segments": [
+    "我每天喝很多水。"
+   ],
+   "text": "我每天喝很多水。",
+   "read": "我每天喝很多水。",
+   "asr_final": "我每天喝很多水"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.116,
+   "end": 7.085,
+   "parts": [
+    [
+     4.116,
+     5.645
+    ],
+    [
+     5.995,
+     7.085
+    ]
+   ],
+   "segments": [
+    "天气热的时候，",
+    "我喝冷水。"
+   ],
+   "text": "天气热的时候，我喝冷水。",
+   "read": "天气热的时候，我喝冷水。",
+   "asr_final": "天气热的时候我喝冷水"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.885,
+   "end": 11.04,
+   "parts": [
+    [
+     7.885,
+     9.51
+    ],
+    [
+     9.86,
+     11.04
+    ]
+   ],
+   "segments": [
+    "天气冷的时候，",
+    "我喝热水。"
+   ],
+   "text": "天气冷的时候，我喝热水。",
+   "read": "天气冷的时候，我喝热水。",
+   "asr_final": "天气冷的时候我喝热水"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.84,
+   "end": 13.613,
+   "parts": [
+    [
+     11.84,
+     13.613
+    ]
+   ],
+   "segments": [
+    "妹妹喜欢喝牛奶。"
+   ],
+   "text": "妹妹喜欢喝牛奶。",
+   "read": "妹妹喜欢喝牛奶。",
+   "asr_final": "妹妹喜欢喝牛奶"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.413,
+   "end": 16.129,
+   "parts": [
+    [
+     14.413,
+     16.129
+    ]
+   ],
+   "segments": [
+    "我们都要好好吃饭。"
+   ],
+   "text": "我们都要好好吃饭。",
+   "read": "我们都要好好吃饭。",
+   "asr_final": "我们都要好好吃饭"
+  }
+ ],
+ "draft_issues": []
+}

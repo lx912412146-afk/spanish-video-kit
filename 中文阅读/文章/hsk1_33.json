@@ -1,0 +1,310 @@
+{
+ "id": "hsk1_33",
+ "no": 33,
+ "title_zh": "学校在哪里",
+ "title_es": "¿Dónde está la escuela?",
+ "title_ruby": [
+  [
+   "学",
+   "xué"
+  ],
+  [
+   "校",
+   "xiào"
+  ],
+  [
+   "在",
+   "zài"
+  ],
+  [
+   "哪",
+   "nǎ"
+  ],
+  [
+   "里",
+   "lǐ"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第33篇",
+ "header": "HSK 1 · 第33篇",
+ "sents": [
+  {
+   "zh": "我的学校在哪里？",
+   "py": "Wǒ de xuéxiào zài nǎlǐ?",
+   "es": "¿Dónde está mi escuela?",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "哪",
+     "nǎ"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "？",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "哪里",
+     "py": "nǎlǐ",
+     "es": "dónde",
+     "surface": "哪里",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "学校在我家前面。",
+   "py": "Xuéxiào zài wǒ jiā qiánmiàn.",
+   "es": "La escuela está delante de mi casa.",
+   "ruby": [
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "前",
+     "qián"
+    ],
+    [
+     "面",
+     "miàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "学校",
+     "py": "xuéxiào",
+     "es": "escuela",
+     "surface": "学校",
+     "source": "supplement"
+    },
+    {
+     "h": "前面",
+     "py": "qiánmiàn",
+     "es": "delante (de)",
+     "surface": "前面",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "学校旁边有一个商店。",
+   "py": "Xuéxiào pángbiān yǒu yí ge shāngdiàn.",
+   "es": "Al lado de la escuela hay una tienda.",
+   "ruby": [
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "旁",
+     "páng"
+    ],
+    [
+     "边",
+     "biān"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "一",
+     "yí"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "商",
+     "shāng"
+    ],
+    [
+     "店",
+     "diàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "旁边",
+     "py": "pángbiān",
+     "es": "al lado",
+     "surface": "旁边",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "学校后面有一个公园。",
+   "py": "Xuéxiào hòumiàn yǒu yí ge gōngyuán.",
+   "es": "Detrás de la escuela hay un parque.",
+   "ruby": [
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "后",
+     "hòu"
+    ],
+    [
+     "面",
+     "miàn"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "一",
+     "yí"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "公",
+     "gōng"
+    ],
+    [
+     "园",
+     "yuán"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "后面",
+     "py": "hòumiàn",
+     "es": "detrás",
+     "surface": "后面",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "从家到学校很近。",
+   "py": "Cóng jiā dào xuéxiào hěn jìn.",
+   "es": "La escuela está muy cerca de casa.",
+   "ruby": [
+    [
+     "从",
+     "cóng"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "到",
+     "dào"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "近",
+     "jìn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "从",
+     "py": "cóng",
+     "es": "desde",
+     "surface": "从",
+     "source": "doc"
+    },
+    {
+     "h": "到",
+     "py": "dào",
+     "es": "hasta; llegar",
+     "surface": "到",
+     "source": "doc"
+    },
+    {
+     "h": "近",
+     "py": "jìn",
+     "es": "cerca",
+     "surface": "近",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 33 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件）；title_ruby 已逐字核对，无需改动。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 2 句原件词汇表里没有新词，补了「学校」「前面」（source=supplement）；原件词汇未改。es：逐句西语翻译，原件没有，是补写的；第 5 句“从家到学校很近”按西班牙口语译作 De casa a la escuela está muy cerca。"
+}

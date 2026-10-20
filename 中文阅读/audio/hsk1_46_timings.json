@@ -1,0 +1,146 @@
+{
+ "file": "hsk1_46.mp3",
+ "duration": 18.419,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.31,
+  "short_term_std_lu": 0.55,
+  "short_term_std_full_lu": 0.59,
+  "peak_dbfs": -1.93,
+  "buzz_hz": 6002.2,
+  "buzz_db": 6.4,
+  "comb_db": -0.4
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.278,
+   "parts": [
+    [
+     1.5,
+     3.278
+    ]
+   ],
+   "segments": [
+    "这个周末我没有课。"
+   ],
+   "text": "这个周末我没有课。",
+   "read": "这个周末我没有课。",
+   "asr_final": "这个周末我没有课"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.078,
+   "end": 6.91,
+   "parts": [
+    [
+     4.078,
+     4.86
+    ],
+    [
+     5.21,
+     6.91
+    ]
+   ],
+   "segments": [
+    "星期六，",
+    "我和朋友去公园。"
+   ],
+   "text": "星期六，我和朋友去公园。",
+   "read": "星期六，我和朋友去公园。",
+   "asr_final": "星期六我和朋友去公园"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.71,
+   "end": 10.389,
+   "parts": [
+    [
+     7.71,
+     8.809
+    ],
+    [
+     9.159,
+     10.389
+    ]
+   ],
+   "segments": [
+    "我们走路，",
+    "也说中文。"
+   ],
+   "text": "我们走路，也说中文。",
+   "read": "我们走路，也说中文。",
+   "asr_final": "我们走路也说中文"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.189,
+   "end": 13.969,
+   "parts": [
+    [
+     11.189,
+     12.129
+    ],
+    [
+     12.479,
+     13.969
+    ]
+   ],
+   "segments": [
+    "星期天，",
+    "我在家看电影。"
+   ],
+   "text": "星期天，我在家看电影。",
+   "read": "星期天，我在家看电影。",
+   "asr_final": "星期天我在家看电影"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.769,
+   "end": 16.419,
+   "parts": [
+    [
+     14.769,
+     16.419
+    ]
+   ],
+   "segments": [
+    "周末过得很开心。"
+   ],
+   "text": "周末过得很开心。",
+   "read": "周末过得很开心。",
+   "asr_final": "周末过得很开心"
+  }
+ ],
+ "draft_issues": []
+}

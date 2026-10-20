@@ -1,0 +1,267 @@
+{
+ "id": "hsk1_09",
+ "no": 9,
+ "title_zh": "我的老师",
+ "title_es": "Mi profesor",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "老",
+   "lǎo"
+  ],
+  [
+   "师",
+   "shī"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第09篇",
+ "header": "HSK 1 · 第09篇",
+ "sents": [
+  {
+   "zh": "我的老师姓王。",
+   "py": "Wǒ de lǎoshī xìng Wáng.",
+   "es": "Mi profesor se apellida Wang.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "老",
+     "lǎo"
+    ],
+    [
+     "师",
+     "shī"
+    ],
+    [
+     "姓",
+     "xìng"
+    ],
+    [
+     "王",
+     "Wáng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "老师",
+     "py": "lǎoshī",
+     "es": "profesor/a",
+     "surface": "老师",
+     "source": "doc"
+    },
+    {
+     "h": "姓",
+     "py": "xìng",
+     "es": "apellidarse",
+     "surface": "姓",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他是中国人。",
+   "py": "Tā shì Zhōngguó rén.",
+   "es": "Es chino.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "国",
+     "guó"
+    ],
+    [
+     "人",
+     "rén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "中国人",
+     "py": "Zhōngguó rén",
+     "es": "chino/a",
+     "surface": "中国人",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他教我们学习中文。",
+   "py": "Tā jiāo wǒmen xuéxí Zhōngwén.",
+   "es": "Nos enseña chino.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "教",
+     "jiāo"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "教",
+     "py": "jiāo",
+     "es": "enseñar",
+     "surface": "教",
+     "source": "doc"
+    },
+    {
+     "h": "我们",
+     "py": "wǒmen",
+     "es": "nosotros/as",
+     "surface": "我们",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他的中文很好。",
+   "py": "Tā de Zhōngwén hěn hǎo.",
+   "es": "Su chino es muy bueno.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "很",
+     "py": "hěn",
+     "es": "muy",
+     "surface": "很",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们都喜欢他。",
+   "py": "Wǒmen dōu xǐhuan tā.",
+   "es": "A todos nos cae bien.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "都",
+     "dōu"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "喜欢",
+     "py": "xǐhuan",
+     "es": "gustar",
+     "surface": "喜欢",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 09 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；每句都有原件词条，没有补词。「中国人」原件词汇表和课文都是 Zhōngguó rén，prep.py 生成时被改成小写 zhōngguó rén，已照原件恢复大写（中国是专有名词）；原件本身没有改。title_ruby 已核对，没有改动。es：逐句西语翻译，原件没有，是补写的；老师是男的（他），照原件标题 Mi profesor 用 profesor、chino；姓“王”译作 Wang；第 3 句“教我们学习中文”译作 Nos enseña chino（“学习”不另译）；第 5 句“喜欢”的对象是人，按西语习惯译作 nos cae bien。"
+}

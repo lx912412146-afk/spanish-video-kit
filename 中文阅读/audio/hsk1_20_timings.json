@@ -1,0 +1,151 @@
+{
+ "file": "hsk1_20.mp3",
+ "duration": 19.664,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.39,
+  "short_term_std_lu": 0.64,
+  "short_term_std_full_lu": 0.79,
+  "peak_dbfs": -2.52,
+  "buzz_hz": 4211.4,
+  "buzz_db": 7.1,
+  "comb_db": -0.23
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.45,
+   "parts": [
+    [
+     1.5,
+     3.45
+    ]
+   ],
+   "segments": [
+    "我每天七点起床。"
+   ],
+   "text": "我每天七点起床。",
+   "read": "我每天七点起床。",
+   "asr_final": "我每天七点起床"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.25,
+   "end": 7.91,
+   "parts": [
+    [
+     4.25,
+     5.37
+    ],
+    [
+     5.72,
+     6.64
+    ],
+    [
+     6.99,
+     7.91
+    ]
+   ],
+   "segments": [
+    "起床以后，",
+    "我洗脸、",
+    "刷牙。"
+   ],
+   "text": "起床以后，我洗脸、刷牙。",
+   "read": "起床以后，我洗脸、刷牙。",
+   "asr_final": "起床以后我洗脸刷牙"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 8.71,
+   "end": 10.514,
+   "parts": [
+    [
+     8.71,
+     10.514
+    ]
+   ],
+   "segments": [
+    "然后我吃早饭。"
+   ],
+   "text": "然后我吃早饭。",
+   "read": "然后我吃早饭。",
+   "asr_final": "然后我吃早饭"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.314,
+   "end": 14.284,
+   "parts": [
+    [
+     11.314,
+     12.914
+    ],
+    [
+     13.264,
+     14.284
+    ]
+   ],
+   "segments": [
+    "下午我做作业，",
+    "也看书。"
+   ],
+   "text": "下午我做作业，也看书。",
+   "read": "下午我做作业，也看书。",
+   "asr_final": "下午我做作业也看书"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 15.084,
+   "end": 17.664,
+   "parts": [
+    [
+     15.084,
+     16.254
+    ],
+    [
+     16.604,
+     17.664
+    ]
+   ],
+   "segments": [
+    "晚上十点，",
+    "我去睡觉。"
+   ],
+   "text": "晚上十点，我去睡觉。",
+   "read": "晚上十点，我去睡觉。",
+   "asr_final": "晚上十点我去睡觉"
+  }
+ ],
+ "draft_issues": []
+}

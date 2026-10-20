@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_39.mp3",
+ "duration": 17.994,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.36,
+  "short_term_std_lu": 0.38,
+  "short_term_std_full_lu": 0.92,
+  "peak_dbfs": -2.63,
+  "buzz_hz": 3695.1,
+  "buzz_db": 7.5,
+  "comb_db": 0.24
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 2.82,
+   "parts": [
+    [
+     1.5,
+     2.82
+    ]
+   ],
+   "segments": [
+    "今天我不忙。"
+   ],
+   "text": "今天我不忙。",
+   "read": "今天我不忙。",
+   "asr_final": "今天我不忙"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.62,
+   "end": 5.538,
+   "parts": [
+    [
+     3.62,
+     5.538
+    ]
+   ],
+   "segments": [
+    "上午我在家看书。"
+   ],
+   "text": "上午我在家看书。",
+   "read": "上午我在家看书。",
+   "asr_final": "上午我在家看书"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.338,
+   "end": 8.774,
+   "parts": [
+    [
+     6.338,
+     8.774
+    ]
+   ],
+   "segments": [
+    "中午我和爸爸一起吃饭。"
+   ],
+   "text": "中午我和爸爸一起吃饭。",
+   "read": "中午我和爸爸一起吃饭。",
+   "asr_final": "中午我和爸爸一起吃饭"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.574,
+   "end": 13.054,
+   "parts": [
+    [
+     9.574,
+     11.404
+    ],
+    [
+     11.754,
+     13.054
+    ]
+   ],
+   "segments": [
+    "下午朋友来我家，",
+    "我们说中文。"
+   ],
+   "text": "下午朋友来我家，我们说中文。",
+   "read": "下午朋友来我家，我们说中文。",
+   "asr_final": "下午朋友来我家我们说中文"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.854,
+   "end": 15.994,
+   "parts": [
+    [
+     13.854,
+     15.994
+    ]
+   ],
+   "segments": [
+    "晚上我有时间看电影。"
+   ],
+   "text": "晚上我有时间看电影。",
+   "read": "晚上我有时间看电影。",
+   "asr_final": "晚上我有时间看电影"
+  }
+ ],
+ "draft_issues": []
+}

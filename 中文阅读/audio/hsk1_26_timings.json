@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_26.mp3",
+ "duration": 20.05,
+ "loudness": {
+  "integrated_lufs": -16.38,
+  "sentence_max_dev_lu": 0.47,
+  "short_term_std_lu": 0.61,
+  "short_term_std_full_lu": 0.83,
+  "peak_dbfs": -2.77,
+  "buzz_hz": 4204.1,
+  "buzz_db": 7.2,
+  "comb_db": 0.26
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.67,
+   "parts": [
+    [
+     1.5,
+     3.67
+    ]
+   ],
+   "segments": [
+    "今天我去商店买水果。"
+   ],
+   "text": "今天我去商店买水果。",
+   "read": "今天我去商店买水果。",
+   "asr_final": "今天我去商店买水果"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.47,
+   "end": 7.431,
+   "parts": [
+    [
+     4.47,
+     7.431
+    ]
+   ],
+   "segments": [
+    "我买了三个苹果和两个香蕉。"
+   ],
+   "text": "我买了三个苹果和两个香蕉。",
+   "read": "我买了三个苹果和两个香蕉。",
+   "asr_final": "我买了三个苹果和两个香蕉"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 8.231,
+   "end": 11.041,
+   "parts": [
+    [
+     8.231,
+     9.341
+    ],
+    [
+     9.691,
+     11.041
+    ]
+   ],
+   "segments": [
+    "苹果很大，",
+    "香蕉很小。"
+   ],
+   "text": "苹果很大，香蕉很小。",
+   "read": "苹果很大，香蕉很小。",
+   "asr_final": "苹果很大香蕉很小"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.841,
+   "end": 14.207,
+   "parts": [
+    [
+     11.841,
+     14.207
+    ]
+   ],
+   "segments": [
+    "我把水果放在桌子上。"
+   ],
+   "text": "我把水果放在桌子上。",
+   "read": "我把水果放在桌子上。",
+   "asr_final": "我把水果放在桌子上"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 15.007,
+   "end": 18.05,
+   "parts": [
+    [
+     15.007,
+     15.875
+    ],
+    [
+     16.225,
+     18.05
+    ]
+   ],
+   "segments": [
+    "晚上，",
+    "我和家人一起吃。"
+   ],
+   "text": "晚上，我和家人一起吃。",
+   "read": "晚上，我和家人一起吃。",
+   "asr_final": "晚上我和家人一起吃"
+  }
+ ],
+ "draft_issues": []
+}

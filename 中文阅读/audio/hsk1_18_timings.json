@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_18.mp3",
+ "duration": 16.56,
+ "loudness": {
+  "integrated_lufs": -16.53,
+  "sentence_max_dev_lu": 0.2,
+  "short_term_std_lu": 0.48,
+  "short_term_std_full_lu": 0.91,
+  "peak_dbfs": -2.6,
+  "buzz_hz": 5693.8,
+  "buzz_db": 6.8,
+  "comb_db": 0.77
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.58,
+   "parts": [
+    [
+     1.5,
+     3.58
+    ]
+   ],
+   "segments": [
+    "我的手机在桌子上。"
+   ],
+   "text": "我的手机在桌子上。",
+   "read": "我的手机在桌子上。",
+   "asr_final": "我的手机在桌子上"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.38,
+   "end": 6.0,
+   "parts": [
+    [
+     4.38,
+     6.0
+    ]
+   ],
+   "segments": [
+    "手机是黑色的。"
+   ],
+   "text": "手机是黑色的。",
+   "read": "手机是黑色的。",
+   "asr_final": "手机是黑色的"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.8,
+   "end": 8.553,
+   "parts": [
+    [
+     6.8,
+     8.553
+    ]
+   ],
+   "segments": [
+    "我用手机看时间。"
+   ],
+   "text": "我用手机看时间。",
+   "read": "我用手机看时间。",
+   "asr_final": "我用手机看时间"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.353,
+   "end": 11.97,
+   "parts": [
+    [
+     9.353,
+     10.083
+    ],
+    [
+     10.433,
+     11.97
+    ]
+   ],
+   "segments": [
+    "下午，",
+    "朋友给我打电话。"
+   ],
+   "text": "下午，朋友给我打电话。",
+   "read": "下午，朋友给我打电话。",
+   "asr_final": "下午朋友给我打电话"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.77,
+   "end": 14.56,
+   "parts": [
+    [
+     12.77,
+     14.56
+    ]
+   ],
+   "segments": [
+    "我们说了十分钟。"
+   ],
+   "text": "我们说了十分钟。",
+   "read": "我们说了十分钟。",
+   "asr_final": "我们说了十分钟"
+  }
+ ],
+ "draft_issues": []
+}

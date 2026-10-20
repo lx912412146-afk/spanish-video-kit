@@ -1,0 +1,282 @@
+{
+ "id": "hsk1_11",
+ "no": 11,
+ "title_zh": "早上好",
+ "title_es": "Buenos días",
+ "title_ruby": [
+  [
+   "早",
+   "zǎo"
+  ],
+  [
+   "上",
+   "shang"
+  ],
+  [
+   "好",
+   "hǎo"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第11篇",
+ "header": "HSK 1 · 第11篇",
+ "sents": [
+  {
+   "zh": "早上好！",
+   "py": "Zǎoshang hǎo!",
+   "es": "¡Buenos días!",
+   "ruby": [
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "！",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "早上",
+     "py": "zǎoshang",
+     "es": "por la mañana",
+     "surface": "早上",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "今天我很早起床。",
+   "py": "Jīntiān wǒ hěn zǎo qǐchuáng.",
+   "es": "Hoy me levanto muy temprano.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "床",
+     "chuáng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "早",
+     "py": "zǎo",
+     "es": "temprano",
+     "surface": "早",
+     "source": "doc"
+    },
+    {
+     "h": "起床",
+     "py": "qǐchuáng",
+     "es": "levantarse",
+     "surface": "起床",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我先喝水，再吃早饭。",
+   "py": "Wǒ xiān hē shuǐ, zài chī zǎofàn.",
+   "es": "Primero bebo agua y después desayuno.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "先",
+     "xiān"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "再",
+     "zài"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "先",
+     "py": "xiān",
+     "es": "primero",
+     "surface": "先",
+     "source": "doc"
+    },
+    {
+     "h": "再",
+     "py": "zài",
+     "es": "después",
+     "surface": "再",
+     "source": "doc"
+    },
+    {
+     "h": "早饭",
+     "py": "zǎofàn",
+     "es": "desayuno",
+     "surface": "早饭",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "七点半，我去学校。",
+   "py": "Qī diǎn bàn, wǒ qù xuéxiào.",
+   "es": "A las siete y media voy a la escuela.",
+   "ruby": [
+    [
+     "七",
+     "qī"
+    ],
+    [
+     "点",
+     "diǎn"
+    ],
+    [
+     "半",
+     "bàn"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "半",
+     "py": "bàn",
+     "es": "media; mitad",
+     "surface": "半",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "今天我有中文课。",
+   "py": "Jīntiān wǒ yǒu Zhōngwén kè.",
+   "es": "Hoy tengo clase de chino.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "课",
+     "kè"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "课",
+     "py": "kè",
+     "es": "clase",
+     "surface": "课",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 11 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；原件的「早」第一次出现在第 1 句“早上好”里，和「早上」重叠，移到第 2 句“很早起床”（这里的意思正是 temprano）；每句都有原件词条，没有补词。title_ruby 已核对（早上 zǎoshang 的 shang 轻声），没有改动。es：逐句西语翻译，原件没有，是补写的；原文没有“了”，用现在时；第 3 句“先…再…”译作 Primero… y después…，“吃早饭”译作 desayuno；第 4 句“七点半”译作 a las siete y media。数字用单词。"
+}

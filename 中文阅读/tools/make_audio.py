@@ -3,11 +3,14 @@
     python make_audio.py <工具包根目录> <文章 JSON> <输出目录> <SenseVoice 模型目录>
 
 - 声音：Qwen3-TTS 1.7B 克隆 教学视频/第一册第1课/build/ref_zh.wav（工具包女声说的一段中文，第一课教学视频的中文讲解用的就是它），
-  language=chinese。合成后放慢到 0.85 倍（tempo；0.8 倍时电磁音核查在 3.7 kHz 处超限），音高不变，吐字更清楚，适合 HSK1 初学者。
+  language=chinese。合成后放慢到 0.75 倍（tempo），音高不变，吐字更清楚，适合 HSK1 初学者
+  （2026-10-21 用户试看第 01 篇后要求“速度稍微慢一些”，从 0.85 倍改为 0.75 倍）。
 - 分段：每句在句中的 ，、；： 处停 0.35 秒，在句中的 ！？。 处停 0.5 秒；句间 0.8 秒；片头 1.5 秒、结尾 2 秒静音（和西语分级阅读一样）。
 - 核对：每段用 SenseVoice 识别，转成带声调拼音和原文比（同音字不算错）；有出入的段换种子重合成，挑最准的一版。
   任何一段最后仍有出入就不输出（--draft 除外）。
-- 响度：西语那条处理链（K 加权电平、压缩、慢速电平、-16 LUFS），用 loudness.verify 核查四项。
+- 响度：西语那条处理链（K 加权电平、压缩、慢速电平、-16 LUFS），用 loudness.verify 核查四项，另查电磁音（窄带峰）。
+  这个声音本身在 3–4 kHz 有共振峰，个别篇在 0.75 倍时可能刚好超过窄带峰上限：依次换 0.74、0.76……倍再试。
+- 成品核对：放慢、拼接以后，每句再用 SenseVoice 识别一遍，必须和原文一致。
 输出：<输出目录>/<id>.mp3、<id>.srt、<id>_timings.json、<id>_识别核对.json。
 """
 import argparse
@@ -26,7 +29,8 @@ if os.environ.get('PYLIB'):                                  # pypinyin 装在�
 REF_ZH_TEXT = '同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。'
 SEEDS = (2000, 3000, 4000, 5000, 6000)
 CLAUSE, STOP = 0.35, 0.5
-TEMPO = 0.85
+TEMPO = 0.75
+TEMPO_LADDER = (0.75, 0.74, 0.76, 0.73, 0.77)       # 0.75 倍电磁音核查不过时，依次试相差很小的语速（听不出差别）
 PARTICLES = {'de2', 'de5', 'di4'}
 
 
@@ -94,7 +98,7 @@ def main():
     G, SR = MA.G, MA.SR
     p = json.loads(Path(a.article).read_text('utf-8'))
 
-    cfg = dict(MA.VOICES['qwen3_M1F5_25'], label='Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.85 倍速',
+    cfg = dict(MA.VOICES['qwen3_M1F5_25'], label='Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速',
                ref_audio=str(kit / '教学视频' / '第一册第1课' / 'build' / 'ref_zh.wav'), ref_text=REF_ZH_TEXT,
                language='chinese', max_s_per_char=0.4, tempo=TEMPO, pitch_cents=0, clause_pause=CLAUSE)
     MA.chain(cfg)
@@ -121,32 +125,51 @@ def main():
     if left and not a.draft:
         raise SystemExit('识别核对未通过，未输出音频')
 
-    pieces = [np.zeros(int(round(cfg['lead_in'] * SR)), np.float32)]
-    t = len(pieces[0]) / SR
-    items = []
-    for n, (k, s, segs) in enumerate(plan):
-        st, parts = t, []
-        for txt, pause in segs:
-            a0, sr = raw[txt]
-            seg = G.fade(G.level(G.trim(MA.to_sr(MA.tempo_pitch(a0, sr, TEMPO, 0), sr))))
-            parts.append([round(t, 3), round(t + len(seg) / SR, 3)])
-            pieces.append(seg)
-            t += len(seg) / SR
-            if pause:
-                pieces.append(np.zeros(int(round(pause * SR)), np.float32))
-                t += pause
-        items.append({'k': k, 'para': 1, 'start': round(st, 3), 'end': round(t, 3), 'parts': parts,
-                      'segments': [x for x, _ in segs], 'text': s['zh'], 'read': s['zh']})
-        g = cfg['tail'] if n == len(plan) - 1 else cfg['sentence_pause']
-        pieces.append(np.zeros(int(round(g * SR)), np.float32))
-        t += g
-    a48 = G.master(np.concatenate(pieces), cfg.get('lufs', -16.0))
-    mp3 = G.encode_mp3(a48, kbps=cfg.get('kbps', 128))
-    lrep, errs = MA.verify(mp3, items, cfg.get('lufs', -16.0))
-    print(f"响度：整体 {lrep['integrated_lufs']} LUFS，句间最大偏差 {lrep['sentence_max_dev_lu']} LU，短时波动 {lrep['short_term_std_lu']} LU，"
-          f"峰值 {lrep['peak_dbfs']} dBFS；电磁音：梳状线 {lrep['comb_db']:+.2f} dB")
+    def assemble(tempo):
+        pieces = [np.zeros(int(round(cfg['lead_in'] * SR)), np.float32)]
+        t = len(pieces[0]) / SR
+        items = []
+        for n, (k, s, segs) in enumerate(plan):
+            st, parts = t, []
+            for txt, pause in segs:
+                a0, sr = raw[txt]
+                seg = G.fade(G.level(G.trim(MA.to_sr(MA.tempo_pitch(a0, sr, tempo, 0), sr))))
+                parts.append([round(t, 3), round(t + len(seg) / SR, 3)])
+                pieces.append(seg)
+                t += len(seg) / SR
+                if pause:
+                    pieces.append(np.zeros(int(round(pause * SR)), np.float32))
+                    t += pause
+            items.append({'k': k, 'para': 1, 'start': round(st, 3), 'end': round(t, 3), 'parts': parts,
+                          'segments': [x for x, _ in segs], 'text': s['zh'], 'read': s['zh']})
+            g = cfg['tail'] if n == len(plan) - 1 else cfg['sentence_pause']
+            pieces.append(np.zeros(int(round(g * SR)), np.float32))
+            t += g
+        a48 = G.master(np.concatenate(pieces), cfg.get('lufs', -16.0))
+        mp3 = G.encode_mp3(a48, kbps=cfg.get('kbps', 128))
+        lrep, errs = MA.verify(mp3, items, cfg.get('lufs', -16.0))
+        # 成品核对：每句从成品音频里切出来再识别一遍
+        import io
+        import soundfile as sf
+        fin, fsr = sf.read(io.BytesIO(mp3), dtype='float32')
+        fin = fin if fin.ndim == 1 else fin.mean(1)
+        for it in items:
+            e, hyp, _ = asr.check(it['text'], fin[int(it['start'] * fsr):int(it['end'] * fsr)], fsr)
+            it['asr_final'] = hyp
+            if e:
+                errs.append(f"成品识别：第 {it['k']} 句「{it['text']}」→「{hyp}」")
+        return a48, mp3, items, lrep, errs
+
+    for tempo in TEMPO_LADDER:
+        a48, mp3, items, lrep, errs = assemble(tempo)
+        print(f"语速 {tempo} 倍：响度 {lrep['integrated_lufs']} LUFS，句间最大偏差 {lrep['sentence_max_dev_lu']} LU，短时波动 {lrep['short_term_std_lu']} LU，"
+              f"峰值 {lrep['peak_dbfs']} dBFS；电磁音：梳状线 {lrep['comb_db']:+.2f} dB，最强 {lrep['buzz_hz']:.0f} Hz {lrep['buzz_db']:+.1f} dB"
+              + (('；未通过：' + '；'.join(errs)) if errs else '；全部通过'), flush=True)
+        if not errs:
+            break
+    cfg['tempo'] = tempo
     if errs and not a.draft:
-        raise SystemExit('响度核查未通过：' + '；'.join(errs))
+        raise SystemExit('核查未通过：' + '；'.join(errs))
     (out / f'{p["id"]}.mp3').write_bytes(mp3)
     srt = []
     for i, it in enumerate(items, 1):

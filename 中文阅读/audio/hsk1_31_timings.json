@@ -1,0 +1,131 @@
+{
+ "file": "hsk1_31.mp3",
+ "duration": 16.593,
+ "loudness": {
+  "integrated_lufs": -16.57,
+  "sentence_max_dev_lu": 0.18,
+  "short_term_std_lu": 0.34,
+  "short_term_std_full_lu": 0.78,
+  "peak_dbfs": -1.88,
+  "buzz_hz": 3930.9,
+  "buzz_db": 6.3,
+  "comb_db": 0.46
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 2.951,
+   "parts": [
+    [
+     1.5,
+     2.951
+    ]
+   ],
+   "segments": [
+    "我的学校很大。"
+   ],
+   "text": "我的学校很大。",
+   "read": "我的学校很大。",
+   "asr_final": "我的学校很大"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.751,
+   "end": 6.011,
+   "parts": [
+    [
+     3.751,
+     6.011
+    ]
+   ],
+   "segments": [
+    "学校里有很多学生。"
+   ],
+   "text": "学校里有很多学生。",
+   "read": "学校里有很多学生。",
+   "asr_final": "学校里有很多学生"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.811,
+   "end": 8.671,
+   "parts": [
+    [
+     6.811,
+     8.671
+    ]
+   ],
+   "segments": [
+    "我的教室在二楼。"
+   ],
+   "text": "我的教室在二楼。",
+   "read": "我的教室在二楼。",
+   "asr_final": "我的教室在二楼"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.471,
+   "end": 11.771,
+   "parts": [
+    [
+     9.471,
+     11.771
+    ]
+   ],
+   "segments": [
+    "老师在教室里教中文。"
+   ],
+   "text": "老师在教室里教中文。",
+   "read": "老师在教室里教中文。",
+   "asr_final": "老师在教室里教中文"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.571,
+   "end": 14.593,
+   "parts": [
+    [
+     12.571,
+     14.593
+    ]
+   ],
+   "segments": [
+    "我喜欢在学校学习。"
+   ],
+   "text": "我喜欢在学校学习。",
+   "read": "我喜欢在学校学习。",
+   "asr_final": "我喜欢在学校学习"
+  }
+ ],
+ "draft_issues": []
+}

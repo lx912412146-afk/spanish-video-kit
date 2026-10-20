@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_10.mp3",
+ "duration": 17.512,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.29,
+  "short_term_std_lu": 0.56,
+  "short_term_std_full_lu": 0.83,
+  "peak_dbfs": -1.93,
+  "buzz_hz": 3832.8,
+  "buzz_db": 6.2,
+  "comb_db": 0.52
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.148,
+   "parts": [
+    [
+     1.5,
+     3.148
+    ]
+   ],
+   "segments": [
+    "今天天气很好。"
+   ],
+   "text": "今天天气很好。",
+   "read": "今天天气很好。",
+   "asr_final": "今天天气很好"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.948,
+   "end": 6.888,
+   "parts": [
+    [
+     3.948,
+     5.308
+    ],
+    [
+     5.658,
+     6.888
+    ]
+   ],
+   "segments": [
+    "天气很热，",
+    "太阳很大。"
+   ],
+   "text": "天气很热，太阳很大。",
+   "read": "天气很热，太阳很大。",
+   "asr_final": "天气很热太阳很大"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.688,
+   "end": 9.388,
+   "parts": [
+    [
+     7.688,
+     9.388
+    ]
+   ],
+   "segments": [
+    "我和朋友去公园。"
+   ],
+   "text": "我和朋友去公园。",
+   "read": "我和朋友去公园。",
+   "asr_final": "我和朋友去公园"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.188,
+   "end": 13.088,
+   "parts": [
+    [
+     10.188,
+     11.928
+    ],
+    [
+     12.278,
+     13.088
+    ]
+   ],
+   "segments": [
+    "我们在公园里看书、",
+    "说话。"
+   ],
+   "text": "我们在公园里看书、说话。",
+   "read": "我们在公园里看书、说话。",
+   "asr_final": "我们在公园里看书说话"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.888,
+   "end": 15.512,
+   "parts": [
+    [
+     13.888,
+     15.512
+    ]
+   ],
+   "segments": [
+    "我们今天很高兴。"
+   ],
+   "text": "我们今天很高兴。",
+   "read": "我们今天很高兴。",
+   "asr_final": "我们今天很高兴"
+  }
+ ],
+ "draft_issues": []
+}

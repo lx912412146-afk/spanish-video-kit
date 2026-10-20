@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_23.mp3",
+ "duration": 17.497,
+ "loudness": {
+  "integrated_lufs": -16.52,
+  "sentence_max_dev_lu": 0.31,
+  "short_term_std_lu": 0.57,
+  "short_term_std_full_lu": 0.9,
+  "peak_dbfs": -2.86,
+  "buzz_hz": 7081.8,
+  "buzz_db": 6.5,
+  "comb_db": -0.34
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.75,
+   "parts": [
+    [
+     1.5,
+     3.75
+    ]
+   ],
+   "segments": [
+    "今天我和朋友去饭店。"
+   ],
+   "text": "今天我和朋友去饭店。",
+   "read": "今天我和朋友去饭店。",
+   "asr_final": "今天我和朋友去饭店"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.55,
+   "end": 5.832,
+   "parts": [
+    [
+     4.55,
+     5.832
+    ]
+   ],
+   "segments": [
+    "我们看了菜单。"
+   ],
+   "text": "我们看了菜单。",
+   "read": "我们看了菜单。",
+   "asr_final": "我们看了菜单"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.631,
+   "end": 8.912,
+   "parts": [
+    [
+     6.631,
+     8.912
+    ]
+   ],
+   "segments": [
+    "我要一碗米饭和一杯水。"
+   ],
+   "text": "我要一碗米饭和一杯水。",
+   "read": "我要一碗米饭和一杯水。",
+   "asr_final": "我要一碗米饭和一杯水"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.712,
+   "end": 11.5,
+   "parts": [
+    [
+     9.712,
+     11.5
+    ]
+   ],
+   "segments": [
+    "朋友要面条和茶。"
+   ],
+   "text": "朋友要面条和茶。",
+   "read": "朋友要面条和茶。",
+   "asr_final": "朋友要面条和茶"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.3,
+   "end": 15.497,
+   "parts": [
+    [
+     12.3,
+     13.72
+    ],
+    [
+     14.07,
+     15.497
+    ]
+   ],
+   "segments": [
+    "饭很好吃，",
+    "我们都很高兴。"
+   ],
+   "text": "饭很好吃，我们都很高兴。",
+   "read": "饭很好吃，我们都很高兴。",
+   "asr_final": "饭很好吃我们都很高兴"
+  }
+ ],
+ "draft_issues": []
+}

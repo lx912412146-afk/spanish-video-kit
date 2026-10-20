@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_11.mp3",
+ "duration": 16.456,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.36,
+  "short_term_std_lu": 0.54,
+  "short_term_std_full_lu": 1.05,
+  "peak_dbfs": -1.94,
+  "buzz_hz": 2800.8,
+  "buzz_db": 6.0,
+  "comb_db": 0.92
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 2.53,
+   "parts": [
+    [
+     1.5,
+     2.53
+    ]
+   ],
+   "segments": [
+    "早上好！"
+   ],
+   "text": "早上好！",
+   "read": "早上好！",
+   "asr_final": "早上好"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.33,
+   "end": 5.19,
+   "parts": [
+    [
+     3.33,
+     5.19
+    ]
+   ],
+   "segments": [
+    "今天我很早起床。"
+   ],
+   "text": "今天我很早起床。",
+   "read": "今天我很早起床。",
+   "asr_final": "今天我很早起床"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 5.99,
+   "end": 8.8,
+   "parts": [
+    [
+     5.99,
+     7.24
+    ],
+    [
+     7.59,
+     8.8
+    ]
+   ],
+   "segments": [
+    "我先喝水，",
+    "再吃早饭。"
+   ],
+   "text": "我先喝水，再吃早饭。",
+   "read": "我先喝水，再吃早饭。",
+   "asr_final": "我先喝水再吃早饭"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.6,
+   "end": 12.055,
+   "parts": [
+    [
+     9.6,
+     10.62
+    ],
+    [
+     10.97,
+     12.055
+    ]
+   ],
+   "segments": [
+    "七点半，",
+    "我去学校。"
+   ],
+   "text": "七点半，我去学校。",
+   "read": "七点半，我去学校。",
+   "asr_final": "七点半我去学校"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.855,
+   "end": 14.456,
+   "parts": [
+    [
+     12.855,
+     14.456
+    ]
+   ],
+   "segments": [
+    "今天我有中文课。"
+   ],
+   "text": "今天我有中文课。",
+   "read": "今天我有中文课。",
+   "asr_final": "今天我有中文课"
+  }
+ ],
+ "draft_issues": []
+}

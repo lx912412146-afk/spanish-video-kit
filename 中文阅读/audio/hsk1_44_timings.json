@@ -1,0 +1,131 @@
+{
+ "file": "hsk1_44.mp3",
+ "duration": 16.736,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.15,
+  "short_term_std_lu": 0.59,
+  "short_term_std_full_lu": 0.71,
+  "peak_dbfs": -3.43,
+  "buzz_hz": 3649.7,
+  "buzz_db": 7.4,
+  "comb_db": -0.15
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 4.36,
+   "parts": [
+    [
+     1.5,
+     4.36
+    ]
+   ],
+   "segments": [
+    "今天我和同学去中国饭店。"
+   ],
+   "text": "今天我和同学去中国饭店。",
+   "read": "今天我和同学去中国饭店。",
+   "asr_final": "今天我和同学去中国饭店"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 5.16,
+   "end": 7.05,
+   "parts": [
+    [
+     5.16,
+     7.05
+    ]
+   ],
+   "segments": [
+    "我想吃米饭和鱼。"
+   ],
+   "text": "我想吃米饭和鱼。",
+   "read": "我想吃米饭和鱼。",
+   "asr_final": "我想吃米饭和鱼"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.85,
+   "end": 9.77,
+   "parts": [
+    [
+     7.85,
+     9.77
+    ]
+   ],
+   "segments": [
+    "同学想吃面条。"
+   ],
+   "text": "同学想吃面条。",
+   "read": "同学想吃面条。",
+   "asr_final": "同学想吃面条"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.57,
+   "end": 12.15,
+   "parts": [
+    [
+     10.57,
+     12.15
+    ]
+   ],
+   "segments": [
+    "我们还要两杯水。"
+   ],
+   "text": "我们还要两杯水。",
+   "read": "我们还要两杯水。",
+   "asr_final": "我们还要两杯水"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.95,
+   "end": 14.736,
+   "parts": [
+    [
+     12.95,
+     14.736
+    ]
+   ],
+   "segments": [
+    "这顿饭很好吃。"
+   ],
+   "text": "这顿饭很好吃。",
+   "read": "这顿饭很好吃。",
+   "asr_final": "这顿饭很好吃"
+  }
+ ],
+ "draft_issues": []
+}

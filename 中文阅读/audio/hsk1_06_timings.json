@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_06.mp3",
+ "duration": 17.2,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.26,
+  "short_term_std_lu": 0.58,
+  "short_term_std_full_lu": 0.74,
+  "peak_dbfs": -2.68,
+  "buzz_hz": 6599.1,
+  "buzz_db": 7.3,
+  "comb_db": 0.22
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.08,
+   "parts": [
+    [
+     1.5,
+     3.08
+    ]
+   ],
+   "segments": [
+    "我喜欢吃水果。"
+   ],
+   "text": "我喜欢吃水果。",
+   "read": "我喜欢吃水果。",
+   "asr_final": "我喜欢吃水果"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.88,
+   "end": 7.067,
+   "parts": [
+    [
+     3.88,
+     5.167
+    ],
+    [
+     5.517,
+     7.067
+    ]
+   ],
+   "segments": [
+    "我喜欢苹果，",
+    "也喜欢香蕉。"
+   ],
+   "text": "我喜欢苹果，也喜欢香蕉。",
+   "read": "我喜欢苹果，也喜欢香蕉。",
+   "asr_final": "我喜欢苹果也喜欢香蕉"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.867,
+   "end": 9.617,
+   "parts": [
+    [
+     7.867,
+     9.617
+    ]
+   ],
+   "segments": [
+    "妈妈喜欢吃苹果。"
+   ],
+   "text": "妈妈喜欢吃苹果。",
+   "read": "妈妈喜欢吃苹果。",
+   "asr_final": "妈妈喜欢吃苹果"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.417,
+   "end": 12.347,
+   "parts": [
+    [
+     10.417,
+     12.347
+    ]
+   ],
+   "segments": [
+    "爸爸喜欢吃香蕉。"
+   ],
+   "text": "爸爸喜欢吃香蕉。",
+   "read": "爸爸喜欢吃香蕉。",
+   "asr_final": "爸爸喜欢吃香蕉"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.147,
+   "end": 15.2,
+   "parts": [
+    [
+     13.147,
+     15.2
+    ]
+   ],
+   "segments": [
+    "我们每天都吃水果。"
+   ],
+   "text": "我们每天都吃水果。",
+   "read": "我们每天都吃水果。",
+   "asr_final": "我们每天都吃水果"
+  }
+ ],
+ "draft_issues": []
+}

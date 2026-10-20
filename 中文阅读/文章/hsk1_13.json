@@ -1,0 +1,302 @@
+{
+ "id": "hsk1_13",
+ "no": 13,
+ "title_zh": "去学校",
+ "title_es": "Ir a la escuela",
+ "title_ruby": [
+  [
+   "去",
+   "qù"
+  ],
+  [
+   "学",
+   "xué"
+  ],
+  [
+   "校",
+   "xiào"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第13篇",
+ "header": "HSK 1 · 第13篇",
+ "sents": [
+  {
+   "zh": "我家离学校不远。",
+   "py": "Wǒ jiā lí xuéxiào bù yuǎn.",
+   "es": "Mi casa no está lejos de la escuela.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "离",
+     "lí"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "不",
+     "bù"
+    ],
+    [
+     "远",
+     "yuǎn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "离",
+     "py": "lí",
+     "es": "estar a distancia de",
+     "surface": "离",
+     "source": "doc"
+    },
+    {
+     "h": "远",
+     "py": "yuǎn",
+     "es": "lejos",
+     "surface": "远",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我每天走路去学校。",
+   "py": "Wǒ měitiān zǒulù qù xuéxiào.",
+   "es": "Todos los días voy a la escuela a pie.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "每",
+     "měi"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "走",
+     "zǒu"
+    ],
+    [
+     "路",
+     "lù"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "走路",
+     "py": "zǒulù",
+     "es": "ir a pie",
+     "surface": "走路",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我和朋友一起走。",
+   "py": "Wǒ hé péngyou yìqǐ zǒu.",
+   "es": "Voy andando con mis amigos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "走",
+     "zǒu"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "走",
+     "py": "zǒu",
+     "es": "andar",
+     "surface": "走",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们八点开始上课。",
+   "py": "Wǒmen bā diǎn kāishǐ shàngkè.",
+   "es": "Empezamos las clases a las ocho.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "八",
+     "bā"
+    ],
+    [
+     "点",
+     "diǎn"
+    ],
+    [
+     "开",
+     "kāi"
+    ],
+    [
+     "始",
+     "shǐ"
+    ],
+    [
+     "上",
+     "shàng"
+    ],
+    [
+     "课",
+     "kè"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "开始",
+     "py": "kāishǐ",
+     "es": "empezar",
+     "surface": "开始",
+     "source": "doc"
+    },
+    {
+     "h": "上课",
+     "py": "shàngkè",
+     "es": "tener clase",
+     "surface": "上课",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "老师在教室里等我们。",
+   "py": "Lǎoshī zài jiàoshì lǐ děng wǒmen.",
+   "es": "El profesor nos espera en el aula.",
+   "ruby": [
+    [
+     "老",
+     "lǎo"
+    ],
+    [
+     "师",
+     "shī"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "教",
+     "jiào"
+    ],
+    [
+     "室",
+     "shì"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "等",
+     "děng"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "教室",
+     "py": "jiàoshì",
+     "es": "aula",
+     "surface": "教室",
+     "source": "doc"
+    },
+    {
+     "h": "等",
+     "py": "děng",
+     "es": "esperar",
+     "surface": "等",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 13 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里，原件词汇表的拼音和西语释义已核对，照原样保留；原件词汇表的「走」原先放在第 2 句，和「走路」重叠（surface 都落在“走路”上），挪到第 3 句单独出现的“走”上；这样第 3 句有了词条，没有再补词。es：逐句西语翻译，原件没有，是补写的；第 3 句“朋友”单复数看不出来，译作复数 mis amigos，“一起走”译作 voy andando con…；第 5 句“老师”性别看不出来，按规范用阳性 el profesor。数字用单词（ocho）。title_ruby 逐字核对，无改动。"
+}

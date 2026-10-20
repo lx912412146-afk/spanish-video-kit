@@ -1,0 +1,351 @@
+{
+ "id": "hsk1_26",
+ "no": 26,
+ "title_zh": "我买了三个苹果",
+ "title_es": "Compré tres manzanas",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "买",
+   "mǎi"
+  ],
+  [
+   "了",
+   "le"
+  ],
+  [
+   "三",
+   "sān"
+  ],
+  [
+   "个",
+   "ge"
+  ],
+  [
+   "苹",
+   "píng"
+  ],
+  [
+   "果",
+   "guǒ"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第26篇",
+ "header": "HSK 1 · 第26篇",
+ "sents": [
+  {
+   "zh": "今天我去商店买水果。",
+   "py": "Jīntiān wǒ qù shāngdiàn mǎi shuǐguǒ.",
+   "es": "Hoy he ido a la tienda a comprar fruta.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "商",
+     "shāng"
+    ],
+    [
+     "店",
+     "diàn"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "果",
+     "guǒ"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "商店",
+     "py": "shāngdiàn",
+     "es": "tienda",
+     "surface": "商店",
+     "source": "supplement"
+    },
+    {
+     "h": "水果",
+     "py": "shuǐguǒ",
+     "es": "fruta",
+     "surface": "水果",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "我买了三个苹果和两个香蕉。",
+   "py": "Wǒ mǎi le sān ge píngguǒ hé liǎng ge xiāngjiāo.",
+   "es": "He comprado tres manzanas y dos plátanos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "了",
+     "le"
+    ],
+    [
+     "三",
+     "sān"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "苹",
+     "píng"
+    ],
+    [
+     "果",
+     "guǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "两",
+     "liǎng"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "香",
+     "xiāng"
+    ],
+    [
+     "蕉",
+     "jiāo"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "三个",
+     "py": "sān ge",
+     "es": "tres (unidades)",
+     "surface": "三个",
+     "source": "doc"
+    },
+    {
+     "h": "两个",
+     "py": "liǎng ge",
+     "es": "dos (unidades)",
+     "surface": "两个",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "苹果很大，香蕉很小。",
+   "py": "Píngguǒ hěn dà, xiāngjiāo hěn xiǎo.",
+   "es": "Las manzanas son grandes y los plátanos, pequeños.",
+   "ruby": [
+    [
+     "苹",
+     "píng"
+    ],
+    [
+     "果",
+     "guǒ"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "大",
+     "dà"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "香",
+     "xiāng"
+    ],
+    [
+     "蕉",
+     "jiāo"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "小",
+     "xiǎo"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "小",
+     "py": "xiǎo",
+     "es": "pequeño",
+     "surface": "小",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我把水果放在桌子上。",
+   "py": "Wǒ bǎ shuǐguǒ fàng zài zhuōzi shàng.",
+   "es": "He puesto la fruta en la mesa.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "把",
+     "bǎ"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "果",
+     "guǒ"
+    ],
+    [
+     "放",
+     "fàng"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "桌",
+     "zhuō"
+    ],
+    [
+     "子",
+     "zi"
+    ],
+    [
+     "上",
+     "shàng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "放",
+     "py": "fàng",
+     "es": "poner",
+     "surface": "放",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "晚上，我和家人一起吃。",
+   "py": "Wǎnshang, wǒ hé jiārén yìqǐ chī.",
+   "es": "Por la noche, mi familia y yo la comemos juntos.",
+   "ruby": [
+    [
+     "晚",
+     "wǎn"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "人",
+     "rén"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "家人",
+     "py": "jiārén",
+     "es": "familiares",
+     "surface": "家人",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 26 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）；title_ruby 逐字核对过。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；原件词表核对无误，未改。第 1 句补了 HSK1 词「商店」「水果」（source=supplement）。es：逐句西语翻译，原件没有，是补写的；全篇是“今天”的事，按西班牙用法用现在完成时（He ido、He comprado、He puesto），所以第 2 句是 He comprado，和原件标题 Compré tres manzanas 的时态不同（标题不动）；第 3 句两个“很”不译成 muy，是对比句的自然说法；第 5 句“晚上……一起吃”没有“了”，用现在时 la comemos juntos；数字写成单词。"
+}

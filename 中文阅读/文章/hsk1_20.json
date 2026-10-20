@@ -1,0 +1,329 @@
+{
+ "id": "hsk1_20",
+ "no": 20,
+ "title_zh": "我的一天",
+ "title_es": "Mi día",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "一",
+   "yì"
+  ],
+  [
+   "天",
+   "tiān"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第20篇",
+ "header": "HSK 1 · 第20篇",
+ "sents": [
+  {
+   "zh": "我每天七点起床。",
+   "py": "Wǒ měitiān qī diǎn qǐchuáng.",
+   "es": "Todos los días me levanto a las siete.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "每",
+     "měi"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "七",
+     "qī"
+    ],
+    [
+     "点",
+     "diǎn"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "床",
+     "chuáng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "每天",
+     "py": "měitiān",
+     "es": "todos los días",
+     "surface": "每天",
+     "source": "supplement"
+    },
+    {
+     "h": "起床",
+     "py": "qǐchuáng",
+     "es": "levantarse",
+     "surface": "起床",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "起床以后，我洗脸、刷牙。",
+   "py": "Qǐchuáng yǐhòu, wǒ xǐ liǎn, shuā yá.",
+   "es": "Después de levantarme, me lavo la cara y me cepillo los dientes.",
+   "ruby": [
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "床",
+     "chuáng"
+    ],
+    [
+     "以",
+     "yǐ"
+    ],
+    [
+     "后",
+     "hòu"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "洗",
+     "xǐ"
+    ],
+    [
+     "脸",
+     "liǎn"
+    ],
+    [
+     "、",
+     ""
+    ],
+    [
+     "刷",
+     "shuā"
+    ],
+    [
+     "牙",
+     "yá"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "以后",
+     "py": "yǐhòu",
+     "es": "después",
+     "surface": "以后",
+     "source": "doc"
+    },
+    {
+     "h": "洗脸",
+     "py": "xǐ liǎn",
+     "es": "lavarse la cara",
+     "surface": "洗脸",
+     "source": "doc"
+    },
+    {
+     "h": "刷牙",
+     "py": "shuā yá",
+     "es": "cepillarse los dientes",
+     "surface": "刷牙",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "然后我吃早饭。",
+   "py": "Ránhòu wǒ chī zǎofàn.",
+   "es": "Después desayuno.",
+   "ruby": [
+    [
+     "然",
+     "rán"
+    ],
+    [
+     "后",
+     "hòu"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "然后",
+     "py": "ránhòu",
+     "es": "después",
+     "surface": "然后",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "下午我做作业，也看书。",
+   "py": "Xiàwǔ wǒ zuò zuòyè, yě kàn shū.",
+   "es": "Por la tarde hago los deberes y también leo.",
+   "ruby": [
+    [
+     "下",
+     "xià"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "做",
+     "zuò"
+    ],
+    [
+     "作",
+     "zuò"
+    ],
+    [
+     "业",
+     "yè"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "也",
+     "yě"
+    ],
+    [
+     "看",
+     "kàn"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "做作业",
+     "py": "zuò zuòyè",
+     "es": "hacer los deberes",
+     "surface": "做作业",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "晚上十点，我去睡觉。",
+   "py": "Wǎnshang shí diǎn, wǒ qù shuìjiào.",
+   "es": "A las diez de la noche me voy a dormir.",
+   "ruby": [
+    [
+     "晚",
+     "wǎn"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "十",
+     "shí"
+    ],
+    [
+     "点",
+     "diǎn"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "睡",
+     "shuì"
+    ],
+    [
+     "觉",
+     "jiào"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "晚上",
+     "py": "wǎnshang",
+     "es": "por la noche",
+     "surface": "晚上",
+     "source": "supplement"
+    },
+    {
+     "h": "睡觉",
+     "py": "shuìjiào",
+     "es": "dormir",
+     "surface": "睡觉",
+     "source": "supplement"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 20 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里，原件词汇表的拼音和西语释义已核对，照原样保留；第 1 句、第 5 句原件词汇表里没有词，分别补了 HSK1 词「每天」「起床」和「晚上」「睡觉」（source=supplement；晚上照原件拼音改小写 wǎnshang）。es：逐句西语翻译，原件没有，是补写的；第 3 句“然后”照词汇表译作 después；第 4 句“看书”译作 leo（同第 01 篇）。数字用单词。title_ruby：「一天」的「一」原为 yī，按原件课文标变调的规则（如 yì bēi、yìqǐ）改为 yì。"
+}

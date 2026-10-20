@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_02.mp3",
+ "duration": 16.551,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.59,
+  "short_term_std_lu": 0.56,
+  "short_term_std_full_lu": 0.8,
+  "peak_dbfs": -2.54,
+  "buzz_hz": 10314.7,
+  "buzz_db": 6.8,
+  "comb_db": -1.28
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.76,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.137,
+   "parts": [
+    [
+     1.5,
+     3.137
+    ]
+   ],
+   "segments": [
+    "我家有三口人。"
+   ],
+   "text": "我家有三口人。",
+   "read": "我家有三口人。",
+   "asr_final": "我家有三口人"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.937,
+   "end": 5.971,
+   "parts": [
+    [
+     3.937,
+     4.507
+    ],
+    [
+     4.857,
+     5.971
+    ]
+   ],
+   "segments": [
+    "爸爸、",
+    "妈妈和我。"
+   ],
+   "text": "爸爸、妈妈和我。",
+   "read": "爸爸、妈妈和我。",
+   "asr_final": "爸爸妈妈和我"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.771,
+   "end": 9.974,
+   "parts": [
+    [
+     6.771,
+     8.104
+    ],
+    [
+     8.454,
+     9.974
+    ]
+   ],
+   "segments": [
+    "爸爸是老师，",
+    "妈妈是医生。"
+   ],
+   "text": "爸爸是老师，妈妈是医生。",
+   "read": "爸爸是老师，妈妈是医生。",
+   "asr_final": "爸爸是老师妈妈是医生"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.774,
+   "end": 12.344,
+   "parts": [
+    [
+     10.774,
+     12.344
+    ]
+   ],
+   "segments": [
+    "我是一名学生。"
+   ],
+   "text": "我是一名学生。",
+   "read": "我是一名学生。",
+   "asr_final": "我是一名学生"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.144,
+   "end": 14.551,
+   "parts": [
+    [
+     13.144,
+     14.551
+    ]
+   ],
+   "segments": [
+    "我们都很高兴。"
+   ],
+   "text": "我们都很高兴。",
+   "read": "我们都很高兴。",
+   "asr_final": "我们都很高兴"
+  }
+ ],
+ "draft_issues": []
+}

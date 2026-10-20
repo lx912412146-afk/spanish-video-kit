@@ -1,0 +1,325 @@
+{
+ "id": "hsk1_02",
+ "no": 2,
+ "title_zh": "我的家",
+ "title_es": "Mi familia",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "家",
+   "jiā"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第02篇",
+ "header": "HSK 1 · 第02篇",
+ "sents": [
+  {
+   "zh": "我家有三口人。",
+   "py": "Wǒ jiā yǒu sān kǒu rén.",
+   "es": "En mi familia hay tres personas.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "三",
+     "sān"
+    ],
+    [
+     "口",
+     "kǒu"
+    ],
+    [
+     "人",
+     "rén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "家",
+     "py": "jiā",
+     "es": "familia; casa",
+     "surface": "家",
+     "source": "doc"
+    },
+    {
+     "h": "有",
+     "py": "yǒu",
+     "es": "tener; haber",
+     "surface": "有",
+     "source": "doc"
+    },
+    {
+     "h": "三",
+     "py": "sān",
+     "es": "tres",
+     "surface": "三",
+     "source": "doc"
+    },
+    {
+     "h": "口",
+     "py": "kǒu",
+     "es": "clasificador para miembros de una familia",
+     "surface": "口",
+     "source": "doc"
+    },
+    {
+     "h": "人",
+     "py": "rén",
+     "es": "persona",
+     "surface": "人",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "爸爸、妈妈和我。",
+   "py": "Bàba, māma hé wǒ.",
+   "es": "Mi padre, mi madre y yo.",
+   "ruby": [
+    [
+     "爸",
+     "bà"
+    ],
+    [
+     "爸",
+     "ba"
+    ],
+    [
+     "、",
+     ""
+    ],
+    [
+     "妈",
+     "mā"
+    ],
+    [
+     "妈",
+     "ma"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "爸爸",
+     "py": "bàba",
+     "es": "padre",
+     "surface": "爸爸",
+     "source": "doc"
+    },
+    {
+     "h": "妈妈",
+     "py": "māma",
+     "es": "madre",
+     "surface": "妈妈",
+     "source": "doc"
+    },
+    {
+     "h": "和",
+     "py": "hé",
+     "es": "y",
+     "surface": "和",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "爸爸是老师，妈妈是医生。",
+   "py": "Bàba shì lǎoshī, māma shì yīshēng.",
+   "es": "Mi padre es profesor y mi madre es médica.",
+   "ruby": [
+    [
+     "爸",
+     "bà"
+    ],
+    [
+     "爸",
+     "ba"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "老",
+     "lǎo"
+    ],
+    [
+     "师",
+     "shī"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "妈",
+     "mā"
+    ],
+    [
+     "妈",
+     "ma"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "医",
+     "yī"
+    ],
+    [
+     "生",
+     "shēng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "老师",
+     "py": "lǎoshī",
+     "es": "profesor/a",
+     "surface": "老师",
+     "source": "doc"
+    },
+    {
+     "h": "医生",
+     "py": "yīshēng",
+     "es": "médico/a",
+     "surface": "医生",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我是一名学生。",
+   "py": "Wǒ shì yì míng xuésheng.",
+   "es": "Yo soy estudiante.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "名",
+     "míng"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "生",
+     "sheng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "是",
+     "py": "shì",
+     "es": "ser",
+     "surface": "是",
+     "source": "supplement"
+    },
+    {
+     "h": "学生",
+     "py": "xuésheng",
+     "es": "estudiante",
+     "surface": "学生",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "我们都很高兴。",
+   "py": "Wǒmen dōu hěn gāoxìng.",
+   "es": "Todos estamos muy contentos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "都",
+     "dōu"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "高",
+     "gāo"
+    ],
+    [
+     "兴",
+     "xìng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "都",
+     "py": "dōu",
+     "es": "todos",
+     "surface": "都",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 02 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 4 句原件词汇表里没有新词，补了 HSK1 词「是」「学生」（source=supplement）。title_ruby 已核对，没有改动。es：逐句西语翻译，原件没有，是补写的；第 1 句“三口人”译作 hay tres personas（对应词汇 有、人）；第 2、3 句“爸爸、妈妈”按西语习惯加物主词 mi；第 3 句妈妈是女的，“医生”用 médica；第 4 句原文有“我”，与前一句的爸爸妈妈对照，保留 Yo；说话人性别原文和原件标题 Mi familia 都看不出，第 5 句“我们都”指全家，用阳性复数 contentos。数字用单词。"
+}

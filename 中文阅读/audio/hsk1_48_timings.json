@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_48.mp3",
+ "duration": 18.453,
+ "loudness": {
+  "integrated_lufs": -16.37,
+  "sentence_max_dev_lu": 0.64,
+  "short_term_std_lu": 0.47,
+  "short_term_std_full_lu": 0.51,
+  "peak_dbfs": -2.13,
+  "buzz_hz": 5866.7,
+  "buzz_db": 7.0,
+  "comb_db": -0.83
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.76,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.243,
+   "parts": [
+    [
+     1.5,
+     3.243
+    ]
+   ],
+   "segments": [
+    "今天是我的生日。"
+   ],
+   "text": "今天是我的生日。",
+   "read": "今天是我的生日。",
+   "asr_final": "今天是我的生日"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.043,
+   "end": 5.793,
+   "parts": [
+    [
+     4.043,
+     5.793
+    ]
+   ],
+   "segments": [
+    "我请朋友来我家。"
+   ],
+   "text": "我请朋友来我家。",
+   "read": "我请朋友来我家。",
+   "asr_final": "我请朋友来我家"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.593,
+   "end": 8.973,
+   "parts": [
+    [
+     6.593,
+     8.973
+    ]
+   ],
+   "segments": [
+    "妈妈买了一个大蛋糕。"
+   ],
+   "text": "妈妈买了一个大蛋糕。",
+   "read": "妈妈买了一个大蛋糕。",
+   "asr_final": "妈妈买了一个大蛋糕"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.773,
+   "end": 13.683,
+   "parts": [
+    [
+     9.773,
+     11.323
+    ],
+    [
+     11.673,
+     12.383
+    ],
+    [
+     12.733,
+     13.683
+    ]
+   ],
+   "segments": [
+    "我们一起吃蛋糕、",
+    "喝水、",
+    "听音乐。"
+   ],
+   "text": "我们一起吃蛋糕、喝水、听音乐。",
+   "read": "我们一起吃蛋糕、喝水、听音乐。",
+   "asr_final": "我们一起吃蛋糕喝水听音乐"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.483,
+   "end": 16.453,
+   "parts": [
+    [
+     14.483,
+     16.453
+    ]
+   ],
+   "segments": [
+    "这是一个很好的生日。"
+   ],
+   "text": "这是一个很好的生日。",
+   "read": "这是一个很好的生日。",
+   "asr_final": "这是一个很好的生日"
+  }
+ ],
+ "draft_issues": []
+}

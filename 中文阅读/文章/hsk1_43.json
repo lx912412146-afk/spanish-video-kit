@@ -1,0 +1,339 @@
+{
+ "id": "hsk1_43",
+ "no": 43,
+ "title_zh": "在中国的一天",
+ "title_es": "Un día en China",
+ "title_ruby": [
+  [
+   "在",
+   "zài"
+  ],
+  [
+   "中",
+   "Zhōng"
+  ],
+  [
+   "国",
+   "guó"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "一",
+   "yì"
+  ],
+  [
+   "天",
+   "tiān"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第43篇",
+ "header": "HSK 1 · 第43篇",
+ "sents": [
+  {
+   "zh": "今天我在中国。",
+   "py": "Jīntiān wǒ zài Zhōngguó.",
+   "es": "Hoy estoy en China.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "国",
+     "guó"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "中国",
+     "py": "Zhōngguó",
+     "es": "China",
+     "surface": "中国",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "早上我去学校学习中文。",
+   "py": "Zǎoshang wǒ qù xuéxiào xuéxí Zhōngwén.",
+   "es": "Por la mañana voy a la escuela a estudiar chino.",
+   "ruby": [
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "早上",
+     "py": "zǎoshang",
+     "es": "por la mañana",
+     "surface": "早上",
+     "source": "supplement"
+    },
+    {
+     "h": "学校",
+     "py": "xuéxiào",
+     "es": "escuela",
+     "surface": "学校",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "中午我在饭店吃米饭和菜。",
+   "py": "Zhōngwǔ wǒ zài fàndiàn chī mǐfàn hé cài.",
+   "es": "A mediodía como arroz y verduras en un restaurante.",
+   "ruby": [
+    [
+     "中",
+     "zhōng"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "店",
+     "diàn"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "米",
+     "mǐ"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "菜",
+     "cài"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "菜",
+     "py": "cài",
+     "es": "verdura; plato",
+     "surface": "菜",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "下午我和朋友去商店买水。",
+   "py": "Xiàwǔ wǒ hé péngyou qù shāngdiàn mǎi shuǐ.",
+   "es": "Por la tarde voy con un amigo a la tienda a comprar agua.",
+   "ruby": [
+    [
+     "下",
+     "xià"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "商",
+     "shāng"
+    ],
+    [
+     "店",
+     "diàn"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "商店",
+     "py": "shāngdiàn",
+     "es": "tienda",
+     "surface": "商店",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "晚上我给家人打电话。",
+   "py": "Wǎnshang wǒ gěi jiārén dǎ diànhuà.",
+   "es": "Por la noche llamo por teléfono a mi familia.",
+   "ruby": [
+    [
+     "晚",
+     "wǎn"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "给",
+     "gěi"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "人",
+     "rén"
+    ],
+    [
+     "打",
+     "dǎ"
+    ],
+    [
+     "电",
+     "diàn"
+    ],
+    [
+     "话",
+     "huà"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "家人",
+     "py": "jiārén",
+     "es": "familiares",
+     "surface": "家人",
+     "source": "doc"
+    },
+    {
+     "h": "打电话",
+     "py": "dǎ diànhuà",
+     "es": "llamar por teléfono",
+     "surface": "打电话",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 43 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 2 句补了「早上」「学校」（source=supplement；早上 照课文写作 zǎoshang，轻声，句首大写改小写）。标题注音：「一天」的「一」原为 yī，按原件课文标“一”变调的习惯（yìdiǎn、yìqǐ）改为 yì。es：逐句西语翻译，原件没有，是补写的；说话人性别看不出来，句子里也没有要变性的词；第 3 句“米饭和菜”照原件释义 verdura; plato 译作 arroz y verduras；第 4 句“和朋友”看不出单复数和性别，用单数阳性 con un amigo；第 5 句“家人”译作 mi familia。"
+}

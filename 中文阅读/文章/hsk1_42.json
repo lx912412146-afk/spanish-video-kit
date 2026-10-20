@@ -1,0 +1,365 @@
+{
+ "id": "hsk1_42",
+ "no": 42,
+ "title_zh": "我的中国朋友",
+ "title_es": "Mi amigo chino",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "中",
+   "Zhōng"
+  ],
+  [
+   "国",
+   "guó"
+  ],
+  [
+   "朋",
+   "péng"
+  ],
+  [
+   "友",
+   "you"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第42篇",
+ "header": "HSK 1 · 第42篇",
+ "sents": [
+  {
+   "zh": "我的朋友叫小林。",
+   "py": "Wǒ de péngyou jiào Xiǎolín.",
+   "es": "Mi amigo se llama Xiaolin.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "叫",
+     "jiào"
+    ],
+    [
+     "小",
+     "Xiǎo"
+    ],
+    [
+     "林",
+     "lín"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "朋友",
+     "py": "péngyou",
+     "es": "amigo/a",
+     "surface": "朋友",
+     "source": "supplement"
+    },
+    {
+     "h": "叫",
+     "py": "jiào",
+     "es": "llamarse",
+     "surface": "叫",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "他是中国人，今年二十岁。",
+   "py": "Tā shì Zhōngguó rén, jīnnián èrshí suì.",
+   "es": "Es chino y tiene veinte años.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "国",
+     "guó"
+    ],
+    [
+     "人",
+     "rén"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "年",
+     "nián"
+    ],
+    [
+     "二",
+     "èr"
+    ],
+    [
+     "十",
+     "shí"
+    ],
+    [
+     "岁",
+     "suì"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "中国人",
+     "py": "Zhōngguó rén",
+     "es": "chino/a",
+     "surface": "中国人",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他会说中文，也会说一点英语。",
+   "py": "Tā huì shuō Zhōngwén, yě huì shuō yìdiǎn Yīngyǔ.",
+   "es": "Sabe hablar chino y también un poco de inglés.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "会",
+     "huì"
+    ],
+    [
+     "说",
+     "shuō"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "也",
+     "yě"
+    ],
+    [
+     "会",
+     "huì"
+    ],
+    [
+     "说",
+     "shuō"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "点",
+     "diǎn"
+    ],
+    [
+     "英",
+     "Yīng"
+    ],
+    [
+     "语",
+     "yǔ"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "会",
+     "py": "huì",
+     "es": "saber; poder",
+     "surface": "会",
+     "source": "doc"
+    },
+    {
+     "h": "一点",
+     "py": "yìdiǎn",
+     "es": "un poco",
+     "surface": "一点",
+     "source": "doc"
+    },
+    {
+     "h": "英语",
+     "py": "Yīngyǔ",
+     "es": "inglés",
+     "surface": "英语",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们常常一起吃饭和看书。",
+   "py": "Wǒmen chángcháng yìqǐ chī fàn hé kàn shū.",
+   "es": "A menudo comemos y leemos juntos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "常",
+     "cháng"
+    ],
+    [
+     "常",
+     "cháng"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "看",
+     "kàn"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "常常",
+     "py": "chángcháng",
+     "es": "a menudo",
+     "surface": "常常",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我很喜欢这个朋友。",
+   "py": "Wǒ hěn xǐhuan zhège péngyou.",
+   "es": "Este amigo me cae muy bien.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "这",
+     "zhè"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "喜欢",
+     "py": "xǐhuan",
+     "es": "gustar; caer bien",
+     "surface": "喜欢",
+     "source": "supplement"
+    },
+    {
+     "h": "这个",
+     "py": "zhège",
+     "es": "este; esta",
+     "surface": "这个",
+     "source": "supplement"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 42 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 1 句补了「朋友」「叫」，第 5 句补了「喜欢」「这个」（source=supplement）。原件词汇表「中国人」写作 Zhōngguó rén，prep.py 把词条拼音首字母改成了小写 zhōngguó rén，已改回原件写法 Zhōngguó rén（中国是专有名词，课文里也大写）。标题注音已核对，不用改。es：逐句西语翻译，原件没有，是补写的；小林是“他”，照原件标题 Mi amigo chino 用阳性，名字译作 Xiaolin；第 2 句“今年二十岁”只说年龄，译作 tiene veinte años；第 3 句“会说”译作 Sabe hablar，后半句省去重复的动词；第 5 句“很喜欢这个朋友”按西语习惯译作 me cae muy bien（对人说 me gusta 容易有“有好感”的歧义），补充词「喜欢」的释义相应写 gustar; caer bien。"
+}

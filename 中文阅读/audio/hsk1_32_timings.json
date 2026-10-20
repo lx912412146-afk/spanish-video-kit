@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_32.mp3",
+ "duration": 18.173,
+ "loudness": {
+  "integrated_lufs": -16.55,
+  "sentence_max_dev_lu": 0.4,
+  "short_term_std_lu": 0.42,
+  "short_term_std_full_lu": 0.66,
+  "peak_dbfs": -3.0,
+  "buzz_hz": 3615.2,
+  "buzz_db": 6.2,
+  "comb_db": 0.59
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.76,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.455,
+   "parts": [
+    [
+     1.5,
+     3.455
+    ]
+   ],
+   "segments": [
+    "我们的教室很干净。"
+   ],
+   "text": "我们的教室很干净。",
+   "read": "我们的教室很干净。",
+   "asr_final": "我们的教室很干净"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.255,
+   "end": 6.775,
+   "parts": [
+    [
+     4.255,
+     6.775
+    ]
+   ],
+   "segments": [
+    "教室里有桌子和椅子。"
+   ],
+   "text": "教室里有桌子和椅子。",
+   "read": "教室里有桌子和椅子。",
+   "asr_final": "教室里有桌子和椅子"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.575,
+   "end": 9.643,
+   "parts": [
+    [
+     7.575,
+     9.643
+    ]
+   ],
+   "segments": [
+    "老师的书在桌子上。"
+   ],
+   "text": "老师的书在桌子上。",
+   "read": "老师的书在桌子上。",
+   "asr_final": "老师的书在桌子上"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.443,
+   "end": 13.273,
+   "parts": [
+    [
+     10.443,
+     11.603
+    ],
+    [
+     11.953,
+     13.273
+    ]
+   ],
+   "segments": [
+    "门在前面，",
+    "窗户在后面。"
+   ],
+   "text": "门在前面，窗户在后面。",
+   "read": "门在前面，窗户在后面。",
+   "asr_final": "门在前面窗户在后面"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.073,
+   "end": 16.173,
+   "parts": [
+    [
+     14.073,
+     16.173
+    ]
+   ],
+   "segments": [
+    "我们在这里学习中文。"
+   ],
+   "text": "我们在这里学习中文。",
+   "read": "我们在这里学习中文。",
+   "asr_final": "我们在这里学习中文"
+  }
+ ],
+ "draft_issues": []
+}

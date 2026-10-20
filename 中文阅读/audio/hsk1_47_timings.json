@@ -1,0 +1,131 @@
+{
+ "file": "hsk1_47.mp3",
+ "duration": 16.438,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.04,
+  "short_term_std_lu": 0.34,
+  "short_term_std_full_lu": 0.55,
+  "peak_dbfs": -2.0,
+  "buzz_hz": 10613.5,
+  "buzz_db": 6.5,
+  "comb_db": -0.55
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.77,
+   "parts": [
+    [
+     1.5,
+     3.77
+    ]
+   ],
+   "segments": [
+    "今天我和姐姐去买衣服。"
+   ],
+   "text": "今天我和姐姐去买衣服。",
+   "read": "今天我和姐姐去买衣服。",
+   "asr_final": "今天我和姐姐去买衣服"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.57,
+   "end": 6.47,
+   "parts": [
+    [
+     4.57,
+     6.47
+    ]
+   ],
+   "segments": [
+    "我想买一件白衣服。"
+   ],
+   "text": "我想买一件白衣服。",
+   "read": "我想买一件白衣服。",
+   "asr_final": "我想买一件白衣服"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.27,
+   "end": 9.451,
+   "parts": [
+    [
+     7.27,
+     9.451
+    ]
+   ],
+   "segments": [
+    "姐姐喜欢黑色的衣服。"
+   ],
+   "text": "姐姐喜欢黑色的衣服。",
+   "read": "姐姐喜欢黑色的衣服。",
+   "asr_final": "姐姐喜欢黑色的衣服"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.251,
+   "end": 11.928,
+   "parts": [
+    [
+     10.251,
+     11.928
+    ]
+   ],
+   "segments": [
+    "这件衣服很好看。"
+   ],
+   "text": "这件衣服很好看。",
+   "read": "这件衣服很好看。",
+   "asr_final": "这件衣服很好看"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.728,
+   "end": 14.438,
+   "parts": [
+    [
+     12.728,
+     14.438
+    ]
+   ],
+   "segments": [
+    "我们看了很多衣服。"
+   ],
+   "text": "我们看了很多衣服。",
+   "read": "我们看了很多衣服。",
+   "asr_final": "我们看了很多衣服"
+  }
+ ],
+ "draft_issues": []
+}

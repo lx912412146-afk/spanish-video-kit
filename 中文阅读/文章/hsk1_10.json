@@ -1,0 +1,307 @@
+{
+ "id": "hsk1_10",
+ "no": 10,
+ "title_zh": "今天的天气",
+ "title_es": "El tiempo de hoy",
+ "title_ruby": [
+  [
+   "今",
+   "jīn"
+  ],
+  [
+   "天",
+   "tiān"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "天",
+   "tiān"
+  ],
+  [
+   "气",
+   "qì"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第10篇",
+ "header": "HSK 1 · 第10篇",
+ "sents": [
+  {
+   "zh": "今天天气很好。",
+   "py": "Jīntiān tiānqì hěn hǎo.",
+   "es": "Hoy hace muy buen tiempo.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "气",
+     "qì"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "天气",
+     "py": "tiānqì",
+     "es": "tiempo; clima",
+     "surface": "天气",
+     "source": "doc"
+    },
+    {
+     "h": "好",
+     "py": "hǎo",
+     "es": "bueno",
+     "surface": "好",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "天气很热，太阳很大。",
+   "py": "Tiānqì hěn rè, tàiyáng hěn dà.",
+   "es": "Hace mucho calor y el sol pega fuerte.",
+   "ruby": [
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "气",
+     "qì"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "热",
+     "rè"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "太",
+     "tài"
+    ],
+    [
+     "阳",
+     "yáng"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "大",
+     "dà"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "热",
+     "py": "rè",
+     "es": "caluroso",
+     "surface": "热",
+     "source": "doc"
+    },
+    {
+     "h": "太阳",
+     "py": "tàiyáng",
+     "es": "sol",
+     "surface": "太阳",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我和朋友去公园。",
+   "py": "Wǒ hé péngyou qù gōngyuán.",
+   "es": "Voy al parque con mis amigos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "公",
+     "gōng"
+    ],
+    [
+     "园",
+     "yuán"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "公园",
+     "py": "gōngyuán",
+     "es": "parque",
+     "surface": "公园",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们在公园里看书、说话。",
+   "py": "Wǒmen zài gōngyuán lǐ kàn shū, shuōhuà.",
+   "es": "En el parque leemos y hablamos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "公",
+     "gōng"
+    ],
+    [
+     "园",
+     "yuán"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "看",
+     "kàn"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "、",
+     ""
+    ],
+    [
+     "说",
+     "shuō"
+    ],
+    [
+     "话",
+     "huà"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "说话",
+     "py": "shuōhuà",
+     "es": "hablar",
+     "surface": "说话",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们今天很高兴。",
+   "py": "Wǒmen jīntiān hěn gāoxìng.",
+   "es": "Hoy estamos muy contentos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "高",
+     "gāo"
+    ],
+    [
+     "兴",
+     "xìng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "高兴",
+     "py": "gāoxìng",
+     "es": "contento/a",
+     "surface": "高兴",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 10 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；每句都有原件词条，没有补词。title_ruby 已核对，没有改动。es：逐句西语翻译，原件没有，是补写的；原文没有“了”，全篇用现在时；第 1 句“天气很好”译作 hace muy buen tiempo；第 2 句“太阳很大”按西语习惯译作 el sol pega fuerte；第 3 句“朋友”单复数看不出，译作 mis amigos；第 5 句说话人性别看不出，contentos 用阳性复数。"
+}

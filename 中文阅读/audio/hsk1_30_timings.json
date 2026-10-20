@@ -1,0 +1,146 @@
+{
+ "file": "hsk1_30.mp3",
+ "duration": 19.387,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.4,
+  "short_term_std_lu": 0.63,
+  "short_term_std_full_lu": 0.71,
+  "peak_dbfs": -1.91,
+  "buzz_hz": 5474.1,
+  "buzz_db": 7.4,
+  "comb_db": 0.14
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.76,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.08,
+   "parts": [
+    [
+     1.5,
+     3.08
+    ]
+   ],
+   "segments": [
+    "今天我很高兴。"
+   ],
+   "text": "今天我很高兴。",
+   "read": "今天我很高兴。",
+   "asr_final": "今天我很高兴"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.88,
+   "end": 7.29,
+   "parts": [
+    [
+     3.88,
+     4.6
+    ],
+    [
+     4.95,
+     7.29
+    ]
+   ],
+   "segments": [
+    "早上，",
+    "老师说我中文说得很好。"
+   ],
+   "text": "早上，老师说我中文说得很好。",
+   "read": "早上，老师说我中文说得很好。",
+   "asr_final": "早上老师说我中文说的很好"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 8.09,
+   "end": 10.987,
+   "parts": [
+    [
+     8.09,
+     8.78
+    ],
+    [
+     9.13,
+     10.987
+    ]
+   ],
+   "segments": [
+    "中午，",
+    "朋友和我一起吃饭。"
+   ],
+   "text": "中午，朋友和我一起吃饭。",
+   "read": "中午，朋友和我一起吃饭。",
+   "asr_final": "中午朋友和我一起吃饭"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.787,
+   "end": 14.847,
+   "parts": [
+    [
+     11.787,
+     12.527
+    ],
+    [
+     12.877,
+     14.847
+    ]
+   ],
+   "segments": [
+    "下午，",
+    "我收到妈妈的电话。"
+   ],
+   "text": "下午，我收到妈妈的电话。",
+   "read": "下午，我收到妈妈的电话。",
+   "asr_final": "下午我收到妈妈的电话"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 15.647,
+   "end": 17.388,
+   "parts": [
+    [
+     15.647,
+     17.388
+    ]
+   ],
+   "segments": [
+    "今天有很多好事。"
+   ],
+   "text": "今天有很多好事。",
+   "read": "今天有很多好事。",
+   "asr_final": "今天有很多好事"
+  }
+ ],
+ "draft_issues": []
+}

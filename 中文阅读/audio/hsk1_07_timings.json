@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_07.mp3",
+ "duration": 16.787,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.31,
+  "short_term_std_lu": 0.54,
+  "short_term_std_full_lu": 0.9,
+  "peak_dbfs": -2.43,
+  "buzz_hz": 3525.1,
+  "buzz_db": 6.8,
+  "comb_db": -0.46
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 4.48,
+   "parts": [
+    [
+     1.5,
+     2.56
+    ],
+    [
+     2.91,
+     4.48
+    ]
+   ],
+   "segments": [
+    "今天中午，",
+    "我和朋友去饭店。"
+   ],
+   "text": "今天中午，我和朋友去饭店。",
+   "read": "今天中午，我和朋友去饭店。",
+   "asr_final": "今天中午我和朋友去饭店"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 5.28,
+   "end": 7.314,
+   "parts": [
+    [
+     5.28,
+     7.314
+    ]
+   ],
+   "segments": [
+    "我想吃米饭和鸡肉。"
+   ],
+   "text": "我想吃米饭和鸡肉。",
+   "read": "我想吃米饭和鸡肉。",
+   "asr_final": "我想吃米饭和鸡肉"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 8.114,
+   "end": 9.686,
+   "parts": [
+    [
+     8.114,
+     9.686
+    ]
+   ],
+   "segments": [
+    "朋友想吃面条。"
+   ],
+   "text": "朋友想吃面条。",
+   "read": "朋友想吃面条。",
+   "asr_final": "朋友想吃面条"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.486,
+   "end": 11.886,
+   "parts": [
+    [
+     10.486,
+     11.886
+    ]
+   ],
+   "segments": [
+    "我们还喝了水。"
+   ],
+   "text": "我们还喝了水。",
+   "read": "我们还喝了水。",
+   "asr_final": "我们还喝了水"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 12.686,
+   "end": 14.787,
+   "parts": [
+    [
+     12.686,
+     14.787
+    ]
+   ],
+   "segments": [
+    "饭店的饭很好吃。"
+   ],
+   "text": "饭店的饭很好吃。",
+   "read": "饭店的饭很好吃。",
+   "asr_final": "饭店的饭很好吃"
+  }
+ ],
+ "draft_issues": []
+}

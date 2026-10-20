@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_24.mp3",
+ "duration": 17.72,
+ "loudness": {
+  "integrated_lufs": -16.41,
+  "sentence_max_dev_lu": 0.42,
+  "short_term_std_lu": 0.55,
+  "short_term_std_full_lu": 0.68,
+  "peak_dbfs": -3.22,
+  "buzz_hz": 4496.3,
+  "buzz_db": 7.2,
+  "comb_db": 0.13
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.95,
+   "parts": [
+    [
+     1.5,
+     3.95
+    ]
+   ],
+   "segments": [
+    "下午我和姐姐去商店。"
+   ],
+   "text": "下午我和姐姐去商店。",
+   "read": "下午我和姐姐去商店。",
+   "asr_final": "下午我和姐姐去商店"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.75,
+   "end": 6.57,
+   "parts": [
+    [
+     4.75,
+     6.57
+    ]
+   ],
+   "segments": [
+    "姐姐想买一个杯子。"
+   ],
+   "text": "姐姐想买一个杯子。",
+   "read": "姐姐想买一个杯子。",
+   "asr_final": "姐姐想买一个杯子"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.37,
+   "end": 8.92,
+   "parts": [
+    [
+     7.37,
+     8.92
+    ]
+   ],
+   "segments": [
+    "我想买一本书。"
+   ],
+   "text": "我想买一本书。",
+   "read": "我想买一本书。",
+   "asr_final": "我想买一本书"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.72,
+   "end": 12.79,
+   "parts": [
+    [
+     9.72,
+     11.19
+    ],
+    [
+     11.54,
+     12.79
+    ]
+   ],
+   "segments": [
+    "这个商店很大，",
+    "东西很多。"
+   ],
+   "text": "这个商店很大，东西很多。",
+   "read": "这个商店很大，东西很多。",
+   "asr_final": "这个商店很大东西很多"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.59,
+   "end": 15.72,
+   "parts": [
+    [
+     13.59,
+     15.72
+    ]
+   ],
+   "segments": [
+    "我们买好东西就回家。"
+   ],
+   "text": "我们买好东西就回家。",
+   "read": "我们买好东西就回家。",
+   "asr_final": "我们买好东西就回家"
+  }
+ ],
+ "draft_issues": []
+}

@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_35.mp3",
+ "duration": 17.353,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.34,
+  "short_term_std_lu": 0.58,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -2.71,
+  "buzz_hz": 3014.6,
+  "buzz_db": 5.9,
+  "comb_db": 0.51
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 4.615,
+   "parts": [
+    [
+     1.5,
+     2.66
+    ],
+    [
+     3.01,
+     4.615
+    ]
+   ],
+   "segments": [
+    "今天下雨，",
+    "我坐车去学校。"
+   ],
+   "text": "今天下雨，我坐车去学校。",
+   "read": "今天下雨，我坐车去学校。",
+   "asr_final": "今天下雨我坐车去学校"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 5.415,
+   "end": 7.005,
+   "parts": [
+    [
+     5.415,
+     7.005
+    ]
+   ],
+   "segments": [
+    "车上有很多人。"
+   ],
+   "text": "车上有很多人。",
+   "read": "车上有很多人。",
+   "asr_final": "车上有很多人"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.805,
+   "end": 9.567,
+   "parts": [
+    [
+     7.805,
+     9.567
+    ]
+   ],
+   "segments": [
+    "我坐在一个人旁边。"
+   ],
+   "text": "我坐在一个人旁边。",
+   "read": "我坐在一个人旁边。",
+   "asr_final": "我坐在一个人旁边"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.367,
+   "end": 13.373,
+   "parts": [
+    [
+     10.367,
+     11.939
+    ],
+    [
+     12.289,
+     13.373
+    ]
+   ],
+   "segments": [
+    "二十分钟以后，",
+    "我到学校。"
+   ],
+   "text": "二十分钟以后，我到学校。",
+   "read": "二十分钟以后，我到学校。",
+   "asr_final": "二十分钟以后我到学校"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.173,
+   "end": 15.353,
+   "parts": [
+    [
+     14.173,
+     15.353
+    ]
+   ],
+   "segments": [
+    "我没有迟到。"
+   ],
+   "text": "我没有迟到。",
+   "read": "我没有迟到。",
+   "asr_final": "我没有迟到"
+  }
+ ],
+ "draft_issues": []
+}

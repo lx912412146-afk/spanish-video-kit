@@ -1,18 +1,18 @@
 {
  "file": "hsk1_01.mp3",
- "duration": 17.64,
+ "duration": 18.892,
  "loudness": {
-  "integrated_lufs": -16.45,
-  "sentence_max_dev_lu": 0.19,
-  "short_term_std_lu": 0.61,
-  "short_term_std_full_lu": 0.86,
-  "peak_dbfs": -1.95,
-  "buzz_hz": 3090.8,
-  "buzz_db": 7.0,
-  "comb_db": 0.22
+  "integrated_lufs": -16.38,
+  "sentence_max_dev_lu": 0.12,
+  "short_term_std_lu": 0.59,
+  "short_term_std_full_lu": 0.81,
+  "peak_dbfs": -1.89,
+  "buzz_hz": 3091.6,
+  "buzz_db": 6.7,
+  "comb_db": 0.01
  },
  "voice_cfg": {
-  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.85 倍速",
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
   "engine": "worker",
   "python": "self",
   "script": "qwen3tts.py",
@@ -32,7 +32,7 @@
   "kbps": 128,
   "debuzz": [],
   "max_s_per_char": 0.4,
-  "tempo": 0.85,
+  "tempo": 0.75,
   "pitch_cents": 0
  },
  "sentences": [
@@ -40,15 +40,15 @@
    "k": 1,
    "para": 1,
    "start": 1.5,
-   "end": 3.69,
+   "end": 3.912,
    "parts": [
     [
      1.5,
-     2.23
+     2.32
     ],
     [
-     2.73,
-     3.69
+     2.82,
+     3.912
     ]
    ],
    "segments": [
@@ -56,38 +56,40 @@
     "我叫安娜。"
    ],
    "text": "大家好！我叫安娜。",
-   "read": "大家好！我叫安娜。"
+   "read": "大家好！我叫安娜。",
+   "asr_final": "大家好我叫安娜"
   },
   {
    "k": 2,
    "para": 1,
-   "start": 4.49,
-   "end": 5.88,
+   "start": 4.712,
+   "end": 6.282,
    "parts": [
     [
-     4.49,
-     5.88
+     4.712,
+     6.282
     ]
    ],
    "segments": [
     "我今年十八岁。"
    ],
    "text": "我今年十八岁。",
-   "read": "我今年十八岁。"
+   "read": "我今年十八岁。",
+   "asr_final": "我今年十八岁"
   },
   {
    "k": 3,
    "para": 1,
-   "start": 6.68,
-   "end": 9.23,
+   "start": 7.082,
+   "end": 9.902,
    "parts": [
     [
-     6.68,
-     7.64
+     7.082,
+     8.162
     ],
     [
-     7.99,
-     9.23
+     8.512,
+     9.902
     ]
    ],
    "segments": [
@@ -95,21 +97,22 @@
     "我学习中文。"
    ],
    "text": "我是学生，我学习中文。",
-   "read": "我是学生，我学习中文。"
+   "read": "我是学生，我学习中文。",
+   "asr_final": "我是学生我学习中文"
   },
   {
    "k": 4,
    "para": 1,
-   "start": 10.03,
-   "end": 13.01,
+   "start": 10.702,
+   "end": 14.022,
    "parts": [
     [
-     10.03,
-     11.26
+     10.702,
+     12.082
     ],
     [
-     11.61,
-     13.01
+     12.432,
+     14.022
     ]
    ],
    "segments": [
@@ -117,24 +120,26 @@
     "也喜欢听音乐。"
    ],
    "text": "我喜欢看书，也喜欢听音乐。",
-   "read": "我喜欢看书，也喜欢听音乐。"
+   "read": "我喜欢看书，也喜欢听音乐。",
+   "asr_final": "我喜欢看书也喜欢听音乐"
   },
   {
    "k": 5,
    "para": 1,
-   "start": 13.81,
-   "end": 15.64,
+   "start": 14.822,
+   "end": 16.892,
    "parts": [
     [
-     13.81,
-     15.64
+     14.822,
+     16.892
     ]
    ],
    "segments": [
     "很高兴认识大家！"
    ],
    "text": "很高兴认识大家！",
-   "read": "很高兴认识大家！"
+   "read": "很高兴认识大家！",
+   "asr_final": "很高兴认识大家"
   }
  ],
  "draft_issues": []

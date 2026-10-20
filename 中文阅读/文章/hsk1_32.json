@@ -1,0 +1,347 @@
+{
+ "id": "hsk1_32",
+ "no": 32,
+ "title_zh": "我的教室",
+ "title_es": "Mi aula",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "教",
+   "jiào"
+  ],
+  [
+   "室",
+   "shì"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第32篇",
+ "header": "HSK 1 · 第32篇",
+ "sents": [
+  {
+   "zh": "我们的教室很干净。",
+   "py": "Wǒmen de jiàoshì hěn gānjìng.",
+   "es": "Nuestra aula está muy limpia.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "教",
+     "jiào"
+    ],
+    [
+     "室",
+     "shì"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "干",
+     "gān"
+    ],
+    [
+     "净",
+     "jìng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "干净",
+     "py": "gānjìng",
+     "es": "limpio",
+     "surface": "干净",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "教室里有桌子和椅子。",
+   "py": "Jiàoshì lǐ yǒu zhuōzi hé yǐzi.",
+   "es": "En el aula hay mesas y sillas.",
+   "ruby": [
+    [
+     "教",
+     "jiào"
+    ],
+    [
+     "室",
+     "shì"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "桌",
+     "zhuō"
+    ],
+    [
+     "子",
+     "zi"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "椅",
+     "yǐ"
+    ],
+    [
+     "子",
+     "zi"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "桌子",
+     "py": "zhuōzi",
+     "es": "mesa",
+     "surface": "桌子",
+     "source": "supplement"
+    },
+    {
+     "h": "椅子",
+     "py": "yǐzi",
+     "es": "silla",
+     "surface": "椅子",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "老师的书在桌子上。",
+   "py": "Lǎoshī de shū zài zhuōzi shàng.",
+   "es": "El libro del profesor está sobre la mesa.",
+   "ruby": [
+    [
+     "老",
+     "lǎo"
+    ],
+    [
+     "师",
+     "shī"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "桌",
+     "zhuō"
+    ],
+    [
+     "子",
+     "zi"
+    ],
+    [
+     "上",
+     "shàng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "老师",
+     "py": "lǎoshī",
+     "es": "profesor",
+     "surface": "老师",
+     "source": "supplement"
+    },
+    {
+     "h": "在",
+     "py": "zài",
+     "es": "estar (en un lugar)",
+     "surface": "在",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "门在前面，窗户在后面。",
+   "py": "Mén zài qiánmiàn, chuānghu zài hòumiàn.",
+   "es": "La puerta está delante y la ventana está detrás.",
+   "ruby": [
+    [
+     "门",
+     "mén"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "前",
+     "qián"
+    ],
+    [
+     "面",
+     "miàn"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "窗",
+     "chuāng"
+    ],
+    [
+     "户",
+     "hu"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "后",
+     "hòu"
+    ],
+    [
+     "面",
+     "miàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "门",
+     "py": "mén",
+     "es": "puerta",
+     "surface": "门",
+     "source": "doc"
+    },
+    {
+     "h": "前面",
+     "py": "qiánmiàn",
+     "es": "delante",
+     "surface": "前面",
+     "source": "doc"
+    },
+    {
+     "h": "窗户",
+     "py": "chuānghu",
+     "es": "ventana",
+     "surface": "窗户",
+     "source": "doc"
+    },
+    {
+     "h": "后面",
+     "py": "hòumiàn",
+     "es": "detrás",
+     "surface": "后面",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们在这里学习中文。",
+   "py": "Wǒmen zài zhèlǐ xuéxí Zhōngwén.",
+   "es": "Aquí estudiamos chino.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "这",
+     "zhè"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "这里",
+     "py": "zhèlǐ",
+     "es": "aquí",
+     "surface": "这里",
+     "source": "supplement"
+    },
+    {
+     "h": "学习",
+     "py": "xuéxí",
+     "es": "estudiar; aprender",
+     "surface": "学习",
+     "source": "supplement"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 32 篇。zh、py：课文和拼音照原件（第 4 句除外，见下）；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件）；title_ruby 已逐字核对，无需改动。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 2、3、5 句原件词汇表里没有新词，补了「桌子」「椅子」（第 2 句）、「老师」「在」（第 3 句）、「这里」「学习」（第 5 句）（source=supplement）；原件词汇未改。第 4 句“窗户在后面”的「在」原件拼音 zai 漏标声调，改为 zài（py 和 ruby 都改了，其余拼音照原件）。es：逐句西语翻译，原件没有，是补写的；第 3 句“老师”性别看不出，按默认用阳性 el profesor；“书”“窗户”单复数看不出，按单数译（el libro、la ventana）。"
+}

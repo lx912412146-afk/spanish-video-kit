@@ -1,0 +1,359 @@
+{
+ "id": "hsk1_49",
+ "no": 49,
+ "title_zh": "我喜欢我的学校",
+ "title_es": "Me gusta mi escuela",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "喜",
+   "xǐ"
+  ],
+  [
+   "欢",
+   "huan"
+  ],
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "学",
+   "xué"
+  ],
+  [
+   "校",
+   "xiào"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第49篇",
+ "header": "HSK 1 · 第49篇",
+ "sents": [
+  {
+   "zh": "我很喜欢我的学校。",
+   "py": "Wǒ hěn xǐhuan wǒ de xuéxiào.",
+   "es": "Me gusta mucho mi escuela.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "喜欢",
+     "py": "xǐhuan",
+     "es": "gustar",
+     "surface": "喜欢",
+     "source": "supplement"
+    },
+    {
+     "h": "学校",
+     "py": "xuéxiào",
+     "es": "escuela",
+     "surface": "学校",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "学校里有很多老师和学生。",
+   "py": "Xuéxiào lǐ yǒu hěn duō lǎoshī hé xuésheng.",
+   "es": "En la escuela hay muchos profesores y estudiantes.",
+   "ruby": [
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "多",
+     "duō"
+    ],
+    [
+     "老",
+     "lǎo"
+    ],
+    [
+     "师",
+     "shī"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "生",
+     "sheng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "老师",
+     "py": "lǎoshī",
+     "es": "profesor/a",
+     "surface": "老师",
+     "source": "doc"
+    },
+    {
+     "h": "学生",
+     "py": "xuésheng",
+     "es": "estudiante",
+     "surface": "学生",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我的朋友也在这里学习。",
+   "py": "Wǒ de péngyou yě zài zhèlǐ xuéxí.",
+   "es": "Mi amigo también estudia aquí.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "也",
+     "yě"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "这",
+     "zhè"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "这里",
+     "py": "zhèlǐ",
+     "es": "aquí",
+     "surface": "这里",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们每天一起上课、吃饭。",
+   "py": "Wǒmen měitiān yìqǐ shàngkè, chī fàn.",
+   "es": "Todos los días vamos a clase y comemos juntos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "每",
+     "měi"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "上",
+     "shàng"
+    ],
+    [
+     "课",
+     "kè"
+    ],
+    [
+     "、",
+     ""
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "上课",
+     "py": "shàngkè",
+     "es": "tener clase",
+     "surface": "上课",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我在学校认识了很多朋友。",
+   "py": "Wǒ zài xuéxiào rènshi le hěn duō péngyou.",
+   "es": "En la escuela he conocido a muchos amigos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "认",
+     "rèn"
+    ],
+    [
+     "识",
+     "shi"
+    ],
+    [
+     "了",
+     "le"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "多",
+     "duō"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "认识",
+     "py": "rènshi",
+     "es": "conocer",
+     "surface": "认识",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 49 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 1 句补了「喜欢」「学校」（source=supplement）。标题注音已核对，不用改。es：逐句西语翻译，原件没有，是补写的；说话人性别看不出来，句子里也没有要变性的词；第 3 句“我的朋友”看不出单复数和性别，用单数阳性 Mi amigo；第 4 句“一起上课、吃饭”译作 vamos a clase y comemos juntos；第 5 句“认识了”用现在完成时 he conocido，照原件释义 conocer。"
+}

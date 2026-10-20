@@ -1,0 +1,131 @@
+{
+ "file": "hsk1_09.mp3",
+ "duration": 14.669,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.42,
+  "short_term_std_lu": 0.67,
+  "short_term_std_full_lu": 0.9,
+  "peak_dbfs": -2.84,
+  "buzz_hz": 10634.8,
+  "buzz_db": 7.5,
+  "comb_db": 0.55
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.04,
+   "parts": [
+    [
+     1.5,
+     3.04
+    ]
+   ],
+   "segments": [
+    "我的老师姓王。"
+   ],
+   "text": "我的老师姓王。",
+   "read": "我的老师姓王。",
+   "asr_final": "我的老师姓王"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.84,
+   "end": 5.19,
+   "parts": [
+    [
+     3.84,
+     5.19
+    ]
+   ],
+   "segments": [
+    "他是中国人。"
+   ],
+   "text": "他是中国人。",
+   "read": "他是中国人。",
+   "asr_final": "他是中国人"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 5.99,
+   "end": 7.989,
+   "parts": [
+    [
+     5.99,
+     7.989
+    ]
+   ],
+   "segments": [
+    "他教我们学习中文。"
+   ],
+   "text": "他教我们学习中文。",
+   "read": "他教我们学习中文。",
+   "asr_final": "他教我们学习中文"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 8.789,
+   "end": 10.309,
+   "parts": [
+    [
+     8.789,
+     10.309
+    ]
+   ],
+   "segments": [
+    "他的中文很好。"
+   ],
+   "text": "他的中文很好。",
+   "read": "他的中文很好。",
+   "asr_final": "他的中文很好"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 11.109,
+   "end": 12.669,
+   "parts": [
+    [
+     11.109,
+     12.669
+    ]
+   ],
+   "segments": [
+    "我们都喜欢他。"
+   ],
+   "text": "我们都喜欢他。",
+   "read": "我们都喜欢他。",
+   "asr_final": "我们都喜欢他"
+  }
+ ],
+ "draft_issues": []
+}

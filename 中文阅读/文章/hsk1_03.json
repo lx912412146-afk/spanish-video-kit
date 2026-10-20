@@ -1,0 +1,334 @@
+{
+ "id": "hsk1_03",
+ "no": 3,
+ "title_zh": "我的朋友",
+ "title_es": "Mi amigo",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "朋",
+   "péng"
+  ],
+  [
+   "友",
+   "you"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第03篇",
+ "header": "HSK 1 · 第03篇",
+ "sents": [
+  {
+   "zh": "我有一个朋友，他叫大卫。",
+   "py": "Wǒ yǒu yí ge péngyou, tā jiào Dàwèi.",
+   "es": "Tengo un amigo que se llama David.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "一",
+     "yí"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "叫",
+     "jiào"
+    ],
+    [
+     "大",
+     "Dà"
+    ],
+    [
+     "卫",
+     "wèi"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "朋友",
+     "py": "péngyou",
+     "es": "amigo/a",
+     "surface": "朋友",
+     "source": "doc"
+    },
+    {
+     "h": "他",
+     "py": "tā",
+     "es": "él",
+     "surface": "他",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他今年二十岁。",
+   "py": "Tā jīnnián èrshí suì.",
+   "es": "Tiene veinte años.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "年",
+     "nián"
+    ],
+    [
+     "二",
+     "èr"
+    ],
+    [
+     "十",
+     "shí"
+    ],
+    [
+     "岁",
+     "suì"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "二十",
+     "py": "èrshí",
+     "es": "veinte",
+     "surface": "二十",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他是学生，也学习中文。",
+   "py": "Tā shì xuésheng, yě xuéxí Zhōngwén.",
+   "es": "Es estudiante y también estudia chino.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "生",
+     "sheng"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "也",
+     "yě"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "也",
+     "py": "yě",
+     "es": "también",
+     "surface": "也",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他喜欢喝水，也喜欢看书。",
+   "py": "Tā xǐhuan hē shuǐ, yě xǐhuan kàn shū.",
+   "es": "Le gusta beber agua y también le gusta leer.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "也",
+     "yě"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "看",
+     "kàn"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "喝",
+     "py": "hē",
+     "es": "beber",
+     "surface": "喝",
+     "source": "doc"
+    },
+    {
+     "h": "水",
+     "py": "shuǐ",
+     "es": "agua",
+     "surface": "水",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们常常一起学习。",
+   "py": "Wǒmen chángcháng yìqǐ xuéxí.",
+   "es": "A menudo estudiamos juntos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "常",
+     "cháng"
+    ],
+    [
+     "常",
+     "cháng"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "常常",
+     "py": "chángcháng",
+     "es": "a menudo",
+     "surface": "常常",
+     "source": "doc"
+    },
+    {
+     "h": "一起",
+     "py": "yìqǐ",
+     "es": "juntos",
+     "surface": "一起",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 03 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；每句都有原件词条，没有补词。title_ruby 已核对（朋友 péngyou 的 you 轻声），没有改动。es：逐句西语翻译，原件没有，是补写的；大卫是男的（他），照原件标题 Mi amigo 用 amigo，人名译作 David；第 1 句两个分句合成关系从句 que se llama David；第 2 句和第 01 篇一样，“今年二十岁”只说年龄，译作 Tiene veinte años；第 4 句照原文重复“喜欢”（le gusta… y también le gusta…）；第 5 句 juntos 用阳性复数（大卫是男的，说话人性别看不出）。数字用单词。"
+}

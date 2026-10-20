@@ -1,0 +1,131 @@
+{
+ "file": "hsk1_13.mp3",
+ "duration": 16.047,
+ "loudness": {
+  "integrated_lufs": -16.53,
+  "sentence_max_dev_lu": 0.2,
+  "short_term_std_lu": 0.42,
+  "short_term_std_full_lu": 0.73,
+  "peak_dbfs": -2.03,
+  "buzz_hz": 7397.5,
+  "buzz_db": 5.2,
+  "comb_db": -0.25
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.175,
+   "parts": [
+    [
+     1.5,
+     3.175
+    ]
+   ],
+   "segments": [
+    "我家离学校不远。"
+   ],
+   "text": "我家离学校不远。",
+   "read": "我家离学校不远。",
+   "asr_final": "我家离学校不远"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.975,
+   "end": 5.945,
+   "parts": [
+    [
+     3.975,
+     5.945
+    ]
+   ],
+   "segments": [
+    "我每天走路去学校。"
+   ],
+   "text": "我每天走路去学校。",
+   "read": "我每天走路去学校。",
+   "asr_final": "我每天走路去学校"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.745,
+   "end": 8.337,
+   "parts": [
+    [
+     6.745,
+     8.337
+    ]
+   ],
+   "segments": [
+    "我和朋友一起走。"
+   ],
+   "text": "我和朋友一起走。",
+   "read": "我和朋友一起走。",
+   "asr_final": "我和朋友一起走"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.137,
+   "end": 11.137,
+   "parts": [
+    [
+     9.137,
+     11.137
+    ]
+   ],
+   "segments": [
+    "我们八点开始上课。"
+   ],
+   "text": "我们八点开始上课。",
+   "read": "我们八点开始上课。",
+   "asr_final": "我们八点开始上课"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 11.937,
+   "end": 14.047,
+   "parts": [
+    [
+     11.937,
+     14.047
+    ]
+   ],
+   "segments": [
+    "老师在教室里等我们。"
+   ],
+   "text": "老师在教室里等我们。",
+   "read": "老师在教室里等我们。",
+   "asr_final": "老师在教室里等我们"
+  }
+ ],
+ "draft_issues": []
+}

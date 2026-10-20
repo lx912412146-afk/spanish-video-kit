@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_49.mp3",
+ "duration": 19.14,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.26,
+  "short_term_std_lu": 0.45,
+  "short_term_std_full_lu": 0.86,
+  "peak_dbfs": -2.18,
+  "buzz_hz": 3656.2,
+  "buzz_db": 7.1,
+  "comb_db": 0.06
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.73,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.371,
+   "parts": [
+    [
+     1.5,
+     3.371
+    ]
+   ],
+   "segments": [
+    "我很喜欢我的学校。"
+   ],
+   "text": "我很喜欢我的学校。",
+   "read": "我很喜欢我的学校。",
+   "asr_final": "我很喜欢我的学校"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.171,
+   "end": 6.821,
+   "parts": [
+    [
+     4.171,
+     6.821
+    ]
+   ],
+   "segments": [
+    "学校里有很多老师和学生。"
+   ],
+   "text": "学校里有很多老师和学生。",
+   "read": "学校里有很多老师和学生。",
+   "asr_final": "学校里有很多老师和学生"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.621,
+   "end": 9.971,
+   "parts": [
+    [
+     7.621,
+     9.971
+    ]
+   ],
+   "segments": [
+    "我的朋友也在这里学习。"
+   ],
+   "text": "我的朋友也在这里学习。",
+   "read": "我的朋友也在这里学习。",
+   "asr_final": "我的朋友也在这里学习"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.771,
+   "end": 13.7,
+   "parts": [
+    [
+     10.771,
+     12.59
+    ],
+    [
+     12.94,
+     13.7
+    ]
+   ],
+   "segments": [
+    "我们每天一起上课、",
+    "吃饭。"
+   ],
+   "text": "我们每天一起上课、吃饭。",
+   "read": "我们每天一起上课、吃饭。",
+   "asr_final": "我们每天一起上课吃饭"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.5,
+   "end": 17.14,
+   "parts": [
+    [
+     14.5,
+     17.14
+    ]
+   ],
+   "segments": [
+    "我在学校认识了很多朋友。"
+   ],
+   "text": "我在学校认识了很多朋友。",
+   "read": "我在学校认识了很多朋友。",
+   "asr_final": "我在学校认识了很多朋友"
+  }
+ ],
+ "draft_issues": []
+}

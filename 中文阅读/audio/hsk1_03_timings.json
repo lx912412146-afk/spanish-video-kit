@@ -1,0 +1,146 @@
+{
+ "file": "hsk1_03.mp3",
+ "duration": 19.085,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.3,
+  "short_term_std_lu": 0.63,
+  "short_term_std_full_lu": 0.8,
+  "peak_dbfs": -1.96,
+  "buzz_hz": 3886.2,
+  "buzz_db": 6.5,
+  "comb_db": -0.67
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 4.35,
+   "parts": [
+    [
+     1.5,
+     2.81
+    ],
+    [
+     3.16,
+     4.35
+    ]
+   ],
+   "segments": [
+    "我有一个朋友，",
+    "他叫大卫。"
+   ],
+   "text": "我有一个朋友，他叫大卫。",
+   "read": "我有一个朋友，他叫大卫。",
+   "asr_final": "我有一个朋友他叫大卫"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 5.15,
+   "end": 6.7,
+   "parts": [
+    [
+     5.15,
+     6.7
+    ]
+   ],
+   "segments": [
+    "他今年二十岁。"
+   ],
+   "text": "他今年二十岁。",
+   "read": "他今年二十岁。",
+   "asr_final": "他今年二十岁"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.5,
+   "end": 10.365,
+   "parts": [
+    [
+     7.5,
+     8.645
+    ],
+    [
+     8.995,
+     10.365
+    ]
+   ],
+   "segments": [
+    "他是学生，",
+    "也学习中文。"
+   ],
+   "text": "他是学生，也学习中文。",
+   "read": "他是学生，也学习中文。",
+   "asr_final": "他是学生也学习中文"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.165,
+   "end": 14.295,
+   "parts": [
+    [
+     11.165,
+     12.375
+    ],
+    [
+     12.725,
+     14.295
+    ]
+   ],
+   "segments": [
+    "他喜欢喝水，",
+    "也喜欢看书。"
+   ],
+   "text": "他喜欢喝水，也喜欢看书。",
+   "read": "他喜欢喝水，也喜欢看书。",
+   "asr_final": "他喜欢喝水也喜欢看书"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 15.095,
+   "end": 17.085,
+   "parts": [
+    [
+     15.095,
+     17.085
+    ]
+   ],
+   "segments": [
+    "我们常常一起学习。"
+   ],
+   "text": "我们常常一起学习。",
+   "read": "我们常常一起学习。",
+   "asr_final": "我们常常一起学习"
+  }
+ ],
+ "draft_issues": []
+}

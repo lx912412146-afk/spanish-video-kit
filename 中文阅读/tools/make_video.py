@@ -14,6 +14,7 @@ import atexit
 import html
 import json
 import math
+import re
 import shutil
 import subprocess
 import sys
@@ -22,18 +23,19 @@ from pathlib import Path
 
 CSS_ZH = """
 .main{width:1080px}
-.hz{font-family:'Noto Serif SC',serif;font-size:var(--fs);line-height:1.9;letter-spacing:.04em}
-.hz ruby{ruby-position:over}
-.hz rt{font-family:'Inter';font-size:calc(var(--fs)*.34);font-weight:500;color:#6b746f;letter-spacing:0;padding-bottom:.08em}
+.hz{font-family:'Noto Serif SC',serif;font-size:var(--fs);line-height:1.9;letter-spacing:.04em;text-wrap:balance}
+.hz ruby{ruby-position:over;margin:0 .02em}
+.hz rt{font-family:'Inter';font-size:calc(var(--fs)*.34);font-weight:500;color:#6b746f;letter-spacing:0;padding:0 .1em .08em}
 .hz .w{font-weight:700;color:#1f5c4a;white-space:nowrap}
 .hz .nb{white-space:nowrap}
 .hz .w rt{color:#1f5c4a;font-weight:600}
 .hz sup{font-size:calc(var(--fs)*.3);vertical-align:1.25em}
-.tr{font-family:'EB Garamond',serif;font-size:calc(var(--fs)*.56);line-height:1.45;color:#3c4642;margin-top:calc(var(--fs)*.45);padding-left:24px;border-left:4px solid #d7d2c3}
+.tr{text-wrap:balance;font-family:'EB Garamond',serif;font-size:calc(var(--fs)*.56);line-height:1.45;color:#3c4642;margin-top:calc(var(--fs)*.45);padding-left:24px;border-left:4px solid #d7d2c3}
 .v{grid-template-columns:calc(var(--vs)*1.3) 1fr}
 .v b{font-family:'Noto Serif SC';font-weight:700;font-size:calc(var(--vs)*1.3);color:#1f5c4a}
 #list{gap:calc(var(--vs)*.7)}
 .v i{font-family:'Inter';font-style:normal;font-weight:500;color:#6b746f;margin-left:12px}
+.v.t em{background:#fff;color:#1f5c4a;box-shadow:inset 0 0 0 2px #1f5c4a}
 .v span{display:block;margin-left:0;font-family:'EB Garamond';font-size:calc(var(--vs)*1.08);color:#3c4642}
 .ttl h1{font-family:'Noto Serif SC';font-size:112px;line-height:1.9;margin:20px 0 6px}
 .ttl h1 rt{font-family:'Inter';font-size:38px;font-weight:500;color:#6b746f}
@@ -61,6 +63,9 @@ def mark(s):
     """重点词汇在句中的位置（第一次出现），按出现先后编号；对不上就报错。"""
     taken = []
     for w in s['w']:
+        if w.get('from_title'):                    # 只在标题里出现的词：列在词汇栏最后，标 T（título），句中不标
+            w['sp'] = (len(s['zh']) + 1, 0)
+            continue
         a = s['zh'].find(w['surface'])
         if a < 0:
             raise SystemExit(f'词条「{w["h"]}」在句子「{s["zh"]}」里找不到')
@@ -74,29 +79,86 @@ def mark(s):
         raise SystemExit(f'逐字注音和原文对不上：{s["zh"]}')
 
 
+PUNCT = '，。！？、；：“”‘’'
+LONG = 8                                       # 分句超过这么多个汉字时，允许在分句中间换一次行
+SUFFIX = '里上下了的吗呢吧们边面过着'                 # 跟在前面的词后面，不放在行首
+PREFIX = '一二两三四五六七八九十几每这那个本张把口块件杯瓶双只条位名次在和跟给很不也都是有看吃喝写说听去买做坐到从'   # 要带后面的成分，不放在行尾
+
+
+def word_ids(s):
+    """按原件拼音的分词（空格、标点隔开的拼音词）给每个汉字标词号；标点为 -1。"""
+    import unicodedata
+
+    def bare(x):
+        x = unicodedata.normalize('NFD', x)
+        return ''.join(c for c in x if unicodedata.category(c) != 'Mn').lower().replace("'", '')
+    toks = [bare(t) for t in re.findall(r"[^\s,.!?;:，。！？、；：“”\"()（）]+", s['py'])]
+    ids, k, buf = [], 0, ''
+    for c, y in s['ruby']:
+        if not y:
+            ids.append(-1)
+            continue
+        ids.append(k)
+        buf += bare(y)
+        if k < len(toks) and buf == toks[k]:
+            k, buf = k + 1, ''
+    return ids
+
+
 def sentence_html(s):
-    out, pos = [], 0
-    for i, w in enumerate(s['w'], 1):
+    ids = word_ids(s)
+    units, pos = [], 0                           # (html, 第一个字的位置, 最后一个字的位置)
+    for i, w in enumerate([w for w in s['w'] if not w.get('from_title')], 1):
         a, b = w['sp']
-        out += [ruby_html([x]) for x in s['ruby'][pos:a]]
-        out.append(f'<span class="w">{ruby_html(s["ruby"][a:b])}<sup>{i}</sup></span>')
+        units += [(ruby_html([s['ruby'][j]]), j, j) for j in range(pos, a)]
+        units.append((f'<span class="w">{ruby_html(s["ruby"][a:b])}<sup>{i}</sup></span>', a, b - 1))
         pos = b
-    out += [ruby_html([x]) for x in s['ruby'][pos:]]
-    # 只在分句处换行：每个分句（到 ，、；：！？。 为止，标点跟着前面的字）不拆开；一行放不下时由 FIT 缩小字号
-    clauses, cur = [], ''
-    for t in out:
-        cur += t
-        if t in [esc(c) for c in '，。！？、；：']:
+    units += [(ruby_html([s['ruby'][j]]), j, j) for j in range(pos, len(s['ruby']))]
+    # 一般只在分句处换行（每个分句到 ，；：！？。 为止，标点跟着前面的字）；分句太长时在词与词之间换行，词不拆开
+    clauses, cur = [], []
+    for u in units:
+        cur.append(u)
+        if s['zh'][u[2]] in '，。！？；：' and u[1] == u[2]:   # 顿号“、”不算分句（列举不在这里断开，太长时按词换行）
             clauses.append(cur)
-            cur = ''
+            cur = []
     if cur:
         clauses.append(cur)
-    return '\u200b'.join(f'<span class="nb">{c}</span>' for c in clauses)
+    out = []
+    for cl in clauses:
+        nhan = sum(1 for u in cl for j in range(u[1], u[2] + 1) if s['ruby'][j][1])
+        if nhan <= LONG:
+            out.append(''.join(u[0] for u in cl))
+            continue
+        # 长分句只断一次：在词的边界里挑最好的一处（两行尽量均衡；不在“里、了、的、们”这类后附成分前断，
+        # 不在数词、量词、介词和“看、有、在”这类要带宾语的词后面断），词和重点词汇都不拆开
+        def width(us):
+            return sum((1 if s['ruby'][j][1] else .5) for u in us for j in range(u[1], u[2] + 1)) + sum(.5 for u in us if '<sup>' in u[0])
+        best = None
+        for i in range(1, len(cl)):
+            l, r = cl[i - 1], cl[i]
+            if s['zh'][r[1]] in PUNCT or ids[l[2]] == ids[r[1]]:
+                continue
+            cost = abs(width(cl[:i]) - width(cl[i:]))
+            if s['zh'][r[1]] in SUFFIX:
+                cost += 10
+            if s['zh'][l[2]] in PREFIX:
+                cost += 6
+            if best is None or cost < best[0]:
+                best = (cost, i)
+        groups = [cl[:best[1]], cl[best[1]:]] if best else [cl]
+        out.append('\u200b'.join(f'<span class="nb">{"".join(u[0] for u in g)}</span>' for g in groups))
+    return '\u200b'.join(f'<span class="nb">{c}</span>' if '\u200b' not in c else c for c in out)
 
 
 def vocab_html(s):
-    return ''.join(f'<div class="v"><em>{i}</em><div><b lang="zh">{esc(w["h"])}</b><i>{esc(w["py"])}</i>'
-                   f'<span lang="es">{esc(w["es"])}</span></div></div>' for i, w in enumerate(s['w'], 1))
+    out, i = [], 0
+    for w in s['w']:
+        t = w.get('from_title')
+        if not t:
+            i += 1
+        out.append(f'<div class="v{" t" if t else ""}"><em>{"T" if t else i}</em><div><b lang="zh">{esc(w["h"])}</b><i>{esc(w["py"])}</i>'
+                   f'<span lang="es">{esc(w["es"])}{" · (título)" if t else ""}</span></div></div>')
+    return ''.join(out)
 
 
 def main():
@@ -117,6 +179,9 @@ def main():
     sents = p['sents']
     for s in sents:
         mark(s)
+        shown = html.unescape(re.sub(r'<[^>]+>', '', re.sub(r'<rt>.*?</rt>|<sup>.*?</sup>', '', sentence_html(s)))).replace('\u200b', '')
+        if shown != s['zh']:                   # 画面上的汉字必须和原文一字不差（不重复、不漏字）
+            raise SystemExit(f'画面文字和原文不一致：{s["zh"]} → {shown}')
     n = len(sents)
     nchar = sum(1 for s in sents for c in s['zh'] if '一' <= c <= '鿿')
     fonts = (kit / '四级' / 'tools' / 'fonts' / 'fonts.css').as_uri()
@@ -189,7 +254,8 @@ def main():
         lst.append(f"file '{segf}'")
     (tmp / 'list.txt').write_text('\n'.join(lst))
     total = frames[-1] / FPS
-    name = f'HSK1中文阅读 第{p["no"]:02d}篇 {p["title_zh"]} {p["title_es"]}.mp4'
+    t = f'{p["title_zh"]} {p["title_es"]}'.translate(str.maketrans({':': '：', '?': '？', '/': '／'}))   # Windows 文件名不能有 : ? /
+    name = f'HSK1中文阅读 第{p["no"]:02d}篇 {t}.mp4'
     silent = tmp / 'video.mp4'
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(tmp / 'list.txt'), '-c', 'copy', str(silent)], check=True)
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(silent), '-i', str(Path(a.audio) / T['file']),

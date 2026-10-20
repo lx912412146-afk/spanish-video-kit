@@ -1,0 +1,344 @@
+{
+ "id": "hsk1_28",
+ "no": 28,
+ "title_zh": "我和朋友吃饭",
+ "title_es": "Como con un amigo",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "和",
+   "hé"
+  ],
+  [
+   "朋",
+   "péng"
+  ],
+  [
+   "友",
+   "you"
+  ],
+  [
+   "吃",
+   "chī"
+  ],
+  [
+   "饭",
+   "fàn"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第28篇",
+ "header": "HSK 1 · 第28篇",
+ "sents": [
+  {
+   "zh": "今天晚上，我和朋友一起吃饭。",
+   "py": "Jīntiān wǎnshang, wǒ hé péngyou yìqǐ chī fàn.",
+   "es": "Esta noche, un amigo y yo cenamos juntos.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "晚",
+     "wǎn"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "晚上",
+     "py": "wǎnshang",
+     "es": "por la noche",
+     "surface": "晚上",
+     "source": "doc"
+    },
+    {
+     "h": "一起",
+     "py": "yìqǐ",
+     "es": "juntos",
+     "surface": "一起",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们想吃面条。",
+   "py": "Wǒmen xiǎng chī miàntiáo.",
+   "es": "Queremos comer fideos.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "想",
+     "xiǎng"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "面",
+     "miàn"
+    ],
+    [
+     "条",
+     "tiáo"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "想",
+     "py": "xiǎng",
+     "es": "querer; tener ganas de",
+     "surface": "想",
+     "source": "supplement"
+    },
+    {
+     "h": "面条",
+     "py": "miàntiáo",
+     "es": "fideos",
+     "surface": "面条",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "朋友还要一杯茶。",
+   "py": "Péngyou hái yào yì bēi chá.",
+   "es": "Mi amigo pide además una taza de té.",
+   "ruby": [
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "还",
+     "hái"
+    ],
+    [
+     "要",
+     "yào"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "杯",
+     "bēi"
+    ],
+    [
+     "茶",
+     "chá"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "还",
+     "py": "hái",
+     "es": "también; además",
+     "surface": "还",
+     "source": "doc"
+    },
+    {
+     "h": "茶",
+     "py": "chá",
+     "es": "té",
+     "surface": "茶",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我喝水，不喝茶。",
+   "py": "Wǒ hē shuǐ, bù hē chá.",
+   "es": "Yo bebo agua, no bebo té.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "不",
+     "bù"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "茶",
+     "chá"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "喝",
+     "py": "hē",
+     "es": "beber",
+     "surface": "喝",
+     "source": "supplement"
+    },
+    {
+     "h": "不",
+     "py": "bù",
+     "es": "no",
+     "surface": "不",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "吃完饭，我们一起回家。",
+   "py": "Chī wán fàn, wǒmen yìqǐ huí jiā.",
+   "es": "Al terminar de cenar, volvemos juntos a casa.",
+   "ruby": [
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "完",
+     "wán"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "回",
+     "huí"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "吃完",
+     "py": "chī wán",
+     "es": "terminar de comer",
+     "surface": "吃完",
+     "source": "doc"
+    },
+    {
+     "h": "回家",
+     "py": "huí jiā",
+     "es": "volver a casa",
+     "surface": "回家",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 28 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）；title_ruby 逐字核对过。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；原件词表核对无误，未改。第 2 句补了「想」「面条」，第 4 句补了 HSK1 词「喝」「不」（source=supplement；“不”在一声前不变调，照原件 bù）。es：逐句西语翻译，原件没有，是补写的；朋友照原件标题 Como con un amigo 用阳性；“今天晚上……吃饭”是晚饭，按西班牙用法译作 cenar（第 1、5 句；原件词表“吃完”的释义 terminar de comer 不动）；第 3 句“还要”是另外再要，译作 pide además；第 4 句保留“不喝茶”的重复：no bebo té。"
+}

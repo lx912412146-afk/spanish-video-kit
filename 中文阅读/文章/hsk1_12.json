@@ -1,0 +1,325 @@
+{
+ "id": "hsk1_12",
+ "no": 12,
+ "title_zh": "我喝牛奶",
+ "title_es": "Bebo leche",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "喝",
+   "hē"
+  ],
+  [
+   "牛",
+   "niú"
+  ],
+  [
+   "奶",
+   "nǎi"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第12篇",
+ "header": "HSK 1 · 第12篇",
+ "sents": [
+  {
+   "zh": "我早上喝一杯牛奶。",
+   "py": "Wǒ zǎoshang hē yì bēi niúnǎi.",
+   "es": "Por la mañana bebo un vaso de leche.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "杯",
+     "bēi"
+    ],
+    [
+     "牛",
+     "niú"
+    ],
+    [
+     "奶",
+     "nǎi"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "牛奶",
+     "py": "niúnǎi",
+     "es": "leche",
+     "surface": "牛奶",
+     "source": "doc"
+    },
+    {
+     "h": "杯",
+     "py": "bēi",
+     "es": "taza; vaso",
+     "surface": "杯",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我不喝咖啡，也不喝茶。",
+   "py": "Wǒ bù hē kāfēi, yě bù hē chá.",
+   "es": "No bebo café y tampoco bebo té.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "不",
+     "bù"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "咖",
+     "kā"
+    ],
+    [
+     "啡",
+     "fēi"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "也",
+     "yě"
+    ],
+    [
+     "不",
+     "bù"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "茶",
+     "chá"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "咖啡",
+     "py": "kāfēi",
+     "es": "café",
+     "surface": "咖啡",
+     "source": "doc"
+    },
+    {
+     "h": "茶",
+     "py": "chá",
+     "es": "té",
+     "surface": "茶",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "妈妈喝水，爸爸喝茶。",
+   "py": "Māma hē shuǐ, bàba hē chá.",
+   "es": "Mi madre bebe agua y mi padre bebe té.",
+   "ruby": [
+    [
+     "妈",
+     "mā"
+    ],
+    [
+     "妈",
+     "ma"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "爸",
+     "bà"
+    ],
+    [
+     "爸",
+     "ba"
+    ],
+    [
+     "喝",
+     "hē"
+    ],
+    [
+     "茶",
+     "chá"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "喝",
+     "py": "hē",
+     "es": "beber",
+     "surface": "喝",
+     "source": "supplement"
+    },
+    {
+     "h": "水",
+     "py": "shuǐ",
+     "es": "agua",
+     "surface": "水",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "我们在家吃早饭。",
+   "py": "Wǒmen zài jiā chī zǎofàn.",
+   "es": "Desayunamos en casa.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "在",
+     "py": "zài",
+     "es": "estar en",
+     "surface": "在",
+     "source": "doc"
+    },
+    {
+     "h": "家",
+     "py": "jiā",
+     "es": "casa; familia",
+     "surface": "家",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "吃完饭，我去学校。",
+   "py": "Chī wán fàn, wǒ qù xuéxiào.",
+   "es": "Cuando termino de desayunar, voy a la escuela.",
+   "ruby": [
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "完",
+     "wán"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "吃完",
+     "py": "chī wán",
+     "es": "terminar de comer",
+     "surface": "吃完",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 12 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里，原件词汇表的拼音和西语释义已核对，照原样保留；第 3 句原件词汇表里没有词，补了 HSK1 词「喝」「水」（source=supplement；「茶」第 2 句已列）。es：逐句西语翻译，原件没有，是补写的；第 2 句“也不”译作 tampoco，保留两个 bebo 和原文对应；第 3 句“妈妈”“爸爸”照原件第 02 篇词汇表的 madre、padre 译作 mi madre、mi padre；第 5 句“吃完饭”承接第 4 句的早饭，译作 terminar de desayunar（西班牙 comer 多指午饭，直译 comer 容易误解）。说话人性别看不出来，句中没有要变性的词。title_ruby 逐字核对，无改动。"
+}

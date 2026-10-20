@@ -1,0 +1,146 @@
+{
+ "file": "hsk1_37.mp3",
+ "duration": 21.069,
+ "loudness": {
+  "integrated_lufs": -16.36,
+  "sentence_max_dev_lu": 0.44,
+  "short_term_std_lu": 0.63,
+  "short_term_std_full_lu": 0.87,
+  "peak_dbfs": -1.83,
+  "buzz_hz": 2241.2,
+  "buzz_db": 6.8,
+  "comb_db": 0.67
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 5.01,
+   "parts": [
+    [
+     1.5,
+     2.99
+    ],
+    [
+     3.34,
+     5.01
+    ]
+   ],
+   "segments": [
+    "我喜欢冬天，",
+    "也喜欢夏天。"
+   ],
+   "text": "我喜欢冬天，也喜欢夏天。",
+   "read": "我喜欢冬天，也喜欢夏天。",
+   "asr_final": "我喜欢冬天也喜欢夏天"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 5.81,
+   "end": 9.062,
+   "parts": [
+    [
+     5.81,
+     7.17
+    ],
+    [
+     7.52,
+     9.062
+    ]
+   ],
+   "segments": [
+    "冬天很冷，",
+    "我在家喝热水。"
+   ],
+   "text": "冬天很冷，我在家喝热水。",
+   "read": "冬天很冷，我在家喝热水。",
+   "asr_final": "冬天很冷我在家喝热水"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 9.862,
+   "end": 13.072,
+   "parts": [
+    [
+     9.862,
+     11.202
+    ],
+    [
+     11.552,
+     13.072
+    ]
+   ],
+   "segments": [
+    "夏天很热，",
+    "我喜欢吃西瓜。"
+   ],
+   "text": "夏天很热，我喜欢吃西瓜。",
+   "read": "夏天很热，我喜欢吃西瓜。",
+   "asr_final": "夏天很热我喜欢吃西瓜"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 13.872,
+   "end": 15.972,
+   "parts": [
+    [
+     13.872,
+     15.972
+    ]
+   ],
+   "segments": [
+    "春天和秋天也很好。"
+   ],
+   "text": "春天和秋天也很好。",
+   "read": "春天和秋天也很好。",
+   "asr_final": "春天和秋天也很好"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 16.772,
+   "end": 19.069,
+   "parts": [
+    [
+     16.772,
+     19.069
+    ]
+   ],
+   "segments": [
+    "每个季节都有好天气。"
+   ],
+   "text": "每个季节都有好天气。",
+   "read": "每个季节都有好天气。",
+   "asr_final": "每个季节都有好天气"
+  }
+ ],
+ "draft_issues": []
+}

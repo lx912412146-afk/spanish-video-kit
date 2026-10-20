@@ -1,0 +1,136 @@
+{
+ "file": "hsk1_29.mp3",
+ "duration": 17.364,
+ "loudness": {
+  "integrated_lufs": -16.34,
+  "sentence_max_dev_lu": 0.25,
+  "short_term_std_lu": 0.57,
+  "short_term_std_full_lu": 0.76,
+  "peak_dbfs": -2.05,
+  "buzz_hz": 11456.5,
+  "buzz_db": 7.4,
+  "comb_db": 0.16
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.269,
+   "parts": [
+    [
+     1.5,
+     3.269
+    ]
+   ],
+   "segments": [
+    "今天是我的生日。"
+   ],
+   "text": "今天是我的生日。",
+   "read": "今天是我的生日。",
+   "asr_final": "今天是我的生日"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.069,
+   "end": 5.67,
+   "parts": [
+    [
+     4.069,
+     5.67
+    ]
+   ],
+   "segments": [
+    "我今年十九岁。"
+   ],
+   "text": "我今年十九岁。",
+   "read": "我今年十九岁。",
+   "asr_final": "我今年十九岁"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 6.47,
+   "end": 9.02,
+   "parts": [
+    [
+     6.47,
+     9.02
+    ]
+   ],
+   "segments": [
+    "妈妈给我买了一个蛋糕。"
+   ],
+   "text": "妈妈给我买了一个蛋糕。",
+   "read": "妈妈给我买了一个蛋糕。",
+   "asr_final": "妈妈给我买了一个蛋糕"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 9.82,
+   "end": 13.014,
+   "parts": [
+    [
+     9.82,
+     11.064
+    ],
+    [
+     11.414,
+     13.014
+    ]
+   ],
+   "segments": [
+    "朋友来我家，",
+    "我们一起吃蛋糕。"
+   ],
+   "text": "朋友来我家，我们一起吃蛋糕。",
+   "read": "朋友来我家，我们一起吃蛋糕。",
+   "asr_final": "朋友来我家我们一起吃蛋糕"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.814,
+   "end": 15.364,
+   "parts": [
+    [
+     13.814,
+     15.364
+    ]
+   ],
+   "segments": [
+    "我今天很高兴。"
+   ],
+   "text": "我今天很高兴。",
+   "read": "我今天很高兴。",
+   "asr_final": "我今天很高兴"
+  }
+ ],
+ "draft_issues": []
+}

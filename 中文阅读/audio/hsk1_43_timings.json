@@ -1,0 +1,131 @@
+{
+ "file": "hsk1_43.mp3",
+ "duration": 18.573,
+ "loudness": {
+  "integrated_lufs": -16.35,
+  "sentence_max_dev_lu": 0.08,
+  "short_term_std_lu": 0.43,
+  "short_term_std_full_lu": 0.82,
+  "peak_dbfs": -1.96,
+  "buzz_hz": 2143.8,
+  "buzz_db": 5.4,
+  "comb_db": -0.23
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.13,
+   "parts": [
+    [
+     1.5,
+     3.13
+    ]
+   ],
+   "segments": [
+    "今天我在中国。"
+   ],
+   "text": "今天我在中国。",
+   "read": "今天我在中国。",
+   "asr_final": "今天我在中国"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 3.93,
+   "end": 6.433,
+   "parts": [
+    [
+     3.93,
+     6.433
+    ]
+   ],
+   "segments": [
+    "早上我去学校学习中文。"
+   ],
+   "text": "早上我去学校学习中文。",
+   "read": "早上我去学校学习中文。",
+   "asr_final": "早上我去学校学习中文"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.233,
+   "end": 10.023,
+   "parts": [
+    [
+     7.233,
+     10.023
+    ]
+   ],
+   "segments": [
+    "中午我在饭店吃米饭和菜。"
+   ],
+   "text": "中午我在饭店吃米饭和菜。",
+   "read": "中午我在饭店吃米饭和菜。",
+   "asr_final": "中午我在饭店吃米饭和菜"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.823,
+   "end": 13.603,
+   "parts": [
+    [
+     10.823,
+     13.603
+    ]
+   ],
+   "segments": [
+    "下午我和朋友去商店买水。"
+   ],
+   "text": "下午我和朋友去商店买水。",
+   "read": "下午我和朋友去商店买水。",
+   "asr_final": "下午我和朋友去商店买水"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.403,
+   "end": 16.573,
+   "parts": [
+    [
+     14.403,
+     16.573
+    ]
+   ],
+   "segments": [
+    "晚上我给家人打电话。"
+   ],
+   "text": "晚上我给家人打电话。",
+   "read": "晚上我给家人打电话。",
+   "asr_final": "晚上我给家人打电话"
+  }
+ ],
+ "draft_issues": []
+}

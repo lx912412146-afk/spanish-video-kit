@@ -1,0 +1,146 @@
+{
+ "file": "hsk1_19.mp3",
+ "duration": 18.823,
+ "loudness": {
+  "integrated_lufs": -16.34,
+  "sentence_max_dev_lu": 0.43,
+  "short_term_std_lu": 0.52,
+  "short_term_std_full_lu": 0.59,
+  "peak_dbfs": -2.78,
+  "buzz_hz": 12000.0,
+  "buzz_db": 5.5,
+  "comb_db": -0.2
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.61,
+   "parts": [
+    [
+     1.5,
+     3.61
+    ]
+   ],
+   "segments": [
+    "星期六我不用去学校。"
+   ],
+   "text": "星期六我不用去学校。",
+   "read": "星期六我不用去学校。",
+   "asr_final": "星期六我不用去学校"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.41,
+   "end": 7.21,
+   "parts": [
+    [
+     4.41,
+     5.14
+    ],
+    [
+     5.49,
+     7.21
+    ]
+   ],
+   "segments": [
+    "早上，",
+    "我和妈妈去商店。"
+   ],
+   "text": "早上，我和妈妈去商店。",
+   "read": "早上，我和妈妈去商店。",
+   "asr_final": "早上我和妈妈去商店"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 8.01,
+   "end": 10.35,
+   "parts": [
+    [
+     8.01,
+     8.71
+    ],
+    [
+     9.06,
+     10.35
+    ]
+   ],
+   "segments": [
+    "中午，",
+    "我们在家吃饭。"
+   ],
+   "text": "中午，我们在家吃饭。",
+   "read": "中午，我们在家吃饭。",
+   "asr_final": "中午我们在家吃饭"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.15,
+   "end": 14.21,
+   "parts": [
+    [
+     11.15,
+     12.76
+    ],
+    [
+     13.11,
+     14.21
+    ]
+   ],
+   "segments": [
+    "下午我看电视，",
+    "也听音乐。"
+   ],
+   "text": "下午我看电视，也听音乐。",
+   "read": "下午我看电视，也听音乐。",
+   "asr_final": "下午我看电视也听音乐"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 15.01,
+   "end": 16.823,
+   "parts": [
+    [
+     15.01,
+     16.823
+    ]
+   ],
+   "segments": [
+    "晚上我早点睡觉。"
+   ],
+   "text": "晚上我早点睡觉。",
+   "read": "晚上我早点睡觉。",
+   "asr_final": "晚上我早点睡觉"
+  }
+ ],
+ "draft_issues": []
+}

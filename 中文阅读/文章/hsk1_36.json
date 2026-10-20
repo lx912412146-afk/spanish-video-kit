@@ -1,0 +1,327 @@
+{
+ "id": "hsk1_36",
+ "no": 36,
+ "title_zh": "今天的天气",
+ "title_es": "El tiempo de hoy",
+ "title_ruby": [
+  [
+   "今",
+   "jīn"
+  ],
+  [
+   "天",
+   "tiān"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "天",
+   "tiān"
+  ],
+  [
+   "气",
+   "qì"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第36篇",
+ "header": "HSK 1 · 第36篇",
+ "sents": [
+  {
+   "zh": "今天的天气很好。",
+   "py": "Jīntiān de tiānqì hěn hǎo.",
+   "es": "Hoy hace muy buen tiempo.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "气",
+     "qì"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "今天",
+     "py": "jīntiān",
+     "es": "hoy",
+     "surface": "今天",
+     "source": "supplement"
+    },
+    {
+     "h": "天气",
+     "py": "tiānqì",
+     "es": "tiempo (atmosférico)",
+     "surface": "天气",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "早上有一点冷。",
+   "py": "Zǎoshang yǒu yìdiǎn lěng.",
+   "es": "Por la mañana hace un poco de frío.",
+   "ruby": [
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "点",
+     "diǎn"
+    ],
+    [
+     "冷",
+     "lěng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "一点",
+     "py": "yìdiǎn",
+     "es": "un poco",
+     "surface": "一点",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "中午太阳出来了，天气很热。",
+   "py": "Zhōngwǔ tàiyáng chūlái le, tiānqì hěn rè.",
+   "es": "Al mediodía sale el sol y hace mucho calor.",
+   "ruby": [
+    [
+     "中",
+     "zhōng"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "太",
+     "tài"
+    ],
+    [
+     "阳",
+     "yáng"
+    ],
+    [
+     "出",
+     "chū"
+    ],
+    [
+     "来",
+     "lái"
+    ],
+    [
+     "了",
+     "le"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "气",
+     "qì"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "热",
+     "rè"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "出来",
+     "py": "chūlái",
+     "es": "salir",
+     "surface": "出来",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我和朋友去公园走一走。",
+   "py": "Wǒ hé péngyou qù gōngyuán zǒu yi zǒu.",
+   "es": "Mi amigo y yo vamos al parque a dar un paseo.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "公",
+     "gōng"
+    ],
+    [
+     "园",
+     "yuán"
+    ],
+    [
+     "走",
+     "zǒu"
+    ],
+    [
+     "一",
+     "yi"
+    ],
+    [
+     "走",
+     "zǒu"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "走一走",
+     "py": "zǒu yi zǒu",
+     "es": "dar un paseo",
+     "surface": "走一走",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们在外面玩得很开心。",
+   "py": "Wǒmen zài wàimiàn wán de hěn kāixīn.",
+   "es": "Nos lo pasamos muy bien fuera.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "外",
+     "wài"
+    ],
+    [
+     "面",
+     "miàn"
+    ],
+    [
+     "玩",
+     "wán"
+    ],
+    [
+     "得",
+     "de"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "开",
+     "kāi"
+    ],
+    [
+     "心",
+     "xīn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "外面",
+     "py": "wàimiàn",
+     "es": "fuera",
+     "surface": "外面",
+     "source": "doc"
+    },
+    {
+     "h": "开心",
+     "py": "kāixīn",
+     "es": "contento; alegre",
+     "surface": "开心",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 36 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件）；title_ruby 已逐字核对，无需改动。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；第 1 句原件词汇表里没有新词，补了「今天」「天气」（source=supplement）；原件词汇未改。es：逐句西语翻译，原件没有，是补写的；第 1 句“今天的天气很好”按西语习惯译作 Hoy hace muy buen tiempo；全篇用现在时叙述，第 3 句“太阳出来了”译作 sale el sol；第 4 句“朋友”单复数、性别看不出，按默认译作 mi amigo；第 5 句“玩得很开心”译作 Nos lo pasamos muy bien。"
+}

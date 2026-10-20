@@ -1,0 +1,302 @@
+{
+ "id": "hsk1_31",
+ "no": 31,
+ "title_zh": "我的学校",
+ "title_es": "Mi escuela",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "学",
+   "xué"
+  ],
+  [
+   "校",
+   "xiào"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第31篇",
+ "header": "HSK 1 · 第31篇",
+ "sents": [
+  {
+   "zh": "我的学校很大。",
+   "py": "Wǒ de xuéxiào hěn dà.",
+   "es": "Mi escuela es muy grande.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "大",
+     "dà"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "学校",
+     "py": "xuéxiào",
+     "es": "escuela",
+     "surface": "学校",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "学校里有很多学生。",
+   "py": "Xuéxiào lǐ yǒu hěn duō xuésheng.",
+   "es": "En la escuela hay muchos estudiantes.",
+   "ruby": [
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "多",
+     "duō"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "生",
+     "sheng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "学生",
+     "py": "xuésheng",
+     "es": "estudiante",
+     "surface": "学生",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我的教室在二楼。",
+   "py": "Wǒ de jiàoshì zài èr lóu.",
+   "es": "Mi aula está en la primera planta.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "教",
+     "jiào"
+    ],
+    [
+     "室",
+     "shì"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "二",
+     "èr"
+    ],
+    [
+     "楼",
+     "lóu"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "二楼",
+     "py": "èr lóu",
+     "es": "primera planta (en China, 一楼 es la planta baja)",
+     "surface": "二楼",
+     "source": "doc"
+    },
+    {
+     "h": "教室",
+     "py": "jiàoshì",
+     "es": "aula",
+     "surface": "教室",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "老师在教室里教中文。",
+   "py": "Lǎoshī zài jiàoshì lǐ jiāo Zhōngwén.",
+   "es": "El profesor enseña chino en el aula.",
+   "ruby": [
+    [
+     "老",
+     "lǎo"
+    ],
+    [
+     "师",
+     "shī"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "教",
+     "jiào"
+    ],
+    [
+     "室",
+     "shì"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "教",
+     "jiāo"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "老师",
+     "py": "lǎoshī",
+     "es": "profesor; maestro",
+     "surface": "老师",
+     "source": "supplement"
+    },
+    {
+     "h": "教中文",
+     "py": "jiāo Zhōngwén",
+     "es": "enseñar chino",
+     "surface": "教中文",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "我喜欢在学校学习。",
+   "py": "Wǒ xǐhuan zài xuéxiào xuéxí.",
+   "es": "Me gusta estudiar en la escuela.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "在",
+     "zài"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "习",
+     "xí"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "喜欢",
+     "py": "xǐhuan",
+     "es": "gustar",
+     "surface": "喜欢",
+     "source": "supplement"
+    },
+    {
+     "h": "学习",
+     "py": "xuéxí",
+     "es": "estudiar; aprender",
+     "surface": "学习",
+     "source": "supplement"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 31 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）；title_ruby 逐字核对过。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；原件词表的「二楼」和「楼」在第 3 句重叠（视频词条不能重叠），只留「楼 lóu: planta; edificio」，去掉「二楼 èr lóu: segunda planta」（二已学过，二楼的意思在译文里）。第 4 句补了 HSK1 词「老师」和「教中文 jiāo Zhōngwén」（教 jiāo 第一次出现，为了不和前面“教室”的教 jiào 混在一起，按短语列，surface 教中文），第 5 句补了「喜欢」「学习」（source=supplement）。es：逐句西语翻译，原件没有，是补写的；老师性别看不出来，用阳性 el profesor；第 3 句“二楼”译作 primera planta：中国的一楼是地面层（西班牙叫 planta baja），二楼是地面层往上一层，按西班牙的叫法是 primera planta；原件词表「二楼」的释义 segunda planta 不合西班牙的叫法（这个词条已因和「楼」重叠去掉，见上），译文不照它。第 3 句词条用原件的「二楼」（不单列「楼」），释义写明中国的一楼是地面层，二楼对应西班牙的 primera planta。"
+}

@@ -1,0 +1,146 @@
+{
+ "file": "hsk1_28.mp3",
+ "duration": 18.044,
+ "loudness": {
+  "integrated_lufs": -16.41,
+  "sentence_max_dev_lu": 0.32,
+  "short_term_std_lu": 0.64,
+  "short_term_std_full_lu": 1.0,
+  "peak_dbfs": -1.53,
+  "buzz_hz": 2240.5,
+  "buzz_db": 5.8,
+  "comb_db": 0.11
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 4.657,
+   "parts": [
+    [
+     1.5,
+     2.481
+    ],
+    [
+     2.831,
+     4.657
+    ]
+   ],
+   "segments": [
+    "今天晚上，",
+    "我和朋友一起吃饭。"
+   ],
+   "text": "今天晚上，我和朋友一起吃饭。",
+   "read": "今天晚上，我和朋友一起吃饭。",
+   "asr_final": "今天晚上我和朋友一起吃饭"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 5.457,
+   "end": 7.07,
+   "parts": [
+    [
+     5.457,
+     7.07
+    ]
+   ],
+   "segments": [
+    "我们想吃面条。"
+   ],
+   "text": "我们想吃面条。",
+   "read": "我们想吃面条。",
+   "asr_final": "我们想吃面条"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.87,
+   "end": 9.52,
+   "parts": [
+    [
+     7.87,
+     9.52
+    ]
+   ],
+   "segments": [
+    "朋友还要一杯茶。"
+   ],
+   "text": "朋友还要一杯茶。",
+   "read": "朋友还要一杯茶。",
+   "asr_final": "朋友还要一杯茶"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 10.32,
+   "end": 12.483,
+   "parts": [
+    [
+     10.32,
+     11.193
+    ],
+    [
+     11.543,
+     12.483
+    ]
+   ],
+   "segments": [
+    "我喝水，",
+    "不喝茶。"
+   ],
+   "text": "我喝水，不喝茶。",
+   "read": "我喝水，不喝茶。",
+   "asr_final": "我喝水不喝茶"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 13.283,
+   "end": 16.044,
+   "parts": [
+    [
+     13.283,
+     14.244
+    ],
+    [
+     14.594,
+     16.044
+    ]
+   ],
+   "segments": [
+    "吃完饭，",
+    "我们一起回家。"
+   ],
+   "text": "吃完饭，我们一起回家。",
+   "read": "吃完饭，我们一起回家。",
+   "asr_final": "吃完饭我们一起回家"
+  }
+ ],
+ "draft_issues": []
+}

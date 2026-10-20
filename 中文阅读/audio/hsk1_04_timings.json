@@ -1,0 +1,151 @@
+{
+ "file": "hsk1_04.mp3",
+ "duration": 18.494,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.6,
+  "short_term_std_lu": 0.48,
+  "short_term_std_full_lu": 0.94,
+  "peak_dbfs": -2.34,
+  "buzz_hz": 4423.1,
+  "buzz_db": 7.4,
+  "comb_db": -0.03
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.75,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.88,
+   "parts": [
+    [
+     1.5,
+     3.88
+    ]
+   ],
+   "segments": [
+    "我每天早上七点起床。"
+   ],
+   "text": "我每天早上七点起床。",
+   "read": "我每天早上七点起床。",
+   "asr_final": "我每天早上七点起床"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.68,
+   "end": 6.825,
+   "parts": [
+    [
+     4.68,
+     5.39
+    ],
+    [
+     5.74,
+     6.825
+    ]
+   ],
+   "segments": [
+    "八点，",
+    "我去学校。"
+   ],
+   "text": "八点，我去学校。",
+   "read": "八点，我去学校。",
+   "asr_final": "八点我去学校"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 7.625,
+   "end": 10.316,
+   "parts": [
+    [
+     7.625,
+     8.576
+    ],
+    [
+     8.926,
+     10.316
+    ]
+   ],
+   "segments": [
+    "上午，",
+    "我学习中文。"
+   ],
+   "text": "上午，我学习中文。",
+   "read": "上午，我学习中文。",
+   "asr_final": "上午我学习中文"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.116,
+   "end": 13.557,
+   "parts": [
+    [
+     11.116,
+     11.816
+    ],
+    [
+     12.166,
+     13.557
+    ]
+   ],
+   "segments": [
+    "中午，",
+    "我和朋友吃饭。"
+   ],
+   "text": "中午，我和朋友吃饭。",
+   "read": "中午，我和朋友吃饭。",
+   "asr_final": "中午我和朋友吃饭"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.357,
+   "end": 16.495,
+   "parts": [
+    [
+     14.357,
+     15.225
+    ],
+    [
+     15.575,
+     16.495
+    ]
+   ],
+   "segments": [
+    "晚上，",
+    "我看书。"
+   ],
+   "text": "晚上，我看书。",
+   "read": "晚上，我看书。",
+   "asr_final": "晚上我看书"
+  }
+ ],
+ "draft_issues": []
+}

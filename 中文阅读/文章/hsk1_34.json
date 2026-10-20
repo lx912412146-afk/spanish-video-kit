@@ -1,0 +1,305 @@
+{
+ "id": "hsk1_34",
+ "no": 34,
+ "title_zh": "我去买东西",
+ "title_es": "Voy a comprar cosas",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "去",
+   "qù"
+  ],
+  [
+   "买",
+   "mǎi"
+  ],
+  [
+   "东",
+   "dōng"
+  ],
+  [
+   "西",
+   "xi"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第34篇",
+ "header": "HSK 1 · 第34篇",
+ "sents": [
+  {
+   "zh": "下午我去商店买东西。",
+   "py": "Xiàwǔ wǒ qù shāngdiàn mǎi dōngxi.",
+   "es": "Por la tarde voy a la tienda a comprar cosas.",
+   "ruby": [
+    [
+     "下",
+     "xià"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "去",
+     "qù"
+    ],
+    [
+     "商",
+     "shāng"
+    ],
+    [
+     "店",
+     "diàn"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "东",
+     "dōng"
+    ],
+    [
+     "西",
+     "xi"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "买东西",
+     "py": "mǎi dōngxi",
+     "es": "comprar cosas",
+     "surface": "买东西",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我想买水和水果。",
+   "py": "Wǒ xiǎng mǎi shuǐ hé shuǐguǒ.",
+   "es": "Quiero comprar agua y fruta.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "想",
+     "xiǎng"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "果",
+     "guǒ"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "想",
+     "py": "xiǎng",
+     "es": "querer (hacer algo)",
+     "surface": "想",
+     "source": "supplement"
+    },
+    {
+     "h": "水果",
+     "py": "shuǐguǒ",
+     "es": "fruta",
+     "surface": "水果",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "商店里有很多人。",
+   "py": "Shāngdiàn lǐ yǒu hěn duō rén.",
+   "es": "En la tienda hay mucha gente.",
+   "ruby": [
+    [
+     "商",
+     "shāng"
+    ],
+    [
+     "店",
+     "diàn"
+    ],
+    [
+     "里",
+     "lǐ"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "多",
+     "duō"
+    ],
+    [
+     "人",
+     "rén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "商店",
+     "py": "shāngdiàn",
+     "es": "tienda",
+     "surface": "商店",
+     "source": "supplement"
+    },
+    {
+     "h": "里",
+     "py": "lǐ",
+     "es": "dentro (de); en",
+     "surface": "里",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "我买了两瓶水。",
+   "py": "Wǒ mǎi le liǎng píng shuǐ.",
+   "es": "Compro dos botellas de agua.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "买",
+     "mǎi"
+    ],
+    [
+     "了",
+     "le"
+    ],
+    [
+     "两",
+     "liǎng"
+    ],
+    [
+     "瓶",
+     "píng"
+    ],
+    [
+     "水",
+     "shuǐ"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "两",
+     "py": "liǎng",
+     "es": "dos (delante de un clasificador)",
+     "surface": "两",
+     "source": "doc"
+    },
+    {
+     "h": "瓶",
+     "py": "píng",
+     "es": "botella; clasificador para botellas",
+     "surface": "瓶",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "然后我回家看书。",
+   "py": "Ránhòu wǒ huí jiā kàn shū.",
+   "es": "Después vuelvo a casa y leo.",
+   "ruby": [
+    [
+     "然",
+     "rán"
+    ],
+    [
+     "后",
+     "hòu"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "回",
+     "huí"
+    ],
+    [
+     "家",
+     "jiā"
+    ],
+    [
+     "看",
+     "kàn"
+    ],
+    [
+     "书",
+     "shū"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "然后",
+     "py": "ránhòu",
+     "es": "después",
+     "surface": "然后",
+     "source": "doc"
+    },
+    {
+     "h": "回家",
+     "py": "huí jiā",
+     "es": "volver a casa",
+     "surface": "回家",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 34 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件）；title_ruby 已逐字核对，无需改动。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；原件第 4 句的词汇表同时列了「瓶」和「两瓶」，两条在句中重叠（视频没法分别标注），保留「瓶」，把「两瓶 liǎng píng / dos botellas」改成「两 liǎng / dos (delante de un clasificador)」，仍记 source=doc。第 2、3 句没有新词，补了「想」「水果」（第 2 句）、「商店」「里」（第 3 句）（source=supplement）。es：逐句西语翻译，原件没有，是补写的；全篇照原件西语标题 Voy a comprar cosas 用现在时叙述，第 4 句“买了”的“了”表示完成，为和上下文一致译作现在时 Compro；第 5 句“回家看书”译作 vuelvo a casa y leo；数字用单词（dos）。"
+}

@@ -1,0 +1,350 @@
+{
+ "id": "hsk1_30",
+ "no": 30,
+ "title_zh": "今天我很高兴",
+ "title_es": "Hoy estoy contento",
+ "title_ruby": [
+  [
+   "今",
+   "jīn"
+  ],
+  [
+   "天",
+   "tiān"
+  ],
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "很",
+   "hěn"
+  ],
+  [
+   "高",
+   "gāo"
+  ],
+  [
+   "兴",
+   "xìng"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第30篇",
+ "header": "HSK 1 · 第30篇",
+ "sents": [
+  {
+   "zh": "今天我很高兴。",
+   "py": "Jīntiān wǒ hěn gāoxìng.",
+   "es": "Hoy estoy muy contento.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "高",
+     "gāo"
+    ],
+    [
+     "兴",
+     "xìng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "高兴",
+     "py": "gāoxìng",
+     "es": "contento/a",
+     "surface": "高兴",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "早上，老师说我中文说得很好。",
+   "py": "Zǎoshang, lǎoshī shuō wǒ Zhōngwén shuō de hěn hǎo.",
+   "es": "Esta mañana, el profesor ha dicho que hablo chino muy bien.",
+   "ruby": [
+    [
+     "早",
+     "zǎo"
+    ],
+    [
+     "上",
+     "shang"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "老",
+     "lǎo"
+    ],
+    [
+     "师",
+     "shī"
+    ],
+    [
+     "说",
+     "shuō"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "文",
+     "wén"
+    ],
+    [
+     "说",
+     "shuō"
+    ],
+    [
+     "得",
+     "de"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "说",
+     "py": "shuō",
+     "es": "hablar; decir",
+     "surface": "说",
+     "source": "doc"
+    },
+    {
+     "h": "得",
+     "py": "de",
+     "es": "partícula estructural",
+     "surface": "得",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "中午，朋友和我一起吃饭。",
+   "py": "Zhōngwǔ, péngyou hé wǒ yìqǐ chī fàn.",
+   "es": "A mediodía, un amigo y yo hemos comido juntos.",
+   "ruby": [
+    [
+     "中",
+     "zhōng"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "朋",
+     "péng"
+    ],
+    [
+     "友",
+     "you"
+    ],
+    [
+     "和",
+     "hé"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "一",
+     "yì"
+    ],
+    [
+     "起",
+     "qǐ"
+    ],
+    [
+     "吃",
+     "chī"
+    ],
+    [
+     "饭",
+     "fàn"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "中午",
+     "py": "zhōngwǔ",
+     "es": "mediodía",
+     "surface": "中午",
+     "source": "supplement"
+    },
+    {
+     "h": "朋友",
+     "py": "péngyou",
+     "es": "amigo",
+     "surface": "朋友",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "下午，我收到妈妈的电话。",
+   "py": "Xiàwǔ, wǒ shōudào māma de diànhuà.",
+   "es": "Esta tarde, he recibido una llamada de mi madre.",
+   "ruby": [
+    [
+     "下",
+     "xià"
+    ],
+    [
+     "午",
+     "wǔ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "收",
+     "shōu"
+    ],
+    [
+     "到",
+     "dào"
+    ],
+    [
+     "妈",
+     "mā"
+    ],
+    [
+     "妈",
+     "ma"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "电",
+     "diàn"
+    ],
+    [
+     "话",
+     "huà"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "收到",
+     "py": "shōudào",
+     "es": "recibir",
+     "surface": "收到",
+     "source": "doc"
+    },
+    {
+     "h": "电话",
+     "py": "diànhuà",
+     "es": "teléfono; llamada",
+     "surface": "电话",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "今天有很多好事。",
+   "py": "Jīntiān yǒu hěn duō hǎo shì.",
+   "es": "Hoy han pasado muchas cosas buenas.",
+   "ruby": [
+    [
+     "今",
+     "jīn"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "有",
+     "yǒu"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "多",
+     "duō"
+    ],
+    [
+     "好",
+     "hǎo"
+    ],
+    [
+     "事",
+     "shì"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "好事",
+     "py": "hǎo shì",
+     "es": "algo bueno; buena noticia",
+     "surface": "好事",
+     "source": "doc"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 30 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写）；title_ruby 逐字核对过。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；原件词表核对无误，未改。第 3 句补了 HSK1 词「中午」「朋友」（source=supplement；中午在句首，拼音改小写）。es：逐句西语翻译，原件没有，是补写的；说话人照原件标题 Hoy estoy contento 用阳性；第 1 句保留“很”译作 muy；全篇是今天的事，按西班牙用法用现在完成时（ha dicho、hemos comido、he recibido），早上、下午相应译作 esta mañana、esta tarde；老师、朋友性别看不出来，用阳性 el profesor、un amigo；第 5 句“今天有很多好事”译作 Hoy han pasado muchas cosas buenas。"
+}

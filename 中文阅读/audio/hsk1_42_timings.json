@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_42.mp3",
+ "duration": 19.843,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.42,
+  "short_term_std_lu": 0.64,
+  "short_term_std_full_lu": 0.73,
+  "peak_dbfs": -1.72,
+  "buzz_hz": 11350.3,
+  "buzz_db": 7.2,
+  "comb_db": -1.0
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.74,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 3.35,
+   "parts": [
+    [
+     1.5,
+     3.35
+    ]
+   ],
+   "segments": [
+    "我的朋友叫小林。"
+   ],
+   "text": "我的朋友叫小林。",
+   "read": "我的朋友叫小林。",
+   "asr_final": "我的朋友叫小林"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.15,
+   "end": 7.375,
+   "parts": [
+    [
+     4.15,
+     5.405
+    ],
+    [
+     5.755,
+     7.375
+    ]
+   ],
+   "segments": [
+    "他是中国人，",
+    "今年二十岁。"
+   ],
+   "text": "他是中国人，今年二十岁。",
+   "read": "他是中国人，今年二十岁。",
+   "asr_final": "他是中国人今年二十岁"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 8.175,
+   "end": 11.537,
+   "parts": [
+    [
+     8.175,
+     9.454
+    ],
+    [
+     9.804,
+     11.537
+    ]
+   ],
+   "segments": [
+    "他会说中文，",
+    "也会说一点英语。"
+   ],
+   "text": "他会说中文，也会说一点英语。",
+   "read": "他会说中文，也会说一点英语。",
+   "asr_final": "他会说中文也会说一点英语"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 12.337,
+   "end": 15.202,
+   "parts": [
+    [
+     12.337,
+     15.202
+    ]
+   ],
+   "segments": [
+    "我们常常一起吃饭和看书。"
+   ],
+   "text": "我们常常一起吃饭和看书。",
+   "read": "我们常常一起吃饭和看书。",
+   "asr_final": "我们常常一起吃饭和看书"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 16.002,
+   "end": 17.843,
+   "parts": [
+    [
+     16.002,
+     17.843
+    ]
+   ],
+   "segments": [
+    "我很喜欢这个朋友。"
+   ],
+   "text": "我很喜欢这个朋友。",
+   "read": "我很喜欢这个朋友。",
+   "asr_final": "我很喜欢这个朋友"
+  }
+ ],
+ "draft_issues": []
+}

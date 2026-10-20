@@ -1,0 +1,349 @@
+{
+ "id": "hsk1_45",
+ "no": 45,
+ "title_zh": "我的新老师",
+ "title_es": "Mi nuevo profesor",
+ "title_ruby": [
+  [
+   "我",
+   "wǒ"
+  ],
+  [
+   "的",
+   "de"
+  ],
+  [
+   "新",
+   "xīn"
+  ],
+  [
+   "老",
+   "lǎo"
+  ],
+  [
+   "师",
+   "shī"
+  ]
+ ],
+ "series": "HSK 1级中文阅读 · 第一册：我的中文生活 · 第45篇",
+ "header": "HSK 1 · 第45篇",
+ "sents": [
+  {
+   "zh": "我们学校来了一个新老师。",
+   "py": "Wǒmen xuéxiào lái le yí ge xīn lǎoshī.",
+   "es": "Ha llegado un profesor nuevo a nuestra escuela.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "学",
+     "xué"
+    ],
+    [
+     "校",
+     "xiào"
+    ],
+    [
+     "来",
+     "lái"
+    ],
+    [
+     "了",
+     "le"
+    ],
+    [
+     "一",
+     "yí"
+    ],
+    [
+     "个",
+     "ge"
+    ],
+    [
+     "新",
+     "xīn"
+    ],
+    [
+     "老",
+     "lǎo"
+    ],
+    [
+     "师",
+     "shī"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "新",
+     "py": "xīn",
+     "es": "nuevo",
+     "surface": "新",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他姓李，是中国人。",
+   "py": "Tā xìng Lǐ, shì Zhōngguó rén.",
+   "es": "Se apellida Li y es chino.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "姓",
+     "xìng"
+    ],
+    [
+     "李",
+     "Lǐ"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "是",
+     "shì"
+    ],
+    [
+     "中",
+     "Zhōng"
+    ],
+    [
+     "国",
+     "guó"
+    ],
+    [
+     "人",
+     "rén"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "姓",
+     "py": "xìng",
+     "es": "apellidarse",
+     "surface": "姓",
+     "source": "supplement"
+    },
+    {
+     "h": "中国人",
+     "py": "Zhōngguó rén",
+     "es": "chino/a",
+     "surface": "中国人",
+     "source": "supplement"
+    }
+   ]
+  },
+  {
+   "zh": "他说话很慢，我们听得懂。",
+   "py": "Tā shuōhuà hěn màn, wǒmen tīng de dǒng.",
+   "es": "Habla muy despacio y le entendemos.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "说",
+     "shuō"
+    ],
+    [
+     "话",
+     "huà"
+    ],
+    [
+     "很",
+     "hěn"
+    ],
+    [
+     "慢",
+     "màn"
+    ],
+    [
+     "，",
+     ""
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "听",
+     "tīng"
+    ],
+    [
+     "得",
+     "de"
+    ],
+    [
+     "懂",
+     "dǒng"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "慢",
+     "py": "màn",
+     "es": "despacio",
+     "surface": "慢",
+     "source": "doc"
+    },
+    {
+     "h": "听得懂",
+     "py": "tīng de dǒng",
+     "es": "poder entender (al escuchar)",
+     "surface": "听得懂",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "他每天教我们写汉字。",
+   "py": "Tā měitiān jiāo wǒmen xiě Hànzì.",
+   "es": "Todos los días nos enseña a escribir caracteres chinos.",
+   "ruby": [
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "每",
+     "měi"
+    ],
+    [
+     "天",
+     "tiān"
+    ],
+    [
+     "教",
+     "jiāo"
+    ],
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "写",
+     "xiě"
+    ],
+    [
+     "汉",
+     "hàn"
+    ],
+    [
+     "字",
+     "zì"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "写",
+     "py": "xiě",
+     "es": "escribir",
+     "surface": "写",
+     "source": "doc"
+    },
+    {
+     "h": "汉字",
+     "py": "hànzì",
+     "es": "caracteres chinos",
+     "surface": "汉字",
+     "source": "doc"
+    }
+   ]
+  },
+  {
+   "zh": "我们都喜欢他的课。",
+   "py": "Wǒmen dōu xǐhuan tā de kè.",
+   "es": "A todos nos gustan sus clases.",
+   "ruby": [
+    [
+     "我",
+     "wǒ"
+    ],
+    [
+     "们",
+     "men"
+    ],
+    [
+     "都",
+     "dōu"
+    ],
+    [
+     "喜",
+     "xǐ"
+    ],
+    [
+     "欢",
+     "huan"
+    ],
+    [
+     "他",
+     "tā"
+    ],
+    [
+     "的",
+     "de"
+    ],
+    [
+     "课",
+     "kè"
+    ],
+    [
+     "。",
+     ""
+    ]
+   ],
+   "w": [
+    {
+     "h": "都",
+     "py": "dōu",
+     "es": "todos",
+     "surface": "都",
+     "source": "supplement"
+    },
+    {
+     "h": "课",
+     "py": "kè",
+     "es": "clase",
+     "surface": "课",
+     "source": "supplement"
+    }
+   ]
+  }
+ ],
+ "_说明": "HSK1 中文阅读教材（用户 2026-10-21 发来的 Word 文档）第 45 篇。zh、py：课文和拼音照原件；ruby：逐字注音，由 prep.py 按原件拼音对齐（声调、变调、轻声照原件，句首普通词改小写，专有名词保留大写；第 4 句「汉字」原件拼音写作 Hànzì，按普通词注成小写 hàn zì）。w：重点词汇照原件的词汇表（source=doc），放在第一次出现的句子里；原件词汇表的「听懂 tīng dǒng / entender al escuchar」在课文里写作「听得懂」，prep.py 已改成「听得懂 tīng de dǒng」；它给的释义 poder entender (al escuchar); 听懂 tīng dǒng con 得 en medio 后半句夹了中文、是语法说明不是释义，删去，只留 poder entender (al escuchar)（“得”表示能够，所以比原件多一个 poder）。原件词汇表最后一条「汉字 Hànzì / caracteres chinos」因为第一格和表头“汉字”相同，被 prep.py 当成表头漏掉了，已补回第 4 句（source=doc，释义照原件）；拼音按本项目把“汉字”当普通词的规则（prep.py 的 NOT_PROPER）写成小写 hànzì。第 2 句补了「姓」「中国人」（中国人 照课文写作 Zhōngguó rén，和第 42 篇原件词条一致），第 5 句补了「都」「课」（source=supplement）。标题注音已核对，不用改。es：逐句西语翻译，原件没有，是补写的；新老师是“他”，用 profesor；第 1 句“来了”用西班牙常用的现在完成时 Ha llegado；第 3 句“我们听得懂”译作 le entendemos（西班牙对男性人称宾语常用 le）；第 5 句“我们都喜欢他的课”译作 A todos nos gustan sus clases。"
+}

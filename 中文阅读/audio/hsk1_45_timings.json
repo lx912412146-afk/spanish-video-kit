@@ -1,0 +1,141 @@
+{
+ "file": "hsk1_45.mp3",
+ "duration": 18.391,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.26,
+  "short_term_std_lu": 0.7,
+  "short_term_std_full_lu": 0.78,
+  "peak_dbfs": -2.39,
+  "buzz_hz": 4253.9,
+  "buzz_db": 6.6,
+  "comb_db": 0.32
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 克隆 ref_zh.wav（中文女声），0.75 倍速",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "chinese",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "教学视频/第一册第1课/build/ref_zh.wav",
+  "ref_text": "同学们好，欢迎来到西班牙语课堂。今天我们一起学习发音、语法和课文，请大家跟着我认真练习。",
+  "lead_in": 1.5,
+  "sentence_pause": 0.8,
+  "tail": 2.0,
+  "clause_pause": 0.35,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "max_s_per_char": 0.4,
+  "tempo": 0.74,
+  "pitch_cents": 0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 1.5,
+   "end": 4.16,
+   "parts": [
+    [
+     1.5,
+     4.16
+    ]
+   ],
+   "segments": [
+    "我们学校来了一个新老师。"
+   ],
+   "text": "我们学校来了一个新老师。",
+   "read": "我们学校来了一个新老师。",
+   "asr_final": "我们学校来了一个新老师"
+  },
+  {
+   "k": 2,
+   "para": 1,
+   "start": 4.96,
+   "end": 7.486,
+   "parts": [
+    [
+     4.96,
+     5.906
+    ],
+    [
+     6.256,
+     7.486
+    ]
+   ],
+   "segments": [
+    "他姓李，",
+    "是中国人。"
+   ],
+   "text": "他姓李，是中国人。",
+   "read": "他姓李，是中国人。",
+   "asr_final": "他姓李是中国人"
+  },
+  {
+   "k": 3,
+   "para": 1,
+   "start": 8.286,
+   "end": 11.061,
+   "parts": [
+    [
+     8.286,
+     9.589
+    ],
+    [
+     9.939,
+     11.061
+    ]
+   ],
+   "segments": [
+    "他说话很慢，",
+    "我们听得懂。"
+   ],
+   "text": "他说话很慢，我们听得懂。",
+   "read": "他说话很慢，我们听得懂。",
+   "asr_final": "他说话很慢我们听得懂"
+  },
+  {
+   "k": 4,
+   "para": 1,
+   "start": 11.861,
+   "end": 13.971,
+   "parts": [
+    [
+     11.861,
+     13.971
+    ]
+   ],
+   "segments": [
+    "他每天教我们写汉字。"
+   ],
+   "text": "他每天教我们写汉字。",
+   "read": "他每天教我们写汉字。",
+   "asr_final": "他每天教我们写汉字"
+  },
+  {
+   "k": 5,
+   "para": 1,
+   "start": 14.771,
+   "end": 16.391,
+   "parts": [
+    [
+     14.771,
+     16.391
+    ]
+   ],
+   "segments": [
+    "我们都喜欢他的课。"
+   ],
+   "text": "我们都喜欢他的课。",
+   "read": "我们都喜欢他的课。",
+   "asr_final": "我们都喜欢他的课"
+  }
+ ],
+ "draft_issues": []
+}
