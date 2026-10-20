@@ -40,7 +40,7 @@
       {"who": "", "es": "Cerca del ecuador, en las tierras bajas, hace calor todo el año.", "zh": "在赤道附近的低地，一年到头都很热。"},
       {"who": "", "es": "En las zonas templadas, el año se divide en cuatro estaciones.", "zh": "在温带，一年分为四季。"},
       {"who": "", "es": "Con la altitud, la temperatura baja unos 6,5 grados cada mil metros.", "zh": "海拔每升高一千米，气温大约下降 6.5 度。"},
-      {"who": "", "es": "Quito está casi en el ecuador, pero a unos 2 850 metros de altitud.", "zh": "基多几乎就在赤道上，但海拔约 2850 米。"},
+      {"who": "", "es": "Quito está casi en el ecuador, pero a unos 2850 metros de altitud.", "zh": "基多几乎就在赤道上，但海拔约 2850 米。"},
       {"who": "", "es": "Por eso sus temperaturas son suaves y apenas varían durante el año.", "zh": "所以那里气温温和，全年几乎没有变化。"},
       {"who": "", "es": "Y algunos volcanes cercanos tienen la cumbre cubierta de nieve.", "zh": "附近有些火山的山顶还覆盖着积雪。"},
       {"who": "", "es": "Los vientos trasladan el aire húmedo desde el mar hacia el interior.", "zh": "风把潮湿的空气从海上带到内陆。"},
@@ -113,7 +113,7 @@
         ]
       },
       "examples": [
-        ["Quito está a unos 2 850 metros de altitud.", "基多海拔约 2850 米。"],
+        ["Quito está a unos 2850 metros de altitud.", "基多海拔约 2850 米。"],
         ["Ayer estábamos a diez grados bajo cero.", "昨天气温是零下十度。"],
         ["Ante el peligro, no perdió la calma.", "面对危险，他没有慌。"],
         ["El coche chocó contra un árbol.", "汽车撞到了一棵树上。"]
@@ -165,7 +165,7 @@
     {"type": "填空", "q": "Ya llevo ______ (escribir) tres páginas del informe.", "a": "escritas（和 tres páginas 一致）"},
     {"type": "填空", "q": "Estamos a cinco grados ___ cero. El coche chocó ___ un árbol.", "a": "bajo; contra（chocó con 也对）"},
     {"type": "翻译", "q": "从三月起这里就没下过雨。（用 desde）", "a": "Aquí no ha llovido desde marzo.（也可说 no llueve）"},
-    {"type": "问答", "q": "¿Por qué Quito tiene temperaturas suaves si está casi en el ecuador?", "a": "Porque está a unos 2 850 metros de altitud."}
+    {"type": "问答", "q": "¿Por qué Quito tiene temperaturas suaves si está casi en el ecuador?", "a": "Porque está a unos 2850 metros de altitud."}
   ],
   "summary": [
     "haber + 分词构成复合时态，分词不变。",

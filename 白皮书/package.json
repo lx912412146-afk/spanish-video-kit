@@ -1,0 +1,6 @@
+{
+  "name": "spanish-whitepaper",
+  "private": true,
+  "description": "《现代西班牙语》（老版）第一至四册西班牙语学习白皮书生成",
+  "dependencies": { "docx": "9.5.1" }
+}

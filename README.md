@@ -186,6 +186,11 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`课件/第三册/`](课件/第三册/)：第三册（老版）第 1–18 课的分课课件，版式同上（第 6、12、18 课按复习课处理）。PPTX 和 PDF 在 Release `courseware-book3`。
 - [`课件/第四册/`](课件/第四册/)：第四册（老版）第 1–18 课的分课课件，版式同上。PPTX 和 PDF 在 Release `courseware-book4`。
 
+## 学习白皮书
+
+- [`白皮书/`](白皮书/)：《西班牙语学习白皮书》，把《现代西班牙语》（老版）第一至四册 78 课的知识点按专题整理成一本书（约 380 页）：四册学习路线和语法进度总表、语音与正字法、词法、动词、句法、分课索引和全部重点词汇、常见错误、术语对照。每个知识点标出处〔册·课〕。
+  - 各章正文是 `chapters/*.md`，`build_whitepaper.js` 读各章和四册课件 JSON 排成 Word；PDF 由 LibreOffice 转出。Word 和 PDF 在 Release `whitepaper`。
+
 ## 教学视频
 
 - [`教学视频/第一册第1课/`](教学视频/第一册第1课/)：《现代西班牙语》第一册第一课 ¿Quién es él? 的教学视频（约 13 分钟，1920×1080）。中文讲解＋西语示范和跟读：元音、辅音、音节划分、重音、连读，仿照课文的对话，语法、单词和小练习。
@@ -206,6 +211,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `courseware-book2` | 第二册分课课件：`book2_L01.pptx` … `book2_L18.pptx` 和同名 PDF、`courseware-book2-SHA256SUMS.txt` |
 | `courseware-book3` | 第三册分课课件：`book3_L01.pptx` … `book3_L18.pptx` 和同名 PDF、`courseware-book3-SHA256SUMS.txt` |
 | `courseware-book4` | 第四册分课课件：`book4_L01.pptx` … `book4_L18.pptx` 和同名 PDF、`courseware-book4-SHA256SUMS.txt` |
+| `whitepaper` | 西班牙语学习白皮书：`es-whitepaper.docx`、`es-whitepaper.pdf`、`whitepaper-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -235,3 +241,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `课件/第二册/`（18 课的课件内容、第二册课程大纲和生成程序）和 Release `courseware-book2`；课件生成程序改成按 JSON 里的 `book` 字段区分第几册；修正长标题不缩小的问题，第一册课件重新导出（文字不变）。
     - 新增 `课件/第三册/`（18 课的课件内容、第三册课程大纲和生成程序）和 Release `courseware-book3`。
     - 新增 `课件/第四册/`（18 课的课件内容、第四册课程大纲和生成程序）和 Release `courseware-book4`。
+    - 新增 `白皮书/`（西班牙语学习白皮书的各章正文和生成程序）和 Release `whitepaper`；修正课件里的几处：第三册第 1、5、8 课几页语法标题只显示“语法 N”，第三册第 17 课 in- 在 r 前应作 ir-，第三册第 7 课四位数 2850 不分节，第二册第 10 课第二个“虚拟式现在时（二）”改为“（二，续）”，第一册第 20 课“以 j 结尾的词根用 -eron”限于不规则词根。
