@@ -1,0 +1,169 @@
+{
+  "book": 4,
+  "lesson": 5,
+  "title_es": "Final de jornada",
+  "title_zh": "人生暮年",
+  "goals": [
+    "会用 seguir、llevar 等表示动作持续",
+    "掌握中性指示代词 esto、eso、aquello",
+    "认识自由间接引语，能和直接、间接引语互换",
+    "能用西语描写老人的生活和心情"
+  ],
+  "vocab": [
+    ["rebosar (rebosante)", "溢出；充满（充满的）"],
+    ["brotar", "发芽；涌出"],
+    ["dudar (la duda)", "怀疑；犹豫（疑问）"],
+    ["en cambio", "相反，而"],
+    ["venir(se)", "来；过来"],
+    ["apreciar", "重视，珍视；欣赏"],
+    ["gozar(se) (gozo, gozoso)", "享有；喜悦（欢乐；欢乐的）"],
+    ["perder de vista", "看不见；失去联系"],
+    ["la voluntad", "意志；意愿"],
+    ["acomodar(se)", "安顿；舒适地坐下"],
+    ["acomodado, da", "富裕的，小康的"],
+    ["el acomodador", "（影剧院的）引座员"],
+    ["el anciano", "老人"],
+    ["el huerto", "菜园"],
+    ["la soledad", "孤独"],
+    ["el sillón", "扶手椅"]
+  ],
+  "text": {
+    "title": "Final de jornada",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Don Andrés llevaba una hora mirando la plaza desde la ventana.", "zh": "安德烈斯老人在窗前望着广场，已经望了一个钟头。"},
+      {"who": "", "es": "Desde la muerte de su mujer, llevaba diez años sin salir del pueblo.", "zh": "自从妻子去世，他已经十年没出过村子了。"},
+      {"who": "", "es": "Sus hijos, en cambio, vivían en Madrid y venían poco.", "zh": "他的孩子们却住在马德里，很少回来。"},
+      {"who": "", "es": "Esa tarde había llamado su hijo: «Papá, vente a vivir con nosotros».", "zh": "那天下午儿子打来电话：“爸，过来跟我们一起住吧。”"},
+      {"who": "", "es": "¿Vivir en la ciudad, a su edad? ¿Y quién iba a cuidar del huerto?", "zh": "这把年纪了，还去城里住？那菜园谁来照料？"},
+      {"who": "", "es": "Allí no conocería a nadie; aquí todos lo llamaban por su nombre.", "zh": "在那儿他谁也不认识；在这儿，人人都叫得出他的名字。"},
+      {"who": "", "es": "¡Cuánto había cambiado todo! Antes la plaza rebosaba de niños.", "zh": "一切都变了多少啊！从前广场上满是孩子。"},
+      {"who": "", "es": "Ahora sólo quedaban unos cuantos viejos como él.", "zh": "如今只剩下几个像他这样的老人了。"},
+      {"who": "", "es": "¿Quejarse? ¿Por qué? Gozaba de buena salud y no le faltaba voluntad.", "zh": "抱怨？为什么要抱怨？他身体硬朗，意志也不差。"},
+      {"who": "", "es": "En el huerto ya brotaban las patatas que había plantado en marzo.", "zh": "菜园里，他三月种下的土豆已经发芽了。"},
+      {"who": "", "es": "Eso era lo que más apreciaba: la tierra, el silencio, el trabajo.", "zh": "这正是他最珍惜的：土地、宁静和劳作。"},
+      {"who": "", "es": "Miró el último autobús de la tarde hasta perderlo de vista.", "zh": "他目送傍晚最后一班公共汽车，直到看不见为止。"},
+      {"who": "", "es": "Se acomodó en el sillón y siguió mirando por la ventana.", "zh": "他在扶手椅上坐舒服了，继续望着窗外。"},
+      {"who": "", "es": "No tenía ninguna duda: mañana llamaría a su hijo y le diría que no.", "zh": "他已经拿定主意：明天就给儿子打电话，告诉他不去了。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "表示持续的动词短语",
+      "points": [
+        "seguir / continuar + 副动词：动作到所说时刻仍在进行，“继续、还在”。",
+        "seguir 后不接原形动词：*seguir trabajar 是错的。",
+        "llevar + 时间 + 副动词：动作从过去开始，到所说时刻已持续多久。",
+        "llevar + 时间 + sin + 原形：已多久没做；seguir sin：仍没做。"
+      ],
+      "table": {
+        "head": ["结构", "意义", "例句"],
+        "rows": [
+          ["seguir + 副动词", "仍在，继续", "Sigue lloviendo."],
+          ["continuar + 副动词", "继续（稍正式）", "Continuó leyendo."],
+          ["llevar + 时间 + 副动词", "已持续多久", "Lleva años trabajando."],
+          ["llevar + 时间 + sin + 原形", "已经多久没做", "Llevo días sin dormir."],
+          ["seguir sin + 原形", "仍然没做", "Sigue sin llamar."]
+        ]
+      },
+      "examples": [
+        ["Mi abuelo sigue trabajando en el huerto a los ochenta años.", "我爷爷八十岁了，还在菜园里干活。"],
+        ["El anciano continuó leyendo sin levantar la vista.", "老人头也不抬，继续读着。"],
+        ["Llevaba una hora esperando cuando por fin llegó el autobús.", "他等了一个钟头，公共汽车才终于来了。"],
+        ["Lleva tres días sin salir de casa.", "他已经三天没出家门了。"]
+      ]
+    },
+    {
+      "title": "中性指示代词 esto、eso、aquello",
+      "points": [
+        "esto、eso、aquello 指事情、想法、情况，或说不出名字的东西。",
+        "中性代词没有复数，永远不带重音；不指人，也不代替已知的阳性、阴性名词。",
+        "远近同 este、ese、aquel；eso 常指刚说过的事，esto 常指下面要说的。",
+        "eso 后面可接 de + 原形动词，意为“……这件事”。"
+      ],
+      "table": {
+        "head": ["说法", "意思", "例"],
+        "rows": [
+          ["eso es", "对，就是这样", "—¿Así? —Eso es."],
+          ["por eso", "所以，因此", "Por eso no vino."],
+          ["en esto", "就在这时", "En esto, entró Ana."],
+          ["eso de + 原形动词", "……这件事", "Eso de vivir solo…"],
+          ["eso de que…", "说……的那件事", "Eso de que se va…"],
+          ["a eso de + 钟点", "大约……点钟", "a eso de las diez"]
+        ]
+      },
+      "examples": [
+        ["¿Qué es aquello que brilla en el monte?", "山上那个发亮的是什么东西？"],
+        ["Nadie viene a verme; eso es lo que más me duele.", "没人来看我，这才是最让我难过的。"],
+        ["Eso de vivir en soledad no es fácil a mi edad.", "到了我这个年纪，一个人过日子可不容易。"],
+        ["Esto no puede seguir así.", "这样下去可不行。"]
+      ]
+    },
+    {
+      "title": "自由间接引语",
+      "points": [
+        "用第三人称、过去时说出人物心里的话，但不加 dijo que、pensó que。",
+        "时态、人称像间接引语：现在时→过去未完成时，将来时→简单条件式。",
+        "语气像直接引语：保留问句、感叹和口语，ahora、mañana 等也常保留。",
+        "叙述者和人物的声音融在一起，小说里常用来表现人物的内心活动。"
+      ],
+      "table": {
+        "head": ["比较项", "直接引语", "间接引语", "自由间接引语"],
+        "rows": [
+          ["引导动词", "有：Pensó: «…»", "有：Pensó que…", "没有"],
+          ["人称", "第一人称", "第三人称", "第三人称"],
+          ["时态", "说话时的时态", "向过去推移", "向过去推移"],
+          ["问句、感叹", "保留", "变成从句", "保留 ¿? ¡!"],
+          ["aquí、ahora、mañana", "保留", "多改为 allí、entonces", "常保留"],
+          ["例（感叹）", "«¡Qué tarde es ya!»", "Pensó que era tarde.", "¡Qué tarde era ya!"],
+          ["例（问句）", "«¿Qué haré?»", "Se preguntó qué haría.", "¿Qué haría ahora?"]
+        ]
+      },
+      "examples": [
+        ["Pensó: «¿Qué voy a hacer ahora, solo en esta casa?»", "他想：“现在我一个人在这房子里，可怎么办？”（直接引语）"],
+        ["Se preguntó qué iba a hacer, solo en aquella casa.", "他问自己，一个人在那所房子里该怎么办。（间接引语）"],
+        ["¿Qué iba a hacer ahora, solo en aquella casa?", "现在他一个人在那所房子里，可怎么办呢？（自由间接引语）"],
+        ["¡Cuánto había cambiado todo! Mañana hablaría con su hijo.", "一切都变了多少啊！明天他要跟儿子谈谈。（自由间接引语）"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Volvió a casa rebosante de alegría.", "他满心欢喜地回了家。"],
+    ["Al oír la noticia, le brotaron las lágrimas.", "听到这个消息，他泪如泉涌。"],
+    ["Si tienes alguna duda, no dudes en preguntarme.", "要是有什么疑问，尽管问我。"],
+    ["Cuando murió su mujer, el viejo se vino abajo.", "妻子去世后，老人一下子垮了。"],
+    ["Sintió un gran gozo al ver a sus nietos.", "看到孙子孙女，他满心喜悦。"],
+    ["Después de la universidad nos perdimos de vista.", "大学毕业后我们就断了联系。"],
+    ["Venía de una familia acomodada.", "他出身于一个富裕的家庭。"],
+    ["El acomodador ayudó al anciano a acomodarse.", "引座员帮老人坐好。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Mi abuelo ______（llevar，用现在时）cuarenta años viviendo en este pueblo.", "a": "lleva"},
+    {"type": "改写", "q": "Hace dos horas que espero el autobús. → Llevo ______", "a": "Llevo dos horas esperando el autobús."},
+    {"type": "翻译", "q": "她已经一个月没给我打电话了。（用 llevar）", "a": "Lleva un mes sin llamarme."},
+    {"type": "选择", "q": "Son las doce y el niño ______ durmiendo. (sigue / lleva)", "a": "sigue"},
+    {"type": "选择", "q": "¿Qué es ______ que se ve allá en el monte? (aquél / aquello)", "a": "aquello（指说不出名字的东西）"},
+    {"type": "改写", "q": "Pensó: «¿Qué voy a hacer ahora?» →（改成自由间接引语）", "a": "¿Qué iba a hacer ahora?"},
+    {"type": "改写", "q": "¡Cuánto había cambiado todo! →（改成间接引语，用 Pensó que…）", "a": "Pensó que todo había cambiado mucho."},
+    {"type": "问答", "q": "¿Cuánto tiempo llevaba don Andrés sin salir del pueblo?", "a": "Llevaba diez años sin salir del pueblo."}
+  ],
+  "summary": [
+    "seguir / continuar + 副动词：继续、仍在。",
+    "llevar + 时间 + 副动词 / sin + 原形：持续多久。",
+    "esto、eso、aquello：指事情，无复数，永不带重音。",
+    "常用：eso es、por eso、en esto、eso de…。",
+    "自由间接引语：人称、时态像间接引语，语气像直接引语。"
+  ],
+  "homework": [
+    "用 llevar + 时间 + 副动词 / sin + 原形 说说自己的五件事。",
+    "把课文第 5–9 行改写成直接引语（用 yo）。",
+    "以“一天结束时”为题写 8–10 句短文，用上自由间接引语。"
+  ],
+  "notes": {
+    "goals": "持续动词短语本课只讲 seguir、continuar、llevar，ir / venir / andar + 副动词留到第 18 课。自由间接引语是本课难点，可以从第 4 课的相对时引入：它的时态就是以人物所处的过去时刻为基准。",
+    "vocab": "rebosar de、gozar de 后接 de；venirse 意为“过来（常指来此定居）”，venirse abajo 意为“垮掉”；acomodado 是“富裕的”，acomodador 是影剧院的“引座员”。正字法沿用老课本：sólo、éste / ése / aquél 作代词时带重音，中性 esto、eso、aquello 永远不带；RAE 2010 年起不再要求前两类加重音，学生不加不算错。",
+    "text": "原创短文。第 5–9 行和最后一行是自由间接引语，没有 pensó que，却能听出老人自己的声音：可以让学生找出来，再改写成直接引语。第 6、14 行的简单条件式和第 7 行的过去完成时都是以老人所处的过去时刻为基准的相对时。",
+    "grammar": "提醒学生 llevar 这样用时主要用现在时和过去未完成时（也能用将来时等：En junio llevaré diez años trabajando aquí），句中要有表示时间段的成分，可换说 hace / hacía … que。中性代词只讲用法，eso de que… 只当固定说法认读，名词补语从句第 16 课再讲。自由间接引语可以用表格三栏对照，让学生自己说出时态、人称、指示词的变化。",
+    "exercises": "第 1 题如果上下文是过去，也可用 llevaba；第 4 题 lleva 后面必须有时间段，所以只能用 sigue；第 6 题保留问号是自由间接引语的标志；第 7 题也可说 Pensó que todo había cambiado muchísimo。"
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "book": 4,
+  "lesson": 16,
+  "title_es": "Pinturas rupestres y la réplica de Altamira",
+  "title_zh": "岩洞壁画和阿尔塔米拉洞的复制品",
+  "goals": [
+    "掌握名词补语从句和从句里式的选择",
+    "名词、形容词后保留 de，动词后不乱加 de",
+    "从句法功能的角度归纳前置词的用法",
+    "能用西语介绍阿尔塔米拉洞和它的复制品"
+  ],
+  "vocab": [
+    [
+      "ocultar (oculto)",
+      "隐藏，遮住（隐藏的）"
+    ],
+    [
+      "declarar(se)",
+      "宣布，宣称；（火灾等）发生"
+    ],
+    [
+      "representar",
+      "表现，描绘；代表"
+    ],
+    [
+      "conclusión (en conclusión)",
+      "结论（总之）"
+    ],
+    [
+      "el fenómeno",
+      "现象"
+    ],
+    [
+      "contemplar",
+      "观看，凝视，欣赏"
+    ],
+    [
+      "alterar",
+      "改变；扰乱，破坏"
+    ],
+    [
+      "inaugurar (inauguración)",
+      "开幕，揭幕（开幕式）"
+    ],
+    [
+      "favorecer (favorable)",
+      "有利于（有利的）"
+    ],
+    [
+      "exacto (exactamente)",
+      "准确的（准确地）"
+    ],
+    [
+      "la cueva",
+      "山洞，洞穴"
+    ],
+    [
+      "rupestre",
+      "岩石上的，岩洞的"
+    ],
+    [
+      "la réplica",
+      "复制品；回答"
+    ],
+    [
+      "el bisonte",
+      "野牛"
+    ],
+    [
+      "el ciervo",
+      "鹿"
+    ],
+    [
+      "prehistórico, ca",
+      "史前的"
+    ],
+    [
+      "auténtico, ca",
+      "真的，真正的"
+    ],
+    [
+      "el patrimonio",
+      "遗产；财产"
+    ]
+  ],
+  "text": {
+    "title": "Pinturas rupestres y la réplica de Altamira",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "La cueva de Altamira (Cantabria) estuvo oculta durante miles de años.",
+        "zh": "坎塔布里亚的阿尔塔米拉洞，成千上万年来一直不为人知。"
+      },
+      {
+        "who": "",
+        "es": "En 1879, Marcelino Sanz de Sautuola exploraba la cueva con su hija.",
+        "zh": "1879 年，马塞利诺·桑斯·德·桑图奥拉带着女儿在洞里考察。"
+      },
+      {
+        "who": "",
+        "es": "La pequeña María miró hacia el techo y vio grandes animales pintados.",
+        "zh": "小玛丽亚抬头望向洞顶，看见了画在上面的巨大动物。"
+      },
+      {
+        "who": "",
+        "es": "Su padre llegó a la conclusión de que eran pinturas prehistóricas.",
+        "zh": "她父亲得出结论：这些是史前的绘画。"
+      },
+      {
+        "who": "",
+        "es": "Pero muchos expertos dudaban de que fueran tan antiguas.",
+        "zh": "可是很多专家怀疑它们是否真有那么古老。"
+      },
+      {
+        "who": "",
+        "es": "Sautuola murió en 1888; sólo años después le dieron la razón.",
+        "zh": "桑图奥拉 1888 年去世，多年以后人们才承认他是对的。"
+      },
+      {
+        "who": "",
+        "es": "Hoy no hay duda de que son auténticas.",
+        "zh": "今天，毫无疑问它们是真迹。"
+      },
+      {
+        "who": "",
+        "es": "Representan sobre todo bisontes, pero también caballos y ciervos.",
+        "zh": "画的主要是野牛，也有马和鹿。"
+      },
+      {
+        "who": "",
+        "es": "No sabemos exactamente su edad, pero tienen más de diez mil años.",
+        "zh": "我们不知道它们确切的年代，但它们已有一万多年的历史。"
+      },
+      {
+        "who": "",
+        "es": "Luego llegaron tantos visitantes que alteraron el clima de la cueva.",
+        "zh": "后来参观的人太多，改变了洞内的小气候。"
+      },
+      {
+        "who": "",
+        "es": "Por miedo a que se dañaran las pinturas, limitaron mucho las visitas.",
+        "zh": "人们担心壁画受损，于是严格限制参观。"
+      },
+      {
+        "who": "",
+        "es": "En 1985, la UNESCO declaró la cueva Patrimonio de la Humanidad.",
+        "zh": "1985 年，联合国教科文组织把这个洞列为世界遗产。"
+      },
+      {
+        "who": "",
+        "es": "En 2001 se inauguró al lado un museo con una réplica: la Neocueva.",
+        "zh": "2001 年，旁边的博物馆落成开放，里面有一个复制洞：Neocueva。"
+      },
+      {
+        "who": "",
+        "es": "Allí cualquiera puede contemplar los bisontes sin dañar la cueva.",
+        "zh": "在那里，谁都可以观赏野牛壁画，又不会损害真正的洞窟。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "名词补语从句",
+      "points": [
+        "名词后用 de que 引出从句，说明名词的具体内容：la noticia de que…。",
+        "名词表示消息、看法、结论等时，从句一般用陈述式。",
+        "名词表示希望、担心、可能、必要时，从句用虚拟式。",
+        "和关系从句不同：这里的 que 是连词，不在从句里作成分。"
+      ],
+      "table": {
+        "head": [
+          "名词",
+          "意义",
+          "从句的式"
+        ],
+        "rows": [
+          [
+            "la noticia de que",
+            "消息、传闻",
+            "陈述式"
+          ],
+          [
+            "la idea de que",
+            "想法、观点",
+            "陈述式"
+          ],
+          [
+            "la conclusión de que",
+            "结论",
+            "陈述式"
+          ],
+          [
+            "la esperanza de que",
+            "希望",
+            "虚拟式"
+          ],
+          [
+            "el miedo a (de) que",
+            "担心、害怕",
+            "虚拟式"
+          ],
+          [
+            "la posibilidad de que",
+            "可能性",
+            "虚拟式"
+          ],
+          [
+            "la duda de si",
+            "是否（间接疑问）",
+            "陈述式或条件式"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Llegó a la conclusión de que eran pinturas prehistóricas.",
+          "他得出结论：这些是史前的绘画。"
+        ],
+        [
+          "Tengo la esperanza de que algún día abran la cueva.",
+          "我希望有一天洞窟能开放。"
+        ],
+        [
+          "Tenían miedo a que se perdieran las pinturas.",
+          "他们担心壁画会毁掉。"
+        ],
+        [
+          "Tengo la duda de si vendrá mañana.",
+          "我拿不准他明天来不来。"
+        ]
+      ]
+    },
+    {
+      "title": "de que 还是 que",
+      "points": [
+        "名词、形容词要求 de 的，de 不能丢：Estoy seguro de que…。",
+        "动词本身要求 de 的也保留：darse cuenta de que。",
+        "丢 de 叫 queísmo，乱加 de 叫 dequeísmo，都要避免。",
+        "检验：换成 eso 看是否要 de：seguro de eso；pienso eso。"
+      ],
+      "table": {
+        "head": [
+          "正确",
+          "错误"
+        ],
+        "rows": [
+          [
+            "Estoy seguro de que…",
+            "*Estoy seguro que…"
+          ],
+          [
+            "Me di cuenta de que…",
+            "*Me di cuenta que…"
+          ],
+          [
+            "Me alegro de que…",
+            "*Me alegro que…"
+          ],
+          [
+            "Pienso que…",
+            "*Pienso de que…"
+          ],
+          [
+            "Me dijo que…",
+            "*Me dijo de que…"
+          ],
+          [
+            "Es posible que…",
+            "*Es posible de que…"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Estoy seguro de que la réplica te gustará.",
+          "我相信你会喜欢这个复制品的。"
+        ],
+        [
+          "Me di cuenta de que nadie me escuchaba.",
+          "我发现没有人在听我说话。"
+        ],
+        [
+          "Pienso que tienes razón.",
+          "我认为你说得对。"
+        ],
+        [
+          "Me dijeron que el museo estaba cerrado.",
+          "他们告诉我博物馆关门了。"
+        ]
+      ]
+    },
+    {
+      "title": "前置词的句法功能",
+      "points": [
+        "前置词不单独作成分，它引出名词、代词、原形动词等，组成短语在句中作成分。",
+        "同一个前置词可有多种功能：a 可引出直接宾语、间接宾语、方向等。",
+        "动词的支配补语里，前置词由动词决定，不能随意换：pensar en。",
+        "前置词短语还可以作表语：La mesa es de madera。"
+      ],
+      "table": {
+        "head": [
+          "功能",
+          "常用前置词",
+          "例子"
+        ],
+        "rows": [
+          [
+            "直接宾语（指人）",
+            "a",
+            "Vi a María."
+          ],
+          [
+            "间接宾语",
+            "a",
+            "Se lo di a Juan."
+          ],
+          [
+            "状语（时间、地点等）",
+            "en, a, por, con…",
+            "Vive en Santander."
+          ],
+          [
+            "动词的支配补语",
+            "en, de, con…",
+            "Sueño con ir allí."
+          ],
+          [
+            "名词的补语",
+            "de, a, con…",
+            "una casa de piedra"
+          ],
+          [
+            "形容词的补语",
+            "de, a, en…",
+            "fácil de leer"
+          ],
+          [
+            "被动句的施事补语",
+            "por",
+            "pintada por ellos"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Las pinturas fueron descubiertas por una niña.",
+          "壁画是一个小女孩发现的。"
+        ],
+        [
+          "Todo depende de ti.",
+          "一切都取决于你。"
+        ],
+        [
+          "Este texto es fácil de leer.",
+          "这篇课文很容易读。"
+        ],
+        [
+          "Pienso mucho en mi familia.",
+          "我常常想念家人。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "No me ocultes nada; dime la verdad.",
+      "什么都别瞒我，告诉我实话。"
+    ],
+    [
+      "Anoche se declaró un incendio en el bosque.",
+      "昨晚树林里发生了火灾。"
+    ],
+    [
+      "En conclusión, debemos proteger nuestro patrimonio.",
+      "总之，我们应该保护我们的遗产。"
+    ],
+    [
+      "El arco iris es un fenómeno natural.",
+      "彩虹是一种自然现象。"
+    ],
+    [
+      "Asistimos a la inauguración del nuevo museo.",
+      "我们参加了新博物馆的开幕式。"
+    ],
+    [
+      "El buen tiempo favoreció la cosecha.",
+      "好天气有利于收成。"
+    ],
+    [
+      "Recibimos una respuesta favorable.",
+      "我们得到了令人满意的答复。"
+    ],
+    [
+      "¿Sabes la fecha exacta de su descubrimiento?",
+      "你知道它被发现的确切日期吗？"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "选择",
+      "q": "Tengo la esperanza de que ___ pronto. (vuelves / vuelvas)",
+      "a": "vuelvas（esperanza 表示希望，用虚拟式）"
+    },
+    {
+      "type": "选择",
+      "q": "Corre la noticia de que el museo ___ cerrado. (está / esté)",
+      "a": "está（noticia 表示消息、事实，用陈述式）"
+    },
+    {
+      "type": "填空",
+      "q": "Estoy seguro ___ que vendrá, y creo ___ que traerá a su hermana.（填 de 或不填）",
+      "a": "de；不填（Creo que…）"
+    },
+    {
+      "type": "改写",
+      "q": "改正错误：Pienso de que la réplica es casi exacta.",
+      "a": "Pienso que la réplica es casi exacta.（去掉 de）"
+    },
+    {
+      "type": "填空",
+      "q": "Sueño ___ visitar Altamira, pero eso depende ___ mis padres.",
+      "a": "con；de（动词的支配补语）"
+    },
+    {
+      "type": "选择",
+      "q": "Las pinturas fueron descubiertas por una niña. 这里 por 引出：（状语 / 施事补语）",
+      "a": "施事补语"
+    },
+    {
+      "type": "翻译",
+      "q": "我们得出结论：这些画是真的。",
+      "a": "Llegamos a la conclusión de que las pinturas son (eran) auténticas."
+    },
+    {
+      "type": "问答",
+      "q": "¿Por qué limitaron las visitas a la cueva de Altamira?",
+      "a": "Por miedo a que se dañaran las pinturas."
+    }
+  ],
+  "summary": [
+    "名词 + de que 引出从句，说明名词的内容。",
+    "消息、看法、结论多用陈述式；希望、担心、可能用虚拟式。",
+    "名词、形容词要求的 de 不能丢；pienso que 不加 de。",
+    "前置词引出宾语、状语、支配补语、名词和形容词补语、施事补语。"
+  ],
+  "homework": [
+    "用四个不同的名词 + de que 各造一句，其中两句用虚拟式。",
+    "找出课文里的五个前置词，说明各自的句法功能。",
+    "用 8–10 句话介绍阿尔塔米拉洞和它的复制品。"
+  ],
+  "notes": {
+    "goals": "名词补语从句第二册第 9 课已接触（Tengo la esperanza de que…），本课系统小结式的选择和 de 的去留；el hecho de que 留到第 17 课专讲。前置词接第三册第 7、8 课的前置词用法小结，本课换个角度，从句法功能来归纳。",
+    "vocab": "favorecer 变位同 conocer（favorezco, favorezca）。declararse 指火灾、疫情等“发生、爆发”，也可指“表白”；oculto 是 ocultar 的形容词，常和 estar、quedar 连用。réplica 也有“回答、反驳”的意思。",
+    "text": "史实只取常见说法：洞在桑蒂亚纳德尔马尔附近，洞口在一万多年前被落石封住，1868 年前后一个猎人发现洞口；1879 年桑图奥拉八九岁的女儿玛丽亚在洞顶发现野牛壁画，学界长期不信，直到 1902 年法国学者卡尔塔亚克发表《一个怀疑者的认错》，那时桑图奥拉已于 1888 年去世；洞 1977 年关闭，1982 年起限量开放，2002 年再次关闭，后来只有极少量抽签参观；1985 年列入世界遗产，Neocueva 2001 年开放。壁画年代说法不一，多数约一万多年，个别图形可能有三万多年，课文只说 más de diez mil años。sólo 按老课本带重音，RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "提醒学生区分 la noticia de que…（que 是连词，从句成分完整）和 la noticia que me diste（que 是关系代词，在从句里作宾语）。la idea de que 作“看法”时用陈述式；作“主意、打算”且主句表示好恶时可用虚拟式（No me gusta la idea de que te vayas），点到为止。queísmo 口语里常见，书面语要避免；dudar (de) que 等少数动词带不带 de 都可以，不必纠结；Me alegra que…（alegrar 不带 se，从句作主语）本身是对的，别和 me alegro de que 混淆。主句否定时名词补语从句也可用虚拟式（No hay pruebas de que sea cierto）。",
+    "exercises": "第 1、2 题由名词的意义决定式；第 3、4 题练 de 的去留，第 4 题是 dequeísmo；第 5、6 题练前置词的功能。第 7 题也可说 eran auténticas（主句过去时，时态配合）。"
+  }
+}

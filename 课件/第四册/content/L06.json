@@ -1,0 +1,172 @@
+{
+  "book": 4,
+  "lesson": 6,
+  "title_es": "Vida de Martín Fierro",
+  "title_zh": "马丁·菲耶罗的一生",
+  "goals": [
+    "会用 en que、en el que、en quien",
+    "理解一致关系的作用，会借它判断主语",
+    "会按说话目的和语气给句子分类",
+    "能用西语介绍《马丁·菲耶罗》的主要情节"
+  ],
+  "vocab": [
+    ["soportar", "忍受，忍耐；支撑"],
+    ["quemar(se)", "烧；烫伤；晒伤"],
+    ["atender", "照顾；接待；注意"],
+    ["emplear", "使用；雇用"],
+    ["duro, ra", "硬的；艰苦的；严厉的"],
+    ["regalar", "赠送"],
+    ["volverse + adj.", "变得……"],
+    ["la razón", "理由；道理；理智"],
+    ["sobrar (sobra)", "剩余，多余（剩余物）"],
+    ["de sobra", "绰绰有余，足够"],
+    ["sorprender(se)", "使惊讶；（se）吃惊"],
+    ["el gaucho", "高乔人（草原牧人）"],
+    ["la pampa", "潘帕草原"],
+    ["la frontera", "边境，边界"],
+    ["huir", "逃跑，逃走"],
+    ["perseguir", "追赶；追捕"],
+    ["el rancho", "（草原上的）茅屋"],
+    ["aconsejar (el consejo)", "劝告（劝告；建议）"]
+  ],
+  "text": {
+    "title": "Vida de Martín Fierro",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "En 1872 José Hernández publicó «El gaucho Martín Fierro».", "zh": "1872 年，何塞·埃尔南德斯发表了《高乔人马丁·菲耶罗》。"},
+      {"who": "", "es": "En 1879 apareció la segunda parte: «La vuelta de Martín Fierro».", "zh": "1879 年，续篇《马丁·菲耶罗归来》问世。"},
+      {"who": "", "es": "Fierro era un gaucho de la pampa y vivía feliz con su familia.", "zh": "菲耶罗是潘帕草原上的高乔人，和家人过着幸福的日子。"},
+      {"who": "", "es": "Pero llegó el día en que lo llevaron por la fuerza a la frontera.", "zh": "可是有一天，他被强行抓去守卫边境。"},
+      {"who": "", "es": "Allí tuvo que soportar una vida muy dura: hambre, frío y castigos.", "zh": "在那里，他不得不忍受艰苦的生活：饥饿、寒冷和惩罚。"},
+      {"who": "", "es": "No le pagaban nunca, y le sobraban razones para quejarse.", "zh": "他从来领不到军饷，有的是理由抱怨。"},
+      {"who": "", "es": "Aquella vida se le volvió insoportable, y al fin huyó.", "zh": "那种日子变得让他无法忍受，最后他逃走了。"},
+      {"who": "", "es": "Cuando volvió, su rancho estaba en ruinas y su familia se había ido.", "zh": "他回到家时，茅屋已成废墟，妻子儿女都走了。"},
+      {"who": "", "es": "Tras varias peleas, empezó a vivir perseguido por la justicia.", "zh": "几场打斗之后，他成了被官府追捕的人。"},
+      {"who": "", "es": "Una noche lo rodeó la policía, y Fierro se defendió con gran valor.", "zh": "一天夜里，警察包围了他，菲耶罗英勇自卫。"},
+      {"who": "", "es": "El sargento Cruz, sorprendido por su valor, se puso de su lado.", "zh": "警察里的中士克鲁斯惊叹于他的勇敢，竟站到了他一边。"},
+      {"who": "", "es": "Se hicieron amigos y huyeron juntos a tierras de los indígenas.", "zh": "两人结为朋友，一起逃到了印第安人的地方。"},
+      {"who": "", "es": "En la segunda parte, Fierro regresó y se encontró con sus hijos.", "zh": "在续篇里，菲耶罗回来了，和儿子们重逢。"},
+      {"who": "", "es": "Al despedirse, les aconsejó que estuvieran siempre unidos.", "zh": "分别时，他劝告儿子们永远要团结。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "前置词 en + 关系代词",
+      "points": [
+        "en + 关系代词引出的从句表示地点、时间、方式：la casa en que vivo。",
+        "指物：en que、en el que、en el cual，冠词和先行词性数一致。",
+        "指人：en quien(es)、en el que 等，不用 *en que。",
+        "表示时间时 en 常可省：el día (en) que llegó。"
+      ],
+      "table": {
+        "head": ["意义", "例", "说明"],
+        "rows": [
+          ["地点", "la casa en que vivo", "也说 en la que"],
+          ["时间", "el año en que nací", "时间多用 en que"],
+          ["时间（省 en）", "el día que llegó", "口语常省 en"],
+          ["方式", "la forma en que habla", "也说 la manera en que"],
+          ["人", "Ana, en quien confío", "不说 *en que"],
+          ["书面、解释性", "la pampa, en la cual…", "el cual 较正式"]
+        ]
+      },
+      "examples": [
+        ["La pampa es la llanura en la que vivían los gauchos.", "潘帕是高乔人生活的大草原。"],
+        ["Nunca olvidaré el día en que leí el poema.", "我永远忘不了读这首诗的那一天。"],
+        ["No le gustaba la forma en que los trataban.", "他不喜欢人家对待他们的方式。"],
+        ["Cruz era un hombre en quien Fierro podía confiar.", "克鲁斯是菲耶罗可以信赖的人。"]
+      ]
+    },
+    {
+      "title": "一致关系的句法功能",
+      "points": [
+        "一致把句子成分连在一起：主谓人称、数一致，名词和冠词、形容词性数一致。",
+        "表语、混合补语也和主语或宾语性数一致：Las noches eran frías。",
+        "主语可以放在动词后，靠一致判断谁是主语：Lo vieron los vecinos。",
+        "集体名词 la gente 等动词用单数；la mayoría de + 复数，两种都可。"
+      ],
+      "table": {
+        "head": ["一致关系", "例", "说明"],
+        "rows": [
+          ["主语—动词", "Lo vieron los vecinos.", "主语是复数 los vecinos"],
+          ["名词—冠词、形容词", "una vida muy dura", "性、数"],
+          ["主语—表语", "Las noches eran frías.", "性、数"],
+          ["宾语—混合补语", "La encontró cansada.", "性、数（第 4 课）"],
+          ["集体名词", "La gente lo admira.", "动词用单数"],
+          ["la mayoría de + 复数", "…llegó / llegaron", "两种都可以"]
+        ]
+      },
+      "examples": [
+        ["Lo vieron los vecinos.", "邻居们看见他了。（vieron 是复数，主语是 los vecinos）"],
+        ["Me gustan los versos de Hernández.", "我喜欢埃尔南德斯的诗句。（主语是 los versos）"],
+        ["La gente del pueblo hablaba mucho de aquel gaucho.", "村里的人常常谈论那个高乔人。（集体名词 + 单数）"],
+        ["La mayoría de los alumnos llegaron tarde.", "大多数学生迟到了。（也可说 llegó）"]
+      ]
+    },
+    {
+      "title": "句子的分类（二）：按目的和语气",
+      "points": [
+        "按说话目的和语气，句子分为陈述句、疑问句、感叹句、命令句、愿望句和怀疑句。",
+        "陈述句分肯定、否定；疑问句分一般疑问、特殊疑问（带疑问词）和选择疑问。",
+        "愿望句用 ¡Ojalá…! 或 ¡Que…! 加虚拟式；命令句用命令式。",
+        "怀疑句用 quizás、tal vez：可接陈述式或虚拟式，虚拟式更不确定。"
+      ],
+      "table": {
+        "head": ["类别", "小类 / 标志", "例句"],
+        "rows": [
+          ["陈述句", "肯定 / 否定", "Fierro no era rico."],
+          ["疑问句", "一般 / 特殊", "¿Lo leíste? ¿Quién es?"],
+          ["疑问句", "选择：…o…", "¿Vienes o te quedas?"],
+          ["感叹句", "qué、cuánto 等", "¡Qué vida tan dura!"],
+          ["命令句", "肯定 / 否定", "¡Ven! / No te vayas."],
+          ["愿望句", "ojalá、que + 虚拟式", "¡Ojalá vuelva pronto!"],
+          ["怀疑句", "quizás、tal vez", "Quizás venga mañana."]
+        ]
+      },
+      "examples": [
+        ["¿En qué año se publicó «La vuelta de Martín Fierro»?", "《马丁·菲耶罗归来》是哪一年出版的？（特殊疑问句）"],
+        ["¡Ojalá mis hijos estén siempre unidos!", "但愿我的儿子们永远团结！（愿望句）"],
+        ["¡Que tengas buen viaje!", "祝你一路顺风！（愿望句）"],
+        ["Quizás tiene razón. / Quizás tenga razón.", "也许他说得对。（怀疑句；用虚拟式更不确定）"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["No soporto el calor del verano.", "我受不了夏天的炎热。"],
+    ["Se quemó la mano con el café.", "他被咖啡烫伤了手。"],
+    ["Un médico atendió al herido.", "一位医生照料了伤员。"],
+    ["Hernández empleó la lengua de los gauchos.", "埃尔南德斯使用了高乔人的语言。"],
+    ["Mi abuelo me regaló un ejemplar del «Martín Fierro».", "爷爷送了我一本《马丁·菲耶罗》。"],
+    ["Tienes razón: es un poema difícil.", "你说得对，这首诗很难懂。"],
+    ["Tenemos tiempo de sobra; no hace falta correr.", "我们时间绰绰有余，不必跑。"],
+    ["Me sorprende que no conozcas a Martín Fierro.", "你居然不知道马丁·菲耶罗，真让我吃惊。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Ésta es la casa ______ vivió mi abuelo. (en que / que)", "a": "en que（也可说 en la que）"},
+    {"type": "填空", "q": "Es un amigo ______ puedes confiar.（填 en + 关系词，先行词是人）", "a": "en quien（也可说 en el que）"},
+    {"type": "选择", "q": "La gente ______ contenta con el nuevo alcalde. (está / están)", "a": "está"},
+    {"type": "问答", "q": "En «Lo vieron los vecinos», ¿cuál es el sujeto? ¿Cómo lo sabes?", "a": "Los vecinos：动词 vieron 是复数，和它一致。"},
+    {"type": "选择", "q": "«¡Ojalá vuelva pronto!» 按说话目的属于哪类？（感叹句 / 愿望句 / 命令句）", "a": "愿望句（ojalá + 虚拟式）"},
+    {"type": "改写", "q": "Quizás tiene razón. →（改用虚拟式，表示更不确定）", "a": "Quizás tenga razón."},
+    {"type": "翻译", "q": "我永远忘不了我们相识的那一年。（用 en que）", "a": "Nunca olvidaré el año en que nos conocimos."},
+    {"type": "问答", "q": "Según el texto, ¿por qué se puso Cruz del lado de Fierro?", "a": "Porque se sorprendió de su valor."}
+  ],
+  "summary": [
+    "en (el) que、en quien：表地点、时间、方式。",
+    "表示时间时 en 常可省：el día que llegó。",
+    "一致关系帮助判断主语：Lo vieron los vecinos。",
+    "la gente 用单数；la mayoría de… 单复数都可。",
+    "按目的：陈述、疑问、感叹、命令、愿望、怀疑句。"
+  ],
+  "homework": [
+    "用 en que、en el que、en quien 各造两个句子。",
+    "给课文每句标出按结构（第 4 课）和按目的的类别。",
+    "用 8–10 句话介绍一部你喜欢的文学作品的主人公。"
+  ],
+  "notes": {
+    "goals": "本课三项语法都是小结：en + 关系代词接第三册第 13、17 课的“前置词 + 关系代词”；一致关系接第 4 课的混合补语；句子分类本课按说话目的和语气分，和第 4 课按结构分的分类互相补充。",
+    "vocab": "volverse + 形容词表示性格、状态较长久的变化，可和 ponerse（暂时）对比；sobrar 的用法像 gustar（Me sobra tiempo），de sobra 意为“绰绰有余”。正字法沿用老课本：sólo、éste / ése / aquél 作代词时带重音，作形容词时不带；RAE 2010 年起不再要求，学生不加不算错。",
+    "text": "原创介绍文，只写主要情节：第一部（1872）里菲耶罗被强征到边境，受尽虐待后逃走，被追捕，追捕他的警察里有个中士克鲁斯倒向他，两人逃到印第安人那里；第二部（1879）他回来与儿子们重逢，留下劝诫，最后一句化用诗中劝兄弟团结的名句。rancho（草原茅屋）、sargento（中士）、la justicia（官府、司法当局）课上口头解释。",
+    "grammar": "en que 不能指人（*la amiga en que confío）；时间从句常省 en，地点、方式一般不省。la mayoría de + 复数名词：动词用单数（和 mayoría 一致）或复数（意义一致）两种都可以；系动词后的表语是复数时一般用复数（La mayoría eran jóvenes）。每个句子可同时按结构和按目的分类：¿Sabes quién lo escribió? 既是疑问句，又是主从复合句。",
+    "exercises": "第 1 题也可说 en la que；第 2 题也可说 en el que；第 5 题虽然带感叹号，按说话目的归为愿望句；第 6 题陈述式表示较有把握，虚拟式表示更怀疑。"
+  }
+}

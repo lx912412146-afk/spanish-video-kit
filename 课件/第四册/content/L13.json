@@ -1,0 +1,171 @@
+{
+  "book": 4,
+  "lesson": 13,
+  "title_es": "De la máquina de Pascal al cerebro electrónico",
+  "title_zh": "从帕斯卡的计算器到电脑",
+  "goals": [
+    "归纳常用前置词结构的意义和用法",
+    "分清 gracias a 和 a causa de 等的区别",
+    "掌握 sea… o… 等选择并列的变体",
+    "能用西语简述计算工具的发展历史"
+  ],
+  "vocab": [
+    ["calcular (cálculo)", "计算；估计（名：计算）"],
+    ["medio (por medio de)", "手段，媒介（借助，通过）"],
+    ["gracias a", "多亏，由于"],
+    ["resolver(se)", "解决；下决心"],
+    ["fabuloso, sa", "惊人的；神话般的"],
+    ["al servicio de", "为……服务"],
+    ["marcar", "标出；拨（号）；显示"],
+    ["exagerar (exagerado)", "夸大（夸张的）"],
+    ["funcionar", "运转，工作"],
+    ["ahorrar", "节省；储蓄"],
+    ["la calculadora", "计算器"],
+    ["el impuesto", "税"],
+    ["el ordenador", "电脑，计算机"],
+    ["el transistor", "晶体管"],
+    ["el circuito integrado", "集成电路"],
+    ["sumar / restar", "加；减"],
+    ["multiplicar / dividir", "乘；除"]
+  ],
+  "text": {
+    "title": "De la máquina de Pascal al cerebro electrónico",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Hoy usamos el ordenador para casi todo. ¿Cómo empezó su historia?", "zh": "今天我们几乎做什么都用电脑。它的历史是怎样开始的呢？"},
+      {"who": "", "es": "Hacia 1642, el joven francés Blaise Pascal inventó una calculadora.", "zh": "1642 年前后，年轻的法国人布莱兹·帕斯卡发明了一台计算器。"},
+      {"who": "", "es": "La hizo para ayudar a su padre en el cálculo de los impuestos.", "zh": "他造这台机器，是为了帮父亲计算税款。"},
+      {"who": "", "es": "Por medio de ruedas dentadas, la Pascalina sumaba y restaba.", "zh": "这台“帕斯卡计算器”靠齿轮做加法和减法。"},
+      {"who": "", "es": "Luego Leibniz mejoró el invento: su máquina multiplicaba y dividía.", "zh": "后来，莱布尼茨改进了这项发明：他的机器还能做乘除。"},
+      {"who": "", "es": "En el siglo XIX, el inglés Babbage diseñó la máquina analítica.", "zh": "19 世纪，英国人巴贝奇设计了“分析机”。"},
+      {"who": "", "es": "A causa de problemas técnicos y de dinero, nunca llegó a terminarse.", "zh": "由于技术和资金上的困难，这台机器始终没能造完。"},
+      {"who": "", "es": "En 1946 se presentó el ENIAC, un enorme «cerebro electrónico».", "zh": "1946 年，ENIAC 公之于世，这是一台巨大的“电子大脑”。"},
+      {"who": "", "es": "Hacía miles de sumas por segundo, pero ocupaba una sala entera.", "zh": "它每秒能做几千次加法，却占了整整一个大房间。"},
+      {"who": "", "es": "Más tarde, gracias al transistor y al circuito integrado, todo cambió.", "zh": "后来，多亏了晶体管和集成电路，一切都变了。"},
+      {"who": "", "es": "Los ordenadores se hicieron cada vez más pequeños, rápidos y baratos.", "zh": "电脑变得越来越小、越来越快、越来越便宜。"},
+      {"who": "", "es": "En los años setenta y ochenta aparecieron los ordenadores personales.", "zh": "20 世纪七八十年代出现了个人电脑。"},
+      {"who": "", "es": "Hoy cualquier móvil supera a aquel fabuloso cerebro electrónico.", "zh": "如今随便哪部手机都胜过当年那台神奇的“电子大脑”。"},
+      {"who": "", "es": "Sea en casa o en la oficina, el ordenador nos ahorra mucho trabajo.", "zh": "不管是在家里还是在办公室，电脑都为我们省去了大量工作。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "前置词结构（一）：原因、手段等",
+      "points": [
+        "前置词结构由副词、名词等加前置词构成，作用相当于一个前置词。",
+        "后接名词、代词或原形动词；de 遇 el 要缩合：a causa del frío。",
+        "gracias a 多用于好的结果；a causa de 本身中性，常用于不好的结果。",
+        "por medio de 强调手段；a través de 强调途径，也有“穿过”的意思。"
+      ],
+      "table": {
+        "head": ["意义", "前置词结构", "例子"],
+        "rows": [
+          ["原因（中性）", "a causa de", "a causa de la lluvia"],
+          ["原因（好的结果）", "gracias a", "gracias a tu ayuda"],
+          ["手段、方式", "por medio de", "por medio de ruedas"],
+          ["途径；穿过", "a través de", "a través de la radio"],
+          ["替代", "en lugar de", "en lugar de esperar"],
+          ["让步", "a pesar de", "a pesar del frío"],
+          ["依据", "de acuerdo con", "de acuerdo con la ley"]
+        ]
+      },
+      "examples": [
+        ["Gracias a tu ayuda, terminé a tiempo.", "多亏你帮忙，我按时完成了。"],
+        ["Suspendieron el partido a causa de la lluvia.", "比赛因为下雨中止了。"],
+        ["Nos comunicamos a través de internet.", "我们通过网络联系。"],
+        ["En lugar de quejarte, ayúdanos un poco.", "别光抱怨了，帮我们一把吧。"]
+      ]
+    },
+    {
+      "title": "前置词结构（二）：地点、时间等",
+      "points": [
+        "表示地点的多是副词 + de：delante de、detrás de、cerca de。",
+        "junto a、frente a 以 a 结尾；frente a 还指“面对、相比”。",
+        "antes de、después de 接原形时主语同主句；主语不同用 que 从句。",
+        "alrededor de 还可表示约数：alrededor de cien。"
+      ],
+      "table": {
+        "head": ["意义", "前置词结构", "例子"],
+        "rows": [
+          ["地点：旁边", "junto a", "junto a la ventana"],
+          ["地点：对面；面对", "frente a", "frente al museo"],
+          ["地点：前面；后面", "delante de / detrás de", "detrás de la casa"],
+          ["地点：周围；约数", "alrededor de", "alrededor de la mesa"],
+          ["时间：之前", "antes de", "antes de salir"],
+          ["时间：之后", "después de", "después de la guerra"],
+          ["服务", "al servicio de", "al servicio del pueblo"]
+        ]
+      },
+      "examples": [
+        ["Mi casa está frente al museo, junto a una farmacia.", "我家在博物馆对面，挨着一家药店。"],
+        ["Antes de salir, apaga el ordenador.", "出门前把电脑关掉。"],
+        ["Después de cenar, dimos un paseo.", "吃完晚饭，我们去散了散步。"],
+        ["Había alrededor de doscientas personas.", "当时大约有两百人。"]
+      ]
+    },
+    {
+      "title": "选择并列的变体：sea… o…",
+      "points": [
+        "sea 是 ser 的虚拟式现在时；sea… o… 意为“不管是……还是……”。",
+        "也可说 sea… sea…；说过去的事也可用 fuera… o…。",
+        "o… o… 表示二者必居其一，“要么……要么……”，语气比单用 o 强。",
+        "书面语还有 ya… ya…、bien… bien…，意为“或……或……”。"
+      ],
+      "table": {
+        "head": ["结构", "意义", "例子"],
+        "rows": [
+          ["sea… o…", "不管是……还是……", "sea hoy o mañana"],
+          ["sea… sea…", "同上", "sea hoy, sea mañana"],
+          ["o… o…", "要么……要么……", "o vienes o te quedas"],
+          ["ya… ya…", "时而……时而……；或……或……", "ya solo, ya con amigos"],
+          ["bien… bien…", "或者……或者……（书面）", "bien hoy, bien mañana"]
+        ]
+      },
+      "examples": [
+        ["Sea por la mañana o por la tarde, tienes que venir.", "不管是上午还是下午，你都得来。"],
+        ["Sea en tren, sea en avión, el viaje es largo.", "不管坐火车还是坐飞机，路程都很长。"],
+        ["O me ayudas o lo hago yo solo.", "要么你帮我，要么我一个人干。"],
+        ["Puede pagar bien en efectivo, bien con tarjeta.", "您可以付现金，也可以刷卡。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Calcula cuánto nos costará el viaje.", "算算这趟旅行要花我们多少钱。"],
+    ["Marca este número si necesitas ayuda.", "需要帮助就拨这个号码。"],
+    ["Entre todos resolvimos el problema.", "大家一起解决了这个问题。"],
+    ["Por fin se resolvió a decir la verdad.", "他终于下决心说出了真相。"],
+    ["No seas exagerado: no es para tanto.", "别夸张了，没那么严重。"],
+    ["Esta máquina ya no funciona.", "这台机器已经不能用了。"],
+    ["La ciencia debe estar al servicio del hombre.", "科学应当为人类服务。"],
+    ["Los medios de comunicación hablan mucho de ello.", "媒体对此议论很多。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "No salimos ___ la lluvia. (gracias a / a causa de)", "a": "a causa de（结果不好，不用 gracias a）"},
+    {"type": "选择", "q": "___ tu consejo, encontré un buen trabajo. (Gracias a / A causa de)", "a": "Gracias a（结果是好的）"},
+    {"type": "填空", "q": "Hablamos con los clientes ______（通过）un intérprete.", "a": "por medio de（也可说 a través de）"},
+    {"type": "填空", "q": "______（代替）ir en coche, fuimos a pie.", "a": "En lugar de（也可说 En vez de）"},
+    {"type": "填空", "q": "exagerar → 名词 ______；形容词 ______", "a": "exageración；exagerado"},
+    {"type": "改写", "q": "No importa si es hoy o mañana: tienes que terminarlo. →（用 sea… o…）", "a": "Sea hoy o mañana, tienes que terminarlo."},
+    {"type": "翻译", "q": "要么你去，要么我去。（用 o… o…）", "a": "O vas tú o voy yo."},
+    {"type": "问答", "q": "¿Por qué inventó Pascal su calculadora?", "a": "Para ayudar a su padre en el cálculo de los impuestos."}
+  ],
+  "summary": [
+    "前置词结构相当于一个前置词，后接名词、代词或原形。",
+    "gracias a 多指好结果，a causa de 中性。",
+    "por medio de 重手段，a través de 重途径。",
+    "sea… o…：不管是……还是……；sea 是虚拟式。",
+    "o… o… 二者择一；ya… ya…、bien… bien… 书面。"
+  ],
+  "homework": [
+    "用本课表中的十个前置词结构各造一个句子。",
+    "用 sea… o… 和 o… o… 各写三个句子。",
+    "用 8–10 句话复述计算工具的发展，至少用四个前置词结构。"
+  ],
+  "notes": {
+    "goals": "两项语法都是归纳性的：前置词结构接第三册第 7、8 课的前置词小结，sea… o… 接已学的虚拟式现在时。重点是 gracias a 和 a causa de 的感情色彩、por medio de 和 a través de 的区别。",
+    "vocab": "resolver 变位同 volver（resuelvo），过去分词 resuelto，resolverse a + 原形意为“下决心”；marcar 简单过去时第一人称 marqué；exagerar 的名词是 exageración。el ordenador 是西班牙用语，拉美多说 la computadora。",
+    "text": "帕斯卡生于 1623 年，父亲当时在鲁昂当税务官，1642 年前后造出计算器时十九岁左右；ENIAC 由美国宾夕法尼亚大学研制，1946 年公布，重约 27 吨，每秒约做五千次加法；巴贝奇的分析机生前没有造成。cerebro electrónico 是早年对电脑的叫法，ruedas dentadas 意为“齿轮”；让学生找出课文里的前置词结构和 sea… o…。",
+    "grammar": "前置词结构后接人称代词用夺格形式（delante de mí），en lugar de 也可说 en vez de，主语不同时用 antes de que + 虚拟式；sea… o… 后面是复数名词时常说 sean… o…，本课不展开。按老课本正字法，副词 sólo、代词 éste 等带重音，作形容词时不带（如 yo solo 的 solo 是形容词）；RAE 2010 年起不再要求，学生不加不算错。",
+    "exercises": "第 1、2 题看结果好坏选 gracias a 或 a causa de；第 3、4 题答案不唯一，已注明另一种说法；第 7 题两个分句主语不同，主语代词 tú、yo 要说出来。"
+  }
+}

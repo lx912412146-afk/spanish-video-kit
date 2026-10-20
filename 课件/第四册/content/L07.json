@@ -1,0 +1,454 @@
+{
+  "book": 4,
+  "lesson": 7,
+  "title_es": "El mayor desfase en la mayor superpotencia",
+  "title_zh": "头号超级大国的最大反差",
+  "goals": [
+    "掌握百分数的读法、冠词和动词的数",
+    "会用倍数词和 X veces más (que) 作比较",
+    "系统归纳无人称句的几种类型",
+    "分清 se 无人称句和自复被动句",
+    "能用百分数、倍数客观描述社会现象"
+  ],
+  "vocab": [
+    [
+      "debajo (de)",
+      "在……下面"
+    ],
+    [
+      "detrás (de)",
+      "在……后面"
+    ],
+    [
+      "cesar (de + inf.)",
+      "停止，不再（做某事）"
+    ],
+    [
+      "disfrutar(se) (de)",
+      "享受；享有"
+    ],
+    [
+      "controlar(se) (control)",
+      "控制；检查（控制，管制）"
+    ],
+    [
+      "total (en total)",
+      "全部的；总数（总共）"
+    ],
+    [
+      "ni siquiera",
+      "甚至……都不"
+    ],
+    [
+      "acumular",
+      "积累，积聚"
+    ],
+    [
+      "prohibir",
+      "禁止"
+    ],
+    [
+      "instalar(se)",
+      "安装；安顿，定居"
+    ],
+    [
+      "el desfase",
+      "差距；脱节"
+    ],
+    [
+      "la superpotencia",
+      "超级大国"
+    ],
+    [
+      "la pobreza",
+      "贫困，贫穷"
+    ],
+    [
+      "la riqueza",
+      "财富"
+    ],
+    [
+      "el seguro médico",
+      "医疗保险"
+    ],
+    [
+      "el porcentaje",
+      "百分比"
+    ],
+    [
+      "multiplicar(se)",
+      "（使）成倍增加；乘"
+    ],
+    [
+      "el albergue",
+      "收容所；旅舍"
+    ]
+  ],
+  "text": {
+    "title": "El mayor desfase en la mayor superpotencia",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "Dicen que Estados Unidos es el país de las oportunidades.",
+        "zh": "人们常说，美国是一个充满机会的国家。"
+      },
+      {
+        "who": "",
+        "es": "Es la mayor economía del mundo, pero no todos disfrutan de su riqueza.",
+        "zh": "它是世界上最大的经济体，可并不是人人都享有它的财富。"
+      },
+      {
+        "who": "",
+        "es": "Según datos oficiales, un 11 % de la población vive en la pobreza.",
+        "zh": "根据官方数据，约 11% 的人口生活贫困。"
+      },
+      {
+        "who": "",
+        "es": "En total, son más de treinta millones de personas.",
+        "zh": "总共有三千多万人。"
+      },
+      {
+        "who": "",
+        "es": "Alrededor del 8 % de los habitantes no tienen seguro médico.",
+        "zh": "约 8% 的居民没有医疗保险。"
+      },
+      {
+        "who": "",
+        "es": "Es decir, más de veinte millones de personas viven sin esa protección.",
+        "zh": "也就是说，有两千多万人没有这份保障。"
+      },
+      {
+        "who": "",
+        "es": "Mientras tanto, sólo unos pocos acumulan enormes fortunas.",
+        "zh": "与此同时，只有少数人积累了巨额财富。"
+      },
+      {
+        "who": "",
+        "es": "Algunos directores ganan más de cien veces el sueldo de sus empleados.",
+        "zh": "有些公司老总的收入是其员工工资的一百多倍。"
+      },
+      {
+        "who": "",
+        "es": "En los barrios ricos se vive bien: hay buenos colegios y parques.",
+        "zh": "在富人区，生活很舒适：有好学校，也有公园。"
+      },
+      {
+        "who": "",
+        "es": "Pero detrás de las grandes avenidas hay barrios muy pobres.",
+        "zh": "可是在宽阔的大街背后，却有非常贫穷的街区。"
+      },
+      {
+        "who": "",
+        "es": "Más de medio millón de personas no tienen hogar.",
+        "zh": "超过五十万人无家可归。"
+      },
+      {
+        "who": "",
+        "es": "Muchas duermen en albergues; otras, en coches o debajo de los puentes.",
+        "zh": "很多人睡在收容所里，还有些人睡在汽车里或桥下。"
+      },
+      {
+        "who": "",
+        "es": "Hoy el desfase entre ricos y pobres es mayor que hace cuarenta años.",
+        "zh": "如今贫富之间的差距比四十年前更大。"
+      },
+      {
+        "who": "",
+        "es": "Ése es el mayor desfase de la mayor superpotencia.",
+        "zh": "这就是头号超级大国的最大反差。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "百分数",
+      "points": [
+        "30 % 读 treinta por ciento；por ciento 本身不变。",
+        "100 % 读 cien por cien(to)；也可表示“完全”。",
+        "前面带冠词 el 或 un：el 30 %（特指）、un 30 %（不特指，新闻里常见）。",
+        "作主语：de + 单数名词，动词用单数；de + 复数名词，单复数都可，多用复数。"
+      ],
+      "table": {
+        "head": [
+          "写法",
+          "读法",
+          "用例"
+        ],
+        "rows": [
+          [
+            "5 %",
+            "cinco por ciento",
+            "subir un 5 %"
+          ],
+          [
+            "11 %",
+            "once por ciento",
+            "un 11 % de la gente"
+          ],
+          [
+            "30 %",
+            "treinta por ciento",
+            "el 30 % de los alumnos"
+          ],
+          [
+            "100 %",
+            "cien por cien(to)",
+            "cien por cien seguro"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "El 30 % de los alumnos viven en la residencia.",
+          "30% 的学生住在宿舍里。（也可用 vive）"
+        ],
+        [
+          "Un 20 % del dinero se gastó en libros.",
+          "两成的钱花在了买书上。"
+        ],
+        [
+          "Este año los precios han subido un 3 %.",
+          "今年物价上涨了 3%。"
+        ],
+        [
+          "Estoy cien por cien seguro.",
+          "我百分之百肯定。"
+        ]
+      ]
+    },
+    {
+      "title": "倍数词",
+      "points": [
+        "doble、triple 可作形容词，也可作名词（el doble）。",
+        "el doble de + 名词；比较用 que：Gana el doble que yo。",
+        "四倍以上多说 cuatro veces más；cuádruple 等较书面。",
+        "成倍增加：multiplicarse por dos、duplicarse 等。"
+      ],
+      "table": {
+        "head": [
+          "倍数",
+          "倍数词",
+          "常用说法"
+        ],
+        "rows": [
+          [
+            "2 倍",
+            "doble",
+            "el doble (de / que)"
+          ],
+          [
+            "3 倍",
+            "triple",
+            "el triple (de / que)"
+          ],
+          [
+            "4 倍",
+            "cuádruple",
+            "cuatro veces más"
+          ],
+          [
+            "5 倍",
+            "quíntuple",
+            "cinco veces más"
+          ],
+          [
+            "6 倍",
+            "séxtuple",
+            "seis veces más"
+          ],
+          [
+            "10 倍",
+            "décuplo",
+            "diez veces más"
+          ],
+          [
+            "100 倍",
+            "céntuplo",
+            "cien veces más"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Una habitación doble cuesta el doble que una individual.",
+          "双人间的价钱是单人间的两倍。"
+        ],
+        [
+          "Su casa es tres veces más grande que la mía.",
+          "他家的房子是我家的三倍大。"
+        ],
+        [
+          "En diez años, las ventas se han multiplicado por cuatro.",
+          "十年里销售额增长到原来的四倍。"
+        ],
+        [
+          "Ahora gana el triple de lo que ganaba antes.",
+          "他现在挣的是以前的三倍。"
+        ]
+      ]
+    },
+    {
+      "title": "无人称句（小结）",
+      "points": [
+        "无人称句没有主语，动词用第三人称单数；泛指的 Dicen que… 用复数。",
+        "haber 表示“有”只用单数：Había…，不说 *Habían。",
+        "se 无人称句：动词不及物，或宾语是带 a 的人，用单数。",
+        "se + 及物动词 + 物：物作主语，动词与它一致（自复被动句）。"
+      ],
+      "table": {
+        "head": [
+          "类型",
+          "例一",
+          "例二"
+        ],
+        "rows": [
+          [
+            "天气动词",
+            "Llueve.",
+            "Nieva mucho."
+          ],
+          [
+            "haber",
+            "Hay un parque.",
+            "Había mucha gente."
+          ],
+          [
+            "hacer",
+            "Hace frío.",
+            "Hace dos años…"
+          ],
+          [
+            "ser",
+            "Es tarde.",
+            "Es necesario estudiar."
+          ],
+          [
+            "se + 第三人称单数",
+            "Se vive bien aquí.",
+            "Se ayuda a los pobres."
+          ],
+          [
+            "第三人称复数泛指",
+            "Dicen que…",
+            "Llaman a la puerta."
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "En este barrio se vive bien.",
+          "这个街区生活很舒适。（无人称句）"
+        ],
+        [
+          "En este barrio se alquilan pisos.",
+          "这个街区有公寓出租。（自复被动句）"
+        ],
+        [
+          "Se busca a los dueños del perro.",
+          "正在寻找这条狗的主人。（宾语带 a，用单数）"
+        ],
+        [
+          "Dicen que este invierno va a nevar mucho.",
+          "听说今年冬天会下很多雪。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "La lluvia no cesó en toda la noche.",
+      "雨下了一整夜，一直没停。"
+    ],
+    [
+      "Ha acumulado mucha experiencia en este trabajo.",
+      "他在这项工作中积累了丰富的经验。"
+    ],
+    [
+      "Hay que controlar los gastos.",
+      "要控制开支。"
+    ],
+    [
+      "El control de pasaportes está detrás de esa puerta.",
+      "护照检查处在那扇门后面。"
+    ],
+    [
+      "En total, somos treinta en la clase.",
+      "我们班一共三十人。"
+    ],
+    [
+      "Estaba tan cansado que ni siquiera cenó.",
+      "他累得连晚饭都没吃。"
+    ],
+    [
+      "Se prohíbe fumar en todo el edificio.",
+      "整座大楼内禁止吸烟。"
+    ],
+    [
+      "Mis tíos se instalaron en Lima hace dos años.",
+      "我叔叔婶婶两年前在利马定居了。"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "填空",
+      "q": "El 60 % de los alumnos ______ (vivir) en la residencia.",
+      "a": "viven（也可用 vive；和 alumnos 一致更常见）"
+    },
+    {
+      "type": "选择",
+      "q": "Ayer ___ muchos turistas en la plaza. (había / habían)",
+      "a": "había（haber 表示“有”只用单数）"
+    },
+    {
+      "type": "选择",
+      "q": "En esta tienda se ___ libros de segunda mano. (vende / venden)",
+      "a": "venden（自复被动句，动词和 libros 一致）"
+    },
+    {
+      "type": "选择",
+      "q": "En este barrio se ___ a los ancianos que viven solos. (ayuda / ayudan)",
+      "a": "ayuda（无人称句：宾语是带 a 的人，动词用单数）"
+    },
+    {
+      "type": "改写",
+      "q": "Yo gano mil euros y mi hermano, tres mil. → Mi hermano gana ______ que yo.",
+      "a": "el triple（也可说 tres veces más）"
+    },
+    {
+      "type": "翻译",
+      "q": "我们班 25% 的学生会说法语。",
+      "a": "El 25 % de los alumnos de mi clase hablan (habla) francés."
+    },
+    {
+      "type": "翻译",
+      "q": "听说明天要下雪。（用第三人称复数的无人称句）",
+      "a": "Dicen que mañana va a nevar.（也可说 nevará）"
+    },
+    {
+      "type": "问答",
+      "q": "Según el texto, ¿qué porcentaje de los habitantes no tiene seguro médico?",
+      "a": "Alrededor del 8 %, es decir, más de veinte millones de personas."
+    }
+  ],
+  "summary": [
+    "百分数：数字 + por ciento，前带 el 或 un。",
+    "el X % de + 复数名词：动词单复数都可，复数更常见。",
+    "倍数：el doble、el triple；X veces más。",
+    "无人称句：天气、haber、hacer、ser、se、泛指复数。",
+    "se + 物作主语：自复被动句，动词与主语一致。"
+  ],
+  "homework": [
+    "读出并写出 5 %、12 %、100 %、2,5 %，各造一句。",
+    "用倍数比较你家乡今天和二十年前的变化，写 5 句。",
+    "每种无人称句各写一句，再写两句自复被动句对比。",
+    "用 6–8 句话、配上百分数介绍你们班的情况。"
+  ],
+  "notes": {
+    "goals": "本课三项语法都带小结性质：百分数、倍数词接着第三册第 5 课的分数讲；无人称句复习第二册第 11 课，并和自复被动句（第二册第 2 课）对比。cuyo、中性 lo cual 是第 8 课的内容，本课不用。",
+    "vocab": "prohibir 重读落在 i 上时加重音：prohíbo、prohíbe、prohíben。cesar de + 原形动词 = dejar de，sin cesar 意为“不停地”。debajo、detrás 后面接名词要加 de；ni siquiera 放在动词前时不再加 no。",
+    "text": "原创短文，数字只取官方统计的约数（贫困率约 11%，三千六七百万人；无医保约 8%，两千六百万人左右；无家可归者按美国住房部年度统计近几年为六十多万到七十多万，课文写“超过五十万”；大公司总裁的收入常见统计是普通员工的两三百倍，课文写“一百多倍”），各年略有变动，课上不必深究；讲解保持客观，不作评论。按老课本正字法，副词 sólo 和作代词的 Ése 带重音；RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "西班牙语小数点用逗号：2,5 % 读 dos coma cinco por ciento；RAE 建议数字和 % 之间空一格。tres veces más que 一般理解为“是……的三倍”，不要按中文“多三倍”去算。se 无人称句和自复被动句是难点：看动词后面有没有作主语的事物名词。",
+    "exercises": "第 1、6 题动词单复数都对，复数更常见；第 5 题 el triple 和 tres veces más 都对；第 7 题 va a nevar 和 nevará 都可以。"
+  }
+}

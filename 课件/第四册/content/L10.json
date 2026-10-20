@@ -1,0 +1,175 @@
+{
+  "book": 4,
+  "lesson": 10,
+  "title_es": "Los Juegos Olímpicos",
+  "title_zh": "奥运会",
+  "goals": [
+    "掌握 cualquiera 的形式和位置",
+    "会用 cualquiera que + 虚拟式",
+    "分清关系代词 que 和 quien 的用法",
+    "掌握前置词后和无先行词时的关系代词",
+    "能用西语简单介绍奥运会的历史"
+  ],
+  "vocab": [
+    ["intervenir (intervención)", "参与；干预（发言；干预）"],
+    ["animar(se) (ánimo)", "鼓励；振作（精神，勇气）"],
+    ["asignar", "分配，指定"],
+    ["desplazarse", "前往；移动"],
+    ["depositar", "存放；存（款）；寄托"],
+    ["suspender (suspenso)", "中止；不及格（不及格）"],
+    ["equivaler (a)", "相当于，等于"],
+    ["a cargo de", "由……负责"],
+    ["desempeñar", "担任；履行；发挥"],
+    ["otorgar", "授予，给予"],
+    ["los Juegos Olímpicos", "奥林匹克运动会"],
+    ["el COI", "国际奥委会"],
+    ["la edición", "（定期举办的）届"],
+    ["el atleta, la atleta", "运动员"],
+    ["la medalla", "奖牌"],
+    ["la corona", "花冠；王冠"],
+    ["el anillo", "环；戒指"],
+    ["el arquero, la arquera", "射箭运动员"]
+  ],
+  "text": {
+    "title": "Hablando de los Juegos Olímpicos",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "¿Desde cuándo existen los Juegos Olímpicos?", "zh": "奥运会是从什么时候开始有的？"},
+      {"who": "B", "es": "Según la tradición, empezaron en el 776 a. C. en Olimpia, Grecia.", "zh": "据传说，它始于公元前 776 年，地点是希腊的奥林匹亚。"},
+      {"who": "A", "es": "¿Podía participar cualquier persona?", "zh": "那时候随便什么人都能参加吗？"},
+      {"who": "B", "es": "Sólo hombres griegos libres. Quien ganaba recibía una corona de olivo.", "zh": "只有自由的希腊男子才能参加。获胜的人会得到一顶橄榄枝花冠。"},
+      {"who": "A", "es": "¿Y quién propuso los Juegos modernos?", "zh": "那现代奥运会是谁倡议的？"},
+      {"who": "B", "es": "Pierre de Coubertin, un francés que admiraba la cultura griega.", "zh": "皮埃尔·德·顾拜旦，一位仰慕希腊文化的法国人。"},
+      {"who": "A", "es": "Y los primeros se celebraron en Atenas en 1896, ¿verdad?", "zh": "第一届是 1896 年在雅典举行的，对吧？"},
+      {"who": "B", "es": "Sí. Desde entonces, el COI asigna cada edición a una ciudad.", "zh": "对。从那以后，每一届都由国际奥委会指定一座城市来举办。"},
+      {"who": "A", "es": "¿Qué significan los cinco anillos de la bandera olímpica?", "zh": "奥林匹克旗上的五环是什么意思？"},
+      {"who": "B", "es": "Los cinco continentes, que se unen a través del deporte.", "zh": "代表五大洲，五大洲通过体育团结在一起。"},
+      {"who": "A", "es": "En Barcelona 92 un arquero tiró una flecha de fuego hacia el pebetero.", "zh": "1992 年巴塞罗那奥运会上，一位射箭运动员朝主火炬台射出了一支带火的箭。"},
+      {"who": "B", "es": "En Pekín 2008 intervinieron más de diez mil atletas de todo el mundo.", "zh": "2008 年北京奥运会有来自世界各地的一万多名运动员参赛。"},
+      {"who": "A", "es": "Y miles de aficionados se desplazaron allí para animar a sus atletas.", "zh": "还有成千上万的观众专程赶去，为本国运动员加油。"},
+      {"who": "B", "es": "Eso es. Cualquiera que sea el resultado, lo importante es participar.", "zh": "没错。不管结果如何，重在参与。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "cualquier 和 cualquiera",
+      "points": [
+        "cualquiera 是不定形容词兼代词，意为“任何一个，随便哪个”。",
+        "单数名词前不分阴阳性，一律用 cualquier（见下表）。",
+        "放在名词后用 cualquiera，名词前常带 un / una，含“普通、随便一个”之意。",
+        "代词 cualquiera 单用或接 de + 复数；复数 cualesquiera 少用。"
+      ],
+      "table": {
+        "head": ["位置 / 用法", "形式", "例子"],
+        "rows": [
+          ["单数阳性名词前", "cualquier", "cualquier día"],
+          ["单数阴性名词前", "cualquier", "cualquier persona"],
+          ["名词后", "cualquiera", "un día cualquiera"],
+          ["代词", "cualquiera", "Cualquiera puede ir."],
+          ["代词 + de + 复数", "cualquiera de", "cualquiera de ellos"],
+          ["复数（少用）", "cualesquiera", "dos días cualesquiera"]
+        ]
+      },
+      "examples": [
+        ["Puedes llamarme a cualquier hora.", "你任何时候都可以给我打电话。"],
+        ["Cualquier persona puede ver los Juegos por internet.", "任何人都可以在网上看奥运会。"],
+        ["No fue un día cualquiera: nuestro equipo ganó el oro.", "那可不是普通的一天：我们队拿了金牌。"],
+        ["Cualquiera de vosotros puede hacerlo.", "你们当中随便哪一个都能做。"]
+      ]
+    },
+    {
+      "title": "cualquiera que + 虚拟式；un cualquiera",
+      "points": [
+        "cualquiera que + 虚拟式：“不管是谁 / 不管什么”，指不确定的人或事。",
+        "cualquier + 名词 + que 同样接虚拟式。",
+        "主句是过去时，从句用虚拟式过去未完成时：cualquiera que fuera…",
+        "un cualquiera 作名词，带贬义，指“无足轻重的人，小人物”。"
+      ],
+      "examples": [
+        ["Cualquiera que sea el resultado, estaremos contigo.", "不管结果如何，我们都和你站在一起。"],
+        ["Cualquiera que lo vea entrenar sabrá que es un gran atleta.", "谁看了他训练都会知道他是个了不起的运动员。"],
+        ["Haré cualquier cosa que me pidas.", "你让我做什么我都做。"],
+        ["Él no es un cualquiera: es campeón olímpico.", "他可不是无名小卒，他是奥运冠军。"]
+      ]
+    },
+    {
+      "title": "que 和 quien（一）：从句类型",
+      "points": [
+        "quien（复数 quienes）只指人；que 没有性数变化，指人、指物都可以。",
+        "限定性从句作主语只用 que，不说 *el chico quien vino。",
+        "解释性从句（用逗号隔开）里指人，que 和 quien 都可以，quien 稍正式。",
+        "限定性从句里指人作直接宾语，多用 que，也可以用 a quien。"
+      ],
+      "examples": [
+        ["El chico que vino ayer es mi primo.", "昨天来的那个男孩是我表弟。"],
+        ["La chica que (a quien) conocí ayer es atleta.", "我昨天认识的那个女孩是运动员。"],
+        ["Mi tío, que (quien) es médico, vive en Pekín.", "我叔叔是医生，住在北京。"]
+      ]
+    },
+    {
+      "title": "que 和 quien（二）：前置词后和无先行词",
+      "points": [
+        "前置词后指人用 quien 或“冠词 + que”，不用光 que。",
+        "前置词后指物用“冠词 + que”；a、de、con、en 后也可以只用 que。",
+        "por、para、sobre 等后面一般要带冠词：la razón por la que…",
+        "无先行词指人用 quien 或 el que（第 1 课），不用光 que。"
+      ],
+      "table": {
+        "head": ["情况", "que", "quien"],
+        "rows": [
+          ["指物", "可以", "不可以"],
+          ["限定性从句作主语", "可以", "不可以"],
+          ["解释性从句指人", "可以", "可以"],
+          ["前置词后指人", "须带冠词：con el que", "con quien"],
+          ["前置词后指物", "en que / en el que", "不可以"],
+          ["无先行词指人", "须带冠词：el que", "quien"]
+        ]
+      },
+      "examples": [
+        ["Ésta es la amiga con quien viajé a Pekín.", "这就是和我一起去北京的朋友。"],
+        ["Es el estadio en que se jugó la final.", "这就是举行决赛的体育场。"],
+        ["El profesor de quien te hablé es entrenador.", "我跟你提过的那位老师是教练。"],
+        ["Quien quiera participar tiene que entrenar mucho.", "谁想参赛，谁就得刻苦训练。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Su intervención en la reunión fue muy breve.", "他在会上的发言很简短。"],
+    ["Había mucha animación en las calles.", "街上非常热闹。"],
+    ["La guerra provocó la suspensión de los Juegos de 1940.", "战争使 1940 年的奥运会停办。"],
+    ["Al ganador se le otorga la medalla de oro.", "获胜者被授予金牌。"],
+    ["Los voluntarios desempeñaron un papel muy importante.", "志愿者发挥了非常重要的作用。"],
+    ["La ceremonia de apertura estuvo a cargo de un director de cine.", "开幕式由一位电影导演负责。"],
+    ["Depositó sus ahorros en el banco.", "他把积蓄存进了银行。"],
+    ["Un kilómetro equivale a mil metros.", "一公里等于一千米。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Puedes venir ___ día de esta semana. (cualquier / cualquiera)", "a": "cualquier"},
+    {"type": "选择", "q": "No es un atleta ______: tiene tres medallas de oro. (cualquier / cualquiera)", "a": "cualquiera（放在名词后）"},
+    {"type": "填空", "q": "Cualquiera que ______ (ser) el resultado, estaremos contigo.", "a": "sea"},
+    {"type": "选择", "q": "El chico ___ ganó la carrera es mi vecino. (que / quien)", "a": "que（限定性从句作主语，不用 quien）"},
+    {"type": "选择", "q": "Ése es el entrenador con ___ trabajé dos años. (que / quien)", "a": "quien（也可说 con el que；不能用光 que）"},
+    {"type": "改写", "q": "合并成一句：Mi tío es médico. Vive en Pekín. → Mi tío, ______, vive en Pekín.", "a": "que / quien es médico（解释性从句，两个都可以）"},
+    {"type": "翻译", "q": "任何人都可以参加这项比赛。", "a": "Cualquiera puede participar en esta competición.（或 Cualquier persona…）"},
+    {"type": "问答", "q": "¿Qué recibía quien ganaba en los antiguos Juegos Olímpicos?", "a": "Recibía una corona de olivo."}
+  ],
+  "summary": [
+    "单数名词前 cualquier，名词后或单用 cualquiera。",
+    "cualquiera que + 虚拟式：不管是谁，不管什么。",
+    "quien 只指人；限定性从句作主语只用 que。",
+    "前置词后指人用 quien 或“冠词 + que”，不用光 que。",
+    "无先行词指人用 quien 或 el que / la que。"
+  ],
+  "homework": [
+    "用 cualquier、cualquiera 各造三个句子。",
+    "找出课文里的 que 和 quien，说明为什么这样用。",
+    "用 8–10 句话介绍一届你印象最深的奥运会。"
+  ],
+  "notes": {
+    "goals": "cualquiera 第二册第 11 课、第三册第 16 课作为词汇出现过，本课系统归纳形式和位置。que 和 quien 是对前三册关系从句的小结，重点放在两处：限定性从句不用 quien 作主语；前置词后指人不用光 que。",
+    "vocab": "intervenir 按 venir 变位（intervengo, intervine）；equivaler 按 valer 变位（equivalgo, equivaldré）；desplazarse 在 e 前 z 变 c（me desplacé）；otorgar 在 e 前 g 变 gu（otorgué）。suspender 在西班牙还指“（考试）不及格”，suspenso 是“不及格（的成绩）”，suspensión 是“中止”。",
+    "text": "史实只取常见说法：古代奥运会据传始于公元前 776 年；国际奥委会（COI）1894 年成立，1896 年在雅典举行第一届现代奥运会；五环代表五大洲；1916、1940、1944 年的奥运会因世界大战停办。1992 年开幕式上残奥射箭运动员 Antonio Rebollo 那支箭其实越过了主火炬台（pebetero），火是燃气点燃的，所以课文只说“朝火炬台射箭”，不说“用箭点燃圣火”。课文按老课本写 sólo，éste、ése 作代词也带重音；RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "提醒学生 cualquier 不分阴阳性，*cualquiera persona 是常见错误。una cualquiera 有侮辱女性的意思，课堂上不要让学生拿来造句。本课还没讲关系副词 donde（第 11 课），表示地点先用 en que / en el que。",
+    "exercises": "第 4 题是限定性从句的主语，不能用 quien；第 5 题前置词后指人，quien 和 el que 都对，不能用光 que；第 6 题是解释性从句，que、quien 都可以。"
+  }
+}

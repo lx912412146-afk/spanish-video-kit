@@ -1,0 +1,468 @@
+{
+  "book": 4,
+  "lesson": 15,
+  "title_es": "España, un mosaico cultural",
+  "title_zh": "西班牙，文化马赛克",
+  "goals": [
+    "掌握 aunque 以外的几种让步表达",
+    "分清各种让步说法的语气要求和语体",
+    "理解 poder、saber 等两种过去时的区别",
+    "能用西语介绍西班牙的多元文化"
+  ],
+  "vocab": [
+    [
+      "particular (en particular)",
+      "特别的；私人的（尤其）"
+    ],
+    [
+      "enlazar (enlace)",
+      "连接（名：连接，纽带）"
+    ],
+    [
+      "necesariamente",
+      "必然，一定"
+    ],
+    [
+      "comprobar (comprobante)",
+      "核实（名：凭证，收据）"
+    ],
+    [
+      "revelar (revelador)",
+      "揭示，显示（很说明问题的）"
+    ],
+    [
+      "el propósito",
+      "目的，意图"
+    ],
+    [
+      "respectivo, va",
+      "各自的"
+    ],
+    [
+      "la ambición (ambicioso)",
+      "雄心，野心（有雄心的）"
+    ],
+    [
+      "demostrar",
+      "证明；表现出"
+    ],
+    [
+      "aparte (aparte de)",
+      "另外，单独（除……之外）"
+    ],
+    [
+      "la comunidad autónoma",
+      "自治区"
+    ],
+    [
+      "la ciudad autónoma",
+      "自治市"
+    ],
+    [
+      "cooficial",
+      "同为官方的（语言）"
+    ],
+    [
+      "convivir (convivencia)",
+      "共处（名：共处）"
+    ],
+    [
+      "la mezquita",
+      "清真寺"
+    ],
+    [
+      "la judería",
+      "（旧时）犹太人居住区"
+    ],
+    [
+      "la huella",
+      "痕迹，印记"
+    ],
+    [
+      "el mosaico",
+      "马赛克；镶嵌画"
+    ]
+  ],
+  "text": {
+    "title": "España, un mosaico cultural",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "España tiene diecisiete comunidades y dos ciudades autónomas.",
+        "zh": "西班牙有十七个自治区和两个自治市。"
+      },
+      {
+        "who": "",
+        "es": "Si bien el castellano es oficial en todo el país, hay otras lenguas.",
+        "zh": "虽然卡斯蒂利亚语在全国都是官方语言，但还有别的语言。"
+      },
+      {
+        "who": "",
+        "es": "El catalán, el gallego y el vasco son cooficiales en sus regiones.",
+        "zh": "加泰罗尼亚语、加利西亚语和巴斯克语在各自的地区也是官方语言。"
+      },
+      {
+        "who": "",
+        "es": "Roma dejó el latín, origen de todas estas lenguas aparte del vasco.",
+        "zh": "罗马人留下了拉丁语；除巴斯克语以外，这些语言都源自拉丁语。"
+      },
+      {
+        "who": "",
+        "es": "Los visigodos, más tarde, hicieron de Toledo su capital.",
+        "zh": "后来，西哥特人把托莱多定为都城。"
+      },
+      {
+        "who": "",
+        "es": "Entre 711 y 1492 existió al-Ándalus, la España musulmana.",
+        "zh": "从 711 年到 1492 年，这里存在着安达卢斯，即穆斯林治下的西班牙。"
+      },
+      {
+        "who": "",
+        "es": "Nos dejó la Alhambra, la Mezquita de Córdoba y palabras como «aceite».",
+        "zh": "它给我们留下了阿尔罕布拉宫、科尔多瓦大清真寺，还有 aceite（油）这样的词。"
+      },
+      {
+        "who": "",
+        "es": "La judería de Toledo revela el peso de la cultura judía.",
+        "zh": "托莱多的犹太区显示出犹太文化的重要地位。"
+      },
+      {
+        "who": "",
+        "es": "En 1492, los judíos que no quisieron convertirse tuvieron que irse.",
+        "zh": "1492 年，不肯改宗的犹太人被迫离开了西班牙。"
+      },
+      {
+        "who": "",
+        "es": "A pesar de que no siempre convivieron en paz, todos dejaron huella.",
+        "zh": "尽管这些民族并非一直和平相处，但都留下了印记。"
+      },
+      {
+        "who": "",
+        "es": "Por mucho que viajes por España, siempre descubrirás fiestas nuevas.",
+        "zh": "不管你在西班牙走多少地方，总会发现新的节日。"
+      },
+      {
+        "who": "",
+        "es": "Valencia tiene las Fallas y la paella; Pamplona, los Sanfermines.",
+        "zh": "巴伦西亚有法雅节和西班牙烩饭，潘普洛纳有圣费尔明节。"
+      },
+      {
+        "who": "",
+        "es": "Mucha gente sólo conoce el flamenco, y eso que hay mucho más.",
+        "zh": "很多人只知道弗拉门戈，可西班牙的文化远不止这些呢。"
+      },
+      {
+        "who": "",
+        "es": "Cada región tiene algo particular; juntas, son un mosaico cultural.",
+        "zh": "每个地区都有自己的特色，合在一起，就是一幅文化马赛克。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "让步从句的变体（一）：连词",
+      "points": [
+        "a pesar de que 同 aunque：说事实用陈述式，说假设用虚拟式。",
+        "aun cuando 较书面：+ 陈述式同 aunque，+ 虚拟式意为“即使”。",
+        "si bien 意为“虽然”，只用陈述式，多见于书面语。",
+        "y eso que 是口语，只用陈述式，补在主句后面：“可……呢”。"
+      ],
+      "table": {
+        "head": [
+          "连词",
+          "语气",
+          "语体"
+        ],
+        "rows": [
+          [
+            "对照：aunque",
+            "陈述式 / 虚拟式",
+            "通用"
+          ],
+          [
+            "a pesar de que",
+            "陈述式 / 虚拟式",
+            "通用"
+          ],
+          [
+            "aun cuando",
+            "陈述式 / 虚拟式",
+            "较书面"
+          ],
+          [
+            "si bien",
+            "只用陈述式",
+            "书面"
+          ],
+          [
+            "por más que",
+            "陈述式 / 虚拟式",
+            "通用"
+          ],
+          [
+            "por mucho que",
+            "陈述式 / 虚拟式",
+            "通用"
+          ],
+          [
+            "y eso que",
+            "只用陈述式",
+            "口语，放在主句后"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "A pesar de que llovía, salimos a pasear.",
+          "尽管在下雨，我们还是出去散步了。"
+        ],
+        [
+          "Aun cuando llueva mañana, iremos de excursión.",
+          "即使明天下雨，我们也要去郊游。"
+        ],
+        [
+          "Si bien el viaje fue largo, valió la pena.",
+          "旅途虽然很长，但很值得。"
+        ],
+        [
+          "Aprobó todo, y eso que casi no estudió.",
+          "他门门都及格了，可他几乎没怎么学呢。"
+        ]
+      ]
+    },
+    {
+      "title": "让步从句的变体（二）：por más que 等",
+      "points": [
+        "por más que、por mucho que 意为“不管怎么……也”。",
+        "说实际发生的事用陈述式，说假设或未然的事用虚拟式。",
+        "aun + 副动词表示“尽管、即使”，逻辑主语一般就是主句主语。",
+        "a pesar de + 原形（主语相同）或名词；主语不同用 a pesar de que。"
+      ],
+      "examples": [
+        [
+          "Por más que lo intentó, no pudo demostrarlo.",
+          "他怎么努力也没能证明这一点。"
+        ],
+        [
+          "Por mucho que insistas, no iré.",
+          "不管你怎么坚持，我都不去。"
+        ],
+        [
+          "Aun sabiéndolo, no dijo nada.",
+          "他明明知道，却什么也没说。"
+        ],
+        [
+          "A pesar de estar cansada, terminó el trabajo.",
+          "她尽管很累，还是把工作做完了。"
+        ]
+      ]
+    },
+    {
+      "title": "几个动词的两种过去时（一）",
+      "points": [
+        "简单过去时把动作看作完成了的事件，过去未完成时描写当时的状态。",
+        "pude：做成了；no pude：试了没做成；podía：有能力，不说做没做。",
+        "quise：想做并试着做了；no quise：拒绝了；quería：当时想。"
+      ],
+      "table": {
+        "head": [
+          "动词",
+          "简单过去时",
+          "过去未完成时"
+        ],
+        "rows": [
+          [
+            "poder",
+            "pude：做成了",
+            "podía：有能力，可以"
+          ],
+          [
+            "no poder",
+            "no pude：没做成",
+            "no podía：做不到（状态）"
+          ],
+          [
+            "querer",
+            "quise：试图（去做）",
+            "quería：想，愿意"
+          ],
+          [
+            "no querer",
+            "no quise：拒绝了",
+            "no quería：不愿意"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Por fin pude hablar con el director.",
+          "我终于跟主任谈上话了。"
+        ],
+        [
+          "De niño podía nadar horas sin cansarme.",
+          "小时候我能一连游几个小时都不累。"
+        ],
+        [
+          "Quise abrir la ventana, pero no pude.",
+          "我试着把窗户打开，可是没打开。"
+        ],
+        [
+          "Lo invitamos, pero no quiso venir.",
+          "我们请了他，可他不肯来。"
+        ]
+      ]
+    },
+    {
+      "title": "几个动词的两种过去时（二）",
+      "points": [
+        "supe：得知；sabía：知道。conocí：初次认识；conocía：早就认识。",
+        "tuve que：不得不，而且做了；tenía que：当时应该做，未必做了。",
+        "debí + 原形常表示“本该……”（实际没做），debía 多表示义务，是常见倾向。",
+        "debió de + 原形表示对过去的推测：Debió de perder el tren。"
+      ],
+      "table": {
+        "head": [
+          "动词",
+          "简单过去时",
+          "过去未完成时"
+        ],
+        "rows": [
+          [
+            "saber",
+            "supe：得知",
+            "sabía：知道"
+          ],
+          [
+            "conocer",
+            "conocí：初次认识",
+            "conocía：早已认识"
+          ],
+          [
+            "tener que",
+            "tuve que：不得不（做了）",
+            "tenía que：得做（未必做了）"
+          ],
+          [
+            "deber",
+            "debí：本该（多半没做）",
+            "debía：应该（不说结果）"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Supe la noticia ayer; antes no sabía nada.",
+          "我昨天才得知这个消息，之前什么都不知道。"
+        ],
+        [
+          "Conocí a Ana en Sevilla; ya conocía a su familia.",
+          "我是在塞维利亚认识安娜的；她家里人我早就认识。"
+        ],
+        [
+          "Tenía que llamarte, pero se me olvidó.",
+          "我本来该给你打电话的，可是忘了。"
+        ],
+        [
+          "Debí estudiar más para el examen.",
+          "考试前我本该多用点功的。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "Me gusta la música, en particular el flamenco.",
+      "我喜欢音乐，尤其是弗拉门戈。"
+    ],
+    [
+      "Un puente enlaza las dos orillas del río.",
+      "一座桥把河的两岸连了起来。"
+    ],
+    [
+      "Lo caro no es necesariamente lo mejor.",
+      "贵的不一定就是最好的。"
+    ],
+    [
+      "Compruebe los datos y guarde el comprobante.",
+      "请核对信息，保存好凭证。"
+    ],
+    [
+      "Su silencio fue muy revelador.",
+      "他的沉默很能说明问题。"
+    ],
+    [
+      "Mi propósito es aprender catalán.",
+      "我的目标是学会加泰罗尼亚语。"
+    ],
+    [
+      "Ana y Luis viven en Vigo y en Bilbao, respectivamente.",
+      "安娜和路易斯分别住在维戈和毕尔巴鄂。"
+    ],
+    [
+      "Es muy ambicioso: su ambición no tiene límites.",
+      "他雄心勃勃，野心没有止境。"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "选择",
+      "q": "Si bien ___ un pueblo pequeño, tiene mucha historia. (es / sea)",
+      "a": "es（si bien 只用陈述式）"
+    },
+    {
+      "type": "填空",
+      "q": "Por mucho que ______ (insistir, tú), no iré.（还没发生）",
+      "a": "insistas（未然的假设，用虚拟式）"
+    },
+    {
+      "type": "改写",
+      "q": "Aunque conocía el camino, se perdió. →（用 aun + 副动词）",
+      "a": "Aun conociendo el camino, se perdió."
+    },
+    {
+      "type": "改写",
+      "q": "Hace frío. Ya estamos en mayo. →（用 y eso que 连成一句）",
+      "a": "Hace frío, y eso que ya estamos en mayo."
+    },
+    {
+      "type": "选择",
+      "q": "Ayer ___ la noticia por la radio. (supe / sabía)",
+      "a": "supe（“得知”这一时刻，用简单过去时）"
+    },
+    {
+      "type": "选择",
+      "q": "Lo intentó tres veces, pero no ___ abrir la puerta. (pudo / podía)",
+      "a": "pudo（说的是尝试的结果：没做成）"
+    },
+    {
+      "type": "翻译",
+      "q": "昨天我不得不待在家里。",
+      "a": "Ayer tuve que quedarme en casa."
+    },
+    {
+      "type": "问答",
+      "q": "¿Qué lenguas son oficiales en España?",
+      "a": "El castellano y, en sus regiones, el catalán, el gallego y el vasco."
+    }
+  ],
+  "summary": [
+    "a pesar de que、aun cuando 可接两种语气。",
+    "si bien（书面）、y eso que（口语）只用陈述式。",
+    "por más que、por mucho que：不管怎么……也。",
+    "pude 做成了，no quise 拒绝了，supe 得知。",
+    "tuve que 做了，tenía que 未必做，debí 本该。"
+  ],
+  "homework": [
+    "用本课的让步说法（至少五种）各写一个句子。",
+    "用 pude / podía、supe / sabía 等写四组对比句。",
+    "用 8–10 句话介绍西班牙一个地区的语言、节日和饮食。"
+  ],
+  "notes": {
+    "goals": "aunque 第三册第 4 课学过，本课扩展到其他让步连词和简化形式；por + 形容词 + que（por difícil que sea）第 18 课讲，本课不涉及。这几个动词两种过去时的区别接第 9 课过去未完成时和简单过去时的对比。",
+    "vocab": "comprobar 变位 o→ue（compruebo），demostrar 同 mostrar（demuestro）；enlazar 在 e 前 z 变 c（enlacé）；respectivo 的副词 respectivamente 意为“分别”；a propósito 还有“顺便说一下”的意思。",
+    "text": "两个自治市是北非的休达和梅利利亚。加泰罗尼亚语在加泰罗尼亚、巴利阿里群岛和巴伦西亚自治区是官方语言（巴伦西亚称 valenciano），巴斯克语在巴斯克自治区和纳瓦拉北部是官方语言；1492 年犹太人被要求改宗或离境。课文只讲文化史，不涉及现实政治争议。第 13 行副词 sólo 按老课本正字法带重音，RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "提醒 si bien 不接虚拟式，y eso que 只能放在主句后面。tenía que 和 debía 一般只说当时的义务；debí + 原形多表示“本该……”，常带遗憾或责备。这只是常见倾向：debía 也可表示“本该”，叙述中（尤其在拉美）debí 也常等于 tuve que。",
+    "exercises": "第 2 题是未然的假设，用虚拟式；若指对方正在坚持，也可说 insistes。第 6 题说的是尝试的结果，用简单过去时 pudo。"
+  }
+}

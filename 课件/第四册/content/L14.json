@@ -1,0 +1,160 @@
+{
+  "book": 4,
+  "lesson": 14,
+  "title_es": "Energías alternativas",
+  "title_zh": "可替代能源",
+  "goals": [
+    "系统掌握关系代词 el cual 系列的用法",
+    "分清 que、el que 和 el cual 的使用场合",
+    "掌握常见的前置词 + 原形动词结构",
+    "能用西语介绍几种可再生能源"
+  ],
+  "vocab": [
+    ["explotar (explotación)", "开采，开发（名：开发）"],
+    ["sustituir (sustitución)", "代替（名：替代）"],
+    ["el riesgo", "风险，危险"],
+    ["adoptar", "采取；采用；收养"],
+    ["componer(se)", "组成；由……组成"],
+    ["desviar(se)", "使改道；偏离"],
+    ["transportar (transporte)", "运输（名：运输，交通）"],
+    ["acuerdo (de acuerdo con)", "协议，一致（依照，根据）"],
+    ["asombrar(se)", "使惊奇；感到惊奇"],
+    ["interpretar", "解释，解读；表演"],
+    ["renovable", "可再生的"],
+    ["el combustible fósil", "化石燃料"],
+    ["contaminar (contaminación)", "污染（名：污染）"],
+    ["eólico, ca", "风的；风力的"],
+    ["la marea", "潮汐"],
+    ["geotérmico, ca", "地热的"],
+    ["la biomasa", "生物质"],
+    ["la central (eléctrica)", "发电站"]
+  ],
+  "text": {
+    "title": "Energías alternativas",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Hace más de un siglo que el mundo funciona con carbón, petróleo y gas.", "zh": "一百多年来，世界一直靠煤、石油和天然气运转。"},
+      {"who": "", "es": "Son combustibles fósiles, los cuales no se pueden renovar.", "zh": "它们是化石燃料，是不可再生的。"},
+      {"who": "", "es": "Al quemarlos, contaminamos el aire y contribuimos al cambio climático.", "zh": "燃烧这些燃料，会污染空气，加剧气候变化。"},
+      {"who": "", "es": "De seguir así, algún día se agotarán, lo cual será un grave problema.", "zh": "照这样下去，它们总有一天会枯竭，那将是个严重的问题。"},
+      {"who": "", "es": "Hay alternativas, entre las cuales destacan la solar y la eólica.", "zh": "好在还有替代能源，其中最突出的是太阳能和风能。"},
+      {"who": "", "es": "Los paneles solares transforman la luz del sol en electricidad.", "zh": "太阳能电池板把阳光转化为电能。"},
+      {"who": "", "es": "En los parques eólicos, el viento hace girar enormes molinos.", "zh": "在风电场里，风吹动巨大的风力发电机。"},
+      {"who": "", "es": "Asombra ver lo rápido que crecen estas energías en China y en España.", "zh": "这两种能源在中国和西班牙发展之快，令人惊叹。"},
+      {"who": "", "es": "Los ríos mueven turbinas, gracias a las cuales se genera electricidad.", "zh": "河水推动涡轮机，靠这些涡轮机发出电来。"},
+      {"who": "", "es": "En Islandia, muchas casas se calientan con energía geotérmica.", "zh": "在冰岛，很多房子靠地热取暖。"},
+      {"who": "", "es": "Otras centrales aprovechan la fuerza de las mareas.", "zh": "还有一些发电站利用潮汐的力量。"},
+      {"who": "", "es": "La biomasa se compone de restos de plantas, de madera o de animales.", "zh": "生物质由植物、木材或动物的残余物构成。"},
+      {"who": "", "es": "De acuerdo con muchos expertos, éstas son las energías del futuro.", "zh": "许多专家认为，这些才是未来的能源。"},
+      {"who": "", "es": "Aún queda mucho por hacer, pero el camino ya está abierto.", "zh": "要做的事还很多，但路已经打开了。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "关系代词 el cual 系列：用法小结",
+      "points": [
+        "el cual 等与先行词性数一致，冠词不能省；a、de 遇 el 缩合：al cual。",
+        "主要用于解释性从句和前置词后，尤其是长前置词和前置词结构后。",
+        "能标明性数，避免歧义：el hermano de Ana, el cual…",
+        "lo cual 指前面整句（第 8 课），前面有逗号，也可换成 lo que。"
+      ],
+      "examples": [
+        ["Firmaron un acuerdo según el cual contaminarán menos.", "他们签了一项协议，按照协议，他们将减少污染。"],
+        ["Hay tubos a través de los cuales se transporta el gas.", "有一些管道，天然气就是通过它们输送的。"],
+        ["Vi a la madre de Juan, la cual trabaja en una central.", "我见到了胡安的母亲，她在一家发电站工作。"],
+        ["Instalamos paneles, gracias a los cuales ahorramos mucho.", "我们装了太阳能板，靠它们省了不少钱。"]
+      ]
+    },
+    {
+      "title": "el cual 和 que 的选择",
+      "points": [
+        "无前置词的限定性从句只用 que：el libro que leí。",
+        "解释性从句 que 和 el cual 都可用：que 更常用，el cual 更书面。",
+        "短前置词后三者都行（que 多指物）；长前置词和前置词结构后多用 el cual。",
+        "前置词后指人还可用 quien：con quien viajé（第 10 课）。"
+      ],
+      "table": {
+        "head": ["场合", "que", "el que", "el cual"],
+        "rows": [
+          ["限定性，无前置词", "可以", "不用", "不用"],
+          ["解释性，无前置词", "常用", "少用", "可以（书面）"],
+          ["a、de、con、en 后", "指物可以", "可以", "可以"],
+          ["长前置词、前置词结构后", "不用", "可以", "常用"],
+          ["指前面整句", "不用", "lo que", "lo cual"]
+        ]
+      },
+      "examples": [
+        ["El libro que me prestaste es muy bueno.", "你借给我的那本书很好。"],
+        ["La central en la que (en la cual) trabaja es eólica.", "他工作的那家发电站是风电站。"],
+        ["Ésa es la razón por la cual no vine.", "这就是我没来的原因。"],
+        ["Mi tío, que (el cual) es ingeniero, diseña molinos.", "我叔叔是工程师，他设计风力发电机。"]
+      ]
+    },
+    {
+      "title": "前置词 + 原形动词结构",
+      "points": [
+        "前置词 + 原形可代替状语从句，原形的逻辑主语一般就是主句主语。",
+        "al + 原形表示时间，原形也可带自己的主语：Al salir el sol…",
+        "de + 原形表示条件，相当于 si 从句；与过去事实相反用复合原形。",
+        "con + 原形表示“只要”，也可表示“虽然”；por + 原形表示原因或“有待”。"
+      ],
+      "table": {
+        "head": ["结构", "意义", "例子"],
+        "rows": [
+          ["al + 原形", "时间：……的时候", "Al llegar, me llamó."],
+          ["tras / después de + 原形", "时间：……之后", "Tras comer, salimos."],
+          ["de + 原形", "条件：如果……", "De tener tiempo, iría."],
+          ["con + 原形", "条件：只要……；让步", "Con llamar basta."],
+          ["sin + 原形", "否定：没有……", "Se fue sin decir nada."],
+          ["por + 原形", "原因；有待……", "Queda mucho por hacer."],
+          ["a + 原形", "命令（口语）", "¡A trabajar!"]
+        ]
+      },
+      "examples": [
+        ["De haberlo sabido, te habría avisado.", "早知道的话，我就通知你了。"],
+        ["Con ser tan rico, no es feliz.", "他虽然那么有钱，却并不幸福。"],
+        ["Lo multaron por conducir demasiado rápido.", "他因为开车太快被罚了款。"],
+        ["Al salir el sol, ya estábamos en camino.", "太阳升起的时候，我们已经上路了。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Explotan una mina de carbón en el norte.", "他们在北部开采一座煤矿。"],
+    ["Hay que sustituir el carbón por energías limpias.", "应当用清洁能源代替煤。"],
+    ["El Gobierno adoptó nuevas medidas.", "政府采取了新的措施。"],
+    ["No te desvíes del tema, por favor.", "请不要离题。"],
+    ["Este tren transporta carbón a la central.", "这列火车把煤运往发电站。"],
+    ["—¿Vamos en bici? —De acuerdo.", "——我们骑车去？——好的。"],
+    ["¿Cómo interpretas estos datos?", "你怎么解读这些数据？"],
+    ["No quiero correr ese riesgo.", "我不想冒这个险。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Hay un acuerdo según ___ todos deben ahorrar energía. (que / el cual)", "a": "el cual（según 是长前置词，后面不能只用 que）"},
+    {"type": "选择", "q": "El coche ___ compré ayer es eléctrico. (que / el cual)", "a": "que（限定性从句不带前置词，不用 el cual）"},
+    {"type": "填空", "q": "Hablé con el hermano de Ana, ______ vive en Madrid.（指 el hermano）", "a": "el cual（用 que 可能指代不清）"},
+    {"type": "改写", "q": "Si hubiera tenido tiempo, te habría ayudado. → De ______, te habría ayudado.", "a": "De haber tenido tiempo, te habría ayudado."},
+    {"type": "改写", "q": "Cuando llegué a casa, encontré la carta. →（用 al + 原形）", "a": "Al llegar a casa, encontré la carta."},
+    {"type": "填空", "q": "Todavía me quedan tres capítulos ______ leer.（填前置词，表示“还没读”）", "a": "por"},
+    {"type": "翻译", "q": "他没吃早饭就出门了。（用 sin + 原形）", "a": "Salió de casa sin desayunar."},
+    {"type": "问答", "q": "¿Por qué hay que sustituir los combustibles fósiles?", "a": "Porque contaminan el aire y algún día se agotarán."}
+  ],
+  "summary": [
+    "el cual 与先行词性数一致，多用于解释性从句。",
+    "长前置词、前置词结构后常用 el cual。",
+    "不带前置词的限定性从句只用 que，不用 el cual。",
+    "al + 原形表时间，de + 原形表条件。",
+    "con 表条件或让步，por 表原因或有待，a 表命令。"
+  ],
+  "homework": [
+    "用 según el cual、gracias a la cual 等造五句。",
+    "把五个 si 或 cuando 从句改成 de + 原形或 al + 原形。",
+    "写一段 8–10 句的短文，介绍一种可再生能源。"
+  ],
+  "notes": {
+    "goals": "el cual 第三册第 17 课学过，中性的 lo cual 第 8 课学过，本课做系统小结，重点是什么场合可以、什么场合不能用 el cual。原形动词结构接第三册第 10 课的原形动词用法，本课按意义归类。",
+    "vocab": "sustituir 变位加 y（sustituyo, sustituyó）；desviar 重音落在 i 上（desvío, desvías）；componer 变位同 poner（compongo, compuse, compuesto）；explotar 还有“爆炸”的意思。molino 原指风车、磨坊，也常指风力发电机（aerogenerador）。",
+    "text": "课文不写精确统计，只写稳妥的趋势；冰岛多数住房用地热取暖是常见说法。让学生找出 los cuales、entre las cuales、gracias a las cuales、lo cual 和 al quemarlos、de seguir、por hacer。第 13 行的代词 éstas 按老课本正字法带重音，RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "对比 Al salir el sol（原形带自己的主语）和 Al salir, cerré la puerta（主语相同）。de + 简单原形对应 si + 陈述式现在时（De seguir así…）或 si + 虚拟式过去未完成时（De tener tiempo…），de + 复合原形对应 si + 虚拟式过去完成时；con + 原形表示让步较书面，本课只要求认得，其他让步说法第 15 课讲。el cual 部分要强调不能说 *el libro el cual leí。",
+    "exercises": "第 1 题 según 是长前置词，不能只接 que；第 2 题限定性从句不带前置词，不用 el cual；第 3 题 Ana 和 el hermano 性别不同，用 el cual 才能明确指 el hermano。"
+  }
+}

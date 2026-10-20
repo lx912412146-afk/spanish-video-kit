@@ -1,0 +1,424 @@
+{
+  "book": 4,
+  "lesson": 8,
+  "title_es": "Las gentes de las dos Américas",
+  "title_zh": "南北美洲的人种",
+  "goals": [
+    "掌握关系物主形容词 cuyo 的性数一致",
+    "会用 lo que、lo cual 指代前面整句话",
+    "学会用代词、省略、el de 等避免重复",
+    "能简单介绍美洲居民的来源和构成"
+  ],
+  "vocab": [
+    [
+      "la sensación",
+      "感觉"
+    ],
+    [
+      "el capricho",
+      "任性；一时的兴致"
+    ],
+    [
+      "utilizar",
+      "使用，利用"
+    ],
+    [
+      "estimar",
+      "估计；尊重，看重"
+    ],
+    [
+      "a través de",
+      "穿过；通过"
+    ],
+    [
+      "complicar(se)",
+      "（使）复杂化"
+    ],
+    [
+      "provocar",
+      "引起，造成；挑衅"
+    ],
+    [
+      "distinguir(se)",
+      "区分；出众"
+    ],
+    [
+      "distinguido, da",
+      "杰出的；高雅的"
+    ],
+    [
+      "mezclar(se)",
+      "混合，掺和"
+    ],
+    [
+      "el resultado",
+      "结果"
+    ],
+    [
+      "indígena",
+      "土著的；原住民"
+    ],
+    [
+      "el / la descendiente",
+      "后代，后裔"
+    ],
+    [
+      "el esclavo, la esclava",
+      "奴隶"
+    ],
+    [
+      "mestizo, za",
+      "（印欧）混血的；混血儿"
+    ],
+    [
+      "mulato, ta",
+      "（黑白）混血的；混血儿"
+    ],
+    [
+      "la época colonial",
+      "殖民地时期"
+    ]
+  ],
+  "text": {
+    "title": "Las gentes de las dos Américas",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "América es un continente cuya población tiene orígenes muy diversos.",
+        "zh": "美洲大陆上居民的来源十分多样。"
+      },
+      {
+        "who": "",
+        "es": "Sus primeros habitantes vinieron de Asia hace más de diez mil años.",
+        "zh": "一万多年前，美洲最早的居民从亚洲来到这里。"
+      },
+      {
+        "who": "",
+        "es": "Desde 1492 llegaron los europeos y se instalaron en el continente.",
+        "zh": "从 1492 年起，欧洲人陆续到来，在这片大陆上定居下来。"
+      },
+      {
+        "who": "",
+        "es": "Las epidemias provocaron la muerte de muchísimos indígenas.",
+        "zh": "流行病造成了大批原住民死亡。"
+      },
+      {
+        "who": "",
+        "es": "Millones de africanos fueron traídos a la fuerza como esclavos.",
+        "zh": "数以百万计的非洲人被强行贩运到这里当奴隶。"
+      },
+      {
+        "who": "",
+        "es": "Hoy sus descendientes son muy numerosos en Brasil y en el Caribe.",
+        "zh": "如今，他们的后代在巴西和加勒比地区人数众多。"
+      },
+      {
+        "who": "",
+        "es": "Los grupos se mezclaron, lo cual dio como resultado una gran variedad.",
+        "zh": "这些群体相互融合，结果形成了多种多样的居民。"
+      },
+      {
+        "who": "",
+        "es": "Al hijo de europeo e indígena se le llamaba «mestizo».",
+        "zh": "欧洲人和原住民所生的孩子被称为“梅斯蒂索人”（印欧混血）。"
+      },
+      {
+        "who": "",
+        "es": "Al de europeo y africano, «mulato». Son términos de la época colonial.",
+        "zh": "欧洲人和非洲人所生的孩子叫“穆拉托人”。这些称呼形成于殖民地时期。"
+      },
+      {
+        "who": "",
+        "es": "La composición de la población varía mucho de un país a otro.",
+        "zh": "各国居民的构成差别很大。"
+      },
+      {
+        "who": "",
+        "es": "En Bolivia y Guatemala, la población indígena es muy numerosa.",
+        "zh": "在玻利维亚和危地马拉，原住民人口很多。"
+      },
+      {
+        "who": "",
+        "es": "La de Argentina y Uruguay procede sobre todo de inmigrantes europeos.",
+        "zh": "阿根廷和乌拉圭的居民则主要是欧洲移民的后代。"
+      },
+      {
+        "who": "",
+        "es": "En México y en gran parte de Centroamérica, la mayoría es mestiza.",
+        "zh": "在墨西哥和中美洲的大部分地区，大多数人是混血人。"
+      },
+      {
+        "who": "",
+        "es": "Así se formaron, siglo a siglo, las gentes de las dos Américas.",
+        "zh": "南北美洲的居民就这样一个世纪又一个世纪地形成了。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "关系物主形容词 cuyo",
+      "points": [
+        "cuyo = 关系词 + 物主词：el escritor cuya novela leí。",
+        "和后面的名词（被拥有者）性数一致，不和先行词一致。",
+        "后面直接跟名词，不加冠词；前面可带前置词：en cuyo norte。",
+        "多用于书面语；口语少用，常拆成两句或换个说法。"
+      ],
+      "table": {
+        "head": [
+          "先行词",
+          "cuyo + 名词",
+          "一致对象"
+        ],
+        "rows": [
+          [
+            "el escritor",
+            "cuya novela",
+            "novela（阴性单数）"
+          ],
+          [
+            "la ciudad",
+            "cuyo río",
+            "río（阳性单数）"
+          ],
+          [
+            "los alumnos",
+            "cuyas madres",
+            "madres（阴性复数）"
+          ],
+          [
+            "una casa",
+            "cuyos dueños",
+            "dueños（阳性复数）"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Éste es el escritor cuya novela leí el verano pasado.",
+          "这就是那位作家，他的小说我去年夏天读过。"
+        ],
+        [
+          "Visitamos un pueblo cuyas casas son todas blancas.",
+          "我们参观了一个村子，那里的房子全是白色的。"
+        ],
+        [
+          "Es un país en cuyo norte hay grandes desiertos.",
+          "那是一个北部有大片沙漠的国家。"
+        ],
+        [
+          "Ésa es la chica de cuyo hermano te hablé.",
+          "那就是我跟你说起过她哥哥的那个女孩。"
+        ]
+      ]
+    },
+    {
+      "title": "中性关系代词 lo que、lo cual",
+      "points": [
+        "放在逗号后，指代前面整句话的内容，而不是某个名词。",
+        "这种解释性从句里两者都可用，lo cual 更书面；lo cual 只能用于这种从句。",
+        "无先行词只能用 lo que，不能说 *Lo cual dices。",
+        "前面可带前置词：…, por lo que / por lo cual…（因此）。"
+      ],
+      "table": {
+        "head": [
+          "用法",
+          "lo que",
+          "lo cual"
+        ],
+        "rows": [
+          [
+            "指代前句（逗号后）",
+            "可以",
+            "可以（较书面）"
+          ],
+          [
+            "无先行词",
+            "Lo que dices…",
+            "不能用"
+          ],
+          [
+            "带前置词",
+            "…, por lo que…",
+            "…, por lo cual…"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Llegó tarde, lo que molestó a todos.",
+          "他来晚了，这让大家很不高兴。（也可用 lo cual）"
+        ],
+        [
+          "Llovió toda la semana, lo cual complicó el viaje.",
+          "下了一个星期的雨，这让旅行变得麻烦了。"
+        ],
+        [
+          "Perdí el autobús, por lo cual llegué tarde.",
+          "我没赶上公共汽车，所以迟到了。"
+        ],
+        [
+          "Lo que dices es verdad.",
+          "你说的是真的。（不能说 *Lo cual dices）"
+        ]
+      ]
+    },
+    {
+      "title": "避免重复的手段",
+      "points": [
+        "代词替代：用宾格、与格代词或指示代词代替前面的名词。",
+        "省略：重复的动词可省去，用逗号表示：Yo tomo té; él, café。",
+        "冠词 + de / que 代替名词：mi coche y el de Juan。",
+        "lo 代替表语，hacerlo 代替动作；也可换用同义词。"
+      ],
+      "table": {
+        "head": [
+          "手段",
+          "代替什么",
+          "例"
+        ],
+        "rows": [
+          [
+            "宾格、与格代词",
+            "名词",
+            "Ya lo leí."
+          ],
+          [
+            "省略",
+            "重复的动词",
+            "Yo tomo té; él, café."
+          ],
+          [
+            "el de / la que…",
+            "带冠词的名词",
+            "el de Juan"
+          ],
+          [
+            "lo / hacerlo",
+            "表语 / 动作",
+            "no lo es; no lo hizo"
+          ],
+          [
+            "同义词",
+            "重复的词",
+            "país → nación"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Mi madre es de Lima, y la de Juan, de Quito.",
+          "我母亲是利马人，胡安的母亲是基多人。"
+        ],
+        [
+          "Este libro es mejor que el que leí ayer.",
+          "这本书比我昨天读的那本好。"
+        ],
+        [
+          "Quería ayudarte, pero no pude hacerlo.",
+          "我本想帮你，可是没能做到。"
+        ],
+        [
+          "Parece fácil, pero no lo es.",
+          "看起来容易，其实不然。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "Al entrar, tuve una sensación extraña.",
+      "一进门，我就有一种奇怪的感觉。"
+    ],
+    [
+      "Compró ese reloj sólo por capricho.",
+      "他买那块表只是一时兴起。"
+    ],
+    [
+      "¿Sabes utilizar esta máquina?",
+      "你会用这台机器吗？"
+    ],
+    [
+      "Todos en el pueblo lo estiman mucho.",
+      "村里的人都很敬重他。"
+    ],
+    [
+      "No te compliques la vida.",
+      "别自找麻烦。"
+    ],
+    [
+      "No sé distinguir a los dos gemelos.",
+      "我分不清这对双胞胎。"
+    ],
+    [
+      "Es un profesor muy distinguido.",
+      "他是一位很有声望的教授。"
+    ],
+    [
+      "Lo supe a través de un amigo.",
+      "我是通过一个朋友知道的。"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "选择",
+      "q": "Conocí a una chica ___ padre es médico. (cuyo / cuya)",
+      "a": "cuyo（和 padre 一致，不和 chica 一致）"
+    },
+    {
+      "type": "选择",
+      "q": "Es un río ___ aguas son muy limpias. (cuyos / cuyas)",
+      "a": "cuyas"
+    },
+    {
+      "type": "改写",
+      "q": "Tengo un amigo. Su hermana vive en Cuba. → Tengo un amigo ______（用 cuyo）",
+      "a": "Tengo un amigo cuya hermana vive en Cuba."
+    },
+    {
+      "type": "选择",
+      "q": "___ me dijiste ayer es verdad. (Lo que / Lo cual)",
+      "a": "Lo que（无先行词，不能用 lo cual）"
+    },
+    {
+      "type": "改写",
+      "q": "No vino a la fiesta. Eso nos sorprendió. → No vino a la fiesta, ______",
+      "a": "lo que (lo cual) nos sorprendió."
+    },
+    {
+      "type": "改写",
+      "q": "Este libro es más interesante que el libro que leí ayer.（避免重复）",
+      "a": "Este libro es más interesante que el que leí ayer."
+    },
+    {
+      "type": "翻译",
+      "q": "他说要给我打电话，可是没打。（用 hacerlo）",
+      "a": "Dijo que me llamaría, pero no lo hizo."
+    },
+    {
+      "type": "问答",
+      "q": "Según el texto, ¿cómo se le llamaba al hijo de europeo e indígena?",
+      "a": "Se le llamaba «mestizo»."
+    }
+  ],
+  "summary": [
+    "cuyo 和后面的名词性数一致，不和先行词一致。",
+    "cuyo 后不加冠词，前面可带前置词：en cuyo…。",
+    "…, lo que / lo cual…：指代前面整句话。",
+    "lo cual 不能无先行词；无先行词只用 lo que。",
+    "避免重复：代词、省略、el de、lo / hacerlo。"
+  ],
+  "homework": [
+    "用 cuyo、cuya、cuyos、cuyas 各造一句。",
+    "用 lo que 或 lo cual 把 5 对句子各连成一句。",
+    "改写一段有重复的短文，用本课的手段避免重复。",
+    "用 6–8 句话介绍你熟悉的一个国家的居民来源。"
+  ],
+  "notes": {
+    "goals": "cuyo 和指代整句话的中性 lo cual 从本课起使用。第三册第 14 课学过 lo que、第 17 课学过 el cual，本课把指代整句话的 lo que、lo cual 归纳在一起。避免重复的手段大多已学过，本课系统归纳；指小词、指大词是第 9 课的内容，本课不用。",
+    "vocab": "distinguir 的 u 在 a、o 前去掉：distingo、distinga。complicar 的 c 在 e 前变 qu：compliqué、complique。estimar 有“估计”和“尊重、看重”两个意思：Se estima que… / Lo estimo mucho。",
+    "text": "原创短文，只讲大致趋势，不给各国比例。一般认为美洲最早的居民、即原住民的祖先（los antepasados de los indígenas）在一万多年前从亚洲经白令陆桥（今白令海峡一带）进入美洲，课文写 hace más de diez mil años。mestizo、mulato 是殖民地时期形成的历史和人口学用语，mulato 今天有人认为不礼貌，课上说明来历即可，不用来称呼具体的人。",
+    "grammar": "cuyo 最常见的错误是和先行词一致（*la ciudad cuya río）。lo cual 和 el cual 不同：el cual 指前面的名词，lo cual 指整句话。lo 代替表语时不变性数：—¿Están cansadas? —Sí, lo estamos。按老课本正字法，sólo 和作代词的 éste、ésa 带重音；RAE 2010 年起不再要求，学生不加不算错。",
+    "exercises": "第 5 题 lo que、lo cual 都对；第 7 题也可说 iba a llamarme；第 8 题注意 se le llamaba 是无人称句。"
+  }
+}

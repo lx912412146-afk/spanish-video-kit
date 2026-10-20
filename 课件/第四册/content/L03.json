@@ -1,0 +1,195 @@
+{
+  "book": 4,
+  "lesson": 3,
+  "title_es": "Geografía de América Latina",
+  "title_zh": "拉丁美洲地理",
+  "goals": [
+    "理解动词的完成体和未完成体",
+    "掌握表示起始、结束、重复、即将的动词短语",
+    "会读写一百万到一亿的数字",
+    "小结将来时、条件式表示推测的用法",
+    "能用西语简单介绍拉丁美洲的地理概况"
+  ],
+  "vocab": [
+    ["distribuir(se)", "分配；分布"],
+    ["separar(se)", "分开；分离"],
+    ["el sistema", "体系；系统"],
+    ["la imagen", "图像；形象，印象"],
+    ["elevar(se) (elevado)", "举起；升高（高的）"],
+    ["brindar", "干杯；提供"],
+    ["formar(se)", "形成；组成；培养"],
+    ["cortar(se)", "切，割；切断"],
+    ["en absoluto", "（用于否定）绝对不"],
+    ["inclinar(se)", "使倾斜；倾向于"],
+    ["la cordillera", "山脉"],
+    ["montañoso, sa", "多山的；山的"],
+    ["el pico", "山峰"],
+    ["la catarata", "瀑布"],
+    ["el kilómetro cuadrado", "平方千米"],
+    ["el habitante", "居民"],
+    ["desigual", "不均匀的；不平等的"]
+  ],
+  "text": {
+    "title": "Delante del mapa",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "América Latina ocupa unos veinte millones de kilómetros cuadrados.", "zh": "拉丁美洲面积约两千万平方千米。"},
+      {"who": "B", "es": "¿Y cuántos habitantes tendrá? ¿Unos cien millones?", "zh": "那它大概有多少人口？一亿左右？"},
+      {"who": "A", "es": "Más de seiscientos millones, distribuidos de forma muy desigual.", "zh": "六亿多，而且分布很不均匀。"},
+      {"who": "B", "es": "¿Y este gran sistema montañoso del oeste?", "zh": "那西边这一大片山系呢？"},
+      {"who": "A", "es": "Los Andes. Miden más de 7000 kilómetros y separan Chile de Argentina.", "zh": "那是安第斯山脉，长 7000 多千米，是智利和阿根廷的分界。"},
+      {"who": "B", "es": "¿Cuál será el pico más alto? ¿El Aconcagua?", "zh": "最高峰会是哪一座？阿空加瓜山吗？"},
+      {"who": "A", "es": "Sí. Se eleva a unos 6960 metros: es el pico más alto de América.", "zh": "对。它高约 6960 米，是美洲最高的山峰。"},
+      {"who": "B", "es": "Mi tío estuvo en el Titicaca y, al llegar, empezó a sentirse mal.", "zh": "我叔叔去过的的喀喀湖，一到那儿就开始不舒服。"},
+      {"who": "A", "es": "Es normal: el lago está a unos 3800 metros. Subiría demasiado deprisa.", "zh": "这很正常，湖面海拔约 3800 米。他大概是上去得太快了。"},
+      {"who": "B", "es": "Ahora acaba de volver de Venezuela, pero todavía no me ha llamado.", "zh": "他刚从委内瑞拉回来，可还没给我打电话。"},
+      {"who": "A", "es": "Estará cansado. ¿Habrá visto el Salto Ángel?", "zh": "他大概累了。他会不会去看了天使瀑布？"},
+      {"who": "B", "es": "Seguro que sí. Es la catarata más alta del mundo: unos 979 metros.", "zh": "肯定去了。那是世界上最高的瀑布，高约 979 米。"},
+      {"who": "B", "es": "Y el Amazonas, ¿es el río más largo del mundo?", "zh": "那亚马孙河是世界上最长的河吗？"},
+      {"who": "A", "es": "No está claro en absoluto, pero sin duda es el que lleva más agua.", "zh": "这一点还完全没有定论，不过它无疑是水量最大的河。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "动词的体：完成体和未完成体",
+      "points": [
+        "体表示说话人怎样看动作：看作有始有终的整体，还是看作未完的过程。",
+        "简单过去时是完成体；过去未完成时是未完成体，表示持续、反复、背景。",
+        "瞬间动词（llegar、salir）一下就完成；持续动词（vivir、leer）可延续。",
+        "瞬间动词用过去未完成时，多表示反复、习惯：Salía a las ocho。"
+      ],
+      "table": {
+        "head": ["比较项", "完成体（简单过去时）", "未完成体（过去未完成时）"],
+        "rows": [
+          ["怎样看动作", "整体，有终点", "过程，不看终点"],
+          ["持续动词", "Vivió allí dos años.", "Entonces vivía allí."],
+          ["瞬间动词", "Salió a las ocho.", "Salía a las ocho.（习惯）"],
+          ["在叙述中", "推进情节：llegó", "描写背景：llovía"]
+        ]
+      },
+      "examples": [
+        ["Cuando llegué a La Paz, llovía.", "我到拉巴斯的时候，正下着雨。"],
+        ["Leyó el libro en dos días.", "他两天就把书看完了。"],
+        ["Siempre íbamos a la playa, pero ese año fuimos a la sierra.", "我们一向去海边，可那一年去了山里。"],
+        ["Los Andes se formaron hace millones de años.", "安第斯山脉是几百万年前形成的。"]
+      ]
+    },
+    {
+      "title": "表示体的动词短语",
+      "points": [
+        "起始：empezar / comenzar a + 原形；ponerse a 多指突然开始。",
+        "结束：acabar de + 原形“刚刚……”；dejar de “停止，不再……”。",
+        "重复：volver a + 原形“再，又”；即将：estar a punto de。",
+        "只变位第一个动词，原形不变；代词可放在前面或连写：lo vuelve a hacer。"
+      ],
+      "table": {
+        "head": ["体的意义", "动词短语", "例句"],
+        "rows": [
+          ["起始", "empezar a + 原形", "Empezó a llover."],
+          ["突然开始", "ponerse a + 原形", "Se puso a llorar."],
+          ["刚刚完成", "acabar de + 原形", "Acabo de llegar."],
+          ["停止", "dejar de + 原形", "Dejó de fumar."],
+          ["重复", "volver a + 原形", "Volvió a llamar."],
+          ["即将", "estar a punto de", "Está a punto de salir."]
+        ]
+      },
+      "examples": [
+        ["Al ver el lago, se puso a sacar fotos.", "一看见湖，他就拍起照来。"],
+        ["Acabamos de volver de Bolivia.", "我们刚从玻利维亚回来。"],
+        ["El avión estaba a punto de salir cuando empezó a nevar.", "飞机正要起飞，天下起雪来。"],
+        ["Quiero volver a ver las cataratas del Iguazú.", "我想再去看一次伊瓜苏瀑布。"]
+      ]
+    },
+    {
+      "title": "基数词（一百万到一亿）",
+      "points": [
+        "millón 是阳性名词，有复数：un millón, dos millones。",
+        "直接接名词要加 de：tres millones de casas；后面有数时不加。",
+        "21、31 等后接 millones 时用 veintiún、treinta y un。",
+        "百位数和名词性数一致：trescientas mil personas。"
+      ],
+      "table": {
+        "head": ["数字", "读法"],
+        "rows": [
+          ["1 000 000", "un millón"],
+          ["2 000 000", "dos millones"],
+          ["2 100 000", "dos millones cien mil"],
+          ["21 000 000", "veintiún millones"],
+          ["31 000 000", "treinta y un millones"],
+          ["100 000 000", "cien millones"]
+        ]
+      },
+      "examples": [
+        ["México tiene más de cien millones de habitantes.", "墨西哥有一亿多人口。"],
+        ["La ciudad tiene dos millones quinientos mil habitantes.", "这座城市有二百五十万居民。"],
+        ["Veintiún millones de personas vieron el partido.", "两千一百万人观看了那场比赛。"],
+        ["La cuenca del Amazonas ocupa unos siete millones de km².", "亚马孙河流域面积约七百万平方千米。"]
+      ]
+    },
+    {
+      "title": "表示推测的将来时（小结）",
+      "points": [
+        "将来未完成时推测现在的情况：Serán las ocho（大概八点了）。",
+        "将来完成时推测已经发生、和现在有关的事：Habrá salido。",
+        "简单条件式推测过去的情况：Serían las ocho（当时大概八点）。",
+        "复合条件式推测过去某时以前的事；疑问句里表示揣测：¿Qué hora será?"
+      ],
+      "table": {
+        "head": ["推测的时间", "确定的说法", "推测的说法"],
+        "rows": [
+          ["现在", "Son las ocho.", "Serán las ocho."],
+          ["已发生，与现在有关", "Ha salido.", "Habrá salido."],
+          ["过去（过去未完成时）", "Eran las ocho.", "Serían las ocho."],
+          ["过去（简单过去时）", "Salió muy tarde.", "Saldría muy tarde."],
+          ["过去某时以前", "Había salido.", "Habría salido."]
+        ]
+      },
+      "examples": [
+        ["—¿Cuántos años tiene el profesor? —Tendrá unos cincuenta.", "——老师多大年纪？——大概五十岁吧。"],
+        ["No contesta al teléfono; habrá salido.", "他不接电话，大概出去了。"],
+        ["Cuando llegué a casa, serían las once.", "我到家的时候，大概十一点了。"],
+        ["¿Qué altura tendrá esa montaña?", "那座山会有多高呢？"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["El profesor distribuyó los exámenes entre los alumnos.", "老师把试卷发给了学生。"],
+    ["Con este mapa me he formado una imagen de la región.", "看了这张地图，我对这个地区有了一个大致的印象。"],
+    ["¡Brindemos por nuestro viaje!", "为我们的旅行干杯！"],
+    ["Este curso nos brinda una buena oportunidad.", "这门课给我们提供了一个好机会。"],
+    ["La nieve cortó la carretera durante dos días.", "大雪把公路阻断了两天。"],
+    ["Me inclino a pensar que tienes razón.", "我倾向于认为你是对的。"],
+    ["En esta zona los precios son muy elevados.", "这一带物价很高。"],
+    ["—¿Te molesta el ruido? —En absoluto.", "——噪音吵着你了吗？——一点也不。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Cuando ___ a Lima, llovía mucho.（指那一次）(llegué / llegaba)", "a": "llegué（一次完成的动作）"},
+    {"type": "填空", "q": "Mi padre ______ fumar hace dos años.（停止）", "a": "dejó de"},
+    {"type": "选择", "q": "El tren ___ salir; si corremos, aún lo alcanzamos. (acaba de / está a punto de)", "a": "está a punto de"},
+    {"type": "翻译", "q": "用西语写出：21 000 000 名居民", "a": "veintiún millones de habitantes"},
+    {"type": "填空", "q": "写出读法（注意加不加 de）：2 000 000 personas；2 300 000 personas", "a": "dos millones de personas；dos millones trescientas mil personas"},
+    {"type": "改写", "q": "Probablemente son las once. →（用将来时表示推测）", "a": "Serán las once."},
+    {"type": "改写", "q": "Probablemente eran las diez cuando llegó. →（用简单条件式）", "a": "Serían las diez cuando llegó."},
+    {"type": "问答", "q": "¿Por qué se sintió mal el tío al llegar al Titicaca?", "a": "Por la altura: el lago está a unos 3800 metros."}
+  ],
+  "summary": [
+    "简单过去时看整体（完成体），过去未完成时看过程。",
+    "ponerse a 开始；estar a punto de 即将。",
+    "acabar de 刚刚，dejar de 停止。",
+    "millón 是名词，接名词加 de；后面有数时不加。",
+    "将来时推测现在，将来完成时推测已发生，条件式推测过去。"
+  ],
+  "homework": [
+    "用 empezar a、dejar de、volver a 等各写一句话。",
+    "查三个拉美国家的人口和面积，用西语写出读法。",
+    "看一张照片，用将来时、条件式推测人物的情况。",
+    "用 8–10 句话介绍拉丁美洲的一处自然景观。"
+  ],
+  "notes": {
+    "goals": "体是对两种过去时区别的理论归纳（第一册第 21–22 课、第二册第 1–2 课讲过），两种过去时的系统比较还在第 9 课；动词短语接第二册第 3 课 acabar de、第三册第 5 课 estar a punto de。基数词第三册第 1 课学过到十亿，将来时推测接第二册第 8 课和第三册第 13 课，本课都是归纳巩固。",
+    "vocab": "distribuir 变位加 y（distribuyo、distribuyó）；elevarse 指“升高；高耸”，elevado 是“高的；崇高的”；brindar por 是“为……干杯”，brindar algo 是“提供”；en absoluto 多用于否定，单独回答时意为“一点也不”；formarse una imagen / idea de… 意为“对……形成印象”。",
+    "text": "数字都取约数：拉美面积约 2000 万平方千米，人口六亿多；安第斯山脉长 7000 多千米；阿空加瓜山约 6960 米（各资料在 6959–6962 米之间）；的的喀喀湖海拔约 3800 米；天使瀑布落差约 979 米；亚马孙河流域面积各资料不一，例句取约 700 万平方千米。亚马孙河和尼罗河哪条最长有争议，课文只说它水量最大；本册按老课本正字法，副词 sólo、指示代词 éste 等带重音，RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "体看的是说话人怎样看待动作，不是动作本身长短：Vivió allí diez años 也用简单过去时。poder、saber 等助动词两种过去时的意义差别第 15 课再讲；持续体（seguir + 副动词等）第 5 课讲；简单条件式推测过去的事，既可对应过去未完成时，也可对应简单过去时（课文 Subiría ← Subió）。数字分节用空格（RAE 现行推荐，四位数不分节：7000），老课本的 1.000.000 也要认得；英语的 billion 西语说 mil millones。",
+    "exercises": "第 1 题 llegar 是瞬间动词，表示一次完成的到达用简单过去时；第 3 题“还赶得上”说明火车还没开；第 5 题后面还有 trescientas mil，所以不加 de，trescientas 要和 personas 一致；第 7 题推测过去用简单条件式。"
+  }
+}

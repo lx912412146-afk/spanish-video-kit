@@ -1,0 +1,167 @@
+{
+  "book": 4,
+  "lesson": 1,
+  "title_es": "El amigo",
+  "title_zh": "朋友",
+  "goals": [
+    "掌握无先行词的关系从句：quien、el que 等",
+    "归纳关系从句里用虚拟式和陈述式的条件",
+    "分清 lo 作中性冠词和作代词的几种用法",
+    "能用西语谈论友谊，引用几条谚语"
+  ],
+  "vocab": [
+    ["recorrer", "走遍；走完（路程）"],
+    ["salvar(se)", "救；得救，脱险"],
+    ["la dirección", "方向；地址；领导"],
+    ["aclarar", "澄清；说明白"],
+    ["permanecer", "停留；保持"],
+    ["callar(se)", "不说；沉默，住口"],
+    ["confiar (confianza)", "信赖（信任；信心）"],
+    ["agradecer (agradecido)", "感谢（感激的）"],
+    ["el agradecimiento", "感激，谢意"],
+    ["librar(se)", "使摆脱；摆脱，免于"],
+    ["cumplir", "履行，实现；满（岁）"],
+    ["la amistad", "友谊"],
+    ["el refrán", "谚语，俗语"],
+    ["el tesoro", "财宝；宝贝"],
+    ["fiel", "忠实的，忠诚的"],
+    ["el Camino de Santiago", "圣地亚哥朝圣之路"]
+  ],
+  "text": {
+    "title": "Un amigo de verdad",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "«Quien tiene un amigo tiene un tesoro», dice el refrán. ¿Tú lo crees?", "zh": "俗话说：“有朋友就有财富。”你相信吗？"},
+      {"who": "B", "es": "Sí. El que tiene un buen amigo nunca se siente solo.", "zh": "信。有好朋友的人从来不会觉得孤单。"},
+      {"who": "A", "es": "¿Y cómo se sabe quién es un amigo de verdad?", "zh": "那怎么知道谁是真正的朋友呢？"},
+      {"who": "B", "es": "Es el que permanece a tu lado cuando las cosas van mal.", "zh": "就是在你不顺的时候还守在你身边的人。"},
+      {"who": "A", "es": "Lo dices por Pablo, ¿verdad?", "zh": "你这是说巴勃罗吧？"},
+      {"who": "B", "es": "Sí. El verano pasado recorrimos a pie el Camino de Santiago.", "zh": "是啊。去年夏天我们徒步走完了圣地亚哥朝圣之路。"},
+      {"who": "B", "es": "Un día me perdí en el monte y fue él quien me salvó.", "zh": "有一天我在山里迷了路，是他救了我。"},
+      {"who": "A", "es": "Yo todavía busco un amigo con quien pueda hablar de todo.", "zh": "我还在找一个什么话都能跟他说的朋友。"},
+      {"who": "B", "es": "Lo importante es que tú también seas un buen amigo.", "zh": "重要的是你自己也要做个好朋友。"},
+      {"who": "B", "es": "El que cumple su palabra y sabe callar a tiempo siempre tiene amigos.", "zh": "说话算数、懂得适时沉默的人，总会有朋友。"},
+      {"who": "A", "es": "Tienes razón. No hay nadie que pueda vivir sin amigos.", "zh": "你说得对。没有人能离开朋友生活。"},
+      {"who": "A", "es": "Por cierto, ¿le has agradecido a Pablo lo que hizo por ti?", "zh": "对了，巴勃罗为你做的事，你谢过他了吗？"},
+      {"who": "B", "es": "Todavía no. El sábado lo invitaré a cenar y podrá pedir lo que quiera.", "zh": "还没有。星期六我请他吃饭，他想点什么就点什么。"},
+      {"who": "A", "es": "¡Muy bien! Y dile lo agradecido que estás.", "zh": "太好了！还要告诉他你有多感激他。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "无先行词的关系从句",
+      "points": [
+        "关系词前没有先行词，整个从句相当于一个名词，可作主语、宾语等。",
+        "quien(es) 只指人，多用于泛指和谚语；el que 等可指人或物，冠词随所指性数变。",
+        "lo que 指事情；cuando 等也可不带先行词：Ven cuando quieras。",
+        "主句动词要求的前置词放在冠词前；a、de + el 缩合：al que、del que。"
+      ],
+      "table": {
+        "head": ["关系词", "指代", "例句"],
+        "rows": [
+          ["quien, quienes", "人", "Quien calla, otorga."],
+          ["el que, la que", "人或物（单数）", "La que canta es Ana."],
+          ["los que, las que", "人或物（复数）", "Elige los que quieras."],
+          ["lo que", "事情（中性）", "Eso es lo que pienso."],
+          ["al que, del que", "带前置词，要缩合", "Dáselo al que llegue."],
+          ["cuando", "时间", "Ven cuando quieras."]
+        ]
+      },
+      "examples": [
+        ["Quien bien te quiere te hará llorar.", "真心爱你的人才会让你流泪。（谚语：爱之深，责之切）"],
+        ["Quien mucho abarca, poco aprieta.", "贪多嚼不烂。（谚语）"],
+        ["El que me ayudó ayer es un compañero de clase.", "昨天帮我的那个人是我同班同学。"],
+        ["Me acuerdo mucho de la que me enseñó a leer.", "我常常想起教我识字的那位女老师。"]
+      ]
+    },
+    {
+      "title": "关系从句里的虚拟式（小结）",
+      "points": [
+        "先行词确定，所指的人或物已知存在，从句用陈述式。",
+        "先行词不确定（要找、需要的），用虚拟式：Busco a alguien que sepa…",
+        "先行词被否定或不存在（nadie、nada、no hay…），从句用虚拟式。",
+        "指将来、尚未实现的人或事也用虚拟式；从句时态随主句。"
+      ],
+      "table": {
+        "head": ["情况", "陈述式", "虚拟式"],
+        "rows": [
+          ["存在 / 否定", "Hay quien lo sabe.", "No hay quien lo sepa."],
+          ["确定 / 不确定", "un piso que tiene sol", "un piso que tenga sol"],
+          ["已发生 / 将来", "el que llegó primero", "el que llegue primero"],
+          ["已知 / 未知的事", "Haz lo que te dijo.", "Haz lo que te diga."]
+        ]
+      },
+      "examples": [
+        ["Busco a alguien que sepa tocar la guitarra.", "我在找一个会弹吉他的人。"],
+        ["No hay nadie que me entienda como tú.", "没有人像你这样理解我。"],
+        ["El que llegue primero abrirá la puerta.", "谁先到谁开门。"],
+        ["Necesitaba un amigo que me escuchara.", "那时我需要一个肯听我说话的朋友。"]
+      ]
+    },
+    {
+      "title": "lo 的多种功能",
+      "points": [
+        "中性冠词：lo + 形容词或过去分词，表示抽象的事物或方面：lo bueno。",
+        "lo + 形容词 / 副词 + que 强调程度；lo que、lo de 指“……的事”。",
+        "宾格代词 lo 代替阳性单数的人或物：—¿Ves a Pablo? —Sí, lo veo.",
+        "中性代词 lo 指上文的一件事，或代替表语：—¿Es médico? —Sí, lo es."
+      ],
+      "table": {
+        "head": ["功能", "结构", "例句"],
+        "rows": [
+          ["中性冠词", "lo + 形容词", "Lo mejor es callar."],
+          ["强调程度", "lo + 形 / 副 + que", "Mira lo alto que está."],
+          ["指事情", "lo que + 从句", "Eso es lo que pienso."],
+          ["指事情", "lo de + 名词等", "¿Sabes lo de Ana?"],
+          ["宾格代词", "代替阳性单数名词", "No lo conozco."],
+          ["中性代词", "指上文的事", "Ya lo sé."],
+          ["中性代词", "代替表语", "—¿Es fiel? —Sí, lo es."]
+        ]
+      },
+      "examples": [
+        ["Lo bueno de la amistad es que no se compra.", "友谊的可贵之处在于它是买不来的。"],
+        ["No sabes lo mucho que te lo agradezco.", "你不知道我有多感谢你。"],
+        ["¿Te has enterado de lo de Pablo?", "你听说巴勃罗的事了吗？"],
+        ["—¿Sois buenos amigos? —Sí, lo somos.", "——你们是好朋友吗？——是的。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Quiero aclarar una cosa antes de empezar.", "开始之前，我想先把一件事说清楚。"],
+    ["Perdone, ¿en qué dirección está la estación?", "劳驾，火车站在哪个方向？"],
+    ["Por fin me he librado de ese trabajo.", "我终于摆脱了那份工作。"],
+    ["Tengo plena confianza en él: confío en su palabra.", "我完全信任他，相信他说的话。"],
+    ["Le estoy muy agradecido; no tengo palabras para expresarle mi agradecimiento.", "我非常感激您，简直找不到言语来表达我的谢意。"],
+    ["Cuando no está seguro de algo, prefiere callarse.", "没有把握的时候，他宁可不吭声。"],
+    ["Siempre cumple lo que promete. Mañana cumple veinte años.", "他总是说到做到。明天他满二十岁。"],
+    ["En el accidente se salvaron todos los pasajeros.", "事故中所有乘客都脱险了。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "___ ríe el último ríe mejor. (Quien / Que)", "a": "Quien"},
+    {"type": "选择", "q": "Busco un piso que ___ cerca de la universidad.（还没找到）(está / esté)", "a": "esté"},
+    {"type": "填空", "q": "No hay nadie que ______ (poder) ayudarme ahora.", "a": "pueda"},
+    {"type": "填空", "q": "Me acuerdo mucho ______ que me enseñó a nadar.（指一位男老师，填前置词 + 冠词）", "a": "del"},
+    {"type": "改写", "q": "Ana canta muy bien. → No sabes ______（用 lo + 副词 + que）", "a": "No sabes lo bien que canta Ana."},
+    {"type": "问答", "q": "—¿Tu amiga es simpática? —Sí, ______.（用中性代词 lo 回答）", "a": "Sí, lo es."},
+    {"type": "翻译", "q": "我们需要一个会开车的人。", "a": "Necesitamos a alguien que sepa conducir.（alguien 也可换成 una persona）"},
+    {"type": "翻译", "q": "谁先到谁买票。（用 el que）", "a": "El que llegue primero comprará las entradas.（也可用 compra、los billetes）"}
+  ],
+  "summary": [
+    "quien、el que、lo que 前面可以不出现先行词。",
+    "带前置词时放在冠词前，要缩合：al que、del que。",
+    "先行词不确定、被否定或指将来，从句用虚拟式。",
+    "lo：中性冠词、lo que / lo de、宾格代词、中性代词。"
+  ],
+  "homework": [
+    "找三条以 quien 或 el que 开头的谚语，译成中文。",
+    "用 Busco… que 和 No hay nadie que… 各写三句话。",
+    "用 8–10 句话写一位好朋友，至少用三种 lo。"
+  ],
+  "notes": {
+    "goals": "三项语法都是对已学内容的小结：关系从句的虚拟式接第三册第 11 课，lo 接第二册第 8 课和第三册第 14、16 课；无先行词的关系从句是本册新起点，作为重点。本册西语按老课本正字法：副词 sólo、指示代词 éste、ése、aquél 带重音（作形容词时不带）；RAE 2010 年起不再要求，学生不加不算错。",
+    "vocab": "permanecer、agradecer 现在时第一人称加 z（permanezco、agradezco）；confiar 重读在 í 上（confío、confías），后接 en；callar 可带宾语（callar la verdad），callarse 指“住口、不作声”；librarse de 是“摆脱”；cumplir 还表示“满（岁）”：cumplir veinte años。",
+    "text": "原创对话。让学生找出无先行词的关系从句（Quien tiene…, El que tiene…, fue él quien…, lo que hizo）、关系从句的虚拟式（con quien pueda, que pueda vivir, lo que quiera）和 lo 的各种功能（Lo dices, Lo importante, lo invitaré, lo agradecido que estás）。谚语常按传统在主语从句后加逗号（Quien calla, otorga），现行规范不加，两种写法都常见；圣地亚哥朝圣之路通往西班牙西北部的圣地亚哥-德孔波斯特拉。",
+    "grammar": "强调 el que 的冠词随所指的人或物变（la que 指女性），前置词由主句动词决定（acordarse de → de la que）。语气不看先行词是不是 alguien，而看说话人认为所指对象是否确定存在。donde 也能不带先行词，留到第 11 课系统讲；中性 lo 代替表语时不随表语变：—¿Son felices? —Sí, lo son。",
+    "exercises": "第 2 题括号里说明还没找到，所以用虚拟式；第 4 题 acordarse de + el que 缩合成 del que；第 7 题也可说 una persona que sepa conducir；第 8 题题目限定用 el que（不限定时 quien 也对），主句也可用现在时 compra，“票”也可说 los billetes。"
+  }
+}

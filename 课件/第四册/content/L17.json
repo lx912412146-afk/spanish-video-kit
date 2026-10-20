@@ -1,0 +1,157 @@
+{
+  "book": 4,
+  "lesson": 17,
+  "title_es": "Manipulación peligrosa",
+  "title_zh": "危险的操纵",
+  "goals": [
+    "掌握 el hecho de que 的用法和式的选择",
+    "掌握直接宾语提前时的代词复指规则",
+    "理解宾语提前的作用：话题、对比、强调",
+    "能客观地谈论基因技术的利与弊"
+  ],
+  "vocab": [
+    ["contener(se)", "包含，容纳；克制"],
+    ["defender(se)", "保卫；为……辩护"],
+    ["resistir(se)", "抵抗，经受；不肯"],
+    ["mejorar(se)", "改善；（病）好转"],
+    ["añadir", "添加；补充说"],
+    ["denunciar", "揭露，谴责；告发"],
+    ["asegurar(se)", "保证，断言；核实"],
+    ["plantear", "提出（问题等）"],
+    ["notable", "显著的，值得注意的"],
+    ["manifestar(se)", "表示，表明；游行示威"],
+    ["manipular (manipulación)", "操纵；处理（操纵）"],
+    ["el gen (pl. genes)", "基因"],
+    ["genético, ca", "遗传的，基因的"],
+    ["transgénico, ca", "转基因的"],
+    ["clonar", "克隆"],
+    ["la célula", "细胞"],
+    ["la especie", "物种，种类"],
+    ["ético, ca (la ética)", "伦理的（伦理）"]
+  ],
+  "text": {
+    "title": "Manipulación peligrosa",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "La ingeniería genética permite cambiar los genes de los seres vivos.", "zh": "基因工程能够改变生物的基因。"},
+      {"who": "", "es": "Desde los años noventa se cultivan maíz y soja transgénicos.", "zh": "从二十世纪九十年代起，人们开始种植转基因玉米和大豆。"},
+      {"who": "", "es": "Estas plantas contienen genes añadidos para hacerlas más resistentes.", "zh": "这些作物含有人工加入的基因，好让它们抗性更强。"},
+      {"who": "", "es": "En 1996 nació la oveja Dolly, clonada a partir de una célula adulta.", "zh": "1996 年，克隆羊多莉诞生了，它是用一个成年体细胞克隆出来的。"},
+      {"who": "", "es": "Hacia 2012 apareció CRISPR, un avance notable para editar genes.", "zh": "2012 年前后出现了 CRISPR，这是基因编辑方面的一项重大进展。"},
+      {"who": "", "es": "Muchos científicos defienden estas técnicas por sus posibles ventajas.", "zh": "许多科学家看重这些技术可能带来的好处，为它们辩护。"},
+      {"who": "", "es": "Podrían curar enfermedades y mejorar las cosechas de muchos países.", "zh": "它们也许能治疗疾病，改善许多国家的收成。"},
+      {"who": "", "es": "Pero el hecho de que se pueda manipular la vida preocupa a muchos.", "zh": "可是，生命竟然可以被人为操纵，这让很多人感到不安。"},
+      {"who": "", "es": "Algunos ecologistas denuncian que podrían dañar otras especies.", "zh": "一些环保人士公开批评说，这些技术可能危害其他物种。"},
+      {"who": "", "es": "En Europa, muchas personas se han manifestado contra los transgénicos.", "zh": "在欧洲，很多人上街游行，反对转基因作物。"},
+      {"who": "", "es": "Las ventajas las vemos; los riesgos, en cambio, no los conocemos bien.", "zh": "好处我们看得见；风险呢，我们却还不太了解。"},
+      {"who": "", "es": "Cambiar los genes humanos plantea, además, graves problemas éticos.", "zh": "此外，改变人类的基因还带来严重的伦理问题。"},
+      {"who": "", "es": "¿Hasta dónde debe llegar la ciencia?", "zh": "科学应该走到哪一步为止？"},
+      {"who": "", "es": "Esa pregunta no la pueden contestar sólo los científicos.", "zh": "这个问题，不能只由科学家来回答。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "el hecho de que 的功能",
+      "points": [
+        "el hecho de que 意为“……这件事”，把整件事当作名词来用。",
+        "它是第 16 课名词补语从句的一种，可作主语、宾语或前置词补语。",
+        "de 不能省：*el hecho que… 是 queísmo，和第 16 课一样。",
+        "也可说 el que / que：El que no venga me preocupa."
+      ],
+      "examples": [
+        ["Nadie puede negar el hecho de que la ciencia avanza.", "谁也不能否认科学在进步这一事实。"],
+        ["Me sorprende el hecho de que nadie lo sepa.", "竟然没有人知道这件事，我很吃惊。"],
+        ["El problema se debe al hecho de que llueve poco.", "问题就出在雨水少这一点上。"]
+      ]
+    },
+    {
+      "title": "el hecho de que：式的选择",
+      "points": [
+        "主句表示情感、评价时一般用虚拟式，哪怕说的是已发生的事实。",
+        "el hecho de que 放在句首作主语时，也多用虚拟式。",
+        "也可用陈述式强调确有其事，主句多为 demostrar、explicar 等。",
+        "时态照常配合：主句是过去时，从句用虚拟式过去未完成时等。"
+      ],
+      "table": {
+        "head": ["主句谓语", "从句的式", "从句举例"],
+        "rows": [
+          ["me preocupa / molesta", "虚拟式", "que no haya venido"],
+          ["es lamentable", "虚拟式", "que se pierdan"],
+          ["sorprendió（过去时）", "虚拟式过去未完成时", "que naciera Dolly"],
+          ["demuestra / explica", "虚拟式或陈述式", "que no vino (viniera)"]
+        ]
+      },
+      "examples": [
+        ["El hecho de que no me llames me molesta.", "你不给我打电话，这让我很不高兴。"],
+        ["El hecho de que naciera Dolly sorprendió al mundo.", "多莉的诞生震惊了世界。"],
+        ["El hecho de que no vino demuestra que no le interesa.", "他没来，这说明他不感兴趣。（陈述式，强调他确实没来）"]
+      ]
+    },
+    {
+      "title": "直接宾语提前",
+      "points": [
+        "直接宾语放到动词前，就成了话题（说话的出发点），常表示对比或强调。",
+        "有定的宾语提前要用宾格代词复指：El libro lo compré ayer。",
+        "指人的宾语提前时 a 要保留：A tu hermana la vi en el cine。",
+        "不定的、带数量词的或无冠词的宾语提前一般不复指：Algo sé de eso。"
+      ],
+      "table": {
+        "head": ["提前的成分", "例句", "复指代词"],
+        "rows": [
+          ["有定名词（物）", "El pan lo compro yo.", "要（lo）"],
+          ["有定名词（人）", "A Ana la vi ayer.", "要（la），a 保留"],
+          ["中性代词 eso", "Eso ya lo sé.", "要（lo）"],
+          ["不定代词", "Algo sé de eso.", "不复指"],
+          ["带数量词", "Mucho dinero gastaste.", "一般不复指"],
+          ["无冠词名词", "Dinero no tengo.", "不复指"],
+          ["间接宾语", "A María le gusta.", "要（le）"]
+        ]
+      },
+      "examples": [
+        ["—¿Y el libro? —El libro lo compré ayer.", "——书呢？——书我昨天买了。"],
+        ["A tu hermana la vi en el cine.", "你姐姐我在电影院见到了。"],
+        ["La carne no la como; el pescado, sí.", "肉我不吃，鱼倒是吃。"],
+        ["Algo sé de genética, pero poco.", "遗传学我懂一点，但不多。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["No pudo contenerse y se echó a reír.", "他没忍住，笑了起来。"],
+    ["Defendió su opinión con buenos argumentos.", "他用有力的论据为自己的观点辩护。"],
+    ["Me resisto a creer que sea verdad.", "我不愿相信这是真的。"],
+    ["¡Que te mejores pronto!", "祝你早日康复！"],
+    ["Añadió que no estaba de acuerdo.", "他又补充说他不同意。"],
+    ["Me aseguré de que la puerta estaba cerrada.", "我确认了一下，门是关着的。"],
+    ["El profesor nos planteó una pregunta difícil.", "老师给我们提了一个难题。"],
+    ["Manifestó su desacuerdo con la decisión.", "他对这个决定表示不同意。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "El hecho de que no me ___ me molesta. (llamas / llames)", "a": "llames（主句表示情感，用虚拟式）"},
+    {"type": "填空", "q": "El hecho ___ que haya ganado no me sorprende.（填一个词）", "a": "de（不能省）"},
+    {"type": "填空", "q": "El hecho de que Dolly ______ (nacer) en 1996 sorprendió al mundo.（用虚拟式）", "a": "naciera（或 naciese）；hubiera nacido 也可"},
+    {"type": "改写", "q": "Compré el libro ayer. → El libro ______（直接宾语提前）", "a": "El libro lo compré ayer."},
+    {"type": "填空", "q": "A tus padres ___ conocí en la fiesta.（填代词）", "a": "los"},
+    {"type": "选择", "q": "Algo ___ sé de genética.（lo / 不填）", "a": "不填（不定代词提前一般不复指）"},
+    {"type": "翻译", "q": "这个消息我昨天就听说了。（把直接宾语提前）", "a": "Esa noticia (ya) la oí ayer.（Esa 也可用 Esta）"},
+    {"type": "问答", "q": "Según el texto, ¿por qué preocupa a muchos la manipulación genética?", "a": "Porque no conocemos bien sus riesgos y plantea problemas éticos."}
+  ],
+  "summary": [
+    "el hecho de que 把一件事当名词用，de 不能省。",
+    "主句表示情感、评价时用虚拟式；陈述式强调事实。",
+    "有定的直接宾语提前，要用 lo、la、los、las 复指。",
+    "不定的、带数量词、无冠词的宾语提前一般不复指。",
+    "宾语提前后成为话题，常表示对比或强调。"
+  ],
+  "homework": [
+    "用 el hecho de que 写四个句子，说明为什么用虚拟式或陈述式。",
+    "找出课文里提前的直接宾语，改回正常语序，比较语气。",
+    "写 8–10 句话，谈谈你对转基因食品的看法。"
+  ],
+  "notes": {
+    "goals": "el hecho de que 接第 16 课的名词补语从句，本课专讲它的功能和式的选择；直接宾语提前从本课起才在课文和例句里使用。课本课文的具体内容没有核实，课件按基因技术的科技伦理话题编写。",
+    "vocab": "contener 变位同 tener（contengo, contuvo），defender、manifestar 词根 e→ie（defiendo, manifiesto）。resistirse a + 原形动词是“不肯、不愿”，mejorarse 指病情好转，asegurarse de que 保留 de（第 16 课）。plantear（提出）别和 planear（计划）混淆。",
+    "text": "多莉 1996 年 7 月生于苏格兰的罗斯林研究所，1997 年 2 月对外公布，是第一只用成年体细胞克隆的哺乳动物；CRISPR 基因编辑技术 2012 年前后提出，沙尔庞捷和杜德纳因此获 2020 年诺贝尔化学奖。课文好处和风险都提，不替学生下结论，第 3 行的 más resistentes 泛指抗虫、抗除草剂、耐旱等。sólo 按老课本带重音，RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "el hecho de que 的式比较灵活：主句表示情感、评价时用虚拟式；用陈述式的句子学生会认即可，造句以虚拟式为主。宾语提前讲清“有定要复指、不定一般不复指”，Mucho dinero gastaste 这类是强调焦点，重音落在提前的部分。间接宾语的复指（A María le gusta）第一册就学过，这里只作对比。",
+    "exercises": "第 1–3 题练 el hecho de que，第 3 题因主句是过去时用虚拟式过去未完成时；第 4–7 题练宾语提前和复指，第 6 题注意不定代词提前不复指。第 7 题的 ya 可加可不加，oí 也可换成 supe。"
+  }
+}

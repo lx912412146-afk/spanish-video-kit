@@ -1,0 +1,156 @@
+{
+  "book": 4,
+  "lesson": 11,
+  "title_es": "Leyenda sobre la fundación de Roma",
+  "title_zh": "罗马建城的传说",
+  "goals": [
+    "掌握关系副词 donde 有先行词的用法",
+    "会用无先行词的 donde 和 donde + 虚拟式",
+    "掌握方式从句和关系副词 como",
+    "能用西语复述罗马建城的传说"
+  ],
+  "vocab": [
+    ["penetrar (en)", "进入；穿透"],
+    ["respetar", "尊重；遵守"],
+    ["a lo largo de", "沿着；在……期间"],
+    ["puro, ra", "纯净的；纯粹的"],
+    ["comprender", "理解；包括"],
+    ["valer la pena", "值得"],
+    ["esforzarse (por)", "努力，尽力"],
+    ["el destino", "命运；目的地"],
+    ["ordenar", "命令；整理"],
+    ["obedecer (obediencia)", "服从（服从，顺从）"],
+    ["la leyenda", "传说"],
+    ["fundar (fundación)", "建立（建立，创建）"],
+    ["el trono", "王位，宝座"],
+    ["gemelo, la", "孪生的；双胞胎"],
+    ["la loba", "母狼"],
+    ["el pastor, la pastora", "牧人"],
+    ["la orilla", "岸，岸边"]
+  ],
+  "text": {
+    "title": "La fundación de Roma",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "Según la leyenda, Numitor era el rey de Alba Longa.", "zh": "传说努米托尔是阿尔巴隆加的国王。"},
+      {"who": "", "es": "Su hermano Amulio, que deseaba el poder, le quitó el trono.", "zh": "他的弟弟阿穆利乌斯贪图权力，夺走了他的王位。"},
+      {"who": "", "es": "La hija de Numitor, Rea Silvia, tuvo dos gemelos con el dios Marte.", "zh": "努米托尔的女儿雷娅·西尔维娅和战神马尔斯生下了一对双胞胎。"},
+      {"who": "", "es": "Amulio, asustado, ordenó que arrojaran a los niños al río Tíber.", "zh": "阿穆利乌斯害怕了，下令把两个孩子扔进台伯河。"},
+      {"who": "", "es": "Los criados obedecieron y echaron al agua una cesta con los niños.", "zh": "仆人们照办了，把装着孩子的篮子扔进了河里。"},
+      {"who": "", "es": "Pero la cesta llegó a la orilla, donde una loba encontró a los niños.", "zh": "可是篮子漂到了岸边，一只母狼在那里发现了孩子。"},
+      {"who": "", "es": "Quiso el destino que la loba los alimentara con su leche.", "zh": "命运让这只母狼用自己的奶喂养了他们。"},
+      {"who": "", "es": "Después un pastor los recogió y los cuidó como si fueran sus hijos.", "zh": "后来一个牧人收养了他们，待他们如同亲生儿子。"},
+      {"who": "", "es": "Ya mayores, Rómulo y Remo supieron la verdad sobre su origen.", "zh": "长大以后，罗慕路斯和雷穆斯知道了自己身世的真相。"},
+      {"who": "", "es": "Penetraron en Alba Longa y devolvieron el trono a su abuelo.", "zh": "他们攻入阿尔巴隆加，把王位还给了外祖父。"},
+      {"who": "", "es": "Quisieron fundar una ciudad allí donde se habían salvado.", "zh": "他们想在自己当年获救的地方建一座城。"},
+      {"who": "", "es": "Pero los hermanos discutieron y Rómulo mató a Remo.", "zh": "但兄弟俩发生了争执，罗慕路斯杀死了雷穆斯。"},
+      {"who": "", "es": "Rómulo fundó la ciudad en el monte Palatino y le dio su nombre: Roma.", "zh": "罗慕路斯在帕拉蒂诺山上建了城，并用自己的名字给它命名：罗马。"},
+      {"who": "", "es": "Según la tradición, esto ocurrió en el año 753 a. C.", "zh": "按照传统说法，这发生在公元前 753 年。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "关系副词 donde：有先行词",
+      "points": [
+        "donde 是关系副词，引导表示地点的从句，在从句里作地点状语。",
+        "先行词是地点名词或 allí 等副词；donde = en que / en el que。",
+        "限定性从句不用逗号，限定先行词；解释性从句用逗号隔开，作补充说明。",
+        "donde 前可加前置词，表示去向、来源、经过等（见下表）。"
+      ],
+      "table": {
+        "head": ["形式", "表示", "例子"],
+        "rows": [
+          ["donde", "在……的地方", "la casa donde vivo"],
+          ["adonde / a donde", "去……的地方", "el pueblo adonde vamos"],
+          ["de donde", "从……来的地方", "el país de donde vengo"],
+          ["por donde", "经过……的地方", "la calle por donde va"]
+        ]
+      },
+      "examples": [
+        ["Ésta es la ciudad donde nací.", "这就是我出生的城市。"],
+        ["Fuimos al Palatino, donde, según la leyenda, nació Roma.", "我们去了帕拉蒂诺山，传说罗马就诞生在那里。"],
+        ["El pueblo adonde vamos está junto al río.", "我们要去的村子在河边。"],
+        ["Volvieron al lugar de donde habían salido.", "他们回到了出发的地方。"]
+      ]
+    },
+    {
+      "title": "donde 无先行词；donde + 虚拟式",
+      "points": [
+        "无先行词时，donde 从句本身就是地点状语：Lo dejé donde estaba。",
+        "陈述式指已知、确定的地点；虚拟式指不确定的地点：Ponlo donde quieras。",
+        "表示去向常加 a，无先行词时多写成两个词：Iremos a donde tú digas。",
+        "别和疑问副词 dónde 混淆：No sé dónde vive（间接疑问，带重音）。"
+      ],
+      "examples": [
+        ["Deja el libro donde estaba.", "把书放回原处。"],
+        ["Vive donde vivía su abuelo.", "他住在他祖父从前住的地方。"],
+        ["Siéntate donde quieras.", "你想坐哪儿就坐哪儿。"],
+        ["Iremos a donde tú digas.", "你说去哪儿，我们就去哪儿。"]
+      ]
+    },
+    {
+      "title": "方式从句和关系副词 como",
+      "points": [
+        "como 引导方式从句，说明动作怎样进行；无先行词时整个从句作方式状语。",
+        "陈述式指已知的方式；虚拟式指不确定的方式：Hazlo como quieras。",
+        "先行词是 la manera、el modo 等时，como = en que。",
+        "对比 como si + 虚拟式过去时：假设的、与事实不符的方式（第三册）。"
+      ],
+      "table": {
+        "head": ["结构", "例子", "说明"],
+        "rows": [
+          ["como + 陈述式", "Hazlo como te dije.", "已知的方式"],
+          ["como + 虚拟式", "Hazlo como quieras.", "不确定的方式"],
+          ["la manera como", "la manera como habla", "= en que"],
+          ["el modo como", "el modo como lo hizo", "= en que"],
+          ["como si + 虚拟式过去时", "como si fuera su hijo", "与事实不符"]
+        ]
+      },
+      "examples": [
+        ["Lo hice como me enseñó mi padre.", "我是照父亲教我的方法做的。"],
+        ["Hazlo como quieras; a mí me da igual.", "你想怎么做就怎么做，我无所谓。"],
+        ["No me gusta la manera como nos habla.", "我不喜欢他跟我们说话的方式。"],
+        ["Los cuidó como si fueran sus hijos.", "他待他们如同亲生儿子。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Hay que respetar las costumbres de cada país.", "要尊重每个国家的习俗。"],
+    ["A lo largo de los siglos, Roma no dejó de crecer.", "几百年间，罗马一直在发展。"],
+    ["Lo encontramos por pura casualidad.", "我们找到它纯属偶然。"],
+    ["Este libro comprende dieciocho lecciones.", "这本书共有十八课。"],
+    ["Vale la pena visitar el Palatino.", "帕拉蒂诺山值得一游。"],
+    ["Se esforzó mucho por aprender latín.", "他努力学习拉丁语。"],
+    ["Es un niño obediente: siempre obedece a sus padres.", "这孩子很听话，总是听父母的话。"],
+    ["Ordena tu habitación antes de salir.", "出门前把你的房间收拾好。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "Ésta es la casa ___ nació mi madre. (donde / que)", "a": "donde（= en la que / en que）"},
+    {"type": "改写", "q": "Ésta es la ciudad en la que vivo. →（用 donde）", "a": "Ésta es la ciudad donde vivo."},
+    {"type": "填空", "q": "Siéntate donde ______ (querer, tú).（随便坐）", "a": "quieras（不确定的地点用虚拟式）"},
+    {"type": "选择", "q": "Volvimos al pueblo ___ habíamos salido. (de donde / adonde)", "a": "de donde（表示来源）"},
+    {"type": "选择", "q": "No sé ___ vive Juan. (donde / dónde)", "a": "dónde（间接疑问句，带重音）"},
+    {"type": "填空", "q": "Lo hice como tú me ______ (decir) ayer.", "a": "dijiste（也可用 habías dicho）"},
+    {"type": "翻译", "q": "你想怎么做就怎么做吧。", "a": "Hazlo como quieras."},
+    {"type": "问答", "q": "Según la leyenda, ¿dónde fundó Rómulo la ciudad de Roma?", "a": "La fundó en el monte Palatino."}
+  ],
+  "summary": [
+    "有先行词：donde = en que / en el que。",
+    "无先行词：donde 从句本身作地点状语。",
+    "donde 前加 a / de / por：去向、来源、经过。",
+    "陈述式指确定的地点或方式，虚拟式指不确定的。",
+    "la manera / el modo como = en que。"
+  ],
+  "homework": [
+    "用 donde、adonde、de donde、por donde 各造一句。",
+    "用“como + 陈述式 / 虚拟式”各写两句，体会区别。",
+    "用 8–10 句话复述罗马建城的传说。"
+  ],
+  "notes": {
+    "goals": "关系副词 donde 第一册第 19 课已出现，como 第三册第 5 课讲过几种用法，本课系统归纳：有无先行词、限定性和解释性、陈述式和虚拟式。",
+    "vocab": "esforzarse 词根 o→ue（me esfuerzo），简单过去时第一人称 z 变 c（me esforcé）；obedecer 现在时第一人称 obedezco；comprender 除“理解”外还有“包括”的意思；destino 也指“目的地”（el destino del viaje）。",
+    "text": "课文用“según la leyenda”复述，只取常见情节；公元前 753 年是罗马的传统建城年份，传说收养兄弟俩的牧人叫福斯图卢斯（Fáustulo），“在当年获救的地方建城”是李维的说法。可让学生找出课文里的 donde（解释性从句、allí donde）和 como si。",
+    "grammar": "按 RAE，有明确先行词时 adonde、a donde 两种写法都可以，无先行词时多写 a donde，不必苛求。疑问副词 dónde、cómo 带重音，关系副词不带。例句里的 ésta 按老课本带重音；RAE 2010 年起不再要求 éste、sólo 等加重音，学生不加不算错。",
+    "exercises": "第 4 题“从……出发”用 de donde；第 5 题是间接疑问句，用带重音的 dónde；第 3、7 题说的是不确定的地点和方式，用虚拟式。"
+  }
+}

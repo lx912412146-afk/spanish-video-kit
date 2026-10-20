@@ -1,0 +1,172 @@
+{
+  "book": 4,
+  "lesson": 4,
+  "title_es": "Viajando por Andalucía",
+  "title_zh": "安达卢西亚游记",
+  "goals": [
+    "分清绝对时和相对时，会按基准点分析时态",
+    "掌握混合补语，注意和所说明的词性数一致",
+    "会按结构给句子分类：简单句、并列句、主从句",
+    "能用西语介绍安达卢西亚的名城和风物"
+  ],
+  "vocab": [
+    ["la afición", "爱好；热爱"],
+    ["aficionarse (a)", "爱好上，迷上"],
+    ["aficionado, da", "爱好者；业余的"],
+    ["imaginar(se) (imaginación)", "想象（想象力）"],
+    ["áspero, ra", "粗糙的；刺耳的；严酷的"],
+    ["aumentar", "增加，增长"],
+    ["alrededor (de)", "在周围；大约"],
+    ["de cuando en cuando", "不时，有时"],
+    ["de vez en cuando", "有时，不时"],
+    ["la compañía", "陪伴；同伴；公司"],
+    ["rodear", "围绕，包围"],
+    ["carecer (de)", "缺少，缺乏"],
+    ["mojar(se)", "弄湿；（被）淋湿"],
+    ["la mezquita", "清真寺"],
+    ["el palacio", "宫殿"],
+    ["la fuente", "泉；喷泉"],
+    ["el flamenco", "弗拉门戈（歌舞）"]
+  ],
+  "text": {
+    "title": "Viajando por Andalucía",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "", "es": "La primavera pasada viajé por Andalucía en compañía de dos amigos.", "zh": "去年春天，我和两个朋友结伴游览了安达卢西亚。"},
+      {"who": "", "es": "Antes del viaje, me había imaginado muchas veces aquellas ciudades.", "zh": "出发之前，我已经无数次想象过那些城市。"},
+      {"who": "", "es": "Llegamos cansados, pero Sevilla nos recibió llena de flores.", "zh": "我们到达时很累，可迎接我们的塞维利亚开满了鲜花。"},
+      {"who": "", "es": "Junto al Guadalquivir, que cruza la ciudad, se alza la Torre del Oro.", "zh": "瓜达尔基维尔河穿城而过，河边矗立着黄金塔。"},
+      {"who": "", "es": "En Córdoba visitamos la Mezquita: cientos de columnas nos rodeaban.", "zh": "在科尔多瓦，我们参观了清真寺：几百根石柱环绕着我们。"},
+      {"who": "", "es": "El guía nos dijo que la habían empezado a construir en el siglo VIII.", "zh": "导游告诉我们，这座清真寺是 8 世纪开始修建的。"},
+      {"who": "", "es": "De cuando en cuando llovía, y volvíamos al hotel mojados.", "zh": "时不时下一阵雨，我们回到旅馆时总是浑身湿漉漉的。"},
+      {"who": "", "es": "En Granada subimos a la Alhambra, palacio de los reyes nazaríes.", "zh": "在格拉纳达，我们登上了奈斯尔王朝的宫殿阿兰布拉宫。"},
+      {"who": "", "es": "Granada, último reino musulmán de la Península, cayó en 1492.", "zh": "格拉纳达是半岛上最后一个穆斯林王国，1492 年陷落。"},
+      {"who": "", "es": "Alrededor de la Alhambra hay jardines, y al fondo se ve Sierra Nevada.", "zh": "阿兰布拉宫周围是花园，远处可以望见内华达山。"},
+      {"who": "", "es": "Una noche, la voz áspera de un cantaor de flamenco nos llegó al alma.", "zh": "一天晚上，一位弗拉门戈歌手沙哑的嗓音打动了我们的心。"},
+      {"who": "", "es": "Al despedirnos, prometimos que volveríamos algún día.", "zh": "临别时，我们约定总有一天还要再来。"},
+      {"who": "", "es": "Desde entonces, mi afición al flamenco ha aumentado mucho.", "zh": "从那以后，我对弗拉门戈越来越着迷了。"},
+      {"who": "", "es": "Cuando vuelva, ya habré aprendido a bailar sevillanas.", "zh": "等我再去的时候，我已经学会跳塞维利亚舞了。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "绝对时和相对时",
+      "points": [
+        "绝对时以说话时刻为基准：现在时、简单过去时、将来未完成时。",
+        "现在完成时表示到说话时为止已发生，基准也是说话时刻，本课归入绝对时。",
+        "相对时以另一时间点为基准：过去某时之前用过去完成时，同时用过去未完成时，之后用简单条件式。",
+        "将来完成时以将来某时为基准，表示到那时已经完成：habré vuelto。"
+      ],
+      "table": {
+        "head": ["基准点", "之前", "同时", "之后"],
+        "rows": [
+          ["说话时刻（绝对时）", "简单过去时 / 现在完成时", "现在时", "将来未完成时"],
+          ["例", "llegó / ha llegado", "llega", "llegará"],
+          ["过去某时（相对时）", "过去完成时", "过去未完成时", "简单条件式"],
+          ["例：Creí que…", "había llegado", "llegaba", "llegaría"],
+          ["将来某时（相对时）", "将来完成时", "仍用将来未完成时", "仍用将来未完成时"],
+          ["例：Cuando vuelvas…", "ya habremos cenado", "estaremos cenando", "cenaremos juntos"]
+        ]
+      },
+      "examples": [
+        ["Cuando llegamos a Sevilla, ya había anochecido.", "我们到塞维利亚时，天已经黑了。（过去的过去）"],
+        ["Cuando llegamos a Sevilla, llovía mucho.", "我们到塞维利亚时，正下着大雨。（过去的同时）"],
+        ["El guía nos dijo que el palacio abriría a las nueve.", "导游告诉我们宫殿九点开门。（过去的将来）"],
+        ["Para el domingo ya habremos visitado Granada.", "到星期天我们就已经游览过格拉纳达了。（将来的过去）"]
+      ]
+    },
+    {
+      "title": "混合补语（小结）",
+      "points": [
+        "混合补语既说明动词，又说明主语或直接宾语，由形容词、分词或名词充当。",
+        "要和所说明的词性数一致：Llegó cansada / Llegaron cansados。",
+        "说明宾语的常见动词：encontrar、dejar、ver、elegir、nombrar。",
+        "副词不变：Llegaron tarde；混合补语要变：Llegaron cansadas。"
+      ],
+      "table": {
+        "head": ["说明对象", "词类", "例句"],
+        "rows": [
+          ["主语", "形容词", "Ella llegó cansada."],
+          ["主语", "分词", "Volvimos mojados."],
+          ["主语（第三册）", "ir + 形容词", "Iba muy contenta."],
+          ["直接宾语", "分词", "Dejé la luz encendida."],
+          ["直接宾语（第三册）", "tener + 分词", "Tengo hecha la cena."],
+          ["直接宾语", "名词", "Lo nombraron alcalde."]
+        ]
+      },
+      "examples": [
+        ["Los viajeros llegaron a Granada cansados pero felices.", "旅客们到达格拉纳达时又累又高兴。"],
+        ["Encontré la puerta abierta y entré.", "我发现门开着，就进去了。"],
+        ["Lo eligieron presidente de la asociación.", "他们选他当了协会主席。"],
+        ["El agua de las fuentes corría limpia y fresca.", "泉水清澈凉爽地流淌着。"]
+      ]
+    },
+    {
+      "title": "句子的分类（一）：按结构",
+      "points": [
+        "简单句只有一个谓语（一个变位动词）：Hoy hace calor.",
+        "并列复合句的分句地位平等，靠 y、ni、o、pero、sino que 等连接。",
+        "主从复合句的从句依附于主句，分名词性、形容词性（关系）和状语从句。",
+        "判断时先数变位动词，再看分句之间是平等关系还是依附关系。"
+      ],
+      "table": {
+        "head": ["类别", "小类 / 连接词", "例句"],
+        "rows": [
+          ["简单句", "一个谓语", "Hoy hace calor."],
+          ["并列复合句", "联合：y、ni", "Canta y baila."],
+          ["并列复合句", "选择：o", "¿Vienes o te quedas?"],
+          ["并列复合句", "转折：pero、sino que", "Llueve, pero salgo."],
+          ["主从复合句", "名词性从句", "Dice que vendrá."],
+          ["主从复合句", "形容词性（关系）从句", "Es la torre que vi."],
+          ["主从复合句", "状语从句", "Si llueve, no salgo."]
+        ]
+      },
+      "examples": [
+        ["Sevilla es la capital de Andalucía.", "塞维利亚是安达卢西亚的首府。（简单句）"],
+        ["Visitamos la Mezquita y después comimos en un patio.", "我们参观了清真寺，然后在一个院子里吃饭。（并列复合句：联合）"],
+        ["Llovía mucho, pero no nos quedamos en el hotel.", "雨下得很大，但我们没待在旅馆里。（并列复合句：转折）"],
+        ["Cuando salimos del palacio, vimos que ya era de noche.", "我们走出宫殿时，发现天已经黑了。（主从复合句：状语从句 + 名词性从句）"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Mi hermano se aficionó al flamenco en Sevilla.", "我哥哥在塞维利亚迷上了弗拉门戈。"],
+    ["Es un gran aficionado al fútbol.", "他是个铁杆足球迷。"],
+    ["Este niño tiene mucha imaginación.", "这孩子想象力很丰富。"],
+    ["El viento le dejó la piel áspera.", "风把他的皮肤吹得很粗糙。"],
+    ["El número de turistas aumenta cada año.", "游客人数逐年增加。"],
+    ["De vez en cuando voy a ver a mis abuelos.", "我有时去看望祖父母。"],
+    ["Esta región carece de agua en verano.", "这个地区夏天缺水。"],
+    ["Coge el paraguas, que te vas a mojar.", "带上伞吧，不然你会淋湿的。"]
+  ],
+  "exercises": [
+    {"type": "填空", "q": "Cuando llegamos a la estación, el tren ya ______ (salir).", "a": "había salido"},
+    {"type": "填空", "q": "El guía nos prometió que ______ (volver) a las cinco.", "a": "volvería（也可说 iba a volver）"},
+    {"type": "选择", "q": "Para el lunes ya ______ todo el libro. (habré leído / había leído)", "a": "habré leído"},
+    {"type": "填空", "q": "Las chicas volvieron del paseo muy ______ (cansado).", "a": "cansadas"},
+    {"type": "选择", "q": "«Llovía, pero salimos.» 属于哪类句子？（简单句 / 并列复合句 / 主从复合句）", "a": "并列复合句（转折）"},
+    {"type": "改写", "q": "Visitamos la Mezquita. Tiene cientos de columnas. →（把第二句改成 que 引导的从句）", "a": "Visitamos la Mezquita, que tiene cientos de columnas."},
+    {"type": "翻译", "q": "我们回到旅馆时浑身湿透了。（用混合补语）", "a": "Volvimos al hotel mojados hasta los huesos."},
+    {"type": "问答", "q": "Según el texto, ¿por qué volvían al hotel mojados?", "a": "Porque de cuando en cuando llovía."}
+  ],
+  "summary": [
+    "绝对时以说话时刻为基准，相对时以另一时间点为基准。",
+    "以过去为基准：había hecho、hacía、haría。",
+    "将来某时之前完成：将来完成时 habré hecho。",
+    "混合补语说明动词和主语或宾语，性数要一致。",
+    "按结构分：简单句、并列复合句、主从复合句。"
+  ],
+  "homework": [
+    "用 Creí que… 开头，分别接过去完成时、过去未完成时、条件式。",
+    "用 llegar、encontrar、dejar 各造一个带混合补语的句子。",
+    "从课文中各找出两个简单句、并列复合句和主从复合句。",
+    "用 8–10 句话写一次旅行，用上本课的时态和重点词汇。"
+  ],
+  "notes": {
+    "goals": "本课三项语法都是系统小结：时态部分把已学的陈述式时态按基准点重新归类；句子分类本课只讲按结构分，第 6 课再按说话目的和语气分。",
+    "vocab": "afición 后接 a 或 por，aficionarse 和 aficionado 后接 a；carecer 现在时第一人称单数是 carezco；de cuando en cuando 和 de vez en cuando 同义；alrededor de 还可表示“大约”。正字法沿用老课本：sólo、éste / ése / aquél 作代词时带重音，作形容词时不带；RAE 2010 年起不再要求，学生不加不算错。",
+    "text": "原创游记，叙述以相对时为主，可以让学生画时间轴找基准点。科尔多瓦清真寺始建于 8 世纪，16 世纪在其中修建了天主教堂；格拉纳达 1492 年被天主教双王攻占，是半岛上最后一个穆斯林王国。nazaríes（奈斯尔王朝的）、cantaor（弗拉门戈歌手）、sevillanas（塞维利亚舞，一种安达卢西亚民间舞）、llegar al alma（打动人心）不在词表里，课上口头解释。",
+    "grammar": "时态表可以画成时间轴：先定基准点，再看之前、同时、之后；以将来某时为基准时只有“之前”有专门的形式（将来完成时），同时、之后借用将来未完成时。现在完成时的归类各家不一：本课件按“以说话时刻为基准”归入绝对时，贝略（Bello）称它为 antepresente（现在之前），也有语法书把它归入相对时。混合补语要和副词对比（Llegaron tarde / Llegaron cansados），并复习第三册的 ir + 形容词、tener + 分词；句子分类先数变位动词，再看分句是平等还是依附。",
+    "exercises": "第 2 题也可说 iba a volver；第 6 题合成后是带解释性形容词从句的主从复合句，逗号不能省；第 7 题注意 mojados 和主语 nosotros 性数一致。"
+  }
+}

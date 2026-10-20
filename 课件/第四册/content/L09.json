@@ -1,0 +1,393 @@
+{
+  "book": 4,
+  "lesson": 9,
+  "title_es": "El padre",
+  "title_zh": "父亲",
+  "goals": [
+    "归纳过去未完成时和简单过去时的区别",
+    "会用两种过去时叙述往事、描写人物",
+    "认识常用指小词、指大词及其感情色彩",
+    "掌握指小词构成中的拼写变化",
+    "能用西语写一段回忆亲人的短文"
+  ],
+  "vocab": [
+    [
+      "tímido, da",
+      "胆小的，腼腆的"
+    ],
+    [
+      "soltar",
+      "松开，放开；释放"
+    ],
+    [
+      "seguro, ra",
+      "安全的；确信的"
+    ],
+    [
+      "atreverse (atrevido)",
+      "敢于（大胆的）"
+    ],
+    [
+      "curioso (curiosidad)",
+      "好奇的；奇怪的（好奇心）"
+    ],
+    [
+      "juntar(se)",
+      "使聚集；聚会，相聚"
+    ],
+    [
+      "asomar(se)",
+      "露出；探出身子"
+    ],
+    [
+      "estirar(se)",
+      "拉长；伸展（身体）"
+    ],
+    [
+      "corregir",
+      "改正；批改"
+    ],
+    [
+      "arrastrar(se)",
+      "拖，拽；爬行"
+    ],
+    [
+      "el carpintero",
+      "木匠"
+    ],
+    [
+      "el taller",
+      "作坊，车间"
+    ],
+    [
+      "la sierra",
+      "山脉；锯子"
+    ],
+    [
+      "el bolsillo",
+      "衣兜，口袋"
+    ],
+    [
+      "el sillón",
+      "扶手椅"
+    ],
+    [
+      "el cajón",
+      "抽屉"
+    ],
+    [
+      "la ventanilla",
+      "车窗；（办事）窗口"
+    ]
+  ],
+  "text": {
+    "title": "El padre",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "Mi padre era carpintero en un pueblecito de la sierra.",
+        "zh": "我父亲是山区一个小村子里的木匠。"
+      },
+      {
+        "who": "",
+        "es": "Era un hombre tímido, de manos grandotas, que hablaba muy poco.",
+        "zh": "他为人腼腆，长着一双大手，话很少。"
+      },
+      {
+        "who": "",
+        "es": "A menudo me asomaba a la puerta del taller, lleno de curiosidad.",
+        "zh": "我常常满怀好奇地在作坊门口探头张望。"
+      },
+      {
+        "who": "",
+        "es": "Él estiraba la espalda, me sonreía y seguía con su trabajo.",
+        "zh": "他伸伸腰，冲我笑一笑，又接着干活。"
+      },
+      {
+        "who": "",
+        "es": "Un día, mientras jugaba en el taller, me corté con un cuchillo.",
+        "zh": "有一天，我在作坊里玩的时候，被刀割伤了。"
+      },
+      {
+        "who": "",
+        "es": "Mi padre lo soltó todo y me llevó corriendo al médico.",
+        "zh": "父亲扔下手里的活儿，带着我跑去看医生。"
+      },
+      {
+        "who": "",
+        "es": "En todo el camino no dijo nada, pero me apretaba la manita con fuerza.",
+        "zh": "一路上他一句话也没说，却一直紧紧攥着我的小手。"
+      },
+      {
+        "who": "",
+        "es": "A su lado, me sentía seguro.",
+        "zh": "在他身边，我感到很安心。"
+      },
+      {
+        "who": "",
+        "es": "Por las noches corregía mis deberes en silencio.",
+        "zh": "每天晚上，他都默默地给我改作业。"
+      },
+      {
+        "who": "",
+        "es": "Para mis quince años, me hizo una cajita de madera.",
+        "zh": "我十五岁生日时，他亲手给我做了一个小木盒。"
+      },
+      {
+        "who": "",
+        "es": "Dentro había una notita que sólo decía: «Te quiero».",
+        "zh": "盒子里有一张小纸条，上面只写着：“我爱你。”"
+      },
+      {
+        "who": "",
+        "es": "Trabajó en aquel taller durante cuarenta años.",
+        "zh": "他在那个作坊里干了四十年。"
+      },
+      {
+        "who": "",
+        "es": "Hoy ya es mayor y arrastra un poco los pies al caminar.",
+        "zh": "如今他上了年纪，走起路来有点拖着脚。"
+      },
+      {
+        "who": "",
+        "es": "Cuando nos juntamos, todavía no me atrevo a decirle cuánto lo quiero.",
+        "zh": "我们相聚的时候，我仍然不敢告诉他我有多爱他。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "两种过去时的区别（小结）",
+      "points": [
+        "简单过去时叙述已完成的动作，推进情节；过去未完成时描写背景、人物。",
+        "过去的习惯、反复动作用过去未完成时；一次性的动作用简单过去时。",
+        "进行中的动作被打断：进行的用过去未完成时，打断它的用简单过去时。",
+        "动作持续了一段明确的时间（diez años），用简单过去时。"
+      ],
+      "table": {
+        "head": [
+          "区别",
+          "过去未完成时",
+          "简单过去时"
+        ],
+        "rows": [
+          [
+            "作用",
+            "描写、交代背景",
+            "叙述、推进情节"
+          ],
+          [
+            "次数",
+            "习惯、反复",
+            "一次或有限几次"
+          ],
+          [
+            "进行",
+            "正在进行的动作",
+            "打断它的动作"
+          ],
+          [
+            "时段",
+            "不强调起止",
+            "明确的时段"
+          ],
+          [
+            "常见时间词",
+            "siempre, cada día",
+            "un día, de pronto"
+          ],
+          [
+            "例",
+            "Leía…",
+            "…sonó el teléfono."
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Leía en el sofá cuando sonó el teléfono.",
+          "我正在沙发上看书，电话响了。"
+        ],
+        [
+          "De niño iba al río todos los veranos.",
+          "我小时候每年夏天都去河边。"
+        ],
+        [
+          "Ese verano fuimos al río tres veces.",
+          "那年夏天我们去了三次河边。"
+        ],
+        [
+          "Vivió diez años en Lima.",
+          "他在利马住了十年。（明确时段）"
+        ]
+      ]
+    },
+    {
+      "title": "指小词和指大词",
+      "points": [
+        "指小词常用 -ito、-cito、-ecito、-illo；-ico 带地区色彩。",
+        "除了“小”，常表示亲切、喜爱：abuelita；-illo 有时略带轻视。",
+        "指大词 -ón/-ona、-azo/-aza、-ote/-ota：大、粗笨，常带贬义或夸张。",
+        "注意拼写：c→qu、g→gu、z→c；有的已成独立的词：bolsillo、sillón。"
+      ],
+      "table": {
+        "head": [
+          "原词",
+          "派生词",
+          "说明"
+        ],
+        "rows": [
+          [
+            "casa",
+            "casita",
+            "-ito：去掉词尾元音"
+          ],
+          [
+            "café / joven",
+            "cafecito / jovencito",
+            "-cito"
+          ],
+          [
+            "pueblo",
+            "pueblecito",
+            "-ecito（拉美多 pueblito）"
+          ],
+          [
+            "poco / amigo",
+            "poquito / amiguito",
+            "c→qu，g→gu"
+          ],
+          [
+            "taza / pez",
+            "tacita / pececito",
+            "z→c"
+          ],
+          [
+            "silla / caja",
+            "sillón / cajón",
+            "已成独立的词"
+          ],
+          [
+            "perro / grande",
+            "perrazo / grandote",
+            "指大：-azo、-ote"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Mi abuelita vive en una casita junto al río.",
+          "我奶奶住在河边的一座小房子里。"
+        ],
+        [
+          "Espera un momentito, ahora mismo vuelvo.",
+          "稍等一下，我马上回来。"
+        ],
+        [
+          "¡Qué perrazo! Parece un lobo.",
+          "好大的一条狗！像只狼似的。"
+        ],
+        [
+          "Guardó la llave en el bolsillo y se sentó en el sillón.",
+          "他把钥匙放进口袋，坐到扶手椅上。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "No seas tímido, pregúntale a la profesora.",
+      "别害羞，去问问老师。"
+    ],
+    [
+      "¡Suéltame, que me haces daño!",
+      "放开我，你弄疼我了！"
+    ],
+    [
+      "¿Estás seguro de que es aquí?",
+      "你确定是这儿吗？"
+    ],
+    [
+      "Es una chica muy atrevida.",
+      "她是个很大胆的姑娘。"
+    ],
+    [
+      "¡Qué curioso! Anoche soñé con eso.",
+      "真奇怪！我昨晚正好梦到这件事。"
+    ],
+    [
+      "Juntamos dinero para comprarle un regalo.",
+      "我们凑钱给他买礼物。"
+    ],
+    [
+      "No te asomes a la ventana, que es peligroso.",
+      "别把身子探出窗外，危险。"
+    ],
+    [
+      "El niño arrastraba una silla por el pasillo.",
+      "孩子拖着一把椅子在走廊里走。"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "填空",
+      "q": "Cuando ______ (ser, yo) niño, ______ (ir) al río todos los veranos.",
+      "a": "era; iba"
+    },
+    {
+      "type": "填空",
+      "q": "______ (leer, yo) en el sofá cuando ______ (sonar) el teléfono.",
+      "a": "Leía; sonó（第一空也可用 Estaba leyendo）"
+    },
+    {
+      "type": "选择",
+      "q": "Mi abuelo ___ en Sevilla durante veinte años. (vivía / vivió)",
+      "a": "vivió（明确的时段）"
+    },
+    {
+      "type": "选择",
+      "q": "La casa ___ grande y tenía un jardín precioso. (era / fue)",
+      "a": "era（描写）"
+    },
+    {
+      "type": "填空",
+      "q": "用 -ito 写出指小词：poco → ______；amigo → ______；taza → ______",
+      "a": "poquito; amiguito; tacita"
+    },
+    {
+      "type": "填空",
+      "q": "写出指大词：casa → ______ (-ona)；perro → ______ (-azo)",
+      "a": "casona; perrazo"
+    },
+    {
+      "type": "翻译",
+      "q": "我们正在看电视，突然停电了。",
+      "a": "Veíamos (Estábamos viendo) la tele cuando de pronto se fue la luz."
+    },
+    {
+      "type": "问答",
+      "q": "Según el texto, ¿qué hizo el padre cuando su hijo se cortó?",
+      "a": "Lo soltó todo y lo llevó corriendo al médico."
+    }
+  ],
+  "summary": [
+    "简单过去时：叙述、推进情节；未完成时：描写背景。",
+    "习惯、反复用未完成时；一次性动作用简单过去时。",
+    "Leía cuando sonó…：进行中的动作被打断。",
+    "明确时段（diez años）用简单过去时。",
+    "-ito、-illo 指小；-ón、-azo、-ote 指大。"
+  ],
+  "homework": [
+    "用两种过去时写一段 8–10 句的回忆：我的父亲或母亲。",
+    "写出 10 个名词的指小词，注意 c/qu、g/gu、z/c 的变化。",
+    "找 5 个已成独立词的指小词或指大词，查出意思。"
+  ],
+  "notes": {
+    "goals": "两种过去时第一册第 21、22 课和第二册第 1、2 课都讲过，本课作系统小结，重点是“被打断”和“明确时段”两种情况；poder、saber 等动词两种过去时的意义差别是第 15 课的内容，本课不讲。指小词第二册第 15 课接触过，本课系统归纳，从本课起例句里可以使用。",
+    "vocab": "corregir 是 e→i 变化，g 在 a、o 前变 j：corrijo、corrige、corrigió。soltar 是 o→ue：suelto、suelta。seguro 有两个意思：estar seguro de…（确信）、sentirse seguro（觉得安全）。bolsillo、sillón、cajón、ventanilla 原是指小词或指大词，现在是独立的词。",
+    "text": "原创叙事短文：前半段多用过去未完成时描写，第 5–7 句用简单过去时推进情节，第 12 句是明确时段。manita 是 mano 的指小词，仍是阴性（拉美有的地方说 manito）；grandote 是形容词 grande 的指大形式。按老课本正字法，副词 sólo 带重音；RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "两种过去时的选择取决于说话人怎样看待动作，有时两种都对、意思略有不同（Ese día hacía frío / hizo frío）。指小词形式有地区差异（pueblecito / pueblito），不必要求全部掌握；-azo 还可表示“一击”（un portazo 摔门）。有的派生词变了性：la silla → el sillón，la caja → el cajón。",
+    "exercises": "第 2 题也可用 Estaba leyendo；第 7 题 Veíamos 和 Estábamos viendo 都对，de pronto 可省略；第 6 题 perro 的指大词也有 perrote，题目已限定 -azo。"
+  }
+}

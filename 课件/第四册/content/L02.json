@@ -1,0 +1,173 @@
+{
+  "book": 4,
+  "lesson": 2,
+  "title_es": "Alunizaje",
+  "title_zh": "登月",
+  "goals": [
+    "归纳 que 的多种用法，分清 que 和 qué",
+    "分清及物动词和代词式动词，掌握加 se 后的词义变化",
+    "熟练使用宾格、与格代词的连用和位置",
+    "能用西语讲述阿波罗 11 号登月"
+  ],
+  "vocab": [
+    ["el alunizaje", "登月，在月球着陆"],
+    ["alunizar", "在月球着陆"],
+    ["conducir", "驾驶；引导"],
+    ["agotar(se) (agotado)", "耗尽（筋疲力尽的）"],
+    ["comunicar", "通知；联系；相通"],
+    ["descubrir", "发现；揭露"],
+    ["imponer(se)", "强加；使敬畏；占上风"],
+    ["recoger", "捡起；收集；接（人）"],
+    ["el aspecto", "外表，样子；方面"],
+    ["avanzar", "前进；进展"],
+    ["agradar (agradable)", "使喜欢（令人愉快的）"],
+    ["experimentar", "体验，感受；试验"],
+    ["el, la astronauta", "宇航员"],
+    ["el módulo lunar", "登月舱"],
+    ["el módulo de mando", "指令舱"],
+    ["el combustible", "燃料"],
+    ["la humanidad", "人类"],
+    ["el salto", "跳；飞跃"]
+  ],
+  "text": {
+    "title": "El abuelo y la Luna",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {"who": "A", "es": "Abuelo, ¿es verdad que viste el alunizaje en directo?", "zh": "爷爷，您真的看过登月的直播吗？"},
+      {"who": "B", "es": "Claro que sí. Fue el 20 de julio de 1969. ¡Esa noche nadie se durmió!", "zh": "当然。那是 1969 年 7 月 20 日。那天晚上谁都没睡着！"},
+      {"who": "A", "es": "¿Quiénes eran los astronautas que viajaron en el Apolo 11?", "zh": "乘阿波罗 11 号去的宇航员都有谁？"},
+      {"who": "B", "es": "Armstrong, Aldrin y Collins. Collins se quedó en el módulo de mando.", "zh": "阿姆斯特朗、奥尔德林和柯林斯。柯林斯留在了指令舱里。"},
+      {"who": "B", "es": "Los otros dos bajaron a la Luna en el módulo lunar, el Águila.", "zh": "另外两个人乘登月舱降落到月球上，登月舱名叫“鹰”号。"},
+      {"who": "A", "es": "¿Es cierto que alunizar fue muy difícil?", "zh": "听说着陆非常难，是真的吗？"},
+      {"who": "B", "es": "Sí. Había muchas rocas y Armstrong tuvo que conducir el módulo a mano.", "zh": "是的。下面有很多岩石，阿姆斯特朗只好手动驾驶登月舱。"},
+      {"who": "B", "es": "Cuando alunizaron, el combustible estaba a punto de agotarse.", "zh": "着陆的时候，燃料都快用完了。"},
+      {"who": "B", "es": "Armstrong comunicó a la Tierra: «El Águila ha alunizado».", "zh": "阿姆斯特朗向地面报告：“鹰已着陆。”"},
+      {"who": "A", "es": "Y al bajar dijo: «Es un pequeño paso para el hombre…»", "zh": "他走下登月舱时说：“这是个人的一小步……”"},
+      {"who": "B", "es": "«… pero un gran salto para la humanidad». ¡Me lo sé de memoria!", "zh": "“……却是人类的一大步。”这句话我背得滚瓜烂熟！"},
+      {"who": "B", "es": "Recogieron rocas y descubrieron que era más fácil avanzar a saltos.", "zh": "他们采集了岩石，还发现在那儿跳着走更容易。"},
+      {"who": "A", "es": "¡Qué emocionante! A mí también me gustaría experimentar algo así.", "zh": "真激动人心！我也想体验一下这样的事。"},
+      {"who": "B", "es": "¡Que se cumpla tu sueño! Pero ahora vete a la cama, que ya es tarde.", "zh": "祝你梦想成真！不过现在快去睡觉吧，已经很晚了。"}
+    ]
+  },
+  "grammar": [
+    {
+      "title": "que 的多种用法",
+      "points": [
+        "关系代词：引导形容词从句，先行词可以是人或物：la nave que alunizó。",
+        "连词：引导名词性从句；用于比较（más… que）和结果（tan… que）。",
+        "口语里接在命令、请求后说明原因：Date prisa, que es tarde。",
+        "que + 虚拟式表示愿望或间接命令：¡Que te vaya bien!"
+      ],
+      "table": {
+        "head": ["用法", "例句"],
+        "rows": [
+          ["关系代词", "la nave que alunizó"],
+          ["引导名词性从句", "Dicen que va a llover."],
+          ["比较", "Es más alto que yo."],
+          ["结果：tan… que", "Era tan tarde que…"],
+          ["原因、解释（口语）", "Corre, que es tarde."],
+          ["愿望、间接命令", "¡Que te vaya bien!"],
+          ["tener que / hay que", "Hay que estudiar."]
+        ]
+      },
+      "examples": [
+        ["El abuelo dice que vio el alunizaje por televisión.", "爷爷说他在电视上看过登月。"],
+        ["La Luna es mucho más pequeña que la Tierra.", "月球比地球小得多。"],
+        ["Ponte el abrigo, que hace frío.", "把大衣穿上，天冷。"],
+        ["¡Que tengáis buen viaje!", "祝你们旅途愉快！"]
+      ]
+    },
+    {
+      "title": "及物动词和代词式动词",
+      "points": [
+        "及物动词加 se，动作落到主语自己身上：lavar al niño / lavarse。",
+        "加 se 后意思常会改变：ir 去 → irse 离开；dormirse 睡着。",
+        "有的 se 起强调作用，表示动作做完、做彻底：comerse, saberse。",
+        "se 随主语变人称：me voy, te vas；位置同宾格代词：vete。"
+      ],
+      "table": {
+        "head": ["动词", "意思", "代词式", "意思"],
+        "rows": [
+          ["lavar", "洗（别人、东西）", "lavarse", "洗（自己）"],
+          ["ir", "去", "irse", "离开，走掉"],
+          ["dormir", "睡觉", "dormirse", "睡着，入睡"],
+          ["quedar", "剩下；约好", "quedarse", "留下；变得"],
+          ["llevar", "带去；穿着", "llevarse", "拿走；相处"],
+          ["poner", "放", "ponerse", "穿上；变得"],
+          ["comer", "吃", "comerse", "吃掉，吃光"]
+        ]
+      },
+      "examples": [
+        ["La madre lava al niño. / El niño se lava solo.", "妈妈给孩子洗澡。／孩子自己洗。"],
+        ["Collins se quedó en el módulo de mando.", "柯林斯留在了指令舱里。"],
+        ["El niño se durmió en cuanto se acostó.", "孩子一躺下就睡着了。"],
+        ["Llévate el paraguas, que va a llover.", "把伞带上吧，要下雨了。"]
+      ]
+    },
+    {
+      "title": "宾格代词和与格代词",
+      "points": [
+        "宾格 lo、la、los、las 代直接宾语；与格 le、les 代间接宾语，不分阴阳。",
+        "两个代词连用时与格在前；le、les 后面接 lo、la 等时改为 se：Se lo di。",
+        "放在变位动词前；接原形、副动词、肯定命令式时连写在后，常要补写重音。",
+        "西班牙常用 le 代替指男性人的 lo 作直接宾语（leísmo）：Le vi ayer。"
+      ],
+      "table": {
+        "head": ["位置", "例句"],
+        "rows": [
+          ["变位动词前", "Se lo di ayer."],
+          ["否定命令式前", "No se lo digas."],
+          ["原形动词后", "Voy a dárselo."],
+          ["或提到变位动词前", "Se lo voy a dar."],
+          ["副动词后", "Estoy diciéndoselo."],
+          ["肯定命令式后", "Dígaselo. / Dámelo."]
+        ]
+      },
+      "examples": [
+        ["—¿Le diste el mapa a Juan? —Sí, se lo di ayer.", "——你把地图给胡安了吗？——给了，昨天给的。"],
+        ["Cuéntanoslo otra vez, abuelo.", "爷爷，再给我们讲一遍吧。"],
+        ["No se lo digas a nadie.", "这件事别告诉任何人。"],
+        ["Estoy explicándoselo ahora mismo.", "我正在给他解释呢。"]
+      ]
+    }
+  ],
+  "phrases": [
+    ["Te comunico que mañana no hay clase.", "通知你一下，明天不上课。"],
+    ["Fleming descubrió la penicilina en 1928.", "弗莱明在 1928 年发现了青霉素。"],
+    ["Este profesor impone mucho respeto.", "这位老师让人肃然起敬。"],
+    ["Al final se impuso el equipo visitante.", "最后客队占了上风。"],
+    ["Hoy tienes muy buen aspecto.", "你今天气色很好。"],
+    ["Las obras avanzan muy despacio.", "工程进展得很慢。"],
+    ["Me agrada pasear junto al mar; es muy agradable.", "我喜欢在海边散步，那很惬意。"],
+    ["Llegué agotado: conduje ocho horas sin parar.", "我累坏了：一口气开了八个小时的车。"]
+  ],
+  "exercises": [
+    {"type": "选择", "q": "¡___ te vaya bien! / ¡___ examen tan difícil! (Que / Qué)", "a": "Que（愿望）；Qué（感叹）"},
+    {"type": "填空", "q": "Abrígate, ___ hace mucho frío.（填一个词说明原因，不用 porque、pues）", "a": "que"},
+    {"type": "填空", "q": "Ya es muy tarde: ______ (irse, yo) a casa.（用现在时）", "a": "me voy"},
+    {"type": "选择", "q": "Estaba tan cansado que ___ en el sofá.（睡着了）(durmió / se durmió)", "a": "se durmió"},
+    {"type": "改写", "q": "Le di las fotos a mi abuelo. →（用两个代词）", "a": "Se las di."},
+    {"type": "改写", "q": "Voy a explicar la lección a los alumnos. →（用两个代词，写出两种位置）", "a": "Voy a explicársela. / Se la voy a explicar."},
+    {"type": "翻译", "q": "把它借给我吧。（对 tú 说，“它”指 el libro）", "a": "Préstamelo.（西班牙也常说 Déjamelo.）"},
+    {"type": "问答", "q": "¿Quién se quedó en el módulo de mando?", "a": "Collins (se quedó en el módulo de mando)."}
+  ],
+  "summary": [
+    "que：关系代词、连词、比较、原因、愿望、tener que 等。",
+    "疑问、感叹的 qué 带重音，连词和关系代词 que 不带。",
+    "加 se 后词义常变：irse 离开，dormirse 睡着。",
+    "两个代词连用与格在前，le、les 遇 lo、la 等改为 se。",
+    "原形、副动词、肯定命令式后连写代词，注意补写重音。"
+  ],
+  "homework": [
+    "找出课文里所有的 que，说明各属哪种用法。",
+    "用 quedar(se)、llevar(se) 各造一对对比句。",
+    "用 8–10 句话讲述阿波罗 11 号登月的经过。"
+  ],
+  "notes": {
+    "goals": "三项语法都是归纳复习：que 的用法贯穿第一至三册；代词式动词接第二册第 5、7 课；宾格、与格代词接第一册第 8–11 课。重点放在易错处：qué 和 que 的重音、加 se 后的词义变化、代词连写后的重音。",
+    "vocab": "conducir 现在时 conduzco，简单过去时 conduje、condujo、condujeron（不是 condujieron）；imponer 按 poner 变位（impongo、impuse、impuesto）；recoger 在 o、a 前 g 变 j（recojo、recoja）；avanzar 简单过去时 avancé；agotado 常指“筋疲力尽的”，也指“售完的”。",
+    "text": "原创对话。阿波罗 11 号 1969 年 7 月 16 日发射，20 日登月舱“鹰”号在静海着陆，阿姆斯特朗、奥尔德林走上月面，柯林斯留在指令舱“哥伦比亚”号里绕月飞行；燃料所剩无几是常见说法，Águila 是 Eagle 的译名；阿姆斯特朗踏上月面时美洲还是 20 日晚上，欧洲已是 21 日凌晨。阿姆斯特朗的名言西语有几种译法，课文用常见的一种；本册按老课本正字法，副词 sólo、指示代词 éste 等带重音，RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "提醒 ¡Que te vaya bien!（愿望）和 ¡Qué bien!（感叹）的区别；表示原因的 que 是口语用法，多接在命令或请求后面。leísmo 只在指男性人的单数直接宾语时被认可，课件和练习一律用 lo。",
+    "exercises": "第 3 题用现在时表示马上要走；第 4 题 dormir 是“睡觉”，dormirse 是“睡着”；第 6 题两种位置都对，连写时 explicar 要补写重音；第 7 题 prestar + me + lo，重音落在 pres 上。"
+  }
+}

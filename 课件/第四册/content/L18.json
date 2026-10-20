@@ -1,0 +1,419 @@
+{
+  "book": 4,
+  "lesson": 18,
+  "title_es": "La tierra que compartimos",
+  "title_zh": "我们共同的地球",
+  "goals": [
+    "掌握 por + 形容词 / 副词 + que + 虚拟式",
+    "掌握 ir、venir、andar + 副动词的意义",
+    "和第 5 课的 seguir、llevar + 副动词对比",
+    "能用西语谈论环境保护和日常环保行动"
+  ],
+  "vocab": [
+    [
+      "compartir",
+      "分享；共用"
+    ],
+    [
+      "aburrir(se) (aburrido)",
+      "使厌烦；感到无聊"
+    ],
+    [
+      "fastidiar (fastidioso)",
+      "使厌烦，使恼火（讨厌的）"
+    ],
+    [
+      "gastar (gastado)",
+      "花费，消耗（用旧的）"
+    ],
+    [
+      "expuesto, ta",
+      "暴露的；易受……的"
+    ],
+    [
+      "a causa de",
+      "由于，因为"
+    ],
+    [
+      "la prueba",
+      "证据；考试；试验"
+    ],
+    [
+      "reducir(se)",
+      "减少，缩小"
+    ],
+    [
+      "afirmar (afirmación)",
+      "肯定，断言（断言）"
+    ],
+    [
+      "procurar(se)",
+      "设法，力求；谋得"
+    ],
+    [
+      "el medio ambiente",
+      "环境"
+    ],
+    [
+      "el cambio climático",
+      "气候变化"
+    ],
+    [
+      "contaminar (contaminación)",
+      "污染"
+    ],
+    [
+      "el plástico",
+      "塑料"
+    ],
+    [
+      "reciclar (reciclaje)",
+      "回收利用"
+    ],
+    [
+      "el residuo",
+      "废物，垃圾"
+    ],
+    [
+      "el grifo",
+      "水龙头"
+    ],
+    [
+      "el planeta",
+      "行星；地球"
+    ]
+  ],
+  "text": {
+    "title": "La tierra que compartimos",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "A",
+        "es": "Oye, ¿por qué andas apagando todas las luces de la casa?",
+        "zh": "哎，你怎么满屋子到处关灯啊？"
+      },
+      {
+        "who": "B",
+        "es": "Para gastar menos energía. Lo vengo diciendo desde hace meses.",
+        "zh": "为了少用点电。这话我几个月来一直在说。"
+      },
+      {
+        "who": "A",
+        "es": "Ya, pero por mucho que ahorres tú, el planeta no va a cambiar.",
+        "zh": "是啊，可你再怎么省，地球也不会因此改变。"
+      },
+      {
+        "who": "B",
+        "es": "Por pequeño que sea el esfuerzo de cada uno, sirve de algo.",
+        "zh": "每个人的努力再小，也总有用处。"
+      },
+      {
+        "who": "A",
+        "es": "Pues a mí me fastidia separar la basura. ¡Me aburre muchísimo!",
+        "zh": "可我烦透了垃圾分类，太没劲了！"
+      },
+      {
+        "who": "B",
+        "es": "Por aburrido que te parezca, reciclar ayuda a reducir los residuos.",
+        "zh": "不管你觉得多没劲，回收利用能帮着减少垃圾。"
+      },
+      {
+        "who": "A",
+        "es": "¿Y el plástico? Ahora lo encuentras hasta en el mar.",
+        "zh": "那塑料呢？现在连海里都能找到。"
+      },
+      {
+        "who": "B",
+        "es": "Exacto. Y los animales marinos están expuestos a él: muchos lo comen.",
+        "zh": "没错。海洋动物也暴露在塑料之中，很多还会把它吃下去。"
+      },
+      {
+        "who": "A",
+        "es": "Dicen que el clima va cambiando a causa de la actividad humana.",
+        "zh": "听说由于人类活动，气候正在一点点变化。"
+      },
+      {
+        "who": "B",
+        "es": "Así lo afirma la mayoría de los científicos, y hay muchas pruebas.",
+        "zh": "大多数科学家都这么说，而且证据很多。"
+      },
+      {
+        "who": "A",
+        "es": "¿Y qué podemos hacer nosotros?",
+        "zh": "那我们能做些什么呢？"
+      },
+      {
+        "who": "B",
+        "es": "Procurar gastar sólo el agua que necesitamos y usar menos plástico.",
+        "zh": "尽量只用需要的水，少用塑料。"
+      },
+      {
+        "who": "A",
+        "es": "Tienes razón. Al fin y al cabo, la Tierra la compartimos todos.",
+        "zh": "你说得对。说到底，地球是我们大家共有的。"
+      },
+      {
+        "who": "B",
+        "es": "Eso es. Y si cada uno pone de su parte, las cosas irán mejorando.",
+        "zh": "就是。只要每个人都出一份力，情况就会慢慢好起来。"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "por + 形容词 / 副词 + que",
+      "points": [
+        "意为“无论多么……也”，从句一般用虚拟式：Por difícil que sea, …",
+        "形容词要和所说的名词性数一致；副词不变：por lejos que viva。",
+        "常加 muy 加强语气：por muy cansado que esté。",
+        "指已知的事实时也可用陈述式，但虚拟式更常见。"
+      ],
+      "table": {
+        "head": [
+          "结构",
+          "从句的式",
+          "例子"
+        ],
+        "rows": [
+          [
+            "por + 形容词 + que",
+            "虚拟式",
+            "por difícil que sea"
+          ],
+          [
+            "por + 副词 + que",
+            "虚拟式",
+            "por lejos que viva"
+          ],
+          [
+            "por muy + 形容词 + que",
+            "虚拟式",
+            "por muy caro que sea"
+          ],
+          [
+            "por + 形容词 + que",
+            "陈述式（事实）",
+            "por cansado que estaba"
+          ],
+          [
+            "por mucho / más que",
+            "陈述式或虚拟式（第 15 课）",
+            "por mucho que llueva"
+          ],
+          [
+            "por mucho + 名词 + que",
+            "虚拟式",
+            "por mucho dinero que…"
+          ],
+          [
+            "aunque（对比）",
+            "虚拟式或陈述式",
+            "aunque sea difícil"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Por difícil que sea, lo intentaremos.",
+          "无论多难，我们都要试一试。"
+        ],
+        [
+          "Por pequeñas que sean, estas acciones son importantes.",
+          "这些行动不管多小，都很重要。"
+        ],
+        [
+          "Por muy lejos que viva, iré a verla.",
+          "不管她住得多远，我都要去看她。"
+        ],
+        [
+          "Por cansado que estaba, siguió trabajando.",
+          "他尽管很累，还是继续干活。（陈述式：说的是事实）"
+        ]
+      ]
+    },
+    {
+      "title": "表示持续的动词短语：ir、venir、andar + 副动词",
+      "points": [
+        "ir + 副动词：动作逐渐发展，常带 poco a poco。",
+        "venir + 副动词：从过去一直延续到现在，常带 desde (hace)…。",
+        "andar + 副动词：到处、反复做某事，常带不满或贬义。",
+        "代词可放前或后：Lo vengo diciendo = Vengo diciéndolo。"
+      ],
+      "examples": [
+        [
+          "La situación va mejorando poco a poco.",
+          "情况在一点点好转。"
+        ],
+        [
+          "Cada vez más familias van separando la basura.",
+          "越来越多的家庭开始垃圾分类。"
+        ],
+        [
+          "Lo vengo diciendo desde hace años.",
+          "这话我好几年来一直在说。"
+        ],
+        [
+          "Anda diciendo mentiras sobre nosotros.",
+          "他到处散布关于我们的谎话。"
+        ]
+      ]
+    },
+    {
+      "title": "持续动词短语：和第 5 课对比",
+      "points": [
+        "seguir / continuar + 副动词：到某时动作仍没停，“还在……”。",
+        "llevar + 时间 + 副动词：说明已经持续了多久，要有时间段。",
+        "venir 也说从过去到现在，但强调一直延续，不必说时长。",
+        "ir 着眼于变化（越来越……），seguir 只说没停，不含变化。"
+      ],
+      "table": {
+        "head": [
+          "短语",
+          "意义",
+          "例句"
+        ],
+        "rows": [
+          [
+            "ir + 副动词",
+            "逐渐发展、变化",
+            "El río va creciendo."
+          ],
+          [
+            "venir + 副动词",
+            "从过去一直延续到现在",
+            "Lo vengo diciendo."
+          ],
+          [
+            "andar + 副动词",
+            "到处、反复（常含贬义）",
+            "Anda criticándonos."
+          ],
+          [
+            "seguir + 副动词",
+            "仍在继续（第 5 课）",
+            "Sigue lloviendo."
+          ],
+          [
+            "continuar + 副动词",
+            "仍在继续（第 5 课）",
+            "Continúa nevando."
+          ],
+          [
+            "llevar + 时间 + 副动词",
+            "已持续多久（第 5 课）",
+            "Lleva un día nevando."
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Sigo estudiando español. / Llevo dos años estudiándolo.",
+          "我还在学西班牙语。/ 我学了两年了。"
+        ],
+        [
+          "Llevo años diciéndolo. / Lo vengo diciendo desde hace años.",
+          "这话我说了好几年了。/ 这话我几年来一直在说。"
+        ],
+        [
+          "La contaminación sigue aumentando. / va aumentando.",
+          "污染仍在增加。/ 污染在逐渐增加。"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "Comparto la habitación con mi hermano.",
+      "我和弟弟合住一个房间。"
+    ],
+    [
+      "Me aburro cuando la clase es aburrida.",
+      "课上得没意思的时候，我就觉得无聊。"
+    ],
+    [
+      "¡Qué fastidio! Llevo una hora esperando.",
+      "真烦人！我已经等了一个小时了。"
+    ],
+    [
+      "Está fastidiado porque ha perdido el tren.",
+      "他没赶上火车，很恼火。"
+    ],
+    [
+      "Estos zapatos ya están muy gastados.",
+      "这双鞋已经穿得很旧了。"
+    ],
+    [
+      "Su respuesta fue afirmativa.",
+      "他的回答是肯定的。"
+    ],
+    [
+      "Ésta es la prueba de que tenía razón.",
+      "这就是证明他说得对的证据。"
+    ],
+    [
+      "Cierra el grifo mientras te lavas los dientes.",
+      "刷牙的时候把水龙头关上。"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "填空",
+      "q": "Por difícil que ______ (ser), lo intentaremos.",
+      "a": "sea"
+    },
+    {
+      "type": "选择",
+      "q": "Por ______ que estén, siguen trabajando. (cansado / cansados)",
+      "a": "cansados（形容词和主语性数一致）"
+    },
+    {
+      "type": "改写",
+      "q": "Aunque sea muy caro, lo compraré. → Por ______",
+      "a": "Por (muy) caro que sea, lo compraré."
+    },
+    {
+      "type": "填空",
+      "q": "La contaminación ______ (ir) aumentando cada año.（用现在时）",
+      "a": "va"
+    },
+    {
+      "type": "选择",
+      "q": "Lo ______ diciendo desde hace años.（一直到现在）(vengo / ando)",
+      "a": "vengo"
+    },
+    {
+      "type": "选择",
+      "q": "Tu primo ______ contando mentiras por ahí.（到处）(anda / sigue)",
+      "a": "anda"
+    },
+    {
+      "type": "翻译",
+      "q": "我在这所大学学西班牙语已经两年了。（用 llevar）",
+      "a": "Llevo dos años estudiando español en esta universidad."
+    },
+    {
+      "type": "问答",
+      "q": "Según el texto, ¿qué podemos hacer para cuidar el planeta?",
+      "a": "Procurar gastar sólo el agua que necesitamos y usar menos plástico."
+    }
+  ],
+  "summary": [
+    "por + 形容词/副词 + que + 虚拟式：无论多么……也。",
+    "形容词和名词性数一致；也说 por muy… que。",
+    "ir + 副动词表渐进；venir + 副动词表从过去延续到现在。",
+    "andar + 副动词表示到处、反复做，常带贬义。",
+    "seguir 说“还在做”，llevar 说“做了多久”。"
+  ],
+  "homework": [
+    "用 por + 形容词 / 副词 + que 写五个句子，谈谈环保的困难。",
+    "用 ir、venir、andar + 副动词各写两个句子。",
+    "写一篇 10 句左右的短文：《我能为地球做什么》。"
+  ],
+  "notes": {
+    "goals": "por + 形容词 + que 接第 15 课的让步从句变体（por mucho que、por más que），本课专讲形容词、副词插在 por 和 que 之间的格式。持续动词短语按课件分工，本课讲 ir / venir / andar，并和第 5 课的 seguir / continuar / llevar 列表对比。",
+    "vocab": "reducir 变位同 conducir（reduzco, reduje, redujeron）。aburrido 和 ser / estar 连用意思不同：ser aburrido 是“乏味的”，estar aburrido 是“感到无聊”；fastidiado 是“恼火的”，fastidioso 是“讨厌的、烦人的”。expuesto 是 exponer 的过去分词，常说 estar expuesto a；procurarse 是“为自己谋得”，用得少。",
+    "text": "对话里 andar、venir、ir + 副动词和 por… que 各出现几次，可先让学生找出来；la Tierra la compartimos todos 是第 17 课的直接宾语提前。环境方面只用稳妥的说法（气候变化和人类活动有关是绝大多数科学家的看法），不引用具体数字。sólo、Ésta 按老课本带重音，RAE 2010 年起不再要求，学生不加不算错。",
+    "grammar": "强调 por 和 que 之间的形容词要和被说明的名词性数一致（por pequeñas que sean estas acciones）；用陈述式的格式学生会认即可，造句以虚拟式为主。venir + 副动词和 llevar + 副动词意思接近，区别在于 llevar 必须有时间段，venir 常和 desde (hace) 连用。andar + 副动词也可以是中性的（Anda buscando trabajo），但常带不满。",
+    "exercises": "第 1–3 题练 por… que，第 2 题注意性数一致；第 4–7 题练持续动词短语，第 5、6 题要按括号里的提示选，没有提示时 ando、sigue 也勉强能说。第 7 题也可以说 Hace dos años que estudio español en esta universidad，但题目要求用 llevar。"
+  }
+}

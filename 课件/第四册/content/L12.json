@@ -1,0 +1,434 @@
+{
+  "book": 4,
+  "lesson": 12,
+  "title_es": "La pulsera",
+  "title_zh": "手镯",
+  "goals": [
+    "归纳简单条件式的五种主要用法",
+    "分清将来时和条件式表示推测的区别",
+    "掌握关系词 + 原形动词的结构",
+    "会把这种结构改写成带虚拟式的从句",
+    "能用西语讲述一个完整的小故事"
+  ],
+  "vocab": [
+    [
+      "espléndido, da",
+      "壮丽的；极好的；慷慨的"
+    ],
+    [
+      "asistir (a)",
+      "出席，参加；照顾"
+    ],
+    [
+      "coger",
+      "拿，取；抓；乘坐"
+    ],
+    [
+      "hundir(se)",
+      "（使）沉没；使沮丧"
+    ],
+    [
+      "encerrar(se)",
+      "关起来；闭门不出"
+    ],
+    [
+      "armar(se)",
+      "武装；组装；闹出"
+    ],
+    [
+      "estremecer(se)",
+      "（使）颤抖，震动"
+    ],
+    [
+      "atropellar",
+      "（车辆）撞倒，轧"
+    ],
+    [
+      "restregar(se)",
+      "使劲擦，揉"
+    ],
+    [
+      "reflejar(se)",
+      "反射，映照；反映"
+    ],
+    [
+      "la pulsera",
+      "手镯"
+    ],
+    [
+      "la muñeca",
+      "手腕；玩偶"
+    ],
+    [
+      "el camarero, la camarera",
+      "服务员"
+    ],
+    [
+      "sospechar (de)",
+      "怀疑"
+    ],
+    [
+      "acusar",
+      "指控，指责"
+    ],
+    [
+      "la linterna",
+      "手电筒"
+    ],
+    [
+      "avergonzado, da",
+      "羞愧的，难为情的"
+    ]
+  ],
+  "text": {
+    "title": "La pulsera",
+    "note": "仿照本课课文编写",
+    "lines": [
+      {
+        "who": "",
+        "es": "La señora Ortiz dio una cena espléndida para celebrar su cumpleaños.",
+        "zh": "奥尔蒂斯太太办了一场丰盛的晚宴，庆祝自己的生日。"
+      },
+      {
+        "who": "",
+        "es": "Asistieron muchos amigos, y ella llevaba su pulsera de oro.",
+        "zh": "来了很多朋友，她戴着自己的金手镯。"
+      },
+      {
+        "who": "",
+        "es": "Serían las doce cuando se miró la muñeca: ¡la pulsera no estaba!",
+        "zh": "大约十二点的时候，她看了一眼手腕：手镯不见了！"
+      },
+      {
+        "who": "",
+        "es": "Se estremeció y armó un escándalo: nadie saldría hasta que apareciera.",
+        "zh": "她浑身一颤，大闹起来：手镯找到以前，谁也别想走。"
+      },
+      {
+        "who": "",
+        "es": "Todos sospecharon de Luis, el camarero que había cogido los abrigos.",
+        "zh": "大家都怀疑路易斯，就是那个给客人接过大衣的服务员。"
+      },
+      {
+        "who": "",
+        "es": "Luis, hundido, se encerró en la cocina: no sabía qué decir.",
+        "zh": "路易斯十分沮丧，把自己关在厨房里：他不知道该说什么。"
+      },
+      {
+        "who": "",
+        "es": "Ana, la hija, se restregó los ojos: ¿dónde estaría la pulsera?",
+        "zh": "女儿安娜揉了揉眼睛：手镯会在哪儿呢？"
+      },
+      {
+        "who": "",
+        "es": "De pronto recordó que, en la cena, el perro se había escapado.",
+        "zh": "她忽然想起来，晚饭时狗跑了出去。"
+      },
+      {
+        "who": "",
+        "es": "Un coche casi lo había atropellado y su madre había salido corriendo.",
+        "zh": "当时一辆车差点轧到它，她母亲急忙跑了出去。"
+      },
+      {
+        "who": "",
+        "es": "Ana bajó al jardín con una linterna y buscó junto a la puerta.",
+        "zh": "安娜拿着手电筒下楼到花园里，在门边找了起来。"
+      },
+      {
+        "who": "",
+        "es": "Entre las flores, algo reflejaba la luz: ¡era la pulsera!",
+        "zh": "花丛中有个东西在反光：正是那只手镯！"
+      },
+      {
+        "who": "",
+        "es": "La señora, avergonzada, le pidió perdón a Luis delante de todos.",
+        "zh": "太太很惭愧，当着大家的面向路易斯道歉。"
+      },
+      {
+        "who": "",
+        "es": "—Mamá, yo que tú, no acusaría a nadie tan deprisa —le dijo Ana.",
+        "zh": "“妈妈，我要是你，就不会这么快指责别人。”安娜对她说。"
+      },
+      {
+        "who": "",
+        "es": "Luis sonrió: «No hay nada que perdonar, señora».",
+        "zh": "路易斯笑了笑：“没什么要原谅的，太太。”"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "title": "简单条件式（一）：时间和推测",
+      "points": [
+        "过去将来：主句是过去时，从句说之后才发生的事：Dijo que vendría。",
+        "推测过去的情况：Serían las diez（当时大概十点）。",
+        "将来时推测现在（Serán las diez），条件式推测过去（Serían…）。",
+        "下表把条件式的主要用法归为五类，并和将来时对比。"
+      ],
+      "table": {
+        "head": [
+          "用法",
+          "例句",
+          "说明"
+        ],
+        "rows": [
+          [
+            "过去将来",
+            "Dijo que vendría.",
+            "过去看来的将来"
+          ],
+          [
+            "推测过去",
+            "Serían las diez.",
+            "≈ Probablemente eran"
+          ],
+          [
+            "委婉、礼貌",
+            "¿Podría ayudarme?",
+            "请求、愿望更客气"
+          ],
+          [
+            "条件句主句",
+            "Si pudiera, iría.",
+            "现在或将来难实现"
+          ],
+          [
+            "建议",
+            "Yo que tú, no iría.",
+            "我要是你，就……"
+          ],
+          [
+            "对比：将来时",
+            "Serán las diez.",
+            "推测现在"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "Me prometió que vendría a las ocho.",
+          "他答应我八点来。"
+        ],
+        [
+          "Serían las doce cuando volvió a casa.",
+          "他回到家时大概十二点了。"
+        ],
+        [
+          "Ana se preguntó dónde estaría la pulsera.",
+          "安娜琢磨着手镯会在哪儿。"
+        ]
+      ]
+    },
+    {
+      "title": "简单条件式（二）：委婉、条件和建议",
+      "points": [
+        "委婉：poder、querer、gustar、deber 等用条件式，请求或愿望更客气。",
+        "条件句：Si + 虚拟式过去未完成时，主句用条件式，表示难以实现。",
+        "建议：Yo que tú + 条件式；Deberías… 比 Debes… 委婉。",
+        "si 引导的条件从句里不用条件式：*Si tendría… 是错的。"
+      ],
+      "examples": [
+        [
+          "¿Podría enseñarme ésa, la de oro?",
+          "您能给我看看那只金的吗？"
+        ],
+        [
+          "Me gustaría hablar con el director.",
+          "我想跟经理谈谈。"
+        ],
+        [
+          "Si tuviera tiempo, iría contigo.",
+          "我要是有时间，就跟你去了。"
+        ],
+        [
+          "Yo que tú, le pediría perdón.",
+          "我要是你，就向他道歉。"
+        ]
+      ]
+    },
+    {
+      "title": "关系词 + 原形动词",
+      "points": [
+        "qué、quién、dónde、cómo 等可直接接原形动词，表示“该 / 可以……”。",
+        "常用在 saber、tener、haber、buscar 等动词后面。",
+        "无先行词时这些词带重音；有先行词 nada、algo、mucho 时用 que，不带重音。",
+        "原形动词的逻辑主语一般就是主句主语，或者是泛指的人。"
+      ],
+      "table": {
+        "head": [
+          "主句动词",
+          "例句",
+          "意思"
+        ],
+        "rows": [
+          [
+            "saber",
+            "No sé qué hacer.",
+            "不知道该做什么"
+          ],
+          [
+            "saber",
+            "No sé adónde ir.",
+            "不知道该去哪儿"
+          ],
+          [
+            "saber",
+            "No sé cómo decírselo.",
+            "不知道该怎么跟他说"
+          ],
+          [
+            "tener",
+            "No tengo con quién ir.",
+            "没有人跟我一起去"
+          ],
+          [
+            "buscar",
+            "Busco dónde dormir.",
+            "找个地方睡觉"
+          ],
+          [
+            "haber",
+            "No hay nada que hacer.",
+            "没什么可做的"
+          ],
+          [
+            "tener",
+            "Tengo mucho que leer.",
+            "有很多东西要读"
+          ]
+        ]
+      },
+      "examples": [
+        [
+          "No sé qué decirle.",
+          "我不知道该跟他说什么。"
+        ],
+        [
+          "No hay nada que perdonar.",
+          "没什么要原谅的。"
+        ]
+      ]
+    },
+    {
+      "title": "关系词 + 原形动词 = 带虚拟式的从句",
+      "points": [
+        "这种结构相当于含 poder、deber 或虚拟式的从句，意思不变，说法更简洁。",
+        "tener、buscar 类要补出先行词（a nadie、un sitio），从句用虚拟式。",
+        "区分 tener qué（有东西可……）和 tener que（必须）。"
+      ],
+      "examples": [
+        [
+          "No tengo con quién hablar.",
+          "我没有可以说话的人。"
+        ],
+        [
+          "= No tengo a nadie con quien pueda hablar.",
+          "（同上，形容词从句 + 虚拟式）"
+        ],
+        [
+          "Buscaba dónde dormir.",
+          "他在找个睡觉的地方。"
+        ],
+        [
+          "= Buscaba un sitio donde pudiera dormir.",
+          "（同上，donde 从句 + 虚拟式）"
+        ]
+      ]
+    }
+  ],
+  "phrases": [
+    [
+      "Nos recibieron espléndidamente.",
+      "他们非常热情地招待了我们。"
+    ],
+    [
+      "La enfermera asiste a los enfermos.",
+      "护士照顾病人。"
+    ],
+    [
+      "Cogimos el autobús en la esquina.",
+      "我们在街角坐上了公共汽车。"
+    ],
+    [
+      "El barco se hundió en pocos minutos.",
+      "船几分钟就沉了。"
+    ],
+    [
+      "Se armó de valor y le dijo la verdad.",
+      "他鼓起勇气，把真相告诉了她。"
+    ],
+    [
+      "Aquel grito nos estremeció a todos.",
+      "那一声尖叫让我们所有人都打了个寒战。"
+    ],
+    [
+      "Se restregó las manos con jabón.",
+      "他用肥皂使劲搓手。"
+    ],
+    [
+      "Los árboles se reflejaban en el lago.",
+      "树木倒映在湖中。"
+    ]
+  ],
+  "exercises": [
+    {
+      "type": "填空",
+      "q": "Me prometió que ______ (venir) a las ocho.",
+      "a": "vendría（过去将来）"
+    },
+    {
+      "type": "选择",
+      "q": "—¿A qué hora volvió anoche? —No sé, ___ las doce. (serán / serían)",
+      "a": "serían（推测过去的情况）"
+    },
+    {
+      "type": "改写",
+      "q": "Quiero hablar con el director. →（用条件式，说得更客气）",
+      "a": "Me gustaría (Querría) hablar con el director."
+    },
+    {
+      "type": "填空",
+      "q": "Si ______ (tener, yo) dinero, ______ (comprar) esa pulsera.（可惜现在没钱）",
+      "a": "tuviera (tuviese), compraría"
+    },
+    {
+      "type": "翻译",
+      "q": "我要是你，就不会买这么贵的手镯。",
+      "a": "Yo que tú, no compraría una pulsera tan cara."
+    },
+    {
+      "type": "改写",
+      "q": "No sé qué debo hacer. →（用关系词 + 原形动词）",
+      "a": "No sé qué hacer."
+    },
+    {
+      "type": "改写",
+      "q": "No hay ninguna cosa que podamos hacer. → No hay nada ______.",
+      "a": "No hay nada que hacer.（有先行词 nada，que 不带重音）"
+    },
+    {
+      "type": "问答",
+      "q": "¿Dónde encontró Ana la pulsera?",
+      "a": "La encontró en el jardín, entre las flores, junto a la puerta."
+    }
+  ],
+  "summary": [
+    "条件式：过去将来、推测过去、委婉、条件句主句、建议。",
+    "将来时推测现在，条件式推测过去。",
+    "si 条件从句里不用条件式：Si tuviera…, iría。",
+    "关系词 + 原形动词表示“该做”：No sé qué hacer。",
+    "可改写成虚拟式从句：a nadie con quien pueda…"
+  ],
+  "homework": [
+    "用简单条件式的五种用法各造一个句子。",
+    "用 No sé qué / cómo / adónde + 原形动词各造一句。",
+    "续写《手镯》的故事，或另编一个用条件式的小故事。"
+  ],
+  "notes": {
+    "goals": "简单条件式的各种用法第二、三册分散学过（礼貌用语第三册第 8 课，条件句第三册第 5 课），本课用表格归类；关系词 + 原形动词是本课新项目，可联系第 1 课的无先行词关系从句和第三册第 11 课形容词从句里的虚拟式。",
+    "vocab": "encerrar、restregar 词根 e→ie（encierro, restriego），restregar 简单过去时第一人称 g 变 gu（restregué）；estremecer 第一人称 estremezco；coger 在 a、o 前 g 变 j（cojo），在一些拉美国家是粗话，当地宜用 tomar、agarrar。armar un escándalo 是“大吵大闹”，armarse de valor 是“鼓起勇气”。",
+    "text": "故事为原创，十个重点词都在课文里出现。可让学生找出课文里的条件式（serían、saldría、estaría、acusaría）并说明各属哪种用法，再找出两处关系词 + 原形动词（qué decir、nada que perdonar）。“¿dónde estaría la pulsera?”是自由间接引语（第 5 课），换成直接引语要说“¿Dónde estará?”。",
+    "grammar": "强调 si 条件从句里不用条件式（*Si tendría）；No tengo qué comer（没东西吃）和 No tengo que comer（不必吃）意思不同。无先行词的 con quién、dónde 等课件统一带重音，有先行词 nada、algo 时 que 不带重音。例句里的 ésa 按老课本带重音，RAE 2010 年起不再要求 éste、sólo 等加重音，学生不加不算错。",
+    "exercises": "第 2 题问的是昨晚的事，用条件式推测过去；第 4 题虚拟式 -ra、-se 两种形式都对；第 7 题有先行词 nada，que 不带重音。"
+  }
+}
