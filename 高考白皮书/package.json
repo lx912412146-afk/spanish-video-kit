@@ -1,0 +1,6 @@
+{
+  "name": "gaokao-whitepaper",
+  "private": true,
+  "description": "西班牙语高考白皮书生成",
+  "dependencies": { "docx": "9.5.1" }
+}
