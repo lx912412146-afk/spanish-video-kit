@@ -68,6 +68,13 @@ function parse(md, src) {
       continue;
     }
     if (/^! /.test(t)) { blocks.push({ type: 'note', text: t.slice(2) }); i++; continue; }
+    // @换页：下一段另起一页（LibreOffice 不理会例句框后面的“与下段同页”，个别框和题目分页时用）
+    if (t === '@换页') {
+      i++; while (i < lines.length && !lines[i].trim()) i++;
+      const nt = (lines[i] || '').trim();
+      if (!nt || /^[-|>#!@]/.test(nt)) throw new Error(`${src}: @换页 后面必须是普通段落`);
+      blocks.push({ type: 'p', text: nt, breakBefore: true }); i++; continue;
+    }
     if (/^@音频 /.test(t)) { blocks.push({ type: 'audio', id: t.slice(4).trim() }); i++; continue; }
     if (/^- /.test(t)) {
       const items = [];
@@ -97,13 +104,27 @@ function runs(text, o = {}) {
     for (const q of s.split(/(〔[^〕]*〕)/g)) {
       if (!q) continue;
       const ref = /^〔[^〕]*〕$/.test(q);
-      out.push(new TextRun({ text: q, font: F, language: LANG, size: ref ? Math.round((o.size || 21) * 0.86) : o.size || 21,
-        bold: o.bold || bold, color: ref ? COL.teal : o.color || COL.ink }));
+      // 连读符号 ‿ 苹方里没有：单独一段用 Hiragino Maru Gothic（不加粗；加粗时 LibreOffice 会换成 DejaVu Sans Bold）；
+      // 数字空格 U+2007（词表短语、“A Fidel”里的不断行空格）单独一段、字号缩小到普通空格的宽度
+      for (const r of q.split(/(‿|\u2007)/g)) {
+        if (!r) continue;
+        const sz = ref ? Math.round((o.size || 21) * 0.86) : o.size || 21;
+        out.push(new TextRun({ text: r, font: r === '‿' ? 'Hiragino Maru Gothic ProN' : F, language: LANG, size: r === '\u2007' ? Math.round(sz * 0.52) : sz,
+          bold: r === '‿' ? false : o.bold || bold, color: ref ? COL.teal : o.color || COL.ink }));
+      }
     }
   }
   return out;
 }
 function textW(s) { let w = 0; for (const ch of String(s)) w += /[⺀-鿿＀-￯　-〿…—‘’“”←-⇿]/.test(ch) ? 1 : 0.55; return w; }
+// 列表项估计排几行；subGroup：第 k 项所在的那一组子项（第二层）
+const itemLines = (items) => items.reduce((a, x) => a + Math.max(1, Math.ceil(textW(x.text) / 40)), 0);
+// 一块内容大约排几行（例句框按句、表格按行）
+const blockLines = (b) => b.type === 'ex' ? b.ex.reduce((a, [es, zh]) => a + Math.ceil((textW(es) + (zh ? textW(zh) : 0)) / 44), 0)
+  : b.type === 'table' ? b.rows.length : b.type === 'ul' ? itemLines(b.items) : Math.ceil(textW(b.text || '') / 44);
+// 表格里“el asiento de ventanilla / de pasillo”这类：斜线后面两三个词的短说法内部不断行（数字空格，runs() 里缩小）
+const altJoin = (c) => String(c).replace(/ \/ ((?:[A-Za-zÁÉÍÓÚáéíóúñÑü]+ ){1,2}[A-Za-zÁÉÍÓÚáéíóúñÑü]+)(?=$|[ ,，;；)）])/g, (m, w) => ' / ' + w.replace(/ /g, '\u2007'));
+function subGroup(items, k) { let s = k, e = k; while (s > 0 && items[s - 1].level > 0) s--; while (e < items.length - 1 && items[e + 1].level > 0) e++; return items.slice(s, e + 1); }
 
 // ---------------------------------------------------------------- 排版
 let bm = 0;
@@ -117,16 +138,27 @@ const nb = (s) => String(s)
   .replace(/([a-záéíóúñ]) (?=\d)/g, '$1\u00a0').replace(/(\d) (?=[€$]|euros?\b|yuan(es)?\b|pesos?\b)/g, '$1\u00a0').replace(/(\S)(?=…)/g, '$1\u2060').replace(/ (?=…)/g, '\u00a0')
   .replace(/([a-záéíóúA-ZÁÉÍÓÚ])-(?=[a-záéíóúA-ZÁÉÍÓÚ])/g, '$1\u2060-\u2060').replace(/(\d) (?=\d{3}(?!\d))/g, '$1\u00a0').replace(/(\d) (?=_{3,})/g, '$1\u00a0').replace(/(_{3,}) (?=\()/g, '$1\u00a0').replace(/(\d) (?=%)/g, '$1\u00a0').replace(/(\d)～(?=\d)/g, '$1\u2060～\u2060').replace(/([×√]) (?=\S)/g, '$1\u00a0').replace(/(\d)—(?=\d)/g, '$1\u2060—\u2060').replace(/(\d) (?=\d)/g, '$1\u00a0').replace(/([\u4e00-\u9fff])(?=）)/g, '$1\u2060').replace(/([（：，、；])(\d+)[ \u00a0](?=[\u4e00-\u9fff])/g, '$1$2\u2060')
   .replace(/([–-])(?=[a-záéíóúñü])/g, '$1\u2060').replace(/… (o|ni|y)…/g, '…\u00a0$1…')
-  .replace(/—(?=[¿¡A-Za-zÁÉÍÓÚÑáéíóúñ])/g, '—\u2060')
+  .replace(/—(?=[¿¡A-Za-zÁÉÍÓÚÑáéíóúñ])/g, '—\u2060').replace(/——/g, '—\u2060—')
+  // “、-iste、-o”：连字符前面不能断行，整串词尾连成一块会把行尾空出一大截；顿号后面加零宽空格允许在这里转行
+  .replace(/([、，；])(?=[-–]\u2060?[a-záéíóúñ])/g, '$1\u200b')
+  // “说的是谁：A Fidel，B Carolina，C 两个人都不是”：选项字母和后面的人名不分开
+  // 用数字空格（runs() 和 hr() 里缩小字号）：不换行空格会让 LibreOffice 在人名中间断行（A Man / uel）
+  .replace(/([：:，、])([A-J]) (?=\S)/g, '$1$2\u2007')
   .replace(/([0-9A-Za-z])–(?=[0-9A-Za-z])/g, '$1\u2060–\u2060').replace(/([)）]) (?=_)/g, '$1\u00a0')
   .replace(/, (?=[-–]\u2060?[a-z]{1,3}\b)/g, ',\u00a0').replace(/(\S)(?=……)/g, '$1\u2060')
   // 数字和后面汉字之间的空格不断行（30 分钟、2026 年 10 月）。数字前面的空格保留普通空格：
   // 汉字和数字之间用不换行空格时，LibreOffice 把数字当成中文排，会在数字中间断行（9 / 0 分）
   .replace(/(\d) (?=[\u4e00-\u9fff])/g, '$1\u00a0').replace(/\b(Tareas?|Opción|Situación) (?=\d|[A-Z]\b)/g, '$1\u00a0');
+// 标题里的数字空格（U+2007）和正文 runs() 一样缩小字号
+function hr(text, o, brk = false) {
+  return String(text).split(/(\u2007)/).filter(Boolean).map((t, i) => new TextRun({ ...o, text: t, ...(t === '\u2007' ? { size: Math.round(o.size * 0.52) } : {}), ...(brk && i === 0 ? { break: 1 } : {}) }));
+}
 function heading(level, label, text, tocLevel, splitZh = false, breakBefore = false) {
   const id = `b${++bm}`;
   const full = label ? `${label}　${text}` : text;
-  const k = full.lastIndexOf('（');
+  // 长标题在“（”前转行；单元标题没有“（”的，在西语和中文之间的全角空格处转行（不让“样？”单独成行）
+  const kp = full.lastIndexOf('（'), ks = level === 2 && kp < 0 ? full.lastIndexOf('　') : -1;
+  const k = kp > 0 ? kp : ks, skip = kp > 0 ? 0 : 1;
   const two = splitZh && k > 0 && textW(full) > (level === 2 ? 22 : 34);
   if (tocLevel !== null) toc.push({ id, text: full, level: tocLevel });
   const size = { 1: 56, 2: 40, 3: 28, 4: 24 }[level];
@@ -138,8 +170,8 @@ function heading(level, label, text, tocLevel, splitZh = false, breakBefore = fa
     spacing: { before: { 1: 2400, 2: 0, 3: 360, 4: 240 }[level], after: { 1: 240, 2: 320, 3: 160, 4: 120 }[level] },
     border: level === 2 ? { bottom: { style: BorderStyle.SINGLE, size: 12, color: COL.saffron, space: 6 } } : undefined,
     children: [new Bookmark({ id, children: two
-      ? [new TextRun({ text: nb(full.slice(0, k)), font: F, language: LANG, size, bold: true, color }), new TextRun({ text: full.slice(k), font: F, size, bold: true, color, break: 1 })]
-      : [new TextRun({ text: nb(full), font: F, language: LANG, size, bold: true, color })] })],
+      ? [...hr(nb(full.slice(0, k)), { font: F, language: LANG, size, bold: true, color }), ...hr(nb(full.slice(k + skip)), { font: F, size, bold: true, color }, true)]
+      : hr(nb(full), { font: F, language: LANG, size, bold: true, color }) })],
   });
 }
 function para(text, o = {}) {
@@ -171,6 +203,8 @@ function table(rows, o = {}) {
   if (n === 4 && rows[0][0] === rows[0][2] && rows[0][1] === rows[0][3]) need = [0, 1, 0, 1].map((_, j) => (need[j % 2] + need[j % 2 + 2]) / 2);
   if (o.widths) need = o.widths;
   else if (rows[0].join('|') === '课|课文|语法') need = [2.5, 18.5, 40];
+  // 附录 C 词汇总表：西语栏放宽到长短语（medicina tradicional china）排一行，中文栏转行可以接受
+  else if (rows[0].join('|') === '西语|词性|中文|单元') need = [2600, 1068, 5011, 955];
   const size = o.size || 19;
   const sum = need.reduce((a, b) => a + b, 0);
   let ws = need.map((x) => Math.max(Math.round(CONTENT_W * x / sum), Math.round(CONTENT_W * 0.08)));
@@ -206,7 +240,7 @@ function table(rows, o = {}) {
       shading: { type: ShadingType.CLEAR, color: 'auto', fill: i === 0 ? COL.teal : i % 2 ? 'FFFFFF' : COL.tint },
       margins: o.compact ? { top: 15, bottom: 15, left: 80, right: 80 } : { top: 50, bottom: 50, left: 90, right: 90 },
       children: [new Paragraph({ spacing: { after: 0, line: o.compact ? 240 : 280 }, keepNext: keepRow(i),
-        children: runs(nb(c), { size, bold: i === 0, color: i === 0 ? 'FFFFFF' : COL.ink }) })],
+        children: runs(nb(altJoin(c)), { size, bold: i === 0, color: i === 0 ? 'FFFFFF' : COL.ink }) })],
     })) })),
   });
 }
@@ -268,13 +302,17 @@ function renderChapter(blocks, label, tocSections) {
     if (b.type === 'p') b.text = labelize(b.text);
     if (b.type === 'p' && nxt && !/^h[234]$/.test(nxt.type)) { const t = b.text.replace(/\*\*/g, ''); if (textW(t) <= 30 || (textW(t) <= 50 && !/[。.!?！？…]$/.test(t))) b.keep = true; }
     if (b.type === 'p' && nxt && (label.index || (prev && /^h[34]$/.test(prev.type) && textW(b.text) < 60))) b.keep = true;
-    if (b.type === 'p' && nxt && (['table', 'ex', 'note'].includes(nxt.type) && (label.index || textW(b.text) < 80) || ['table', 'ex', 'note', 'ul'].includes(nxt.type) && /[：:]$/.test(b.text))) b.keep = true;
+    if (b.type === 'p' && nxt && (['table', 'ex', 'note'].includes(nxt.type) && (label.index || textW(b.text) < 80) || ['table', 'ex', 'note', 'ul'].includes(nxt.type) && /[：:]$/.test(b.text) && (textW(b.text) <= 88 || blockLines(nxt) <= 8))) b.keep = true;   // 三行以上的引导段和八行以上的框不硬连（整块挪页会空出半页）
     if (b.type === 'ul' && nxt && ['table', 'ex', 'note'].includes(nxt.type)) b.keepLast = true;
     if (b.type === 'ul' && nxt && nxt.type === 'p' && textW(nxt.text.replace(/\*\*/g, '')) <= 80 && (!blocks[bi + 2] || /^h[234]$/.test(blocks[bi + 2].type))) b.keepLast = true;   // 题目列表后面一两行的说明（“规律：……”）不单独落到下一页
     const isLab = (x) => x && x.type === 'p' && LABEL.test(x.text.replace(/\*\*/g, ''));
     if (b.type === 'p' && nxt && nxt.type === 'p' && /,$/.test(nxt.text) && textW(nxt.text) <= 12) b.keep = true;
     if (b.type === 'p' && isLab(prev) && nxt && !/^h[234]$/.test(nxt.type) && textW(b.text) <= 150) b.keep = true;
     if (b.type === 'ex' && isLab(prev) && nxt && ['ul', 'p'].includes(nxt.type) && b.ex.reduce((a, [es, zh]) => a + textW(es) + (zh ? textW(zh) : 0), 0) <= 3 * 44) b.keepAfter = true;
+    // 阶段测试的阅读短文和后面的题目不分页（只连短文最后一段和第一题）
+    if (b.type === 'ex' && label.keepTasks && nxt && nxt.type === 'ul') b.keepAfter = true;
+    // 排序题：选项和下面的“顺序：___ → ___”整块不分页
+    if (b.type === 'ul' && nxt && nxt.type === 'p' && /^顺序[：:]/.test(nxt.text) && b.items.length <= 10) b.orderList = b.keepLast = true;
   });
   // 阶段测试：每个任务（#### 到下一个标题之间）串成一组，尽量排在同一页，复印出来题和原文、选项在一张纸上
   // 阶段测试：每个部分的第一个任务紧跟部分标题，其余任务另起一页；任务估计排得下一页（约 42 行）才整块连在一起，
@@ -301,7 +339,7 @@ function renderChapter(blocks, label, tocSections) {
     close(blocks.length);
   }
   // 横排的选项（A. … B. … C. …）选项内部不断行，只在选项之间断
-  const hz = (t) => (/[　 ][B-J]\. /.test(t) ? t.split('　').map((o) => (o.length <= 20 ? o.replace(/ (?![A-J]\. )/g, '\u00a0') : o)).join('　') : t);
+  const hz = (t) => (/[　 ][B-J]\. /.test(t) ? t.split('　').map((o) => (o.length <= 20 ? o.replace(/ (?![A-J]\. )/g, '\u00a0') : o.replace(/^([A-J]\.) /, '$1\u00a0'))).join('　') : t);
   blocks.forEach((b, bi) => {
     if (b.type !== 'table') return;
     const before = blocks.slice(Math.max(0, bi - 2), bi).map((x) => x.text || '').join(' ');
@@ -311,14 +349,23 @@ function renderChapter(blocks, label, tocSections) {
     if (b.type === 'h2') out.push(heading(2, label.chapter, b.text, 1, true));
     else if (b.type === 'h3') { sec += 1; out.push(heading(3, label.section(sec), b.text, tocSections ? 2 : null, !!label.index)); }
     else if (b.type === 'h4') out.push(heading(4, '', b.text, null, false, !!b.taskBreak));
-    else if (b.type === 'p') out.push(para(b.text, b.keep || b.chain ? { p: { keepNext: true, keepLines: true } } : {}));
+    // 词表（“选词：”开头，或六个以上用全角空格隔开的西语短语）：每个短语内部不断行
+    else if (b.type === 'p') out.push(para(/^选词[：:]/.test(b.text) || (b.text.split('　').length >= 6 && b.text.split('　').every((w) => w.length <= 30 && !/[\u4e00-\u9fff]/.test(w)))
+      // 短语内部用数字空格 U+2007（runs() 里缩小字号，宽度和普通空格差不多）。2026-10 在 LibreOffice 26.8 试过：
+      // 不换行空格会在词中间断行（el ch / ubasco），“空格＋WJ”照样在空格处断开（las / prácticas），只有数字空格两样都不出
+      ? b.text.split('　').map((w, i) => (i ? w.replace(/ /g, '\u2007') : w.replace(/^(选词[：:])?(.*)$/, (m, a, c) => (a || '') + c.replace(/ /g, '\u2007')))).join('　') : b.text, { p: { ...(b.keep || b.chain ? { keepNext: true, keepLines: true } : {}), ...(b.breakBefore ? { pageBreakBefore: true } : {}) } }));
     // 题目列表（第一层全是“数字. ”或“例 N”开头）不用项目符号：题号、选项字母后面用制表符，悬挂缩进，转行和首行正文对齐
     else if (b.type === 'ul') b.items.forEach((it, k, all, q = all.filter((x) => x.level === 0).every((x) => QLAB.test(x.text)),
       m = q && (it.level === 0 ? QLAB : OLAB).exec(it.text)) => out.push(new Paragraph({
       ...(q ? { indent: it.level === 0 ? { left: 480, hanging: 480, right: 110 } : m ? { left: 900, hanging: 360, right: 110 } : { left: 540, right: 110 } }
         : { numbering: { reference: 'bullets', level: it.level }, indent: { right: 110 } }),
       keepLines: true,
-      keepNext: (!!b.inTask && (k < b.items.length - 1 || b.chain)) || (k < b.items.length - 1 && b.items.length <= 10 && b.items.every((x) => /^([A-Z]\.|[a-z]\)|\d+\.) /.test(x.text)) && b.items.reduce((a, x) => a + textW(x.text), 0) <= 160) || (k < b.items.length - 1 && b.items.length <= 4 && b.items.reduce((a, x) => a + textW(x.text), 0) <= 120) || (b.items.length >= 2 && k === b.items.length - 2) || (k > 0 && k === all.map((x) => x.level).lastIndexOf(0) - 1) || (!!b.keepLast && k === b.items.length - 1) || (k < b.items.length - 1 && ((b.items.length >= 4 && (k === 0 || (k === b.items.length - 2 && !b.keepLast))) || b.items[k + 1].level === 1)),
+      keepNext: (!!b.inTask && (k < b.items.length - 1 || b.chain)) || (k < b.items.length - 1 && b.items.length <= 10 && b.items.every((x) => /^([A-Z]\.|[a-z]\)|\d+\.) /.test(x.text)) && b.items.reduce((a, x) => a + textW(x.text), 0) <= 160) || (k < b.items.length - 1 && b.items.length <= 4 && b.items.reduce((a, x) => a + textW(x.text), 0) <= 120) || (b.items.length >= 2 && k === b.items.length - 2 && textW(b.items[b.items.length - 1].text) <= 90) || (!!b.orderList && k < b.items.length - 1)
+        // 字母选项（A. B. C. …）整组不超过 14 行就不分页
+        || (k < b.items.length - 1 && b.items.length <= 12 && b.items.every((x) => /^[A-Za-z][.)] /.test(x.text)) && itemLines(b.items) <= 14)
+        // 最后一题（连同选项）不超过 3 行才和前一项连；子项只在整组不超过 8 行时互相连（长的子列表照常跨页）
+        || (k > 0 && k === all.map((x) => x.level).lastIndexOf(0) - 1 && itemLines(all.slice(k + 1)) <= 3) || (!!b.keepLast && k === b.items.length - 1)
+        || (k < b.items.length - 1 && ((b.items.length >= 4 && k === 0) || (b.items[k + 1].level === 1 && (it.level === 0 || itemLines(subGroup(all, k + 1)) <= 8)))),
       spacing: { after: 50, line: 300 },
       children: m ? [...runs(m[1]), new TextRun({ children: [new Tab()], font: F, size: 21 }), ...runs(nb(hz(it.text.slice(m[0].length))))] : runs(nb(hz(it.text))) })));
     else if (b.type === 'table') { out.push(table(b.rows, label.compact ? { size: 17, split: true, compact: true } : label.index ? { size: 18, split: true } : b.chain ? { keepLast: true } : b.whole ? { whole: true } : {})); out.push(spacer(!!b.chain)); }
@@ -399,7 +446,7 @@ function transcripts() {
     const a = loadAudio(u);
     const tr = a.tracks.filter((t) => SPOKEN.has(t.type));
     if (!tr.length) continue;
-    out.push(`### ${unitName(u)}　${a.title}`, '');
+    out.push(u[0] === 'R' ? `### ${a.title}` : `### ${unitName(u)}　${a.title}`, '');
     for (const t of tr) {
       out.push(`#### 音频 ${t.id}　${t.title}`);
       for (const [es, zh] of trackLines(t, true)) out.push(`> ${es}｜${zh}`);

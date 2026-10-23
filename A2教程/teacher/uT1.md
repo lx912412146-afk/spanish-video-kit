@@ -17,7 +17,9 @@
 | 四 书面表达 | 回信；叙述或小传 | 任务一、二 | 35 分钟 | 20 分 |
 | 五 口语 | 陈述；描述场景；对话 | 考官卡 | 准备 10 分钟，考试 8–10 分钟 | 20 分 |
 
-姓名（Nombre y apellidos）：____________________　班级（Clase）：____________　得分：__________
+姓名（Nombre y apellidos）：______________________________
+
+班级（Clase）：________________　得分：____________
 
 ### 一　听力（20 分）
 
@@ -124,6 +126,7 @@
 - 28. ¿Qué dice el anuncio?
   - A. La habitación es grande.　B. El alquiler es más barato que en los pisos nuevos.　C. El piso es muy moderno.
 
+@换页
 文本四：一座故居门口的牌子
 
 > Casa del pintor Joaquín Serra. El pintor vivió en esta casa de 1920 a 1965. Hoy es un museo. Abierto de martes a sábado, de 10:00 a 14:00. Los miércoles, entrada gratis.｜
@@ -367,7 +370,8 @@ DELE 考试这里是一张照片，本书用文字代替。考官用中文说：
 - 41. A；42. A；43. B；44. A；45. C；46. A；47. C；48. A；49. C；50. B。
 - 51. hicimos；52. llegué；53. íbamos；54. abrid；55. ponte。
 - 56. mayor；57. tanto；58. la；59. que；60. por eso。
-- 说明：第 43 题是今天的事，按西班牙的用法用现在完成时（墨西哥等地说 me levanté，本题不选）；第 44 题到现在还在继续，用 desde hace＋现在时；第 45 题 todos los días 说过去的习惯，用过去未完成时；第 46 题年龄用 tener；第 47 题 había 只有一个形式；第 48 题形容词前用 tan；第 49 题 los pies 是复数；第 50 题对 señora 用 usted。第 52 题 yo 的形式要改拼写；第 53 题、第 55 题注意重音符号（íbamos 要写，ponte 不写）；第 54 题 vosotros 的形式是把 -r 换成 -d；第 57 题动词后面用 tanto como。变位题和填空题拼写、重音符号都要对才给分；第 60 题写成 porque 不给分。
+
+说明：第 43 题是今天的事，按西班牙的用法用现在完成时（墨西哥等地说 me levanté，本题不选）；第 44 题到现在还在继续，用 desde hace＋现在时；第 45 题 todos los días 说过去的习惯，用过去未完成时；第 46 题年龄用 tener；第 47 题 había 只有一个形式；第 48 题形容词前用 tan；第 49 题 los pies 是复数；第 50 题对 señora 用 usted。第 52 题 yo 的形式要改拼写；第 53 题、第 55 题注意重音符号（íbamos 要写，ponte 不写）；第 54 题 vosotros 的形式是把 -r 换成 -d；第 57 题动词后面用 tanto como。变位题和填空题拼写、重音符号都要对才给分；第 60 题写成 porque 不给分。
 
 #### 书面表达
 

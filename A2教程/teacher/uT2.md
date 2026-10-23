@@ -4,7 +4,9 @@
 
 ### 考试说明
 
-姓名（Nombre y apellidos）：____________________　班级（Clase）：____________　得分：__________
+姓名（Nombre y apellidos）：______________________________
+
+班级（Clase）：________________　得分：____________
 
 | 部分 | 题号 | 时间 | 分值 |
 | --- | --- | --- | --- |
@@ -226,7 +228,8 @@
 
 #### 任务二　描述场景（64，约 2–3 分钟）
 
-- 场景卡（给考生）：一家酒店的前台，晚上九点，外面在下大雨。一位女士拿着行李箱，在前台登记；前台的接待员在打电话；一对老年夫妇坐在沙发上看地图；一个男孩在给手机充电；墙边放着几把湿雨伞。
+场景卡（给考生）：一家酒店的前台，晚上九点，外面在下大雨。一位女士拿着行李箱，在前台登记；前台的接待员在打电话；一对老年夫妇坐在沙发上看地图；一个男孩在给手机充电；墙边放着几把湿雨伞。
+
 - 64. 考官说：“Ahora mira la tarjeta, por favor. ¿Dónde están estas personas? ¿Qué hay? ¿Qué están haciendo?”考生说完或停了很久，考官可以问：¿Qué está haciendo la señora? ¿Qué tiempo hace? ¿Quiénes crees que son los señores mayores? ¿Qué van a hacer mañana?
 
 #### 任务三　情景对话（65，约 3–4 分钟）
@@ -261,7 +264,8 @@
 - 18. B。依据：“El autobús tiene un retraso de una hora y llego a la cena a las diez.”
 - 19. G。依据：“Contéstame por correo electrónico, por favor.”（面试是视频面试，所以不是 F）
 - 20. D。依据：“Mañana no tenemos clase en el aula doce: estamos en la biblioteca”
-- 用不上的句子：A、C、F。
+
+用不上的句子：A、C、F。
 
 #### 二　阅读
 
@@ -300,14 +304,17 @@
 - 50. B（钟点做背景，用过去未完成时）
 - 51. desde；52. por；53. que；54. tuyo；55. Que。
 - 56. Has estado；57. iba；58. hicimos；59. siéntese；60. Mándalas。
-- 第三部分每空 1 分，只看所考的形式。第 51–55 题大小写不扣分；第 56–60 题漏写或写错重音符号（如 sientese、Mandalas）扣 0.5 分。第 59 题写成 se siente 不给分（那是陈述式现在时）。
+
+第三部分每空 1 分，只看所考的形式。第 51–55 题大小写不扣分；第 56–60 题漏写或写错重音符号（如 sientese、Mandalas）扣 0.5 分。第 59 题写成 se siente 不给分（那是陈述式现在时）。
 
 #### 四　书面表达
 
-- 用后面的量表打分。每个任务给两个分：“语言运用”0–3 分乘以 2，“任务完成”0–3 分，满分 9 分；两个任务的原始分相加（满分 18 分），再按“原始分×20÷18”换算成 20 分制，四舍五入到整数：18→20，17→19，16→18，15→17，14→16，13→14，12→13，11→12，10→11，9→10，8→9，7→8，6→7，5→6，4→4，3→3，2→2，1→1，0→0。
+用后面的量表打分。每个任务给两个分：“语言运用”0–3 分乘以 2，“任务完成”0–3 分，满分 9 分；两个任务的原始分相加（满分 18 分），再按“原始分×20÷18”换算成 20 分制，四舍五入到整数：18→20，17→19，16→18，15→17，14→16，13→14，12→13，11→12，10→11，9→10，8→9，7→8，6→7，5→6，4→4，3→3，2→2，1→1，0→0。
+
 - 61. “任务完成”看六个要点：称呼和结尾；要带的东西；住哪儿好；这一学年最喜欢的事（最好用现在完成时，再用简单过去时说一个细节）；暑假计划；一个 si＋现在时的建议。参考范文（70 个词）：¡Hola, Ernesto! ¡Qué bien! Tienes que llevar ropa de verano, porque en septiembre hace mucho calor, y un paraguas. Si quieres conocer a mucha gente, es mejor vivir en la residencia: es cómoda y barata. Este curso me ha gustado mucho la excursión a Hangzhou: fuimos en tren y vimos el lago del Oeste. En verano voy a trabajar en una tienda de mi barrio. ¡Hasta septiembre! Un abrazo, Ming
 - 62. 选项 A“任务完成”看：背景（至少两句：天气、时间、地方或心情）；三个事件；比较以前和现在；三个连接词。参考范文 A（72 个词）：Mi primer día en la universidad fue en septiembre. Hacía mucho calor y yo estaba muy nerviosa, porque no conocía a nadie. Al principio no encontraba mi residencia, entonces le pregunté a un chico y él me ayudó con las maletas. Por la tarde conocí a mis compañeras de habitación y cenamos juntas en el comedor. Al final, fue un día muy bonito. Antes no tenía amigos en Shanghái. Ahora tengo muchos. 选项 B“任务完成”看：资料卡上的六项都写到；三种时态用对；两个时间说法。参考范文 B（75 个词）：Remedios Romero nació en Ciudad de México en 1985. De niña vivía con sus abuelos y todos los domingos cocinaba con su abuela. En 2005, a los veinte años, empezó a trabajar en un restaurante del centro. Tres años después fue a Madrid y estudió cocina dos años. En 2012 abrió un restaurante mexicano en Madrid. Desde 2022 enseña cocina mexicana en una escuela de la ciudad. ¡Sus tacos son famosos en todo el barrio!
-- 两个任务都是：少于要求字数的一半（第 61 题不到 30 个词，第 62 题不到 35 个词），“任务完成”最多给 1 分；超过字数不扣分，但多写部分的错误也要算。
+
+两个任务都是：少于要求字数的一半（第 61 题不到 30 个词，第 62 题不到 35 个词），“任务完成”最多给 1 分；超过字数不扣分，但多写部分的错误也要算。
 
 #### 五　口语
 

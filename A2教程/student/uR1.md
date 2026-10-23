@@ -245,6 +245,15 @@ sobre rojo　nacer　recreo　rascacielos　tos　farolillo　casarse　juguete�
 
 #### 练习 13　西班牙交换生 Jaime 在食堂遇到中国同学何静（He Jing）。从下面选出合适的句子补全对话，有一句用不上。（Completa.）
 
+选项：
+
+- A. Mejor, gracias. Ya no tengo fiebre, pero todavía tengo un poco de tos.
+- B. ¿Por qué no tomas un té con miel y limón?
+- C. Fatal. El sábado estuve todo el día en la cama: tenía fiebre.
+- D. Fui a Suzhou con dos amigos. Visitamos un jardín precioso y dimos un paseo en barco.
+- E. Sí, es más pequeña y más tranquila, y no hay tantos rascacielos.
+- F. Nací en 2004 y me mudé a Madrid a los diez años.
+
 > Jaime: ¡Hola, He Jing! ¿Qué tal el fin de semana?｜
 > He Jing: （1）_____｜
 > Jaime: ¡Pobrecita! ¿Y ahora? ¿Cómo te encuentras?｜
@@ -255,15 +264,6 @@ sobre rojo　nacer　recreo　rascacielos　tos　farolillo　casarse　juguete�
 > He Jing: ¡Qué bien! ¿Y te gustó? ¿Es muy diferente de Shanghái?｜
 > Jaime: （5）_____｜
 > He Jing: Es verdad. De pequeña, yo iba allí muchos fines de semana.｜
-
-选项：
-
-- A. Mejor, gracias. Ya no tengo fiebre, pero todavía tengo un poco de tos.
-- B. ¿Por qué no tomas un té con miel y limón?
-- C. Fatal. El sábado estuve todo el día en la cama: tenía fiebre.
-- D. Fui a Suzhou con dos amigos. Visitamos un jardín precioso y dimos un paseo en barco.
-- E. Sí, es más pequeña y más tranquila, y no hay tantos rascacielos.
-- F. Nací en 2004 y me mudé a Madrid a los diez años.
 
 #### 练习 14　角色扮演：两人一组，A、B 各看自己的卡片，对话 3 分钟左右，然后交换角色。（En parejas.）
 

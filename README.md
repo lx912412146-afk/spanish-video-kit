@@ -219,6 +219,11 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`A1教程/`](A1教程/)：《西班牙语 A1 教程》，面向中国大学生和成人零起点学习者：12 个单元＋3 个复习单元，学生用书（547 页）和教师用书（349 页），配 115 段录音。讲解以中文为主，课文、例句和练习用西语；依据 CEFR A1 和塞万提斯学院《课程计划》A1，编排参考海外交际法教材（Método、Prisma、Aula 等）的通行做法，课文、对话、练习和人物全部原创。教师用书含逐单元教学建议、全部答案、录音稿和 3 套阶段测试。
   - 各单元是 `student/`、`teacher/`、`audio/`（录音稿）下的 Markdown，`build_a1.js` 排成 Word，PDF 由 LibreOffice 转出；录音由 `tools/make_tracks.py` 用本仓库的 Qwen3-TTS 合成（五个声音），逐句语音识别核对。Word、PDF 和录音在 Release `a1-textbook`。
 
+## 西班牙语 A2 教程
+
+- [`A2教程/`](A2教程/)：《西班牙语 A2 教程》，《西班牙语 A1 教程》的续篇，面向学完 A1 的中国大学生和成人学习者：10 个单元＋2 个复习单元，学生用书（520 页）和教师用书（330 页），配 94 段录音。讲解以中文为主，课文、例句和练习用西语；依据 CEFR A2 和塞万提斯学院《课程计划》A2，编排参考海外交际法教材（Método、Prisma、Aula 等）的通行做法，课文、对话、练习和人物全部原创；人物和 A1 相同，故事接着讲第二学期。教师用书含逐单元教学建议、全部答案、录音稿和 2 套阶段测试。
+  - 各单元是 `student/`、`teacher/`、`audio/`（录音稿）下的 Markdown，`build_a2.js` 排成 Word，PDF 由 LibreOffice 转出；录音由 `tools/make_tracks.py` 用本仓库的 Qwen3-TTS 合成（和 A1 相同的五个声音），逐句语音识别核对。Word、PDF 和录音在 Release `a2-textbook`。
+
 ## 教学视频
 
 - [`教学视频/第一册第1课/`](教学视频/第一册第1课/)：《现代西班牙语》第一册第一课 ¿Quién es él? 的教学视频（约 13 分钟，1920×1080）。中文讲解＋西语示范和跟读：元音、辅音、音节划分、重音、连读，仿照课文的对话，语法、单词和小练习。
@@ -244,6 +249,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `siele-whitepaper` | SIELE 考试白皮书（A1–C1）：`siele-whitepaper.docx`、`siele-whitepaper.pdf`、`siele-whitepaper-SHA256SUMS.txt` |
 | `gaokao-whitepaper` | 西班牙语高考白皮书：`gaokao-whitepaper.docx`、`gaokao-whitepaper.pdf`、`gaokao-whitepaper-SHA256SUMS.txt` |
 | `a1-textbook` | 西班牙语 A1 教程：`a1-student-book.docx/.pdf`、`a1-teacher-book.docx/.pdf`、全部录音 `A1_*.mp3` 和打包的 `a1-audio.zip`、`a1-audio-checks.json`、`a1-textbook-SHA256SUMS.txt` |
+| `a2-textbook` | 西班牙语 A2 教程：`a2-student-book.docx/.pdf`、`a2-teacher-book.docx/.pdf`、全部录音 `A2_*.mp3` 和打包的 `a2-audio.zip`、`a2-audio-checks.json`、`a2-textbook-SHA256SUMS.txt` |
 | `hsk1-reading` | HSK1 中文阅读视频：`hsk1_01.mp4` … `hsk1_50.mp4`（50 篇）、`hsk1-reading-checks.json`、`hsk1-reading-SHA256SUMS.txt` |
 
 ## 来源与改动
@@ -283,3 +289,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `高考白皮书/`（西班牙语高考白皮书的各章正文、考试事实资料和生成程序）和 Release `gaokao-whitepaper`。
   - 2026-10-23：
     - 新增 `A1教程/`（西班牙语 A1 教程的学生用书、教师用书、录音稿、生成和录音程序）和 Release `a1-textbook`。
+  - 2026-10-24：
+    - 新增 `A2教程/`（西班牙语 A2 教程的学生用书、教师用书、录音稿、生成和录音程序）和 Release `a2-textbook`。
