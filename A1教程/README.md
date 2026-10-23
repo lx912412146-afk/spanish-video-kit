@@ -13,7 +13,7 @@
 - 依据《欧洲语言共同参考框架》（2020 年增补卷）A1 描述和塞万提斯学院《课程计划》（PCIC）A1 清单编写，编排思路参考了海外交际法教材（Método、Prisma、Aula、Nuevo Español en marcha 等）的通行做法；课文、对话、练习、人物全部原创，没有使用这些教材的任何内容。整理过程见 `资料/A1大纲和教材结构.md`。
 - 标“A1+ 拓展”的语法点属于 PCIC 的 A2 内容，本书提前接触，不作为核心要求。
 - 人物：上海一所大学（虚构）西语专业的陈雨、李浩，西班牙交换生 Lucía、墨西哥交换生 Diego，西语老师 Carmen。以西班牙的说法为准，墨西哥说法在注释里对照。拼写按现行 RAE 规范。
-- 录音用本仓库的 Qwen3-TTS 声音合成（五个声音：工具包男声和四个克隆声音），语速约 0.9 倍；每句都用语音识别（Parakeet）核对，并做响度和电磁音核查。
+- 录音用本仓库的 Qwen3-TTS 声音合成（五个声音：工具包男声和四个克隆声音），语速约 0.9 倍；每句都用语音识别（Parakeet）核对，单音节跟读另量元音长度、按共振峰辨认元音（查吞音和读错），并做响度和电磁音核查。z、ce、ci 的读法：女2 的声音读 [θ]，其余声音多读 seseo（`tools/theta_test.py` 用 caza / casa 等最小对立词测过），所以第 8 单元区分 [θ] 和 s 的跟读用女2，书的使用说明里也注明了。
 - 每个单元由一人编写、另一人独立审校，再做全书一致性修订和第二轮校对；版面检查了多轮。
 
 ## 文件
@@ -24,6 +24,8 @@
 | `student/front.md`、`teacher/front.md`、`student/appA.md`、`student/appB.md` | 使用说明和附录（附录 C、D 由程序生成） |
 | `build_a1.js` | 排版程序：`node build_a1.js student` / `teacher` 生成 Word |
 | `tools/make_tracks.py` | 录音程序：按录音稿合成，逐句识别核对，响度和电磁音核查 |
+| `tools/audit_drills.py`、`tools/audit_vowels.py`、`tools/vowelid.py` | 按停顿切开语音跟读录音，逐个量音节的元音长度、按共振峰辨认元音，查吞音和读错（`make_tracks.py` 合成时也用 `vowelid.py`） |
+| `tools/theta_test.py`、`tools/variant_test.py` | 测各个声音能不能读出齿间音 [θ]（caza / casa 等最小对立词，识别加摩擦音能量）；试单音节换哪种输入写法能读出 [θ]（女2 的 zu、ci 送进合成时写成 ¡Zú!、¡Ci!） |
 | `tools/check_unit.py` | 检查一个单元的标记、录音号、练习和答案、生词表 |
 | `tools/vocab_audit.py`、`tools/dedupe_vocab.py` | 全书生词一致性检查和去重 |
 | `voices/` | 克隆用的参考录音 |
