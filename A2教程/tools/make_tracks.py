@@ -126,12 +126,17 @@ NUMW = None
 APOCOPE = {'veintiun': 'veintiuno', 'un': 'uno', 'una': 'uno'}
 
 
-def norm(t):
+def norm(t, digitwise=False):
+    """小写、去重音、数字换成西语读法。识别结果里的 800.000 是八十万（点是千位分隔）；
+    digitwise：四位以上的数字和用连字符、空格连着的几组数字一个一个读（电话号码 6754-3321 = seis siete cinco cuatro…）。"""
     global NUMW
     if NUMW is None:
         from num2words import num2words
         NUMW = num2words
-    t = re.sub(r'\d+', lambda m: ' ' + NUMW(int(m.group()), lang='es') + ' ', t.lower())
+    t = re.sub(r'(?<![\d.])\d{1,3}(?:\.\d{3})+(?![\d.])', lambda m: m.group().replace('.', ''), t.lower())
+    if digitwise:
+        t = re.sub(r'\d+(?:[- ]\d+)+|\d{4,}', lambda m: ' '.join(NUMW(int(d), lang='es') for d in re.findall(r'\d', m.group())), t)
+    t = re.sub(r'\d+', lambda m: ' ' + NUMW(int(m.group()), lang='es') + ' ', t)
     t = ''.join(c for c in unicodedata.normalize('NFD', t) if unicodedata.category(c) != 'Mn')
     return [APOCOPE.get(w, w) for w in re.sub(r"[^a-zñ ]", ' ', t.replace("'", '')).split()]
 
@@ -140,6 +145,14 @@ def norm(t):
 LETTERS = {'a', 'be', 'ce', 'de', 'e', 'efe', 'ge', 'hache', 'i', 'jota', 'ka', 'ele', 'eme', 'ene', 'ene', 'o', 'pe', 'cu',
            'erre', 'ese', 'te', 'u', 'uve', 'doble', 'equis', 'ye', 'zeta', 'tilde', 'griega', 'latina',
            'punto', 'arroba', 'guion', 'barra', 'edu', 'com', 'cn'}   # 念邮箱、网址时的说法，识别结果常写成符号
+
+
+FOREIGN = {'jiaozi', 'jianbing', 'baozi', 'xian'}   # 汉语词（饺子、煎饼、包子）和句首的 Xi'an：识别模型只会按西语猜拼法
+# 整句识别有出入、但把这句切成片段单独识别核对过读音是对的（2026-10-24）：用核对过的那一版（种子，None 是不加种子的第一版），出入不计，核对记录里注明
+VERIFIED = {
+    ('女1', 'No es tan bonito como el centro, pero es más tranquilo y tiene más zonas verdes.'): None,   # 整句识别成 zon verdes；从 y tiene 起单独识别是 zonas verdes
+    ('男2', 'Hay otro a las diez y cuarenta, directo, y uno a las once y cuarenta, con parada en Córdoba.'): 4000,   # 前半句单独识别 a las 10 y 40, directo，后半句 a las 11 y 40
+}
 
 
 def lenient_tokens(s):
@@ -156,7 +169,7 @@ def lenient_tokens(s):
                 names.update(norm(ws[-1]))
     if sum(norm(x) and norm(x)[0] in LETTERS and len(norm(x)) == 1 for x in s.split(',')) >= 3:   # 拼读（Sanz: ese, a, ene, zeta.）：识别结果写成单个字母
         names.update(norm(s))
-    return names | LETTERS
+    return names | LETTERS | FOREIGN
 
 
 def sounds_same(x, y):
@@ -165,12 +178,19 @@ def sounds_same(x, y):
     def key(t):
         t = re.sub(r'c(?=[ei])', 's', t.replace(' ', '')).replace('z', 's')
         t = re.sub(r'(?<!c)h', '', t).replace('v', 'b')            # h 不发音；b 和 v 同音（haba → aba / ava）
+        t = re.sub(r'n(?=[pb])', 'm', t)                            # p、b 前的 n 读 m（con parada → comparada）
         return re.sub(r'(.)\1', r'\1', t).replace('y', 'i')
     return key(x) == key(y)
 
 
 def compare(s, hyp):
-    r, h = norm(s), norm(hyp)
+    # 识别结果里的数字有两种读法（整数、逐位的号码），取对得上的那一种
+    a, b = compare1(s, hyp), compare1(s, hyp, True)
+    return b if b[0] < a[0] else a
+
+
+def compare1(s, hyp, digitwise=False):
+    r, h = norm(s), norm(hyp, digitwise)
     soft = lenient_tokens(s)
     err, ops = 0, []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(a=r, b=h, autojunk=False).get_opcodes():
@@ -264,6 +284,12 @@ def synth(requests, rec, log):
     for v, texts in by_voice.items():
         for s, (a, sr) in zip(texts, MA.Worker(voice_cfg(v)).synth_all([RESPELL.get((v, t), t) for t in texts])):
             got[(v, s)] = (a, sr, record(v, s, a, sr, rec(a, sr), None))
+    for (v, s), seed in VERIFIED.items():
+        if (v, s) in got:
+            if seed is not None:
+                (a, sr), = MA.Worker(voice_cfg(v, seed)).synth_all([s])
+                got[(v, s)] = (a, sr, record(v, s, a, sr, rec(a, sr), seed))
+            got[(v, s)][2].update(errors=0, verified='整句识别有出入，切成片段单独识别核对过，读音正确')
     for seed in SEEDS:
         bad = {}
         for (v, s), (_, _, r) in got.items():
