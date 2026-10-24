@@ -153,7 +153,7 @@ const nb = (s) => String(s)
 function hr(text, o, brk = false) {
   return String(text).split(/(\u2007)/).filter(Boolean).map((t, i) => new TextRun({ ...o, text: t, ...(t === '\u2007' ? { size: Math.round(o.size * 0.52) } : {}), ...(brk && i === 0 ? { break: 1 } : {}) }));
 }
-function heading(level, label, text, tocLevel, splitZh = false, breakBefore = false) {
+function heading(level, label, text, tocLevel, splitZh = false, breakBefore = false, keep = true) {
   const id = `b${++bm}`;
   const full = label ? `${label}　${text}` : text;
   // 长标题在“（”前转行；单元标题没有“（”的，在西语和中文之间的全角空格处转行（不让“样？”单独成行）
@@ -165,8 +165,8 @@ function heading(level, label, text, tocLevel, splitZh = false, breakBefore = fa
   const color = level === 4 ? COL.ink : COL.wine;
   return new Paragraph({
     heading: [null, HeadingLevel.HEADING_1, HeadingLevel.HEADING_2, HeadingLevel.HEADING_3, HeadingLevel.HEADING_4][level],
-    pageBreakBefore: breakBefore || level <= 2 || (level === 3 && /^(参考答案|[二三四五]　|本测试录音稿)/.test(text)),
-    keepNext: true, keepLines: true,
+    pageBreakBefore: breakBefore || level <= 2 || (level === 3 && /^(参考答案|[一二三四五]　|本测试录音稿)/.test(text)),
+    keepNext: keep, keepLines: true,
     spacing: { before: { 1: 2400, 2: 0, 3: 360, 4: 240 }[level], after: { 1: 240, 2: 320, 3: 160, 4: 120 }[level] },
     border: level === 2 ? { bottom: { style: BorderStyle.SINGLE, size: 12, color: COL.saffron, space: 6 } } : undefined,
     children: [new Bookmark({ id, children: two
@@ -303,7 +303,17 @@ function renderChapter(blocks, label, tocSections) {
     if (b.type === 'p' && nxt && !/^h[234]$/.test(nxt.type)) { const t = b.text.replace(/\*\*/g, ''); if (textW(t) <= 30 || (textW(t) <= 50 && !/[。.!?！？…]$/.test(t))) b.keep = true; }
     if (b.type === 'p' && nxt && (label.index || (prev && /^h[34]$/.test(prev.type) && textW(b.text) < 60))) b.keep = true;
     if (b.type === 'p' && nxt && (['table', 'ex', 'note'].includes(nxt.type) && (label.index || textW(b.text) < 80) || ['table', 'ex', 'note', 'ul'].includes(nxt.type) && /[：:]$/.test(b.text) && (textW(b.text) <= 88 || blockLines(nxt) <= 8))) b.keep = true;   // 三行以上的引导段和八行以上的框不硬连（整块挪页会空出半页）
-    if (b.type === 'ul' && nxt && ['table', 'ex', 'note'].includes(nxt.type)) b.keepLast = true;
+    // 题目说明（“三、语法和词汇（6 分）：……”“……（Escucha y relaciona.）【音频 2-Q1】”“选项：A. …”）和下面的列表不分页；
+    // 两行以内的引导段和后面六行以内的短列表（“任务二　对话……”和话题 A、B）也不分页
+    if (b.type === 'p' && nxt && nxt.type === 'ul') {
+      const t = b.text.replace(/\*\*/g, '');
+      if ((textW(t) <= 200 && (/^[一二三四五六七八九十]、/.test(t) || /【音频[^】]+】$/.test(t) || /（[¿¡A-Z][^（）]*[.?!]）$/.test(t) || /^(选项|选词)[：:]/.test(t)))
+        || (textW(t) <= 88 && itemLines(nxt.items) <= 6)) b.keep = true;
+    }
+    // 列表最后一项和后面的框连在一起：框八行以内，或者列表本身八行以内（选项连同短文第一段整块挪页会空出半页）
+    if (b.type === 'ul' && nxt && ['table', 'ex', 'note'].includes(nxt.type) && (nxt.type !== 'ex' || blockLines(nxt) <= 8 || itemLines(b.items) <= 8)) b.keepLast = true;
+    // 只有标题的练习（“练习 22　听录音跟读……【音频 7-5】”）后面紧接着下一个标题时不硬连
+    if (b.type === 'h4' && /^练习 /.test(b.text) && nxt && /^h[34]$/.test(nxt.type)) b.loose = true;
     if (b.type === 'ul' && nxt && nxt.type === 'p' && textW(nxt.text.replace(/\*\*/g, '')) <= 80 && (!blocks[bi + 2] || /^h[234]$/.test(blocks[bi + 2].type))) b.keepLast = true;   // 题目列表后面一两行的说明（“规律：……”）不单独落到下一页
     const isLab = (x) => x && x.type === 'p' && LABEL.test(x.text.replace(/\*\*/g, ''));
     if (b.type === 'p' && nxt && nxt.type === 'p' && /,$/.test(nxt.text) && textW(nxt.text) <= 12) b.keep = true;
@@ -332,7 +342,7 @@ function renderChapter(blocks, label, tocSections) {
       start = -1;
     };
     blocks.forEach((b, bi) => {
-      if (b.type === 'h3') { close(bi); inPaper = /^[一二三四五]　/.test(b.text); reading = /^二　/.test(b.text); firstInPart = true; }
+      if (b.type === 'h3') { close(bi); inPaper = /^[一二三四五]　/.test(b.text); reading = /^[一二三四五]　阅读/.test(b.text); firstInPart = true; }
       else if (b.type === 'h2') close(bi);
       else if (b.type === 'h4') { close(bi); if (inPaper) start = bi; if (reading && !firstInPart) b.taskBreak = true; firstInPart = false; }
     });
@@ -348,18 +358,21 @@ function renderChapter(blocks, label, tocSections) {
   for (const b of blocks) {
     if (b.type === 'h2') out.push(heading(2, label.chapter, b.text, 1, true));
     else if (b.type === 'h3') { sec += 1; out.push(heading(3, label.section(sec), b.text, tocSections ? 2 : null, !!label.index)); }
-    else if (b.type === 'h4') out.push(heading(4, '', b.text, null, false, !!b.taskBreak));
+    else if (b.type === 'h4') out.push(heading(4, '', b.text, null, false, !!b.taskBreak, !b.loose));
     // 词表（“选词：”开头，或六个以上用全角空格隔开的西语短语）：每个短语内部不断行
     else if (b.type === 'p') out.push(para(/^选词[：:]/.test(b.text) || (b.text.split('　').length >= 6 && b.text.split('　').every((w) => w.length <= 30 && !/[\u4e00-\u9fff]/.test(w)))
       // 短语内部用数字空格 U+2007（runs() 里缩小字号，宽度和普通空格差不多）。2026-10 在 LibreOffice 26.8 试过：
       // 不换行空格会在词中间断行（el ch / ubasco），“空格＋WJ”照样在空格处断开（las / prácticas），只有数字空格两样都不出
-      ? b.text.split('　').map((w, i) => (i ? w.replace(/ /g, '\u2007') : w.replace(/^(选词[：:])?(.*)$/, (m, a, c) => (a || '') + c.replace(/ /g, '\u2007')))).join('　') : b.text, { p: { ...(b.keep || b.chain ? { keepNext: true, keepLines: true } : {}), ...(b.breakBefore ? { pageBreakBefore: true } : {}) } }));
+      ? b.text.split('　').map((w, i) => (i ? w.replace(/ /g, '\u2007') : w.replace(/^(选词[：:])?(.*)$/, (m, a, c) => (a || '') + c.replace(/ /g, '\u2007')))).join('　')
+      // 段落里的选项（“选项：A. …　B. …”）：选项字母和后面第一个词不分开（同样用缩小的数字空格）
+      : b.text.replace(/(^|[：:　])([A-J])\. (?=\S)/g, '$1$2.\u2007'), { p: { ...(b.keep || b.chain ? { keepNext: true, keepLines: true } : {}), ...(b.breakBefore ? { pageBreakBefore: true } : {}) } }));
     // 题目列表（第一层全是“数字. ”或“例 N”开头）不用项目符号：题号、选项字母后面用制表符，悬挂缩进，转行和首行正文对齐
     else if (b.type === 'ul') b.items.forEach((it, k, all, q = all.filter((x) => x.level === 0).every((x) => QLAB.test(x.text)),
       m = q && (it.level === 0 ? QLAB : OLAB).exec(it.text)) => out.push(new Paragraph({
       ...(q ? { indent: it.level === 0 ? { left: 480, hanging: 480, right: 110 } : m ? { left: 900, hanging: 360, right: 110 } : { left: 540, right: 110 } }
         : { numbering: { reference: 'bullets', level: it.level }, indent: { right: 110 } }),
-      keepLines: true,
+      // 六行以内的项整段不拆；教师用书里大半页长的答案条目（参考范文）可以跨页，否则整条挪页会空出半页
+      keepLines: Math.ceil(textW(it.text) / 40) <= 6, widowControl: true,
       keepNext: (!!b.inTask && (k < b.items.length - 1 || b.chain)) || (k < b.items.length - 1 && b.items.length <= 10 && b.items.every((x) => /^([A-Z]\.|[a-z]\)|\d+\.) /.test(x.text)) && b.items.reduce((a, x) => a + textW(x.text), 0) <= 160) || (k < b.items.length - 1 && b.items.length <= 4 && b.items.reduce((a, x) => a + textW(x.text), 0) <= 120) || (b.items.length >= 2 && k === b.items.length - 2 && textW(b.items[b.items.length - 1].text) <= 90) || (!!b.orderList && k < b.items.length - 1)
         // 字母选项（A. B. C. …）整组不超过 14 行就不分页
         || (k < b.items.length - 1 && b.items.length <= 12 && b.items.every((x) => /^[A-Za-z][.)] /.test(x.text)) && itemLines(b.items) <= 14)

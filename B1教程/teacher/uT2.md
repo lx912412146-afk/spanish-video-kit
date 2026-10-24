@@ -220,11 +220,9 @@ la sección：栏目；un desconocido：不认识的人；el número：（杂志
 
 以任务三的自行车出租店为情景，考生是那个推着坏车回来的顾客，考官是店员。考官把下面的角色卡交给考生，给 30 秒看一看。
 
-考生角色卡：
+考生角色卡（la rueda：车轮；quedarse sin aire：没气了）：
 
 > Esta mañana, a las diez, alquilaste en esta tienda una bicicleta para todo el día y pagaste 15 euros. Después de una hora, la rueda de delante se quedó sin aire y tuviste que volver andando con la bici. Esta tarde quieres ir a la playa con unos amigos. Explica qué ha pasado y pide una solución. Habla con educación, pero no aceptes cualquier cosa.｜
-
-la rueda：车轮；quedarse sin aire：没气了。
 
 - 46. 考官按下面的信息和考生对话：
   - 考官的信息（不给考生看）：同样的自行车都租出去了，下午四点以后才有。可以给考生两个办法：一是现在换一辆电动自行车（una bici eléctrica），平时一天 25 欧，不用加钱，但是晚上七点以前要还；二是把今天剩下的钱退给他（10 欧）。考生不满意、礼貌地坚持时，再送他一张下次免费租一天的券（un vale）。要看考生的小票（el tique）和证件。
@@ -285,18 +283,24 @@ la rueda：车轮；quedarse sin aire：没气了。
 
 用后面的写作量表给每个任务打分（整体分和四项分析分），按“分数换算”换成 25 分。两个任务都是：字数不到要求下限的七成（任务一不到 63 个词，任务二不到 77 个词）时，“文体得体性”记 0 分；超过字数不扣分，但多写部分的错误也算。
 
-任务一（41）的要点：称呼和结尾（朋友之间：¡Hola, Benjamín! / Un abrazo）；回应他的消息（¡Qué pregunta tan difícil! / Entiendo a tus padres）；看法和理由（creo que＋陈述式，no creo que＋虚拟式）；一两个建议（Yo que tú＋条件式，deberías、lo mejor sería＋原形）；他来中国可能会怎样（seguro que＋陈述式，es probable que＋虚拟式）或你能帮他什么；自己的暑假计划（将来时或 ir a）。漏一个要点，“文体得体性”最多 2 分；漏两个以上，最多 1 分。看法是去中国还是读硕士都可以，只看理由是否清楚。参考范文（正文 105 个词）：
+任务一（41）的要点：称呼和结尾（朋友之间：¡Hola, Benjamín! / Un abrazo）；回应他的消息（¡Qué pregunta tan difícil! / Entiendo a tus padres）；看法和理由（creo que＋陈述式，no creo que＋虚拟式）；一两个建议（Yo que tú＋条件式，deberías、lo mejor sería＋原形）；他来中国可能会怎样（seguro que＋陈述式，es probable que＋虚拟式）或你能帮他什么；自己的暑假计划（将来时或 ir a）。漏一个要点，“文体得体性”最多 2 分；漏两个以上，最多 1 分。看法是去中国还是读硕士都可以，只看理由是否清楚。
+
+参考范文（正文 105 个词）：
 
 > ¡Hola, Benjamín!｜
 > ¡Qué pregunta tan difícil! Entiendo a tus padres: un máster es importante para tu futuro. Sin embargo, no creo que sea un problema esperar un año. Yo que tú, vendría a China: vas a aprender muchísimo chino y seguro que te encanta el país. Además, después puedes hacer el máster con más experiencia. Eso sí, es probable que al principio eches de menos a tu familia y la comida de España. Lo mejor sería hablar con tus padres con calma y explicarles tus razones. Si vienes, te ayudo a buscar piso. Yo, en verano, voy a hacer prácticas en una agencia de viajes. ¡Escríbeme pronto!｜
 > Un abrazo,｜
 > Ming｜
 
-任务二（42）题目 A 的要点：时间、地点和情况（过去未完成时作背景）；事情的经过（简单过去时，可以用过去完成时说更早的事）；感受（me puse nervioso、tenía miedo、estaba a punto de llorar）；学到了什么、自己的看法。参考范文（123 个词）：
+任务二（42）题目 A 的要点：时间、地点和情况（过去未完成时作背景）；事情的经过（简单过去时，可以用过去完成时说更早的事）；感受（me puse nervioso、tenía miedo、estaba a punto de llorar）；学到了什么、自己的看法。
+
+参考范文（123 个词）：
 
 > El año pasado, el primer día de clase, llegué a la estación de mi nueva ciudad con dos maletas enormes. Llovía muchísimo y mi móvil se había quedado sin batería, así que no podía mirar el mapa. Estaba a punto de llorar cuando una señora mayor me preguntó si necesitaba ayuda. Le expliqué que buscaba la residencia de la universidad. Ella me dijo que estaba cerca de su casa y me acompañó en el autobús. Además, me invitó a un té caliente en un bar. Nunca supe su nombre, pero no la olvido. Desde entonces, cuando veo a un turista perdido, siempre le pregunto si necesita algo. Creo que es muy importante ayudar a los demás: una persona amable puede cambiar tu día.｜
 
-任务二题目 B 的要点：自己的习惯和一个例子；打电话和发消息的好处和坏处；结论；意见和价值判断后面的语式正确。参考范文（124 个词）：
+任务二题目 B 的要点：自己的习惯和一个例子；打电话和发消息的好处和坏处；结论；意见和价值判断后面的语式正确。
+
+参考范文（124 个词）：
 
 > Es verdad que hoy los jóvenes casi no llamamos por teléfono. Yo, por ejemplo, escribo mensajes todo el día y solo llamo a mis padres los domingos. Por un lado, los mensajes son cómodos: puedes contestar cuando quieres y no molestas a nadie en clase. Además, puedes pensar bien antes de escribir. Por otro lado, un mensaje a veces crea malentendidos, porque no oímos la voz de la otra persona. El mes pasado mi mejor amigo se enfadó conmigo por un mensaje y, al final, lo solucionamos todo con una llamada de dos minutos. Por lo tanto, no creo que los mensajes sean malos, pero es una pena que llamemos tan poco. En resumen: mensajes para las cosas rápidas y llamadas para las importantes.｜
 
