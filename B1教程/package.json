@@ -1,0 +1,6 @@
+{
+  "name": "spanish-b1-textbook",
+  "private": true,
+  "description": "西班牙语 B1 教程（学生用书、教师用书）生成",
+  "dependencies": { "docx": "9.5.1" }
+}
