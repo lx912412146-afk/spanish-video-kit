@@ -1,0 +1,6 @@
+{
+  "name": "spanish-a0a1-listening",
+  "private": true,
+  "description": "西班牙语 A0—A1 听力练习（学生版、教师版）生成",
+  "dependencies": { "docx": "9.5.1", "jszip": "^3.10.1" }
+}
