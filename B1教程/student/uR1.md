@@ -323,11 +323,6 @@ familia de acogida　perder el tren　cuadrante　jurado　coche eléctrico　pr
 
 任务一　你在学汉语的论坛上认识了 Aroa（练习 3），她给你发来一封邮件。给她回信，100–120 个词（书面表达任务 1）。
 
-> Asunto: ¡Me voy a Shanghái!｜
-> ¡Hola! ¿Qué tal todo? Te escribo con una noticia muy buena: ¡me han dado una beca y en febrero voy a estudiar chino un semestre en Shanghái! Estoy muy contenta, pero también un poco nerviosa. ¿Y tú? ¿Qué tal el curso? ¿Qué has hecho estos meses? Cuéntame también qué tengo que llevar: ¿hace mucho frío en febrero? Ah, y una pregunta: ¿puedes ayudarme a buscar una habitación? ¡Escríbeme pronto!｜
-> Un abrazo,｜
-> Aroa｜
-
 回信要写到：
 
 - 打招呼，回应她的好消息。
@@ -336,14 +331,18 @@ familia de acogida　perder el tren　cuadrante　jurado　coche eléctrico　pr
 - 说说你能不能帮她找房间，并用 cuando llegues… 说你们见面以后做什么。
 - 告别。
 
+Aroa 的邮件：
+
+> Asunto: ¡Me voy a Shanghái!｜
+> ¡Hola! ¿Qué tal todo? Te escribo con una noticia muy buena: ¡me han dado una beca y en febrero voy a estudiar chino un semestre en Shanghái! Estoy muy contenta, pero también un poco nerviosa. ¿Y tú? ¿Qué tal el curso? ¿Qué has hecho estos meses? Cuéntame también qué tengo que llevar: ¿hace mucho frío en febrero? Ah, y una pregunta: ¿puedes ayudarme a buscar una habitación? ¡Escríbeme pronto!｜
+> Un abrazo,｜
+> Aroa｜
+
 任务二　从下面两个题目中选一个，写 130–150 个词（书面表达任务 2）。文章要有你自己的看法。
 
-Opción A
-
+> Opción A｜
 > Blog «Me pasó a mí»: ¿Alguna vez te ha pasado algo inesperado en un viaje, en el primer día de clase o en tu primera semana en una casa nueva? Cuéntanos qué hacías, qué pasó y cómo terminó la historia. ¿Qué piensas ahora de esa experiencia?｜
-
-Opción B
-
+> Opción B｜
 > Revista de la universidad, «Fiestas del mundo»: ¿Cómo se celebra una fiesta importante en tu país o en tu familia? ¿Qué se come? ¿Qué se hace? Cuéntanos también cómo la pasaste el año pasado y qué piensas de esa fiesta.｜
 
 - A 题：背景用过去未完成时，事件用简单过去时，至少用一次过去完成时和三个连接词，结尾写感受和看法。B 题：用 se 说一般的习俗（至少三句），用过去时讲去年怎么过的，最后说清你的看法和理由（Creo que…, porque…）。

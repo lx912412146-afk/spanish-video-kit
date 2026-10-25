@@ -246,7 +246,7 @@ function table(rows, o = {}) {
     })) })),
   });
 }
-function examples(ex, keepAfter = false, whole = false) {
+function examples(ex, keepAfter = false, whole = false, oneRow = false) {
   // 每句一段。估算排出来的行数：整框 8 行以内不拆；更长的框可以在句间跨页，超过 10 行的长段落本身也可以跨页
   // （LibreOffice 在表格里不管孤行控制，也不管段落的“不拆分”，7–10 行的段落拆开会在下一页顶上只留一行，所以这样的行设成整行不拆）。
   // 短的首句（标题、称呼）和末句（署名）和相邻的一句放在同一格里，不会单独留在另一页
@@ -270,13 +270,15 @@ function examples(ex, keepAfter = false, whole = false) {
   const glines = (g) => g.reduce((a, k) => a + lines[k], 0);
   while (!small && groups.length > 1 && glines(groups[0]) <= 3) groups.splice(0, 2, groups[0].concat(groups[1]));
   while (!small && groups.length > 1 && glines(groups[groups.length - 1]) <= 3) groups.splice(-2, 2, groups[groups.length - 2].concat(groups[groups.length - 1]));
+  // 小测里排不下一页的练习：22 行以内的框（广告、选题）整框不拆，整块移到下一页
+  if (oneRow) groups.splice(0, groups.length, ex.map((_, k) => k));
   const G = groups.length;
   return new Table({
     width: { size: CONTENT_W, type: WidthType.DXA }, columnWidths: [CONTENT_W], layout: TableLayoutType.FIXED,
     borders: { top: NONE, bottom: NONE, right: NONE, insideVertical: NONE,
       insideHorizontal: { style: BorderStyle.SINGLE, size: 4, color: COL.saffronSoft },
       left: { style: BorderStyle.SINGLE, size: 18, color: COL.saffron } },
-    rows: groups.map((g, gi) => new TableRow({ cantSplit: glines(g) <= 10 || (g.length > 1 && glines(g) <= 14), children: [new TableCell({
+    rows: groups.map((g, gi) => new TableRow({ cantSplit: oneRow || glines(g) <= 10 || (g.length > 1 && glines(g) <= 14), children: [new TableCell({
       width: { size: CONTENT_W, type: WidthType.DXA }, shading: { type: ShadingType.CLEAR, color: 'auto', fill: COL.saffronSoft },
       margins: { top: gi === 0 ? 100 : 0, bottom: gi === G - 1 ? 100 : 0, left: 180, right: 180 }, children: g.map((k) => paras[k]) })] })),
   });
@@ -306,18 +308,18 @@ function renderChapter(blocks, label, tocSections) {
     if (b.type === 'p' && nxt && !/^h[234]$/.test(nxt.type)) { const t = b.text.replace(/\*\*/g, ''); if (textW(t) <= 30 || (textW(t) <= 50 && !/[。.!?！？…]$/.test(t))) b.keep = true; }
     if (b.type === 'p' && nxt && (label.index || (prev && /^h[34]$/.test(prev.type) && textW(b.text) < 60))) b.keep = true;
     if (b.type === 'p' && nxt && (['table', 'ex', 'note'].includes(nxt.type) && (label.index || textW(b.text) < 80) || ['table', 'ex', 'note', 'ul'].includes(nxt.type) && /[：:]$/.test(b.text) && (textW(b.text) <= 88 || blockLines(nxt) <= 8))) b.keep = true;   // 三行以上的引导段和八行以上的框不硬连（整块挪页会空出半页）
-    // 题目说明（“三、语法和词汇（6 分）：……”“……（Escucha y relaciona.）【音频 2-Q1】”“选项：A. …”）和下面的列表不分页；
+    // 题目说明（“三、语法和词汇（6 分）：……”“……（Escucha y relaciona.）【音频 2-Q1】”“选项：A. …”“原话：A. …　B. …”）和下面的列表不分页；
     // 两行以内的引导段和后面六行以内的短列表（“任务二　对话……”和话题 A、B）也不分页
     if (b.type === 'p' && nxt && nxt.type === 'ul') {
       const t = b.text.replace(/\*\*/g, '');
-      if ((textW(t) <= 200 && (/^[一二三四五六七八九十]、/.test(t) || /【音频[^】]+】$/.test(t) || /（[¿¡A-Z][^（）]*[.?!]）$/.test(t) || /^(选项|选词)[：:]/.test(t)))
+      if ((textW(t) <= 200 && (/^[一二三四五六七八九十]、/.test(t) || /【音频[^】]+】$/.test(t) || /（[¿¡A-Z][^（）]*[.?!]）$/.test(t) || /^(选项|选词)[：:]/.test(t) || /(^|[：:　])A\. .*　B\. /.test(t)))
         || (textW(t) <= 88 && itemLines(nxt.items) <= 6)) b.keep = true;
     }
     // 列表最后一项和后面的框连在一起：框八行以内，或者列表本身八行以内（选项连同短文第一段整块挪页会空出半页）
     if (b.type === 'ul' && nxt && ['table', 'ex', 'note'].includes(nxt.type) && (nxt.type !== 'ex' || blockLines(nxt) <= 8 || itemLines(b.items) <= 8)) b.keepLast = true;
     // 只有标题的练习（“练习 22　听录音跟读……【音频 7-5】”）后面紧接着下一个标题时不硬连
     if (b.type === 'h4' && /^练习 /.test(b.text) && nxt && /^h[34]$/.test(nxt.type)) b.loose = true;
-    if (b.type === 'ul' && nxt && nxt.type === 'p' && textW(nxt.text.replace(/\*\*/g, '')) <= 80 && (!blocks[bi + 2] || /^h[234]$/.test(blocks[bi + 2].type))) b.keepLast = true;   // 题目列表后面一两行的说明（“规律：……”）不单独落到下一页
+    if (b.type === 'ul' && nxt && nxt.type === 'p' && textW(nxt.text.replace(/\*\*/g, '')) <= 80 && (!blocks[bi + 2] || /^h[234]$/.test(blocks[bi + 2].type)) && itemLines(b.items) <= 9) b.keepLast = true;   // 题目列表后面一两行的说明（“规律：……”）不单独落到下一页（十行以上的长列表不连，整块挪页会空出半页）
     const isLab = (x) => x && x.type === 'p' && LABEL.test(x.text.replace(/\*\*/g, ''));
     if (b.type === 'p' && nxt && nxt.type === 'p' && /,$/.test(nxt.text) && textW(nxt.text) <= 12) b.keep = true;
     if (b.type === 'p' && isLab(prev) && nxt && !/^h[234]$/.test(nxt.type) && textW(b.text) <= 150) b.keep = true;
@@ -338,10 +340,21 @@ function renderChapter(blocks, label, tocSections) {
   // 就整块连在一起，说明、题目、短文和答题行在同一页；更长的部分正常排
   {
     let inQuiz = false, inRQuiz = false, start = -1;
+    const chainSeg = (body) => {
+      if (body.reduce((a, b) => a + est(b), 0) > 30) return false;
+      // 框内各段在 LibreOffice 里连不住（表格里不管“与下段同页”），32 行以内的框整框一行、不拆
+      body.forEach((b, k) => { b.inTask = true; b.chain = k < body.length - 1; if (b.type === 'ex' && blockLines(b) <= 32) b.oneRow = true; });
+      return true;
+    };
     const close = (end) => {
       if (start < 0) return;
       const body = blocks.slice(start, end);
-      if (body.reduce((a, b) => a + est(b), 0) <= 30) body.forEach((b, k) => { b.inTask = true; b.chain = k < body.length - 1; });
+      if (!chainSeg(body)) {
+        // 排不下一页的练习：按“任务一、任务二……”分开，每个任务单独连在一起；32 行以内的框（广告、选题）整框不拆
+        const cuts = [0, ...body.map((b, k) => (k > 0 && b.type === 'p' && /^任务[一二三四]　/.test(b.text) ? k : -1)).filter((k) => k > 0)];
+        if (cuts.length > 1) cuts.forEach((c, i) => chainSeg(body.slice(c, cuts[i + 1] || body.length)));
+        body.forEach((b) => { if (b.type === 'ex' && !b.inTask && blockLines(b) <= 32) b.oneRow = true; });
+      }
       start = -1;
     };
     blocks.forEach((b, bi) => {
@@ -414,7 +427,7 @@ function renderChapter(blocks, label, tocSections) {
       spacing: { after: 50, line: 300 },
       children: m ? [...runs(m[1]), new TextRun({ children: [new Tab()], font: F, size: 21 }), ...runs(nb(hz(it.text.slice(m[0].length))))] : runs(nb(hz(it.text))) })));
     else if (b.type === 'table') { out.push(table(b.rows, label.compact ? { size: 17, split: true, compact: true } : label.index ? { size: 18, split: true } : b.chain ? { keepLast: true } : b.whole ? { whole: true } : {})); out.push(spacer(!!b.chain)); }
-    else if (b.type === 'ex') { out.push(examples(b.ex, b.keepAfter || !!b.chain, !!b.inTask)); out.push(spacer(b.keepAfter || !!b.chain)); }
+    else if (b.type === 'ex') { out.push(examples(b.ex, b.keepAfter || !!b.chain, !!b.inTask, !!b.oneRow)); out.push(spacer(b.keepAfter || !!b.chain)); }
     else if (b.type === 'note') { out.push(note(b.text)); out.push(spacer()); }
     else if (b.type === 'audio') {
       const tr = AUDIO[b.id];
