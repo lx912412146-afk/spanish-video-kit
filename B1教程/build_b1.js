@@ -247,14 +247,15 @@ function table(rows, o = {}) {
   });
 }
 function examples(ex, keepAfter = false, whole = false) {
-  // 每句一段。估算排出来的行数：整框 8 行以内不拆；更长的框可以在句间跨页，超过 6 行的长段落本身也可以跨页。
+  // 每句一段。估算排出来的行数：整框 8 行以内不拆；更长的框可以在句间跨页，超过 10 行的长段落本身也可以跨页
+  // （LibreOffice 在表格里不管孤行控制，也不管段落的“不拆分”，7–10 行的段落拆开会在下一页顶上只留一行，所以这样的行设成整行不拆）。
   // 短的首句（标题、称呼）和末句（署名）和相邻的一句放在同一格里，不会单独留在另一页
   const n = ex.length;
   const lines = ex.map(([es, zh]) => Math.ceil((textW(es) + (zh ? textW(zh) * 0.95 + 1 : 0)) / 44));
   const total = lines.reduce((a, b) => a + b, 0);
   const small = total <= 8 || (whole && total <= 40);
   const paras = ex.map(([es, zh], k) => new Paragraph({ spacing: { after: k < n - 1 ? 80 : 0, line: 300 },
-    keepNext: (k < n - 1 && small) || (k === n - 1 && keepAfter), keepLines: lines[k] <= 6, widowControl: true,
+    keepNext: (k < n - 1 && small) || (k === n - 1 && keepAfter), keepLines: lines[k] <= 10, widowControl: true,
     children: [...runs(nb(es), { size: 20, bold: true, color: COL.ink }), ...(zh ? [new TextRun({ text: '　', font: F, size: 20 }), ...runs(nb(zh), { size: 19, color: COL.muted })] : [])] }));
   const head = (k) => /^(Opción|Situación|Tema|Texto|Mensaje|Diálogo|Fragmento|Grabación)\b/.test(ex[k][0]) || /[:：]$/.test(ex[k][0].trim());
   const groups = [];
@@ -275,7 +276,7 @@ function examples(ex, keepAfter = false, whole = false) {
     borders: { top: NONE, bottom: NONE, right: NONE, insideVertical: NONE,
       insideHorizontal: { style: BorderStyle.SINGLE, size: 4, color: COL.saffronSoft },
       left: { style: BorderStyle.SINGLE, size: 18, color: COL.saffron } },
-    rows: groups.map((g, gi) => new TableRow({ cantSplit: glines(g) <= 6 || (g.length > 1 && glines(g) <= 14), children: [new TableCell({
+    rows: groups.map((g, gi) => new TableRow({ cantSplit: glines(g) <= 10 || (g.length > 1 && glines(g) <= 14), children: [new TableCell({
       width: { size: CONTENT_W, type: WidthType.DXA }, shading: { type: ShadingType.CLEAR, color: 'auto', fill: COL.saffronSoft },
       margins: { top: gi === 0 ? 100 : 0, bottom: gi === G - 1 ? 100 : 0, left: 180, right: 180 }, children: g.map((k) => paras[k]) })] })),
   });
@@ -336,7 +337,7 @@ function renderChapter(blocks, label, tocSections) {
   // 单元小测另起一页（可以单独复印）；每个部分（“一、阅读（6 分）：……”到下一个“二、”或下一个标题）估计排得下大半页（约 30 行）
   // 就整块连在一起，说明、题目、短文和答题行在同一页；更长的部分正常排
   {
-    let inQuiz = false, start = -1;
+    let inQuiz = false, inRQuiz = false, start = -1;
     const close = (end) => {
       if (start < 0) return;
       const body = blocks.slice(start, end);
@@ -344,7 +345,16 @@ function renderChapter(blocks, label, tocSections) {
       start = -1;
     };
     blocks.forEach((b, bi) => {
-      if (/^h[234]$/.test(b.type)) { close(bi); inQuiz = b.type === 'h4' && /^小测/.test(b.text); if (inQuiz) b.taskBreak = true; }
+      if (/^h[234]$/.test(b.type)) {
+        close(bi);
+        // 小测后面的“单元小结”另起一页：语法要点表里有小测的答案，不能和小测印在同一张上
+        if (inQuiz) b.taskBreak = true;
+        // 复习单元的“DELE B1 题型小测”（###）另起一页，里面每个“练习 N”排得下大半页就整块连在一起
+        if (b.type !== 'h4' || !inRQuiz) inRQuiz = b.type === 'h3' && /题型小测/.test(b.text);
+        inQuiz = b.type === 'h4' && /^小测/.test(b.text);
+        if (inQuiz || (inRQuiz && b.type === 'h3')) b.taskBreak = true;
+        if (inRQuiz && b.type === 'h4' && /^练习 /.test(b.text)) start = bi + 1;
+      }
       else if (inQuiz && b.type === 'p' && /^[一二三四五]、/.test(b.text)) { close(bi); start = bi; }
     });
     close(blocks.length);
@@ -360,7 +370,11 @@ function renderChapter(blocks, label, tocSections) {
       start = -1;
     };
     blocks.forEach((b, bi) => {
-      if (b.type === 'h3') { close(bi); inPaper = /^[一二三四五]　/.test(b.text); reading = /^[一二三四五]　阅读/.test(b.text); firstInPart = true; }
+      if (b.type === 'h3') {
+        close(bi); inPaper = /^[一二三四五]　/.test(b.text); reading = /^[一二三四五]　阅读/.test(b.text); firstInPart = true;
+        // 考试说明前面有只给教师看的说明时，考试说明另起一页（整页复印给学生）
+        if (/^考试说明/.test(b.text) && blocks[bi - 1].type !== 'h2') b.taskBreak = true;
+      }
       else if (b.type === 'h2') close(bi);
       else if (b.type === 'h4') { close(bi); if (inPaper) start = bi; if (reading && !firstInPart) b.taskBreak = true; firstInPart = false; }
     });
@@ -375,7 +389,7 @@ function renderChapter(blocks, label, tocSections) {
   });
   for (const b of blocks) {
     if (b.type === 'h2') out.push(heading(2, label.chapter, b.text, 1, true));
-    else if (b.type === 'h3') { sec += 1; out.push(heading(3, label.section(sec), b.text, tocSections ? 2 : null, !!label.index)); }
+    else if (b.type === 'h3') { sec += 1; out.push(heading(3, label.section(sec), b.text, tocSections ? 2 : null, !!label.index, !!b.taskBreak)); }
     else if (b.type === 'h4') out.push(heading(4, '', b.text, null, false, !!b.taskBreak, !b.loose));
     // 词表（“选词：”开头，或六个以上用全角空格隔开的西语短语）：每个短语内部不断行
     else if (b.type === 'p') out.push(para(/^选词[：:]/.test(b.text) || (b.text.split('　').length >= 6 && b.text.split('　').every((w) => w.length <= 30 && !/[\u4e00-\u9fff]/.test(w)))
