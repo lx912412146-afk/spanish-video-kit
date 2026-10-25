@@ -151,7 +151,10 @@ LETTERS = {'a', 'be', 'ce', 'de', 'e', 'efe', 'ge', 'hache', 'i', 'jota', 'ka', 
 
 FOREIGN = {'jiaozi', 'jianbing', 'baozi', 'xian'}   # 汉语词（饺子、煎饼、包子）和句首的 Xi'an：识别模型只会按西语猜拼法
 # 整句识别有出入、但把这句切成片段单独识别核对过读音是对的（2026-10-24）：用核对过的那一版（种子，None 是不加种子的第一版），出入不计，核对记录里注明
-VERIFIED = {}   # A2 的两句见 A2教程/tools/make_tracks.py；B1 的在这里加：(声音, 句子): 种子
+VERIFIED = {   # A2 的两句见 A2教程/tools/make_tracks.py；B1 的在这里加：(声音, 句子): 种子
+    # 1-4：整句识别把 Compramos productos 并成 Compramos（十个种子都一样）；单独识别 0.6–1.6 秒听到 “Los productos en China”，读了
+    ('男1', 'Compramos productos en China y los vendemos en México.'): None,
+}
 
 
 def lenient_tokens(s):

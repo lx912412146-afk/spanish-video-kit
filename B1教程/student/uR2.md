@@ -358,12 +358,9 @@
 
 #### 练习 19　书面表达任务二：从下面两个题目中选一个，写 130–150 个词。（Elige una opción y escribe un texto de 130–150 palabras.）
 
-Opción A：西语角的博客征集“第一次用西语做难事”的经历。
-
+> Opción A｜西语角的博客征集“第一次用西语做难事”的经历。
 > El blog del Rincón: «Mi primera vez en español». ¿Os acordáis de la primera vez que hicisteis algo difícil en español: una presentación, una llamada importante, una reclamación…? Contadnos qué pasó y cómo os sentisteis. ¿Qué aprendisteis? ¡Esperamos vuestros textos!｜
-
-Opción B：一个西语学习论坛上的讨论。
-
+> Opción B｜一个西语学习论坛上的讨论。
 > Foro «Estudiar fuera»: Muchos estudiantes pasan un año en otro país. Unos dicen que es la mejor manera de aprender un idioma; otros creen que es demasiado caro y que se puede aprender igual en casa. ¿Tú qué opinas? ¡Escribe tu opinión!｜
 
 - Opción A：时间、地点、经过和你当时的感受；转述一个人说的话（Me dijo que…＋过去未完成时）；结尾写你学到了什么。
@@ -386,15 +383,15 @@ Opción B：一个西语学习论坛上的讨论。
 - 话题 A：¿Qué harías diferente ahora? ¿Es mejor reclamar por teléfono o por escrito?
 - 话题 B：¿Es un lugar caro? ¿Qué le recomendarías a un amigo que va por primera vez?
 
-任务三　描述场景（2–3 分钟，不准备）：描述场景卡上的地方和人，说说你觉得发生了什么，再回答两个问题。
+任务三　描述场景（2–3 分钟，不准备）：描述地方和人，推测发生了什么，再回答两个问题。
 
 - 场景卡：12 月 24 日下午，马德里的一个火车站，人很多，大家都拖着箱子、拿着礼物。大屏幕上一趟开往瓦伦西亚的火车写着“Cancelado”；一个小伙子站在服务台前看着手机，表情很着急；旁边一家人坐在箱子上吃三明治，一个小女孩在看书。
 - “考官”的问题：¿Has viajado alguna vez en Navidad o en Año Nuevo? ¿Qué haces cuando un tren sale con retraso?
 
-任务四　角色扮演（2–3 分钟）：还在这个火车站。考生是那个小伙子（或一位姑娘），“考官”是服务台的工作人员。
+任务四　角色扮演（2–3 分钟）：考生是那个小伙子（或姑娘），“考官”是服务台的工作人员。
 
-- 考生：Tu tren de las 17:30 a Valencia está cancelado y tu familia te espera para cenar a las nueve y media. Explica el problema con educación, pregunta qué opciones hay y pide una solución para llegar a tiempo.
-- “考官”（empleado）：El tren no sale por un problema técnico. Primero ofreces el tren de las 20:15 (llega a las 22:10) o la devolución del dinero. Si el cliente insiste con educación, al final le ofreces un asiento en el tren de las 18:40 (llega a las 20:35) sin pagar más. Empiezas tú: Buenas tardes, ¿en qué puedo ayudarle?
+- 考生：Tu tren de las 17:30 a Valencia está cancelado y tu familia te espera para cenar a las nueve y media. Explica el problema, pregunta qué opciones hay y pide una solución.
+- “考官”（empleado）：Primero ofreces el tren de las 20:15 (llega a las 22:10) o la devolución del dinero. Si el cliente insiste con educación, le ofreces un asiento en el tren de las 18:40 (llega a las 20:35) sin pagar más. Empiezas tú: Buenas tardes, ¿en qué puedo ayudarle?
 
 ### 学习档案
 

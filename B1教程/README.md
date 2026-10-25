@@ -22,7 +22,7 @@
 | `student/uNN.md`、`teacher/uNN.md`、`audio/uNN.md` | 各单元的学生用书、教师用书和录音稿（NN 为 01–10，复习单元 R1、R2，阶段测试 T1、T2） |
 | `student/front.md`、`teacher/front.md`、`student/appA.md`、`student/appB.md` | 使用说明和附录（附录 C、D 由程序生成） |
 | `build_b1.js` | 排版程序：`node build_b1.js student` / `teacher` 生成 Word |
-| `tools/` | 录音程序 `make_tracks.py`、单元检查 `check_unit.py`、生词去重和核对 `dedupe_vocab.py`、`vocab_audit.py`（会读旁边的 `../A1教程/`、`../A2教程/`），语音核查 `audit_drills.py`、`audit_vowels.py`、`vowelid.py`，新声音的参考录音 `make_ref_voice.py`，声音测试 `theta_test.py`、`variant_test.py` |
+| `tools/` | 录音程序 `make_tracks.py`、单元检查 `check_unit.py`、生词去重和核对 `dedupe_vocab.py`、`vocab_audit.py`（会读旁边的 `../A1教程/`、`../A2教程/`），语音核查 `audit_drills.py`、`audit_vowels.py`、`vowelid.py`，识别有出入的句子逐段核对 `verify_piece.py`，新声音的参考录音 `make_ref_voice.py`，声音测试 `theta_test.py`、`variant_test.py` |
 | `voices/` | 克隆用的参考录音 |
 | `单元规划.md`、`编写要求.md`、`复习和测试编写要求.md`、`审校要求.md`、`二校要求.md`、`版面检查要求.md`、`待统一问题.md` | 单元规划、编写规则、审校要求和全书统一事项 |
 | `资料/` | B1 大纲和教材结构的资料汇编、A1 和 A2 的人物情节档案和生词表、各单元的新定事实、名字池 |

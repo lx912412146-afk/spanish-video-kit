@@ -367,6 +367,8 @@ function renderChapter(blocks, label, tocSections) {
         inQuiz = b.type === 'h4' && /^小测/.test(b.text);
         if (inQuiz || (inRQuiz && b.type === 'h3')) b.taskBreak = true;
         if (inRQuiz && b.type === 'h4' && /^练习 /.test(b.text)) start = bi + 1;
+        // 复习小测的听力、书面表达、口语各部分另起一页（阅读紧跟小测标题）
+        if (inRQuiz && b.type === 'h4' && /^(听力|书面表达|口语)$/.test(b.text)) b.taskBreak = true;
       }
       else if (inQuiz && b.type === 'p' && /^[一二三四五]、/.test(b.text)) { close(bi); start = bi; }
     });
