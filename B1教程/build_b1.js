@@ -139,6 +139,8 @@ const nb = (s) => String(s)
   .replace(/([a-záéíóúA-ZÁÉÍÓÚ])-(?=[a-záéíóúA-ZÁÉÍÓÚ])/g, '$1\u2060-\u2060').replace(/(\d) (?=\d{3}(?!\d))/g, '$1\u00a0').replace(/(\d) (?=_{3,})/g, '$1\u00a0').replace(/(_{3,}) (?=\()/g, '$1\u00a0').replace(/(\d) (?=%)/g, '$1\u00a0').replace(/(\d)～(?=\d)/g, '$1\u2060～\u2060').replace(/([×√]) (?=\S)/g, '$1\u00a0').replace(/(\d)—(?=\d)/g, '$1\u2060—\u2060').replace(/(\d) (?=\d)/g, '$1\u00a0').replace(/([\u4e00-\u9fff])(?=）)/g, '$1\u2060').replace(/([（：，、；])(\d+)[ \u00a0](?=[\u4e00-\u9fff])/g, '$1$2\u2060')
   .replace(/([–-])(?=[a-záéíóúñü])/g, '$1\u2060').replace(/… (o|ni|y)…/g, '…\u00a0$1…')
   .replace(/—(?=[¿¡A-Za-zÁÉÍÓÚÑáéíóúñ])/g, '—\u2060').replace(/——/g, '—\u2060—')
+  // 中文里的“背景—意外—结果”：连接号不落在行首（前面加 WJ，只能在连接号后面转行）
+  .replace(/([\u4e00-\u9fff])—(?=[\u4e00-\u9fff])/g, '$1\u2060—')
   // “、-iste、-o”：连字符前面不能断行，整串词尾连成一块会把行尾空出一大截；顿号后面加零宽空格允许在这里转行
   .replace(/([、，；])(?=[-–]\u2060?[a-záéíóúñ])/g, '$1\u200b')
   // “说的是谁：A Fidel，B Carolina，C 两个人都不是”：选项字母和后面的人名不分开
@@ -327,11 +329,27 @@ function renderChapter(blocks, label, tocSections) {
   // 阶段测试：每个任务（#### 到下一个标题之间）串成一组，尽量排在同一页，复印出来题和原文、选项在一张纸上
   // 阶段测试：每个部分的第一个任务紧跟部分标题，其余任务另起一页；任务估计排得下一页（约 42 行）才整块连在一起，
   // 否则正常排（LibreOffice 对超过一页的连锁会留大片空白）
+  const est = (b) => b.type === 'p' ? Math.ceil(textW(b.text) / 44) + 0.5
+    : b.type === 'ul' ? b.items.reduce((a, x) => a + Math.ceil(textW(x.text) / 40), 0) + 0.5
+    : b.type === 'ex' ? b.ex.reduce((a, [es, zh]) => a + Math.ceil((textW(es) + (zh ? textW(zh) : 0)) / 44), 0) + 1.5
+    : b.type === 'table' ? b.rows.length * 1.4 + 1 : 1;
+  // 单元小测另起一页（可以单独复印）；每个部分（“一、阅读（6 分）：……”到下一个“二、”或下一个标题）估计排得下大半页（约 30 行）
+  // 就整块连在一起，说明、题目、短文和答题行在同一页；更长的部分正常排
+  {
+    let inQuiz = false, start = -1;
+    const close = (end) => {
+      if (start < 0) return;
+      const body = blocks.slice(start, end);
+      if (body.reduce((a, b) => a + est(b), 0) <= 30) body.forEach((b, k) => { b.inTask = true; b.chain = k < body.length - 1; });
+      start = -1;
+    };
+    blocks.forEach((b, bi) => {
+      if (/^h[234]$/.test(b.type)) { close(bi); inQuiz = b.type === 'h4' && /^小测/.test(b.text); if (inQuiz) b.taskBreak = true; }
+      else if (inQuiz && b.type === 'p' && /^[一二三四五]、/.test(b.text)) { close(bi); start = bi; }
+    });
+    close(blocks.length);
+  }
   if (label.keepTasks) {
-    const est = (b) => b.type === 'p' ? Math.ceil(textW(b.text) / 44) + 0.5
-      : b.type === 'ul' ? b.items.reduce((a, x) => a + Math.ceil(textW(x.text) / 40), 0) + 0.5
-      : b.type === 'ex' ? b.ex.reduce((a, [es, zh]) => a + Math.ceil((textW(es) + (zh ? textW(zh) : 0)) / 44), 0) + 1.5
-      : b.type === 'table' ? b.rows.length * 1.4 + 1 : 1;
     // 只管试卷部分（从“一　听力”到“参考答案”之前）；短任务（约 30 行以内）整块连在一起，长任务正常排
     let start = -1, inPaper = false, reading = false, firstInPart = false;
     const close = (end) => {
