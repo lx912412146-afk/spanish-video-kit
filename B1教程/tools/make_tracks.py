@@ -125,7 +125,13 @@ def vocab_words(u):
 
 # ---------------------------------------------------------------- 识别核对
 NUMW = None
-APOCOPE = {'veintiun': 'veintiuno', 'un': 'uno', 'una': 'uno'}
+APOCOPE = {'veintiun': 'veintiuno', 'un': 'uno', 'una': 'uno',
+           'etc': 'etcetera', 'postventa': 'posventa', 'quizas': 'quiza'}   # 识别结果的缩写和两种都对的写法
+
+
+def roman(r):
+    v = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100}
+    return sum(-v[c] if i + 1 < len(r) and v[c] < v[r[i + 1]] else v[c] for i, c in enumerate(r))
 
 
 def norm(t, digitwise=False):
@@ -135,11 +141,14 @@ def norm(t, digitwise=False):
     if NUMW is None:
         from num2words import num2words
         NUMW = num2words
+    # 识别结果把“los siglos trece y catorce”写成 XIII、XIV：两个字母以上的大写罗马数字换成数字
+    t = re.sub(r'\b[IVXLC]{2,}\b', lambda m: str(roman(m.group())), t)
     t = re.sub(r'(?<![\d.])\d{1,3}(?:\.\d{3})+(?![\d.])', lambda m: m.group().replace('.', ''), t.lower())
     if digitwise:
         t = re.sub(r'\d+(?:[- ]\d+)+|\d{4,}', lambda m: ' '.join(NUMW(int(d), lang='es') for d in re.findall(r'\d', m.group())), t)
     t = re.sub(r'\d+', lambda m: ' ' + NUMW(int(m.group()), lang='es') + ' ', t)
     t = ''.join(c for c in unicodedata.normalize('NFD', t) if unicodedata.category(c) != 'Mn')
+    t = re.sub(r'cientas\b', 'cientos', t)          # 识别结果的 300 是 trescientos，原文的 trescientas bicicletas 读音只差词尾
     return [APOCOPE.get(w, w) for w in re.sub(r"[^a-zñ ]", ' ', t.replace("'", '')).split()]
 
 
@@ -149,11 +158,24 @@ LETTERS = {'a', 'be', 'ce', 'de', 'e', 'efe', 'ge', 'hache', 'i', 'jota', 'ka', 
            'punto', 'arroba', 'guion', 'barra', 'edu', 'com', 'cn'}   # 念邮箱、网址时的说法，识别结果常写成符号
 
 
-FOREIGN = {'jiaozi', 'jianbing', 'baozi', 'xian'}   # 汉语词（饺子、煎饼、包子）和句首的 Xi'an：识别模型只会按西语猜拼法
+FOREIGN = {'jiaozi', 'jianbing', 'baozi', 'xian', 'guo', 'nian'}   # 汉语词（饺子、煎饼、包子）和句首的 Xi'an：识别模型只会按西语猜拼法
 # 整句识别有出入、但把这句切成片段单独识别核对过读音是对的（2026-10-24）：用核对过的那一版（种子，None 是不加种子的第一版），出入不计，核对记录里注明
 VERIFIED = {   # A2 的两句见 A2教程/tools/make_tracks.py；B1 的在这里加：(声音, 句子): 种子
     # 1-4：整句识别把 Compramos productos 并成 Compramos（十个种子都一样）；单独识别 0.6–1.6 秒听到 “Los productos en China”，读了
     ('男1', 'Compramos productos en China y los vendemos en México.'): None,
+    # 2026-10-25 第一遍合成以后核对的（tools/verify_piece.py，按词的时间单独识别那一段）：
+    ('男1', 'Compramos lámparas y cosas para la cocina en China y las vendemos a tiendas de todo México.'): None,   # 3-2：0.6–1.6 秒“Lámparas y cosas”
+    ('女1', 'Estoy enviándotelas ahora.'): None,                       # 4-6：0.5–1.4 秒“Enviándotelas”
+    ('女1', 'Chicos, sentaos aquí, por favor.'): None,                 # 4-6：0.58–1.44 秒“Sentaos aquí”
+    ('男2', 'La biblioteca de una universidad de Bilbao tiene desde este mes una sala sin móviles.'): 9000,   # 6-Q1：3.4–4.6 秒“una sala sin”
+    ('女3', 'Quiere saber si tienes fiebre.'): None,                   # 8-5：quiere‿saber 连读听成 quieres；句末音高 179→131 Hz 下降，是陈述句
+    ('女4', 'Los palacios los construyeron los reyes nazaríes en los siglos trece y catorce.'): None,   # 10-2：1.8–2.45 秒“Los reyes”
+    ('女4', 'Quizá sean solo manchas de la piedra, pero de pequeña, cuando iba con el colegio, me daban muchísimo miedo.'): None,   # 10-2：5.4–7.2 秒“Me daban muchísimo miedo”
+    ('女2', 'Se comía los animales y, a veces, también a las personas.'): None,   # 10-3：0–1.44 秒“Se comía los animales”（整句多出的 a 是 comía 的尾音）
+    ('男1', '¿Me dice su nombre y un teléfono?'): None,                # R2-1：0.3–1.2 秒“Dice su nombre”
+    ('女4', '¡Que tengas suerte!'): None,                              # T1-4：tengas‿suerte 两个 s 连读，识别成 tenga
+    ('男2', 'Después le pido los papeles: el tique, la factura, los correos con la tienda…'): None,   # T2-2：1.9–2.8 秒“El tique”
+    ('男2', 'Primero, guardad siempre el tique o la factura.'): None,   # T2-2：2.32–3.68 秒“Tiki o la factura”
 }
 
 

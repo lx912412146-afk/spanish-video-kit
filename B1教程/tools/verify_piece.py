@@ -1,6 +1,6 @@
 """整句识别有出入时，核对缓存里那一版录音到底读没读那个词：找出（声音、句子、种子）对应的缓存 wav，
 整句识别（带词的时间），再把句子切成几段分别识别，打印每段的识别结果和时长。不重新合成。
-python verify_piece.py <工具包目录> <教材目录> <识别模型目录> <声音> "<句子>" [种子]
+python verify_piece.py <工具包目录> <教材目录> <识别模型目录> <声音> "<句子>" [种子或 -] [窗口，如 1.7-2.6,5.3-6.1]
 """
 import sys
 from pathlib import Path
@@ -11,7 +11,8 @@ import soxr
 
 KIT, BOOK, ASR = (Path(p).resolve() for p in sys.argv[1:4])
 VOICE, TEXT = sys.argv[4], sys.argv[5]
-SEED = int(sys.argv[6]) if len(sys.argv) > 6 else None
+SEED = int(sys.argv[6]) if len(sys.argv) > 6 and sys.argv[6] != '-' else None
+WINDOWS = [tuple(float(x) for x in w.split('-')) for w in sys.argv[7].split(',')] if len(sys.argv) > 7 else [(0.0, 0.5), (0.3, 1.2), (0.5, 1.4), (0.6, 1.6)]
 sys.path.insert(0, str(KIT / '西班牙语' / 'tools'))
 import c4  # noqa: E402
 
@@ -64,7 +65,7 @@ bounds = [0] + [c for c in cuts if 0.3 * sr < c < len(a) - 0.3 * sr] + [len(a)]
 for s, t in zip(bounds, bounds[1:]):
     if t - s > 0.15 * sr:
         print(f'  {s / sr:5.2f}–{t / sr:5.2f} 秒：{asr(a[s:t]).text.strip()}')
-# 从句首到“en China”之前那一段单独识别（用整句识别的时间）
-for lo, hi in ((0.0, 0.5), (0.3, 1.2), (0.5, 1.4), (0.6, 1.6)):
+# 指定的时间窗口单独识别（按整句识别给出的词的时间选）
+for lo, hi in WINDOWS:
     s, t = int(lo * sr), min(len(a), int(hi * sr))
     print(f'  窗口 {lo:.1f}–{hi:.1f} 秒：{asr(a[s:t]).text.strip()}')
