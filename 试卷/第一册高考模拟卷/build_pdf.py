@@ -12,7 +12,7 @@ from pathlib import Path
 import markdown
 
 SRC, OUT = Path(sys.argv[1]).resolve(), Path(sys.argv[2]).resolve()
-STUDENT = ('注意事项', '第一部分', '第二部分', '第三部分', '第四部分')
+STUDENT = ('注意事项', '第一部分', '第二部分', '第三部分', '第四部分', '第五部分')   # 分阶段卷加了第四部分“基础知识”，写作是第五部分
 
 CSS = """
 @page { size: A4; margin: 18mm 18mm 20mm 18mm; }
@@ -32,6 +32,8 @@ th { background: #f0f0f0; }
 blockquote { margin: 6pt 0 6pt 10pt; padding-left: 8pt; border-left: 2pt solid #bbb; }
 a { color: #111; text-decoration: none; }
 .blank { display: inline-block; width: 5em; border-bottom: 0.6pt solid #111; }
+/* 标题、“第一节（共…）”这样的说明行和题目列表前的说明不单独留在页底 */
+h2, h3, p:has(> strong:first-child), p:has(+ ol), p.lead { break-after: avoid; page-break-after: avoid; }
 """
 
 
@@ -51,6 +53,8 @@ def to_html(md, title):
     rest = re.sub(r'(?<!\\)_{4,}', 'BLANKLINE', rest)                       # 题干里的长横线（不然会被当成加粗、斜体）
     body = markdown.markdown(rest, extensions=['tables', 'sane_lists'])
     body = body.replace('BLANKLINE', '<span class="blank"></span>')
+    body = re.sub(r'<p>(阅读下面|从每题所给|听下面|在空白处)', r'<p class="lead">\1', body)   # 题目说明和下面的短文、题目不分页
+    body = re.sub(r'<p>([^<]{1,40}[:：])</p>', r'<p class="lead">\1</p>', body)   # 信的称呼（Querida Julia:）和正文不分页
     h1 = f'<h1>{head[2:].strip()}</h1>' if head else ''
     return (f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>{title}</title>'
             f'<style>{CSS}</style></head><body>{h1}<div class="date">{date}</div>{body}</body></html>')

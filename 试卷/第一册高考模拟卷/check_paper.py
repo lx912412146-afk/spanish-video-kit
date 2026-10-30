@@ -1,4 +1,5 @@
-"""试卷格式自检：题号、选项个数、答案表、完形填空答案和选项是否对得上、语法填空的提示词、听力原文、范文词数。
+"""试卷格式自检：题号、选项个数、答案表、完形填空答案和选项是否对得上、语法填空的提示词、听力原文、范文词数；
+分阶段卷加了“第四部分　基础知识”（单项选择 71–80、冠词 81–90、前置词 91–100、动词变位 101–110）的，也查这一部分。
 
     python check_paper.py 试卷.md [试卷2.md …]
 
@@ -11,6 +12,8 @@ from pathlib import Path
 
 SECTIONS = ['考试说明（教师用）', '注意事项', '第一部分　听力', '第二部分　阅读', '第三部分　语言运用', '第四部分　写作',
             '参考答案与评分标准（教师用）', '听力原文', '知识点覆盖表（教师用）']
+SECTIONS5 = SECTIONS[:5] + ['第四部分　基础知识', '第五部分　写作'] + SECTIONS[6:]   # 加了基础知识的分阶段卷
+ARTICLES = {'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'del', 'al', '/'}
 LISTEN_GROUPS = {6: (6, 8), 7: (9, 12), 8: (13, 16), 9: (17, 20)}
 
 
@@ -61,8 +64,10 @@ def check(path):
     if not re.match(r'# .+\n\n\d{4}-\d{2}-\d{2}\n', md):
         e('开头要是「# 标题」、空行、日期')
     heads = re.findall(r'(?m)^## (.+)$', md)
-    got = [next((s for s in SECTIONS if h.startswith(s)), None) for h in heads]
-    if [g for g in got if g] != SECTIONS:
+    five = any(h.startswith('第四部分　基础知识') for h in heads)
+    want = SECTIONS5 if five else SECTIONS
+    got = [next((s for s in want if h.startswith(s)), None) for h in heads]
+    if [g for g in got if g] != want:
         e(f'二级标题顺序不对：{heads}')
     if None in got:
         e(f'多出的二级标题：{[h for h, g in zip(heads, got) if not g]}')
@@ -128,9 +133,12 @@ def check(path):
     for n, a in al.items():
         if a not in 'ABC':
             e(f'听力第 {n} 题答案 {a} 不在 A–C')
-    ck, gk = {}, {}
+    ck, gk, bk = {}, {}, {}
     for line in key.splitlines():
         cells = [c.strip() for c in line.strip().strip('|').split('|')]
+        if len(cells) == 3 and re.fullmatch(r'\d{2,3}', cells[0]) and 71 <= int(cells[0]) <= 110:
+            bk[int(cells[0])] = cells[1]
+            continue
         if len(cells) == 3 and re.fullmatch(r'\d{2}', cells[0]):
             n = int(cells[0])
             if 41 <= n <= 60:
@@ -161,6 +169,11 @@ def check(path):
         if runs > 3:
             e(f'{name}答案连续 {runs} 题相同')
 
+    if five:
+        check_basics(sec(md, '第四部分　基础知识'), bk, e)
+    elif bk:
+        e(f'答案里有 71–110 题，但没有“第四部分　基础知识”')
+
     # 听力原文
     texts = re.split(r'(?m)^\*\*Texto (\d+)\*\*$', script)
     nums = [int(x) for x in texts[1::2]]
@@ -174,7 +187,7 @@ def check(path):
             e(f'Texto {k} 应是对话')
 
     # 写作要求和范文词数
-    wr = sec(md, '第四部分　写作')
+    wr = sec(md, '第五部分　写作' if five else '第四部分　写作')
     lim = [tuple(map(int, x)) for x in re.findall(r'词数 (\d+)～(\d+) 个', wr)]
     if len(lim) != 2:
         e(f'写作两节都要写「词数 X～Y 个」：{lim}')
@@ -196,6 +209,58 @@ def check(path):
         if stated and int(stated.group(1)) != n:
             e(f'{label}范文标注 {stated.group(1)} 词，实际数出 {n} 词')
     return errs, notes
+
+
+def check_basics(text, bk, e):
+    """第四部分　基础知识：四节的题号、选项、提示词和答案。"""
+    parts = re.split(r'(?m)^\*\*第[一二三四]节\*\*', text)
+    if len(parts) != 5:
+        e(f'基础知识应有第一至第四节，现在 {len(parts) - 1} 节')
+        return
+    q = questions(parts[1])
+    if sorted(q) != list(range(71, 81)):
+        e(f'单项选择题号应为 71–80：{sorted(q)}')
+    for n, (stem, opts) in q.items():
+        if [o[0] for o in opts] != list('ABCD'):
+            e(f'单项选择第 {n} 题选项应为 A–D：{[o[0] for o in opts]}')
+        if len({o[1] for o in opts}) != len(opts):
+            e(f'单项选择第 {n} 题有重复选项')
+        if '________' not in stem:
+            e(f'单项选择第 {n} 题题干里没有空白 ________')
+    for k, (lo, hi), hint in ((2, (81, 90), False), (3, (91, 100), False), (4, (101, 110), True)):
+        b = re.findall(r'\\_\\_(\d{2,3})\\_\\_( \(([^)]+)\))?', parts[k])
+        if [int(x[0]) for x in b] != list(range(lo, hi + 1)):
+            e(f'第{"二三四"[k - 2]}节空格应为 {lo}–{hi} 各一次、按顺序：{[x[0] for x in b]}')
+        h = [int(x[0]) for x in b if x[1]]
+        if hint and len(h) != 10:
+            e(f'动词变位 10 空都要给提示词，现在 {len(h)} 空：{h}')
+        if not hint and h:
+            e(f'第{"二三四"[k - 2]}节不该给提示词：{h}')
+        if re.search(r'(?m)^\d{2,3}\. ', parts[k]):
+            e(f'第{"二三四"[k - 2]}节不要写成“91. …”编号列表（会被当成选择题）')
+    if sorted(bk) != list(range(71, 111)):
+        e(f'基础知识答案不全：{sorted(set(range(71, 111)) - set(bk))}')
+    mc = {}
+    for n, a in bk.items():
+        if 71 <= n <= 80:
+            m = re.match(r'([A-D]) (.+)$', a)
+            if not m:
+                e(f'单项选择第 {n} 题答案格式应为「字母 选项」：{a}')
+                continue
+            mc[n] = m.group(1)
+            if n in q and len(q[n][1]) == 4 and q[n][1]['ABCD'.index(m.group(1))][1].rstrip('.') != m.group(2).rstrip('.'):
+                e(f'单项选择第 {n} 题答案 {a} 和选项 {q[n][1]["ABCD".index(m.group(1))][1]} 对不上')
+        elif 81 <= n <= 90:
+            if a.lower() not in ARTICLES:
+                e(f'冠词填空第 {n} 题答案只能是冠词、del、al 或 /：{a}')
+        elif len(a.split()) != 1:
+            e(f'第 {n} 题答案应为 1 个词：{a}')
+    c = Counter(mc.values())
+    if len(mc) == 10 and (min(c.get(x, 0) for x in 'ABCD') < 2 or max(c.values()) > 3):
+        e(f'单项选择答案分布应为 A–D 各 2–3 个：{dict(sorted(c.items()))}')
+    runs = max((len(m.group()) for m in re.finditer(r'(.)\1*', ''.join(mc[k] for k in sorted(mc)))), default=0)
+    if runs >= 3:
+        e(f'单项选择答案连续 {runs} 题相同')
 
 
 def main():
