@@ -125,7 +125,7 @@ def norm(t, digitwise=False, hyp=False, glue=False):
         t = re.sub(r'\b(\d{1,2}):00\b', r'\1', t)
         t = re.sub(r'\b(\d{1,2}):(\d{2})\b', r'\1 y \2', t)
         t = split_caps(t).replace('-', ' ')
-    t = re.sub(r'(?<![\d.])\d{1,3}(?:\.\d{3})+(?![\d.])', lambda m: m.group().replace('.', ''), t.lower())
+    t = re.sub(r'(?<![\d.])\d{1,3}(?:\.\d{3})+(?!\d|\.\d)', lambda m: m.group().replace('.', ''), t.lower())
     if digitwise:
         t = re.sub(r'\d+(?:[- ]\d+)+|\d{4,}', lambda m: ' '.join(NUMW(int(d), lang='es') for d in re.findall(r'\d', m.group())), t)
     t = re.sub(r'(\d+):(\d{2})', lambda m: f' {m.group(1)} {m.group(2)} ', t)
@@ -167,7 +167,7 @@ def sounds_same(x, y):
     def key(t):
         t = re.sub(r'c(?=[ei])', 's', t.replace(' ', '')).replace('z', 's')
         t = re.sub(r'(?<!c)h', '', t).replace('v', 'b')
-        t = re.sub(r'n(?=[pb])', 'm', t)
+        t = re.sub(r'n(?=[pbm])', 'm', t)
         return re.sub(r'(.)\1', r'\1', t).replace('y', 'i')
     return key(x) == key(y)
 
@@ -177,9 +177,19 @@ def compare(s, hyp):
     return min((compare1(s, hyp, d, g) for d in (False, True) for g in (False, True)), key=lambda x: x[0])
 
 
+# 单独出现（前后都不是字母）的 a、e、i、o、u、y、de、te 是普通词（介词、连词、语气词），不是拼读：换回原词，可以按读音放宽
+PLAIN = {'L:a': 'a', 'L:e': 'e', 'L:i': 'i', 'L:o': 'o', 'L:u': 'u', 'L:y': 'y', 'L:d': 'de', 'L:t': 'te'}
+
+
+def loose(ws, gl):
+    spelled = lambda j: 0 <= j < len(ws) and (ws[j].startswith('L:') or ws[j] in gl)
+    return [PLAIN[w] if w in PLAIN and not spelled(k - 1) and not spelled(k + 1) else w for k, w in enumerate(ws)]
+
+
 def compare1(s, hyp, digitwise=False, glue=False):
     (r, gr), (h, gh) = norm(spoken(s), glue=True) if glue else (norm(spoken(s)), set()), \
         norm(hyp, digitwise, hyp=True, glue=True) if glue else (norm(hyp, digitwise, hyp=True), set())
+    r, h = loose(r, gr), loose(h, gh)
     soft = lenient_tokens(s)
     err, ops = 0, []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(a=r, b=h, autojunk=False).get_opcodes():
@@ -195,6 +205,13 @@ def compare1(s, hyp, digitwise=False, glue=False):
         # 连上前面一个相同的词再比：seseo 里 va a hacer 和 va a ser 读音一样（a＋hacer → aser）
         prev = r[i1 - 1] if i1 else ''
         if not strict and op == 'replace' and prev.startswith('L:') and sounds_same(prev[2:] + x, prev[2:] + y):
+            continue
+        # 连上前后相同的词再比：词界不同、读音一样（pilates son ＝ Pilate son，normalmente salgo ＝ normalmente es algo，
+        # a Cádiz en ＝ acá dicen，busca monitores ＝ buscan monitores）；拼读的字母不放宽
+        plain = lambda w: not w.startswith('L:') and w not in gr and w not in gh
+        pre = r[i1 - 1] if i1 and j1 and r[i1 - 1] == h[j1 - 1] and plain(r[i1 - 1]) else ''
+        nxt = r[i2] if i2 < len(r) and j2 < len(h) and r[i2] == h[j2] and plain(r[i2]) else ''
+        if not strict and (pre or nxt) and any(sounds_same(f'{a} {x} {b}', f'{a} {y} {b}') for a, b in ((pre, ''), ('', nxt), (pre, nxt))):
             continue
         # 专有名词只放宽拼法（Li Mei 识别成 Lee May）；整个漏掉（识别结果里没有）照样算错——名字常常就是答案
         counts = strict or not (r[i1:i2] and h[j1:j2] and set(r[i1:i2]) <= soft)

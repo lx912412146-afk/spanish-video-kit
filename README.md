@@ -234,6 +234,11 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`A0-A1听力练习/`](A0-A1听力练习/)：10 套西班牙语听力练习，从 A0（零起点：字母和拼读、数字、颜色、星期月份和日期、时间）逐套过渡到 A1（家人和个人信息、购物、问路、天气和日程、打电话和通知）。每套 23—24 题、4 个部分，题型有听词或听句选择、判断对错、配对、听写数字和时间、拼写、短对话三选一、填空，全部原创（DELE A1 只借用题型格式）。学生版（25 页）只有题目和答题处，可以直接打印；教师版（65 页）有逐题答案和原文依据、全部录音原文和中文译文、使用建议；40 段录音（约 89 分钟）。
   - 每套是 `sets/NN.md` 里的一个 Markdown 文件，`build_listening.js` 排成 Word，PDF 由 LibreOffice 转出；录音由 `tools/make_tracks.py` 用本仓库的 Qwen3-TTS 合成（和 A1、A2 教程相同的声音），逐句语音识别核对。Word、PDF 和录音在 Release `a0a1-listening`。
 
+## 西班牙语 A1—A2 听力练习
+
+- [`A1-A2听力练习/`](A1-A2听力练习/)：10 套西班牙语听力练习，《A0—A1 听力练习》的续篇，从 A1 巩固（日常生活、住房和街区）逐套过渡到 A2（饭馆和订餐、周末和假期、人生故事和经历、小时候和以前、健康和看病、旅行、购物和服务、学习和工作）。每套 25 题、4 个部分，题型有短对话三选一、广播通知和广告、整段对话或采访（选择、判断对错）、配对、留言和讲座填空、听写信息，题干和选项都用西语，全部原创（DELE A2 只借用题型格式）。学生版（34 页）只有题目和答题处，可以直接打印；教师版（112 页）有逐题答案和原文依据、全部录音原文和中文译文、使用建议；40 段录音（约 203 分钟）。
+  - 每套是 `sets/NN.md` 里的一个 Markdown 文件，`build_listening.js` 排成 Word，PDF 由 LibreOffice 转出；录音由 `tools/make_tracks.py` 用本仓库的 Qwen3-TTS 合成（和 A1、A2、B1 教程相同的声音），逐句语音识别核对。Word、PDF 和录音在 Release `a1a2-listening`。
+
 ## 教学视频
 
 - [`教学视频/第一册第1课/`](教学视频/第一册第1课/)：《现代西班牙语》第一册第一课 ¿Quién es él? 的教学视频（约 13 分钟，1920×1080）。中文讲解＋西语示范和跟读：元音、辅音、音节划分、重音、连读，仿照课文的对话，语法、单词和小练习。
@@ -262,6 +267,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `a2-textbook` | 西班牙语 A2 教程：`a2-student-book.docx/.pdf`、`a2-teacher-book.docx/.pdf`、全部录音 `A2_*.mp3` 和打包的 `a2-audio.zip`、`a2-audio-checks.json`、`a2-textbook-SHA256SUMS.txt` |
 | `b1-textbook` | 西班牙语 B1 教程：`b1-student-book.docx/.pdf`、`b1-teacher-book.docx/.pdf`、全部录音 `B1_*.mp3` 和打包的 `b1-audio.zip`、`b1-audio-checks.json`、`b1-textbook-SHA256SUMS.txt` |
 | `a0a1-listening` | 西班牙语 A0—A1 听力练习：`a0a1-listening-student.docx/.pdf`、按套拆开的 `a0a1-listening-student-sets.zip`、`a0a1-listening-teacher.docx/.pdf`、全部录音 `A0A1_*.mp3` 和打包的 `a0a1-listening-audio.zip`、`a0a1-listening-checks.json`、`a0a1-listening-SHA256SUMS.txt` |
+| `a1a2-listening` | 西班牙语 A1—A2 听力练习：`a1a2-listening-student.docx/.pdf`、按套拆开的 `a1a2-listening-student-sets.zip`、`a1a2-listening-teacher.docx/.pdf`、全部录音 `A1A2_*.mp3` 和打包的 `a1a2-listening-audio.zip`、`a1a2-listening-checks.json`、`a1a2-listening-SHA256SUMS.txt` |
 | `hsk1-reading` | HSK1 中文阅读视频：`hsk1_01.mp4` … `hsk1_50.mp4`（50 篇）、`hsk1-reading-checks.json`、`hsk1-reading-SHA256SUMS.txt` |
 
 ## 来源与改动
@@ -308,3 +314,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `B1教程/`（西班牙语 B1 教程的学生用书、教师用书、录音稿、生成和录音程序）和 Release `b1-textbook`。
   - 2026-10-30：
     - `试卷/第一册分阶段模拟卷/` 的 8 套卷子都加了第四部分“基础知识”（单项选择、冠词填空、前置词填空、动词变位；写作改为第五部分）；各题分值重新分配，全卷满分仍为 150 分；`check_paper.py` 会查这一部分，`build_pdf.py` 让标题和题目说明不单独留在页底；Release `exam-book1-stages` 的 16 个 PDF 换成新版。
+  - 2026-11-02：
+    - 新增 `A1-A2听力练习/`（10 套 A1—A2 听力练习的原文、排版和录音程序）和 Release `a1a2-listening`。
