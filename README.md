@@ -182,6 +182,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 
 - [`课件/第一册/`](课件/第一册/)：《现代西班牙语》第一册（老版）第 1–24 课的分课课件（PowerPoint 16:9，另有 PDF）。每课：目标、语音（第 1–8 课）、词汇、课文、语法、常用表达、练习和答案、小结、作业，附教学备注。
   - 每课内容是一个 JSON（`content/Lxx.json`），`build_decks.js` 统一排版生成。PPTX 和 PDF 在 Release `courseware-book1`。
+  - [`课件/第一册/单词表/`](课件/第一册/单词表/)：按课整理的单词表，682 个词条（单词、词性、中文释义），各课第一次出现的动词形式和原形，127 个动词的完整变位表。Word、PDF（128 页）和 CSV 在 Release `book1-vocab`。
 - [`课件/第二册/`](课件/第二册/)：第二册（老版）第 1–18 课的分课课件，版式同上（第二册没有语音部分；第 6、12、18 课是复习课）。PPTX 和 PDF 在 Release `courseware-book2`。
 - [`课件/第三册/`](课件/第三册/)：第三册（老版）第 1–18 课的分课课件，版式同上（第 6、12、18 课按复习课处理）。PPTX 和 PDF 在 Release `courseware-book3`。
 - [`课件/第四册/`](课件/第四册/)：第四册（老版）第 1–18 课的分课课件，版式同上。PPTX 和 PDF 在 Release `courseware-book4`。
@@ -256,6 +257,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `exam-book1-stages` | 8 套分阶段卷，文件名以卷号开头（`L01-04` … `L01-20B`）：`_student.pdf`、`_teacher.pdf`、`_listening.mp3`、`_texto_1.mp3` … `_texto_9.mp3` |
 | `lesson-videos` | 教学视频：`book1_lesson01_quien_es_el.mp4`（第一册第一课）、`lesson-videos-SHA256SUMS.txt` |
 | `courseware-book1` | 第一册分课课件：`book1_L01.pptx` … `book1_L24.pptx` 和同名 PDF、`courseware-book1-SHA256SUMS.txt` |
+| `book1-vocab` | 第一册分课单词表：`book1-vocab.docx`、`book1-vocab.pdf`、`book1-vocab-words.csv`、`book1-vocab-verbs.csv`、`book1-vocab-SHA256SUMS.txt` |
 | `courseware-book2` | 第二册分课课件：`book2_L01.pptx` … `book2_L18.pptx` 和同名 PDF、`courseware-book2-SHA256SUMS.txt` |
 | `courseware-book3` | 第三册分课课件：`book3_L01.pptx` … `book3_L18.pptx` 和同名 PDF、`courseware-book3-SHA256SUMS.txt` |
 | `courseware-book4` | 第四册分课课件：`book4_L01.pptx` … `book4_L18.pptx` 和同名 PDF、`courseware-book4-SHA256SUMS.txt` |
@@ -316,3 +318,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - `试卷/第一册分阶段模拟卷/` 的 8 套卷子都加了第四部分“基础知识”（单项选择、冠词填空、前置词填空、动词变位；写作改为第五部分）；各题分值重新分配，全卷满分仍为 150 分；`check_paper.py` 会查这一部分，`build_pdf.py` 让标题和题目说明不单独留在页底；Release `exam-book1-stages` 的 16 个 PDF 换成新版。
   - 2026-11-02：
     - 新增 `A1-A2听力练习/`（10 套 A1—A2 听力练习的原文、排版和录音程序）和 Release `a1a2-listening`。
+    - 新增 `课件/第一册/单词表/`（第一册分课单词表的数据和生成程序）和 Release `book1-vocab`。

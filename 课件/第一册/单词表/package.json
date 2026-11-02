@@ -1,0 +1,6 @@
+{
+  "name": "book1-vocab",
+  "private": true,
+  "description": "《现代西班牙语》第一册（老版）分课单词表生成",
+  "dependencies": { "docx": "9.5.1", "jszip": "^3.10.1" }
+}
