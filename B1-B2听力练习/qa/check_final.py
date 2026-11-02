@@ -26,7 +26,9 @@ for st in S.load_all():
     for p in st['parts']:
         tid = f"{st['num']:02d}-{p['idx']}"
         tr = next(t for t in rep['tracks'] if t['id'] == tid)
-        assert tr['fallback'] is None, tid
+        fix = tr['fallback'] or {}
+        # 录音时补救过的段落（加强慢速电平、陷波、补增益）：按当时的参数设好母带处理链再排；这些只改电平，不改每句的起止时间
+        M.MA.chain(dict(M.MALE, **{k: v for k, v in fix.items() if k not in ('post_notch', 'relevel', 'gain_db')}))
         got = {}
         for pc in tr['pieces']:
             w = M.MA.Worker(M.voice_cfg(pc['voice'], pc['seed']))
@@ -35,6 +37,7 @@ for st in S.load_all():
             (a, sr), = w.synth_all([M.spoken(pc['text'])])
             got[(pc['voice'], pc['text'])] = (a, sr, pc)
         a48, items, _ = M.assemble(p, got, tr['tempo'])
+        M.MA.chain(M.MALE)
         mp3, sr = sf.read(str(ROOT / 'audio_out' / f'B1B2_{tid}.mp3'), dtype='float32')
         mp3 = mp3 if mp3.ndim == 1 else mp3.mean(1)
         if abs(len(mp3) / sr - len(a48) / M.G.OUT_SR) > 0.2:
