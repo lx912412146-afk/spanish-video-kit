@@ -116,6 +116,8 @@ def norm(t, digitwise=False, hyp=False, glue=False):
         from num2words import num2words
         NUMW = num2words
     if hyp:
+        t = re.sub(r'(\d+),(\d{2})\s*(euros?)\b', r'\1 \3 \2', t)              # 识别结果写成 1,20 euro（＝un euro con veinte）
+        t = re.sub(r'\b(\d+ euros? con \d+) euros?\b', r'\1', t)               # 写成 1 euro con 20 euro：后面的 euro 是识别补的单位
         t = re.sub(r'(\d+),(\d{2})\s*€', r'\1 euros \2', t)
         t = re.sub(r'(\d+)\s*€', r'\1 euros', t)
         t = re.sub(r'(\d+)\s*%', r'\1 por ciento', t)
@@ -172,6 +174,17 @@ def sounds_same(x, y):
     return key(x) == key(y)
 
 
+# 识别结果常把整百的数写成阿拉伯数字（doscientas cartas → 200 cartas），换回西语读法时只有阳性（doscientos）：
+# 只差这一点、识别结果里确实有数字时不计（写成数字就听不出阴阳性），核对记录里注明
+CIENTOS = {'doscientos', 'trescientos', 'cuatrocientos', 'quinientos', 'seiscientos', 'setecientos', 'ochocientos', 'novecientos'}
+
+
+def fem_hundreds(x, y, hyp):
+    xs, ys = x.split(), y.split()
+    return bool(re.search(r'\d', hyp)) and len(xs) == len(ys) and xs != ys and \
+        all(a == b or (b in CIENTOS and a == b[:-2] + 'as') for a, b in zip(xs, ys))
+
+
 def compare(s, hyp):
     """数字有两种读法（整数、逐位的号码），字母有两种比法（一个个比、连起来比），取出入最少的。"""
     return min((compare1(s, hyp, d, g) for d in (False, True) for g in (False, True)), key=lambda x: x[0])
@@ -198,6 +211,9 @@ def compare1(s, hyp, digitwise=False, glue=False):
         x, y = ' '.join(r[i1:i2]), ' '.join(h[j1:j2])
         # 拼读里的 i 和 y 同音（识别模型常把字母 i 写成 Y，就像连词 y）：只有这一处出入时不算
         if x.replace('L:i', 'L:y').replace('i', 'y') == y.replace('i', 'y') and ('L:i' in x or (glue and x in gr)):
+            continue
+        if op == 'replace' and fem_hundreds(x, y, hyp):
+            ops.append([x, y, '不计'])
             continue
         strict = any(w.startswith('L:') or w in gr for w in r[i1:i2]) or any(w.startswith('L:') or w in gh for w in h[j1:j2])
         if not strict and sounds_same(x, y):
