@@ -1,0 +1,75 @@
+{
+ "id": "c1_20",
+ "level": "C1",
+ "no": 20,
+ "title_es": "El valor de la duda",
+ "title_zh": "怀疑的价值",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 20 篇",
+ "header": "分级阅读 C1-20",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 20 篇。原创短文。主要语法：soler + 原形、bien entendido 作定语、no…ni…、más bien、quien 泛指主语、no…sino que…、deber + 原形、关系从句 que todo lo acepta（todo 前置，用 lo 复指）；8 句 139 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 contundencia 指言辞的斩钉截铁；第 2 句 bien entendida 整体标 loc.，词头写阳性 bien entendido；sin embargo 放在句中，两边逗号照常停顿；第 3 句 disposición a 整体标 loc.，释义作名词“（做某事的）意愿”；第 4 句 sostener sus juicios 没有标 sostener，标了 juicio；第 6 句主语承前省略（esta actitud），译文补出“它”；第 8 句 lo mantiene despierto 的 lo 指 el pensamiento。本篇没有名词列举，no_pause_commas 为 {}。审读后改：第 3 句 disposición a 的释义由“愿意（做某事）”改为名词性的“（做某事的）意愿”。为凑足一分钟（原速实测比估算快），加了第 7 句：uno 是泛指代词，译作“自己”；el primer paso hacia 整体标 loc.。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "En un debate público que premia la contundencia, admitir una duda suele interpretarse como un signo de debilidad.", "zh": "在推崇斩钉截铁的公共讨论中，承认自己有所怀疑，往往被视为软弱的表现。", "w": [
+    {"h": "premiar", "pos": "tr.", "zh": "奖励，推崇", "surface": "premia", "source": "supplement"},
+    {"h": "contundencia", "pos": "f.", "zh": "斩钉截铁，强硬", "surface": "contundencia", "source": "supplement"},
+    {"h": "soler + inf.", "pos": "loc.", "zh": "通常，往往", "surface": "suele", "source": "supplement"},
+    {"h": "interpretarse como", "pos": "loc.", "zh": "被理解为，被视为", "surface": "interpretarse como", "source": "supplement"},
+    {"h": "signo", "pos": "m.", "zh": "迹象，表现", "surface": "signo", "source": "supplement"}]},
+   {"es": "La duda bien entendida, sin embargo, no equivale a la indecisión ni a un relativismo que todo lo acepta.", "zh": "然而，正确理解的怀疑既不等同于优柔寡断，也不等同于什么都接受的相对主义。", "w": [
+    {"h": "bien entendido", "pos": "loc.", "zh": "正确理解的", "surface": "bien entendida", "source": "supplement"},
+    {"h": "sin embargo", "pos": "loc.", "zh": "然而", "surface": "sin embargo", "source": "supplement"},
+    {"h": "equivaler a", "pos": "loc.", "zh": "等同于", "surface": "equivale a", "source": "supplement"},
+    {"h": "indecisión", "pos": "f.", "zh": "犹豫不决，优柔寡断", "surface": "indecisión", "source": "supplement"},
+    {"h": "relativismo", "pos": "m.", "zh": "相对主义", "surface": "relativismo", "source": "supplement"}]},
+   {"es": "Es, más bien, la disposición a revisar las propias convicciones cuando aparecen razones o pruebas que las contradicen.", "zh": "更确切地说，它是一种在出现与自身信念相悖的理由或证据时，愿意重新审视这些信念的态度。", "w": [
+    {"h": "más bien", "pos": "loc.", "zh": "更确切地说", "surface": "más bien", "source": "supplement"},
+    {"h": "disposición a", "pos": "loc.", "zh": "（做某事的）意愿", "surface": "disposición a", "source": "supplement"},
+    {"h": "revisar", "pos": "tr.", "zh": "重新审视", "surface": "revisar", "source": "supplement"},
+    {"h": "convicción", "pos": "f.", "zh": "信念", "surface": "convicciones", "source": "supplement"},
+    {"h": "contradecir", "pos": "tr.", "zh": "与……相矛盾", "surface": "contradicen", "source": "supplement"}]},
+   {"es": "Quien duda con honestidad no renuncia a opinar, sino que sostiene sus juicios con la firmeza que permiten las pruebas.", "zh": "真诚怀疑的人并不放弃发表看法，而是以证据所允许的坚定程度来坚持自己的判断。", "w": [
+    {"h": "quien", "pos": "pron.", "zh": "（泛指）……的人", "surface": "Quien", "source": "supplement"},
+    {"h": "renunciar a", "pos": "loc.", "zh": "放弃", "surface": "renuncia a", "source": "supplement"},
+    {"h": "sino que", "pos": "loc.", "zh": "（no…sino que）而是", "surface": "sino que", "source": "supplement"},
+    {"h": "juicio", "pos": "m.", "zh": "判断，见解", "surface": "juicios", "source": "supplement"},
+    {"h": "firmeza", "pos": "f.", "zh": "坚定", "surface": "firmeza", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Esta actitud resulta especialmente valiosa en la ciencia, donde cada hipótesis debe permanecer abierta a la refutación.", "zh": "这种态度在科学中尤为可贵：在科学里，每一个假说都必须始终对反驳保持开放。", "w": [
+    {"h": "resultar", "pos": "intr.", "zh": "（+adj.）显得，是", "surface": "resulta", "source": "supplement"},
+    {"h": "valioso", "pos": "adj.", "zh": "宝贵的，可贵的", "surface": "valiosa", "source": "supplement"},
+    {"h": "permanecer", "pos": "intr.", "zh": "保持，仍然", "surface": "permanecer", "source": "supplement"},
+    {"h": "abierto a", "pos": "loc.", "zh": "对……开放的", "surface": "abierta a", "source": "supplement"},
+    {"h": "refutación", "pos": "f.", "zh": "驳斥，反驳", "surface": "refutación", "source": "supplement"}]},
+   {"es": "Favorece asimismo la convivencia democrática, pues permite escuchar al adversario sin necesidad de derrotarlo.", "zh": "同样，它也有利于民主社会中的共处，因为它让人能够倾听对手，而无须将其击败。", "w": [
+    {"h": "favorecer", "pos": "tr.", "zh": "有利于，促进", "surface": "Favorece", "source": "supplement"},
+    {"h": "asimismo", "pos": "adv.", "zh": "同样，此外", "surface": "asimismo", "source": "supplement"},
+    {"h": "convivencia", "pos": "f.", "zh": "共处，共同生活", "surface": "convivencia", "source": "supplement"},
+    {"h": "pues", "pos": "conj.", "zh": "因为", "surface": "pues", "source": "supplement"},
+    {"h": "sin necesidad de", "pos": "loc.", "zh": "无须", "surface": "sin necesidad de", "source": "supplement"}]},
+   {"es": "Reconocer que uno podría estar equivocado es, a menudo, el primer paso hacia acuerdos más duraderos.", "zh": "承认自己可能是错的，往往是迈向更持久的共识的第一步。", "w": [
+    {"h": "estar equivocado", "pos": "loc.", "zh": "弄错，想错", "surface": "estar equivocado", "source": "supplement"},
+    {"h": "a menudo", "pos": "loc.", "zh": "往往，经常", "surface": "a menudo", "source": "supplement"},
+    {"h": "el primer paso hacia", "pos": "loc.", "zh": "迈向……的第一步", "surface": "el primer paso hacia", "source": "supplement"},
+    {"h": "duradero", "pos": "adj.", "zh": "持久的", "surface": "duraderos", "source": "supplement"}]},
+   {"es": "Dudar, en suma, no paraliza el pensamiento: lo mantiene despierto y lo protege de sus propias certezas.", "zh": "总之，怀疑并不会使思想停滞：它让思想保持清醒，并保护它免受自身种种确信的束缚。", "w": [
+    {"h": "en suma", "pos": "loc.", "zh": "总之", "surface": "en suma", "source": "supplement"},
+    {"h": "paralizar", "pos": "tr.", "zh": "使瘫痪，使停滞", "surface": "paraliza", "source": "supplement"},
+    {"h": "mantener despierto", "pos": "loc.", "zh": "使保持清醒", "surface": "mantiene despierto", "source": "supplement"},
+    {"h": "proteger de", "pos": "loc.", "zh": "保护……免受", "surface": "protege de", "source": "supplement"},
+    {"h": "certeza", "pos": "f.", "zh": "确信，确定之事", "surface": "certezas", "source": "supplement"}]}
+  ]
+ ]
+}

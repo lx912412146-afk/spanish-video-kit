@@ -1,0 +1,73 @@
+{
+ "id": "c1_13",
+ "level": "C1",
+ "no": 13,
+ "title_es": "La nostalgia como mercancía",
+ "title_zh": "作为商品的怀旧",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 13 篇",
+ "header": "分级阅读 C1-13",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 13 篇。原创短文。主要语法：过去分词作同位语（convertida en）、no es tanto…como…、自复被动 se（se venden、puede adquirirse）、permitir que + 虚拟式、lo + 形容词的名词化（lo antiguo、lo preocupante）；8 句 142 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 venderse bien 指“好卖”，词头写 venderse；reclamo publicitario 整体标 m.，译作“广告卖点”；第 3 句 no es tanto…como… 整体标 loc.，surface 写 no es tanto；supuestamente 带有怀疑口吻，译作“所谓”；第 4 句 Su eficacia 的 su 指第 3 句的 promesa，译文补出“这种承诺”；第 7 句 añoranza 与 nostalgia 近义，标出作为书面同义词；desplace a la imaginación 的 a 用来区分主语和宾语（两者都是抽象名词）；第 8 句 convertir…en 和第 1 句的 convertida en 同根，不再标。本篇没有名词列举，no_pause_commas 为 {}。审读后改：第 3 句 supuestamente 的释义由“据说，所谓”改为“所谓，被认为”，译文“据说更单纯的年代”改为“所谓更单纯的年代”。为凑足一分钟（原速实测比估算快），加了第 5 句：el presente 指当下；refugiarse en 整体标 loc.；第 6 句的 ese anhelo 承接这一句对熟悉事物的依恋。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Pocas emociones se venden hoy tan bien como la nostalgia, convertida en reclamo publicitario y motor de consumo.", "zh": "如今，很少有哪种情感像怀旧这样好卖：它已经变成了广告的卖点和消费的引擎。", "w": [
+    {"h": "venderse", "pos": "prnl.", "zh": "（被）出售，有销路", "surface": "se venden", "source": "supplement"},
+    {"h": "convertido en", "pos": "loc.", "zh": "被变成……的", "surface": "convertida en", "source": "supplement"},
+    {"h": "reclamo publicitario", "pos": "m.", "zh": "广告噱头，卖点", "surface": "reclamo publicitario", "source": "supplement"},
+    {"h": "motor", "pos": "m.", "zh": "动力，引擎", "surface": "motor", "source": "supplement"}]},
+   {"es": "Las empresas reeditan objetos de otras décadas y las series recrean con esmero la estética de nuestra infancia.", "zh": "企业重新推出往昔年代的物品，剧集则精心再现我们童年时代的审美风格。", "w": [
+    {"h": "reeditar", "pos": "tr.", "zh": "重新推出，再版", "surface": "reeditan", "source": "supplement"},
+    {"h": "década", "pos": "f.", "zh": "十年，年代", "surface": "décadas", "source": "supplement"},
+    {"h": "recrear", "pos": "tr.", "zh": "再现，重现", "surface": "recrean", "source": "supplement"},
+    {"h": "con esmero", "pos": "loc.", "zh": "精心地", "surface": "con esmero", "source": "supplement"},
+    {"h": "estética", "pos": "f.", "zh": "审美风格", "surface": "estética", "source": "supplement"}]},
+   {"es": "Lo que se ofrece no es tanto un producto como la promesa de recuperar un tiempo supuestamente más sencillo.", "zh": "被兜售的与其说是一件商品，不如说是一种承诺：找回一个所谓更单纯的年代。", "w": [
+    {"h": "no ser tanto… como…", "pos": "loc.", "zh": "与其说是……不如说是……", "surface": "no es tanto", "source": "supplement"},
+    {"h": "promesa", "pos": "f.", "zh": "承诺，许诺", "surface": "promesa", "source": "supplement"},
+    {"h": "recuperar", "pos": "tr.", "zh": "找回，恢复", "surface": "recuperar", "source": "supplement"},
+    {"h": "supuestamente", "pos": "adv.", "zh": "所谓，被认为", "surface": "supuestamente", "source": "supplement"}]},
+   {"es": "Su eficacia se explica porque la memoria embellece el pasado y borra los conflictos que entonces nos inquietaban.", "zh": "这种承诺之所以奏效，是因为记忆会美化过去，抹去那些当年令我们不安的冲突。", "w": [
+    {"h": "eficacia", "pos": "f.", "zh": "效力，效果", "surface": "eficacia", "source": "supplement"},
+    {"h": "explicarse", "pos": "prnl.", "zh": "（原因）在于", "surface": "se explica", "source": "supplement"},
+    {"h": "embellecer", "pos": "tr.", "zh": "美化", "surface": "embellece", "source": "supplement"},
+    {"h": "borrar", "pos": "tr.", "zh": "抹去，消除", "surface": "borra", "source": "supplement"},
+    {"h": "inquietar", "pos": "tr.", "zh": "使不安", "surface": "inquietaban", "source": "supplement"}]},
+   {"es": "Además, cuando el presente resulta incierto, refugiarse en lo conocido ofrece un consuelo difícil de rechazar.", "zh": "此外，当下充满不确定性时，躲进熟悉的事物之中会带来一种难以拒绝的慰藉。", "w": [
+    {"h": "resultar", "pos": "intr.", "zh": "（+adj.）显得，是", "surface": "resulta", "source": "supplement"},
+    {"h": "incierto", "pos": "adj.", "zh": "不确定的，难以预料的", "surface": "incierto", "source": "supplement"},
+    {"h": "refugiarse en", "pos": "loc.", "zh": "躲进，寻求庇护", "surface": "refugiarse en", "source": "supplement"},
+    {"h": "consuelo", "pos": "m.", "zh": "慰藉，安慰", "surface": "consuelo", "source": "supplement"},
+    {"h": "difícil de + inf.", "pos": "loc.", "zh": "难以……的", "surface": "difícil de", "source": "supplement"}]}
+  ],
+  [
+   {"es": "El mercado no inventa ese anhelo, pero lo amplifica y lo transforma en algo que puede adquirirse.", "zh": "市场并没有凭空制造这种渴望，但它放大了这种渴望，并把它变成一种可以买到的东西。", "w": [
+    {"h": "anhelo", "pos": "m.", "zh": "渴望，向往", "surface": "anhelo", "source": "supplement"},
+    {"h": "amplificar", "pos": "tr.", "zh": "放大", "surface": "amplifica", "source": "supplement"},
+    {"h": "transformar algo en", "pos": "loc.", "zh": "把……变成", "surface": "transforma en", "source": "supplement"},
+    {"h": "adquirirse", "pos": "prnl.", "zh": "（被）购得", "surface": "adquirirse", "source": "supplement"}]},
+   {"es": "El riesgo no reside en disfrutar de lo antiguo, sino en permitir que la añoranza desplace a la imaginación.", "zh": "风险不在于享受旧物，而在于听任怀念之情排挤掉想象力。", "w": [
+    {"h": "residir en", "pos": "loc.", "zh": "在于", "surface": "reside en", "source": "supplement"},
+    {"h": "disfrutar de", "pos": "loc.", "zh": "享受", "surface": "disfrutar de", "source": "supplement"},
+    {"h": "sino", "pos": "conj.", "zh": "（no…sino）而是", "surface": "sino", "source": "supplement"},
+    {"h": "añoranza", "pos": "f.", "zh": "怀念，思念", "surface": "añoranza", "source": "supplement"},
+    {"h": "desplazar", "pos": "tr.", "zh": "排挤，取代", "surface": "desplace", "source": "supplement"}]},
+   {"es": "Mirar atrás con cariño es legítimo; lo preocupante es convertir el pasado en el único horizonte deseable.", "zh": "带着温情回望过去无可厚非；令人担忧的是把过去当成唯一值得向往的前景。", "w": [
+    {"h": "mirar atrás", "pos": "loc.", "zh": "回顾，回望", "surface": "Mirar atrás", "source": "supplement"},
+    {"h": "con cariño", "pos": "loc.", "zh": "怀着温情", "surface": "con cariño", "source": "supplement"},
+    {"h": "lo preocupante", "pos": "loc.", "zh": "令人担忧的是", "surface": "lo preocupante", "source": "supplement"},
+    {"h": "horizonte", "pos": "m.", "zh": "前景，视野", "surface": "horizonte", "source": "supplement"},
+    {"h": "deseable", "pos": "adj.", "zh": "值得向往的", "surface": "deseable", "source": "supplement"}]}
+  ]
+ ]
+}

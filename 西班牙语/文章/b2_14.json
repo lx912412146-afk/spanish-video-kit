@@ -1,0 +1,62 @@
+{
+ "id": "b2_14",
+ "level": "B2",
+ "no": 14,
+ "title_es": "La publicidad dirigida a los niños",
+ "title_zh": "面向儿童的广告",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 14 篇",
+ "header": "分级阅读 B2-14",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 14 篇。原创短文。主要语法：第 1 句过去分词作定语（diseñados）；第 5 句 proponer que + 现在虚拟式，se regule 是自复被动（pasiva refleja）；第 6 句条件式 sería；第 7 句 si + 过去虚拟式（colaboraran）+ 条件式（crecerían）；连接语 a diferencia de、de hecho、por esta razón、en cambio。7 句 132 词（2 段：4 + 3）。特别判断：第 1 句译文按审读意见去掉了过于绝对的“都是”。第 2 句 personajes simpáticos 指广告里讨喜的卡通角色，译作“讨喜的角色”。第 3 句 los más pequeños 指年幼的孩子，整体标 loc.；distinguen 和 entre 被 con claridad 隔开，只标 distinguir；persuasión 是同源词，没有标，按审读意见译作“劝说”。第 4 句 muchos 承前指孩子，译文补出“孩子”；no se dan cuenta de que 后接陈述式（说话人认定从句是事实）；vender 译作“推销”。第 5 句 se regule 是自复被动，译作“进行……监管”。第 6 句 otros 承前指另一些专家，译文补出“专家”；las prohibiciones no bastan 译作“光靠禁令是不够的”（原来写 prohibir no basta，朗读时 prohibir 的词尾被吞掉，识别核对对不上，改成名词说法）。regular、prohibición、colaborar、objetivo 是同源词，没有标。第 7 句 conscientes 指消费时头脑清醒、有判断力，译作“更清醒的”。no_pause_commas：第 2 句名词列举不停顿。时长：原来按估算在第 2 句后面加了一句（Además, los anuncios suelen aparecer integrados en juegos y vídeos, lo que dificulta reconocerlos.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [{"after": "llamativos,", "why": "并列名词短语（colores llamativos, personajes simpáticos y canciones pegadizas），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Los niños pasan cada vez más horas frente a pantallas, donde reciben anuncios diseñados específicamente para captar su atención.", "zh": "孩子们待在屏幕前的时间越来越多，在屏幕上，他们会看到专门为吸引其注意力而设计的广告。", "w": [
+    {"h": "cada vez más", "pos": "loc.", "zh": "越来越多（的）", "surface": "cada vez más", "source": "supplement"},
+    {"h": "frente a", "pos": "loc.", "zh": "在……前面", "surface": "frente a", "source": "supplement"},
+    {"h": "pantalla", "pos": "f.", "zh": "屏幕", "surface": "pantallas", "source": "supplement"},
+    {"h": "anuncio", "pos": "m.", "zh": "广告", "surface": "anuncios", "source": "supplement"},
+    {"h": "captar", "pos": "tr.", "zh": "吸引，抓住", "surface": "captar", "source": "supplement"}]},
+   {"es": "Colores llamativos, personajes simpáticos y canciones pegadizas se combinan para despertar deseos que antes no existían.", "zh": "醒目的色彩、讨喜的角色和朗朗上口的歌曲结合在一起，唤起了原本并不存在的欲望。", "w": [
+    {"h": "llamativo", "pos": "adj.", "zh": "醒目的，抢眼的", "surface": "llamativos", "source": "supplement"},
+    {"h": "personaje", "pos": "m.", "zh": "角色，人物", "surface": "personajes", "source": "supplement"},
+    {"h": "pegadizo", "pos": "adj.", "zh": "朗朗上口的，易记的", "surface": "pegadizas", "source": "supplement"},
+    {"h": "despertar", "pos": "tr.", "zh": "唤起，激起", "surface": "despertar", "source": "supplement"},
+    {"h": "deseo", "pos": "m.", "zh": "欲望，愿望", "surface": "deseos", "source": "supplement"}]},
+   {"es": "A diferencia de los adultos, los más pequeños todavía no distinguen con claridad entre información y persuasión.", "zh": "与成年人不同，年幼的孩子还不能清楚地区分信息和劝说。", "w": [
+    {"h": "a diferencia de", "pos": "loc.", "zh": "与……不同", "surface": "A diferencia de", "source": "supplement"},
+    {"h": "los más pequeños", "pos": "loc.", "zh": "年幼的孩子", "surface": "los más pequeños", "source": "supplement"},
+    {"h": "distinguir", "pos": "tr.", "zh": "区分，分清", "surface": "distinguen", "source": "supplement"},
+    {"h": "con claridad", "pos": "loc.", "zh": "清楚地", "surface": "con claridad", "source": "supplement"}]},
+   {"es": "De hecho, muchos no se dan cuenta de que el objetivo de un anuncio es venderles algo, y no simplemente entretenerlos.", "zh": "事实上，许多孩子并没有意识到，广告的目的是向他们推销东西，而不只是逗他们开心。", "w": [
+    {"h": "de hecho", "pos": "loc.", "zh": "事实上", "surface": "De hecho", "source": "supplement"},
+    {"h": "darse cuenta de", "pos": "loc.", "zh": "意识到，察觉", "surface": "se dan cuenta de", "source": "supplement"},
+    {"h": "entretener", "pos": "tr.", "zh": "使开心，娱乐", "surface": "entretenerlos", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Por esta razón, algunos expertos proponen que la publicidad infantil se regule con mayor rigor.", "zh": "因此，一些专家建议对儿童广告进行更严格的监管。", "w": [
+    {"h": "por esta razón", "pos": "loc.", "zh": "因此，出于这个原因", "surface": "Por esta razón", "source": "supplement"},
+    {"h": "proponer que + subj.", "pos": "loc.", "zh": "建议（接虚拟式）", "surface": "proponen que", "source": "supplement"},
+    {"h": "infantil", "pos": "adj.", "zh": "儿童的", "surface": "infantil", "source": "supplement"},
+    {"h": "con mayor rigor", "pos": "loc.", "zh": "更严格地", "surface": "con mayor rigor", "source": "supplement"}]},
+   {"es": "Otros, en cambio, creen que las prohibiciones no bastan y que sería más eficaz enseñar a los niños a mirar los anuncios con espíritu crítico.", "zh": "另一些专家则认为，光靠禁令是不够的，教孩子们用批判的眼光看待广告会更有效。", "w": [
+    {"h": "en cambio", "pos": "loc.", "zh": "则，相反", "surface": "en cambio", "source": "supplement"},
+    {"h": "bastar", "pos": "intr.", "zh": "足够", "surface": "bastan", "source": "supplement"},
+    {"h": "eficaz", "pos": "adj.", "zh": "有效的", "surface": "eficaz", "source": "supplement"},
+    {"h": "con espíritu crítico", "pos": "loc.", "zh": "用批判的眼光", "surface": "con espíritu crítico", "source": "supplement"}]},
+   {"es": "Si las familias y las escuelas colaboraran en esta tarea, los niños crecerían como consumidores más libres y conscientes.", "zh": "如果家庭和学校在这项工作上携手合作，孩子们长大后就会成为更自由、更清醒的消费者。", "w": [
+    {"h": "tarea", "pos": "f.", "zh": "任务，工作", "surface": "tarea", "source": "supplement"},
+    {"h": "crecer", "pos": "intr.", "zh": "成长，长大", "surface": "crecerían", "source": "supplement"},
+    {"h": "consciente", "pos": "adj.", "zh": "清醒的，有判断力的", "surface": "conscientes", "source": "supplement"}]}
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+/bin/sh: sox: command not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 1/1 3.3 秒音频，用时 18 秒
+qwen3tts.py: 加载 10.0 秒，合成 1 段 18.2 秒
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  合成缓存：11 段直接用缓存，1 段新合成
+  变速变调：语速 0.8 倍，音高 +100 音分
+  合成 12 段，用时 29 秒
+  响度：整体 -16.44 LUFS，句间最大偏差 0.26 LU，短时波动（朗读范围）0.86 LU（含首尾静音的原测法 0.89，只记录），峰值 -1.72 dBFS；电磁音：梳状线 -1.49 dB，全频段最强 13500 Hz +5.3 dB
+已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25_slow/a2_17_El_huerto_de_mi_abuelo.mp3（55.3 秒），检查全部通过

@@ -1,0 +1,355 @@
+{
+ "id": "b1_12",
+ "level": "B1",
+ "no": 12,
+ "title_es": "Dormir bien",
+ "title_zh": "睡个好觉",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 12 篇",
+ "header": "分级阅读 B1-12",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 12 篇。原创短文。主要语法：现在时、现在完成时（hemos aprendido）、现在虚拟式（hace que nos cueste、aconsejan que nos acostemos y nos levantemos、conviene que… esté、es mejor que se levante… y lea）；连接语 sin embargo、mientras、incluso、además。9 句，147 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 1 句 tan necesario… como 是比较结构，整体标 loc.（tan + adj. + como），surface 只标 tan；第 4 句 costar 按 gustar 类用法（nos cueste）标 intr.；conciliar el sueño 整体标 loc.，译作“入睡”；第 6 句 ayuda 不带宾语，标 intr.；ligero 说饭菜，译作“清淡”；第 7 句 conviene que 接虚拟式（esté）；第 8 句 dormirse（睡着）和 dormir（睡觉）意思不同，只列 dormirse；第 9 句 está de mejor humor 是 estar de buen humor 的比较级，词头写原形，释义注明。acostarse 在第 3 句列出，第 5 句 nos acostemos 不再列。no_pause_commas：第 7 句 oscuro, en silencio y a una temperatura agradable 是并列表语，逗号不停顿；第 9 句 tiene más energía, está de mejor humor y aprende… 是简短的并列谓语，按项目惯例 energía 后的逗号不停顿（合并后一段都不到 100 字符）。第 7 句是为凑足时长新加的。审读后改：第 9 句 energía 后改为不停顿；去掉 A1 词 fin de semana（第 5 句）、antes de（第 6 句）。第二轮审读后改：第 7 句不标 A1 词 dormitorio，改标 agradable。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "7": [
+   {
+    "after": "oscuro,",
+    "why": "并列表语（oscuro, en silencio y a una temperatura agradable），不停顿"
+   }
+  ],
+  "9": [
+   {
+    "after": "energía,",
+    "why": "简短的并列谓语（tiene más energía, está de mejor humor y aprende…），不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Dormir bien es tan necesario para la salud como comer de forma equilibrada o hacer ejercicio.",
+    "zh": "睡个好觉和均衡饮食、锻炼身体一样，都是保持健康所必需的。",
+    "w": [
+     {
+      "h": "tan + adj. + como",
+      "pos": "loc.",
+      "zh": "和……一样……",
+      "surface": "tan",
+      "source": "supplement"
+     },
+     {
+      "h": "salud",
+      "pos": "f.",
+      "zh": "健康",
+      "surface": "salud",
+      "source": "supplement"
+     },
+     {
+      "h": "de forma equilibrada",
+      "pos": "loc.",
+      "zh": "均衡地",
+      "surface": "de forma equilibrada",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer ejercicio",
+      "pos": "loc.",
+      "zh": "锻炼身体，运动",
+      "surface": "hacer ejercicio",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mientras dormimos, el cuerpo descansa y el cerebro ordena todo lo que hemos aprendido durante el día.",
+    "zh": "我们睡觉的时候，身体在休息，大脑则在整理白天学到的一切。",
+    "w": [
+     {
+      "h": "mientras",
+      "pos": "conj.",
+      "zh": "在……的时候",
+      "surface": "Mientras",
+      "source": "supplement"
+     },
+     {
+      "h": "descansar",
+      "pos": "intr.",
+      "zh": "休息",
+      "surface": "descansa",
+      "source": "supplement"
+     },
+     {
+      "h": "cerebro",
+      "pos": "m.",
+      "zh": "大脑",
+      "surface": "cerebro",
+      "source": "supplement"
+     },
+     {
+      "h": "ordenar",
+      "pos": "tr.",
+      "zh": "整理，梳理",
+      "surface": "ordena",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, muchas personas se acuestan tarde porque pasan horas mirando el móvil en la cama.",
+    "zh": "然而，很多人睡得很晚，因为他们躺在床上一看手机就是好几个小时。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "acostarse",
+      "pos": "prnl.",
+      "zh": "上床睡觉",
+      "surface": "se acuestan",
+      "source": "supplement"
+     },
+     {
+      "h": "pasar horas + ger.",
+      "pos": "loc.",
+      "zh": "花好几个小时做……",
+      "surface": "pasan horas",
+      "source": "supplement"
+     },
+     {
+      "h": "móvil",
+      "pos": "m.",
+      "zh": "手机",
+      "surface": "móvil",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La luz de las pantallas engaña al cerebro y hace que nos cueste más conciliar el sueño.",
+    "zh": "屏幕的光会迷惑大脑，让我们更难入睡。",
+    "w": [
+     {
+      "h": "pantalla",
+      "pos": "f.",
+      "zh": "屏幕",
+      "surface": "pantallas",
+      "source": "supplement"
+     },
+     {
+      "h": "engañar",
+      "pos": "tr.",
+      "zh": "欺骗，迷惑",
+      "surface": "engaña",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer que",
+      "pos": "loc.",
+      "zh": "使得（接虚拟式）",
+      "surface": "hace que",
+      "source": "supplement"
+     },
+     {
+      "h": "costar",
+      "pos": "intr.",
+      "zh": "（对某人）困难，费劲",
+      "surface": "cueste",
+      "source": "supplement"
+     },
+     {
+      "h": "conciliar el sueño",
+      "pos": "loc.",
+      "zh": "入睡",
+      "surface": "conciliar el sueño",
+      "source": "supplement"
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Para descansar mejor, los médicos aconsejan que nos acostemos y nos levantemos a la misma hora, incluso los fines de semana.",
+    "zh": "为了休息得更好，医生建议我们每天在同一时间上床、起床，即使周末也不例外。",
+    "w": [
+     {
+      "h": "aconsejar que",
+      "pos": "loc.",
+      "zh": "建议……（接虚拟式）",
+      "surface": "aconsejan que",
+      "source": "supplement"
+     },
+     {
+      "h": "levantarse",
+      "pos": "prnl.",
+      "zh": "起床",
+      "surface": "nos levantemos",
+      "source": "supplement"
+     },
+     {
+      "h": "a la misma hora",
+      "pos": "loc.",
+      "zh": "在同一时间",
+      "surface": "a la misma hora",
+      "source": "supplement"
+     },
+     {
+      "h": "incluso",
+      "pos": "adv.",
+      "zh": "甚至，连……也",
+      "surface": "incluso",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También ayuda cenar algo ligero y apagar las pantallas una hora antes de dormir.",
+    "zh": "晚饭吃得清淡一些，睡前一小时关掉屏幕，也会有所帮助。",
+    "w": [
+     {
+      "h": "ayudar",
+      "pos": "intr.",
+      "zh": "有帮助，有益",
+      "surface": "ayuda",
+      "source": "supplement"
+     },
+     {
+      "h": "ligero",
+      "pos": "adj.",
+      "zh": "清淡的，不油腻的",
+      "surface": "ligero",
+      "source": "supplement"
+     },
+     {
+      "h": "apagar",
+      "pos": "tr.",
+      "zh": "关掉",
+      "surface": "apagar",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Además, conviene que el dormitorio esté oscuro, en silencio y a una temperatura agradable.",
+    "zh": "此外，卧室最好光线昏暗、保持安静，温度也要适宜。",
+    "w": [
+     {
+      "h": "además",
+      "pos": "adv.",
+      "zh": "此外，而且",
+      "surface": "Además",
+      "source": "supplement"
+     },
+     {
+      "h": "convenir que",
+      "pos": "loc.",
+      "zh": "最好……（接虚拟式）",
+      "surface": "conviene que",
+      "source": "supplement"
+     },
+     {
+      "h": "oscuro",
+      "pos": "adj.",
+      "zh": "黑暗的，昏暗的",
+      "surface": "oscuro",
+      "source": "supplement"
+     },
+     {
+      "h": "en silencio",
+      "pos": "loc.",
+      "zh": "安静的，没有声音",
+      "surface": "en silencio",
+      "source": "supplement"
+     },
+     {
+      "h": "agradable",
+      "pos": "adj.",
+      "zh": "舒适的，宜人的",
+      "surface": "agradable",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Si alguien no consigue dormirse, es mejor que se levante un rato y lea algo tranquilo.",
+    "zh": "如果有人怎么也睡不着，最好先起来一会儿，读点让人放松的东西。",
+    "w": [
+     {
+      "h": "conseguir + inf.",
+      "pos": "loc.",
+      "zh": "能够，做到",
+      "surface": "consigue",
+      "source": "supplement"
+     },
+     {
+      "h": "dormirse",
+      "pos": "prnl.",
+      "zh": "睡着，入睡",
+      "surface": "dormirse",
+      "source": "supplement"
+     },
+     {
+      "h": "es mejor que",
+      "pos": "loc.",
+      "zh": "最好……（接虚拟式）",
+      "surface": "es mejor que",
+      "source": "supplement"
+     },
+     {
+      "h": "un rato",
+      "pos": "loc.",
+      "zh": "一会儿",
+      "surface": "un rato",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Quien duerme lo suficiente tiene más energía, está de mejor humor y aprende con más facilidad.",
+    "zh": "睡眠充足的人精力更充沛，心情更好，学东西也更轻松。",
+    "w": [
+     {
+      "h": "quien",
+      "pos": "pron.",
+      "zh": "……的人",
+      "surface": "Quien",
+      "source": "supplement"
+     },
+     {
+      "h": "lo suficiente",
+      "pos": "loc.",
+      "zh": "足够，充分",
+      "surface": "lo suficiente",
+      "source": "supplement"
+     },
+     {
+      "h": "estar de buen humor",
+      "pos": "loc.",
+      "zh": "心情好（此处用比较级）",
+      "surface": "está de mejor humor",
+      "source": "supplement"
+     },
+     {
+      "h": "facilidad",
+      "pos": "f.",
+      "zh": "容易，轻松",
+      "surface": "facilidad",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

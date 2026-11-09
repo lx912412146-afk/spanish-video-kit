@@ -55,6 +55,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `long_merge_rule.py 编号…` | 不停顿合并后超过 100 字符的长段恢复逗号停顿，并写进 `_说明` |
 | `loudness_survey.py [--voices 音色,…] 编号…` | 只用缓存，比较“原测法”和“朗读范围”两种短时响度波动 |
 | `prep_release.py 输出文件夹 [说明文件]` | 把 50 个视频复制成英文文件名，合并核查报告，写好 Release 说明 |
+| `check_wraps.py 编号…` | 检查画面折行：生词释义在词中间断开、译文最后一行只剩一个字、一页放不下 |
 
 ## 仓库里的其他资料
 
@@ -63,6 +64,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - `文章补写/`：补写翻译和生词时给 5 个助手的统一规范 `补写规范.md`，以及他们的填写脚本和数据（结果以 `西班牙语/文章/*.json` 为准）。
   - `响度测法对比_50篇.txt`：两种测法在 50 篇上的对比数据。
   - `日志/`：合成缓存填充、截图排版检查、批量生成的日志，本机路径已替换成 `<KIT>` 等占位符。
+  - `分级阅读第二批/`：第二批 50 篇的编写要求、审读要求、选题表、审读后的改动，写作和生产用的小工具和脚本，每篇的音频、视频、识别核对日志和折行检查结果（本机路径已替换成占位符），说明见其中的 `README.md`。
 
 ## 新文章怎么加
 
@@ -74,6 +76,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 4. 先检查：`python 西班牙语/tools/check_articles.py <编号> -v`（`-v` 会打印朗读分段，`|` 是停顿的地方）。
 5. 生成：`./run_mac.sh <编号> [音色]`。生成后会自动核查 15 项：响度、电磁音、片头 1.5 秒、句间 0.8 秒、结尾 2 秒、4K、30 帧、声画一致等，任何一项不通过就不输出。
 6. 逐句识别核对（可选，需要 Parakeet 识别模型 `sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8`）：`python 西班牙语/tools/asr_check_reading.py . <识别模型目录> <音色> <编号>`。从成品 MP3 按 `timings.json` 切出每句识别，和朗读文本逐词比，比对规则和 `B1-B2听力练习/tools/make_tracks.py` 相同。
+7. 检查画面折行（可选）：`python 西班牙语/tools/check_wraps.py <编号>…`。用生成视频的同一套版式在浏览器里排出每一句，量出每行的字：生词释义在词中间断开、译文最后一行只剩一个字、一页放不下，都会列出来，要改文章或措辞；原文最后一行只有一个词、译文最后一行两个字只是提示。有要处理的地方时退出码是 1。
 
 ## 已做的文章
 
@@ -82,13 +85,13 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | es01 | Mi pasión por los viajes 我对旅行的热爱 | 示例文章（原作者） |
 | es02 | Mi vida diaria 我的日常生活 | Release `videos`；音频、字幕在 `西班牙语/audio/qwen3_M1F5_25/`，0.8 倍速版在 `qwen3_M1F5_25_slow/` |
 | a1_01–c1_10 | 西班牙语分级阅读 A1–C1，每级 10 篇（来自《西班牙语A1-C1分级阅读文章集》） | 视频在 Release `graded-reading`；音频、字幕在 `西班牙语/audio/qwen3_M1F5_25_slow/` |
-| a1_11 | Mi mascota 我的宠物（分级阅读第二批的试看版，原创短文，12 句 129 词，60 秒，0.8 倍速） | 视频在 Release `graded-reading-2`；音频、字幕在 `西班牙语/audio/qwen3_M1F5_25_slow/` |
+| a1_11–c1_20 | 西班牙语分级阅读第二批 A1–C1，每级 10 篇（原创短文，每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速） | 视频在 Release `graded-reading-2`；音频、字幕在 `西班牙语/audio/qwen3_M1F5_25_slow/`（A1—A2）和 `西班牙语/audio/qwen3_M1F5_25/`（B1—C1） |
 
 分级阅读 50 篇的中文翻译和生词栏是 2026-10-18 补写的。原文档只有西班牙语原文，每篇的特别判断写在各自 JSON 的 `_说明` 里。
 
-分级阅读第二批（2026-11-10 开始）：每篇约 1 分钟；A1—A2 用 `qwen3_M1F5_25_slow`（0.8 倍速），B1—C1 用 `qwen3_M1F5_25`（原速）。文章是原创的，不是《西班牙语A1-C1分级阅读文章集》里的，编号接着第一批（`a1_11` 起），版式和第一批相同。0.8 倍速下 A1 约 125 词、12 句正好 1 分钟。每篇除了工具包的 15 项核查，还用 `asr_check_reading.py` 逐句识别核对。先做了 A1-11 给用户试看，其余的等用户看过再做。
+分级阅读第二批（2026-11-10）：每篇约 1 分钟；A1—A2 用 `qwen3_M1F5_25_slow`（0.8 倍速），B1—C1 用 `qwen3_M1F5_25`（原速）。文章是原创的，不是《西班牙语A1-C1分级阅读文章集》里的，编号接着第一批（`a1_11`—`c1_20`），版式和第一批相同。A1—C1 每级 10 篇，共 50 篇，每篇 55–65 秒。先做了 A1-11 给用户试看，用户认可后做了其余 49 篇。每篇除了工具包的 15 项核查，还用 `asr_check_reading.py` 逐句识别核对（识别和原文对不上的句子改写措辞重新合成，直到逐词一致），用 `check_wraps.py` 检查画面折行。编写要求、审读意见、生产脚本和日志在 `记录/分级阅读第二批/`。
 
-<details><summary>A1 基础入门（10 篇）</summary>
+<details><summary>第一批 A1 基础入门（10 篇）</summary>
 
 | 编号 | 标题 | 中文 | 句数 · 生词 |
 |---|---|---|---|
@@ -105,7 +108,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 
 </details>
 
-<details><summary>A2 初级进阶（10 篇）</summary>
+<details><summary>第一批 A2 初级进阶（10 篇）</summary>
 
 | 编号 | 标题 | 中文 | 句数 · 生词 |
 |---|---|---|---|
@@ -122,7 +125,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 
 </details>
 
-<details><summary>B1 中级（10 篇）</summary>
+<details><summary>第一批 B1 中级（10 篇）</summary>
 
 | 编号 | 标题 | 中文 | 句数 · 生词 |
 |---|---|---|---|
@@ -139,7 +142,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 
 </details>
 
-<details><summary>B2 中高级（10 篇）</summary>
+<details><summary>第一批 B2 中高级（10 篇）</summary>
 
 | 编号 | 标题 | 中文 | 句数 · 生词 |
 |---|---|---|---|
@@ -156,7 +159,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 
 </details>
 
-<details><summary>C1 高级（10 篇）</summary>
+<details><summary>第一批 C1 高级（10 篇）</summary>
 
 | 编号 | 标题 | 中文 | 句数 · 生词 |
 |---|---|---|---|
@@ -170,6 +173,91 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | c1_08 | La confianza en la información | 对信息的信任 | 6 句 · 27 词 |
 | c1_09 | La innovación y sus consecuencias imprevistas | 创新及其意外后果 | 5 句 · 23 词 |
 | c1_10 | La paciencia como forma de resistencia | 作为抵抗方式的耐心 | 6 句 · 27 词 |
+
+</details>
+
+<details><summary>第二批 A1 基础入门（10 篇，0.8 倍速）</summary>
+
+| 编号 | 标题 | 中文 | 句数 · 词数 · 生词 | 时长 |
+|---|---|---|---|---|
+| a1_11 | Mi mascota | 我的宠物 | 12 句 · 129 词 · 51 个 | 60 秒 |
+| a1_12 | Mi escuela | 我的学校 | 12 句 · 129 词 · 54 个 | 65 秒 |
+| a1_13 | El desayuno | 早餐 | 12 句 · 131 词 · 51 个 | 64 秒 |
+| a1_14 | Mi cumpleaños | 我的生日 | 12 句 · 126 词 · 53 个 | 57 秒 |
+| a1_15 | Comprar ropa | 买衣服 | 13 句 · 128 词 · 57 个 | 62 秒 |
+| a1_16 | Mis aficiones | 我的爱好 | 12 句 · 126 词 · 51 个 | 64 秒 |
+| a1_17 | En el médico | 看医生 | 12 句 · 126 词 · 49 个 | 56 秒 |
+| a1_18 | Un día en la playa | 海滩的一天 | 12 句 · 125 词 · 51 个 | 61 秒 |
+| a1_19 | El trabajo de mi madre | 妈妈的工作 | 12 句 · 127 词 · 50 个 | 63 秒 |
+| a1_20 | Mi vecina | 我的邻居 | 12 句 · 129 词 · 51 个 | 63 秒 |
+
+</details>
+
+<details><summary>第二批 A2 初级进阶（10 篇，0.8 倍速）</summary>
+
+| 编号 | 标题 | 中文 | 句数 · 词数 · 生词 | 时长 |
+|---|---|---|---|---|
+| a2_11 | Un viaje en tren | 一次火车旅行 | 11 句 · 127 词 · 49 个 | 57 秒 |
+| a2_12 | Mi primera clase de cocina | 我的第一节烹饪课 | 10 句 · 111 词 · 48 个 | 55 秒 |
+| a2_13 | Una tarde en el museo | 博物馆的一个下午 | 10 句 · 109 词 · 46 个 | 56 秒 |
+| a2_14 | Cuando era pequeña | 我小时候 | 11 句 · 122 词 · 48 个 | 58 秒 |
+| a2_15 | Un concierto inolvidable | 一场难忘的音乐会 | 10 句 · 114 词 · 45 个 | 60 秒 |
+| a2_16 | El día que perdí la maleta | 丢行李的那天 | 10 句 · 111 词 · 45 个 | 56 秒 |
+| a2_17 | El huerto de mi abuelo | 爷爷的菜园 | 10 句 · 110 词 · 46 个 | 55 秒 |
+| a2_18 | Cambiar de casa | 搬家 | 11 句 · 122 词 · 49 个 | 59 秒 |
+| a2_19 | Aprender a nadar | 学游泳 | 11 句 · 126 词 · 46 个 | 58 秒 |
+| a2_20 | Las fiestas de mi pueblo | 我们镇上的节日 | 10 句 · 112 词 · 46 个 | 57 秒 |
+
+</details>
+
+<details><summary>第二批 B1 中级（10 篇，原速）</summary>
+
+| 编号 | 标题 | 中文 | 句数 · 词数 · 生词 | 时长 |
+|---|---|---|---|---|
+| b1_11 | El voluntariado | 志愿服务 | 9 句 · 149 词 · 37 个 | 61 秒 |
+| b1_12 | Dormir bien | 睡个好觉 | 9 句 · 147 词 · 37 个 | 61 秒 |
+| b1_13 | La bicicleta en la ciudad | 城市里的自行车 | 9 句 · 146 词 · 36 个 | 62 秒 |
+| b1_14 | Aprender a tocar un instrumento | 学一门乐器 | 9 句 · 143 词 · 33 个 | 58 秒 |
+| b1_15 | Comer en familia | 全家一起吃饭 | 9 句 · 149 词 · 39 个 | 63 秒 |
+| b1_16 | Hablar en público | 当众讲话 | 9 句 · 143 词 · 40 个 | 61 秒 |
+| b1_17 | Los videojuegos | 电子游戏 | 9 句 · 149 词 · 41 个 | 62 秒 |
+| b1_18 | El deporte en equipo | 团队运动 | 9 句 · 149 词 · 39 个 | 61 秒 |
+| b1_19 | Amistades a distancia | 异地的友谊 | 9 句 · 145 词 · 35 个 | 60 秒 |
+| b1_20 | Aprender a ahorrar | 学会存钱 | 9 句 · 149 词 · 37 个 | 60 秒 |
+
+</details>
+
+<details><summary>第二批 B2 中高级（10 篇，原速）</summary>
+
+| 编号 | 标题 | 中文 | 句数 · 词数 · 生词 | 时长 |
+|---|---|---|---|---|
+| b2_11 | La soledad en las grandes ciudades | 大城市里的孤独 | 7 句 · 128 词 · 32 个 | 60 秒 |
+| b2_12 | Una sociedad que envejece | 老龄化社会 | 7 句 · 130 词 · 31 个 | 59 秒 |
+| b2_13 | El deporte profesional y el dinero | 职业体育与金钱 | 7 句 · 132 词 · 32 个 | 58 秒 |
+| b2_14 | La publicidad dirigida a los niños | 面向儿童的广告 | 7 句 · 132 词 · 28 个 | 59 秒 |
+| b2_15 | El derecho a desconectar | 下班后断开联系的权利 | 7 句 · 128 词 · 29 个 | 55 秒 |
+| b2_16 | La lectura en la era de las pantallas | 屏幕时代的阅读 | 7 句 · 130 词 · 28 个 | 59 秒 |
+| b2_17 | La comida que tiramos | 被扔掉的食物 | 7 句 · 132 词 · 25 个 | 60 秒 |
+| b2_18 | La ciencia ciudadana | 公民科学 | 7 句 · 129 词 · 30 个 | 59 秒 |
+| b2_19 | El valor del aburrimiento | 无聊的价值 | 7 句 · 127 词 · 29 个 | 59 秒 |
+| b2_20 | La ciudad de los quince minutos | 十五分钟城市 | 7 句 · 135 词 · 28 个 | 59 秒 |
+
+</details>
+
+<details><summary>第二批 C1 高级（10 篇，原速）</summary>
+
+| 编号 | 标题 | 中文 | 句数 · 词数 · 生词 | 时长 |
+|---|---|---|---|---|
+| c1_11 | Traducir es interpretar | 翻译即诠释 | 8 句 · 140 词 · 38 个 | 62 秒 |
+| c1_12 | Los límites de la meritocracia | 能力主义的局限 | 8 句 · 141 词 · 35 个 | 58 秒 |
+| c1_13 | La nostalgia como mercancía | 作为商品的怀旧 | 8 句 · 142 词 · 37 个 | 60 秒 |
+| c1_14 | El anonimato en la red | 网络上的匿名 | 8 句 · 135 词 · 37 个 | 65 秒 |
+| c1_15 | Los algoritmos y el gusto | 算法与品味 | 8 句 · 141 词 · 35 个 | 62 秒 |
+| c1_16 | La privacidad como bien común | 作为公共利益的隐私 | 8 句 · 140 词 · 36 个 | 64 秒 |
+| c1_17 | El humor como herramienta crítica | 作为批判工具的幽默 | 8 句 · 141 词 · 38 个 | 61 秒 |
+| c1_18 | La ciudad de noche | 夜晚的城市 | 8 句 · 140 词 · 36 个 | 63 秒 |
+| c1_19 | La fragilidad de la memoria digital | 数字记忆的脆弱 | 8 句 · 140 词 · 38 个 | 62 秒 |
+| c1_20 | El valor de la duda | 怀疑的价值 | 8 句 · 139 词 · 39 个 | 65 秒 |
 
 </details>
 
@@ -261,7 +349,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `es-kit-preview` | 原始工具包 `SPANISH-video-kit-preview.zip`、Qwen3-TTS 1.7B 模型分卷 `.001–.003`、`join_qwen3_parts.py`、`SHA256SUMS.txt` |
 | `videos` | es02 的视频（MP4）、朗读、字幕和核查报告；0.8 倍速样片 `es02_Mi_vida_diaria_4K_slow.mp4` 和它的核查报告 |
 | `graded-reading` | 分级阅读 50 篇的 4K 视频（`A1-01_….mp4` …）和全部核查报告 |
-| `graded-reading-2` | 分级阅读第二批的 4K 视频（目前是试看版 `A1-11_Mi_mascota.mp4`）、核查报告 `graded-reading-2_checks.json`、`graded-reading-2-SHA256SUMS.txt` |
+| `graded-reading-2` | 分级阅读第二批 50 篇的 4K 视频（`A1-11_Mi_mascota.mp4` … `C1-20_….mp4`）、核查报告 `graded-reading-2_checks.json`、`graded-reading-2-SHA256SUMS.txt` |
 | `work-files` | 工作文件：Qwen3 原始合成缓存 `qwen3-synthesis-cache.zip`（505 段）、50 篇和 es02 的预览截图 `preview-stills.zip`、`work-files-SHA256SUMS.txt` |
 | `exam-book1` | 第一册高考模拟卷：学生版 / 教师版 PDF、整套听力 `listening_full.mp3`、分段听力 `texto_1.mp3` … `texto_9.mp3` |
 | `exam-book1-stages` | 8 套分阶段卷，文件名以卷号开头（`L01-04` … `L01-20B`）：`_student.pdf`、`_teacher.pdf`、`_listening.mp3`、`_texto_1.mp3` … `_texto_9.mp3` |
@@ -332,3 +420,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `课件/第一册/单词表/`（第一册分课单词表的数据和生成程序）和 Release `book1-vocab`。
   - 2026-11-06：
     - 新增 `B1-B2听力练习/`（10 套 B1—B2 听力练习的原文、排版和录音程序）和 Release `b1b2-listening`。
+  - 2026-11-10：
+    - 分级阅读第二批 50 篇（`a1_11`—`c1_20`，原创短文，每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）和 Release `graded-reading-2`；新增 `记录/分级阅读第二批/`。
+    - `make_video.py` 的折行：生词释义一行放不下时整段换到下一行（不在词中间断开），译文最后一行不只剩一个字；字号不变。第一批的视频是改之前做的，没有重新生成。
+    - 新增 `check_wraps.py`（画面折行检查）；`voices.json`：`qwen3_M1F5_25`（原速）也加了安全线 `safe_short_term` 0.97 和逐级加强电平 `leveler_ladder`（和慢速音色同样的做法），`qwen3_M1F5_25_slow` 的 `leveler_ladder` 末尾加了两档（0.4 秒 ±10 dB、0.3 秒 ±12 dB）。只有短时响度波动超过安全线、前面各档都不过才会用到，已经通过的篇目结果不变。

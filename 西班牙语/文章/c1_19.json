@@ -1,0 +1,78 @@
+{
+ "id": "c1_19",
+ "level": "C1",
+ "no": 19,
+ "title_es": "La fragilidad de la memoria digital",
+ "title_zh": "数字记忆的脆弱",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 19 篇",
+ "header": "分级阅读 C1-19",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 19 篇。原创短文。主要语法：比较级 más…que ninguna otra、quizá + 虚拟式（sea）、mientras que 表对比、basta con que…para que…（两个虚拟式）、过去分词名词化（lo guardado）；8 句 140 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 ninguna 在比较句里表示“任何一个”，标 pron.；expuesto a 整体标 loc.；第 2 句 archivo 在这里是电子文件，不是档案馆；caducar 指设备过时、失效；depender de 的 surface 写 depende de；第 3 句 años de fotografías 译作“积攒多年的照片”；第 4 句 A ello se suma 按 sumarse a 标，surface 写 se suma；nube 指云端存储；第 5 句 cerrar 指企业倒闭，标 intr.；第 7 句 copias redundantes 指多重备份；第 8 句 consistir en 的 surface 只写 consiste（中间隔着 solo）。no_pause_commas：第 7 句是名词列举，不停顿。审读后改：第 3 句原来是 Basta con que…，断言过于绝对，改为 A veces basta con que…，surface 改为 basta con que，译文加“有时”。为凑足一分钟（原速实测比估算快），加了第 6 句：eso 指上一句的企业倒闭或删除账户；cartas, diarios y fotografías 是名词列举，登记为不停顿；原来第 6 句的列举登记随之改为第 7 句。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "6": [{"after": "cartas,", "why": "名词列举（cartas, diarios y fotografías），不停顿"}],
+  "7": [{"after": "redundantes,", "why": "名词列举（copias redundantes, formatos abiertos y una atención sostenida en el tiempo），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Nuestra época produce más imágenes y documentos que ninguna otra, y quizá sea también la más expuesta a perderlos.", "zh": "我们这个时代产生的图像和文件比以往任何时代都多，或许也最容易失去它们。", "w": [
+    {"h": "época", "pos": "f.", "zh": "时代", "surface": "época", "source": "supplement"},
+    {"h": "ninguno", "pos": "pron.", "zh": "（比较句中）任何一个", "surface": "ninguna", "source": "supplement"},
+    {"h": "quizá", "pos": "adv.", "zh": "也许，或许", "surface": "quizá", "source": "supplement"},
+    {"h": "expuesto a", "pos": "loc.", "zh": "易遭受……的", "surface": "expuesta a", "source": "supplement"}]},
+   {"es": "Un manuscrito puede conservarse siglos en un cajón, mientras que un archivo digital depende de dispositivos que caducan.", "zh": "一份手稿可以在抽屉里保存几百年，而一个数字文件却依赖于会过时的设备。", "w": [
+    {"h": "conservarse", "pos": "prnl.", "zh": "保存下来", "surface": "conservarse", "source": "supplement"},
+    {"h": "mientras que", "pos": "loc.", "zh": "而（表示对比）", "surface": "mientras que", "source": "supplement"},
+    {"h": "archivo", "pos": "m.", "zh": "（电子）文件", "surface": "archivo", "source": "supplement"},
+    {"h": "depender de", "pos": "loc.", "zh": "依赖于", "surface": "depende de", "source": "supplement"},
+    {"h": "caducar", "pos": "intr.", "zh": "过时，失效", "surface": "caducan", "source": "supplement"}]},
+   {"es": "A veces basta con que un programa deje de actualizarse para que años de fotografías se vuelvan ilegibles.", "zh": "有时，只要某个程序停止更新，就足以让积攒多年的照片变得无法读取。", "w": [
+    {"h": "bastar con que", "pos": "loc.", "zh": "只要……就足够", "surface": "basta con que", "source": "supplement"},
+    {"h": "dejar de", "pos": "loc.", "zh": "停止，不再", "surface": "deje de", "source": "supplement"},
+    {"h": "actualizarse", "pos": "prnl.", "zh": "更新", "surface": "actualizarse", "source": "supplement"},
+    {"h": "volverse", "pos": "prnl.", "zh": "变得", "surface": "se vuelvan", "source": "supplement"},
+    {"h": "ilegible", "pos": "adj.", "zh": "无法读取的", "surface": "ilegibles", "source": "supplement"}]},
+   {"es": "A ello se suma la ilusión de que todo lo guardado en la nube permanece a salvo indefinidamente.", "zh": "再加上一种错觉：以为存放在云端的一切都会无限期地安然无恙。", "w": [
+    {"h": "sumarse a", "pos": "loc.", "zh": "加上，叠加", "surface": "se suma", "source": "supplement"},
+    {"h": "ilusión", "pos": "f.", "zh": "错觉", "surface": "ilusión", "source": "supplement"},
+    {"h": "nube", "pos": "f.", "zh": "云端（存储）", "surface": "nube", "source": "supplement"},
+    {"h": "permanecer", "pos": "intr.", "zh": "保持，仍然", "surface": "permanece", "source": "supplement"},
+    {"h": "a salvo", "pos": "loc.", "zh": "安全，无恙", "surface": "a salvo", "source": "supplement"}]}
+  ],
+  [
+   {"es": "En realidad, esos servicios están en manos de empresas que pueden cerrar o eliminar cuentas inactivas.", "zh": "实际上，这些服务掌握在企业手中，而企业可能倒闭，也可能删除不活跃的账户。", "w": [
+    {"h": "en realidad", "pos": "loc.", "zh": "实际上", "surface": "En realidad", "source": "supplement"},
+    {"h": "estar en manos de", "pos": "loc.", "zh": "掌握在……手中", "surface": "están en manos de", "source": "supplement"},
+    {"h": "cerrar", "pos": "intr.", "zh": "倒闭，关门", "surface": "cerrar", "source": "supplement"},
+    {"h": "cuenta", "pos": "f.", "zh": "账户", "surface": "cuentas", "source": "supplement"},
+    {"h": "inactivo", "pos": "adj.", "zh": "不活跃的，闲置的", "surface": "inactivas", "source": "supplement"}]},
+   {"es": "Cuando eso ocurre, desaparecen de golpe cartas, diarios y fotografías que nadie se preocupó de copiar.", "zh": "一旦发生这种情况，那些从没有人费心复制的信件、日记和照片，便会一下子消失。", "w": [
+    {"h": "desaparecer", "pos": "intr.", "zh": "消失", "surface": "desaparecen", "source": "supplement"},
+    {"h": "de golpe", "pos": "loc.", "zh": "突然，一下子", "surface": "de golpe", "source": "supplement"},
+    {"h": "diario", "pos": "m.", "zh": "日记", "surface": "diarios", "source": "supplement"},
+    {"h": "preocuparse de", "pos": "loc.", "zh": "费心（做某事）", "surface": "se preocupó de", "source": "supplement"}]},
+   {"es": "Preservar la memoria digital exige, por consiguiente, copias redundantes, formatos abiertos y una atención sostenida en el tiempo.", "zh": "因此，保存数字记忆需要多重备份、开放的格式，以及长期持续的关注。", "w": [
+    {"h": "preservar", "pos": "tr.", "zh": "保存，保护", "surface": "Preservar", "source": "supplement"},
+    {"h": "exigir", "pos": "tr.", "zh": "要求，需要", "surface": "exige", "source": "supplement"},
+    {"h": "por consiguiente", "pos": "loc.", "zh": "因此，所以", "surface": "por consiguiente", "source": "supplement"},
+    {"h": "redundante", "pos": "adj.", "zh": "冗余的，多重的", "surface": "redundantes", "source": "supplement"},
+    {"h": "sostenido", "pos": "adj.", "zh": "持续的", "surface": "sostenida", "source": "supplement"}]},
+   {"es": "Hoy, recordar no consiste solo en guardar, sino en decidir qué merece perdurar y cuidarlo con constancia.", "zh": "如今，铭记不只在于保存，更在于决定什么值得留存下去，并持之以恒地加以呵护。", "w": [
+    {"h": "consistir en", "pos": "loc.", "zh": "在于", "surface": "consiste", "source": "supplement"},
+    {"h": "sino", "pos": "conj.", "zh": "（no…sino）而是", "surface": "sino", "source": "supplement"},
+    {"h": "merecer", "pos": "tr.", "zh": "值得", "surface": "merece", "source": "supplement"},
+    {"h": "perdurar", "pos": "intr.", "zh": "长存，延续", "surface": "perdurar", "source": "supplement"},
+    {"h": "con constancia", "pos": "loc.", "zh": "持之以恒地", "surface": "con constancia", "source": "supplement"}]}
+  ]
+ ]
+}

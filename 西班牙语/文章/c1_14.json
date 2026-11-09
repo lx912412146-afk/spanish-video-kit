@@ -1,0 +1,74 @@
+{
+ "id": "c1_14",
+ "level": "C1",
+ "no": 14,
+ "title_es": "El anonimato en la red",
+ "title_zh": "网络上的匿名",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 14 篇",
+ "header": "分级阅读 C1-14",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 14 篇。原创短文。主要语法：permitir que + 虚拟式、条件式 se arriesgarían（con su nombre 相当于条件状语）、第一人称复数命令式 pensemos（劝说口吻）、被动不定式 ser identificados、deber 的条件式 debería、caber + 原形；8 句 135 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 suele considerarse 标 soler + inf.，译“常被视为”，considerarse 是一眼可懂的同源词，不标；impunemente 译作“不受惩罚”；第 2 句 ahora bien 标 loc.，译作“不过”；con su nombre 指用真名发言，两边逗号照常停顿；arriesgarse a 译作“可能遭受”，和译文“就可能遭到报复”对应；第 4 句 Para ellos 指第 3 句的两类人；sin ser identificados 是被动不定式，同源词 identificar 不标；第 5 句 tajante 指非此即彼；第 7 句 caber 表“可以、有可能”，标 intr.；第 8 句 libertad de expresión 整体标 f.，和第 4 句的 libertad 是不同词条。本篇没有名词列举，no_pause_commas 为 {}。审读后改：第 4 句译文“任性的特权”改为“出于任性的特权”；第 5 句译文“不应被设定为……的选择”改为“不应被看作……的选择”，plantearse como 的释义相应改为“被看作，被当作”。为凑足一分钟（原速实测比估算快），加了第 6 句：条件式 acabaría、silenciaría 表示假设的后果；pero sí 强调对比，不单列；agresividad 译作“戾气”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "El anonimato en la red suele considerarse un problema, porque facilita insultar y difundir falsedades impunemente.", "zh": "网络上的匿名常被视为一个问题，因为它让人可以辱骂他人、散布谎言而不受惩罚。", "w": [
+    {"h": "anonimato", "pos": "m.", "zh": "匿名（状态）", "surface": "anonimato", "source": "supplement"},
+    {"h": "soler + inf.", "pos": "loc.", "zh": "往往，通常（做）", "surface": "suele", "source": "supplement"},
+    {"h": "difundir", "pos": "tr.", "zh": "散布，传播", "surface": "difundir", "source": "supplement"},
+    {"h": "falsedad", "pos": "f.", "zh": "谎言，不实之词", "surface": "falsedades", "source": "supplement"},
+    {"h": "impunemente", "pos": "adv.", "zh": "不受惩罚地", "surface": "impunemente", "source": "supplement"}]},
+   {"es": "Ahora bien, esa misma protección permite que se expresen quienes, con su nombre, se arriesgarían a represalias.", "zh": "不过，同样是这层保护，也让那些实名发言就可能遭到报复的人得以表达自己。", "w": [
+    {"h": "ahora bien", "pos": "loc.", "zh": "不过，然而", "surface": "Ahora bien", "source": "supplement"},
+    {"h": "expresarse", "pos": "prnl.", "zh": "表达自己，发声", "surface": "se expresen", "source": "supplement"},
+    {"h": "quien", "pos": "pron.", "zh": "（……的）人", "surface": "quienes", "source": "supplement"},
+    {"h": "arriesgarse a", "pos": "loc.", "zh": "可能遭受，冒……之险", "surface": "se arriesgarían a", "source": "supplement"},
+    {"h": "represalia", "pos": "f.", "zh": "报复", "surface": "represalias", "source": "supplement"}]},
+   {"es": "Pensemos en un empleado que denuncia abusos o en alguien que explora una identidad todavía frágil.", "zh": "不妨想一想一个揭发不当行为的雇员，或是一个正在探索尚且脆弱的自我认同的人。", "w": [
+    {"h": "pensar en", "pos": "loc.", "zh": "想到，设想", "surface": "Pensemos en", "source": "supplement"},
+    {"h": "denunciar", "pos": "tr.", "zh": "揭发，举报", "surface": "denuncia", "source": "supplement"},
+    {"h": "abuso", "pos": "m.", "zh": "滥用（权力），不当行为", "surface": "abusos", "source": "supplement"},
+    {"h": "frágil", "pos": "adj.", "zh": "脆弱的", "surface": "frágil", "source": "supplement"}]},
+   {"es": "Para ellos, poder hablar sin ser identificados no es un privilegio caprichoso, sino una condición de su libertad.", "zh": "对他们来说，能够在身份不被识别的情况下说话，并不是一种出于任性的特权，而是他们享有自由的前提。", "w": [
+    {"h": "privilegio", "pos": "m.", "zh": "特权", "surface": "privilegio", "source": "supplement"},
+    {"h": "caprichoso", "pos": "adj.", "zh": "任性的，随意的", "surface": "caprichoso", "source": "supplement"},
+    {"h": "sino", "pos": "conj.", "zh": "（no…sino）而是", "surface": "sino", "source": "supplement"},
+    {"h": "condición", "pos": "f.", "zh": "前提，条件", "surface": "condición", "source": "supplement"}]}
+  ],
+  [
+   {"es": "El debate, por tanto, no debería plantearse como una elección tajante entre transparencia absoluta y ocultamiento total.", "zh": "因此，这场讨论不应被看作在完全透明与彻底隐匿之间非此即彼的选择。", "w": [
+    {"h": "por tanto", "pos": "loc.", "zh": "因此", "surface": "por tanto", "source": "supplement"},
+    {"h": "deber + inf.", "pos": "loc.", "zh": "（条件式）应当", "surface": "debería", "source": "supplement"},
+    {"h": "plantearse como", "pos": "loc.", "zh": "被看作，被当作", "surface": "plantearse como", "source": "supplement"},
+    {"h": "tajante", "pos": "adj.", "zh": "截然的，非此即彼的", "surface": "tajante", "source": "supplement"},
+    {"h": "ocultamiento", "pos": "m.", "zh": "隐匿，隐藏", "surface": "ocultamiento", "source": "supplement"}]},
+   {"es": "Imponer el nombre real no acabaría con la agresividad, pero sí silenciaría a los más vulnerables.", "zh": "强制实名不会消除戾气，却会让最脆弱的人噤声。", "w": [
+    {"h": "imponer", "pos": "tr.", "zh": "强制推行，强加", "surface": "Imponer", "source": "supplement"},
+    {"h": "acabar con", "pos": "loc.", "zh": "消除，终结", "surface": "acabaría con", "source": "supplement"},
+    {"h": "agresividad", "pos": "f.", "zh": "攻击性，戾气", "surface": "agresividad", "source": "supplement"},
+    {"h": "silenciar", "pos": "tr.", "zh": "使噤声，压制", "surface": "silenciaría", "source": "supplement"}]},
+   {"es": "Cabe proteger el seudónimo y, a la vez, exigir a las plataformas mecanismos eficaces contra el acoso.", "zh": "我们完全可以在保护化名的同时，要求平台提供有效的防骚扰机制。", "w": [
+    {"h": "caber", "pos": "intr.", "zh": "（+inf.）可以，有可能", "surface": "Cabe", "source": "supplement"},
+    {"h": "seudónimo", "pos": "m.", "zh": "化名，网名", "surface": "seudónimo", "source": "supplement"},
+    {"h": "a la vez", "pos": "loc.", "zh": "同时", "surface": "a la vez", "source": "supplement"},
+    {"h": "exigir", "pos": "tr.", "zh": "要求", "surface": "exigir", "source": "supplement"},
+    {"h": "acoso", "pos": "m.", "zh": "骚扰，欺凌", "surface": "acoso", "source": "supplement"}]},
+   {"es": "Defender el anonimato no implica tolerar la crueldad, sino reconocer que la libertad de expresión también necesita refugios.", "zh": "捍卫匿名并不意味着容忍残忍，而是承认言论自由同样需要庇护之所。", "w": [
+    {"h": "implicar", "pos": "tr.", "zh": "意味着", "surface": "implica", "source": "supplement"},
+    {"h": "tolerar", "pos": "tr.", "zh": "容忍", "surface": "tolerar", "source": "supplement"},
+    {"h": "crueldad", "pos": "f.", "zh": "残忍，残酷", "surface": "crueldad", "source": "supplement"},
+    {"h": "libertad de expresión", "pos": "f.", "zh": "言论自由", "surface": "libertad de expresión", "source": "supplement"},
+    {"h": "refugio", "pos": "m.", "zh": "庇护所，避风港", "surface": "refugios", "source": "supplement"}]}
+  ]
+ ]
+}

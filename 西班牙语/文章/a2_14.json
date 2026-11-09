@@ -1,0 +1,88 @@
+{
+ "id": "a2_14",
+ "level": "A2",
+ "no": 14,
+ "title_es": "Cuando era pequeña",
+ "title_zh": "我小时候",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 14 篇",
+ "header": "分级阅读 A2-14",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 14 篇。原创短文。叙述者是女孩（pequeña）。主要语法：过去未完成时描写小时候的生活和习惯（vivía、me preparaba、caminaba、nevaba、contaba），最后两句用现在时和比较级 más cómoda 和现在对比。11 句 122 词。特别判断：第 1 句 Cuando era pequeña 整体标 loc.，词头写 cuando era pequeño，译“小时候”（第 5 句 pequeña 是说学校小，不在词组里）；abuelos 指爷爷奶奶，词头写 abuelo，释义“祖父；（复）祖父母”；第 5 句 había 是 haber 的无人称形式，释义写法同第一批；clase 指班级；todos 指全校的孩子，标 pron.，译文补成“所有人都在一起”；第 7 句 dar de comer a 整体标 loc.，las gallinas 泛指家里养的鸡，译“喂鸡”；第 8 句 nevaba mucho 译“雪下得很大”；第 9 句 historias de miedo 整体标 f.，con los ojos muy abiertos 整体标 loc.；第 11 句 aquellos 是指示形容词，标 adj.。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Cuando era pequeña, vivía con mis abuelos en un pueblo de montaña.", "zh": "我小时候和爷爷奶奶住在一个山村里。", "w": [
+    {"h": "cuando era pequeño", "pos": "loc.", "zh": "小时候", "surface": "Cuando era pequeña", "source": "supplement"},
+    {"h": "vivir", "pos": "intr.", "zh": "住，生活", "surface": "vivía", "source": "supplement"},
+    {"h": "abuelo", "pos": "m.", "zh": "祖父；（复）祖父母", "surface": "abuelos", "source": "supplement"},
+    {"h": "pueblo", "pos": "m.", "zh": "村子，村镇", "surface": "pueblo", "source": "supplement"},
+    {"h": "montaña", "pos": "f.", "zh": "山，山区", "surface": "montaña", "source": "supplement"}]},
+   {"es": "La casa era vieja y tenía un patio con muchas flores.", "zh": "房子很旧，有一个种着很多花的院子。", "w": [
+    {"h": "viejo", "pos": "adj.", "zh": "旧的", "surface": "vieja", "source": "supplement"},
+    {"h": "tener", "pos": "tr.", "zh": "有", "surface": "tenía", "source": "supplement"},
+    {"h": "patio", "pos": "m.", "zh": "院子", "surface": "patio", "source": "supplement"},
+    {"h": "flor", "pos": "f.", "zh": "花", "surface": "flores", "source": "supplement"}]},
+   {"es": "Todas las mañanas, mi abuela me preparaba leche caliente.", "zh": "每天早上，奶奶都给我准备热牛奶。", "w": [
+    {"h": "todas las mañanas", "pos": "loc.", "zh": "每天早上", "surface": "Todas las mañanas", "source": "supplement"},
+    {"h": "preparar", "pos": "tr.", "zh": "准备，做", "surface": "preparaba", "source": "supplement"},
+    {"h": "leche", "pos": "f.", "zh": "牛奶", "surface": "leche", "source": "supplement"},
+    {"h": "caliente", "pos": "adj.", "zh": "热的", "surface": "caliente", "source": "supplement"}]},
+   {"es": "Después caminaba a la escuela con otros niños del pueblo.", "zh": "然后我和村里的其他孩子一起走路去上学。", "w": [
+    {"h": "después", "pos": "adv.", "zh": "然后，之后", "surface": "Después", "source": "supplement"},
+    {"h": "caminar", "pos": "intr.", "zh": "走路，步行", "surface": "caminaba", "source": "supplement"},
+    {"h": "escuela", "pos": "f.", "zh": "学校", "surface": "escuela", "source": "supplement"},
+    {"h": "otro", "pos": "adj.", "zh": "别的，其他的", "surface": "otros", "source": "supplement"},
+    {"h": "niño", "pos": "m.", "zh": "孩子", "surface": "niños", "source": "supplement"}]},
+   {"es": "La escuela era muy pequeña: solo había una clase para todos.", "zh": "学校非常小，只有一个班，所有人都在一起。", "w": [
+    {"h": "solo", "pos": "adv.", "zh": "只，仅仅", "surface": "solo", "source": "supplement"},
+    {"h": "haber", "pos": "tr.", "zh": "有（había：无人称形式）", "surface": "había", "source": "supplement"},
+    {"h": "clase", "pos": "f.", "zh": "班，班级", "surface": "clase", "source": "supplement"},
+    {"h": "todo", "pos": "pron.", "zh": "所有人，大家", "surface": "todos", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Por la tarde ayudaba a mi abuelo en el campo.", "zh": "下午，我到地里帮爷爷干活。", "w": [
+    {"h": "por la tarde", "pos": "loc.", "zh": "下午", "surface": "Por la tarde", "source": "supplement"},
+    {"h": "ayudar", "pos": "tr.", "zh": "帮助，帮忙", "surface": "ayudaba", "source": "supplement"},
+    {"h": "campo", "pos": "m.", "zh": "田地，地里", "surface": "campo", "source": "supplement"}]},
+   {"es": "También daba de comer a las gallinas y recogía los huevos.", "zh": "我还喂鸡、捡鸡蛋。", "w": [
+    {"h": "dar de comer a", "pos": "loc.", "zh": "喂（动物）", "surface": "daba de comer a", "source": "supplement"},
+    {"h": "gallina", "pos": "f.", "zh": "母鸡", "surface": "gallinas", "source": "supplement"},
+    {"h": "recoger", "pos": "tr.", "zh": "捡，收", "surface": "recogía", "source": "supplement"},
+    {"h": "huevo", "pos": "m.", "zh": "蛋，鸡蛋", "surface": "huevos", "source": "supplement"}]},
+   {"es": "En invierno nevaba mucho y nos sentábamos todos junto a la chimenea.", "zh": "冬天雪下得很大，我们全家都围坐在壁炉旁边。", "w": [
+    {"h": "invierno", "pos": "m.", "zh": "冬天", "surface": "invierno", "source": "supplement"},
+    {"h": "nevar", "pos": "intr.", "zh": "下雪", "surface": "nevaba", "source": "supplement"},
+    {"h": "sentarse", "pos": "prnl.", "zh": "坐", "surface": "nos sentábamos", "source": "supplement"},
+    {"h": "junto a", "pos": "loc.", "zh": "在……旁边", "surface": "junto a", "source": "supplement"},
+    {"h": "chimenea", "pos": "f.", "zh": "壁炉", "surface": "chimenea", "source": "supplement"}]},
+   {"es": "Mi abuelo contaba historias de miedo y yo escuchaba con los ojos muy abiertos.", "zh": "爷爷讲吓人的故事，我就睁大眼睛听着。", "w": [
+    {"h": "contar", "pos": "tr.", "zh": "讲，讲述", "surface": "contaba", "source": "supplement"},
+    {"h": "historia de miedo", "pos": "f.", "zh": "吓人的故事", "surface": "historias de miedo", "source": "supplement"},
+    {"h": "escuchar", "pos": "intr.", "zh": "听", "surface": "escuchaba", "source": "supplement"},
+    {"h": "con los ojos (muy) abiertos", "pos": "loc.", "zh": "睁大眼睛", "surface": "con los ojos muy abiertos", "source": "supplement"}]},
+   {"es": "Ahora vivo en la ciudad y tengo una vida más cómoda.", "zh": "现在我住在城里，生活比以前舒适。", "w": [
+    {"h": "ahora", "pos": "adv.", "zh": "现在", "surface": "Ahora", "source": "supplement"},
+    {"h": "ciudad", "pos": "f.", "zh": "城市", "surface": "ciudad", "source": "supplement"},
+    {"h": "vida", "pos": "f.", "zh": "生活", "surface": "vida", "source": "supplement"},
+    {"h": "más", "pos": "adv.", "zh": "更", "surface": "más", "source": "supplement"},
+    {"h": "cómodo", "pos": "adj.", "zh": "舒适的", "surface": "cómoda", "source": "supplement"}]},
+   {"es": "Pero muchas veces echo de menos aquellos días tranquilos del pueblo.", "zh": "可我常常怀念在村子里度过的那些宁静日子。", "w": [
+    {"h": "pero", "pos": "conj.", "zh": "但是，可是", "surface": "Pero", "source": "supplement"},
+    {"h": "muchas veces", "pos": "loc.", "zh": "常常，很多次", "surface": "muchas veces", "source": "supplement"},
+    {"h": "echar de menos", "pos": "loc.", "zh": "想念，怀念", "surface": "echo de menos", "source": "supplement"},
+    {"h": "aquel", "pos": "adj.", "zh": "那，那些（远指）", "surface": "aquellos", "source": "supplement"},
+    {"h": "tranquilo", "pos": "adj.", "zh": "宁静的，安静的", "surface": "tranquilos", "source": "supplement"}]}
+  ]
+ ]
+}

@@ -1,0 +1,69 @@
+b2_11 句数 7 → 8
+b2_11 2 ZH: 孤独并不只取决于我们身边有多少人，而是取决于我们与他们之间联系的质量。 → 孤独并不只取决于我们身边有多少人，更取决于我们与他们之间联系的质量。
+b2_11 2 W: -[('no…, sino…', 'loc.', '不是……而是……', 'sino')] +[('no solo…, sino…', 'loc.', '不仅……而且（更）……', 'sino')]
+b2_11 3 W: -[('trayecto', 'm.', '路程（多指通勤）', 'trayectos')] +[('trayecto', 'm.', '（上下班的）路程', 'trayectos')]
+b2_11 5 新/改 ES: La soledad prolongada no es un asunto menor: afecta tanto al estado de ánimo como a la salud.
+        ZH: 长期的孤独并不是小事：它既影响人的情绪，也影响健康。
+        W: asunto menor m. 小事，次要的问题 [asunto menor] | tanto… como… loc. 既……也…… [tanto] | estado de ánimo m. 情绪，心情 [estado de ánimo]
+b2_11 6 ZH: 如果公共空间是为人们相遇交往而设计的，打破这种无形的距离就会容易得多。 → 如果公共空间是为人们相遇交往而设计的，打破这种无形的距离就会更容易。
+b2_11 7 ZH: 事实上，一些街区已经在组织聚餐、工作坊和社区菜园，把素不相识的人聚到一起。 → 事实上，一些街区已经办起了聚餐、工作坊和社区菜园，把素不相识的人聚到一起。
+b2_11 8 新/改 ES: No obstante, ninguna iniciativa sustituye el sencillo gesto de saludar a quien vive al otro lado de la pared.
+        ZH: 然而，任何举措都无法取代一个简单的举动：向住在墙另一边的人打声招呼。
+        W: no obstante loc. 然而，不过 [No obstante] | sustituir tr. 取代，代替 [sustituye] | gesto m. 举动，姿态 [gesto] | quien pron. ……的人 [quien] | al otro lado de loc. 在……的另一边 [al otro lado de]
+b2_11 no_pause_commas: {"3": [{"after": "trayectos,", "why": "并列名词短语（los largos trayectos, los horarios exigentes y las mudanzas frecuentes），不停顿"}], "7": [{"after": "compartidas,", "why": "并列名词（comidas compartidas, talleres y huertos comunitarios），不停顿"}]}
+b2_12 句数 7 → 8
+b2_12 7 新/改 ES: Asimismo, las empresas podrían aprovechar la experiencia de sus empleados mayores en vez de prescindir de ella.
+        ZH: 同样，企业也可以把年长员工的经验利用起来，而不是弃之不用。
+        W: asimismo adv. 同样，此外 [Asimismo] | aprovechar tr. 利用（好） [aprovechar] | en vez de loc. 而不是 [en vez de] | prescindir de loc. 舍弃，不用 [prescindir de]
+b2_12 pos_legend: ['m.', 'f.', 'adj.', 'adv.', 'tr.', 'intr.', 'loc.']
+b2_13 句数 7 → 8
+b2_13 1 ZH: 近几十年来，职业体育已经变成了一门生意，牵动着巨额资金。 → 近几十年来，职业体育已经变成了一门涉及巨额资金的生意。
+b2_13 1 W: -[('mover', 'tr.', '牵动，流转（资金）', 'mueve')] +[('mover', 'tr.', '涉及，使（资金）流动', 'mueve')]
+b2_13 5 新/改 ES: Además, la subida constante de las entradas hace que muchos aficionados se sientan simples clientes.
+        ZH: 此外，门票价格不断上涨，让许多球迷觉得自己不过是顾客而已。
+        W: subida f. 上涨，上升 [subida] | entrada f. 门票 [entradas] | hacer que + subj. loc. 使得（接虚拟式） [hace que] | aficionado m. 球迷，爱好者 [aficionados]
+b2_14 句数 7 → 8
+b2_14 1 ZH: 孩子们待在屏幕前的时间越来越多，而他们在屏幕上看到的广告，都是专门为吸引他们的注意力而设计的。 → 孩子们待在屏幕前的时间越来越多，在屏幕上，他们会看到专门为吸引其注意力而设计的广告。
+b2_14 3 新/改 ES: Además, los anuncios suelen aparecer integrados en juegos y vídeos, lo que dificulta reconocerlos.
+        ZH: 此外，广告常常嵌在游戏和视频里，这就让人更难把它们辨认出来。
+        W: soler + inf. loc. 通常，往往 [suelen] | lo que pron. 这（指前面整件事） [lo que] | dificultar tr. 使困难，妨碍 [dificulta] | reconocer tr. 认出，辨认 [reconocerlos]
+b2_14 4 ZH: 与成年人不同，年幼的孩子还不能清楚地区分信息和说服。 → 与成年人不同，年幼的孩子还不能清楚地区分信息和劝说。
+b2_14 pos_legend: ['m.', 'f.', 'adj.', 'tr.', 'intr.', 'pron.', 'loc.']
+b2_15 句数 7 → 8
+b2_15 1 W: -[('móvil', 'm.', '手机', 'móvil'), ('contestar', 'tr.', '回复，答复', 'contestar')] +[]
+b2_15 2 ZH: 起初看似便利的东西，已经悄然变成一种义务：必须随时待命。 → 起初看似便利的东西，已经变成了一种心照不宣的义务：随时待命。
+b2_15 5 新/改 ES: De hecho, quien nunca llega a desconectar del todo acaba agotado y comete más errores.
+        ZH: 事实上，一个人如果从来无法彻底断开联系，最终就会筋疲力尽，犯的错也会更多。
+        W: de hecho loc. 事实上 [De hecho] | quien pron. ……的人 [quien] | del todo loc. 完全，彻底 [del todo] | acabar intr. 最终（落得、变得） [acaba] | agotado adj. 筋疲力尽的 [agotado]
+b2_15 no_pause_commas: {"1": [{"after": "sofá,", "why": "并列地点状语（en el sofá, en el autobús o incluso de vacaciones），不停顿"}], "8": [{"after": "feliz,", "why": "并列形容词（más feliz, más creativo y también más eficiente），不停顿"}]}
+b2_15 pos_legend: ['m.', 'f.', 'adj.', 'tr.', 'intr.', 'prep.', 'pron.', 'loc.']
+b2_16 句数 7 → 8
+b2_16 5 新/改 ES: Por si fuera poco, la tentación de mirar el móvil interrumpe incluso nuestros ratos de lectura.
+        ZH: 更糟的是，想看手机的诱惑甚至会打断我们的阅读时光。
+        W: por si fuera poco loc. 更糟的是，而且 [Por si fuera poco] | tentación f. 诱惑 [tentación] | rato m. （一段）时间，片刻 [ratos]
+b2_17 句数 7 → 8
+b2_17 7 新/改 ES: También los comercios pueden contribuir donando a comedores sociales los alimentos que no venden.
+        ZH: 商家也可以出一份力，把卖不出去的食品捐给慈善食堂。
+        W: comercio m. 商店，商家 [comercios] | donar tr. 捐赠 [donando] | comedor social m. 慈善食堂，救济食堂 [comedores sociales]
+b2_18 句数 7 → 8
+b2_18 1 ZH: 长期以来，科学研究一直被视为专属于实验室里那些专家的工作。 → 在很长一段时间里，科学研究被视为专属于实验室里那些专家的工作。
+b2_18 1 W: -[('durante mucho tiempo', 'loc.', '长期以来', 'Durante mucho tiempo')] +[('durante mucho tiempo', 'loc.', '很长一段时间（里）', 'Durante mucho tiempo')]
+b2_18 7 新/改 ES: Para evitarlo, los investigadores revisan los datos dudosos y ofrecen formación básica a los participantes.
+        ZH: 为了避免这种情况，研究人员会核查可疑的数据，并为参与者提供基础培训。
+        W: evitar tr. 避免 [evitarlo] | dudoso adj. 可疑的，不确定的 [dudosos] | formación f. 培训，训练 [formación]
+b2_18 pos_legend: ['m.', 'f.', 'adj.', 'tr.', 'intr.', 'prnl.', 'pron.', 'loc.']
+b2_19 句数 7 → 8
+b2_19 2 W: -[('rato', 'm.', '一会儿，片刻', 'ratos')] +[('rato', 'm.', '（一段）时间，片刻', 'ratos')]
+b2_19 5 新/改 ES: Del mismo modo, los niños sin actividades programadas aprenden a entretenerse solos con su imaginación.
+        ZH: 同样，没有被安排各种活动的孩子，会学着靠自己的想象力自娱自乐。
+        W: del mismo modo loc. 同样地 [Del mismo modo] | programado adj. 预先安排好的 [programadas] | aprender a + inf. loc. 学会做某事 [aprenden a] | entretenerse prnl. 自娱自乐，消遣 [entretenerse]
+b2_19 7 W: -[('sino que', 'conj.', '而是（引出从句）', 'sino que')] +[('no…, sino que…', 'loc.', '不是……而是……', 'sino que')]
+b2_19 pos_legend: ['m.', 'f.', 'adj.', 'adv.', 'tr.', 'intr.', 'prnl.', 'loc.']
+b2_20 句数 7 → 8
+b2_20 2 新/改 ES: Ir a trabajar, estudiar, comprar o hacer deporte tendría que ser posible a pie o en bicicleta, sin largos desplazamientos.
+        ZH: 上班、上学、购物或运动的地方，都应该步行或骑车就能到达，而无须长途奔波。
+        W: hacer deporte loc. 做运动，锻炼 [hacer deporte] | tener que + inf. loc. 应该（条件式更委婉） [tendría que] | a pie loc. 步行 [a pie] | desplazamiento m. 出行，往返路程 [desplazamientos]
+b2_20 5 新/改 ES: Por su parte, el pequeño comercio recuperaría clientela y llenaría de vida los barrios.
+        ZH: 至于街区的小商户，它们会重新赢得客源，也会让街区充满活力。
+        W: por su parte loc. 至于……，……则 [Por su parte] | pequeño comercio m. 小商户，小商店 [pequeño comercio] | clientela f. 客源，顾客（总称） [clientela] | llenar de vida loc. 使充满活力 [llenaría de vida]
+b2_20 no_pause_commas: {"2": [{"after": "trabajar,", "why": "并列原形动词短语作主语（ir a trabajar, estudiar, comprar o hacer deporte），不停顿"}, {"after": "estudiar,", "why": "同上，并列原形动词作主语，不停顿"}]}

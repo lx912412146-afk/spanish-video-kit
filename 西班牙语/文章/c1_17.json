@@ -1,0 +1,72 @@
+{
+ "id": "c1_17",
+ "level": "C1",
+ "no": 17,
+ "title_es": "El humor como herramienta crítica",
+ "title_zh": "作为批判工具的幽默",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 17 篇",
+ "header": "分级阅读 C1-17",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 17 篇。原创短文。主要语法：无人称 se tiende a + 原形、现在完成时 ha servido、hasta + 原形、al + 原形、lo + 形容词的名词化（lo absurdo、lo decisivo）、间接疑问 hacia dónde、不定式作主语（Reírnos juntos…）；8 句 141 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 un respiro frente a… 是 un mero entretenimiento 的同位语，逗号照常停顿；第 2 句 servir para 的 surface 写 ha servido（后面隔着 a menudo）；poderosos 是形容词名词化，标 m.，译作“权贵”；第 3 句 volver visible 整体标 loc.；第 4 句主语承前省略（una buena sátira），译文补出“它”；第 6 句 en desventaja 整体标 loc.；第 8 句 reírse de 的 surface 写 Reírnos（不定式带第一人称复数代词），词头仍写 reírse de。本篇没有名词列举，no_pause_commas 为 {}。审读后改：第 4 句 se protegen 是被动用法，译文“某些观念借以自保的那份庄严”改为“用来庇护某些观念的那份庄严”。为凑足一分钟（原速实测比估算快），加了第 5 句：quienes ejercen el poder sin contrapesos 泛指不受制衡的掌权者，不指具体对象；tolerar peor A que B 译作“对 A 比对 B 更难以容忍”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Se tiende a ver el humor como un mero entretenimiento, un respiro frente a los asuntos serios.", "zh": "人们往往把幽默看作单纯的消遣，看作面对严肃事务时的片刻喘息。", "w": [
+    {"h": "tender a", "pos": "loc.", "zh": "倾向于，往往", "surface": "tiende a", "source": "supplement"},
+    {"h": "mero", "pos": "adj.", "zh": "仅仅的，单纯的", "surface": "mero", "source": "supplement"},
+    {"h": "entretenimiento", "pos": "m.", "zh": "消遣，娱乐", "surface": "entretenimiento", "source": "supplement"},
+    {"h": "respiro", "pos": "m.", "zh": "喘息，暂歇", "surface": "respiro", "source": "supplement"},
+    {"h": "frente a", "pos": "loc.", "zh": "面对", "surface": "frente a", "source": "supplement"}]},
+   {"es": "Sin embargo, la risa ha servido a menudo para desenmascarar a los poderosos y cuestionar verdades establecidas.", "zh": "然而，笑声常常被用来揭穿权贵的真面目，质疑那些既定的真理。", "w": [
+    {"h": "sin embargo", "pos": "loc.", "zh": "然而", "surface": "Sin embargo", "source": "supplement"},
+    {"h": "servir para", "pos": "loc.", "zh": "用来，起……作用", "surface": "ha servido", "source": "supplement"},
+    {"h": "desenmascarar", "pos": "tr.", "zh": "揭穿，揭露", "surface": "desenmascarar", "source": "supplement"},
+    {"h": "poderoso", "pos": "m.", "zh": "有权势者，权贵", "surface": "poderosos", "source": "supplement"},
+    {"h": "establecido", "pos": "adj.", "zh": "既定的，公认的", "surface": "establecidas", "source": "supplement"}]},
+   {"es": "Una buena sátira exagera los rasgos de una situación hasta volver visible lo absurdo que la costumbre nos ocultaba.", "zh": "出色的讽刺会夸大某种情境的特征，直至让习惯向我们掩盖的荒谬之处显露出来。", "w": [
+    {"h": "sátira", "pos": "f.", "zh": "讽刺（作品）", "surface": "sátira", "source": "supplement"},
+    {"h": "rasgo", "pos": "m.", "zh": "特征", "surface": "rasgos", "source": "supplement"},
+    {"h": "volver visible", "pos": "loc.", "zh": "使……显露出来", "surface": "volver visible", "source": "supplement"},
+    {"h": "lo absurdo", "pos": "loc.", "zh": "荒谬之处", "surface": "lo absurdo", "source": "supplement"},
+    {"h": "ocultar", "pos": "tr.", "zh": "掩盖，隐藏", "surface": "ocultaba", "source": "supplement"}]},
+   {"es": "Al provocar la carcajada, desarma por un momento la solemnidad con la que se protegen ciertas ideas.", "zh": "它在引得人们哈哈大笑的同时，也暂时卸下了用来庇护某些观念的那份庄严。", "w": [
+    {"h": "al + inf.", "pos": "loc.", "zh": "在……时；通过……", "surface": "Al provocar", "source": "supplement"},
+    {"h": "carcajada", "pos": "f.", "zh": "哈哈大笑", "surface": "carcajada", "source": "supplement"},
+    {"h": "desarmar", "pos": "tr.", "zh": "卸下，瓦解", "surface": "desarma", "source": "supplement"},
+    {"h": "solemnidad", "pos": "f.", "zh": "庄严，庄重", "surface": "solemnidad", "source": "supplement"},
+    {"h": "cierto", "pos": "adj.", "zh": "（前置）某些", "surface": "ciertas", "source": "supplement"}]},
+   {"es": "Por eso, quienes ejercen el poder sin contrapesos suelen tolerar peor la burla que la crítica seria.", "zh": "正因如此，掌握权力而不受制衡的人，对嘲讽往往比对严肃的批评更难以容忍。", "w": [
+    {"h": "quien", "pos": "pron.", "zh": "（……的）人", "surface": "quienes", "source": "supplement"},
+    {"h": "ejercer", "pos": "tr.", "zh": "行使，掌握", "surface": "ejercen", "source": "supplement"},
+    {"h": "contrapeso", "pos": "m.", "zh": "制衡（力量）", "surface": "contrapesos", "source": "supplement"},
+    {"h": "soler + inf.", "pos": "loc.", "zh": "通常，往往", "surface": "suelen", "source": "supplement"},
+    {"h": "burla", "pos": "f.", "zh": "嘲弄，讥讽", "surface": "burla", "source": "supplement"}]}
+  ],
+  [
+   {"es": "No obstante, el humor no es crítico por naturaleza: también puede reforzar prejuicios contra quienes ya están en desventaja.", "zh": "不过，幽默并非天生就具有批判性：它也可能强化对那些本已处于劣势之人的偏见。", "w": [
+    {"h": "no obstante", "pos": "loc.", "zh": "然而，不过", "surface": "No obstante", "source": "supplement"},
+    {"h": "por naturaleza", "pos": "loc.", "zh": "天生，本质上", "surface": "por naturaleza", "source": "supplement"},
+    {"h": "reforzar", "pos": "tr.", "zh": "强化，加强", "surface": "reforzar", "source": "supplement"},
+    {"h": "prejuicio", "pos": "m.", "zh": "偏见", "surface": "prejuicios", "source": "supplement"},
+    {"h": "en desventaja", "pos": "loc.", "zh": "处于劣势", "surface": "en desventaja", "source": "supplement"}]},
+   {"es": "Lo decisivo es hacia dónde apunta la broma: contra el abuso de poder o contra la vulnerabilidad ajena.", "zh": "关键在于玩笑的矛头指向何处：是针对滥用权力，还是针对他人的脆弱。", "w": [
+    {"h": "lo decisivo", "pos": "loc.", "zh": "关键在于", "surface": "Lo decisivo", "source": "supplement"},
+    {"h": "apuntar", "pos": "intr.", "zh": "指向，瞄准", "surface": "apunta", "source": "supplement"},
+    {"h": "abuso de poder", "pos": "m.", "zh": "滥用权力", "surface": "abuso de poder", "source": "supplement"},
+    {"h": "ajeno", "pos": "adj.", "zh": "他人的，别人的", "surface": "ajena", "source": "supplement"}]},
+   {"es": "Reírnos juntos de lo que nos oprime puede ser, en última instancia, una forma lúcida de resistencia.", "zh": "归根结底，一起嘲笑压迫我们的东西，可以成为一种清醒的抵抗方式。", "w": [
+    {"h": "reírse de", "pos": "loc.", "zh": "嘲笑，取笑", "surface": "Reírnos", "source": "supplement"},
+    {"h": "oprimir", "pos": "tr.", "zh": "压迫", "surface": "oprime", "source": "supplement"},
+    {"h": "en última instancia", "pos": "loc.", "zh": "归根结底，最终", "surface": "en última instancia", "source": "supplement"},
+    {"h": "lúcido", "pos": "adj.", "zh": "清醒的，明智的", "surface": "lúcida", "source": "supplement"}]}
+  ]
+ ]
+}

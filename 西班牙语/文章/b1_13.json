@@ -1,0 +1,74 @@
+{
+ "id": "b1_13",
+ "level": "B1",
+ "no": 13,
+ "title_es": "La bicicleta en la ciudad",
+ "title_zh": "城市里的自行车",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 13 篇",
+ "header": "分级阅读 B1-13",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 13 篇。原创短文。主要语法：现在时、现在完成时（han visto crecer）、条件式（habría、sería、tendrían que）、现在虚拟式（no dejan que… vayan、para que sea、es necesario que haya… y que se pueda）；连接语 además、sin embargo、por ejemplo、por otro lado、no solo… sino también。9 句，146 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 2 句 contaminar 不带宾语，标 intr.，译作“污染环境”；第 3 句用条件式说假设的结果，译文用“就会”；第 5 句 dejar que 接虚拟式（vayan），solos 词头写 solo；第 6 句 ayuntamiento 译作“市政府”；carril bici 是固定名词，词头写单数；第 7 句 subir 是“把（自行车）带上（火车）”，标 tr.；aparcamientos vigilados 译作“有人看管的停车点”；第 9 句 no solo… sino también 整体标 loc.，surface 标 no solo。no_pause_commas：第 2 句冒号后的 es barato, no contamina y permite… 是简短的并列谓语，barato 后的逗号不停顿，冒号照常停顿。第 5 句是为凑足时长新加的。审读后改：第 2 句 barato 后改为不停顿；去掉 A1 词 barato（第 2 句）、coche（第 3 句）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [{"after": "barato,", "why": "简短的并列谓语（es barato, no contamina y permite…），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "En los últimos años, muchas ciudades han visto crecer el número de personas que van al trabajo en bicicleta.", "zh": "近年来，许多城市骑自行车上班的人数不断增长。", "w": [
+    {"h": "en los últimos años", "pos": "loc.", "zh": "近年来", "surface": "En los últimos años", "source": "supplement"},
+    {"h": "crecer", "pos": "intr.", "zh": "增长，增加", "surface": "crecer", "source": "supplement"},
+    {"h": "en bicicleta", "pos": "loc.", "zh": "骑自行车", "surface": "en bicicleta", "source": "supplement"}]},
+   {"es": "Moverse en bicicleta tiene muchas ventajas: es barato, no contamina y permite hacer ejercicio sin darse cuenta.", "zh": "骑车出行有很多好处：花钱少，不污染环境，还能让人在不知不觉中锻炼身体。", "w": [
+    {"h": "moverse", "pos": "prnl.", "zh": "出行，走动", "surface": "Moverse", "source": "supplement"},
+    {"h": "ventaja", "pos": "f.", "zh": "好处，优点", "surface": "ventajas", "source": "supplement"},
+    {"h": "contaminar", "pos": "intr.", "zh": "造成污染", "surface": "contamina", "source": "supplement"},
+    {"h": "sin darse cuenta", "pos": "loc.", "zh": "不知不觉地", "surface": "sin darse cuenta", "source": "supplement"}]},
+   {"es": "Además, con menos coches en las calles, habría menos ruido y el aire sería más limpio.", "zh": "而且，街上的汽车少了，噪音就会减少，空气也会更干净。", "w": [
+    {"h": "además", "pos": "adv.", "zh": "此外，而且", "surface": "Además", "source": "supplement"},
+    {"h": "ruido", "pos": "m.", "zh": "噪音", "surface": "ruido", "source": "supplement"},
+    {"h": "limpio", "pos": "adj.", "zh": "干净的", "surface": "limpio", "source": "supplement"}]},
+   {"es": "Sin embargo, muchos ciudadanos todavía tienen miedo de circular entre coches y autobuses.", "zh": "然而，许多市民仍然害怕在汽车和公交车之间骑行。", "w": [
+    {"h": "sin embargo", "pos": "loc.", "zh": "然而，不过", "surface": "Sin embargo", "source": "supplement"},
+    {"h": "ciudadano", "pos": "m.", "zh": "市民", "surface": "ciudadanos", "source": "supplement"},
+    {"h": "todavía", "pos": "adv.", "zh": "仍然，还", "surface": "todavía", "source": "supplement"},
+    {"h": "tener miedo de", "pos": "loc.", "zh": "害怕", "surface": "tienen miedo de", "source": "supplement"},
+    {"h": "circular", "pos": "intr.", "zh": "（在路上）行驶，通行", "surface": "circular", "source": "supplement"}]},
+   {"es": "Por ejemplo, muchos padres no dejan que sus hijos vayan solos en bicicleta al colegio.", "zh": "比如，很多家长不让孩子独自骑车去上学。", "w": [
+    {"h": "por ejemplo", "pos": "loc.", "zh": "例如，比如", "surface": "Por ejemplo", "source": "supplement"},
+    {"h": "dejar que", "pos": "loc.", "zh": "让，允许（接虚拟式）", "surface": "dejan que", "source": "supplement"},
+    {"h": "solo", "pos": "adj.", "zh": "独自的，单独的", "surface": "solos", "source": "supplement"},
+    {"h": "colegio", "pos": "m.", "zh": "（中小）学校", "surface": "colegio", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Para que la bicicleta sea una opción segura, los ayuntamientos tendrían que construir más carriles bici.", "zh": "为了让自行车成为一种安全的出行选择，市政府应该修建更多的自行车道。", "w": [
+    {"h": "para que", "pos": "loc.", "zh": "为了，以便（接虚拟式）", "surface": "Para que", "source": "supplement"},
+    {"h": "seguro", "pos": "adj.", "zh": "安全的", "surface": "segura", "source": "supplement"},
+    {"h": "ayuntamiento", "pos": "m.", "zh": "市政府", "surface": "ayuntamientos", "source": "supplement"},
+    {"h": "tener que", "pos": "loc.", "zh": "应该，必须", "surface": "tendrían que", "source": "supplement"},
+    {"h": "carril bici", "pos": "m.", "zh": "自行车道", "surface": "carriles bici", "source": "supplement"}]},
+   {"es": "También es necesario que haya aparcamientos vigilados y que se pueda subir la bicicleta al tren.", "zh": "还需要设立有人看管的停车点，并允许人们把自行车带上火车。", "w": [
+    {"h": "es necesario que", "pos": "loc.", "zh": "有必要……（接虚拟式）", "surface": "es necesario que", "source": "supplement"},
+    {"h": "aparcamiento", "pos": "m.", "zh": "停车处", "surface": "aparcamientos", "source": "supplement"},
+    {"h": "vigilado", "pos": "adj.", "zh": "有人看管的", "surface": "vigilados", "source": "supplement"},
+    {"h": "subir", "pos": "tr.", "zh": "把……带上（车）", "surface": "subir", "source": "supplement"}]},
+   {"es": "Por otro lado, los ciclistas deben respetar las normas de tráfico y tener cuidado con los peatones.", "zh": "另一方面，骑车的人必须遵守交通规则，并注意避让行人。", "w": [
+    {"h": "por otro lado", "pos": "loc.", "zh": "另一方面", "surface": "Por otro lado", "source": "supplement"},
+    {"h": "norma de tráfico", "pos": "f.", "zh": "交通规则", "surface": "normas de tráfico", "source": "supplement"},
+    {"h": "tener cuidado con", "pos": "loc.", "zh": "小心，注意", "surface": "tener cuidado con", "source": "supplement"},
+    {"h": "peatón", "pos": "m.", "zh": "行人", "surface": "peatones", "source": "supplement"}]},
+   {"es": "Una ciudad pensada para las bicicletas no solo es más sana, sino también más agradable para vivir.", "zh": "一座为自行车而设计的城市，不仅更健康，而且更宜居。", "w": [
+    {"h": "pensado para", "pos": "loc.", "zh": "为……而设计的", "surface": "pensada para", "source": "supplement"},
+    {"h": "no solo… sino también", "pos": "loc.", "zh": "不仅……而且……", "surface": "no solo", "source": "supplement"},
+    {"h": "sano", "pos": "adj.", "zh": "健康的", "surface": "sana", "source": "supplement"},
+    {"h": "agradable", "pos": "adj.", "zh": "宜人的，舒适的", "surface": "agradable", "source": "supplement"}]}
+  ]
+ ]
+}

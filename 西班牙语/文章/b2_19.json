@@ -1,0 +1,65 @@
+{
+ "id": "b2_19",
+ "level": "B2",
+ "no": 19,
+ "title_es": "El valor del aburrimiento",
+ "title_zh": "无聊的价值",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 19 篇",
+ "header": "分级阅读 B2-19",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 19 篇。原创短文。主要语法：第 1 句 en cuanto + 陈述式（习惯性动作）；第 5 句 si + 过去虚拟式（nos permitiéramos）+ 条件式（perderíamos）；第 6 句 no significa que + 现在虚拟式（debamos）、sino que 引出从句、convenir + 原形；连接语 sin embargo、de hecho、a menudo。7 句 127 词（2 段：4 + 3）。特别判断：第 1 句 huir de 译作“逃避”。第 2 句 ratos aparentemente vacíos 译作“看似空白的时光”，rato 释义按审读意见改为“（一段）时间，片刻”；aparentemente、mental 是同源词，没有标。第 3 句 divagar 指思绪漫游，译作“遐想”；三个 a + 原形是同一个动词 empieza 后面的短列举，逗号不停顿（同第一批 b2_10 第 5 句的处理）。第 4 句 nada en particular 译作“没做什么特别的事”。第 6 句 sino que 引出从句，按审读意见与其他各篇一致，整体标 loc.（no…, sino que…）；ratos 已在第 2 句标过，不再标。第 7 句 a menudo 两边的逗号是插入语，照常停顿；sin distracciones 译作“没有干扰”。estímulo、en particular、distracción 是同源词，没有标。时长：原来按估算在第 4 句后面加了一句（Del mismo modo, los niños sin actividades programadas aprenden a entretenerse solos con su imaginación.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "3": [{"after": "divagar,", "why": "并列的 a + 原形短语（a divagar, a relacionar recuerdos y a imaginar soluciones inesperadas），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "En cuanto tenemos un momento libre, solemos sacar el móvil para huir de cualquier sensación de aburrimiento.", "zh": "一有空闲，我们往往就会掏出手机，好逃避任何一丝无聊的感觉。", "w": [
+    {"h": "en cuanto", "pos": "loc.", "zh": "一……就……", "surface": "En cuanto", "source": "supplement"},
+    {"h": "soler + inf.", "pos": "loc.", "zh": "通常，往往", "surface": "solemos", "source": "supplement"},
+    {"h": "sacar", "pos": "tr.", "zh": "拿出，掏出", "surface": "sacar", "source": "supplement"},
+    {"h": "huir de", "pos": "loc.", "zh": "逃避，躲开", "surface": "huir de", "source": "supplement"},
+    {"h": "aburrimiento", "pos": "m.", "zh": "无聊，厌倦", "surface": "aburrimiento", "source": "supplement"}]},
+   {"es": "Sin embargo, varios investigadores sostienen que esos ratos aparentemente vacíos cumplen una función importante en nuestra vida mental.", "zh": "然而，一些研究者认为，这些看似空白的时光在我们的精神生活中发挥着重要作用。", "w": [
+    {"h": "sostener", "pos": "tr.", "zh": "主张，认为", "surface": "sostienen", "source": "supplement"},
+    {"h": "rato", "pos": "m.", "zh": "（一段）时间，片刻", "surface": "ratos", "source": "supplement"},
+    {"h": "vacío", "pos": "adj.", "zh": "空的，空白的", "surface": "vacíos", "source": "supplement"},
+    {"h": "cumplir una función", "pos": "loc.", "zh": "发挥作用", "surface": "cumplen una función", "source": "supplement"}]},
+   {"es": "Cuando la mente no recibe estímulos externos, empieza a divagar, a relacionar recuerdos y a imaginar soluciones inesperadas.", "zh": "当头脑接收不到外界的刺激时，它便开始遐想，把各种回忆联系起来，构想出意想不到的解决办法。", "w": [
+    {"h": "mente", "pos": "f.", "zh": "头脑，心智", "surface": "mente", "source": "supplement"},
+    {"h": "divagar", "pos": "intr.", "zh": "（思绪）漫游，遐想", "surface": "divagar", "source": "supplement"},
+    {"h": "recuerdo", "pos": "m.", "zh": "回忆，记忆", "surface": "recuerdos", "source": "supplement"},
+    {"h": "inesperado", "pos": "adj.", "zh": "意想不到的", "surface": "inesperadas", "source": "supplement"}]},
+   {"es": "De hecho, muchas ideas creativas surgen precisamente en esos momentos en los que no estamos haciendo nada en particular.", "zh": "事实上，许多富有创意的想法，恰恰是在我们没做什么特别的事的时候产生的。", "w": [
+    {"h": "de hecho", "pos": "loc.", "zh": "事实上", "surface": "De hecho", "source": "supplement"},
+    {"h": "surgir", "pos": "intr.", "zh": "出现，产生", "surface": "surgen", "source": "supplement"},
+    {"h": "precisamente", "pos": "adv.", "zh": "恰恰，正是", "surface": "precisamente", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Si nunca nos permitiéramos aburrirnos, perderíamos una oportunidad valiosa para conocernos mejor y pensar con calma.", "zh": "如果我们从不允许自己感到无聊，就会错失一个更好地了解自己、静下心来思考的宝贵机会。", "w": [
+    {"h": "permitirse", "pos": "prnl.", "zh": "允许自己", "surface": "nos permitiéramos", "source": "supplement"},
+    {"h": "aburrirse", "pos": "prnl.", "zh": "感到无聊", "surface": "aburrirnos", "source": "supplement"},
+    {"h": "valioso", "pos": "adj.", "zh": "宝贵的", "surface": "valiosa", "source": "supplement"},
+    {"h": "conocerse", "pos": "prnl.", "zh": "了解自己", "surface": "conocernos", "source": "supplement"},
+    {"h": "con calma", "pos": "loc.", "zh": "从容地，静下心来", "surface": "con calma", "source": "supplement"}]},
+   {"es": "Esto no significa que debamos renunciar a la tecnología, sino que conviene reservar algunos ratos del día sin pantallas.", "zh": "这并不意味着我们应该放弃科技，而是说，一天中最好留出一些远离屏幕的时间。", "w": [
+    {"h": "no significar que + subj.", "pos": "loc.", "zh": "并不意味着", "surface": "no significa que", "source": "supplement"},
+    {"h": "renunciar a", "pos": "loc.", "zh": "放弃", "surface": "renunciar a", "source": "supplement"},
+    {"h": "no…, sino que…", "pos": "loc.", "zh": "不是……而是……", "surface": "sino que", "source": "supplement"},
+    {"h": "convenir", "pos": "intr.", "zh": "宜，最好（做）", "surface": "conviene", "source": "supplement"}]},
+   {"es": "Un paseo sin auriculares o una espera sin distracciones pueden convertirse, a menudo, en el origen de una buena idea.", "zh": "一次不戴耳机的散步，或是一段没有干扰的等待，往往能成为一个好主意的源头。", "w": [
+    {"h": "paseo", "pos": "m.", "zh": "散步", "surface": "paseo", "source": "supplement"},
+    {"h": "auricular", "pos": "m.", "zh": "耳机", "surface": "auriculares", "source": "supplement"},
+    {"h": "espera", "pos": "f.", "zh": "等待", "surface": "espera", "source": "supplement"},
+    {"h": "a menudo", "pos": "loc.", "zh": "常常，往往", "surface": "a menudo", "source": "supplement"}]}
+  ]
+ ]
+}

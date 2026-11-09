@@ -1,0 +1,75 @@
+{
+ "id": "b1_15",
+ "level": "B1",
+ "no": 15,
+ "title_es": "Comer en familia",
+ "title_zh": "全家一起吃饭",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 15 篇",
+ "header": "分级阅读 B1-15",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 15 篇。原创短文。主要语法：过去未完成时（se reunía，叙述过去的习惯）、现在时、现在完成时（ha ido）、现在虚拟式（aunque sea、vale la pena que… encuentre）；连接语 sin embargo、además、mientras、por eso。9 句，149 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 1 句 comer 和 cenar 并列，comer 在西班牙指吃午饭，所以列出，释义“吃午饭”；第 2 句 casi nunca coinciden 译作“几乎总是对不上”，coincidir 取“（时间）对得上”的意思，列出；第 3 句 delante del 是 delante de + el，词头写 delante de（del móvil 承前省略 delante）；第 4 句 aunque sea solo para cenar 用虚拟式，表示“哪怕只是”；más valor del que parece 的 del que 和 valor 一致，词头写 más… del que parece；第 6 句 contarse 是相互意义，cómo ha ido el día 整体标 loc.；第 7 句 se comen 是被动意义的 se；第 8 句 vale la pena que 接虚拟式，comer junta 的 junta 跟 familia 一致；第 9 句 estar presentes 译作“真正陪在彼此身边”，escucharse unos a otros 是相互意义，unos a otros 整体标 loc.。本篇没有列举逗号，no_pause_commas 为空。第 6 句是为凑足时长新加的。审读后改：去掉 A1 词 nadie（第 3 句）、alguien（第 7 句），第 2 句补列 coincidir。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Antes, en muchos hogares, la familia se reunía alrededor de la mesa para comer y cenar.", "zh": "过去，在许多家庭里，一家人会围坐在餐桌旁吃午饭和晚饭。", "w": [
+    {"h": "hogar", "pos": "m.", "zh": "家，家庭", "surface": "hogares", "source": "supplement"},
+    {"h": "reunirse", "pos": "prnl.", "zh": "相聚，聚在一起", "surface": "se reunía", "source": "supplement"},
+    {"h": "alrededor de", "pos": "loc.", "zh": "在……周围", "surface": "alrededor de", "source": "supplement"},
+    {"h": "comer", "pos": "intr.", "zh": "吃午饭", "surface": "comer", "source": "supplement"},
+    {"h": "cenar", "pos": "intr.", "zh": "吃晚饭", "surface": "cenar", "source": "supplement"}]},
+   {"es": "Hoy esta costumbre es cada vez menos frecuente, porque los horarios de todos casi nunca coinciden.", "zh": "如今，这种习惯越来越少见，因为大家的作息时间几乎总是对不上。", "w": [
+    {"h": "costumbre", "pos": "f.", "zh": "习惯，习俗", "surface": "costumbre", "source": "supplement"},
+    {"h": "cada vez menos", "pos": "loc.", "zh": "越来越少", "surface": "cada vez menos", "source": "supplement"},
+    {"h": "horario", "pos": "m.", "zh": "作息时间，时间表", "surface": "horarios", "source": "supplement"},
+    {"h": "casi nunca", "pos": "loc.", "zh": "几乎从不", "surface": "casi nunca", "source": "supplement"},
+    {"h": "coincidir", "pos": "intr.", "zh": "（时间）重合，对得上", "surface": "coinciden", "source": "supplement"}]},
+   {"es": "Además, muchos comen deprisa delante del televisor o del móvil, sin hablar con nadie.", "zh": "此外，很多人对着电视或手机匆匆吃饭，跟谁都不说话。", "w": [
+    {"h": "además", "pos": "adv.", "zh": "此外，而且", "surface": "Además", "source": "supplement"},
+    {"h": "deprisa", "pos": "adv.", "zh": "匆忙地，很快地", "surface": "deprisa", "source": "supplement"},
+    {"h": "delante de", "pos": "loc.", "zh": "在……前面", "surface": "delante del", "source": "supplement"},
+    {"h": "móvil", "pos": "m.", "zh": "手机", "surface": "móvil", "source": "supplement"}]},
+   {"es": "Sin embargo, sentarse juntos a la mesa, aunque sea solo para cenar, tiene más valor del que parece.", "zh": "然而，一家人坐在一起吃饭，哪怕只是吃顿晚饭，意义也比看上去要大。", "w": [
+    {"h": "sin embargo", "pos": "loc.", "zh": "然而，不过", "surface": "Sin embargo", "source": "supplement"},
+    {"h": "a la mesa", "pos": "loc.", "zh": "在餐桌旁（吃饭）", "surface": "a la mesa", "source": "supplement"},
+    {"h": "aunque", "pos": "conj.", "zh": "即使，哪怕（接虚拟式）", "surface": "aunque", "source": "supplement"},
+    {"h": "valor", "pos": "m.", "zh": "价值，意义", "surface": "valor", "source": "supplement"},
+    {"h": "más… del que parece", "pos": "loc.", "zh": "比看上去更……", "surface": "del que parece", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Mientras comen, los padres se enteran de lo que preocupa a sus hijos y los niños aprenden a escuchar.", "zh": "吃饭的时候，父母能了解到孩子们在为什么事情烦恼，孩子们也能学会倾听。", "w": [
+    {"h": "mientras", "pos": "conj.", "zh": "在……的时候", "surface": "Mientras", "source": "supplement"},
+    {"h": "enterarse de", "pos": "loc.", "zh": "得知，了解到", "surface": "se enteran de", "source": "supplement"},
+    {"h": "preocupar", "pos": "tr.", "zh": "使担心，使烦恼", "surface": "preocupa", "source": "supplement"},
+    {"h": "aprender a + inf.", "pos": "loc.", "zh": "学会做……", "surface": "aprenden a", "source": "supplement"}]},
+   {"es": "Además, es el momento ideal para contarse cómo ha ido el día y hacer planes en común.", "zh": "此外，这也是大家互相讲讲一天过得怎么样、一起商量计划的最好时机。", "w": [
+    {"h": "contarse", "pos": "prnl.", "zh": "互相讲述", "surface": "contarse", "source": "supplement"},
+    {"h": "cómo ha ido el día", "pos": "loc.", "zh": "一天过得怎么样", "surface": "cómo ha ido el día", "source": "supplement"},
+    {"h": "hacer planes", "pos": "loc.", "zh": "做计划，商量安排", "surface": "hacer planes", "source": "supplement"},
+    {"h": "en común", "pos": "loc.", "zh": "共同地，一起", "surface": "en común", "source": "supplement"}]},
+   {"es": "También se comen más verduras y menos comida rápida cuando alguien cocina para todos.", "zh": "另外，有人为全家人做饭的时候，大家会多吃蔬菜，少吃快餐。", "w": [
+    {"h": "verdura", "pos": "f.", "zh": "蔬菜", "surface": "verduras", "source": "supplement"},
+    {"h": "comida rápida", "pos": "f.", "zh": "快餐", "surface": "comida rápida", "source": "supplement"},
+    {"h": "cocinar", "pos": "intr.", "zh": "做饭", "surface": "cocina", "source": "supplement"}]},
+   {"es": "Por eso, vale la pena que cada familia encuentre al menos un momento a la semana para comer junta.", "zh": "因此，每个家庭都值得每周至少抽出一段时间，一起吃顿饭。", "w": [
+    {"h": "por eso", "pos": "loc.", "zh": "因此，所以", "surface": "Por eso", "source": "supplement"},
+    {"h": "valer la pena", "pos": "loc.", "zh": "值得", "surface": "vale la pena", "source": "supplement"},
+    {"h": "encontrar", "pos": "tr.", "zh": "找到", "surface": "encuentre", "source": "supplement"},
+    {"h": "al menos", "pos": "loc.", "zh": "至少", "surface": "al menos", "source": "supplement"},
+    {"h": "a la semana", "pos": "loc.", "zh": "每周", "surface": "a la semana", "source": "supplement"}]},
+   {"es": "No hace falta preparar platos complicados: lo importante es estar presentes y escucharse unos a otros.", "zh": "不必准备复杂的菜肴：重要的是真正陪在彼此身边，互相倾听。", "w": [
+    {"h": "hacer falta", "pos": "loc.", "zh": "需要，有必要", "surface": "hace falta", "source": "supplement"},
+    {"h": "plato", "pos": "m.", "zh": "菜，菜肴", "surface": "platos", "source": "supplement"},
+    {"h": "lo importante", "pos": "loc.", "zh": "重要的是", "surface": "lo importante", "source": "supplement"},
+    {"h": "unos a otros", "pos": "loc.", "zh": "互相，彼此", "surface": "unos a otros", "source": "supplement"}]}
+  ]
+ ]
+}

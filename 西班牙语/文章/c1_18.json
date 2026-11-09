@@ -1,0 +1,76 @@
+{
+ "id": "c1_18",
+ "level": "C1",
+ "no": 18,
+ "title_es": "La ciudad de noche",
+ "title_zh": "夜晚的城市",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 18 篇",
+ "header": "分级阅读 C1-18",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 18 篇。原创短文。主要语法：cuando、mientras + 陈述式，dar por descontado，depender de que + 虚拟式（haya），obligar a + 原形，aquella que；8 句 140 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 se apaga 用于城市，译作“熄灭”；第 2 句 da por descontados 的分词和 servicios 配合，用复数；el resto 指其余的人，词头写 resto；第 5 句 Esa sensación 指第 4 句的 tranquilidad，译文补出“这种安心感”；第 7 句 pensar 作及物动词（pensar la ciudad），译作“构想”；obligar a 的 surface 只写 obliga（中间隔着 por tanto）；第 8 句 mantener despierto 的形容词和 la（城市）配合，写成 despierta。no_pause_commas：第 1、2、5 句都是名词性列举，不停顿（合并后的一段都在 100 字符以内）。审读后改：第 7 句译文“针对它的所有时段”改为“针对城市的所有时段”；第 8 句译文“让城市保持清醒的人”改为“让城市彻夜醒着的人”，mantener despierto 的释义由“使保持清醒”改为“使保持醒着，使不眠”。为凑足一分钟（原速实测比估算快），加了第 6 句：desierta 指街上没有行人；mal iluminada 整体标 loc.；tan real como un muro 是比喻，译作“和墙一样真实”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "1": [{"after": "ritmo,", "why": "名词列举（de ritmo, de habitantes y de reglas），不停顿"}],
+  "2": [{"after": "enfermeras,", "why": "名词列举（enfermeras, panaderos y conductores），不停顿"}],
+  "5": [{"after": "alumbrado,", "why": "介词短语列举（del alumbrado, del transporte nocturno y de que haya vida en la calle），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Cuando cae la noche, la ciudad no se apaga: cambia de ritmo, de habitantes y de reglas.", "zh": "夜幕降临时，城市并不会就此熄灭：它换了一种节奏、一批居民和一套规则。", "w": [
+    {"h": "caer la noche", "pos": "loc.", "zh": "夜幕降临", "surface": "cae la noche", "source": "supplement"},
+    {"h": "apagarse", "pos": "prnl.", "zh": "熄灭，沉寂", "surface": "se apaga", "source": "supplement"},
+    {"h": "cambiar de", "pos": "loc.", "zh": "改变，变换", "surface": "cambia de", "source": "supplement"},
+    {"h": "habitante", "pos": "m.", "zh": "居民", "surface": "habitantes", "source": "supplement"},
+    {"h": "regla", "pos": "f.", "zh": "规则", "surface": "reglas", "source": "supplement"}]},
+   {"es": "Mientras la mayoría duerme, enfermeras, panaderos y conductores sostienen servicios que el resto da por descontados.", "zh": "在大多数人熟睡之时，护士、面包师和司机维持着种种服务，其余的人则视之为理所当然。", "w": [
+    {"h": "mientras", "pos": "conj.", "zh": "当……时，在……期间", "surface": "Mientras", "source": "supplement"},
+    {"h": "panadero", "pos": "m.", "zh": "面包师", "surface": "panaderos", "source": "supplement"},
+    {"h": "sostener", "pos": "tr.", "zh": "维持，支撑", "surface": "sostienen", "source": "supplement"},
+    {"h": "resto", "pos": "m.", "zh": "其余的人", "surface": "resto", "source": "supplement"},
+    {"h": "dar por descontado", "pos": "loc.", "zh": "视为理所当然", "surface": "da por descontados", "source": "supplement"}]},
+   {"es": "Además, la oscuridad transforma la percepción del espacio: una calle familiar de día puede resultar inquietante a medianoche.", "zh": "此外，黑暗还会改变人们对空间的感知：一条白天熟悉的街道，到了午夜可能显得令人不安。", "w": [
+    {"h": "oscuridad", "pos": "f.", "zh": "黑暗", "surface": "oscuridad", "source": "supplement"},
+    {"h": "percepción", "pos": "f.", "zh": "感知，知觉", "surface": "percepción", "source": "supplement"},
+    {"h": "de día", "pos": "loc.", "zh": "在白天", "surface": "de día", "source": "supplement"},
+    {"h": "resultar", "pos": "intr.", "zh": "（+adj.）显得，是", "surface": "resultar", "source": "supplement"},
+    {"h": "inquietante", "pos": "adj.", "zh": "令人不安的", "surface": "inquietante", "source": "supplement"}]},
+   {"es": "Por eso, la noche urbana revela con especial nitidez las desigualdades: no todos la recorren con la misma tranquilidad.", "zh": "因此，城市之夜格外清晰地揭示出种种不平等：并非人人都能同样安心地穿行其间。", "w": [
+    {"h": "revelar", "pos": "tr.", "zh": "揭示，显露", "surface": "revela", "source": "supplement"},
+    {"h": "nitidez", "pos": "f.", "zh": "清晰，鲜明", "surface": "nitidez", "source": "supplement"},
+    {"h": "desigualdad", "pos": "f.", "zh": "不平等", "surface": "desigualdades", "source": "supplement"},
+    {"h": "recorrer", "pos": "tr.", "zh": "穿行，走遍", "surface": "recorren", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Esa sensación depende del alumbrado, del transporte nocturno y de que haya vida en la calle.", "zh": "这种安心感取决于街道照明、夜间交通，以及街头是否有人来往。", "w": [
+    {"h": "depender de", "pos": "loc.", "zh": "取决于", "surface": "depende", "source": "supplement"},
+    {"h": "alumbrado", "pos": "m.", "zh": "（街道）照明", "surface": "alumbrado", "source": "supplement"},
+    {"h": "nocturno", "pos": "adj.", "zh": "夜间的", "surface": "nocturno", "source": "supplement"}]},
+   {"es": "Una avenida desierta y mal iluminada puede convertirse en una barrera tan real como un muro.", "zh": "一条空无一人、照明不足的大街，可能变成一道和墙一样真实的屏障。", "w": [
+    {"h": "desierto", "pos": "adj.", "zh": "空无一人的", "surface": "desierta", "source": "supplement"},
+    {"h": "mal iluminado", "pos": "loc.", "zh": "照明不足的", "surface": "mal iluminada", "source": "supplement"},
+    {"h": "convertirse en", "pos": "loc.", "zh": "变成，成为", "surface": "convertirse en", "source": "supplement"},
+    {"h": "barrera", "pos": "f.", "zh": "障碍，屏障", "surface": "barrera", "source": "supplement"}]},
+   {"es": "Pensar la ciudad de noche obliga, por tanto, a planificarla para todos sus horarios, y no solo para el día.", "zh": "因此，要构想夜晚的城市，就必须针对城市的所有时段来规划，而不只着眼于白天。", "w": [
+    {"h": "pensar", "pos": "tr.", "zh": "构想，思考", "surface": "Pensar", "source": "supplement"},
+    {"h": "obligar a + inf.", "pos": "loc.", "zh": "迫使，必须", "surface": "obliga", "source": "supplement"},
+    {"h": "por tanto", "pos": "loc.", "zh": "因此", "surface": "por tanto", "source": "supplement"},
+    {"h": "planificar", "pos": "tr.", "zh": "规划", "surface": "planificarla", "source": "supplement"},
+    {"h": "horario", "pos": "m.", "zh": "时段，时间", "surface": "horarios", "source": "supplement"}]},
+   {"es": "Una ciudad verdaderamente habitable es aquella que cuida también a quienes la mantienen despierta mientras los demás descansan.", "zh": "真正宜居的城市，也会照顾那些在别人休息时让城市彻夜醒着的人。", "w": [
+    {"h": "habitable", "pos": "adj.", "zh": "宜居的", "surface": "habitable", "source": "supplement"},
+    {"h": "aquel que", "pos": "pron.", "zh": "那种……的（人或物）", "surface": "aquella que", "source": "supplement"},
+    {"h": "quien", "pos": "pron.", "zh": "（……的）人", "surface": "quienes", "source": "supplement"},
+    {"h": "mantener despierto", "pos": "loc.", "zh": "使保持醒着，使不眠", "surface": "mantienen despierta", "source": "supplement"},
+    {"h": "los demás", "pos": "pron.", "zh": "别人，其他人", "surface": "los demás", "source": "supplement"}]}
+  ]
+ ]
+}

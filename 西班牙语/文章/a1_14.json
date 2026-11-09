@@ -1,0 +1,96 @@
+{
+ "id": "a1_14",
+ "level": "A1",
+ "no": 14,
+ "title_es": "Mi cumpleaños",
+ "title_zh": "我的生日",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 14 篇",
+ "header": "分级阅读 A1-14",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 14 篇。原创短文。下周过生日，打算怎么过。陈述式现在时加 ir a + 原形（打算、将要），A1 词汇，12 句 126 词，分两段：准备聚会，聚会当天的安排。特别判断：第 1 句 la semana que viene 整体标 loc.，ir a + inf. 只在第一次出现（voy a）时标，后面的 voy a、va a、vamos a、van a 不再标；cumplir 释义“满（……岁）”；第 2 句 hacer 第一次出现，释义兼顾第 4 句做蛋糕的意思，写“做；举办（聚会）”；第 3 句 mis mejores amigos 译“我最好的朋友们”，mejores 词头写单数 mejor（bueno 的比较级，前面有物主词 mis，表示“最好的”）；primos 是阳性复数泛指，释义“堂（表）兄弟姐妹”；第 7 句用现在时 empieza 说已经定好的安排，de la tarde 用在钟点后，整体标 loc.；第 9 句 todos 作主语指“大家”，词头写 todo、标 pron.；第 12 句 contar los días 整体标 loc.，译作“数着日子盼”。第 6 句三样食物之间的逗号登记为不停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "6": [{"after": "bocadillos,", "why": "列举（bocadillos, zumos y palomitas），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "La semana que viene es mi cumpleaños y voy a cumplir once años.", "zh": "下周就是我的生日，我要满十一岁了。", "w": [
+    {"h": "la semana que viene", "pos": "loc.", "zh": "下周", "surface": "La semana que viene", "source": "supplement"},
+    {"h": "cumpleaños", "pos": "m.", "zh": "生日", "surface": "cumpleaños", "source": "supplement"},
+    {"h": "ir a + inf.", "pos": "loc.", "zh": "将要，打算", "surface": "voy a", "source": "supplement"},
+    {"h": "cumplir", "pos": "tr.", "zh": "满（……岁）", "surface": "cumplir", "source": "supplement"},
+    {"h": "once", "pos": "num.", "zh": "十一", "surface": "once", "source": "supplement"}]},
+   {"es": "Es un sábado y voy a hacer una pequeña fiesta en casa.", "zh": "那天是星期六，我要在家里办一个小聚会。", "w": [
+    {"h": "sábado", "pos": "m.", "zh": "星期六", "surface": "sábado", "source": "supplement"},
+    {"h": "hacer", "pos": "tr.", "zh": "做；举办（聚会）", "surface": "hacer", "source": "supplement"},
+    {"h": "pequeño", "pos": "adj.", "zh": "小的", "surface": "pequeña", "source": "supplement"},
+    {"h": "fiesta", "pos": "f.", "zh": "聚会，派对", "surface": "fiesta", "source": "supplement"},
+    {"h": "en casa", "pos": "loc.", "zh": "在家", "surface": "en casa", "source": "supplement"}]},
+   {"es": "Voy a invitar a mis primos y a mis mejores amigos.", "zh": "我要邀请我的表兄弟姐妹，还有我最好的朋友们。", "w": [
+    {"h": "invitar", "pos": "tr.", "zh": "邀请", "surface": "invitar", "source": "supplement"},
+    {"h": "primo", "pos": "m.", "zh": "堂（表）兄弟姐妹", "surface": "primos", "source": "supplement"},
+    {"h": "mejor", "pos": "adj.", "zh": "最好的", "surface": "mejores", "source": "supplement"},
+    {"h": "amigo", "pos": "m.", "zh": "朋友", "surface": "amigos", "source": "supplement"}]},
+   {"es": "Mi madre va a hacer una tarta de chocolate.", "zh": "妈妈要做一个巧克力蛋糕。", "w": [
+    {"h": "madre", "pos": "f.", "zh": "母亲，妈妈", "surface": "madre", "source": "supplement"},
+    {"h": "tarta", "pos": "f.", "zh": "蛋糕", "surface": "tarta", "source": "supplement"},
+    {"h": "chocolate", "pos": "m.", "zh": "巧克力", "surface": "chocolate", "source": "supplement"}]},
+   {"es": "Mi padre y yo vamos a decorar el salón con globos de colores.", "zh": "我和爸爸要用彩色气球布置客厅。", "w": [
+    {"h": "padre", "pos": "m.", "zh": "父亲，爸爸", "surface": "padre", "source": "supplement"},
+    {"h": "decorar", "pos": "tr.", "zh": "装饰，布置", "surface": "decorar", "source": "supplement"},
+    {"h": "salón", "pos": "m.", "zh": "客厅", "surface": "salón", "source": "supplement"},
+    {"h": "globo", "pos": "m.", "zh": "气球", "surface": "globos", "source": "supplement"},
+    {"h": "de colores", "pos": "loc.", "zh": "彩色的", "surface": "de colores", "source": "supplement"}]},
+   {"es": "También vamos a preparar bocadillos, zumos y palomitas.", "zh": "我们还要准备三明治、果汁和爆米花。", "w": [
+    {"h": "también", "pos": "adv.", "zh": "也，还", "surface": "También", "source": "supplement"},
+    {"h": "preparar", "pos": "tr.", "zh": "准备", "surface": "preparar", "source": "supplement"},
+    {"h": "bocadillo", "pos": "m.", "zh": "（长面包）三明治", "surface": "bocadillos", "source": "supplement"},
+    {"h": "zumo", "pos": "m.", "zh": "果汁", "surface": "zumos", "source": "supplement"},
+    {"h": "palomitas", "pos": "f.", "zh": "爆米花", "surface": "palomitas", "source": "supplement"}]}
+  ],
+  [
+   {"es": "La fiesta empieza a las cinco de la tarde.", "zh": "聚会下午五点开始。", "w": [
+    {"h": "empezar", "pos": "intr.", "zh": "开始", "surface": "empieza", "source": "supplement"},
+    {"h": "a las + 钟点", "pos": "loc.", "zh": "在……点钟", "surface": "a las", "source": "supplement"},
+    {"h": "cinco", "pos": "num.", "zh": "五", "surface": "cinco", "source": "supplement"},
+    {"h": "de la tarde", "pos": "loc.", "zh": "下午（用在钟点后）", "surface": "de la tarde", "source": "supplement"}]},
+   {"es": "Primero vamos a jugar y a bailar en el jardín.", "zh": "我们先在院子里做游戏、跳舞。", "w": [
+    {"h": "primero", "pos": "adv.", "zh": "首先，先", "surface": "Primero", "source": "supplement"},
+    {"h": "jugar", "pos": "intr.", "zh": "玩，做游戏", "surface": "jugar", "source": "supplement"},
+    {"h": "bailar", "pos": "intr.", "zh": "跳舞", "surface": "bailar", "source": "supplement"},
+    {"h": "jardín", "pos": "m.", "zh": "花园，院子", "surface": "jardín", "source": "supplement"}]},
+   {"es": "Después todos van a cantar y yo voy a soplar las velas.", "zh": "然后大家一起唱歌，我来吹蜡烛。", "w": [
+    {"h": "después", "pos": "adv.", "zh": "然后，之后", "surface": "Después", "source": "supplement"},
+    {"h": "todo", "pos": "pron.", "zh": "全部；（复数）大家", "surface": "todos", "source": "supplement"},
+    {"h": "cantar", "pos": "intr.", "zh": "唱歌", "surface": "cantar", "source": "supplement"},
+    {"h": "soplar", "pos": "tr.", "zh": "吹", "surface": "soplar", "source": "supplement"},
+    {"h": "vela", "pos": "f.", "zh": "蜡烛", "surface": "velas", "source": "supplement"}]},
+   {"es": "Mis abuelos viven lejos, pero me van a llamar por la mañana.", "zh": "我的爷爷奶奶住得很远，不过他们上午会给我打电话。", "w": [
+    {"h": "abuelo", "pos": "m.", "zh": "祖父；（复数）祖父母", "surface": "abuelos", "source": "supplement"},
+    {"h": "vivir", "pos": "intr.", "zh": "住，生活", "surface": "viven", "source": "supplement"},
+    {"h": "lejos", "pos": "adv.", "zh": "远", "surface": "lejos", "source": "supplement"},
+    {"h": "pero", "pos": "conj.", "zh": "但是", "surface": "pero", "source": "supplement"},
+    {"h": "llamar", "pos": "tr.", "zh": "给……打电话", "surface": "llamar", "source": "supplement"}]},
+   {"es": "Creo que va a ser un día muy especial.", "zh": "我觉得那会是很特别的一天。", "w": [
+    {"h": "creer", "pos": "tr.", "zh": "认为，觉得", "surface": "Creo", "source": "supplement"},
+    {"h": "día", "pos": "m.", "zh": "天，日子", "surface": "día", "source": "supplement"},
+    {"h": "muy", "pos": "adv.", "zh": "很，非常", "surface": "muy", "source": "supplement"},
+    {"h": "especial", "pos": "adj.", "zh": "特别的", "surface": "especial", "source": "supplement"}]},
+   {"es": "¡Estoy muy contenta y ya cuento los días!", "zh": "我特别开心，已经在数着日子盼那一天了！", "w": [
+    {"h": "estar", "pos": "intr.", "zh": "（表示状态）是", "surface": "Estoy", "source": "supplement"},
+    {"h": "contento", "pos": "adj.", "zh": "高兴的", "surface": "contenta", "source": "supplement"},
+    {"h": "ya", "pos": "adv.", "zh": "已经", "surface": "ya", "source": "supplement"},
+    {"h": "contar los días", "pos": "loc.", "zh": "数着日子（盼）", "surface": "cuento los días", "source": "supplement"}]}
+  ]
+ ]
+}

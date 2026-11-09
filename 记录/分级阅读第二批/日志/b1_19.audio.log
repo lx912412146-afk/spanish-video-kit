@@ -1,0 +1,56 @@
+/bin/sh: sox: command not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 1/15 1.0 秒音频，用时 31 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 2/15 4.2 秒音频，用时 23 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 3/15 1.3 秒音频，用时 9 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 4/15 5.1 秒音频，用时 20 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 5/15 4.6 秒音频，用时 18 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 6/15 3.7 秒音频，用时 16 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 7/15 2.8 秒音频，用时 13 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 8/15 4.2 秒音频，用时 17 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 9/15 4.6 秒音频，用时 18 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 10/15 5.1 秒音频，用时 20 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 11/15 1.0 秒音频，用时 8 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 12/15 1.4 秒音频，用时 9 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 13/15 3.8 秒音频，用时 15 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 14/15 2.5 秒音频，用时 12 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 15/15 2.0 秒音频，用时 11 秒
+qwen3tts.py: 加载 15.2 秒，合成 15 段 238.3 秒
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  合成缓存：2 段直接用缓存，15 段新合成
+  合成 17 段，用时 255 秒
+  慢速电平 1.0 秒 ±4 dB：短时波动 1.01 LU，短时响度波动（朗读范围内） 1.01 LU（上限 1.0），加强一档再试
+  合成缓存：17 段直接用缓存，0 段新合成
+  慢速电平 0.75 秒 ±6 dB：短时波动 0.98 LU，高于安全线 0.97，加强一档再试
+  合成缓存：17 段直接用缓存，0 段新合成
+  慢速电平 0.75 秒 ±8 dB：短时波动 0.98 LU，高于安全线 0.97，加强一档再试
+  合成缓存：17 段直接用缓存，0 段新合成
+  用慢速电平 0.5 秒 ±8 dB
+  响度：整体 -16.49 LUFS，句间最大偏差 0.25 LU，短时波动（朗读范围）0.96 LU（含首尾静音的原测法 1.04，只记录），峰值 -1.75 dBFS；电磁音：梳状线 +0.02 dB，全频段最强 15000 Hz +5.1 dB
+已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/b1_19_Amistades_a_distancia.mp3（60.2 秒），检查全部通过

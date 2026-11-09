@@ -1,0 +1,341 @@
+{
+ "id": "b1_20",
+ "level": "B1",
+ "no": 20,
+ "title_es": "Aprender a ahorrar",
+ "title_zh": "学会存钱",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 20 篇",
+ "header": "分级阅读 B1-20",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 20 篇。原创短文。主要语法：现在时、将来时（notaremos）、现在虚拟式（antes de que nos dé tiempo、aunque al principio cueste）；连接语 sin embargo、muchas veces、al final、también、no… sino。9 句，149 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 1 句 gastarlo 的 lo 指钱，第 5 句再出现时不再列；第 2 句 ahorrar 不带宾语，标 intr.；cumplir algunos sueños 中间隔着 algunos，只列 cumplir（实现）；第 3 句 se va 是 irse，指钱花掉；第 4 句 sumar 不带宾语，标 intr.，suman bastante 译作“加起来也不少”；como un café o un helado 是插入的举例，两边照常停顿；第 5 句 antes de que 必须接虚拟式，dé tiempo a 词头写 dar tiempo a；第 6 句 lo 指把工资的一部分存起来，ni siquiera 整体标 loc.；第 8 句 capricho 指一时兴起的小消费，译作“小小的享受”；第 9 句 aunque 后用虚拟式 cueste，表示还没发生的让步。本篇没有列举逗号，no_pause_commas 为空。第 6 句是为凑足时长新加的。审读后改：去掉 A1 词 regalo（第 9 句）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Cuando empezamos a ganar nuestro propio dinero, es fácil gastarlo todo sin pensar en el futuro.",
+    "zh": "当我们开始自己挣钱的时候，很容易不考虑将来，把钱全部花光。",
+    "w": [
+     {
+      "h": "empezar a + inf.",
+      "pos": "loc.",
+      "zh": "开始做……",
+      "surface": "empezamos a",
+      "source": "supplement"
+     },
+     {
+      "h": "ganar",
+      "pos": "tr.",
+      "zh": "挣（钱）",
+      "surface": "ganar",
+      "source": "supplement"
+     },
+     {
+      "h": "propio",
+      "pos": "adj.",
+      "zh": "自己的",
+      "surface": "propio",
+      "source": "supplement"
+     },
+     {
+      "h": "gastar",
+      "pos": "tr.",
+      "zh": "花（钱）",
+      "surface": "gastarlo",
+      "source": "supplement"
+     },
+     {
+      "h": "pensar en",
+      "pos": "loc.",
+      "zh": "想，考虑",
+      "surface": "pensar en",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, aprender a ahorrar desde joven nos da tranquilidad y nos permite cumplir algunos sueños.",
+    "zh": "然而，从年轻时就学会存钱，能让我们安心，也能让我们实现一些梦想。",
+    "w": [
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "Sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "ahorrar",
+      "pos": "intr.",
+      "zh": "存钱，储蓄",
+      "surface": "ahorrar",
+      "source": "supplement"
+     },
+     {
+      "h": "desde joven",
+      "pos": "loc.",
+      "zh": "从年轻时起",
+      "surface": "desde joven",
+      "source": "supplement"
+     },
+     {
+      "h": "tranquilidad",
+      "pos": "f.",
+      "zh": "安心，踏实",
+      "surface": "tranquilidad",
+      "source": "supplement"
+     },
+     {
+      "h": "cumplir",
+      "pos": "tr.",
+      "zh": "实现（梦想等）",
+      "surface": "cumplir",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "El primer paso es anotar los gastos durante un mes para saber en qué se va el dinero.",
+    "zh": "第一步是把一个月的开销都记下来，弄清楚钱都花到哪里去了。",
+    "w": [
+     {
+      "h": "paso",
+      "pos": "m.",
+      "zh": "步骤，一步",
+      "surface": "paso",
+      "source": "supplement"
+     },
+     {
+      "h": "anotar",
+      "pos": "tr.",
+      "zh": "记下，记录",
+      "surface": "anotar",
+      "source": "supplement"
+     },
+     {
+      "h": "gasto",
+      "pos": "m.",
+      "zh": "开销，花费",
+      "surface": "gastos",
+      "source": "supplement"
+     },
+     {
+      "h": "irse",
+      "pos": "prnl.",
+      "zh": "（钱）花掉，用掉",
+      "surface": "se va",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Muchas veces descubrimos que pequeñas compras, como un café o un helado, suman bastante al final.",
+    "zh": "我们常常会发现，一些小额消费，比如一杯咖啡、一个冰淇淋，到最后加起来也不少。",
+    "w": [
+     {
+      "h": "muchas veces",
+      "pos": "loc.",
+      "zh": "常常，很多时候",
+      "surface": "Muchas veces",
+      "source": "supplement"
+     },
+     {
+      "h": "compra",
+      "pos": "f.",
+      "zh": "购买；消费",
+      "surface": "compras",
+      "source": "supplement"
+     },
+     {
+      "h": "sumar",
+      "pos": "intr.",
+      "zh": "合计，加起来",
+      "surface": "suman",
+      "source": "supplement"
+     },
+     {
+      "h": "bastante",
+      "pos": "adv.",
+      "zh": "相当多，不少",
+      "surface": "bastante",
+      "source": "supplement"
+     },
+     {
+      "h": "al final",
+      "pos": "loc.",
+      "zh": "最后，到头来",
+      "surface": "al final",
+      "source": "supplement"
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Una buena idea es apartar una parte del sueldo antes de que nos dé tiempo a gastarlo.",
+    "zh": "一个好办法是，在我们还没来得及把工资花掉之前，先拿出一部分存起来。",
+    "w": [
+     {
+      "h": "apartar",
+      "pos": "tr.",
+      "zh": "留出，拨出",
+      "surface": "apartar",
+      "source": "supplement"
+     },
+     {
+      "h": "sueldo",
+      "pos": "m.",
+      "zh": "工资",
+      "surface": "sueldo",
+      "source": "supplement"
+     },
+     {
+      "h": "antes de que",
+      "pos": "loc.",
+      "zh": "在……之前（接虚拟式）",
+      "surface": "antes de que",
+      "source": "supplement"
+     },
+     {
+      "h": "dar tiempo a",
+      "pos": "loc.",
+      "zh": "来得及（做……）",
+      "surface": "dé tiempo a",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Si lo hacemos de forma automática, ni siquiera notaremos la falta de ese dinero.",
+    "zh": "如果让这件事自动进行，我们甚至不会察觉少了这笔钱。",
+    "w": [
+     {
+      "h": "de forma automática",
+      "pos": "loc.",
+      "zh": "自动地",
+      "surface": "de forma automática",
+      "source": "supplement"
+     },
+     {
+      "h": "ni siquiera",
+      "pos": "loc.",
+      "zh": "甚至都不，连……也不",
+      "surface": "ni siquiera",
+      "source": "supplement"
+     },
+     {
+      "h": "notar",
+      "pos": "tr.",
+      "zh": "察觉，注意到",
+      "surface": "notaremos",
+      "source": "supplement"
+     },
+     {
+      "h": "falta",
+      "pos": "f.",
+      "zh": "缺少，短缺",
+      "surface": "falta",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También conviene tener un objetivo concreto, porque así resulta más fácil resistir la tentación de comprar.",
+    "zh": "另外，最好有一个具体的目标，这样会更容易抵挡住购物的诱惑。",
+    "w": [
+     {
+      "h": "convenir + inf.",
+      "pos": "loc.",
+      "zh": "最好……，宜……",
+      "surface": "conviene",
+      "source": "supplement"
+     },
+     {
+      "h": "resultar",
+      "pos": "intr.",
+      "zh": "显得，变得",
+      "surface": "resulta",
+      "source": "supplement"
+     },
+     {
+      "h": "resistir la tentación",
+      "pos": "loc.",
+      "zh": "抵挡诱惑",
+      "surface": "resistir la tentación",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No se trata de vivir sin caprichos, sino de distinguir entre lo que necesitamos y lo que solo queremos.",
+    "zh": "这并不是要我们放弃一切小小的享受，而是要分清什么是需要的，什么只是想要的。",
+    "w": [
+     {
+      "h": "tratarse de",
+      "pos": "loc.",
+      "zh": "在于，关键是",
+      "surface": "se trata de",
+      "source": "supplement"
+     },
+     {
+      "h": "capricho",
+      "pos": "m.",
+      "zh": "一时兴起的小享受",
+      "surface": "caprichos",
+      "source": "supplement"
+     },
+     {
+      "h": "sino",
+      "pos": "conj.",
+      "zh": "而是",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "distinguir entre",
+      "pos": "loc.",
+      "zh": "区分，分清",
+      "surface": "distinguir entre",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Aunque al principio cueste, el hábito de ahorrar es uno de los mejores regalos que podemos hacernos.",
+    "zh": "尽管一开始可能不容易，但存钱的习惯是我们能送给自己的最好的礼物之一。",
+    "w": [
+     {
+      "h": "aunque",
+      "pos": "conj.",
+      "zh": "尽管（接虚拟式）",
+      "surface": "Aunque",
+      "source": "supplement"
+     },
+     {
+      "h": "al principio",
+      "pos": "loc.",
+      "zh": "起初，一开始",
+      "surface": "al principio",
+      "source": "supplement"
+     },
+     {
+      "h": "costar",
+      "pos": "intr.",
+      "zh": "费劲，不容易",
+      "surface": "cueste",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

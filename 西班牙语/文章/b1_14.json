@@ -1,0 +1,72 @@
+{
+ "id": "b1_14",
+ "level": "B1",
+ "no": 14,
+ "title_es": "Aprender a tocar un instrumento",
+ "title_zh": "学一门乐器",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 14 篇",
+ "header": "分级阅读 B1-14",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 14 篇。原创短文。主要语法：简单过去时（empezó、estuvo a punto de）、过去未完成时（dolían、parecía、sentía、avanzaba）、现在完成时（ha descubierto、ha dado）、现在虚拟式（le recomienda que toque… y que no se compare）；连接语 sin embargo、además、aun así、como（表示原因）、porque。9 句，143 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：tocar（演奏乐器）在第 1 句列出，后面的 tocar、toque、toca 不再列；第 4 句 como 在句首表示原因，标 conj.，译作“由于”；第 5 句 estar a punto de 整体标 loc.，dejarlo 的 lo 指学吉他；avanzar（动词）和第 8 句 avance（名词）词头不同，分别列出；第 6 句 hacerlo 的 lo 指 practicar；第 8 句 los viernes por la noche 整体标 loc.；第 9 句 desconectar del trabajo 的 del 是 de + el，词头写 desconectar de；paciencia 是同源词，不列。no_pause_commas：第 9 句 paciencia, nuevas amistades y una manera de… 是名词列举，逗号不停顿（合并后一段不到 100 字符）。第 5 句是为凑足时长新加的。审读后改：第 9 句译文改为“音乐给他带来了耐心、新朋友……”，amistad 释义加“（复）朋友”；去掉 A1 词 solo、media hora（第 4 句）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "9": [{"after": "paciencia,", "why": "名词列举（paciencia, nuevas amistades y una manera de desconectar…），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Muchos adultos piensan que ya es demasiado tarde para aprender a tocar un instrumento.", "zh": "很多成年人认为，学乐器对自己来说已经太晚了。", "w": [
+    {"h": "ya", "pos": "adv.", "zh": "已经", "surface": "ya", "source": "supplement"},
+    {"h": "demasiado", "pos": "adv.", "zh": "太，过于", "surface": "demasiado", "source": "supplement"},
+    {"h": "aprender a + inf.", "pos": "loc.", "zh": "学习做……", "surface": "aprender a", "source": "supplement"},
+    {"h": "tocar", "pos": "tr.", "zh": "演奏（乐器）", "surface": "tocar", "source": "supplement"}]},
+   {"es": "Javier, sin embargo, empezó a estudiar guitarra a los cuarenta años y hoy no se arrepiente.", "zh": "然而，哈维尔四十岁才开始学吉他，如今他并不后悔。", "w": [
+    {"h": "sin embargo", "pos": "loc.", "zh": "然而，不过", "surface": "sin embargo", "source": "supplement"},
+    {"h": "empezar a + inf.", "pos": "loc.", "zh": "开始做……", "surface": "empezó a", "source": "supplement"},
+    {"h": "a los … años", "pos": "loc.", "zh": "在……岁的时候", "surface": "a los cuarenta años", "source": "supplement"},
+    {"h": "arrepentirse", "pos": "prnl.", "zh": "后悔", "surface": "se arrepiente", "source": "supplement"}]},
+   {"es": "Al principio le dolían los dedos y le parecía imposible tocar una canción completa.", "zh": "起初，他的手指很疼，觉得要完整地弹完一首歌是不可能的。", "w": [
+    {"h": "al principio", "pos": "loc.", "zh": "起初，一开始", "surface": "Al principio", "source": "supplement"},
+    {"h": "doler", "pos": "intr.", "zh": "疼，痛", "surface": "dolían", "source": "supplement"},
+    {"h": "dedo", "pos": "m.", "zh": "手指", "surface": "dedos", "source": "supplement"},
+    {"h": "parecer", "pos": "intr.", "zh": "觉得，似乎", "surface": "parecía", "source": "supplement"}]},
+   {"es": "Además, como trabaja y tiene dos hijos, solo puede practicar media hora al día.", "zh": "而且，由于他要上班，还有两个孩子，每天只能练半个小时。", "w": [
+    {"h": "además", "pos": "adv.", "zh": "此外，而且", "surface": "Además", "source": "supplement"},
+    {"h": "como", "pos": "conj.", "zh": "由于，因为", "surface": "como", "source": "supplement"},
+    {"h": "al día", "pos": "loc.", "zh": "每天", "surface": "al día", "source": "supplement"}]},
+   {"es": "Más de una vez estuvo a punto de dejarlo, porque sentía que no avanzaba nada.", "zh": "他不止一次差点放弃，因为觉得自己一点进步也没有。", "w": [
+    {"h": "más de una vez", "pos": "loc.", "zh": "不止一次", "surface": "Más de una vez", "source": "supplement"},
+    {"h": "estar a punto de", "pos": "loc.", "zh": "差点，眼看就要", "surface": "estuvo a punto de", "source": "supplement"},
+    {"h": "dejar", "pos": "tr.", "zh": "放弃（lo 指学吉他）", "surface": "dejarlo", "source": "supplement"},
+    {"h": "sentir", "pos": "tr.", "zh": "觉得，感到", "surface": "sentía", "source": "supplement"},
+    {"h": "avanzar", "pos": "intr.", "zh": "进步，有进展", "surface": "avanzaba", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Aun así, ha descubierto que practicar un poco cada día es más útil que hacerlo muchas horas el fin de semana.", "zh": "尽管如此，他发现每天练一点，比周末一口气练好几个小时更有用。", "w": [
+    {"h": "aun así", "pos": "loc.", "zh": "尽管如此", "surface": "Aun así", "source": "supplement"},
+    {"h": "descubrir", "pos": "tr.", "zh": "发现", "surface": "descubierto", "source": "supplement"},
+    {"h": "fin de semana", "pos": "m.", "zh": "周末", "surface": "fin de semana", "source": "supplement"}]},
+   {"es": "Su profesora le recomienda que toque despacio y que no se compare con los músicos profesionales.", "zh": "他的老师建议他弹得慢一些，也不要拿自己和职业乐手比较。", "w": [
+    {"h": "recomendar que", "pos": "loc.", "zh": "建议……（接虚拟式）", "surface": "recomienda que", "source": "supplement"},
+    {"h": "despacio", "pos": "adv.", "zh": "慢慢地", "surface": "despacio", "source": "supplement"},
+    {"h": "compararse con", "pos": "loc.", "zh": "和……比较", "surface": "se compare con", "source": "supplement"}]},
+   {"es": "Ahora toca con unos amigos los viernes por la noche y disfruta de cada pequeño avance.", "zh": "现在，他每周五晚上都和几个朋友一起演奏，享受每一点小小的进步。", "w": [
+    {"h": "los viernes por la noche", "pos": "loc.", "zh": "每周五晚上", "surface": "los viernes por la noche", "source": "supplement"},
+    {"h": "disfrutar de", "pos": "loc.", "zh": "享受", "surface": "disfruta de", "source": "supplement"},
+    {"h": "avance", "pos": "m.", "zh": "进步", "surface": "avance", "source": "supplement"}]},
+   {"es": "Según él, la música le ha dado paciencia, nuevas amistades y una manera de desconectar del trabajo.", "zh": "他说，音乐给他带来了耐心、新朋友，还有一种暂时放下工作的方式。", "w": [
+    {"h": "según", "pos": "prep.", "zh": "据……说", "surface": "Según", "source": "supplement"},
+    {"h": "amistad", "pos": "f.", "zh": "友谊；（复）朋友", "surface": "amistades", "source": "supplement"},
+    {"h": "manera", "pos": "f.", "zh": "方式，方法", "surface": "manera", "source": "supplement"},
+    {"h": "desconectar de", "pos": "loc.", "zh": "暂时放下，抽离", "surface": "desconectar del", "source": "supplement"}]}
+  ]
+ ]
+}

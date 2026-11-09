@@ -1,0 +1,327 @@
+{
+ "id": "b1_19",
+ "level": "B1",
+ "no": 19,
+ "title_es": "Amistades a distancia",
+ "title_zh": "异地的友谊",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 19 篇",
+ "header": "分级阅读 B1-19",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 19 篇。原创短文。第一人称叙述，叙述者是女性（cada una、juntas）。主要语法：简单过去时（se mudó、empezó、se hicieron、hubo、decidimos）、过去未完成时（nos escribíamos、hablábamos、íbamos a）、现在完成时（hemos aprendido、ha cambiado）、现在虚拟式（para que… siga viva）；连接语 al principio、con el tiempo、sin embargo、entonces、mientras、así。9 句，145 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 1 句 hace dos años 的 hace 标 loc.（hace + 时间，……以前）；mi mejor amiga Clara 不加逗号，免得朗读时在名字前后各停一次；第 3 句 se hicieron más cortos 的 hacerse 是“变得”；cada una 词头写 cada uno；第 4 句 hubo un momento en que 整体标 loc.，pensé 译作“以为”；第 5 句 nos mandamos 是相互意义，词头写 mandarse；第 6 句 nos contamos 也是相互意义，词头写 contarse；第 7 句 siga viva 词头写 seguir vivo，译作“长存”；第 8 句 juntas 词头写 junto；第 9 句 hacerla 的 la 指友谊。本篇没有列举逗号，no_pause_commas 为空。第 6 句是为凑足时长新加的。审读后改：第 8 句 juntas 的词头由 juntos 改为 junto；去掉 A1 词 todos los días、fin de semana（第 2 句）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Hace dos años, mi mejor amiga Clara se mudó a otro país para trabajar en un hospital.",
+    "zh": "两年前，我最好的朋友克拉拉搬到了另一个国家，去一家医院工作。",
+    "w": [
+     {
+      "h": "hace + tiempo",
+      "pos": "loc.",
+      "zh": "（一段时间）以前",
+      "surface": "Hace",
+      "source": "supplement"
+     },
+     {
+      "h": "mejor",
+      "pos": "adj.",
+      "zh": "最好的",
+      "surface": "mejor",
+      "source": "supplement"
+     },
+     {
+      "h": "mudarse",
+      "pos": "prnl.",
+      "zh": "搬家，迁居",
+      "surface": "se mudó",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Al principio, nos escribíamos todos los días y hablábamos por videollamada cada fin de semana.",
+    "zh": "起初，我们每天都互相发消息，每个周末都视频聊天。",
+    "w": [
+     {
+      "h": "al principio",
+      "pos": "loc.",
+      "zh": "起初，一开始",
+      "surface": "Al principio",
+      "source": "supplement"
+     },
+     {
+      "h": "escribirse",
+      "pos": "prnl.",
+      "zh": "互相写信，互发消息",
+      "surface": "nos escribíamos",
+      "source": "supplement"
+     },
+     {
+      "h": "videollamada",
+      "pos": "f.",
+      "zh": "视频通话",
+      "surface": "videollamada",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Con el tiempo, sin embargo, cada una empezó a tener su propia rutina y los mensajes se hicieron más cortos.",
+    "zh": "然而，随着时间推移，我们各自有了自己的生活节奏，消息也变短了。",
+    "w": [
+     {
+      "h": "con el tiempo",
+      "pos": "loc.",
+      "zh": "随着时间推移",
+      "surface": "Con el tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "sin embargo",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "sin embargo",
+      "source": "supplement"
+     },
+     {
+      "h": "cada uno",
+      "pos": "pron.",
+      "zh": "每个人，各自",
+      "surface": "cada una",
+      "source": "supplement"
+     },
+     {
+      "h": "propio",
+      "pos": "adj.",
+      "zh": "自己的",
+      "surface": "propia",
+      "source": "supplement"
+     },
+     {
+      "h": "hacerse",
+      "pos": "prnl.",
+      "zh": "变得",
+      "surface": "se hicieron",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Hubo un momento en que pensé que íbamos a perder el contacto para siempre.",
+    "zh": "有一阵子，我以为我们会永远失去联系。",
+    "w": [
+     {
+      "h": "haber un momento en que",
+      "pos": "loc.",
+      "zh": "有一阵子，有段时间",
+      "surface": "Hubo un momento en que",
+      "source": "supplement"
+     },
+     {
+      "h": "pensar",
+      "pos": "tr.",
+      "zh": "以为，认为",
+      "surface": "pensé",
+      "source": "supplement"
+     },
+     {
+      "h": "perder el contacto",
+      "pos": "loc.",
+      "zh": "失去联系",
+      "surface": "perder el contacto",
+      "source": "supplement"
+     },
+     {
+      "h": "para siempre",
+      "pos": "loc.",
+      "zh": "永远",
+      "surface": "para siempre",
+      "source": "supplement"
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Entonces decidimos cambiar de estrategia: ahora nos mandamos mensajes de voz mientras cocinamos o vamos al trabajo.",
+    "zh": "于是，我们决定换个方式：现在我们会在做饭或上班路上给对方发语音消息。",
+    "w": [
+     {
+      "h": "entonces",
+      "pos": "adv.",
+      "zh": "于是，那时",
+      "surface": "Entonces",
+      "source": "supplement"
+     },
+     {
+      "h": "cambiar de",
+      "pos": "loc.",
+      "zh": "改变，换",
+      "surface": "cambiar de",
+      "source": "supplement"
+     },
+     {
+      "h": "mandarse",
+      "pos": "prnl.",
+      "zh": "互相发送",
+      "surface": "nos mandamos",
+      "source": "supplement"
+     },
+     {
+      "h": "mensaje de voz",
+      "pos": "m.",
+      "zh": "语音消息",
+      "surface": "mensajes de voz",
+      "source": "supplement"
+     },
+     {
+      "h": "mientras",
+      "pos": "conj.",
+      "zh": "在……的同时",
+      "surface": "mientras",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Así nos contamos pequeñas cosas del día sin necesidad de buscar un momento libre.",
+    "zh": "这样，我们不用特意找空闲时间，也能跟对方讲讲一天里的小事。",
+    "w": [
+     {
+      "h": "así",
+      "pos": "adv.",
+      "zh": "这样，如此",
+      "surface": "Así",
+      "source": "supplement"
+     },
+     {
+      "h": "contarse",
+      "pos": "prnl.",
+      "zh": "互相讲述",
+      "surface": "nos contamos",
+      "source": "supplement"
+     },
+     {
+      "h": "sin necesidad de",
+      "pos": "loc.",
+      "zh": "无须，不必",
+      "surface": "sin necesidad de",
+      "source": "supplement"
+     },
+     {
+      "h": "libre",
+      "pos": "adj.",
+      "zh": "空闲的",
+      "surface": "libre",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "También hemos aprendido que no hace falta hablar todos los días para que una amistad siga viva.",
+    "zh": "我们还明白了，要让友谊长存，并不需要每天都聊天。",
+    "w": [
+     {
+      "h": "hacer falta",
+      "pos": "loc.",
+      "zh": "需要，有必要",
+      "surface": "hace falta",
+      "source": "supplement"
+     },
+     {
+      "h": "para que",
+      "pos": "loc.",
+      "zh": "为了，以便（接虚拟式）",
+      "surface": "para que",
+      "source": "supplement"
+     },
+     {
+      "h": "amistad",
+      "pos": "f.",
+      "zh": "友谊",
+      "surface": "amistad",
+      "source": "supplement"
+     },
+     {
+      "h": "seguir vivo",
+      "pos": "loc.",
+      "zh": "保持活力，长存",
+      "surface": "siga viva",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Cada verano, cuando viene de vacaciones, pasamos unos días juntas y parece que nada ha cambiado.",
+    "zh": "每年夏天她回来度假时，我们都会一起待上几天，感觉一切都没有改变。",
+    "w": [
+     {
+      "h": "de vacaciones",
+      "pos": "loc.",
+      "zh": "度假",
+      "surface": "de vacaciones",
+      "source": "supplement"
+     },
+     {
+      "h": "pasar",
+      "pos": "tr.",
+      "zh": "度过（时间）",
+      "surface": "pasamos",
+      "source": "supplement"
+     },
+     {
+      "h": "junto",
+      "pos": "adj.",
+      "zh": "一起的，在一起的",
+      "surface": "juntas",
+      "source": "supplement"
+     },
+     {
+      "h": "parecer que",
+      "pos": "loc.",
+      "zh": "好像，仿佛",
+      "surface": "parece que",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Creo que la distancia pone a prueba una amistad, pero también puede hacerla más fuerte.",
+    "zh": "我认为，距离是对友谊的考验，但它也能让友谊变得更加牢固。",
+    "w": [
+     {
+      "h": "poner a prueba",
+      "pos": "loc.",
+      "zh": "考验",
+      "surface": "pone a prueba",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer",
+      "pos": "tr.",
+      "zh": "使……变得（la 指友谊）",
+      "surface": "hacerla",
+      "source": "supplement"
+     },
+     {
+      "h": "fuerte",
+      "pos": "adj.",
+      "zh": "牢固的，坚固的",
+      "surface": "fuerte",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

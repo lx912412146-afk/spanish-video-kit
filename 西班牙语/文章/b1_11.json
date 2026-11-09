@@ -1,0 +1,74 @@
+{
+ "id": "b1_11",
+ "level": "B1",
+ "no": 11,
+ "title_es": "El voluntariado",
+ "title_zh": "志愿服务",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 11 篇",
+ "header": "分级阅读 B1-11",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 11 篇。原创短文。主要语法：现在时、现在完成时（le ha enseñado）、将来时（ayudarán）、现在虚拟式（es importante que sea constante y que elija…, una causa que le interese）；连接语 aunque、mientras que、por ejemplo、además、así。9 句，149 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 3 句 cobrar 不带宾语，表示“领报酬”，标 intr.；voluntario 是一眼就懂的同源词，不列，主题词 voluntariado 在第 6 句列出；第 4 句 comedor social 指为困难人群免费供餐的地方，译作“爱心食堂”；第 6 句 salir de la rutina 整体标 loc.，译作“摆脱一成不变的日常生活”；第 7 句 así 指通过做志愿服务，译作“由此”；第 8 句 interesar 按 gustar 类用法（le interese）标 intr.；causa 这里指公益事业，不是“原因”；第 9 句 la propia 省略了 vida，译作“自己的生活”。本篇没有列举逗号，no_pause_commas 为空。第 7 句是为凑足时长新加的。审读后改：第 8 句（原第 7 句）把 que sea constante 提到 que elija… 前面，免得被理解成修饰 causa，译文和生词顺序随之调整；第 5 句去掉同源词 paciente。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Cada vez más personas dedican parte de su tiempo libre a ayudar a otros sin recibir nada a cambio.", "zh": "越来越多的人把一部分空闲时间用来帮助别人，不求任何回报。", "w": [
+    {"h": "cada vez más", "pos": "loc.", "zh": "越来越多（的）", "surface": "Cada vez más", "source": "supplement"},
+    {"h": "dedicar", "pos": "tr.", "zh": "把（时间）用于", "surface": "dedican", "source": "supplement"},
+    {"h": "tiempo libre", "pos": "m.", "zh": "空闲时间，业余时间", "surface": "tiempo libre", "source": "supplement"},
+    {"h": "a cambio", "pos": "loc.", "zh": "作为回报", "surface": "a cambio", "source": "supplement"}]},
+   {"es": "Algunos acompañan a personas mayores que viven solas, mientras que otros limpian playas o dan clases a niños.", "zh": "有些人陪伴独自生活的老人，而另一些人清理海滩，或者给孩子们上课。", "w": [
+    {"h": "acompañar", "pos": "tr.", "zh": "陪伴", "surface": "acompañan", "source": "supplement"},
+    {"h": "persona mayor", "pos": "f.", "zh": "老年人", "surface": "personas mayores", "source": "supplement"},
+    {"h": "solo", "pos": "adj.", "zh": "独自的，单独的", "surface": "solas", "source": "supplement"},
+    {"h": "mientras que", "pos": "loc.", "zh": "而（表示对比）", "surface": "mientras que", "source": "supplement"},
+    {"h": "dar clases", "pos": "loc.", "zh": "上课，授课", "surface": "dan clases", "source": "supplement"}]},
+   {"es": "Aunque no cobran, los voluntarios suelen decir que reciben mucho más de lo que dan.", "zh": "虽然没有报酬，志愿者们却常说，自己得到的远比付出的多。", "w": [
+    {"h": "aunque", "pos": "conj.", "zh": "虽然，尽管", "surface": "Aunque", "source": "supplement"},
+    {"h": "cobrar", "pos": "intr.", "zh": "领报酬，拿工资", "surface": "cobran", "source": "supplement"},
+    {"h": "soler + inf.", "pos": "loc.", "zh": "通常，常常", "surface": "suelen", "source": "supplement"},
+    {"h": "más de lo que", "pos": "loc.", "zh": "比……更多", "surface": "más de lo que", "source": "supplement"}]},
+   {"es": "Marta, por ejemplo, pasa los sábados en un comedor social, donde sirve comidas y habla con la gente.", "zh": "比如玛尔塔，她每个星期六都在一家爱心食堂度过，在那里为人们端饭，陪大家聊天。", "w": [
+    {"h": "por ejemplo", "pos": "loc.", "zh": "例如，比如", "surface": "por ejemplo", "source": "supplement"},
+    {"h": "pasar", "pos": "tr.", "zh": "度过（时间）", "surface": "pasa", "source": "supplement"},
+    {"h": "comedor social", "pos": "m.", "zh": "爱心食堂，慈善食堂", "surface": "comedor social", "source": "supplement"},
+    {"h": "servir", "pos": "tr.", "zh": "端上，供应（饭菜）", "surface": "sirve", "source": "supplement"}]},
+   {"es": "Según ella, esta experiencia le ha enseñado a ser paciente y a escuchar sin juzgar.", "zh": "她说，这段经历教会了她耐心待人，倾听别人而不妄加评判。", "w": [
+    {"h": "según", "pos": "prep.", "zh": "据……说", "surface": "Según", "source": "supplement"},
+    {"h": "enseñar a + inf.", "pos": "loc.", "zh": "教会（某人）做……", "surface": "enseñado a", "source": "supplement"},
+    {"h": "juzgar", "pos": "tr.", "zh": "评判，评断（别人）", "surface": "juzgar", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Además, el voluntariado permite conocer a personas muy distintas y salir de la rutina diaria.", "zh": "此外，志愿服务让人有机会结识形形色色的人，摆脱一成不变的日常生活。", "w": [
+    {"h": "además", "pos": "adv.", "zh": "此外，而且", "surface": "Además", "source": "supplement"},
+    {"h": "voluntariado", "pos": "m.", "zh": "志愿服务", "surface": "voluntariado", "source": "supplement"},
+    {"h": "permitir", "pos": "tr.", "zh": "使能够，让", "surface": "permite", "source": "supplement"},
+    {"h": "distinto", "pos": "adj.", "zh": "不同的", "surface": "distintas", "source": "supplement"},
+    {"h": "salir de la rutina", "pos": "loc.", "zh": "摆脱单调的日常", "surface": "salir de la rutina", "source": "supplement"}]},
+   {"es": "Muchos jóvenes descubren así sus intereses y desarrollan habilidades que les ayudarán en el futuro.", "zh": "许多年轻人由此发现了自己的兴趣，并培养出对将来有帮助的能力。", "w": [
+    {"h": "descubrir", "pos": "tr.", "zh": "发现", "surface": "descubren", "source": "supplement"},
+    {"h": "así", "pos": "adv.", "zh": "由此，这样", "surface": "así", "source": "supplement"},
+    {"h": "desarrollar", "pos": "tr.", "zh": "培养，发展", "surface": "desarrollan", "source": "supplement"},
+    {"h": "habilidad", "pos": "f.", "zh": "能力，技能", "surface": "habilidades", "source": "supplement"}]},
+   {"es": "Si alguien quiere empezar, es importante que sea constante y que elija una causa que le interese.", "zh": "如果有人想开始做志愿者，重要的是要持之以恒，并选择一项自己感兴趣的公益事业。", "w": [
+    {"h": "es importante que", "pos": "loc.", "zh": "重要的是……（接虚拟式）", "surface": "es importante que", "source": "supplement"},
+    {"h": "constante", "pos": "adj.", "zh": "持之以恒的", "surface": "constante", "source": "supplement"},
+    {"h": "elegir", "pos": "tr.", "zh": "选择", "surface": "elija", "source": "supplement"},
+    {"h": "causa", "pos": "f.", "zh": "（公益）事业", "surface": "causa", "source": "supplement"},
+    {"h": "interesar", "pos": "intr.", "zh": "使感兴趣", "surface": "interese", "source": "supplement"}]},
+   {"es": "Unas pocas horas a la semana pueden cambiar la vida de otra persona y también la propia.", "zh": "每周短短几个小时，就能改变另一个人的生活，也能改变自己的生活。", "w": [
+    {"h": "unos pocos", "pos": "loc.", "zh": "几个，少量的", "surface": "Unas pocas", "source": "supplement"},
+    {"h": "a la semana", "pos": "loc.", "zh": "每周", "surface": "a la semana", "source": "supplement"},
+    {"h": "propio", "pos": "adj.", "zh": "自己的", "surface": "propia", "source": "supplement"}]}
+  ]
+ ]
+}

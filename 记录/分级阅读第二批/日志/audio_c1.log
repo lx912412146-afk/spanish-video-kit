@@ -1,0 +1,32 @@
+== 02:49:30 c1_11 qwen3_M1F5_25
+c1_11 OK
+02:53:13 c1_11 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_11_Traducir_es_interpretar.mp3（55.5 秒），检查全部通过
+== 02:53:13 c1_12 qwen3_M1F5_25
+c1_12 OK
+02:56:30 c1_12 音频失败：  响度：整体 -16.48 LUFS，句间最大偏差 0.34 LU，短时波动（朗读范围）1.01 LU（含首尾静音的原测法 1.14，只记录），峰值 -1.85 dBFS；电磁音：梳状线 -0.30 dB，全频段最强 15000 Hz +6.0 dB
+c1_12 qwen3_M1F5_25 检查未通过，未输出文件：短时响度波动（朗读范围内） 1.01 LU（上限 1.0）
+== 02:56:30 c1_13 qwen3_M1F5_25
+c1_13 OK
+02:59:54 c1_13 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_13_La_nostalgia_como_mercancia.mp3（52.0 秒），检查全部通过
+== 02:59:54 c1_14 qwen3_M1F5_25
+c1_14 OK
+03:03:58 c1_14 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_14_El_anonimato_en_la_red.mp3（57.7 秒），检查全部通过
+== 03:03:58 c1_15 qwen3_M1F5_25
+c1_15 OK
+03:07:48 c1_15 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_15_Los_algoritmos_y_el_gusto.mp3（55.4 秒），检查全部通过
+== 03:07:48 c1_16 qwen3_M1F5_25
+c1_16 OK
+03:11:49 c1_16 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_16_La_privacidad_como_bien_comun.mp3（56.4 秒），检查全部通过
+== 03:11:49 c1_17 qwen3_M1F5_25
+c1_17 OK
+03:15:49 c1_17 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_17_El_humor_como_herramienta_critica.mp3（61.4 秒），检查全部通过
+== 03:15:49 c1_18 qwen3_M1F5_25
+c1_18 OK
+03:19:54 c1_18 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_18_La_ciudad_de_noche.mp3（63.0 秒），检查全部通过
+== 03:19:54 c1_19 qwen3_M1F5_25
+c1_19 OK
+03:23:53 c1_19 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_19_La_fragilidad_de_la_memoria_digital.mp3（62.1 秒），检查全部通过
+== 03:23:53 c1_20 qwen3_M1F5_25
+c1_20 OK
+03:28:19 c1_20 音频 OK：已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_20_El_valor_de_la_duda.mp3（64.6 秒），检查全部通过
+AUDIO_CHAIN_DONE

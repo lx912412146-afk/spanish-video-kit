@@ -1,0 +1,52 @@
+/bin/sh: sox: command not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 1/13 3.2 秒音频，用时 46 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 2/13 4.3 秒音频，用时 22 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 3/13 4.2 秒音频，用时 17 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 4/13 3.9 秒音频，用时 17 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 5/13 2.7 秒音频，用时 13 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 6/13 2.7 秒音频，用时 13 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 7/13 3.5 秒音频，用时 16 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 8/13 1.0 秒音频，用时 9 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 9/13 3.1 秒音频，用时 16 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 10/13 1.0 秒音频，用时 9 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 11/13 2.1 秒音频，用时 12 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 12/13 1.4 秒音频，用时 10 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 13/13 3.9 秒音频，用时 18 秒
+qwen3tts.py: 加载 10.6 秒，合成 13 段 219.5 秒
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  合成缓存：0 段直接用缓存，13 段新合成
+  变速变调：语速 0.8 倍，音高 +100 音分
+  合成 13 段，用时 232 秒
+  慢速电平 0.75 秒 ±6 dB：短时波动 1.04 LU，短时响度波动（朗读范围内） 1.04 LU（上限 1.0），加强一档再试
+  合成缓存：13 段直接用缓存，0 段新合成
+  慢速电平 0.75 秒 ±8 dB：短时波动 1.03 LU，短时响度波动（朗读范围内） 1.03 LU（上限 1.0），加强一档再试
+  合成缓存：13 段直接用缓存，0 段新合成
+  慢速电平 0.5 秒 ±8 dB：短时波动 0.98 LU，高于安全线 0.97，加强一档再试
+  用慢速电平 0.5 秒 ±8 dB
+  响度：整体 -16.43 LUFS，句间最大偏差 0.51 LU，短时波动（朗读范围）0.98 LU（含首尾静音的原测法 1.03，只记录），峰值 -1.78 dBFS；电磁音：梳状线 -0.75 dB，全频段最强 15000 Hz +4.9 dB
+已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25_slow/a2_12_Mi_primera_clase_de_cocina.mp3（55.4 秒），检查全部通过

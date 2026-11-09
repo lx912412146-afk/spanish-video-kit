@@ -1,0 +1,369 @@
+{
+ "id": "b1_16",
+ "level": "B1",
+ "no": 16,
+ "title_es": "Hablar en público",
+ "title_zh": "当众讲话",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 16 篇",
+ "header": "分级阅读 B1-16",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 16 篇。原创短文。主要语法：现在时、现在虚拟式（aunque sea、es normal que… lata… tiemblen、un amigo que nos diga、cuanto más practiquemos）、将来时（podremos、resultará）；连接语 aunque、también、de esta manera、cuanto más… más。9 句，143 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 1 句 dar miedo 整体标 loc.（les da miedo，使……害怕）；aunque sea 表示“哪怕只是”；第 3 句 importar 按 gustar 类用法（nos importa）标 intr.，译作“在乎”；第 4 句 controlarlo 的 lo 指紧张，ensayarlo 的 lo 指讲稿；第 5 句 un amigo que nos diga la verdad 先行词不确指，用虚拟式；第 6 句 sin darnos cuenta 词头写 sin darse cuenta，corregirlos 的 los 指这些小动作；第 7 句 público 是名词“听众”，和第 1 句 en público（当众）意思不同，单独列出；第 9 句 cuanto más + 虚拟式…, más… 整体标 loc.。no_pause_commas：第 7 句 mirar al público, hablar despacio y hacer pausas cortas 是简短的并列动词短语，público 后的逗号不停顿。第 6 句是为凑足时长新加的。审读后改：第 7 句补列 público，público 后改为不停顿；去掉 A1 词 antes de（第 2 句）。第二轮审读后改：第 6 句句首连接语 De esta manera 后加逗号。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "7": [
+   {
+    "after": "público,",
+    "why": "简短的并列动词短语（mirar al público, hablar despacio y hacer pausas cortas），不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "A muchas personas les da miedo hablar en público, aunque sea delante de un grupo pequeño.",
+    "zh": "很多人都害怕当众讲话，哪怕面对的只是一小群人。",
+    "w": [
+     {
+      "h": "dar miedo",
+      "pos": "loc.",
+      "zh": "使害怕",
+      "surface": "da miedo",
+      "source": "supplement"
+     },
+     {
+      "h": "en público",
+      "pos": "loc.",
+      "zh": "当众，公开地",
+      "surface": "en público",
+      "source": "supplement"
+     },
+     {
+      "h": "aunque",
+      "pos": "conj.",
+      "zh": "即使，哪怕（接虚拟式）",
+      "surface": "aunque",
+      "source": "supplement"
+     },
+     {
+      "h": "delante de",
+      "pos": "loc.",
+      "zh": "在……面前",
+      "surface": "delante de",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Antes de una presentación, es normal que el corazón lata más rápido y que nos tiemblen las manos.",
+    "zh": "在上台演讲之前，心跳加快、双手发抖都是很正常的。",
+    "w": [
+     {
+      "h": "es normal que",
+      "pos": "loc.",
+      "zh": "……很正常（接虚拟式）",
+      "surface": "es normal que",
+      "source": "supplement"
+     },
+     {
+      "h": "corazón",
+      "pos": "m.",
+      "zh": "心脏",
+      "surface": "corazón",
+      "source": "supplement"
+     },
+     {
+      "h": "latir",
+      "pos": "intr.",
+      "zh": "（心脏）跳动",
+      "surface": "lata",
+      "source": "supplement"
+     },
+     {
+      "h": "temblar",
+      "pos": "intr.",
+      "zh": "发抖，颤抖",
+      "surface": "tiemblen",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Este nerviosismo no es malo: significa que el tema nos importa y que queremos hacerlo bien.",
+    "zh": "这种紧张并不是坏事，它说明我们在乎这个话题，想把事情做好。",
+    "w": [
+     {
+      "h": "nerviosismo",
+      "pos": "m.",
+      "zh": "紧张，不安",
+      "surface": "nerviosismo",
+      "source": "supplement"
+     },
+     {
+      "h": "significar",
+      "pos": "tr.",
+      "zh": "意味着，说明",
+      "surface": "significa",
+      "source": "supplement"
+     },
+     {
+      "h": "tema",
+      "pos": "m.",
+      "zh": "话题，题目",
+      "surface": "tema",
+      "source": "supplement"
+     },
+     {
+      "h": "importar",
+      "pos": "intr.",
+      "zh": "（对某人）重要；在乎",
+      "surface": "importa",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La mejor manera de controlarlo es preparar bien el discurso y ensayarlo varias veces en voz alta.",
+    "zh": "控制紧张最好的办法，就是认真准备讲稿，并大声地演练几遍。",
+    "w": [
+     {
+      "h": "manera",
+      "pos": "f.",
+      "zh": "方式，方法",
+      "surface": "manera",
+      "source": "supplement"
+     },
+     {
+      "h": "discurso",
+      "pos": "m.",
+      "zh": "讲话，讲稿",
+      "surface": "discurso",
+      "source": "supplement"
+     },
+     {
+      "h": "ensayar",
+      "pos": "tr.",
+      "zh": "排练，演练",
+      "surface": "ensayarlo",
+      "source": "supplement"
+     },
+     {
+      "h": "varias veces",
+      "pos": "loc.",
+      "zh": "好几次",
+      "surface": "varias veces",
+      "source": "supplement"
+     },
+     {
+      "h": "en voz alta",
+      "pos": "loc.",
+      "zh": "大声地",
+      "surface": "en voz alta",
+      "source": "supplement"
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "es": "También ayuda grabarse con el móvil o practicar delante de un amigo que nos diga la verdad.",
+    "zh": "用手机给自己录像，或者在一位肯说真话的朋友面前练习，也会有帮助。",
+    "w": [
+     {
+      "h": "ayudar",
+      "pos": "intr.",
+      "zh": "有帮助，有益",
+      "surface": "ayuda",
+      "source": "supplement"
+     },
+     {
+      "h": "grabarse",
+      "pos": "prnl.",
+      "zh": "给自己录像",
+      "surface": "grabarse",
+      "source": "supplement"
+     },
+     {
+      "h": "móvil",
+      "pos": "m.",
+      "zh": "手机",
+      "surface": "móvil",
+      "source": "supplement"
+     },
+     {
+      "h": "decir la verdad",
+      "pos": "loc.",
+      "zh": "说实话",
+      "surface": "diga la verdad",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "De esta manera, podremos descubrir qué gestos repetimos sin darnos cuenta y corregirlos a tiempo.",
+    "zh": "这样，我们就能发现自己不知不觉中重复的小动作，并及时纠正。",
+    "w": [
+     {
+      "h": "de esta manera",
+      "pos": "loc.",
+      "zh": "这样，通过这种方式",
+      "surface": "De esta manera",
+      "source": "supplement"
+     },
+     {
+      "h": "gesto",
+      "pos": "m.",
+      "zh": "手势，小动作",
+      "surface": "gestos",
+      "source": "supplement"
+     },
+     {
+      "h": "sin darse cuenta",
+      "pos": "loc.",
+      "zh": "不知不觉地",
+      "surface": "sin darnos cuenta",
+      "source": "supplement"
+     },
+     {
+      "h": "corregir",
+      "pos": "tr.",
+      "zh": "纠正，改正",
+      "surface": "corregirlos",
+      "source": "supplement"
+     },
+     {
+      "h": "a tiempo",
+      "pos": "loc.",
+      "zh": "及时",
+      "surface": "a tiempo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Durante la charla, conviene mirar al público, hablar despacio y hacer pausas cortas.",
+    "zh": "讲话的时候，最好看着听众，说得慢一些，并作短暂的停顿。",
+    "w": [
+     {
+      "h": "charla",
+      "pos": "f.",
+      "zh": "讲话，讲座",
+      "surface": "charla",
+      "source": "supplement"
+     },
+     {
+      "h": "convenir + inf.",
+      "pos": "loc.",
+      "zh": "最好……，宜……",
+      "surface": "conviene",
+      "source": "supplement"
+     },
+     {
+      "h": "público",
+      "pos": "m.",
+      "zh": "听众，观众",
+      "surface": "público",
+      "source": "supplement"
+     },
+     {
+      "h": "despacio",
+      "pos": "adv.",
+      "zh": "慢慢地",
+      "surface": "despacio",
+      "source": "supplement"
+     },
+     {
+      "h": "hacer una pausa",
+      "pos": "loc.",
+      "zh": "停顿",
+      "surface": "hacer pausas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Si olvidamos una frase, lo mejor es respirar hondo y seguir adelante sin pedir perdón.",
+    "zh": "如果忘了某句话，最好的办法是深吸一口气，接着讲下去，不必道歉。",
+    "w": [
+     {
+      "h": "olvidar",
+      "pos": "tr.",
+      "zh": "忘记",
+      "surface": "olvidamos",
+      "source": "supplement"
+     },
+     {
+      "h": "lo mejor",
+      "pos": "loc.",
+      "zh": "最好的办法",
+      "surface": "lo mejor",
+      "source": "supplement"
+     },
+     {
+      "h": "respirar hondo",
+      "pos": "loc.",
+      "zh": "深呼吸",
+      "surface": "respirar hondo",
+      "source": "supplement"
+     },
+     {
+      "h": "seguir adelante",
+      "pos": "loc.",
+      "zh": "继续下去",
+      "surface": "seguir adelante",
+      "source": "supplement"
+     },
+     {
+      "h": "pedir perdón",
+      "pos": "loc.",
+      "zh": "道歉",
+      "surface": "pedir perdón",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Cuanto más practiquemos, más fácil nos resultará expresar nuestras ideas con seguridad delante de los demás.",
+    "zh": "我们练得越多，就越容易在别人面前自信地表达自己的想法。",
+    "w": [
+     {
+      "h": "cuanto más… más",
+      "pos": "loc.",
+      "zh": "越……越……",
+      "surface": "Cuanto más",
+      "source": "supplement"
+     },
+     {
+      "h": "resultar",
+      "pos": "intr.",
+      "zh": "显得，变得",
+      "surface": "resultará",
+      "source": "supplement"
+     },
+     {
+      "h": "con seguridad",
+      "pos": "loc.",
+      "zh": "自信地，有把握地",
+      "surface": "con seguridad",
+      "source": "supplement"
+     },
+     {
+      "h": "los demás",
+      "pos": "pron.",
+      "zh": "别人，其他人",
+      "surface": "los demás",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "b2_16",
+ "level": "B2",
+ "no": 16,
+ "title_es": "La lectura en la era de las pantallas",
+ "title_zh": "屏幕时代的阅读",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 16 篇",
+ "header": "分级阅读 B2-16",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 16 篇。原创短文。主要语法：第 1 句过去完成时 nunca habíamos leído tanto como ahora（以往从未像现在这样）、costar 的间接宾语结构（nos cuesta + 原形）；第 3 句副动词表方式；第 4 句条件式 podría 表推测；第 6 句 lo decisivo 名词化、si + 过去虚拟式（dedicáramos）+ 条件式（recuperaríamos）；连接语 sin embargo、en lugar de、no obstante、ya que、en definitiva。7 句 130 词（2 段：4 + 3）。特别判断：第 1 句 cada vez nos cuesta más 译作“……却变得越来越难”，cada vez … más 被拆开，没有整体标；costar 按句中用法标 intr.。第 3 句 datos 在这里指要查的具体信息，释义取“信息，资料”；el hilo de un argumento 译作“论证的脉络”。第 4 句 advierten de que 整体标 loc.；comprensión、reflexión 是同源词，没有标。第 5 句 soporte 指阅读的载体（纸张或屏幕）。第 6 句 atención sostenida 译作“持久的专注力”。第 7 句 frente a 取“面对，抵御”义。concentrarse、notificación、fragmentado、entero、interrupción 是同源词，没有标。no_pause_commas：第 2 句名词列举不停顿。时长：原来按估算在第 4 句后面加了一句（Por si fuera poco, la tentación de mirar el móvil interrumpe incluso nuestros ratos de lectura.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [{"after": "breves,", "why": "并列名词短语（los mensajes breves, las notificaciones y los enlaces constantes），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Nunca habíamos leído tanto como ahora y, sin embargo, cada vez nos cuesta más concentrarnos en un texto largo.", "zh": "我们读的东西从未像现在这样多，然而，要专注于一篇长文却变得越来越难。", "w": [
+    {"h": "tanto como", "pos": "loc.", "zh": "像……一样多", "surface": "tanto como", "source": "supplement"},
+    {"h": "sin embargo", "pos": "loc.", "zh": "然而，可是", "surface": "sin embargo", "source": "supplement"},
+    {"h": "costar", "pos": "intr.", "zh": "（做某事）费力，难", "surface": "cuesta", "source": "supplement"}]},
+   {"es": "Los mensajes breves, las notificaciones y los enlaces constantes nos acostumbran a una lectura rápida y fragmentada.", "zh": "简短的消息、各种通知和接连不断的链接，让我们习惯了快速而碎片化的阅读。", "w": [
+    {"h": "breve", "pos": "adj.", "zh": "简短的", "surface": "breves", "source": "supplement"},
+    {"h": "enlace", "pos": "m.", "zh": "链接", "surface": "enlaces", "source": "supplement"},
+    {"h": "acostumbrar a", "pos": "loc.", "zh": "使习惯于", "surface": "acostumbran a", "source": "supplement"}]},
+   {"es": "Saltamos de una página a otra buscando datos concretos, en lugar de seguir con calma el hilo de un argumento.", "zh": "我们从一个页面跳到另一个页面，寻找具体的信息，而不是静下心来顺着一个论证的脉络读下去。", "w": [
+    {"h": "saltar", "pos": "intr.", "zh": "跳，跳转", "surface": "Saltamos", "source": "supplement"},
+    {"h": "dato", "pos": "m.", "zh": "信息，资料", "surface": "datos", "source": "supplement"},
+    {"h": "en lugar de", "pos": "loc.", "zh": "而不是，代替", "surface": "en lugar de", "source": "supplement"},
+    {"h": "con calma", "pos": "loc.", "zh": "从容地，静下心来", "surface": "con calma", "source": "supplement"},
+    {"h": "hilo", "pos": "m.", "zh": "脉络，思路", "surface": "hilo", "source": "supplement"}]},
+   {"es": "Algunos especialistas advierten de que esta costumbre podría debilitar la comprensión profunda y la capacidad de reflexión.", "zh": "一些专家警告说，这种习惯可能会削弱深入理解的能力和思考的能力。", "w": [
+    {"h": "advertir de que", "pos": "loc.", "zh": "警告，提醒", "surface": "advierten de que", "source": "supplement"},
+    {"h": "costumbre", "pos": "f.", "zh": "习惯", "surface": "costumbre", "source": "supplement"},
+    {"h": "debilitar", "pos": "tr.", "zh": "削弱", "surface": "debilitar", "source": "supplement"},
+    {"h": "profundo", "pos": "adj.", "zh": "深入的，深刻的", "surface": "profunda", "source": "supplement"}]}
+  ],
+  [
+   {"es": "No obstante, el problema no reside en el soporte, ya que también es posible leer novelas enteras en una pantalla.", "zh": "不过，问题并不在于载体，因为在屏幕上同样可以读完整部小说。", "w": [
+    {"h": "no obstante", "pos": "loc.", "zh": "然而，不过", "surface": "No obstante", "source": "supplement"},
+    {"h": "residir en", "pos": "loc.", "zh": "在于", "surface": "reside en", "source": "supplement"},
+    {"h": "soporte", "pos": "m.", "zh": "载体，媒介", "surface": "soporte", "source": "supplement"},
+    {"h": "ya que", "pos": "loc.", "zh": "因为，既然", "surface": "ya que", "source": "supplement"}]},
+   {"es": "Lo decisivo es la actitud: si dedicáramos a la lectura un tiempo tranquilo y sin interrupciones, recuperaríamos esa atención sostenida.", "zh": "关键在于态度：如果我们为阅读留出一段安静、不受打扰的时间，就能找回那种持久的专注力。", "w": [
+    {"h": "lo decisivo", "pos": "loc.", "zh": "关键所在", "surface": "Lo decisivo", "source": "supplement"},
+    {"h": "dedicar", "pos": "tr.", "zh": "把（时间）用于", "surface": "dedicáramos", "source": "supplement"},
+    {"h": "recuperar", "pos": "tr.", "zh": "找回，恢复", "surface": "recuperaríamos", "source": "supplement"},
+    {"h": "sostenido", "pos": "adj.", "zh": "持续的，持久的", "surface": "sostenida", "source": "supplement"}]},
+   {"es": "En definitiva, leer despacio es hoy casi un refugio frente a la prisa que domina nuestros días.", "zh": "总之，如今慢慢阅读几乎成了一个避风港，让我们得以抵御支配着日常生活的匆忙。", "w": [
+    {"h": "en definitiva", "pos": "loc.", "zh": "总之，说到底", "surface": "En definitiva", "source": "supplement"},
+    {"h": "despacio", "pos": "adv.", "zh": "慢慢地", "surface": "despacio", "source": "supplement"},
+    {"h": "refugio", "pos": "m.", "zh": "避风港，庇护所", "surface": "refugio", "source": "supplement"},
+    {"h": "frente a", "pos": "loc.", "zh": "面对，抵御", "surface": "frente a", "source": "supplement"},
+    {"h": "prisa", "pos": "f.", "zh": "匆忙", "surface": "prisa", "source": "supplement"}]}
+  ]
+ ]
+}

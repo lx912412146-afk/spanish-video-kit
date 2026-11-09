@@ -1,0 +1,71 @@
+b1_11 句数 8 → 9
+b1_11 5 W: -[('paciente', 'adj.', '有耐心的', 'paciente')] +[]
+b1_11 7 新/改 ES: Muchos jóvenes descubren así sus intereses y desarrollan habilidades que les ayudarán en el futuro.
+        ZH: 许多年轻人由此发现了自己的兴趣，并培养出对将来有帮助的能力。
+        W: descubrir tr. 发现 [descubren] | así adv. 由此，这样 [así] | desarrollar tr. 培养，发展 [desarrollan] | habilidad f. 能力，技能 [habilidades]
+b1_11 8 新/改 ES: Si alguien quiere empezar, es importante que sea constante y que elija una causa que le interese.
+        ZH: 如果有人想开始做志愿者，重要的是要持之以恒，并选择一项自己感兴趣的公益事业。
+        W: es importante que loc. 重要的是……（接虚拟式） [es importante que] | constante adj. 持之以恒的 [constante] | elegir tr. 选择 [elija] | causa f. （公益）事业 [causa] | interesar intr. 使感兴趣 [interese]
+b1_12 句数 8 → 9
+b1_12 5 W: -[('fin de semana', 'm.', '周末', 'fines de semana')] +[]
+b1_12 6 W: -[('antes de', 'loc.', '在……之前', 'antes de')] +[]
+b1_12 7 新/改 ES: Además, conviene que el dormitorio esté oscuro, en silencio y a una temperatura agradable.
+        ZH: 此外，卧室最好光线昏暗、保持安静，温度也要适宜。
+        W: además adv. 此外，而且 [Además] | convenir que loc. 最好……（接虚拟式） [conviene que] | dormitorio m. 卧室 [dormitorio] | oscuro adj. 黑暗的，昏暗的 [oscuro] | en silencio loc. 安静的，没有声音 [en silencio]
+b1_12 no_pause_commas: {"7": [{"after": "oscuro,", "why": "并列表语（oscuro, en silencio y a una temperatura agradable），不停顿"}], "9": [{"after": "energía,", "why": "简短的并列谓语（tiene más energía, está de mejor humor y aprende…），不停顿"}]}
+b1_13 句数 8 → 9
+b1_13 2 W: -[('barato', 'adj.', '便宜的', 'barato')] +[]
+b1_13 3 W: -[('coche', 'm.', '汽车', 'coches')] +[]
+b1_13 5 新/改 ES: Por ejemplo, muchos padres no dejan que sus hijos vayan solos en bicicleta al colegio.
+        ZH: 比如，很多家长不让孩子独自骑车去上学。
+        W: por ejemplo loc. 例如，比如 [Por ejemplo] | dejar que loc. 让，允许（接虚拟式） [dejan que] | solo adj. 独自的，单独的 [solos] | colegio m. （中小）学校 [colegio]
+b1_13 no_pause_commas: {"2": [{"after": "barato,", "why": "简短的并列谓语（es barato, no contamina y permite…），不停顿"}]}
+b1_14 句数 8 → 9
+b1_14 4 W: -[('solo', 'adv.', '只，仅仅', 'solo'), ('media hora', 'loc.', '半小时', 'media hora')] +[]
+b1_14 5 新/改 ES: Más de una vez estuvo a punto de dejarlo, porque sentía que no avanzaba nada.
+        ZH: 他不止一次差点放弃，因为觉得自己一点进步也没有。
+        W: más de una vez loc. 不止一次 [Más de una vez] | estar a punto de loc. 差点，眼看就要 [estuvo a punto de] | dejar tr. 放弃（lo 指学吉他） [dejarlo] | sentir tr. 觉得，感到 [sentía] | avanzar intr. 进步，有进展 [avanzaba]
+b1_14 9 ZH: 他说，音乐带给了他耐心、新的友谊，还有一种暂时放下工作的方式。 → 他说，音乐给他带来了耐心、新朋友，还有一种暂时放下工作的方式。
+b1_14 9 W: -[('amistad', 'f.', '友谊', 'amistades')] +[('amistad', 'f.', '友谊；（复）朋友', 'amistades')]
+b1_14 no_pause_commas: {"9": [{"after": "paciencia,", "why": "名词列举（paciencia, nuevas amistades y una manera de desconectar…），不停顿"}]}
+b1_15 句数 8 → 9
+b1_15 2 W: -[] +[('coincidir', 'intr.', '（时间）重合，对得上', 'coinciden')]
+b1_15 3 W: -[('nadie', 'pron.', '没有人，谁也（不）', 'nadie')] +[]
+b1_15 6 新/改 ES: Además, es el momento ideal para contarse cómo ha ido el día y hacer planes en común.
+        ZH: 此外，这也是大家互相讲讲一天过得怎么样、一起商量计划的最好时机。
+        W: contarse prnl. 互相讲述 [contarse] | cómo ha ido el día loc. 一天过得怎么样 [cómo ha ido el día] | hacer planes loc. 做计划，商量安排 [hacer planes] | en común loc. 共同地，一起 [en común]
+b1_15 7 W: -[('alguien', 'pron.', '某人，有人', 'alguien')] +[]
+b1_15 pos_legend: ['m.', 'f.', 'adv.', 'tr.', 'intr.', 'prnl.', 'conj.', 'loc.']
+b1_16 句数 8 → 9
+b1_16 2 W: -[('antes de', 'loc.', '在……之前', 'Antes de')] +[]
+b1_16 6 新/改 ES: De esta manera podremos descubrir qué gestos repetimos sin darnos cuenta y corregirlos a tiempo.
+        ZH: 这样，我们就能发现自己不知不觉中重复的小动作，并及时纠正。
+        W: de esta manera loc. 这样，通过这种方式 [De esta manera] | gesto m. 手势，小动作 [gestos] | sin darse cuenta loc. 不知不觉地 [sin darnos cuenta] | corregir tr. 纠正，改正 [corregirlos] | a tiempo loc. 及时 [a tiempo]
+b1_16 7 W: -[] +[('público', 'm.', '听众，观众', 'público')]
+b1_16 no_pause_commas: {"7": [{"after": "público,", "why": "简短的并列动词短语（mirar al público, hablar despacio y hacer pausas cortas），不停顿"}]}
+b1_17 句数 8 → 9
+b1_17 2 W: -[] +[('indicar', 'tr.', '表明，显示', 'indican')]
+b1_17 6 新/改 ES: Algunos jóvenes incluso se aíslan y dejan de quedar con sus amigos fuera de casa.
+        ZH: 有些年轻人甚至把自己封闭起来，不再约朋友出门见面。
+        W: incluso adv. 甚至 [incluso] | aislarse prnl. 把自己封闭起来，与人隔绝 [se aíslan] | dejar de + inf. loc. 不再做…… [dejan de] | quedar con loc. 和……约着见面 [quedar con] | fuera de casa loc. 在外面，不在家 [fuera de casa]
+b1_17 8 W: -[('divertido', 'adj.', '有趣的，开心的', 'divertido')] +[]
+b1_17 pos_legend: ['m.', 'f.', 'adj.', 'adv.', 'tr.', 'intr.', 'prnl.', 'conj.', 'loc.']
+b1_18 句数 8 → 9
+b1_18 4 W: -[('hay que', 'loc.', '必须，应该', 'hay que')] +[]
+b1_18 6 新/改 ES: Quien aprende a perder en el campo afronta mejor los fracasos de la vida.
+        ZH: 在赛场上学会输的人，也能更好地面对生活中的挫折。
+        W: quien pron. ……的人 [Quien] | campo m. 赛场，球场 [campo] | afrontar tr. 面对，应对 [afronta] | fracaso m. 失败，挫折 [fracasos]
+b1_18 7 W: -[('antes de', 'loc.', '在……之前', 'antes de')] +[]
+b1_18 no_pause_commas: {"4": [{"after": "hora,", "why": "简短的并列不定式短语（llegar a la hora, escuchar al entrenador y respetar las reglas），不停顿"}]}
+b1_18 pos_legend: ['m.', 'f.', 'adj.', 'adv.', 'tr.', 'intr.', 'prnl.', 'conj.', 'pron.', 'loc.']
+b1_19 句数 8 → 9
+b1_19 2 W: -[('todos los días', 'loc.', '每天', 'todos los días'), ('fin de semana', 'm.', '周末', 'fin de semana')] +[]
+b1_19 6 新/改 ES: Así nos contamos pequeñas cosas del día sin necesidad de buscar un momento libre.
+        ZH: 这样，我们不用特意找空闲时间，也能跟对方讲讲每天的琐事。
+        W: así adv. 这样，如此 [Así] | contarse prnl. 互相讲述 [nos contamos] | sin necesidad de loc. 无须，不必 [sin necesidad de] | libre adj. 空闲的 [libre]
+b1_19 8 W: -[('juntos', 'adj.', '一起的', 'juntas')] +[('junto', 'adj.', '一起的，在一起的', 'juntas')]
+b1_20 句数 8 → 9
+b1_20 6 新/改 ES: Si lo hacemos de forma automática, ni siquiera notaremos la falta de ese dinero.
+        ZH: 如果让这件事自动进行，我们甚至不会察觉少了这笔钱。
+        W: de forma automática loc. 自动地 [de forma automática] | ni siquiera loc. 甚至都不，连……也不 [ni siquiera] | notar tr. 察觉，注意到 [notaremos] | falta f. 缺少，不在 [falta]
+b1_20 9 W: -[('regalo', 'm.', '礼物', 'regalos')] +[]

@@ -1,0 +1,65 @@
+{
+ "id": "b2_12",
+ "level": "B2",
+ "no": 12,
+ "title_es": "Una sociedad que envejece",
+ "title_zh": "老龄化社会",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 12 篇",
+ "header": "分级阅读 B2-12",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 12 篇。原创短文。主要语法：a medida que（随着）；第 3 句条件式 sería 表推断；第 4 句条件式 se perderían；第 6 句 si + 过去虚拟式（tuvieran, contaran）+ 条件式（podrían），表示与现实相反的假设；no consiste en…, sino en…；连接语 ya que、sin embargo、por lo tanto、en definitiva。7 句 130 词（2 段：4 + 3）。特别判断：第 1 句 personas mayores 是“老年人”的委婉说法，词头写 persona mayor；第 3、6 句名词化的 mayores 是同一个说法，不再标。第 2 句 presentarse como 意思透明，没有标；plantea dudas 译作“引发……疑虑”。第 3 句 reducir … a … 中间隔着宾语，词头只写 reducir，释义取“把……归结为”；entorno 指身边的人和环境。第 4 句是三个并列谓语（cuidan…, participan…, transmiten…），较长，逗号照常停顿；que, de otro modo, se perderían 中的逗号是插入语，照常停顿；se perderían 译作“失传”。第 6 句 seguir siendo independientes 按中文习惯译作“继续独立生活”。第 7 句 envejece bien 译作“从容老去”，convivir entre generaciones 译作“让几代人和睦共处”。sin embargo 是 B1 已学的连接语，没有标。no_pause_commas：第 5 句名词列举不停顿。时长：原来按估算在第 6 句后面加了一句（Asimismo, las empresas podrían aprovechar la experiencia de sus empleados mayores en vez de prescindir de ella.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "5": [{"after": "ciudades,", "why": "并列名词（las ciudades, los servicios y el trabajo），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "A medida que aumenta la esperanza de vida y disminuye la natalidad, crece la proporción de personas mayores.", "zh": "随着预期寿命延长、出生率下降，老年人在人口中所占的比例不断上升。", "w": [
+    {"h": "a medida que", "pos": "loc.", "zh": "随着", "surface": "A medida que", "source": "supplement"},
+    {"h": "esperanza de vida", "pos": "f.", "zh": "预期寿命", "surface": "esperanza de vida", "source": "supplement"},
+    {"h": "disminuir", "pos": "intr.", "zh": "减少，下降", "surface": "disminuye", "source": "supplement"},
+    {"h": "natalidad", "pos": "f.", "zh": "出生率", "surface": "natalidad", "source": "supplement"},
+    {"h": "persona mayor", "pos": "f.", "zh": "老年人", "surface": "personas mayores", "source": "supplement"}]},
+   {"es": "Este cambio suele presentarse como una amenaza, ya que plantea dudas sobre las pensiones y la sanidad.", "zh": "这一变化往往被说成是一种威胁，因为它引发了人们对养老金和医疗卫生的种种疑虑。", "w": [
+    {"h": "soler + inf.", "pos": "loc.", "zh": "通常，往往", "surface": "suele", "source": "supplement"},
+    {"h": "amenaza", "pos": "f.", "zh": "威胁", "surface": "amenaza", "source": "supplement"},
+    {"h": "ya que", "pos": "loc.", "zh": "因为，既然", "surface": "ya que", "source": "supplement"},
+    {"h": "plantear", "pos": "tr.", "zh": "引起，提出（问题）", "surface": "plantea", "source": "supplement"},
+    {"h": "sanidad", "pos": "f.", "zh": "医疗卫生", "surface": "sanidad", "source": "supplement"}]},
+   {"es": "Sin embargo, reducir la vejez a un problema económico sería olvidar cuánto aportan los mayores a su entorno.", "zh": "然而，把老年归结为一个经济问题，就等于忘记了老年人为身边的人做出了多少贡献。", "w": [
+    {"h": "reducir", "pos": "tr.", "zh": "把……归结为", "surface": "reducir", "source": "supplement"},
+    {"h": "vejez", "pos": "f.", "zh": "老年，晚年", "surface": "vejez", "source": "supplement"},
+    {"h": "aportar", "pos": "tr.", "zh": "贡献，带来", "surface": "aportan", "source": "supplement"},
+    {"h": "entorno", "pos": "m.", "zh": "身边的人，周围环境", "surface": "entorno", "source": "supplement"}]},
+   {"es": "Muchos abuelos cuidan de sus nietos, participan en asociaciones vecinales o transmiten oficios que, de otro modo, se perderían.", "zh": "许多祖父母照看孙辈，参加街坊协会，或是传授一些否则就会失传的手艺。", "w": [
+    {"h": "cuidar de", "pos": "loc.", "zh": "照看，照顾", "surface": "cuidan de", "source": "supplement"},
+    {"h": "vecinal", "pos": "adj.", "zh": "街坊的，社区居民的", "surface": "vecinales", "source": "supplement"},
+    {"h": "transmitir", "pos": "tr.", "zh": "传授，传承", "surface": "transmiten", "source": "supplement"},
+    {"h": "oficio", "pos": "m.", "zh": "手艺，行当", "surface": "oficios", "source": "supplement"},
+    {"h": "de otro modo", "pos": "loc.", "zh": "否则，不然", "surface": "de otro modo", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Por lo tanto, el reto no consiste en frenar el envejecimiento, sino en adaptar las ciudades, los servicios y el trabajo a esta realidad.", "zh": "因此，挑战不在于遏制老龄化，而在于让城市、各项服务和工作适应这一现实。", "w": [
+    {"h": "por lo tanto", "pos": "loc.", "zh": "因此", "surface": "Por lo tanto", "source": "supplement"},
+    {"h": "reto", "pos": "m.", "zh": "挑战", "surface": "reto", "source": "supplement"},
+    {"h": "consistir en", "pos": "loc.", "zh": "在于", "surface": "consiste en", "source": "supplement"},
+    {"h": "frenar", "pos": "tr.", "zh": "遏制，阻止", "surface": "frenar", "source": "supplement"},
+    {"h": "envejecimiento", "pos": "m.", "zh": "老龄化", "surface": "envejecimiento", "source": "supplement"}]},
+   {"es": "Si las calles tuvieran más bancos y los edificios contaran con ascensores, muchos mayores podrían seguir siendo independientes.", "zh": "如果街道上有更多长椅，楼房都装有电梯，许多老人就能继续独立生活。", "w": [
+    {"h": "banco", "pos": "m.", "zh": "长椅", "surface": "bancos", "source": "supplement"},
+    {"h": "contar con", "pos": "loc.", "zh": "配有，具备", "surface": "contaran con", "source": "supplement"},
+    {"h": "seguir + gerundio", "pos": "loc.", "zh": "继续（做、是）", "surface": "seguir siendo", "source": "supplement"}]},
+   {"es": "Una sociedad que envejece bien es, en definitiva, una sociedad que aprende a convivir entre generaciones.", "zh": "说到底，一个能够从容老去的社会，就是一个学会让几代人和睦共处的社会。", "w": [
+    {"h": "envejecer", "pos": "intr.", "zh": "变老，老去", "surface": "envejece", "source": "supplement"},
+    {"h": "en definitiva", "pos": "loc.", "zh": "总之，说到底", "surface": "en definitiva", "source": "supplement"},
+    {"h": "aprender a + inf.", "pos": "loc.", "zh": "学会做某事", "surface": "aprende a", "source": "supplement"},
+    {"h": "convivir", "pos": "intr.", "zh": "共处，共同生活", "surface": "convivir", "source": "supplement"}]}
+  ]
+ ]
+}

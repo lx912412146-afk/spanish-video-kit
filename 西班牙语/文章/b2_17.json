@@ -1,0 +1,257 @@
+{
+ "id": "b2_17",
+ "level": "B2",
+ "no": 17,
+ "title_es": "La comida que tiramos",
+ "title_zh": "被扔掉的食物",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 17 篇",
+ "header": "分级阅读 B2-17",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 17 篇。原创短文。主要语法：第 1 句 se tiran 是自复被动（pasiva refleja）；第 2 句 no solo…, sino también…、pues 表原因；第 3 句 deberse a que；第 5 句名词化 una mejor planificación；第 6 句 si + 过去虚拟式（aprovechara, comprara）+ 条件式（disminuiría）；连接语 además、por lo tanto、también、en el fondo。7 句 132 词（2 段：4 + 3）。特别判断：第 1 句 toneladas de alimentos 是泛指“成吨的”，不是具体统计；tirar a la basura 整体标 loc.，surface 取 tiran a la basura（前面的 se 表被动）。第 2 句 supone 译作“造成”；una pérdida no solo económica, sino también ambiental 译作“损失不仅是经济上的，也是环境上的”。第 4 句 la de caducidad 承前省略了 fecha，caducidad 译作“过期日期”；fecha de consumo preferente 整体标 f.，译作“最佳食用日期”。第 5 句的 sino 已在第 2 句 no solo…, sino también… 里出现，不再单独标；sacrificio、planificación 是同源词，没有标。tonelada、consumir、confundir、significar 是同源词，没有标。第 6 句 sobras 常用复数，词头写单数 sobra，释义注“（复）”。第 7 句 quienes 词头写 quien。no_pause_commas：第 1 句、第 2 句的名词列举不停顿。时长：原来按估算在第 6 句后面加了一句（Asimismo, los comercios pueden contribuir donando a comedores sociales los alimentos que no venden.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "1": [
+   {
+    "after": "hogares,",
+    "why": "并列名词（hogares, supermercados y restaurantes），不停顿"
+   }
+  ],
+  "2": [
+   {
+    "after": "agua,",
+    "why": "并列名词（agua, energía y tierra），不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Cada día, en hogares, supermercados y restaurantes, se tiran a la basura toneladas de alimentos que todavía están en buen estado.",
+    "zh": "每天，在家庭、超市和餐馆里，都有成吨仍然完好的食物被扔进垃圾桶。",
+    "w": [
+     {
+      "h": "hogar",
+      "pos": "m.",
+      "zh": "家，家庭",
+      "surface": "hogares",
+      "source": "supplement"
+     },
+     {
+      "h": "tirar a la basura",
+      "pos": "loc.",
+      "zh": "扔进垃圾桶",
+      "surface": "tiran a la basura",
+      "source": "supplement"
+     },
+     {
+      "h": "alimento",
+      "pos": "m.",
+      "zh": "食物，食品",
+      "surface": "alimentos",
+      "source": "supplement"
+     },
+     {
+      "h": "en buen estado",
+      "pos": "loc.",
+      "zh": "完好的，状态良好",
+      "surface": "en buen estado",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Este desperdicio supone una pérdida no solo económica, sino también ambiental, pues producir comida consume agua, energía y tierra.",
+    "zh": "这种浪费造成的损失不仅是经济上的，也是环境上的，因为生产食物要消耗水、能源和土地。",
+    "w": [
+     {
+      "h": "desperdicio",
+      "pos": "m.",
+      "zh": "浪费",
+      "surface": "desperdicio",
+      "source": "supplement"
+     },
+     {
+      "h": "suponer",
+      "pos": "tr.",
+      "zh": "意味着，造成",
+      "surface": "supone",
+      "source": "supplement"
+     },
+     {
+      "h": "no solo…, sino también…",
+      "pos": "loc.",
+      "zh": "不仅……而且……",
+      "surface": "sino también",
+      "source": "supplement"
+     },
+     {
+      "h": "pues",
+      "pos": "conj.",
+      "zh": "因为",
+      "surface": "pues",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Parte del problema se debe a que compramos más de lo necesario y olvidamos lo que guardamos en la nevera.",
+    "zh": "问题的部分原因在于，我们买的东西超出了所需，又忘了冰箱里存放着什么。",
+    "w": [
+     {
+      "h": "deberse a que",
+      "pos": "loc.",
+      "zh": "原因在于，是由于",
+      "surface": "se debe a que",
+      "source": "supplement"
+     },
+     {
+      "h": "más de lo necesario",
+      "pos": "loc.",
+      "zh": "超出所需",
+      "surface": "más de lo necesario",
+      "source": "supplement"
+     },
+     {
+      "h": "guardar",
+      "pos": "tr.",
+      "zh": "存放，保存",
+      "surface": "guardamos",
+      "source": "supplement"
+     },
+     {
+      "h": "nevera",
+      "pos": "f.",
+      "zh": "冰箱",
+      "surface": "nevera",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Además, muchos consumidores confunden la fecha de consumo preferente con la de caducidad y descartan productos perfectamente seguros.",
+    "zh": "此外，许多消费者把最佳食用日期和过期日期混为一谈，扔掉了完全安全的食品。",
+    "w": [
+     {
+      "h": "fecha de consumo preferente",
+      "pos": "f.",
+      "zh": "最佳食用日期",
+      "surface": "fecha de consumo preferente",
+      "source": "supplement"
+     },
+     {
+      "h": "caducidad",
+      "pos": "f.",
+      "zh": "过期，失效",
+      "surface": "caducidad",
+      "source": "supplement"
+     },
+     {
+      "h": "descartar",
+      "pos": "tr.",
+      "zh": "丢弃，淘汰",
+      "surface": "descartan",
+      "source": "supplement"
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Por lo tanto, reducir el desperdicio no exige grandes sacrificios, sino una mejor planificación de la compra y de las comidas.",
+    "zh": "因此，减少浪费并不需要做出多大的牺牲，而是需要更好地规划采购和一日三餐。",
+    "w": [
+     {
+      "h": "por lo tanto",
+      "pos": "loc.",
+      "zh": "因此",
+      "surface": "Por lo tanto",
+      "source": "supplement"
+     },
+     {
+      "h": "exigir",
+      "pos": "tr.",
+      "zh": "要求，需要",
+      "surface": "exige",
+      "source": "supplement"
+     },
+     {
+      "h": "compra",
+      "pos": "f.",
+      "zh": "采购，购物",
+      "surface": "compra",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Si cada familia aprovechara las sobras y comprara solo lo necesario, la cantidad de comida desperdiciada disminuiría notablemente.",
+    "zh": "如果每个家庭都能把剩饭剩菜利用起来，只买需要的东西，被浪费的食物就会显著减少。",
+    "w": [
+     {
+      "h": "aprovechar",
+      "pos": "tr.",
+      "zh": "利用（好）",
+      "surface": "aprovechara",
+      "source": "supplement"
+     },
+     {
+      "h": "sobra",
+      "pos": "f.",
+      "zh": "（复）剩饭剩菜",
+      "surface": "sobras",
+      "source": "supplement"
+     },
+     {
+      "h": "disminuir",
+      "pos": "intr.",
+      "zh": "减少，下降",
+      "surface": "disminuiría",
+      "source": "supplement"
+     },
+     {
+      "h": "notablemente",
+      "pos": "adv.",
+      "zh": "显著地",
+      "surface": "notablemente",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En el fondo, valorar la comida también significa respetar el trabajo de quienes la producen.",
+    "zh": "说到底，珍惜食物也意味着尊重那些生产食物的人的劳动。",
+    "w": [
+     {
+      "h": "en el fondo",
+      "pos": "loc.",
+      "zh": "说到底，实际上",
+      "surface": "En el fondo",
+      "source": "supplement"
+     },
+     {
+      "h": "valorar",
+      "pos": "tr.",
+      "zh": "珍惜，重视",
+      "surface": "valorar",
+      "source": "supplement"
+     },
+     {
+      "h": "quien",
+      "pos": "pron.",
+      "zh": "……的人",
+      "surface": "quienes",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

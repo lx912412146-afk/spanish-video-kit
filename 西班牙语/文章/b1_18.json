@@ -1,0 +1,79 @@
+{
+ "id": "b1_18",
+ "level": "B1",
+ "no": 18,
+ "title_es": "El deporte en equipo",
+ "title_zh": "团队运动",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 18 篇",
+ "header": "分级阅读 B1-18",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 18 篇。原创短文。主要语法：现在时、无人称 se（se aprende）、现在虚拟式（es fundamental que… se diviertan、aunque no lleguemos a ser）；连接语 así、además、por otra parte、en definitiva。9 句，149 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 1 句 forma física（体能）和第 5 句 forma parte del（formar parte de）里的 forma 词性、词义都不同，分别列出；第 2 句 cumplir su función 整体标 loc.，译作“尽到自己的职责”；第 3 句 depende del 是 depender de + el；第 4 句 a la hora 译作“准时”；第 6 句 quien 引导主语从句，campo 指赛场；第 7 句 es fundamental que 接虚拟式，译文把“至关重要”放在句末；第 9 句 aunque 接虚拟式，表示假设性的让步“即使”。no_pause_commas：第 4 句冒号后 llegar a la hora, escuchar al entrenador y respetar las reglas 是简短的并列不定式短语，hora 后的逗号不停顿，冒号照常停顿。第 6 句是为凑足时长新加的。审读后改：第 4 句 hora 后改为不停顿；去掉 A1 词 hay que（第 4 句）、antes de（第 7 句）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "4": [{"after": "hora,", "why": "简短的并列不定式短语（llegar a la hora, escuchar al entrenador y respetar las reglas），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Practicar un deporte en equipo, como el fútbol, aporta mucho más que una buena forma física.", "zh": "参加团队运动，比如踢足球，带给人的远不止良好的体能。", "w": [
+    {"h": "en equipo", "pos": "loc.", "zh": "集体的，团队的", "surface": "en equipo", "source": "supplement"},
+    {"h": "aportar", "pos": "tr.", "zh": "带来，提供", "surface": "aporta", "source": "supplement"},
+    {"h": "mucho más que", "pos": "loc.", "zh": "远不止", "surface": "mucho más que", "source": "supplement"},
+    {"h": "forma física", "pos": "f.", "zh": "体能，身体状态", "surface": "forma física", "source": "supplement"}]},
+   {"es": "Para ganar un partido, cada jugador tiene que cumplir su función y confiar en sus compañeros.", "zh": "要赢得一场比赛，每个队员都必须尽到自己的职责，并且信任队友。", "w": [
+    {"h": "partido", "pos": "m.", "zh": "比赛", "surface": "partido", "source": "supplement"},
+    {"h": "jugador", "pos": "m.", "zh": "运动员，队员", "surface": "jugador", "source": "supplement"},
+    {"h": "cumplir su función", "pos": "loc.", "zh": "尽到自己的职责", "surface": "cumplir su función", "source": "supplement"},
+    {"h": "confiar en", "pos": "loc.", "zh": "信任，信赖", "surface": "confiar en", "source": "supplement"},
+    {"h": "compañero", "pos": "m.", "zh": "同伴，队友", "surface": "compañeros", "source": "supplement"}]},
+   {"es": "Así se aprende que el éxito depende del esfuerzo de todos, y no solo del talento de uno.", "zh": "这样，人们就会明白，成功取决于所有人的努力，而不仅仅是某一个人的天赋。", "w": [
+    {"h": "así", "pos": "adv.", "zh": "这样，如此", "surface": "Así", "source": "supplement"},
+    {"h": "éxito", "pos": "m.", "zh": "成功", "surface": "éxito", "source": "supplement"},
+    {"h": "depender de", "pos": "loc.", "zh": "取决于", "surface": "depende del", "source": "supplement"},
+    {"h": "esfuerzo", "pos": "m.", "zh": "努力", "surface": "esfuerzo", "source": "supplement"}]},
+   {"es": "Los entrenamientos también enseñan disciplina: hay que llegar a la hora, escuchar al entrenador y respetar las reglas.", "zh": "训练还能培养纪律性：必须准时到场，听教练的话，遵守规则。", "w": [
+    {"h": "entrenamiento", "pos": "m.", "zh": "训练", "surface": "entrenamientos", "source": "supplement"},
+    {"h": "a la hora", "pos": "loc.", "zh": "准时", "surface": "a la hora", "source": "supplement"},
+    {"h": "entrenador", "pos": "m.", "zh": "教练", "surface": "entrenador", "source": "supplement"},
+    {"h": "regla", "pos": "f.", "zh": "规则", "surface": "reglas", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Además, perder forma parte del juego, y aceptar una derrota con deportividad es una lección muy valiosa.", "zh": "此外，输球也是比赛的一部分，而有风度地接受失败，是非常宝贵的一课。", "w": [
+    {"h": "además", "pos": "adv.", "zh": "此外，而且", "surface": "Además", "source": "supplement"},
+    {"h": "formar parte de", "pos": "loc.", "zh": "是……的一部分", "surface": "forma parte del", "source": "supplement"},
+    {"h": "derrota", "pos": "f.", "zh": "失败，输", "surface": "derrota", "source": "supplement"},
+    {"h": "deportividad", "pos": "f.", "zh": "体育精神，风度", "surface": "deportividad", "source": "supplement"},
+    {"h": "valioso", "pos": "adj.", "zh": "宝贵的", "surface": "valiosa", "source": "supplement"}]},
+   {"es": "Quien aprende a perder en el campo afronta mejor los fracasos de la vida.", "zh": "在赛场上学会输的人，也能更好地面对生活中的挫折。", "w": [
+    {"h": "quien", "pos": "pron.", "zh": "……的人", "surface": "Quien", "source": "supplement"},
+    {"h": "campo", "pos": "m.", "zh": "赛场，球场", "surface": "campo", "source": "supplement"},
+    {"h": "afrontar", "pos": "tr.", "zh": "面对，应对", "surface": "afronta", "source": "supplement"},
+    {"h": "fracaso", "pos": "m.", "zh": "失败，挫折", "surface": "fracasos", "source": "supplement"}]},
+   {"es": "Muchos entrenadores dicen que es fundamental que los niños se diviertan antes de pensar en el resultado.", "zh": "很多教练都说，让孩子们先玩得开心，再去考虑比赛结果，这一点至关重要。", "w": [
+    {"h": "es fundamental que", "pos": "loc.", "zh": "……至关重要（接虚拟式）", "surface": "es fundamental que", "source": "supplement"},
+    {"h": "divertirse", "pos": "prnl.", "zh": "玩得开心", "surface": "se diviertan", "source": "supplement"},
+    {"h": "pensar en", "pos": "loc.", "zh": "想，考虑", "surface": "pensar en", "source": "supplement"}]},
+   {"es": "Por otra parte, en el equipo nacen a menudo amistades para toda la vida.", "zh": "另一方面，在球队里，人们常常会结下终生的友谊。", "w": [
+    {"h": "por otra parte", "pos": "loc.", "zh": "另一方面", "surface": "Por otra parte", "source": "supplement"},
+    {"h": "nacer", "pos": "intr.", "zh": "产生，诞生", "surface": "nacen", "source": "supplement"},
+    {"h": "a menudo", "pos": "loc.", "zh": "常常，经常", "surface": "a menudo", "source": "supplement"},
+    {"h": "amistad", "pos": "f.", "zh": "友谊", "surface": "amistades", "source": "supplement"},
+    {"h": "para toda la vida", "pos": "loc.", "zh": "终生的，一辈子的", "surface": "para toda la vida", "source": "supplement"}]},
+   {"es": "En definitiva, aunque no lleguemos a ser profesionales, jugar en equipo nos ayuda a convivir mejor con los demás.", "zh": "总之，即使我们成不了职业运动员，参加团队运动也能帮助我们更好地与他人相处。", "w": [
+    {"h": "en definitiva", "pos": "loc.", "zh": "总之，归根结底", "surface": "En definitiva", "source": "supplement"},
+    {"h": "aunque", "pos": "conj.", "zh": "即使（接虚拟式）", "surface": "aunque", "source": "supplement"},
+    {"h": "llegar a ser", "pos": "loc.", "zh": "成为", "surface": "lleguemos a ser", "source": "supplement"},
+    {"h": "ayudar a + inf.", "pos": "loc.", "zh": "帮助（某人）做……", "surface": "ayuda a", "source": "supplement"},
+    {"h": "convivir", "pos": "intr.", "zh": "共处，相处", "surface": "convivir", "source": "supplement"}]}
+  ]
+ ]
+}

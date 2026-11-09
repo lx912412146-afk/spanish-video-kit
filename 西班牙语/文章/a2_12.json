@@ -1,0 +1,87 @@
+{
+ "id": "a2_12",
+ "level": "A2",
+ "no": 12,
+ "title_es": "Mi primera clase de cocina",
+ "title_zh": "我的第一节烹饪课",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 12 篇",
+ "header": "分级阅读 A2-12",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 12 篇。原创短文。主要语法：简单过去时叙述上课的经过和小意外（fui、aprendimos、batimos、me olvidé、sonó、se quemaron），过去未完成时描写当时的情况（iba bien、estaba muy rica），现在完成时 ya me he apuntado（结果和现在有关）。10 句 111 词。特别判断：clase de cocina、tortilla de patatas 整体标 f.，tortilla de patatas 译“土豆鸡蛋饼”；第 3 句 Primero 和第 1 句 primera 是同一个词头 primero，只在第 1 句标；sin llorar 的 sin 后接原形，释义“不，没有（+inf.）”；第 4、8 句的 patatas 已经在第 2 句的词组 tortilla de patatas 里出现，不再单独标；第 5 句 iba bien 整体标 loc.（进展顺利）；第 9 句 quedó un poco seca 的 quedar 指做出来的结果，estaba muy rica 指吃起来好吃，rico 释义取“好吃的”；第 10 句 me he apuntado a 整体标 loc.（报名参加）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "El sábado pasado fui a mi primera clase de cocina.", "zh": "上周六，我去上了我的第一节烹饪课。", "w": [
+    {"h": "el sábado pasado", "pos": "loc.", "zh": "上周六", "surface": "El sábado pasado", "source": "supplement"},
+    {"h": "ir", "pos": "intr.", "zh": "去", "surface": "fui", "source": "supplement"},
+    {"h": "primero", "pos": "adj.", "zh": "第一的", "surface": "primera", "source": "supplement"},
+    {"h": "clase de cocina", "pos": "f.", "zh": "烹饪课", "surface": "clase de cocina", "source": "supplement"}]},
+   {"es": "Ese día aprendimos a preparar una tortilla de patatas y una ensalada.", "zh": "那天我们学做土豆鸡蛋饼和沙拉。", "w": [
+    {"h": "ese día", "pos": "loc.", "zh": "那天", "surface": "Ese día", "source": "supplement"},
+    {"h": "aprender a + inf.", "pos": "loc.", "zh": "学（做某事）", "surface": "aprendimos a", "source": "supplement"},
+    {"h": "preparar", "pos": "tr.", "zh": "做（饭菜），准备", "surface": "preparar", "source": "supplement"},
+    {"h": "tortilla de patatas", "pos": "f.", "zh": "土豆鸡蛋饼", "surface": "tortilla de patatas", "source": "supplement"},
+    {"h": "ensalada", "pos": "f.", "zh": "沙拉", "surface": "ensalada", "source": "supplement"}]},
+   {"es": "Primero, la profesora nos explicó cómo cortar la cebolla sin llorar.", "zh": "首先，老师给我们讲了怎样切洋葱才不会流泪。", "w": [
+    {"h": "explicar", "pos": "tr.", "zh": "讲解，说明", "surface": "explicó", "source": "supplement"},
+    {"h": "cortar", "pos": "tr.", "zh": "切", "surface": "cortar", "source": "supplement"},
+    {"h": "cebolla", "pos": "f.", "zh": "洋葱", "surface": "cebolla", "source": "supplement"},
+    {"h": "sin", "pos": "prep.", "zh": "不，没有（+inf.）", "surface": "sin", "source": "supplement"},
+    {"h": "llorar", "pos": "intr.", "zh": "哭；流泪", "surface": "llorar", "source": "supplement"}]},
+   {"es": "Luego batimos los huevos y freímos las patatas en una sartén grande.", "zh": "接着，我们把鸡蛋打散，又在一口大平底锅里煎土豆。", "w": [
+    {"h": "luego", "pos": "adv.", "zh": "然后，接着", "surface": "Luego", "source": "supplement"},
+    {"h": "batir", "pos": "tr.", "zh": "打（蛋），搅拌", "surface": "batimos", "source": "supplement"},
+    {"h": "huevo", "pos": "m.", "zh": "鸡蛋", "surface": "huevos", "source": "supplement"},
+    {"h": "freír", "pos": "tr.", "zh": "煎，炸", "surface": "freímos", "source": "supplement"},
+    {"h": "sartén", "pos": "f.", "zh": "平底锅", "surface": "sartén", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Todo iba bien hasta que me olvidé de la sartén.", "zh": "一切都很顺利，直到我把锅给忘了。", "w": [
+    {"h": "todo", "pos": "pron.", "zh": "一切", "surface": "Todo", "source": "supplement"},
+    {"h": "ir bien", "pos": "loc.", "zh": "进展顺利", "surface": "iba bien", "source": "supplement"},
+    {"h": "hasta que", "pos": "loc.", "zh": "直到", "surface": "hasta que", "source": "supplement"},
+    {"h": "olvidarse de", "pos": "loc.", "zh": "忘记", "surface": "me olvidé de", "source": "supplement"}]},
+   {"es": "De repente salió mucho humo y sonó la alarma.", "zh": "突然冒出了很多烟，警报也响了。", "w": [
+    {"h": "de repente", "pos": "loc.", "zh": "突然", "surface": "De repente", "source": "supplement"},
+    {"h": "salir", "pos": "intr.", "zh": "冒出，出来", "surface": "salió", "source": "supplement"},
+    {"h": "humo", "pos": "m.", "zh": "烟", "surface": "humo", "source": "supplement"},
+    {"h": "sonar", "pos": "intr.", "zh": "响", "surface": "sonó", "source": "supplement"},
+    {"h": "alarma", "pos": "f.", "zh": "警报", "surface": "alarma", "source": "supplement"}]},
+   {"es": "La profesora apagó el fuego enseguida y abrió las ventanas.", "zh": "老师马上关了火，打开了窗户。", "w": [
+    {"h": "apagar", "pos": "tr.", "zh": "关掉（火、灯）", "surface": "apagó", "source": "supplement"},
+    {"h": "fuego", "pos": "m.", "zh": "火", "surface": "fuego", "source": "supplement"},
+    {"h": "enseguida", "pos": "adv.", "zh": "立刻，马上", "surface": "enseguida", "source": "supplement"},
+    {"h": "abrir", "pos": "tr.", "zh": "打开", "surface": "abrió", "source": "supplement"},
+    {"h": "ventana", "pos": "f.", "zh": "窗户", "surface": "ventanas", "source": "supplement"}]},
+   {"es": "Por suerte, no pasó nada grave y solo se quemaron unas patatas.", "zh": "幸好没出什么大事，只是烧焦了几块土豆。", "w": [
+    {"h": "por suerte", "pos": "loc.", "zh": "幸好，幸亏", "surface": "Por suerte", "source": "supplement"},
+    {"h": "pasar", "pos": "intr.", "zh": "发生", "surface": "pasó", "source": "supplement"},
+    {"h": "grave", "pos": "adj.", "zh": "严重的", "surface": "grave", "source": "supplement"},
+    {"h": "solo", "pos": "adv.", "zh": "只，仅仅", "surface": "solo", "source": "supplement"},
+    {"h": "quemarse", "pos": "prnl.", "zh": "烧焦", "surface": "se quemaron", "source": "supplement"}]},
+   {"es": "Al final, la tortilla quedó un poco seca, pero estaba muy rica.", "zh": "最后，土豆鸡蛋饼做得有点干，不过很好吃。", "w": [
+    {"h": "al final", "pos": "loc.", "zh": "最后", "surface": "Al final", "source": "supplement"},
+    {"h": "quedar", "pos": "intr.", "zh": "（结果）变得，显得", "surface": "quedó", "source": "supplement"},
+    {"h": "un poco", "pos": "loc.", "zh": "有点儿", "surface": "un poco", "source": "supplement"},
+    {"h": "seco", "pos": "adj.", "zh": "干的", "surface": "seca", "source": "supplement"},
+    {"h": "rico", "pos": "adj.", "zh": "好吃的，美味的", "surface": "rica", "source": "supplement"}]},
+   {"es": "Fue una experiencia divertida y ya me he apuntado a la próxima clase.", "zh": "那是一次有趣的经历，我已经报名参加下一节课了。", "w": [
+    {"h": "experiencia", "pos": "f.", "zh": "经历", "surface": "experiencia", "source": "supplement"},
+    {"h": "divertido", "pos": "adj.", "zh": "有趣的，好玩的", "surface": "divertida", "source": "supplement"},
+    {"h": "ya", "pos": "adv.", "zh": "已经", "surface": "ya", "source": "supplement"},
+    {"h": "apuntarse a", "pos": "loc.", "zh": "报名参加", "surface": "me he apuntado a", "source": "supplement"},
+    {"h": "próximo", "pos": "adj.", "zh": "下一个的", "surface": "próxima", "source": "supplement"}]}
+  ]
+ ]
+}

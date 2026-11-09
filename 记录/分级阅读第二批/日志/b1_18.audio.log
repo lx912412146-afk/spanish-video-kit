@@ -1,0 +1,53 @@
+/bin/sh: sox: command not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 1/17 1.9 秒音频，用时 15 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 2/17 1.4 秒音频，用时 38 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 3/17 2.6 秒音频，用时 17 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 4/17 1.4 秒音频，用时 9 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 5/17 4.0 秒音频，用时 16 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 6/17 3.4 秒音频，用时 14 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 7/17 1.9 秒音频，用时 10 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 8/17 2.7 秒音频，用时 13 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 9/17 4.0 秒音频，用时 17 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 10/17 2.7 秒音频，用时 13 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 11/17 4.3 秒音频，用时 17 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 12/17 4.1 秒音频，用时 17 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 13/17 5.7 秒音频，用时 21 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 14/17 3.4 秒音频，用时 15 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 15/17 1.4 秒音频，用时 9 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 16/17 2.3 秒音频，用时 12 秒
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 17/17 3.1 秒音频，用时 14 秒
+qwen3tts.py: 加载 13.7 秒，合成 17 段 265.4 秒
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  合成缓存：1 段直接用缓存，17 段新合成
+  合成 18 段，用时 280 秒
+  响度：整体 -16.44 LUFS，句间最大偏差 0.46 LU，短时波动（朗读范围）0.86 LU（含首尾静音的原测法 0.9，只记录），峰值 -1.87 dBFS；电磁音：梳状线 +0.20 dB，全频段最强 5475 Hz +6.3 dB
+已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/b1_18_El_deporte_en_equipo.mp3（61.4 秒），检查全部通过

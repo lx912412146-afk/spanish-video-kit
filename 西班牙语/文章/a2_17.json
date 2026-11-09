@@ -1,0 +1,84 @@
+{
+ "id": "a2_17",
+ "level": "A2",
+ "no": 17,
+ "title_es": "El huerto de mi abuelo",
+ "title_zh": "爷爷的菜园",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 17 篇",
+ "header": "分级阅读 A2-17",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 17 篇。原创短文。主要语法：现在时说现在的习惯（lo ayudo、sé、prepara），过去未完成时描写起初的状态（no sabía、lo hacía todo mal），简单过去时叙述一次小失误（regué、se pusieron、no se enfadó、me explicó、me enseñó），现在完成时（hemos tenido、he aprendido），比较级 más grandes que，绝对最高级 riquísima。10 句 110 词。特别判断：Ramón 译“拉蒙”；第 2 句 desde la primavera pasada 配现在时 lo ayudo，表示从那时起一直如此；第 3 句 todo 在第 2 句的 todos los sábados 里已经出现，没有单独标；第 4 句 se pusieron amarillos 的主语是西红柿（苗），译“西红柿苗都发黄了”，ponerse 标 prnl.；第 7 句 recogerla 带宾格代词 la（指蔬菜），surface 写原样；第 8 句 hemos tenido muchos tomates 按语境译“收了很多西红柿”；第 9 句 abuela（奶奶）和第 1 句 abuelo（爷爷）意思不同，单独标；riquísima 词头写 riquísimo（rico 的绝对最高级）；第 10 句 cosas buenas 译“美好的东西”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Mi abuelo Ramón tiene un pequeño huerto detrás de su casa.", "zh": "我爷爷拉蒙在他家房子后面有一个小菜园。", "w": [
+    {"h": "abuelo", "pos": "m.", "zh": "爷爷，祖父", "surface": "abuelo", "source": "supplement"},
+    {"h": "pequeño", "pos": "adj.", "zh": "小的", "surface": "pequeño", "source": "supplement"},
+    {"h": "huerto", "pos": "m.", "zh": "菜园", "surface": "huerto", "source": "supplement"},
+    {"h": "detrás de", "pos": "loc.", "zh": "在……后面", "surface": "detrás de", "source": "supplement"}]},
+   {"es": "Desde la primavera pasada, lo ayudo todos los sábados por la mañana.", "zh": "从去年春天开始，每个星期六上午我都给他帮忙。", "w": [
+    {"h": "desde", "pos": "prep.", "zh": "从……起", "surface": "Desde", "source": "supplement"},
+    {"h": "la primavera pasada", "pos": "loc.", "zh": "去年春天", "surface": "la primavera pasada", "source": "supplement"},
+    {"h": "ayudar", "pos": "tr.", "zh": "帮助，帮忙", "surface": "ayudo", "source": "supplement"},
+    {"h": "todos los sábados", "pos": "loc.", "zh": "每个星期六", "surface": "todos los sábados", "source": "supplement"},
+    {"h": "por la mañana", "pos": "loc.", "zh": "上午", "surface": "por la mañana", "source": "supplement"}]},
+   {"es": "Al principio no sabía nada y lo hacía todo mal.", "zh": "一开始我什么都不懂，样样都做不好。", "w": [
+    {"h": "al principio", "pos": "loc.", "zh": "起初，一开始", "surface": "Al principio", "source": "supplement"},
+    {"h": "saber", "pos": "tr.", "zh": "知道，懂", "surface": "sabía", "source": "supplement"},
+    {"h": "nada", "pos": "pron.", "zh": "什么也（不）", "surface": "nada", "source": "supplement"},
+    {"h": "mal", "pos": "adv.", "zh": "不好，差", "surface": "mal", "source": "supplement"}]},
+   {"es": "Un día regué demasiado los tomates y se pusieron amarillos.", "zh": "有一天，我给西红柿浇了太多水，结果西红柿苗都发黄了。", "w": [
+    {"h": "un día", "pos": "loc.", "zh": "有一天", "surface": "Un día", "source": "supplement"},
+    {"h": "regar", "pos": "tr.", "zh": "浇（水）", "surface": "regué", "source": "supplement"},
+    {"h": "demasiado", "pos": "adv.", "zh": "太，过多", "surface": "demasiado", "source": "supplement"},
+    {"h": "tomate", "pos": "m.", "zh": "西红柿", "surface": "tomates", "source": "supplement"},
+    {"h": "ponerse", "pos": "prnl.", "zh": "变得", "surface": "se pusieron", "source": "supplement"}]},
+   {"es": "Mi abuelo no se enfadó y me explicó cómo cuidar cada planta.", "zh": "爷爷没有生气，还给我讲了每种植物该怎么照料。", "w": [
+    {"h": "enfadarse", "pos": "prnl.", "zh": "生气", "surface": "se enfadó", "source": "supplement"},
+    {"h": "explicar", "pos": "tr.", "zh": "讲解，解释", "surface": "explicó", "source": "supplement"},
+    {"h": "cuidar", "pos": "tr.", "zh": "照料，照顾", "surface": "cuidar", "source": "supplement"},
+    {"h": "cada", "pos": "adj.", "zh": "每个", "surface": "cada", "source": "supplement"},
+    {"h": "planta", "pos": "f.", "zh": "植物", "surface": "planta", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Me enseñó a mirar el cielo y a tocar la tierra.", "zh": "他教我观察天空，触摸泥土。", "w": [
+    {"h": "enseñar a + inf.", "pos": "loc.", "zh": "教（某人）做……", "surface": "enseñó a", "source": "supplement"},
+    {"h": "mirar", "pos": "tr.", "zh": "看，观察", "surface": "mirar", "source": "supplement"},
+    {"h": "cielo", "pos": "m.", "zh": "天空", "surface": "cielo", "source": "supplement"},
+    {"h": "tocar", "pos": "tr.", "zh": "摸，触摸", "surface": "tocar", "source": "supplement"},
+    {"h": "tierra", "pos": "f.", "zh": "土，泥土", "surface": "tierra", "source": "supplement"}]},
+   {"es": "Ahora sé cuándo hay que plantar cada verdura y cuándo recogerla.", "zh": "现在我知道每种蔬菜什么时候该种、什么时候该收了。", "w": [
+    {"h": "ahora", "pos": "adv.", "zh": "现在", "surface": "Ahora", "source": "supplement"},
+    {"h": "hay que + inf.", "pos": "loc.", "zh": "应该，必须", "surface": "hay que", "source": "supplement"},
+    {"h": "plantar", "pos": "tr.", "zh": "种，种植", "surface": "plantar", "source": "supplement"},
+    {"h": "verdura", "pos": "f.", "zh": "蔬菜", "surface": "verdura", "source": "supplement"},
+    {"h": "recoger", "pos": "tr.", "zh": "收，采摘", "surface": "recogerla", "source": "supplement"}]},
+   {"es": "Este verano hemos tenido muchos tomates, más grandes que los del mercado.", "zh": "今年夏天我们收了很多西红柿，比市场上卖的还大。", "w": [
+    {"h": "este verano", "pos": "loc.", "zh": "今年夏天", "surface": "Este verano", "source": "supplement"},
+    {"h": "mucho", "pos": "adj.", "zh": "很多的", "surface": "muchos", "source": "supplement"},
+    {"h": "más + adj. + que", "pos": "loc.", "zh": "比……更……", "surface": "más grandes que", "source": "supplement"},
+    {"h": "mercado", "pos": "m.", "zh": "市场", "surface": "mercado", "source": "supplement"}]},
+   {"es": "Mi abuela prepara con ellos una salsa riquísima.", "zh": "奶奶用这些西红柿做酱汁，好吃极了。", "w": [
+    {"h": "abuela", "pos": "f.", "zh": "奶奶，祖母", "surface": "abuela", "source": "supplement"},
+    {"h": "preparar", "pos": "tr.", "zh": "做，准备", "surface": "prepara", "source": "supplement"},
+    {"h": "salsa", "pos": "f.", "zh": "酱汁", "surface": "salsa", "source": "supplement"},
+    {"h": "riquísimo", "pos": "adj.", "zh": "非常好吃的", "surface": "riquísima", "source": "supplement"}]},
+   {"es": "En el huerto he aprendido que las cosas buenas necesitan tiempo y paciencia.", "zh": "在菜园里，我懂得了美好的东西需要时间和耐心。", "w": [
+    {"h": "aprender", "pos": "tr.", "zh": "学到，懂得", "surface": "he aprendido", "source": "supplement"},
+    {"h": "cosa", "pos": "f.", "zh": "东西，事物", "surface": "cosas", "source": "supplement"},
+    {"h": "bueno", "pos": "adj.", "zh": "好的，美好的", "surface": "buenas", "source": "supplement"},
+    {"h": "necesitar", "pos": "tr.", "zh": "需要", "surface": "necesitan", "source": "supplement"},
+    {"h": "paciencia", "pos": "f.", "zh": "耐心", "surface": "paciencia", "source": "supplement"}]}
+  ]
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "id": "b2_13",
+ "level": "B2",
+ "no": 13,
+ "title_es": "El deporte profesional y el dinero",
+ "title_zh": "职业体育与金钱",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 13 篇",
+ "header": "分级阅读 B2-13",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 13 篇。原创短文。主要语法：现在完成时；permitir + 原形；mientras 表对比；第 6 句 de ahí que + 现在完成虚拟式（hayan establecido）；第 7 句条件式 debería 表委婉；连接语 no obstante、de ahí que、al fin y al cabo。7 句 132 词（2 段：4 + 3）。特别判断：第 1 句按审读意见译作“一门涉及巨额资金的生意”，mover 释义改为“涉及，使（资金）流动”。第 2 句 construir、pagar 没有说出主语，译作“使修建……、支付……成为可能”；impensables 译作“难以想象的”。第 3 句 grandes clubes 译作“豪门俱乐部”，modesto 在这里是“实力弱的、规模小的”，不是“谦虚的”。第 4 句 cantera 指俱乐部的青训梯队；apenas logran 译作“只能勉强”。第 5 句 más que 意为“而不是”，整体标 loc.；la competición 译作“比赛”；pierde interés 译作“不再吸引人”。第 7 句 la emoción de no saber quién va a ganar 译作“不知道谁会赢”的那份激动，中文加引号；talento 是同源词，没有标。本篇没有名词列举，no_pause_commas 为空。时长：原来按估算在第 4 句后面加了一句（Además, la subida constante de las entradas hace que muchos aficionados se sientan simples clientes.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "En las últimas décadas, el deporte profesional se ha convertido en un negocio que mueve enormes cantidades de dinero.",
+    "zh": "近几十年来，职业体育已经变成了一门涉及巨额资金的生意。",
+    "w": [
+     {
+      "h": "en las últimas décadas",
+      "pos": "loc.",
+      "zh": "近几十年来",
+      "surface": "En las últimas décadas",
+      "source": "supplement"
+     },
+     {
+      "h": "convertirse en",
+      "pos": "loc.",
+      "zh": "变成，成为",
+      "surface": "se ha convertido en",
+      "source": "supplement"
+     },
+     {
+      "h": "negocio",
+      "pos": "m.",
+      "zh": "生意，产业",
+      "surface": "negocio",
+      "source": "supplement"
+     },
+     {
+      "h": "mover",
+      "pos": "tr.",
+      "zh": "涉及，使（资金）流动",
+      "surface": "mueve",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Los derechos de retransmisión y los patrocinios han permitido construir estadios modernos y pagar salarios que hace poco parecían impensables.",
+    "zh": "转播权和赞助使修建现代化的体育场、支付不久前还难以想象的薪水成为可能。",
+    "w": [
+     {
+      "h": "derecho de retransmisión",
+      "pos": "m.",
+      "zh": "转播权",
+      "surface": "derechos de retransmisión",
+      "source": "supplement"
+     },
+     {
+      "h": "patrocinio",
+      "pos": "m.",
+      "zh": "赞助",
+      "surface": "patrocinios",
+      "source": "supplement"
+     },
+     {
+      "h": "permitir + inf.",
+      "pos": "loc.",
+      "zh": "使……成为可能",
+      "surface": "han permitido",
+      "source": "supplement"
+     },
+     {
+      "h": "hace poco",
+      "pos": "loc.",
+      "zh": "不久前",
+      "surface": "hace poco",
+      "source": "supplement"
+     },
+     {
+      "h": "impensable",
+      "pos": "adj.",
+      "zh": "难以想象的",
+      "surface": "impensables",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No obstante, este crecimiento también ha ampliado las desigualdades entre los grandes clubes y los equipos más modestos.",
+    "zh": "然而，这种增长也拉大了豪门俱乐部与实力较弱的球队之间的差距。",
+    "w": [
+     {
+      "h": "no obstante",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "No obstante",
+      "source": "supplement"
+     },
+     {
+      "h": "crecimiento",
+      "pos": "m.",
+      "zh": "增长",
+      "surface": "crecimiento",
+      "source": "supplement"
+     },
+     {
+      "h": "ampliar",
+      "pos": "tr.",
+      "zh": "扩大，拉大",
+      "surface": "ampliado",
+      "source": "supplement"
+     },
+     {
+      "h": "desigualdad",
+      "pos": "f.",
+      "zh": "不平等，差距",
+      "surface": "desigualdades",
+      "source": "supplement"
+     },
+     {
+      "h": "modesto",
+      "pos": "adj.",
+      "zh": "实力弱的，规模小的",
+      "surface": "modestos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Mientras unos pocos fichan a las grandes estrellas, otros apenas logran mantener su propia cantera.",
+    "zh": "少数几家俱乐部签下大牌球星，而另一些却只能勉强维持自己的青训梯队。",
+    "w": [
+     {
+      "h": "mientras",
+      "pos": "conj.",
+      "zh": "而（表示对比）",
+      "surface": "Mientras",
+      "source": "supplement"
+     },
+     {
+      "h": "fichar",
+      "pos": "tr.",
+      "zh": "签下（球员）",
+      "surface": "fichan",
+      "source": "supplement"
+     },
+     {
+      "h": "apenas",
+      "pos": "adv.",
+      "zh": "勉强，几乎不",
+      "surface": "apenas",
+      "source": "supplement"
+     },
+     {
+      "h": "lograr",
+      "pos": "tr.",
+      "zh": "设法做到，成功",
+      "surface": "logran",
+      "source": "supplement"
+     },
+     {
+      "h": "cantera",
+      "pos": "f.",
+      "zh": "青训梯队",
+      "surface": "cantera",
+      "source": "supplement"
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Cuando los resultados dependen del presupuesto más que del esfuerzo, la competición se vuelve previsible y pierde interés.",
+    "zh": "当成绩更多地取决于预算而不是努力时，比赛就会变得可以预料，也就不再吸引人。",
+    "w": [
+     {
+      "h": "depender de",
+      "pos": "loc.",
+      "zh": "取决于",
+      "surface": "dependen del",
+      "source": "supplement"
+     },
+     {
+      "h": "presupuesto",
+      "pos": "m.",
+      "zh": "预算",
+      "surface": "presupuesto",
+      "source": "supplement"
+     },
+     {
+      "h": "más que",
+      "pos": "loc.",
+      "zh": "而不是，胜过",
+      "surface": "más que",
+      "source": "supplement"
+     },
+     {
+      "h": "volverse",
+      "pos": "prnl.",
+      "zh": "变得",
+      "surface": "se vuelve",
+      "source": "supplement"
+     },
+     {
+      "h": "previsible",
+      "pos": "adj.",
+      "zh": "可以预料的",
+      "surface": "previsible",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "De ahí que algunas ligas hayan establecido límites salariales y mecanismos para repartir los ingresos de forma más equilibrada.",
+    "zh": "正因如此，一些联赛设立了工资上限，并建立了更均衡地分配收入的机制。",
+    "w": [
+     {
+      "h": "de ahí que + subj.",
+      "pos": "loc.",
+      "zh": "因此（接虚拟式）",
+      "surface": "De ahí que",
+      "source": "supplement"
+     },
+     {
+      "h": "límite salarial",
+      "pos": "m.",
+      "zh": "工资上限",
+      "surface": "límites salariales",
+      "source": "supplement"
+     },
+     {
+      "h": "repartir",
+      "pos": "tr.",
+      "zh": "分配",
+      "surface": "repartir",
+      "source": "supplement"
+     },
+     {
+      "h": "ingreso",
+      "pos": "m.",
+      "zh": "收入（常用复数）",
+      "surface": "ingresos",
+      "source": "supplement"
+     },
+     {
+      "h": "equilibrado",
+      "pos": "adj.",
+      "zh": "均衡的",
+      "surface": "equilibrada",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Al fin y al cabo, el dinero puede comprar talento, pero no debería comprar la emoción de no saber quién va a ganar.",
+    "zh": "归根结底，金钱可以买来人才，却不应该买走“不知道谁会赢”的那份激动。",
+    "w": [
+     {
+      "h": "al fin y al cabo",
+      "pos": "loc.",
+      "zh": "归根结底，毕竟",
+      "surface": "Al fin y al cabo",
+      "source": "supplement"
+     },
+     {
+      "h": "deber + inf.",
+      "pos": "loc.",
+      "zh": "应当（条件式更委婉）",
+      "surface": "debería",
+      "source": "supplement"
+     },
+     {
+      "h": "emoción",
+      "pos": "f.",
+      "zh": "激动，兴奋",
+      "surface": "emoción",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

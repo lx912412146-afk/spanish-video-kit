@@ -1,0 +1,84 @@
+{
+ "id": "a2_13",
+ "level": "A2",
+ "no": 13,
+ "title_es": "Una tarde en el museo",
+ "title_zh": "博物馆的一个下午",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 13 篇",
+ "header": "分级阅读 A2-13",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 13 篇。原创短文。主要语法：过去未完成时描写当时的想法和背景（no tenía muchas ganas、me parecían、hacía mucho tiempo que no la veía、estaba、era），简单过去时叙述经过（me invitó、acepté、vimos、nos contó、empecé、nos quedamos），现在完成时 ya he vuelto dos veces，比较 con más atención。10 句 109 词。特别判断：Lucía 译“露西娅”；第 2 句前面有 no，tenía muchas ganas 译“不太想去”，词头写 tener (muchas) ganas；第 3 句 hacía mucho tiempo que no la veía 整体标 loc.，词头写 hace + 时间 + que；第 5 句 Al entrar 是 al + 原形，译“一进去”；第 6 句 guía 指展览的讲解员；第 8 句 Mi favorito 是形容词名词化，仍按形容词 favorito 标；leyendo 不带宾语，leer 标 intr.；第 9 句 rápido 修饰动词 pasó，标 adv.；第 10 句 me encantan 词头写 encantar（和 gustar 同类，标 intr.）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Un sábado por la tarde, mi amiga Lucía me invitó a ver una exposición.", "zh": "一个星期六的下午，我的朋友露西娅约我去看一个展览。", "w": [
+    {"h": "por la tarde", "pos": "loc.", "zh": "下午", "surface": "por la tarde", "source": "supplement"},
+    {"h": "amiga", "pos": "f.", "zh": "朋友（女）", "surface": "amiga", "source": "supplement"},
+    {"h": "invitar a + inf.", "pos": "loc.", "zh": "邀请（某人）做……", "surface": "invitó a", "source": "supplement"},
+    {"h": "ver", "pos": "tr.", "zh": "看，观看", "surface": "ver", "source": "supplement"},
+    {"h": "exposición", "pos": "f.", "zh": "展览", "surface": "exposición", "source": "supplement"}]},
+   {"es": "Yo no tenía muchas ganas, porque los museos siempre me parecían aburridos.", "zh": "我不太想去，因为我一直觉得博物馆很无聊。", "w": [
+    {"h": "tener (muchas) ganas", "pos": "loc.", "zh": "（很）想（做某事）", "surface": "tenía muchas ganas", "source": "supplement"},
+    {"h": "museo", "pos": "m.", "zh": "博物馆", "surface": "museos", "source": "supplement"},
+    {"h": "siempre", "pos": "adv.", "zh": "总是，一向", "surface": "siempre", "source": "supplement"},
+    {"h": "parecer", "pos": "intr.", "zh": "（让人）觉得", "surface": "parecían", "source": "supplement"},
+    {"h": "aburrido", "pos": "adj.", "zh": "无聊的", "surface": "aburridos", "source": "supplement"}]},
+   {"es": "Pero acepté porque hacía mucho tiempo que no la veía.", "zh": "不过我还是答应了，因为我已经很久没见到她了。", "w": [
+    {"h": "pero", "pos": "conj.", "zh": "但是，不过", "surface": "Pero", "source": "supplement"},
+    {"h": "aceptar", "pos": "tr.", "zh": "接受，答应", "surface": "acepté", "source": "supplement"},
+    {"h": "hace + 时间 + que", "pos": "loc.", "zh": "已经有……（时间）了", "surface": "hacía mucho tiempo que", "source": "supplement"}]},
+   {"es": "El museo estaba en un edificio antiguo, cerca del río.", "zh": "博物馆设在一栋古老的建筑里，离河很近。", "w": [
+    {"h": "estar", "pos": "intr.", "zh": "位于，在", "surface": "estaba", "source": "supplement"},
+    {"h": "edificio", "pos": "m.", "zh": "建筑，楼房", "surface": "edificio", "source": "supplement"},
+    {"h": "antiguo", "pos": "adj.", "zh": "古老的", "surface": "antiguo", "source": "supplement"},
+    {"h": "cerca de", "pos": "loc.", "zh": "在……附近", "surface": "cerca del", "source": "supplement"},
+    {"h": "río", "pos": "m.", "zh": "河", "surface": "río", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Al entrar, vimos cuadros enormes de colores muy vivos.", "zh": "一进去，我们就看到了色彩非常鲜艳的巨幅画作。", "w": [
+    {"h": "al + inf.", "pos": "loc.", "zh": "一……就，……的时候", "surface": "Al entrar", "source": "supplement"},
+    {"h": "cuadro", "pos": "m.", "zh": "画，画作", "surface": "cuadros", "source": "supplement"},
+    {"h": "enorme", "pos": "adj.", "zh": "巨大的", "surface": "enormes", "source": "supplement"},
+    {"h": "color", "pos": "m.", "zh": "颜色，色彩", "surface": "colores", "source": "supplement"},
+    {"h": "vivo", "pos": "adj.", "zh": "鲜艳的", "surface": "vivos", "source": "supplement"}]},
+   {"es": "Una guía muy simpática nos contó la historia de cada cuadro.", "zh": "一位非常亲切的讲解员给我们讲了每幅画背后的故事。", "w": [
+    {"h": "guía", "pos": "f.", "zh": "讲解员，导游（女）", "surface": "guía", "source": "supplement"},
+    {"h": "simpático", "pos": "adj.", "zh": "亲切的，友善的", "surface": "simpática", "source": "supplement"},
+    {"h": "contar", "pos": "tr.", "zh": "讲，讲述", "surface": "contó", "source": "supplement"},
+    {"h": "historia", "pos": "f.", "zh": "故事；来历", "surface": "historia", "source": "supplement"},
+    {"h": "cada", "pos": "adj.", "zh": "每个", "surface": "cada", "source": "supplement"}]},
+   {"es": "Poco a poco, empecé a mirar los cuadros con más atención.", "zh": "渐渐地，我开始更仔细地看那些画。", "w": [
+    {"h": "poco a poco", "pos": "loc.", "zh": "渐渐地", "surface": "Poco a poco", "source": "supplement"},
+    {"h": "empezar a + inf.", "pos": "loc.", "zh": "开始（做某事）", "surface": "empecé a", "source": "supplement"},
+    {"h": "mirar", "pos": "tr.", "zh": "看，观看", "surface": "mirar", "source": "supplement"},
+    {"h": "con (más) atención", "pos": "loc.", "zh": "（更）仔细地", "surface": "con más atención", "source": "supplement"}]},
+   {"es": "Mi favorito era un cuadro pequeño de una chica leyendo.", "zh": "我最喜欢的是一幅小画，画的是一个正在看书的女孩。", "w": [
+    {"h": "favorito", "pos": "adj.", "zh": "最喜欢的", "surface": "favorito", "source": "supplement"},
+    {"h": "pequeño", "pos": "adj.", "zh": "小的", "surface": "pequeño", "source": "supplement"},
+    {"h": "chica", "pos": "f.", "zh": "女孩，姑娘", "surface": "chica", "source": "supplement"},
+    {"h": "leer", "pos": "intr.", "zh": "读书，看书", "surface": "leyendo", "source": "supplement"}]},
+   {"es": "Nos quedamos allí tres horas y el tiempo pasó muy rápido.", "zh": "我们在那里待了三个小时，时间过得飞快。", "w": [
+    {"h": "quedarse", "pos": "prnl.", "zh": "待，停留", "surface": "Nos quedamos", "source": "supplement"},
+    {"h": "allí", "pos": "adv.", "zh": "在那里", "surface": "allí", "source": "supplement"},
+    {"h": "hora", "pos": "f.", "zh": "小时", "surface": "horas", "source": "supplement"},
+    {"h": "pasar", "pos": "intr.", "zh": "（时间）过去", "surface": "pasó", "source": "supplement"},
+    {"h": "rápido", "pos": "adv.", "zh": "快，迅速", "surface": "rápido", "source": "supplement"}]},
+   {"es": "Ahora me encantan los museos y ya he vuelto dos veces.", "zh": "现在我特别喜欢博物馆，已经又去过两次了。", "w": [
+    {"h": "ahora", "pos": "adv.", "zh": "现在", "surface": "Ahora", "source": "supplement"},
+    {"h": "encantar", "pos": "intr.", "zh": "让（人）非常喜欢", "surface": "me encantan", "source": "supplement"},
+    {"h": "ya", "pos": "adv.", "zh": "已经", "surface": "ya", "source": "supplement"},
+    {"h": "volver", "pos": "intr.", "zh": "再去，回到", "surface": "he vuelto", "source": "supplement"},
+    {"h": "vez", "pos": "f.", "zh": "次", "surface": "veces", "source": "supplement"}]}
+  ]
+ ]
+}

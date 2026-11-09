@@ -1,0 +1,88 @@
+{
+ "id": "a2_18",
+ "level": "A2",
+ "no": 18,
+ "title_es": "Cambiar de casa",
+ "title_zh": "搬家",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 18 篇",
+ "header": "分级阅读 A2-18",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 18 篇。原创短文。叙述者是女性（contenta）。主要语法：简单过去时 nos mudamos，过去未完成时描写旧家（vivíamos、era、estaba、pasaban、echaba de menos），现在时描写新家，比较级 más pequeño que、mucha más luz，现在完成时 ya me he acostumbrado。11 句 122 词。特别判断：第 1 句 piso 指公寓套房；第 2 句 afueras 只用复数，词头写 afueras（f.）；第 4 句 padres 指父母，词头写 padre；pasar 带时间宾语，标 tr.；第 5 句 el piso 指新公寓、la casa 指旧房子，译文补出“新”“老”；mucha más luz 的 mucha 修饰比较，释义“很多的；……得多”；第 6 句 colegio 指中小学；第 9 句接着第 8 句想念花园的话，por suerte 整体标 loc.，al lado de casa 是口语里“家旁边”的说法；第 10 句 lo malo es que 整体标 loc.，hacen mucho ruido 词头写 hacer (mucho) ruido；第 11 句 el cambio 指搬家这件事，译“这次变化”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "El mes pasado nos mudamos a un piso nuevo.", "zh": "上个月，我们搬进了一套新公寓。", "w": [
+    {"h": "el mes pasado", "pos": "loc.", "zh": "上个月", "surface": "El mes pasado", "source": "supplement"},
+    {"h": "mudarse", "pos": "prnl.", "zh": "搬家", "surface": "nos mudamos", "source": "supplement"},
+    {"h": "piso", "pos": "m.", "zh": "公寓，套房", "surface": "piso", "source": "supplement"},
+    {"h": "nuevo", "pos": "adj.", "zh": "新的", "surface": "nuevo", "source": "supplement"}]},
+   {"es": "Antes vivíamos en una casa vieja en las afueras.", "zh": "以前我们住在郊区的一栋旧房子里。", "w": [
+    {"h": "antes", "pos": "adv.", "zh": "以前", "surface": "Antes", "source": "supplement"},
+    {"h": "vivir", "pos": "intr.", "zh": "住，居住", "surface": "vivíamos", "source": "supplement"},
+    {"h": "casa", "pos": "f.", "zh": "房子", "surface": "casa", "source": "supplement"},
+    {"h": "viejo", "pos": "adj.", "zh": "旧的", "surface": "vieja", "source": "supplement"},
+    {"h": "afueras", "pos": "f.", "zh": "郊区，城郊", "surface": "afueras", "source": "supplement"}]},
+   {"es": "Aquella casa era grande y tranquila, pero estaba lejos de todo.", "zh": "那栋房子又大又安静，可是离哪儿都远。", "w": [
+    {"h": "aquel", "pos": "adj.", "zh": "那，那个（远指）", "surface": "Aquella", "source": "supplement"},
+    {"h": "grande", "pos": "adj.", "zh": "大的", "surface": "grande", "source": "supplement"},
+    {"h": "tranquilo", "pos": "adj.", "zh": "安静的", "surface": "tranquila", "source": "supplement"},
+    {"h": "pero", "pos": "conj.", "zh": "但是，可是", "surface": "pero", "source": "supplement"},
+    {"h": "lejos de", "pos": "loc.", "zh": "离……远", "surface": "lejos de", "source": "supplement"}]},
+   {"es": "Mis padres pasaban casi dos horas en el coche cada día.", "zh": "我爸妈每天要在车上花将近两个小时。", "w": [
+    {"h": "padre", "pos": "m.", "zh": "父亲；（复）父母", "surface": "padres", "source": "supplement"},
+    {"h": "pasar", "pos": "tr.", "zh": "度过，花（时间）", "surface": "pasaban", "source": "supplement"},
+    {"h": "casi", "pos": "adv.", "zh": "将近，几乎", "surface": "casi", "source": "supplement"},
+    {"h": "coche", "pos": "m.", "zh": "汽车", "surface": "coche", "source": "supplement"},
+    {"h": "cada día", "pos": "loc.", "zh": "每天", "surface": "cada día", "source": "supplement"}]},
+   {"es": "El piso es más pequeño que la casa, pero tiene mucha más luz.", "zh": "新公寓比老房子小，但是采光好得多。", "w": [
+    {"h": "más + adj. + que", "pos": "loc.", "zh": "比……更……", "surface": "más pequeño que", "source": "supplement"},
+    {"h": "tener", "pos": "tr.", "zh": "有", "surface": "tiene", "source": "supplement"},
+    {"h": "mucho", "pos": "adj.", "zh": "很多的；……得多", "surface": "mucha", "source": "supplement"},
+    {"h": "luz", "pos": "f.", "zh": "光线，阳光", "surface": "luz", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Está en el centro, cerca de mi colegio.", "zh": "它在市中心，离我的学校很近。", "w": [
+    {"h": "centro", "pos": "m.", "zh": "市中心", "surface": "centro", "source": "supplement"},
+    {"h": "cerca de", "pos": "loc.", "zh": "在……附近，离……近", "surface": "cerca de", "source": "supplement"},
+    {"h": "colegio", "pos": "m.", "zh": "（中小）学校", "surface": "colegio", "source": "supplement"}]},
+   {"es": "Ahora voy andando al colegio y mi madre va en bicicleta al trabajo.", "zh": "现在我走路去上学，妈妈骑自行车去上班。", "w": [
+    {"h": "ahora", "pos": "adv.", "zh": "现在", "surface": "Ahora", "source": "supplement"},
+    {"h": "ir andando", "pos": "loc.", "zh": "走路去，步行去", "surface": "voy andando", "source": "supplement"},
+    {"h": "madre", "pos": "f.", "zh": "母亲，妈妈", "surface": "madre", "source": "supplement"},
+    {"h": "en bicicleta", "pos": "loc.", "zh": "骑自行车", "surface": "en bicicleta", "source": "supplement"},
+    {"h": "trabajo", "pos": "m.", "zh": "工作；工作单位", "surface": "trabajo", "source": "supplement"}]},
+   {"es": "Al principio echaba de menos mi antigua habitación y el jardín.", "zh": "一开始，我很想念原来的房间和花园。", "w": [
+    {"h": "al principio", "pos": "loc.", "zh": "起初，一开始", "surface": "Al principio", "source": "supplement"},
+    {"h": "echar de menos", "pos": "loc.", "zh": "想念，怀念", "surface": "echaba de menos", "source": "supplement"},
+    {"h": "antiguo", "pos": "adj.", "zh": "以前的，原来的", "surface": "antigua", "source": "supplement"},
+    {"h": "habitación", "pos": "f.", "zh": "房间", "surface": "habitación", "source": "supplement"},
+    {"h": "jardín", "pos": "m.", "zh": "花园", "surface": "jardín", "source": "supplement"}]},
+   {"es": "Por suerte, hay un parque al lado de casa donde juego con mi perro.", "zh": "幸好家旁边有一个公园，我在那里和我的狗一起玩。", "w": [
+    {"h": "por suerte", "pos": "loc.", "zh": "幸好，幸亏", "surface": "Por suerte", "source": "supplement"},
+    {"h": "parque", "pos": "m.", "zh": "公园", "surface": "parque", "source": "supplement"},
+    {"h": "al lado de", "pos": "loc.", "zh": "在……旁边", "surface": "al lado de", "source": "supplement"},
+    {"h": "jugar", "pos": "intr.", "zh": "玩", "surface": "juego", "source": "supplement"},
+    {"h": "perro", "pos": "m.", "zh": "狗", "surface": "perro", "source": "supplement"}]},
+   {"es": "Lo malo es que los vecinos de arriba hacen mucho ruido.", "zh": "不好的是，楼上的邻居很吵。", "w": [
+    {"h": "lo malo es que", "pos": "loc.", "zh": "不好的是", "surface": "Lo malo es que", "source": "supplement"},
+    {"h": "vecino", "pos": "m.", "zh": "邻居", "surface": "vecinos", "source": "supplement"},
+    {"h": "de arriba", "pos": "loc.", "zh": "楼上的", "surface": "de arriba", "source": "supplement"},
+    {"h": "hacer (mucho) ruido", "pos": "loc.", "zh": "弄出（很大的）响声，吵", "surface": "hacen mucho ruido", "source": "supplement"}]},
+   {"es": "Pero ya me he acostumbrado y estoy muy contenta con el cambio.", "zh": "不过我已经习惯了，对这次变化很满意。", "w": [
+    {"h": "ya", "pos": "adv.", "zh": "已经", "surface": "ya", "source": "supplement"},
+    {"h": "acostumbrarse", "pos": "prnl.", "zh": "习惯", "surface": "me he acostumbrado", "source": "supplement"},
+    {"h": "contento", "pos": "adj.", "zh": "满意的，高兴的", "surface": "contenta", "source": "supplement"},
+    {"h": "cambio", "pos": "m.", "zh": "变化，改变", "surface": "cambio", "source": "supplement"}]}
+  ]
+ ]
+}

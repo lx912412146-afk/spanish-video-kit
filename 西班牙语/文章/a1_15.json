@@ -1,0 +1,100 @@
+{
+ "id": "a1_15",
+ "level": "A1",
+ "no": 15,
+ "title_es": "Comprar ropa",
+ "title_zh": "买衣服",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 15 篇",
+ "header": "分级阅读 A1-15",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 15 篇。原创短文。和朋友去服装店挑衣服：颜色、尺码、试穿、价钱（价钱用单词写）。只用陈述式现在时和 A1 词汇，13 句 128 词，分两段：挑衣服和试穿，问价、付钱以后。为了把问价（cuánto cuesta）和总价分开说，写成 13 句，估算时长仍在范围内。特别判断：第 1 句 ir de compras 整体标 loc.，译作“逛街”；第 2 句 pantalones 词头写单数 pantalón，释义注明常用复数；第 3 句 de todos los colores 整体标 loc.，第 8 句的 todo 是代词“全部”，词义不同，单标；第 4 句 me gusta 后面接名词，按 a1_03 标“我喜欢”，译作“有一件……我很喜欢”；第 6 句 probarse 标 prnl.，surface 写 me pruebo；第 7 句 quedar 说衣服穿在身上的效果，释义“（衣服）穿起来”，和 muy bien 合起来译作“很合身”；第 8 句 dependienta 第一次出现，在这句标；这句是间接疑问句，cuánto 带重音，标 adv.；第 10 句 llevarse 指“买下”，标 prnl.；第 13 句 estar listo para 整体标 loc.。没有列举逗号。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Hoy es sábado y voy de compras con mi amiga Clara.", "zh": "今天是星期六，我和朋友克拉拉去逛街。", "w": [
+    {"h": "hoy", "pos": "adv.", "zh": "今天", "surface": "Hoy", "source": "supplement"},
+    {"h": "sábado", "pos": "m.", "zh": "星期六", "surface": "sábado", "source": "supplement"},
+    {"h": "ir de compras", "pos": "loc.", "zh": "去购物，逛街", "surface": "voy de compras", "source": "supplement"},
+    {"h": "amiga", "pos": "f.", "zh": "女性朋友", "surface": "amiga", "source": "supplement"}]},
+   {"es": "Necesito una camiseta nueva y unos pantalones para el verano.", "zh": "我需要一件新T恤和一条夏天穿的裤子。", "w": [
+    {"h": "necesitar", "pos": "tr.", "zh": "需要", "surface": "Necesito", "source": "supplement"},
+    {"h": "camiseta", "pos": "f.", "zh": "T恤衫", "surface": "camiseta", "source": "supplement"},
+    {"h": "nuevo", "pos": "adj.", "zh": "新的", "surface": "nueva", "source": "supplement"},
+    {"h": "pantalón", "pos": "m.", "zh": "裤子（常用复数）", "surface": "pantalones", "source": "supplement"},
+    {"h": "verano", "pos": "m.", "zh": "夏天", "surface": "verano", "source": "supplement"}]},
+   {"es": "En la tienda hay mucha ropa bonita de todos los colores.", "zh": "店里有很多好看的衣服，各种颜色都有。", "w": [
+    {"h": "tienda", "pos": "f.", "zh": "商店", "surface": "tienda", "source": "supplement"},
+    {"h": "haber", "pos": "tr.", "zh": "有（hay：无人称形式）", "surface": "hay", "source": "supplement"},
+    {"h": "ropa", "pos": "f.", "zh": "衣服", "surface": "ropa", "source": "supplement"},
+    {"h": "bonito", "pos": "adj.", "zh": "漂亮的，好看的", "surface": "bonita", "source": "supplement"},
+    {"h": "de todos los colores", "pos": "loc.", "zh": "各种颜色的", "surface": "de todos los colores", "source": "supplement"}]},
+   {"es": "Me gusta una camiseta azul, pero es pequeña para mí.", "zh": "有一件蓝色的T恤我很喜欢，可是对我来说小了。", "w": [
+    {"h": "me gusta", "pos": "loc.", "zh": "我喜欢", "surface": "Me gusta", "source": "supplement"},
+    {"h": "azul", "pos": "adj.", "zh": "蓝色的", "surface": "azul", "source": "supplement"},
+    {"h": "pero", "pos": "conj.", "zh": "但是", "surface": "pero", "source": "supplement"},
+    {"h": "pequeño", "pos": "adj.", "zh": "小的", "surface": "pequeña", "source": "supplement"},
+    {"h": "para mí", "pos": "loc.", "zh": "对我来说", "surface": "para mí", "source": "supplement"}]},
+   {"es": "Entonces busco una talla más grande.", "zh": "于是我去找大一号的。", "w": [
+    {"h": "entonces", "pos": "adv.", "zh": "于是，那么", "surface": "Entonces", "source": "supplement"},
+    {"h": "buscar", "pos": "tr.", "zh": "找，寻找", "surface": "busco", "source": "supplement"},
+    {"h": "talla", "pos": "f.", "zh": "尺码", "surface": "talla", "source": "supplement"},
+    {"h": "grande", "pos": "adj.", "zh": "大的", "surface": "grande", "source": "supplement"}]},
+   {"es": "Entro en el probador y me pruebo la camiseta y unos pantalones negros.", "zh": "我走进试衣间，试穿这件T恤和一条黑色的裤子。", "w": [
+    {"h": "entrar", "pos": "intr.", "zh": "进，进入", "surface": "Entro", "source": "supplement"},
+    {"h": "probador", "pos": "m.", "zh": "试衣间", "surface": "probador", "source": "supplement"},
+    {"h": "probarse", "pos": "prnl.", "zh": "试穿", "surface": "me pruebo", "source": "supplement"},
+    {"h": "negro", "pos": "adj.", "zh": "黑色的", "surface": "negros", "source": "supplement"}]}
+  ],
+  [
+   {"es": "La camiseta me queda muy bien y los pantalones también.", "zh": "这件T恤我穿起来很合身，裤子也一样。", "w": [
+    {"h": "quedar", "pos": "intr.", "zh": "（衣服）穿起来", "surface": "queda", "source": "supplement"},
+    {"h": "muy", "pos": "adv.", "zh": "很，非常", "surface": "muy", "source": "supplement"},
+    {"h": "bien", "pos": "adv.", "zh": "好；合适", "surface": "bien", "source": "supplement"},
+    {"h": "también", "pos": "adv.", "zh": "也", "surface": "también", "source": "supplement"}]},
+   {"es": "Le pregunto a la dependienta cuánto cuesta todo.", "zh": "我问店员全部要多少钱。", "w": [
+    {"h": "preguntar", "pos": "tr.", "zh": "问", "surface": "pregunto", "source": "supplement"},
+    {"h": "dependienta", "pos": "f.", "zh": "女店员", "surface": "dependienta", "source": "supplement"},
+    {"h": "cuánto", "pos": "adv.", "zh": "多少", "surface": "cuánto", "source": "supplement"},
+    {"h": "costar", "pos": "intr.", "zh": "价钱是，值", "surface": "cuesta", "source": "supplement"},
+    {"h": "todo", "pos": "pron.", "zh": "全部，一切", "surface": "todo", "source": "supplement"}]},
+   {"es": "Ella me dice que son treinta euros en total.", "zh": "她告诉我一共三十欧元。", "w": [
+    {"h": "ella", "pos": "pron.", "zh": "她", "surface": "Ella", "source": "supplement"},
+    {"h": "decir", "pos": "tr.", "zh": "说，告诉", "surface": "dice", "source": "supplement"},
+    {"h": "treinta", "pos": "num.", "zh": "三十", "surface": "treinta", "source": "supplement"},
+    {"h": "euro", "pos": "m.", "zh": "欧元", "surface": "euros", "source": "supplement"},
+    {"h": "en total", "pos": "loc.", "zh": "一共，总共", "surface": "en total", "source": "supplement"}]},
+   {"es": "Es un buen precio y me llevo las dos cosas.", "zh": "价钱不错，两件我都买下了。", "w": [
+    {"h": "bueno", "pos": "adj.", "zh": "好的", "surface": "buen", "source": "supplement"},
+    {"h": "precio", "pos": "m.", "zh": "价格，价钱", "surface": "precio", "source": "supplement"},
+    {"h": "llevarse", "pos": "prnl.", "zh": "买下，拿走", "surface": "me llevo", "source": "supplement"},
+    {"h": "dos", "pos": "num.", "zh": "二，两", "surface": "dos", "source": "supplement"},
+    {"h": "cosa", "pos": "f.", "zh": "东西", "surface": "cosas", "source": "supplement"}]},
+   {"es": "Pago y la dependienta me da una bolsa de papel.", "zh": "我付完钱，店员给我一个纸袋。", "w": [
+    {"h": "pagar", "pos": "intr.", "zh": "付钱", "surface": "Pago", "source": "supplement"},
+    {"h": "dar", "pos": "tr.", "zh": "给", "surface": "da", "source": "supplement"},
+    {"h": "bolsa", "pos": "f.", "zh": "袋子", "surface": "bolsa", "source": "supplement"},
+    {"h": "papel", "pos": "m.", "zh": "纸", "surface": "papel", "source": "supplement"}]},
+   {"es": "Después, Clara y yo tomamos un helado en la plaza.", "zh": "然后，我和克拉拉在广场上吃冰淇淋。", "w": [
+    {"h": "después", "pos": "adv.", "zh": "然后，之后", "surface": "Después", "source": "supplement"},
+    {"h": "tomar", "pos": "tr.", "zh": "吃；喝", "surface": "tomamos", "source": "supplement"},
+    {"h": "helado", "pos": "m.", "zh": "冰淇淋", "surface": "helado", "source": "supplement"},
+    {"h": "plaza", "pos": "f.", "zh": "广场", "surface": "plaza", "source": "supplement"}]},
+   {"es": "Ahora tengo ropa nueva y estoy lista para el verano.", "zh": "现在我有了新衣服，为夏天做好了准备。", "w": [
+    {"h": "ahora", "pos": "adv.", "zh": "现在", "surface": "Ahora", "source": "supplement"},
+    {"h": "tener", "pos": "tr.", "zh": "有", "surface": "tengo", "source": "supplement"},
+    {"h": "estar listo para", "pos": "loc.", "zh": "为……做好准备", "surface": "estoy lista para", "source": "supplement"}]}
+  ]
+ ]
+}

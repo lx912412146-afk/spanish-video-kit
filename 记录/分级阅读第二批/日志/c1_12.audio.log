@@ -1,0 +1,24 @@
+/bin/sh: sox: command not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 1/1 5.8 秒音频，用时 69 秒
+qwen3tts.py: 加载 14.4 秒，合成 1 段 68.8 秒
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  合成缓存：11 段直接用缓存，1 段新合成
+  合成 12 段，用时 84 秒
+  慢速电平 1.0 秒 ±4 dB：短时波动 1.01 LU，短时响度波动（朗读范围内） 1.01 LU（上限 1.0），加强一档再试
+  合成缓存：12 段直接用缓存，0 段新合成
+  用慢速电平 0.75 秒 ±6 dB
+  响度：整体 -16.43 LUFS，句间最大偏差 0.41 LU，短时波动（朗读范围）0.96 LU（含首尾静音的原测法 1.07，只记录），峰值 -1.61 dBFS；电磁音：梳状线 -0.48 dB，全频段最强 15000 Hz +5.6 dB
+已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/c1_12_Los_limites_de_la_meritocracia.mp3（57.7 秒），检查全部通过

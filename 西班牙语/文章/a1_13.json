@@ -1,0 +1,93 @@
+{
+ "id": "a1_13",
+ "level": "A1",
+ "no": 13,
+ "title_es": "El desayuno",
+ "title_zh": "早餐",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 13 篇",
+ "header": "分级阅读 A1-13",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 13 篇。原创短文。一家人工作日和星期天的早餐有什么不同。只用陈述式现在时和 A1 词汇，12 句 131 词，分两段：周一到周五匆忙的早饭，星期天悠闲的早饭。特别判断：第 1 句 de lunes a viernes 整体标 loc.，rápido 在这里说早饭吃得匆忙，释义“快的；匆忙的”；第 2 句 padres 指父母，词头写 padre；第 3 句 café con leche 是名词短语，按 a1_02 标 m.，de pie 整体标 loc.；第 5 句 leche 已在第 3 句的 café con leche 里出现，不再单标；第 6 句 el autobús del colegio 译作“校车”；第 8 句 tener prisa 整体标 loc.，todos 作主语指“大家”，词头写 todo、标 pron.；第 9 句 hace zumo de naranja 按中文习惯译作“榨橙汁”，hacer 释义注明“这里指榨（果汁）”，zumo de naranja 是名词短语，标 m.；第 10 句 poner la mesa 整体标 loc.，译作“摆餐具”；第 11 句 juntos 和主语一致，按 a1_01 标 adj.。没有列举逗号。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "De lunes a viernes, el desayuno en casa es muy rápido.", "zh": "周一到周五，我们家的早饭吃得很匆忙。", "w": [
+    {"h": "de lunes a viernes", "pos": "loc.", "zh": "从周一到周五", "surface": "De lunes a viernes", "source": "supplement"},
+    {"h": "desayuno", "pos": "m.", "zh": "早饭，早餐", "surface": "desayuno", "source": "supplement"},
+    {"h": "en casa", "pos": "loc.", "zh": "在家", "surface": "en casa", "source": "supplement"},
+    {"h": "muy", "pos": "adv.", "zh": "很，非常", "surface": "muy", "source": "supplement"},
+    {"h": "rápido", "pos": "adj.", "zh": "快的；匆忙的", "surface": "rápido", "source": "supplement"}]},
+   {"es": "Mis padres se levantan a las seis y media porque trabajan lejos.", "zh": "我爸妈六点半就起床，因为他们上班的地方很远。", "w": [
+    {"h": "padre", "pos": "m.", "zh": "父亲；（复数）父母", "surface": "padres", "source": "supplement"},
+    {"h": "levantarse", "pos": "prnl.", "zh": "起床", "surface": "se levantan", "source": "supplement"},
+    {"h": "seis", "pos": "num.", "zh": "六", "surface": "seis", "source": "supplement"},
+    {"h": "trabajar", "pos": "intr.", "zh": "工作，上班", "surface": "trabajan", "source": "supplement"},
+    {"h": "lejos", "pos": "adv.", "zh": "远，在远处", "surface": "lejos", "source": "supplement"}]},
+   {"es": "Mi madre toma un café con leche de pie en la cocina.", "zh": "我妈妈站在厨房里喝一杯牛奶咖啡。", "w": [
+    {"h": "madre", "pos": "f.", "zh": "母亲，妈妈", "surface": "madre", "source": "supplement"},
+    {"h": "tomar", "pos": "tr.", "zh": "喝；吃", "surface": "toma", "source": "supplement"},
+    {"h": "café con leche", "pos": "m.", "zh": "牛奶咖啡", "surface": "café con leche", "source": "supplement"},
+    {"h": "de pie", "pos": "loc.", "zh": "站着", "surface": "de pie", "source": "supplement"},
+    {"h": "cocina", "pos": "f.", "zh": "厨房", "surface": "cocina", "source": "supplement"}]},
+   {"es": "Mi padre come una tostada y sale de casa muy pronto.", "zh": "我爸爸吃一片烤面包，很早就出门。", "w": [
+    {"h": "comer", "pos": "tr.", "zh": "吃", "surface": "come", "source": "supplement"},
+    {"h": "tostada", "pos": "f.", "zh": "烤面包片", "surface": "tostada", "source": "supplement"},
+    {"h": "salir de casa", "pos": "loc.", "zh": "出门", "surface": "sale de casa", "source": "supplement"},
+    {"h": "pronto", "pos": "adv.", "zh": "早", "surface": "pronto", "source": "supplement"}]},
+   {"es": "Mi hermano y yo bebemos un vaso de leche y comemos galletas.", "zh": "我和弟弟喝一杯牛奶，再吃点饼干。", "w": [
+    {"h": "hermano", "pos": "m.", "zh": "兄弟；这里指弟弟", "surface": "hermano", "source": "supplement"},
+    {"h": "beber", "pos": "tr.", "zh": "喝", "surface": "bebemos", "source": "supplement"},
+    {"h": "vaso", "pos": "m.", "zh": "杯子", "surface": "vaso", "source": "supplement"},
+    {"h": "galleta", "pos": "f.", "zh": "饼干", "surface": "galletas", "source": "supplement"}]},
+   {"es": "Nunca tenemos mucho tiempo porque el autobús del colegio llega a las ocho.", "zh": "我们从来都没有多少时间，因为校车八点就到。", "w": [
+    {"h": "nunca", "pos": "adv.", "zh": "从不，从来不", "surface": "Nunca", "source": "supplement"},
+    {"h": "tiempo", "pos": "m.", "zh": "时间", "surface": "tiempo", "source": "supplement"},
+    {"h": "autobús", "pos": "m.", "zh": "公共汽车，巴士", "surface": "autobús", "source": "supplement"},
+    {"h": "colegio", "pos": "m.", "zh": "（中小）学校", "surface": "colegio", "source": "supplement"},
+    {"h": "llegar", "pos": "intr.", "zh": "到，到达", "surface": "llega", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Pero los domingos el desayuno es muy diferente.", "zh": "可是每到星期天，早饭就大不一样了。", "w": [
+    {"h": "pero", "pos": "conj.", "zh": "但是", "surface": "Pero", "source": "supplement"},
+    {"h": "los domingos", "pos": "loc.", "zh": "每个星期天", "surface": "los domingos", "source": "supplement"},
+    {"h": "diferente", "pos": "adj.", "zh": "不同的", "surface": "diferente", "source": "supplement"}]},
+   {"es": "Nadie tiene prisa y todos nos levantamos tarde.", "zh": "谁都不着急，大家都起得很晚。", "w": [
+    {"h": "nadie", "pos": "pron.", "zh": "没有人，谁也不", "surface": "Nadie", "source": "supplement"},
+    {"h": "tener prisa", "pos": "loc.", "zh": "着急，赶时间", "surface": "tiene prisa", "source": "supplement"},
+    {"h": "todo", "pos": "pron.", "zh": "全部；（复数）大家", "surface": "todos", "source": "supplement"},
+    {"h": "tarde", "pos": "adv.", "zh": "晚，迟", "surface": "tarde", "source": "supplement"}]},
+   {"es": "Mi padre prepara tortitas y mi madre hace zumo de naranja.", "zh": "爸爸做松饼，妈妈榨橙汁。", "w": [
+    {"h": "preparar", "pos": "tr.", "zh": "做，准备", "surface": "prepara", "source": "supplement"},
+    {"h": "tortita", "pos": "f.", "zh": "松饼，薄煎饼", "surface": "tortitas", "source": "supplement"},
+    {"h": "hacer", "pos": "tr.", "zh": "做；这里指榨（果汁）", "surface": "hace", "source": "supplement"},
+    {"h": "zumo de naranja", "pos": "m.", "zh": "橙汁", "surface": "zumo de naranja", "source": "supplement"}]},
+   {"es": "Mi hermano pone la mesa y yo corto la fruta.", "zh": "弟弟摆餐具，我切水果。", "w": [
+    {"h": "poner la mesa", "pos": "loc.", "zh": "摆餐具，摆桌子", "surface": "pone la mesa", "source": "supplement"},
+    {"h": "cortar", "pos": "tr.", "zh": "切", "surface": "corto", "source": "supplement"},
+    {"h": "fruta", "pos": "f.", "zh": "水果", "surface": "fruta", "source": "supplement"}]},
+   {"es": "Desayunamos juntos en la terraza y hablamos de muchas cosas.", "zh": "我们一起在露台上吃早饭，聊很多事情。", "w": [
+    {"h": "desayunar", "pos": "intr.", "zh": "吃早饭", "surface": "Desayunamos", "source": "supplement"},
+    {"h": "junto", "pos": "adj.", "zh": "一起的，在一起的", "surface": "juntos", "source": "supplement"},
+    {"h": "terraza", "pos": "f.", "zh": "露台，阳台", "surface": "terraza", "source": "supplement"},
+    {"h": "hablar de", "pos": "loc.", "zh": "谈论，聊", "surface": "hablamos de", "source": "supplement"},
+    {"h": "cosa", "pos": "f.", "zh": "事情", "surface": "cosas", "source": "supplement"}]},
+   {"es": "Para mí, el desayuno del domingo es el mejor momento de la semana.", "zh": "对我来说，星期天的早饭是一周里最美好的时光。", "w": [
+    {"h": "para mí", "pos": "loc.", "zh": "对我来说", "surface": "Para mí", "source": "supplement"},
+    {"h": "mejor", "pos": "adj.", "zh": "最好的", "surface": "mejor", "source": "supplement"},
+    {"h": "momento", "pos": "m.", "zh": "时刻，时光", "surface": "momento", "source": "supplement"},
+    {"h": "semana", "pos": "f.", "zh": "星期，周", "surface": "semana", "source": "supplement"}]}
+  ]
+ ]
+}

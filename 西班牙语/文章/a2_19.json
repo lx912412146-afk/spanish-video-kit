@@ -1,0 +1,86 @@
+{
+ "id": "a2_19",
+ "level": "A2",
+ "no": 19,
+ "title_es": "Aprender a nadar",
+ "title_zh": "学游泳",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 19 篇",
+ "header": "分级阅读 A2-19",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 19 篇。原创短文。叙述者是男性（de niño）。主要语法：过去未完成时描写小时候和学游泳前后的状态（no había、me daba vergüenza、evitaba、tenía tanto miedo、era muy paciente、podía），简单过去时叙述转折（aprendí、me apunté、perdí el miedo），现在时说现在，现在完成时 he aprendido 作结。11 句 126 词。特别判断：第 1 句 nunca aprendí a nadar 译“一直没学会游泳”；第 2 句 me daba vergüenza 词头写 darle vergüenza a uno，译文补出“为此”；第 3 句 un curso para adultos 译“成人游泳班”；第 4 句 tanto miedo que 是 tanto…que 结构，tanto 单独标 adj.；entrar 指下水；第 6 句 perdí el miedo 译“不再害怕了”，perder 释义取“失去（恐惧等）”，miedo 已在第 4 句标过；aprendí a 在第 1 句已经标过，这里不再标；第 8 句呼应第 2 句不敢去海滩，fui 和 nadé 的词头 ir、nadar 前面已经出现，不再标；第 9 句 tres veces por semana 词头写 数词 + veces por semana；第 10 句 el agua 是阴性名词（单数前用 el），标 f.；第 11 句 nunca es tarde para 是固定说法，整体标 loc.（nunca 已在第 1 句单独标过）；he aprendido、aprender 和第 1 句 aprender a 同词，不再标。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "De niño nunca aprendí a nadar porque en mi pueblo no había piscina.", "zh": "我小时候一直没学会游泳，因为我们镇上没有游泳池。", "w": [
+    {"h": "de niño", "pos": "loc.", "zh": "小时候", "surface": "De niño", "source": "supplement"},
+    {"h": "nunca", "pos": "adv.", "zh": "从不，从来没有", "surface": "nunca", "source": "supplement"},
+    {"h": "aprender a + inf.", "pos": "loc.", "zh": "学会（做某事）", "surface": "aprendí a", "source": "supplement"},
+    {"h": "nadar", "pos": "intr.", "zh": "游泳", "surface": "nadar", "source": "supplement"},
+    {"h": "piscina", "pos": "f.", "zh": "游泳池", "surface": "piscina", "source": "supplement"}]},
+   {"es": "Durante años me daba vergüenza y evitaba ir a la playa.", "zh": "很多年来，我一直为此感到难为情，也总是避免去海滩。", "w": [
+    {"h": "durante", "pos": "prep.", "zh": "在……期间，持续", "surface": "Durante", "source": "supplement"},
+    {"h": "darle vergüenza a uno", "pos": "loc.", "zh": "（某人）感到难为情", "surface": "me daba vergüenza", "source": "supplement"},
+    {"h": "evitar", "pos": "tr.", "zh": "避免", "surface": "evitaba", "source": "supplement"},
+    {"h": "playa", "pos": "f.", "zh": "海滩", "surface": "playa", "source": "supplement"}]},
+   {"es": "El año pasado por fin me apunté a un curso para adultos.", "zh": "去年，我终于报了一个成人游泳班。", "w": [
+    {"h": "el año pasado", "pos": "loc.", "zh": "去年", "surface": "El año pasado", "source": "supplement"},
+    {"h": "por fin", "pos": "loc.", "zh": "终于", "surface": "por fin", "source": "supplement"},
+    {"h": "apuntarse a", "pos": "loc.", "zh": "报名参加", "surface": "me apunté a", "source": "supplement"},
+    {"h": "curso", "pos": "m.", "zh": "课程，培训班", "surface": "curso", "source": "supplement"},
+    {"h": "adulto", "pos": "m.", "zh": "成年人", "surface": "adultos", "source": "supplement"}]},
+   {"es": "El primer día tenía tanto miedo que no quería entrar.", "zh": "第一天我害怕得根本不想下水。", "w": [
+    {"h": "primero", "pos": "adj.", "zh": "第一的", "surface": "primer", "source": "supplement"},
+    {"h": "tanto", "pos": "adj.", "zh": "那么大的（以致……）", "surface": "tanto", "source": "supplement"},
+    {"h": "miedo", "pos": "m.", "zh": "害怕，恐惧", "surface": "miedo", "source": "supplement"},
+    {"h": "entrar", "pos": "intr.", "zh": "进去；下（水）", "surface": "entrar", "source": "supplement"}]}
+  ],
+  [
+   {"es": "La profesora era muy paciente y siempre me hablaba con calma.", "zh": "老师非常有耐心，总是心平气和地跟我说话。", "w": [
+    {"h": "profesora", "pos": "f.", "zh": "女老师", "surface": "profesora", "source": "supplement"},
+    {"h": "paciente", "pos": "adj.", "zh": "有耐心的", "surface": "paciente", "source": "supplement"},
+    {"h": "siempre", "pos": "adv.", "zh": "总是", "surface": "siempre", "source": "supplement"},
+    {"h": "hablar", "pos": "intr.", "zh": "说话", "surface": "hablaba", "source": "supplement"},
+    {"h": "con calma", "pos": "loc.", "zh": "心平气和地，平静地", "surface": "con calma", "source": "supplement"}]},
+   {"es": "Poco a poco perdí el miedo y aprendí a flotar.", "zh": "渐渐地，我不再害怕了，还学会了浮在水面上。", "w": [
+    {"h": "poco a poco", "pos": "loc.", "zh": "渐渐地", "surface": "Poco a poco", "source": "supplement"},
+    {"h": "perder", "pos": "tr.", "zh": "失去（恐惧等）", "surface": "perdí", "source": "supplement"},
+    {"h": "flotar", "pos": "intr.", "zh": "漂浮，浮起来", "surface": "flotar", "source": "supplement"}]},
+   {"es": "Después de dos meses, ya podía cruzar la piscina sin ayuda.", "zh": "两个月后，我已经能独自游过整个泳池了。", "w": [
+    {"h": "después de", "pos": "loc.", "zh": "在……之后", "surface": "Después de", "source": "supplement"},
+    {"h": "ya", "pos": "adv.", "zh": "已经", "surface": "ya", "source": "supplement"},
+    {"h": "poder", "pos": "tr.", "zh": "能，能够", "surface": "podía", "source": "supplement"},
+    {"h": "cruzar", "pos": "tr.", "zh": "横穿，（游）过", "surface": "cruzar", "source": "supplement"},
+    {"h": "sin ayuda", "pos": "loc.", "zh": "不靠帮助，独自", "surface": "sin ayuda", "source": "supplement"}]},
+   {"es": "Este verano fui a la playa con mis amigos y nadé en el mar por primera vez.", "zh": "今年夏天，我和朋友们去了海边，第一次在海里游了泳。", "w": [
+    {"h": "este verano", "pos": "loc.", "zh": "今年夏天", "surface": "Este verano", "source": "supplement"},
+    {"h": "amigo", "pos": "m.", "zh": "朋友", "surface": "amigos", "source": "supplement"},
+    {"h": "mar", "pos": "m.", "zh": "海，大海", "surface": "mar", "source": "supplement"},
+    {"h": "por primera vez", "pos": "loc.", "zh": "第一次", "surface": "por primera vez", "source": "supplement"}]},
+   {"es": "Ahora nado tres veces por semana y me siento mucho mejor.", "zh": "现在我每周游三次泳，感觉好多了。", "w": [
+    {"h": "ahora", "pos": "adv.", "zh": "现在", "surface": "Ahora", "source": "supplement"},
+    {"h": "数词 + veces por semana", "pos": "loc.", "zh": "每周……次", "surface": "tres veces por semana", "source": "supplement"},
+    {"h": "sentirse", "pos": "prnl.", "zh": "感觉", "surface": "me siento", "source": "supplement"},
+    {"h": "mejor", "pos": "adv.", "zh": "更好", "surface": "mejor", "source": "supplement"}]},
+   {"es": "El agua, que antes me asustaba tanto, ahora me relaja.", "zh": "以前那么让我害怕的水，现在却能让我放松。", "w": [
+    {"h": "agua", "pos": "f.", "zh": "水", "surface": "agua", "source": "supplement"},
+    {"h": "antes", "pos": "adv.", "zh": "以前", "surface": "antes", "source": "supplement"},
+    {"h": "asustar", "pos": "tr.", "zh": "使害怕，吓", "surface": "asustaba", "source": "supplement"},
+    {"h": "relajar", "pos": "tr.", "zh": "使放松", "surface": "relaja", "source": "supplement"}]},
+   {"es": "He aprendido que nunca es tarde para aprender algo nuevo.", "zh": "我明白了：学点新东西，什么时候都不晚。", "w": [
+    {"h": "nunca es tarde para", "pos": "loc.", "zh": "做……永远不晚", "surface": "nunca es tarde para", "source": "supplement"},
+    {"h": "algo", "pos": "pron.", "zh": "某事，某物", "surface": "algo", "source": "supplement"},
+    {"h": "nuevo", "pos": "adj.", "zh": "新的", "surface": "nuevo", "source": "supplement"}]}
+  ]
+ ]
+}

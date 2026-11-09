@@ -1,0 +1,93 @@
+{
+ "id": "a1_20",
+ "level": "A1",
+ "no": 20,
+ "title_es": "Mi vecina",
+ "title_zh": "我的邻居",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 20 篇",
+ "header": "分级阅读 A1-20",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 20 篇。原创短文。楼里一位上了年纪的女邻居：她的花，她怎么帮助大家。只用陈述式现在时（含 le gusta + 原形）和 A1 词汇，12 句 129 词，分两段：邻居和她的花，她怎么帮助邻居。特别判断：第 1 句 doña 是对年长女性的尊称，放在名字前、小写，释义“（尊称）太太，夫人”，doña Julia 译作“胡利娅太太”；el piso de abajo 译作“楼下”，de abajo 整体标 loc.；第 2 句 activa 说老人，译作“很有活力”；第 3 句 vive sola con un gato 译作“一个人住，和一只猫作伴”；第 4 句 de todos los colores 整体标 loc.，译作“五颜六色的”；第 5 句 las riega 的 las 指花，como con amigas 译作“就像跟朋友聊天一样”，como 按词典标 adv.；第 6 句 oler a 整体标 loc.，todo el edificio 的 todo 标 adj.；第 7 句 ayudar 不带宾语，标 intr.，译作“帮忙”；第 8 句 los padres 指楼里孩子的父母，译作“父母们”；第 10 句 bolsa de la compra 是名词短语，标 f.；第 11 句 invitar a + inf. 整体标 loc.，chocolate 指热巧克力；第 12 句 la quiero mucho 按中文习惯译作“我很喜欢她”。没有列举逗号。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Mi vecina se llama doña Julia y vive en el piso de abajo.", "zh": "我的邻居叫胡利娅太太，就住在我家楼下。", "w": [
+    {"h": "vecina", "pos": "f.", "zh": "女邻居", "surface": "vecina", "source": "supplement"},
+    {"h": "llamarse", "pos": "prnl.", "zh": "名叫，叫做", "surface": "se llama", "source": "supplement"},
+    {"h": "doña", "pos": "f.", "zh": "（尊称）太太，夫人", "surface": "doña", "source": "supplement"},
+    {"h": "piso", "pos": "m.", "zh": "公寓，套房", "surface": "piso", "source": "supplement"},
+    {"h": "de abajo", "pos": "loc.", "zh": "下面的；楼下的", "surface": "de abajo", "source": "supplement"}]},
+   {"es": "Tiene ochenta años, pero es muy activa y siempre está alegre.", "zh": "她八十岁了，可是很有活力，总是乐呵呵的。", "w": [
+    {"h": "ochenta", "pos": "num.", "zh": "八十", "surface": "ochenta", "source": "supplement"},
+    {"h": "pero", "pos": "conj.", "zh": "但是", "surface": "pero", "source": "supplement"},
+    {"h": "activo", "pos": "adj.", "zh": "有活力的，好动的", "surface": "activa", "source": "supplement"},
+    {"h": "siempre", "pos": "adv.", "zh": "总是", "surface": "siempre", "source": "supplement"},
+    {"h": "alegre", "pos": "adj.", "zh": "快乐的，开朗的", "surface": "alegre", "source": "supplement"}]},
+   {"es": "Vive sola con un gato gris muy tranquilo.", "zh": "她一个人住，和一只很安静的灰猫作伴。", "w": [
+    {"h": "solo", "pos": "adj.", "zh": "独自的，一个人的", "surface": "sola", "source": "supplement"},
+    {"h": "gato", "pos": "m.", "zh": "猫", "surface": "gato", "source": "supplement"},
+    {"h": "gris", "pos": "adj.", "zh": "灰色的", "surface": "gris", "source": "supplement"},
+    {"h": "tranquilo", "pos": "adj.", "zh": "安静的，温顺的", "surface": "tranquilo", "source": "supplement"}]},
+   {"es": "En su balcón tiene muchas flores de todos los colores.", "zh": "她的阳台上有很多花，五颜六色的。", "w": [
+    {"h": "balcón", "pos": "m.", "zh": "阳台", "surface": "balcón", "source": "supplement"},
+    {"h": "mucho", "pos": "adj.", "zh": "很多的", "surface": "muchas", "source": "supplement"},
+    {"h": "flor", "pos": "f.", "zh": "花", "surface": "flores", "source": "supplement"},
+    {"h": "de todos los colores", "pos": "loc.", "zh": "五颜六色的", "surface": "de todos los colores", "source": "supplement"}]},
+   {"es": "Las riega todas las mañanas y habla con ellas como con amigas.", "zh": "她每天早上给花浇水，还跟它们说话，就像跟朋友聊天一样。", "w": [
+    {"h": "regar", "pos": "tr.", "zh": "给……浇水", "surface": "riega", "source": "supplement"},
+    {"h": "todas las mañanas", "pos": "loc.", "zh": "每天早上", "surface": "todas las mañanas", "source": "supplement"},
+    {"h": "hablar con", "pos": "loc.", "zh": "和……说话", "surface": "habla con", "source": "supplement"},
+    {"h": "como", "pos": "adv.", "zh": "像……一样", "surface": "como", "source": "supplement"},
+    {"h": "amiga", "pos": "f.", "zh": "女性朋友", "surface": "amigas", "source": "supplement"}]},
+   {"es": "En primavera, todo el edificio huele a flores.", "zh": "到了春天，整栋楼都飘着花香。", "w": [
+    {"h": "primavera", "pos": "f.", "zh": "春天", "surface": "primavera", "source": "supplement"},
+    {"h": "todo", "pos": "adj.", "zh": "整个的，全部的", "surface": "todo", "source": "supplement"},
+    {"h": "edificio", "pos": "m.", "zh": "楼，大楼", "surface": "edificio", "source": "supplement"},
+    {"h": "oler a", "pos": "loc.", "zh": "有……的气味", "surface": "huele a", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Doña Julia conoce a todos los vecinos y le gusta mucho ayudar.", "zh": "胡利娅太太认识所有的邻居，而且很喜欢帮忙。", "w": [
+    {"h": "conocer", "pos": "tr.", "zh": "认识", "surface": "conoce", "source": "supplement"},
+    {"h": "le gusta + inf.", "pos": "loc.", "zh": "她喜欢做……", "surface": "le gusta", "source": "supplement"},
+    {"h": "ayudar", "pos": "intr.", "zh": "帮忙", "surface": "ayudar", "source": "supplement"}]},
+   {"es": "Cuando los padres trabajan, ella cuida a los niños pequeños.", "zh": "父母们上班的时候，她就照看小孩子。", "w": [
+    {"h": "cuando", "pos": "conj.", "zh": "当……的时候", "surface": "Cuando", "source": "supplement"},
+    {"h": "padre", "pos": "m.", "zh": "父亲；（复数）父母", "surface": "padres", "source": "supplement"},
+    {"h": "trabajar", "pos": "intr.", "zh": "工作，上班", "surface": "trabajan", "source": "supplement"},
+    {"h": "cuidar", "pos": "tr.", "zh": "照看，照顾", "surface": "cuida", "source": "supplement"},
+    {"h": "niño", "pos": "m.", "zh": "孩子，小孩", "surface": "niños", "source": "supplement"}]},
+   {"es": "También recoge los paquetes cuando no hay nadie en casa.", "zh": "家里没人的时候，她还帮大家收包裹。", "w": [
+    {"h": "también", "pos": "adv.", "zh": "也，还", "surface": "También", "source": "supplement"},
+    {"h": "recoger", "pos": "tr.", "zh": "收，代收", "surface": "recoge", "source": "supplement"},
+    {"h": "paquete", "pos": "m.", "zh": "包裹", "surface": "paquetes", "source": "supplement"},
+    {"h": "haber", "pos": "tr.", "zh": "有（hay：无人称形式）", "surface": "hay", "source": "supplement"},
+    {"h": "nadie", "pos": "pron.", "zh": "没有人，谁也不", "surface": "nadie", "source": "supplement"}]},
+   {"es": "Yo la ayudo con las bolsas de la compra cuando vuelve del mercado.", "zh": "她从市场回来的时候，我帮她提购物袋。", "w": [
+    {"h": "bolsa de la compra", "pos": "f.", "zh": "购物袋", "surface": "bolsas de la compra", "source": "supplement"},
+    {"h": "volver", "pos": "intr.", "zh": "回来", "surface": "vuelve", "source": "supplement"},
+    {"h": "mercado", "pos": "m.", "zh": "市场，菜市场", "surface": "mercado", "source": "supplement"}]},
+   {"es": "Los domingos ella me invita a tomar chocolate con galletas.", "zh": "每个星期天，她都请我喝热巧克力、吃饼干。", "w": [
+    {"h": "los domingos", "pos": "loc.", "zh": "每个星期天", "surface": "Los domingos", "source": "supplement"},
+    {"h": "invitar a + inf.", "pos": "loc.", "zh": "请（人）做……", "surface": "invita a", "source": "supplement"},
+    {"h": "tomar", "pos": "tr.", "zh": "喝；吃", "surface": "tomar", "source": "supplement"},
+    {"h": "chocolate", "pos": "m.", "zh": "热巧克力", "surface": "chocolate", "source": "supplement"},
+    {"h": "galleta", "pos": "f.", "zh": "饼干", "surface": "galletas", "source": "supplement"}]},
+   {"es": "Doña Julia es como una abuela para mí y la quiero mucho.", "zh": "对我来说，胡利娅太太就像奶奶一样，我很喜欢她。", "w": [
+    {"h": "abuela", "pos": "f.", "zh": "奶奶；外婆", "surface": "abuela", "source": "supplement"},
+    {"h": "para mí", "pos": "loc.", "zh": "对我来说", "surface": "para mí", "source": "supplement"},
+    {"h": "querer", "pos": "tr.", "zh": "爱，喜爱", "surface": "quiero", "source": "supplement"}]}
+  ]
+ ]
+}

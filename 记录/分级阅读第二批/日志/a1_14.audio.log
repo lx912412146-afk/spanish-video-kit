@@ -1,0 +1,22 @@
+/bin/sh: sox: command not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 1/1 3.0 秒音频，用时 25 秒
+qwen3tts.py: 加载 16.6 秒，合成 1 段 25.3 秒
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  合成缓存：12 段直接用缓存，1 段新合成
+  变速变调：语速 0.8 倍，音高 +100 音分
+  合成 13 段，用时 44 秒
+  响度：整体 -16.48 LUFS，句间最大偏差 0.46 LU，短时波动（朗读范围）0.75 LU（含首尾静音的原测法 0.82，只记录），峰值 -1.73 dBFS；电磁音：梳状线 -0.04 dB，全频段最强 13500 Hz +5.1 dB
+已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25_slow/a1_14_Mi_cumpleanos.mp3（57.1 秒），检查全部通过

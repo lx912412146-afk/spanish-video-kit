@@ -1,0 +1,85 @@
+{
+ "id": "a2_20",
+ "level": "A2",
+ "no": 20,
+ "title_es": "Las fiestas de mi pueblo",
+ "title_zh": "我们镇上的节日",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 20 篇",
+ "header": "分级阅读 A2-20",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 20 篇。原创短文。主要语法：现在时描写每年的习俗（celebra、duran、se llenan、sacan、baila），简单过去时讲去年（ayudé、trabajamos、fue），ir a + 原形讲今年的打算（vamos a ayudar）。10 句 112 词。特别判断：镇子是虚构的，没有起名；fiestas 用复数指节庆活动，译“节日”；第 3 句 luces, flores y música 是名词列举，逗号不停顿；luces 指节日里挂的灯；第 5 句 vecinos 指镇上的居民，译“乡亲们”；juntos 是 A1 常用词，句中生词已满 5 个，没有标；第 6 句 tocar 不带宾语，表示演奏，标 intr.；第 7 句 fuegos artificiales 整体标 m.；第 9 句 toda la tarde 整体标 loc.；第 10 句 vamos a ayudar 的 ayudar 已在第 8 句 ayudar a + inf. 里标过，只标 ir a + inf.；hermano pequeño 整体标 m.，译“弟弟”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prep.": "介词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "3": [{"after": "luces,", "why": "并列名词（luces, flores y música），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Mi pueblo es pequeño, pero cada verano celebra unas fiestas muy alegres.", "zh": "我们镇子很小，但每年夏天都会举办非常欢乐的节日。", "w": [
+    {"h": "pueblo", "pos": "m.", "zh": "小镇，村镇", "surface": "pueblo", "source": "supplement"},
+    {"h": "cada", "pos": "adj.", "zh": "每个", "surface": "cada", "source": "supplement"},
+    {"h": "celebrar", "pos": "tr.", "zh": "举办，庆祝", "surface": "celebra", "source": "supplement"},
+    {"h": "fiesta", "pos": "f.", "zh": "节日，节庆", "surface": "fiestas", "source": "supplement"},
+    {"h": "alegre", "pos": "adj.", "zh": "欢乐的", "surface": "alegres", "source": "supplement"}]},
+   {"es": "Duran cuatro días y empiezan siempre el primer sábado de agosto.", "zh": "节日持续四天，总是在八月的第一个星期六开始。", "w": [
+    {"h": "durar", "pos": "intr.", "zh": "持续", "surface": "Duran", "source": "supplement"},
+    {"h": "empezar", "pos": "intr.", "zh": "开始", "surface": "empiezan", "source": "supplement"},
+    {"h": "siempre", "pos": "adv.", "zh": "总是", "surface": "siempre", "source": "supplement"},
+    {"h": "primero", "pos": "adj.", "zh": "第一的", "surface": "primer", "source": "supplement"},
+    {"h": "agosto", "pos": "m.", "zh": "八月", "surface": "agosto", "source": "supplement"}]},
+   {"es": "Durante esos días, las calles se llenan de luces, flores y música.", "zh": "那几天，街道上满是灯光、鲜花和音乐。", "w": [
+    {"h": "durante", "pos": "prep.", "zh": "在……期间", "surface": "Durante", "source": "supplement"},
+    {"h": "calle", "pos": "f.", "zh": "街道", "surface": "calles", "source": "supplement"},
+    {"h": "llenarse de", "pos": "loc.", "zh": "充满，到处是", "surface": "se llenan de", "source": "supplement"},
+    {"h": "luz", "pos": "f.", "zh": "灯，灯光", "surface": "luces", "source": "supplement"},
+    {"h": "música", "pos": "f.", "zh": "音乐", "surface": "música", "source": "supplement"}]},
+   {"es": "Por la mañana hay juegos para los niños en la plaza.", "zh": "上午，广场上有给孩子们玩的游戏。", "w": [
+    {"h": "por la mañana", "pos": "loc.", "zh": "上午", "surface": "Por la mañana", "source": "supplement"},
+    {"h": "haber", "pos": "tr.", "zh": "有（hay：无人称形式）", "surface": "hay", "source": "supplement"},
+    {"h": "juego", "pos": "m.", "zh": "游戏", "surface": "juegos", "source": "supplement"},
+    {"h": "niño", "pos": "m.", "zh": "孩子", "surface": "niños", "source": "supplement"},
+    {"h": "plaza", "pos": "f.", "zh": "广场", "surface": "plaza", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Por la noche, los vecinos sacan mesas largas a la calle y cenan juntos.", "zh": "晚上，乡亲们把长桌搬到街上，一起吃晚饭。", "w": [
+    {"h": "por la noche", "pos": "loc.", "zh": "晚上", "surface": "Por la noche", "source": "supplement"},
+    {"h": "vecino", "pos": "m.", "zh": "乡亲，居民", "surface": "vecinos", "source": "supplement"},
+    {"h": "sacar", "pos": "tr.", "zh": "拿出，搬出", "surface": "sacan", "source": "supplement"},
+    {"h": "mesa", "pos": "f.", "zh": "桌子", "surface": "mesas", "source": "supplement"},
+    {"h": "cenar", "pos": "intr.", "zh": "吃晚饭", "surface": "cenan", "source": "supplement"}]},
+   {"es": "Después, una orquesta toca y la gente baila hasta muy tarde.", "zh": "之后，乐队开始演奏，大家一直跳舞跳到很晚。", "w": [
+    {"h": "orquesta", "pos": "f.", "zh": "乐队", "surface": "orquesta", "source": "supplement"},
+    {"h": "tocar", "pos": "intr.", "zh": "演奏", "surface": "toca", "source": "supplement"},
+    {"h": "gente", "pos": "f.", "zh": "人们，大家", "surface": "gente", "source": "supplement"},
+    {"h": "bailar", "pos": "intr.", "zh": "跳舞", "surface": "baila", "source": "supplement"},
+    {"h": "hasta", "pos": "prep.", "zh": "直到", "surface": "hasta", "source": "supplement"}]},
+   {"es": "El último día hay fuegos artificiales sobre el río.", "zh": "最后一天，河的上空会放烟花。", "w": [
+    {"h": "último", "pos": "adj.", "zh": "最后的", "surface": "último", "source": "supplement"},
+    {"h": "fuegos artificiales", "pos": "m.", "zh": "烟花，焰火", "surface": "fuegos artificiales", "source": "supplement"},
+    {"h": "sobre", "pos": "prep.", "zh": "在……上方", "surface": "sobre", "source": "supplement"},
+    {"h": "río", "pos": "m.", "zh": "河", "surface": "río", "source": "supplement"}]},
+   {"es": "El año pasado ayudé a decorar las calles con mis amigos.", "zh": "去年，我和朋友们一起帮忙装饰了街道。", "w": [
+    {"h": "el año pasado", "pos": "loc.", "zh": "去年", "surface": "El año pasado", "source": "supplement"},
+    {"h": "ayudar a + inf.", "pos": "loc.", "zh": "帮忙做……", "surface": "ayudé a", "source": "supplement"},
+    {"h": "decorar", "pos": "tr.", "zh": "装饰", "surface": "decorar", "source": "supplement"},
+    {"h": "amigo", "pos": "m.", "zh": "朋友", "surface": "amigos", "source": "supplement"}]},
+   {"es": "Trabajamos mucho toda la tarde, pero fue muy divertido.", "zh": "我们忙了整整一个下午，不过非常有意思。", "w": [
+    {"h": "trabajar", "pos": "intr.", "zh": "干活，工作", "surface": "Trabajamos", "source": "supplement"},
+    {"h": "mucho", "pos": "adv.", "zh": "很多", "surface": "mucho", "source": "supplement"},
+    {"h": "toda la tarde", "pos": "loc.", "zh": "整个下午", "surface": "toda la tarde", "source": "supplement"},
+    {"h": "divertido", "pos": "adj.", "zh": "有趣的，好玩的", "surface": "divertido", "source": "supplement"}]},
+   {"es": "Este año mi hermano pequeño y yo vamos a ayudar otra vez.", "zh": "今年，我和弟弟要一起再去帮忙。", "w": [
+    {"h": "este año", "pos": "loc.", "zh": "今年", "surface": "Este año", "source": "supplement"},
+    {"h": "hermano pequeño", "pos": "m.", "zh": "弟弟", "surface": "hermano pequeño", "source": "supplement"},
+    {"h": "ir a + inf.", "pos": "loc.", "zh": "将要，打算", "surface": "vamos a", "source": "supplement"},
+    {"h": "otra vez", "pos": "loc.", "zh": "又，再一次", "surface": "otra vez", "source": "supplement"}]}
+  ]
+ ]
+}

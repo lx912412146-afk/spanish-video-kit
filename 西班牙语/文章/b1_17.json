@@ -1,0 +1,81 @@
+{
+ "id": "b1_17",
+ "level": "B1",
+ "no": 17,
+ "title_es": "Los videojuegos",
+ "title_zh": "电子游戏",
+ "series": "西班牙语分级阅读 · B1 中级 · 第 17 篇",
+ "header": "分级阅读 B1-17",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B1 第 17 篇。原创短文。主要语法：现在时、现在完成时（se han convertido）、现在虚拟式（aconsejan que… conozcan… y establezcan、es bueno que jueguen）；连接语 además、sin embargo、incluso、por eso、ya que、no… sino。9 句，149 词，原速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；B1 选词侧重连接语、带虚拟式的结构、动词搭配和抽象名词，不列一眼就懂的同源词和 A1 基础词；同一个词头只在第一次出现的句子里列。特别判断：第 2 句 concentración、estrategia 是同源词，不列；estudio 这里是“研究”，不是“学习”；indicar 取“表明”义，列出；第 4 句 una partida lleva a otra 译作“玩了一局又一局”，perder la noción del tiempo 整体标 loc.；第 5 句 notas 指学习成绩；第 6 句 se aíslan 词头写 aislarse，quedar con 是“和（朋友）约着见面”；第 7 句 aconsejan que 后面两个虚拟式动词共用一个 que；第 8 句 jueguen juntos 的主语是父母和孩子，译文补出；第 9 句 secreto 译作“诀窍”。no_pause_commas：第 2 句 concentración, estrategia y rapidez、第 5 句 el sueño, las notas y la relación… 是名词列举，逗号不停顿（合并后一段都不到 100 字符）。第 6 句是为凑足时长新加的。审读后改：去掉 A1 词 divertido（第 8 句），第 2 句补列 indicar。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [{"after": "concentración,", "why": "名词列举（concentración, estrategia y rapidez），不停顿"}],
+  "5": [{"after": "sueño,", "why": "名词列举（el sueño, las notas y la relación con la familia），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Los videojuegos se han convertido en una de las formas de ocio más populares entre los jóvenes.", "zh": "电子游戏已经成为最受年轻人欢迎的娱乐方式之一。", "w": [
+    {"h": "videojuego", "pos": "m.", "zh": "电子游戏", "surface": "videojuegos", "source": "supplement"},
+    {"h": "convertirse en", "pos": "loc.", "zh": "变成，成为", "surface": "se han convertido en", "source": "supplement"},
+    {"h": "ocio", "pos": "m.", "zh": "休闲，娱乐", "surface": "ocio", "source": "supplement"},
+    {"h": "joven", "pos": "m.", "zh": "年轻人", "surface": "jóvenes", "source": "supplement"}]},
+   {"es": "Muchos juegos exigen concentración, estrategia y rapidez, y algunos estudios indican que pueden mejorar la memoria.", "zh": "很多游戏需要专注、策略和快速反应，一些研究表明，游戏可以提高记忆力。", "w": [
+    {"h": "exigir", "pos": "tr.", "zh": "要求，需要", "surface": "exigen", "source": "supplement"},
+    {"h": "rapidez", "pos": "f.", "zh": "迅速，敏捷", "surface": "rapidez", "source": "supplement"},
+    {"h": "estudio", "pos": "m.", "zh": "研究", "surface": "estudios", "source": "supplement"},
+    {"h": "indicar", "pos": "tr.", "zh": "表明，显示", "surface": "indican", "source": "supplement"}]},
+   {"es": "Además, los juegos en línea permiten colaborar con otras personas y hacer amigos en distintos países.", "zh": "此外，网络游戏让人能够与他人合作，还能结交不同国家的朋友。", "w": [
+    {"h": "además", "pos": "adv.", "zh": "此外，而且", "surface": "Además", "source": "supplement"},
+    {"h": "en línea", "pos": "loc.", "zh": "在线的，网络上的", "surface": "en línea", "source": "supplement"},
+    {"h": "permitir", "pos": "tr.", "zh": "使能够，让", "surface": "permiten", "source": "supplement"},
+    {"h": "hacer amigos", "pos": "loc.", "zh": "交朋友", "surface": "hacer amigos", "source": "supplement"},
+    {"h": "distinto", "pos": "adj.", "zh": "不同的", "surface": "distintos", "source": "supplement"}]},
+   {"es": "Sin embargo, el problema aparece cuando una partida lleva a otra y se pierde la noción del tiempo.", "zh": "然而，当人们玩了一局又一局、忘了时间的时候，问题就出现了。", "w": [
+    {"h": "sin embargo", "pos": "loc.", "zh": "然而，不过", "surface": "Sin embargo", "source": "supplement"},
+    {"h": "aparecer", "pos": "intr.", "zh": "出现", "surface": "aparece", "source": "supplement"},
+    {"h": "partida", "pos": "f.", "zh": "（游戏的）一局", "surface": "partida", "source": "supplement"},
+    {"h": "llevar a", "pos": "loc.", "zh": "引向，导致", "surface": "lleva a", "source": "supplement"},
+    {"h": "perder la noción del tiempo", "pos": "loc.", "zh": "忘了时间", "surface": "pierde la noción del tiempo", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Jugar demasiadas horas seguidas puede perjudicar el sueño, las notas y la relación con la familia.", "zh": "连续玩太长时间，可能会影响睡眠、学习成绩以及和家人的关系。", "w": [
+    {"h": "demasiado", "pos": "adj.", "zh": "过多的", "surface": "demasiadas", "source": "supplement"},
+    {"h": "seguido", "pos": "adj.", "zh": "连续的", "surface": "seguidas", "source": "supplement"},
+    {"h": "perjudicar", "pos": "tr.", "zh": "损害，对……不利", "surface": "perjudicar", "source": "supplement"},
+    {"h": "sueño", "pos": "m.", "zh": "睡眠", "surface": "sueño", "source": "supplement"},
+    {"h": "nota", "pos": "f.", "zh": "分数，成绩", "surface": "notas", "source": "supplement"}]},
+   {"es": "Algunos jóvenes incluso se aíslan y dejan de quedar con sus amigos fuera de casa.", "zh": "有些年轻人甚至把自己封闭起来，不再约朋友出门见面。", "w": [
+    {"h": "incluso", "pos": "adv.", "zh": "甚至", "surface": "incluso", "source": "supplement"},
+    {"h": "aislarse", "pos": "prnl.", "zh": "把自己封闭起来，与人隔绝", "surface": "se aíslan", "source": "supplement"},
+    {"h": "dejar de + inf.", "pos": "loc.", "zh": "不再做……", "surface": "dejan de", "source": "supplement"},
+    {"h": "quedar con", "pos": "loc.", "zh": "和……约着见面", "surface": "quedar con", "source": "supplement"},
+    {"h": "fuera de casa", "pos": "loc.", "zh": "在外面，不在家", "surface": "fuera de casa", "source": "supplement"}]},
+   {"es": "Por eso, los expertos aconsejan que los padres conozcan los juegos de sus hijos y establezcan horarios claros.", "zh": "因此，专家建议父母了解孩子玩的游戏，并定下明确的游戏时间。", "w": [
+    {"h": "por eso", "pos": "loc.", "zh": "因此，所以", "surface": "Por eso", "source": "supplement"},
+    {"h": "aconsejar que", "pos": "loc.", "zh": "建议……（接虚拟式）", "surface": "aconsejan que", "source": "supplement"},
+    {"h": "conocer", "pos": "tr.", "zh": "了解", "surface": "conozcan", "source": "supplement"},
+    {"h": "establecer", "pos": "tr.", "zh": "制定，确定", "surface": "establezcan", "source": "supplement"},
+    {"h": "horario", "pos": "m.", "zh": "时间安排", "surface": "horarios", "source": "supplement"}]},
+   {"es": "También es bueno que jueguen juntos de vez en cuando, ya que así comparten un rato divertido.", "zh": "父母和孩子偶尔一起玩一玩也很好，因为这样可以共度一段快乐的时光。", "w": [
+    {"h": "es bueno que", "pos": "loc.", "zh": "……是好事（接虚拟式）", "surface": "es bueno que", "source": "supplement"},
+    {"h": "de vez en cuando", "pos": "loc.", "zh": "偶尔，有时", "surface": "de vez en cuando", "source": "supplement"},
+    {"h": "ya que", "pos": "loc.", "zh": "因为，既然", "surface": "ya que", "source": "supplement"},
+    {"h": "compartir", "pos": "tr.", "zh": "共享，共度", "surface": "comparten", "source": "supplement"}]},
+   {"es": "Como ocurre con muchas cosas, el secreto no está en prohibir, sino en encontrar un equilibrio.", "zh": "和很多事情一样，诀窍不在于禁止，而在于找到平衡。", "w": [
+    {"h": "como ocurre con", "pos": "loc.", "zh": "和……的情况一样", "surface": "Como ocurre con", "source": "supplement"},
+    {"h": "secreto", "pos": "m.", "zh": "诀窍，秘诀", "surface": "secreto", "source": "supplement"},
+    {"h": "estar en", "pos": "loc.", "zh": "在于", "surface": "está en", "source": "supplement"},
+    {"h": "sino", "pos": "conj.", "zh": "而是", "surface": "sino", "source": "supplement"}]}
+  ]
+ ]
+}

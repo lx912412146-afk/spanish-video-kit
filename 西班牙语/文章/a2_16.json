@@ -1,0 +1,83 @@
+{
+ "id": "a2_16",
+ "level": "A2",
+ "no": 16,
+ "title_es": "El día que perdí la maleta",
+ "title_zh": "丢行李的那天",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 16 篇",
+ "header": "分级阅读 A2-16",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 16 篇。原创短文。叙述者是女性（nerviosa）。主要语法：简单过去时叙述事件（volé、esperé、no apareció、expliqué、me dio、trajo），过去未完成时描写状态（estaba muy nerviosa、tenía toda mi ropa）和转述（me dijo que la maleta venía…），最后一句用现在时说现在的习惯。10 句 111 词。特别判断：第 1 句 volé a otra ciudad 译“坐飞机去”；prima 译“表姐”；第 4 句 dentro 指箱子里；第 5 句 Fui 是 ir 的简单过去时，释义“去”；el problema 译“问题”；第 6 句 venía 是转述里的过去未完成时，表示箱子正在运来，译“会搭另一趟航班过来”，otro 在第 1 句（otra）已经出现，没有标；第 7 句 número de teléfono 整体标 m.，me pidió paciencia 译“请我耐心等待”；第 9 句 a la mañana siguiente 整体标 loc.；第 10 句 lo más importante 整体标 loc.，equipaje de mano 整体标 m.。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "El verano pasado volé a otra ciudad para visitar a mi prima.", "zh": "去年夏天，我坐飞机去另一座城市看望表姐。", "w": [
+    {"h": "el verano pasado", "pos": "loc.", "zh": "去年夏天", "surface": "El verano pasado", "source": "supplement"},
+    {"h": "volar", "pos": "intr.", "zh": "坐飞机去，飞", "surface": "volé", "source": "supplement"},
+    {"h": "visitar", "pos": "tr.", "zh": "看望，拜访", "surface": "visitar", "source": "supplement"},
+    {"h": "prima", "pos": "f.", "zh": "表姐（妹），堂姐（妹）", "surface": "prima", "source": "supplement"}]},
+   {"es": "Cuando llegué al aeropuerto, esperé mi maleta durante casi una hora.", "zh": "到了机场以后，我等行李箱等了将近一个小时。", "w": [
+    {"h": "llegar", "pos": "intr.", "zh": "到，到达", "surface": "llegué", "source": "supplement"},
+    {"h": "aeropuerto", "pos": "m.", "zh": "机场", "surface": "aeropuerto", "source": "supplement"},
+    {"h": "esperar", "pos": "tr.", "zh": "等，等候", "surface": "esperé", "source": "supplement"},
+    {"h": "maleta", "pos": "f.", "zh": "行李箱", "surface": "maleta", "source": "supplement"},
+    {"h": "casi", "pos": "adv.", "zh": "几乎，将近", "surface": "casi", "source": "supplement"}]},
+   {"es": "Todos los pasajeros recogieron sus cosas, pero mi maleta no apareció.", "zh": "所有乘客都拿到了自己的东西，可我的箱子始终没有出现。", "w": [
+    {"h": "pasajero", "pos": "m.", "zh": "乘客", "surface": "pasajeros", "source": "supplement"},
+    {"h": "recoger", "pos": "tr.", "zh": "取，领取", "surface": "recogieron", "source": "supplement"},
+    {"h": "cosa", "pos": "f.", "zh": "东西", "surface": "cosas", "source": "supplement"},
+    {"h": "pero", "pos": "conj.", "zh": "但是，可是", "surface": "pero", "source": "supplement"},
+    {"h": "aparecer", "pos": "intr.", "zh": "出现", "surface": "apareció", "source": "supplement"}]},
+   {"es": "Estaba muy nerviosa, porque dentro tenía toda mi ropa.", "zh": "我非常着急，因为我所有的衣服都在里面。", "w": [
+    {"h": "nervioso", "pos": "adj.", "zh": "紧张的，着急的", "surface": "nerviosa", "source": "supplement"},
+    {"h": "porque", "pos": "conj.", "zh": "因为", "surface": "porque", "source": "supplement"},
+    {"h": "dentro", "pos": "adv.", "zh": "在里面", "surface": "dentro", "source": "supplement"},
+    {"h": "ropa", "pos": "f.", "zh": "衣服", "surface": "ropa", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Fui a una oficina del aeropuerto y expliqué el problema a un empleado.", "zh": "我去了机场的一个办公室，向一位工作人员说明了问题。", "w": [
+    {"h": "ir", "pos": "intr.", "zh": "去", "surface": "Fui", "source": "supplement"},
+    {"h": "oficina", "pos": "f.", "zh": "办公室", "surface": "oficina", "source": "supplement"},
+    {"h": "explicar", "pos": "tr.", "zh": "说明，解释", "surface": "expliqué", "source": "supplement"},
+    {"h": "problema", "pos": "m.", "zh": "问题", "surface": "problema", "source": "supplement"},
+    {"h": "empleado", "pos": "m.", "zh": "职员，工作人员", "surface": "empleado", "source": "supplement"}]},
+   {"es": "Me dijo que la maleta venía en otro vuelo.", "zh": "他告诉我，箱子会搭另一趟航班过来。", "w": [
+    {"h": "decir", "pos": "tr.", "zh": "说，告诉", "surface": "dijo", "source": "supplement"},
+    {"h": "venir", "pos": "intr.", "zh": "来，过来", "surface": "venía", "source": "supplement"},
+    {"h": "vuelo", "pos": "m.", "zh": "航班", "surface": "vuelo", "source": "supplement"}]},
+   {"es": "Me dio un número de teléfono y me pidió paciencia.", "zh": "他给了我一个电话号码，请我耐心等待。", "w": [
+    {"h": "dar", "pos": "tr.", "zh": "给", "surface": "dio", "source": "supplement"},
+    {"h": "número de teléfono", "pos": "m.", "zh": "电话号码", "surface": "número de teléfono", "source": "supplement"},
+    {"h": "pedir", "pos": "tr.", "zh": "请求，要求", "surface": "pidió", "source": "supplement"},
+    {"h": "paciencia", "pos": "f.", "zh": "耐心", "surface": "paciencia", "source": "supplement"}]},
+   {"es": "Esa noche dormí en casa de mi prima con un pijama prestado.", "zh": "那天晚上，我穿着借来的睡衣睡在表姐家。", "w": [
+    {"h": "esa noche", "pos": "loc.", "zh": "那天晚上", "surface": "Esa noche", "source": "supplement"},
+    {"h": "dormir", "pos": "intr.", "zh": "睡觉", "surface": "dormí", "source": "supplement"},
+    {"h": "en casa de", "pos": "loc.", "zh": "在……家", "surface": "en casa de", "source": "supplement"},
+    {"h": "pijama", "pos": "m.", "zh": "睡衣", "surface": "pijama", "source": "supplement"},
+    {"h": "prestado", "pos": "adj.", "zh": "借来的", "surface": "prestado", "source": "supplement"}]},
+   {"es": "A la mañana siguiente, un chico trajo la maleta hasta la puerta.", "zh": "第二天早上，一个小伙子把行李箱一直送到了门口。", "w": [
+    {"h": "a la mañana siguiente", "pos": "loc.", "zh": "第二天早上", "surface": "A la mañana siguiente", "source": "supplement"},
+    {"h": "chico", "pos": "m.", "zh": "小伙子", "surface": "chico", "source": "supplement"},
+    {"h": "traer", "pos": "tr.", "zh": "带来，送来", "surface": "trajo", "source": "supplement"},
+    {"h": "hasta", "pos": "prep.", "zh": "直到，一直到", "surface": "hasta", "source": "supplement"},
+    {"h": "puerta", "pos": "f.", "zh": "门，门口", "surface": "puerta", "source": "supplement"}]},
+   {"es": "Desde entonces, siempre llevo lo más importante en mi equipaje de mano.", "zh": "从那以后，我总是把最重要的东西放在随身行李里。", "w": [
+    {"h": "desde entonces", "pos": "loc.", "zh": "从那以后", "surface": "Desde entonces", "source": "supplement"},
+    {"h": "siempre", "pos": "adv.", "zh": "总是", "surface": "siempre", "source": "supplement"},
+    {"h": "llevar", "pos": "tr.", "zh": "带，携带", "surface": "llevo", "source": "supplement"},
+    {"h": "lo más importante", "pos": "loc.", "zh": "最重要的东西", "surface": "lo más importante", "source": "supplement"},
+    {"h": "equipaje de mano", "pos": "m.", "zh": "随身行李", "surface": "equipaje de mano", "source": "supplement"}]}
+  ]
+ ]
+}

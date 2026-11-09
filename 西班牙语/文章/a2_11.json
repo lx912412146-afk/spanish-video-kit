@@ -1,0 +1,90 @@
+{
+ "id": "a2_11",
+ "level": "A2",
+ "no": 11,
+ "title_es": "Un viaje en tren",
+ "title_zh": "一次火车旅行",
+ "series": "西班牙语分级阅读 · A2 初级进阶 · 第 11 篇",
+ "header": "分级阅读 A2-11",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A2 第 11 篇。原创短文。主要语法：简单过去时叙述旅途中的事（fui、me senté、cruzó、me contó、vi），过去未完成时描写背景（salía、quería、viajaba、era），比较级 más pequeña que 和 mejores。11 句 127 词。特别判断：第 2 句 salía 是过去未完成时，表示时刻表上的发车时间；第 4 句 Primero 是副词，译“先是”；第 6 句 viajaba 指和我同坐一趟车，译作“坐在我旁边的是”，释义写“乘车，出行”；señora mayor 译“上了年纪的女士”；第 7 句 durante todo el viaje 译“一路上”；第 8 句 vi 是 ver 的变位，ver 第一次出现在第 3 句（没有标），这里不再标；第 9 句 la mía 指我住的城市，mía 标 pron.，译文补出“我住的城市”；第 5、8 句的 después 是 A1 常用词，没有标；第 10 句 di un paseo 词头写 dar un paseo，整体标 loc.，junto a 和 mar 前面已经标过；terraza 指餐馆的露天座位，译文写“露天餐厅”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "El mes pasado fui en tren a una ciudad de la costa.", "zh": "上个月，我坐火车去了一座海边城市。", "w": [
+    {"h": "el mes pasado", "pos": "loc.", "zh": "上个月", "surface": "El mes pasado", "source": "supplement"},
+    {"h": "ir", "pos": "intr.", "zh": "去", "surface": "fui", "source": "supplement"},
+    {"h": "en tren", "pos": "loc.", "zh": "坐火车", "surface": "en tren", "source": "supplement"},
+    {"h": "ciudad", "pos": "f.", "zh": "城市", "surface": "ciudad", "source": "supplement"},
+    {"h": "costa", "pos": "f.", "zh": "海岸，海边", "surface": "costa", "source": "supplement"}]},
+   {"es": "El tren salía a las siete de la mañana.", "zh": "火车早上七点发车。", "w": [
+    {"h": "salir", "pos": "intr.", "zh": "（车）出发，开", "surface": "salía", "source": "supplement"},
+    {"h": "a las + 钟点", "pos": "loc.", "zh": "在……点钟", "surface": "a las siete", "source": "supplement"},
+    {"h": "de la mañana", "pos": "loc.", "zh": "早上，上午", "surface": "de la mañana", "source": "supplement"}]},
+   {"es": "Me senté junto a la ventana porque quería ver el paisaje.", "zh": "我坐在窗边，因为想看看沿途的风景。", "w": [
+    {"h": "sentarse", "pos": "prnl.", "zh": "坐，坐下", "surface": "Me senté", "source": "supplement"},
+    {"h": "junto a", "pos": "loc.", "zh": "在……旁边", "surface": "junto a", "source": "supplement"},
+    {"h": "ventana", "pos": "f.", "zh": "窗户", "surface": "ventana", "source": "supplement"},
+    {"h": "porque", "pos": "conj.", "zh": "因为", "surface": "porque", "source": "supplement"},
+    {"h": "paisaje", "pos": "m.", "zh": "风景，景色", "surface": "paisaje", "source": "supplement"}]},
+   {"es": "Primero pasamos por pueblos pequeños y campos llenos de flores.", "zh": "我们先是经过一些小村庄，还有开满鲜花的田野。", "w": [
+    {"h": "primero", "pos": "adv.", "zh": "首先，先", "surface": "Primero", "source": "supplement"},
+    {"h": "pasar por", "pos": "loc.", "zh": "经过", "surface": "pasamos por", "source": "supplement"},
+    {"h": "pueblo", "pos": "m.", "zh": "村庄，小镇", "surface": "pueblos", "source": "supplement"},
+    {"h": "campo", "pos": "m.", "zh": "田野", "surface": "campos", "source": "supplement"},
+    {"h": "lleno de", "pos": "loc.", "zh": "满是……的", "surface": "llenos de", "source": "supplement"}]},
+   {"es": "Después, el tren cruzó un río y entró en un túnel largo.", "zh": "后来，火车过了一条河，开进一条长长的隧道。", "w": [
+    {"h": "cruzar", "pos": "tr.", "zh": "穿过，越过", "surface": "cruzó", "source": "supplement"},
+    {"h": "río", "pos": "m.", "zh": "河", "surface": "río", "source": "supplement"},
+    {"h": "entrar en", "pos": "loc.", "zh": "进入，开进", "surface": "entró en", "source": "supplement"},
+    {"h": "túnel", "pos": "m.", "zh": "隧道", "surface": "túnel", "source": "supplement"},
+    {"h": "largo", "pos": "adj.", "zh": "长的", "surface": "largo", "source": "supplement"}]}
+  ],
+  [
+   {"es": "A mi lado viajaba una señora mayor que me ofreció galletas.", "zh": "坐在我旁边的是一位上了年纪的女士，她请我吃饼干。", "w": [
+    {"h": "a mi lado", "pos": "loc.", "zh": "在我旁边", "surface": "A mi lado", "source": "supplement"},
+    {"h": "viajar", "pos": "intr.", "zh": "乘车，出行", "surface": "viajaba", "source": "supplement"},
+    {"h": "mayor", "pos": "adj.", "zh": "上了年纪的", "surface": "mayor", "source": "supplement"},
+    {"h": "ofrecer", "pos": "tr.", "zh": "给，请（人吃）", "surface": "ofreció", "source": "supplement"},
+    {"h": "galleta", "pos": "f.", "zh": "饼干", "surface": "galletas", "source": "supplement"}]},
+   {"es": "Hablamos durante todo el viaje y me contó historias de su juventud.", "zh": "一路上我们都在聊天，她给我讲了她年轻时的故事。", "w": [
+    {"h": "durante", "pos": "prep.", "zh": "在……期间", "surface": "durante", "source": "supplement"},
+    {"h": "viaje", "pos": "m.", "zh": "旅途，旅行", "surface": "viaje", "source": "supplement"},
+    {"h": "contar", "pos": "tr.", "zh": "讲，讲述", "surface": "contó", "source": "supplement"},
+    {"h": "historia", "pos": "f.", "zh": "故事", "surface": "historias", "source": "supplement"},
+    {"h": "juventud", "pos": "f.", "zh": "青年时代，年轻时", "surface": "juventud", "source": "supplement"}]},
+   {"es": "Cuatro horas después, por fin vi el mar desde la ventana.", "zh": "四个小时以后，我终于从车窗里看到了大海。", "w": [
+    {"h": "hora", "pos": "f.", "zh": "小时", "surface": "horas", "source": "supplement"},
+    {"h": "por fin", "pos": "loc.", "zh": "终于", "surface": "por fin", "source": "supplement"},
+    {"h": "mar", "pos": "m.", "zh": "海，大海", "surface": "mar", "source": "supplement"},
+    {"h": "desde", "pos": "prep.", "zh": "从", "surface": "desde", "source": "supplement"}]},
+   {"es": "La ciudad era más pequeña que la mía, pero muy bonita.", "zh": "这座城市比我住的城市小，但是非常漂亮。", "w": [
+    {"h": "más + adj. + que", "pos": "loc.", "zh": "比……更……", "surface": "más pequeña que", "source": "supplement"},
+    {"h": "mío", "pos": "pron.", "zh": "我的（那个）", "surface": "mía", "source": "supplement"},
+    {"h": "pero", "pos": "conj.", "zh": "但是", "surface": "pero", "source": "supplement"},
+    {"h": "bonito", "pos": "adj.", "zh": "漂亮的", "surface": "bonita", "source": "supplement"}]},
+   {"es": "Por la tarde di un paseo junto al mar y cené pescado fresco en una terraza.", "zh": "下午我在海边散了散步，晚饭在一家露天餐厅吃了新鲜的鱼。", "w": [
+    {"h": "dar un paseo", "pos": "loc.", "zh": "散步", "surface": "di un paseo", "source": "supplement"},
+    {"h": "cenar", "pos": "tr.", "zh": "晚饭吃（……）", "surface": "cené", "source": "supplement"},
+    {"h": "fresco", "pos": "adj.", "zh": "新鲜的", "surface": "fresco", "source": "supplement"},
+    {"h": "terraza", "pos": "f.", "zh": "（餐馆的）露天座位", "surface": "terraza", "source": "supplement"}]},
+   {"es": "Fue uno de mis mejores viajes y quiero volver el próximo verano.", "zh": "那是我最美好的旅行之一，明年夏天我还想再去。", "w": [
+    {"h": "uno de", "pos": "loc.", "zh": "……之一", "surface": "uno de", "source": "supplement"},
+    {"h": "mejor", "pos": "adj.", "zh": "最好的", "surface": "mejores", "source": "supplement"},
+    {"h": "volver", "pos": "intr.", "zh": "再去，回去", "surface": "volver", "source": "supplement"},
+    {"h": "el próximo verano", "pos": "loc.", "zh": "明年夏天", "surface": "el próximo verano", "source": "supplement"}]}
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "id": "a1_19",
+ "level": "A1",
+ "no": 19,
+ "title_es": "El trabajo de mi madre",
+ "title_zh": "妈妈的工作",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 19 篇",
+ "header": "分级阅读 A1-19",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 19 篇。原创短文。妈妈是护士：她的作息，她在医院做什么，她为什么喜欢这份工作。只用陈述式现在时（含 le gusta + 原形）和 A1 词汇，12 句 127 词，分两段：工作地点和作息，工作内容和她为什么喜欢。特别判断：第 3 句 horario de trabajo 分成 horario、trabajo 两个词标，译作“工作时间”；第 4 句 y otras, por la noche 是省略了 semanas trabaja 的说法，逗号照常停顿，otras 标 pron.；第 5 句 turno de noche 是名词短语，标 m.，hacer ruido 整体标 loc.，no hacemos ruido 译作“不出声”；第 6 句 enfermos 是名词，标 m.，指病人，和第 7 句的 ellos 一致；第 7 句 tomar la tensión 整体标 loc.，译作“量血压”，三个并列谓语之间的逗号照常停顿；第 8 句 llegar a casa 整体标 loc.；第 9 句 bonito 说工作，译作“美好的”；第 11 句 dar las gracias 整体标 loc.，salen del hospital 译作“出院”；第 12 句 como ella 的 como 按词典标 adv.（像……一样）。叙述人是男孩（enfermero）。没有列举逗号。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Mi madre se llama Carmen y es enfermera.", "zh": "我妈妈叫卡门，是一名护士。", "w": [
+    {"h": "madre", "pos": "f.", "zh": "母亲，妈妈", "surface": "madre", "source": "supplement"},
+    {"h": "llamarse", "pos": "prnl.", "zh": "名叫，叫做", "surface": "se llama", "source": "supplement"},
+    {"h": "ser", "pos": "intr.", "zh": "是", "surface": "es", "source": "supplement"},
+    {"h": "enfermera", "pos": "f.", "zh": "女护士", "surface": "enfermera", "source": "supplement"}]},
+   {"es": "Trabaja en un hospital grande en el centro de la ciudad.", "zh": "她在市中心的一家大医院工作。", "w": [
+    {"h": "trabajar", "pos": "intr.", "zh": "工作，上班", "surface": "Trabaja", "source": "supplement"},
+    {"h": "hospital", "pos": "m.", "zh": "医院", "surface": "hospital", "source": "supplement"},
+    {"h": "grande", "pos": "adj.", "zh": "大的", "surface": "grande", "source": "supplement"},
+    {"h": "centro", "pos": "m.", "zh": "中心；市中心", "surface": "centro", "source": "supplement"},
+    {"h": "ciudad", "pos": "f.", "zh": "城市", "surface": "ciudad", "source": "supplement"}]},
+   {"es": "Su horario de trabajo cambia cada semana.", "zh": "她的工作时间每周都在变。", "w": [
+    {"h": "horario", "pos": "m.", "zh": "作息时间，时间表", "surface": "horario", "source": "supplement"},
+    {"h": "trabajo", "pos": "m.", "zh": "工作", "surface": "trabajo", "source": "supplement"},
+    {"h": "cambiar", "pos": "intr.", "zh": "变，改变", "surface": "cambia", "source": "supplement"},
+    {"h": "cada semana", "pos": "loc.", "zh": "每周，每个星期", "surface": "cada semana", "source": "supplement"}]},
+   {"es": "Algunas semanas trabaja por la mañana y otras, por la noche.", "zh": "有的星期她早上上班，有的星期夜里上班。", "w": [
+    {"h": "alguno", "pos": "adj.", "zh": "某些，有些", "surface": "Algunas", "source": "supplement"},
+    {"h": "por la mañana", "pos": "loc.", "zh": "早上，上午", "surface": "por la mañana", "source": "supplement"},
+    {"h": "otro", "pos": "pron.", "zh": "别的，其他的", "surface": "otras", "source": "supplement"},
+    {"h": "por la noche", "pos": "loc.", "zh": "晚上，夜里", "surface": "por la noche", "source": "supplement"}]},
+   {"es": "Cuando tiene turno de noche, duerme por la mañana y nosotros no hacemos ruido.", "zh": "她上夜班的时候，上午睡觉，我们就不出声。", "w": [
+    {"h": "cuando", "pos": "conj.", "zh": "当……的时候", "surface": "Cuando", "source": "supplement"},
+    {"h": "turno de noche", "pos": "m.", "zh": "夜班", "surface": "turno de noche", "source": "supplement"},
+    {"h": "dormir", "pos": "intr.", "zh": "睡觉", "surface": "duerme", "source": "supplement"},
+    {"h": "nosotros", "pos": "pron.", "zh": "我们", "surface": "nosotros", "source": "supplement"},
+    {"h": "hacer ruido", "pos": "loc.", "zh": "出声，弄出响声", "surface": "hacemos ruido", "source": "supplement"}]}
+  ],
+  [
+   {"es": "En el hospital cuida a muchos enfermos.", "zh": "她在医院里照顾很多病人。", "w": [
+    {"h": "cuidar", "pos": "tr.", "zh": "照顾，护理", "surface": "cuida", "source": "supplement"},
+    {"h": "mucho", "pos": "adj.", "zh": "很多的", "surface": "muchos", "source": "supplement"},
+    {"h": "enfermo", "pos": "m.", "zh": "病人", "surface": "enfermos", "source": "supplement"}]},
+   {"es": "Les da las medicinas, les toma la tensión y habla con ellos.", "zh": "她给他们发药、量血压，还和他们聊天。", "w": [
+    {"h": "dar", "pos": "tr.", "zh": "给", "surface": "da", "source": "supplement"},
+    {"h": "medicina", "pos": "f.", "zh": "药", "surface": "medicinas", "source": "supplement"},
+    {"h": "tomar la tensión", "pos": "loc.", "zh": "量血压", "surface": "toma la tensión", "source": "supplement"},
+    {"h": "hablar", "pos": "intr.", "zh": "说话，聊天", "surface": "habla", "source": "supplement"},
+    {"h": "ellos", "pos": "pron.", "zh": "他们", "surface": "ellos", "source": "supplement"}]},
+   {"es": "Es un trabajo difícil y a veces llega a casa muy cansada.", "zh": "这份工作很辛苦，有时候她回到家非常累。", "w": [
+    {"h": "difícil", "pos": "adj.", "zh": "辛苦的，难的", "surface": "difícil", "source": "supplement"},
+    {"h": "a veces", "pos": "loc.", "zh": "有时候", "surface": "a veces", "source": "supplement"},
+    {"h": "llegar a casa", "pos": "loc.", "zh": "到家，回家", "surface": "llega a casa", "source": "supplement"},
+    {"h": "muy", "pos": "adv.", "zh": "很，非常", "surface": "muy", "source": "supplement"},
+    {"h": "cansado", "pos": "adj.", "zh": "累的，疲倦的", "surface": "cansada", "source": "supplement"}]},
+   {"es": "Pero ella dice que es un trabajo muy bonito.", "zh": "可是她说，这是一份很美好的工作。", "w": [
+    {"h": "pero", "pos": "conj.", "zh": "但是", "surface": "Pero", "source": "supplement"},
+    {"h": "ella", "pos": "pron.", "zh": "她", "surface": "ella", "source": "supplement"},
+    {"h": "decir", "pos": "tr.", "zh": "说", "surface": "dice", "source": "supplement"},
+    {"h": "bonito", "pos": "adj.", "zh": "美好的", "surface": "bonito", "source": "supplement"}]},
+   {"es": "Le gusta mucho ayudar a la gente y siempre tiene una sonrisa para todos.", "zh": "她很喜欢帮助别人，总是对每个人面带微笑。", "w": [
+    {"h": "le gusta + inf.", "pos": "loc.", "zh": "她喜欢做……", "surface": "Le gusta", "source": "supplement"},
+    {"h": "ayudar", "pos": "tr.", "zh": "帮助", "surface": "ayudar", "source": "supplement"},
+    {"h": "gente", "pos": "f.", "zh": "人们，别人", "surface": "gente", "source": "supplement"},
+    {"h": "siempre", "pos": "adv.", "zh": "总是", "surface": "siempre", "source": "supplement"},
+    {"h": "sonrisa", "pos": "f.", "zh": "微笑", "surface": "sonrisa", "source": "supplement"}]},
+   {"es": "Muchos pacientes le dan las gracias cuando salen del hospital.", "zh": "很多病人出院的时候都向她道谢。", "w": [
+    {"h": "paciente", "pos": "m.", "zh": "病人", "surface": "pacientes", "source": "supplement"},
+    {"h": "dar las gracias", "pos": "loc.", "zh": "道谢，感谢", "surface": "dan las gracias", "source": "supplement"},
+    {"h": "salir", "pos": "intr.", "zh": "离开；出（院）", "surface": "salen", "source": "supplement"}]},
+   {"es": "Mi madre es la mejor y yo quiero ser enfermero como ella.", "zh": "我妈妈是最棒的，我也想像她一样当护士。", "w": [
+    {"h": "mejor", "pos": "adj.", "zh": "最好的", "surface": "mejor", "source": "supplement"},
+    {"h": "querer", "pos": "tr.", "zh": "想，想要", "surface": "quiero", "source": "supplement"},
+    {"h": "como", "pos": "adv.", "zh": "像……一样", "surface": "como", "source": "supplement"}]}
+  ]
+ ]
+}

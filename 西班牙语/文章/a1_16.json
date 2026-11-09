@@ -1,0 +1,96 @@
+{
+ "id": "a1_16",
+ "level": "A1",
+ "no": 16,
+ "title_es": "Mis aficiones",
+ "title_zh": "我的爱好",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 16 篇",
+ "header": "分级阅读 A1-16",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 16 篇。原创短文。读书、音乐、踢球、画画：什么时候做、和谁一起。只用陈述式现在时（含 me gustan、te gustan）和 A1 词汇，12 句 126 词，分两段：读书、听音乐、踢球，和奶奶画画、和朋友听音乐以及感想。特别判断：第 1 句 leer 不带宾语，按 a1_02 标 intr.；escuchar música、jugar al fútbol 整体标 loc.，后面的 escucho música、fútbol 不再标；pintar 指画画（上色），第 8 句奶奶是 pintora（画家），colores 指颜料，释义“颜色；颜料”；第 2 句 media hora 是名词短语，按 a2_03 标 f.；第 5—7 句 martes、jueves、sábados、domingos 都按单个名词标，译作“每周二”“每个星期六”等；第 9 句 juntas 说明叙述人是女孩，按 a1_01 标 adj.；第 11 句 aburrirse 标 prnl.，surface 写 me aburro；第 12 句 te gustan 是泛指的“你”，译作“自己喜欢的”。第 1 句四个爱好之间、第 9 句花鸟树之间的逗号登记为不停顿（第 1 句冒号照常停顿）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "1": [{"after": "leer,", "why": "列举（leer, escuchar música, jugar al fútbol y pintar），不停顿"}, {"after": "música,", "why": "列举（leer, escuchar música, jugar al fútbol y pintar），不停顿"}],
+  "9": [{"after": "flores,", "why": "列举（flores, pájaros y árboles），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Tengo cuatro aficiones: leer, escuchar música, jugar al fútbol y pintar.", "zh": "我有四个爱好：读书、听音乐、踢足球和画画。", "w": [
+    {"h": "afición", "pos": "f.", "zh": "爱好", "surface": "aficiones", "source": "supplement"},
+    {"h": "leer", "pos": "intr.", "zh": "阅读，看书", "surface": "leer", "source": "supplement"},
+    {"h": "escuchar música", "pos": "loc.", "zh": "听音乐", "surface": "escuchar música", "source": "supplement"},
+    {"h": "jugar al fútbol", "pos": "loc.", "zh": "踢足球", "surface": "jugar al fútbol", "source": "supplement"},
+    {"h": "pintar", "pos": "intr.", "zh": "画画", "surface": "pintar", "source": "supplement"}]},
+   {"es": "Por la noche leo media hora en la cama antes de dormir.", "zh": "晚上睡觉前，我在床上看半小时书。", "w": [
+    {"h": "por la noche", "pos": "loc.", "zh": "晚上", "surface": "Por la noche", "source": "supplement"},
+    {"h": "media hora", "pos": "f.", "zh": "半小时", "surface": "media hora", "source": "supplement"},
+    {"h": "cama", "pos": "f.", "zh": "床", "surface": "cama", "source": "supplement"},
+    {"h": "antes de", "pos": "loc.", "zh": "在……之前", "surface": "antes de", "source": "supplement"},
+    {"h": "dormir", "pos": "intr.", "zh": "睡觉", "surface": "dormir", "source": "supplement"}]},
+   {"es": "Me gustan los libros de aventuras y de animales.", "zh": "我喜欢冒险类和动物类的书。", "w": [
+    {"h": "me gustan", "pos": "loc.", "zh": "我喜欢（复数事物）", "surface": "Me gustan", "source": "supplement"},
+    {"h": "libro", "pos": "m.", "zh": "书", "surface": "libros", "source": "supplement"},
+    {"h": "aventura", "pos": "f.", "zh": "冒险", "surface": "aventuras", "source": "supplement"},
+    {"h": "animal", "pos": "m.", "zh": "动物", "surface": "animales", "source": "supplement"}]},
+   {"es": "Escucho música en el autobús cuando voy al colegio.", "zh": "我坐公共汽车去上学的时候听音乐。", "w": [
+    {"h": "autobús", "pos": "m.", "zh": "公共汽车", "surface": "autobús", "source": "supplement"},
+    {"h": "cuando", "pos": "conj.", "zh": "当……的时候", "surface": "cuando", "source": "supplement"},
+    {"h": "ir", "pos": "intr.", "zh": "去", "surface": "voy", "source": "supplement"},
+    {"h": "colegio", "pos": "m.", "zh": "（中小）学校", "surface": "colegio", "source": "supplement"}]},
+   {"es": "Los martes y los jueves entreno con el equipo de fútbol del barrio.", "zh": "每周二和周四，我跟社区的足球队一起训练。", "w": [
+    {"h": "martes", "pos": "m.", "zh": "星期二", "surface": "martes", "source": "supplement"},
+    {"h": "jueves", "pos": "m.", "zh": "星期四", "surface": "jueves", "source": "supplement"},
+    {"h": "entrenar", "pos": "intr.", "zh": "训练", "surface": "entreno", "source": "supplement"},
+    {"h": "equipo", "pos": "m.", "zh": "队，球队", "surface": "equipo", "source": "supplement"},
+    {"h": "barrio", "pos": "m.", "zh": "街区，社区", "surface": "barrio", "source": "supplement"}]},
+   {"es": "Los sábados jugamos un partido contra un equipo de otro barrio.", "zh": "每个星期六，我们和别的社区的球队踢一场比赛。", "w": [
+    {"h": "sábado", "pos": "m.", "zh": "星期六", "surface": "sábados", "source": "supplement"},
+    {"h": "partido", "pos": "m.", "zh": "比赛", "surface": "partido", "source": "supplement"},
+    {"h": "contra", "pos": "prep.", "zh": "对，跟……对抗", "surface": "contra", "source": "supplement"},
+    {"h": "otro", "pos": "adj.", "zh": "别的，另一个", "surface": "otro", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Pinto los domingos por la tarde con mi abuela.", "zh": "每个星期天下午，我和奶奶一起画画。", "w": [
+    {"h": "domingo", "pos": "m.", "zh": "星期天", "surface": "domingos", "source": "supplement"},
+    {"h": "por la tarde", "pos": "loc.", "zh": "下午", "surface": "por la tarde", "source": "supplement"},
+    {"h": "abuela", "pos": "f.", "zh": "奶奶；外婆", "surface": "abuela", "source": "supplement"}]},
+   {"es": "Ella es pintora y tiene muchos colores en su casa.", "zh": "她是画家，家里有很多颜料。", "w": [
+    {"h": "pintora", "pos": "f.", "zh": "女画家", "surface": "pintora", "source": "supplement"},
+    {"h": "mucho", "pos": "adj.", "zh": "很多的", "surface": "muchos", "source": "supplement"},
+    {"h": "color", "pos": "m.", "zh": "颜色；颜料", "surface": "colores", "source": "supplement"},
+    {"h": "casa", "pos": "f.", "zh": "家，房子", "surface": "casa", "source": "supplement"}]},
+   {"es": "Juntas pintamos flores, pájaros y árboles del parque.", "zh": "我们一起画公园里的花、鸟和树。", "w": [
+    {"h": "junto", "pos": "adj.", "zh": "一起的，在一起的", "surface": "Juntas", "source": "supplement"},
+    {"h": "flor", "pos": "f.", "zh": "花", "surface": "flores", "source": "supplement"},
+    {"h": "pájaro", "pos": "m.", "zh": "鸟", "surface": "pájaros", "source": "supplement"},
+    {"h": "árbol", "pos": "m.", "zh": "树", "surface": "árboles", "source": "supplement"},
+    {"h": "parque", "pos": "m.", "zh": "公园", "surface": "parque", "source": "supplement"}]},
+   {"es": "A veces mis amigos vienen a casa y escuchamos música juntos.", "zh": "有时候朋友们来我家，我们一起听音乐。", "w": [
+    {"h": "a veces", "pos": "loc.", "zh": "有时候", "surface": "A veces", "source": "supplement"},
+    {"h": "amigo", "pos": "m.", "zh": "朋友", "surface": "amigos", "source": "supplement"},
+    {"h": "venir", "pos": "intr.", "zh": "来", "surface": "vienen", "source": "supplement"}]},
+   {"es": "Con mis aficiones nunca me aburro y siempre aprendo algo nuevo.", "zh": "有了这些爱好，我从来不觉得无聊，总能学到新东西。", "w": [
+    {"h": "nunca", "pos": "adv.", "zh": "从不，从来不", "surface": "nunca", "source": "supplement"},
+    {"h": "aburrirse", "pos": "prnl.", "zh": "感到无聊", "surface": "me aburro", "source": "supplement"},
+    {"h": "siempre", "pos": "adv.", "zh": "总是", "surface": "siempre", "source": "supplement"},
+    {"h": "aprender", "pos": "tr.", "zh": "学到，学会", "surface": "aprendo", "source": "supplement"},
+    {"h": "algo", "pos": "pron.", "zh": "某事，某物", "surface": "algo", "source": "supplement"}]},
+   {"es": "Creo que es importante tener tiempo para las cosas que te gustan.", "zh": "我觉得，有时间做自己喜欢的事情很重要。", "w": [
+    {"h": "creer", "pos": "tr.", "zh": "认为，觉得", "surface": "Creo", "source": "supplement"},
+    {"h": "importante", "pos": "adj.", "zh": "重要的", "surface": "importante", "source": "supplement"},
+    {"h": "tiempo", "pos": "m.", "zh": "时间", "surface": "tiempo", "source": "supplement"},
+    {"h": "cosa", "pos": "f.", "zh": "事情，东西", "surface": "cosas", "source": "supplement"}]}
+  ]
+ ]
+}

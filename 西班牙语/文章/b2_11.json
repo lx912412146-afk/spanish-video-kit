@@ -1,0 +1,306 @@
+{
+ "id": "b2_11",
+ "level": "B2",
+ "no": 11,
+ "title_es": "La soledad en las grandes ciudades",
+ "title_zh": "大城市里的孤独",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 11 篇",
+ "header": "分级阅读 B2-11",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 11 篇。原创短文。主要语法：第 1 句 parece una paradoja que、第 3 句 dificultar que 后接现在虚拟式；第 5 句 si + 过去虚拟式（estuvieran pensados）+ 条件式（sería），表示与现实相反的假设；no solo…, sino…；连接语 además、de hecho、no obstante。7 句 128 词（2 段：4 + 3）。特别判断：第 1 句 sentirse sola 整体标 loc.，词头写阳性 sentirse solo；paradoja 是同源词，没有标。第 2 句 depende 和 del 被 solo 隔开，词头写 depender de，surface 只取 depende（同 soler + inf. 的写法）；no … solo …, sino … 按审读意见译作“并不只取决于……，更取决于……”，词头写 no solo…, sino…，surface 取 sino。第 3 句 trayecto 释义按审读意见改为“（上下班的）路程”；horarios exigentes 指工作和生活的作息很紧，exigente 取“要求高的；紧张的”。第 4 句 nunca … más que 相当于 no … más que（只，仅仅），词头写 no… más que，surface 取 más que，译作“除了打声招呼之外，从未有过别的交流”。第 5 句译文按审读意见改为“就会更容易”；第二轮审读后把 esa distancia invisible 改为 la distancia invisible entre vecinos，译文作“邻里之间这种无形的距离”。第 6 句 comidas compartidas 指邻居各带饭菜的聚餐，按审读意见译作“办起了聚餐”。第 7 句按审读意见把形容词前置为 el sencillo gesto；iniciativa 译作“举措”；al otro lado de la pared 指隔壁邻居，直译作“墙另一边的人”；saludar 与第 4 句的 saludo 词头不同，一眼可懂，没有再标。no_pause_commas：第 3 句、第 6 句是名词列举，逗号不停顿；其余逗号（句首状语、插入语、从句、pero 前）照常停顿。时长：原来按估算在第 4 句后面加了一句（La soledad prolongada no es un asunto menor: afecta tanto al estado de ánimo como a la salud.），原速实测 66.2 秒，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "trayectos,",
+    "why": "并列名词短语（los largos trayectos, los horarios exigentes y las mudanzas frecuentes），不停顿"
+   }
+  ],
+  "6": [
+   {
+    "after": "compartidas,",
+    "why": "并列名词（comidas compartidas, talleres y huertos comunitarios），不停顿"
+   }
+  ]
+ },
+ "paras": [
+  [
+   {
+    "es": "Parece una paradoja que, en ciudades donde conviven tantas personas, cada vez más gente reconozca sentirse sola.",
+    "zh": "这似乎是一个悖论：在如此多人共同生活的城市里，却有越来越多的人承认自己感到孤独。",
+    "w": [
+     {
+      "h": "convivir",
+      "pos": "intr.",
+      "zh": "共同生活，共处",
+      "surface": "conviven",
+      "source": "supplement"
+     },
+     {
+      "h": "cada vez más",
+      "pos": "loc.",
+      "zh": "越来越多（的）",
+      "surface": "cada vez más",
+      "source": "supplement"
+     },
+     {
+      "h": "reconocer",
+      "pos": "tr.",
+      "zh": "承认，坦言",
+      "surface": "reconozca",
+      "source": "supplement"
+     },
+     {
+      "h": "sentirse solo",
+      "pos": "loc.",
+      "zh": "感到孤独",
+      "surface": "sentirse sola",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "La soledad no depende solo del número de personas que nos rodean, sino de la calidad de los vínculos que mantenemos con ellas.",
+    "zh": "孤独并不只取决于我们身边有多少人，更取决于我们与他们之间联系的质量。",
+    "w": [
+     {
+      "h": "soledad",
+      "pos": "f.",
+      "zh": "孤独",
+      "surface": "soledad",
+      "source": "supplement"
+     },
+     {
+      "h": "depender de",
+      "pos": "loc.",
+      "zh": "取决于",
+      "surface": "depende",
+      "source": "supplement"
+     },
+     {
+      "h": "rodear",
+      "pos": "tr.",
+      "zh": "围绕，在……周围",
+      "surface": "rodean",
+      "source": "supplement"
+     },
+     {
+      "h": "no solo…, sino…",
+      "pos": "loc.",
+      "zh": "不仅……而且（更）……",
+      "surface": "sino",
+      "source": "supplement"
+     },
+     {
+      "h": "vínculo",
+      "pos": "m.",
+      "zh": "联系，纽带",
+      "surface": "vínculos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Los largos trayectos, los horarios exigentes y las mudanzas frecuentes dificultan que se consoliden amistades duraderas.",
+    "zh": "漫长的通勤路程、紧张的作息和频繁的搬家，使持久的友谊难以建立起来。",
+    "w": [
+     {
+      "h": "trayecto",
+      "pos": "m.",
+      "zh": "（上下班的）路程",
+      "surface": "trayectos",
+      "source": "supplement"
+     },
+     {
+      "h": "exigente",
+      "pos": "adj.",
+      "zh": "要求高的；紧张的",
+      "surface": "exigentes",
+      "source": "supplement"
+     },
+     {
+      "h": "mudanza",
+      "pos": "f.",
+      "zh": "搬家",
+      "surface": "mudanzas",
+      "source": "supplement"
+     },
+     {
+      "h": "dificultar que + subj.",
+      "pos": "loc.",
+      "zh": "使……难以（接虚拟式）",
+      "surface": "dificultan que",
+      "source": "supplement"
+     },
+     {
+      "h": "duradero",
+      "pos": "adj.",
+      "zh": "持久的",
+      "surface": "duraderas",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Además, muchos vecinos apenas se conocen: comparten el ascensor a diario, pero nunca han intercambiado más que un saludo.",
+    "zh": "此外，许多邻居彼此几乎不认识：他们每天同乘一部电梯，却除了打声招呼之外，从未有过别的交流。",
+    "w": [
+     {
+      "h": "apenas",
+      "pos": "adv.",
+      "zh": "几乎不",
+      "surface": "apenas",
+      "source": "supplement"
+     },
+     {
+      "h": "ascensor",
+      "pos": "m.",
+      "zh": "电梯",
+      "surface": "ascensor",
+      "source": "supplement"
+     },
+     {
+      "h": "a diario",
+      "pos": "loc.",
+      "zh": "每天",
+      "surface": "a diario",
+      "source": "supplement"
+     },
+     {
+      "h": "no… más que",
+      "pos": "loc.",
+      "zh": "只，除了……之外",
+      "surface": "más que",
+      "source": "supplement"
+     },
+     {
+      "h": "saludo",
+      "pos": "m.",
+      "zh": "问候，招呼",
+      "surface": "saludo",
+      "source": "supplement"
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Si los espacios públicos estuvieran pensados para el encuentro, sería más fácil romper la distancia invisible entre vecinos.",
+    "zh": "如果公共空间是为人们相遇交往而设计的，打破邻里之间这种无形的距离就会更容易。",
+    "w": [
+     {
+      "h": "estar pensado para",
+      "pos": "loc.",
+      "zh": "为……而设计",
+      "surface": "estuvieran pensados para",
+      "source": "supplement"
+     },
+     {
+      "h": "encuentro",
+      "pos": "m.",
+      "zh": "相遇，交往",
+      "surface": "encuentro",
+      "source": "supplement"
+     },
+     {
+      "h": "romper",
+      "pos": "tr.",
+      "zh": "打破",
+      "surface": "romper",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "De hecho, algunos barrios ya organizan comidas compartidas, talleres y huertos comunitarios que reúnen a desconocidos.",
+    "zh": "事实上，一些街区已经办起了聚餐、工作坊和社区菜园，把素不相识的人聚到一起。",
+    "w": [
+     {
+      "h": "de hecho",
+      "pos": "loc.",
+      "zh": "事实上",
+      "surface": "De hecho",
+      "source": "supplement"
+     },
+     {
+      "h": "taller",
+      "pos": "m.",
+      "zh": "工作坊",
+      "surface": "talleres",
+      "source": "supplement"
+     },
+     {
+      "h": "huerto comunitario",
+      "pos": "m.",
+      "zh": "社区菜园",
+      "surface": "huertos comunitarios",
+      "source": "supplement"
+     },
+     {
+      "h": "reunir",
+      "pos": "tr.",
+      "zh": "使聚到一起，召集",
+      "surface": "reúnen",
+      "source": "supplement"
+     },
+     {
+      "h": "desconocido",
+      "pos": "m.",
+      "zh": "陌生人",
+      "surface": "desconocidos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "No obstante, ninguna iniciativa sustituye el sencillo gesto de saludar a quien vive al otro lado de la pared.",
+    "zh": "然而，任何举措都无法取代一个简单的举动：向住在墙另一边的人打声招呼。",
+    "w": [
+     {
+      "h": "no obstante",
+      "pos": "loc.",
+      "zh": "然而，不过",
+      "surface": "No obstante",
+      "source": "supplement"
+     },
+     {
+      "h": "sustituir",
+      "pos": "tr.",
+      "zh": "取代，代替",
+      "surface": "sustituye",
+      "source": "supplement"
+     },
+     {
+      "h": "gesto",
+      "pos": "m.",
+      "zh": "举动，姿态",
+      "surface": "gesto",
+      "source": "supplement"
+     },
+     {
+      "h": "quien",
+      "pos": "pron.",
+      "zh": "……的人",
+      "surface": "quien",
+      "source": "supplement"
+     },
+     {
+      "h": "al otro lado de",
+      "pos": "loc.",
+      "zh": "在……的另一边",
+      "surface": "al otro lado de",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "b2_20",
+ "level": "B2",
+ "no": 20,
+ "title_es": "La ciudad de los quince minutos",
+ "title_zh": "十五分钟城市",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 20 篇",
+ "header": "分级阅读 B2-20",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 20 篇。原创短文。主要语法：第 1 句 la llamada（所谓的）、条件式 debería；第 2 句原形动词短语名词化作主语、tendría que；第 3 句 no solo…, sino que… + 条件式；第 4 句 al + 原形表原因；第 5 句 temer que + 现在虚拟式（encarezca）；第 6 句 ser + 过去分词的被动（fueron diseñadas）；连接语 además、no obstante、aun así。7 句 135 词（2 段：4 + 3）。特别判断：标题和第 1 句的 quince 写成单词；第 1 句 lo esencial 指日常必需的设施和服务，译作“生活必需的一切”；llamada 词头写阳性 llamado。第 2 句按审读意见把 trabajar 改成 ir a trabajar（说的是去上班的路，不是工作本身），译作“上班、上学、购物或运动的地方，都应该步行或骑车就能到达”；四个原形动词短语并列作主语，按名词列举处理，逗号不停顿；tener que 用条件式 tendría que，语气比 tiene que 委婉。第 3 句 lugar de encuentro 译作“交往场所”。第 4 句 al pasar 表原因（由于），不是“当……时”。第 5 句 encarecer la vivienda 译作“推高房价”，barrios mejor equipados 译作“配套设施完善的街区”。第 6 句 aplicarlo 的 lo 指这一模式，译文补出“这一模式”；en los pueblos 译作“在乡镇”（原来写 en zonas rurales，朗读时连成了一个词，识别核对对不上）。第 7 句 si estamos dispuestos a perder tantas horas 译作“是否愿意把那么多时间耗费在往返路上”（原来写 cuánto tiempo estamos dispuestos a perder，朗读时 cuánto 后面的名词几乎没有读出来，换成 cuántas horas 也一样，于是改成 si 引出的间接疑问）。equipado 是同源词，没有标。no_pause_commas：第 2 句的列举不停顿。时长：原来按估算在第 4 句后面加了一句（Por su parte, el pequeño comercio recuperaría clientela y llenaría de vida los barrios.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [{"after": "trabajar,", "why": "并列原形动词短语作主语（ir a trabajar, estudiar, comprar o hacer deporte），不停顿"}, {"after": "estudiar,", "why": "同上，并列原形动词作主语，不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "La llamada ciudad de los quince minutos parte de una idea sencilla: lo esencial debería estar al alcance de cualquier vecino.", "zh": "所谓的“十五分钟城市”，出发点是一个简单的想法：生活必需的一切，都应当在每一位居民触手可及的范围内。", "w": [
+    {"h": "llamado", "pos": "adj.", "zh": "所谓的", "surface": "llamada", "source": "supplement"},
+    {"h": "partir de", "pos": "loc.", "zh": "以……为出发点", "surface": "parte de", "source": "supplement"},
+    {"h": "lo esencial", "pos": "loc.", "zh": "必需的东西", "surface": "lo esencial", "source": "supplement"},
+    {"h": "al alcance de", "pos": "loc.", "zh": "在……触手可及处", "surface": "al alcance de", "source": "supplement"},
+    {"h": "vecino", "pos": "m.", "zh": "居民，邻居", "surface": "vecino", "source": "supplement"}]},
+   {"es": "Ir a trabajar, estudiar, comprar o hacer deporte tendría que ser posible a pie o en bicicleta, sin largos desplazamientos.", "zh": "上班、上学、购物或运动的地方，都应该步行或骑车就能到达，而无须长途奔波。", "w": [
+    {"h": "hacer deporte", "pos": "loc.", "zh": "做运动，锻炼", "surface": "hacer deporte", "source": "supplement"},
+    {"h": "tener que + inf.", "pos": "loc.", "zh": "应该（条件式更委婉）", "surface": "tendría que", "source": "supplement"},
+    {"h": "a pie", "pos": "loc.", "zh": "步行", "surface": "a pie", "source": "supplement"},
+    {"h": "desplazamiento", "pos": "m.", "zh": "出行，往返路程", "surface": "desplazamientos", "source": "supplement"}]},
+   {"es": "Esta propuesta no solo reduciría la contaminación y el ruido, sino que devolvería a las calles su papel como lugar de encuentro.", "zh": "这一方案不仅会减少污染和噪音，还会让街道重新发挥交往场所的作用。", "w": [
+    {"h": "contaminación", "pos": "f.", "zh": "污染", "surface": "contaminación", "source": "supplement"},
+    {"h": "no solo…, sino que…", "pos": "loc.", "zh": "不仅……而且……", "surface": "sino que", "source": "supplement"},
+    {"h": "devolver", "pos": "tr.", "zh": "归还；使恢复", "surface": "devolvería", "source": "supplement"},
+    {"h": "papel", "pos": "m.", "zh": "作用，角色", "surface": "papel", "source": "supplement"},
+    {"h": "lugar de encuentro", "pos": "m.", "zh": "相聚交往的场所", "surface": "lugar de encuentro", "source": "supplement"}]},
+   {"es": "Además, al pasar menos tiempo en atascos, la gente dispondría de más horas para descansar.", "zh": "此外，由于堵在路上的时间少了，人们就会有更多时间休息。", "w": [
+    {"h": "al + inf.", "pos": "loc.", "zh": "由于……；在……时", "surface": "al pasar", "source": "supplement"},
+    {"h": "atasco", "pos": "m.", "zh": "堵车，交通堵塞", "surface": "atascos", "source": "supplement"},
+    {"h": "disponer de", "pos": "loc.", "zh": "拥有，有……可用", "surface": "dispondría de", "source": "supplement"}]}
+  ],
+  [
+   {"es": "No obstante, el modelo también despierta críticas: algunos temen que encarezca la vivienda en los barrios mejor equipados.", "zh": "不过，这一模式也引起了批评：有人担心它会推高配套设施完善的街区的房价。", "w": [
+    {"h": "no obstante", "pos": "loc.", "zh": "然而，不过", "surface": "No obstante", "source": "supplement"},
+    {"h": "despertar críticas", "pos": "loc.", "zh": "引起批评", "surface": "despierta críticas", "source": "supplement"},
+    {"h": "temer que + subj.", "pos": "loc.", "zh": "担心（接虚拟式）", "surface": "temen que", "source": "supplement"},
+    {"h": "encarecer", "pos": "tr.", "zh": "使变贵，推高价格", "surface": "encarezca", "source": "supplement"}]},
+   {"es": "Otros señalan que sería difícil aplicarlo en los pueblos o en ciudades que fueron diseñadas para el automóvil.", "zh": "另一些人指出，这一模式很难在乡镇，或是那些当初为汽车而设计的城市里实施。", "w": [
+    {"h": "señalar", "pos": "tr.", "zh": "指出", "surface": "señalan", "source": "supplement"},
+    {"h": "aplicar", "pos": "tr.", "zh": "实施，应用", "surface": "aplicarlo", "source": "supplement"},
+    {"h": "ser diseñado para", "pos": "loc.", "zh": "为……而设计", "surface": "fueron diseñadas para", "source": "supplement"}]},
+   {"es": "Aun así, la propuesta nos invita a pensar qué ciudad queremos y si estamos dispuestos a perder tantas horas en desplazarnos.", "zh": "尽管如此，这一方案促使我们思考：我们想要怎样的城市，又是否愿意把那么多时间耗费在往返路上。", "w": [
+    {"h": "aun así", "pos": "loc.", "zh": "尽管如此", "surface": "Aun así", "source": "supplement"},
+    {"h": "invitar a", "pos": "loc.", "zh": "促使，引人（做）", "surface": "invita a", "source": "supplement"},
+    {"h": "estar dispuesto a", "pos": "loc.", "zh": "愿意（做）", "surface": "estamos dispuestos a", "source": "supplement"},
+    {"h": "desplazarse", "pos": "prnl.", "zh": "出行，往返", "surface": "desplazarnos", "source": "supplement"}]}
+  ]
+ ]
+}

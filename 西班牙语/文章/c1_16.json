@@ -1,0 +1,73 @@
+{
+ "id": "c1_16",
+ "level": "C1",
+ "no": 16,
+ "title_es": "La privacidad como bien común",
+ "title_zh": "作为公共利益的隐私",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 16 篇",
+ "header": "分级阅读 C1-16",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 16 篇。原创短文。主要语法：自复被动 se concibe、quien 泛指主语、反身用法 se perjudica a sí mismo、关系从句里的虚拟式 que limiten、no solo、名词化 la recogida；8 句 140 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 concebirse como 整体标 loc.，surface 只写 se concibe（中间隔着 habitualmente）；第 2 句 ceder 指把数据交出去，译作“交出”；se perjudica a sí mismo 按 perjudicar 的及物用法标 tr.；第 3 句 familiar 作名词，指亲属；第 6 句 funcionar como 的 surface 只写 funciona（中间隔着 en este sentido）；bien común 整体标 m.，译作“公共利益”；第 8 句 cuidar 在句中出现两次，不能标；propio 第 1 句（su propio criterio）已经出现，第 8 句不再标，所以第 8 句只标 3 个词；intimidad 与 privacidad 近义，译文都作“隐私”。no_pause_commas：第 3 句 familiares, amigos y vecinos 是名词列举，不停顿。审读后改：第 3 句 revelan 改为 exponen，生词 revelar（暴露，透露）换成 exponer（使暴露，使受威胁）；列举逗号 familiares, 的登记不变。为凑足一分钟（原速实测比估算快），加了第 5 句：Esos patrones 承接第 4 句；fijar precios, conceder créditos o decidir… 是并列的不定式短语，若登记不停顿，合并后整句成为一段 107 个字符，超过 100 个字符的统一规则，所以照常停顿（同第一批 c1_07 第 1 句）。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "prnl.": "自复动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "3": [{"after": "familiares,", "why": "名词列举（familiares, amigos y vecinos），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "La privacidad se concibe habitualmente como un asunto individual que cada persona gestiona según su propio criterio.", "zh": "隐私通常被理解为一件个人的事情，由每个人按照自己的判断来处理。", "w": [
+    {"h": "concebirse como", "pos": "loc.", "zh": "被看作，被理解为", "surface": "se concibe", "source": "supplement"},
+    {"h": "habitualmente", "pos": "adv.", "zh": "通常", "surface": "habitualmente", "source": "supplement"},
+    {"h": "asunto", "pos": "m.", "zh": "事情，问题", "surface": "asunto", "source": "supplement"},
+    {"h": "gestionar", "pos": "tr.", "zh": "管理，处理", "surface": "gestiona", "source": "supplement"},
+    {"h": "criterio", "pos": "m.", "zh": "判断，标准", "surface": "criterio", "source": "supplement"}]},
+   {"es": "Desde esa óptica, quien cede sus datos a cambio de un servicio gratuito solo se perjudica a sí mismo.", "zh": "从这一视角看，交出个人数据来换取免费服务的人，损害的只是他自己。", "w": [
+    {"h": "óptica", "pos": "f.", "zh": "视角，角度", "surface": "óptica", "source": "supplement"},
+    {"h": "quien", "pos": "pron.", "zh": "（泛指）……的人", "surface": "quien", "source": "supplement"},
+    {"h": "ceder", "pos": "tr.", "zh": "交出，让出", "surface": "cede", "source": "supplement"},
+    {"h": "a cambio de", "pos": "loc.", "zh": "以……作为交换", "surface": "a cambio de", "source": "supplement"},
+    {"h": "perjudicar", "pos": "tr.", "zh": "损害", "surface": "perjudica", "source": "supplement"}]},
+   {"es": "Pero los datos rara vez hablan solo de quien los entrega: exponen también a sus familiares, amigos y vecinos.", "zh": "然而，数据很少只关乎交出它们的那个人：它们还会暴露此人的亲属、朋友和邻居。", "w": [
+    {"h": "rara vez", "pos": "loc.", "zh": "很少，难得", "surface": "rara vez", "source": "supplement"},
+    {"h": "entregar", "pos": "tr.", "zh": "交出，提供", "surface": "entrega", "source": "supplement"},
+    {"h": "exponer", "pos": "tr.", "zh": "使暴露，使受威胁", "surface": "exponen", "source": "supplement"},
+    {"h": "familiar", "pos": "m.", "zh": "亲属", "surface": "familiares", "source": "supplement"}]},
+   {"es": "Además, cuando se combinan innumerables perfiles, permiten inferir patrones sobre grupos enteros que nunca dieron su consentimiento.", "zh": "此外，当无数的个人资料汇集在一起时，就能据此推断出整个群体的行为模式，而这些群体从未表示过同意。", "w": [
+    {"h": "innumerable", "pos": "adj.", "zh": "无数的", "surface": "innumerables", "source": "supplement"},
+    {"h": "perfil", "pos": "m.", "zh": "个人资料，用户档案", "surface": "perfiles", "source": "supplement"},
+    {"h": "inferir", "pos": "tr.", "zh": "推断", "surface": "inferir", "source": "supplement"},
+    {"h": "patrón", "pos": "m.", "zh": "模式，规律", "surface": "patrones", "source": "supplement"},
+    {"h": "consentimiento", "pos": "m.", "zh": "同意，许可", "surface": "consentimiento", "source": "supplement"}]},
+   {"es": "Esos patrones pueden emplearse después para fijar precios, conceder créditos o decidir a quién se contrata.", "zh": "这些模式随后可能被用来定价、发放贷款，或决定雇用谁。", "w": [
+    {"h": "emplearse", "pos": "prnl.", "zh": "（被）使用", "surface": "emplearse", "source": "supplement"},
+    {"h": "fijar", "pos": "tr.", "zh": "确定，制定", "surface": "fijar", "source": "supplement"},
+    {"h": "conceder", "pos": "tr.", "zh": "发放，给予", "surface": "conceder", "source": "supplement"},
+    {"h": "crédito", "pos": "m.", "zh": "贷款", "surface": "créditos", "source": "supplement"},
+    {"h": "contratar", "pos": "tr.", "zh": "雇用", "surface": "contrata", "source": "supplement"}]}
+  ],
+  [
+   {"es": "La privacidad funciona, en este sentido, como un bien común: nadie puede protegerla del todo por sí solo.", "zh": "从这个意义上说，隐私如同一种公共利益：没有人能够单凭一己之力把它完全守护好。", "w": [
+    {"h": "funcionar como", "pos": "loc.", "zh": "如同，起……的作用", "surface": "funciona", "source": "supplement"},
+    {"h": "en este sentido", "pos": "loc.", "zh": "从这个意义上说", "surface": "en este sentido", "source": "supplement"},
+    {"h": "bien común", "pos": "m.", "zh": "公共利益", "surface": "bien común", "source": "supplement"},
+    {"h": "del todo", "pos": "loc.", "zh": "完全", "surface": "del todo", "source": "supplement"},
+    {"h": "por sí solo", "pos": "loc.", "zh": "单凭自己，独自", "surface": "por sí solo", "source": "supplement"}]},
+   {"es": "Por ello, su defensa exige normas colectivas que limiten la recogida de datos, no solo la prudencia individual.", "zh": "因此，保护隐私需要能够限制数据收集的集体规范，而不只是个人的谨慎。", "w": [
+    {"h": "por ello", "pos": "loc.", "zh": "因此", "surface": "Por ello", "source": "supplement"},
+    {"h": "exigir", "pos": "tr.", "zh": "要求，需要", "surface": "exige", "source": "supplement"},
+    {"h": "recogida", "pos": "f.", "zh": "收集", "surface": "recogida", "source": "supplement"},
+    {"h": "prudencia", "pos": "f.", "zh": "谨慎", "surface": "prudencia", "source": "supplement"}]},
+   {"es": "Cuidar la intimidad propia es, en definitiva, una manera de cuidar también la de los demás.", "zh": "归根结底，守护自己的隐私，也是在守护他人的隐私。", "w": [
+    {"h": "intimidad", "pos": "f.", "zh": "隐私，私密", "surface": "intimidad", "source": "supplement"},
+    {"h": "en definitiva", "pos": "loc.", "zh": "归根结底，总之", "surface": "en definitiva", "source": "supplement"},
+    {"h": "los demás", "pos": "pron.", "zh": "别人，其他人", "surface": "los demás", "source": "supplement"}]}
+  ]
+ ]
+}

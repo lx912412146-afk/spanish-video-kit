@@ -1,0 +1,71 @@
+{
+ "id": "c1_12",
+ "level": "C1",
+ "no": 12,
+ "title_es": "Los límites de la meritocracia",
+ "title_zh": "能力主义的局限",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 12 篇",
+ "header": "分级阅读 C1-12",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 12 篇。原创短文。主要语法：将来时 ocupará、条件式 defendería、无人称 se（se nace、se asiste）、quien 泛指主语、correr el riesgo de + 原形、no se trata de…sino de… 结构；8 句 141 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 meritocracia 是全篇的核心术语，虽然是同源词仍然标出，译作“能力主义”；cada cual 标 pron.；第 2 句 ella 指 meritocracia；第 3 句 depender de 的 surface 只写 dependen（中间隔着 en buena medida）；第 4 句 asistir a 在关系从句里介词前移（a la que se asiste），surface 只写 asiste，词头仍写 asistir a；第 6 句 partir con ventaja 整体标 loc.，译作“起点占优”；mérito 在这里指个人的成就和功劳，译作“功绩”；第 7 句 correr el riesgo de 译作“面临……的危险”；第 8 句 renunciar al 是 a + el 的缩合，词头写 renunciar a，renunciar al mérito 指放弃以功绩取人的原则。本篇没有名词列举，no_pause_commas 为 {}。审读后改：第 6 句 mérito 的释义由“才德，功劳”改为“功绩，功劳”（mérito 没有“德”的含义），译文“归功于自身的才德”改为“归因于自身的功绩”；第 8 句译文改为“放弃以功绩取人的原则”。为凑足一分钟（原速实测比估算快），加了第 5 句：hogares 承接第 4 句的 hogar，不再标；disposición al esfuerzo 译作“努力的意愿”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "La meritocracia promete que cada cual ocupará el lugar que merecen su talento y su esfuerzo.", "zh": "能力主义许诺：每个人都将占据其才能与努力所应得的位置。", "w": [
+    {"h": "meritocracia", "pos": "f.", "zh": "能力主义，精英治理", "surface": "meritocracia", "source": "supplement"},
+    {"h": "prometer", "pos": "tr.", "zh": "许诺，承诺", "surface": "promete", "source": "supplement"},
+    {"h": "cada cual", "pos": "pron.", "zh": "每个人", "surface": "cada cual", "source": "supplement"},
+    {"h": "merecer", "pos": "tr.", "zh": "应得，配得上", "surface": "merecen", "source": "supplement"}]},
+   {"es": "Como ideal, resulta difícil oponerse a ella: nadie defendería repartir los cargos por herencia o amistad.", "zh": "作为一种理想，它很难让人反对：没有人会主张按世袭或私交来分配职位。", "w": [
+    {"h": "resultar", "pos": "intr.", "zh": "（+adj.）显得，是", "surface": "resulta", "source": "supplement"},
+    {"h": "oponerse a", "pos": "loc.", "zh": "反对", "surface": "oponerse a", "source": "supplement"},
+    {"h": "repartir", "pos": "tr.", "zh": "分配", "surface": "repartir", "source": "supplement"},
+    {"h": "cargo", "pos": "m.", "zh": "职位，职务", "surface": "cargos", "source": "supplement"},
+    {"h": "herencia", "pos": "f.", "zh": "世袭，继承", "surface": "herencia", "source": "supplement"}]},
+   {"es": "El problema surge al olvidar que el talento y el esfuerzo dependen en buena medida de circunstancias no elegidas.", "zh": "一旦忘记了才能与努力在很大程度上取决于并非自己选择的境遇，问题就出现了。", "w": [
+    {"h": "surgir", "pos": "intr.", "zh": "产生，出现", "surface": "surge", "source": "supplement"},
+    {"h": "depender de", "pos": "loc.", "zh": "取决于", "surface": "dependen", "source": "supplement"},
+    {"h": "en buena medida", "pos": "loc.", "zh": "在很大程度上", "surface": "en buena medida", "source": "supplement"},
+    {"h": "circunstancia", "pos": "f.", "zh": "境遇，环境", "surface": "circunstancias", "source": "supplement"}]}
+  ],
+  [
+   {"es": "El hogar en que se nace y la escuela a la que se asiste condicionan desde muy pronto las oportunidades.", "zh": "一个人出生的家庭和就读的学校，从很早起就制约着他能获得的机会。", "w": [
+    {"h": "hogar", "pos": "m.", "zh": "家，家庭", "surface": "hogar", "source": "supplement"},
+    {"h": "asistir a", "pos": "loc.", "zh": "上（学），就读", "surface": "asiste", "source": "supplement"},
+    {"h": "condicionar", "pos": "tr.", "zh": "制约，影响", "surface": "condicionan", "source": "supplement"},
+    {"h": "desde muy pronto", "pos": "loc.", "zh": "很早就，从小", "surface": "desde muy pronto", "source": "supplement"}]},
+   {"es": "Incluso la disposición al esfuerzo suele cultivarse en hogares y aulas que ofrecen estabilidad y estímulo.", "zh": "就连努力的意愿，往往也是在能提供稳定与激励的家庭和课堂中培养起来的。", "w": [
+    {"h": "disposición", "pos": "f.", "zh": "意愿，倾向", "surface": "disposición", "source": "supplement"},
+    {"h": "soler + inf.", "pos": "loc.", "zh": "通常，往往", "surface": "suele", "source": "supplement"},
+    {"h": "cultivarse", "pos": "prnl.", "zh": "得到培养", "surface": "cultivarse", "source": "supplement"},
+    {"h": "estímulo", "pos": "m.", "zh": "激励，鼓励", "surface": "estímulo", "source": "supplement"}]},
+   {"es": "Quien parte con ventaja tiende a atribuir su éxito al mérito propio e ignorar la ayuda recibida.", "zh": "起点占优的人往往把成功归因于自身的功绩，而忽视自己得到过的帮助。", "w": [
+    {"h": "quien", "pos": "pron.", "zh": "（泛指）……的人", "surface": "Quien", "source": "supplement"},
+    {"h": "partir con ventaja", "pos": "loc.", "zh": "起点占优", "surface": "parte con ventaja", "source": "supplement"},
+    {"h": "tender a", "pos": "loc.", "zh": "倾向于，往往", "surface": "tiende a", "source": "supplement"},
+    {"h": "atribuir", "pos": "tr.", "zh": "把……归于", "surface": "atribuir", "source": "supplement"},
+    {"h": "mérito", "pos": "m.", "zh": "功绩，功劳", "surface": "mérito", "source": "supplement"}]},
+   {"es": "A la inversa, quien fracasa corre el riesgo de interpretar su situación como una prueba de insuficiencia personal.", "zh": "反过来，失败的人则面临这样的危险：把自己的处境看作个人能力不足的证明。", "w": [
+    {"h": "a la inversa", "pos": "loc.", "zh": "反过来，反之", "surface": "A la inversa", "source": "supplement"},
+    {"h": "fracasar", "pos": "intr.", "zh": "失败", "surface": "fracasa", "source": "supplement"},
+    {"h": "correr el riesgo de", "pos": "loc.", "zh": "面临……的危险", "surface": "corre el riesgo de", "source": "supplement"},
+    {"h": "insuficiencia", "pos": "f.", "zh": "不足，欠缺", "surface": "insuficiencia", "source": "supplement"}]},
+   {"es": "No se trata de renunciar al mérito, sino de reconocer sus límites y garantizar condiciones de partida más equitativas.", "zh": "问题不在于放弃以功绩取人的原则，而在于承认它的局限，并确保起点条件更加公平。", "w": [
+    {"h": "tratarse de", "pos": "loc.", "zh": "（无人称）问题在于", "surface": "se trata de", "source": "supplement"},
+    {"h": "renunciar a", "pos": "loc.", "zh": "放弃", "surface": "renunciar al", "source": "supplement"},
+    {"h": "sino", "pos": "conj.", "zh": "（no…sino）而是", "surface": "sino", "source": "supplement"},
+    {"h": "condición de partida", "pos": "f.", "zh": "起点条件", "surface": "condiciones de partida", "source": "supplement"},
+    {"h": "equitativo", "pos": "adj.", "zh": "公平的，公正的", "surface": "equitativas", "source": "supplement"}]}
+  ]
+ ]
+}

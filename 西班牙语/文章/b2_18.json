@@ -1,0 +1,278 @@
+{
+ "id": "b2_18",
+ "level": "B2",
+ "no": 18,
+ "title_es": "La ciencia ciudadana",
+ "title_zh": "公民科学",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 18 篇",
+ "header": "分级阅读 B2-18",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 18 篇。原创短文。主要语法：第 1 句 ser + 过去分词的被动（era considerada）、过去未完成时；第 2 句副动词表方式；第 4 句自复被动 se recopila、条件式 podría；第 6 句 sería un error que + 过去虚拟式（se aceptaran）；连接语 en cambio、de este modo、además、sin embargo、ya que、en definitiva。7 句 129 词（2 段：4 + 3）。特别判断：标题 ciencia ciudadana 译作“公民科学”，即普通人参与科学研究。第 1 句按审读意见译作“在很长一段时间里”，durante mucho tiempo 释义改为“很长一段时间（里）”；reservada a 整体标 loc.（词头写阳性 reservado a）。第 2 句 miles de 是泛指的“成千上万”，不是统计数字；colaboran 译作“协助研究”；三个副动词短语是并列谓语，合起来超过 100 字符，逗号照常停顿。第 3 句 una simple aplicación 译作“只需一个简单的应用程序”；voluntario、simple、aplicación 是同源词，没有标。第 6 句 aficionado 在这里指业余爱好者（不是球迷）；sin revisión 整体标 loc.。第 7 句 entusiasmo 是同源词，没有标。本篇没有名词列举，no_pause_commas 为空。第二轮审读后改：第 7 句句首 Por eso 改为 En definitiva（这一句是全文的总结，不是结果），译文作“总之”，并标 en definitiva。时长：原来按估算在第 6 句后面加了一句（Para evitarlo, los investigadores revisan los datos dudosos y ofrecen formación básica a los participantes.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {
+    "es": "Durante mucho tiempo, la investigación científica era considerada una tarea reservada a especialistas que trabajaban en laboratorios.",
+    "zh": "在很长一段时间里，科学研究被视为专属于实验室里那些专家的工作。",
+    "w": [
+     {
+      "h": "durante mucho tiempo",
+      "pos": "loc.",
+      "zh": "很长一段时间（里）",
+      "surface": "Durante mucho tiempo",
+      "source": "supplement"
+     },
+     {
+      "h": "ser considerado",
+      "pos": "loc.",
+      "zh": "被视为，被认为是",
+      "surface": "era considerada",
+      "source": "supplement"
+     },
+     {
+      "h": "tarea",
+      "pos": "f.",
+      "zh": "任务，工作",
+      "surface": "tarea",
+      "source": "supplement"
+     },
+     {
+      "h": "reservado a",
+      "pos": "loc.",
+      "zh": "专属于……的",
+      "surface": "reservada a",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Hoy, en cambio, miles de voluntarios colaboran observando aves, midiendo la calidad del aire o clasificando imágenes del cielo.",
+    "zh": "而如今，成千上万的志愿者通过观察鸟类、测量空气质量或给天空图像分类来协助研究。",
+    "w": [
+     {
+      "h": "en cambio",
+      "pos": "loc.",
+      "zh": "相反，而",
+      "surface": "en cambio",
+      "source": "supplement"
+     },
+     {
+      "h": "miles de",
+      "pos": "loc.",
+      "zh": "成千上万的",
+      "surface": "miles de",
+      "source": "supplement"
+     },
+     {
+      "h": "ave",
+      "pos": "f.",
+      "zh": "鸟，禽类",
+      "surface": "aves",
+      "source": "supplement"
+     },
+     {
+      "h": "medir",
+      "pos": "tr.",
+      "zh": "测量",
+      "surface": "midiendo",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Con una simple aplicación, cualquier persona puede registrar datos y enviarlos a un equipo de investigadores en pocos segundos.",
+    "zh": "只需一个简单的应用程序，任何人都能记录数据，并在几秒钟内发送给研究团队。",
+    "w": [
+     {
+      "h": "registrar",
+      "pos": "tr.",
+      "zh": "记录，登记",
+      "surface": "registrar",
+      "source": "supplement"
+     },
+     {
+      "h": "dato",
+      "pos": "m.",
+      "zh": "数据",
+      "surface": "datos",
+      "source": "supplement"
+     },
+     {
+      "h": "enviar",
+      "pos": "tr.",
+      "zh": "发送",
+      "surface": "enviarlos",
+      "source": "supplement"
+     },
+     {
+      "h": "en pocos segundos",
+      "pos": "loc.",
+      "zh": "几秒钟之内",
+      "surface": "en pocos segundos",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "De este modo, se recopila una cantidad de información que ningún grupo de científicos podría reunir por sí solo.",
+    "zh": "这样一来，收集到的信息量是任何一个科学家团队单靠自己都无法汇集的。",
+    "w": [
+     {
+      "h": "de este modo",
+      "pos": "loc.",
+      "zh": "这样一来",
+      "surface": "De este modo",
+      "source": "supplement"
+     },
+     {
+      "h": "recopilar",
+      "pos": "tr.",
+      "zh": "收集，汇编",
+      "surface": "recopila",
+      "source": "supplement"
+     },
+     {
+      "h": "reunir",
+      "pos": "tr.",
+      "zh": "汇集，收集",
+      "surface": "reunir",
+      "source": "supplement"
+     },
+     {
+      "h": "por sí solo",
+      "pos": "loc.",
+      "zh": "单靠自己",
+      "surface": "por sí solo",
+      "source": "supplement"
+     }
+    ]
+   }
+  ],
+  [
+   {
+    "es": "Además, quienes participan aprenden a observar su entorno con más atención y entienden mejor cómo avanza la ciencia.",
+    "zh": "此外，参与者会学着更留心地观察周围的环境，也能更好地理解科学是如何进步的。",
+    "w": [
+     {
+      "h": "quien",
+      "pos": "pron.",
+      "zh": "……的人",
+      "surface": "quienes",
+      "source": "supplement"
+     },
+     {
+      "h": "aprender a + inf.",
+      "pos": "loc.",
+      "zh": "学会做某事",
+      "surface": "aprenden a",
+      "source": "supplement"
+     },
+     {
+      "h": "entorno",
+      "pos": "m.",
+      "zh": "周围环境",
+      "surface": "entorno",
+      "source": "supplement"
+     },
+     {
+      "h": "con más atención",
+      "pos": "loc.",
+      "zh": "更留心地",
+      "surface": "con más atención",
+      "source": "supplement"
+     },
+     {
+      "h": "avanzar",
+      "pos": "intr.",
+      "zh": "进步，发展",
+      "surface": "avanza",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "Sin embargo, sería un error que los datos se aceptaran sin revisión, ya que un aficionado puede equivocarse con facilidad.",
+    "zh": "不过，如果这些数据未经审核就被采纳，那将是一个错误，因为业余爱好者很容易出错。",
+    "w": [
+     {
+      "h": "sin revisión",
+      "pos": "loc.",
+      "zh": "未经审核",
+      "surface": "sin revisión",
+      "source": "supplement"
+     },
+     {
+      "h": "ya que",
+      "pos": "loc.",
+      "zh": "因为，既然",
+      "surface": "ya que",
+      "source": "supplement"
+     },
+     {
+      "h": "aficionado",
+      "pos": "m.",
+      "zh": "业余爱好者",
+      "surface": "aficionado",
+      "source": "supplement"
+     },
+     {
+      "h": "equivocarse",
+      "pos": "prnl.",
+      "zh": "出错，弄错",
+      "surface": "equivocarse",
+      "source": "supplement"
+     },
+     {
+      "h": "con facilidad",
+      "pos": "loc.",
+      "zh": "容易地",
+      "surface": "con facilidad",
+      "source": "supplement"
+     }
+    ]
+   },
+   {
+    "es": "En definitiva, los mejores proyectos combinan el entusiasmo de los ciudadanos con el rigor de los expertos.",
+    "zh": "总之，最好的项目会把公民的热情与专家的严谨结合起来。",
+    "w": [
+     {
+      "h": "en definitiva",
+      "pos": "loc.",
+      "zh": "总之，归根结底",
+      "surface": "En definitiva",
+      "source": "supplement"
+     },
+     {
+      "h": "combinar",
+      "pos": "tr.",
+      "zh": "把……结合起来",
+      "surface": "combinan",
+      "source": "supplement"
+     },
+     {
+      "h": "ciudadano",
+      "pos": "m.",
+      "zh": "公民，市民",
+      "surface": "ciudadanos",
+      "source": "supplement"
+     },
+     {
+      "h": "rigor",
+      "pos": "m.",
+      "zh": "严谨，严格",
+      "surface": "rigor",
+      "source": "supplement"
+     }
+    ]
+   }
+  ]
+ ]
+}

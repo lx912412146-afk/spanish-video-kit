@@ -1,0 +1,65 @@
+{
+ "id": "b2_15",
+ "level": "B2",
+ "no": 15,
+ "title_es": "El derecho a desconectar",
+ "title_zh": "下班后断开联系的权利",
+ "series": "西班牙语分级阅读 · B2 中高级 · 第 15 篇",
+ "header": "分级阅读 B2-15",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）B2 第 15 篇。原创短文。主要语法：第 2 句 lo que 名词化、现在完成时；第 3 句无人称 se（se habla）、es decir 引出解释；第 5 句 temer que + 现在虚拟式（reduzca）；第 6 句 si + 过去虚拟式（se planificaran 是自复被动，fueran）+ 条件式（perdería）；no…, sino…；连接语 por eso、en cambio、a fin de cuentas。7 句 128 词（2 段：4 + 3）。特别判断：标题 derecho a desconectar 按选题表译作“下班后断开联系的权利”，正文第 3 句译作“断开联系的权利”，desconectar 在这里是不及物用法。第 1 句 gracias a 译作“借助”，correo 指电子邮件；按审读意见去掉了 móvil、contestar 两个生词，留 3 个。第 2 句 obligación silenciosa 指没人明说、却人人默认的义务，按审读意见译作“心照不宣的义务：随时待命”；disponible 释义取“随时待命的”。第 3 句 fuera del horario laboral 整体标 loc.；atender 在这里是“回应（消息）”。第 4 句 rendir 指工作上发挥出水平，译作“保持良好工作表现”。第 5 句 imprevistos 是名词化的“意外情况”。silencioso、planificar 是同源词，没有标。第 7 句 trabajador descansado 译作“休息充分的员工”。no_pause_commas：第 1 句三个并列地点状语、第 7 句三个并列形容词，逗号不停顿。时长：原来按估算在第 4 句后面加了一句（De hecho, quien nunca llega a desconectar del todo acaba agotado y comete más errores.），B2 原速实测每词约 0.39 秒，8 句要 66 秒左右，超过 1 分钟太多，删掉这一句，其余各句的朗读不变。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prep.": "介词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "1": [{"after": "sofá,", "why": "并列地点状语（en el sofá, en el autobús o incluso de vacaciones），不停顿"}],
+  "7": [{"after": "feliz,", "why": "并列形容词（más feliz, más creativo y también más eficiente），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Gracias al móvil, hoy podemos contestar un correo del trabajo en el sofá, en el autobús o incluso de vacaciones.", "zh": "借助手机，如今我们在沙发上、公交车上，甚至在度假时，都能回复工作邮件。", "w": [
+    {"h": "gracias a", "pos": "loc.", "zh": "多亏，借助", "surface": "Gracias al", "source": "supplement"},
+    {"h": "correo", "pos": "m.", "zh": "电子邮件", "surface": "correo", "source": "supplement"},
+    {"h": "de vacaciones", "pos": "loc.", "zh": "在度假", "surface": "de vacaciones", "source": "supplement"}]},
+   {"es": "Lo que al principio parecía una ventaja se ha convertido en una obligación silenciosa de estar siempre disponibles.", "zh": "起初看似便利的东西，已经变成了一种心照不宣的义务：随时待命。", "w": [
+    {"h": "al principio", "pos": "loc.", "zh": "起初，一开始", "surface": "al principio", "source": "supplement"},
+    {"h": "ventaja", "pos": "f.", "zh": "好处，便利", "surface": "ventaja", "source": "supplement"},
+    {"h": "convertirse en", "pos": "loc.", "zh": "变成，成为", "surface": "se ha convertido en", "source": "supplement"},
+    {"h": "disponible", "pos": "adj.", "zh": "随时待命的", "surface": "disponibles", "source": "supplement"}]},
+   {"es": "Por eso, cada vez se habla más del derecho a desconectar, es decir, a no atender mensajes fuera del horario laboral.", "zh": "因此，人们越来越多地谈论断开联系的权利，也就是在工作时间以外不回应消息的权利。", "w": [
+    {"h": "derecho", "pos": "m.", "zh": "权利", "surface": "derecho", "source": "supplement"},
+    {"h": "desconectar", "pos": "intr.", "zh": "断开联系，下线", "surface": "desconectar", "source": "supplement"},
+    {"h": "es decir", "pos": "loc.", "zh": "也就是说", "surface": "es decir", "source": "supplement"},
+    {"h": "atender", "pos": "tr.", "zh": "回应，处理", "surface": "atender", "source": "supplement"},
+    {"h": "fuera del horario laboral", "pos": "loc.", "zh": "工作时间以外", "surface": "fuera del horario laboral", "source": "supplement"}]},
+   {"es": "Sus defensores sostienen que el descanso no es un lujo, sino una condición necesaria para rendir bien.", "zh": "支持者认为，休息不是奢侈品，而是保持良好工作表现的必要条件。", "w": [
+    {"h": "defensor", "pos": "m.", "zh": "支持者，捍卫者", "surface": "defensores", "source": "supplement"},
+    {"h": "sostener", "pos": "tr.", "zh": "主张，认为", "surface": "sostienen", "source": "supplement"},
+    {"h": "lujo", "pos": "m.", "zh": "奢侈品，奢侈", "surface": "lujo", "source": "supplement"},
+    {"h": "no…, sino…", "pos": "loc.", "zh": "不是……而是……", "surface": "sino", "source": "supplement"},
+    {"h": "rendir", "pos": "intr.", "zh": "（工作）有成效，表现好", "surface": "rendir", "source": "supplement"}]}
+  ],
+  [
+   {"es": "En cambio, algunas empresas temen que esta norma reduzca su capacidad de reaccionar ante imprevistos.", "zh": "相反，一些企业担心这项规定会削弱它们面对突发情况时作出反应的能力。", "w": [
+    {"h": "en cambio", "pos": "loc.", "zh": "相反，而", "surface": "En cambio", "source": "supplement"},
+    {"h": "temer que + subj.", "pos": "loc.", "zh": "担心（接虚拟式）", "surface": "temen que", "source": "supplement"},
+    {"h": "norma", "pos": "f.", "zh": "规定，规范", "surface": "norma", "source": "supplement"},
+    {"h": "ante", "pos": "prep.", "zh": "面对，对于", "surface": "ante", "source": "supplement"},
+    {"h": "imprevisto", "pos": "m.", "zh": "意外情况，突发事件", "surface": "imprevistos", "source": "supplement"}]},
+   {"es": "Si las tareas se planificaran mejor y las urgencias fueran la excepción, ese temor perdería buena parte de su fundamento.", "zh": "如果工作任务规划得更好，紧急情况只是例外，这种担忧就会失去很大一部分依据。", "w": [
+    {"h": "urgencia", "pos": "f.", "zh": "紧急情况", "surface": "urgencias", "source": "supplement"},
+    {"h": "temor", "pos": "m.", "zh": "担忧，恐惧", "surface": "temor", "source": "supplement"},
+    {"h": "buena parte de", "pos": "loc.", "zh": "很大一部分", "surface": "buena parte de", "source": "supplement"},
+    {"h": "fundamento", "pos": "m.", "zh": "依据，根据", "surface": "fundamento", "source": "supplement"}]},
+   {"es": "A fin de cuentas, un trabajador descansado suele ser más feliz, más creativo y también más eficiente.", "zh": "归根结底，休息充分的员工往往更快乐、更有创造力，也更有效率。", "w": [
+    {"h": "a fin de cuentas", "pos": "loc.", "zh": "归根结底，说到底", "surface": "A fin de cuentas", "source": "supplement"},
+    {"h": "descansado", "pos": "adj.", "zh": "休息充分的", "surface": "descansado", "source": "supplement"},
+    {"h": "soler + inf.", "pos": "loc.", "zh": "通常，往往", "surface": "suele", "source": "supplement"}]}
+  ]
+ ]
+}

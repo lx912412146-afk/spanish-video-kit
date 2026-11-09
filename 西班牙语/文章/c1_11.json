@@ -1,0 +1,74 @@
+{
+ "id": "c1_11",
+ "level": "C1",
+ "no": 11,
+ "title_es": "Traducir es interpretar",
+ "title_zh": "翻译即诠释",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 11 篇",
+ "header": "分级阅读 C1-11",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 11 篇。原创短文。主要语法：como si + 过去虚拟式（第 1 句）、quien haya + 过去分词（现在完成虚拟式，第 2 句）、de ahí que + 虚拟式（第 4 句）、pues 引出原因、no…sino 结构；8 句 140 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 2 句 verter 在这里指“译成”（verter a otro idioma），不是“倒出”；sin embargo 放在句中，两边逗号照常停顿；第 3 句 recortar la realidad 指语言对现实的切分，译作“切分现实”；callar 作及物动词，指“略去不说”；第 4 句 de ahí que 后接虚拟式（se limite、sopese），整体标 loc.，sino que 不单列；第 7 句 ambas 是代词，作 ser 的同位成分（ser ambas legítimas），词头写阳性 ambos；第 8 句 poner de relieve 整体标 loc.。本篇没有名词列举，no_pause_commas 为 {}。为凑足一分钟（原速实测比估算快），加了第 5 句：两个并列主语用 o 连接，动词用复数 obligan；juego de palabras 整体标 m.；registro 指语体；contemplar 在这里指词典“收录”。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Solemos imaginar la traducción como un traslado mecánico de palabras, como si cada término tuviera un equivalente exacto.", "zh": "我们往往把翻译想象成一种机械的词语搬运，仿佛每个词都有一个确切的对应词。", "w": [
+    {"h": "soler + inf.", "pos": "loc.", "zh": "通常，往往", "surface": "Solemos", "source": "supplement"},
+    {"h": "traslado", "pos": "m.", "zh": "搬运，转移", "surface": "traslado", "source": "supplement"},
+    {"h": "como si", "pos": "loc.", "zh": "仿佛，好像（+虚拟式）", "surface": "como si", "source": "supplement"},
+    {"h": "término", "pos": "m.", "zh": "词语，术语", "surface": "término", "source": "supplement"},
+    {"h": "equivalente", "pos": "m.", "zh": "对应词，等价物", "surface": "equivalente", "source": "supplement"}]},
+   {"es": "Quien haya intentado verter un poema a otro idioma sabe, sin embargo, que el sentido rara vez pasa intacto.", "zh": "然而，凡是尝试过把一首诗译成另一种语言的人都知道，意义很少能原封不动地传递过去。", "w": [
+    {"h": "quien", "pos": "pron.", "zh": "（泛指）……的人", "surface": "Quien", "source": "supplement"},
+    {"h": "verter", "pos": "tr.", "zh": "译成，翻译", "surface": "verter", "source": "supplement"},
+    {"h": "sin embargo", "pos": "loc.", "zh": "然而", "surface": "sin embargo", "source": "supplement"},
+    {"h": "rara vez", "pos": "loc.", "zh": "很少，难得", "surface": "rara vez", "source": "supplement"},
+    {"h": "intacto", "pos": "adj.", "zh": "原封不动的", "surface": "intacto", "source": "supplement"}]},
+   {"es": "Cada lengua recorta la realidad a su manera: distingue matices que otras ignoran y calla lo que otras explicitan.", "zh": "每种语言都以自己的方式切分现实：它会区分别的语言所忽略的细微差别，也会对别的语言明确说出的内容略而不提。", "w": [
+    {"h": "recortar", "pos": "tr.", "zh": "切分，划分", "surface": "recorta", "source": "supplement"},
+    {"h": "a su manera", "pos": "loc.", "zh": "按自己的方式", "surface": "a su manera", "source": "supplement"},
+    {"h": "matiz", "pos": "m.", "zh": "细微差别", "surface": "matices", "source": "supplement"},
+    {"h": "callar", "pos": "tr.", "zh": "略去不说，不提", "surface": "calla", "source": "supplement"},
+    {"h": "explicitar", "pos": "tr.", "zh": "明确说出", "surface": "explicitan", "source": "supplement"}]}
+  ],
+  [
+   {"es": "De ahí que el traductor no se limite a sustituir vocablos, sino que sopese el tono y las connotaciones.", "zh": "因此，译者并不只是替换词语，而是要掂量语气和言外之意。", "w": [
+    {"h": "de ahí que", "pos": "loc.", "zh": "因此（+虚拟式）", "surface": "De ahí que", "source": "supplement"},
+    {"h": "limitarse a", "pos": "loc.", "zh": "仅限于，只是", "surface": "se limite a", "source": "supplement"},
+    {"h": "vocablo", "pos": "m.", "zh": "词，词语", "surface": "vocablos", "source": "supplement"},
+    {"h": "sopesar", "pos": "tr.", "zh": "权衡，掂量", "surface": "sopese", "source": "supplement"},
+    {"h": "connotación", "pos": "f.", "zh": "言外之意，内涵", "surface": "connotaciones", "source": "supplement"}]},
+   {"es": "Un juego de palabras o un registro coloquial obligan a inventar soluciones que el diccionario no contempla.", "zh": "一个双关语或一种口语化的语体，会迫使译者创造出词典里没有收录的解决办法。", "w": [
+    {"h": "juego de palabras", "pos": "m.", "zh": "双关语，文字游戏", "surface": "juego de palabras", "source": "supplement"},
+    {"h": "registro", "pos": "m.", "zh": "语体，语域", "surface": "registro", "source": "supplement"},
+    {"h": "obligar a + inf.", "pos": "loc.", "zh": "迫使，不得不", "surface": "obligan a", "source": "supplement"},
+    {"h": "contemplar", "pos": "tr.", "zh": "收录，涵盖", "surface": "contempla", "source": "supplement"}]},
+   {"es": "Ninguna de estas elecciones es neutral, pues cada una revela una lectura particular del texto.", "zh": "这些选择没有一个是中立的，因为每一个选择都透露出对文本的一种特定解读。", "w": [
+    {"h": "elección", "pos": "f.", "zh": "选择，抉择", "surface": "elecciones", "source": "supplement"},
+    {"h": "pues", "pos": "conj.", "zh": "因为", "surface": "pues", "source": "supplement"},
+    {"h": "revelar", "pos": "tr.", "zh": "揭示，透露", "surface": "revela", "source": "supplement"},
+    {"h": "lectura", "pos": "f.", "zh": "解读，理解", "surface": "lectura", "source": "supplement"}]},
+   {"es": "Dos traducciones igualmente fieles pueden diferir notablemente y ser ambas legítimas si responden a propósitos distintos.", "zh": "两个同样忠实的译本可能差异显著，而只要各自服务于不同的目的，二者都可以是正当的。", "w": [
+    {"h": "fiel", "pos": "adj.", "zh": "忠实的", "surface": "fieles", "source": "supplement"},
+    {"h": "diferir", "pos": "intr.", "zh": "不同，相异", "surface": "diferir", "source": "supplement"},
+    {"h": "notablemente", "pos": "adv.", "zh": "显著地", "surface": "notablemente", "source": "supplement"},
+    {"h": "ambos", "pos": "pron.", "zh": "两者（都）", "surface": "ambas", "source": "supplement"},
+    {"h": "responder a", "pos": "loc.", "zh": "符合，服务于", "surface": "responden a", "source": "supplement"}]},
+   {"es": "Admitir que traducir es interpretar no rebaja el oficio; al contrario, pone de relieve su exigencia intelectual.", "zh": "承认翻译即诠释，并不会贬低这门手艺；恰恰相反，这凸显了它对智识的高度要求。", "w": [
+    {"h": "admitir", "pos": "tr.", "zh": "承认", "surface": "Admitir", "source": "supplement"},
+    {"h": "rebajar", "pos": "tr.", "zh": "贬低，降低", "surface": "rebaja", "source": "supplement"},
+    {"h": "oficio", "pos": "m.", "zh": "行当，手艺", "surface": "oficio", "source": "supplement"},
+    {"h": "al contrario", "pos": "loc.", "zh": "恰恰相反", "surface": "al contrario", "source": "supplement"},
+    {"h": "poner de relieve", "pos": "loc.", "zh": "凸显，突出", "surface": "pone de relieve", "source": "supplement"}]}
+  ]
+ ]
+}

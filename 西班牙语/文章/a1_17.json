@@ -1,0 +1,90 @@
+{
+ "id": "a1_17",
+ "level": "A1",
+ "no": 17,
+ "title_es": "En el médico",
+ "title_zh": "看医生",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 17 篇",
+ "header": "分级阅读 A1-17",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 17 篇。原创短文。身体不舒服去看医生，说症状、听医生的建议。陈述式现在时加 tener que + 原形（必须）和 ir a + 原形，A1 词汇，12 句 126 词，分两段：症状和去诊所，医生检查和建议。特别判断：第 1 句 encontrarse bien 整体标 loc.，surface 写 me encuentro bien，和前面的 no 合起来译作“不舒服”；第 2、3 句 tener fiebre、tener hambre 整体标 loc.，no tengo hambre 译作“不想吃东西”；第 4 句 centro de salud 是西班牙的社区医疗中心，名词短语标 m.，译作“社区诊所”；pedir una cita 整体标 loc.；第 6 句 sala de espera 标 f.，media hora 按 a2_03 标 f.；第 7 句 hacer 释义“做；提（问题）”；第 8 句 tomar la temperatura、第 10 句 tres veces al día 整体标 loc.；第 10 句 tomar 指吃药，和第 8 句的 tomar la temperatura 词义不同，分开标；第 12 句 más tranquilo 译作“安心多了”，ir al trabajo 按 a1_11 整体标 loc.。叙述人是男性（cansado、tranquilo）。没有列举逗号。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Hoy me levanto a las siete y no me encuentro bien.", "zh": "今天我七点起床，觉得身体不舒服。", "w": [
+    {"h": "hoy", "pos": "adv.", "zh": "今天", "surface": "Hoy", "source": "supplement"},
+    {"h": "levantarse", "pos": "prnl.", "zh": "起床", "surface": "me levanto", "source": "supplement"},
+    {"h": "siete", "pos": "num.", "zh": "七", "surface": "siete", "source": "supplement"},
+    {"h": "encontrarse bien", "pos": "loc.", "zh": "（身体）感觉舒服", "surface": "me encuentro bien", "source": "supplement"}]},
+   {"es": "Me duele mucho la cabeza y tengo fiebre.", "zh": "我头很疼，还发烧。", "w": [
+    {"h": "doler", "pos": "intr.", "zh": "疼，痛", "surface": "duele", "source": "supplement"},
+    {"h": "mucho", "pos": "adv.", "zh": "很，非常", "surface": "mucho", "source": "supplement"},
+    {"h": "cabeza", "pos": "f.", "zh": "头", "surface": "cabeza", "source": "supplement"},
+    {"h": "tener fiebre", "pos": "loc.", "zh": "发烧", "surface": "tengo fiebre", "source": "supplement"}]},
+   {"es": "También me duele la garganta y no tengo hambre.", "zh": "我的嗓子也疼，也不想吃东西。", "w": [
+    {"h": "también", "pos": "adv.", "zh": "也，还", "surface": "También", "source": "supplement"},
+    {"h": "garganta", "pos": "f.", "zh": "喉咙，嗓子", "surface": "garganta", "source": "supplement"},
+    {"h": "tener hambre", "pos": "loc.", "zh": "饿，想吃东西", "surface": "tengo hambre", "source": "supplement"}]},
+   {"es": "Llamo al centro de salud y pido una cita para las diez.", "zh": "我给社区诊所打电话，预约了十点看病。", "w": [
+    {"h": "llamar", "pos": "tr.", "zh": "给……打电话", "surface": "Llamo", "source": "supplement"},
+    {"h": "centro de salud", "pos": "m.", "zh": "社区诊所", "surface": "centro de salud", "source": "supplement"},
+    {"h": "pedir una cita", "pos": "loc.", "zh": "预约（看病）", "surface": "pido una cita", "source": "supplement"},
+    {"h": "diez", "pos": "num.", "zh": "十", "surface": "diez", "source": "supplement"}]},
+   {"es": "Mi hermano me lleva en coche porque estoy muy cansado.", "zh": "我哥哥开车送我过去，因为我很累。", "w": [
+    {"h": "hermano", "pos": "m.", "zh": "兄弟；这里指哥哥", "surface": "hermano", "source": "supplement"},
+    {"h": "llevar", "pos": "tr.", "zh": "送，带（某人）去", "surface": "lleva", "source": "supplement"},
+    {"h": "en coche", "pos": "loc.", "zh": "开车，坐车", "surface": "en coche", "source": "supplement"},
+    {"h": "porque", "pos": "conj.", "zh": "因为", "surface": "porque", "source": "supplement"},
+    {"h": "cansado", "pos": "adj.", "zh": "累的，疲倦的", "surface": "cansado", "source": "supplement"}]},
+   {"es": "En la sala de espera hay muchas personas y espero media hora.", "zh": "候诊室里人很多，我等了半个小时。", "w": [
+    {"h": "sala de espera", "pos": "f.", "zh": "候诊室", "surface": "sala de espera", "source": "supplement"},
+    {"h": "haber", "pos": "tr.", "zh": "有（hay：无人称形式）", "surface": "hay", "source": "supplement"},
+    {"h": "persona", "pos": "f.", "zh": "人", "surface": "personas", "source": "supplement"},
+    {"h": "esperar", "pos": "intr.", "zh": "等，等候", "surface": "espero", "source": "supplement"},
+    {"h": "media hora", "pos": "f.", "zh": "半小时", "surface": "media hora", "source": "supplement"}]}
+  ],
+  [
+   {"es": "La doctora es muy amable y me hace muchas preguntas.", "zh": "医生很和气，问了我很多问题。", "w": [
+    {"h": "doctora", "pos": "f.", "zh": "女医生", "surface": "doctora", "source": "supplement"},
+    {"h": "amable", "pos": "adj.", "zh": "和气的，亲切的", "surface": "amable", "source": "supplement"},
+    {"h": "hacer", "pos": "tr.", "zh": "做；提（问题）", "surface": "hace", "source": "supplement"},
+    {"h": "pregunta", "pos": "f.", "zh": "问题", "surface": "preguntas", "source": "supplement"}]},
+   {"es": "Después me mira la garganta con una luz y me toma la temperatura.", "zh": "然后她用灯照着看我的嗓子，还给我量体温。", "w": [
+    {"h": "después", "pos": "adv.", "zh": "然后，之后", "surface": "Después", "source": "supplement"},
+    {"h": "mirar", "pos": "tr.", "zh": "看；检查", "surface": "mira", "source": "supplement"},
+    {"h": "luz", "pos": "f.", "zh": "灯；光", "surface": "luz", "source": "supplement"},
+    {"h": "tomar la temperatura", "pos": "loc.", "zh": "量体温", "surface": "toma la temperatura", "source": "supplement"}]},
+   {"es": "Dice que tengo gripe y que no es grave.", "zh": "她说我得了流感，不严重。", "w": [
+    {"h": "decir", "pos": "tr.", "zh": "说", "surface": "Dice", "source": "supplement"},
+    {"h": "gripe", "pos": "f.", "zh": "流感", "surface": "gripe", "source": "supplement"},
+    {"h": "grave", "pos": "adj.", "zh": "严重的", "surface": "grave", "source": "supplement"}]},
+   {"es": "Tengo que tomar unas pastillas tres veces al día.", "zh": "我得吃药片，一天三次。", "w": [
+    {"h": "tener que + inf.", "pos": "loc.", "zh": "必须，得", "surface": "Tengo que", "source": "supplement"},
+    {"h": "tomar", "pos": "tr.", "zh": "吃（药），服用", "surface": "tomar", "source": "supplement"},
+    {"h": "pastilla", "pos": "f.", "zh": "药片", "surface": "pastillas", "source": "supplement"},
+    {"h": "tres veces al día", "pos": "loc.", "zh": "一天三次", "surface": "tres veces al día", "source": "supplement"}]},
+   {"es": "También tengo que beber mucha agua y descansar en casa.", "zh": "我还得多喝水，在家休息。", "w": [
+    {"h": "beber", "pos": "tr.", "zh": "喝", "surface": "beber", "source": "supplement"},
+    {"h": "agua", "pos": "f.", "zh": "水", "surface": "agua", "source": "supplement"},
+    {"h": "descansar", "pos": "intr.", "zh": "休息", "surface": "descansar", "source": "supplement"},
+    {"h": "en casa", "pos": "loc.", "zh": "在家", "surface": "en casa", "source": "supplement"}]},
+   {"es": "Vuelvo a casa más tranquilo y mañana no voy a ir al trabajo.", "zh": "回家的时候我安心多了，明天我不去上班了。", "w": [
+    {"h": "volver a casa", "pos": "loc.", "zh": "回家", "surface": "Vuelvo a casa", "source": "supplement"},
+    {"h": "más", "pos": "adv.", "zh": "更，更加", "surface": "más", "source": "supplement"},
+    {"h": "tranquilo", "pos": "adj.", "zh": "安心的，平静的", "surface": "tranquilo", "source": "supplement"},
+    {"h": "mañana", "pos": "adv.", "zh": "明天", "surface": "mañana", "source": "supplement"},
+    {"h": "ir al trabajo", "pos": "loc.", "zh": "去上班", "surface": "ir al trabajo", "source": "supplement"}]}
+  ]
+ ]
+}

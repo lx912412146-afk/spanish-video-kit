@@ -46,7 +46,11 @@ CSS_ES = """
 .ttl figure{width:640px;flex:none;background:#fff;padding:14px;border-radius:6px;box-shadow:0 2px 0 #e6e1d4,0 18px 40px rgba(31,92,74,.10)}
 .ttl figure img{display:block;width:100%;border-radius:3px}
 .v .pos{font-style:italic;font-family:'EB Garamond';color:#6b746f;margin-left:8px}
+.v span{display:inline-block}
+.zh{text-wrap:pretty}
 """
+# 折行（2026-11-10 第二批加）：释义一行放不下时整段换到下一行（不在词中间断开，如“第二天早 / 上”）；
+# 译文用 text-wrap:pretty，最后一行不会只剩一个字（如“……说明了问 / 题。”）。字号、行数不受影响。
 
 
 def esc(s):

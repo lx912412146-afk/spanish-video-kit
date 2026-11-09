@@ -1,0 +1,97 @@
+{
+ "id": "a1_12",
+ "level": "A1",
+ "no": 12,
+ "title_es": "Mi escuela",
+ "title_zh": "我的学校",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 12 篇",
+ "header": "分级阅读 A1-12",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 12 篇。原创短文。一个初中生介绍自己的学校、课程、老师和一天的安排。只用陈述式现在时（含 me gusta + 原形）和 A1 词汇，12 句 129 词，分两段：上学和上午的课，音乐课和放学以后。特别判断：第 3 句 hermana pequeña 指妹妹，hermana 释义写“姐妹；这里指妹妹”，pequeño 取“（年纪）小的”；a pie 整体标 loc.；第 5、7、8 句的科目名按西语正字法（学科用作课程名称时首字母大写）写成 Matemáticas、Lengua、Inglés、Ciencias、Música，词头仍写小写；Lengua 是西班牙中小学的本国语文课，译作“语文”；第 4 句 a las + 钟点、y media 分开标；第 9 句 cantamos, tocamos…, escuchamos… 是并列谓语，逗号照常停顿，不登记；第 11 句 hacer los deberes、jugar al baloncesto 整体标 loc.；第 12 句 aprendo mucho 里 aprender 不带宾语，标 intr.，mucho 是副词，译作“学到很多东西”。第 5 句四门课之间的逗号登记为不停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "5": [{"after": "Matemáticas,", "why": "列举（Matemáticas, Lengua, Inglés y Ciencias），不停顿"}, {"after": "Lengua,", "why": "列举（Matemáticas, Lengua, Inglés y Ciencias），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Soy Daniel y tengo trece años.", "zh": "我是丹尼尔，今年十三岁。", "w": [
+    {"h": "ser", "pos": "intr.", "zh": "是", "surface": "Soy", "source": "supplement"},
+    {"h": "tener", "pos": "tr.", "zh": "有；（年龄）……岁", "surface": "tengo", "source": "supplement"},
+    {"h": "trece", "pos": "num.", "zh": "十三", "surface": "trece", "source": "supplement"},
+    {"h": "año", "pos": "m.", "zh": "年；岁", "surface": "años", "source": "supplement"}]},
+   {"es": "Estudio en una escuela grande que está cerca de mi casa.", "zh": "我在一所很大的学校上学，学校就在我家附近。", "w": [
+    {"h": "estudiar", "pos": "intr.", "zh": "学习；上学", "surface": "Estudio", "source": "supplement"},
+    {"h": "escuela", "pos": "f.", "zh": "学校", "surface": "escuela", "source": "supplement"},
+    {"h": "grande", "pos": "adj.", "zh": "大的", "surface": "grande", "source": "supplement"},
+    {"h": "cerca de", "pos": "loc.", "zh": "在……附近", "surface": "cerca de", "source": "supplement"},
+    {"h": "casa", "pos": "f.", "zh": "家；房子", "surface": "casa", "source": "supplement"}]},
+   {"es": "Todos los días voy a la escuela a pie con mi hermana pequeña.", "zh": "我每天和妹妹一起走路去上学。", "w": [
+    {"h": "todos los días", "pos": "loc.", "zh": "每天", "surface": "Todos los días", "source": "supplement"},
+    {"h": "ir", "pos": "intr.", "zh": "去", "surface": "voy", "source": "supplement"},
+    {"h": "a pie", "pos": "loc.", "zh": "步行，走着", "surface": "a pie", "source": "supplement"},
+    {"h": "hermana", "pos": "f.", "zh": "姐妹；这里指妹妹", "surface": "hermana", "source": "supplement"},
+    {"h": "pequeño", "pos": "adj.", "zh": "（年纪）小的", "surface": "pequeña", "source": "supplement"}]},
+   {"es": "Las clases empiezan a las ocho y media.", "zh": "八点半开始上课。", "w": [
+    {"h": "clase", "pos": "f.", "zh": "课", "surface": "clases", "source": "supplement"},
+    {"h": "empezar", "pos": "intr.", "zh": "开始", "surface": "empiezan", "source": "supplement"},
+    {"h": "a las + 钟点", "pos": "loc.", "zh": "在……点钟", "surface": "a las", "source": "supplement"},
+    {"h": "ocho", "pos": "num.", "zh": "八", "surface": "ocho", "source": "supplement"},
+    {"h": "y media", "pos": "loc.", "zh": "（钟点）半", "surface": "y media", "source": "supplement"}]},
+   {"es": "Por la mañana tenemos Matemáticas, Lengua, Inglés y Ciencias.", "zh": "上午我们上数学、语文、英语和科学课。", "w": [
+    {"h": "por la mañana", "pos": "loc.", "zh": "上午", "surface": "Por la mañana", "source": "supplement"},
+    {"h": "matemáticas", "pos": "f.", "zh": "数学", "surface": "Matemáticas", "source": "supplement"},
+    {"h": "lengua", "pos": "f.", "zh": "语言；这里指语文课", "surface": "Lengua", "source": "supplement"},
+    {"h": "inglés", "pos": "m.", "zh": "英语", "surface": "Inglés", "source": "supplement"},
+    {"h": "ciencia", "pos": "f.", "zh": "科学；（复数）科学课", "surface": "Ciencias", "source": "supplement"}]},
+   {"es": "Al mediodía como en el comedor de la escuela con mis amigos.", "zh": "中午我和朋友们在学校食堂吃饭。", "w": [
+    {"h": "al mediodía", "pos": "loc.", "zh": "在中午", "surface": "Al mediodía", "source": "supplement"},
+    {"h": "comer", "pos": "intr.", "zh": "吃饭；吃午饭", "surface": "como", "source": "supplement"},
+    {"h": "comedor", "pos": "m.", "zh": "食堂", "surface": "comedor", "source": "supplement"},
+    {"h": "amigo", "pos": "m.", "zh": "朋友", "surface": "amigos", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Mi asignatura favorita es Música porque me gusta cantar.", "zh": "我最喜欢的科目是音乐，因为我喜欢唱歌。", "w": [
+    {"h": "asignatura", "pos": "f.", "zh": "科目，课程", "surface": "asignatura", "source": "supplement"},
+    {"h": "favorito", "pos": "adj.", "zh": "最喜欢的", "surface": "favorita", "source": "supplement"},
+    {"h": "porque", "pos": "conj.", "zh": "因为", "surface": "porque", "source": "supplement"},
+    {"h": "me gusta + inf.", "pos": "loc.", "zh": "我喜欢做……", "surface": "me gusta", "source": "supplement"},
+    {"h": "cantar", "pos": "intr.", "zh": "唱歌", "surface": "cantar", "source": "supplement"}]},
+   {"es": "La profesora de Música se llama Elena y es muy divertida.", "zh": "音乐老师叫埃莱娜，她很风趣。", "w": [
+    {"h": "profesora", "pos": "f.", "zh": "女老师", "surface": "profesora", "source": "supplement"},
+    {"h": "llamarse", "pos": "prnl.", "zh": "名叫，叫做", "surface": "se llama", "source": "supplement"},
+    {"h": "muy", "pos": "adv.", "zh": "很，非常", "surface": "muy", "source": "supplement"},
+    {"h": "divertido", "pos": "adj.", "zh": "有趣的，风趣的", "surface": "divertida", "source": "supplement"}]},
+   {"es": "En sus clases cantamos, tocamos la guitarra y escuchamos canciones de otros países.", "zh": "在她的课上，我们唱歌、弹吉他，还听其他国家的歌曲。", "w": [
+    {"h": "tocar", "pos": "tr.", "zh": "弹奏（乐器）", "surface": "tocamos", "source": "supplement"},
+    {"h": "guitarra", "pos": "f.", "zh": "吉他", "surface": "guitarra", "source": "supplement"},
+    {"h": "escuchar", "pos": "tr.", "zh": "听", "surface": "escuchamos", "source": "supplement"},
+    {"h": "canción", "pos": "f.", "zh": "歌，歌曲", "surface": "canciones", "source": "supplement"},
+    {"h": "país", "pos": "m.", "zh": "国家", "surface": "países", "source": "supplement"}]},
+   {"es": "Las clases terminan a las tres y después vuelvo a casa.", "zh": "三点下课，然后我就回家。", "w": [
+    {"h": "terminar", "pos": "intr.", "zh": "结束", "surface": "terminan", "source": "supplement"},
+    {"h": "tres", "pos": "num.", "zh": "三", "surface": "tres", "source": "supplement"},
+    {"h": "después", "pos": "adv.", "zh": "然后，之后", "surface": "después", "source": "supplement"},
+    {"h": "volver a casa", "pos": "loc.", "zh": "回家", "surface": "vuelvo a casa", "source": "supplement"}]},
+   {"es": "Por la tarde hago los deberes y a veces juego al baloncesto con mis compañeros.", "zh": "下午我做作业，有时候和同学们一起打篮球。", "w": [
+    {"h": "por la tarde", "pos": "loc.", "zh": "下午", "surface": "Por la tarde", "source": "supplement"},
+    {"h": "hacer los deberes", "pos": "loc.", "zh": "做作业", "surface": "hago los deberes", "source": "supplement"},
+    {"h": "a veces", "pos": "loc.", "zh": "有时候", "surface": "a veces", "source": "supplement"},
+    {"h": "jugar al baloncesto", "pos": "loc.", "zh": "打篮球", "surface": "juego al baloncesto", "source": "supplement"},
+    {"h": "compañero", "pos": "m.", "zh": "同学", "surface": "compañeros", "source": "supplement"}]},
+   {"es": "Me gusta mi escuela porque aprendo mucho y tengo buenos amigos.", "zh": "我喜欢我的学校，因为在这里我能学到很多东西，还有好朋友。", "w": [
+    {"h": "aprender", "pos": "intr.", "zh": "学习，学到东西", "surface": "aprendo", "source": "supplement"},
+    {"h": "mucho", "pos": "adv.", "zh": "很多", "surface": "mucho", "source": "supplement"},
+    {"h": "bueno", "pos": "adj.", "zh": "好的", "surface": "buenos", "source": "supplement"}]}
+  ]
+ ]
+}

@@ -1,0 +1,24 @@
+/bin/sh: sox: command not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+qwen3tts.py: 1/1 6.6 秒音频，用时 24 秒
+qwen3tts.py: 加载 11.0 秒，合成 1 段 24.2 秒
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  合成缓存：13 段直接用缓存，1 段新合成
+  合成 14 段，用时 36 秒
+  慢速电平 1.0 秒 ±4 dB：短时波动 0.99 LU，高于安全线 0.97，加强一档再试
+  合成缓存：14 段直接用缓存，0 段新合成
+  用慢速电平 0.75 秒 ±6 dB
+  响度：整体 -16.45 LUFS，句间最大偏差 0.38 LU，短时波动（朗读范围）0.94 LU（含首尾静音的原测法 1.05，只记录），峰值 -1.83 dBFS；电磁音：梳状线 +0.10 dB，全频段最强 13500 Hz +5.1 dB
+已生成 <KIT>/西班牙语/audio/qwen3_M1F5_25/b2_20_La_ciudad_de_los_quince_minutos.mp3（59.1 秒），检查全部通过

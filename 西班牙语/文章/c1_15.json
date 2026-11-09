@@ -1,0 +1,72 @@
+{
+ "id": "c1_15",
+ "level": "C1",
+ "no": 15,
+ "title_es": "Los algoritmos y el gusto",
+ "title_zh": "算法与品味",
+ "series": "西班牙语分级阅读 · C1 高级 · 第 15 篇",
+ "header": "分级阅读 C1-15",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）C1 第 15 篇。原创短文。主要语法：过去分词作表语（nos llegan filtradas）、conviene + 原形、关系从句里的虚拟式（no es una preferencia que baste con satisfacer，先行词受否定）、al + 原形、条件式 podría；8 句 141 词，按原速约 1 分钟。生词栏（全部为补充词条，source=supplement）每句 3–5 个，侧重抽象词汇、论述性连接语、动词＋介词结构和名词化表达，不选一眼可懂的同源词；同一词头只在第一次出现的句子列出。特别判断：第 1 句 algoritmo de recomendación 整体标 m.；filtradas 作表语形容词，词头写 filtrado；第 2 句主语写明 Estos algoritmos；第 3 句 convenir 在这里译作“值得”；第 4 句 disposición 指可以培养的倾向，译作“素养”；第 5 句 toparse con 指偶然碰上；第 6 句 incomodidad 和第 3 句的 comodidad 是两个词条，分别标出。本篇没有名词列举，no_pause_commas 为 {}。审读后改：第 2 句原来以 Aprenden de 开头，省略的主语容易被误读为承接第 1 句的 la música y las lecturas，改为 Estos algoritmos aprenden de，译文改为“这些算法从……”；第 4 句 disposición 的释义由“素养，禀赋”改为“素养，（可培养的）倾向”（“禀赋”与 se educa 矛盾）。为凑足一分钟（原速实测比估算快），加了第 7 句：acabar + 副动词表示“最终”；lo familiar、lo valioso 是名词化，不单标。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {},
+ "paras": [
+  [
+   {"es": "Cada vez más, la música y las lecturas que descubrimos nos llegan filtradas por algoritmos de recomendación.", "zh": "我们所发现的音乐和读物，越来越多地是经过推荐算法筛选后才送到我们面前的。", "w": [
+    {"h": "cada vez más", "pos": "loc.", "zh": "越来越（多）", "surface": "Cada vez más", "source": "supplement"},
+    {"h": "lectura", "pos": "f.", "zh": "读物", "surface": "lecturas", "source": "supplement"},
+    {"h": "filtrado", "pos": "adj.", "zh": "经过筛选的", "surface": "filtradas", "source": "supplement"},
+    {"h": "algoritmo de recomendación", "pos": "m.", "zh": "推荐算法", "surface": "algoritmos de recomendación", "source": "supplement"}]},
+   {"es": "Estos algoritmos aprenden de nuestras elecciones previas y nos proponen más de lo mismo con asombrosa precisión.", "zh": "这些算法从我们以往的选择中学习，再以惊人的精准向我们推荐更多同类的东西。", "w": [
+    {"h": "aprender de", "pos": "loc.", "zh": "从……中学习", "surface": "aprenden de", "source": "supplement"},
+    {"h": "previo", "pos": "adj.", "zh": "先前的，以往的", "surface": "previas", "source": "supplement"},
+    {"h": "más de lo mismo", "pos": "loc.", "zh": "更多同类的东西", "surface": "más de lo mismo", "source": "supplement"},
+    {"h": "asombroso", "pos": "adj.", "zh": "惊人的", "surface": "asombrosa", "source": "supplement"}]},
+   {"es": "La comodidad es evidente, pero conviene preguntarse qué ocurre con el gusto cuando deja de enfrentarse a lo inesperado.", "zh": "便利显而易见，但值得追问的是，当品味不再直面意料之外的事物时，它会发生什么变化。", "w": [
+    {"h": "comodidad", "pos": "f.", "zh": "便利，舒适", "surface": "comodidad", "source": "supplement"},
+    {"h": "convenir", "pos": "intr.", "zh": "（+inf.）宜，值得", "surface": "conviene", "source": "supplement"},
+    {"h": "preguntarse", "pos": "prnl.", "zh": "自问，思考", "surface": "preguntarse", "source": "supplement"},
+    {"h": "dejar de", "pos": "loc.", "zh": "不再，停止", "surface": "deja de", "source": "supplement"},
+    {"h": "enfrentarse a", "pos": "loc.", "zh": "面对，直面", "surface": "enfrentarse a", "source": "supplement"}]},
+   {"es": "El gusto no es una preferencia fija que baste con satisfacer, sino una disposición que se educa mediante el contraste.", "zh": "品味并不是只需加以满足的固定偏好，而是一种通过对比来培养的素养。", "w": [
+    {"h": "bastar con", "pos": "loc.", "zh": "只需，……就够了", "surface": "baste con", "source": "supplement"},
+    {"h": "sino", "pos": "conj.", "zh": "（no…sino）而是", "surface": "sino", "source": "supplement"},
+    {"h": "disposición", "pos": "f.", "zh": "素养，（可培养的）倾向", "surface": "disposición", "source": "supplement"},
+    {"h": "educarse", "pos": "prnl.", "zh": "受到培养", "surface": "se educa", "source": "supplement"},
+    {"h": "mediante", "pos": "prep.", "zh": "通过，借助", "surface": "mediante", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Descubrimos lo que nos gusta, en parte, al toparnos con lo que al principio nos desconcertaba.", "zh": "在一定程度上，我们是在偶然碰上起初令自己困惑的东西时，才发现自己喜欢什么。", "w": [
+    {"h": "en parte", "pos": "loc.", "zh": "部分地，在一定程度上", "surface": "en parte", "source": "supplement"},
+    {"h": "toparse con", "pos": "loc.", "zh": "偶然碰上", "surface": "toparnos con", "source": "supplement"},
+    {"h": "al principio", "pos": "loc.", "zh": "起初", "surface": "al principio", "source": "supplement"},
+    {"h": "desconcertar", "pos": "tr.", "zh": "使困惑", "surface": "desconcertaba", "source": "supplement"}]},
+   {"es": "En cambio, un sistema diseñado para retenernos evita esa fricción, porque la incomodidad podría alejarnos de la pantalla.", "zh": "相反，一个为留住我们而设计的系统会回避这种摩擦，因为不适感可能让我们离开屏幕。", "w": [
+    {"h": "en cambio", "pos": "loc.", "zh": "相反，然而", "surface": "En cambio", "source": "supplement"},
+    {"h": "retener", "pos": "tr.", "zh": "留住，挽留", "surface": "retenernos", "source": "supplement"},
+    {"h": "fricción", "pos": "f.", "zh": "摩擦，碰撞", "surface": "fricción", "source": "supplement"},
+    {"h": "incomodidad", "pos": "f.", "zh": "不适，不自在", "surface": "incomodidad", "source": "supplement"},
+    {"h": "alejar de", "pos": "loc.", "zh": "使远离", "surface": "alejarnos de", "source": "supplement"}]},
+   {"es": "A la larga, el gusto se estrecha y acaba confundiendo lo familiar con lo valioso.", "zh": "久而久之，品味会变得狭隘，最终把熟悉的东西与有价值的东西混为一谈。", "w": [
+    {"h": "a la larga", "pos": "loc.", "zh": "久而久之，从长远看", "surface": "A la larga", "source": "supplement"},
+    {"h": "estrecharse", "pos": "prnl.", "zh": "变窄，变得狭隘", "surface": "se estrecha", "source": "supplement"},
+    {"h": "acabar + ger.", "pos": "loc.", "zh": "最终，到头来", "surface": "acaba", "source": "supplement"},
+    {"h": "confundir A con B", "pos": "loc.", "zh": "把A与B混为一谈", "surface": "confundiendo", "source": "supplement"}]},
+   {"es": "La alternativa no es prescindir de estos sistemas, sino cultivar deliberadamente la curiosidad por lo que no nos ofrecen.", "zh": "出路不在于弃用这些系统，而在于有意识地培养好奇心，去关注它们不会推送给我们的东西。", "w": [
+    {"h": "alternativa", "pos": "f.", "zh": "出路，替代办法", "surface": "alternativa", "source": "supplement"},
+    {"h": "prescindir de", "pos": "loc.", "zh": "弃用，摒弃", "surface": "prescindir de", "source": "supplement"},
+    {"h": "cultivar", "pos": "tr.", "zh": "培养", "surface": "cultivar", "source": "supplement"},
+    {"h": "deliberadamente", "pos": "adv.", "zh": "有意地，刻意地", "surface": "deliberadamente", "source": "supplement"}]}
+  ]
+ ]
+}

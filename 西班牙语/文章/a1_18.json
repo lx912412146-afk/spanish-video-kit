@@ -1,0 +1,94 @@
+{
+ "id": "a1_18",
+ "level": "A1",
+ "no": 18,
+ "title_es": "Un día en la playa",
+ "title_zh": "海滩的一天",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 18 篇",
+ "header": "分级阅读 A1-18",
+ "_说明": "西班牙语分级阅读第二批（每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）A1 第 18 篇。原创短文。夏天一家人去海边玩一天。只用陈述式现在时（含 me encanta + 原形）和 A1 词汇，12 句 125 词，分两段：出发、到海滩、游泳，在海滩上的活动和回家。特别判断：第 1 句 hacer calor 整体标 loc.；第 2 句 padres 指父母，词头写 padre，mi hermana 译作“姐姐”；第 3 句 estar a una hora de 说距离，estar 释义“在，位于”，译作“有一个小时的车程”；第 5 句 cerca del 是 cerca de + el，词头写 cerca de；poner la sombrilla 译作“撑遮阳伞”，poner 释义“放；撑（伞）”；第 8 句 castillo de arena 是名词短语，标 m.，hacer 释义“做；堆（沙堡）”；第 10 句的 arena 已在第 8 句的词组里出现，不再单标；第 12 句 toda mi familia 里 todo 是形容词，标 adj.。第 2 句 Mis padres 后、第 4 句 sombrilla 和 toallas 后的列举逗号登记为不停顿。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "conj.": "连词",
+  "num.": "数词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [{"after": "padres,", "why": "列举（Mis padres, mi hermana y yo），不停顿"}],
+  "4": [{"after": "sombrilla,", "why": "列举（una sombrilla, toallas, bocadillos y mucha agua），不停顿"}, {"after": "toallas,", "why": "列举（una sombrilla, toallas, bocadillos y mucha agua），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Es un domingo de julio y hace calor.", "zh": "这是七月的一个星期天，天气很热。", "w": [
+    {"h": "domingo", "pos": "m.", "zh": "星期天", "surface": "domingo", "source": "supplement"},
+    {"h": "julio", "pos": "m.", "zh": "七月", "surface": "julio", "source": "supplement"},
+    {"h": "hacer calor", "pos": "loc.", "zh": "（天气）热", "surface": "hace calor", "source": "supplement"}]},
+   {"es": "Mis padres, mi hermana y yo vamos a la playa en coche.", "zh": "爸爸妈妈、姐姐和我开车去海滩。", "w": [
+    {"h": "padre", "pos": "m.", "zh": "父亲；（复数）父母", "surface": "padres", "source": "supplement"},
+    {"h": "hermana", "pos": "f.", "zh": "姐妹；这里指姐姐", "surface": "hermana", "source": "supplement"},
+    {"h": "ir", "pos": "intr.", "zh": "去", "surface": "vamos", "source": "supplement"},
+    {"h": "playa", "pos": "f.", "zh": "海滩", "surface": "playa", "source": "supplement"},
+    {"h": "en coche", "pos": "loc.", "zh": "开车，坐车", "surface": "en coche", "source": "supplement"}]},
+   {"es": "La playa está a una hora de nuestra ciudad.", "zh": "海滩离我们的城市有一个小时的车程。", "w": [
+    {"h": "estar", "pos": "intr.", "zh": "在，位于", "surface": "está", "source": "supplement"},
+    {"h": "hora", "pos": "f.", "zh": "小时", "surface": "hora", "source": "supplement"},
+    {"h": "nuestro", "pos": "adj.", "zh": "我们的", "surface": "nuestra", "source": "supplement"},
+    {"h": "ciudad", "pos": "f.", "zh": "城市", "surface": "ciudad", "source": "supplement"}]},
+   {"es": "Llevamos una sombrilla, toallas, bocadillos y mucha agua.", "zh": "我们带上一把遮阳伞、几条浴巾、一些三明治和很多水。", "w": [
+    {"h": "llevar", "pos": "tr.", "zh": "带，带上", "surface": "Llevamos", "source": "supplement"},
+    {"h": "sombrilla", "pos": "f.", "zh": "遮阳伞", "surface": "sombrilla", "source": "supplement"},
+    {"h": "toalla", "pos": "f.", "zh": "毛巾，浴巾", "surface": "toallas", "source": "supplement"},
+    {"h": "bocadillo", "pos": "m.", "zh": "（长面包）三明治", "surface": "bocadillos", "source": "supplement"},
+    {"h": "agua", "pos": "f.", "zh": "水", "surface": "agua", "source": "supplement"}]},
+   {"es": "Cuando llegamos, mi padre pone la sombrilla cerca del agua.", "zh": "我们一到，爸爸就把遮阳伞撑在离水不远的地方。", "w": [
+    {"h": "cuando", "pos": "conj.", "zh": "当……的时候", "surface": "Cuando", "source": "supplement"},
+    {"h": "llegar", "pos": "intr.", "zh": "到，到达", "surface": "llegamos", "source": "supplement"},
+    {"h": "poner", "pos": "tr.", "zh": "放；撑（伞）", "surface": "pone", "source": "supplement"},
+    {"h": "cerca de", "pos": "loc.", "zh": "在……附近", "surface": "cerca del", "source": "supplement"}]},
+   {"es": "El agua está un poco fría, pero mi hermana y yo nadamos mucho.", "zh": "海水有点凉，可是我和姐姐游了很久。", "w": [
+    {"h": "un poco", "pos": "loc.", "zh": "有点儿，一点儿", "surface": "un poco", "source": "supplement"},
+    {"h": "frío", "pos": "adj.", "zh": "冷的，凉的", "surface": "fría", "source": "supplement"},
+    {"h": "pero", "pos": "conj.", "zh": "但是", "surface": "pero", "source": "supplement"},
+    {"h": "nadar", "pos": "intr.", "zh": "游泳", "surface": "nadamos", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Mi madre lee un libro debajo de la sombrilla.", "zh": "妈妈在遮阳伞下面看书。", "w": [
+    {"h": "madre", "pos": "f.", "zh": "母亲，妈妈", "surface": "madre", "source": "supplement"},
+    {"h": "leer", "pos": "tr.", "zh": "读，看（书）", "surface": "lee", "source": "supplement"},
+    {"h": "libro", "pos": "m.", "zh": "书", "surface": "libro", "source": "supplement"},
+    {"h": "debajo de", "pos": "loc.", "zh": "在……下面", "surface": "debajo de", "source": "supplement"}]},
+   {"es": "Mi padre y yo hacemos un castillo de arena muy grande.", "zh": "我和爸爸堆了一个很大的沙堡。", "w": [
+    {"h": "hacer", "pos": "tr.", "zh": "做；堆（沙堡）", "surface": "hacemos", "source": "supplement"},
+    {"h": "castillo de arena", "pos": "m.", "zh": "沙堡", "surface": "castillo de arena", "source": "supplement"},
+    {"h": "muy", "pos": "adv.", "zh": "很，非常", "surface": "muy", "source": "supplement"},
+    {"h": "grande", "pos": "adj.", "zh": "大的", "surface": "grande", "source": "supplement"}]},
+   {"es": "Al mediodía comemos los bocadillos y una sandía muy fresca.", "zh": "中午我们吃三明治，还吃一个冰凉的西瓜。", "w": [
+    {"h": "al mediodía", "pos": "loc.", "zh": "在中午", "surface": "Al mediodía", "source": "supplement"},
+    {"h": "comer", "pos": "tr.", "zh": "吃", "surface": "comemos", "source": "supplement"},
+    {"h": "sandía", "pos": "f.", "zh": "西瓜", "surface": "sandía", "source": "supplement"},
+    {"h": "fresco", "pos": "adj.", "zh": "凉的；新鲜的", "surface": "fresca", "source": "supplement"}]},
+   {"es": "Por la tarde buscamos conchas en la arena y jugamos con la pelota.", "zh": "下午我们在沙滩上找贝壳，还玩球。", "w": [
+    {"h": "por la tarde", "pos": "loc.", "zh": "下午", "surface": "Por la tarde", "source": "supplement"},
+    {"h": "buscar", "pos": "tr.", "zh": "找，寻找", "surface": "buscamos", "source": "supplement"},
+    {"h": "concha", "pos": "f.", "zh": "贝壳", "surface": "conchas", "source": "supplement"},
+    {"h": "jugar", "pos": "intr.", "zh": "玩", "surface": "jugamos", "source": "supplement"},
+    {"h": "pelota", "pos": "f.", "zh": "球", "surface": "pelota", "source": "supplement"}]},
+   {"es": "A las siete volvemos a casa cansados pero muy contentos.", "zh": "七点钟我们回家，虽然很累，但是非常开心。", "w": [
+    {"h": "siete", "pos": "num.", "zh": "七", "surface": "siete", "source": "supplement"},
+    {"h": "volver a casa", "pos": "loc.", "zh": "回家", "surface": "volvemos a casa", "source": "supplement"},
+    {"h": "cansado", "pos": "adj.", "zh": "累的，疲倦的", "surface": "cansados", "source": "supplement"},
+    {"h": "contento", "pos": "adj.", "zh": "高兴的", "surface": "contentos", "source": "supplement"}]},
+   {"es": "¡Me encanta pasar el día en la playa con toda mi familia!", "zh": "我太喜欢和全家人一起在海滩上过一天了！", "w": [
+    {"h": "me encanta + inf.", "pos": "loc.", "zh": "我非常喜欢做……", "surface": "Me encanta", "source": "supplement"},
+    {"h": "pasar", "pos": "tr.", "zh": "度过", "surface": "pasar", "source": "supplement"},
+    {"h": "día", "pos": "m.", "zh": "天，一天", "surface": "día", "source": "supplement"},
+    {"h": "todo", "pos": "adj.", "zh": "全部的，整个的", "surface": "toda", "source": "supplement"},
+    {"h": "familia", "pos": "f.", "zh": "家人，家庭", "surface": "familia", "source": "supplement"}]}
+  ]
+ ]
+}
