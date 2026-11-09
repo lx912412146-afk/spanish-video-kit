@@ -9369,6 +9369,293 @@
     }
    ],
    "draft_issues": []
+  },
+  "a1_11": {
+   "file": "qwen3_M1F5_25_slow/a1_11_Mi_mascota.mp3",
+   "duration": 60.078,
+   "loudness": {
+    "integrated_lufs": -16.43,
+    "sentence_max_dev_lu": 0.47,
+    "short_term_std_lu": 0.86,
+    "short_term_std_full_lu": 1.01,
+    "peak_dbfs": -1.81,
+    "buzz_hz": 5316.7,
+    "buzz_db": 5.0,
+    "comb_db": -1.01
+   },
+   "voice_cfg": {
+    "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））",
+    "engine": "worker",
+    "python": "self",
+    "script": "qwen3tts.py",
+    "mode": "clone",
+    "model_dir": "西班牙语/models/qwen3-base",
+    "language": "spanish",
+    "seed": 1234,
+    "num_threads": 4,
+    "dtype": "float32",
+    "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+    "ref_text": "Tengo una gran pasión por los viajes. Me encanta conocer lugares nuevos, culturas diferentes y probar comidas típicas de cada región.",
+    "lead_in": 1.5,
+    "sentence_pause": 0.8,
+    "tail": 2.0,
+    "clause_pause": 0.28,
+    "lufs": -16.0,
+    "kbps": 128,
+    "debuzz": [],
+    "tempo": 0.8,
+    "pitch_cents": 100,
+    "leveler_win": 0.75,
+    "leveler_rng": 6.0,
+    "safe_short_term": 0.97,
+    "leveler_ladder": [
+     [
+      0.75,
+      8.0
+     ],
+     [
+      0.5,
+      8.0
+     ]
+    ]
+   },
+   "sentences": [
+    {
+     "k": 1,
+     "para": 1,
+     "start": 1.5,
+     "end": 3.82,
+     "parts": [
+      [
+       1.5,
+       3.82
+      ]
+     ],
+     "segments": [
+      "Tengo un perro que se llama Coco."
+     ],
+     "text": "Tengo un perro que se llama Coco.",
+     "read": "Tengo un perro que se llama Coco."
+    },
+    {
+     "k": 2,
+     "para": 1,
+     "start": 4.62,
+     "end": 7.8,
+     "parts": [
+      [
+       4.62,
+       7.8
+      ]
+     ],
+     "segments": [
+      "Es pequeño, blanco y muy simpático."
+     ],
+     "text": "Es pequeño, blanco y muy simpático.",
+     "read": "Es pequeño, blanco y muy simpático."
+    },
+    {
+     "k": 3,
+     "para": 1,
+     "start": 8.6,
+     "end": 12.861,
+     "parts": [
+      [
+       8.6,
+       12.861
+      ]
+     ],
+     "segments": [
+      "Coco tiene tres años y vive con mi familia en un piso del centro."
+     ],
+     "text": "Coco tiene tres años y vive con mi familia en un piso del centro.",
+     "read": "Coco tiene tres años y vive con mi familia en un piso del centro."
+    },
+    {
+     "k": 4,
+     "para": 1,
+     "start": 13.661,
+     "end": 19.073,
+     "parts": [
+      [
+       13.661,
+       15.073
+      ],
+      [
+       15.353,
+       19.073
+      ]
+     ],
+     "segments": [
+      "Todas las mañanas,",
+      "mi padre sale a pasear con él antes de ir al trabajo."
+     ],
+     "text": "Todas las mañanas, mi padre sale a pasear con él antes de ir al trabajo.",
+     "read": "Todas las mañanas, mi padre sale a pasear con él antes de ir al trabajo."
+    },
+    {
+     "k": 5,
+     "para": 1,
+     "start": 19.873,
+     "end": 24.901,
+     "parts": [
+      [
+       19.873,
+       21.101
+      ],
+      [
+       21.381,
+       24.901
+      ]
+     ],
+     "segments": [
+      "Por la tarde,",
+      "yo le doy de comer y juego con él en el parque."
+     ],
+     "text": "Por la tarde, yo le doy de comer y juego con él en el parque.",
+     "read": "Por la tarde, yo le doy de comer y juego con él en el parque."
+    },
+    {
+     "k": 6,
+     "para": 1,
+     "start": 25.701,
+     "end": 29.081,
+     "parts": [
+      [
+       25.701,
+       29.081
+      ]
+     ],
+     "segments": [
+      "A Coco le gusta mucho correr detrás de una pelota."
+     ],
+     "text": "A Coco le gusta mucho correr detrás de una pelota.",
+     "read": "A Coco le gusta mucho correr detrás de una pelota."
+    },
+    {
+     "k": 7,
+     "para": 2,
+     "start": 29.881,
+     "end": 32.701,
+     "parts": [
+      [
+       29.881,
+       32.701
+      ]
+     ],
+     "segments": [
+      "Los fines de semana vamos al campo con él."
+     ],
+     "text": "Los fines de semana vamos al campo con él.",
+     "read": "Los fines de semana vamos al campo con él."
+    },
+    {
+     "k": 8,
+     "para": 2,
+     "start": 33.501,
+     "end": 36.329,
+     "parts": [
+      [
+       33.501,
+       36.329
+      ]
+     ],
+     "segments": [
+      "Allí corre libre y está muy contento."
+     ],
+     "text": "Allí corre libre y está muy contento.",
+     "read": "Allí corre libre y está muy contento."
+    },
+    {
+     "k": 9,
+     "para": 2,
+     "start": 37.129,
+     "end": 42.635,
+     "parts": [
+      [
+       37.129,
+       38.245
+      ],
+      [
+       38.525,
+       40.615
+      ],
+      [
+       40.895,
+       42.635
+      ]
+     ],
+     "segments": [
+      "Para nosotros,",
+      "Coco no es solo un perro:",
+      "es parte de la familia."
+     ],
+     "text": "Para nosotros, Coco no es solo un perro: es parte de la familia.",
+     "read": "Para nosotros, Coco no es solo un perro: es parte de la familia."
+    },
+    {
+     "k": 10,
+     "para": 2,
+     "start": 43.435,
+     "end": 47.568,
+     "parts": [
+      [
+       43.435,
+       45.078
+      ],
+      [
+       45.358,
+       47.568
+      ]
+     ],
+     "segments": [
+      "Cuando llego a casa,",
+      "siempre me espera en la puerta."
+     ],
+     "text": "Cuando llego a casa, siempre me espera en la puerta.",
+     "read": "Cuando llego a casa, siempre me espera en la puerta."
+    },
+    {
+     "k": 11,
+     "para": 2,
+     "start": 48.368,
+     "end": 51.998,
+     "parts": [
+      [
+       48.368,
+       51.998
+      ]
+     ],
+     "segments": [
+      "Yo lo quiero mucho y creo que él también me quiere."
+     ],
+     "text": "Yo lo quiero mucho y creo que él también me quiere.",
+     "read": "Yo lo quiero mucho y creo que él también me quiere."
+    },
+    {
+     "k": 12,
+     "para": 2,
+     "start": 52.798,
+     "end": 58.078,
+     "parts": [
+      [
+       52.798,
+       55.298
+      ],
+      [
+       55.578,
+       58.078
+      ]
+     ],
+     "segments": [
+      "Tener una mascota es mucho trabajo,",
+      "pero también es una gran alegría."
+     ],
+     "text": "Tener una mascota es mucho trabajo, pero también es una gran alegría.",
+     "read": "Tener una mascota es mucho trabajo, pero también es una gran alegría."
+    }
+   ],
+   "draft_issues": []
   }
  }
 }

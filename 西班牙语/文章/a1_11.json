@@ -1,0 +1,95 @@
+{
+ "id": "a1_11",
+ "level": "A1",
+ "no": 11,
+ "title_es": "Mi mascota",
+ "title_zh": "我的宠物",
+ "series": "西班牙语分级阅读 · A1 基础入门 · 第 11 篇",
+ "header": "分级阅读 A1-11",
+ "_说明": "西班牙语分级阅读第二批（用户 2026-11-10 要求“根据之前的西班牙语视频再生成一批，时长一分钟左右，A1—A2 用 0.8 倍速”，先做一篇 A1 看效果）A1 第 11 篇。原创短文，不是用户文档里的文章：只用陈述式现在时和 A1 词汇，12 句约 125 词，按 0.8 倍速约 1 分钟。es：原文（按句号切句）；zh：逐句中文翻译；w：生词栏（全部为补充词条，source=supplement），h 词头（词典原形）、pos 词性（按句中用法标）、zh 释义（取句中义）、surface 句中原样写法（在句中恰好出现一次）；同一个词头只在第一次出现的句子里列；no_pause_commas 登记列举和并列形容词之间不停顿的逗号。特别判断：第 2 句 simpático 说狗，译作“讨人喜欢”；第 7 句 campo 和城里的公寓相对，指乡下；第 9 句 es parte de la familia 按中文习惯译作“家里的一员”；第 12 句 gran 是 grande 在单数名词前的短尾形式，词头写 grande；mucho trabajo 指养宠物要做很多事，译作“很辛苦”。审读后改：第 12 句原来用 responsabilidad（超出 A1），改成 es mucho trabajo；le gusta、fin de semana 的词条和 a1_01 一致；第 2、8 句译文按审读意见改顺。",
+ "pos_legend": {
+  "m.": "阳性名词",
+  "f.": "阴性名词",
+  "adj.": "形容词",
+  "adv.": "副词",
+  "tr.": "及物动词",
+  "intr.": "不及物动词",
+  "prnl.": "自复动词",
+  "prep.": "介词",
+  "conj.": "连词",
+  "pron.": "代词",
+  "loc.": "短语，固定搭配"
+ },
+ "no_pause_commas": {
+  "2": [{"after": "pequeño,", "why": "并列形容词（pequeño, blanco y muy simpático），不停顿"}]
+ },
+ "paras": [
+  [
+   {"es": "Tengo un perro que se llama Coco.", "zh": "我有一只狗，名叫可可。", "w": [
+    {"h": "tener", "pos": "tr.", "zh": "有；养（宠物）", "surface": "Tengo", "source": "supplement"},
+    {"h": "perro", "pos": "m.", "zh": "狗", "surface": "perro", "source": "supplement"},
+    {"h": "llamarse", "pos": "prnl.", "zh": "名叫，叫做", "surface": "se llama", "source": "supplement"}]},
+   {"es": "Es pequeño, blanco y muy simpático.", "zh": "它个头小小的，白白的，特别讨人喜欢。", "w": [
+    {"h": "ser", "pos": "intr.", "zh": "是（表示特征）", "surface": "Es", "source": "supplement"},
+    {"h": "pequeño", "pos": "adj.", "zh": "小的", "surface": "pequeño", "source": "supplement"},
+    {"h": "blanco", "pos": "adj.", "zh": "白色的", "surface": "blanco", "source": "supplement"},
+    {"h": "muy", "pos": "adv.", "zh": "很，非常", "surface": "muy", "source": "supplement"},
+    {"h": "simpático", "pos": "adj.", "zh": "讨人喜欢的，友善的", "surface": "simpático", "source": "supplement"}]},
+   {"es": "Coco tiene tres años y vive con mi familia en un piso del centro.", "zh": "可可三岁了，和我们一家住在市中心的一套公寓里。", "w": [
+    {"h": "año", "pos": "m.", "zh": "年；岁", "surface": "años", "source": "supplement"},
+    {"h": "vivir", "pos": "intr.", "zh": "居住，生活", "surface": "vive", "source": "supplement"},
+    {"h": "familia", "pos": "f.", "zh": "家，家庭", "surface": "familia", "source": "supplement"},
+    {"h": "piso", "pos": "m.", "zh": "公寓，套房", "surface": "piso", "source": "supplement"},
+    {"h": "centro", "pos": "m.", "zh": "市中心", "surface": "centro", "source": "supplement"}]},
+   {"es": "Todas las mañanas, mi padre sale a pasear con él antes de ir al trabajo.", "zh": "每天早上，我爸爸上班之前都带它出去散步。", "w": [
+    {"h": "todas las mañanas", "pos": "loc.", "zh": "每天早上", "surface": "Todas las mañanas", "source": "supplement"},
+    {"h": "salir", "pos": "intr.", "zh": "出去，出门", "surface": "sale", "source": "supplement"},
+    {"h": "pasear", "pos": "intr.", "zh": "散步", "surface": "pasear", "source": "supplement"},
+    {"h": "antes de", "pos": "loc.", "zh": "在……之前", "surface": "antes de", "source": "supplement"},
+    {"h": "ir al trabajo", "pos": "loc.", "zh": "去上班", "surface": "ir al trabajo", "source": "supplement"}]},
+   {"es": "Por la tarde, yo le doy de comer y juego con él en el parque.", "zh": "下午，我喂它吃东西，还在公园里和它一起玩。", "w": [
+    {"h": "por la tarde", "pos": "loc.", "zh": "下午", "surface": "Por la tarde", "source": "supplement"},
+    {"h": "dar de comer", "pos": "loc.", "zh": "喂（食）", "surface": "doy de comer", "source": "supplement"},
+    {"h": "jugar", "pos": "intr.", "zh": "玩，玩耍", "surface": "juego", "source": "supplement"},
+    {"h": "parque", "pos": "m.", "zh": "公园", "surface": "parque", "source": "supplement"}]},
+   {"es": "A Coco le gusta mucho correr detrás de una pelota.", "zh": "可可很喜欢追着球跑。", "w": [
+    {"h": "le gusta + inf.", "pos": "loc.", "zh": "它喜欢做……", "surface": "le gusta", "source": "supplement"},
+    {"h": "mucho", "pos": "adv.", "zh": "很，非常", "surface": "mucho", "source": "supplement"},
+    {"h": "correr", "pos": "intr.", "zh": "跑", "surface": "correr", "source": "supplement"},
+    {"h": "detrás de", "pos": "loc.", "zh": "在……后面", "surface": "detrás de", "source": "supplement"},
+    {"h": "pelota", "pos": "f.", "zh": "球", "surface": "pelota", "source": "supplement"}]}
+  ],
+  [
+   {"es": "Los fines de semana vamos al campo con él.", "zh": "每逢周末，我们带它去乡下。", "w": [
+    {"h": "fin de semana", "pos": "m.", "zh": "周末", "surface": "fines de semana", "source": "supplement"},
+    {"h": "ir", "pos": "intr.", "zh": "去", "surface": "vamos", "source": "supplement"},
+    {"h": "campo", "pos": "m.", "zh": "乡下，田野", "surface": "campo", "source": "supplement"}]},
+   {"es": "Allí corre libre y está muy contento.", "zh": "在那儿它自由自在地奔跑，非常开心。", "w": [
+    {"h": "allí", "pos": "adv.", "zh": "在那里", "surface": "Allí", "source": "supplement"},
+    {"h": "libre", "pos": "adj.", "zh": "自由的", "surface": "libre", "source": "supplement"},
+    {"h": "estar", "pos": "intr.", "zh": "（表示状态）是", "surface": "está", "source": "supplement"},
+    {"h": "contento", "pos": "adj.", "zh": "高兴的", "surface": "contento", "source": "supplement"}]},
+   {"es": "Para nosotros, Coco no es solo un perro: es parte de la familia.", "zh": "对我们来说，可可不只是一只狗，它是家里的一员。", "w": [
+    {"h": "para", "pos": "prep.", "zh": "对……来说", "surface": "Para", "source": "supplement"},
+    {"h": "nosotros", "pos": "pron.", "zh": "我们", "surface": "nosotros", "source": "supplement"},
+    {"h": "solo", "pos": "adv.", "zh": "只，仅仅", "surface": "solo", "source": "supplement"},
+    {"h": "ser parte de", "pos": "loc.", "zh": "是……的一部分", "surface": "es parte de", "source": "supplement"}]},
+   {"es": "Cuando llego a casa, siempre me espera en la puerta.", "zh": "我回到家的时候，它总是在门口等我。", "w": [
+    {"h": "cuando", "pos": "conj.", "zh": "当……的时候", "surface": "Cuando", "source": "supplement"},
+    {"h": "llegar a casa", "pos": "loc.", "zh": "到家，回家", "surface": "llego a casa", "source": "supplement"},
+    {"h": "siempre", "pos": "adv.", "zh": "总是", "surface": "siempre", "source": "supplement"},
+    {"h": "esperar", "pos": "tr.", "zh": "等，等待", "surface": "espera", "source": "supplement"},
+    {"h": "puerta", "pos": "f.", "zh": "门", "surface": "puerta", "source": "supplement"}]},
+   {"es": "Yo lo quiero mucho y creo que él también me quiere.", "zh": "我很爱它，我觉得它也爱我。", "w": [
+    {"h": "querer", "pos": "tr.", "zh": "爱，喜爱", "surface": "quiero", "source": "supplement"},
+    {"h": "creer", "pos": "tr.", "zh": "认为，觉得", "surface": "creo", "source": "supplement"},
+    {"h": "también", "pos": "adv.", "zh": "也", "surface": "también", "source": "supplement"}]},
+   {"es": "Tener una mascota es mucho trabajo, pero también es una gran alegría.", "zh": "养宠物很辛苦，但也是一大乐事。", "w": [
+    {"h": "mascota", "pos": "f.", "zh": "宠物", "surface": "mascota", "source": "supplement"},
+    {"h": "trabajo", "pos": "m.", "zh": "活儿；辛苦的事", "surface": "trabajo", "source": "supplement"},
+    {"h": "pero", "pos": "conj.", "zh": "但是", "surface": "pero", "source": "supplement"},
+    {"h": "grande", "pos": "adj.", "zh": "大的", "surface": "gran", "source": "supplement"},
+    {"h": "alegría", "pos": "f.", "zh": "快乐；乐事", "surface": "alegría", "source": "supplement"}]}
+  ]
+ ]
+}

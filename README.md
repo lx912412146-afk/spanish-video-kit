@@ -73,6 +73,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 3. 原文不能有阿拉伯数字、引号和括号，数字要写成单词（dieciocho、las diez y media）。
 4. 先检查：`python 西班牙语/tools/check_articles.py <编号> -v`（`-v` 会打印朗读分段，`|` 是停顿的地方）。
 5. 生成：`./run_mac.sh <编号> [音色]`。生成后会自动核查 15 项：响度、电磁音、片头 1.5 秒、句间 0.8 秒、结尾 2 秒、4K、30 帧、声画一致等，任何一项不通过就不输出。
+6. 逐句识别核对（可选，需要 Parakeet 识别模型 `sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8`）：`python 西班牙语/tools/asr_check_reading.py . <识别模型目录> <音色> <编号>`。从成品 MP3 按 `timings.json` 切出每句识别，和朗读文本逐词比，比对规则和 `B1-B2听力练习/tools/make_tracks.py` 相同。
 
 ## 已做的文章
 
@@ -81,8 +82,11 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | es01 | Mi pasión por los viajes 我对旅行的热爱 | 示例文章（原作者） |
 | es02 | Mi vida diaria 我的日常生活 | Release `videos`；音频、字幕在 `西班牙语/audio/qwen3_M1F5_25/`，0.8 倍速版在 `qwen3_M1F5_25_slow/` |
 | a1_01–c1_10 | 西班牙语分级阅读 A1–C1，每级 10 篇（来自《西班牙语A1-C1分级阅读文章集》） | 视频在 Release `graded-reading`；音频、字幕在 `西班牙语/audio/qwen3_M1F5_25_slow/` |
+| a1_11 | Mi mascota 我的宠物（分级阅读第二批的试看版，原创短文，12 句 129 词，60 秒，0.8 倍速） | 视频在 Release `graded-reading-2`；音频、字幕在 `西班牙语/audio/qwen3_M1F5_25_slow/` |
 
 分级阅读 50 篇的中文翻译和生词栏是 2026-10-18 补写的。原文档只有西班牙语原文，每篇的特别判断写在各自 JSON 的 `_说明` 里。
+
+分级阅读第二批（2026-11-10 开始）：每篇约 1 分钟；A1—A2 用 `qwen3_M1F5_25_slow`（0.8 倍速），B1—C1 用 `qwen3_M1F5_25`（原速）。文章是原创的，不是《西班牙语A1-C1分级阅读文章集》里的，编号接着第一批（`a1_11` 起），版式和第一批相同。0.8 倍速下 A1 约 125 词、12 句正好 1 分钟。每篇除了工具包的 15 项核查，还用 `asr_check_reading.py` 逐句识别核对。先做了 A1-11 给用户试看，其余的等用户看过再做。
 
 <details><summary>A1 基础入门（10 篇）</summary>
 
@@ -257,6 +261,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `es-kit-preview` | 原始工具包 `SPANISH-video-kit-preview.zip`、Qwen3-TTS 1.7B 模型分卷 `.001–.003`、`join_qwen3_parts.py`、`SHA256SUMS.txt` |
 | `videos` | es02 的视频（MP4）、朗读、字幕和核查报告；0.8 倍速样片 `es02_Mi_vida_diaria_4K_slow.mp4` 和它的核查报告 |
 | `graded-reading` | 分级阅读 50 篇的 4K 视频（`A1-01_….mp4` …）和全部核查报告 |
+| `graded-reading-2` | 分级阅读第二批的 4K 视频（目前是试看版 `A1-11_Mi_mascota.mp4`）、核查报告 `graded-reading-2_checks.json`、`graded-reading-2-SHA256SUMS.txt` |
 | `work-files` | 工作文件：Qwen3 原始合成缓存 `qwen3-synthesis-cache.zip`（505 段）、50 篇和 es02 的预览截图 `preview-stills.zip`、`work-files-SHA256SUMS.txt` |
 | `exam-book1` | 第一册高考模拟卷：学生版 / 教师版 PDF、整套听力 `listening_full.mp3`、分段听力 `texto_1.mp3` … `texto_9.mp3` |
 | `exam-book1-stages` | 8 套分阶段卷，文件名以卷号开头（`L01-04` … `L01-20B`）：`_student.pdf`、`_teacher.pdf`、`_listening.mp3`、`_texto_1.mp3` … `_texto_9.mp3` |
