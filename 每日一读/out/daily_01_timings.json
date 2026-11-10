@@ -1,0 +1,271 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_01.mp3",
+ "duration": 62.78,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.4,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.76,
+  "buzz_hz": 5474.9,
+  "buzz_db": 6.5,
+  "comb_db": 0.02
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.81,
+   "parts": [
+    [
+     0.5,
+     1.81
+    ]
+   ],
+   "segments": [
+    "Mi pequeño huerto."
+   ],
+   "text": "Mi pequeño huerto.",
+   "read": "Mi pequeño huerto."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.81,
+   "end": 6.28,
+   "parts": [
+    [
+     2.81,
+     6.28
+    ]
+   ],
+   "segments": [
+    "Hace dos años empecé a cultivar plantas en el balcón de mi piso."
+   ],
+   "text": "Hace dos años empecé a cultivar plantas en el balcón de mi piso.",
+   "read": "Hace dos años empecé a cultivar plantas en el balcón de mi piso."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.28,
+   "end": 13.45,
+   "parts": [
+    [
+     7.28,
+     10.02
+    ],
+    [
+     10.3,
+     13.45
+    ]
+   ],
+   "segments": [
+    "Al principio solo tenía una maceta con albahaca,",
+    "pero ahora tengo tomates, lechugas y fresas."
+   ],
+   "text": "Al principio solo tenía una maceta con albahaca, pero ahora tengo tomates, lechugas y fresas.",
+   "read": "Al principio solo tenía una maceta con albahaca, pero ahora tengo tomates, lechugas y fresas."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.45,
+   "end": 19.8,
+   "parts": [
+    [
+     14.45,
+     15.37
+    ],
+    [
+     15.65,
+     17.04
+    ],
+    [
+     17.32,
+     19.8
+    ]
+   ],
+   "segments": [
+    "Cada mañana,",
+    "antes de ir a clase,",
+    "riego las plantas y miro si han crecido."
+   ],
+   "text": "Cada mañana, antes de ir a clase, riego las plantas y miro si han crecido.",
+   "read": "Cada mañana, antes de ir a clase, riego las plantas y miro si han crecido."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.8,
+   "end": 25.76,
+   "parts": [
+    [
+     20.8,
+     25.76
+    ]
+   ],
+   "segments": [
+    "Me encanta ver cómo una semilla pequeña se convierte en una planta llena de hojas verdes."
+   ],
+   "text": "Me encanta ver cómo una semilla pequeña se convierte en una planta llena de hojas verdes.",
+   "read": "Me encanta ver cómo una semilla pequeña se convierte en una planta llena de hojas verdes."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 26.76,
+   "end": 32.16,
+   "parts": [
+    [
+     26.76,
+     29.41
+    ],
+    [
+     29.69,
+     32.16
+    ]
+   ],
+   "segments": [
+    "Cuidar el huerto también me enseña a ser paciente,",
+    "porque la naturaleza tiene su propio ritmo."
+   ],
+   "text": "Cuidar el huerto también me enseña a ser paciente, porque la naturaleza tiene su propio ritmo.",
+   "read": "Cuidar el huerto también me enseña a ser paciente, porque la naturaleza tiene su propio ritmo."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 33.16,
+   "end": 37.93,
+   "parts": [
+    [
+     33.16,
+     37.93
+    ]
+   ],
+   "segments": [
+    "Los fines de semana busco recetas sencillas para cocinar con mis propias verduras."
+   ],
+   "text": "Los fines de semana busco recetas sencillas para cocinar con mis propias verduras.",
+   "read": "Los fines de semana busco recetas sencillas para cocinar con mis propias verduras."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 38.93,
+   "end": 43.8,
+   "parts": [
+    [
+     38.93,
+     43.8
+    ]
+   ],
+   "segments": [
+    "El verano pasado preparé una ensalada con mis tomates y la compartí con mis vecinos."
+   ],
+   "text": "El verano pasado preparé una ensalada con mis tomates y la compartí con mis vecinos.",
+   "read": "El verano pasado preparé una ensalada con mis tomates y la compartí con mis vecinos."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 44.8,
+   "end": 48.66,
+   "parts": [
+    [
+     44.8,
+     48.66
+    ]
+   ],
+   "segments": [
+    "Todos dijeron que mis tomates eran más dulces que los del supermercado."
+   ],
+   "text": "Todos dijeron que mis tomates eran más dulces que los del supermercado.",
+   "read": "Todos dijeron que mis tomates eran más dulces que los del supermercado."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 49.66,
+   "end": 54.42,
+   "parts": [
+    [
+     49.66,
+     52.38
+    ],
+    [
+     52.66,
+     54.42
+    ]
+   ],
+   "segments": [
+    "Aunque a veces los insectos se comen alguna hoja,",
+    "no uso productos químicos."
+   ],
+   "text": "Aunque a veces los insectos se comen alguna hoja, no uso productos químicos.",
+   "read": "Aunque a veces los insectos se comen alguna hoja, no uso productos químicos."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 55.42,
+   "end": 61.58,
+   "parts": [
+    [
+     55.42,
+     56.03
+    ],
+    [
+     56.31,
+     61.58
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "este pequeño huerto es un lugar tranquilo donde puedo descansar y sentirme orgulloso de mi trabajo."
+   ],
+   "text": "Para mí, este pequeño huerto es un lugar tranquilo donde puedo descansar y sentirme orgulloso de mi trabajo.",
+   "read": "Para mí, este pequeño huerto es un lugar tranquilo donde puedo descansar y sentirme orgulloso de mi trabajo."
+  }
+ ]
+}

@@ -337,6 +337,18 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`B1-B2听力练习/`](B1-B2听力练习/)：10 套西班牙语听力练习，《A1—A2 听力练习》的续篇：第 1—6 套 B1（经历和趣事、计划和将来、合住和规矩、观点和感受、留言和投诉、旅行和传说），第 7—10 套 B2（工作、城市和环境、科学和技术、文化和社会）。每套 30 题、5 个部分，题型参照 DELE B1、B2 听力的五个任务（短讯息和短对话、独白、新闻、采访、讲座、配对、“谁说的”），题干和选项都用西语，全部原创（DELE 只借用题型格式）。学生版（55 页）只有题目和答题处，可以直接打印；教师版（186 页）有逐题答案和原文依据、全部录音原文和中文译文、使用建议；50 段录音（约 369 分钟）。
   - 每套是 `sets/NN.md` 里的一个 Markdown 文件，`build_listening.js` 排成 Word，PDF 由 LibreOffice 转出；录音由 `tools/make_tracks.py` 用本仓库的 Qwen3-TTS 合成（和 A1、A2、B1 教程相同的声音），逐句语音识别核对。Word、PDF 和录音在 Release `b1b2-listening`。
 
+## 每日一读（单页朗读视频）
+
+- [`每日一读/`](每日一读/)：竖版一页“阅读卡”配西语朗读的新形式（2026-11-11 按用户给的参考视频的形式试做，内容全部原创）。一页上有：
+  - 标题栏（西语标题 | 中文标题）；
+  - 水彩风插图；
+  - 重点词汇 15 条；
+  - 西语短文两段、中文译文两段。
+- 朗读先读标题再逐句读，句间 1.0 秒，约 1 分钟。每篇出静态版和逐句高亮版两个视频（1080×1512，24 帧/秒）。
+- 第 01 篇样片：Mi pequeño huerto（我的小菜园），A2—B1，62.8 秒。
+  - 逐句语音识别核对、逐帧画面比对、版面测量，47 项全部通过。
+  - 视频在 Release `daily-reading`。
+
 ## 教学视频
 
 - [`教学视频/第一册第1课/`](教学视频/第一册第1课/)：《现代西班牙语》第一册第一课 ¿Quién es él? 的教学视频（约 13 分钟，1920×1080）。中文讲解＋西语示范和跟读：元音、辅音、音节划分、重音、连读，仿照课文的对话，语法、单词和小练习。
@@ -370,6 +382,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `a1a2-listening` | 西班牙语 A1—A2 听力练习：`a1a2-listening-student.docx/.pdf`、按套拆开的 `a1a2-listening-student-sets.zip`、`a1a2-listening-teacher.docx/.pdf`、全部录音 `A1A2_*.mp3` 和打包的 `a1a2-listening-audio.zip`、`a1a2-listening-checks.json`、`a1a2-listening-SHA256SUMS.txt` |
 | `b1b2-listening` | 西班牙语 B1—B2 听力练习：`b1b2-listening-student.docx/.pdf`、按套拆开的 `b1b2-listening-student-sets.zip`、`b1b2-listening-teacher.docx/.pdf`、全部录音 `B1B2_*.mp3` 和打包的 `b1b2-listening-audio.zip`、`b1b2-listening-checks.json`、`b1b2-listening-SHA256SUMS.txt` |
 | `hsk1-reading` | HSK1 中文阅读视频：`hsk1_01.mp4` … `hsk1_50.mp4`（50 篇）、`hsk1-reading-checks.json`、`hsk1-reading-SHA256SUMS.txt` |
+| `daily-reading` | 每日一读（单页朗读视频）：第 01 篇样片 `daily_01_Mi_pequeno_huerto.mp4`（静态版）、`daily_01_Mi_pequeno_huerto_highlight.mp4`（逐句高亮版）、`daily-reading-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -424,3 +437,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 分级阅读第二批 50 篇（`a1_11`—`c1_20`，原创短文，每篇约 1 分钟；A1—A2 0.8 倍速，B1—C1 原速）和 Release `graded-reading-2`；新增 `记录/分级阅读第二批/`。
     - `make_video.py` 的折行：生词释义一行放不下时整段换到下一行（不在词中间断开），译文最后一行不只剩一个字；字号不变。第一批的视频是改之前做的，没有重新生成。
     - 新增 `check_wraps.py`（画面折行检查）；`voices.json`：`qwen3_M1F5_25`（原速）也加了安全线 `safe_short_term` 0.97 和逐级加强电平 `leveler_ladder`（和慢速音色同样的做法），`qwen3_M1F5_25_slow` 的 `leveler_ladder` 末尾加了两档（0.4 秒 ±10 dB、0.3 秒 ±12 dB）。只有短时响度波动超过安全线、前面各档都不过才会用到，已经通过的篇目结果不变。
+  - 2026-11-11：
+    - 新增 `每日一读/`（单页朗读视频的新形式：标题栏、插图、重点词汇、西语短文和中文译文在一页上，配西语朗读；第 01 篇样片 Mi pequeño huerto，静态版和逐句高亮版）和 Release `daily-reading`。

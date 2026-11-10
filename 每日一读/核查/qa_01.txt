@@ -1,0 +1,59 @@
+✓  1 Mi pequeño huerto.
+     识别：Mi pequeño huerto.
+✓  2 Hace dos años empecé a cultivar plantas en el balcón de mi piso.
+     识别：Hace dos años empecé a cultivar plantas en el balcón de mi piso.
+✓  3 Al principio solo tenía una maceta con albahaca, pero ahora tengo tomates, lechugas y fresas.
+     识别：Al principio solo tenía una maceta con albahaca, pero ahora tengo tomates, lechugas y fresas.
+✓  4 Cada mañana, antes de ir a clase, riego las plantas y miro si han crecido.
+     识别：Cada mañana, antes de ir a clase, riego las plantas y miro si han crecido.
+✓  5 Me encanta ver cómo una semilla pequeña se convierte en una planta llena de hojas verdes.
+     识别：Me encanta ver cómo una semilla pequeña se convierte en una planta llena de hojas verdes.
+✓  6 Cuidar el huerto también me enseña a ser paciente, porque la naturaleza tiene su propio ritmo.
+     识别：Cuidar el huerto también me enseña a ser paciente, porque la naturaleza tiene su propio ritmo.
+✓  7 Los fines de semana busco recetas sencillas para cocinar con mis propias verduras.
+     识别：Los fines de semana busco recetas sencillas para cocinar con mis propias verduras.
+✓  8 El verano pasado preparé una ensalada con mis tomates y la compartí con mis vecinos.
+     识别：El verano pasado preparé una ensalada con mis tomates y la compartí con mis vecinos.
+✓  9 Todos dijeron que mis tomates eran más dulces que los del supermercado.
+     识别：Todos dijeron que mis tomates eran más dulces que los del supermercado.
+✓ 10 Aunque a veces los insectos se comen alguna hoja, no uso productos químicos.
+     识别：Aunque a veces los insectos se comen alguna hoja, no uso productos químicos.
+✓ 11 Para mí, este pequeño huerto es un lugar tranquilo donde puedo descansar y sentirme orgulloso de mi trabajo.
+     识别：Para mí, este pequeño huerto es un lugar tranquilo donde puedo descansar y sentirme orgulloso de mi trabajo.
+✓ 高亮版   0.19 秒 应为 page_static.png：和其余 11 张逐对比，最接近混淆的是 page_hl_02.png（差值比 0.07，要求 < 0.35）；整页差 1.66
+✓ 高亮版   1.54 秒 应为 page_hl_01.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.18，要求 < 0.35）；整页差 1.68
+✓ 高亮版   4.94 秒 应为 page_hl_02.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.72
+✓ 高亮版  10.75 秒 应为 page_hl_03.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.14，要求 < 0.35）；整页差 1.69
+✓ 高亮版  17.50 秒 应为 page_hl_04.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.71
+✓ 高亮版  23.65 秒 应为 page_hl_05.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.70
+✓ 高亮版  29.83 秒 应为 page_hl_06.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.72
+✓ 高亮版  35.92 秒 应为 page_hl_07.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.71
+✓ 高亮版  41.73 秒 应为 page_hl_08.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.15，要求 < 0.35）；整页差 1.70
+✓ 高亮版  47.10 秒 应为 page_hl_09.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.18，要求 < 0.35）；整页差 1.70
+✓ 高亮版  52.42 秒 应为 page_hl_10.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.14，要求 < 0.35）；整页差 1.68
+✓ 高亮版  58.58 秒 应为 page_hl_11.png：和其余 11 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.74
+✓ 高亮版  62.33 秒 应为 page_static.png：和其余 11 张逐对比，最接近混淆的是 page_hl_10.png（差值比 0.08，要求 < 0.35）；整页差 1.64
+✓ 静态版   0.5 秒 应为静态页：最接近混淆的是 page_hl_02.png（差值比 0.07）；整页差 1.66
+✓ 静态版  10.0 秒 应为静态页：最接近混淆的是 page_hl_02.png（差值比 0.07）；整页差 1.66
+✓ 静态版  25.0 秒 应为静态页：最接近混淆的是 page_hl_02.png（差值比 0.07）；整页差 1.63
+✓ 静态版  40.0 秒 应为静态页：最接近混淆的是 page_hl_02.png（差值比 0.07）；整页差 1.63
+✓ 静态版  55.0 秒 应为静态页：最接近混淆的是 page_hl_02.png（差值比 0.07）；整页差 1.63
+✓ 静态版  62.0 秒 应为静态页：最接近混淆的是 page_hl_02.png（差值比 0.07）；整页差 1.63
+✓ daily_01_Mi_pequeno_huerto.mp4：h264 1080×1512 24/1 yuv420p，aac 48000 Hz
+✓ daily_01_Mi_pequeno_huerto.mp4：视频 62.792 秒，音频 62.792 秒，帧数 1507
+✓ daily_01_Mi_pequeno_huerto_highlight.mp4：h264 1080×1512 24/1 yuv420p，aac 48000 Hz
+✓ daily_01_Mi_pequeno_huerto_highlight.mp4：视频 62.792 秒，音频 62.792 秒，帧数 1507
+✓ 两个版本音轨相同（62.792 秒）
+✓ MP4 音轨整体响度 -16.51 LUFS，峰值 -1.77 dBFS
+✓ 逐句识别：11 句，0 句有出入
+✓ 画面：高亮版 13 段、静态版 6 个时间点，0 处不对
+✓ 每句从开口到读完都高亮这一句（11 句）
+✓ 页面不滚动、没有截断（scroll [720, 1008]，overflow 0）
+✓ 底部留白 71 px
+✓ 西语两端对齐最大词间空白 7 px
+✓ 插图、西语、译文、词汇栏互不重叠
+✓ 每句都有译文
+✓ 词汇表 15 条，正文里找不到的：无
+✓ 中文半角标点：无
+✓ 朗读文字＝标题＋正文（逐句一致）
+全部通过
