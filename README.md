@@ -344,7 +344,8 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 水彩风插图；
   - 重点词汇 15 条；
   - 西语短文两段、中文译文两段。
-- 朗读先读标题再逐句读，句间 1.0 秒，约 1 分钟。每篇出静态版和逐句高亮版两个视频（1080×1512，24 帧/秒）。
+- 朗读先读标题再逐句读，句间 1.0 秒，约 1 分钟。视频 1080×1512，24 帧/秒。
+- 成品形式：用户选定**逐句高亮版**，正在读的那句西语和译文标浅黄。静态版留作备用。
 - 第 01 篇样片：Mi pequeño huerto（我的小菜园），A2—B1，62.8 秒。
   - 逐句语音识别核对、逐帧画面比对、版面测量，47 项全部通过。
   - 视频在 Release `daily-reading`。
@@ -382,7 +383,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `a1a2-listening` | 西班牙语 A1—A2 听力练习：`a1a2-listening-student.docx/.pdf`、按套拆开的 `a1a2-listening-student-sets.zip`、`a1a2-listening-teacher.docx/.pdf`、全部录音 `A1A2_*.mp3` 和打包的 `a1a2-listening-audio.zip`、`a1a2-listening-checks.json`、`a1a2-listening-SHA256SUMS.txt` |
 | `b1b2-listening` | 西班牙语 B1—B2 听力练习：`b1b2-listening-student.docx/.pdf`、按套拆开的 `b1b2-listening-student-sets.zip`、`b1b2-listening-teacher.docx/.pdf`、全部录音 `B1B2_*.mp3` 和打包的 `b1b2-listening-audio.zip`、`b1b2-listening-checks.json`、`b1b2-listening-SHA256SUMS.txt` |
 | `hsk1-reading` | HSK1 中文阅读视频：`hsk1_01.mp4` … `hsk1_50.mp4`（50 篇）、`hsk1-reading-checks.json`、`hsk1-reading-SHA256SUMS.txt` |
-| `daily-reading` | 每日一读（单页朗读视频）：第 01 篇样片 `daily_01_Mi_pequeno_huerto.mp4`（静态版）、`daily_01_Mi_pequeno_huerto_highlight.mp4`（逐句高亮版）、`daily-reading-SHA256SUMS.txt` |
+| `daily-reading` | 每日一读（单页朗读视频）：第 01 篇样片 `daily_01_Mi_pequeno_huerto_highlight.mp4`（逐句高亮版，选定的成品）、`daily_01_Mi_pequeno_huerto.mp4`（静态版，备用）、`daily-reading-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -439,3 +440,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `check_wraps.py`（画面折行检查）；`voices.json`：`qwen3_M1F5_25`（原速）也加了安全线 `safe_short_term` 0.97 和逐级加强电平 `leveler_ladder`（和慢速音色同样的做法），`qwen3_M1F5_25_slow` 的 `leveler_ladder` 末尾加了两档（0.4 秒 ±10 dB、0.3 秒 ±12 dB）。只有短时响度波动超过安全线、前面各档都不过才会用到，已经通过的篇目结果不变。
   - 2026-11-11：
     - 新增 `每日一读/`（单页朗读视频的新形式：标题栏、插图、重点词汇、西语短文和中文译文在一页上，配西语朗读；第 01 篇样片 Mi pequeño huerto，静态版和逐句高亮版）和 Release `daily-reading`。
+    - 用户看过样片后选定逐句高亮版作为每日一读的成品形式，`每日一读/README.md` 和 Release 说明已注明。
