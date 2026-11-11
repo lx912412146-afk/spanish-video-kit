@@ -1,0 +1,241 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_01.mp3",
+ "duration": 57.56,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.36,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.74,
+  "buzz_hz": 4212.9,
+  "buzz_db": 6.3,
+  "comb_db": -0.57
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.18,
+   "parts": [
+    [
+     0.5,
+     2.18
+    ]
+   ],
+   "segments": [
+    "El ocio como necesidad."
+   ],
+   "text": "El ocio como necesidad.",
+   "read": "El ocio como necesidad."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.18,
+   "end": 8.22,
+   "parts": [
+    [
+     3.18,
+     8.22
+    ]
+   ],
+   "segments": [
+    "Durante años consideré el ocio un premio que solo merecía tras cumplir todas mis obligaciones."
+   ],
+   "text": "Durante años consideré el ocio un premio que solo merecía tras cumplir todas mis obligaciones.",
+   "read": "Durante años consideré el ocio un premio que solo merecía tras cumplir todas mis obligaciones."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.22,
+   "end": 15.2,
+   "parts": [
+    [
+     9.22,
+     11.65
+    ],
+    [
+     11.93,
+     15.2
+    ]
+   ],
+   "segments": [
+    "Como la lista de tareas nunca se agotaba,",
+    "el descanso quedaba aplazado para un mañana que no llegaba."
+   ],
+   "text": "Como la lista de tareas nunca se agotaba, el descanso quedaba aplazado para un mañana que no llegaba.",
+   "read": "Como la lista de tareas nunca se agotaba, el descanso quedaba aplazado para un mañana que no llegaba."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 16.2,
+   "end": 23.55,
+   "parts": [
+    [
+     16.2,
+     17.24
+    ],
+    [
+     17.52,
+     19.66
+    ],
+    [
+     19.94,
+     21.89
+    ],
+    [
+     22.17,
+     23.55
+    ]
+   ],
+   "segments": [
+    "Este verano,",
+    "tumbado en una hamaca entre dos árboles,",
+    "con un libro abierto sobre el pecho,",
+    "comprendí mi error."
+   ],
+   "text": "Este verano, tumbado en una hamaca entre dos árboles, con un libro abierto sobre el pecho, comprendí mi error.",
+   "read": "Este verano, tumbado en una hamaca entre dos árboles, con un libro abierto sobre el pecho, comprendí mi error."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 24.55,
+   "end": 31.05,
+   "parts": [
+    [
+     24.55,
+     27.21
+    ],
+    [
+     27.49,
+     31.05
+    ]
+   ],
+   "segments": [
+    "Mientras la luz se filtraba entre las hojas,",
+    "surgían ideas que ninguna reunión me había proporcionado en meses."
+   ],
+   "text": "Mientras la luz se filtraba entre las hojas, surgían ideas que ninguna reunión me había proporcionado en meses.",
+   "read": "Mientras la luz se filtraba entre las hojas, surgían ideas que ninguna reunión me había proporcionado en meses."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 32.05,
+   "end": 39.09,
+   "parts": [
+    [
+     32.05,
+     34.29
+    ],
+    [
+     34.57,
+     39.09
+    ]
+   ],
+   "segments": [
+    "El ocio no es un paréntesis improductivo,",
+    "sino el tiempo en que la mente se recompone y recupera su capacidad de asombro."
+   ],
+   "text": "El ocio no es un paréntesis improductivo, sino el tiempo en que la mente se recompone y recupera su capacidad de asombro.",
+   "read": "El ocio no es un paréntesis improductivo, sino el tiempo en que la mente se recompone y recupera su capacidad de asombro."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 40.09,
+   "end": 47.28,
+   "parts": [
+    [
+     40.09,
+     43.3
+    ],
+    [
+     43.58,
+     45.12
+    ],
+    [
+     45.4,
+     47.28
+    ]
+   ],
+   "segments": [
+    "Si lo concibiéramos como una condición del trabajo bien hecho,",
+    "y no como su recompensa,",
+    "dejaría de provocarnos culpa."
+   ],
+   "text": "Si lo concibiéramos como una condición del trabajo bien hecho, y no como su recompensa, dejaría de provocarnos culpa.",
+   "read": "Si lo concibiéramos como una condición del trabajo bien hecho, y no como su recompensa, dejaría de provocarnos culpa."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 48.28,
+   "end": 56.36,
+   "parts": [
+    [
+     48.28,
+     48.78
+    ],
+    [
+     49.06,
+     51.73
+    ],
+    [
+     52.01,
+     56.36
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "aunque los asuntos urgentes sigan reclamándome,",
+    "ahora protejo esas horas ociosas con la misma firmeza que cualquier compromiso."
+   ],
+   "text": "Por eso, aunque los asuntos urgentes sigan reclamándome, ahora protejo esas horas ociosas con la misma firmeza que cualquier compromiso.",
+   "read": "Por eso, aunque los asuntos urgentes sigan reclamándome, ahora protejo esas horas ociosas con la misma firmeza que cualquier compromiso."
+  }
+ ]
+}

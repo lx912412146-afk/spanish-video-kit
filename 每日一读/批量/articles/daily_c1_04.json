@@ -1,0 +1,129 @@
+{
+ "id": "daily_c1_04",
+ "level": "C1",
+ "no": 4,
+ "title_es": "Los mapas y nuestra mirada",
+ "title_zh": "地图与我们的眼光",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 4 篇。原创短文。主要语法：al + 原形 作时间状语，menos…que… 的比较（与其说……不如说……），quien 引导的无先行词关系从句，被动 se（puede omitirse），aunque + 现在虚拟式表让步（aunque se presenten、aunque sea），过去虚拟式条件句（Si aprendiéramos…, descubriríamos…）。7 句，131 词。第一人称叙述者没有用到需要变性的形容词。特别判断：第 5 句 El centro, la escala y los nombres 是名词列举，centro 后的逗号不停顿，已登记；第 1 句 junto a una brújula y una lupa 两边的逗号是插入语，照常停顿。ignorar 在这里是“不知道”，不是“忽视”，选入词汇；inocente 指选择“并非无心、并非中立”，译作“全然无心”；escala 取“比例尺”义。插图里的旧地图（只有海岸线）、指南针和放大镜对应第 1—3 句。",
+ "no_pause_commas": {
+  "5": [
+   {
+    "after": "centro,",
+    "why": "列举：El centro, la escala y los nombres（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "mirada",
+   "目光",
+   "mirada"
+  ],
+  [
+   "brújula",
+   "指南针",
+   "brújula"
+  ],
+  [
+   "lupa",
+   "放大镜",
+   "lupa"
+  ],
+  [
+   "revelar",
+   "揭示",
+   "revela"
+  ],
+  [
+   "examinar",
+   "端详",
+   "examinarlo"
+  ],
+  [
+   "retrato",
+   "写照",
+   "retrato"
+  ],
+  [
+   "testimonio",
+   "见证",
+   "testimonio"
+  ],
+  [
+   "omitir",
+   "略去",
+   "omitirse"
+  ],
+  [
+   "del todo",
+   "完全",
+   "del todo"
+  ],
+  [
+   "escala",
+   "比例尺",
+   "escala"
+  ],
+  [
+   "convenir",
+   "宜，不妨",
+   "conviene"
+  ],
+  [
+   "cautela",
+   "审慎",
+   "cautela"
+  ],
+  [
+   "quedar fuera",
+   "被排除在外",
+   "quedó fuera"
+  ],
+  [
+   "espacio en blanco",
+   "空白",
+   "espacios en blanco"
+  ],
+  [
+   "ignorar",
+   "不知道",
+   "ignoraba"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Sobre mi escritorio, junto a una brújula y una lupa, hay un mapa antiguo que solo dibuja la costa.",
+    "zh": "我的书桌上，指南针和放大镜旁边，摊着一张只画了海岸线的旧地图。"
+   },
+   {
+    "es": "El interior, completamente vacío, revela que su autor únicamente conocía el territorio desde el mar.",
+    "zh": "内陆一片空白，揭示出绘图者只是从海上认识这片土地的。"
+   },
+   {
+    "es": "Al examinarlo con la lupa, comprendo que un mapa es menos un retrato del mundo que el testimonio de una mirada.",
+    "zh": "用放大镜端详它时，我明白，地图与其说是世界的写照，不如说是某种目光的见证。"
+   }
+  ],
+  [
+   {
+    "es": "Quien dibuja decide qué merece ser representado y qué puede omitirse, y esa elección nunca es del todo inocente.",
+    "zh": "绘图的人决定什么值得画出、什么可以略去，而这种取舍从来不是全然无心的。"
+   },
+   {
+    "es": "El centro, la escala y los nombres reflejan las prioridades de quien los elige, aunque se presenten como datos objetivos.",
+    "zh": "地图的中心、比例尺和地名，都反映出选择者的优先考量，尽管它们以客观数据的面目出现。"
+   },
+   {
+    "es": "Por eso conviene leer cualquier mapa con cierta cautela y preguntarse qué quedó fuera y por qué.",
+    "zh": "因此，读任何地图都不妨带几分审慎，问一问什么被排除在外，又是为什么。"
+   },
+   {
+    "es": "Si aprendiéramos a mirar así, descubriríamos que los espacios en blanco también hablan, aunque sea de lo que alguien ignoraba.",
+    "zh": "如果学会这样去看，我们就会发现，地图上的空白也在说话，哪怕说的只是某人当时的无知。"
+   }
+  ]
+ ]
+}

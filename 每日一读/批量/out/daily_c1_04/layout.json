@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  640.203125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  648.203125
+ ],
+ "zh": [
+  96,
+  674.203125,
+  480,
+  913.453125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  291.96875,
+  131.625
+ ],
+ "header_gap": 65,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   3
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   6.4,
+   "Sobre mi escritorio, junto a una brújula y una lupa, hay un"
+  ],
+  [
+   "mid",
+   5,
+   "mapa antiguo que solo dibuja la costa. El interior, completamente"
+  ],
+  [
+   "mid",
+   4,
+   "vacío, revela que su autor únicamente conocía el territorio desde el"
+  ],
+  [
+   "mid",
+   4,
+   "mar. Al examinarlo con la lupa, comprendo que un mapa es menos"
+  ],
+  [
+   "last",
+   3.5,
+   "un retrato del mundo que el testimonio de una mirada."
+  ],
+  [
+   "mid",
+   3.5,
+   "Quien dibuja decide qué merece ser representado y qué puede"
+  ],
+  [
+   "mid",
+   5.4,
+   "omitirse, y esa elección nunca es del todo inocente. El centro, la"
+  ],
+  [
+   "mid",
+   6.2,
+   "escala y los nombres reflejan las prioridades de quien los elige,"
+  ],
+  [
+   "mid",
+   4.6,
+   "aunque se presenten como datos objetivos. Por eso conviene leer"
+  ],
+  [
+   "mid",
+   3.9,
+   "cualquier mapa con cierta cautela y preguntarse qué quedó fuera y"
+  ],
+  [
+   "mid",
+   7.1,
+   "por qué. Si aprendiéramos a mirar así, descubriríamos que los"
+  ],
+  [
+   "mid",
+   4.4,
+   "espacios en blanco también hablan, aunque sea de lo que alguien"
+  ],
+  [
+   "last",
+   0,
+   "ignoraba."
+  ]
+ ],
+ "es_max_gap": 7.1,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

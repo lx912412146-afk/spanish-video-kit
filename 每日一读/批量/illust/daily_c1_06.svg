@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：从山路上望去，层层梯田和百年橄榄树沿山坡而下，一直延伸到满是白房子的小村（水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3eef0"/><stop offset="0.6" stop-color="#eff2e8"/><stop offset="1" stop-color="#f7efdd"/>
+    </linearGradient>
+    <linearGradient id="wallH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fdf9f1"/><stop offset="1" stop-color="#f1e8d8"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a6e55"/><stop offset="0.5" stop-color="#a88a6c"/><stop offset="1" stop-color="#7f644c"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9dfcc"/><stop offset="1" stop-color="#d6c8ae"/>
+    </linearGradient>
+    <g id="olv1">
+      <path d="M-1.4,0 C-1.8,-3 -0.4,-5 -1.6,-8 L1.2,-8 C0.8,-5 1.8,-3 1.5,0 Z" fill="#8f7458"/>
+      <ellipse cx="-3.6" cy="-11" rx="5.6" ry="4.2" fill="#93a882"/>
+      <ellipse cx="3.4" cy="-11.6" rx="5.8" ry="4.6" fill="#9fb38c"/>
+      <ellipse cx="0" cy="-14.6" rx="5" ry="3.8" fill="#b4c49e"/>
+      <ellipse cx="-1.5" cy="-15.6" rx="2.4" ry="1.4" fill="#cdd8b9" opacity="0.8"/>
+    </g>
+    <g id="olv2">
+      <path d="M-1.4,0 C-2,-2 -2.6,-4 -3.4,-6 L-1.6,-6.6 C-0.8,-4.6 0.6,-4.6 1.2,-7 L2.8,-6.6 C2,-4 1.6,-2 1.6,0 Z" fill="#8f7458"/>
+      <ellipse cx="-5" cy="-9" rx="5.4" ry="3.8" fill="#93a882"/>
+      <ellipse cx="4" cy="-9.4" rx="6" ry="4" fill="#9fb38c"/>
+      <ellipse cx="-0.6" cy="-12" rx="6.4" ry="3.8" fill="#b0c19b"/>
+      <ellipse cx="-2" cy="-13.2" rx="2.6" ry="1.3" fill="#cdd8b9" opacity="0.8"/>
+    </g>
+    <!-- 山坡轮廓和坡脚 -->
+    <clipPath id="hill"><path d="M-10,194.0 C-5,194.0 10,194.7 20,194.0 C30,193.3 40,192.5 50,190.0 C60,187.6 70,183.7 80,179.2 C90,174.8 100,169.2 110,163.3 C120,157.5 130,150.7 140,144.0 C150,137.3 160,130.0 170,123.0 C180,116.0 190,108.7 200,102.0 C210,95.3 220,88.5 230,82.7 C240,76.8 250,71.2 260,66.8 C270,62.3 280,58.4 290,56.0 C300,53.5 310,52.5 320,52.0 C330,51.5 340,52.2 350,52.7 C360,53.2 370,53.9 380,54.8 C390,55.8 405,57.7 410,58.3 L420,203.6 L410,204.4 C405,204.7 390,205.9 380,206.3 C370,206.8 360,207.1 350,207.2 C340,207.3 330,207.1 320,206.8 C310,206.5 300,205.9 290,205.4 C280,204.9 270,204.2 260,203.8 C250,203.4 240,203.0 230,202.9 C220,202.8 210,202.8 200,203.1 C190,203.4 180,204.0 170,204.6 C160,205.2 150,206.1 140,206.8 C130,207.5 120,208.4 110,209.0 C100,209.6 90,210.1 80,210.4 C70,210.6 60,210.6 50,210.5 C40,210.3 30,209.9 20,209.4 C10,209.0 -5,208.1 -10,207.9 Z"/></clipPath>
+    <!-- 梯田边线（每条以下的区域） -->
+    <path id="k1" d="M-10,212.5 C-5,212.4 10,213.0 20,212.1 C30,211.2 40,209.8 50,206.9 C60,204.1 70,199.7 80,195.0 C90,190.3 100,184.6 110,178.9 C120,173.2 130,166.9 140,160.5 C150,154.2 160,147.5 170,140.8 C180,134.1 190,127.2 200,120.5 C210,113.8 220,106.9 230,100.7 C240,94.5 250,88.4 260,83.5 C270,78.7 280,74.3 290,71.7 C300,69.0 310,68.0 320,67.6 C330,67.2 340,68.5 350,69.3 C360,70.2 370,71.5 380,72.7 C390,74.0 405,76.1 410,76.8 L420,300 L-10,300 Z"/>
+    <path id="k2" d="M-10,228.1 C-5,227.9 10,227.8 20,226.9 C30,225.9 40,224.9 50,222.6 C60,220.2 70,216.7 80,212.6 C90,208.5 100,203.5 110,198.0 C120,192.5 130,186.1 140,179.5 C150,172.8 160,165.4 170,158.1 C180,150.9 190,143.0 200,135.9 C210,128.8 220,121.6 230,115.5 C240,109.4 250,103.7 260,99.3 C270,95.0 280,91.5 290,89.4 C300,87.3 310,87.0 320,86.8 C330,86.6 340,87.7 350,88.2 C360,88.7 370,89.2 380,89.9 C390,90.5 405,91.8 410,92.2 L420,300 L-10,300 Z"/>
+    <path id="k3" d="M-10,243.5 C-5,243.6 10,244.5 20,244.2 C30,243.8 40,243.6 50,241.5 C60,239.4 70,236.0 80,231.7 C90,227.3 100,221.7 110,215.6 C120,209.5 130,202.3 140,195.1 C150,188.0 160,180.2 170,172.9 C180,165.6 190,158.2 200,151.5 C210,144.8 220,138.5 230,133.0 C240,127.4 250,122.5 260,118.4 C270,114.3 280,110.8 290,108.4 C300,106.1 310,105.0 320,104.2 C330,103.4 340,103.6 350,103.7 C360,103.8 370,103.9 380,104.6 C390,105.3 405,107.3 410,107.9 L420,300 L-10,300 Z"/>
+    <path id="k4" d="M-10,262.3 C-5,262.5 10,263.8 20,263.4 C30,262.9 40,262.0 50,259.4 C60,256.7 70,252.4 80,247.5 C90,242.7 100,236.5 110,230.4 C120,224.2 130,217.2 140,210.5 C150,203.8 160,196.8 170,190.1 C180,183.5 190,176.8 200,170.4 C210,164.1 220,157.8 230,152.1 C240,146.3 250,140.7 260,136.1 C270,131.4 280,127.0 290,124.2 C300,121.3 310,119.8 320,118.9 C330,118.1 340,118.7 350,119.2 C360,119.7 370,120.8 380,122.0 C390,123.3 405,126.1 410,126.9 L420,300 L-10,300 Z"/>
+    <path id="k5" d="M-10,280.4 C-5,280.3 10,280.5 20,279.5 C30,278.4 40,277.0 50,274.2 C60,271.4 70,267.2 80,262.7 C90,258.3 100,252.9 110,247.3 C120,241.7 130,235.6 140,229.3 C150,222.9 160,216.1 170,209.3 C180,202.5 190,195.2 200,188.4 C210,181.5 220,174.3 230,168.0 C240,161.8 250,155.6 260,150.8 C270,146.1 280,141.9 290,139.5 C300,137.0 310,136.3 320,136.1 C330,135.9 340,137.2 350,138.1 C360,138.9 370,140.1 380,141.2 C390,142.3 405,144.1 410,144.6 L420,300 L-10,300 Z"/>
+    <path id="k6" d="M-10,295.3 C-5,295.2 10,295.3 20,294.5 C30,293.8 40,293.1 50,290.9 C60,288.7 70,285.4 80,281.3 C90,277.3 100,272.2 110,266.6 C120,260.9 130,254.3 140,247.4 C150,240.6 160,232.9 170,225.5 C180,218.1 190,210.3 200,203.2 C210,196.1 220,189.1 230,183.2 C240,177.3 250,171.9 260,167.7 C270,163.6 280,160.3 290,158.2 C300,156.1 310,155.6 320,155.3 C330,155.0 340,155.8 350,156.1 C360,156.4 370,156.7 380,157.2 C390,157.8 405,159.1 410,159.4 L420,300 L-10,300 Z"/>
+    <path id="k7" d="M-10,311.8 C-5,312.0 10,313.2 20,312.9 C30,312.6 40,312.4 50,310.1 C60,307.9 70,304.2 80,299.7 C90,295.2 100,289.2 110,283.0 C120,276.8 130,269.5 140,262.4 C150,255.3 160,247.6 170,240.5 C180,233.4 190,226.3 200,219.8 C210,213.3 220,207.2 230,201.7 C240,196.2 250,191.2 260,187.0 C270,182.8 280,179.0 290,176.4 C300,173.9 310,172.5 320,171.6 C330,170.7 340,170.8 350,171.0 C360,171.1 370,171.4 380,172.3 C390,173.2 405,175.6 410,176.2 L420,300 L-10,300 Z"/>
+    <path id="k8" d="M-10,331.0 C-5,331.1 10,332.2 20,331.5 C30,330.8 40,329.7 50,326.9 C60,324.1 70,319.6 80,314.8 C90,309.9 100,303.9 110,297.9 C120,291.9 130,285.3 140,278.7 C150,272.2 160,265.5 170,258.9 C180,252.2 190,245.5 200,239.1 C210,232.6 220,226.1 230,220.2 C240,214.2 250,208.3 260,203.5 C270,198.7 280,194.2 290,191.4 C300,188.6 310,187.2 320,186.6 C330,185.9 340,186.8 350,187.5 C360,188.2 370,189.5 380,190.8 C390,192.1 405,194.7 410,195.5 L420,300 L-10,300 Z"/>
+    <g id="walls">
+      <use href="#k1"/><use href="#k2"/><use href="#k3"/><use href="#k4"/><use href="#k5"/><use href="#k6"/><use href="#k7"/><use href="#k8"/>
+    </g>
+    <g id="house"><rect x="0" y="-12" width="16" height="12" fill="url(#wallH)"/><rect x="12" y="-12" width="4" height="12" fill="#e6dccb"/><polygon points="-1.5,-12 8,-17.5 17.5,-12" fill="#d98b62"/><rect x="4" y="-8.5" width="2.4" height="3" fill="#a3917c"/><rect x="9" y="-8.5" width="2.4" height="3" fill="#a3917c"/></g>
+    <g id="house2"><rect x="0" y="-14" width="20" height="14" fill="url(#wallH)"/><rect x="15" y="-14" width="5" height="14" fill="#e6dccb"/><polygon points="-1.5,-14 10,-20 21.5,-14" fill="#cf7d57"/><path d="M8,0 L8,-5 C8,-7 12,-7 12,-5 L12,0 Z" fill="#a3917c"/><rect x="3.5" y="-10.5" width="2.6" height="3" fill="#a3917c"/><rect x="14" y="-10.5" width="2.6" height="3" fill="#a3917c"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空和远山 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <g filter="url(#soft2)" fill="#ffffff" opacity="0.8">
+      <ellipse cx="300" cy="22" rx="26" ry="5"/><ellipse cx="316" cy="19" rx="13" ry="5"/>
+    </g>
+    <path d="M-10,146 C30,132 70,126 110,132 C140,124 170,118 210,122 L210,220 L-10,220 Z" fill="#dbe4e1"/>
+    <path d="M-10,166 C40,156 90,154 130,160 C160,154 190,150 220,154 L220,220 L-10,220 Z" fill="#cfdcd6"/>
+    <!-- 谷底 -->
+    <rect x="0" y="196" width="400" height="64" fill="#dfe4b8"/>
+
+    <g filter="url(#wc)">
+      <!-- 山坡和一层层梯田 -->
+      <g clip-path="url(#hill)">
+        <rect x="-10" y="40" width="430" height="180" fill="#cad9a8"/>
+        <use href="#k1" fill="#d3dfae"/><use href="#k2" fill="#e6dcab"/><use href="#k3" fill="#c9d9a2"/><use href="#k4" fill="#dfe0ad"/>
+        <use href="#k5" fill="#c5d69e"/><use href="#k6" fill="#e3daa6"/><use href="#k7" fill="#c8d8a0"/><use href="#k8" fill="#dcdcaa"/>
+        <!-- 干砌石墙 -->
+        <use href="#walls" fill="none" stroke="#7d8a4e" stroke-width="6" opacity="0.1" transform="translate(0,5)"/>
+        <use href="#walls" fill="none" stroke="#b7a07c" stroke-width="1.3" opacity="0.75" transform="translate(0,2.8)"/>
+        <use href="#walls" fill="none" stroke="#ebdfc6" stroke-width="4"/>
+        <use href="#walls" fill="none" stroke="#cdb994" stroke-width="0.9" stroke-dasharray="1.2 4.5" opacity="0.7"/>
+        <use href="#walls" fill="none" stroke="#f8f1e2" stroke-width="0.9" opacity="0.8" transform="translate(0,-1.6)"/>
+      </g>
+      <!-- 山脊上的柏树 -->
+      <path d="M332,52 C328,42 329,30 333,20 C337,30 338,42 334,52 Z" fill="#7f9c6c"/>
+      <path d="M346,53 C343,45 344,36 347,28 C350,36 351,45 348,53 Z" fill="#88a474"/>
+
+      <!-- 梯田上的橄榄树（由远到近） -->
+      <g>
+        <use href="#olv1" transform="translate(79,194.0) scale(0.83)"/><use href="#olv2" transform="translate(114,174.9) scale(0.83)"/><use href="#olv1" transform="translate(147,154.5) scale(0.83)"/><use href="#olv2" transform="translate(182,131.1) scale(0.83)"/><use href="#olv1" transform="translate(207,114.6) scale(0.83)"/><use href="#olv2" transform="translate(236,95.4) scale(0.83)"/><use href="#olv1" transform="translate(271,76.7) scale(0.83)"/><use href="#olv2" transform="translate(303,67.3) scale(0.83)"/><use href="#olv2" transform="translate(363,69.2) scale(0.83)"/><use href="#olv1" transform="translate(393,73.0) scale(0.83)"/>
+        <use href="#olv1" transform="translate(120,190.8) scale(0.86)"/><use href="#olv2" transform="translate(155,167.7) scale(0.86)"/><use href="#olv1" transform="translate(188,143.2) scale(0.86)"/><use href="#olv2" transform="translate(214,124.5) scale(0.86)"/><use href="#olv1" transform="translate(248,103.9) scale(0.86)"/><use href="#olv2" transform="translate(273,92.6) scale(0.86)"/><use href="#olv1" transform="translate(305,85.7) scale(0.86)"/><use href="#olv2" transform="translate(330,85.7) scale(0.86)"/><use href="#olv1" transform="translate(354,86.9) scale(0.86)"/><use href="#olv2" transform="translate(389,88.9) scale(0.86)"/>
+        <use href="#olv1" transform="translate(138,195.4) scale(0.89)"/><use href="#olv2" transform="translate(168,172.8) scale(0.89)"/><use href="#olv1" transform="translate(200,149.9) scale(0.89)"/><use href="#olv2" transform="translate(227,133.4) scale(0.89)"/><use href="#olv1" transform="translate(262,116.1) scale(0.89)"/><use href="#olv2" transform="translate(294,106.0) scale(0.89)"/><use href="#olv1" transform="translate(330,102.4) scale(0.89)"/><use href="#olv2" transform="translate(365,102.4) scale(0.89)"/><use href="#olv1" transform="translate(392,104.1) scale(0.89)"/>
+        <use href="#olv1" transform="translate(169,189.4) scale(0.92)"/><use href="#olv2" transform="translate(197,170.9) scale(0.92)"/><use href="#olv1" transform="translate(225,153.7) scale(0.92)"/><use href="#olv2" transform="translate(258,135.3) scale(0.92)"/><use href="#olv1" transform="translate(288,123.2) scale(0.92)"/><use href="#olv2" transform="translate(316,117.6) scale(0.92)"/><use href="#olv1" transform="translate(346,117.5) scale(0.92)"/><use href="#olv2" transform="translate(378,120.3) scale(0.92)"/>
+        <use href="#olv1" transform="translate(185,197.7) scale(0.95)"/><use href="#olv2" transform="translate(209,180.8) scale(0.95)"/><use href="#olv1" transform="translate(233,164.5) scale(0.95)"/><use href="#olv2" transform="translate(259,149.6) scale(0.95)"/>
+        <use href="#olv1" transform="translate(225,184.8) scale(0.98)"/><use href="#olv2" transform="translate(249,171.1) scale(0.98)"/><use href="#olv1" transform="translate(285,157.9) scale(0.98)"/>
+        <use href="#olv1" transform="translate(250,190.1) scale(1.01)"/><use href="#olv2" transform="translate(276,179.4) scale(1.01)"/>
+        <use href="#olv1" transform="translate(278,194) scale(1.04)"/>
+      </g>
+
+      <!-- 坡脚的白房子小村 -->
+      <rect x="140" y="190" width="11" height="34" fill="url(#wallH)"/>
+      <rect x="147" y="190" width="4" height="34" fill="#e6dccb"/>
+      <polygon points="138.5,190 145.5,181 152.5,190" fill="#c97552"/>
+      <path d="M143,198 C143,195 148,195 148,198 L148,202 L143,202 Z" fill="#a89580"/>
+      <use href="#house" transform="translate(36,221)"/><use href="#house2" transform="translate(56,220)"/><use href="#house" transform="translate(92,218)"/>
+      <use href="#house2" transform="translate(112,217)"/><use href="#house" transform="translate(162,216)"/><use href="#house2" transform="translate(182,215)"/>
+      <use href="#house" transform="translate(206,215)"/><use href="#house2" transform="translate(226,216)"/><use href="#house" transform="translate(252,217)"/>
+      <use href="#house2" transform="translate(18,235)"/><use href="#house" transform="translate(44,234)"/><use href="#house2" transform="translate(66,233)"/>
+      <use href="#house" transform="translate(92,232)"/><use href="#house2" transform="translate(112,231)"/><use href="#house" transform="translate(138,230)"/>
+      <use href="#house2" transform="translate(158,230)"/><use href="#house" transform="translate(184,229)"/><use href="#house2" transform="translate(204,229)"/>
+      <use href="#house" transform="translate(230,230)"/><use href="#house2" transform="translate(250,231)"/><use href="#house" transform="translate(276,232)"/>
+
+      <!-- 前景：山路边的干砌石矮墙 -->
+      <path d="M-10,240 C80,237 200,239 300,236 C340,235 380,236 410,236 L410,270 L-10,270 Z" fill="url(#stone)"/>
+      <g fill="#d3c4a8" stroke="#c2b193" stroke-width="0.7">
+        <path d="M2,244 C2,241 6,240 14,240 L30,240 C34,240 35,243 34,246 L33,250 L3,250 Z"/><path d="M38,243 C38,240 42,239 50,239 L70,240 C73,241 73,244 72,248 L38,249 Z"/>
+        <path d="M76,242 L104,241 C107,242 107,246 106,249 L76,249 Z"/><path d="M110,242 C112,240 120,240 136,240 C139,241 139,245 138,249 L110,249 Z"/>
+        <path d="M142,242 L170,241 C173,242 173,246 172,249 L142,249 Z"/><path d="M176,241 C180,239 194,239 204,240 C206,242 206,246 205,249 L176,249 Z"/>
+        <path d="M209,241 L236,240 C239,241 239,245 238,248 L209,249 Z"/><path d="M242,240 C246,238 262,238 270,239 C272,241 272,245 271,248 L242,248 Z"/>
+        <path d="M275,239 L300,238 C303,239 303,243 302,247 L275,248 Z"/><path d="M306,239 C310,237 324,237 336,238 C338,240 338,244 337,247 L306,247 Z"/>
+        <path d="M341,238 L368,238 C371,239 371,243 370,246 L341,247 Z"/><path d="M374,238 L398,238 L398,246 L374,246 Z"/>
+      </g>
+      <g fill="#dccfb6" stroke="#c2b193" stroke-width="0.7">
+        <path d="M-6,253 L22,252 L22,262 L-6,262 Z"/><path d="M26,252 L58,251 L58,262 L26,262 Z"/><path d="M62,252 L92,251 L92,262 L62,262 Z"/>
+        <path d="M96,252 L130,251 L130,262 L96,262 Z"/><path d="M134,252 L160,251 L160,262 L134,262 Z"/><path d="M164,252 L198,251 L198,262 L164,262 Z"/>
+        <path d="M202,251 L230,251 L230,262 L202,262 Z"/><path d="M234,251 L266,250 L266,262 L234,262 Z"/><path d="M270,250 L296,250 L296,262 L270,262 Z"/>
+      </g>
+      <path d="M-10,240 C80,237 200,239 300,236 C340,235 380,236 410,236" stroke="#f3ebdc" stroke-width="2" fill="none"/>
+
+      <!-- 前景右侧：一棵百年老橄榄树 -->
+      <path d="M374,264 C366,252 366,242 372,232 C378,222 376,210 366,200 L356,204 C362,212 362,222 356,230 C352,224 350,214 350,204 L342,204 C342,214 340,220 334,214 C330,208 326,202 320,196 L314,202 C322,210 326,220 328,232 C330,244 326,254 320,264 Z" fill="url(#trunk)"/>
+      <path d="M364,202 C368,194 376,188 384,186 M318,198 C312,192 304,188 296,188 M346,206 C346,198 348,192 350,186" stroke="#8a6e55" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+      <path d="M358,252 C354,244 356,236 362,230 M338,250 C340,242 338,236 332,228" stroke="#6f5a46" stroke-width="1.2" fill="none" opacity="0.6"/>
+      <ellipse cx="348" cy="238" rx="3" ry="4.5" fill="#6f5a46" opacity="0.5"/>
+      <g fill="#94a985">
+        <ellipse cx="386" cy="180" rx="26" ry="14"/><ellipse cx="344" cy="176" rx="34" ry="18"/><ellipse cx="298" cy="182" rx="26" ry="13"/>
+        <ellipse cx="366" cy="194" rx="22" ry="9"/><ellipse cx="318" cy="194" rx="22" ry="9"/>
+      </g>
+      <g fill="#a9bb98">
+        <ellipse cx="392" cy="172" rx="18" ry="9"/><ellipse cx="354" cy="164" rx="24" ry="11"/><ellipse cx="316" cy="168" rx="22" ry="10"/><ellipse cx="288" cy="176" rx="14" ry="7"/>
+      </g>
+      <g fill="#c2cfb0">
+        <ellipse cx="364" cy="158" rx="14" ry="5"/><ellipse cx="324" cy="160" rx="12" ry="5"/><ellipse cx="398" cy="166" rx="9" ry="4"/><ellipse cx="296" cy="170" rx="8" ry="3.5"/>
+      </g>
+      <g fill="#7f9472" opacity="0.7">
+        <ellipse cx="376" cy="198" rx="14" ry="4"/><ellipse cx="324" cy="200" rx="16" ry="4"/><ellipse cx="292" cy="190" rx="10" ry="3"/>
+      </g>
+      <g fill="#dce4cf" opacity="0.7">
+        <ellipse cx="380" cy="176" rx="3" ry="1.2"/><ellipse cx="336" cy="172" rx="3" ry="1.2"/><ellipse cx="308" cy="180" rx="3" ry="1.2"/><ellipse cx="358" cy="184" rx="3" ry="1.2"/>
+      </g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.16" fill="#5f6a3e">
+      <ellipse cx="150" cy="238" rx="140" ry="3"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

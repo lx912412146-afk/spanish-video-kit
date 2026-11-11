@@ -1,0 +1,262 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_07.mp3",
+ "duration": 57.99,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.75,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.65,
+  "buzz_hz": 8781.0,
+  "buzz_db": 6.2,
+  "comb_db": -0.06
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.64,
+   "parts": [
+    [
+     0.5,
+     1.64
+    ]
+   ],
+   "segments": [
+    "El mar en invierno."
+   ],
+   "text": "El mar en invierno.",
+   "read": "El mar en invierno."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.64,
+   "end": 6.8,
+   "parts": [
+    [
+     2.64,
+     6.8
+    ]
+   ],
+   "segments": [
+    "Cada invierno paso unos días en un pueblo de la costa donde veraneaba de pequeño."
+   ],
+   "text": "Cada invierno paso unos días en un pueblo de la costa donde veraneaba de pequeño.",
+   "read": "Cada invierno paso unos días en un pueblo de la costa donde veraneaba de pequeño."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.8,
+   "end": 13.93,
+   "parts": [
+    [
+     7.8,
+     13.93
+    ]
+   ],
+   "segments": [
+    "En esta época la playa está casi desierta y las cafeterías del paseo marítimo permanecen cerradas."
+   ],
+   "text": "En esta época la playa está casi desierta y las cafeterías del paseo marítimo permanecen cerradas.",
+   "read": "En esta época la playa está casi desierta y las cafeterías del paseo marítimo permanecen cerradas."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.93,
+   "end": 18.49,
+   "parts": [
+    [
+     14.93,
+     18.49
+    ]
+   ],
+   "segments": [
+    "Solo se oye el ruido de las olas y los gritos de algunas gaviotas."
+   ],
+   "text": "Solo se oye el ruido de las olas y los gritos de algunas gaviotas.",
+   "read": "Solo se oye el ruido de las olas y los gritos de algunas gaviotas."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.49,
+   "end": 23.63,
+   "parts": [
+    [
+     19.49,
+     23.63
+    ]
+   ],
+   "segments": [
+    "Por las mañanas me pongo un abrigo grueso y camino por la orilla durante horas."
+   ],
+   "text": "Por las mañanas me pongo un abrigo grueso y camino por la orilla durante horas.",
+   "read": "Por las mañanas me pongo un abrigo grueso y camino por la orilla durante horas."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.63,
+   "end": 30.07,
+   "parts": [
+    [
+     24.63,
+     26.51
+    ],
+    [
+     26.79,
+     30.07
+    ]
+   ],
+   "segments": [
+    "Junto a un chiringuito vacío,",
+    "una sombrilla plegada parece esperar la llegada del verano."
+   ],
+   "text": "Junto a un chiringuito vacío, una sombrilla plegada parece esperar la llegada del verano.",
+   "read": "Junto a un chiringuito vacío, una sombrilla plegada parece esperar la llegada del verano."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.07,
+   "end": 34.82,
+   "parts": [
+    [
+     31.07,
+     34.82
+    ]
+   ],
+   "segments": [
+    "Mucha gente diría que el mar solo tiene sentido con sol y calor."
+   ],
+   "text": "Mucha gente diría que el mar solo tiene sentido con sol y calor.",
+   "read": "Mucha gente diría que el mar solo tiene sentido con sol y calor."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 35.82,
+   "end": 40.97,
+   "parts": [
+    [
+     35.82,
+     36.56
+    ],
+    [
+     36.84,
+     40.97
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "a mí me parece que en invierno muestra una belleza más tranquila y profunda."
+   ],
+   "text": "Sin embargo, a mí me parece que en invierno muestra una belleza más tranquila y profunda.",
+   "read": "Sin embargo, a mí me parece que en invierno muestra una belleza más tranquila y profunda."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 41.97,
+   "end": 45.81,
+   "parts": [
+    [
+     41.97,
+     45.81
+    ]
+   ],
+   "segments": [
+    "El aire frío me llena de energía y me ayuda a ordenar mis ideas."
+   ],
+   "text": "El aire frío me llena de energía y me ayuda a ordenar mis ideas.",
+   "read": "El aire frío me llena de energía y me ayuda a ordenar mis ideas."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 46.81,
+   "end": 51.78,
+   "parts": [
+    [
+     46.81,
+     47.31
+    ],
+    [
+     47.59,
+     50.11
+    ],
+    [
+     50.39,
+     51.78
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "cuando necesite descansar de verdad,",
+    "volveré a esta playa."
+   ],
+   "text": "Por eso, cuando necesite descansar de verdad, volveré a esta playa.",
+   "read": "Por eso, cuando necesite descansar de verdad, volveré a esta playa."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 52.78,
+   "end": 56.79,
+   "parts": [
+    [
+     52.78,
+     56.79
+    ]
+   ],
+   "segments": [
+    "Es una pena que tanta gente se pierda este espectáculo tan sencillo."
+   ],
+   "text": "Es una pena que tanta gente se pierda este espectáculo tan sencillo.",
+   "read": "Es una pena que tanta gente se pierda este espectáculo tan sencillo."
+  }
+ ]
+}

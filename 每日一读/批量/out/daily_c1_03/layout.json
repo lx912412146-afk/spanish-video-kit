@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  640.203125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  648.203125
+ ],
+ "zh": [
+  96,
+  674.203125,
+  480,
+  890.328125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  242.609375,
+  131.625
+ ],
+ "header_gap": 186.796875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   473
+  ],
+  [
+   506,
+   484,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.3,
+   "Junto a la ventana conservo un reloj de arena que, más que"
+  ],
+  [
+   "mid",
+   3.8,
+   "medir el tiempo, parece invitarme a contemplarlo. Mientras la arena"
+  ],
+  [
+   "mid",
+   5.5,
+   "cae grano a grano y el té reposa en la taza, las nubes cruzan el"
+  ],
+  [
+   "mid",
+   5.5,
+   "cielo sin prisa. Observarlas me recuerda que casi todo lo valioso"
+  ],
+  [
+   "last",
+   3.5,
+   "madura a un ritmo que no podemos forzar."
+  ],
+  [
+   "mid",
+   3.9,
+   "Vivimos, sin embargo, como si la rapidez fuera una virtud en sí"
+  ],
+  [
+   "mid",
+   4.1,
+   "misma y cualquier demora, un fracaso personal. Respondemos los"
+  ],
+  [
+   "mid",
+   4.5,
+   "mensajes al instante, leemos en diagonal y apenas saboreamos lo"
+  ],
+  [
+   "mid",
+   5.3,
+   "que comemos. Este elogio de la lentitud no pretende defender la"
+  ],
+  [
+   "mid",
+   5.7,
+   "pereza, sino reivindicar la atención plena que merecen las cosas"
+  ],
+  [
+   "mid",
+   3.7,
+   "importantes. Si de vez en cuando dejáramos que las cosas duraran"
+  ],
+  [
+   "mid",
+   6.2,
+   "lo que tienen que durar, quizá descubriríamos que el tiempo da"
+  ],
+  [
+   "last",
+   3.5,
+   "más de sí."
+  ]
+ ],
+ "es_max_gap": 6.2,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

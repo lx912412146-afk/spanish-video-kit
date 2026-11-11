@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_09",
+ "level": "A1",
+ "no": 9,
+ "title_es": "La panadería de la esquina",
+ "title_zh": "街角的面包店",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 9 篇。原创短文。只用陈述式现在时，有 hay、empezar a + 原形、oler a、dice que + 现在时、le encantan。12 句，119 词。特别判断：barras de pan 是长棍面包，panes redondos 是圆面包，和插图篮子里的面包对应；vitrina 是放点心的玻璃柜；pasteles 泛指甜点，按插图译作“点心”；magdalenas 是西班牙常见的杯装小蛋糕，译作“小蛋糕”（“松糕”容易让人想到米粉蒸的松糕）；me saluda por mi nombre 译作“叫着我的名字跟我打招呼”；mucho cariño y poca prisa 译作“多一份爱心，少一点着急”。第 5 句 pasteles, galletas y magdalenas 是列举，pasteles, 登记为不停顿；第 3 句 puerta, siempre、第 10 句 magdalenas, porque 和第 12 句 Para mí, 照常停顿。词汇：panadería、esquina 在标题里，排在最前；barra de pan 原文是复数 barras de pan。",
+ "no_pause_commas": {
+  "5": [
+   {
+    "after": "pasteles,",
+    "why": "列举：pasteles, galletas y magdalenas（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "panadería",
+   "面包店",
+   "panadería"
+  ],
+  [
+   "esquina",
+   "街角",
+   "esquina"
+  ],
+  [
+   "panadero",
+   "面包师傅",
+   "panadero"
+  ],
+  [
+   "temprano",
+   "早",
+   "temprano"
+  ],
+  [
+   "estante",
+   "架子",
+   "estantes"
+  ],
+  [
+   "barra de pan",
+   "长棍面包",
+   "barras de pan"
+  ],
+  [
+   "vitrina",
+   "玻璃柜",
+   "vitrina"
+  ],
+  [
+   "pastel",
+   "点心",
+   "pasteles"
+  ],
+  [
+   "magdalena",
+   "小蛋糕",
+   "magdalenas"
+  ],
+  [
+   "parecer",
+   "看起来",
+   "parece"
+  ],
+  [
+   "desayuno",
+   "早饭",
+   "desayuno"
+  ],
+  [
+   "saludar",
+   "打招呼",
+   "saluda"
+  ],
+  [
+   "secreto",
+   "秘诀",
+   "secreto"
+  ],
+  [
+   "cariño",
+   "爱心",
+   "cariño"
+  ],
+  [
+   "prisa",
+   "着急",
+   "prisa"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En la esquina de mi calle hay una panadería muy antigua.",
+    "zh": "我家那条街的街角有一家很老的面包店。"
+   },
+   {
+    "es": "El panadero se llama Manuel y empieza a trabajar muy temprano.",
+    "zh": "面包师傅叫曼努埃尔，他很早就开始干活。"
+   },
+   {
+    "es": "Cuando paso por la puerta, siempre huele a pan caliente.",
+    "zh": "每次我从门口经过，总能闻到热面包的香味。"
+   },
+   {
+    "es": "En los estantes de madera hay barras de pan y panes redondos.",
+    "zh": "木架上摆着长棍面包和圆面包。"
+   },
+   {
+    "es": "En la vitrina hay pasteles, galletas y magdalenas.",
+    "zh": "玻璃柜里有点心、饼干和小蛋糕。"
+   },
+   {
+    "es": "Todo parece muy rico y es difícil elegir.",
+    "zh": "样样看起来都很好吃，真难挑。"
+   }
+  ],
+  [
+   {
+    "es": "Cada mañana compro una barra de pan para el desayuno.",
+    "zh": "每天早上，我都买一根长棍面包当早饭。"
+   },
+   {
+    "es": "Manuel siempre me saluda por mi nombre.",
+    "zh": "曼努埃尔总是叫着我的名字跟我打招呼。"
+   },
+   {
+    "es": "Él dice que su secreto es mucho cariño y poca prisa.",
+    "zh": "他说，他的秘诀就是多一份爱心，少一点着急。"
+   },
+   {
+    "es": "Los domingos también compro magdalenas, porque a mi padre le encantan.",
+    "zh": "星期天我还会买小蛋糕，因为我爸爸特别爱吃。"
+   },
+   {
+    "es": "Desayunamos todos juntos con pan tostado y café.",
+    "zh": "我们全家一起吃早饭，有烤面包片，还有咖啡。"
+   },
+   {
+    "es": "Para mí, la panadería es el lugar más alegre de mi calle.",
+    "zh": "对我来说，面包店是我们这条街上最让人开心的地方。"
+   }
+  ]
+ ]
+}

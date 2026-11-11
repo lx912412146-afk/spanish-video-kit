@@ -1,0 +1,236 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_10.mp3",
+ "duration": 57.76,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.43,
+  "sentence_max_dev_lu": 0.85,
+  "short_term_std_lu": 0.94,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.76,
+  "buzz_hz": 15000.0,
+  "buzz_db": 6.3,
+  "comb_db": -0.9
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.83,
+   "parts": [
+    [
+     0.5,
+     1.37
+    ],
+    [
+     1.65,
+     2.83
+    ]
+   ],
+   "segments": [
+    "La plaza,",
+    "lugar de encuentro."
+   ],
+   "text": "La plaza, lugar de encuentro.",
+   "read": "La plaza, lugar de encuentro."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.83,
+   "end": 9.45,
+   "parts": [
+    [
+     3.83,
+     5.8
+    ],
+    [
+     6.08,
+     9.45
+    ]
+   ],
+   "segments": [
+    "En la pequeña ciudad donde crecí,",
+    "la plaza está rodeada de soportales que dan sombra en verano."
+   ],
+   "text": "En la pequeña ciudad donde crecí, la plaza está rodeada de soportales que dan sombra en verano.",
+   "read": "En la pequeña ciudad donde crecí, la plaza está rodeada de soportales que dan sombra en verano."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.45,
+   "end": 16.88,
+   "parts": [
+    [
+     10.45,
+     11.85
+    ],
+    [
+     12.13,
+     16.88
+    ]
+   ],
+   "segments": [
+    "Junto a la fuente,",
+    "los ancianos conversan en los bancos mientras los niños corretean entre los árboles."
+   ],
+   "text": "Junto a la fuente, los ancianos conversan en los bancos mientras los niños corretean entre los árboles.",
+   "read": "Junto a la fuente, los ancianos conversan en los bancos mientras los niños corretean entre los árboles."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 17.88,
+   "end": 24.96,
+   "parts": [
+    [
+     17.88,
+     19.48
+    ],
+    [
+     19.76,
+     20.89
+    ],
+    [
+     21.17,
+     24.96
+    ]
+   ],
+   "segments": [
+    "Nadie convoca a nadie y,",
+    "sin embargo,",
+    "cada tarde la plaza reúne a gente que de otro modo no coincidiría."
+   ],
+   "text": "Nadie convoca a nadie y, sin embargo, cada tarde la plaza reúne a gente que de otro modo no coincidiría.",
+   "read": "Nadie convoca a nadie y, sin embargo, cada tarde la plaza reúne a gente que de otro modo no coincidiría."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 25.96,
+   "end": 32.08,
+   "parts": [
+    [
+     25.96,
+     28.06
+    ],
+    [
+     28.34,
+     32.08
+    ]
+   ],
+   "segments": [
+    "A diferencia de los centros comerciales,",
+    "la plaza no exige consumir nada para tener derecho a quedarse."
+   ],
+   "text": "A diferencia de los centros comerciales, la plaza no exige consumir nada para tener derecho a quedarse.",
+   "read": "A diferencia de los centros comerciales, la plaza no exige consumir nada para tener derecho a quedarse."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 33.08,
+   "end": 40.49,
+   "parts": [
+    [
+     33.08,
+     36.42
+    ],
+    [
+     36.7,
+     40.49
+    ]
+   ],
+   "segments": [
+    "En ella conviven generaciones y costumbres distintas,",
+    "de modo que la vida en común se aprende casi sin que nadie se dé cuenta."
+   ],
+   "text": "En ella conviven generaciones y costumbres distintas, de modo que la vida en común se aprende casi sin que nadie se dé cuenta.",
+   "read": "En ella conviven generaciones y costumbres distintas, de modo que la vida en común se aprende casi sin que nadie se dé cuenta."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 41.49,
+   "end": 48.87,
+   "parts": [
+    [
+     41.49,
+     46.4
+    ],
+    [
+     46.68,
+     48.87
+    ]
+   ],
+   "segments": [
+    "Una ciudad que renunciara a estos espacios perdería mucho más que un lugar de paso:",
+    "perdería una escuela de convivencia."
+   ],
+   "text": "Una ciudad que renunciara a estos espacios perdería mucho más que un lugar de paso: perdería una escuela de convivencia.",
+   "read": "Una ciudad que renunciara a estos espacios perdería mucho más que un lugar de paso: perdería una escuela de convivencia."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 49.87,
+   "end": 56.56,
+   "parts": [
+    [
+     49.87,
+     52.72
+    ],
+    [
+     53.0,
+     56.56
+    ]
+   ],
+   "segments": [
+    "Cada vez que vuelvo y me siento junto a la fuente,",
+    "compruebo que la plaza sigue cumpliendo esa discreta función."
+   ],
+   "text": "Cada vez que vuelvo y me siento junto a la fuente, compruebo que la plaza sigue cumpliendo esa discreta función.",
+   "read": "Cada vez que vuelvo y me siento junto a la fuente, compruebo que la plaza sigue cumpliendo esa discreta función."
+  }
+ ]
+}

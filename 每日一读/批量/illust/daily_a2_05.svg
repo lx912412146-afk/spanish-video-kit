@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：从飞机舷窗往外看（机翼、白云、远处地面、蓝天；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f4ec"/><stop offset="0.6" stop-color="#f1eadf"/><stop offset="1" stop-color="#e8dfd1"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e2d9cc"/><stop offset="0.5" stop-color="#ece5da"/><stop offset="1" stop-color="#f7f2e9"/>
+    </linearGradient>
+    <linearGradient id="recess" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d4c9b9"/><stop offset="1" stop-color="#e6ddd0"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6ea7d8"/><stop offset="0.3" stop-color="#8dbde3"/><stop offset="0.45" stop-color="#bcdaec"/><stop offset="0.56" stop-color="#e2edf0"/><stop offset="1" stop-color="#e2edf0"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0e7da"/><stop offset="0.35" stop-color="#d0dfbc"/><stop offset="1" stop-color="#bad2a0"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="0.25" y2="1">
+      <stop offset="0" stop-color="#f3f5f6"/><stop offset="0.55" stop-color="#dde3e7"/><stop offset="1" stop-color="#c5ced5"/>
+    </linearGradient>
+    <linearGradient id="seat" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8ea5b7"/><stop offset="0.55" stop-color="#a9bdcb"/><stop offset="1" stop-color="#90a8b9"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f3ea"/><stop offset="1" stop-color="#ebe3d6"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="160" y="64" width="144" height="168" rx="66"/></clipPath>
+    <clipPath id="win2"><rect x="372" y="70" width="120" height="156" rx="56"/></clipPath>
+    <g id="cloud">
+      <ellipse cx="0" cy="1" rx="22" ry="7.5" fill="#dce5ee"/>
+      <ellipse cx="-10" cy="-5" rx="11" ry="8" fill="#ffffff"/><ellipse cx="4" cy="-8" rx="12" ry="10" fill="#ffffff"/><ellipse cx="16" cy="-3" rx="9" ry="7" fill="#ffffff"/>
+      <ellipse cx="-2" cy="-2" rx="18" ry="6" fill="#fbfcfd"/>
+      <ellipse cx="2" cy="3.5" rx="18" ry="2.8" fill="#d3deea" opacity="0.8"/>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 机舱墙面 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+
+    <g filter="url(#wc)">
+      <!-- 墙面下方的弧度 -->
+      <path d="M0,238 C80,233 200,234 400,240 L400,260 L0,260 Z" fill="#e7ded0"/>
+      <path d="M0,238 C80,233 200,234 400,240" stroke="#f8f3eb" stroke-width="2" fill="none"/>
+
+      <!-- 舷窗外框 -->
+      <rect x="140" y="46" width="184" height="206" rx="84" fill="#e5dcd0"/>
+      <rect x="144" y="50" width="176" height="198" rx="80" fill="url(#bezel)"/>
+      <rect x="155" y="59" width="154" height="178" rx="71" fill="url(#recess)"/>
+
+      <!-- 窗外 -->
+      <g clip-path="url(#win)">
+        <rect x="150" y="56" width="164" height="184" fill="url(#sky)"/>
+        <g filter="url(#soft2)" fill="#ffffff" opacity="0.85">
+          <ellipse cx="270" cy="96" rx="18" ry="3.5"/><ellipse cx="190" cy="108" rx="15" ry="3"/>
+        </g>
+        <!-- 远处的地面 -->
+        <path d="M150,136 C200,132 260,132 314,135 L314,240 L150,240 Z" fill="url(#land)"/>
+        <g opacity="0.92">
+          <polygon points="166,143 208,141 204,149 160,152" fill="#cfe0a6"/>
+          <polygon points="216,140 256,140 258,147 214,149" fill="#ecd68e"/>
+          <polygon points="262,140 306,141 310,149 264,148" fill="#d7c3e0"/>
+          <polygon points="156,160 200,156 196,169 152,173" fill="#ecd08c"/>
+          <polygon points="208,155 254,154 256,166 204,167" fill="#b4d48e"/>
+          <polygon points="262,154 308,155 312,168 264,166" fill="#e8bf98"/>
+          <polygon points="236,174 290,173 296,192 238,193" fill="#d9e6a6"/>
+          <polygon points="152,178 196,174 192,192 150,196" fill="#e6c79c"/>
+          <polygon points="198,170 232,169 234,188 196,190" fill="#c3dc9c"/>
+        </g>
+        <g fill="#c9d3c0" opacity="0.8">
+          <rect x="226" y="146" width="2" height="1.6"/><rect x="230" y="145.6" width="2" height="1.6"/><rect x="234" y="146.4" width="1.6" height="1.4"/>
+        </g>
+        <path d="M156,190 C178,180 196,172 216,170 C236,168 246,160 264,154 C280,149 294,146 314,144" stroke="#b3cbd6" stroke-width="2.4" fill="none" opacity="0.85"/>
+        <path d="M150,135 C200,131 260,131 314,134 L314,142 C260,139 200,139 150,143 Z" fill="#eef2ee" opacity="0.85"/>
+        <!-- 白云 -->
+        <use href="#cloud" transform="translate(188,146) scale(1.1)"/>
+        <use href="#cloud" transform="translate(276,132) scale(0.8)"/>
+        <use href="#cloud" transform="translate(244,168) scale(1.3)"/>
+        <use href="#cloud" transform="translate(296,184) scale(1)"/>
+        <use href="#cloud" transform="translate(206,124) scale(0.55)"/>
+        <!-- 机翼 -->
+        <path d="M136,194 L278,150 C281,149 283,149 284,147 L289,121 L295,122 L292,166 L136,252 Z" fill="url(#wing)"/>
+        <path d="M284,147 L289,121 L295,122 L292,166 Z" fill="#9fbccf"/>
+        <path d="M284,147 L289,121 L291,121.3 L287,150 Z" fill="#c1d6e2"/>
+        <path d="M136,195 L280,150" stroke="#ffffff" stroke-width="1.8" opacity="0.9"/>
+        <g stroke="#b9c3cb" stroke-width="0.8" fill="none" opacity="0.95">
+          <path d="M150,238 L290,170"/><path d="M196,214 L204,224 M236,194 L243,203 M266,180 L272,188"/>
+          <path d="M152,214 L282,160" stroke-dasharray="2 5"/>
+        </g>
+        <path d="M150,238 L290,170 L291,166 L136,248 Z" fill="#cdd5dc" opacity="0.7"/>
+        <circle cx="292" cy="126" r="1.5" fill="#f0b4a0"/>
+        <!-- 机翼在阳光下的反光 -->
+        <path d="M168,194 L262,165" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.55" filter="url(#soft2)"/>
+        <path d="M236,163 C236.6,170 237.4,171 244,172 C237.4,173 236.6,174 236,181 C235.4,174 234.6,173 228,172 C234.6,171 235.4,170 236,163 Z" fill="#ffffff" opacity="0.95"/>
+        <circle cx="236" cy="172" r="5" fill="#fffbe8" opacity="0.5" filter="url(#soft2)"/>
+        <!-- 玻璃反光 -->
+        <polygon points="178,78 194,68 176,140 166,148" fill="#ffffff" opacity="0.18"/>
+        <polygon points="200,66 206,64 188,126 184,128" fill="#ffffff" opacity="0.14"/>
+        <!-- 拉起的遮光板 -->
+        <rect x="150" y="56" width="164" height="18" fill="#f1eadf"/>
+        <rect x="150" y="72" width="164" height="2.8" fill="#dad0c0"/>
+        <rect x="223" y="72.5" width="18" height="3.6" rx="1.5" fill="#cfc4b3"/>
+      </g>
+      <rect x="160" y="64" width="144" height="168" rx="66" fill="none" stroke="#d3c8b8" stroke-width="1.4"/>
+      <path d="M180,240 C204,247 260,247 284,240" stroke="#fbf8f2" stroke-width="2" fill="none" opacity="0.9"/>
+
+      <!-- 右边的另一扇舷窗 -->
+      <rect x="358" y="52" width="150" height="190" rx="70" fill="#e5dcd0"/>
+      <rect x="366" y="63" width="134" height="170" rx="62" fill="url(#recess)"/>
+      <g clip-path="url(#win2)">
+        <rect x="370" y="66" width="124" height="164" fill="url(#sky)"/>
+        <path d="M370,138 C400,136 440,136 494,138 L494,230 L370,230 Z" fill="url(#land)"/>
+        <use href="#cloud" transform="translate(394,152) scale(1.1)"/>
+        <use href="#cloud" transform="translate(398,190) scale(1.2)"/>
+        <rect x="370" y="66" width="124" height="44" fill="#f1eadf"/>
+        <rect x="370" y="108" width="124" height="2.8" fill="#dad0c0"/>
+      </g>
+
+      <!-- 前排座椅靠背 -->
+      <path d="M-12,262 L-12,162 C-12,142 10,132 50,132 C90,132 112,142 114,162 L118,262 Z" fill="url(#seat)"/>
+      <path d="M-8,156 C-8,142 12,134 50,134 C88,134 108,142 110,156 L110,180 C80,176 20,176 -8,180 Z" fill="url(#cover)"/>
+      <path d="M-8,180 C20,176 80,176 110,180" stroke="#ded4c4" stroke-width="1.4" fill="none"/>
+      <path d="M6,146 C24,140 76,140 96,146" stroke="#ffffff" stroke-width="1.4" fill="none" opacity="0.7"/>
+      <path d="M50,182 L52,262" stroke="#8aa1b3" stroke-width="1" opacity="0.7"/>
+      <path d="M100,186 C106,200 108,230 110,262" stroke="#b5c7d4" stroke-width="2" fill="none" opacity="0.6"/>
+    </g>
+
+    <!-- 柔和阴影 -->
+    <g filter="url(#soft)" opacity="0.14" fill="#8a6a4a">
+      <path d="M116,150 C122,170 124,220 126,260 L138,260 C136,220 132,170 124,148 Z"/>
+    </g>
+    <g filter="url(#soft2)" opacity="0.12" fill="#8a6a4a">
+      <path d="M150,250 C200,256 270,256 316,250 L316,254 C270,260 200,260 150,254 Z"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

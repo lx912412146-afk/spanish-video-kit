@@ -1,0 +1,272 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_08.mp3",
+ "duration": 57.45,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.5,
+  "sentence_max_dev_lu": 0.71,
+  "short_term_std_lu": 0.99,
+  "short_term_std_full_lu": 1.03,
+  "peak_dbfs": -1.8,
+  "buzz_hz": 8781.0,
+  "buzz_db": 5.2,
+  "comb_db": -0.64
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.01,
+   "parts": [
+    [
+     0.5,
+     2.01
+    ]
+   ],
+   "segments": [
+    "Trabajar desde casa."
+   ],
+   "text": "Trabajar desde casa.",
+   "read": "Trabajar desde casa."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.01,
+   "end": 6.52,
+   "parts": [
+    [
+     3.01,
+     6.52
+    ]
+   ],
+   "segments": [
+    "Desde el año pasado trabajo desde casa tres días a la semana."
+   ],
+   "text": "Desde el año pasado trabajo desde casa tres días a la semana.",
+   "read": "Desde el año pasado trabajo desde casa tres días a la semana."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.52,
+   "end": 12.41,
+   "parts": [
+    [
+     7.52,
+     9.98
+    ],
+    [
+     10.26,
+     12.41
+    ]
+   ],
+   "segments": [
+    "He puesto mi escritorio junto a la ventana,",
+    "porque allí entra más luz natural."
+   ],
+   "text": "He puesto mi escritorio junto a la ventana, porque allí entra más luz natural.",
+   "read": "He puesto mi escritorio junto a la ventana, porque allí entra más luz natural."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.41,
+   "end": 18.43,
+   "parts": [
+    [
+     13.41,
+     15.29
+    ],
+    [
+     15.57,
+     18.43
+    ]
+   ],
+   "segments": [
+    "Por la mañana me preparo un café,",
+    "enciendo el portátil y reviso los mensajes del equipo."
+   ],
+   "text": "Por la mañana me preparo un café, enciendo el portátil y reviso los mensajes del equipo.",
+   "read": "Por la mañana me preparo un café, enciendo el portátil y reviso los mensajes del equipo."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.43,
+   "end": 23.55,
+   "parts": [
+    [
+     19.43,
+     23.55
+    ]
+   ],
+   "segments": [
+    "Lo mejor es que me ahorro el viaje en metro y puedo comer tranquilamente en casa."
+   ],
+   "text": "Lo mejor es que me ahorro el viaje en metro y puedo comer tranquilamente en casa.",
+   "read": "Lo mejor es que me ahorro el viaje en metro y puedo comer tranquilamente en casa."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.55,
+   "end": 29.68,
+   "parts": [
+    [
+     24.55,
+     29.68
+    ]
+   ],
+   "segments": [
+    "Además, las plantas y el silencio me ayudan a concentrarme mucho mejor que en la oficina."
+   ],
+   "text": "Además, las plantas y el silencio me ayudan a concentrarme mucho mejor que en la oficina.",
+   "read": "Además, las plantas y el silencio me ayudan a concentrarme mucho mejor que en la oficina."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 30.68,
+   "end": 34.11,
+   "parts": [
+    [
+     30.68,
+     31.42
+    ],
+    [
+     31.7,
+     34.11
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "trabajar solo también tiene sus desventajas."
+   ],
+   "text": "Sin embargo, trabajar solo también tiene sus desventajas.",
+   "read": "Sin embargo, trabajar solo también tiene sus desventajas."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 35.11,
+   "end": 39.75,
+   "parts": [
+    [
+     35.11,
+     39.75
+    ]
+   ],
+   "segments": [
+    "De vez en cuando echo de menos las bromas de mi compañera Elena y los cafés juntos."
+   ],
+   "text": "De vez en cuando echo de menos las bromas de mi compañera Elena y los cafés juntos.",
+   "read": "De vez en cuando echo de menos las bromas de mi compañera Elena y los cafés juntos."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 40.75,
+   "end": 45.17,
+   "parts": [
+    [
+     40.75,
+     42.63
+    ],
+    [
+     42.91,
+     45.17
+    ]
+   ],
+   "segments": [
+    "También me cuesta desconectar,",
+    "y a veces sigo trabajando hasta muy tarde."
+   ],
+   "text": "También me cuesta desconectar, y a veces sigo trabajando hasta muy tarde.",
+   "read": "También me cuesta desconectar, y a veces sigo trabajando hasta muy tarde."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 46.17,
+   "end": 50.4,
+   "parts": [
+    [
+     46.17,
+     46.67
+    ],
+    [
+     46.95,
+     50.4
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "es importante que separes bien el trabajo de la vida personal."
+   ],
+   "text": "Por eso, es importante que separes bien el trabajo de la vida personal.",
+   "read": "Por eso, es importante que separes bien el trabajo de la vida personal."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 51.4,
+   "end": 56.25,
+   "parts": [
+    [
+     51.4,
+     52.01
+    ],
+    [
+     52.29,
+     56.25
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "lo ideal sería combinar los días en casa con algunos días en la oficina."
+   ],
+   "text": "Para mí, lo ideal sería combinar los días en casa con algunos días en la oficina.",
+   "read": "Para mí, lo ideal sería combinar los días en casa con algunos días en la oficina."
+  }
+ ]
+}

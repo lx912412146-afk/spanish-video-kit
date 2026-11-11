@@ -1,0 +1,281 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  659.28125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  667.28125
+ ],
+ "zh": [
+  96,
+  693.28125,
+  480,
+  932.53125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  261.953125,
+  131.625
+ ],
+ "header_gap": 131.5625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   578
+  ],
+  [
+   506,
+   589,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.2,
+   "De niño pasaba horas ante un viejo microscopio, observando"
+  ],
+  [
+   "mid",
+   3.5,
+   "hojas, alas de insecto y gotas de agua. Más tarde empecé a prensar"
+  ],
+  [
+   "mid",
+   4.3,
+   "plantas entre las páginas de los libros y a tomar nota de dónde las"
+  ],
+  [
+   "mid",
+   3.6,
+   "encontraba. Nadie me había enseñado método alguno, pero aquella"
+  ],
+  [
+   "mid",
+   3.5,
+   "costumbre ya contenía lo esencial: mirar con atención y preguntarse"
+  ],
+  [
+   "last",
+   3.4,
+   "por qué."
+  ],
+  [
+   "mid",
+   4.6,
+   "A menudo se presenta la ciencia como un simple catálogo de"
+  ],
+  [
+   "mid",
+   4.1,
+   "respuestas definitivas, cuando en realidad avanza gracias a buenas"
+  ],
+  [
+   "mid",
+   4.9,
+   "preguntas. La curiosidad, por sí sola, no basta: necesita paciencia"
+  ],
+  [
+   "mid",
+   3.7,
+   "para comprobar cada hipótesis y humildad para descartarla cuando"
+  ],
+  [
+   "mid",
+   4.2,
+   "falla. Si de adultos conserváramos esa curiosidad, quizá sabríamos"
+  ],
+  [
+   "mid",
+   7.2,
+   "convivir con la incertidumbre sin percibirla como una amenaza."
+  ],
+  [
+   "mid",
+   6,
+   "Todavía hoy, al acercar la lupa a una hoja, siento la emoción de"
+  ],
+  [
+   "last",
+   3.4,
+   "quien está a punto de descubrir algo."
+  ]
+ ],
+ "es_max_gap": 7.2,
+ "es_font": [
+  12.9,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

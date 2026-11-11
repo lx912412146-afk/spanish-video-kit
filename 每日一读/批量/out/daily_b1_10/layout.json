@@ -1,0 +1,300 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  638.375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  646.375
+ ],
+ "zh": [
+  96,
+  672.375,
+  480,
+  888.5
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  305.453125,
+  131.625
+ ],
+ "header_gap": 108.4375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   165
+  ],
+  [
+   506,
+   176,
+   626,
+   194
+  ],
+  [
+   506,
+   205,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   299
+  ],
+  [
+   506,
+   310,
+   626,
+   328
+  ],
+  [
+   506,
+   339,
+   626,
+   357
+  ],
+  [
+   506,
+   368,
+   626,
+   386
+  ],
+  [
+   506,
+   397,
+   626,
+   415
+  ],
+  [
+   506,
+   426,
+   626,
+   444
+  ],
+  [
+   506,
+   455,
+   626,
+   491
+  ],
+  [
+   506,
+   502,
+   626,
+   520
+  ],
+  [
+   506,
+   531,
+   626,
+   549
+  ],
+  [
+   506,
+   560,
+   626,
+   578
+  ],
+  [
+   506,
+   589,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.5,
+   "Casi todos los domingos visito un mercado de segunda mano"
+  ],
+  [
+   "mid",
+   4.2,
+   "que se monta en una plaza de mi barrio. Entre los puestos cuelgan"
+  ],
+  [
+   "mid",
+   4.9,
+   "guirnaldas de luces que dan al lugar un aire alegre. Allí se venden"
+  ],
+  [
+   "mid",
+   3.5,
+   "libros viejos, cámaras antiguas, jarrones y hasta sillas de madera. La"
+  ],
+  [
+   "mid",
+   6.9,
+   "semana pasada encontré una novela que buscaba desde hacía"
+  ],
+  [
+   "mid",
+   3.8,
+   "mucho tiempo. La vendedora, una señora llamada Rosa, me la dejó"
+  ],
+  [
+   "last",
+   3.4,
+   "más barata porque somos casi vecinos."
+  ],
+  [
+   "mid",
+   4.2,
+   "Me encanta imaginar la historia que hay detrás de cada objeto"
+  ],
+  [
+   "mid",
+   3.6,
+   "y quién lo tuvo antes. Además, comprar cosas usadas es una forma"
+  ],
+  [
+   "mid",
+   3.6,
+   "sencilla de cuidar el medio ambiente. Aunque algunos objetos estén"
+  ],
+  [
+   "mid",
+   3.9,
+   "algo estropeados, muchos se pueden arreglar con paciencia. Ahora"
+  ],
+  [
+   "mid",
+   3.7,
+   "busco una silla antigua para que mi salón resulte más acogedor. Sin"
+  ],
+  [
+   "last",
+   3.4,
+   "este pequeño mercado, mis domingos serían mucho más aburridos."
+  ]
+ ],
+ "es_max_gap": 6.9,
+ "es_font": [
+  12.9,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

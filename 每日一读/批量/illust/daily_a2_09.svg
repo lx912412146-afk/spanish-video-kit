@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：老城区的小街傍晚（彩色房子、带花的阳台、亮起的路灯、地上一张打开的地图；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#f6efe6"/><stop offset="0.45" stop-color="#f4e3d5"/><stop offset="1" stop-color="#ddd3e3"/>
+    </linearGradient>
+    <linearGradient id="street" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3d4bd"/><stop offset="1" stop-color="#d9c6aa"/>
+    </linearGradient>
+    <radialGradient id="lampglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.9"/><stop offset="0.4" stop-color="#fde3a0" stop-opacity="0.4"/><stop offset="1" stop-color="#fde3a0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="mapclip"><polygon points="120,224 206,220 214,245 112,250"/></clipPath>
+    <!-- 窗户：百叶窗颜色由 use 的 fill 决定 -->
+    <g id="win">
+      <rect x="-11.5" y="0" width="5" height="18"/><rect x="6.5" y="0" width="5" height="18"/>
+      <rect x="-6" y="0" width="12" height="18" fill="#adc3cc" stroke="#f8f1e6" stroke-width="1.2"/>
+      <path d="M0,0 L0,18 M-6,8 L6,8" stroke="#f8f1e6" stroke-width="0.8"/>
+    </g>
+    <g id="winL">
+      <rect x="-11.5" y="0" width="5" height="18"/><rect x="6.5" y="0" width="5" height="18"/>
+      <rect x="-6" y="0" width="12" height="18" fill="#f6dc9c" stroke="#f8f1e6" stroke-width="1.2"/>
+      <path d="M0,0 L0,18 M-6,8 L6,8" stroke="#f8f1e6" stroke-width="0.8"/>
+    </g>
+    <g id="dwin">
+      <rect x="-11.5" y="0" width="5" height="24"/><rect x="6.5" y="0" width="5" height="24"/>
+      <rect x="-6" y="0" width="12" height="24" fill="#adc3cc" stroke="#f8f1e6" stroke-width="1.2"/>
+      <path d="M0,0 L0,24 M-6,9 L6,9" stroke="#f8f1e6" stroke-width="0.8"/>
+    </g>
+    <g id="balc">
+      <rect x="-15" y="0" width="30" height="2.8" fill="#e2d6c5"/>
+      <path d="M-14,0 L-14,-8 L14,-8 L14,0 M-9.3,0 L-9.3,-8 M-4.6,0 L-4.6,-8 M0,0 L0,-8 M4.6,0 L4.6,-8 M9.3,0 L9.3,-8" stroke="#6f625a" stroke-width="0.8" fill="none"/>
+      <g fill="#7fb062"><ellipse cx="-9" cy="-9" rx="5" ry="2.8"/><ellipse cx="2" cy="-9.4" rx="5.5" ry="3"/><ellipse cx="10" cy="-9" rx="4.5" ry="2.6"/><ellipse cx="-12" cy="-5" rx="2.2" ry="3.6"/><ellipse cx="12.6" cy="-4.6" rx="2" ry="3.4"/></g>
+      <g fill="#e2604f"><circle cx="-10" cy="-11" r="1.9"/><circle cx="-6" cy="-11.6" r="1.7"/><circle cx="0" cy="-12" r="1.9"/><circle cx="4" cy="-11.4" r="1.7"/><circle cx="10" cy="-11" r="1.8"/><circle cx="-12" cy="-3" r="1.4"/></g>
+      <g fill="#f29a9a"><circle cx="-2" cy="-10.6" r="1.3"/><circle cx="7.4" cy="-10.4" r="1.3"/><circle cx="12.6" cy="-2.6" r="1.3"/></g>
+    </g>
+    <g id="door">
+      <path d="M-9,34 L-9,9 A9,9 0 0 1 9,9 L9,34 Z" fill="#a8805c"/>
+      <path d="M0,0 L0,34" stroke="#8d6a4d" stroke-width="0.9"/>
+      <path d="M-6,14 L-2.5,14 M2.5,14 L6,14 M-6,24 L-2.5,24 M2.5,24 L6,24" stroke="#c09a74" stroke-width="0.8"/>
+      <rect x="-11" y="34" width="22" height="2" fill="#d8c8b2"/>
+    </g>
+    <g id="lantern">
+      <path d="M0,0 L10,0 L10,2" stroke="#6f625a" stroke-width="1.1" fill="none"/>
+      <path d="M5,2 L15,2 L13.5,13 L6.5,13 Z" fill="#fae1a0" stroke="#6f625a" stroke-width="0.9" stroke-linejoin="round"/>
+      <polygon points="4,2.6 16,2.6 10,-2" fill="#6f625a"/>
+      <rect x="7" y="13" width="6" height="1.6" fill="#6f625a"/>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 傍晚的天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+
+    <g filter="url(#wc)">
+      <g filter="url(#soft2)" fill="#fdf6ee" opacity="0.8">
+        <ellipse cx="372" cy="16" rx="18" ry="4"/>
+      </g>
+
+      <!-- 房子 A：浅陶土粉 -->
+      <rect x="0" y="66" width="78" height="132" fill="#eebda6"/>
+      <rect x="0" y="62" width="80" height="6" fill="#c8714f"/>
+      <path d="M0,62 Q4,59 8,62 Q12,59 16,62 Q20,59 24,62 Q28,59 32,62 Q36,59 40,62 Q44,59 48,62 Q52,59 56,62 Q60,59 64,62 Q68,59 72,62 Q76,59 80,62" fill="#d27c59"/>
+      <use href="#win" transform="translate(22,78)" fill="#8fb39a"/><use href="#winL" transform="translate(56,78)" fill="#8fb39a"/>
+      <use href="#dwin" transform="translate(22,114)" fill="#8fb39a"/><use href="#dwin" transform="translate(56,114)" fill="#8fb39a"/>
+      <use href="#balc" transform="translate(22,138)"/><use href="#balc" transform="translate(56,138)"/>
+      <use href="#door" transform="translate(38,160)"/>
+      <rect x="0" y="152" width="78" height="2" fill="#e1aa92" opacity="0.8"/>
+
+      <!-- 房子 B：灰蓝 -->
+      <rect x="78" y="58" width="74" height="140" fill="#bfd4dc"/>
+      <rect x="76" y="54" width="78" height="6" fill="#c8714f"/>
+      <path d="M76,54 Q80,51 84,54 Q88,51 92,54 Q96,51 100,54 Q104,51 108,54 Q112,51 116,54 Q120,51 124,54 Q128,51 132,54 Q136,51 140,54 Q144,51 148,54 Q152,51 154,54" fill="#d27c59"/>
+      <use href="#winL" transform="translate(98,72)" fill="#e9dfcd"/><use href="#win" transform="translate(132,72)" fill="#e9dfcd"/>
+      <use href="#dwin" transform="translate(98,108)" fill="#e9dfcd"/><use href="#dwin" transform="translate(132,108)" fill="#e9dfcd"/>
+      <rect x="82" y="132" width="66" height="2.8" fill="#e2d6c5"/>
+      <path d="M83,132 L83,124 L147,124 L147,132 M91,132 L91,124 M99,132 L99,124 M107,132 L107,124 M115,132 L115,124 M123,132 L123,124 M131,132 L131,124 M139,132 L139,124" stroke="#6f625a" stroke-width="0.8" fill="none"/>
+      <use href="#balc" transform="translate(98,132) scale(0.95,1)"/><use href="#balc" transform="translate(132,132) scale(0.95,1)"/>
+      <use href="#door" transform="translate(115,160)"/>
+      <use href="#lantern" transform="translate(140,146)"/>
+
+      <!-- 房子 C：赭黄 -->
+      <rect x="152" y="54" width="86" height="144" fill="#f1d391"/>
+      <rect x="150" y="50" width="90" height="6" fill="#c8714f"/>
+      <path d="M150,50 Q154,47 158,50 Q162,47 166,50 Q170,47 174,50 Q178,47 182,50 Q186,47 190,50 Q194,47 198,50 Q202,47 206,50 Q210,47 214,50 Q218,47 222,50 Q226,47 230,50 Q234,47 240,50" fill="#d27c59"/>
+      <use href="#win" transform="translate(172,66)" fill="#9cb7c9"/><use href="#winL" transform="translate(195,66)" fill="#9cb7c9"/><use href="#win" transform="translate(218,66)" fill="#9cb7c9"/>
+      <use href="#dwin" transform="translate(172,102)" fill="#9cb7c9"/><use href="#dwin" transform="translate(195,102)" fill="#9cb7c9"/><use href="#dwin" transform="translate(218,102)" fill="#9cb7c9"/>
+      <use href="#balc" transform="translate(172,126) scale(0.72,1)"/><use href="#balc" transform="translate(195,126) scale(0.72,1)"/><use href="#balc" transform="translate(218,126) scale(0.72,1)"/>
+      <use href="#door" transform="translate(178,160)"/><use href="#door" transform="translate(214,160)"/>
+      <rect x="152" y="150" width="86" height="2" fill="#e5c27c" opacity="0.8"/>
+
+      <!-- 房子 D：鼠尾草绿，高一些 -->
+      <rect x="238" y="28" width="80" height="170" fill="#c6d8b6"/>
+      <rect x="236" y="24" width="84" height="6" fill="#c8714f"/>
+      <path d="M236,24 Q240,21 244,24 Q248,21 252,24 Q256,21 260,24 Q264,21 268,24 Q272,21 276,24 Q280,21 284,24 Q288,21 292,24 Q296,21 300,24 Q304,21 308,24 Q312,21 316,24 Q318,22 320,24" fill="#d27c59"/>
+      <use href="#win" transform="translate(258,40)" fill="#f2ebdc"/><use href="#win" transform="translate(298,40)" fill="#f2ebdc"/>
+      <use href="#dwin" transform="translate(258,74)" fill="#f2ebdc"/><use href="#dwin" transform="translate(298,74)" fill="#f2ebdc"/>
+      <use href="#balc" transform="translate(258,98)"/><use href="#balc" transform="translate(298,98)"/>
+      <use href="#dwin" transform="translate(258,112)" fill="#f2ebdc"/><use href="#dwin" transform="translate(298,112)" fill="#f2ebdc"/>
+      <use href="#balc" transform="translate(258,136)"/><use href="#balc" transform="translate(298,136)"/>
+      <use href="#door" transform="translate(278,160)"/>
+      <use href="#lantern" transform="translate(240,146)"/>
+
+      <!-- 房子 E：奶油杏色 -->
+      <rect x="318" y="40" width="84" height="158" fill="#f4dcc2"/>
+      <rect x="316" y="36" width="88" height="6" fill="#c8714f"/>
+      <path d="M316,36 Q320,33 324,36 Q328,33 332,36 Q336,33 340,36 Q344,33 348,36 Q352,33 356,36 Q360,33 364,36 Q368,33 372,36 Q376,33 380,36 Q384,33 388,36 Q392,33 396,36 Q400,33 404,36" fill="#d27c59"/>
+      <use href="#winL" transform="translate(340,54)" fill="#c9837a"/><use href="#win" transform="translate(378,54)" fill="#c9837a"/>
+      <use href="#dwin" transform="translate(340,88)" fill="#c9837a"/><use href="#dwin" transform="translate(378,88)" fill="#c9837a"/>
+      <use href="#balc" transform="translate(340,112)"/><use href="#balc" transform="translate(378,112)"/>
+      <use href="#dwin" transform="translate(378,126)" fill="#c9837a"/>
+      <use href="#balc" transform="translate(378,150)"/>
+      <use href="#door" transform="translate(340,160)"/>
+
+      <!-- 人行道和石子路 -->
+      <rect x="0" y="196" width="400" height="9" fill="#e9dcc8"/>
+      <rect x="0" y="204" width="400" height="2" fill="#cdb99b"/>
+      <rect x="0" y="206" width="400" height="54" fill="url(#street)"/>
+      <g fill="none" stroke-linecap="round">
+        <line x1="-4" y1="210" x2="404" y2="210" stroke="#d3bfa1" stroke-width="3.2" stroke-dasharray="5 7.5"/>
+        <line x1="-4" y1="217" x2="404" y2="217" stroke="#d6c3a6" stroke-width="3.8" stroke-dasharray="6 8.5" stroke-dashoffset="7"/>
+        <line x1="-4" y1="225" x2="404" y2="225" stroke="#d3bfa1" stroke-width="4.4" stroke-dasharray="7 9.5"/>
+        <line x1="-4" y1="234" x2="404" y2="234" stroke="#d6c3a6" stroke-width="5" stroke-dasharray="8 11" stroke-dashoffset="9"/>
+        <line x1="-4" y1="244" x2="404" y2="244" stroke="#d3bfa1" stroke-width="5.8" stroke-dasharray="9 12"/>
+        <line x1="-4" y1="255" x2="404" y2="255" stroke="#d6c3a6" stroke-width="6.6" stroke-dasharray="10 13.5" stroke-dashoffset="11"/>
+      </g>
+      <g fill="none" stroke-linecap="round" stroke="#ece0cc" opacity="0.8">
+        <line x1="-4" y1="209.3" x2="404" y2="209.3" stroke-width="1.2" stroke-dasharray="5 7.5"/>
+        <line x1="-4" y1="216.2" x2="404" y2="216.2" stroke-width="1.4" stroke-dasharray="6 8.5" stroke-dashoffset="7"/>
+        <line x1="-4" y1="224" x2="404" y2="224" stroke-width="1.6" stroke-dasharray="7 9.5"/>
+        <line x1="-4" y1="232.8" x2="404" y2="232.8" stroke-width="1.8" stroke-dasharray="8 11" stroke-dashoffset="9"/>
+        <line x1="-4" y1="242.6" x2="404" y2="242.6" stroke-width="2" stroke-dasharray="9 12"/>
+        <line x1="-4" y1="253.4" x2="404" y2="253.4" stroke-width="2.2" stroke-dasharray="10 13.5" stroke-dashoffset="11"/>
+      </g>
+
+      <!-- 立着的路灯 -->
+      <g>
+        <rect x="364" y="118" width="3.2" height="86" fill="#6f625a"/>
+        <rect x="360" y="198" width="11" height="7" rx="1" fill="#6f625a"/>
+        <path d="M358,104 L373,104 L371,118 L360,118 Z" fill="#fae1a0" stroke="#6f625a" stroke-width="1.1" stroke-linejoin="round"/>
+        <polygon points="356,105 375,105 365.5,97" fill="#6f625a"/>
+        <circle cx="365.5" cy="95.5" r="1.5" fill="#6f625a"/>
+      </g>
+
+      <!-- 路灯的光 -->
+      <circle cx="150" cy="154" r="26" fill="url(#lampglow)"/>
+      <circle cx="250" cy="154" r="26" fill="url(#lampglow)"/>
+      <circle cx="365.5" cy="111" r="30" fill="url(#lampglow)"/>
+      <g filter="url(#soft)" fill="#fde7b0" opacity="0.45">
+        <ellipse cx="365" cy="214" rx="40" ry="7"/><ellipse cx="150" cy="204" rx="30" ry="5"/><ellipse cx="250" cy="204" rx="30" ry="5"/>
+      </g>
+
+      <!-- 地上打开的地图 -->
+      <polygon points="120,224 206,220 214,245 112,250" fill="#f8f2e5"/>
+      <g clip-path="url(#mapclip)">
+        <polygon points="148.7,222.7 177.3,221.3 180,248 146,249" fill="#efe6d4"/>
+        <path d="M150,252 C156,242 170,238 176,240 C184,242 190,236 196,230" fill="none" stroke="#a9c8d6" stroke-width="3"/>
+        <path d="M126,230 C140,236 148,232 158,228" fill="none" stroke="#a9c8d6" stroke-width="2"/>
+        <ellipse cx="134" cy="242" rx="9" ry="3.6" fill="#c7dca8"/>
+        <ellipse cx="196" cy="240" rx="7" ry="3" fill="#c7dca8"/>
+        <g stroke="#dcc9a8" stroke-width="0.9">
+          <line x1="110" y1="236" x2="216" y2="232"/><line x1="110" y1="243" x2="216" y2="239"/><line x1="110" y1="229" x2="216" y2="225"/>
+          <line x1="132" y1="220" x2="128" y2="252"/><line x1="162" y1="220" x2="160" y2="252"/><line x1="190" y1="218" x2="194" y2="252"/>
+        </g>
+        <circle cx="168" cy="232" r="2" fill="#e2685a"/><circle cx="168" cy="232" r="0.8" fill="#fbf4e8"/>
+      </g>
+      <path d="M148.7,222.7 L146,249 M177.3,221.3 L180,248" stroke="#e1d5bf" stroke-width="0.9"/>
+      <polygon points="120,224 206,220 214,245 112,250" fill="none" stroke="#e6dac6" stroke-width="0.8"/>
+    </g>
+
+    <!-- 阴影 -->
+    <g filter="url(#soft2)" opacity="0.18" fill="#8a6a4a">
+      <rect x="0" y="197" width="400" height="3"/><ellipse cx="164" cy="250" rx="52" ry="2.4"/><ellipse cx="366" cy="205" rx="10" ry="2"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

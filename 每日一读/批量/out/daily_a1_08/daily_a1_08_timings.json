@@ -1,0 +1,292 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_08.mp3",
+ "duration": 62.61,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.43,
+  "short_term_std_lu": 0.91,
+  "short_term_std_full_lu": 0.94,
+  "peak_dbfs": -1.87,
+  "buzz_hz": 15000.0,
+  "buzz_db": 4.3,
+  "comb_db": -0.93
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.68,
+   "parts": [
+    [
+     0.5,
+     1.68
+    ]
+   ],
+   "segments": [
+    "Mi mochila."
+   ],
+   "text": "Mi mochila.",
+   "read": "Mi mochila."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.68,
+   "end": 5.81,
+   "parts": [
+    [
+     2.68,
+     5.81
+    ]
+   ],
+   "segments": [
+    "Mi mochila es azul y bastante grande."
+   ],
+   "text": "Mi mochila es azul y bastante grande.",
+   "read": "Mi mochila es azul y bastante grande."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 6.81,
+   "end": 10.6,
+   "parts": [
+    [
+     6.81,
+     10.6
+    ]
+   ],
+   "segments": [
+    "Es un regalo de mi tío y la uso todos los días."
+   ],
+   "text": "Es un regalo de mi tío y la uso todos los días.",
+   "read": "Es un regalo de mi tío y la uso todos los días."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 11.6,
+   "end": 17.464,
+   "parts": [
+    [
+     11.6,
+     12.774
+    ],
+    [
+     13.054,
+     14.674
+    ],
+    [
+     14.954,
+     17.464
+    ]
+   ],
+   "segments": [
+    "Cada noche,",
+    "antes de dormir,",
+    "preparo la mochila en mi escritorio."
+   ],
+   "text": "Cada noche, antes de dormir, preparo la mochila en mi escritorio.",
+   "read": "Cada noche, antes de dormir, preparo la mochila en mi escritorio."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.464,
+   "end": 22.554,
+   "parts": [
+    [
+     18.464,
+     22.554
+    ]
+   ],
+   "segments": [
+    "Dentro pongo mis cuadernos, mis libros y el estuche."
+   ],
+   "text": "Dentro pongo mis cuadernos, mis libros y el estuche.",
+   "read": "Dentro pongo mis cuadernos, mis libros y el estuche."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 23.554,
+   "end": 27.934,
+   "parts": [
+    [
+     23.554,
+     27.934
+    ]
+   ],
+   "segments": [
+    "En el estuche tengo bolígrafos, lápices y una goma."
+   ],
+   "text": "En el estuche tengo bolígrafos, lápices y una goma.",
+   "read": "En el estuche tengo bolígrafos, lápices y una goma."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 28.934,
+   "end": 32.134,
+   "parts": [
+    [
+     28.934,
+     32.134
+    ]
+   ],
+   "segments": [
+    "También meto una botella de agua y una manzana."
+   ],
+   "text": "También meto una botella de agua y una manzana.",
+   "read": "También meto una botella de agua y una manzana."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 33.134,
+   "end": 36.844,
+   "parts": [
+    [
+     33.134,
+     36.844
+    ]
+   ],
+   "segments": [
+    "A veces la mochila pesa mucho y me duele la espalda."
+   ],
+   "text": "A veces la mochila pesa mucho y me duele la espalda.",
+   "read": "A veces la mochila pesa mucho y me duele la espalda."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 37.844,
+   "end": 41.663,
+   "parts": [
+    [
+     37.844,
+     41.663
+    ]
+   ],
+   "segments": [
+    "Por eso solo llevo las cosas necesarias para cada día."
+   ],
+   "text": "Por eso solo llevo las cosas necesarias para cada día.",
+   "read": "Por eso solo llevo las cosas necesarias para cada día."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 42.663,
+   "end": 46.8,
+   "parts": [
+    [
+     42.663,
+     46.8
+    ]
+   ],
+   "segments": [
+    "Mi mochila tiene muchos bolsillos y todo está en orden."
+   ],
+   "text": "Mi mochila tiene muchos bolsillos y todo está en orden.",
+   "read": "Mi mochila tiene muchos bolsillos y todo está en orden."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 47.8,
+   "end": 51.04,
+   "parts": [
+    [
+     47.8,
+     51.04
+    ]
+   ],
+   "segments": [
+    "En un bolsillo pequeño guardo las llaves de casa."
+   ],
+   "text": "En un bolsillo pequeño guardo las llaves de casa.",
+   "read": "En un bolsillo pequeño guardo las llaves de casa."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 52.04,
+   "end": 56.25,
+   "parts": [
+    [
+     52.04,
+     56.25
+    ]
+   ],
+   "segments": [
+    "Con ella voy a clase, a la biblioteca y de excursión."
+   ],
+   "text": "Con ella voy a clase, a la biblioteca y de excursión.",
+   "read": "Con ella voy a clase, a la biblioteca y de excursión."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 57.25,
+   "end": 61.41,
+   "parts": [
+    [
+     57.25,
+     61.41
+    ]
+   ],
+   "segments": [
+    "Estoy muy contento con mi mochila porque es cómoda y bonita."
+   ],
+   "text": "Estoy muy contento con mi mochila porque es cómoda y bonita.",
+   "read": "Estoy muy contento con mi mochila porque es cómoda y bonita."
+  }
+ ]
+}

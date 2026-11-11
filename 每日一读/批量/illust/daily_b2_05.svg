@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：数字时代的博物馆——展厅墙上的抽象画、长椅、立式导览屏（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcf6ec"/><stop offset="0.6" stop-color="#f8ecdc"/><stop offset="1" stop-color="#f2e2cd"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9d6bb"/><stop offset="1" stop-color="#dcc29f"/>
+    </linearGradient>
+    <linearGradient id="canvas" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf6ec"/><stop offset="1" stop-color="#f1e7d6"/>
+    </linearGradient>
+    <linearGradient id="cush" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3c6cf"/><stop offset="1" stop-color="#93abb7"/>
+    </linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6f0f2"/><stop offset="1" stop-color="#c4d8de"/>
+    </linearGradient>
+    <linearGradient id="pole" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9c938a"/><stop offset="0.5" stop-color="#c3bbb1"/><stop offset="1" stop-color="#958c83"/>
+    </linearGradient>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="198" width="400" height="62" fill="url(#floor)"/>
+    <g stroke="#d6bc98" stroke-width="0.8" opacity="0.6">
+      <line x1="0" y1="216" x2="400" y2="216"/><line x1="0" y1="236" x2="400" y2="236"/><line x1="0" y1="255" x2="400" y2="255"/>
+    </g>
+    <rect x="0" y="194" width="400" height="5" fill="#ece0cf"/>
+    <!-- 轨道射灯的光 -->
+    <g filter="url(#soft)" opacity="0.55" fill="#fffaf0">
+      <path d="M284,20 L262,60 L262,150 L342,150 L318,20 Z"/>
+      <path d="M180,40 L120,70 L120,150 L250,150 L230,40 Z" opacity="0.7"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 天花板轨道和射灯（右侧） -->
+      <rect x="256" y="14" width="150" height="3" fill="#d9cdbd"/>
+      <g fill="#c9bfb3">
+        <path d="M296,17 L300,17 L300,22 L298,22 Z"/><path d="M290,22 L304,22 L300,32 L293,32 Z"/>
+        <path d="M358,17 L362,17 L362,22 L360,22 Z"/><path d="M352,22 L366,22 L362,32 L355,32 Z"/>
+      </g>
+      <g fill="#fff6dc" opacity="0.9"><ellipse cx="296.5" cy="32" rx="3.4" ry="1.2"/><ellipse cx="358.5" cy="32" rx="3.4" ry="1.2"/></g>
+
+      <!-- 画框投在墙上的影子 -->
+      <g filter="url(#soft2)" opacity="0.16" fill="#8a6a4a">
+        <rect x="25" y="72" width="76" height="90"/><rect x="121" y="60" width="128" height="94"/><rect x="269" y="76" width="68" height="68"/><rect x="335" y="95" width="50" height="50"/>
+      </g>
+      <!-- 左：竖幅抽象画（圆与弧） -->
+      <rect x="22" y="68" width="76" height="90" fill="#d9b88e"/>
+      <rect x="26" y="72" width="68" height="82" fill="url(#canvas)"/>
+      <circle cx="52" cy="102" r="17" fill="#a9c3d0"/>
+      <path d="M44,154 C44,132 56,122 72,122 C88,122 94,134 94,140 L94,154 Z" fill="#e39a78"/>
+      <circle cx="76" cy="90" r="7" fill="#efc96e"/>
+      <path d="M30,140 C44,128 60,132 70,116" stroke="#6f8f9c" stroke-width="1.4" fill="none"/>
+      <path d="M58,80 L88,80" stroke="#b6cfa4" stroke-width="3" stroke-linecap="round"/>
+      <rect x="26" y="72" width="68" height="82" fill="none" stroke="#e9d3b4" stroke-width="1"/>
+
+      <!-- 中：大幅抽象画（色块） -->
+      <rect x="118" y="56" width="128" height="94" fill="#cfa77a"/>
+      <rect x="123" y="61" width="118" height="84" fill="url(#canvas)"/>
+      <rect x="130" y="68" width="62" height="40" fill="#b9d2ad" opacity="0.9"/>
+      <rect x="168" y="86" width="64" height="50" fill="#f0cd84" opacity="0.85"/>
+      <rect x="134" y="112" width="44" height="26" fill="#9fb9c8" opacity="0.9"/>
+      <circle cx="212" cy="80" r="13" fill="#e5866a"/>
+      <path d="M128,128 C160,120 190,140 236,98" stroke="#7d6a5c" stroke-width="1.3" fill="none" opacity="0.7"/>
+      <path d="M200,138 L236,138" stroke="#e5866a" stroke-width="2.4"/>
+      <rect x="123" y="61" width="118" height="84" fill="none" stroke="#e2c8a4" stroke-width="1"/>
+
+      <!-- 右：方幅几何画 -->
+      <rect x="266" y="72" width="68" height="68" fill="#e4d6c2"/>
+      <rect x="270" y="76" width="60" height="60" fill="url(#canvas)"/>
+      <path d="M270,76 L300,76 A30,30 0 0 1 270,106 Z" fill="#d98a68"/>
+      <path d="M330,76 L330,106 A30,30 0 0 1 300,76 Z" fill="#a9c3d0"/>
+      <path d="M270,136 L270,106 A30,30 0 0 1 300,136 Z" fill="#efc96e"/>
+      <path d="M330,136 L300,136 A30,30 0 0 1 330,106 Z" fill="#9dbf98"/>
+      <circle cx="300" cy="106" r="6" fill="#f4ece0"/>
+      <rect x="270" y="76" width="60" height="60" fill="none" stroke="#d8c7b0" stroke-width="1"/>
+
+      <!-- 说明牌（无字） -->
+      <g fill="#ede3d4"><rect x="102" y="120" width="10" height="7" rx="1"/><rect x="250" y="122" width="10" height="7" rx="1"/></g>
+
+      <!-- 导览屏 -->
+      <rect x="352" y="140" width="6" height="94" fill="url(#pole)"/>
+      <path d="M342,236 C342,232 348,230 355,230 C362,230 368,232 368,236 Z" fill="#a39a90"/>
+      <path d="M334,92 L378,90 C380,90 381,91 381,93 L382,138 C382,140 381,141 379,141 L335,142 C333,142 332,141 332,139 L332,94 C332,93 333,92 334,92 Z" fill="#8a8178"/>
+      <path d="M336,96 L377,94.5 L378,136 L336,137.5 Z" fill="url(#scr)"/>
+      <rect x="340" y="100" width="17" height="14" rx="1" fill="#f0cd84" opacity="0.9"/><rect x="341" y="101" width="8" height="6" fill="#b9d2ad" opacity="0.9"/>
+      <circle cx="353" cy="105" r="3" fill="#e5866a" opacity="0.9"/>
+      <rect x="360" y="100" width="14" height="4" rx="1" fill="#a9c3d0"/><rect x="360" y="107" width="11" height="3" rx="1" fill="#c9dae0"/>
+      <rect x="340" y="118" width="34" height="3" rx="1" fill="#b2c8d1"/><rect x="340" y="124" width="26" height="3" rx="1" fill="#c3d5dc"/>
+      <g fill="#e9a68b"><circle cx="345" cy="132" r="2"/></g><g fill="#a9c3d0"><circle cx="352" cy="132" r="2"/><circle cx="359" cy="132" r="2"/></g>
+      <polygon points="337,97 348,96.6 338,124" fill="#ffffff" opacity="0.3"/>
+      <g filter="url(#soft2)" opacity="0.35"><rect x="330" y="88" width="56" height="58" rx="4" fill="#dcecef"/></g>
+
+      <!-- 长椅 -->
+      <rect x="120" y="190" width="128" height="10" rx="4" fill="url(#cush)"/>
+      <rect x="122" y="190" width="124" height="2.4" rx="1.2" fill="#c7d6dc"/>
+      <rect x="116" y="200" width="136" height="6" rx="1.5" fill="#d0ab80"/>
+      <g fill="#bf9568">
+        <rect x="124" y="206" width="6" height="26"/><rect x="238" y="206" width="6" height="26"/>
+        <rect x="134" y="206" width="4" height="20"/><rect x="230" y="206" width="4" height="20"/>
+      </g>
+      <rect x="130" y="218" width="108" height="3" fill="#c9a074"/>
+      <g stroke="#a3b9c3" stroke-width="0.8" opacity="0.8"><line x1="152" y1="191" x2="152" y2="199"/><line x1="184" y1="191" x2="184" y2="199"/><line x1="216" y1="191" x2="216" y2="199"/></g>
+
+      <!-- 地板上的反光 -->
+      <g filter="url(#soft)" opacity="0.35">
+        <rect x="128" y="204" width="110" height="10" fill="#f6e8d0"/>
+        <rect x="30" y="204" width="60" height="8" fill="#f2dccb"/>
+        <rect x="272" y="204" width="56" height="8" fill="#f2e2cb"/>
+      </g>
+      <!-- 左边角落的大叶植物 -->
+      <path d="M30,214 L56,214 L53,240 L33,240 Z" fill="#cdd6d2"/>
+      <rect x="28" y="210" width="30" height="5" rx="1.5" fill="#dbe2de"/>
+      <g stroke="#6f9f52" stroke-width="1.2" fill="none"><path d="M43,212 C40,196 34,186 26,180"/><path d="M43,212 C46,194 54,184 62,180"/><path d="M43,212 C43,196 42,184 44,170"/><path d="M43,212 C38,202 28,198 20,198"/><path d="M43,212 C50,202 60,198 68,198"/></g>
+      <g fill="#6aa357">
+        <path d="M26,180 C16,182 10,174 12,166 C20,164 28,170 26,180 Z"/>
+        <path d="M62,180 C72,182 78,174 76,166 C68,164 60,170 62,180 Z"/>
+        <path d="M44,170 C36,168 34,158 38,150 C46,152 50,162 44,170 Z"/>
+        <path d="M20,198 C12,202 6,196 6,190 C12,188 20,190 20,198 Z"/><path d="M68,198 C76,202 82,196 82,190 C76,188 68,190 68,198 Z"/>
+      </g>
+      <g fill="#8cc170">
+        <path d="M38,192 C30,192 26,186 28,180 C34,180 38,186 38,192 Z"/><path d="M50,190 C58,190 62,184 60,178 C54,178 50,184 50,190 Z"/>
+        <path d="M42,184 C36,180 36,172 40,168 C44,172 45,178 42,184 Z"/><path d="M47,178 C53,176 56,170 54,164 C49,166 46,172 47,178 Z"/>
+        <path d="M30,186 C24,190 18,188 16,184 C20,180 26,181 30,186 Z"/>
+      </g>
+      <g stroke="#5f904a" stroke-width="0.7" fill="none" opacity="0.7"><path d="M26,180 C22,176 18,172 13,167"/><path d="M62,180 C66,176 70,172 75,167"/><path d="M44,170 C42,164 40,158 39,152"/></g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="184" cy="232" rx="72" ry="4"/><ellipse cx="355" cy="236" rx="18" ry="2.6"/><ellipse cx="43" cy="241" rx="16" ry="2.4"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

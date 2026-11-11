@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_05",
+ "level": "B1",
+ "no": 5,
+ "title_es": "La radio de mi abuelo",
+ "title_zh": "爷爷的收音机",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 5 篇。原创短文。现在时描写爷爷的习惯，过去未完成时回忆童年（me sentaba、escuchábamos）；条件式 sonaría（过去的将来）；现在虚拟式 aunque… no sea、espero que funcione；连接语 después、aunque、ahora；固定说法 hacer compañía、a su manera、por nada。10 句，142 词。radio 在西班牙用阴性 la radio；botón 在这里是收音机的“旋钮”；aparato 译作“机器”，第 6 句译文直接说成“新式的收音机”更顺；第 10 句 tendrá el sonido de su casa 译成“带着爷爷家的声音”。第 2 句 sillón, 后面是较长的并列谓语（se sienta…, enciende…, se prepara…），照常停顿，不算名词列举。插图里的木架、扶手椅、台灯、咖啡都在正文里出现。叙述者是男性：cuando era niño 用阳性。词汇里 radio 在标题里，排在最前。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "radio",
+   "收音机",
+   "radio"
+  ],
+  [
+   "salón",
+   "客厅",
+   "salón"
+  ],
+  [
+   "estantería",
+   "架子",
+   "estantería"
+  ],
+  [
+   "sillón",
+   "扶手椅",
+   "sillón"
+  ],
+  [
+   "encender",
+   "打开",
+   "enciende"
+  ],
+  [
+   "girar",
+   "转动",
+   "gira"
+  ],
+  [
+   "botón",
+   "旋钮",
+   "botón"
+  ],
+  [
+   "con cuidado",
+   "小心地",
+   "con cuidado"
+  ],
+  [
+   "partido",
+   "比赛",
+   "partidos"
+  ],
+  [
+   "hacer compañía",
+   "作伴",
+   "hace compañía"
+  ],
+  [
+   "a su manera",
+   "按自己的方式",
+   "a su manera"
+  ],
+  [
+   "aparato",
+   "机器",
+   "aparato"
+  ],
+  [
+   "sonar",
+   "听起来",
+   "sonaría"
+  ],
+  [
+   "guardar",
+   "珍藏",
+   "guarda"
+  ],
+  [
+   "recuerdo",
+   "回忆",
+   "recuerdos"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En el salón de mi abuelo hay una radio antigua sobre una estantería de madera.",
+    "zh": "爷爷家的客厅里，有一台老式收音机摆在木架子上。"
+   },
+   {
+    "es": "Cada tarde, él se sienta en su sillón, enciende la lámpara y se prepara un café.",
+    "zh": "每天下午，他都会坐进扶手椅，打开台灯，给自己煮一杯咖啡。"
+   },
+   {
+    "es": "Después gira el botón con cuidado y busca su programa favorito de música.",
+    "zh": "然后，他小心地转动旋钮，寻找自己最喜欢的音乐节目。"
+   },
+   {
+    "es": "Cuando era niño, me sentaba a su lado y escuchábamos juntos los partidos de fútbol.",
+    "zh": "我小时候常坐在他身边，和他一起收听足球比赛。"
+   },
+   {
+    "es": "Mi abuelo dice que la radio le hace compañía y le permite imaginar las cosas a su manera.",
+    "zh": "爷爷说，收音机能给他作伴，还能让他按自己的方式去想象一切。"
+   }
+  ],
+  [
+   {
+    "es": "Hace poco le dije que un aparato moderno sonaría mejor, pero no quiere cambiarlo por nada.",
+    "zh": "不久前，我跟他说新式的收音机声音会更好，可他无论如何都不肯换。"
+   },
+   {
+    "es": "Aunque el sonido no sea perfecto, para él tiene un valor especial.",
+    "zh": "尽管音质并不完美，但对他来说，它有着特别的价值。"
+   },
+   {
+    "es": "Ahora lo entiendo mejor: esa radio guarda muchos recuerdos de su vida.",
+    "zh": "现在我更理解了：那台收音机珍藏着他一生中的许多回忆。"
+   },
+   {
+    "es": "Espero que funcione muchos años más, porque me encanta escucharla con él los domingos.",
+    "zh": "我希望它还能再用很多年，因为我很喜欢星期天和他一起听广播。"
+   },
+   {
+    "es": "Para mí, esa radio siempre tendrá el sonido de su casa.",
+    "zh": "对我来说，那台收音机永远带着爷爷家的声音。"
+   }
+  ]
+ ]
+}

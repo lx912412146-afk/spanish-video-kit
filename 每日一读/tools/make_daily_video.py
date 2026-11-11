@@ -1,6 +1,6 @@
 """“每日一读”视频合成：静态页＋朗读（和参考视频一样整段一张图），另出一个逐句高亮版。
 
-    python make_daily_video.py <页面目录> <id>_timings.json <朗读.mp3> <输出.mp4> [<高亮版输出.mp4>]
+    python make_daily_video.py <页面目录> <id>_timings.json <朗读.mp3> <静态版.mp4 或 -> [<高亮版.mp4>]
 
 24 帧/秒，1080×1512，H.264 CRF 18（静态画面），AAC 160k 48 kHz。高亮版：第 k 句从开口前 0.12 秒高亮到下一句开口前，
 最后一句高亮到读完后 0.3 秒，其余时间（片头、片尾）显示不高亮的静态页；每段的帧数按累计时间取整，不累积误差。
@@ -25,9 +25,10 @@ def run(cmd):
     subprocess.run(['ffmpeg', '-v', 'error', '-y'] + cmd, check=True)
 
 
-run(['-loop', '1', '-framerate', str(FPS), '-i', str(PAGE / 'page_static.png'), '-i', str(MP3),
-     '-map', '0:v', '-map', '1:a', '-frames:v', str(NF), '-t', f'{NF / FPS:.6f}'] + VENC + [str(OUT)])
-print('静态版', OUT.name, f'{NF} 帧（{NF / FPS:.3f} 秒），音频 {dur:.3f} 秒')
+if str(OUT) != '-':                                  # 静态版（给 - 就不出，只出高亮版）
+    run(['-loop', '1', '-framerate', str(FPS), '-i', str(PAGE / 'page_static.png'), '-i', str(MP3),
+         '-map', '0:v', '-map', '1:a', '-frames:v', str(NF), '-t', f'{NF / FPS:.6f}'] + VENC + [str(OUT)])
+    print('静态版', OUT.name, f'{NF} 帧（{NF / FPS:.3f} 秒），音频 {dur:.3f} 秒')
 
 if OUT_HL:
     S = T['sentences']

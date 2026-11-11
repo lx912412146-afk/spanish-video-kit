@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_03",
+ "level": "B2",
+ "no": 3,
+ "title_es": "La vuelta al campo",
+ "title_zh": "回归乡村",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 3 篇。原创短文。语法：简单过去时、现在完成时被动态（ha sido recibida）、llevar + 时间 + 副动词（llevaban décadas perdiendo）、es fundamental que + 现在虚拟式（se mejoren、no se cierren，自复被动）、过去虚拟式 + 条件式（Si … recibieran …, serían）、条件式（no cambiaría）；连接语 no obstante、por eso、por su parte。9 句，125 词。人物迭戈（Diego）用第三人称。按要求避开 rural，用 pueblo、campo 表达乡村；la conexión 指网络连接，译作“网速很慢”；portátil 作名词“笔记本电脑”，和插图里院子桌上的电脑对应；una alternativa real 译作“切实可行的选择”；标题词 vuelta、campo 在正文第 5 句出现，排在词汇表最前。全篇没有名词列举，no_pause_commas 为空。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "vuelta",
+   "回归",
+   "vuelta"
+  ],
+  [
+   "campo",
+   "乡村",
+   "campo"
+  ],
+  [
+   "mudarse",
+   "搬家",
+   "se mudó"
+  ],
+  [
+   "rodeado de",
+   "被环绕",
+   "rodeado de"
+  ],
+  [
+   "colina",
+   "小山",
+   "colinas"
+  ],
+  [
+   "teletrabajo",
+   "远程办公",
+   "teletrabajo"
+  ],
+  [
+   "portátil",
+   "笔记本电脑",
+   "portátil"
+  ],
+  [
+   "en busca de",
+   "寻找",
+   "en busca de"
+  ],
+  [
+   "llevar",
+   "持续，一直",
+   "llevaban"
+  ],
+  [
+   "década",
+   "十年",
+   "décadas"
+  ],
+  [
+   "no obstante",
+   "然而",
+   "No obstante"
+  ],
+  [
+   "idílico",
+   "如诗如画",
+   "idílica"
+  ],
+  [
+   "apenas",
+   "几乎没有",
+   "apenas"
+  ],
+  [
+   "por su parte",
+   "至于他",
+   "por su parte"
+  ],
+  [
+   "asegurar",
+   "坚称",
+   "asegura"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hace dos años, Diego se mudó de la capital a un pueblo rodeado de colinas.",
+    "zh": "两年前，迭戈从首都搬到了一个小山环绕的村庄。"
+   },
+   {
+    "es": "Gracias al teletrabajo, ahora trabaja desde el patio, con su portátil frente a los campos.",
+    "zh": "得益于远程办公，他现在在院子里工作，笔记本电脑正对着田野。"
+   },
+   {
+    "es": "Como él, cada vez más personas dejan las ciudades en busca de tranquilidad.",
+    "zh": "像他一样，越来越多的人为了寻找宁静而离开城市。"
+   },
+   {
+    "es": "Su llegada ha sido recibida con entusiasmo en muchos pueblos que llevaban décadas perdiendo habitantes.",
+    "zh": "在许多几十年来人口不断流失的村庄，他们的到来受到了热烈欢迎。"
+   }
+  ],
+  [
+   {
+    "es": "No obstante, la vuelta al campo no siempre es tan idílica como parece.",
+    "zh": "然而，回归乡村并不总像看上去那样如诗如画。"
+   },
+   {
+    "es": "En muchos lugares, la conexión es lenta y apenas hay transporte público.",
+    "zh": "在许多地方，网速很慢，公共交通也几乎没有。"
+   },
+   {
+    "es": "Por eso, es fundamental que se mejoren los servicios y que no se cierren las escuelas.",
+    "zh": "因此，改善公共服务、不让学校关门，就显得至关重要。"
+   },
+   {
+    "es": "Si los pueblos recibieran ese apoyo, serían una alternativa real para muchas familias.",
+    "zh": "如果村庄能得到这样的支持，它们就会成为许多家庭切实可行的选择。"
+   },
+   {
+    "es": "Diego, por su parte, asegura que no cambiaría su patio por ninguna oficina.",
+    "zh": "至于迭戈，他坚称不会拿自己的院子去换任何一间办公室。"
+   }
+  ]
+ ]
+}

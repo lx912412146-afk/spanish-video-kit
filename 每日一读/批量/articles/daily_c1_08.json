@@ -1,0 +1,129 @@
+{
+ "id": "daily_c1_08",
+ "level": "C1",
+ "no": 8,
+ "title_es": "La curiosidad científica",
+ "title_zh": "科学的好奇心",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 8 篇。原创短文。主要语法：过去未完成时叙述童年习惯（pasaba、encontraba），副动词表伴随（observando），后置的 alguno 加强否定（método alguno），被动 se（se presenta），cuando 表转折（cuando en realidad…），过去虚拟式条件句（Si de adultos conserváramos…, quizá sabríamos…），al + 原形。7 句，134 词。第一人称叙述者为男性（De niño）。特别判断：第 1 句 hojas, alas de insecto y gotas de agua 是名词列举，hojas 后的逗号不停顿，已登记；前面 microscopio 后的逗号引出副动词短语，照常停顿。prensar plantas 指把植物压平做标本，译作“压成标本”；第 2 句原为 y a anotar，a 和 anotar 连读会并成一个音，而 y anotar 也合语法，识别时容易丢掉介词，改为 y a tomar nota de，词汇收 tomar nota de；第 3 句 método alguno 里后置的 alguno 等于 ninguno，是书面语的否定加强，选入词汇（释义“任何”），替换了偏 B1 的 a menudo；descartarla 的 la 指 cada hipótesis，译文写明“将其舍弃”；por sí sola 译作“单有好奇心”。插图里的显微镜、书、植物标本和放大镜对应第 1、2、7 句。第 4 句原为 como un catálogo de…，为让西语正文两端对齐时词间空白不超过 7.5 px，加 simple（“不过是”），译文同步。",
+ "no_pause_commas": {
+  "1": [
+   {
+    "after": "hojas,",
+    "why": "列举：hojas, alas de insecto y gotas de agua（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "curiosidad",
+   "好奇心",
+   "curiosidad"
+  ],
+  [
+   "ala",
+   "翅膀",
+   "alas"
+  ],
+  [
+   "prensar",
+   "压平",
+   "prensar"
+  ],
+  [
+   "tomar nota de",
+   "记下",
+   "tomar nota de"
+  ],
+  [
+   "alguno",
+   "任何",
+   "alguno"
+  ],
+  [
+   "lo esencial",
+   "精髓",
+   "lo esencial"
+  ],
+  [
+   "por sí solo",
+   "单凭自身",
+   "por sí sola"
+  ],
+  [
+   "bastar",
+   "足够",
+   "basta"
+  ],
+  [
+   "comprobar",
+   "验证",
+   "comprobar"
+  ],
+  [
+   "hipótesis",
+   "假设",
+   "hipótesis"
+  ],
+  [
+   "humildad",
+   "谦逊",
+   "humildad"
+  ],
+  [
+   "descartar",
+   "排除，舍弃",
+   "descartarla"
+  ],
+  [
+   "convivir con",
+   "与之共处",
+   "convivir con"
+  ],
+  [
+   "incertidumbre",
+   "不确定性",
+   "incertidumbre"
+  ],
+  [
+   "a punto de",
+   "即将",
+   "a punto de"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "De niño pasaba horas ante un viejo microscopio, observando hojas, alas de insecto y gotas de agua.",
+    "zh": "小时候，我常对着一台旧显微镜一坐就是几个小时，观察树叶、昆虫的翅膀和水滴。"
+   },
+   {
+    "es": "Más tarde empecé a prensar plantas entre las páginas de los libros y a tomar nota de dónde las encontraba.",
+    "zh": "后来，我开始把植物夹在书页间压成标本，并记下它们是在哪里找到的。"
+   },
+   {
+    "es": "Nadie me había enseñado método alguno, pero aquella costumbre ya contenía lo esencial: mirar con atención y preguntarse por qué.",
+    "zh": "没有人教过我任何方法，但这个习惯里已经有了科学的精髓：仔细观察，并追问为什么。"
+   }
+  ],
+  [
+   {
+    "es": "A menudo se presenta la ciencia como un simple catálogo de respuestas definitivas, cuando en realidad avanza gracias a buenas preguntas.",
+    "zh": "科学常被描绘成不过是一部终极答案的目录，而实际上，推动它前进的是好的问题。"
+   },
+   {
+    "es": "La curiosidad, por sí sola, no basta: necesita paciencia para comprobar cada hipótesis y humildad para descartarla cuando falla.",
+    "zh": "单有好奇心还不够：还需要耐心去验证每一个假设，也需要谦逊，在假设站不住脚时将其舍弃。"
+   },
+   {
+    "es": "Si de adultos conserváramos esa curiosidad, quizá sabríamos convivir con la incertidumbre sin percibirla como una amenaza.",
+    "zh": "如果长大后仍能保有这份好奇，我们或许就能与不确定性共处，而不把它视为威胁。"
+   },
+   {
+    "es": "Todavía hoy, al acercar la lupa a una hoja, siento la emoción de quien está a punto de descubrir algo.",
+    "zh": "直到今天，每当我把放大镜凑近一片叶子，仍能感到一种即将有所发现的激动。"
+   }
+  ]
+ ]
+}

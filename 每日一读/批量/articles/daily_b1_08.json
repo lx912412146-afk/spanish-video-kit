@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_08",
+ "level": "B1",
+ "no": 8,
+ "title_es": "Trabajar desde casa",
+ "title_zh": "在家工作",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 8 篇。原创短文。现在时、现在完成时 he puesto（poner 的不规则过去分词）；现在虚拟式 es importante que separes；条件式 lo ideal sería；连接语 además、sin embargo、también、por eso、de vez en cuando；固定说法 echar de menos、me cuesta + 原形、seguir + 副动词。10 句，140 词。人名只有 Elena，译作埃莱娜。portátil 在这里是笔记本电脑；第 4 句 me ahorro el viaje 是“省去路上的时间”；desconectar 在这里指下班后放下工作，词汇释义写“放下工作”；第 7 句 los cafés juntos 译成“一起喝的咖啡”。没有列举的逗号；第 3 句 café, 后面是较长的并列谓语（me preparo…, enciendo…, reviso…），照常停顿。叙述者是男性：第 6 句 trabajar solo 用阳性。词汇里 desde casa 在标题里，排在最前；ahorrarse 原文是 ahorro，echar de menos 原文是 echo de menos。第 2 句原为 He colocado，朗读核对时 colocado 被识别成 coloc（词尾被吞），改为 He puesto，词汇随之改为 poner（原文 puesto），译文不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "desde casa",
+   "在家",
+   "desde casa"
+  ],
+  [
+   "poner",
+   "摆放",
+   "puesto"
+  ],
+  [
+   "escritorio",
+   "书桌",
+   "escritorio"
+  ],
+  [
+   "portátil",
+   "笔记本电脑",
+   "portátil"
+  ],
+  [
+   "revisar",
+   "查看",
+   "reviso"
+  ],
+  [
+   "equipo",
+   "团队",
+   "equipo"
+  ],
+  [
+   "ahorrarse",
+   "省去",
+   "ahorro"
+  ],
+  [
+   "concentrarse",
+   "集中精力",
+   "concentrarme"
+  ],
+  [
+   "desventaja",
+   "缺点",
+   "desventajas"
+  ],
+  [
+   "de vez en cuando",
+   "偶尔",
+   "De vez en cuando"
+  ],
+  [
+   "echar de menos",
+   "想念",
+   "echo de menos"
+  ],
+  [
+   "broma",
+   "玩笑",
+   "bromas"
+  ],
+  [
+   "costar",
+   "感到吃力",
+   "cuesta"
+  ],
+  [
+   "desconectar",
+   "放下工作",
+   "desconectar"
+  ],
+  [
+   "separar",
+   "区分",
+   "separes"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Desde el año pasado trabajo desde casa tres días a la semana.",
+    "zh": "从去年开始，我每周有三天在家工作。"
+   },
+   {
+    "es": "He puesto mi escritorio junto a la ventana, porque allí entra más luz natural.",
+    "zh": "我把书桌放在了窗边，因为那里的自然光更充足。"
+   },
+   {
+    "es": "Por la mañana me preparo un café, enciendo el portátil y reviso los mensajes del equipo.",
+    "zh": "早上，我先给自己煮杯咖啡，打开笔记本电脑，再查看团队发来的消息。"
+   },
+   {
+    "es": "Lo mejor es que me ahorro el viaje en metro y puedo comer tranquilamente en casa.",
+    "zh": "最好的是，我省去了坐地铁的路程，还能在家从容地吃饭。"
+   },
+   {
+    "es": "Además, las plantas y el silencio me ayudan a concentrarme mucho mejor que en la oficina.",
+    "zh": "而且，有绿植相伴，又很安静，我比在办公室里更能集中精力。"
+   }
+  ],
+  [
+   {
+    "es": "Sin embargo, trabajar solo también tiene sus desventajas.",
+    "zh": "不过，一个人工作也有它的缺点。"
+   },
+   {
+    "es": "De vez en cuando echo de menos las bromas de mi compañera Elena y los cafés juntos.",
+    "zh": "偶尔我会想念同事埃莱娜开的玩笑，还有我们一起喝的咖啡。"
+   },
+   {
+    "es": "También me cuesta desconectar, y a veces sigo trabajando hasta muy tarde.",
+    "zh": "我也很难让自己放下工作，有时会一直忙到很晚。"
+   },
+   {
+    "es": "Por eso, es importante que separes bien el trabajo de la vida personal.",
+    "zh": "所以，把工作和个人生活分清楚是很重要的。"
+   },
+   {
+    "es": "Para mí, lo ideal sería combinar los días en casa con algunos días en la oficina.",
+    "zh": "对我来说，最理想的是把在家办公的日子和去办公室的日子结合起来。"
+   }
+  ]
+ ]
+}

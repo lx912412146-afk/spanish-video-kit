@@ -1,0 +1,305 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  663.4375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  671.4375
+ ],
+ "zh": [
+  96,
+  697.4375,
+  480,
+  936.6875
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  237.09375,
+  131.625
+ ],
+ "header_gap": 215.5625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   3
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.6,
+   "Los viernes por la noche me reúno con unos amigos para"
+  ],
+  [
+   "mid",
+   4.9,
+   "jugar a juegos de mesa. Cada semana uno de nosotros trae un"
+  ],
+  [
+   "mid",
+   7.5,
+   "juego distinto y explica las reglas a los demás. En la mesa"
+  ],
+  [
+   "mid",
+   4.8,
+   "colocamos el tablero, los dados y las cartas, junto a un cuenco"
+  ],
+  [
+   "mid",
+   5,
+   "con frutos secos. Sergio siempre quiere ganar y, aunque nunca"
+  ],
+  [
+   "mid",
+   4.1,
+   "lo admitiría, se enfada un poco cuando pierde. De todos modos,"
+  ],
+  [
+   "last",
+   3.7,
+   "nos reímos mucho y algunas partidas duran casi toda la noche."
+  ],
+  [
+   "mid",
+   4.6,
+   "Para mí, estos juegos son una buena manera de olvidarnos"
+  ],
+  [
+   "mid",
+   6.2,
+   "un rato de las pantallas. Además, nos enseñan a respetar los"
+  ],
+  [
+   "mid",
+   7.3,
+   "turnos y a perder con buen humor. Es importante que cada"
+  ],
+  [
+   "mid",
+   5.3,
+   "jugador tenga paciencia y piense antes de mover su ficha. Por"
+  ],
+  [
+   "mid",
+   4.9,
+   "eso, cuando mis sobrinos vengan a casa, les enseñaré algunos"
+  ],
+  [
+   "mid",
+   4.4,
+   "juegos sencillos. Estoy seguro de que lo pasarán mejor que con"
+  ],
+  [
+   "last",
+   3.7,
+   "cualquier videojuego."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  13.1,
+  0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

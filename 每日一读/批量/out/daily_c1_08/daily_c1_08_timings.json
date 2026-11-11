@@ -1,0 +1,241 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_08.mp3",
+ "duration": 62.57,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.37,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.76,
+  "buzz_hz": 13500.0,
+  "buzz_db": 5.9,
+  "comb_db": -0.66
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.34,
+   "parts": [
+    [
+     0.5,
+     2.34
+    ]
+   ],
+   "segments": [
+    "La curiosidad científica."
+   ],
+   "text": "La curiosidad científica.",
+   "read": "La curiosidad científica."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.34,
+   "end": 9.99,
+   "parts": [
+    [
+     3.34,
+     6.26
+    ],
+    [
+     6.54,
+     9.99
+    ]
+   ],
+   "segments": [
+    "De niño pasaba horas ante un viejo microscopio,",
+    "observando hojas, alas de insecto y gotas de agua."
+   ],
+   "text": "De niño pasaba horas ante un viejo microscopio, observando hojas, alas de insecto y gotas de agua.",
+   "read": "De niño pasaba horas ante un viejo microscopio, observando hojas, alas de insecto y gotas de agua."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.99,
+   "end": 17.17,
+   "parts": [
+    [
+     10.99,
+     17.17
+    ]
+   ],
+   "segments": [
+    "Más tarde empecé a prensar plantas entre las páginas de los libros y a tomar nota de dónde las encontraba."
+   ],
+   "text": "Más tarde empecé a prensar plantas entre las páginas de los libros y a tomar nota de dónde las encontraba.",
+   "read": "Más tarde empecé a prensar plantas entre las páginas de los libros y a tomar nota de dónde las encontraba."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 18.17,
+   "end": 26.23,
+   "parts": [
+    [
+     18.17,
+     20.36
+    ],
+    [
+     20.64,
+     23.31
+    ],
+    [
+     23.59,
+     26.23
+    ]
+   ],
+   "segments": [
+    "Nadie me había enseñado método alguno,",
+    "pero aquella costumbre ya contenía lo esencial:",
+    "mirar con atención y preguntarse por qué."
+   ],
+   "text": "Nadie me había enseñado método alguno, pero aquella costumbre ya contenía lo esencial: mirar con atención y preguntarse por qué.",
+   "read": "Nadie me había enseñado método alguno, pero aquella costumbre ya contenía lo esencial: mirar con atención y preguntarse por qué."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 27.23,
+   "end": 35.49,
+   "parts": [
+    [
+     27.23,
+     32.29
+    ],
+    [
+     32.57,
+     35.49
+    ]
+   ],
+   "segments": [
+    "A menudo se presenta la ciencia como un simple catálogo de respuestas definitivas,",
+    "cuando en realidad avanza gracias a buenas preguntas."
+   ],
+   "text": "A menudo se presenta la ciencia como un simple catálogo de respuestas definitivas, cuando en realidad avanza gracias a buenas preguntas.",
+   "read": "A menudo se presenta la ciencia como un simple catálogo de respuestas definitivas, cuando en realidad avanza gracias a buenas preguntas."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 36.49,
+   "end": 45.69,
+   "parts": [
+    [
+     36.49,
+     37.37
+    ],
+    [
+     37.65,
+     38.63
+    ],
+    [
+     38.91,
+     40.13
+    ],
+    [
+     40.41,
+     45.69
+    ]
+   ],
+   "segments": [
+    "La curiosidad,",
+    "por sí sola,",
+    "no basta:",
+    "necesita paciencia para comprobar cada hipótesis y humildad para descartarla cuando falla."
+   ],
+   "text": "La curiosidad, por sí sola, no basta: necesita paciencia para comprobar cada hipótesis y humildad para descartarla cuando falla.",
+   "read": "La curiosidad, por sí sola, no basta: necesita paciencia para comprobar cada hipótesis y humildad para descartarla cuando falla."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 46.69,
+   "end": 53.98,
+   "parts": [
+    [
+     46.69,
+     49.48
+    ],
+    [
+     49.76,
+     53.98
+    ]
+   ],
+   "segments": [
+    "Si de adultos conserváramos esa curiosidad,",
+    "quizá sabríamos convivir con la incertidumbre sin percibirla como una amenaza."
+   ],
+   "text": "Si de adultos conserváramos esa curiosidad, quizá sabríamos convivir con la incertidumbre sin percibirla como una amenaza.",
+   "read": "Si de adultos conserváramos esa curiosidad, quizá sabríamos convivir con la incertidumbre sin percibirla como una amenaza."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 54.98,
+   "end": 61.37,
+   "parts": [
+    [
+     54.98,
+     55.85
+    ],
+    [
+     56.13,
+     58.13
+    ],
+    [
+     58.41,
+     61.37
+    ]
+   ],
+   "segments": [
+    "Todavía hoy,",
+    "al acercar la lupa a una hoja,",
+    "siento la emoción de quien está a punto de descubrir algo."
+   ],
+   "text": "Todavía hoy, al acercar la lupa a una hoja, siento la emoción de quien está a punto de descubrir algo.",
+   "read": "Todavía hoy, al acercar la lupa a una hoja, siento la emoción de quien está a punto de descubrir algo."
+  }
+ ]
+}

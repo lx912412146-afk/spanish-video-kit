@@ -1,0 +1,298 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  607.828125
+ ],
+ "zh": [
+  96,
+  633.828125,
+  480,
+  826.828125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  244.328125,
+  131.625
+ ],
+ "header_gap": 168.59375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   1
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   1
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.3,
+   "Ayer llevé a mi sobrino Hugo al acuario de la ciudad. Tiene"
+  ],
+  [
+   "mid",
+   4,
+   "seis años y le encantan los animales del mar. Primero vimos unas"
+  ],
+  [
+   "mid",
+   4.1,
+   "tortugas grandes que nadaban muy despacio. Después entramos"
+  ],
+  [
+   "mid",
+   3.8,
+   "en una sala oscura con un enorme tanque de cristal. Dentro había"
+  ],
+  [
+   "last",
+   3.6,
+   "peces de colores, corales y plantas que se movían suavemente."
+  ],
+  [
+   "mid",
+   4.6,
+   "Nos sentamos en un banco delante del cristal y miramos en"
+  ],
+  [
+   "mid",
+   4,
+   "silencio. Hugo intentaba contar los peces, pero eran demasiados."
+  ],
+  [
+   "mid",
+   4.3,
+   "De vez en cuando, pequeñas burbujas subían hasta la superficie."
+  ],
+  [
+   "mid",
+   4,
+   "Yo estaba muy tranquilo y no quería salir de allí. Al final, Hugo me"
+  ],
+  [
+   "mid",
+   6.4,
+   "preguntó si podíamos volver pronto. Le dije que sí, porque yo"
+  ],
+  [
+   "last",
+   3.6,
+   "también lo pasé muy bien."
+  ]
+ ],
+ "es_max_gap": 6.4,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

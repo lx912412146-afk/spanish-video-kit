@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_04",
+ "level": "A1",
+ "no": 4,
+ "title_es": "La cocina de mi casa",
+ "title_zh": "我家的厨房",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 4 篇。原创短文。只用陈述式现在时，有 hay、tiene、lo hace、qué hay de cena。12 句，118 词。特别判断：en la ventana hay una planta pequeña en una maceta 对应插图里窗台上的小盆栽，译作“窗台上有一个花盆”；frutero 是放水果的盘子，译作“果盘”；huele muy bien 译作“闻起来香喷喷的”；pongo la mesa 是摆好餐具准备开饭，释义取“摆餐具”；el corazón de nuestra casa 是比喻，译作“我们家的中心”。第 6 句用冒号引出帮忙的内容，照常停顿。第 4 句 sartenes, cucharas y otras cosas 是列举，sartenes, 登记为不停顿；第 11 句 cena, 和第 12 句 Para mí, 照常停顿。词汇：cocina 在标题里，排在最前；cortar 原文是变位 corto，oler 原文是 huele。",
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "sartenes,",
+    "why": "列举：sartenes, cucharas y otras cosas（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "cocina",
+   "厨房",
+   "cocina"
+  ],
+  [
+   "luz",
+   "光线",
+   "luz"
+  ],
+  [
+   "maceta",
+   "花盆",
+   "maceta"
+  ],
+  [
+   "madera",
+   "木头",
+   "madera"
+  ],
+  [
+   "frutero",
+   "果盘",
+   "frutero"
+  ],
+  [
+   "sartén",
+   "平底锅",
+   "sartenes"
+  ],
+  [
+   "cuchara",
+   "勺子",
+   "cucharas"
+  ],
+  [
+   "cortar",
+   "切",
+   "corto"
+  ],
+  [
+   "poner la mesa",
+   "摆餐具",
+   "pongo la mesa"
+  ],
+  [
+   "sopa",
+   "汤",
+   "sopa"
+  ],
+  [
+   "olla",
+   "锅",
+   "olla"
+  ],
+  [
+   "oler",
+   "闻起来",
+   "huele"
+  ],
+  [
+   "cenar",
+   "吃晚饭",
+   "cenamos"
+  ],
+  [
+   "lavar",
+   "洗",
+   "lavo"
+  ],
+  [
+   "corazón",
+   "中心",
+   "corazón"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "La cocina de mi casa es grande y tiene mucha luz.",
+    "zh": "我家的厨房很大，光线也很好。"
+   },
+   {
+    "es": "En la ventana hay una planta pequeña en una maceta.",
+    "zh": "窗台上有一个花盆，里面种着一棵小植物。"
+   },
+   {
+    "es": "En el centro hay una mesa de madera con un frutero.",
+    "zh": "中间有一张木头桌子，上面放着一个果盘。"
+   },
+   {
+    "es": "En la pared hay sartenes, cucharas y otras cosas para cocinar.",
+    "zh": "墙上挂着平底锅、勺子和其他做饭用的东西。"
+   },
+   {
+    "es": "Mi padre cocina casi todos los días y lo hace muy bien.",
+    "zh": "我爸爸几乎每天都做饭，而且做得很好。"
+   },
+   {
+    "es": "Yo lo ayudo: corto las verduras y pongo la mesa.",
+    "zh": "我给他帮忙：切菜，摆餐具。"
+   }
+  ],
+  [
+   {
+    "es": "Hoy mi padre prepara una sopa de verduras en una olla grande.",
+    "zh": "今天爸爸用一口大锅煮蔬菜汤。"
+   },
+   {
+    "es": "Toda la cocina huele muy bien.",
+    "zh": "整个厨房闻起来香喷喷的。"
+   },
+   {
+    "es": "Mi madre llega del trabajo y pregunta qué hay de cena.",
+    "zh": "妈妈下班回到家，问晚饭吃什么。"
+   },
+   {
+    "es": "Siempre cenamos juntos en la cocina.",
+    "zh": "我们总是一起在厨房吃晚饭。"
+   },
+   {
+    "es": "Después de la cena, yo lavo los platos.",
+    "zh": "吃完晚饭，我来洗盘子。"
+   },
+   {
+    "es": "Para mí, la cocina es el corazón de nuestra casa.",
+    "zh": "对我来说，厨房是我们家的中心。"
+   }
+  ]
+ ]
+}

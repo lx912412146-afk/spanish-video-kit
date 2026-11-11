@@ -1,0 +1,126 @@
+{
+ "id": "daily_b2_09",
+ "level": "B2",
+ "no": 9,
+ "title_es": "Aprender idiomas de adulto",
+ "title_zh": "成年后学外语",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 9 篇。原创短文。语法：过去完成时（había creído）、无人称 se 的过去未完成时（se empezaba、se llegaba a）、简单过去时、es cierto que 与 en cambio 构成的让步对比、no … sino、过去完成虚拟式 + 条件完成式（Si hubiera sabido …, me habría lanzado）；连接语 sin embargo、en cambio、por lo tanto。8 句，124 词。第一人称叙述者为男性（estaba equivocado）。标题词 idiomas 在正文第 1 句以同样的复数出现，词汇表原文写法取 idiomas；idioma 本义是“语言”，这里指外语，释义写“语言，外语”，和中文标题“成年后学外语”一致；llegar a + 原形 是“最终能够”；lanzarse 在这里是“放手一试”，原文 me habría lanzado；auriculares、cuaderno 和插图里的耳机、打开的笔记本对应。第 4 句分号前后是两个分句，照常停顿。全篇没有名词列举，no_pause_commas 为空。第 4 句原为 imitar la pronunciación、第 6 句原为 memorizar palabras，为让西语正文两端对齐时词间空白不超过 7.5 px，改为 pronunciar bien、aprender palabras，译文同步。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "idioma",
+   "语言，外语",
+   "idiomas"
+  ],
+  [
+   "de adulto",
+   "成年后",
+   "de adulto"
+  ],
+  [
+   "infancia",
+   "童年",
+   "infancia"
+  ],
+  [
+   "llegar a",
+   "最终能够",
+   "llegaba a"
+  ],
+  [
+   "con soltura",
+   "流利地",
+   "con soltura"
+  ],
+  [
+   "matricularse",
+   "报名",
+   "me matriculé"
+  ],
+  [
+   "comprobar",
+   "发现，证实",
+   "comprobé"
+  ],
+  [
+   "costar",
+   "费劲",
+   "cuesta"
+  ],
+  [
+   "auricular",
+   "耳机",
+   "auriculares"
+  ],
+  [
+   "repasar",
+   "复习",
+   "repaso"
+  ],
+  [
+   "superar",
+   "克服",
+   "superar"
+  ],
+  [
+   "equivocarse",
+   "犯错",
+   "equivocarme"
+  ],
+  [
+   "formar parte de",
+   "是一部分",
+   "forma parte del"
+  ],
+  [
+   "lanzarse",
+   "放手去做",
+   "me habría lanzado"
+  ],
+  [
+   "obstáculo",
+   "障碍",
+   "obstáculo"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Siempre había creído que aprender idiomas de adulto era casi imposible.",
+    "zh": "我一直以为，成年后再学外语几乎是不可能的事。"
+   },
+   {
+    "es": "Pensaba que, si no se empezaba en la infancia, nunca se llegaba a hablar con soltura.",
+    "zh": "我以为，如果不从小开始学，就永远没法说得流利。"
+   },
+   {
+    "es": "Sin embargo, el año pasado me matriculé en un curso de italiano y pronto comprobé que estaba equivocado.",
+    "zh": "然而，去年我报了一个意大利语课程，很快就发现自己错了。"
+   },
+   {
+    "es": "Es cierto que a mi edad cuesta más pronunciar bien; en cambio, entiendo mejor la gramática.",
+    "zh": "诚然，到了我这个年纪，要把音发准更费劲了；但另一方面，我对语法理解得更透彻。"
+   }
+  ],
+  [
+   {
+    "es": "Cada mañana practico con los auriculares mientras desayuno, y por la noche repaso el vocabulario en mi cuaderno.",
+    "zh": "每天早上，我边吃早饭边戴着耳机练习，晚上再在本子上复习词汇。"
+   },
+   {
+    "es": "Lo más difícil no ha sido aprender palabras, sino superar el miedo a equivocarme en público.",
+    "zh": "最难的不是学单词，而是克服当众犯错的恐惧。"
+   },
+   {
+    "es": "Si hubiera sabido que equivocarse forma parte del aprendizaje, me habría lanzado hace años.",
+    "zh": "要是早知道犯错本就是学习的一部分，我几年前就会放手去学了。"
+   },
+   {
+    "es": "Por lo tanto, la edad no es un obstáculo, sino una manera distinta de aprender.",
+    "zh": "所以，年龄并不是障碍，而是意味着另一种学习方式。"
+   }
+  ]
+ ]
+}

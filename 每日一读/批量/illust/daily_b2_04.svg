@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：手工劳动的价值——木工工作台、刨子、锤子、木料、刨花和墙上的工具（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f4dfc8"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe4ee"/><stop offset="0.7" stop-color="#e6f0ef"/><stop offset="1" stop-color="#f4f2e6"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6cdac"/><stop offset="1" stop-color="#dcbd98"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8cba0"/><stop offset="1" stop-color="#dcb98b"/>
+    </linearGradient>
+    <linearGradient id="benchF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfa16f"/><stop offset="1" stop-color="#b98a5b"/>
+    </linearGradient>
+    <linearGradient id="leg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bb8c5d"/><stop offset="0.5" stop-color="#cfa272"/><stop offset="1" stop-color="#b48556"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9d5da"/><stop offset="1" stop-color="#9fb2ba"/>
+    </linearGradient>
+    <linearGradient id="plank" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9b385"/><stop offset="0.5" stop-color="#e8c99c"/><stop offset="1" stop-color="#d2a979"/>
+    </linearGradient>
+    <path id="curl" d="M0,0 C-4,-5 3,-9 6,-4 C8,-1 5,2 2,0 C0,-2 2,-4 3,-3" fill="none" stroke="#e7c48f" stroke-width="1.8" stroke-linecap="round"/>
+    <g id="peg"><circle r="0.9" fill="#c9a77d"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="198" width="400" height="62" fill="url(#floor)"/>
+    <g stroke="#cfae86" stroke-width="0.8" opacity="0.7">
+      <line x1="0" y1="214" x2="400" y2="214"/><line x1="0" y1="232" x2="400" y2="232"/><line x1="0" y1="250" x2="400" y2="250"/>
+      <line x1="44" y1="198" x2="41" y2="214"/><line x1="230" y1="214" x2="227" y2="232"/><line x1="120" y1="232" x2="117" y2="250"/><line x1="300" y1="232" x2="297" y2="250"/>
+    </g>
+    <rect x="0" y="195" width="400" height="4" fill="#e9d2b2"/>
+
+    <!-- 窗外的光 -->
+    <g filter="url(#soft)" opacity="0.5"><path d="M30,134 L104,134 L190,252 L60,252 Z" fill="#fffaf0"/></g>
+
+    <g filter="url(#wc)">
+      <!-- 左边的小窗 -->
+      <rect x="30" y="62" width="74" height="70" fill="url(#sky)"/>
+      <path d="M98,134 C96,120 92,108 86,98 M92,112 C86,108 80,106 74,106" stroke="#a6896b" stroke-width="2" fill="none"/>
+      <g fill="#e8b866"><circle cx="86" cy="96" r="7"/><circle cx="96" cy="102" r="8"/><circle cx="76" cy="104" r="6"/><circle cx="34" cy="128" r="8"/></g>
+      <g fill="#e39a6c"><circle cx="92" cy="92" r="5"/><circle cx="102" cy="112" r="6"/><circle cx="70" cy="108" r="4.4"/><circle cx="44" cy="130" r="6"/></g>
+      <g fill="#f2cf86"><circle cx="82" cy="100" r="4"/><circle cx="98" cy="96" r="3.6"/><circle cx="38" cy="124" r="4"/></g>
+      <g fill="#e9a777"><circle cx="62" cy="118" r="1.5"/><circle cx="54" cy="104" r="1.4"/><circle cx="66" cy="126" r="1.4"/></g>
+      <g filter="url(#soft2)" fill="#fff" opacity="0.85"><ellipse cx="62" cy="84" rx="12" ry="4"/></g>
+      <g fill="none" stroke="#e3cba9" stroke-linejoin="round">
+        <rect x="28" y="60" width="78" height="74" stroke-width="5"/>
+        <line x1="67" y1="60" x2="67" y2="134" stroke-width="3.5"/><line x1="28" y1="97" x2="106" y2="97" stroke-width="3.5"/>
+      </g>
+      <rect x="22" y="134" width="90" height="6" rx="1.5" fill="#e6cda9"/>
+      <!-- 窗台上的小罐子 -->
+      <path d="M38,122 L52,122 L51,134 L39,134 Z" fill="#b3cfd3"/><rect x="37" y="119" width="16" height="4" rx="1" fill="#c9a274"/>
+      <g stroke="#c08a5a" stroke-width="1.3"><line x1="42" y1="119" x2="40" y2="108"/><line x1="46" y1="119" x2="47" y2="106"/><line x1="49" y1="119" x2="52" y2="110"/></g>
+
+      <!-- 工具挂板 -->
+      <rect x="232" y="54" width="152" height="84" rx="2" fill="#e8d0ac"/>
+      <rect x="232" y="54" width="152" height="84" rx="2" fill="none" stroke="#d3b48a" stroke-width="2"/>
+      <g>
+        <use href="#peg" x="240" y="62"/><use href="#peg" x="240" y="128"/><use href="#peg" x="262" y="114"/><use href="#peg" x="262" y="128"/>
+        <use href="#peg" x="338" y="62"/><use href="#peg" x="338" y="90"/><use href="#peg" x="338" y="104"/><use href="#peg" x="338" y="118"/><use href="#peg" x="338" y="130"/>
+        <use href="#peg" x="352" y="118"/><use href="#peg" x="352" y="130"/><use href="#peg" x="366" y="118"/><use href="#peg" x="366" y="130"/><use href="#peg" x="376" y="62"/><use href="#peg" x="376" y="90"/>
+        <use href="#peg" x="306" y="130"/><use href="#peg" x="320" y="130"/><use href="#peg" x="290" y="96"/><use href="#peg" x="276" y="96"/>
+      </g>
+      <!-- 手锯 -->
+      <path d="M262,62 L326,72 L326,80 L262,90 Z" fill="url(#steel)"/>
+      <path d="M262,90 L264,92 L267,89.5 L270,91.5 L273,89 L276,91 L279,88.5 L282,90.5 L285,88 L288,90 L291,87.5 L294,89.5 L297,87 L300,89 L303,86.5 L306,88.5 L309,86 L312,88 L315,85.5 L318,87.4 L321,85 L324,86.6 L326,80" fill="#a9bbc2"/>
+      <path d="M268,66 L318,74" stroke="#e8eff1" stroke-width="1" opacity="0.8"/>
+      <path d="M240,58 C238,74 240,88 248,94 L264,92 L264,60 C256,56 246,56 240,58 Z" fill="#c98a5c"/>
+      <path d="M246,66 C244,74 246,82 250,86 L258,85 L258,66 C254,64 249,64 246,66 Z" fill="#e8d0ac"/>
+      <circle cx="261" cy="66" r="1.2" fill="#e9dccb"/><circle cx="261" cy="86" r="1.2" fill="#e9dccb"/>
+      <!-- 挂着的锤子 -->
+      <rect x="248" y="104" width="5" height="30" rx="2" fill="#d8b384"/>
+      <rect x="248" y="122" width="5" height="12" rx="2" fill="#c39566"/>
+      <path d="M240,98 L252,98 L256,100 C260,100 264,98 268,95 C267,100 263,104 257,105 L240,105 C239,105 238,104 238,103 L238,100 C238,99 239,98 240,98 Z" fill="url(#steel)"/>
+      <rect x="239" y="98.6" width="13" height="2" fill="#dbe4e7" opacity="0.8"/>
+      <!-- 角尺 -->
+      <rect x="270" y="98" width="7" height="34" rx="1" fill="#c48a5e"/>
+      <rect x="277" y="126" width="26" height="5" fill="url(#steel)"/>
+      <g stroke="#8ea2aa" stroke-width="0.6"><line x1="281" y1="126" x2="281" y2="128.5"/><line x1="286" y1="126" x2="286" y2="128"/><line x1="291" y1="126" x2="291" y2="128.5"/><line x1="296" y1="126" x2="296" y2="128"/></g>
+      <!-- 凿子 -->
+      <rect x="301" y="94" width="40" height="3" rx="1" fill="#b89a74"/>
+      <path d="M304,98 L310,98 L309.5,114 L304.5,114 Z" fill="#d59a6a"/><rect x="304.5" y="114" width="5" height="3" fill="#a3b5bc"/><path d="M305.5,117 L308.5,117 L308.5,132 L307,134 L305.5,132 Z" fill="url(#steel)"/>
+      <path d="M318,98 L324,98 L323.5,112 L318.5,112 Z" fill="#c9875a"/><rect x="318.5" y="112" width="5" height="3" fill="#a3b5bc"/><path d="M318.5,115 L323.5,115 L323.5,130 L321,132 L318.5,130 Z" fill="url(#steel)"/>
+      <path d="M332,98 L338,98 L337.5,111 L332.5,111 Z" fill="#dba371"/><rect x="332.5" y="111" width="5" height="3" fill="#a3b5bc"/><path d="M333.5,114 L336.5,114 L336.5,126 L335,128 L333.5,126 Z" fill="url(#steel)"/>
+      <!-- 木槌 -->
+      <rect x="350" y="58" width="10" height="2" fill="#b89a74"/>
+      <rect x="352.5" y="72" width="5" height="40" rx="1.5" fill="#d8b384"/>
+      <rect x="344" y="60" width="22" height="14" rx="2" fill="#c08758"/>
+      <rect x="344" y="60" width="22" height="3" rx="1.5" fill="#d29c6c"/>
+
+      <!-- 靠墙的木料 -->
+      <polygon points="118,200 128,200 150,64 142,62" fill="url(#plank)"/>
+      <polygon points="130,200 142,200 172,70 163,68" fill="#dcb68a"/>
+      <polygon points="112,200 119,200 130,76 125,75" fill="#e6c79b"/>
+      <g stroke="#c9a273" stroke-width="0.6" opacity="0.7"><line x1="146" y1="64" x2="123" y2="200"/><line x1="167" y1="70" x2="136" y2="200"/></g>
+
+      <!-- 工作台 -->
+      <polygon points="84,142 344,142 352,152 76,152" fill="#dcb98b"/>
+      <g stroke="#cba47a" stroke-width="0.7" opacity="0.8"><line x1="90" y1="146" x2="346" y2="146"/><line x1="84" y1="149.5" x2="349" y2="149.5"/></g>
+      <rect x="76" y="152" width="276" height="13" fill="url(#benchF)"/>
+      <rect x="76" y="152" width="276" height="2" fill="#dcb488"/>
+      <rect x="96" y="165" width="8" height="58" fill="#b48556"/><rect x="324" y="165" width="8" height="58" fill="#b48556"/>
+      <rect x="84" y="165" width="11" height="74" fill="url(#leg)"/><rect x="333" y="165" width="11" height="74" fill="url(#leg)"/>
+      <rect x="95" y="208" width="238" height="7" fill="#c39566"/>
+      <rect x="95" y="208" width="238" height="2" fill="#d5ac7c"/>
+      <!-- 台虎钳 -->
+      <rect x="62" y="150" width="16" height="26" rx="1.5" fill="#c69764"/>
+      <rect x="64" y="160" width="14" height="3" fill="#a9bbc2"/>
+      <line x1="54" y1="161.5" x2="70" y2="161.5" stroke="#9fb2ba" stroke-width="2"/>
+      <line x1="56" y1="152" x2="56" y2="172" stroke="#c48a5e" stroke-width="3" stroke-linecap="round"/>
+      <!-- 下层架子上的木料和工具箱 -->
+      <g>
+        <rect x="112" y="196" width="78" height="6" fill="#e2c193"/><rect x="108" y="202" width="86" height="6" fill="#d6b080"/>
+        <rect x="116" y="190" width="66" height="6" fill="#e8cc9f"/>
+        <g fill="#c79e70"><rect x="112" y="196" width="3" height="6"/><rect x="108" y="202" width="3" height="6"/><rect x="116" y="190" width="3" height="6"/></g>
+      </g>
+      <path d="M232,190 L298,190 L298,208 L232,208 Z" fill="#a9c3c4"/>
+      <rect x="230" y="186" width="70" height="5" rx="1" fill="#bcd2d2"/>
+      <path d="M254,186 L254,179 L276,179 L276,186" fill="none" stroke="#8aa6a8" stroke-width="2.2"/>
+      <rect x="260" y="195" width="10" height="4" rx="1" fill="#8aa6a8"/>
+
+      <!-- 木板和刨子 -->
+      <polygon points="114,136 262,136 266,144 110,144" fill="url(#board)"/>
+      <polygon points="110,144 266,144 266,149 110,149" fill="#cfa575"/>
+      <g stroke="#cfa676" stroke-width="0.7" fill="none" opacity="0.8">
+        <path d="M120,139 C150,138 170,140 200,139 C220,138 240,140 258,139"/><path d="M116,142 C140,141 160,142.5 186,141.5"/>
+        <path d="M128,140.5 C134,139 140,139 146,140.5" />
+      </g>
+      <rect x="110" y="144" width="2.4" height="5" fill="#bd915f"/>
+      <!-- 刨子（朝左推） -->
+      <g transform="translate(166,121.4) scale(1.4)">
+        <path d="M0,14 L50,14 L48,7 L3,7 Z" fill="url(#steel)"/>
+        <rect x="2" y="11" width="47" height="3" fill="#8ea2aa"/>
+        <ellipse cx="9" cy="3.5" rx="4.2" ry="5" fill="#c98a5c"/>
+        <ellipse cx="8" cy="2" rx="1.4" ry="2.4" fill="#e3aa7c" opacity="0.8"/>
+        <path d="M22,7 L28,-5 L33,-5 L29,7 Z" fill="#b8c7cc"/>
+        <path d="M27,-5 L34,-5 L35,-3 L28,-3 Z" fill="#9db0b7"/>
+        <circle cx="34" cy="4" r="2" fill="#c09a6e"/>
+        <path d="M37,7 C36,0 38,-6 44,-9 C48,-10 49,-6 46,-4 C43,-2 42,2 43,7 Z" fill="#c4834f"/>
+        <path d="M40,0 C40,-3 42,-6 45,-7" stroke="#dca274" stroke-width="1" fill="none"/>
+      </g>
+      <!-- 卷起的刨花 -->
+      <path d="M201,130 C200,114 194,104 186,102 C178,100 173,106 175,112 C177,118 185,118 187,113 C188,109 185,106 182,108" fill="none" stroke="#f2d8aa" stroke-width="5" stroke-linecap="round"/>
+      <path d="M203,130 C202,114 196,104 188,101.5 C180,99 172,104 173,111 C175,119 186,120 189,113" fill="none" stroke="#d9b07a" stroke-width="0.8" opacity="0.8"/>
+      <!-- 台面右边的木块和铅笔 -->
+      <!-- 自己做的小木盒（有点歪） -->
+      <rect x="292" y="128" width="42" height="21" fill="#c8875a"/>
+      <rect x="292" y="128" width="6" height="21" fill="#b9784d"/>
+      <g stroke="#b37349" stroke-width="0.7" fill="none" opacity="0.9"><path d="M299,135 C310,134 320,136 333,135"/><path d="M299,142 C312,141 322,143 333,142"/></g>
+      <polygon points="293,123 330,121 337,127 290,129" fill="#dc9d6e"/>
+      <polygon points="290,129 337,127 337,130 290,132" fill="#b06f46"/>
+      <path d="M296,124.4 L328,122.6" stroke="#e8b48a" stroke-width="0.9"/>
+      <g fill="#8a6a50"><circle cx="301" cy="134" r="0.8"/><circle cx="330" cy="134" r="0.8"/><circle cx="301" cy="145" r="0.8"/><circle cx="330" cy="145" r="0.8"/></g>
+      <rect x="310" y="137" width="7" height="2.6" rx="1" fill="#e8c36e"/>
+      <path d="M262,148 L288,145" stroke="#e7b85c" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M288,145 L293,144.5" stroke="#efd5ad" stroke-width="2"/>
+      <!-- 台面上的刨花和钉子 -->
+      <use href="#curl" transform="translate(150,134)"/><use href="#curl" transform="translate(240,140) scale(0.9)"/>
+      <use href="#curl" transform="translate(272,146) scale(0.8) rotate(40)"/><use href="#curl" transform="translate(96,148) scale(0.9)"/>
+      <g stroke="#9fb2ba" stroke-width="1" stroke-linecap="round"><line x1="306" y1="139" x2="312" y2="140"/><line x1="310" y1="144" x2="316" y2="143"/></g>
+      <!-- 地上的刨花 -->
+      <use href="#curl" transform="translate(150,236) scale(1.1)"/><use href="#curl" transform="translate(176,246) rotate(-30)"/>
+      <use href="#curl" transform="translate(206,232) scale(0.9) rotate(20)"/><use href="#curl" transform="translate(126,250) scale(0.9) rotate(60)"/>
+      <use href="#curl" transform="translate(240,248) scale(1.05) rotate(-10)"/><use href="#curl" transform="translate(272,238) scale(0.85)"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="214" cy="240" rx="138" ry="4.5"/><ellipse cx="374" cy="242" rx="22" ry="3"/>
+    </g>
+    <g filter="url(#soft2)" opacity="0.14" fill="#8a6a4a">
+      <ellipse cx="188" cy="149" rx="80" ry="2"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  642.234375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  650.234375
+ ],
+ "zh": [
+  96,
+  676.234375,
+  480,
+  892.359375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  292.453125,
+  131.625
+ ],
+ "header_gap": 79.3125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   549
+  ],
+  [
+   506,
+   560,
+   626,
+   578
+  ],
+  [
+   506,
+   589,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.6,
+   "En la pequeña ciudad donde crecí, la plaza está rodeada de"
+  ],
+  [
+   "mid",
+   7.2,
+   "soportales que dan sombra en verano. Junto a la fuente, los"
+  ],
+  [
+   "mid",
+   5.5,
+   "ancianos conversan en los bancos mientras los niños corretean"
+  ],
+  [
+   "mid",
+   5.9,
+   "entre los árboles. Nadie convoca a nadie y, sin embargo, cada"
+  ],
+  [
+   "last",
+   3.6,
+   "tarde la plaza reúne a gente que de otro modo no coincidiría."
+  ],
+  [
+   "mid",
+   6.5,
+   "A diferencia de los centros comerciales, la plaza no exige"
+  ],
+  [
+   "mid",
+   5.2,
+   "consumir nada para tener derecho a quedarse. En ella conviven"
+  ],
+  [
+   "mid",
+   6.6,
+   "generaciones y costumbres distintas, de modo que la vida en"
+  ],
+  [
+   "mid",
+   5,
+   "común se aprende casi sin que nadie se dé cuenta. Una ciudad"
+  ],
+  [
+   "mid",
+   6.9,
+   "que renunciara a estos espacios perdería mucho más que un"
+  ],
+  [
+   "mid",
+   6.3,
+   "lugar de paso: perdería una escuela de convivencia. Cada vez"
+  ],
+  [
+   "mid",
+   4.1,
+   "que vuelvo y me siento junto a la fuente, compruebo que la plaza"
+  ],
+  [
+   "last",
+   3.6,
+   "sigue cumpliendo esa discreta función."
+  ]
+ ],
+ "es_max_gap": 7.2,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

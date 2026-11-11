@@ -1,0 +1,292 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_03.mp3",
+ "duration": 59.536,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.61,
+  "short_term_std_lu": 0.92,
+  "short_term_std_full_lu": 0.93,
+  "peak_dbfs": -1.83,
+  "buzz_hz": 15000.0,
+  "buzz_db": 5.3,
+  "comb_db": -0.8
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.78,
+   "parts": [
+    [
+     0.5,
+     1.78
+    ]
+   ],
+   "segments": [
+    "Mi bicicleta."
+   ],
+   "text": "Mi bicicleta.",
+   "read": "Mi bicicleta."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.78,
+   "end": 6.25,
+   "parts": [
+    [
+     2.78,
+     6.25
+    ]
+   ],
+   "segments": [
+    "Tengo una bicicleta azul con una cesta delante."
+   ],
+   "text": "Tengo una bicicleta azul con una cesta delante.",
+   "read": "Tengo una bicicleta azul con una cesta delante."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.25,
+   "end": 10.593,
+   "parts": [
+    [
+     7.25,
+     8.583
+    ],
+    [
+     8.863,
+     10.593
+    ]
+   ],
+   "segments": [
+    "No es nueva,",
+    "pero funciona muy bien."
+   ],
+   "text": "No es nueva, pero funciona muy bien.",
+   "read": "No es nueva, pero funciona muy bien."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 11.593,
+   "end": 15.023,
+   "parts": [
+    [
+     11.593,
+     15.023
+    ]
+   ],
+   "segments": [
+    "Todos los días voy en bicicleta a la universidad."
+   ],
+   "text": "Todos los días voy en bicicleta a la universidad.",
+   "read": "Todos los días voy en bicicleta a la universidad."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 16.023,
+   "end": 19.803,
+   "parts": [
+    [
+     16.023,
+     19.803
+    ]
+   ],
+   "segments": [
+    "Ir en bicicleta es rápido, barato y muy sano."
+   ],
+   "text": "Ir en bicicleta es rápido, barato y muy sano.",
+   "read": "Ir en bicicleta es rápido, barato y muy sano."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 20.803,
+   "end": 24.468,
+   "parts": [
+    [
+     20.803,
+     24.468
+    ]
+   ],
+   "segments": [
+    "Los fines de semana voy al parque con mi amigo Diego."
+   ],
+   "text": "Los fines de semana voy al parque con mi amigo Diego.",
+   "read": "Los fines de semana voy al parque con mi amigo Diego."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 25.468,
+   "end": 29.078,
+   "parts": [
+    [
+     25.468,
+     29.078
+    ]
+   ],
+   "segments": [
+    "Allí hay un camino largo entre árboles y flores."
+   ],
+   "text": "Allí hay un camino largo entre árboles y flores.",
+   "read": "Allí hay un camino largo entre árboles y flores."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 30.078,
+   "end": 34.337,
+   "parts": [
+    [
+     30.078,
+     34.337
+    ]
+   ],
+   "segments": [
+    "Paseamos en bicicleta por el camino y charlamos un rato."
+   ],
+   "text": "Paseamos en bicicleta por el camino y charlamos un rato.",
+   "read": "Paseamos en bicicleta por el camino y charlamos un rato."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 35.337,
+   "end": 39.787,
+   "parts": [
+    [
+     35.337,
+     39.787
+    ]
+   ],
+   "segments": [
+    "Después dejo la bicicleta al lado de un árbol y descanso en la hierba."
+   ],
+   "text": "Después dejo la bicicleta al lado de un árbol y descanso en la hierba.",
+   "read": "Después dejo la bicicleta al lado de un árbol y descanso en la hierba."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 40.787,
+   "end": 45.197,
+   "parts": [
+    [
+     40.787,
+     45.197
+    ]
+   ],
+   "segments": [
+    "Los domingos compro flores en el mercado y las llevo en la cesta."
+   ],
+   "text": "Los domingos compro flores en el mercado y las llevo en la cesta.",
+   "read": "Los domingos compro flores en el mercado y las llevo en la cesta."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 46.197,
+   "end": 49.597,
+   "parts": [
+    [
+     46.197,
+     49.597
+    ]
+   ],
+   "segments": [
+    "Cuido mucho mi bicicleta y la limpio cada semana."
+   ],
+   "text": "Cuido mucho mi bicicleta y la limpio cada semana.",
+   "read": "Cuido mucho mi bicicleta y la limpio cada semana."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 50.597,
+   "end": 53.736,
+   "parts": [
+    [
+     50.597,
+     53.736
+    ]
+   ],
+   "segments": [
+    "Con ella siempre me siento libre y contento."
+   ],
+   "text": "Con ella siempre me siento libre y contento.",
+   "read": "Con ella siempre me siento libre y contento."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 54.736,
+   "end": 58.336,
+   "parts": [
+    [
+     54.736,
+     55.476
+    ],
+    [
+     55.756,
+     58.336
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "mi bicicleta es como una buena amiga."
+   ],
+   "text": "Para mí, mi bicicleta es como una buena amiga.",
+   "read": "Para mí, mi bicicleta es como una buena amiga."
+  }
+ ]
+}

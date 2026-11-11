@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_05",
+ "level": "C1",
+ "no": 5,
+ "title_es": "Cooperar o competir",
+ "title_zh": "合作还是竞争",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 5 篇。原创短文。主要语法：过去未完成时与简单过去时的叙述，solo cuando…, en lugar de + 原形，como si + 过去虚拟式，siempre que + 现在虚拟式表条件，两个并列的过去虚拟式条件句（Si cada remero compitiera…; si todos renunciaran…），quizá + 现在虚拟式表推测（Quizá…no sea…sino…）。7 句，131 词。第一人称叙述者没有用到需要变性的形容词。特别判断：第 3 句原为 aprendimos a acompasar，介词 a 和 acompasar 的词首 a 连读会并成一个音，识别时容易丢掉介词或切成 a compasar，改为 logramos acompasar；acompasar las paladas 指让每一下划桨的动作合拍，译作“让划桨的动作合拍”；neutralizarse 指各人的力气相互抵消；第 6 句 girar sobre sí misma 译作“原地打转”；siete 是简单数词，保留。全篇没有名词列举（第 4 句 la cooperación y la competencia 只有两项、没有逗号），no_pause_commas 为 {}。标题里的 cooperar、competir 是同源词，没有放进词汇表。插图里湖上的多人长船、桨和平静水面对应第 1—3 句。第 4 句原为 Solemos plantear…，为让西语正文两端对齐时词间空白不超过 7.5 px，改为 Solemos ver…，意思和译文不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "remar",
+   "划船",
+   "remar"
+  ],
+  [
+   "barca",
+   "小船",
+   "barca"
+  ],
+  [
+   "principiante",
+   "新手",
+   "principiantes"
+  ],
+  [
+   "a trompicones",
+   "磕磕绊绊",
+   "a trompicones"
+  ],
+  [
+   "acompasar",
+   "使合拍",
+   "acompasar"
+  ],
+  [
+   "palada",
+   "划桨动作",
+   "paladas"
+  ],
+  [
+   "neutralizarse",
+   "相互抵消",
+   "neutralizarse"
+  ],
+  [
+   "irreconciliable",
+   "不可调和的",
+   "irreconciliables"
+  ],
+  [
+   "optar por",
+   "选择",
+   "optar por"
+  ],
+  [
+   "rivalidad",
+   "较量",
+   "rivalidad"
+  ],
+  [
+   "sano",
+   "良性的",
+   "sana"
+  ],
+  [
+   "siempre que",
+   "只要",
+   "siempre que"
+  ],
+  [
+   "remero",
+   "桨手",
+   "remero"
+  ],
+  [
+   "al servicio de",
+   "服务于",
+   "al servicio de"
+  ],
+  [
+   "ambición",
+   "雄心",
+   "ambición"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hace unos meses empecé a remar en una barca larga junto a otros siete principiantes.",
+    "zh": "几个月前，我开始和另外七名新手一起划一条长船。"
+   },
+   {
+    "es": "Al principio, cada uno intentaba demostrar su fuerza, y la barca avanzaba a trompicones sobre el agua tranquila.",
+    "zh": "起初，每个人都想显示自己的力气，船在平静的水面上走得磕磕绊绊。"
+   },
+   {
+    "es": "Solo cuando logramos acompasar las paladas, el esfuerzo individual empezó a sumarse en lugar de neutralizarse.",
+    "zh": "直到我们终于让划桨的动作合上节拍，每个人的力气才开始叠加，而不是相互抵消。"
+   }
+  ],
+  [
+   {
+    "es": "Solemos ver la cooperación y la competencia como opuestos irreconciliables, como si hubiera que optar por una.",
+    "zh": "我们常把合作与竞争看作水火不容的两极，仿佛只能二者择一。"
+   },
+   {
+    "es": "Sin embargo, la rivalidad sana puede estimular a cada miembro, siempre que no rompa el ritmo común del que depende el grupo.",
+    "zh": "然而，良性的较量能够激励每一个成员，只要它不打乱整个团队赖以前进的共同节奏。"
+   },
+   {
+    "es": "Si cada remero compitiera contra los demás, la barca giraría sobre sí misma; si todos renunciaran a esforzarse, no se movería.",
+    "zh": "如果每个桨手都和别人较劲，船就会原地打转；如果大家都不肯出力，船就根本动不了。"
+   },
+   {
+    "es": "Quizá la verdadera cuestión no sea elegir entre cooperar y competir, sino saber al servicio de qué meta compartida ponemos nuestra ambición.",
+    "zh": "也许真正的问题不在于在合作与竞争之间做出选择，而在于我们让自己的雄心服务于怎样的共同目标。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_10",
+ "level": "C1",
+ "no": 10,
+ "title_es": "La plaza, lugar de encuentro",
+ "title_zh": "广场：相遇之地",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 10 篇。原创短文。主要语法：被动意义的 estar + 过去分词（está rodeada de），mientras 引导的同时状语，sin embargo 作插入语，条件式表假设（de otro modo no coincidiría），a diferencia de 对比，de modo que 表结果，sin que + 现在虚拟式（sin que nadie se dé cuenta），关系从句里的过去虚拟式表假设（Una ciudad que renunciara…perdería…），冒号引出递进解释。7 句，134 词。第一人称叙述者是男性（讲述自己长大的小城），没有需要变性的形容词。特别判断：soportales 是西班牙小城广场四周带拱廊的骑楼，译作“拱廊”；centros comerciales 泛指购物中心，不涉及具体品牌；第 7 句 me siento 是 sentarse（坐下），不是 sentir。第 3 句 y, sin embargo, 两边的逗号是插入语，照常停顿；全篇没有名词列举（generaciones y costumbres 只有两项、没有逗号），no_pause_commas 为 {}。插图里的喷泉、长椅、树和带拱廊的房子对应第 1、2、7 句。第 5 句原为 casi sin darse cuenta，为让西语正文两端对齐时词间空白不超过 7.5 px，改为 casi sin que nadie se dé cuenta（多一个 sin que + 虚拟式），译文“不知不觉中”不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "soportal",
+   "拱廊",
+   "soportales"
+  ],
+  [
+   "dar sombra",
+   "遮阴",
+   "dan sombra"
+  ],
+  [
+   "fuente",
+   "喷泉",
+   "fuente"
+  ],
+  [
+   "corretear",
+   "跑来跑去",
+   "corretean"
+  ],
+  [
+   "convocar",
+   "召集",
+   "convoca"
+  ],
+  [
+   "de otro modo",
+   "否则",
+   "de otro modo"
+  ],
+  [
+   "coincidir",
+   "碰面",
+   "coincidiría"
+  ],
+  [
+   "a diferencia de",
+   "不同于",
+   "A diferencia de"
+  ],
+  [
+   "tener derecho a",
+   "有权",
+   "tener derecho a"
+  ],
+  [
+   "convivir",
+   "共存",
+   "conviven"
+  ],
+  [
+   "de modo que",
+   "因此",
+   "de modo que"
+  ],
+  [
+   "lugar de paso",
+   "过路之处",
+   "lugar de paso"
+  ],
+  [
+   "convivencia",
+   "和睦共处",
+   "convivencia"
+  ],
+  [
+   "cumplir",
+   "履行",
+   "cumpliendo"
+  ],
+  [
+   "discreto",
+   "低调的",
+   "discreta"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En la pequeña ciudad donde crecí, la plaza está rodeada de soportales que dan sombra en verano.",
+    "zh": "在我长大的那座小城里，广场四周环绕着拱廊，夏天可以遮阴。"
+   },
+   {
+    "es": "Junto a la fuente, los ancianos conversan en los bancos mientras los niños corretean entre los árboles.",
+    "zh": "喷泉旁，老人们坐在长椅上聊天，孩子们在树间跑来跑去。"
+   },
+   {
+    "es": "Nadie convoca a nadie y, sin embargo, cada tarde la plaza reúne a gente que de otro modo no coincidiría.",
+    "zh": "没有谁召集谁，可每到傍晚，广场总会把那些原本不会碰面的人聚到一起。"
+   }
+  ],
+  [
+   {
+    "es": "A diferencia de los centros comerciales, la plaza no exige consumir nada para tener derecho a quedarse.",
+    "zh": "与购物中心不同，广场并不要求人们消费任何东西才有权留下。"
+   },
+   {
+    "es": "En ella conviven generaciones y costumbres distintas, de modo que la vida en común se aprende casi sin que nadie se dé cuenta.",
+    "zh": "不同的世代与习俗在这里共存，于是，共同生活之道几乎是在不知不觉中学会的。"
+   },
+   {
+    "es": "Una ciudad que renunciara a estos espacios perdería mucho más que un lugar de paso: perdería una escuela de convivencia.",
+    "zh": "一座城市若舍弃这样的空间，失去的将远不止一个过路之处：它失去的是一所教人和睦共处的学校。"
+   },
+   {
+    "es": "Cada vez que vuelvo y me siento junto a la fuente, compruebo que la plaza sigue cumpliendo esa discreta función.",
+    "zh": "每次回去坐在喷泉旁，我都发现，广场依然在默默履行着这份职能。"
+   }
+  ]
+ ]
+}

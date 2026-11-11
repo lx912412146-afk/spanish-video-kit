@@ -1,0 +1,279 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  613.53125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  621.53125
+ ],
+ "zh": [
+  96,
+  647.53125,
+  480,
+  886.78125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  252.359375,
+  131.625
+ ],
+ "header_gap": 161.6875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   444
+  ],
+  [
+   506,
+   455,
+   626,
+   491
+  ],
+  [
+   506,
+   502,
+   626,
+   520
+  ],
+  [
+   506,
+   531,
+   626,
+   549
+  ],
+  [
+   506,
+   560,
+   626,
+   578
+  ],
+  [
+   506,
+   589,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "9",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.5,
+   "El verano pasado viajé a una ciudad del sur y, por primera vez,"
+  ],
+  [
+   "mid",
+   5,
+   "preferí el tren al avión. El trayecto fue más largo, pero no tuve que"
+  ],
+  [
+   "mid",
+   7.8,
+   "llegar con antelación ni pasar controles interminables. Desde la"
+  ],
+  [
+   "mid",
+   4.3,
+   "ventanilla contemplé campos dorados, pueblos blancos y montañas"
+  ],
+  [
+   "mid",
+   3.5,
+   "lejanas mientras leía. Además, la estación estaba en pleno centro, así"
+  ],
+  [
+   "last",
+   3.4,
+   "que me ahorré el viaje hasta el aeropuerto."
+  ],
+  [
+   "mid",
+   5.2,
+   "Frente al avión, el tren contamina mucho menos en distancias"
+  ],
+  [
+   "mid",
+   7.7,
+   "medias. No obstante, el avión sigue siendo imprescindible para"
+  ],
+  [
+   "mid",
+   6,
+   "cruzar océanos o recorrer grandes distancias. Por lo tanto, no se"
+  ],
+  [
+   "mid",
+   6.6,
+   "trata de elegir uno y renunciar al otro, sino de usar cada medio"
+  ],
+  [
+   "mid",
+   3.5,
+   "cuando tenga más sentido. Si los billetes de tren fueran más baratos,"
+  ],
+  [
+   "last",
+   3.4,
+   "sin duda muchos viajeros cambiarían de costumbre."
+  ]
+ ],
+ "es_max_gap": 7.8,
+ "es_font": [
+  12.7,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

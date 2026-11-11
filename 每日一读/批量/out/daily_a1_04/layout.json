@@ -1,0 +1,306 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  607.828125
+ ],
+ "zh": [
+  96,
+  633.828125,
+  480,
+  803.703125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  244.6875,
+  131.625
+ ],
+ "header_gap": 162.3125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   1
+  ],
+  [
+   "13",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   6.7,
+   "La cocina de mi casa es grande y tiene mucha luz. En la"
+  ],
+  [
+   "mid",
+   4.5,
+   "ventana hay una planta pequeña en una maceta. En el centro hay"
+  ],
+  [
+   "mid",
+   6.1,
+   "una mesa de madera con un frutero. En la pared hay sartenes,"
+  ],
+  [
+   "mid",
+   5.2,
+   "cucharas y otras cosas para cocinar. Mi padre cocina casi todos"
+  ],
+  [
+   "mid",
+   6.3,
+   "los días y lo hace muy bien. Yo lo ayudo: corto las verduras y"
+  ],
+  [
+   "last",
+   3.5,
+   "pongo la mesa."
+  ],
+  [
+   "mid",
+   7.5,
+   "Hoy mi padre prepara una sopa de verduras en una olla"
+  ],
+  [
+   "mid",
+   4.3,
+   "grande. Toda la cocina huele muy bien. Mi madre llega del trabajo"
+  ],
+  [
+   "mid",
+   3.5,
+   "y pregunta qué hay de cena. Siempre cenamos juntos en la cocina."
+  ],
+  [
+   "mid",
+   5.5,
+   "Después de la cena, yo lavo los platos. Para mí, la cocina es el"
+  ],
+  [
+   "last",
+   3.5,
+   "corazón de nuestra casa."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  13.1,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

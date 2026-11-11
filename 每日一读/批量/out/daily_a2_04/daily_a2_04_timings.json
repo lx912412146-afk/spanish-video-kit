@@ -1,0 +1,285 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_04.mp3",
+ "duration": 64.539,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.45,
+  "short_term_std_lu": 0.94,
+  "short_term_std_full_lu": 0.94,
+  "peak_dbfs": -1.6,
+  "buzz_hz": 5415.5,
+  "buzz_db": 5.4,
+  "comb_db": -0.75
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.4,
+  "leveler_rng": 10.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.66,
+   "parts": [
+    [
+     0.5,
+     2.66
+    ]
+   ],
+   "segments": [
+    "Una noche bajo las estrellas."
+   ],
+   "text": "Una noche bajo las estrellas.",
+   "read": "Una noche bajo las estrellas."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.66,
+   "end": 8.7,
+   "parts": [
+    [
+     3.66,
+     8.7
+    ]
+   ],
+   "segments": [
+    "El fin de semana pasado fui de acampada a la montaña con mi amigo Marcos."
+   ],
+   "text": "El fin de semana pasado fui de acampada a la montaña con mi amigo Marcos.",
+   "read": "El fin de semana pasado fui de acampada a la montaña con mi amigo Marcos."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.7,
+   "end": 14.746,
+   "parts": [
+    [
+     9.7,
+     14.746
+    ]
+   ],
+   "segments": [
+    "Llegamos por la tarde y montamos la tienda de campaña en un lugar tranquilo."
+   ],
+   "text": "Llegamos por la tarde y montamos la tienda de campaña en un lugar tranquilo.",
+   "read": "Llegamos por la tarde y montamos la tienda de campaña en un lugar tranquilo."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.746,
+   "end": 20.095,
+   "parts": [
+    [
+     15.746,
+     17.485
+    ],
+    [
+     17.765,
+     20.095
+    ]
+   ],
+   "segments": [
+    "Cuando se puso el sol,",
+    "empezó a hacer bastante frío."
+   ],
+   "text": "Cuando se puso el sol, empezó a hacer bastante frío.",
+   "read": "Cuando se puso el sol, empezó a hacer bastante frío."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 21.095,
+   "end": 26.558,
+   "parts": [
+    [
+     21.095,
+     26.558
+    ]
+   ],
+   "segments": [
+    "Entonces encendimos una pequeña hoguera y calentamos un poco de sopa."
+   ],
+   "text": "Entonces encendimos una pequeña hoguera y calentamos un poco de sopa.",
+   "read": "Entonces encendimos una pequeña hoguera y calentamos un poco de sopa."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 27.558,
+   "end": 31.628,
+   "parts": [
+    [
+     27.558,
+     28.968
+    ],
+    [
+     29.248,
+     31.628
+    ]
+   ],
+   "segments": [
+    "Mientras cenábamos,",
+    "el cielo se llenó de estrellas."
+   ],
+   "text": "Mientras cenábamos, el cielo se llenó de estrellas.",
+   "read": "Mientras cenábamos, el cielo se llenó de estrellas."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 32.628,
+   "end": 36.278,
+   "parts": [
+    [
+     32.628,
+     36.278
+    ]
+   ],
+   "segments": [
+    "En la ciudad nunca he visto tantas estrellas juntas."
+   ],
+   "text": "En la ciudad nunca he visto tantas estrellas juntas.",
+   "read": "En la ciudad nunca he visto tantas estrellas juntas."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 37.278,
+   "end": 42.638,
+   "parts": [
+    [
+     37.278,
+     42.638
+    ]
+   ],
+   "segments": [
+    "Marcos me enseñó algunas constelaciones y yo intenté recordar sus nombres."
+   ],
+   "text": "Marcos me enseñó algunas constelaciones y yo intenté recordar sus nombres.",
+   "read": "Marcos me enseñó algunas constelaciones y yo intenté recordar sus nombres."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 43.638,
+   "end": 48.442,
+   "parts": [
+    [
+     43.638,
+     44.852
+    ],
+    [
+     45.132,
+     48.442
+    ]
+   ],
+   "segments": [
+    "A lo lejos,",
+    "las montañas parecían sombras oscuras."
+   ],
+   "text": "A lo lejos, las montañas parecían sombras oscuras.",
+   "read": "A lo lejos, las montañas parecían sombras oscuras."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 49.442,
+   "end": 53.852,
+   "parts": [
+    [
+     49.442,
+     53.852
+    ]
+   ],
+   "segments": [
+    "Durante un rato no hablamos y solo escuchamos el ruido del fuego."
+   ],
+   "text": "Durante un rato no hablamos y solo escuchamos el ruido del fuego.",
+   "read": "Durante un rato no hablamos y solo escuchamos el ruido del fuego."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 54.852,
+   "end": 59.239,
+   "parts": [
+    [
+     54.852,
+     57.932
+    ],
+    [
+     58.212,
+     59.239
+    ]
+   ],
+   "segments": [
+    "A la mañana siguiente estaba un poco cansado,",
+    "pero muy feliz."
+   ],
+   "text": "A la mañana siguiente estaba un poco cansado, pero muy feliz.",
+   "read": "A la mañana siguiente estaba un poco cansado, pero muy feliz."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 60.239,
+   "end": 63.339,
+   "parts": [
+    [
+     60.239,
+     63.339
+    ]
+   ],
+   "segments": [
+    "Fue una de las noches más bonitas de mi vida."
+   ],
+   "text": "Fue una de las noches más bonitas de mi vida.",
+   "read": "Fue una de las noches más bonitas de mi vida."
+  }
+ ]
+}

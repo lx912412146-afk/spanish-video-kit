@@ -1,0 +1,305 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  661.25
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  669.25
+ ],
+ "zh": [
+  96,
+  695.25,
+  480,
+  934.5
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  258.625,
+  131.625
+ ],
+ "header_gap": 178.90625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.2,
+   "El año pasado mi tío Andrés me regaló su vieja cámara, que"
+  ],
+  [
+   "mid",
+   5.5,
+   "llevaba años guardada en un armario. Al principio hacía fotos de"
+  ],
+  [
+   "mid",
+   7.4,
+   "todo, pero casi todas salían oscuras o movidas. Entonces me"
+  ],
+  [
+   "mid",
+   6.7,
+   "inscribí en un curso para aprender a hacer fotos de verdad. El"
+  ],
+  [
+   "mid",
+   3.7,
+   "profesor nos enseñó a aprovechar la luz y a elegir bien el encuadre."
+  ],
+  [
+   "mid",
+   5,
+   "Desde entonces, siempre llevo un cuaderno donde apunto lo que"
+  ],
+  [
+   "last",
+   3.5,
+   "funciona y lo que no."
+  ],
+  [
+   "mid",
+   7.2,
+   "Hoy tengo sobre la mesa varias fotos de paisajes que he"
+  ],
+  [
+   "mid",
+   5.9,
+   "impreso yo mismo. No creo que sean perfectas, pero me siento"
+  ],
+  [
+   "mid",
+   5.4,
+   "orgulloso de cada una. Además, gracias a la cámara, ahora miro"
+  ],
+  [
+   "mid",
+   4.6,
+   "con más atención lo que me rodea. Para que una foto sea buena,"
+  ],
+  [
+   "mid",
+   4.6,
+   "no basta con tener un objetivo caro; hace falta paciencia. Cuando"
+  ],
+  [
+   "mid",
+   4.1,
+   "tenga más experiencia, me gustaría hacer una pequeña exposición"
+  ],
+  [
+   "last",
+   3.4,
+   "en mi barrio."
+  ]
+ ],
+ "es_max_gap": 7.4,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

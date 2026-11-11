@@ -1,0 +1,145 @@
+{
+ "id": "daily_a2_01",
+ "level": "A2",
+ "no": 1,
+ "title_es": "Mi primer día de universidad",
+ "title_zh": "我上大学的第一天",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 1 篇。原创短文。简单过去时叙述开学第一天（empecé、llegué、conocí、comimos），过去未完成时描写场景和心情（era、tenía、había、estaba、sabía），结尾用 ir a + 原形（van a ser）。11 句，118 词。第 4 句 un césped, varios árboles y unas escaleras de piedra 是名词列举，césped 后的逗号不停顿；第 6 句句首状语 En la primera clase 后、第 7 句同位语 un chico simpático 前、第 10 句 Al volver a casa 后的逗号照常停顿。标题里的 universidad 排在词汇最前；primer 在正文里是 primera，词头写原形 primero；escaleras de piedra 是楼外的石阶，释义取“台阶”；大学里的 cafetería 译作“咖啡厅”。插图的老教学楼、台阶、树、草坪和钟楼都写进了第一段，钟只说 un reloj，不提钟点；插图里钟楼在教学楼顶上，所以第 3 句写楼有一座钟楼，楼前的列举是草坪、树和石阶（审校时由“楼前有钟楼”改过来）。",
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "césped,",
+    "why": "列举：un césped, varios árboles y unas escaleras de piedra（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "universidad",
+   "大学",
+   "universidad"
+  ],
+  [
+   "empezar",
+   "开始",
+   "empecé"
+  ],
+  [
+   "nervioso",
+   "紧张的",
+   "nervioso"
+  ],
+  [
+   "primero",
+   "第一的",
+   "primera"
+  ],
+  [
+   "edificio",
+   "楼房",
+   "edificio"
+  ],
+  [
+   "antiguo",
+   "古老的",
+   "antiguo"
+  ],
+  [
+   "torre",
+   "塔楼",
+   "torre"
+  ],
+  [
+   "reloj",
+   "钟",
+   "reloj"
+  ],
+  [
+   "césped",
+   "草坪",
+   "césped"
+  ],
+  [
+   "escalera",
+   "台阶",
+   "escaleras"
+  ],
+  [
+   "piedra",
+   "石头",
+   "piedra"
+  ],
+  [
+   "conocer",
+   "认识",
+   "conocí"
+  ],
+  [
+   "simpático",
+   "和善的",
+   "simpático"
+  ],
+  [
+   "aula",
+   "教室",
+   "aulas"
+  ],
+  [
+   "inolvidable",
+   "难忘的",
+   "inolvidables"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El lunes pasado empecé a estudiar en la universidad.",
+    "zh": "上周一，我开始上大学了。"
+   },
+   {
+    "es": "Estaba nervioso y llegué mucho antes de la primera clase.",
+    "zh": "我很紧张，比第一节课早到了很久。"
+   },
+   {
+    "es": "El edificio era antiguo y tenía una torre con un reloj.",
+    "zh": "教学楼很古老，有一座带钟的塔楼。"
+   },
+   {
+    "es": "Delante había un césped, varios árboles y unas escaleras de piedra.",
+    "zh": "楼前有一片草坪、几棵树，还有一段石头砌的台阶。"
+   },
+   {
+    "es": "Me senté en un escalón y miré a los demás estudiantes.",
+    "zh": "我在一级台阶上坐下，看着其他学生。"
+   }
+  ],
+  [
+   {
+    "es": "En la primera clase, el profesor nos habló con mucha paciencia.",
+    "zh": "第一节课上，老师非常耐心地给我们讲课。"
+   },
+   {
+    "es": "Después conocí a Andrés, un chico simpático que estudia lo mismo que yo.",
+    "zh": "后来我认识了安德烈斯，他是个和善的男生，和我学同一个专业。"
+   },
+   {
+    "es": "Comimos juntos en la cafetería y hablamos de nuestros planes.",
+    "zh": "我们一起在咖啡厅吃了饭，聊了聊各自的打算。"
+   },
+   {
+    "es": "Por la tarde ya sabía dónde estaban las aulas y la biblioteca.",
+    "zh": "到了下午，我已经知道教室和图书馆在哪儿了。"
+   },
+   {
+    "es": "Al volver a casa, estaba cansado pero muy contento.",
+    "zh": "回家的时候，我很累，但心里非常高兴。"
+   },
+   {
+    "es": "Creo que estos años en la universidad van a ser inolvidables.",
+    "zh": "我觉得，大学这几年一定会让我难忘。"
+   }
+  ]
+ ]
+}

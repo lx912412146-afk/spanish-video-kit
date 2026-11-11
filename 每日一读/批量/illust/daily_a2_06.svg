@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：桌上的礼物（系丝带的礼物盒、一束花、空白卡片、柔和灯光；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf4e8"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f3dec6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff4da" stop-opacity="0.95"/><stop offset="0.5" stop-color="#fdeccb" stop-opacity="0.45"/><stop offset="1" stop-color="#fdeccb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8cba5"/><stop offset="1" stop-color="#dcb68d"/>
+    </linearGradient>
+    <linearGradient id="boxF" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c2dad6"/><stop offset="1" stop-color="#adcbc6"/>
+    </linearGradient>
+    <linearGradient id="boxS" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#98b9b4"/><stop offset="1" stop-color="#8aaea9"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf1d6"/><stop offset="1" stop-color="#f4d8a6"/>
+    </linearGradient>
+    <linearGradient id="vase" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2c3a0"/><stop offset="0.4" stop-color="#f1dcc0"/><stop offset="1" stop-color="#d4b28d"/>
+    </linearGradient>
+    <linearGradient id="kraft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3c196"/><stop offset="1" stop-color="#cfa676"/>
+    </linearGradient>
+    <radialGradient id="rose" cx="0.4" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#f7c3c0"/><stop offset="0.6" stop-color="#ec9a98"/><stop offset="1" stop-color="#dc7d7e"/>
+    </radialGradient>
+    <radialGradient id="peach" cx="0.4" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#fbdcc0"/><stop offset="0.6" stop-color="#f4b98f"/><stop offset="1" stop-color="#e99f74"/>
+    </radialGradient>
+    <path id="leaf" d="M0,0 C4,-5.5 12,-5.5 16,0 C12,5.5 4,5.5 0,0 Z"/>
+    <g id="daisy"><g fill="#fdfaf3"><ellipse cx="0" cy="-4" rx="1.8" ry="3.4"/><ellipse cx="0" cy="4" rx="1.8" ry="3.4"/><ellipse cx="-4" cy="0" rx="3.4" ry="1.8"/><ellipse cx="4" cy="0" rx="3.4" ry="1.8"/><ellipse cx="-2.9" cy="-2.9" rx="1.6" ry="3" transform="rotate(-45 -2.9 -2.9)"/><ellipse cx="2.9" cy="2.9" rx="1.6" ry="3" transform="rotate(-45 2.9 2.9)"/><ellipse cx="2.9" cy="-2.9" rx="1.6" ry="3" transform="rotate(45 2.9 -2.9)"/><ellipse cx="-2.9" cy="2.9" rx="1.6" ry="3" transform="rotate(45 -2.9 2.9)"/></g><circle r="2" fill="#f2c45c"/></g>
+    <g id="rosebud"><circle r="9" fill="url(#rose)"/><path d="M-4,-1 C-3,-5 3,-6 4,-2 C5,2 1,4 -1,3 C-3,2 -2,-1 0,-1" stroke="#d27274" stroke-width="1" fill="none"/><path d="M-7,2 C-5,7 4,8 7,3" stroke="#e08a8a" stroke-width="0.9" fill="none"/></g>
+    <g id="peony"><circle r="8" fill="url(#peach)"/><path d="M-3.6,-0.5 C-2.6,-4.5 2.6,-5 3.6,-1.5 C4.4,2 1,3.6 -0.8,2.6 C-2.6,1.6 -1.6,-1 0,-1" stroke="#de9468" stroke-width="0.9" fill="none"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和桌面 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <ellipse cx="210" cy="130" rx="150" ry="90" fill="url(#glow)"/>
+    <ellipse cx="56" cy="150" rx="80" ry="70" fill="url(#glow)"/>
+    <rect x="0" y="172" width="400" height="88" fill="url(#table)"/>
+    <rect x="0" y="170" width="400" height="3" fill="#efd8b9"/>
+    <g stroke="#d4ad84" stroke-width="0.8" opacity="0.55" fill="none">
+      <path d="M0,190 C80,188 160,192 240,189 C300,187 360,190 400,189"/><path d="M0,212 C90,210 170,214 250,211 C320,209 370,212 400,211"/>
+      <path d="M0,236 C70,234 150,238 230,235 C300,233 360,236 400,235"/>
+    </g>
+    <rect x="0" y="246" width="400" height="14" fill="#c9a079"/>
+    <rect x="0" y="246" width="400" height="2" fill="#ddb991"/>
+
+    <g filter="url(#wc)">
+      <!-- 墙上的灯串 -->
+      <path d="M258,4 C292,44 344,50 404,22" stroke="#b7a28c" stroke-width="0.9" fill="none"/>
+      <g fill="#fde7a6" opacity="0.45" filter="url(#soft2)">
+        <circle cx="272" cy="23" r="6"/><circle cx="292" cy="36" r="6"/><circle cx="314" cy="43" r="6"/><circle cx="338" cy="44" r="6"/><circle cx="362" cy="39" r="6"/><circle cx="386" cy="30" r="6"/>
+      </g>
+      <g fill="#fbe1a0">
+        <ellipse cx="272" cy="25" rx="2.4" ry="3.2"/><ellipse cx="292" cy="38" rx="2.4" ry="3.2"/><ellipse cx="314" cy="45" rx="2.4" ry="3.2"/>
+        <ellipse cx="338" cy="46" rx="2.4" ry="3.2"/><ellipse cx="362" cy="41" rx="2.4" ry="3.2"/><ellipse cx="386" cy="32" rx="2.4" ry="3.2"/>
+      </g>
+      <g fill="#fff8e6"><circle cx="271.4" cy="24" r="0.9"/><circle cx="291.4" cy="37" r="0.9"/><circle cx="313.4" cy="44" r="0.9"/><circle cx="337.4" cy="45" r="0.9"/><circle cx="361.4" cy="40" r="0.9"/><circle cx="385.4" cy="31" r="0.9"/></g>
+
+      <!-- 台灯 -->
+      <path d="M44,198 C38,198 36,192 38,186 C40,178 46,172 54,172 C62,172 68,178 70,186 C72,192 70,198 64,198 Z" fill="url(#vase)"/>
+      <rect x="52" y="148" width="4" height="26" fill="#c9a37c"/>
+      <path d="M36,112 L72,112 L84,150 L24,150 Z" fill="url(#shade)"/>
+      <path d="M24,150 L84,150" stroke="#e9c58c" stroke-width="2" stroke-linecap="round"/>
+      <path d="M36,112 L72,112" stroke="#f0d8ae" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M42,116 L34,146" stroke="#ffffff" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+      <ellipse cx="54" cy="151" rx="26" ry="3" fill="#fff4d6" opacity="0.8"/>
+
+      <g transform="translate(-46,-45.2) scale(1.2)">
+      <!-- 卡片 -->
+      <polygon points="104,190 112,186 114,222 106,224" fill="#ece3d4"/>
+      <polygon points="112,186 150,190 150,226 114,222" fill="#fcf8f0"/>
+      <path d="M112,186 L150,190" stroke="#e6dccb" stroke-width="1"/>
+      <polygon points="117.5,192 145,195 145,221 118.5,217.5" fill="none" stroke="#e9a28f" stroke-width="0.8" opacity="0.7"/>
+      <path d="M126,214 C130,208 134,204 140,201" stroke="#8fb07a" stroke-width="0.9" fill="none"/>
+      <g fill="#9cc086"><use href="#leaf" transform="translate(130,209) rotate(-80) scale(0.35)"/><use href="#leaf" transform="translate(134,205) rotate(-20) scale(0.35)"/><use href="#leaf" transform="translate(135,206) rotate(-110) scale(0.32)"/></g>
+      <circle cx="140" cy="200.5" r="1.8" fill="#ec9a98"/>
+
+      <!-- 礼物盒 -->
+      <polygon points="232,162 254,146 254,208 232,224" fill="url(#boxS)"/>
+      <rect x="160" y="162" width="72" height="62" fill="url(#boxF)"/>
+      <g fill="#e9f3f0" opacity="0.7">
+        <circle cx="170" cy="176" r="1.6"/><circle cx="182" cy="190" r="1.6"/><circle cx="170" cy="204" r="1.6"/><circle cx="182" cy="216" r="1.6"/>
+        <circle cx="212" cy="176" r="1.6"/><circle cx="224" cy="190" r="1.6"/><circle cx="212" cy="204" r="1.6"/><circle cx="224" cy="216" r="1.6"/>
+      </g>
+      <g fill="#c4dad6" opacity="0.7"><circle cx="241" cy="180" r="1.3"/><circle cx="249" cy="194" r="1.3"/><circle cx="241" cy="206" r="1.3"/></g>
+      <!-- 盒盖 -->
+      <polygon points="236,150 258,134 258,150 236,166" fill="#a5c4bf"/>
+      <rect x="156" y="150" width="80" height="16" fill="#cde2de"/>
+      <polygon points="156,150 236,150 258,134 178,134" fill="#dcebe8"/>
+      <rect x="156" y="164" width="80" height="2.4" fill="#9fbfba" opacity="0.6"/>
+      <!-- 丝带 -->
+      <rect x="191" y="150" width="10" height="74" fill="#d96a5a"/>
+      <rect x="191" y="150" width="3" height="74" fill="#e88a7c" opacity="0.8"/>
+      <polygon points="240.4,166 245.6,162.2 245.6,214.1 240.4,217.9" fill="#c25848"/>
+      <polygon points="244.4,143.9 249.6,140.1 249.6,156.1 244.4,159.9" fill="#c55a4a"/>
+      <polygon points="191,150 201,150 223,134 213,134" fill="#df7464"/>
+      <polygon points="164.4,143.9 244.4,143.9 249.6,140.1 169.6,140.1" fill="#df7464"/>
+      <!-- 蝴蝶结 -->
+      <path d="M206,144 C202,152 198,160 192,168 L197,169 C202,162 206,154 209,146 Z" fill="#cf6252"/>
+      <path d="M210,144 C216,152 222,158 228,162 L224,165 C218,160 213,153 208,146 Z" fill="#c45a4a"/>
+      <path d="M207,142 C194,126 178,128 182,139 C185,146 198,145 207,142 Z" fill="#dd6f5f"/>
+      <path d="M207,142 C196,134 188,134 186,138 C190,141 199,142 207,142 Z" fill="#b84f40" opacity="0.8"/>
+      <path d="M209,142 C222,124 240,128 235,139 C232,146 218,145 209,142 Z" fill="#dd6f5f"/>
+      <path d="M209,142 C220,133 229,133 231,137 C227,141 218,142 209,142 Z" fill="#b84f40" opacity="0.8"/>
+      <ellipse cx="208" cy="142" rx="4.6" ry="3.6" fill="#e27c6c"/>
+      <path d="M186,134 C190,130 196,130 200,134" stroke="#f2a597" stroke-width="1.2" fill="none" opacity="0.8"/>
+
+      <!-- 牛皮纸包着的花束 -->
+      <g transform="translate(-12,0)">
+      <path d="M352,212 L378,224 M352,214 L374,228 M350,210 L380,218" stroke="#7aa25d" stroke-width="1.6" stroke-linecap="round"/>
+      <polygon points="313.7,166 290,210 349.4,217.4 354.6,206.6" fill="url(#kraft)"/>
+      <polygon points="313.7,166 326,186 354.6,206.6" fill="#ecd0a8" opacity="0.8"/>
+      <path d="M345,205 C342,210 344,216 348,218 M349,206 C352,210 356,214 360,214" stroke="#f3e6cf" stroke-width="1.2" fill="none"/>
+      <ellipse cx="347" cy="211" rx="2.4" ry="3.6" fill="#f3e6cf" transform="rotate(25 347 211)"/>
+      <g fill="#7fb062">
+        <use href="#leaf" transform="translate(288,190) rotate(160) scale(1)"/><use href="#leaf" transform="translate(296,172) rotate(-120) scale(1)"/>
+        <use href="#leaf" transform="translate(300,206) rotate(120) scale(0.9)"/><use href="#leaf" transform="translate(312,168) rotate(-80) scale(0.85)"/>
+      </g>
+      <g fill="#b4a6d4"><circle cx="300" cy="166" r="2.2"/><circle cx="296" cy="162" r="2"/><circle cx="303" cy="161" r="1.9"/><circle cx="299" cy="157" r="1.7"/></g>
+      <use href="#rosebud" transform="translate(292,182)"/>
+      <use href="#peony" transform="translate(310,192)"/>
+      <use href="#daisy" transform="translate(284,200)"/>
+      <use href="#daisy" transform="translate(308,176) scale(0.9)"/>
+      <use href="#rosebud" transform="translate(298,201) scale(0.75)"/>
+      <g fill="#f2c45c"><circle cx="318" cy="178" r="1.6"/><circle cx="321" cy="182" r="1.5"/><circle cx="280" cy="186" r="1.5"/></g>
+      </g>
+      </g>
+    </g>
+
+    <!-- 桌上的阴影 -->
+    <g filter="url(#soft2)" opacity="0.18" fill="#8a6a4a">
+      <ellipse cx="54" cy="199" rx="20" ry="2.6"/>
+      <g transform="translate(-46,-45.2) scale(1.2)">
+        <polygon points="160,224 232,224 254,208 284,212 260,230 168,230"/>
+        <ellipse cx="308" cy="219" rx="40" ry="4"/><ellipse cx="132" cy="227" rx="20" ry="2.4"/>
+      </g>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

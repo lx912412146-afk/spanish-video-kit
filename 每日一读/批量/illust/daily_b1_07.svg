@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：冬天空荡荡的海滩，灰蓝的海、浪花、海鸥、收起的遮阳伞（水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe7ea"/><stop offset="0.6" stop-color="#ebeeeb"/><stop offset="1" stop-color="#f3eee4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8bcc4"/><stop offset="0.55" stop-color="#9db4bd"/><stop offset="1" stop-color="#b4c8cb"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3d8c6"/><stop offset="1" stop-color="#ebe1d0"/>
+    </linearGradient>
+    <linearGradient id="wet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbd2cf"/><stop offset="1" stop-color="#d8d3c6"/>
+    </linearGradient>
+    <linearGradient id="pole" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9cdbb"/><stop offset="0.5" stop-color="#f5efe4"/><stop offset="1" stop-color="#cbbfac"/>
+    </linearGradient>
+    <linearGradient id="post" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f8072"/><stop offset="0.5" stop-color="#ab9c8b"/><stop offset="1" stop-color="#857668"/>
+    </linearGradient>
+    <g id="gull">
+      <path d="M-1,6 L-1,12 M2.4,6 L2.4,12" stroke="#e0a07c" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M-11,2 C-11,-4 -4,-6.5 2,-6.5 C6,-6.5 8.4,-4 8.4,-1 C8.4,4 4,7 -2,7 C-6,7 -11,5 -11,2 Z" fill="#f8f7f3"/>
+      <path d="M-13,0.6 C-8,-4 0,-4.4 5,-2 C2,2 -4,3 -13,2.4 Z" fill="#b9c3c9"/>
+      <path d="M-16,1.4 L-11,-0.2 L-10.6,2.6 Z" fill="#6f747a"/>
+      <circle cx="6" cy="-8.4" r="3.8" fill="#fbfaf7"/>
+      <circle cx="7.2" cy="-9" r="0.65" fill="#4a4038"/>
+      <path d="M9.4,-8.6 L13.6,-7.8 L9.4,-6.6 Z" fill="#ecc264"/><circle cx="12" cy="-7.4" r="0.55" fill="#d9634f"/>
+    </g>
+    <g id="fly">
+      <path d="M-15,-1 C-10,-7 -4,-7 0,0 C4,-7 10,-7 15,-1 C10,-3.6 4,-2.6 0,2.6 C-4,-2.6 -10,-3.6 -15,-1 Z" fill="#f7f7f3"/>
+      <path d="M-15,-1 L-12,-3.4 L-11,-1.6 Z M15,-1 L12,-3.4 L11,-1.6 Z" fill="#7d8389"/>
+      <path d="M-6,-2.6 C-4,-4 -2,-3 0,0 C2,-3 4,-4 6,-2.6" fill="none" stroke="#c3cbd0" stroke-width="0.9"/>
+    </g>
+    <g id="tuft" stroke-linecap="round" fill="none">
+      <path d="M0,0 C-2,-8 -6,-14 -11,-18" stroke="#a7b088" stroke-width="1.3"/><path d="M1,0 C1,-9 0,-16 -2,-22" stroke="#b5bd94" stroke-width="1.3"/>
+      <path d="M2,0 C4,-8 7,-14 12,-17" stroke="#9fa982" stroke-width="1.3"/><path d="M0,0 C-4,-5 -9,-8 -15,-9" stroke="#b9bf98" stroke-width="1.2"/>
+      <path d="M2,0 C6,-5 10,-7 16,-8" stroke="#aab38c" stroke-width="1.2"/>
+    </g>
+    <g id="print"><ellipse cx="-2.4" cy="0" rx="1.6" ry="2.6" fill="#cdbfa8"/><ellipse cx="2.4" cy="-3.4" rx="1.6" ry="2.6" fill="#cdbfa8"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+
+    <g filter="url(#wc)">
+      <!-- 冬天的云 -->
+      <g filter="url(#soft)" opacity="0.7">
+        <ellipse cx="320" cy="44" rx="70" ry="10" fill="#f8f8f5"/><ellipse cx="290" cy="76" rx="90" ry="8" fill="#d6dfe3"/>
+        <ellipse cx="90" cy="84" rx="80" ry="7" fill="#d9e1e4"/><ellipse cx="350" cy="26" rx="40" ry="6" fill="#d6dfe3"/>
+      </g>
+      <!-- 远处的岬角 -->
+      <path d="M280,110 C300,102 322,96 346,94 C364,92 384,96 400,100 L400,112 L280,112 Z" fill="#b6c5ca"/>
+      <path d="M330,110 C346,104 364,102 380,104 C390,105 396,107 400,108 L400,112 L330,112 Z" fill="#a9babf"/>
+
+      <!-- 海 -->
+      <rect x="0" y="109" width="400" height="56" fill="url(#sea)"/>
+      <g stroke="#c4d3d7" stroke-width="1.1" stroke-linecap="round" opacity="0.8">
+        <line x1="30" y1="118" x2="60" y2="118"/><line x1="120" y1="116" x2="150" y2="116"/><line x1="214" y1="120" x2="240" y2="120"/>
+        <line x1="300" y1="118" x2="330" y2="118"/><line x1="70" y1="128" x2="96" y2="128"/><line x1="170" y1="130" x2="200" y2="130"/>
+        <line x1="260" y1="132" x2="290" y2="132"/><line x1="350" y1="126" x2="376" y2="126"/>
+      </g>
+      <!-- 远浪 -->
+      <path d="M0,140 C30,137 60,141 90,138 C120,135 150,140 180,137 C210,134 240,139 270,136 C300,133 330,138 360,135 C380,134 392,136 400,136" fill="none" stroke="#e9eff0" stroke-width="2" opacity="0.8"/>
+      <!-- 近浪：浪花 -->
+      <path d="M0,152 C20,146 40,150 60,147 C80,144 100,150 120,147 C140,144 160,149 180,146 C200,143 220,149 240,146 C260,143 280,148 300,145 C320,142 340,148 360,145 C380,142 392,146 400,145 L400,160 L0,160 Z" fill="#c7d7da"/>
+      <path d="M0,152 C20,146 40,150 60,147 C80,144 100,150 120,147 C140,144 160,149 180,146 C200,143 220,149 240,146 C260,143 280,148 300,145 C320,142 340,148 360,145 C380,142 392,146 400,145" fill="none" stroke="#fbfbf8" stroke-width="3.2" stroke-linecap="round"/>
+      <g fill="#fbfbf8" opacity="0.85">
+        <ellipse cx="40" cy="149" rx="12" ry="2.6"/><ellipse cx="128" cy="148" rx="14" ry="2.6"/><ellipse cx="226" cy="147" rx="12" ry="2.4"/><ellipse cx="318" cy="146" rx="14" ry="2.6"/>
+      </g>
+      <!-- 湿沙与回流的海水 -->
+      <rect x="0" y="158" width="400" height="22" fill="url(#wet)"/>
+      <path d="M0,158 C40,162 70,166 110,164 C150,162 180,168 220,166 C260,164 300,169 340,166 C370,164 390,166 400,166 L400,158 Z" fill="#dfe7e6"/>
+      <path d="M0,160 C40,164 70,168 110,166 C150,164 180,170 220,168 C260,166 300,171 340,168 C370,166 390,168 400,168" fill="none" stroke="#f6f6f2" stroke-width="1.6"/>
+      <!-- 干沙 -->
+      <path d="M0,176 C80,172 160,178 240,175 C300,173 360,176 400,175 L400,260 L0,260 Z" fill="url(#sand)"/>
+      <path d="M260,260 C300,226 340,212 400,206 L400,260 Z" fill="#e8dcc8"/>
+      <path d="M0,232 C40,224 80,226 110,236 C120,244 120,252 116,260 L0,260 Z" fill="#e9dfcd"/>
+      <!-- 防波木桩 -->
+      <g>
+        <rect x="160" y="152" width="3" height="9" fill="url(#post)"/><rect x="149" y="155" width="3.6" height="11" fill="url(#post)"/>
+        <rect x="134" y="158" width="4.4" height="14" fill="url(#post)"/><rect x="114" y="163" width="5.2" height="18" fill="url(#post)"/>
+        <rect x="88" y="169" width="6.4" height="23" fill="url(#post)"/><rect x="56" y="176" width="8" height="30" fill="url(#post)"/>
+      </g>
+      <g fill="#c2b5a4"><rect x="160" y="152" width="3" height="1.4"/><rect x="149" y="155" width="3.6" height="1.6"/><rect x="134" y="158" width="4.4" height="1.8"/><rect x="114" y="163" width="5.2" height="2"/><rect x="88" y="169" width="6.4" height="2.4"/><rect x="56" y="176" width="8" height="2.8"/></g>
+      <g fill="#f4f4ef" opacity="0.9"><ellipse cx="161.5" cy="160" rx="4" ry="1"/><ellipse cx="151" cy="165" rx="5" ry="1.1"/><ellipse cx="136" cy="171" rx="6" ry="1.2"/></g>
+      <g fill="#cbbda8" opacity="0.6"><ellipse cx="117" cy="181" rx="6" ry="1.4"/><ellipse cx="91" cy="192" rx="8" ry="1.6"/><ellipse cx="60" cy="206" rx="10" ry="2"/></g>
+
+      <!-- 空荡荡的海滩小吃店（关着门） -->
+      <rect x="294" y="162" width="72" height="46" fill="#cdb898"/>
+      <g stroke="#b39b7a" stroke-width="0.8"><line x1="302" y1="162" x2="302" y2="208"/><line x1="358" y1="162" x2="358" y2="208"/><line x1="294" y1="200" x2="366" y2="200"/></g>
+      <rect x="302" y="169" width="56" height="27" fill="#b4c6cc"/>
+      <g stroke="#98adb4" stroke-width="0.9"><line x1="302" y1="172.5" x2="358" y2="172.5"/><line x1="302" y1="176" x2="358" y2="176"/><line x1="302" y1="179.5" x2="358" y2="179.5"/><line x1="302" y1="183" x2="358" y2="183"/><line x1="302" y1="186.5" x2="358" y2="186.5"/><line x1="302" y1="190" x2="358" y2="190"/><line x1="302" y1="193.5" x2="358" y2="193.5"/></g>
+      <rect x="298" y="196" width="64" height="3.4" fill="#b19674"/>
+      <polygon points="366,162 374,158 374,204 366,208" fill="#b8a07e"/>
+      <path d="M288,163 L372,163 L368,151 L292,151 Z" fill="#ebe3d6"/>
+      <rect x="287" y="161" width="86" height="4" fill="#d29478"/>
+      <rect x="329" y="182" width="3" height="4" rx="1" fill="#8d8a86"/>
+      <path d="M296,208 L296,212 M364,208 L364,212" stroke="#b39b7a" stroke-width="2"/>
+      <!-- 脚印 -->
+      <use href="#print" transform="translate(138,252) rotate(-28)"/><use href="#print" transform="translate(152,242) rotate(-30)"/>
+      <use href="#print" transform="translate(168,233) rotate(-36) scale(0.95)"/><use href="#print" transform="translate(186,225) rotate(-42) scale(0.9)"/>
+      <use href="#print" transform="translate(205,219) rotate(-50) scale(0.85)"/><use href="#print" transform="translate(224,214) rotate(-58) scale(0.8)"/>
+      <use href="#print" transform="translate(242,210) rotate(-62) scale(0.75)"/>
+
+      <!-- 收起来的遮阳伞 -->
+      <g transform="rotate(5 270 218)">
+        <rect x="268.4" y="94" width="3.4" height="124" fill="url(#pole)"/>
+        <circle cx="270" cy="93" r="2.4" fill="#e7ddcd"/>
+        <path d="M270,98 C276,112 283,138 281,158 C280,168 275,174 270,174 C265,174 260,168 259,158 C257,138 264,112 270,98 Z" fill="#f2e6d2"/>
+        <path d="M270,98 C273,114 276,140 275,172 L270,174 C270,140 270,114 270,98 Z" fill="#d98a6c"/>
+        <path d="M270,98 C266,112 261,138 260,158 C260,166 262,171 264,173 C263,150 265,120 270,98 Z" fill="#d98a6c"/>
+        <path d="M270,98 C278,114 283,138 281,158 C281,166 278,171 276,172 C279,150 276,120 270,98 Z" fill="#e7d6bd" opacity="0.8"/>
+        <path d="M270,100 C271,120 272,146 272,170" fill="none" stroke="#c4765a" stroke-width="0.8" opacity="0.6"/>
+        <path d="M262,144 C266,146 274,146 279,144 L279,149 C274,151 266,151 262,149 Z" fill="#8ea4b1"/>
+        <path d="M262,170 C264,176 268,180 270,180 C272,180 276,176 278,170 C276,174 272,175 270,175 C268,175 264,174 262,170 Z" fill="#d1a68a"/>
+        <rect x="267.4" y="184" width="5.4" height="4" rx="1" fill="#c9bba7"/>
+      </g>
+
+      <!-- 海鸥 -->
+      <use href="#gull" transform="translate(60,165) scale(0.8)"/>
+      <use href="#gull" transform="translate(150,206)"/>
+      <use href="#gull" transform="translate(182,214) scale(-0.92,0.92)"/>
+      <use href="#fly" transform="translate(250,62) rotate(-6)"/>
+      <use href="#fly" transform="translate(296,82) rotate(8) scale(0.75)"/>
+      <use href="#fly" transform="translate(330,52) rotate(-4) scale(0.6)"/>
+
+      <!-- 沙丘草 -->
+      <use href="#tuft" transform="translate(360,222)"/><use href="#tuft" transform="translate(382,216) scale(0.85)"/><use href="#tuft" transform="translate(338,232) scale(0.7)"/>
+      <use href="#tuft" transform="translate(30,240) scale(0.9)"/><use href="#tuft" transform="translate(56,246) scale(0.7)"/><use href="#tuft" transform="translate(12,236) scale(0.75)"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#6f6a5e">
+      <ellipse cx="282" cy="218" rx="20" ry="2.6"/><ellipse cx="332" cy="210" rx="44" ry="3.4"/><ellipse cx="148" cy="218" rx="12" ry="2"/><ellipse cx="184" cy="226" rx="11" ry="2"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

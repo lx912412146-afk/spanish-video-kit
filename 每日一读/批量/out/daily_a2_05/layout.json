@@ -1,0 +1,298 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  607.828125
+ ],
+ "zh": [
+  96,
+  633.828125,
+  480,
+  849.953125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  269.28125,
+  131.625
+ ],
+ "header_gap": 127.90625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   6.4,
+   "El verano pasado hice mi primer viaje en avión. La noche"
+  ],
+  [
+   "mid",
+   5.5,
+   "anterior no pude dormir porque estaba un poco nervioso. En el"
+  ],
+  [
+   "mid",
+   7.1,
+   "aeropuerto había mucha gente y todo era enorme. Facturé la"
+  ],
+  [
+   "mid",
+   5.5,
+   "maleta, pasé el control y esperé en la puerta de embarque. Me"
+  ],
+  [
+   "last",
+   3.6,
+   "senté junto a la ventanilla, porque quería verlo todo."
+  ],
+  [
+   "mid",
+   6.6,
+   "Cuando el avión despegó, sentí un poco de miedo. Unos"
+  ],
+  [
+   "mid",
+   6.1,
+   "minutos después, ya volábamos por encima de las nubes. Las"
+  ],
+  [
+   "mid",
+   3.7,
+   "nubes parecían algodón y el cielo era de un azul intenso. Abajo, la"
+  ],
+  [
+   "mid",
+   5.3,
+   "tierra parecía un mapa con campos de colores. También veía el"
+  ],
+  [
+   "mid",
+   4.5,
+   "ala del avión, que brillaba bajo el sol. Desde entonces he viajado"
+  ],
+  [
+   "last",
+   3.6,
+   "más veces, pero siempre pido ventanilla."
+  ]
+ ],
+ "es_max_gap": 7.1,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

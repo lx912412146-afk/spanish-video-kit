@@ -1,0 +1,290 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_08.mp3",
+ "duration": 61.643,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.6,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.69,
+  "buzz_hz": 11151.9,
+  "buzz_db": 3.6,
+  "comb_db": 0.09
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 3.0,
+   "parts": [
+    [
+     0.5,
+     3.0
+    ]
+   ],
+   "segments": [
+    "Un día de pesca con mi padre."
+   ],
+   "text": "Un día de pesca con mi padre.",
+   "read": "Un día de pesca con mi padre."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.9,
+   "end": 7.26,
+   "parts": [
+    [
+     3.9,
+     7.26
+    ]
+   ],
+   "segments": [
+    "El sábado pasado fui a pescar con mi padre."
+   ],
+   "text": "El sábado pasado fui a pescar con mi padre.",
+   "read": "El sábado pasado fui a pescar con mi padre."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.16,
+   "end": 13.257,
+   "parts": [
+    [
+     8.16,
+     10.787
+    ],
+    [
+     11.067,
+     13.257
+    ]
+   ],
+   "segments": [
+    "Salimos de casa muy temprano,",
+    "cuando todavía era de noche."
+   ],
+   "text": "Salimos de casa muy temprano, cuando todavía era de noche.",
+   "read": "Salimos de casa muy temprano, cuando todavía era de noche."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.157,
+   "end": 18.267,
+   "parts": [
+    [
+     14.157,
+     18.267
+    ]
+   ],
+   "segments": [
+    "Mi padre tiene una barca de madera y dos cañas de pescar."
+   ],
+   "text": "Mi padre tiene una barca de madera y dos cañas de pescar.",
+   "read": "Mi padre tiene una barca de madera y dos cañas de pescar."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.167,
+   "end": 23.477,
+   "parts": [
+    [
+     19.167,
+     20.777
+    ],
+    [
+     21.057,
+     23.477
+    ]
+   ],
+   "segments": [
+    "Al llegar al lago,",
+    "remamos despacio hasta el centro."
+   ],
+   "text": "Al llegar al lago, remamos despacio hasta el centro.",
+   "read": "Al llegar al lago, remamos despacio hasta el centro."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.377,
+   "end": 29.497,
+   "parts": [
+    [
+     24.377,
+     29.497
+    ]
+   ],
+   "segments": [
+    "A nuestro alrededor había juncos, árboles y montañas azules."
+   ],
+   "text": "A nuestro alrededor había juncos, árboles y montañas azules.",
+   "read": "A nuestro alrededor había juncos, árboles y montañas azules."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 30.397,
+   "end": 35.25,
+   "parts": [
+    [
+     30.397,
+     33.233
+    ],
+    [
+     33.513,
+     35.25
+    ]
+   ],
+   "segments": [
+    "Durante mucho tiempo no pescamos nada,",
+    "pero no me importaba."
+   ],
+   "text": "Durante mucho tiempo no pescamos nada, pero no me importaba.",
+   "read": "Durante mucho tiempo no pescamos nada, pero no me importaba."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 36.15,
+   "end": 39.18,
+   "parts": [
+    [
+     36.15,
+     39.18
+    ]
+   ],
+   "segments": [
+    "Él me contaba historias de cuando era joven."
+   ],
+   "text": "Él me contaba historias de cuando era joven.",
+   "read": "Él me contaba historias de cuando era joven."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 40.08,
+   "end": 45.693,
+   "parts": [
+    [
+     40.08,
+     41.69
+    ],
+    [
+     41.97,
+     45.693
+    ]
+   ],
+   "segments": [
+    "De repente,",
+    "mi caña se movió y saqué un pez bastante grande."
+   ],
+   "text": "De repente, mi caña se movió y saqué un pez bastante grande.",
+   "read": "De repente, mi caña se movió y saqué un pez bastante grande."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 46.593,
+   "end": 49.943,
+   "parts": [
+    [
+     46.593,
+     49.943
+    ]
+   ],
+   "segments": [
+    "Papá sonrió y me dijo que estaba orgulloso de mí."
+   ],
+   "text": "Papá sonrió y me dijo que estaba orgulloso de mí.",
+   "read": "Papá sonrió y me dijo que estaba orgulloso de mí."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 50.843,
+   "end": 55.433,
+   "parts": [
+    [
+     50.843,
+     55.433
+    ]
+   ],
+   "segments": [
+    "Al final devolvimos el pez al agua y volvimos a casa contentos."
+   ],
+   "text": "Al final devolvimos el pez al agua y volvimos a casa contentos.",
+   "read": "Al final devolvimos el pez al agua y volvimos a casa contentos."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 56.333,
+   "end": 60.443,
+   "parts": [
+    [
+     56.333,
+     57.073
+    ],
+    [
+     57.353,
+     60.443
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "aquella mañana con mi padre fue un tesoro."
+   ],
+   "text": "Para mí, aquella mañana con mi padre fue un tesoro.",
+   "read": "Para mí, aquella mañana con mi padre fue un tesoro."
+  }
+ ]
+}

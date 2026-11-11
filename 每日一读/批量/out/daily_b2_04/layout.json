@@ -1,0 +1,287 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  613.53125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  621.53125
+ ],
+ "zh": [
+  96,
+  647.53125,
+  480,
+  863.65625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  285.6875,
+  131.625
+ ],
+ "header_gap": 91.984375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   165
+  ],
+  [
+   506,
+   176,
+   626,
+   194
+  ],
+  [
+   506,
+   205,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.2,
+   "Durante años trabajé frente a una pantalla sin ver nunca el fruto"
+  ],
+  [
+   "mid",
+   4.9,
+   "de mi esfuerzo. Por eso, el otoño pasado me apunté a un taller de"
+  ],
+  [
+   "mid",
+   6.1,
+   "carpintería. Allí aprendí a usar el martillo, la sierra y el cepillo. Mi"
+  ],
+  [
+   "mid",
+   5.2,
+   "primera obra fue una caja llena de imperfecciones, pero nunca me"
+  ],
+  [
+   "last",
+   3.4,
+   "había sentido tan orgulloso."
+  ],
+  [
+   "mid",
+   4.1,
+   "Tradicionalmente, el trabajo manual ha sido considerado inferior"
+  ],
+  [
+   "mid",
+   6.8,
+   "al trabajo intelectual. Sin embargo, trabajar con las manos exige"
+  ],
+  [
+   "mid",
+   3.7,
+   "paciencia, precisión y capacidad para resolver problemas. De hecho,"
+  ],
+  [
+   "mid",
+   5.3,
+   "a medida que ganaba destreza, comprendí que pensar y hacer no"
+  ],
+  [
+   "mid",
+   4.6,
+   "son actividades opuestas. Ojalá las escuelas dedicaran más tiempo"
+  ],
+  [
+   "mid",
+   6.8,
+   "a este tipo de aprendizaje. Hoy, cada vez que veo aquella caja,"
+  ],
+  [
+   "last",
+   3.4,
+   "recuerdo que también se piensa con las manos."
+  ]
+ ],
+ "es_max_gap": 6.8,
+ "es_font": [
+  12.7,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

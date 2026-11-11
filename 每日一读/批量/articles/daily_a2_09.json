@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_09",
+ "level": "A2",
+ "no": 9,
+ "title_es": "Me perdí en la ciudad",
+ "title_zh": "我在城里迷路了",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 9 篇。原创短文。简单过去时叙述迷路的经过（salí、caminé、me di cuenta、me acompañó），过去未完成时描写街道和心情（eran、tenían、estaba、se encendían），间接问句 si necesitaba ayuda。11 句，115 词。没有需要不停顿的列举逗号：第 3 句是两个并列分句，中间没有逗号；第 4、7 句 porque 前、第 6 句 pero 前、第 5 句 Cuando 从句后的逗号照常停顿。estaba perdido 用阳性；标题的 me perdí 在正文里写成 estaba perdido 和 perderse，所以词汇里没有放在最前；casco antiguo 是“老城区”；alegres 形容颜色，释义取“明快的”；señor mayor 译作“老先生”。彩色房子、阳台、路灯和地图对应插图。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "pasear",
+   "散步",
+   "pasear"
+  ],
+  [
+   "solo",
+   "独自",
+   "solo"
+  ],
+  [
+   "casco antiguo",
+   "老城区",
+   "casco antiguo"
+  ],
+  [
+   "estrecho",
+   "狭窄的",
+   "estrechas"
+  ],
+  [
+   "alegre",
+   "明快的",
+   "alegres"
+  ],
+  [
+   "balcón",
+   "阳台",
+   "balcones"
+  ],
+  [
+   "mapa",
+   "地图",
+   "mapa"
+  ],
+  [
+   "darse cuenta",
+   "意识到",
+   "di cuenta"
+  ],
+  [
+   "perdido",
+   "迷路的",
+   "perdido"
+  ],
+  [
+   "igual",
+   "一样的",
+   "iguales"
+  ],
+  [
+   "preocupado",
+   "担心的",
+   "preocupado"
+  ],
+  [
+   "farola",
+   "路灯",
+   "farolas"
+  ],
+  [
+   "mayor",
+   "年长的",
+   "mayor"
+  ],
+  [
+   "acompañar",
+   "陪同",
+   "acompañó"
+  ],
+  [
+   "plaza",
+   "广场",
+   "plaza"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Durante las vacaciones visité una ciudad que no conocía.",
+    "zh": "假期里，我去了一座以前没去过的城市。"
+   },
+   {
+    "es": "Una tarde salí a pasear solo por el casco antiguo.",
+    "zh": "一天下午，我一个人去老城区散步。"
+   },
+   {
+    "es": "Las calles eran estrechas y las casas tenían colores alegres y balcones con flores.",
+    "zh": "那里的街道很窄，房子颜色明快，阳台上摆着鲜花。"
+   },
+   {
+    "es": "Caminé mucho sin mirar el mapa, porque todo era precioso.",
+    "zh": "我走了很久，一直没看地图，因为到处都太美了。"
+   },
+   {
+    "es": "Cuando quise volver al hotel, me di cuenta de que estaba perdido.",
+    "zh": "我想回酒店的时候，才发现自己迷路了。"
+   }
+  ],
+  [
+   {
+    "es": "Abrí el mapa, pero las calles parecían todas iguales.",
+    "zh": "我打开地图，可是那些街道看起来都一模一样。"
+   },
+   {
+    "es": "Estaba un poco preocupado, porque ya se encendían las farolas.",
+    "zh": "我有点担心，因为路灯已经亮了。"
+   },
+   {
+    "es": "Entonces un señor mayor me preguntó si necesitaba ayuda.",
+    "zh": "这时，一位老先生问我需不需要帮忙。"
+   },
+   {
+    "es": "Me explicó el camino muy amablemente y me acompañó hasta una plaza.",
+    "zh": "他很和气地给我指了路，还陪我走到了一个广场。"
+   },
+   {
+    "es": "Desde allí encontré mi hotel sin problemas.",
+    "zh": "从那里，我顺利地找到了酒店。"
+   },
+   {
+    "es": "Aquel día aprendí que perderse también es una forma de conocer una ciudad.",
+    "zh": "那天我明白了，迷路也是了解一座城市的一种方式。"
+   }
+  ]
+ ]
+}

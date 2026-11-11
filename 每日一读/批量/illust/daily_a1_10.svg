@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：冬天来了，窗外下雪，屋里椅子上搭着围巾和手套，桌上一杯热巧克力（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <clipPath id="win"><rect x="152" y="50" width="196" height="114"/></clipPath>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f4dfc8"/>
+    </linearGradient>
+    <linearGradient id="wsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfdce6"/><stop offset="1" stop-color="#eaeff0"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f9f9"/><stop offset="1" stop-color="#e3eaee"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ead2b4"/><stop offset="1" stop-color="#e0c19e"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b98d63"/><stop offset="0.5" stop-color="#cfa67b"/><stop offset="1" stop-color="#b3865f"/>
+    </linearGradient>
+    <linearGradient id="seat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcb68c"/><stop offset="1" stop-color="#cda57a"/>
+    </linearGradient>
+    <linearGradient id="scarf" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cf6855"/><stop offset="0.5" stop-color="#e3826c"/><stop offset="1" stop-color="#c9624f"/>
+    </linearGradient>
+    <linearGradient id="glove" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1cf7a"/><stop offset="1" stop-color="#e2b55a"/>
+    </linearGradient>
+    <linearGradient id="mug" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9dfd0"/><stop offset="0.45" stop-color="#fbf6ee"/><stop offset="1" stop-color="#ddd1bf"/>
+    </linearGradient>
+    <linearGradient id="rad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4ede2"/><stop offset="1" stop-color="#e2d7c7"/>
+    </linearGradient>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c49a70"/><stop offset="0.45" stop-color="#d9b48a"/><stop offset="1" stop-color="#bd9269"/>
+    </linearGradient>
+    <g id="flake"><circle r="1.5" fill="#ffffff"/></g>
+    <g id="glv">
+      <path d="M-7,0 L-7,-12 C-7,-14 -5,-15 -4,-14 L-4,-19 C-4,-21 -1.5,-21 -1.5,-19 L-1.5,-20.5 C-1.5,-22.5 1,-22.5 1,-20.5 L1,-19.5 C1,-21.5 3.5,-21.5 3.5,-19.5 L3.5,-17.5 C3.5,-19.5 6,-19.5 6,-17.5 L6,-8 C8,-10 10.5,-9 9.5,-7 L6,-1 L6,0 Z" fill="url(#glove)"/>
+      <rect x="-8" y="-1" width="15" height="6" rx="1.5" fill="#f6dc94"/>
+      <g stroke="#e2b55a" stroke-width="0.8"><line x1="-5" y1="-0.5" x2="-5" y2="4.5"/><line x1="-2" y1="-0.5" x2="-2" y2="4.5"/><line x1="1" y1="-0.5" x2="1" y2="4.5"/><line x1="4" y1="-0.5" x2="4" y2="4.5"/></g>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="206" width="400" height="54" fill="url(#floor)"/>
+    <g stroke="#d7b893" stroke-width="0.8" opacity="0.7">
+      <line x1="0" y1="222" x2="400" y2="222"/><line x1="0" y1="240" x2="400" y2="240"/>
+      <line x1="80" y1="206" x2="77" y2="222"/><line x1="230" y1="206" x2="228" y2="222"/><line x1="360" y1="206" x2="358" y2="222"/>
+      <line x1="150" y1="222" x2="146" y2="240"/><line x1="300" y1="222" x2="298" y2="240"/><line x1="60" y1="240" x2="56" y2="260"/><line x1="250" y1="240" x2="248" y2="260"/>
+    </g>
+    <rect x="0" y="202" width="400" height="5" fill="#e7cfb0"/>
+
+    <g filter="url(#wc)">
+      <!-- 窗外：下雪的街道 -->
+      <g clip-path="url(#win)">
+        <rect x="152" y="50" width="196" height="114" fill="url(#wsky)"/>
+        <!-- 对面的房子和白屋顶 -->
+        <rect x="146" y="92" width="58" height="56" fill="#ead8c8"/>
+        <path d="M142,94 L175,70 L208,94 Z" fill="#cf9f8a"/>
+        <path d="M142,94 L175,70 L208,94 L203,95 C192,90 186,92 175,86 C164,92 156,90 147,96 Z" fill="#fbfcfc"/>
+        <rect x="204" y="84" width="58" height="64" fill="#cdd7db"/>
+        <path d="M201,86 C210,78 254,78 265,86 L265,90 L201,90 Z" fill="#fbfcfc"/>
+        <rect x="262" y="96" width="56" height="52" fill="#ecdcc8"/>
+        <path d="M258,98 L290,74 L322,98 Z" fill="#c9a492"/>
+        <path d="M258,98 L290,74 L322,98 L317,99 C306,94 300,96 290,90 C280,96 272,94 262,100 Z" fill="#fbfcfc"/>
+        <rect x="318" y="88" width="40" height="60" fill="#d9c6b8"/>
+        <path d="M315,90 C324,83 352,83 361,90 L361,94 L315,94 Z" fill="#fbfcfc"/>
+        <rect x="170" y="74" width="7" height="12" fill="#bba59a"/><rect x="169" y="71" width="9" height="4" rx="1.5" fill="#fbfcfc"/>
+        <g fill="#f3d796">
+          <rect x="158" y="104" width="9" height="12" rx="1"/><rect x="184" y="122" width="9" height="12" rx="1"/>
+          <rect x="216" y="96" width="9" height="12" rx="1"/><rect x="240" y="116" width="9" height="12" rx="1"/>
+          <rect x="274" y="108" width="9" height="12" rx="1"/><rect x="328" y="100" width="9" height="12" rx="1"/>
+        </g>
+        <g fill="#b7c3c8">
+          <rect x="184" y="104" width="9" height="12" rx="1"/><rect x="158" y="122" width="9" height="12" rx="1"/>
+          <rect x="240" y="96" width="9" height="12" rx="1"/><rect x="216" y="116" width="9" height="12" rx="1"/>
+          <rect x="298" y="108" width="9" height="12" rx="1"/><rect x="342" y="100" width="9" height="12" rx="1"/><rect x="328" y="120" width="9" height="12" rx="1"/>
+        </g>
+        <g fill="#fbfcfc"><rect x="157" y="115.5" width="11" height="2" rx="1"/><rect x="215" y="107.5" width="11" height="2" rx="1"/><rect x="273" y="119.5" width="11" height="2" rx="1"/><rect x="327" y="111.5" width="11" height="2" rx="1"/></g>
+        <!-- 积雪的街道 -->
+        <rect x="146" y="144" width="216" height="22" fill="url(#snow)"/>
+        <path d="M146,144 C190,140 250,146 300,141 C320,139 340,142 362,141 L362,146 L146,146 Z" fill="#ffffff"/>
+        <g fill="#d6e1e7" opacity="0.9"><ellipse cx="200" cy="156" rx="30" ry="2"/><ellipse cx="300" cy="160" rx="34" ry="2.2"/></g>
+        <!-- 路灯 -->
+        <line x1="232" y1="96" x2="232" y2="148" stroke="#7d8a8f" stroke-width="2"/>
+        <path d="M226,92 L238,92 L236,99 L228,99 Z" fill="#7d8a8f"/>
+        <rect x="228.5" y="97" width="7" height="3" fill="#fbe7b0"/>
+        <ellipse cx="232" cy="91" rx="7" ry="2.4" fill="#fbfcfc"/>
+        <!-- 雪人 -->
+        <g transform="translate(-124,0)">
+        <circle cx="316" cy="143" r="9" fill="#fbfcfc" stroke="#d3dee4" stroke-width="0.9"/><circle cx="316" cy="130" r="6.4" fill="#fbfcfc" stroke="#d3dee4" stroke-width="0.9"/><path d="M318,136 C324,138 326,146 322,151" stroke="#dce5ea" stroke-width="2.4" fill="none"/>
+        <path d="M309,146 C312,151 320,151 323,146" stroke="#d6e1e7" stroke-width="1.6" fill="none"/>
+        <path d="M316,131 L321.5,132.2 L316,133 Z" fill="#ec9a4a"/>
+        <g fill="#7d7670"><circle cx="314" cy="128.6" r="0.8"/><circle cx="318" cy="128.6" r="0.8"/></g>
+        <path d="M310.5,135 C314,137 318,137 321.5,135" stroke="#d9705c" stroke-width="2.2" fill="none"/>
+        <path d="M308,140 L300,135 M324,140 L331,134" stroke="#9e7a5a" stroke-width="1" stroke-linecap="round"/>
+        </g>
+        <!-- 飘雪 -->
+        <g opacity="0.95">
+          <use href="#flake" transform="translate(162,58)"/><use href="#flake" transform="translate(184,66) scale(0.8)"/><use href="#flake" transform="translate(206,56)"/><use href="#flake" transform="translate(226,70) scale(1.2)"/>
+          <use href="#flake" transform="translate(252,60) scale(0.8)"/><use href="#flake" transform="translate(272,72)"/><use href="#flake" transform="translate(296,58) scale(1.2)"/><use href="#flake" transform="translate(320,68) scale(0.8)"/>
+          <use href="#flake" transform="translate(340,60)"/><use href="#flake" transform="translate(170,84) scale(1.1)"/><use href="#flake" transform="translate(198,78) scale(0.8)"/><use href="#flake" transform="translate(246,82)"/>
+          <use href="#flake" transform="translate(308,84) scale(0.9)"/><use href="#flake" transform="translate(336,78) scale(1.2)"/><use href="#flake" transform="translate(194,100)"/><use href="#flake" transform="translate(208,126) scale(1.2)"/>
+          <use href="#flake" transform="translate(256,106) scale(0.8)"/><use href="#flake" transform="translate(262,134)"/><use href="#flake" transform="translate(286,122) scale(1.1)"/><use href="#flake" transform="translate(310,110) scale(0.8)"/>
+          <use href="#flake" transform="translate(344,130)"/><use href="#flake" transform="translate(176,138) scale(0.9)"/><use href="#flake" transform="translate(228,140) scale(1.1)"/><use href="#flake" transform="translate(282,148) scale(0.8)"/>
+          <use href="#flake" transform="translate(166,152) scale(1.2)"/><use href="#flake" transform="translate(338,152)"/><use href="#flake" transform="translate(240,62) scale(0.7)"/><use href="#flake" transform="translate(328,94) scale(0.7)"/>
+        </g>
+      </g>
+      <!-- 窗框和窗台 -->
+      <g fill="none" stroke="#f4e9d8" stroke-linejoin="round">
+        <rect x="152" y="50" width="196" height="114" stroke-width="7"/>
+        <line x1="250" y1="50" x2="250" y2="164" stroke-width="5"/>
+      </g>
+      <rect x="144" y="162" width="212" height="8" rx="2" fill="#efdcc2"/>
+      <rect x="146" y="169" width="208" height="3" fill="#dfc7a6"/>
+
+      <!-- 暖气片 -->
+      <rect x="178" y="178" width="118" height="26" rx="3" fill="url(#rad)"/>
+      <g stroke="#d6cab8" stroke-width="1.2">
+        <line x1="190" y1="181" x2="190" y2="201"/><line x1="202" y1="181" x2="202" y2="201"/><line x1="214" y1="181" x2="214" y2="201"/><line x1="226" y1="181" x2="226" y2="201"/><line x1="238" y1="181" x2="238" y2="201"/>
+        <line x1="250" y1="181" x2="250" y2="201"/><line x1="262" y1="181" x2="262" y2="201"/><line x1="274" y1="181" x2="274" y2="201"/><line x1="286" y1="181" x2="286" y2="201"/>
+      </g>
+      <g fill="#d6cab8"><rect x="184" y="204" width="4" height="3"/><rect x="286" y="204" width="4" height="3"/></g>
+
+      <!-- 地毯 -->
+      <ellipse cx="200" cy="240" rx="150" ry="13" fill="#efe1cc"/>
+      <ellipse cx="200" cy="240" rx="140" ry="9.5" fill="none" stroke="#e2a08a" stroke-width="1.6"/>
+
+      <!-- 椅子 -->
+      <rect x="50" y="102" width="6" height="128" rx="2" fill="url(#wood)"/>
+      <rect x="110" y="102" width="6" height="128" rx="2" fill="url(#wood)"/>
+      <rect x="46" y="98" width="74" height="10" rx="4" fill="#c99d74"/>
+      <rect x="56" y="122" width="54" height="5" rx="2" fill="#c49a70"/>
+      <rect x="56" y="138" width="54" height="5" rx="2" fill="#c49a70"/>
+      <rect x="54" y="208" width="58" height="3" fill="#b98d63"/>
+      <polygon points="48,170 118,170 126,182 40,182" fill="url(#seat)"/>
+      <rect x="39" y="181" width="88" height="7" rx="2" fill="#b98d63"/>
+      <rect x="42" y="187" width="7" height="51" rx="2" fill="url(#wood)"/>
+      <rect x="117" y="187" width="7" height="51" rx="2" fill="url(#wood)"/>
+      <!-- 搭在椅背上的围巾 -->
+      <path d="M100,96 C104,100 108,104 112,104 L120,104 L122,178 L108,178 L108,108 C104,108 100,104 100,96 Z" fill="url(#scarf)"/>
+      <path d="M60,96 C66,92 98,92 104,96 L104,110 C98,106 66,106 60,110 Z" fill="#e3826c"/>
+      <path d="M60,98 L60,158 C62,160 74,160 76,158 L76,106 C72,104 64,104 60,106 Z" fill="url(#scarf)"/>
+      <g fill="#f7e4d0">
+        <rect x="60" y="120" width="16" height="4"/><rect x="60" y="134" width="16" height="4"/><rect x="60" y="148" width="16" height="4"/>
+        <rect x="108" y="132" width="14" height="4"/><rect x="108" y="146" width="14" height="4"/><rect x="108" y="160" width="14" height="4"/>
+      </g>
+      <path d="M62,159 L62,165 M65.5,159 L65.5,166 M69,159 L69,165 M72.5,159 L72.5,166 M75,158 L75,164" stroke="#d9705c" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M109,178 L109,185 M112.5,178 L112.5,186 M116,178 L116,185 M119.5,178 L119.5,186" stroke="#d9705c" stroke-width="1.3" stroke-linecap="round"/>
+      <g stroke="#c9624f" stroke-width="0.7" opacity="0.6" fill="none"><path d="M64,110 L64,156"/><path d="M68,110 L68,156"/><path d="M72,110 L72,156"/><path d="M112,110 L112,176"/><path d="M116,110 L116,176"/></g>
+      <!-- 椅子上的手套 -->
+      <use href="#glv" transform="translate(78,177) rotate(176)"/>
+      <use href="#glv" transform="translate(97,178) rotate(-174) scale(-1,1)"/>
+
+      <!-- 小桌和热巧克力 -->
+      <path d="M318,190 L326,190 L325,232 L319,232 Z" fill="#a67a54"/>
+      <path d="M302,238 C308,232 316,230 322,230 C328,230 336,232 342,238" stroke="#a67a54" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="280" y="183" width="84" height="6" rx="2.5" fill="#b98d63"/>
+      <ellipse cx="322" cy="183" rx="42" ry="7" fill="url(#marble)"/>
+      <ellipse cx="316" cy="182" rx="15" ry="3" fill="#efe7da"/>
+      <path d="M325,163 C333,163 333,175 324,175" stroke="#d27459" stroke-width="3" fill="none"/>
+      <path d="M305,158 L327,158 L326,178 C326,181 323,182 320,182 L312,182 C309,182 306,181 306,178 Z" fill="#e48c74"/>
+      <path d="M305.4,166 L326.6,166" stroke="#f6e3d8" stroke-width="2.2"/>
+      <ellipse cx="316" cy="158" rx="11" ry="2.4" fill="#8a5a3e"/>
+      <path d="M308,157 C308,151 314,149 316,152 C318,148 325,151 324,157 C320,159 312,159 308,157 Z" fill="#fbf6ee"/>
+      <g fill="#f4c2bb"><rect x="309" y="153" width="3.2" height="3.2" rx="0.8" transform="rotate(-12 310 154)"/><rect x="319" y="152.4" width="3.2" height="3.2" rx="0.8" transform="rotate(10 320 154)"/></g>
+      <ellipse cx="309" cy="170" rx="1.6" ry="5.5" fill="#fff" opacity="0.35"/>
+      <g stroke="#ffffff" stroke-width="1.4" fill="none" opacity="0.8" stroke-linecap="round">
+        <path d="M312,146 C309,141 315,137 312,131"/><path d="M320,145 C317,140 323,136 320,128"/>
+      </g>
+      <path d="M332,184 L344,180" stroke="#c9c1b4" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.18" fill="#8a6a4a">
+      <ellipse cx="84" cy="238" rx="48" ry="3.6"/><ellipse cx="322" cy="239" rx="30" ry="3"/><ellipse cx="237" cy="207" rx="60" ry="2"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

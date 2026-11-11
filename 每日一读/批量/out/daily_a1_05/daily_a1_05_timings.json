@@ -1,0 +1,302 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_05.mp3",
+ "duration": 59.302,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.41,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.49,
+  "buzz_hz": 9300.3,
+  "buzz_db": 4.2,
+  "comb_db": 0.08
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.4,
+  "leveler_rng": 10.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.836,
+   "parts": [
+    [
+     0.5,
+     1.836
+    ]
+   ],
+   "segments": [
+    "Un día de lluvia."
+   ],
+   "text": "Un día de lluvia.",
+   "read": "Un día de lluvia."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.836,
+   "end": 6.176,
+   "parts": [
+    [
+     2.836,
+     6.176
+    ]
+   ],
+   "segments": [
+    "Hoy es sábado y llueve mucho desde la mañana."
+   ],
+   "text": "Hoy es sábado y llueve mucho desde la mañana.",
+   "read": "Hoy es sábado y llueve mucho desde la mañana."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.176,
+   "end": 10.286,
+   "parts": [
+    [
+     7.176,
+     10.286
+    ]
+   ],
+   "segments": [
+    "El cielo está gris y la calle está mojada."
+   ],
+   "text": "El cielo está gris y la calle está mojada.",
+   "read": "El cielo está gris y la calle está mojada."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 11.286,
+   "end": 14.798,
+   "parts": [
+    [
+     11.286,
+     12.899
+    ],
+    [
+     13.179,
+     14.798
+    ]
+   ],
+   "segments": [
+    "No tengo clase,",
+    "así que me quedo en casa."
+   ],
+   "text": "No tengo clase, así que me quedo en casa.",
+   "read": "No tengo clase, así que me quedo en casa."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 15.798,
+   "end": 19.633,
+   "parts": [
+    [
+     15.798,
+     19.633
+    ]
+   ],
+   "segments": [
+    "Junto a la puerta están mi paraguas y mis botas de agua."
+   ],
+   "text": "Junto a la puerta están mi paraguas y mis botas de agua.",
+   "read": "Junto a la puerta están mi paraguas y mis botas de agua."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 20.633,
+   "end": 24.015,
+   "parts": [
+    [
+     20.633,
+     22.275
+    ],
+    [
+     22.555,
+     24.015
+    ]
+   ],
+   "segments": [
+    "Hoy no los necesito,",
+    "porque no voy a salir."
+   ],
+   "text": "Hoy no los necesito, porque no voy a salir.",
+   "read": "Hoy no los necesito, porque no voy a salir."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 25.015,
+   "end": 29.136,
+   "parts": [
+    [
+     25.015,
+     29.136
+    ]
+   ],
+   "segments": [
+    "Preparo un té caliente y me siento al lado de la ventana."
+   ],
+   "text": "Preparo un té caliente y me siento al lado de la ventana.",
+   "read": "Preparo un té caliente y me siento al lado de la ventana."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 30.136,
+   "end": 33.86,
+   "parts": [
+    [
+     30.136,
+     33.86
+    ]
+   ],
+   "segments": [
+    "Desde allí miro la lluvia y escucho su sonido."
+   ],
+   "text": "Desde allí miro la lluvia y escucho su sonido.",
+   "read": "Desde allí miro la lluvia y escucho su sonido."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 34.86,
+   "end": 38.744,
+   "parts": [
+    [
+     34.86,
+     38.744
+    ]
+   ],
+   "segments": [
+    "La gente camina rápido con paraguas de muchos colores."
+   ],
+   "text": "La gente camina rápido con paraguas de muchos colores.",
+   "read": "La gente camina rápido con paraguas de muchos colores."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 39.744,
+   "end": 43.124,
+   "parts": [
+    [
+     39.744,
+     43.124
+    ]
+   ],
+   "segments": [
+    "Unos niños saltan en los charcos con sus botas."
+   ],
+   "text": "Unos niños saltan en los charcos con sus botas.",
+   "read": "Unos niños saltan en los charcos con sus botas."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 44.124,
+   "end": 47.232,
+   "parts": [
+    [
+     44.124,
+     47.232
+    ]
+   ],
+   "segments": [
+    "Leo un libro y tomo el té muy despacio."
+   ],
+   "text": "Leo un libro y tomo el té muy despacio.",
+   "read": "Leo un libro y tomo el té muy despacio."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 48.232,
+   "end": 52.612,
+   "parts": [
+    [
+     48.232,
+     50.702
+    ],
+    [
+     50.982,
+     52.612
+    ]
+   ],
+   "segments": [
+    "A mucha gente no le gusta la lluvia,",
+    "pero a mí me encanta."
+   ],
+   "text": "A mucha gente no le gusta la lluvia, pero a mí me encanta.",
+   "read": "A mucha gente no le gusta la lluvia, pero a mí me encanta."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 53.612,
+   "end": 58.102,
+   "parts": [
+    [
+     53.612,
+     54.352
+    ],
+    [
+     54.632,
+     58.102
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "un día de lluvia en casa es tranquilo y agradable."
+   ],
+   "text": "Para mí, un día de lluvia en casa es tranquilo y agradable.",
+   "read": "Para mí, un día de lluvia en casa es tranquilo y agradable."
+  }
+ ]
+}

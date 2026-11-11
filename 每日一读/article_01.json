@@ -4,41 +4,137 @@
  "title_es": "Mi pequeño huerto",
  "title_zh": "我的小菜园",
  "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
  "_说明": "“每日一读”单页朗读视频样片（参照用户给的参考视频的形式：一页纸上有标题栏、插图、重点词汇栏、西语短文两段、中文译文两段，整段静态画面配西语朗读，先读标题再逐句读；参考视频句间约 1.3 秒，这里用 1.0 秒，见 tools/make_daily_audio.py 的说明）。另出一个逐句高亮版。原创短文，A2—B1：现在时、简单过去时（empecé, preparé, compartí, dijeron）、过去未完成时（tenía, eran）、现在完成时（han crecido）；连接语 al principio、pero、porque、aunque。10 句，146 词（不含标题）。第 6 句原为 Cuidar el huerto me enseña…，识别核对时 huerto me 四种切法都听成 huerme（固定种子重合成结果不变），改成 Cuidar el huerto también me enseña…",
  "no_pause_commas": {
-  "3": [{"after": "tomates,", "why": "列举：tomates, lechugas y fresas（A, B y C）"}]
+  "2": [
+   {
+    "after": "tomates,",
+    "why": "列举：tomates, lechugas y fresas（A, B y C）"
+   }
+  ]
  },
  "vocab": [
-  ["huerto", "菜园"],
-  ["cultivar", "种植"],
-  ["balcón", "阳台"],
-  ["maceta", "花盆"],
-  ["albahaca", "罗勒"],
-  ["lechuga", "生菜"],
-  ["fresa", "草莓"],
-  ["regar", "浇水"],
-  ["semilla", "种子"],
-  ["hoja", "叶子"],
-  ["paciente", "有耐心的"],
-  ["ritmo", "节奏"],
-  ["receta", "菜谱"],
-  ["vecino", "邻居"],
-  ["orgulloso", "自豪的"]
+  [
+   "huerto",
+   "菜园",
+   "huerto"
+  ],
+  [
+   "cultivar",
+   "种植",
+   "cultivar"
+  ],
+  [
+   "balcón",
+   "阳台",
+   "balcón"
+  ],
+  [
+   "maceta",
+   "花盆",
+   "maceta"
+  ],
+  [
+   "albahaca",
+   "罗勒",
+   "albahaca"
+  ],
+  [
+   "lechuga",
+   "生菜",
+   "lechugas"
+  ],
+  [
+   "fresa",
+   "草莓",
+   "fresas"
+  ],
+  [
+   "regar",
+   "浇水",
+   "riego"
+  ],
+  [
+   "semilla",
+   "种子",
+   "semilla"
+  ],
+  [
+   "hoja",
+   "叶子",
+   "hojas"
+  ],
+  [
+   "paciente",
+   "有耐心的",
+   "paciente"
+  ],
+  [
+   "ritmo",
+   "节奏",
+   "ritmo"
+  ],
+  [
+   "receta",
+   "菜谱",
+   "recetas"
+  ],
+  [
+   "vecino",
+   "邻居",
+   "vecinos"
+  ],
+  [
+   "orgulloso",
+   "自豪的",
+   "orgulloso"
+  ]
  ],
  "paras": [
   [
-   {"es": "Hace dos años empecé a cultivar plantas en el balcón de mi piso.", "zh": "两年前，我开始在自家公寓的阳台上种植物。"},
-   {"es": "Al principio solo tenía una maceta con albahaca, pero ahora tengo tomates, lechugas y fresas.", "zh": "一开始我只有一盆罗勒，现在已经种上了番茄、生菜和草莓。"},
-   {"es": "Cada mañana, antes de ir a clase, riego las plantas y miro si han crecido.", "zh": "每天早上去上课之前，我都会给植物浇水，看看它们有没有长高。"},
-   {"es": "Me encanta ver cómo una semilla pequeña se convierte en una planta llena de hojas verdes.", "zh": "我很喜欢看着一颗小小的种子慢慢长成一株绿叶茂盛的植物。"},
-   {"es": "Cuidar el huerto también me enseña a ser paciente, porque la naturaleza tiene su propio ritmo.", "zh": "照料菜园也教会我要有耐心，因为大自然有它自己的节奏。"}
+   {
+    "es": "Hace dos años empecé a cultivar plantas en el balcón de mi piso.",
+    "zh": "两年前，我开始在自家公寓的阳台上种植物。"
+   },
+   {
+    "es": "Al principio solo tenía una maceta con albahaca, pero ahora tengo tomates, lechugas y fresas.",
+    "zh": "一开始我只有一盆罗勒，现在已经种上了番茄、生菜和草莓。"
+   },
+   {
+    "es": "Cada mañana, antes de ir a clase, riego las plantas y miro si han crecido.",
+    "zh": "每天早上去上课之前，我都会给植物浇水，看看它们有没有长高。"
+   },
+   {
+    "es": "Me encanta ver cómo una semilla pequeña se convierte en una planta llena de hojas verdes.",
+    "zh": "我很喜欢看着一颗小小的种子慢慢长成一株绿叶茂盛的植物。"
+   },
+   {
+    "es": "Cuidar el huerto también me enseña a ser paciente, porque la naturaleza tiene su propio ritmo.",
+    "zh": "照料菜园也教会我要有耐心，因为大自然有它自己的节奏。"
+   }
   ],
   [
-   {"es": "Los fines de semana busco recetas sencillas para cocinar con mis propias verduras.", "zh": "周末我会找一些简单的菜谱，用自己种的蔬菜做饭。"},
-   {"es": "El verano pasado preparé una ensalada con mis tomates y la compartí con mis vecinos.", "zh": "去年夏天，我用自己种的番茄做了一份沙拉，和邻居们一起分享。"},
-   {"es": "Todos dijeron que mis tomates eran más dulces que los del supermercado.", "zh": "大家都说我种的番茄比超市里卖的更甜。"},
-   {"es": "Aunque a veces los insectos se comen alguna hoja, no uso productos químicos.", "zh": "虽然有时虫子会啃掉几片叶子，但我不用化学药剂。"},
-   {"es": "Para mí, este pequeño huerto es un lugar tranquilo donde puedo descansar y sentirme orgulloso de mi trabajo.", "zh": "对我来说，这个小菜园是一个安静的地方，在这里我可以好好休息，也为自己的劳动感到自豪。"}
+   {
+    "es": "Los fines de semana busco recetas sencillas para cocinar con mis propias verduras.",
+    "zh": "周末我会找一些简单的菜谱，用自己种的蔬菜做饭。"
+   },
+   {
+    "es": "El verano pasado preparé una ensalada con mis tomates y la compartí con mis vecinos.",
+    "zh": "去年夏天，我用自己种的番茄做了一份沙拉，和邻居们一起分享。"
+   },
+   {
+    "es": "Todos dijeron que mis tomates eran más dulces que los del supermercado.",
+    "zh": "大家都说我种的番茄比超市里卖的更甜。"
+   },
+   {
+    "es": "Aunque a veces los insectos se comen alguna hoja, no uso productos químicos.",
+    "zh": "虽然有时虫子会啃掉几片叶子，但我不用化学药剂。"
+   },
+   {
+    "es": "Para mí, este pequeño huerto es un lugar tranquilo donde puedo descansar y sentirme orgulloso de mi trabajo.",
+    "zh": "对我来说，这个小菜园是一个安静的地方，在这里我可以好好休息，也为自己的劳动感到自豪。"
+   }
   ]
  ]
 }

@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  631.671875
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  639.671875
+ ],
+ "zh": [
+  96,
+  665.671875,
+  480,
+  881.796875
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  262.1875,
+  131.625
+ ],
+ "header_gap": 111.953125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   444
+  ],
+  [
+   506,
+   455,
+   626,
+   473
+  ],
+  [
+   506,
+   484,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.2,
+   "Durante años consideré el ocio un premio que solo merecía tras"
+  ],
+  [
+   "mid",
+   6.1,
+   "cumplir todas mis obligaciones. Como la lista de tareas nunca se"
+  ],
+  [
+   "mid",
+   6.3,
+   "agotaba, el descanso quedaba aplazado para un mañana que no"
+  ],
+  [
+   "mid",
+   3.6,
+   "llegaba. Este verano, tumbado en una hamaca entre dos árboles, con"
+  ],
+  [
+   "mid",
+   3.8,
+   "un libro abierto sobre el pecho, comprendí mi error. Mientras la luz se"
+  ],
+  [
+   "mid",
+   4.9,
+   "filtraba entre las hojas, surgían ideas que ninguna reunión me había"
+  ],
+  [
+   "last",
+   3.3,
+   "proporcionado en meses."
+  ],
+  [
+   "mid",
+   4.4,
+   "El ocio no es un paréntesis improductivo, sino el tiempo en que"
+  ],
+  [
+   "mid",
+   4.8,
+   "la mente se recompone y recupera su capacidad de asombro. Si lo"
+  ],
+  [
+   "mid",
+   6.9,
+   "concibiéramos como una condición del trabajo bien hecho, y no"
+  ],
+  [
+   "mid",
+   3.5,
+   "como su recompensa, dejaría de provocarnos culpa. Por eso, aunque"
+  ],
+  [
+   "mid",
+   4.5,
+   "los asuntos urgentes sigan reclamándome, ahora protejo esas horas"
+  ],
+  [
+   "last",
+   3.3,
+   "ociosas con la misma firmeza que cualquier compromiso."
+  ]
+ ],
+ "es_max_gap": 6.9,
+ "es_font": [
+  12.6,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

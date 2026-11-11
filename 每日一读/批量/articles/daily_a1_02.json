@@ -1,0 +1,153 @@
+{
+ "id": "daily_a1_02",
+ "level": "A1",
+ "no": 2,
+ "title_es": "El mercado del sábado",
+ "title_zh": "周六的集市",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 2 篇。原创短文。只用陈述式现在时，有 hay、me gusta + 原形、para + 原形。12 句，122 词。特别判断：mercado 在这里是周末露天的集市，照选题表译作“集市”，不译“市场”；toldos de rayas 对应插图里带条纹的遮阳棚；vienen del campo 译作“从乡下运来”；me da una manzana para probar 译作“给我一个苹果尝尝”；mi plan favorito 译作“最喜欢的安排”。第 3 句 manzanas, naranjas, tomates y lechugas 是列举，两个逗号登记为不停顿（原来是 naranjas, tomates, manzanas y lechugas，识别核对时 manzanas y 的词尾被吞成 manzan，固定种子重合成结果不变，所以把 manzanas 挪到列举最前）；第 7 句 Antonio, un señor… 是同位语，照常停顿。词汇：mercado、sábado 在标题里，排在最前；水果名选插图里有的 manzana、naranja、lechuga，tomate 是同源词不选。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "manzanas,",
+    "why": "列举：manzanas, naranjas, tomates y lechugas（A, B, C y D）"
+   },
+   {
+    "after": "naranjas,",
+    "why": "列举：manzanas, naranjas, tomates y lechugas（A, B, C y D）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "mercado",
+   "集市",
+   "mercado"
+  ],
+  [
+   "sábado",
+   "星期六",
+   "sábado"
+  ],
+  [
+   "barrio",
+   "街区",
+   "barrio"
+  ],
+  [
+   "puesto",
+   "摊位",
+   "puestos"
+  ],
+  [
+   "toldo",
+   "遮阳棚",
+   "toldos"
+  ],
+  [
+   "raya",
+   "条纹",
+   "rayas"
+  ],
+  [
+   "manzana",
+   "苹果",
+   "manzanas"
+  ],
+  [
+   "naranja",
+   "橙子",
+   "naranjas"
+  ],
+  [
+   "lechuga",
+   "生菜",
+   "lechugas"
+  ],
+  [
+   "despacio",
+   "慢慢地",
+   "despacio"
+  ],
+  [
+   "oler",
+   "闻",
+   "oler"
+  ],
+  [
+   "campo",
+   "乡下",
+   "campo"
+  ],
+  [
+   "fresco",
+   "新鲜的",
+   "frescas"
+  ],
+  [
+   "probar",
+   "尝",
+   "probar"
+  ],
+  [
+   "zumo",
+   "果汁",
+   "zumo"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cada sábado por la mañana hay un mercado en mi barrio.",
+    "zh": "每个星期六上午，我们街区都有集市。"
+   },
+   {
+    "es": "Los puestos tienen toldos de rayas rojas y blancas.",
+    "zh": "摊位上都撑着红白条纹的遮阳棚。"
+   },
+   {
+    "es": "En las cajas hay manzanas, naranjas, tomates y lechugas.",
+    "zh": "箱子里装着苹果、橙子、番茄和生菜。"
+   },
+   {
+    "es": "Voy con una bolsa grande y camino despacio entre los puestos.",
+    "zh": "我拎着一个大袋子，在摊位之间慢慢地逛。"
+   },
+   {
+    "es": "Me gusta mirar los colores y oler la fruta.",
+    "zh": "我喜欢看各种颜色，闻水果的香味。"
+   },
+   {
+    "es": "Las frutas y las verduras vienen del campo y son muy frescas.",
+    "zh": "水果和蔬菜都是从乡下运来的，非常新鲜。"
+   }
+  ],
+  [
+   {
+    "es": "Siempre compro en el puesto de Antonio, un señor muy simpático.",
+    "zh": "我总是在安东尼奥的摊位买东西，他是一位很和气的先生。"
+   },
+   {
+    "es": "Él me saluda y siempre me da una manzana para probar.",
+    "zh": "他跟我打招呼，还总给我一个苹果尝尝。"
+   },
+   {
+    "es": "Hoy compro tomates para una ensalada y naranjas para hacer zumo.",
+    "zh": "今天我买番茄做沙拉，再买些橙子榨果汁。"
+   },
+   {
+    "es": "Después tomo un café en la plaza.",
+    "zh": "然后我在广场上喝杯咖啡。"
+   },
+   {
+    "es": "Vuelvo a casa con la bolsa llena y muy contento.",
+    "zh": "我拎着满满一袋东西回家，心里很高兴。"
+   },
+   {
+    "es": "El mercado del sábado es mi plan favorito de la semana.",
+    "zh": "周六的集市是我一周里最喜欢的安排。"
+   }
+  ]
+ ]
+}

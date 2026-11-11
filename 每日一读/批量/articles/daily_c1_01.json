@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_01",
+ "level": "C1",
+ "no": 1,
+ "title_es": "El ocio como necesidad",
+ "title_zh": "闲暇是一种需要",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 1 篇。原创短文。主要语法：简单过去时与过去未完成时交替叙述，tras + 原形、分词短语 tumbado en… 作状语，过去虚拟式条件句（Si lo concibiéramos…, dejaría de…），aunque + 现在虚拟式表让步（aunque sigan reclamándome），no…sino 对照。7 句，131 词。第一人称叙述者为男性（tumbado）。特别判断：paréntesis 在这里是比喻义“间歇、空档”，不是标点；un mañana 是名词，指未来，译作“一个永远不会到来的明天”；第 6 句 lo 和主语都指上一句的 el ocio，译文用“它”承接。第 3 句的逗号分别隔开时间状语、分词短语和独立结构，照常停顿；全篇没有名词列举，no_pause_commas 为 {}。词汇不选 improductivo、condición 这类同源词，多选 agotarse、aplazar、recomponerse、concebir 等动词和 paréntesis 的比喻用法。插图里的吊床、书、树和斑驳的阳光对应第 3、4 句。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "ocio",
+   "闲暇",
+   "ocio"
+  ],
+  [
+   "obligación",
+   "义务",
+   "obligaciones"
+  ],
+  [
+   "agotarse",
+   "穷尽",
+   "se agotaba"
+  ],
+  [
+   "aplazar",
+   "推迟",
+   "aplazado"
+  ],
+  [
+   "tumbarse",
+   "躺下",
+   "tumbado"
+  ],
+  [
+   "hamaca",
+   "吊床",
+   "hamaca"
+  ],
+  [
+   "filtrarse",
+   "透过，筛落",
+   "se filtraba"
+  ],
+  [
+   "proporcionar",
+   "提供",
+   "proporcionado"
+  ],
+  [
+   "paréntesis",
+   "间歇，空档",
+   "paréntesis"
+  ],
+  [
+   "recomponerse",
+   "自我修复",
+   "se recompone"
+  ],
+  [
+   "asombro",
+   "惊奇",
+   "asombro"
+  ],
+  [
+   "concebir",
+   "视为",
+   "concibiéramos"
+  ],
+  [
+   "recompensa",
+   "奖赏",
+   "recompensa"
+  ],
+  [
+   "culpa",
+   "愧疚",
+   "culpa"
+  ],
+  [
+   "firmeza",
+   "坚定",
+   "firmeza"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Durante años consideré el ocio un premio que solo merecía tras cumplir todas mis obligaciones.",
+    "zh": "多年来，我一直把闲暇当作一种奖赏，认为只有履行完全部义务才配享有。"
+   },
+   {
+    "es": "Como la lista de tareas nunca se agotaba, el descanso quedaba aplazado para un mañana que no llegaba.",
+    "zh": "由于待办的事永远做不完，休息总被推迟到一个永远不会到来的明天。"
+   },
+   {
+    "es": "Este verano, tumbado en una hamaca entre dos árboles, con un libro abierto sobre el pecho, comprendí mi error.",
+    "zh": "今年夏天，我躺在两棵树之间的吊床上，胸前摊着一本书，这才明白自己错了。"
+   },
+   {
+    "es": "Mientras la luz se filtraba entre las hojas, surgían ideas que ninguna reunión me había proporcionado en meses.",
+    "zh": "阳光从叶间筛落时，我脑中涌现出一些想法，那是几个月来任何会议都未曾给过我的。"
+   }
+  ],
+  [
+   {
+    "es": "El ocio no es un paréntesis improductivo, sino el tiempo en que la mente se recompone y recupera su capacidad de asombro.",
+    "zh": "闲暇不是一段无所产出的空档，而是心灵自我修复、重拾惊奇之心的时间。"
+   },
+   {
+    "es": "Si lo concibiéramos como una condición del trabajo bien hecho, y no como su recompensa, dejaría de provocarnos culpa.",
+    "zh": "如果我们把它视为做好工作的前提，而非工作的奖赏，它就不会再让我们心生愧疚。"
+   },
+   {
+    "es": "Por eso, aunque los asuntos urgentes sigan reclamándome, ahora protejo esas horas ociosas con la misma firmeza que cualquier compromiso.",
+    "zh": "所以，即便急事仍不断找上门来，如今我也会像对待任何约定一样，坚定地守护那些闲暇时光。"
+   }
+  ]
+ ]
+}

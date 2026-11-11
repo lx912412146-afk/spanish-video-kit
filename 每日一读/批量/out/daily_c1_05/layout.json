@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  634.109375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  642.109375
+ ],
+ "zh": [
+  96,
+  668.109375,
+  480,
+  907.359375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  245.5625,
+  131.625
+ ],
+ "header_gap": 149.25,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   357
+  ],
+  [
+   506,
+   368,
+   626,
+   404
+  ],
+  [
+   506,
+   415,
+   626,
+   433
+  ],
+  [
+   506,
+   444,
+   626,
+   462
+  ],
+  [
+   506,
+   473,
+   626,
+   491
+  ],
+  [
+   506,
+   502,
+   626,
+   520
+  ],
+  [
+   506,
+   531,
+   626,
+   549
+  ],
+  [
+   506,
+   560,
+   626,
+   578
+  ],
+  [
+   506,
+   589,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   3
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.1,
+   "Hace unos meses empecé a remar en una barca larga junto a"
+  ],
+  [
+   "mid",
+   4.7,
+   "otros siete principiantes. Al principio, cada uno intentaba demostrar"
+  ],
+  [
+   "mid",
+   3.5,
+   "su fuerza, y la barca avanzaba a trompicones sobre el agua tranquila."
+  ],
+  [
+   "mid",
+   4,
+   "Solo cuando logramos acompasar las paladas, el esfuerzo individual"
+  ],
+  [
+   "last",
+   3.4,
+   "empezó a sumarse en lugar de neutralizarse."
+  ],
+  [
+   "mid",
+   5.5,
+   "Solemos ver la cooperación y la competencia como opuestos"
+  ],
+  [
+   "mid",
+   4.4,
+   "irreconciliables, como si hubiera que optar por una. Sin embargo, la"
+  ],
+  [
+   "mid",
+   6.7,
+   "rivalidad sana puede estimular a cada miembro, siempre que no"
+  ],
+  [
+   "mid",
+   5.7,
+   "rompa el ritmo común del que depende el grupo. Si cada remero"
+  ],
+  [
+   "mid",
+   3.4,
+   "compitiera contra los demás, la barca giraría sobre sí misma; si todos"
+  ],
+  [
+   "mid",
+   3.8,
+   "renunciaran a esforzarse, no se movería. Quizá la verdadera cuestión"
+  ],
+  [
+   "mid",
+   3.7,
+   "no sea elegir entre cooperar y competir, sino saber al servicio de qué"
+  ],
+  [
+   "last",
+   3.4,
+   "meta compartida ponemos nuestra ambición."
+  ]
+ ],
+ "es_max_gap": 6.7,
+ "es_font": [
+  12.7,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

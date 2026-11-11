@@ -1,0 +1,236 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_04.mp3",
+ "duration": 57.31,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.29,
+  "short_term_std_lu": 0.94,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.86,
+  "buzz_hz": 15000.0,
+  "buzz_db": 5.9,
+  "comb_db": -0.28
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.2,
+   "parts": [
+    [
+     0.5,
+     2.2
+    ]
+   ],
+   "segments": [
+    "Los mapas y nuestra mirada."
+   ],
+   "text": "Los mapas y nuestra mirada.",
+   "read": "Los mapas y nuestra mirada."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.2,
+   "end": 9.8,
+   "parts": [
+    [
+     3.2,
+     4.72
+    ],
+    [
+     5.0,
+     7.02
+    ],
+    [
+     7.3,
+     9.8
+    ]
+   ],
+   "segments": [
+    "Sobre mi escritorio,",
+    "junto a una brújula y una lupa,",
+    "hay un mapa antiguo que solo dibuja la costa."
+   ],
+   "text": "Sobre mi escritorio, junto a una brújula y una lupa, hay un mapa antiguo que solo dibuja la costa.",
+   "read": "Sobre mi escritorio, junto a una brújula y una lupa, hay un mapa antiguo que solo dibuja la costa."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.8,
+   "end": 17.38,
+   "parts": [
+    [
+     10.8,
+     11.59
+    ],
+    [
+     11.87,
+     13.43
+    ],
+    [
+     13.71,
+     17.38
+    ]
+   ],
+   "segments": [
+    "El interior,",
+    "completamente vacío,",
+    "revela que su autor únicamente conocía el territorio desde el mar."
+   ],
+   "text": "El interior, completamente vacío, revela que su autor únicamente conocía el territorio desde el mar.",
+   "read": "El interior, completamente vacío, revela que su autor únicamente conocía el territorio desde el mar."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 18.38,
+   "end": 24.77,
+   "parts": [
+    [
+     18.38,
+     20.01
+    ],
+    [
+     20.29,
+     24.77
+    ]
+   ],
+   "segments": [
+    "Al examinarlo con la lupa,",
+    "comprendo que un mapa es menos un retrato del mundo que el testimonio de una mirada."
+   ],
+   "text": "Al examinarlo con la lupa, comprendo que un mapa es menos un retrato del mundo que el testimonio de una mirada.",
+   "read": "Al examinarlo con la lupa, comprendo que un mapa es menos un retrato del mundo que el testimonio de una mirada."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 25.77,
+   "end": 32.67,
+   "parts": [
+    [
+     25.77,
+     29.93
+    ],
+    [
+     30.21,
+     32.67
+    ]
+   ],
+   "segments": [
+    "Quien dibuja decide qué merece ser representado y qué puede omitirse,",
+    "y esa elección nunca es del todo inocente."
+   ],
+   "text": "Quien dibuja decide qué merece ser representado y qué puede omitirse, y esa elección nunca es del todo inocente.",
+   "read": "Quien dibuja decide qué merece ser representado y qué puede omitirse, y esa elección nunca es del todo inocente."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 33.67,
+   "end": 41.25,
+   "parts": [
+    [
+     33.67,
+     38.31
+    ],
+    [
+     38.59,
+     41.25
+    ]
+   ],
+   "segments": [
+    "El centro, la escala y los nombres reflejan las prioridades de quien los elige,",
+    "aunque se presenten como datos objetivos."
+   ],
+   "text": "El centro, la escala y los nombres reflejan las prioridades de quien los elige, aunque se presenten como datos objetivos.",
+   "read": "El centro, la escala y los nombres reflejan las prioridades de quien los elige, aunque se presenten como datos objetivos."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 42.25,
+   "end": 47.71,
+   "parts": [
+    [
+     42.25,
+     47.71
+    ]
+   ],
+   "segments": [
+    "Por eso conviene leer cualquier mapa con cierta cautela y preguntarse qué quedó fuera y por qué."
+   ],
+   "text": "Por eso conviene leer cualquier mapa con cierta cautela y preguntarse qué quedó fuera y por qué.",
+   "read": "Por eso conviene leer cualquier mapa con cierta cautela y preguntarse qué quedó fuera y por qué."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 48.71,
+   "end": 56.11,
+   "parts": [
+    [
+     48.71,
+     50.49
+    ],
+    [
+     50.77,
+     53.84
+    ],
+    [
+     54.12,
+     56.11
+    ]
+   ],
+   "segments": [
+    "Si aprendiéramos a mirar así,",
+    "descubriríamos que los espacios en blanco también hablan,",
+    "aunque sea de lo que alguien ignoraba."
+   ],
+   "text": "Si aprendiéramos a mirar así, descubriríamos que los espacios en blanco también hablan, aunque sea de lo que alguien ignoraba.",
+   "read": "Si aprendiéramos a mirar así, descubriríamos que los espacios en blanco también hablan, aunque sea de lo que alguien ignoraba."
+  }
+ ]
+}

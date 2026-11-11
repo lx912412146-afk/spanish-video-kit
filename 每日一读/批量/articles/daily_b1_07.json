@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_07",
+ "level": "B1",
+ "no": 7,
+ "title_es": "El mar en invierno",
+ "title_zh": "冬天的大海",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 7 篇。原创短文。现在时描写冬天的海边，过去未完成时 veraneaba；条件式 diría；现在虚拟式 cuando necesite、es una pena que… se pierda；将来时 volveré；连接语 sin embargo、por eso；无人称 se oye。10 句，140 词。veranear 是“去某地过暑假、避暑”；chiringuito 是海滩上的小吃店、小酒吧，译作“海滩小吃店”；sombrilla plegada 对应插图里收起来的遮阳伞；gritos 用在海鸥身上译作“叫声”；第 10 句 espectáculo 译作“美景”。没有列举的逗号；第 5 句 Junto a un chiringuito vacío, 是句首状语，照常停顿。叙述者是男性：de pequeño 用阳性。插图里的空海滩、海浪、海鸥、收起的遮阳伞都在正文里出现。词汇里 ser una pena 原文是 Es una pena，perderse 原文是 se pierda。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "veranear",
+   "过暑假",
+   "veraneaba"
+  ],
+  [
+   "de pequeño",
+   "小时候",
+   "de pequeño"
+  ],
+  [
+   "época",
+   "时节",
+   "época"
+  ],
+  [
+   "desierto",
+   "空荡荡的",
+   "desierta"
+  ],
+  [
+   "paseo marítimo",
+   "海滨步道",
+   "paseo marítimo"
+  ],
+  [
+   "permanecer",
+   "保持",
+   "permanecen"
+  ],
+  [
+   "ola",
+   "海浪",
+   "olas"
+  ],
+  [
+   "gaviota",
+   "海鸥",
+   "gaviotas"
+  ],
+  [
+   "grueso",
+   "厚的",
+   "grueso"
+  ],
+  [
+   "orilla",
+   "岸边",
+   "orilla"
+  ],
+  [
+   "sombrilla",
+   "遮阳伞",
+   "sombrilla"
+  ],
+  [
+   "plegado",
+   "收起的",
+   "plegada"
+  ],
+  [
+   "tener sentido",
+   "有意义",
+   "tiene sentido"
+  ],
+  [
+   "ser una pena",
+   "真可惜",
+   "Es una pena"
+  ],
+  [
+   "perderse",
+   "错过",
+   "se pierda"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cada invierno paso unos días en un pueblo de la costa donde veraneaba de pequeño.",
+    "zh": "每年冬天，我都会去海边的一个小镇住几天，我小时候常在那里过暑假。"
+   },
+   {
+    "es": "En esta época la playa está casi desierta y las cafeterías del paseo marítimo permanecen cerradas.",
+    "zh": "这个时节，海滩上几乎空无一人，海滨步道上的咖啡馆也都关着门。"
+   },
+   {
+    "es": "Solo se oye el ruido de las olas y los gritos de algunas gaviotas.",
+    "zh": "耳边只有海浪声和几只海鸥的叫声。"
+   },
+   {
+    "es": "Por las mañanas me pongo un abrigo grueso y camino por la orilla durante horas.",
+    "zh": "每天早上，我都穿上厚厚的外套，沿着岸边一走就是好几个小时。"
+   },
+   {
+    "es": "Junto a un chiringuito vacío, una sombrilla plegada parece esperar la llegada del verano.",
+    "zh": "一家空荡荡的海滩小吃店旁边，一把收起的遮阳伞仿佛在等待夏天的到来。"
+   }
+  ],
+  [
+   {
+    "es": "Mucha gente diría que el mar solo tiene sentido con sol y calor.",
+    "zh": "很多人大概会说，大海只有在阳光和炎热中才有意义。"
+   },
+   {
+    "es": "Sin embargo, a mí me parece que en invierno muestra una belleza más tranquila y profunda.",
+    "zh": "然而在我看来，冬天的大海展现出一种更宁静、更深沉的美。"
+   },
+   {
+    "es": "El aire frío me llena de energía y me ayuda a ordenar mis ideas.",
+    "zh": "寒冷的空气让我充满活力，也帮我理清思路。"
+   },
+   {
+    "es": "Por eso, cuando necesite descansar de verdad, volveré a esta playa.",
+    "zh": "所以，等我需要真正休息的时候，我还会回到这片海滩。"
+   },
+   {
+    "es": "Es una pena que tanta gente se pierda este espectáculo tan sencillo.",
+    "zh": "这么多人错过了如此朴素的美景，真是可惜。"
+   }
+  ]
+ ]
+}

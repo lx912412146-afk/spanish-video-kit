@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：桌上的旧地图（只有海岸线）、指南针、放大镜（水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="desk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7ead6"/><stop offset="0.5" stop-color="#efdbbe"/><stop offset="1" stop-color="#e3c6a1"/>
+    </linearGradient>
+    <radialGradient id="paper" cx="0.45" cy="0.45" r="0.75">
+      <stop offset="0" stop-color="#f8eed6"/><stop offset="0.7" stop-color="#f0e0bc"/><stop offset="1" stop-color="#e2c899"/>
+    </radialGradient>
+    <radialGradient id="sea" cx="0.6" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#d8e6dc"/><stop offset="1" stop-color="#c9dbd2"/>
+    </radialGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecd08e"/><stop offset="0.5" stop-color="#cfa65a"/><stop offset="1" stop-color="#b48a45"/>
+    </linearGradient>
+    <radialGradient id="face" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#fdf8ec"/><stop offset="1" stop-color="#eee2c8"/>
+    </radialGradient>
+    <linearGradient id="handle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9c6e4c"/><stop offset="0.5" stop-color="#c08d63"/><stop offset="1" stop-color="#8f6446"/>
+    </linearGradient>
+    <clipPath id="lens"><circle cx="300" cy="112" r="32"/></clipPath>
+    <clipPath id="sheet"><rect x="-125" y="-85" width="250" height="170"/></clipPath>
+
+    <!-- 地图内容（局部坐标，中心为 0,0） -->
+    <path id="land" d="M-125,-85 L52,-85 C46,-76 54,-70 50,-62 C46,-54 36,-56 34,-46 C32,-36 44,-32 40,-22 C36,-12 22,-16 18,-6 C30,-4 44,0 52,6 C58,10 56,17 48,17 C40,17 30,14 22,20 C18,30 4,26 -2,34 C-8,42 0,50 -8,58 C-16,66 -30,60 -38,68 C-46,76 -42,82 -48,85 L-125,85 Z"/>
+    <g id="isles">
+      <path d="M72,-38 C80,-44 92,-40 92,-32 C92,-24 82,-22 76,-26 C70,-29 68,-34 72,-38 Z"/>
+      <path d="M84,34 C92,28 106,32 106,42 C106,52 94,54 88,50 C82,46 80,38 84,34 Z"/>
+      <path d="M52,52 C56,48 64,50 63,56 C62,61 55,62 52,58 Z"/>
+      <path d="M68,62 C71,60 75,61 74,65 C73,68 69,68 68,65 Z"/>
+      <path d="M62,-12 C64,-14 68,-13 67,-10 C66,-8 63,-8 62,-10 Z"/>
+    </g>
+    <g id="mapart">
+      <g clip-path="url(#sheet)">
+        <rect x="-125" y="-85" width="250" height="170" fill="url(#sea)"/>
+        <!-- 海岸边的晕染 -->
+        <g fill="none" stroke="#a7c8c6">
+          <use href="#land" stroke-width="20" opacity="0.25"/><use href="#land" stroke-width="11" opacity="0.3"/><use href="#land" stroke-width="5" opacity="0.5"/>
+          <use href="#isles" stroke-width="10" opacity="0.3"/><use href="#isles" stroke-width="5" opacity="0.5"/>
+        </g>
+        <g fill="none" stroke="#9dbfbd" stroke-width="0.7" opacity="0.7">
+          <use href="#land" transform="translate(5,3)"/><use href="#land" transform="translate(10,6)"/>
+        </g>
+        <use href="#land" fill="url(#paper)"/>
+        <use href="#isles" fill="#f3e5c6"/>
+        <!-- 内陆一片空白，只有纸上的旧水渍 -->
+        <g fill="#d9bf92" opacity="0.22" filter="url(#soft2)">
+          <ellipse cx="-70" cy="-40" rx="26" ry="14"/><ellipse cx="-40" cy="40" rx="18" ry="11"/>
+        </g>
+        <!-- 海岸线 -->
+        <use href="#land" fill="none" stroke="#8c7558" stroke-width="1.2"/>
+        <use href="#isles" fill="none" stroke="#8c7558" stroke-width="1"/>
+        <!-- 折痕和旧边 -->
+        <g stroke="#d4b98e" stroke-width="1" opacity="0.6">
+          <line x1="0" y1="-85" x2="0" y2="85"/><line x1="-125" y1="0" x2="125" y2="0"/>
+        </g>
+        <rect x="-125" y="-85" width="250" height="170" fill="none" stroke="#d6b685" stroke-width="5" opacity="0.45"/>
+      </g>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 桌面 -->
+    <rect width="400" height="260" fill="url(#desk)"/>
+    <g stroke="#dcc3a0" stroke-width="1" opacity="0.8">
+      <line x1="0" y1="64" x2="400" y2="64"/><line x1="0" y1="132" x2="400" y2="132"/><line x1="0" y1="200" x2="400" y2="200"/>
+    </g>
+    <g stroke="#e4ccab" stroke-width="0.8" fill="none" opacity="0.7">
+      <path d="M10,96 C60,94 90,98 140,95"/><path d="M20,168 C70,166 120,170 160,167"/><path d="M200,232 C260,230 320,234 390,231"/>
+    </g>
+
+    <!-- 地图的影子 -->
+    <g filter="url(#soft)" opacity="0.25" fill="#8a6a4a">
+      <polygon points="112,74 362,52 377,222 127,244"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 旧地图 -->
+      <g transform="translate(238,140) rotate(-5)">
+        <use href="#mapart"/>
+        <!-- 卷起的右下角 -->
+        <path d="M125,62 L125,85 L100,85 Z" fill="#e8d1b0"/>
+        <path d="M125,62 L100,85 C112,82 120,74 125,62 Z" fill="#dcc196"/>
+      </g>
+    </g>
+
+    <!-- 放大镜的影子 -->
+    <g filter="url(#soft)" opacity="0.28" fill="#7a5c40">
+      <circle cx="310" cy="124" r="34"/>
+      <path d="M340,150 L382,200 L374,208 L332,158 Z"/>
+    </g>
+    <!-- 放大镜里的放大地图 -->
+    <g clip-path="url(#lens)">
+      <g filter="url(#wc)">
+        <g transform="translate(300,112) scale(1.6) translate(-300,-112)">
+          <g transform="translate(238,140) rotate(-5)"><use href="#mapart"/></g>
+        </g>
+      </g>
+      <circle cx="300" cy="112" r="32" fill="#eef6f6" opacity="0.15"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 放大镜 -->
+      <path d="M323,137 L362,186 C366,191 372,191 376,187 C380,183 380,177 376,173 L335,127 Z" fill="url(#handle)"/>
+      <path d="M321,139 L334,126 L340,132 L327,145 Z" fill="#b48a45"/>
+      <circle cx="300" cy="112" r="32" fill="none" stroke="url(#brass)" stroke-width="5"/>
+      <circle cx="300" cy="112" r="29.5" fill="none" stroke="#a37c3d" stroke-width="0.8" opacity="0.7"/>
+      <path d="M279,94 C285,88 293,85 302,85" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.75" stroke-linecap="round"/>
+      <path d="M275,104 C275,101 276,99 277,97" stroke="#ffffff" stroke-width="2.4" fill="none" opacity="0.6" stroke-linecap="round"/>
+
+      <!-- 指南针 -->
+      <circle cx="72" cy="196" r="29" fill="url(#brass)"/>
+      <circle cx="72" cy="196" r="24" fill="url(#face)"/>
+      <circle cx="72" cy="196" r="20" fill="none" stroke="#c9b48c" stroke-width="0.8"/>
+      <g stroke="#a88b66" stroke-width="1.2" stroke-linecap="round">
+        <line x1="72" y1="174" x2="72" y2="179"/><line x1="72" y1="213" x2="72" y2="218"/><line x1="50" y1="196" x2="55" y2="196"/><line x1="89" y1="196" x2="94" y2="196"/>
+      </g>
+      <g stroke="#c2ab84" stroke-width="0.8" stroke-linecap="round">
+        <line x1="86.1" y1="181.9" x2="83.3" y2="184.7"/><line x1="57.9" y1="181.9" x2="60.7" y2="184.7"/><line x1="86.1" y1="210.1" x2="83.3" y2="207.3"/><line x1="57.9" y1="210.1" x2="60.7" y2="207.3"/>
+      </g>
+      <polygon points="80,180 75,198 69,194" fill="#d9705a"/>
+      <polygon points="64,212 69,194 75,198" fill="#7f95a6"/>
+      <circle cx="72" cy="196" r="2.4" fill="#b48a45"/>
+      <path d="M56,184 C60,178 66,175 72,174" stroke="#ffffff" stroke-width="2.4" fill="none" opacity="0.7" stroke-linecap="round"/>
+      <rect x="67" y="162" width="10" height="6" rx="2" fill="#c9a050"/>
+      <circle cx="72" cy="160" r="4.5" fill="none" stroke="#c9a050" stroke-width="2"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#7a5c40">
+      <ellipse cx="78" cy="226" rx="26" ry="4"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

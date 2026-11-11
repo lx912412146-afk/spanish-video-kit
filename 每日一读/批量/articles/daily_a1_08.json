@@ -1,0 +1,161 @@
+{
+ "id": "daily_a1_08",
+ "level": "A1",
+ "no": 8,
+ "title_es": "Mi mochila",
+ "title_zh": "我的书包",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 8 篇。原创短文。只用陈述式现在时，有 me duele、por eso、tener 和 llevar。12 句，119 词。特别判断：mochila 这里是学生背的包，照选题表译作“书包”；tío 没说是父亲的哥哥还是弟弟，按口语译作“叔叔”；estuche 对应插图里的笔袋；pesa mucho 译作“很重”，释义取“重”；todo está en orden 译作“东西都放得整整齐齐”；第 12 句 muy contento 用阳性，叙述者是男性。第 4 句 mis cuadernos, mis libros y el estuche、第 5 句 bolígrafos, lápices y una goma、第 11 句 a clase, a la biblioteca y de excursión 都是列举，各登记一个不停顿的逗号；第 3 句 noche, antes de dormir, 是插入的时间状语，照常停顿。词汇：mochila 在标题里，排在最前；lápiz 原文是复数 lápices，meter 原文是变位 meto。",
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "cuadernos,",
+    "why": "列举：mis cuadernos, mis libros y el estuche（A, B y C）"
+   }
+  ],
+  "5": [
+   {
+    "after": "bolígrafos,",
+    "why": "列举：bolígrafos, lápices y una goma（A, B y C）"
+   }
+  ],
+  "11": [
+   {
+    "after": "clase,",
+    "why": "列举：a clase, a la biblioteca y de excursión（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "mochila",
+   "书包",
+   "mochila"
+  ],
+  [
+   "regalo",
+   "礼物",
+   "regalo"
+  ],
+  [
+   "escritorio",
+   "书桌",
+   "escritorio"
+  ],
+  [
+   "cuaderno",
+   "本子",
+   "cuadernos"
+  ],
+  [
+   "estuche",
+   "笔袋",
+   "estuche"
+  ],
+  [
+   "bolígrafo",
+   "圆珠笔",
+   "bolígrafos"
+  ],
+  [
+   "lápiz",
+   "铅笔",
+   "lápices"
+  ],
+  [
+   "goma",
+   "橡皮",
+   "goma"
+  ],
+  [
+   "meter",
+   "放进",
+   "meto"
+  ],
+  [
+   "pesar",
+   "重",
+   "pesa"
+  ],
+  [
+   "doler",
+   "疼",
+   "duele"
+  ],
+  [
+   "espalda",
+   "背",
+   "espalda"
+  ],
+  [
+   "bolsillo",
+   "口袋",
+   "bolsillos"
+  ],
+  [
+   "guardar",
+   "存放",
+   "guardo"
+  ],
+  [
+   "llave",
+   "钥匙",
+   "llaves"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Mi mochila es azul y bastante grande.",
+    "zh": "我的书包是蓝色的，挺大的。"
+   },
+   {
+    "es": "Es un regalo de mi tío y la uso todos los días.",
+    "zh": "这是叔叔送我的礼物，我每天都用它。"
+   },
+   {
+    "es": "Cada noche, antes de dormir, preparo la mochila en mi escritorio.",
+    "zh": "每天晚上睡觉前，我都在书桌上收拾好书包。"
+   },
+   {
+    "es": "Dentro pongo mis cuadernos, mis libros y el estuche.",
+    "zh": "我在里面放上本子、书和笔袋。"
+   },
+   {
+    "es": "En el estuche tengo bolígrafos, lápices y una goma.",
+    "zh": "笔袋里有圆珠笔、铅笔和一块橡皮。"
+   },
+   {
+    "es": "También meto una botella de agua y una manzana.",
+    "zh": "我还放进一瓶水和一个苹果。"
+   }
+  ],
+  [
+   {
+    "es": "A veces la mochila pesa mucho y me duele la espalda.",
+    "zh": "有时候书包很重，我的背会疼。"
+   },
+   {
+    "es": "Por eso solo llevo las cosas necesarias para cada día.",
+    "zh": "所以我只带每天需要的东西。"
+   },
+   {
+    "es": "Mi mochila tiene muchos bolsillos y todo está en orden.",
+    "zh": "我的书包有很多口袋，东西都放得整整齐齐。"
+   },
+   {
+    "es": "En un bolsillo pequeño guardo las llaves de casa.",
+    "zh": "家里的钥匙我放在一个小口袋里。"
+   },
+   {
+    "es": "Con ella voy a clase, a la biblioteca y de excursión.",
+    "zh": "我背着它去上课、去图书馆，还去郊游。"
+   },
+   {
+    "es": "Estoy muy contento con mi mochila porque es cómoda y bonita.",
+    "zh": "我对我的书包很满意，因为它背着舒服，样子也好看。"
+   }
+  ]
+ ]
+}

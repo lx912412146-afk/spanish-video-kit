@@ -1,0 +1,145 @@
+{
+ "id": "daily_b1_10",
+ "level": "B1",
+ "no": 10,
+ "title_es": "Un mercado de segunda mano",
+ "title_zh": "二手市场",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 10 篇。原创短文。现在时、简单过去时、过去未完成时 buscaba desde hacía mucho tiempo；现在虚拟式 aunque… estén、para que mi salón resulte；条件式 serían；连接语 además、aunque、ahora；被动意义的 se monta、se venden、se pueden arreglar。10 句，136 词。人名只有 Rosa，译作罗莎；摊主用 vendedora，不用 dependienta。hasta 在第 3 句是“甚至”，不是“直到”；guirnaldas de luces 对应插图里挂着的灯串；第 5 句 me la dejó más barata 是口语“便宜卖给我”，la 指小说。第 3 句 viejos, 和 antiguas, 是列举（libros viejos, cámaras antiguas, jarrones y hasta sillas de madera），不停顿；第 5 句 una señora llamada Rosa 是同位语，两边照常停顿。插图里的旧书、旧相机、花瓶、旧椅子、灯串都在正文里出现。词汇里 de segunda mano 在标题里，排在最前；montar 原文是 se monta 里的 monta：这里的 se 是被动意义的 se（市场被搭起来），词头是 montar，不是 montarse（montarse 是“骑上、坐上”）。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "viejos,",
+    "why": "列举：libros viejos, cámaras antiguas, jarrones y hasta sillas de madera（A, B, C y D）"
+   },
+   {
+    "after": "antiguas,",
+    "why": "列举：libros viejos, cámaras antiguas, jarrones y hasta sillas de madera（A, B, C y D）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "de segunda mano",
+   "二手的",
+   "de segunda mano"
+  ],
+  [
+   "montar",
+   "搭起来",
+   "monta"
+  ],
+  [
+   "puesto",
+   "摊位",
+   "puestos"
+  ],
+  [
+   "colgar",
+   "悬挂",
+   "cuelgan"
+  ],
+  [
+   "guirnalda de luces",
+   "灯串",
+   "guirnaldas de luces"
+  ],
+  [
+   "aire",
+   "气氛",
+   "aire"
+  ],
+  [
+   "jarrón",
+   "花瓶",
+   "jarrones"
+  ],
+  [
+   "hasta",
+   "甚至",
+   "hasta"
+  ],
+  [
+   "vendedor",
+   "摊主",
+   "vendedora"
+  ],
+  [
+   "detrás de",
+   "在背后",
+   "detrás de"
+  ],
+  [
+   "medio ambiente",
+   "环境",
+   "medio ambiente"
+  ],
+  [
+   "estropeado",
+   "破损的",
+   "estropeados"
+  ],
+  [
+   "arreglar",
+   "修理",
+   "arreglar"
+  ],
+  [
+   "acogedor",
+   "温馨的",
+   "acogedor"
+  ],
+  [
+   "aburrido",
+   "无聊的",
+   "aburridos"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Casi todos los domingos visito un mercado de segunda mano que se monta en una plaza de mi barrio.",
+    "zh": "几乎每个星期天，我都会去逛一个二手市场，它就开在我们街区的一个广场上。"
+   },
+   {
+    "es": "Entre los puestos cuelgan guirnaldas de luces que dan al lugar un aire alegre.",
+    "zh": "摊位之间挂着一串串彩灯，给这里增添了欢快的气氛。"
+   },
+   {
+    "es": "Allí se venden libros viejos, cámaras antiguas, jarrones y hasta sillas de madera.",
+    "zh": "那里卖旧书、老相机、花瓶，甚至还有木头椅子。"
+   },
+   {
+    "es": "La semana pasada encontré una novela que buscaba desde hacía mucho tiempo.",
+    "zh": "上个星期，我找到了一本找了很久的小说。"
+   },
+   {
+    "es": "La vendedora, una señora llamada Rosa, me la dejó más barata porque somos casi vecinos.",
+    "zh": "摊主是一位叫罗莎的女士，因为我们差不多算是邻居，她便宜一点卖给了我。"
+   }
+  ],
+  [
+   {
+    "es": "Me encanta imaginar la historia que hay detrás de cada objeto y quién lo tuvo antes.",
+    "zh": "我很喜欢想象每件物品背后的故事，想象它以前的主人是谁。"
+   },
+   {
+    "es": "Además, comprar cosas usadas es una forma sencilla de cuidar el medio ambiente.",
+    "zh": "而且，买旧货是保护环境的一种简单方式。"
+   },
+   {
+    "es": "Aunque algunos objetos estén algo estropeados, muchos se pueden arreglar con paciencia.",
+    "zh": "即使有些东西有点破损，很多也能耐心地修好。"
+   },
+   {
+    "es": "Ahora busco una silla antigua para que mi salón resulte más acogedor.",
+    "zh": "现在我在找一把老式椅子，好让我的客厅显得更温馨。"
+   },
+   {
+    "es": "Sin este pequeño mercado, mis domingos serían mucho más aburridos.",
+    "zh": "要是没有这个小市场，我的星期天会无聊得多。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_03",
+ "level": "B1",
+ "no": 3,
+ "title_es": "Caminar por la ciudad",
+ "title_zh": "在城市里散步",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 3 篇。原创短文。简单过去时 dejé de、empecé a；现在完成时 he descubierto，过去完成时 había visto；现在虚拟式 para que la lluvia no me quite；条件式 deberíamos；连接语 además、aun así、es cierto que；无人称 se conoce。10 句，145 词。banco 在这里是“长椅”，不是“银行”；miga 是面包屑；ventanilla 是车窗，和 ventana 区分；第 10 句 a pie 译作“徒步”，和标题里的 caminar（步行）区分。没有列举的逗号；第 9 句 Aun así, 是句首连接语，照常停顿。插图里的人行道、树、老楼、长椅、鸽子都在正文里出现。词汇里 caminar 在标题里，排在最前；dejar de 原文是 dejé de。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "caminar",
+   "步行",
+   "caminar"
+  ],
+  [
+   "dejar de",
+   "不再",
+   "dejé de"
+  ],
+  [
+   "trayecto",
+   "路程",
+   "trayecto"
+  ],
+  [
+   "a ambos lados",
+   "两侧",
+   "a ambos lados"
+  ],
+  [
+   "hierro",
+   "铁",
+   "hierro"
+  ],
+  [
+   "fachada",
+   "外墙",
+   "fachadas"
+  ],
+  [
+   "banco",
+   "长椅",
+   "banco"
+  ],
+  [
+   "paloma",
+   "鸽子",
+   "palomas"
+  ],
+  [
+   "miga",
+   "面包屑",
+   "migas"
+  ],
+  [
+   "acera",
+   "人行道",
+   "acera"
+  ],
+  [
+   "rincón",
+   "角落",
+   "rincones"
+  ],
+  [
+   "ventanilla",
+   "车窗",
+   "ventanilla"
+  ],
+  [
+   "despejar la mente",
+   "理清思绪",
+   "despejar la mente"
+  ],
+  [
+   "aun así",
+   "尽管如此",
+   "Aun así"
+  ],
+  [
+   "a pie",
+   "徒步",
+   "a pie"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hace un año dejé de usar el autobús para ir a la oficina y empecé a caminar.",
+    "zh": "一年前，我不再坐公交车去上班，而是开始步行。"
+   },
+   {
+    "es": "El trayecto es largo, pero atraviesa calles tranquilas con árboles a ambos lados.",
+    "zh": "路程很长，但要穿过几条两侧种着树的安静街道。"
+   },
+   {
+    "es": "Por el camino paso junto a edificios antiguos con balcones de hierro y fachadas de colores.",
+    "zh": "一路上，我会经过一些老建筑，它们有铁艺阳台和彩色的外墙。"
+   },
+   {
+    "es": "A veces me siento en un banco y observo a las palomas que buscan migas en la acera.",
+    "zh": "有时我会在长椅上坐下，看鸽子在人行道上找面包屑。"
+   },
+   {
+    "es": "Así he descubierto rincones que nunca había visto desde la ventanilla del autobús.",
+    "zh": "就这样，我发现了许多从公交车车窗里从未见过的角落。"
+   }
+  ],
+  [
+   {
+    "es": "Caminar me ayuda a despejar la mente antes de empezar a trabajar.",
+    "zh": "步行能帮我在开始工作之前理清思绪。"
+   },
+   {
+    "es": "Además, llego a la oficina de mejor humor y con más energía.",
+    "zh": "而且，我到办公室时心情更好，也更有精神。"
+   },
+   {
+    "es": "Es cierto que en los días de lluvia el paseo resulta menos agradable.",
+    "zh": "诚然，下雨天散步就没那么惬意了。"
+   },
+   {
+    "es": "Aun así, salgo con un paraguas para que la lluvia no me quite este rato de tranquilidad.",
+    "zh": "尽管如此，我还是带着伞出门，好让雨天夺不走这段安静的时光。"
+   },
+   {
+    "es": "Creo que todos deberíamos caminar más, porque una ciudad se conoce mejor a pie.",
+    "zh": "我认为我们都应该多走走，因为徒步才能更好地了解一座城市。"
+   }
+  ]
+ ]
+}

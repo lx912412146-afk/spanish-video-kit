@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_06",
+ "level": "B1",
+ "no": 6,
+ "title_es": "Los mayores y la tecnología",
+ "title_zh": "老年人与科技",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 6 篇。原创短文。现在完成时 han regalado、ha aprendido，过去未完成时 se ponía、pensaba；条件式 podría（过去的将来）；现在虚拟式 para que pueda、es importante que… ayudemos、alguien que les explique；连接语 como、sin embargo、poco a poco、a menudo。10 句，144 词。人名只有 Carmen，译作卡门。第 8 句 los jóvenes ayudemos 是西语里“我们年轻人”的说法，动词用第一人称复数，译文译成“我们年轻人”；第 9 句 no les interesa 的主语是科技，译成“对此不感兴趣”；gafas 对应插图里的老花镜，正文只说“眼镜”。没有列举的逗号；第 4 句 mientras tomamos un té 是插入的从句，两边照常停顿。叙述者是男性：me quedé emocionado 用阳性。词汇里 mayor 是标题词 mayores 的单数，正文第一次出现在第 1 句，排在最前；ponerse nervioso 原文是 se ponía nerviosa（主语是卡门）。第 4 句原为 dos tardes por semana，朗读核对时 tardes 词尾的 s 被吞（识别成 tarde），先改为 dos tardes a la semana（s 后面接元音），重新合成后 tardes 仍被识别成 tarde（这个音色的词尾 s 很弱），再改为单数 una tarde a la semana，译文改为“每周有一个下午去她家”，词汇 por semana 随之改为 a la semana；第 6 句 las noticias 后加 del día，为的是西语正文两端对齐时词间空白不超过 7.5 px。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "mayor",
+   "年长的",
+   "mayor"
+  ],
+  [
+   "tableta",
+   "平板电脑",
+   "tableta"
+  ],
+  [
+   "nieto",
+   "孙辈",
+   "nietos"
+  ],
+  [
+   "pedir ayuda",
+   "求助",
+   "pidió ayuda"
+  ],
+  [
+   "a la semana",
+   "每周",
+   "a la semana"
+  ],
+  [
+   "ponerse nervioso",
+   "变得紧张",
+   "se ponía nerviosa"
+  ],
+  [
+   "romper",
+   "弄坏",
+   "romper"
+  ],
+  [
+   "poco a poco",
+   "渐渐地",
+   "poco a poco"
+  ],
+  [
+   "videollamada",
+   "视频通话",
+   "videollamadas"
+  ],
+  [
+   "gafas",
+   "眼镜",
+   "gafas"
+  ],
+  [
+   "ampliar",
+   "放大",
+   "ampliar"
+  ],
+  [
+   "herramienta",
+   "工具",
+   "herramientas"
+  ],
+  [
+   "a menudo",
+   "经常",
+   "A menudo"
+  ],
+  [
+   "despacio",
+   "慢慢地",
+   "despacio"
+  ],
+  [
+   "reconocer",
+   "承认",
+   "reconozco"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Mi vecina Carmen es una señora mayor que vive sola desde hace muchos años.",
+    "zh": "我的邻居卡门是一位年长的女士，已经独自生活了很多年。"
+   },
+   {
+    "es": "Sus hijos le han regalado una tableta para que pueda hablar con sus nietos.",
+    "zh": "她的子女送了她一台平板电脑，好让她能和孙辈们聊天。"
+   },
+   {
+    "es": "Como no sabía usarla, me pidió ayuda, porque vivo justo al lado.",
+    "zh": "她不会用，便来请我帮忙，因为我就住在隔壁。"
+   },
+   {
+    "es": "Ahora voy a su casa una tarde a la semana y, mientras tomamos un té, practicamos juntos.",
+    "zh": "现在我每周有一个下午去她家，我们一边喝茶，一边一起练习。"
+   },
+   {
+    "es": "Los primeros días se ponía nerviosa, porque pensaba que podría romper algo.",
+    "zh": "最初几天她很紧张，因为她担心自己会弄坏什么东西。"
+   }
+  ],
+  [
+   {
+    "es": "Sin embargo, poco a poco ha aprendido a hacer videollamadas y a leer las noticias del día.",
+    "zh": "不过，她渐渐学会了打视频电话，也学会了看当天的新闻。"
+   },
+   {
+    "es": "Todavía lleva sus gafas, pero ya sabe ampliar las letras con dos dedos.",
+    "zh": "她还是戴着眼镜，但已经会用两根手指把字放大了。"
+   },
+   {
+    "es": "Creo que es importante que los jóvenes ayudemos a los mayores con estas herramientas.",
+    "zh": "我认为，我们年轻人帮助老年人使用这些工具是很重要的。"
+   },
+   {
+    "es": "A menudo pensamos que no les interesa, pero solo necesitan a alguien que les explique las cosas despacio.",
+    "zh": "我们常常以为他们对此不感兴趣，其实他们只是需要有人慢慢讲给他们听。"
+   },
+   {
+    "es": "Ayer Carmen me mandó su primer mensaje, y reconozco que me quedé emocionado.",
+    "zh": "昨天，卡门给我发来了她的第一条消息，我承认，我当时很感动。"
+   }
+  ]
+ ]
+}

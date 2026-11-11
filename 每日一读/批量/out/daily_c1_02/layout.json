@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  642.234375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  650.234375
+ ],
+ "zh": [
+  96,
+  676.234375,
+  480,
+  892.359375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  283.03125,
+  131.625
+ ],
+ "header_gap": 119.4375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.2,
+   "En la estantería de un taller de cerámica me llamó la atención"
+  ],
+  [
+   "mid",
+   4.7,
+   "un cuenco cuyas grietas habían sido reparadas con oro. Lejos de"
+  ],
+  [
+   "mid",
+   7.3,
+   "disimular la rotura, aquellas líneas doradas la convertían en el"
+  ],
+  [
+   "mid",
+   7.2,
+   "rasgo más llamativo de la pieza. La artesana me explicó que,"
+  ],
+  [
+   "mid",
+   3.7,
+   "según una antigua tradición japonesa, un objeto reparado adquiere"
+  ],
+  [
+   "last",
+   3.5,
+   "un valor nuevo."
+  ],
+  [
+   "mid",
+   4.1,
+   "Me pregunto qué ocurriría si aplicáramos esa misma mirada a"
+  ],
+  [
+   "mid",
+   7.2,
+   "nuestras propias vidas. Solemos esconder los errores como si"
+  ],
+  [
+   "mid",
+   5.2,
+   "fueran manchas vergonzosas, sin advertir que cuentan la historia"
+  ],
+  [
+   "mid",
+   4.5,
+   "de lo que hemos superado. Una cicatriz no anula la belleza de un"
+  ],
+  [
+   "mid",
+   6.3,
+   "rostro, del mismo modo que una grieta no resta dignidad a un"
+  ],
+  [
+   "mid",
+   4,
+   "cuenco. Aceptar lo imperfecto no supone renunciar a mejorar, sino"
+  ],
+  [
+   "last",
+   3.5,
+   "reconocer que la fragilidad también forma parte de lo que somos."
+  ]
+ ],
+ "es_max_gap": 7.3,
+ "es_font": [
+  13.1,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

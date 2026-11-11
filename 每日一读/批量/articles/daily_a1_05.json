@@ -1,0 +1,142 @@
+{
+ "id": "daily_a1_05",
+ "level": "A1",
+ "no": 5,
+ "title_es": "Un día de lluvia",
+ "title_zh": "下雨天",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 5 篇。原创短文。只用陈述式现在时，有 ir a + 原形（no voy a salir）、gustar、encantar、así que。12 句，121 词。特别判断：botas de agua 是西班牙的说法，指雨靴，和插图门边的雨靴对应；第 5 句 los 同时指雨伞和雨靴（阳性 + 阴性用 los），译作“它们”；第 6 句 me siento 是 sentarse（坐下），不是 sentirse；第 9 句 sus botas 指孩子们的靴子，译作“穿着靴子”；a mí me encanta 和前半句的 no le gusta 对照，译作“可我特别喜欢”。第 3 句 clase, así que、第 5 句 necesito, porque、第 11 句 lluvia, pero 都是分句之间的逗号，照常停顿；全篇没有列举，no_pause_commas 为空。词汇：lluvia 在标题里，排在最前；quedarse 和 sentarse 的原文写法带代词 me quedo、me siento。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "lluvia",
+   "雨",
+   "lluvia"
+  ],
+  [
+   "llover",
+   "下雨",
+   "llueve"
+  ],
+  [
+   "cielo",
+   "天空",
+   "cielo"
+  ],
+  [
+   "gris",
+   "灰色的",
+   "gris"
+  ],
+  [
+   "mojado",
+   "湿的",
+   "mojada"
+  ],
+  [
+   "quedarse",
+   "待着",
+   "me quedo"
+  ],
+  [
+   "paraguas",
+   "雨伞",
+   "paraguas"
+  ],
+  [
+   "bota de agua",
+   "雨靴",
+   "botas de agua"
+  ],
+  [
+   "necesitar",
+   "需要",
+   "necesito"
+  ],
+  [
+   "caliente",
+   "热的",
+   "caliente"
+  ],
+  [
+   "sentarse",
+   "坐",
+   "me siento"
+  ],
+  [
+   "saltar",
+   "跳",
+   "saltan"
+  ],
+  [
+   "charco",
+   "水坑",
+   "charcos"
+  ],
+  [
+   "encantar",
+   "非常喜欢",
+   "encanta"
+  ],
+  [
+   "agradable",
+   "舒服的",
+   "agradable"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hoy es sábado y llueve mucho desde la mañana.",
+    "zh": "今天是星期六，从早上起就一直下大雨。"
+   },
+   {
+    "es": "El cielo está gris y la calle está mojada.",
+    "zh": "天空灰蒙蒙的，街道湿漉漉的。"
+   },
+   {
+    "es": "No tengo clase, así que me quedo en casa.",
+    "zh": "我今天没课，所以就待在家里。"
+   },
+   {
+    "es": "Junto a la puerta están mi paraguas y mis botas de agua.",
+    "zh": "门边放着我的雨伞和雨靴。"
+   },
+   {
+    "es": "Hoy no los necesito, porque no voy a salir.",
+    "zh": "今天我用不着它们，因为我不打算出门。"
+   },
+   {
+    "es": "Preparo un té caliente y me siento al lado de la ventana.",
+    "zh": "我泡一杯热茶，坐到窗边。"
+   }
+  ],
+  [
+   {
+    "es": "Desde allí miro la lluvia y escucho su sonido.",
+    "zh": "我在那儿看着雨，听着雨声。"
+   },
+   {
+    "es": "La gente camina rápido con paraguas de muchos colores.",
+    "zh": "人们打着各种颜色的伞，走得很快。"
+   },
+   {
+    "es": "Unos niños saltan en los charcos con sus botas.",
+    "zh": "几个孩子穿着靴子在水坑里跳。"
+   },
+   {
+    "es": "Leo un libro y tomo el té muy despacio.",
+    "zh": "我看看书，慢慢地喝茶。"
+   },
+   {
+    "es": "A mucha gente no le gusta la lluvia, pero a mí me encanta.",
+    "zh": "很多人不喜欢下雨，可我特别喜欢。"
+   },
+   {
+    "es": "Para mí, un día de lluvia en casa es tranquilo y agradable.",
+    "zh": "对我来说，下雨天待在家里又安静又舒服。"
+   }
+  ]
+ ]
+}

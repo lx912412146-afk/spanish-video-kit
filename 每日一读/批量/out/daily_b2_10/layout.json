@@ -1,0 +1,292 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  635.9375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  643.9375
+ ],
+ "zh": [
+  96,
+  669.9375,
+  480,
+  886.0625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  278.109375,
+  131.625
+ ],
+ "header_gap": 107.265625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   3
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   3.6,
+   "En las ciudades viven cada vez más mascotas, que para mucha"
+  ],
+  [
+   "mid",
+   4.1,
+   "gente son parte de la familia. Cada tarde, en el parque de mi barrio,"
+  ],
+  [
+   "mid",
+   6.5,
+   "se reúnen vecinos con sus perros. Para quienes viven solos, un"
+  ],
+  [
+   "mid",
+   7.4,
+   "animal ofrece compañía y una excusa para salir a caminar. De"
+  ],
+  [
+   "mid",
+   4.2,
+   "hecho, muchos dueños reconocen que han conocido a sus vecinos"
+  ],
+  [
+   "last",
+   3.4,
+   "gracias a su perro."
+  ],
+  [
+   "mid",
+   3.4,
+   "No obstante, convivir con animales en espacios reducidos exige"
+  ],
+  [
+   "mid",
+   4,
+   "responsabilidad. Es fundamental que los dueños mantengan limpias"
+  ],
+  [
+   "mid",
+   3.9,
+   "las aceras y respeten el descanso ajeno. Además, antes de adoptar,"
+  ],
+  [
+   "mid",
+   3.6,
+   "conviene pensar si se dispone del tiempo y el espacio necesarios. Si"
+  ],
+  [
+   "mid",
+   4.1,
+   "todos fuéramos más considerados, la convivencia sería mucho más"
+  ],
+  [
+   "mid",
+   5.3,
+   "sencilla. En definitiva, una ciudad que acoge bien a sus mascotas"
+  ],
+  [
+   "last",
+   3.4,
+   "suele ser más amable."
+  ]
+ ],
+ "es_max_gap": 7.4,
+ "es_font": [
+  12.8,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

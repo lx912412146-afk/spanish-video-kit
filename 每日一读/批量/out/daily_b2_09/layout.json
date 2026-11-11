@@ -1,0 +1,279 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  619.15625
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  627.15625
+ ],
+ "zh": [
+  96,
+  653.15625,
+  480,
+  846.15625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  290.359375,
+  131.625
+ ],
+ "header_gap": 99.953125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.2,
+   "Siempre había creído que aprender idiomas de adulto era casi"
+  ],
+  [
+   "mid",
+   4.9,
+   "imposible. Pensaba que, si no se empezaba en la infancia, nunca"
+  ],
+  [
+   "mid",
+   5.6,
+   "se llegaba a hablar con soltura. Sin embargo, el año pasado me"
+  ],
+  [
+   "mid",
+   5.6,
+   "matriculé en un curso de italiano y pronto comprobé que estaba"
+  ],
+  [
+   "mid",
+   4.7,
+   "equivocado. Es cierto que a mi edad cuesta más pronunciar bien;"
+  ],
+  [
+   "last",
+   3.5,
+   "en cambio, entiendo mejor la gramática."
+  ],
+  [
+   "mid",
+   4.1,
+   "Cada mañana practico con los auriculares mientras desayuno,"
+  ],
+  [
+   "mid",
+   3.9,
+   "y por la noche repaso el vocabulario en mi cuaderno. Lo más difícil"
+  ],
+  [
+   "mid",
+   3.7,
+   "no ha sido aprender palabras, sino superar el miedo a equivocarme"
+  ],
+  [
+   "mid",
+   7,
+   "en público. Si hubiera sabido que equivocarse forma parte del"
+  ],
+  [
+   "mid",
+   4,
+   "aprendizaje, me habría lanzado hace años. Por lo tanto, la edad no"
+  ],
+  [
+   "last",
+   3.5,
+   "es un obstáculo, sino una manera distinta de aprender."
+  ]
+ ],
+ "es_max_gap": 7,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

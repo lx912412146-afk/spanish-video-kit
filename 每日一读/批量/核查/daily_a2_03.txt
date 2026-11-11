@@ -1,0 +1,57 @@
+✓  1 La casa de mis abuelos.
+     识别：La casa de mis abuelos.
+✓  2 Mis abuelos viven en una casa pequeña rodeada de campos.
+     识别：Mis abuelos viven en una casa pequeña rodeada de campos.
+✓  3 Tiene las paredes blancas, el tejado rojo y una cerca de madera.
+     识别：Tiene las paredes blancas, el tejado rojo y una cerca de madera.
+✓  4 Cuando era niño, pasaba allí todos los veranos con mis primos.
+     识别：Cuando era niño, pasaba allí todos los veranos con mis primos.
+✓  5 Por las mañanas ayudaba a mi abuelo en el jardín.
+     识别：Por las mañanas ayudaba a mi abuelo en el jardín.
+✓  6 Por las tardes jugábamos debajo de un árbol enorme.
+     识别：Por las tardes jugábamos debajo de un árbol enorme.
+✓  7 Mi abuela siempre preparaba una tarta de manzana para merendar.
+     识别：Mi abuela siempre preparaba una tarta de manzana para merendar.
+✓  8 El mes pasado volví a visitarlos después de mucho tiempo.
+     识别：El mes pasado volví a visitarlos después de mucho tiempo.
+✓  9 La casa estaba igual y el árbol seguía allí.
+     识别：La casa estaba igual y el árbol seguía allí.
+✓ 10 Mi abuela me recibió con un abrazo y, por supuesto, con su tarta.
+     识别：Mi abuela me recibió con un abrazo y, por supuesto, con su tarta.
+✓ 11 Después di un paseo con mi abuelo por los campos.
+     识别：Después di un paseo con mi abuelo por los campos.
+✓ 12 En esa casa me siento tranquilo y feliz, como cuando era niño.
+     识别：En esa casa me siento tranquilo y feliz, como cuando era niño.
+✓ 高亮版   0.19 秒 应为 page_static.png：和其余 12 张逐对比，最接近混淆的是 page_hl_04.png（差值比 0.07，要求 < 0.35）；整页差 1.61
+✓ 高亮版   1.96 秒 应为 page_hl_01.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.64
+✓ 高亮版   6.10 秒 应为 page_hl_02.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.68
+✓ 高亮版  11.60 秒 应为 page_hl_03.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.15，要求 < 0.35）；整页差 1.64
+✓ 高亮版  17.50 秒 应为 page_hl_04.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.18，要求 < 0.35）；整页差 1.65
+✓ 高亮版  22.62 秒 应为 page_hl_05.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.63
+✓ 高亮版  26.96 秒 应为 page_hl_06.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.63
+✓ 高亮版  31.88 秒 应为 page_hl_07.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.15，要求 < 0.35）；整页差 1.63
+✓ 高亮版  37.06 秒 应为 page_hl_08.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.15，要求 < 0.35）；整页差 1.64
+✓ 高亮版  41.75 秒 应为 page_hl_09.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.62
+✓ 高亮版  47.56 秒 应为 page_hl_10.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.65
+✓ 高亮版  53.50 秒 应为 page_hl_11.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.63
+✓ 高亮版  58.67 秒 应为 page_hl_12.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.18，要求 < 0.35）；整页差 1.65
+✓ 高亮版  61.92 秒 应为 page_static.png：和其余 12 张逐对比，最接近混淆的是 page_hl_12.png（差值比 0.08，要求 < 0.35）；整页差 1.60
+✓ daily_a2_03.mp4：h264 1080×1512 24/1 yuv420p，aac 48000 Hz
+✓ daily_a2_03.mp4：视频 62.375 秒，音频 62.375 秒，帧数 1497
+✓ 总时长 62.4 秒（53—67）
+✓ MP4 音轨整体响度 -16.46 LUFS，峰值 -1.67 dBFS
+✓ 逐句识别：12 句，0 句有出入
+✓ 画面：高亮版 14 段，0 处不对
+✓ 每句从开口到读完都高亮这一句（12 句）
+✓ 源图 13 张＝静态页＋12 张高亮页
+✓ 页面不滚动、没有截断（scroll [720, 1008]，overflow 0）
+✓ 底部留白 165 px
+✓ 西语两端对齐最大词间空白 7.9 px（字号 [12.7, -0.15]）
+✓ 插图、西语、译文、词汇栏互不重叠
+✓ 标题栏左右留空 145 px
+✓ 插图上的标题在插图内（右端 258，插图右端 480）
+✓ 词汇栏每条都在栏内（换行的 1 条）
+✓ 词汇 15 条，正文里找不到的：无
+✓ 中文半角字符：无
+✓ 朗读文字＝标题＋正文（逐句一致）
+全部通过

@@ -1,0 +1,221 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_02.mp3",
+ "duration": 55.76,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.42,
+  "sentence_max_dev_lu": 0.32,
+  "short_term_std_lu": 0.92,
+  "short_term_std_full_lu": 0.93,
+  "peak_dbfs": -1.77,
+  "buzz_hz": 8779.5,
+  "buzz_db": 7.5,
+  "comb_db": 0.12
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.2,
+   "parts": [
+    [
+     0.5,
+     2.2
+    ]
+   ],
+   "segments": [
+    "La belleza de lo imperfecto."
+   ],
+   "text": "La belleza de lo imperfecto.",
+   "read": "La belleza de lo imperfecto."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.2,
+   "end": 10.08,
+   "parts": [
+    [
+     3.2,
+     10.08
+    ]
+   ],
+   "segments": [
+    "En la estantería de un taller de cerámica me llamó la atención un cuenco cuyas grietas habían sido reparadas con oro."
+   ],
+   "text": "En la estantería de un taller de cerámica me llamó la atención un cuenco cuyas grietas habían sido reparadas con oro.",
+   "read": "En la estantería de un taller de cerámica me llamó la atención un cuenco cuyas grietas habían sido reparadas con oro."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 11.08,
+   "end": 17.71,
+   "parts": [
+    [
+     11.08,
+     13.22
+    ],
+    [
+     13.5,
+     17.71
+    ]
+   ],
+   "segments": [
+    "Lejos de disimular la rotura,",
+    "aquellas líneas doradas la convertían en el rasgo más llamativo de la pieza."
+   ],
+   "text": "Lejos de disimular la rotura, aquellas líneas doradas la convertían en el rasgo más llamativo de la pieza.",
+   "read": "Lejos de disimular la rotura, aquellas líneas doradas la convertían en el rasgo más llamativo de la pieza."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 18.71,
+   "end": 25.4,
+   "parts": [
+    [
+     18.71,
+     20.42
+    ],
+    [
+     20.7,
+     22.86
+    ],
+    [
+     23.14,
+     25.4
+    ]
+   ],
+   "segments": [
+    "La artesana me explicó que,",
+    "según una antigua tradición japonesa,",
+    "un objeto reparado adquiere un valor nuevo."
+   ],
+   "text": "La artesana me explicó que, según una antigua tradición japonesa, un objeto reparado adquiere un valor nuevo.",
+   "read": "La artesana me explicó que, según una antigua tradición japonesa, un objeto reparado adquiere un valor nuevo."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 26.4,
+   "end": 30.85,
+   "parts": [
+    [
+     26.4,
+     30.85
+    ]
+   ],
+   "segments": [
+    "Me pregunto qué ocurriría si aplicáramos esa misma mirada a nuestras propias vidas."
+   ],
+   "text": "Me pregunto qué ocurriría si aplicáramos esa misma mirada a nuestras propias vidas.",
+   "read": "Me pregunto qué ocurriría si aplicáramos esa misma mirada a nuestras propias vidas."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 31.85,
+   "end": 39.09,
+   "parts": [
+    [
+     31.85,
+     35.57
+    ],
+    [
+     35.85,
+     39.09
+    ]
+   ],
+   "segments": [
+    "Solemos esconder los errores como si fueran manchas vergonzosas,",
+    "sin advertir que cuentan la historia de lo que hemos superado."
+   ],
+   "text": "Solemos esconder los errores como si fueran manchas vergonzosas, sin advertir que cuentan la historia de lo que hemos superado.",
+   "read": "Solemos esconder los errores como si fueran manchas vergonzosas, sin advertir que cuentan la historia de lo que hemos superado."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 40.09,
+   "end": 46.47,
+   "parts": [
+    [
+     40.09,
+     42.75
+    ],
+    [
+     43.03,
+     46.47
+    ]
+   ],
+   "segments": [
+    "Una cicatriz no anula la belleza de un rostro,",
+    "del mismo modo que una grieta no resta dignidad a un cuenco."
+   ],
+   "text": "Una cicatriz no anula la belleza de un rostro, del mismo modo que una grieta no resta dignidad a un cuenco.",
+   "read": "Una cicatriz no anula la belleza de un rostro, del mismo modo que una grieta no resta dignidad a un cuenco."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 47.47,
+   "end": 54.56,
+   "parts": [
+    [
+     47.47,
+     50.67
+    ],
+    [
+     50.95,
+     54.56
+    ]
+   ],
+   "segments": [
+    "Aceptar lo imperfecto no supone renunciar a mejorar,",
+    "sino reconocer que la fragilidad también forma parte de lo que somos."
+   ],
+   "text": "Aceptar lo imperfecto no supone renunciar a mejorar, sino reconocer que la fragilidad también forma parte de lo que somos.",
+   "read": "Aceptar lo imperfecto no supone renunciar a mejorar, sino reconocer que la fragilidad también forma parte de lo que somos."
+  }
+ ]
+}

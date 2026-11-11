@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：阁楼里打开的祖父旧皮箱，箱里有褪色的旧照片（只有风景色块）、怀表、圆框眼镜（水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f3dec6"/>
+    </linearGradient>
+    <linearGradient id="ceil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efdcc2"/><stop offset="1" stop-color="#e5ccac"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3c6a1"/><stop offset="1" stop-color="#d4b28a"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3e5ee"/><stop offset="1" stop-color="#eef3ef"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9794f"/><stop offset="1" stop-color="#9c6342"/>
+    </linearGradient>
+    <linearGradient id="lining" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2d3b4"/><stop offset="1" stop-color="#efe3cb"/>
+    </linearGradient>
+    <linearGradient id="lidIn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9dcc1"/><stop offset="1" stop-color="#ddcba9"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecd08e"/><stop offset="0.5" stop-color="#cfa65a"/><stop offset="1" stop-color="#b48a45"/>
+    </linearGradient>
+    <radialGradient id="face" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#fdf8ec"/><stop offset="1" stop-color="#eee2c8"/>
+    </radialGradient>
+    <linearGradient id="crate" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfae86"/><stop offset="1" stop-color="#bf9a72"/>
+    </linearGradient>
+    <clipPath id="inner"><path d="M92,157 L308,157 L320,188 L80,188 Z"/></clipPath>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 阁楼：墙、斜屋顶、地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <path d="M246,0 L410,0 L410,104 Z" fill="url(#ceil)"/>
+    <rect x="0" y="196" width="400" height="64" fill="url(#floor)"/>
+    <g stroke="#cfae88" stroke-width="0.8" opacity="0.7">
+      <line x1="0" y1="212" x2="400" y2="212"/><line x1="0" y1="230" x2="400" y2="230"/><line x1="0" y1="248" x2="400" y2="248"/>
+      <line x1="40" y1="196" x2="38" y2="212"/><line x1="350" y1="212" x2="347" y2="230"/><line x1="120" y1="230" x2="117" y2="248"/><line x1="300" y1="248" x2="298" y2="260"/>
+    </g>
+    <rect x="0" y="193" width="400" height="4" fill="#ead3b4"/>
+
+    <!-- 天窗的光 -->
+    <g filter="url(#soft)" opacity="0.5">
+      <path d="M318,22 L364,22 L300,200 L160,200 Z" fill="#fffaf0"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 屋顶的斜梁和天窗 -->
+      <path d="M240,0 L252,0 L410,98 L410,108 Z" fill="#c9a57c"/>
+      <path d="M300,0 L306,0 L410,64 L410,68 Z" fill="#d6b48c" opacity="0.8"/>
+      <path d="M320,16 L356,16 L372,44 L338,44 Z" fill="url(#sky)"/>
+      <path d="M320,16 L356,16 L372,44 L338,44 Z" fill="none" stroke="#e7d2b2" stroke-width="3"/>
+      <path d="M338,16 L355,44" stroke="#e7d2b2" stroke-width="2"/>
+      <ellipse cx="346" cy="26" rx="7" ry="2" fill="#ffffff" opacity="0.8"/>
+
+      <!-- 后面的旧木箱 -->
+      <rect x="330" y="150" width="62" height="46" fill="url(#crate)"/>
+      <g stroke="#b08a63" stroke-width="1.2"><line x1="330" y1="165" x2="392" y2="165"/><line x1="330" y1="180" x2="392" y2="180"/></g>
+      <rect x="330" y="146" width="62" height="5" fill="#d9bd98"/>
+      <path d="M334,151 L388,192" stroke="#c39f78" stroke-width="3"/>
+
+      <!-- 皮箱盖（打开，向后立着） -->
+      <path d="M92,70 C92,66 95,64 99,64 L301,64 C305,64 308,66 308,70 L316,156 L84,156 Z" fill="#a86d48"/>
+      <path d="M99,72 L301,72 L308,150 L92,150 Z" fill="url(#lidIn)"/>
+      <g stroke="#d6c4a2" stroke-width="1" opacity="0.7">
+        <line x1="140" y1="72" x2="137" y2="150"/><line x1="200" y1="72" x2="200" y2="150"/><line x1="260" y1="72" x2="263" y2="150"/>
+      </g>
+      <!-- 盖子内侧的布口袋 -->
+      <path d="M96,118 L304,118 L307,150 L93,150 Z" fill="#e6d6b6"/>
+      <path d="M96,118 C130,124 170,124 200,118 C230,124 270,124 304,118" stroke="#cdb894" stroke-width="1.4" fill="none"/>
+      <g stroke="#d4c19e" stroke-width="0.9" opacity="0.8"><line x1="130" y1="122" x2="128" y2="150"/><line x1="170" y1="122" x2="169" y2="150"/><line x1="230" y1="122" x2="231" y2="150"/><line x1="270" y1="122" x2="272" y2="150"/></g>
+      <path d="M140,72 L146,72 L146,98 L143,102 L140,98 Z M254,72 L260,72 L260,98 L257,102 L254,98 Z" fill="#94603f"/>
+      <g fill="#7f5034">
+        <path d="M92,70 C92,66 95,64 99,64 L112,64 L110,74 L94,78 Z"/><path d="M308,70 C308,66 305,64 301,64 L288,64 L290,74 L306,78 Z"/>
+      </g>
+
+      <!-- 皮箱底：箱口和里衬 -->
+      <path d="M90,152 L310,152 L326,192 L74,192 Z" fill="#b47650"/>
+      <path d="M92,157 L308,157 L320,188 L80,188 Z" fill="url(#lining)"/>
+      <g clip-path="url(#inner)">
+        <path d="M92,157 L308,157 L310,166 L90,166 Z" fill="#cdbb98" opacity="0.7"/>
+        <g stroke="#d9c8a6" stroke-width="1" opacity="0.6"><line x1="140" y1="157" x2="134" y2="188"/><line x1="200" y1="157" x2="200" y2="188"/><line x1="260" y1="157" x2="266" y2="188"/></g>
+
+        <!-- 褪色的旧照片：只有风景色块 -->
+        <g transform="translate(130,175) scale(1,0.72) rotate(-10)">
+          <rect x="-23" y="-17" width="46" height="34" fill="#f4ecdc"/>
+          <rect x="-19" y="-13" width="38" height="22" fill="#dfe2da"/>
+          <path d="M-19,0 C-12,-5 -4,-6 3,-2 C9,-6 15,-6 19,-3 L19,9 L-19,9 Z" fill="#bcc8a8"/>
+          <path d="M-19,4 C-6,2 6,3 19,2 L19,9 L-19,9 Z" fill="#d2c39c"/>
+        </g>
+        <g transform="translate(178,170) scale(1,0.72) rotate(7)">
+          <rect x="-17" y="-23" width="34" height="46" fill="#f1e6d0"/>
+          <rect x="-13" y="-19" width="26" height="32" fill="#e6d4b2"/>
+          <path d="M-13,2 C-8,-4 -1,-7 5,-3 C8,-5 11,-5 13,-3 L13,13 L-13,13 Z" fill="#c8ab82"/>
+          <path d="M-13,8 C-4,6 4,7 13,6 L13,13 L-13,13 Z" fill="#b39470"/>
+          <circle cx="6" cy="-11" r="3" fill="#f3e3c2"/>
+        </g>
+        <g transform="translate(226,178) scale(1,0.72) rotate(-4)">
+          <rect x="-24" y="-17" width="48" height="34" fill="#f4ecdc"/>
+          <rect x="-20" y="-13" width="40" height="22" fill="#dde6e6"/>
+          <rect x="-20" y="0" width="40" height="9" fill="#b6cbcc"/>
+          <path d="M5,0 C7,-5 12,-6 16,-3 C18,-2 19,-1 20,0 Z" fill="#bfcaa8"/>
+        </g>
+
+        <!-- 圆框眼镜 -->
+        <path d="M136,182 L124,174 M182,182 L196,175" stroke="#9b7d5c" stroke-width="1.4" fill="none"/>
+        <ellipse cx="146" cy="183" rx="11" ry="7" fill="#eef5f4" opacity="0.5"/>
+        <ellipse cx="172" cy="183" rx="11" ry="7" fill="#eef5f4" opacity="0.5"/>
+        <ellipse cx="146" cy="183" rx="11" ry="7" fill="none" stroke="#9b7d5c" stroke-width="1.8"/>
+        <ellipse cx="172" cy="183" rx="11" ry="7" fill="none" stroke="#9b7d5c" stroke-width="1.8"/>
+        <path d="M157,182 C158,179 160,179 161,182" stroke="#9b7d5c" stroke-width="1.6" fill="none"/>
+        <path d="M139,180 C141,178 144,177 147,177 M165,180 C167,178 170,177 173,177" stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.85" stroke-linecap="round"/>
+
+        <!-- 停了的怀表和表链 -->
+        <path d="M290,172 C296,176 300,180 304,186 C306,190 300,192 294,190" stroke="#d4af64" stroke-width="1.5" fill="none" stroke-dasharray="2.2 1.2"/>
+        <ellipse cx="270" cy="172" rx="18" ry="11" fill="url(#brass)"/>
+        <ellipse cx="270" cy="171.6" rx="14.6" ry="8.6" fill="url(#face)"/>
+        <g stroke="#a88b66" stroke-width="1" stroke-linecap="round">
+          <line x1="270" y1="164" x2="270" y2="165.8"/><line x1="270" y1="177.4" x2="270" y2="179.2"/><line x1="256.6" y1="171.6" x2="258.6" y2="171.6"/><line x1="281.4" y1="171.6" x2="283.4" y2="171.6"/>
+        </g>
+        <path d="M270,171.6 L270,166.4 M270,171.6 L276,173" stroke="#6f5e4e" stroke-width="1.1" stroke-linecap="round"/>
+        <circle cx="270" cy="171.6" r="1" fill="#6f5e4e"/>
+        <rect x="286" y="166" width="5" height="4" rx="1.2" fill="#cfa65a"/>
+        <circle cx="293.4" cy="168" r="2.6" fill="none" stroke="#cfa65a" stroke-width="1.4"/>
+        <path d="M258,167 C261,164.5 265,163.6 270,163.6" stroke="#ffffff" stroke-width="1.4" fill="none" opacity="0.6" stroke-linecap="round"/>
+      </g>
+
+      <!-- 皮箱底：正面 -->
+      <path d="M74,192 L326,192 L326,226 C326,230 323,232 319,232 L81,232 C77,232 74,230 74,226 Z" fill="url(#front)"/>
+      <path d="M74,192 L326,192 L326,198 L74,198 Z" fill="#c78e64"/>
+      <path d="M78,204 L322,204" stroke="#d7a27a" stroke-width="0.9" stroke-dasharray="3 2.5" opacity="0.8"/>
+      <g fill="#7f5034">
+        <path d="M74,214 L74,226 C74,230 77,232 81,232 L92,232 L92,224 C84,224 82,222 82,214 Z"/>
+        <path d="M326,214 L326,226 C326,230 323,232 319,232 L308,232 L308,224 C316,224 318,222 318,214 Z"/>
+        <path d="M74,192 L86,192 L90,184 L80,184 Z"/><path d="M326,192 L314,192 L310,184 L320,184 Z"/>
+      </g>
+      <!-- 打开的锁扣和提手 -->
+      <rect x="138" y="194" width="12" height="9" rx="1.5" fill="url(#brass)"/>
+      <rect x="250" y="194" width="12" height="9" rx="1.5" fill="url(#brass)"/>
+      <path d="M186,200 C186,214 214,214 214,200" stroke="#7a4a2f" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M187,201 C188,211 212,211 213,201" stroke="#b77d55" stroke-width="1.4" fill="none" opacity="0.8"/>
+      <rect x="183" y="196" width="6" height="6" rx="1" fill="url(#brass)"/><rect x="211" y="196" width="6" height="6" rx="1" fill="url(#brass)"/>
+      <path d="M96,214 C150,218 250,218 304,214" stroke="#cf9a72" stroke-width="2.4" fill="none" opacity="0.35" stroke-linecap="round"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.22" fill="#7a5c40">
+      <ellipse cx="200" cy="233" rx="130" ry="4.5"/><ellipse cx="361" cy="197" rx="34" ry="2.5"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

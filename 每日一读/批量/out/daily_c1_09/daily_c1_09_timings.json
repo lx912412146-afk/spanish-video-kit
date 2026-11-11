@@ -1,0 +1,236 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_09.mp3",
+ "duration": 54.45,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.43,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.75,
+  "buzz_hz": 13500.0,
+  "buzz_db": 5.2,
+  "comb_db": 0.05
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.22,
+   "parts": [
+    [
+     0.5,
+     2.22
+    ]
+   ],
+   "segments": [
+    "La memoria de los objetos."
+   ],
+   "text": "La memoria de los objetos.",
+   "read": "La memoria de los objetos."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.12,
+   "end": 8.61,
+   "parts": [
+    [
+     3.12,
+     4.17
+    ],
+    [
+     4.45,
+     5.76
+    ],
+    [
+     6.04,
+     8.61
+    ]
+   ],
+   "segments": [
+    "Hace poco,",
+    "al ordenar el desván,",
+    "encontré la vieja maleta de cuero de mi abuelo."
+   ],
+   "text": "Hace poco, al ordenar el desván, encontré la vieja maleta de cuero de mi abuelo.",
+   "read": "Hace poco, al ordenar el desván, encontré la vieja maleta de cuero de mi abuelo."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.51,
+   "end": 15.78,
+   "parts": [
+    [
+     9.51,
+     15.78
+    ]
+   ],
+   "segments": [
+    "Dentro había unas fotografías descoloridas, un reloj de bolsillo detenido y unas gafas de montura redonda."
+   ],
+   "text": "Dentro había unas fotografías descoloridas, un reloj de bolsillo detenido y unas gafas de montura redonda.",
+   "read": "Dentro había unas fotografías descoloridas, un reloj de bolsillo detenido y unas gafas de montura redonda."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 16.68,
+   "end": 22.44,
+   "parts": [
+    [
+     16.68,
+     19.35
+    ],
+    [
+     19.63,
+     22.44
+    ]
+   ],
+   "segments": [
+    "Ninguno de esos objetos tenía valor económico,",
+    "pero al tocarlos sentí que conservaban algo de él."
+   ],
+   "text": "Ninguno de esos objetos tenía valor económico, pero al tocarlos sentí que conservaban algo de él.",
+   "read": "Ninguno de esos objetos tenía valor económico, pero al tocarlos sentí que conservaban algo de él."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 23.34,
+   "end": 31.26,
+   "parts": [
+    [
+     23.34,
+     24.3
+    ],
+    [
+     24.58,
+     25.87
+    ],
+    [
+     26.15,
+     27.69
+    ],
+    [
+     27.97,
+     31.26
+    ]
+   ],
+   "segments": [
+    "Los objetos,",
+    "desde luego,",
+    "no recuerdan nada,",
+    "pero funcionan como anclas a las que se aferra nuestra memoria."
+   ],
+   "text": "Los objetos, desde luego, no recuerdan nada, pero funcionan como anclas a las que se aferra nuestra memoria.",
+   "read": "Los objetos, desde luego, no recuerdan nada, pero funcionan como anclas a las que se aferra nuestra memoria."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 32.16,
+   "end": 37.82,
+   "parts": [
+    [
+     32.16,
+     37.82
+    ]
+   ],
+   "segments": [
+    "El olor del cuero o el peso del reloj en la mano bastan para devolverme a las tardes de mi infancia."
+   ],
+   "text": "El olor del cuero o el peso del reloj en la mano bastan para devolverme a las tardes de mi infancia.",
+   "read": "El olor del cuero o el peso del reloj en la mano bastan para devolverme a las tardes de mi infancia."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 38.72,
+   "end": 45.96,
+   "parts": [
+    [
+     38.72,
+     42.32
+    ],
+    [
+     42.6,
+     45.96
+    ]
+   ],
+   "segments": [
+    "Quizá por eso nos cuesta tanto desprendernos de cosas inútiles:",
+    "tirarlas sería como renunciar a una parte de lo vivido."
+   ],
+   "text": "Quizá por eso nos cuesta tanto desprendernos de cosas inútiles: tirarlas sería como renunciar a una parte de lo vivido.",
+   "read": "Quizá por eso nos cuesta tanto desprendernos de cosas inútiles: tirarlas sería como renunciar a una parte de lo vivido."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 46.86,
+   "end": 53.25,
+   "parts": [
+    [
+     46.86,
+     49.12
+    ],
+    [
+     49.4,
+     50.31
+    ],
+    [
+     50.59,
+     53.25
+    ]
+   ],
+   "segments": [
+    "Aunque el reloj no vuelva a funcionar,",
+    "lo guardaré,",
+    "porque marca un tiempo que ya no se mide en horas."
+   ],
+   "text": "Aunque el reloj no vuelva a funcionar, lo guardaré, porque marca un tiempo que ya no se mide en horas.",
+   "read": "Aunque el reloj no vuelva a funcionar, lo guardaré, porque marca un tiempo que ya no se mide en horas."
+  }
+ ]
+}

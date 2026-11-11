@@ -1,0 +1,277 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_09.mp3",
+ "duration": 61.35,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.36,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.79,
+  "buzz_hz": 8778.8,
+  "buzz_db": 5.2,
+  "comb_db": 0.33
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.72,
+   "parts": [
+    [
+     0.5,
+     1.72
+    ]
+   ],
+   "segments": [
+    "Los juegos de mesa."
+   ],
+   "text": "Los juegos de mesa.",
+   "read": "Los juegos de mesa."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.72,
+   "end": 6.95,
+   "parts": [
+    [
+     2.72,
+     6.95
+    ]
+   ],
+   "segments": [
+    "Los viernes por la noche me reúno con unos amigos para jugar a juegos de mesa."
+   ],
+   "text": "Los viernes por la noche me reúno con unos amigos para jugar a juegos de mesa.",
+   "read": "Los viernes por la noche me reúno con unos amigos para jugar a juegos de mesa."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.95,
+   "end": 12.5,
+   "parts": [
+    [
+     7.95,
+     12.5
+    ]
+   ],
+   "segments": [
+    "Cada semana uno de nosotros trae un juego distinto y explica las reglas a los demás."
+   ],
+   "text": "Cada semana uno de nosotros trae un juego distinto y explica las reglas a los demás.",
+   "read": "Cada semana uno de nosotros trae un juego distinto y explica las reglas a los demás."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.5,
+   "end": 19.26,
+   "parts": [
+    [
+     13.5,
+     16.7
+    ],
+    [
+     16.98,
+     19.26
+    ]
+   ],
+   "segments": [
+    "En la mesa colocamos el tablero, los dados y las cartas,",
+    "junto a un cuenco con frutos secos."
+   ],
+   "text": "En la mesa colocamos el tablero, los dados y las cartas, junto a un cuenco con frutos secos.",
+   "read": "En la mesa colocamos el tablero, los dados y las cartas, junto a un cuenco con frutos secos."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.26,
+   "end": 26.45,
+   "parts": [
+    [
+     20.26,
+     22.51
+    ],
+    [
+     22.79,
+     24.38
+    ],
+    [
+     24.66,
+     26.45
+    ]
+   ],
+   "segments": [
+    "Sergio siempre quiere ganar y,",
+    "aunque nunca lo admitiría,",
+    "se enfada un poco cuando pierde."
+   ],
+   "text": "Sergio siempre quiere ganar y, aunque nunca lo admitiría, se enfada un poco cuando pierde.",
+   "read": "Sergio siempre quiere ganar y, aunque nunca lo admitiría, se enfada un poco cuando pierde."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 27.45,
+   "end": 32.71,
+   "parts": [
+    [
+     27.45,
+     28.67
+    ],
+    [
+     28.95,
+     32.71
+    ]
+   ],
+   "segments": [
+    "De todos modos,",
+    "nos reímos mucho y algunas partidas duran casi toda la noche."
+   ],
+   "text": "De todos modos, nos reímos mucho y algunas partidas duran casi toda la noche.",
+   "read": "De todos modos, nos reímos mucho y algunas partidas duran casi toda la noche."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 33.71,
+   "end": 38.88,
+   "parts": [
+    [
+     33.71,
+     34.32
+    ],
+    [
+     34.6,
+     38.88
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "estos juegos son una buena manera de olvidarnos un rato de las pantallas."
+   ],
+   "text": "Para mí, estos juegos son una buena manera de olvidarnos un rato de las pantallas.",
+   "read": "Para mí, estos juegos son una buena manera de olvidarnos un rato de las pantallas."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.88,
+   "end": 44.21,
+   "parts": [
+    [
+     39.88,
+     44.21
+    ]
+   ],
+   "segments": [
+    "Además, nos enseñan a respetar los turnos y a perder con buen humor."
+   ],
+   "text": "Además, nos enseñan a respetar los turnos y a perder con buen humor.",
+   "read": "Además, nos enseñan a respetar los turnos y a perder con buen humor."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 45.21,
+   "end": 49.68,
+   "parts": [
+    [
+     45.21,
+     49.68
+    ]
+   ],
+   "segments": [
+    "Es importante que cada jugador tenga paciencia y piense antes de mover su ficha."
+   ],
+   "text": "Es importante que cada jugador tenga paciencia y piense antes de mover su ficha.",
+   "read": "Es importante que cada jugador tenga paciencia y piense antes de mover su ficha."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 50.68,
+   "end": 55.79,
+   "parts": [
+    [
+     50.68,
+     51.18
+    ],
+    [
+     51.46,
+     53.4
+    ],
+    [
+     53.68,
+     55.79
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "cuando mis sobrinos vengan a casa,",
+    "les enseñaré algunos juegos sencillos."
+   ],
+   "text": "Por eso, cuando mis sobrinos vengan a casa, les enseñaré algunos juegos sencillos.",
+   "read": "Por eso, cuando mis sobrinos vengan a casa, les enseñaré algunos juegos sencillos."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 56.79,
+   "end": 60.15,
+   "parts": [
+    [
+     56.79,
+     60.15
+    ]
+   ],
+   "segments": [
+    "Estoy seguro de que lo pasarán mejor que con cualquier videojuego."
+   ],
+   "text": "Estoy seguro de que lo pasarán mejor que con cualquier videojuego.",
+   "read": "Estoy seguro de que lo pasarán mejor que con cualquier videojuego."
+  }
+ ]
+}

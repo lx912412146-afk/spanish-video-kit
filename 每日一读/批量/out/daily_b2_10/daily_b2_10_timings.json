@@ -1,0 +1,270 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_10.mp3",
+ "duration": 59.94,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.37,
+  "short_term_std_lu": 0.98,
+  "short_term_std_full_lu": 0.99,
+  "peak_dbfs": -1.51,
+  "buzz_hz": 8780.3,
+  "buzz_db": 5.6,
+  "comb_db": -0.06
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.37,
+   "parts": [
+    [
+     0.5,
+     2.37
+    ]
+   ],
+   "segments": [
+    "Las mascotas en la ciudad."
+   ],
+   "text": "Las mascotas en la ciudad.",
+   "read": "Las mascotas en la ciudad."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.27,
+   "end": 8.78,
+   "parts": [
+    [
+     3.27,
+     6.15
+    ],
+    [
+     6.43,
+     8.78
+    ]
+   ],
+   "segments": [
+    "En las ciudades viven cada vez más mascotas,",
+    "que para mucha gente son parte de la familia."
+   ],
+   "text": "En las ciudades viven cada vez más mascotas, que para mucha gente son parte de la familia.",
+   "read": "En las ciudades viven cada vez más mascotas, que para mucha gente son parte de la familia."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.68,
+   "end": 15.0,
+   "parts": [
+    [
+     9.68,
+     10.64
+    ],
+    [
+     10.92,
+     12.45
+    ],
+    [
+     12.73,
+     15.0
+    ]
+   ],
+   "segments": [
+    "Cada tarde,",
+    "en el parque de mi barrio,",
+    "se reúnen vecinos con sus perros."
+   ],
+   "text": "Cada tarde, en el parque de mi barrio, se reúnen vecinos con sus perros.",
+   "read": "Cada tarde, en el parque de mi barrio, se reúnen vecinos con sus perros."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.9,
+   "end": 21.36,
+   "parts": [
+    [
+     15.9,
+     17.6
+    ],
+    [
+     17.88,
+     21.36
+    ]
+   ],
+   "segments": [
+    "Para quienes viven solos,",
+    "un animal ofrece compañía y una excusa para salir a caminar."
+   ],
+   "text": "Para quienes viven solos, un animal ofrece compañía y una excusa para salir a caminar.",
+   "read": "Para quienes viven solos, un animal ofrece compañía y una excusa para salir a caminar."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 22.26,
+   "end": 27.54,
+   "parts": [
+    [
+     22.26,
+     23.25
+    ],
+    [
+     23.53,
+     27.54
+    ]
+   ],
+   "segments": [
+    "De hecho,",
+    "muchos dueños reconocen que han conocido a sus vecinos gracias a su perro."
+   ],
+   "text": "De hecho, muchos dueños reconocen que han conocido a sus vecinos gracias a su perro.",
+   "read": "De hecho, muchos dueños reconocen que han conocido a sus vecinos gracias a su perro."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 28.44,
+   "end": 34.17,
+   "parts": [
+    [
+     28.44,
+     29.73
+    ],
+    [
+     30.01,
+     34.17
+    ]
+   ],
+   "segments": [
+    "No obstante,",
+    "convivir con animales en espacios reducidos exige responsabilidad."
+   ],
+   "text": "No obstante, convivir con animales en espacios reducidos exige responsabilidad.",
+   "read": "No obstante, convivir con animales en espacios reducidos exige responsabilidad."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 35.07,
+   "end": 39.97,
+   "parts": [
+    [
+     35.07,
+     39.97
+    ]
+   ],
+   "segments": [
+    "Es fundamental que los dueños mantengan limpias las aceras y respeten el descanso ajeno."
+   ],
+   "text": "Es fundamental que los dueños mantengan limpias las aceras y respeten el descanso ajeno.",
+   "read": "Es fundamental que los dueños mantengan limpias las aceras y respeten el descanso ajeno."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 40.87,
+   "end": 46.81,
+   "parts": [
+    [
+     40.87,
+     42.85
+    ],
+    [
+     43.13,
+     46.81
+    ]
+   ],
+   "segments": [
+    "Además, antes de adoptar,",
+    "conviene pensar si se dispone del tiempo y el espacio necesarios."
+   ],
+   "text": "Además, antes de adoptar, conviene pensar si se dispone del tiempo y el espacio necesarios.",
+   "read": "Además, antes de adoptar, conviene pensar si se dispone del tiempo y el espacio necesarios."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 47.71,
+   "end": 52.7,
+   "parts": [
+    [
+     47.71,
+     49.91
+    ],
+    [
+     50.19,
+     52.7
+    ]
+   ],
+   "segments": [
+    "Si todos fuéramos más considerados,",
+    "la convivencia sería mucho más sencilla."
+   ],
+   "text": "Si todos fuéramos más considerados, la convivencia sería mucho más sencilla.",
+   "read": "Si todos fuéramos más considerados, la convivencia sería mucho más sencilla."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 53.6,
+   "end": 58.74,
+   "parts": [
+    [
+     53.6,
+     54.71
+    ],
+    [
+     54.99,
+     58.74
+    ]
+   ],
+   "segments": [
+    "En definitiva,",
+    "una ciudad que acoge bien a sus mascotas suele ser más amable."
+   ],
+   "text": "En definitiva, una ciudad que acoge bien a sus mascotas suele ser más amable.",
+   "read": "En definitiva, una ciudad que acoge bien a sus mascotas suele ser más amable."
+  }
+ ]
+}

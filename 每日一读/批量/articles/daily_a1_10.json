@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_10",
+ "level": "A1",
+ "no": 10,
+ "title_es": "Llega el invierno",
+ "title_zh": "冬天来了",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 10 篇。原创短文。只用陈述式现在时，有 hace frío、hay、ir a + 原形（vamos a jugar）、ponerse。12 句，120 词。特别判断：第 1 句不再重复标题的 llega，改用 ya estamos en invierno，译作“已经是冬天了”；hermana 没说长幼，按口语译作“妹妹”；me pongo 同时管大衣、围巾、手套，释义取“穿戴”；muñeco de nieve 是雪人；第 9 句 cansados 是我和妹妹，用阳性复数；第 10 句把围巾、手套放在椅子上，第 11 句的热巧克力，都和插图对应。第 5 句 el abrigo, la bufanda y los guantes 是列举，abrigo, 登记为不停顿；第 5 句 salir, 和第 12 句 Para mí, 照常停顿。词汇：invierno 在标题里，排在最前；llega 正文里没有，不列；cansado 原文是复数 cansados。",
+ "no_pause_commas": {
+  "5": [
+   {
+    "after": "abrigo,",
+    "why": "列举：el abrigo, la bufanda y los guantes（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "invierno",
+   "冬天",
+   "invierno"
+  ],
+  [
+   "frío",
+   "寒冷",
+   "frío"
+  ],
+  [
+   "nevar",
+   "下雪",
+   "nieva"
+  ],
+  [
+   "por primera vez",
+   "第一次",
+   "por primera vez"
+  ],
+  [
+   "tejado",
+   "屋顶",
+   "tejados"
+  ],
+  [
+   "hielo",
+   "冰",
+   "hielo"
+  ],
+  [
+   "acera",
+   "人行道",
+   "acera"
+  ],
+  [
+   "ponerse",
+   "穿戴",
+   "me pongo"
+  ],
+  [
+   "abrigo",
+   "大衣",
+   "abrigo"
+  ],
+  [
+   "guante",
+   "手套",
+   "guantes"
+  ],
+  [
+   "gorro",
+   "帽子",
+   "gorro"
+  ],
+  [
+   "muñeco de nieve",
+   "雪人",
+   "muñeco de nieve"
+  ],
+  [
+   "zanahoria",
+   "胡萝卜",
+   "zanahoria"
+  ],
+  [
+   "cansado",
+   "累的",
+   "cansados"
+  ],
+  [
+   "estación",
+   "季节",
+   "estación"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Ya estamos en invierno y hace mucho frío en mi ciudad.",
+    "zh": "已经是冬天了，我们城市里非常冷。"
+   },
+   {
+    "es": "Hoy nieva por primera vez este año.",
+    "zh": "今天是今年第一次下雪。"
+   },
+   {
+    "es": "Desde la ventana veo los tejados blancos y la calle llena de nieve.",
+    "zh": "我从窗户看到白白的屋顶和满是积雪的街道。"
+   },
+   {
+    "es": "La gente camina despacio porque hay hielo en la acera.",
+    "zh": "大家走得很慢，因为人行道上结了冰。"
+   },
+   {
+    "es": "Antes de salir, me pongo el abrigo, la bufanda y los guantes.",
+    "zh": "出门前，我穿上大衣，戴好围巾和手套。"
+   },
+   {
+    "es": "Mi hermana Lucía siempre lleva un gorro de lana enorme.",
+    "zh": "我妹妹露西娅总是戴着一顶特别大的毛线帽。"
+   }
+  ],
+  [
+   {
+    "es": "Por la tarde vamos a jugar con la nieve en el parque.",
+    "zh": "下午，我们要去公园里玩雪。"
+   },
+   {
+    "es": "Hacemos un muñeco de nieve con una nariz de zanahoria.",
+    "zh": "我们堆一个雪人，给它安上胡萝卜鼻子。"
+   },
+   {
+    "es": "Después volvemos a casa cansados y con las manos frías.",
+    "zh": "然后我们回到家，人累了，手也冻得冰凉。"
+   },
+   {
+    "es": "Dejo la bufanda y los guantes en una silla.",
+    "zh": "我把围巾和手套搭在一把椅子上。"
+   },
+   {
+    "es": "Mi madre prepara chocolate caliente para todos.",
+    "zh": "妈妈给大家做热巧克力。"
+   },
+   {
+    "es": "Para mí, el invierno es una estación muy bonita.",
+    "zh": "对我来说，冬天是一个很美的季节。"
+   }
+  ]
+ ]
+}

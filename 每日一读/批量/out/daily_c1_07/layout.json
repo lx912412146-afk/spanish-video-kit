@@ -1,0 +1,281 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  663.4375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  671.4375
+ ],
+ "zh": [
+  96,
+  697.4375,
+  480,
+  936.6875
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  241.203125,
+  131.625
+ ],
+ "header_gap": 169.765625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   3
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4,
+   "Los jueves, mi amigo Andrés y yo conversamos sentados en"
+  ],
+  [
+   "mid",
+   5.4,
+   "dos sillones enfrentados, con dos tazas de té entre ambos. No"
+  ],
+  [
+   "mid",
+   4.2,
+   "hablamos para convencernos ni para presumir, sino por el placer"
+  ],
+  [
+   "mid",
+   7.5,
+   "de pensar en voz alta. A veces nos desviamos hacia temas"
+  ],
+  [
+   "mid",
+   6.5,
+   "imprevistos, y esas digresiones resultan lo más fecundo de la"
+  ],
+  [
+   "last",
+   0,
+   "tarde."
+  ],
+  [
+   "mid",
+   4.9,
+   "Conversar de verdad exige algo más difícil que hablar bien:"
+  ],
+  [
+   "mid",
+   3.8,
+   "escuchar sin preparar la respuesta mientras el otro todavía habla."
+  ],
+  [
+   "mid",
+   7,
+   "En una época que premia las opiniones tajantes, admitir que"
+  ],
+  [
+   "mid",
+   4.6,
+   "hemos cambiado de idea parece casi una derrota. Sin embargo,"
+  ],
+  [
+   "mid",
+   6.2,
+   "una buena conversación no tiene vencedores, y quien sale de"
+  ],
+  [
+   "mid",
+   6.2,
+   "ella tal como entró quizá no ha escuchado bastante. Por eso,"
+  ],
+  [
+   "mid",
+   4,
+   "cuando Andrés apaga la lámpara y nos despedimos, siempre me"
+  ],
+  [
+   "last",
+   3.6,
+   "llevo alguna pregunta que no traía al llegar."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  13.1,
+  0.0
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

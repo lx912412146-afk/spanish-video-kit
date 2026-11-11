@@ -1,0 +1,145 @@
+{
+ "id": "daily_a2_03",
+ "level": "A2",
+ "no": 3,
+ "title_es": "La casa de mis abuelos",
+ "title_zh": "爷爷奶奶家",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 3 篇。原创短文。过去未完成时回忆童年的习惯（pasaba、ayudaba、jugábamos、preparaba），简单过去时叙述上个月的探望（volví、recibió、di），现在时写房子和感受（viven、tiene、me siento）。11 句，116 词。第 2 句 las paredes blancas, el tejado rojo y una cerca de madera 是名词列举，blancas 后的逗号不停顿；第 9 句 por supuesto 是插入语，两边照常停顿；第 3 句 Cuando era niño 后、第 11 句 como 前的逗号也照常停顿。避开 rural，用 rodeada de campos 写乡间；primos 不分堂表，译文取“表兄弟”，词汇释义写“堂表兄弟”；merendar 指吃下午的点心；volver a + 原形 词头写 volver a，原文是 volví a；dar un paseo 原文是 di un paseo。白墙红瓦、木栅栏、花园、大树和田野对应插图。第 2 句原为 una valla de madera，朗读核对时 valla 被识别成同音的 baya（固定种子，重合成结果不变），改用同义的 cerca，词汇随之改为 cerca（这里是名词“栅栏”，不是副词“附近”），译文不变。",
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "blancas,",
+    "why": "列举：las paredes blancas, el tejado rojo y una cerca de madera（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "rodeado",
+   "被环绕的",
+   "rodeada"
+  ],
+  [
+   "campo",
+   "田野",
+   "campos"
+  ],
+  [
+   "pared",
+   "墙",
+   "paredes"
+  ],
+  [
+   "tejado",
+   "屋顶",
+   "tejado"
+  ],
+  [
+   "cerca",
+   "栅栏",
+   "cerca"
+  ],
+  [
+   "madera",
+   "木头",
+   "madera"
+  ],
+  [
+   "primo",
+   "堂表兄弟",
+   "primos"
+  ],
+  [
+   "jardín",
+   "花园",
+   "jardín"
+  ],
+  [
+   "debajo de",
+   "在下面",
+   "debajo de"
+  ],
+  [
+   "tarta",
+   "蛋糕",
+   "tarta"
+  ],
+  [
+   "merendar",
+   "吃下午点心",
+   "merendar"
+  ],
+  [
+   "volver a",
+   "再次",
+   "volví a"
+  ],
+  [
+   "abrazo",
+   "拥抱",
+   "abrazo"
+  ],
+  [
+   "por supuesto",
+   "当然",
+   "por supuesto"
+  ],
+  [
+   "dar un paseo",
+   "散步",
+   "di un paseo"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Mis abuelos viven en una casa pequeña rodeada de campos.",
+    "zh": "我的爷爷奶奶住在一座小房子里，房子四周都是田野。"
+   },
+   {
+    "es": "Tiene las paredes blancas, el tejado rojo y una cerca de madera.",
+    "zh": "房子有白色的墙、红色的屋顶，还有一道木栅栏。"
+   },
+   {
+    "es": "Cuando era niño, pasaba allí todos los veranos con mis primos.",
+    "zh": "我小时候，每年夏天都和表兄弟们在那里度过。"
+   },
+   {
+    "es": "Por las mañanas ayudaba a mi abuelo en el jardín.",
+    "zh": "每天上午，我都在花园里帮爷爷干活。"
+   },
+   {
+    "es": "Por las tardes jugábamos debajo de un árbol enorme.",
+    "zh": "到了下午，我们就在一棵大树底下玩。"
+   },
+   {
+    "es": "Mi abuela siempre preparaba una tarta de manzana para merendar.",
+    "zh": "奶奶总是做苹果蛋糕，给我们当下午的点心。"
+   }
+  ],
+  [
+   {
+    "es": "El mes pasado volví a visitarlos después de mucho tiempo.",
+    "zh": "上个月，隔了很久之后，我又去看望了他们。"
+   },
+   {
+    "es": "La casa estaba igual y el árbol seguía allí.",
+    "zh": "房子还是老样子，那棵树也还在。"
+   },
+   {
+    "es": "Mi abuela me recibió con un abrazo y, por supuesto, con su tarta.",
+    "zh": "奶奶用一个拥抱迎接我，当然，还有她做的蛋糕。"
+   },
+   {
+    "es": "Después di un paseo con mi abuelo por los campos.",
+    "zh": "后来，我和爷爷一起去田野里散了散步。"
+   },
+   {
+    "es": "En esa casa me siento tranquilo y feliz, como cuando era niño.",
+    "zh": "在那座房子里，我觉得平静又幸福，就像小时候一样。"
+   }
+  ]
+ ]
+}

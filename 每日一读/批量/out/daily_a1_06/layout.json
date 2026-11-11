@@ -1,0 +1,306 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  596.5625
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  604.5625
+ ],
+ "zh": [
+  96,
+  630.5625,
+  480,
+  823.5625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  243.125,
+  131.625
+ ],
+ "header_gap": 124.953125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   1
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ],
+  [
+   "13",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   3.7,
+   "Cerca de mi casa hay una cafetería pequeña y muy acogedora."
+  ],
+  [
+   "mid",
+   5.6,
+   "Tiene mesas redondas, lámparas bajas y muchas plantas verdes."
+  ],
+  [
+   "mid",
+   5.8,
+   "En las estanterías de madera hay tazas de todos los colores. La"
+  ],
+  [
+   "mid",
+   4,
+   "dueña se llama Rosa y siempre está muy alegre. Voy allí los viernes"
+  ],
+  [
+   "mid",
+   5.9,
+   "por la tarde, después de clase. Elijo siempre la mesa del rincón,"
+  ],
+  [
+   "last",
+   3.4,
+   "junto a una planta."
+  ],
+  [
+   "mid",
+   4.4,
+   "Pido un café con leche y un trozo de tarta de chocolate. Rosa"
+  ],
+  [
+   "mid",
+   3.5,
+   "hace las tartas en casa y están muy ricas. Mientras tomo el café, leo"
+  ],
+  [
+   "mid",
+   4,
+   "un libro. La música es suave y la gente habla en voz baja. Allí estoy"
+  ],
+  [
+   "mid",
+   3.7,
+   "muy tranquilo después de una semana larga. Para mí, esta cafetería"
+  ],
+  [
+   "last",
+   3.4,
+   "es como mi segunda casa."
+  ]
+ ],
+ "es_max_gap": 5.9,
+ "es_font": [
+  12.9,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

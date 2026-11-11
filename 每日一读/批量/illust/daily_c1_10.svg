@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：傍晚的小城广场，喷泉、长椅、树，四周带拱廊的房子（水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f0ef"/><stop offset="0.5" stop-color="#f4f0e4"/><stop offset="1" stop-color="#f8e4cc"/>
+    </linearGradient>
+    <linearGradient id="pave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecdcc2"/><stop offset="1" stop-color="#e1caa8"/>
+    </linearGradient>
+    <linearGradient id="archIn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfb18c"/><stop offset="1" stop-color="#ddc4a2"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ece1cd"/><stop offset="1" stop-color="#d8c7aa"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b3cfd3"/><stop offset="0.5" stop-color="#cfe3e4"/><stop offset="1" stop-color="#a9c7cc"/>
+    </linearGradient>
+    <linearGradient id="bark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8a48a"/><stop offset="0.5" stop-color="#d3c2a8"/><stop offset="1" stop-color="#a99479"/>
+    </linearGradient>
+    <radialGradient id="crown" cx="0.4" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#b2d18f"/><stop offset="0.6" stop-color="#93bd74"/><stop offset="1" stop-color="#7eaa63"/>
+    </radialGradient>
+    <g id="arch"><path d="M0,30 L0,10 Q8,-2 16,10 L16,30 Z" fill="url(#archIn)"/></g>
+    <g id="win"><rect x="0" y="0" width="8" height="12" fill="#d9c3a2"/><rect x="-4" y="0" width="4" height="12" fill="#a9bfb3"/><rect x="8" y="0" width="4" height="12" fill="#a9bfb3"/></g>
+    <g id="pigeon"><ellipse cx="0" cy="0" rx="4.4" ry="2.6" fill="#a8b1b8"/><circle cx="4" cy="-2.4" r="1.7" fill="#9aa4ad"/><path d="M-4,-0.5 L-7.5,-1.5 L-6.5,1 Z" fill="#8e98a2"/><path d="M5.4,-2.4 L6.8,-2 L5.4,-1.6 Z" fill="#d9a46a"/><path d="M-0.5,2.4 L-0.5,4 M1.5,2.4 L1.5,4" stroke="#c98f6a" stroke-width="0.6"/></g>
+    <g id="bench">
+      <rect x="0" y="0" width="46" height="3" rx="1" fill="#c99d74"/>
+      <rect x="0" y="-9" width="46" height="2.6" rx="1" fill="#c99d74"/><rect x="0" y="-5" width="46" height="2.6" rx="1" fill="#c39670"/>
+      <path d="M4,-9 L4,9 M42,-9 L42,9" stroke="#7d8a8e" stroke-width="1.6"/>
+      <path d="M2,9 C2,6 6,6 6,9 M40,9 C40,6 44,6 44,9" stroke="#7d8a8e" stroke-width="1.2" fill="none"/>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <g filter="url(#soft2)" fill="#ffffff" opacity="0.75">
+      <ellipse cx="290" cy="18" rx="26" ry="5"/><ellipse cx="306" cy="15" rx="13" ry="5"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 正面一排房子 -->
+      <rect x="90" y="82" width="72" height="96" fill="#f2dcb7"/>
+      <rect x="160" y="70" width="80" height="108" fill="#f7e8cd"/>
+      <rect x="238" y="80" width="72" height="98" fill="#f2cfa8"/>
+      <rect x="88" y="79" width="76" height="4" fill="#d98b62"/><rect x="158" y="67" width="84" height="4" fill="#cf7d57"/><rect x="236" y="77" width="76" height="4" fill="#d98b62"/>
+      <!-- 拱廊 -->
+      <g>
+        <use href="#arch" transform="translate(98,146)"/><use href="#arch" transform="translate(122,146)"/><use href="#arch" transform="translate(146,146)"/>
+        <use href="#arch" transform="translate(170,146)"/><use href="#arch" transform="translate(194,146)"/><use href="#arch" transform="translate(218,146)"/>
+        <use href="#arch" transform="translate(242,146)"/><use href="#arch" transform="translate(266,146)"/><use href="#arch" transform="translate(290,146)"/>
+      </g>
+      <rect x="90" y="142" width="220" height="2.4" fill="#e3c69e"/>
+      <!-- 楼上的窗和百叶 -->
+      <g>
+        <use href="#win" transform="translate(102,96)"/><use href="#win" transform="translate(126,96)"/><use href="#win" transform="translate(150,96)"/>
+        <use href="#win" transform="translate(102,118)"/><use href="#win" transform="translate(126,118)"/><use href="#win" transform="translate(150,118)"/>
+        <use href="#win" transform="translate(174,86)"/><use href="#win" transform="translate(198,86)"/><use href="#win" transform="translate(222,86)"/>
+        <use href="#win" transform="translate(174,114)"/><use href="#win" transform="translate(198,114)"/><use href="#win" transform="translate(222,114)"/>
+        <use href="#win" transform="translate(250,94)"/><use href="#win" transform="translate(274,94)"/><use href="#win" transform="translate(298,94)"/>
+        <use href="#win" transform="translate(250,118)"/><use href="#win" transform="translate(274,118)"/><use href="#win" transform="translate(298,118)"/>
+      </g>
+      <!-- 小阳台 -->
+      <g stroke="#8f8a80" stroke-width="0.8" fill="none">
+        <path d="M170,126 L188,126 M172,126 L172,131 M176,126 L176,131 M180,126 L180,131 M184,126 L184,131 M170,131 L188,131"/>
+        <path d="M218,126 L236,126 M220,126 L220,131 M224,126 L224,131 M228,126 L228,131 M232,126 L232,131 M218,131 L236,131"/>
+      </g>
+      <g fill="#e9a2a0"><circle cx="174" cy="125" r="1.6"/><circle cx="178" cy="124.4" r="1.6"/><circle cx="230" cy="125" r="1.6"/></g>
+      <g fill="#93bd74"><circle cx="176" cy="125.6" r="1.4"/><circle cx="226" cy="125.6" r="1.4"/></g>
+
+      <!-- 左边的房子（透视） -->
+      <path d="M-10,52 L92,76 L92,178 L-10,220 Z" fill="#efd8b4"/>
+      <path d="M-10,48 L94,73 L94,78 L-10,54 Z" fill="#cf7d57"/>
+      <g fill="url(#archIn)">
+        <path d="M4.6,214.0 L4.6,157.5 Q15.3,139.9 26.1,153.2 L26.1,204.7 Z"/><path d="M35.3,200.7 L35.3,151.3 Q46.0,133.7 56.7,147.1 L56.7,191.3 Z"/><path d="M65.9,187.3 L65.9,145.2 Q76.7,127.6 87.4,140.9 L87.4,178.0 Z"/>
+      </g>
+      <g fill="#d9c3a2">
+        <path d="M9.2,127.3 L21.5,126.4 L21.5,112.1 L9.2,111.6 Z"/><path d="M9.2,96.5 L21.5,97.2 L21.5,82.9 L9.2,80.8 Z"/><path d="M39.9,125.0 L52.1,124.0 L52.1,111.7 L39.9,111.3 Z"/>
+        <path d="M39.9,98.2 L52.1,98.8 L52.1,86.5 L39.9,84.5 Z"/><path d="M70.5,122.6 L82.8,121.7 L82.8,111.4 L70.5,110.9 Z"/><path d="M70.5,99.8 L82.8,100.5 L82.8,90.2 L70.5,88.1 Z"/>
+      </g>
+      <g fill="#a9bfb3">
+        <path d="M5,127.6 L9.2,127.3 L9.2,111.6 L5,111.4 Z"/><path d="M5,96.2 L9.2,96.5 L9.2,80.8 L5,80 Z"/><path d="M35.7,125.3 L39.9,125 L39.9,111.3 L35.7,111.1 Z"/>
+        <path d="M35.7,97.9 L39.9,98.2 L39.9,84.5 L35.7,83.7 Z"/><path d="M66.3,122.9 L70.5,122.6 L70.5,110.9 L66.3,110.7 Z"/><path d="M66.3,99.5 L70.5,99.8 L70.5,88.1 L66.3,87.3 Z"/>
+      </g>
+      <path d="M-10,140 L92,140" stroke="none"/>
+
+      <!-- 右边的房子（透视） -->
+      <path d="M410,30 L308,64 L308,178 L410,222 Z" fill="#f4dcb8"/>
+      <path d="M410,26 L306,61 L306,66 L410,32 Z" fill="#d98b62"/>
+      <g fill="url(#archIn)">
+        <path d="M395.4,217.8 L395.4,152.2 Q384.7,134.8 373.9,148.3 L373.9,207.5 Z"/><path d="M364.7,203.1 L364.7,146.7 Q354.0,129.3 343.3,142.8 L343.3,192.9 Z"/><path d="M334.1,188.5 L334.1,141.1 Q323.3,123.7 312.6,137.2 L312.6,178.2 Z"/>
+      </g>
+      <g fill="#d9c3a2">
+        <path d="M390.8,117.5 L378.5,117.2 L378.5,100.7 L390.8,99.3 Z"/><path d="M390.8,81.8 L378.5,83.5 L378.5,67.1 L390.8,63.6 Z"/><path d="M360.1,116.7 L347.9,116.5 L347.9,102.5 L360.1,101.1 Z"/>
+        <path d="M360.1,86.1 L347.9,87.9 L347.9,74.0 L360.1,70.4 Z"/><path d="M329.5,116.0 L317.2,115.7 L317.2,104.3 L329.5,102.9 Z"/><path d="M329.5,90.5 L317.2,92.2 L317.2,80.8 L329.5,77.3 Z"/>
+      </g>
+      <g fill="#a9bfb3">
+        <path d="M395,117.6 L390.8,117.5 L390.8,99.3 L395,98.8 Z"/><path d="M395,81.2 L390.8,81.8 L390.8,63.6 L395,62.4 Z"/><path d="M364.3,116.8 L360.1,116.7 L360.1,101.1 L364.3,100.6 Z"/>
+        <path d="M364.3,85.5 L360.1,86.1 L360.1,70.4 L364.3,69.2 Z"/><path d="M333.7,116.1 L329.5,116 L329.5,102.9 L333.7,102.5 Z"/><path d="M333.7,89.3 L329.5,90.5 L329.5,77.3 L333.7,76.1 Z"/>
+      </g>
+    </g>
+
+    <!-- 广场地面 -->
+    <path d="M-10,220 L92,178 L308,178 L410,222 L410,270 L-10,270 Z" fill="url(#pave)"/>
+    <g stroke="#d6bf9c" stroke-width="0.8" opacity="0.7" fill="none">
+      <path d="M150,178 L-11,260 M175,178 L94,260 M200,178 L200,260 M225,178 L306,260 M250,178 L411,260"/>
+      <path d="M40,200 L360,200 M10,220 L392,220 M-10,244 L410,244"/>
+    </g>
+    <!-- 傍晚的长影子 -->
+    <g filter="url(#soft)" opacity="0.22" fill="#a07c58">
+      <ellipse cx="146" cy="196" rx="40" ry="6"/><ellipse cx="326" cy="198" rx="40" ry="6"/><ellipse cx="236" cy="232" rx="56" ry="7"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 两棵树 -->
+      <path d="M106,192 C108,176 108,158 106,140 L118,140 C116,158 116,176 120,192 Z" fill="url(#bark)"/>
+      <g fill="#e6dccb" opacity="0.8"><ellipse cx="110" cy="170" rx="2.4" ry="4"/><ellipse cx="115" cy="154" rx="2" ry="3"/><ellipse cx="111" cy="182" rx="2" ry="2.6"/></g>
+      <path d="M110,146 C102,138 94,134 86,132 M114,144 C122,136 130,132 140,130" stroke="#b8a48a" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M74,140 C62,136 60,120 70,114 C68,100 82,92 94,96 C98,84 116,82 124,90 C136,86 150,94 148,106 C160,110 160,126 150,132 C152,142 140,148 130,144 C122,150 108,150 100,144 C92,150 78,148 74,140 Z" fill="url(#crown)"/>
+      <g fill="#709d58" opacity="0.6"><ellipse cx="90" cy="140" rx="18" ry="6"/><ellipse cx="128" cy="140" rx="18" ry="6"/></g>
+      <g fill="#c8e2a6" opacity="0.75"><ellipse cx="96" cy="102" rx="10" ry="5"/><ellipse cx="124" cy="96" rx="8" ry="4"/><ellipse cx="76" cy="118" rx="6" ry="3.5"/></g>
+
+      <path d="M286,192 C288,176 288,156 286,138 L298,138 C296,156 296,176 300,192 Z" fill="url(#bark)"/>
+      <g fill="#e6dccb" opacity="0.8"><ellipse cx="291" cy="168" rx="2.4" ry="4"/><ellipse cx="295" cy="152" rx="2" ry="3"/><ellipse cx="290" cy="182" rx="2" ry="2.6"/></g>
+      <path d="M290,144 C282,136 274,132 266,130 M294,142 C302,134 310,130 320,128" stroke="#b8a48a" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M254,138 C242,134 240,118 250,112 C248,98 262,90 274,94 C278,82 296,80 304,88 C316,84 330,92 328,104 C340,108 340,124 330,130 C332,140 320,146 310,142 C302,148 288,148 280,142 C272,148 258,146 254,138 Z" fill="url(#crown)"/>
+      <g fill="#709d58" opacity="0.6"><ellipse cx="270" cy="138" rx="18" ry="6"/><ellipse cx="308" cy="138" rx="18" ry="6"/></g>
+      <g fill="#c8e2a6" opacity="0.75"><ellipse cx="276" cy="100" rx="10" ry="5"/><ellipse cx="304" cy="94" rx="8" ry="4"/><ellipse cx="256" cy="116" rx="6" ry="3.5"/></g>
+
+      <!-- 树下的长椅 -->
+      <use href="#bench" transform="translate(66,186)"/>
+      <use href="#bench" transform="translate(312,186)"/>
+
+      <!-- 喷泉 -->
+      <path d="M142,212 L142,224 C142,232 168,236 200,236 C232,236 258,232 258,224 L258,212 Z" fill="url(#stone)"/>
+      <ellipse cx="200" cy="212" rx="58" ry="12" fill="#efe5d3"/>
+      <ellipse cx="200" cy="212.4" rx="52" ry="9.4" fill="url(#water)"/>
+      <g stroke="#ffffff" stroke-width="1" opacity="0.8" fill="none">
+        <ellipse cx="200" cy="213" rx="30" ry="4.6"/><ellipse cx="200" cy="213" rx="42" ry="6.6" opacity="0.5"/>
+      </g>
+      <rect x="196" y="176" width="8" height="37" fill="url(#stone)"/>
+      <path d="M180,178 C182,186 192,190 200,190 C208,190 218,186 220,178 Z" fill="url(#stone)"/>
+      <ellipse cx="200" cy="178" rx="20" ry="4.4" fill="#efe5d3"/>
+      <ellipse cx="200" cy="178.4" rx="16" ry="3" fill="url(#water)"/>
+      <rect x="198" y="164" width="4" height="14" fill="#e3d6bf"/>
+      <circle cx="200" cy="162" r="3.4" fill="#e9dfcc"/>
+      <!-- 水流 -->
+      <g fill="none" stroke="#ffffff" stroke-linecap="round" opacity="0.85">
+        <path d="M200,159 C194,154 186,158 184,172" stroke-width="1.4"/><path d="M200,159 C206,154 214,158 216,172" stroke-width="1.4"/>
+        <path d="M181,180 C174,184 170,194 170,208" stroke-width="1.6"/><path d="M219,180 C226,184 230,194 230,208" stroke-width="1.6"/>
+        <path d="M190,184 C186,190 184,198 184,208" stroke-width="1.2" opacity="0.7"/><path d="M210,184 C214,190 216,198 216,208" stroke-width="1.2" opacity="0.7"/>
+      </g>
+      <path d="M150,220 C170,226 230,226 250,220" stroke="#f3ebdc" stroke-width="1.4" fill="none" opacity="0.8"/>
+
+      <!-- 鸽子和孩子们留下的小球 -->
+      <use href="#pigeon" transform="translate(150,242)"/><use href="#pigeon" transform="translate(162,247) scale(-1,1)"/><use href="#pigeon" transform="translate(268,244)"/>
+      <circle cx="136" cy="204" r="3.6" fill="#e39a74"/><path d="M133,203 C135,201 137,201 139,202" stroke="#f6d3bd" stroke-width="1" fill="none"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="200" cy="236" rx="62" ry="4"/><ellipse cx="89" cy="196" rx="26" ry="2.4"/><ellipse cx="335" cy="196" rx="26" ry="2.4"/>
+      <ellipse cx="113" cy="192" rx="10" ry="2"/><ellipse cx="293" cy="192" rx="10" ry="2"/><ellipse cx="136" cy="208" rx="4" ry="1.2"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

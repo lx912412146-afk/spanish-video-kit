@@ -1,0 +1,306 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  607.828125
+ ],
+ "zh": [
+  96,
+  633.828125,
+  480,
+  826.828125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  190.421875,
+  131.625
+ ],
+ "header_gap": 232.046875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4,
+   "Tengo una bicicleta azul con una cesta delante. No es nueva,"
+  ],
+  [
+   "mid",
+   7.2,
+   "pero funciona muy bien. Todos los días voy en bicicleta a la"
+  ],
+  [
+   "mid",
+   3.6,
+   "universidad. Ir en bicicleta es rápido, barato y muy sano. Los fines"
+  ],
+  [
+   "mid",
+   4,
+   "de semana voy al parque con mi amigo Diego. Allí hay un camino"
+  ],
+  [
+   "last",
+   3.6,
+   "largo entre árboles y flores."
+  ],
+  [
+   "mid",
+   6,
+   "Paseamos en bicicleta por el camino y charlamos un rato."
+  ],
+  [
+   "mid",
+   5.8,
+   "Después dejo la bicicleta al lado de un árbol y descanso en la"
+  ],
+  [
+   "mid",
+   4.5,
+   "hierba. Los domingos compro flores en el mercado y las llevo en"
+  ],
+  [
+   "mid",
+   4.4,
+   "la cesta. Cuido mucho mi bicicleta y la limpio cada semana. Con"
+  ],
+  [
+   "mid",
+   5.3,
+   "ella siempre me siento libre y contento. Para mí, mi bicicleta es"
+  ],
+  [
+   "last",
+   3.6,
+   "como una buena amiga."
+  ]
+ ],
+ "es_max_gap": 7.2,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

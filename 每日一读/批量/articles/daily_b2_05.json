@@ -1,0 +1,137 @@
+{
+ "id": "daily_b2_05",
+ "level": "B2",
+ "no": 5,
+ "title_es": "Los museos en la era digital",
+ "title_zh": "数字时代的博物馆",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 5 篇。原创短文。语法：现在完成时、自复被动（se han instalado）、temer que + 过去虚拟式（dejaran）、名词化（ver una obra … despierta el deseo）、Y es que 引出解释、no … sino、quizás + 现在虚拟式（sea）；连接语 además、sin embargo、por lo tanto。9 句，122 词。全篇用泛指的“我们”，没有第一人称单数。en plena era digital 译作“在这个数字时代”，词汇表词头取 en pleno（原文 En plena）；la magia del original 的 original 指原作；pantallas que explican cada obra 和插图里的导览屏对应。第 7 句 su tamaño, su textura y el silencio 是名词列举，逗号不停顿；第 5 句冒号后是解释，照常停顿。",
+ "no_pause_commas": {
+  "7": [
+   {
+    "after": "tamaño,",
+    "why": "列举：su tamaño, su textura y el silencio（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "era digital",
+   "数字时代",
+   "era digital"
+  ],
+  [
+   "en pleno",
+   "正值",
+   "En plena"
+  ],
+  [
+   "recorrer",
+   "游览",
+   "recorrer"
+  ],
+  [
+   "herramienta",
+   "工具",
+   "herramientas"
+  ],
+  [
+   "acercar",
+   "拉近",
+   "acercado"
+  ],
+  [
+   "lejano",
+   "遥远的",
+   "lejano"
+  ],
+  [
+   "temer",
+   "担心",
+   "temían"
+  ],
+  [
+   "acudir",
+   "前往",
+   "acudir"
+  ],
+  [
+   "lo contrario",
+   "相反的情况",
+   "lo contrario"
+  ],
+  [
+   "despertar",
+   "唤起",
+   "despierta"
+  ],
+  [
+   "en persona",
+   "亲自",
+   "en persona"
+  ],
+  [
+   "por completo",
+   "完全",
+   "por completo"
+  ],
+  [
+   "percibir",
+   "感受到",
+   "percibimos"
+  ],
+  [
+   "sustituir",
+   "取代",
+   "sustituir"
+  ],
+  [
+   "reto",
+   "挑战",
+   "reto"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En plena era digital, es posible recorrer muchos museos sin salir de casa.",
+    "zh": "在这个数字时代，人们足不出户就能游览许多博物馆。"
+   },
+   {
+    "es": "Además, en las propias salas se han instalado pantallas que explican cada obra.",
+    "zh": "此外，展厅里也安装了屏幕，为每件作品提供讲解。"
+   },
+   {
+    "es": "Estas herramientas han acercado el arte a quienes lo veían lejano.",
+    "zh": "这些工具让艺术走近了那些曾觉得它很遥远的人。"
+   },
+   {
+    "es": "Al principio, algunos temían que los visitantes dejaran de acudir a los museos.",
+    "zh": "起初，有些人担心参观者会从此不再去博物馆。"
+   },
+   {
+    "es": "Sin embargo, ha sucedido lo contrario: ver una obra en la pantalla despierta el deseo de contemplarla en persona.",
+    "zh": "然而，事实恰恰相反：在屏幕上看到一件作品，反而会唤起人们亲眼欣赏它的愿望。"
+   }
+  ],
+  [
+   {
+    "es": "Y es que la experiencia directa no puede reproducirse por completo.",
+    "zh": "这是因为，亲身的体验是无法完全复制的。"
+   },
+   {
+    "es": "Frente a un cuadro, percibimos su tamaño, su textura y el silencio que lo rodea.",
+    "zh": "站在一幅画前，我们能感受到它的尺寸、质感，以及它周围的寂静。"
+   },
+   {
+    "es": "Por lo tanto, la tecnología no debería sustituir la visita, sino prepararla y enriquecerla.",
+    "zh": "因此，科技不应取代实地参观，而应为参观做准备，让它更加丰富。"
+   },
+   {
+    "es": "Quizás el reto sea combinar ambos mundos sin perder la magia del original.",
+    "zh": "也许，真正的挑战在于把两个世界结合起来，又不失原作的魅力。"
+   }
+  ]
+ ]
+}

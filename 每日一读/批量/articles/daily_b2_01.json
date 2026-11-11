@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_01",
+ "level": "B2",
+ "no": 1,
+ "title_es": "La moda rápida",
+ "title_zh": "快时尚",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 1 篇。原创短文。语法：过去未完成时（renovaban、acumulaba）、现在完成时 + 现在虚拟式（ha logrado que … deje de ser）、条件式（seguiría llevando）、过去虚拟式 + 条件式的假设句（Si … actuaran, … se verían obligadas）、自复被动（se desechan）、名词化（su fabricación）；连接语 en cambio、de este modo、no obstante。9 句，128 词。第一人称叙述者为男性（Yo mismo、rodeado de bolsas）。vestir a la última 意为“穿得时髦、赶时髦”，译作“穿得时髦”；camisas 译作“衬衫”（不用含字母的“T恤”）；sin estrenar 是固定说法“还没穿过”，词汇表词头取原形 estrenar；plantearse 原文是 me planteo；verse obligado 原文是 se verían obligadas（阴性复数，主语 las marcas）；su fabricación 指快时尚服装的生产，译文补出“快时尚服装”。第 2 句 Hoy, en cambio, 是句首状语和插入语，照常停顿。全篇没有名词列举，no_pause_commas 为空。第 3 句原为 Así, la moda rápida…，为让西语正文两端对齐时词间空白不超过 7.5 px，改为 De este modo, …，译文“就这样”不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "moda rápida",
+   "快时尚",
+   "moda rápida"
+  ],
+  [
+   "renovar",
+   "更新",
+   "renovaban"
+  ],
+  [
+   "estación",
+   "季节",
+   "estaciones"
+  ],
+  [
+   "en cambio",
+   "相反，而",
+   "en cambio"
+  ],
+  [
+   "prenda",
+   "衣物",
+   "prendas"
+  ],
+  [
+   "resistirse",
+   "抗拒",
+   "resistirse"
+  ],
+  [
+   "a la última",
+   "最时髦",
+   "a la última"
+  ],
+  [
+   "lujo",
+   "奢侈",
+   "lujo"
+  ],
+  [
+   "no obstante",
+   "然而",
+   "No obstante"
+  ],
+  [
+   "etiqueta",
+   "标签",
+   "etiqueta"
+  ],
+  [
+   "desechar",
+   "丢弃",
+   "desechan"
+  ],
+  [
+   "acumular",
+   "囤积",
+   "acumulaba"
+  ],
+  [
+   "estrenar",
+   "首次穿",
+   "estrenar"
+  ],
+  [
+   "plantearse",
+   "考虑",
+   "me planteo"
+  ],
+  [
+   "verse obligado",
+   "不得不",
+   "se verían obligadas"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Antes, las tiendas renovaban sus colecciones al ritmo de las estaciones.",
+    "zh": "过去，服装店是随着季节的更替来更新服装系列的。"
+   },
+   {
+    "es": "Hoy, en cambio, aparecen prendas nuevas cada semana a precios tan bajos que cuesta resistirse.",
+    "zh": "如今，新衣服却每周都在上架，价格低得让人难以抗拒。"
+   },
+   {
+    "es": "De este modo, la moda rápida ha logrado que vestir a la última deje de ser un lujo.",
+    "zh": "就这样，快时尚让穿得时髦不再是一种奢侈。"
+   },
+   {
+    "es": "No obstante, su éxito tiene un precio que no figura en ninguna etiqueta.",
+    "zh": "然而，它的成功是有代价的，只是这个代价不会出现在任何标签上。"
+   },
+   {
+    "es": "Su fabricación consume enormes cantidades de agua, y muchas prendas se desechan tras pocos usos.",
+    "zh": "快时尚服装的生产要消耗大量的水，而许多衣服只穿了寥寥几次就被丢弃了。"
+   }
+  ],
+  [
+   {
+    "es": "Yo mismo acumulaba camisas olvidadas en el armario, algunas sin estrenar.",
+    "zh": "我自己就曾囤了很多衬衫，把它们忘在衣柜里，有的连一次都没穿过。"
+   },
+   {
+    "es": "Un día, rodeado de bolsas frente al espejo, me pregunté si necesitaba tanta ropa.",
+    "zh": "有一天，我站在镜子前，身边堆满了购物袋，不禁自问是否需要这么多衣服。"
+   },
+   {
+    "es": "Ahora, antes de comprar una prenda, me planteo si la seguiría llevando dentro de un año.",
+    "zh": "现在，买衣服之前，我会先考虑一年以后自己还会不会穿它。"
+   },
+   {
+    "es": "Si más consumidores actuaran así, las marcas se verían obligadas a producir menos y mejor.",
+    "zh": "如果有更多的消费者这样做，品牌就不得不减少产量、提高质量。"
+   }
+  ]
+ ]
+}

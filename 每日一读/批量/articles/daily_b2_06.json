@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_06",
+ "level": "B2",
+ "no": 6,
+ "title_es": "El agua, un bien escaso",
+ "title_zh": "水：一种稀缺资源",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 6 篇。原创短文。语法：现在时论述、bastar con、现在完成时（se ha vuelto）、过去虚拟式 + 条件式（Si cada hogar reparara … y acortara …, … sería）、es necesario que + 现在虚拟式的自复被动（se modernice、se reutilice）、no … sino；连接语 precisamente por eso、no obstante、además。9 句，124 词。没有第一人称单数。标题 un bien escaso 的 bien 是名词“财产、资源”，词汇表释义取“资源”；el riego 指农业灌溉；不写具体统计数字，只说 son los mayores consumidores，译作“用水大户”；los embalses se vacían 译作“水库渐渐干涸”，和插图里低水位、开裂的土地对应。第 6 句冒号后是举例说明，照常停顿。全篇没有名词列举，no_pause_commas 为空。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "bien",
+   "资源",
+   "bien"
+  ],
+  [
+   "escaso",
+   "稀缺的",
+   "escaso"
+  ],
+  [
+   "bastar con",
+   "只需",
+   "basta con"
+  ],
+  [
+   "grifo",
+   "水龙头",
+   "grifo"
+  ],
+  [
+   "embalse",
+   "水库",
+   "embalses"
+  ],
+  [
+   "vaciarse",
+   "干涸",
+   "se vacían"
+  ],
+  [
+   "agrietarse",
+   "龟裂",
+   "se agrieta"
+  ],
+  [
+   "volverse",
+   "变得",
+   "se ha vuelto"
+  ],
+  [
+   "habitual",
+   "常见的",
+   "habitual"
+  ],
+  [
+   "gotear",
+   "滴水",
+   "gotea"
+  ],
+  [
+   "desperdiciar",
+   "浪费",
+   "desperdicia"
+  ],
+  [
+   "fuga",
+   "漏水",
+   "fugas"
+  ],
+  [
+   "acortar",
+   "缩短",
+   "acortara"
+  ],
+  [
+   "riego",
+   "灌溉",
+   "riego"
+  ],
+  [
+   "depurado",
+   "净化的",
+   "depurada"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Para la mayoría de nosotros, basta con abrir el grifo para tener agua limpia.",
+    "zh": "对我们大多数人来说，只要拧开水龙头，就能用上干净的水。"
+   },
+   {
+    "es": "Precisamente por eso, solemos olvidar que es un bien limitado y cada vez más escaso.",
+    "zh": "正因如此，我们常常忘记，水是一种有限的、而且越来越稀缺的资源。"
+   },
+   {
+    "es": "En los veranos secos, los embalses se vacían y la tierra se agrieta bajo el sol.",
+    "zh": "在干旱的夏天，水库渐渐干涸，土地在烈日下龟裂。"
+   },
+   {
+    "es": "Esta imagen, antes excepcional, se ha vuelto habitual en muchas regiones.",
+    "zh": "这样的景象过去很少见，如今在许多地区却已司空见惯。"
+   }
+  ],
+  [
+   {
+    "es": "Es verdad que la agricultura y la industria son los mayores consumidores.",
+    "zh": "诚然，农业和工业才是用水大户。"
+   },
+   {
+    "es": "No obstante, los hábitos domésticos también cuentan: un grifo que gotea desperdicia mucha agua.",
+    "zh": "然而，家庭的用水习惯同样重要：一个滴水的水龙头会浪费大量的水。"
+   },
+   {
+    "es": "Si cada hogar reparara sus fugas y acortara sus duchas, el ahorro sería considerable.",
+    "zh": "如果每个家庭都修好漏水之处，并缩短洗澡时间，节省下来的水将相当可观。"
+   },
+   {
+    "es": "Además, es necesario que se modernice el riego y se reutilice el agua depurada.",
+    "zh": "此外，还需要改进灌溉方式，并对净化后的水加以再利用。"
+   },
+   {
+    "es": "Cuidar el agua no es un sacrificio, sino una responsabilidad con las generaciones futuras.",
+    "zh": "爱护水资源并不是一种牺牲，而是对子孙后代应尽的责任。"
+   }
+  ]
+ ]
+}

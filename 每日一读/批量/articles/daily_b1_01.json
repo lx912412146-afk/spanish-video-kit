@@ -1,0 +1,141 @@
+{
+ "id": "daily_b1_01",
+ "level": "B1",
+ "no": 1,
+ "title_es": "Viajar solo",
+ "title_zh": "独自旅行",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 1 篇。原创短文。简单过去时和过去未完成时叙述旅行经过，过去完成时 había viajado；现在虚拟式 no creo que sea、es importante que hables / preguntes、cuando tengas、te recomiendo que lo pruebes；条件式 repetiría；连接语 al principio、sin embargo、sobre todo、por eso。10 句，145 词。标题里的 solo 是“独自”，第 7 句 me sentía bastante solo 是“孤单”，译文分别处理；第 3 句不用表示“只”的 solo，免得和标题混淆，改成 Llevaba una mochila ligera…。第 3 句 ligera, 是列举（una mochila ligera, un mapa de papel y un sombrero），不停顿；第 4 句 desde arriba 是插入语，两边照常停顿。第 5、8、10 句的 te、hables、tengas 是泛指的“你”。叙述者是男性：solo、tranquilo、seguro de mí mismo 用阳性。词汇里 solo 在标题里，排在最前；junto a 原文是 junto al。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "ligera,",
+    "why": "列举：una mochila ligera, un mapa de papel y un sombrero（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "solo",
+   "独自",
+   "solo"
+  ],
+  [
+   "al principio",
+   "起初",
+   "Al principio"
+  ],
+  [
+   "miedo",
+   "害怕",
+   "miedo"
+  ],
+  [
+   "mochila",
+   "背包",
+   "mochila"
+  ],
+  [
+   "ligero",
+   "轻便的",
+   "ligera"
+  ],
+  [
+   "protegerse",
+   "保护自己",
+   "protegerme"
+  ],
+  [
+   "mirador",
+   "观景台",
+   "mirador"
+  ],
+  [
+   "junto a",
+   "在旁边",
+   "junto al"
+  ],
+  [
+   "obligar",
+   "迫使",
+   "obliga"
+  ],
+  [
+   "confiar en",
+   "信任",
+   "confiar en"
+  ],
+  [
+   "sin embargo",
+   "然而",
+   "Sin embargo"
+  ],
+  [
+   "sobre todo",
+   "尤其",
+   "sobre todo"
+  ],
+  [
+   "costumbre",
+   "风俗",
+   "costumbres"
+  ],
+  [
+   "sin dudar",
+   "毫不犹豫",
+   "sin dudar"
+  ],
+  [
+   "probar",
+   "尝试",
+   "pruebes"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El verano pasado decidí hacer mi primer viaje solo por la costa del norte.",
+    "zh": "去年夏天，我决定第一次独自旅行，去北部的海岸走走。"
+   },
+   {
+    "es": "Al principio tenía un poco de miedo, porque nunca había viajado sin mi familia.",
+    "zh": "起初我有点害怕，因为我从来没有离开家人出门旅行过。"
+   },
+   {
+    "es": "Llevaba una mochila ligera, un mapa de papel y un sombrero para protegerme del sol.",
+    "zh": "我带着一个轻便的背包、一张纸质地图，还有一顶遮阳的帽子。"
+   },
+   {
+    "es": "Un día subí a un mirador y, desde arriba, vi un pueblo blanco junto al mar.",
+    "zh": "有一天，我登上一座观景台，从高处望见海边有一座白色的小镇。"
+   },
+   {
+    "es": "Allí comprendí que viajar solo te obliga a tomar decisiones y a confiar en ti mismo.",
+    "zh": "就在那里我明白了：独自旅行迫使你自己拿主意，也迫使你信任自己。"
+   }
+  ],
+  [
+   {
+    "es": "Sin embargo, no creo que sea un viaje para todo el mundo.",
+    "zh": "不过，我并不认为这种旅行适合所有人。"
+   },
+   {
+    "es": "Algunas noches me sentía bastante solo, sobre todo durante la cena.",
+    "zh": "有些晚上我觉得相当孤单，尤其是吃晚饭的时候。"
+   },
+   {
+    "es": "Por eso, es importante que hables con la gente del lugar y que preguntes por sus costumbres.",
+    "zh": "所以，重要的是多和当地人交谈，问问他们的风俗习惯。"
+   },
+   {
+    "es": "Yo lo repetiría sin dudar, porque volví a casa más tranquilo y más seguro de mí mismo.",
+    "zh": "我会毫不犹豫地再去一次，因为回到家时，我变得更平静，也更自信了。"
+   },
+   {
+    "es": "Cuando tengas la oportunidad, te recomiendo que lo pruebes al menos una vez.",
+    "zh": "等你有机会的时候，我建议你至少尝试一次。"
+   }
+  ]
+ ]
+}

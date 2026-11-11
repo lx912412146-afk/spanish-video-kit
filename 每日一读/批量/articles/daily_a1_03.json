@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_03",
+ "level": "A1",
+ "no": 3,
+ "title_es": "Mi bicicleta",
+ "title_zh": "我的自行车",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 3 篇。原创短文。只用陈述式现在时，有 hay、ir en bicicleta、me siento + 形容词。12 句，116 词。特别判断：第 1 句 bicicleta azul 和插图里的蓝色自行车一致；cesta 在自行车上，译作“车筐”，和插图里装着花的车筐对应；funciona muy bien 说车还很好用，译作“很好用”，释义也取“好用”；paseamos en bicicleta 是骑车随便转转，译作“兜风”；con ella 的 ella 指自行车，译作“骑着它”；第 11 句 libre y contento 用阳性，叙述者是男性。第 4 句 rápido, barato y muy sano 是列举，rápido, 登记为不停顿；第 2 句 nueva, pero 和第 12 句 Para mí, 照常停顿。词汇：bicicleta 在标题里，排在最前；fin de semana 原文是复数 fines de semana，cuidar 原文是句首的 Cuido。",
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "rápido,",
+    "why": "列举：rápido, barato y muy sano（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "bicicleta",
+   "自行车",
+   "bicicleta"
+  ],
+  [
+   "cesta",
+   "车筐",
+   "cesta"
+  ],
+  [
+   "delante",
+   "在前面",
+   "delante"
+  ],
+  [
+   "funcionar",
+   "好用",
+   "funciona"
+  ],
+  [
+   "barato",
+   "便宜的",
+   "barato"
+  ],
+  [
+   "sano",
+   "健康的",
+   "sano"
+  ],
+  [
+   "fin de semana",
+   "周末",
+   "fines de semana"
+  ],
+  [
+   "camino",
+   "小路",
+   "camino"
+  ],
+  [
+   "árbol",
+   "树",
+   "árboles"
+  ],
+  [
+   "charlar",
+   "聊天",
+   "charlamos"
+  ],
+  [
+   "dejar",
+   "放",
+   "dejo"
+  ],
+  [
+   "hierba",
+   "草地",
+   "hierba"
+  ],
+  [
+   "cuidar",
+   "爱护",
+   "Cuido"
+  ],
+  [
+   "limpiar",
+   "擦干净",
+   "limpio"
+  ],
+  [
+   "libre",
+   "自由的",
+   "libre"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Tengo una bicicleta azul con una cesta delante.",
+    "zh": "我有一辆蓝色的自行车，前面带一个车筐。"
+   },
+   {
+    "es": "No es nueva, pero funciona muy bien.",
+    "zh": "它不是新车，但是很好用。"
+   },
+   {
+    "es": "Todos los días voy en bicicleta a la universidad.",
+    "zh": "我每天骑自行车去大学。"
+   },
+   {
+    "es": "Ir en bicicleta es rápido, barato y muy sano.",
+    "zh": "骑自行车又快又便宜，还很健康。"
+   },
+   {
+    "es": "Los fines de semana voy al parque con mi amigo Diego.",
+    "zh": "周末，我和朋友迭戈去公园。"
+   },
+   {
+    "es": "Allí hay un camino largo entre árboles y flores.",
+    "zh": "那里有一条长长的小路，两旁是树和花。"
+   }
+  ],
+  [
+   {
+    "es": "Paseamos en bicicleta por el camino y charlamos un rato.",
+    "zh": "我们骑着车沿小路兜风，聊一会儿天。"
+   },
+   {
+    "es": "Después dejo la bicicleta al lado de un árbol y descanso en la hierba.",
+    "zh": "然后我把自行车放在一棵树旁边，在草地上休息。"
+   },
+   {
+    "es": "Los domingos compro flores en el mercado y las llevo en la cesta.",
+    "zh": "星期天，我在集市上买花，放在车筐里带走。"
+   },
+   {
+    "es": "Cuido mucho mi bicicleta y la limpio cada semana.",
+    "zh": "我很爱护我的自行车，每个星期都把它擦干净。"
+   },
+   {
+    "es": "Con ella siempre me siento libre y contento.",
+    "zh": "骑着它，我总是觉得自由又开心。"
+   },
+   {
+    "es": "Para mí, mi bicicleta es como una buena amiga.",
+    "zh": "对我来说，我的自行车就像一个好朋友。"
+   }
+  ]
+ ]
+}

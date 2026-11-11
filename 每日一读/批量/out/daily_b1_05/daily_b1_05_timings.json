@@ -1,0 +1,282 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_05.mp3",
+ "duration": 59.83,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.41,
+  "sentence_max_dev_lu": 0.57,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.74,
+  "buzz_hz": 5474.9,
+  "buzz_db": 6.2,
+  "comb_db": -0.14
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.7,
+   "parts": [
+    [
+     0.5,
+     1.7
+    ]
+   ],
+   "segments": [
+    "La radio de mi abuelo."
+   ],
+   "text": "La radio de mi abuelo.",
+   "read": "La radio de mi abuelo."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.7,
+   "end": 7.05,
+   "parts": [
+    [
+     2.7,
+     7.05
+    ]
+   ],
+   "segments": [
+    "En el salón de mi abuelo hay una radio antigua sobre una estantería de madera."
+   ],
+   "text": "En el salón de mi abuelo hay una radio antigua sobre una estantería de madera.",
+   "read": "En el salón de mi abuelo hay una radio antigua sobre una estantería de madera."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.05,
+   "end": 13.63,
+   "parts": [
+    [
+     8.05,
+     9.01
+    ],
+    [
+     9.29,
+     10.88
+    ],
+    [
+     11.16,
+     13.63
+    ]
+   ],
+   "segments": [
+    "Cada tarde,",
+    "él se sienta en su sillón,",
+    "enciende la lámpara y se prepara un café."
+   ],
+   "text": "Cada tarde, él se sienta en su sillón, enciende la lámpara y se prepara un café.",
+   "read": "Cada tarde, él se sienta en su sillón, enciende la lámpara y se prepara un café."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.63,
+   "end": 19.11,
+   "parts": [
+    [
+     14.63,
+     19.11
+    ]
+   ],
+   "segments": [
+    "Después gira el botón con cuidado y busca su programa favorito de música."
+   ],
+   "text": "Después gira el botón con cuidado y busca su programa favorito de música.",
+   "read": "Después gira el botón con cuidado y busca su programa favorito de música."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.11,
+   "end": 25.13,
+   "parts": [
+    [
+     20.11,
+     21.11
+    ],
+    [
+     21.39,
+     25.13
+    ]
+   ],
+   "segments": [
+    "Cuando era niño,",
+    "me sentaba a su lado y escuchábamos juntos los partidos de fútbol."
+   ],
+   "text": "Cuando era niño, me sentaba a su lado y escuchábamos juntos los partidos de fútbol.",
+   "read": "Cuando era niño, me sentaba a su lado y escuchábamos juntos los partidos de fútbol."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 26.13,
+   "end": 31.41,
+   "parts": [
+    [
+     26.13,
+     31.41
+    ]
+   ],
+   "segments": [
+    "Mi abuelo dice que la radio le hace compañía y le permite imaginar las cosas a su manera."
+   ],
+   "text": "Mi abuelo dice que la radio le hace compañía y le permite imaginar las cosas a su manera.",
+   "read": "Mi abuelo dice que la radio le hace compañía y le permite imaginar las cosas a su manera."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 32.41,
+   "end": 37.77,
+   "parts": [
+    [
+     32.41,
+     35.77
+    ],
+    [
+     36.05,
+     37.77
+    ]
+   ],
+   "segments": [
+    "Hace poco le dije que un aparato moderno sonaría mejor,",
+    "pero no quiere cambiarlo por nada."
+   ],
+   "text": "Hace poco le dije que un aparato moderno sonaría mejor, pero no quiere cambiarlo por nada.",
+   "read": "Hace poco le dije que un aparato moderno sonaría mejor, pero no quiere cambiarlo por nada."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 38.77,
+   "end": 42.95,
+   "parts": [
+    [
+     38.77,
+     40.64
+    ],
+    [
+     40.92,
+     42.95
+    ]
+   ],
+   "segments": [
+    "Aunque el sonido no sea perfecto,",
+    "para él tiene un valor especial."
+   ],
+   "text": "Aunque el sonido no sea perfecto, para él tiene un valor especial.",
+   "read": "Aunque el sonido no sea perfecto, para él tiene un valor especial."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 43.95,
+   "end": 48.33,
+   "parts": [
+    [
+     43.95,
+     45.34
+    ],
+    [
+     45.62,
+     48.33
+    ]
+   ],
+   "segments": [
+    "Ahora lo entiendo mejor:",
+    "esa radio guarda muchos recuerdos de su vida."
+   ],
+   "text": "Ahora lo entiendo mejor: esa radio guarda muchos recuerdos de su vida.",
+   "read": "Ahora lo entiendo mejor: esa radio guarda muchos recuerdos de su vida."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 49.33,
+   "end": 54.2,
+   "parts": [
+    [
+     49.33,
+     51.4
+    ],
+    [
+     51.68,
+     54.2
+    ]
+   ],
+   "segments": [
+    "Espero que funcione muchos años más,",
+    "porque me encanta escucharla con él los domingos."
+   ],
+   "text": "Espero que funcione muchos años más, porque me encanta escucharla con él los domingos.",
+   "read": "Espero que funcione muchos años más, porque me encanta escucharla con él los domingos."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 55.2,
+   "end": 58.63,
+   "parts": [
+    [
+     55.2,
+     55.81
+    ],
+    [
+     56.09,
+     58.63
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "esa radio siempre tendrá el sonido de su casa."
+   ],
+   "text": "Para mí, esa radio siempre tendrá el sonido de su casa.",
+   "read": "Para mí, esa radio siempre tendrá el sonido de su casa."
+  }
+ ]
+}

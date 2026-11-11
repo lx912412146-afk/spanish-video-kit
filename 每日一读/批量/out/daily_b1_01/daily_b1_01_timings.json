@@ -1,0 +1,282 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_01.mp3",
+ "duration": 59.8,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.38,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.71,
+  "buzz_hz": 8781.0,
+  "buzz_db": 5.9,
+  "comb_db": -0.42
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.5,
+   "parts": [
+    [
+     0.5,
+     1.5
+    ]
+   ],
+   "segments": [
+    "Viajar solo."
+   ],
+   "text": "Viajar solo.",
+   "read": "Viajar solo."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.5,
+   "end": 6.73,
+   "parts": [
+    [
+     2.5,
+     6.73
+    ]
+   ],
+   "segments": [
+    "El verano pasado decidí hacer mi primer viaje solo por la costa del norte."
+   ],
+   "text": "El verano pasado decidí hacer mi primer viaje solo por la costa del norte.",
+   "read": "El verano pasado decidí hacer mi primer viaje solo por la costa del norte."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.73,
+   "end": 12.64,
+   "parts": [
+    [
+     7.73,
+     9.86
+    ],
+    [
+     10.14,
+     12.64
+    ]
+   ],
+   "segments": [
+    "Al principio tenía un poco de miedo,",
+    "porque nunca había viajado sin mi familia."
+   ],
+   "text": "Al principio tenía un poco de miedo, porque nunca había viajado sin mi familia.",
+   "read": "Al principio tenía un poco de miedo, porque nunca había viajado sin mi familia."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.64,
+   "end": 18.62,
+   "parts": [
+    [
+     13.64,
+     18.62
+    ]
+   ],
+   "segments": [
+    "Llevaba una mochila ligera, un mapa de papel y un sombrero para protegerme del sol."
+   ],
+   "text": "Llevaba una mochila ligera, un mapa de papel y un sombrero para protegerme del sol.",
+   "read": "Llevaba una mochila ligera, un mapa de papel y un sombrero para protegerme del sol."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.62,
+   "end": 25.04,
+   "parts": [
+    [
+     19.62,
+     21.66
+    ],
+    [
+     21.94,
+     22.92
+    ],
+    [
+     23.2,
+     25.04
+    ]
+   ],
+   "segments": [
+    "Un día subí a un mirador y,",
+    "desde arriba,",
+    "vi un pueblo blanco junto al mar."
+   ],
+   "text": "Un día subí a un mirador y, desde arriba, vi un pueblo blanco junto al mar.",
+   "read": "Un día subí a un mirador y, desde arriba, vi un pueblo blanco junto al mar."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 26.04,
+   "end": 30.6,
+   "parts": [
+    [
+     26.04,
+     30.6
+    ]
+   ],
+   "segments": [
+    "Allí comprendí que viajar solo te obliga a tomar decisiones y a confiar en ti mismo."
+   ],
+   "text": "Allí comprendí que viajar solo te obliga a tomar decisiones y a confiar en ti mismo.",
+   "read": "Allí comprendí que viajar solo te obliga a tomar decisiones y a confiar en ti mismo."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.6,
+   "end": 34.89,
+   "parts": [
+    [
+     31.6,
+     32.34
+    ],
+    [
+     32.62,
+     34.89
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "no creo que sea un viaje para todo el mundo."
+   ],
+   "text": "Sin embargo, no creo que sea un viaje para todo el mundo.",
+   "read": "Sin embargo, no creo que sea un viaje para todo el mundo."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 35.89,
+   "end": 40.42,
+   "parts": [
+    [
+     35.89,
+     38.36
+    ],
+    [
+     38.64,
+     40.42
+    ]
+   ],
+   "segments": [
+    "Algunas noches me sentía bastante solo,",
+    "sobre todo durante la cena."
+   ],
+   "text": "Algunas noches me sentía bastante solo, sobre todo durante la cena.",
+   "read": "Algunas noches me sentía bastante solo, sobre todo durante la cena."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 41.42,
+   "end": 46.61,
+   "parts": [
+    [
+     41.42,
+     41.92
+    ],
+    [
+     42.2,
+     46.61
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "es importante que hables con la gente del lugar y que preguntes por sus costumbres."
+   ],
+   "text": "Por eso, es importante que hables con la gente del lugar y que preguntes por sus costumbres.",
+   "read": "Por eso, es importante que hables con la gente del lugar y que preguntes por sus costumbres."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 47.61,
+   "end": 53.04,
+   "parts": [
+    [
+     47.61,
+     49.38
+    ],
+    [
+     49.66,
+     53.04
+    ]
+   ],
+   "segments": [
+    "Yo lo repetiría sin dudar,",
+    "porque volví a casa más tranquilo y más seguro de mí mismo."
+   ],
+   "text": "Yo lo repetiría sin dudar, porque volví a casa más tranquilo y más seguro de mí mismo.",
+   "read": "Yo lo repetiría sin dudar, porque volví a casa más tranquilo y más seguro de mí mismo."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 54.04,
+   "end": 58.6,
+   "parts": [
+    [
+     54.04,
+     55.75
+    ],
+    [
+     56.03,
+     58.6
+    ]
+   ],
+   "segments": [
+    "Cuando tengas la oportunidad,",
+    "te recomiendo que lo pruebes al menos una vez."
+   ],
+   "text": "Cuando tengas la oportunidad, te recomiendo que lo pruebes al menos una vez.",
+   "read": "Cuando tengas la oportunidad, te recomiendo que lo pruebes al menos una vez."
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_06.mp3",
+ "duration": 58.32,
+ "sentence_pause": 0.8,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 1.1,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.73,
+  "buzz_hz": 8781.7,
+  "buzz_db": 5.8,
+  "comb_db": -0.16
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.8,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.97,
+   "parts": [
+    [
+     0.5,
+     1.29
+    ],
+    [
+     1.57,
+     2.97
+    ]
+   ],
+   "segments": [
+    "El agua,",
+    "un bien escaso."
+   ],
+   "text": "El agua, un bien escaso.",
+   "read": "El agua, un bien escaso."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.77,
+   "end": 8.41,
+   "parts": [
+    [
+     3.77,
+     5.47
+    ],
+    [
+     5.75,
+     8.41
+    ]
+   ],
+   "segments": [
+    "Para la mayoría de nosotros,",
+    "basta con abrir el grifo para tener agua limpia."
+   ],
+   "text": "Para la mayoría de nosotros, basta con abrir el grifo para tener agua limpia.",
+   "read": "Para la mayoría de nosotros, basta con abrir el grifo para tener agua limpia."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.21,
+   "end": 14.21,
+   "parts": [
+    [
+     9.21,
+     10.45
+    ],
+    [
+     10.73,
+     14.21
+    ]
+   ],
+   "segments": [
+    "Precisamente por eso,",
+    "solemos olvidar que es un bien limitado y cada vez más escaso."
+   ],
+   "text": "Precisamente por eso, solemos olvidar que es un bien limitado y cada vez más escaso.",
+   "read": "Precisamente por eso, solemos olvidar que es un bien limitado y cada vez más escaso."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.01,
+   "end": 20.23,
+   "parts": [
+    [
+     15.01,
+     16.53
+    ],
+    [
+     16.81,
+     20.23
+    ]
+   ],
+   "segments": [
+    "En los veranos secos,",
+    "los embalses se vacían y la tierra se agrieta bajo el sol."
+   ],
+   "text": "En los veranos secos, los embalses se vacían y la tierra se agrieta bajo el sol.",
+   "read": "En los veranos secos, los embalses se vacían y la tierra se agrieta bajo el sol."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 21.03,
+   "end": 26.03,
+   "parts": [
+    [
+     21.03,
+     21.91
+    ],
+    [
+     22.19,
+     23.5
+    ],
+    [
+     23.78,
+     26.03
+    ]
+   ],
+   "segments": [
+    "Esta imagen,",
+    "antes excepcional,",
+    "se ha vuelto habitual en muchas regiones."
+   ],
+   "text": "Esta imagen, antes excepcional, se ha vuelto habitual en muchas regiones.",
+   "read": "Esta imagen, antes excepcional, se ha vuelto habitual en muchas regiones."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 26.83,
+   "end": 30.66,
+   "parts": [
+    [
+     26.83,
+     30.66
+    ]
+   ],
+   "segments": [
+    "Es verdad que la agricultura y la industria son los mayores consumidores."
+   ],
+   "text": "Es verdad que la agricultura y la industria son los mayores consumidores.",
+   "read": "Es verdad que la agricultura y la industria son los mayores consumidores."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.46,
+   "end": 38.55,
+   "parts": [
+    [
+     31.46,
+     32.75
+    ],
+    [
+     33.03,
+     35.74
+    ],
+    [
+     36.02,
+     38.55
+    ]
+   ],
+   "segments": [
+    "No obstante,",
+    "los hábitos domésticos también cuentan:",
+    "un grifo que gotea desperdicia mucha agua."
+   ],
+   "text": "No obstante, los hábitos domésticos también cuentan: un grifo que gotea desperdicia mucha agua.",
+   "read": "No obstante, los hábitos domésticos también cuentan: un grifo que gotea desperdicia mucha agua."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.35,
+   "end": 44.88,
+   "parts": [
+    [
+     39.35,
+     42.68
+    ],
+    [
+     42.96,
+     44.88
+    ]
+   ],
+   "segments": [
+    "Si cada hogar reparara sus fugas y acortara sus duchas,",
+    "el ahorro sería considerable."
+   ],
+   "text": "Si cada hogar reparara sus fugas y acortara sus duchas, el ahorro sería considerable.",
+   "read": "Si cada hogar reparara sus fugas y acortara sus duchas, el ahorro sería considerable."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 45.68,
+   "end": 50.54,
+   "parts": [
+    [
+     45.68,
+     50.54
+    ]
+   ],
+   "segments": [
+    "Además, es necesario que se modernice el riego y se reutilice el agua depurada."
+   ],
+   "text": "Además, es necesario que se modernice el riego y se reutilice el agua depurada.",
+   "read": "Además, es necesario que se modernice el riego y se reutilice el agua depurada."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 51.34,
+   "end": 57.12,
+   "parts": [
+    [
+     51.34,
+     53.54
+    ],
+    [
+     53.82,
+     57.12
+    ]
+   ],
+   "segments": [
+    "Cuidar el agua no es un sacrificio,",
+    "sino una responsabilidad con las generaciones futuras."
+   ],
+   "text": "Cuidar el agua no es un sacrificio, sino una responsabilidad con las generaciones futuras.",
+   "read": "Cuidar el agua no es un sacrificio, sino una responsabilidad con las generaciones futuras."
+  }
+ ]
+}

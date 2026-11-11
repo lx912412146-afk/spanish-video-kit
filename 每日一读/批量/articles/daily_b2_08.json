@@ -1,0 +1,133 @@
+{
+ "id": "daily_b2_08",
+ "level": "B2",
+ "no": 8,
+ "title_es": "La amistad en la edad adulta",
+ "title_zh": "成年后的友谊",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 8 篇。原创短文。语法：过去未完成时（éramos、nos veíamos）、ir + 副动词（fueron ocupando）、como si + 过去完成虚拟式（hubiera pasado）、darse cuenta de que、depender menos de … que de、名词化（la frecuencia、la voluntad de cuidarla）；连接语 sin embargo、por eso、de hecho、aun así。8 句，128 词。第一人称叙述者为男性（Sentados 为阳性复数，指我和巴勃罗）。人名只有巴勃罗（Pablo）。depende menos de la frecuencia que de la voluntad 译作“与其说取决于……不如说取决于……”；咖啡馆、窗边和插图里窗边桌上的两杯咖啡对应。第 2 句 el trabajo, la familia y las mudanzas 是名词列举，逗号不停顿；第 3 句 los encuentros, cada vez menos frecuentes 的逗号表示省略了动词 se volvieron，照常停顿。",
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "trabajo,",
+    "why": "列举：el trabajo, la familia y las mudanzas（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "amistad",
+   "友谊",
+   "amistad"
+  ],
+  [
+   "edad adulta",
+   "成年",
+   "edad adulta"
+  ],
+  [
+   "a diario",
+   "每天",
+   "a diario"
+  ],
+  [
+   "mudanza",
+   "搬家",
+   "mudanzas"
+  ],
+  [
+   "ocupar",
+   "占据",
+   "ocupando"
+  ],
+  [
+   "breve",
+   "短暂的",
+   "breves"
+  ],
+  [
+   "encuentro",
+   "见面",
+   "encuentros"
+  ],
+  [
+   "reservar",
+   "留出",
+   "reservar"
+  ],
+  [
+   "como si",
+   "仿佛",
+   "como si"
+  ],
+  [
+   "darse cuenta",
+   "意识到",
+   "Me di cuenta"
+  ],
+  [
+   "voluntad",
+   "意愿",
+   "voluntad"
+  ],
+  [
+   "surgir",
+   "产生",
+   "surge"
+  ],
+  [
+   "espontáneo",
+   "自发的",
+   "espontánea"
+  ],
+  [
+   "aun así",
+   "尽管如此",
+   "Aun así"
+  ],
+  [
+   "merecer la pena",
+   "值得",
+   "merece la pena"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cuando éramos estudiantes, mis amigos y yo nos veíamos casi a diario sin planear nada.",
+    "zh": "上学的时候，我和朋友们几乎天天见面，什么都不用事先安排。"
+   },
+   {
+    "es": "Con los años, sin embargo, el trabajo, la familia y las mudanzas fueron ocupando nuestro tiempo libre.",
+    "zh": "然而，随着岁月流逝，工作、家庭和一次次搬家渐渐占据了我们的闲暇时光。"
+   },
+   {
+    "es": "Las llamadas se volvieron más breves y los encuentros, cada vez menos frecuentes.",
+    "zh": "电话越打越短，见面也越来越少。"
+   },
+   {
+    "es": "Por eso, mi amigo Pablo y yo decidimos reservar una tarde al mes para tomar un café.",
+    "zh": "所以，我和朋友巴勃罗决定每个月留出一个下午，一起喝杯咖啡。"
+   }
+  ],
+  [
+   {
+    "es": "Sentados junto a la ventana, hablamos de todo, como si no hubiera pasado el tiempo.",
+    "zh": "我们坐在窗边无所不谈，仿佛时间从未流逝。"
+   },
+   {
+    "es": "Me di cuenta de que, en la edad adulta, la amistad depende menos de la frecuencia que de la voluntad de cuidarla.",
+    "zh": "我意识到，成年以后，友谊与其说取决于见面的次数，不如说取决于维系它的意愿。"
+   },
+   {
+    "es": "De hecho, exige un esfuerzo consciente, porque ya no surge de forma espontánea.",
+    "zh": "事实上，它需要有意识地付出努力，因为它已不会再自然而然地产生了。"
+   },
+   {
+    "es": "Aun así, merece la pena, pues un buen amigo ofrece algo que ningún éxito profesional sustituye.",
+    "zh": "尽管如此，这一切都是值得的，因为好朋友给予的东西，是任何事业上的成功都无法替代的。"
+   }
+  ]
+ ]
+}

@@ -349,6 +349,11 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - 第 01 篇样片：Mi pequeño huerto（我的小菜园），A2—B1，62.8 秒。
   - 逐句语音识别核对、逐帧画面比对、版面测量，47 项全部通过。
   - 视频在 Release `daily-reading`。
+- **50 篇**（2026-11-11）：A1—C1 每级 10 篇，逐句高亮版，每篇 54.5—64.8 秒（平均 59.9 秒）。
+  - A1、A2 用 `qwen3_M1F5_25_slow`（0.8 倍速），B1—C1 用 `qwen3_M1F5_25`（原速）。
+  - 文章、插图、朗读 MP3、时间表、核查报告、审读记录在 `每日一读/批量/`；篇目见 `每日一读/批量/选题表.md`，每篇的时长、响度、版面数据见 `每日一读/批量/成品一览.md`。
+  - 每篇的成品核查（逐句语音识别、逐段画面比对、响度、版面）全部通过，50 篇共 2074 项。
+  - 视频在 Release `daily-reading-50`。
 
 ## 教学视频
 
@@ -384,6 +389,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `b1b2-listening` | 西班牙语 B1—B2 听力练习：`b1b2-listening-student.docx/.pdf`、按套拆开的 `b1b2-listening-student-sets.zip`、`b1b2-listening-teacher.docx/.pdf`、全部录音 `B1B2_*.mp3` 和打包的 `b1b2-listening-audio.zip`、`b1b2-listening-checks.json`、`b1b2-listening-SHA256SUMS.txt` |
 | `hsk1-reading` | HSK1 中文阅读视频：`hsk1_01.mp4` … `hsk1_50.mp4`（50 篇）、`hsk1-reading-checks.json`、`hsk1-reading-SHA256SUMS.txt` |
 | `daily-reading` | 每日一读（单页朗读视频）：第 01 篇样片 `daily_01_Mi_pequeno_huerto_highlight.mp4`（逐句高亮版，选定的成品）、`daily_01_Mi_pequeno_huerto.mp4`（静态版，备用）、`daily-reading-SHA256SUMS.txt` |
+| `daily-reading-50` | 每日一读 50 篇（A1—C1 每级 10 篇，逐句高亮版）：`daily_A1-01_Mi_abuela.mp4` … `daily_C1-10_La_plaza_lugar_de_encuentro.mp4`、`daily-reading-50-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -441,3 +447,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 2026-11-11：
     - 新增 `每日一读/`（单页朗读视频的新形式：标题栏、插图、重点词汇、西语短文和中文译文在一页上，配西语朗读；第 01 篇样片 Mi pequeño huerto，静态版和逐句高亮版）和 Release `daily-reading`。
     - 用户看过样片后选定逐句高亮版作为每日一读的成品形式，`每日一读/README.md` 和 Release 说明已注明。
+    - 每日一读 50 篇（A1—C1 每级 10 篇，原创短文和插图，逐句高亮版）和 Release `daily-reading-50`；新增 `每日一读/批量/`（选题表、编写和插图要求、文章、插图、朗读、核查报告、审读记录、成品一览）。
+    - `每日一读/tools/`：新增 `run_batch.py`（批量合成、出片、核查）、`collect_batch.py`（归档）、`summary_batch.py`（成品一览）、`check_daily.py`（文章自查）、`render_svg.py`（插图自查）、`contact.py`（插图总览）；`make_daily_audio.py` 句间停顿不过时自动退到 0.9、0.8 秒，音色可以写在文章里；`render_page.py` 自动选西语字号和字距；`make_daily_video.py` 可以只出高亮版；`qa_daily.py` 多查几项版面。用新版工具重做第 01 篇样片核对过（朗读 MP3 逐字节相同），样片没有重新发布；`每日一读/article_01.json` 换成新版格式，内容没变。

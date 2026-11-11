@@ -1,0 +1,275 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_06.mp3",
+ "duration": 58.007,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.94,
+  "short_term_std_lu": 0.99,
+  "short_term_std_full_lu": 1.02,
+  "peak_dbfs": -1.63,
+  "buzz_hz": 4890.4,
+  "buzz_db": 5.5,
+  "comb_db": -0.48
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.196,
+   "parts": [
+    [
+     0.5,
+     2.196
+    ]
+   ],
+   "segments": [
+    "El regalo perfecto."
+   ],
+   "text": "El regalo perfecto.",
+   "read": "El regalo perfecto."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.196,
+   "end": 7.857,
+   "parts": [
+    [
+     3.196,
+     7.857
+    ]
+   ],
+   "segments": [
+    "Se acercaba el cumpleaños de mi madre y no sabía qué regalarle."
+   ],
+   "text": "Se acercaba el cumpleaños de mi madre y no sabía qué regalarle.",
+   "read": "Se acercaba el cumpleaños de mi madre y no sabía qué regalarle."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.857,
+   "end": 13.353,
+   "parts": [
+    [
+     8.857,
+     10.583
+    ],
+    [
+     10.863,
+     13.353
+    ]
+   ],
+   "segments": [
+    "Fui a varias tiendas,",
+    "pero nada me parecía especial."
+   ],
+   "text": "Fui a varias tiendas, pero nada me parecía especial.",
+   "read": "Fui a varias tiendas, pero nada me parecía especial."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.353,
+   "end": 17.983,
+   "parts": [
+    [
+     14.353,
+     17.983
+    ]
+   ],
+   "segments": [
+    "Entonces mi hermana Elena me dio una buena idea."
+   ],
+   "text": "Entonces mi hermana Elena me dio una buena idea.",
+   "read": "Entonces mi hermana Elena me dio una buena idea."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.983,
+   "end": 23.389,
+   "parts": [
+    [
+     18.983,
+     23.389
+    ]
+   ],
+   "segments": [
+    "Me recordó que a mamá le encantan las fotos de la familia."
+   ],
+   "text": "Me recordó que a mamá le encantan las fotos de la familia.",
+   "read": "Me recordó que a mamá le encantan las fotos de la familia."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.389,
+   "end": 28.479,
+   "parts": [
+    [
+     24.389,
+     28.479
+    ]
+   ],
+   "segments": [
+    "Busqué fotos viejas en casa y preparé un pequeño álbum."
+   ],
+   "text": "Busqué fotos viejas en casa y preparé un pequeño álbum.",
+   "read": "Busqué fotos viejas en casa y preparé un pequeño álbum."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.479,
+   "end": 33.919,
+   "parts": [
+    [
+     29.479,
+     33.919
+    ]
+   ],
+   "segments": [
+    "Lo guardé en una caja y la decoré con una cinta roja."
+   ],
+   "text": "Lo guardé en una caja y la decoré con una cinta roja.",
+   "read": "Lo guardé en una caja y la decoré con una cinta roja."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 34.919,
+   "end": 38.729,
+   "parts": [
+    [
+     34.919,
+     38.729
+    ]
+   ],
+   "segments": [
+    "También compré un ramo de flores y escribí una tarjeta."
+   ],
+   "text": "También compré un ramo de flores y escribí una tarjeta.",
+   "read": "También compré un ramo de flores y escribí una tarjeta."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.729,
+   "end": 43.722,
+   "parts": [
+    [
+     39.729,
+     41.819
+    ],
+    [
+     42.099,
+     43.722
+    ]
+   ],
+   "segments": [
+    "Cuando mi madre abrió la caja,",
+    "se quedó en silencio."
+   ],
+   "text": "Cuando mi madre abrió la caja, se quedó en silencio.",
+   "read": "Cuando mi madre abrió la caja, se quedó en silencio."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 44.722,
+   "end": 47.705,
+   "parts": [
+    [
+     44.722,
+     47.705
+    ]
+   ],
+   "segments": [
+    "Luego empezó a reír y a llorar a la vez."
+   ],
+   "text": "Luego empezó a reír y a llorar a la vez.",
+   "read": "Luego empezó a reír y a llorar a la vez."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 48.705,
+   "end": 52.217,
+   "parts": [
+    [
+     48.705,
+     52.217
+    ]
+   ],
+   "segments": [
+    "Me abrazó y me dijo que era el regalo perfecto."
+   ],
+   "text": "Me abrazó y me dijo que era el regalo perfecto.",
+   "read": "Me abrazó y me dijo que era el regalo perfecto."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 53.217,
+   "end": 56.807,
+   "parts": [
+    [
+     53.217,
+     56.807
+    ]
+   ],
+   "segments": [
+    "Ahora sé que un buen regalo no tiene que ser caro."
+   ],
+   "text": "Ahora sé que un buen regalo no tiene que ser caro.",
+   "read": "Ahora sé que un buen regalo no tiene que ser caro."
+  }
+ ]
+}

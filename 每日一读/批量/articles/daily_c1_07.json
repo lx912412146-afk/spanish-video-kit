@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_07",
+ "level": "C1",
+ "no": 7,
+ "title_es": "El arte de conversar",
+ "title_zh": "谈话的艺术",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 7 篇。原创短文。主要语法：no…ni…sino 的多重否定对照，相互意义的代词式动词（convencernos），lo + 最高级的名词化（lo más fecundo），冒号引出解释，现在完成时（hemos cambiado de idea、no ha escuchado），quien 引导的无先行词关系从句，quizá 表推测，过去未完成时 traía 表“来时的状态”。7 句，132 词。第一人称叙述者是男性，用 mi amigo Andrés y yo，没有需要变性的形容词。特别判断：人名只用一个 Andrés，译作“安德烈斯”；第 2 句 presumir 是不及物用法“卖弄、炫耀”（原为 lucirnos，代词连写的少见形式，朗读识别有风险，换成更常见的 presumir，意思不变）；digresión 译作“题外话”；第 6 句 tal como entró 指“谈完后和来时一模一样”，译文用分号对应 y 前后两层意思。全篇没有名词列举，no_pause_commas 为 {}。标题里的 conversar 太基础，没有放进词汇表。插图里两把面对面的扶手椅、两杯茶和落地灯对应第 1、7 句。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "sillón",
+   "扶手椅",
+   "sillones"
+  ],
+  [
+   "enfrentado",
+   "面对面的",
+   "enfrentados"
+  ],
+  [
+   "presumir",
+   "炫耀",
+   "presumir"
+  ],
+  [
+   "en voz alta",
+   "出声地",
+   "en voz alta"
+  ],
+  [
+   "desviarse",
+   "偏离",
+   "nos desviamos"
+  ],
+  [
+   "imprevisto",
+   "意想不到的",
+   "imprevistos"
+  ],
+  [
+   "digresión",
+   "题外话",
+   "digresiones"
+  ],
+  [
+   "fecundo",
+   "富有成果的",
+   "fecundo"
+  ],
+  [
+   "exigir",
+   "要求",
+   "exige"
+  ],
+  [
+   "premiar",
+   "推崇",
+   "premia"
+  ],
+  [
+   "tajante",
+   "斩钉截铁的",
+   "tajantes"
+  ],
+  [
+   "cambiar de idea",
+   "改变想法",
+   "cambiado de idea"
+  ],
+  [
+   "derrota",
+   "失败",
+   "derrota"
+  ],
+  [
+   "vencedor",
+   "赢家",
+   "vencedores"
+  ],
+  [
+   "despedirse",
+   "告别",
+   "nos despedimos"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Los jueves, mi amigo Andrés y yo conversamos sentados en dos sillones enfrentados, con dos tazas de té entre ambos.",
+    "zh": "每逢周四，我和朋友安德烈斯会面对面坐在两把扶手椅上聊天，两杯茶就摆在我们中间。"
+   },
+   {
+    "es": "No hablamos para convencernos ni para presumir, sino por el placer de pensar en voz alta.",
+    "zh": "我们交谈既不为说服对方，也不为卖弄自己，只为享受出声思考的乐趣。"
+   },
+   {
+    "es": "A veces nos desviamos hacia temas imprevistos, y esas digresiones resultan lo más fecundo de la tarde.",
+    "zh": "有时我们会岔到意想不到的话题上，而这些题外话恰恰成了整个下午最有收获的部分。"
+   }
+  ],
+  [
+   {
+    "es": "Conversar de verdad exige algo más difícil que hablar bien: escuchar sin preparar la respuesta mientras el otro todavía habla.",
+    "zh": "真正的谈话要求一种比能说会道更难的本事：倾听，而不在对方话音未落时就盘算如何回应。"
+   },
+   {
+    "es": "En una época que premia las opiniones tajantes, admitir que hemos cambiado de idea parece casi una derrota.",
+    "zh": "在一个推崇斩钉截铁之论的时代，承认自己改变了想法，几乎就像认输。"
+   },
+   {
+    "es": "Sin embargo, una buena conversación no tiene vencedores, y quien sale de ella tal como entró quizá no ha escuchado bastante.",
+    "zh": "然而，好的谈话没有赢家；谁若谈完之后仍和来时一模一样，也许是听得还不够。"
+   },
+   {
+    "es": "Por eso, cuando Andrés apaga la lámpara y nos despedimos, siempre me llevo alguna pregunta que no traía al llegar.",
+    "zh": "所以，每当安德烈斯关掉落地灯、我们互相道别时，我总会带走一个来时还没有的问题。"
+   }
+  ]
+ ]
+}

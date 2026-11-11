@@ -1,0 +1,137 @@
+{
+ "id": "daily_b2_02",
+ "level": "B2",
+ "no": 2,
+ "title_es": "El ruido de las ciudades",
+ "title_zh": "城市的噪音",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 2 篇。原创短文。语法：过去未完成时叙述（molestaba、dormía、me levantaba）、a medida que、让步句 aunque + 现在虚拟式（no se vea ni se toque）、过去虚拟式 + 条件式的假设句（Si se redujera … y se plantaran …, … serían，自复被动）、无人称 se（se considera）、no … sino；连接语 de hecho、por lo tanto、mientras tanto。9 句，124 词。第一人称叙述者为男性（me levantaba agotado）。caso aislado 译作“个别现象”；a todas horas 译作“无论什么时候”；se queda en calma 译作“恢复平静”。词汇表不收一眼就懂的同源词 silencioso，改收 ampliar（原文是第 7 句的 ampliado）；reducir 虽是同源词，但原文是不规则变位 redujera，保留。第 1 句 coches, autobuses y camiones 是名词列举，逗号不停顿；第 2 句 pero 前、第 7 句 con buen resultado 前的逗号分别隔开分句和补充成分，照常停顿。第 5 句原为 ni se huela，朗读核对时 huela 被识别成 vuela，按审读时备好的改法换成 ni se toque，译文改为“也摸不着”，词汇 oler 换成同句的 considerarse（原文 se considera）；第 7 句原为 las zonas peatonales，zonas 词尾被吞（识别成 zon），改为 los espacios peatonales，译文改为“步行空间”。重新合成后（句间停顿降到 0.8 秒，电平加强了一档），原来通过的第 3 句 Por las mañanas 和第 7 句 buenos resultados 也出现词尾被吞（识别成 mañan、buen），改成单数 Cada mañana、con buen resultado，第 3 句译文改为“每天早上起床时，我都精疲力竭”。",
+ "no_pause_commas": {
+  "1": [
+   {
+    "after": "coches,",
+    "why": "列举：coches, autobuses y camiones（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "ruido",
+   "噪音",
+   "ruido"
+  ],
+  [
+   "a todas horas",
+   "时时刻刻",
+   "a todas horas"
+  ],
+  [
+   "apenas",
+   "几乎不",
+   "apenas"
+  ],
+  [
+   "molestar",
+   "打扰",
+   "molestaba"
+  ],
+  [
+   "a medida que",
+   "随着",
+   "a medida que"
+  ],
+  [
+   "agotado",
+   "精疲力竭",
+   "agotado"
+  ],
+  [
+   "concentrarse",
+   "集中注意力",
+   "concentrarme"
+  ],
+  [
+   "aislado",
+   "个别的",
+   "aislado"
+  ],
+  [
+   "de hecho",
+   "事实上",
+   "De hecho"
+  ],
+  [
+   "considerarse",
+   "被视为",
+   "se considera"
+  ],
+  [
+   "reducir",
+   "减少",
+   "redujera"
+  ],
+  [
+   "ampliar",
+   "扩大",
+   "ampliado"
+  ],
+  [
+   "peatonal",
+   "步行的",
+   "peatonales"
+  ],
+  [
+   "privilegio",
+   "特权",
+   "privilegio"
+  ],
+  [
+   "quedarse en calma",
+   "恢复平静",
+   "se queda en calma"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Desde mi ventana veo pasar coches, autobuses y camiones a todas horas.",
+    "zh": "从我的窗户望出去，无论什么时候都能看到小汽车、公交车和卡车驶过。"
+   },
+   {
+    "es": "Al principio, el ruido apenas me molestaba, pero a medida que pasaban los meses dormía peor.",
+    "zh": "起初，噪音几乎没怎么打扰我，但随着时间一月月过去，我睡得越来越差。"
+   },
+   {
+    "es": "Cada mañana me levantaba agotado y me costaba concentrarme.",
+    "zh": "每天早上起床时，我都精疲力竭，很难集中注意力。"
+   },
+   {
+    "es": "Luego comprendí que no era un caso aislado, sino un problema muy común.",
+    "zh": "后来我才明白，这并不是个别现象，而是一个十分普遍的问题。"
+   },
+   {
+    "es": "De hecho, el ruido se considera una forma de contaminación, aunque no se vea ni se toque.",
+    "zh": "事实上，噪音被视为一种污染，尽管它看不见，也摸不着。"
+   }
+  ],
+  [
+   {
+    "es": "Si se redujera el tráfico y se plantaran más árboles, las calles serían más silenciosas.",
+    "zh": "如果能减少车流、多种些树，街道就会安静得多。"
+   },
+   {
+    "es": "Algunos barrios ya han limitado la velocidad y ampliado los espacios peatonales, con buen resultado.",
+    "zh": "一些街区已经限制了车速，扩大了步行空间，效果很好。"
+   },
+   {
+    "es": "Por lo tanto, el silencio no debería ser un privilegio, sino un derecho.",
+    "zh": "因此，安静不应是一种特权，而应是一种权利。"
+   },
+   {
+    "es": "Mientras tanto, disfruto de cada noche en que la calle se queda en calma.",
+    "zh": "与此同时，我享受着街道恢复平静的每一个夜晚。"
+   }
+  ]
+ ]
+}

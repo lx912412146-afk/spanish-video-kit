@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_02",
+ "level": "C1",
+ "no": 2,
+ "title_es": "La belleza de lo imperfecto",
+ "title_zh": "不完美之美",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 2 篇。原创短文。主要语法：被动结构的过去完成时（habían sido reparadas），关系形容词 cuyas，lejos de + 原形，过去虚拟式条件句（qué ocurriría si aplicáramos），como si + 过去虚拟式，sin advertir que，del mismo modo que 类比，no…sino 对照。7 句，130 词。第一人称叙述者没有用到需要变性的形容词；陶艺师是第三人称女性（la artesana）。特别判断：插图里用金线修补的陶碗来自一种日本传统修补技艺，正文不写它的日语名称，只说 una antigua tradición japonesa，避免外语词；第 2 句宾语 la 指 la rotura，译文写明“让破损成了……”，不用含糊的“它”；advertir 在这里是“察觉”而不是“警告”，选入词汇。全篇没有名词列举，no_pause_commas 为 {}。标题里的 belleza、imperfecto 一个太基础、一个是同源词，没有放进词汇表。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "estantería",
+   "搁架",
+   "estantería"
+  ],
+  [
+   "cuenco",
+   "碗",
+   "cuenco"
+  ],
+  [
+   "grieta",
+   "裂缝",
+   "grietas"
+  ],
+  [
+   "lejos de",
+   "非但不",
+   "Lejos de"
+  ],
+  [
+   "disimular",
+   "掩饰",
+   "disimular"
+  ],
+  [
+   "rotura",
+   "破损",
+   "rotura"
+  ],
+  [
+   "rasgo",
+   "特征",
+   "rasgo"
+  ],
+  [
+   "llamativo",
+   "醒目的",
+   "llamativo"
+  ],
+  [
+   "adquirir",
+   "获得",
+   "adquiere"
+  ],
+  [
+   "mancha",
+   "污点",
+   "manchas"
+  ],
+  [
+   "advertir",
+   "察觉",
+   "advertir"
+  ],
+  [
+   "cicatriz",
+   "伤疤",
+   "cicatriz"
+  ],
+  [
+   "restar",
+   "减损",
+   "resta"
+  ],
+  [
+   "suponer",
+   "意味着",
+   "supone"
+  ],
+  [
+   "fragilidad",
+   "脆弱",
+   "fragilidad"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En la estantería de un taller de cerámica me llamó la atención un cuenco cuyas grietas habían sido reparadas con oro.",
+    "zh": "在一家陶艺工坊的架子上，一只裂缝用金子修补过的陶碗吸引了我的目光。"
+   },
+   {
+    "es": "Lejos de disimular la rotura, aquellas líneas doradas la convertían en el rasgo más llamativo de la pieza.",
+    "zh": "那些金色的纹路非但没有掩饰破损，反而让破损成了整件器物最醒目的特征。"
+   },
+   {
+    "es": "La artesana me explicó que, según una antigua tradición japonesa, un objeto reparado adquiere un valor nuevo.",
+    "zh": "女陶艺师告诉我，按照日本的一种古老传统，器物经过修补，会获得新的价值。"
+   }
+  ],
+  [
+   {
+    "es": "Me pregunto qué ocurriría si aplicáramos esa misma mirada a nuestras propias vidas.",
+    "zh": "我不禁想，如果我们用同样的眼光看待自己的人生，又会怎样。"
+   },
+   {
+    "es": "Solemos esconder los errores como si fueran manchas vergonzosas, sin advertir que cuentan la historia de lo que hemos superado.",
+    "zh": "我们总习惯把错误当作可耻的污点藏起来，却没有察觉，它们讲述的正是我们挺过来的历程。"
+   },
+   {
+    "es": "Una cicatriz no anula la belleza de un rostro, del mismo modo que una grieta no resta dignidad a un cuenco.",
+    "zh": "一道伤疤抹不去一张面孔的美，正如一道裂缝无损于一只碗的尊严。"
+   },
+   {
+    "es": "Aceptar lo imperfecto no supone renunciar a mejorar, sino reconocer que la fragilidad también forma parte de lo que somos.",
+    "zh": "接受不完美，并不意味着放弃进步，而是承认脆弱也是我们自身的一部分。"
+   }
+  ]
+ ]
+}

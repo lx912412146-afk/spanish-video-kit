@@ -1,0 +1,255 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_04.mp3",
+ "duration": 56.94,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.47,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.76,
+  "buzz_hz": 5474.9,
+  "buzz_db": 5.9,
+  "comb_db": 0.16
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.14,
+   "parts": [
+    [
+     0.5,
+     2.14
+    ]
+   ],
+   "segments": [
+    "El valor del trabajo manual."
+   ],
+   "text": "El valor del trabajo manual.",
+   "read": "El valor del trabajo manual."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.14,
+   "end": 7.66,
+   "parts": [
+    [
+     3.14,
+     7.66
+    ]
+   ],
+   "segments": [
+    "Durante años trabajé frente a una pantalla sin ver nunca el fruto de mi esfuerzo."
+   ],
+   "text": "Durante años trabajé frente a una pantalla sin ver nunca el fruto de mi esfuerzo.",
+   "read": "Durante años trabajé frente a una pantalla sin ver nunca el fruto de mi esfuerzo."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.66,
+   "end": 12.62,
+   "parts": [
+    [
+     8.66,
+     9.16
+    ],
+    [
+     9.44,
+     12.62
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "el otoño pasado me apunté a un taller de carpintería."
+   ],
+   "text": "Por eso, el otoño pasado me apunté a un taller de carpintería.",
+   "read": "Por eso, el otoño pasado me apunté a un taller de carpintería."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.62,
+   "end": 17.02,
+   "parts": [
+    [
+     13.62,
+     17.02
+    ]
+   ],
+   "segments": [
+    "Allí aprendí a usar el martillo, la sierra y el cepillo."
+   ],
+   "text": "Allí aprendí a usar el martillo, la sierra y el cepillo.",
+   "read": "Allí aprendí a usar el martillo, la sierra y el cepillo."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.02,
+   "end": 23.71,
+   "parts": [
+    [
+     18.02,
+     21.16
+    ],
+    [
+     21.44,
+     23.71
+    ]
+   ],
+   "segments": [
+    "Mi primera obra fue una caja llena de imperfecciones,",
+    "pero nunca me había sentido tan orgulloso."
+   ],
+   "text": "Mi primera obra fue una caja llena de imperfecciones, pero nunca me había sentido tan orgulloso.",
+   "read": "Mi primera obra fue una caja llena de imperfecciones, pero nunca me había sentido tan orgulloso."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 24.71,
+   "end": 30.1,
+   "parts": [
+    [
+     24.71,
+     30.1
+    ]
+   ],
+   "segments": [
+    "Tradicionalmente, el trabajo manual ha sido considerado inferior al trabajo intelectual."
+   ],
+   "text": "Tradicionalmente, el trabajo manual ha sido considerado inferior al trabajo intelectual.",
+   "read": "Tradicionalmente, el trabajo manual ha sido considerado inferior al trabajo intelectual."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.1,
+   "end": 37.35,
+   "parts": [
+    [
+     31.1,
+     31.84
+    ],
+    [
+     32.12,
+     37.35
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "trabajar con las manos exige paciencia, precisión y capacidad para resolver problemas."
+   ],
+   "text": "Sin embargo, trabajar con las manos exige paciencia, precisión y capacidad para resolver problemas.",
+   "read": "Sin embargo, trabajar con las manos exige paciencia, precisión y capacidad para resolver problemas."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 38.35,
+   "end": 45.21,
+   "parts": [
+    [
+     38.35,
+     39.34
+    ],
+    [
+     39.62,
+     41.58
+    ],
+    [
+     41.86,
+     45.21
+    ]
+   ],
+   "segments": [
+    "De hecho,",
+    "a medida que ganaba destreza,",
+    "comprendí que pensar y hacer no son actividades opuestas."
+   ],
+   "text": "De hecho, a medida que ganaba destreza, comprendí que pensar y hacer no son actividades opuestas.",
+   "read": "De hecho, a medida que ganaba destreza, comprendí que pensar y hacer no son actividades opuestas."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 46.21,
+   "end": 49.81,
+   "parts": [
+    [
+     46.21,
+     49.81
+    ]
+   ],
+   "segments": [
+    "Ojalá las escuelas dedicaran más tiempo a este tipo de aprendizaje."
+   ],
+   "text": "Ojalá las escuelas dedicaran más tiempo a este tipo de aprendizaje.",
+   "read": "Ojalá las escuelas dedicaran más tiempo a este tipo de aprendizaje."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 50.81,
+   "end": 55.74,
+   "parts": [
+    [
+     50.81,
+     52.85
+    ],
+    [
+     53.13,
+     55.74
+    ]
+   ],
+   "segments": [
+    "Hoy, cada vez que veo aquella caja,",
+    "recuerdo que también se piensa con las manos."
+   ],
+   "text": "Hoy, cada vez que veo aquella caja, recuerdo que también se piensa con las manos.",
+   "read": "Hoy, cada vez que veo aquella caja, recuerdo que también se piensa con las manos."
+  }
+ ]
+}

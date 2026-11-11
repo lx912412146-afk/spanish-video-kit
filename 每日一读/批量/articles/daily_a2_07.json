@@ -1,0 +1,145 @@
+{
+ "id": "daily_a2_07",
+ "level": "A2",
+ "no": 7,
+ "title_es": "Una visita al acuario",
+ "title_zh": "参观水族馆",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 7 篇。原创短文。简单过去时叙述参观（llevé、vimos、entramos、nos sentamos），过去未完成时描写水族箱和心情（había、se movían、subían、estaba），间接问句 si podíamos volver。11 句，114 词。第 5 句 peces de colores, corales y plantas 是名词列举，colores 后的逗号不停顿；第 7 句 pero 前、第 8 句句首状语 De vez en cuando 后、第 10 句 Al final 后的逗号照常停顿。sobrino 在译文里取“侄子”，释义写“侄子，外甥”；tanque de cristal 指大玻璃水箱，plantas 在水族箱里译作“水草”；lo pasé muy bien 译作“玩得很开心”；数字只用了 seis。鱼、珊瑚、水草、气泡和长椅对应插图。",
+ "no_pause_commas": {
+  "5": [
+   {
+    "after": "colores,",
+    "why": "列举：peces de colores, corales y plantas（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "acuario",
+   "水族馆",
+   "acuario"
+  ],
+  [
+   "sobrino",
+   "侄子，外甥",
+   "sobrino"
+  ],
+  [
+   "tortuga",
+   "海龟",
+   "tortugas"
+  ],
+  [
+   "nadar",
+   "游泳",
+   "nadaban"
+  ],
+  [
+   "oscuro",
+   "昏暗的",
+   "oscura"
+  ],
+  [
+   "tanque",
+   "水箱",
+   "tanque"
+  ],
+  [
+   "cristal",
+   "玻璃",
+   "cristal"
+  ],
+  [
+   "pez",
+   "鱼",
+   "peces"
+  ],
+  [
+   "coral",
+   "珊瑚",
+   "corales"
+  ],
+  [
+   "banco",
+   "长椅",
+   "banco"
+  ],
+  [
+   "contar",
+   "数",
+   "contar"
+  ],
+  [
+   "demasiado",
+   "太多的",
+   "demasiados"
+  ],
+  [
+   "de vez en cuando",
+   "不时",
+   "De vez en cuando"
+  ],
+  [
+   "burbuja",
+   "气泡",
+   "burbujas"
+  ],
+  [
+   "superficie",
+   "水面",
+   "superficie"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Ayer llevé a mi sobrino Hugo al acuario de la ciudad.",
+    "zh": "昨天，我带侄子雨果去了城里的水族馆。"
+   },
+   {
+    "es": "Tiene seis años y le encantan los animales del mar.",
+    "zh": "他六岁了，特别喜欢海洋动物。"
+   },
+   {
+    "es": "Primero vimos unas tortugas grandes que nadaban muy despacio.",
+    "zh": "我们先看了几只大海龟，它们游得很慢。"
+   },
+   {
+    "es": "Después entramos en una sala oscura con un enorme tanque de cristal.",
+    "zh": "然后我们走进一个昏暗的展厅，里面有一个巨大的玻璃水箱。"
+   },
+   {
+    "es": "Dentro había peces de colores, corales y plantas que se movían suavemente.",
+    "zh": "水箱里有五颜六色的鱼、珊瑚，还有轻轻摆动的水草。"
+   }
+  ],
+  [
+   {
+    "es": "Nos sentamos en un banco delante del cristal y miramos en silencio.",
+    "zh": "我们在玻璃前的一条长椅上坐下，静静地看着。"
+   },
+   {
+    "es": "Hugo intentaba contar los peces, pero eran demasiados.",
+    "zh": "雨果想数一数有几条鱼，可是鱼实在太多了。"
+   },
+   {
+    "es": "De vez en cuando, pequeñas burbujas subían hasta la superficie.",
+    "zh": "时不时有一些小气泡升到水面上。"
+   },
+   {
+    "es": "Yo estaba muy tranquilo y no quería salir de allí.",
+    "zh": "我心里非常平静，一点也不想离开。"
+   },
+   {
+    "es": "Al final, Hugo me preguntó si podíamos volver pronto.",
+    "zh": "最后，雨果问我能不能早点再来。"
+   },
+   {
+    "es": "Le dije que sí, porque yo también lo pasé muy bien.",
+    "zh": "我答应了，因为我也玩得很开心。"
+   }
+  ]
+ ]
+}

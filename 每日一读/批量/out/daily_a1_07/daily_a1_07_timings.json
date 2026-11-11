@@ -1,0 +1,292 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_07.mp3",
+ "duration": 59.573,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.4,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.6,
+  "buzz_hz": 13500.0,
+  "buzz_db": 5.0,
+  "comb_db": -0.25
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.13,
+   "parts": [
+    [
+     0.5,
+     2.13
+    ]
+   ],
+   "segments": [
+    "El parque de mi barrio."
+   ],
+   "text": "El parque de mi barrio.",
+   "read": "El parque de mi barrio."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.13,
+   "end": 5.748,
+   "parts": [
+    [
+     3.13,
+     5.748
+    ]
+   ],
+   "segments": [
+    "En mi barrio hay un parque muy bonito."
+   ],
+   "text": "En mi barrio hay un parque muy bonito.",
+   "read": "En mi barrio hay un parque muy bonito."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 6.748,
+   "end": 11.153,
+   "parts": [
+    [
+     6.748,
+     11.153
+    ]
+   ],
+   "segments": [
+    "Tiene árboles altos, bancos verdes y una fuente pequeña."
+   ],
+   "text": "Tiene árboles altos, bancos verdes y una fuente pequeña.",
+   "read": "Tiene árboles altos, bancos verdes y una fuente pequeña."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.153,
+   "end": 14.973,
+   "parts": [
+    [
+     12.153,
+     14.973
+    ]
+   ],
+   "segments": [
+    "En el centro hay un estanque con patos."
+   ],
+   "text": "En el centro hay un estanque con patos.",
+   "read": "En el centro hay un estanque con patos."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 15.973,
+   "end": 19.593,
+   "parts": [
+    [
+     15.973,
+     19.593
+    ]
+   ],
+   "segments": [
+    "Detrás de los árboles están los edificios del barrio."
+   ],
+   "text": "Detrás de los árboles están los edificios del barrio.",
+   "read": "Detrás de los árboles están los edificios del barrio."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 20.593,
+   "end": 24.103,
+   "parts": [
+    [
+     20.593,
+     24.103
+    ]
+   ],
+   "segments": [
+    "Por la mañana mucha gente corre o pasea por el parque."
+   ],
+   "text": "Por la mañana mucha gente corre o pasea por el parque.",
+   "read": "Por la mañana mucha gente corre o pasea por el parque."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 25.103,
+   "end": 30.053,
+   "parts": [
+    [
+     25.103,
+     30.053
+    ]
+   ],
+   "segments": [
+    "Los niños juegan cerca de la fuente y los abuelos hablan en los bancos."
+   ],
+   "text": "Los niños juegan cerca de la fuente y los abuelos hablan en los bancos.",
+   "read": "Los niños juegan cerca de la fuente y los abuelos hablan en los bancos."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 31.053,
+   "end": 35.262,
+   "parts": [
+    [
+     31.053,
+     33.239
+    ],
+    [
+     33.519,
+     35.262
+    ]
+   ],
+   "segments": [
+    "Yo voy casi todas las tardes,",
+    "después de estudiar."
+   ],
+   "text": "Yo voy casi todas las tardes, después de estudiar.",
+   "read": "Yo voy casi todas las tardes, después de estudiar."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 36.262,
+   "end": 40.022,
+   "parts": [
+    [
+     36.262,
+     40.022
+    ]
+   ],
+   "segments": [
+    "Me siento en un banco y miro los patos del estanque."
+   ],
+   "text": "Me siento en un banco y miro los patos del estanque.",
+   "read": "Me siento en un banco y miro los patos del estanque."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 41.022,
+   "end": 44.602,
+   "parts": [
+    [
+     41.022,
+     44.602
+    ]
+   ],
+   "segments": [
+    "Los patos nadan despacio y a veces vienen hacia mí."
+   ],
+   "text": "Los patos nadan despacio y a veces vienen hacia mí.",
+   "read": "Los patos nadan despacio y a veces vienen hacia mí."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 45.602,
+   "end": 49.862,
+   "parts": [
+    [
+     45.602,
+     49.862
+    ]
+   ],
+   "segments": [
+    "Algunos días mi amigo Pablo viene conmigo y damos una vuelta."
+   ],
+   "text": "Algunos días mi amigo Pablo viene conmigo y damos una vuelta.",
+   "read": "Algunos días mi amigo Pablo viene conmigo y damos una vuelta."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 50.862,
+   "end": 53.953,
+   "parts": [
+    [
+     50.862,
+     52.439
+    ],
+    [
+     52.719,
+     53.953
+    ]
+   ],
+   "segments": [
+    "El parque no es grande,",
+    "pero es muy verde."
+   ],
+   "text": "El parque no es grande, pero es muy verde.",
+   "read": "El parque no es grande, pero es muy verde."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 54.953,
+   "end": 58.373,
+   "parts": [
+    [
+     54.953,
+     58.373
+    ]
+   ],
+   "segments": [
+    "Estoy contento de tener un parque así cerca de casa."
+   ],
+   "text": "Estoy contento de tener un parque así cerca de casa.",
+   "read": "Estoy contento de tener un parque así cerca de casa."
+  }
+ ]
+}

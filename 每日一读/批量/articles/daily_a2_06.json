@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_06",
+ "level": "A2",
+ "no": 6,
+ "title_es": "El regalo perfecto",
+ "title_zh": "完美的礼物",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 6 篇。原创短文。过去未完成时交代背景（se acercaba、no sabía、parecía），简单过去时叙述准备和送出礼物（busqué、guardé、compré、abrió），tener que 的否定 no tiene que 表示“不一定要”。11 句，115 词。没有需要不停顿的列举逗号：第 2 句 pero 前、第 8 句 Cuando 从句后的逗号照常停顿。第 4 句 le encantan 用现在时，因为妈妈现在仍然喜欢家里的照片；第 9 句 a la vez 是固定说法“同时”，empezó a reír y a llorar a la vez 译作“一边笑一边哭”；se quedó en silencio 译作“一句话也没说”；hermana 译作“姐姐”；regalo 和 perfecto 在标题里，排在词汇最前。系丝带的礼物盒、花束和卡片对应插图，卡片上写了什么文中不提。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "regalo",
+   "礼物",
+   "regalo"
+  ],
+  [
+   "perfecto",
+   "完美的",
+   "perfecto"
+  ],
+  [
+   "acercarse",
+   "临近",
+   "acercaba"
+  ],
+  [
+   "cumpleaños",
+   "生日",
+   "cumpleaños"
+  ],
+  [
+   "regalar",
+   "送给",
+   "regalarle"
+  ],
+  [
+   "idea",
+   "主意",
+   "idea"
+  ],
+  [
+   "recordar",
+   "提醒",
+   "recordó"
+  ],
+  [
+   "álbum",
+   "相册",
+   "álbum"
+  ],
+  [
+   "caja",
+   "盒子",
+   "caja"
+  ],
+  [
+   "cinta",
+   "丝带",
+   "cinta"
+  ],
+  [
+   "ramo",
+   "花束",
+   "ramo"
+  ],
+  [
+   "tarjeta",
+   "卡片",
+   "tarjeta"
+  ],
+  [
+   "llorar",
+   "哭",
+   "llorar"
+  ],
+  [
+   "a la vez",
+   "同时",
+   "a la vez"
+  ],
+  [
+   "caro",
+   "贵的",
+   "caro"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Se acercaba el cumpleaños de mi madre y no sabía qué regalarle.",
+    "zh": "妈妈的生日快到了，我不知道该送她什么。"
+   },
+   {
+    "es": "Fui a varias tiendas, pero nada me parecía especial.",
+    "zh": "我去了好几家商店，可是觉得什么都不够特别。"
+   },
+   {
+    "es": "Entonces mi hermana Elena me dio una buena idea.",
+    "zh": "这时，我姐姐埃莱娜给我出了个好主意。"
+   },
+   {
+    "es": "Me recordó que a mamá le encantan las fotos de la familia.",
+    "zh": "她提醒我，妈妈很喜欢全家人的照片。"
+   },
+   {
+    "es": "Busqué fotos viejas en casa y preparé un pequeño álbum.",
+    "zh": "我在家里找出一些老照片，做了一本小相册。"
+   }
+  ],
+  [
+   {
+    "es": "Lo guardé en una caja y la decoré con una cinta roja.",
+    "zh": "我把相册放进一个盒子里，再用一条红丝带把盒子装饰起来。"
+   },
+   {
+    "es": "También compré un ramo de flores y escribí una tarjeta.",
+    "zh": "我还买了一束花，写了一张卡片。"
+   },
+   {
+    "es": "Cuando mi madre abrió la caja, se quedó en silencio.",
+    "zh": "妈妈打开盒子的时候，一句话也没说。"
+   },
+   {
+    "es": "Luego empezó a reír y a llorar a la vez.",
+    "zh": "接着，她一边笑一边哭。"
+   },
+   {
+    "es": "Me abrazó y me dijo que era el regalo perfecto.",
+    "zh": "她拥抱了我，说这是最完美的礼物。"
+   },
+   {
+    "es": "Ahora sé que un buen regalo no tiene que ser caro.",
+    "zh": "现在我明白了，好礼物不一定很贵。"
+   }
+  ]
+ ]
+}

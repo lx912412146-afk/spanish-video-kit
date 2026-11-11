@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_02",
+ "level": "A2",
+ "no": 2,
+ "title_es": "Comer al aire libre",
+ "title_zh": "在户外吃饭",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 2 篇。原创短文。简单过去时叙述周日在野外吃饭（decidí、preparó、extendimos、leyó），过去未完成时描写天气和环境（hacía、se veían、cantaban、movía），比较级 más rica que en casa，结尾用现在完成时 hemos decidido。11 句，116 词。没有需要不停顿的列举逗号：第 8 句 Después de comer 是句首状语，第 10 句 pero 前是并列分句，都照常停顿。避开外来词 picnic，用 comer en el campo、al aire libre 表达野餐；mantel 这里是铺在草地上的布，释义取“餐布”；a la sombra de un gran árbol 译作“树荫下”；词头 comer 和 al aire libre 在标题里，排在最前；hermana 译作“妹妹”。插图的大树、野餐篮、三明治、水果和远处的小山都在文中出现。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "comer",
+   "吃饭",
+   "comer"
+  ],
+  [
+   "al aire libre",
+   "在户外",
+   "al aire libre"
+  ],
+  [
+   "hacer buen tiempo",
+   "天气好",
+   "hacía buen tiempo"
+  ],
+  [
+   "decidir",
+   "决定",
+   "decidí"
+  ],
+  [
+   "campo",
+   "野外",
+   "campo"
+  ],
+  [
+   "bocadillo",
+   "三明治",
+   "bocadillos"
+  ],
+  [
+   "queso",
+   "奶酪",
+   "queso"
+  ],
+  [
+   "cesta",
+   "篮子",
+   "cesta"
+  ],
+  [
+   "colina",
+   "小山",
+   "colina"
+  ],
+  [
+   "extender",
+   "铺开",
+   "extendimos"
+  ],
+  [
+   "mantel",
+   "餐布",
+   "mantel"
+  ],
+  [
+   "sombra",
+   "阴凉处",
+   "sombra"
+  ],
+  [
+   "sin prisa",
+   "不慌不忙",
+   "sin prisa"
+  ],
+  [
+   "pájaro",
+   "鸟",
+   "pájaros"
+  ],
+  [
+   "a menudo",
+   "经常",
+   "a menudo"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El domingo pasado hacía buen tiempo y decidí comer en el campo.",
+    "zh": "上周日天气很好，我决定去野外吃饭。"
+   },
+   {
+    "es": "Mi hermana Clara preparó bocadillos de queso y yo llevé fruta.",
+    "zh": "我妹妹克拉拉做了奶酪三明治，我带了水果。"
+   },
+   {
+    "es": "Lo pusimos todo en una cesta y caminamos hasta una colina.",
+    "zh": "我们把东西都放进一个篮子里，一直走到一座小山上。"
+   },
+   {
+    "es": "Allí extendimos un mantel a la sombra de un gran árbol.",
+    "zh": "在那里，我们在一棵大树的树荫下铺开了一块餐布。"
+   },
+   {
+    "es": "Desde arriba se veían otras colinas verdes y algunas casas.",
+    "zh": "从山上望去，能看到别的绿色小山和几座房子。"
+   }
+  ],
+  [
+   {
+    "es": "Comimos sin prisa y hablamos de muchas cosas.",
+    "zh": "我们不慌不忙地吃着，聊了很多事情。"
+   },
+   {
+    "es": "Los pájaros cantaban y el viento movía las hojas.",
+    "zh": "鸟儿在歌唱，风吹动着树叶。"
+   },
+   {
+    "es": "Después de comer, Clara leyó un libro y yo dormí un rato.",
+    "zh": "吃完饭，克拉拉看书，我睡了一会儿。"
+   },
+   {
+    "es": "Fue la tarde más tranquila de todo el mes.",
+    "zh": "那是这个月里最悠闲的一个下午。"
+   },
+   {
+    "es": "La comida era sencilla, pero me pareció más rica que en casa.",
+    "zh": "饭菜很简单，可我觉得比在家里吃的还香。"
+   },
+   {
+    "es": "Hemos decidido comer al aire libre más a menudo este verano.",
+    "zh": "我们决定今年夏天多到户外吃饭。"
+   }
+  ]
+ ]
+}

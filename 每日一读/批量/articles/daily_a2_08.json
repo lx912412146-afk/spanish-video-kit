@@ -1,0 +1,145 @@
+{
+ "id": "daily_a2_08",
+ "level": "A2",
+ "no": 8,
+ "title_es": "Un día de pesca con mi padre",
+ "title_zh": "和爸爸去钓鱼",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 8 篇。原创短文。简单过去时叙述钓鱼的经过（fui、remamos、saqué、devolvimos），过去未完成时描写和交代背景（era de noche、había、importaba、contaba）。11 句，111 词。第 5 句 juncos, árboles y montañas azules 是名词列举，juncos 后的逗号不停顿；第 2 句 cuando 从句前、第 6 句 pero 前、第 8 句 De repente 后的逗号照常停顿。barca 是小木船；cañas de pescar 是钓竿，caña 单用也可以指芦苇，为了不和钓竿混淆，芦苇用 juncos；第 9 句 estaba orgulloso 的主语是爸爸；sacar un pez 译作“钓上来一条鱼”；词头 caña de pescar 原文是复数 cañas de pescar。标题里的 pesca 是名词，正文只有动词 pescar，词头取 pescar；pescar 在第 1 句就出现，按先后顺序本来就是第一条。小木船、两根钓竿、芦苇、树林和远山对应插图。",
+ "no_pause_commas": {
+  "5": [
+   {
+    "after": "juncos,",
+    "why": "列举：juncos, árboles y montañas azules（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "pescar",
+   "钓鱼",
+   "pescar"
+  ],
+  [
+   "temprano",
+   "很早",
+   "temprano"
+  ],
+  [
+   "todavía",
+   "还",
+   "todavía"
+  ],
+  [
+   "barca",
+   "小船",
+   "barca"
+  ],
+  [
+   "caña de pescar",
+   "钓竿",
+   "cañas de pescar"
+  ],
+  [
+   "remar",
+   "划船",
+   "remamos"
+  ],
+  [
+   "alrededor",
+   "周围",
+   "alrededor"
+  ],
+  [
+   "junco",
+   "芦苇",
+   "juncos"
+  ],
+  [
+   "importar",
+   "在乎",
+   "importaba"
+  ],
+  [
+   "historia",
+   "故事",
+   "historias"
+  ],
+  [
+   "de repente",
+   "突然",
+   "De repente"
+  ],
+  [
+   "sacar",
+   "钓上来",
+   "saqué"
+  ],
+  [
+   "orgulloso",
+   "自豪的",
+   "orgulloso"
+  ],
+  [
+   "devolver",
+   "放回",
+   "devolvimos"
+  ],
+  [
+   "tesoro",
+   "珍宝",
+   "tesoro"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El sábado pasado fui a pescar con mi padre.",
+    "zh": "上周六，我和爸爸去钓鱼了。"
+   },
+   {
+    "es": "Salimos de casa muy temprano, cuando todavía era de noche.",
+    "zh": "我们很早就出了门，那时天还没亮。"
+   },
+   {
+    "es": "Mi padre tiene una barca de madera y dos cañas de pescar.",
+    "zh": "爸爸有一条木头小船和两根钓竿。"
+   },
+   {
+    "es": "Al llegar al lago, remamos despacio hasta el centro.",
+    "zh": "到了湖边，我们慢慢地把船划到湖中央。"
+   },
+   {
+    "es": "A nuestro alrededor había juncos, árboles y montañas azules.",
+    "zh": "我们周围有芦苇、树林和蓝色的群山。"
+   }
+  ],
+  [
+   {
+    "es": "Durante mucho tiempo no pescamos nada, pero no me importaba.",
+    "zh": "很长时间我们什么也没钓到，但我一点也不在乎。"
+   },
+   {
+    "es": "Él me contaba historias de cuando era joven.",
+    "zh": "他给我讲他年轻时候的故事。"
+   },
+   {
+    "es": "De repente, mi caña se movió y saqué un pez bastante grande.",
+    "zh": "突然，我的钓竿动了一下，我钓上来一条挺大的鱼。"
+   },
+   {
+    "es": "Papá sonrió y me dijo que estaba orgulloso de mí.",
+    "zh": "爸爸笑了笑，说他为我感到自豪。"
+   },
+   {
+    "es": "Al final devolvimos el pez al agua y volvimos a casa contentos.",
+    "zh": "最后，我们把鱼放回水里，高高兴兴地回家了。"
+   },
+   {
+    "es": "Para mí, aquella mañana con mi padre fue un tesoro.",
+    "zh": "对我来说，那个和爸爸一起度过的早晨就像一件珍宝。"
+   }
+  ]
+ ]
+}

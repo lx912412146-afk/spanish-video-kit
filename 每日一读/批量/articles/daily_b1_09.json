@@ -1,0 +1,141 @@
+{
+ "id": "daily_b1_09",
+ "level": "B1",
+ "no": 9,
+ "title_es": "Los juegos de mesa",
+ "title_zh": "桌游",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 9 篇。原创短文。现在时叙述每周的习惯；条件式 nunca lo admitiría；现在虚拟式 es importante que… tenga… y piense、cuando… vengan；将来时 enseñaré、lo pasarán；连接语 aunque、de todos modos、además、por eso。10 句，145 词。人名只有 Sergio，译作塞尔希奥。juegos de mesa 译作“桌游”；ficha 在这里是棋子；cartas 在这里是游戏卡牌，不是信；frutos secos 是坚果，对应插图里的一碗零食；第 7 句 perder con buen humor 译成“输了也保持好心情”。第 3 句 tablero, 是列举（el tablero, los dados y las cartas），不停顿；cartas, 后面是另一个成分 junto a un cuenco…，照常停顿；第 4 句 y, 和 admitiría, 是插入的让步从句，照常停顿。叙述者是男性：estoy seguro 用阳性。词汇里 juego de mesa 在标题里，排在最前；fruto seco 原文是复数 frutos secos。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "tablero,",
+    "why": "列举：el tablero, los dados y las cartas（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "juego de mesa",
+   "桌游",
+   "juegos de mesa"
+  ],
+  [
+   "reunirse",
+   "聚会",
+   "reúno"
+  ],
+  [
+   "distinto",
+   "不同的",
+   "distinto"
+  ],
+  [
+   "regla",
+   "规则",
+   "reglas"
+  ],
+  [
+   "tablero",
+   "棋盘",
+   "tablero"
+  ],
+  [
+   "dado",
+   "骰子",
+   "dados"
+  ],
+  [
+   "cuenco",
+   "碗",
+   "cuenco"
+  ],
+  [
+   "fruto seco",
+   "坚果",
+   "frutos secos"
+  ],
+  [
+   "admitir",
+   "承认",
+   "admitiría"
+  ],
+  [
+   "enfadarse",
+   "生气",
+   "enfada"
+  ],
+  [
+   "de todos modos",
+   "无论如何",
+   "De todos modos"
+  ],
+  [
+   "partida",
+   "一局",
+   "partidas"
+  ],
+  [
+   "turno",
+   "轮流次序",
+   "turnos"
+  ],
+  [
+   "ficha",
+   "棋子",
+   "ficha"
+  ],
+  [
+   "sobrino",
+   "侄子",
+   "sobrinos"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Los viernes por la noche me reúno con unos amigos para jugar a juegos de mesa.",
+    "zh": "每个星期五晚上，我都会和几个朋友聚在一起玩桌游。"
+   },
+   {
+    "es": "Cada semana uno de nosotros trae un juego distinto y explica las reglas a los demás.",
+    "zh": "每周由我们中的一个人带来一款不同的游戏，并给其他人讲解规则。"
+   },
+   {
+    "es": "En la mesa colocamos el tablero, los dados y las cartas, junto a un cuenco con frutos secos.",
+    "zh": "我们在桌上摆好棋盘、骰子和卡牌，旁边放一碗坚果。"
+   },
+   {
+    "es": "Sergio siempre quiere ganar y, aunque nunca lo admitiría, se enfada un poco cuando pierde.",
+    "zh": "塞尔希奥总想赢，虽然他绝不会承认，但输了的时候总会有点生气。"
+   },
+   {
+    "es": "De todos modos, nos reímos mucho y algunas partidas duran casi toda la noche.",
+    "zh": "不管怎样，我们都笑得很开心，有的局几乎要玩上一整夜。"
+   }
+  ],
+  [
+   {
+    "es": "Para mí, estos juegos son una buena manera de olvidarnos un rato de las pantallas.",
+    "zh": "对我来说，这些游戏是让我们暂时忘掉屏幕的好办法。"
+   },
+   {
+    "es": "Además, nos enseñan a respetar los turnos y a perder con buen humor.",
+    "zh": "而且，桌游教会我们按顺序轮流，也教会我们输了也保持好心情。"
+   },
+   {
+    "es": "Es importante que cada jugador tenga paciencia y piense antes de mover su ficha.",
+    "zh": "每个玩家都要有耐心，走棋之前先想一想，这一点很重要。"
+   },
+   {
+    "es": "Por eso, cuando mis sobrinos vengan a casa, les enseñaré algunos juegos sencillos.",
+    "zh": "所以，等我的侄子侄女们来家里时，我要教他们玩几款简单的游戏。"
+   },
+   {
+    "es": "Estoy seguro de que lo pasarán mejor que con cualquier videojuego.",
+    "zh": "我相信，他们会玩得比玩任何电子游戏都开心。"
+   }
+  ]
+ ]
+}

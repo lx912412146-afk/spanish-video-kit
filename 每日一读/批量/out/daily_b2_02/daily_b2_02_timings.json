@@ -1,0 +1,275 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_02.mp3",
+ "duration": 56.69,
+ "sentence_pause": 0.8,
+ "loudness": {
+  "integrated_lufs": -16.5,
+  "sentence_max_dev_lu": 0.4,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.75,
+  "buzz_hz": 15000.0,
+  "buzz_db": 5.5,
+  "comb_db": -0.81
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.8,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.95,
+   "parts": [
+    [
+     0.5,
+     1.95
+    ]
+   ],
+   "segments": [
+    "El ruido de las ciudades."
+   ],
+   "text": "El ruido de las ciudades.",
+   "read": "El ruido de las ciudades."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.75,
+   "end": 7.34,
+   "parts": [
+    [
+     2.75,
+     7.34
+    ]
+   ],
+   "segments": [
+    "Desde mi ventana veo pasar coches, autobuses y camiones a todas horas."
+   ],
+   "text": "Desde mi ventana veo pasar coches, autobuses y camiones a todas horas.",
+   "read": "Desde mi ventana veo pasar coches, autobuses y camiones a todas horas."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.14,
+   "end": 14.51,
+   "parts": [
+    [
+     8.14,
+     9.37
+    ],
+    [
+     9.65,
+     11.55
+    ],
+    [
+     11.83,
+     14.51
+    ]
+   ],
+   "segments": [
+    "Al principio,",
+    "el ruido apenas me molestaba,",
+    "pero a medida que pasaban los meses dormía peor."
+   ],
+   "text": "Al principio, el ruido apenas me molestaba, pero a medida que pasaban los meses dormía peor.",
+   "read": "Al principio, el ruido apenas me molestaba, pero a medida que pasaban los meses dormía peor."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.31,
+   "end": 18.7,
+   "parts": [
+    [
+     15.31,
+     18.7
+    ]
+   ],
+   "segments": [
+    "Cada mañana me levantaba agotado y me costaba concentrarme."
+   ],
+   "text": "Cada mañana me levantaba agotado y me costaba concentrarme.",
+   "read": "Cada mañana me levantaba agotado y me costaba concentrarme."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.5,
+   "end": 23.67,
+   "parts": [
+    [
+     19.5,
+     21.75
+    ],
+    [
+     22.03,
+     23.67
+    ]
+   ],
+   "segments": [
+    "Luego comprendí que no era un caso aislado,",
+    "sino un problema muy común."
+   ],
+   "text": "Luego comprendí que no era un caso aislado, sino un problema muy común.",
+   "read": "Luego comprendí que no era un caso aislado, sino un problema muy común."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.47,
+   "end": 31.51,
+   "parts": [
+    [
+     24.47,
+     25.46
+    ],
+    [
+     25.74,
+     28.82
+    ],
+    [
+     29.1,
+     31.51
+    ]
+   ],
+   "segments": [
+    "De hecho,",
+    "el ruido se considera una forma de contaminación,",
+    "aunque no se vea ni se toque."
+   ],
+   "text": "De hecho, el ruido se considera una forma de contaminación, aunque no se vea ni se toque.",
+   "read": "De hecho, el ruido se considera una forma de contaminación, aunque no se vea ni se toque."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 32.31,
+   "end": 37.83,
+   "parts": [
+    [
+     32.31,
+     35.37
+    ],
+    [
+     35.65,
+     37.83
+    ]
+   ],
+   "segments": [
+    "Si se redujera el tráfico y se plantaran más árboles,",
+    "las calles serían más silenciosas."
+   ],
+   "text": "Si se redujera el tráfico y se plantaran más árboles, las calles serían más silenciosas.",
+   "read": "Si se redujera el tráfico y se plantaran más árboles, las calles serían más silenciosas."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 38.63,
+   "end": 44.4,
+   "parts": [
+    [
+     38.63,
+     42.9
+    ],
+    [
+     43.18,
+     44.4
+    ]
+   ],
+   "segments": [
+    "Algunos barrios ya han limitado la velocidad y ampliado los espacios peatonales,",
+    "con buen resultado."
+   ],
+   "text": "Algunos barrios ya han limitado la velocidad y ampliado los espacios peatonales, con buen resultado.",
+   "read": "Algunos barrios ya han limitado la velocidad y ampliado los espacios peatonales, con buen resultado."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 45.2,
+   "end": 50.22,
+   "parts": [
+    [
+     45.2,
+     45.95
+    ],
+    [
+     46.23,
+     48.54
+    ],
+    [
+     48.82,
+     50.22
+    ]
+   ],
+   "segments": [
+    "Por lo tanto,",
+    "el silencio no debería ser un privilegio,",
+    "sino un derecho."
+   ],
+   "text": "Por lo tanto, el silencio no debería ser un privilegio, sino un derecho.",
+   "read": "Por lo tanto, el silencio no debería ser un privilegio, sino un derecho."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 51.02,
+   "end": 55.49,
+   "parts": [
+    [
+     51.02,
+     52.24
+    ],
+    [
+     52.52,
+     55.49
+    ]
+   ],
+   "segments": [
+    "Mientras tanto,",
+    "disfruto de cada noche en que la calle se queda en calma."
+   ],
+   "text": "Mientras tanto, disfruto de cada noche en que la calle se queda en calma.",
+   "read": "Mientras tanto, disfruto de cada noche en que la calle se queda en calma."
+  }
+ ]
+}

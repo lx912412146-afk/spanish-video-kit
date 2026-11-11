@@ -1,0 +1,231 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_03.mp3",
+ "duration": 57.91,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.34,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.63,
+  "buzz_hz": 8778.1,
+  "buzz_db": 6.1,
+  "comb_db": -0.76
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.14,
+   "parts": [
+    [
+     0.5,
+     2.14
+    ]
+   ],
+   "segments": [
+    "Elogio de la lentitud."
+   ],
+   "text": "Elogio de la lentitud.",
+   "read": "Elogio de la lentitud."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.14,
+   "end": 9.89,
+   "parts": [
+    [
+     3.14,
+     5.87
+    ],
+    [
+     6.15,
+     7.53
+    ],
+    [
+     7.81,
+     9.89
+    ]
+   ],
+   "segments": [
+    "Junto a la ventana conservo un reloj de arena que,",
+    "más que medir el tiempo,",
+    "parece invitarme a contemplarlo."
+   ],
+   "text": "Junto a la ventana conservo un reloj de arena que, más que medir el tiempo, parece invitarme a contemplarlo.",
+   "read": "Junto a la ventana conservo un reloj de arena que, más que medir el tiempo, parece invitarme a contemplarlo."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.89,
+   "end": 17.26,
+   "parts": [
+    [
+     10.89,
+     14.68
+    ],
+    [
+     14.96,
+     17.26
+    ]
+   ],
+   "segments": [
+    "Mientras la arena cae grano a grano y el té reposa en la taza,",
+    "las nubes cruzan el cielo sin prisa."
+   ],
+   "text": "Mientras la arena cae grano a grano y el té reposa en la taza, las nubes cruzan el cielo sin prisa.",
+   "read": "Mientras la arena cae grano a grano y el té reposa en la taza, las nubes cruzan el cielo sin prisa."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 18.26,
+   "end": 23.18,
+   "parts": [
+    [
+     18.26,
+     23.18
+    ]
+   ],
+   "segments": [
+    "Observarlas me recuerda que casi todo lo valioso madura a un ritmo que no podemos forzar."
+   ],
+   "text": "Observarlas me recuerda que casi todo lo valioso madura a un ritmo que no podemos forzar.",
+   "read": "Observarlas me recuerda que casi todo lo valioso madura a un ritmo que no podemos forzar."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 24.18,
+   "end": 32.3,
+   "parts": [
+    [
+     24.18,
+     25.98
+    ],
+    [
+     26.26,
+     30.34
+    ],
+    [
+     30.62,
+     32.3
+    ]
+   ],
+   "segments": [
+    "Vivimos, sin embargo,",
+    "como si la rapidez fuera una virtud en sí misma y cualquier demora,",
+    "un fracaso personal."
+   ],
+   "text": "Vivimos, sin embargo, como si la rapidez fuera una virtud en sí misma y cualquier demora, un fracaso personal.",
+   "read": "Vivimos, sin embargo, como si la rapidez fuera una virtud en sí misma y cualquier demora, un fracaso personal."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 33.3,
+   "end": 39.76,
+   "parts": [
+    [
+     33.3,
+     35.81
+    ],
+    [
+     36.09,
+     39.76
+    ]
+   ],
+   "segments": [
+    "Respondemos los mensajes al instante,",
+    "leemos en diagonal y apenas saboreamos lo que comemos."
+   ],
+   "text": "Respondemos los mensajes al instante, leemos en diagonal y apenas saboreamos lo que comemos.",
+   "read": "Respondemos los mensajes al instante, leemos en diagonal y apenas saboreamos lo que comemos."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 40.76,
+   "end": 48.71,
+   "parts": [
+    [
+     40.76,
+     44.13
+    ],
+    [
+     44.41,
+     48.71
+    ]
+   ],
+   "segments": [
+    "Este elogio de la lentitud no pretende defender la pereza,",
+    "sino reivindicar la atención plena que merecen las cosas importantes."
+   ],
+   "text": "Este elogio de la lentitud no pretende defender la pereza, sino reivindicar la atención plena que merecen las cosas importantes.",
+   "read": "Este elogio de la lentitud no pretende defender la pereza, sino reivindicar la atención plena que merecen las cosas importantes."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 49.71,
+   "end": 56.71,
+   "parts": [
+    [
+     49.71,
+     53.81
+    ],
+    [
+     54.09,
+     56.71
+    ]
+   ],
+   "segments": [
+    "Si de vez en cuando dejáramos que las cosas duraran lo que tienen que durar,",
+    "quizá descubriríamos que el tiempo da más de sí."
+   ],
+   "text": "Si de vez en cuando dejáramos que las cosas duraran lo que tienen que durar, quizá descubriríamos que el tiempo da más de sí.",
+   "read": "Si de vez en cuando dejáramos que las cosas duraran lo que tienen que durar, quizá descubriríamos que el tiempo da más de sí."
+  }
+ ]
+}

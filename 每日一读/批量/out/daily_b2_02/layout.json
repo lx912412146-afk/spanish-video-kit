@@ -1,0 +1,292 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  640.203125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  648.203125
+ ],
+ "zh": [
+  96,
+  674.203125,
+  480,
+  890.328125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  264.625,
+  131.625
+ ],
+ "header_gap": 142.5,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   194
+  ],
+  [
+   506,
+   205,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   357
+  ],
+  [
+   506,
+   368,
+   626,
+   386
+  ],
+  [
+   506,
+   397,
+   626,
+   415
+  ],
+  [
+   506,
+   426,
+   626,
+   444
+  ],
+  [
+   506,
+   455,
+   626,
+   473
+  ],
+  [
+   506,
+   484,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.3,
+   "Desde mi ventana veo pasar coches, autobuses y camiones a"
+  ],
+  [
+   "mid",
+   6.1,
+   "todas horas. Al principio, el ruido apenas me molestaba, pero a"
+  ],
+  [
+   "mid",
+   6.2,
+   "medida que pasaban los meses dormía peor. Cada mañana me"
+  ],
+  [
+   "mid",
+   4.8,
+   "levantaba agotado y me costaba concentrarme. Luego comprendí"
+  ],
+  [
+   "mid",
+   6.4,
+   "que no era un caso aislado, sino un problema muy común. De"
+  ],
+  [
+   "mid",
+   4.5,
+   "hecho, el ruido se considera una forma de contaminación, aunque"
+  ],
+  [
+   "last",
+   3.5,
+   "no se vea ni se toque."
+  ],
+  [
+   "mid",
+   4.8,
+   "Si se redujera el tráfico y se plantaran más árboles, las calles"
+  ],
+  [
+   "mid",
+   3.5,
+   "serían más silenciosas. Algunos barrios ya han limitado la velocidad"
+  ],
+  [
+   "mid",
+   6.3,
+   "y ampliado los espacios peatonales, con buen resultado. Por lo"
+  ],
+  [
+   "mid",
+   6.9,
+   "tanto, el silencio no debería ser un privilegio, sino un derecho."
+  ],
+  [
+   "mid",
+   4,
+   "Mientras tanto, disfruto de cada noche en que la calle se queda en"
+  ],
+  [
+   "last",
+   0,
+   "calma."
+  ]
+ ],
+ "es_max_gap": 6.9,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

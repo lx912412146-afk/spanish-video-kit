@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：水族馆大玻璃缸（各色的鱼、珊瑚、水草、气泡，前面一条长椅；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eeede8"/><stop offset="0.3" stop-color="#dce0e1"/><stop offset="0.62" stop-color="#b3bec5"/><stop offset="1" stop-color="#97a4af"/>
+    </linearGradient>
+    <radialGradient id="tankglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#cfe9ea" stop-opacity="0.75"/><stop offset="0.6" stop-color="#cfe9ea" stop-opacity="0.3"/><stop offset="1" stop-color="#cfe9ea" stop-opacity="0"/>
+    </radialGradient>
+    <g id="turtle">
+      <path d="M8,4 C14,8 20,16 18,20 C14,20 8,12 4,7 Z" fill="#a9be93"/>
+      <path d="M-12,4 C-16,8 -20,10 -22,9 C-20,6 -16,3 -12,1 Z" fill="#a9be93"/>
+      <path d="M8,-5 C14,-10 22,-16 21,-19 C16,-19 9,-12 5,-7 Z" fill="#9db58a"/>
+      <ellipse cx="19" cy="-1" rx="6" ry="4.4" fill="#b9c79d"/>
+      <circle cx="21.6" cy="-2" r="1" fill="#4a4038"/>
+      <ellipse cx="-2" cy="0" rx="17" ry="10" fill="#c7b585"/>
+      <ellipse cx="-2" cy="-0.6" rx="15" ry="8.6" fill="#93ad7c"/>
+      <g fill="none" stroke="#7a9667" stroke-width="0.9">
+        <path d="M-7,-5 L3,-5 L6,0 L3,5 L-7,5 L-10,0 Z"/><path d="M3,-5 L7,-8 M6,0 L12,0 M3,5 L7,7.6 M-7,-5 L-11,-7.6 M-10,0 L-16,0 M-7,5 L-11,7.4"/>
+      </g>
+      <path d="M-8,-6 C-4,-8 2,-8 6,-6.4" stroke="#b6cb9e" stroke-width="1.2" fill="none"/>
+    </g>
+    <g id="mini2">
+      <path d="M-4,0 L-7,-2.4 L-6.4,0 L-7,2.4 Z" fill="#f2a76a"/>
+      <ellipse cx="0" cy="0" rx="4.6" ry="2" fill="#f6b87e"/>
+      <circle cx="2.8" cy="-0.4" r="0.5" fill="#6b5a4c"/>
+    </g>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3ecec"/><stop offset="0.35" stop-color="#acd5da"/><stop offset="0.75" stop-color="#8fc0cb"/><stop offset="1" stop-color="#82b4c2"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecdcba"/><stop offset="1" stop-color="#dcc59d"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#abb6be"/><stop offset="1" stop-color="#8f9ba6"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9a29a"/><stop offset="1" stop-color="#948d86"/>
+    </linearGradient>
+    <linearGradient id="bench" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a98366"/><stop offset="1" stop-color="#8f6d53"/>
+    </linearGradient>
+    <linearGradient id="weed" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#6a9f66"/><stop offset="1" stop-color="#9cc78a"/>
+    </linearGradient>
+    <clipPath id="tank"><rect x="32" y="58" width="336" height="140"/></clipPath>
+    <g id="clown">
+      <path d="M-13,0 L-19,-5.5 L-17.5,0 L-19,5.5 Z" fill="#ee8f50"/>
+      <ellipse cx="0" cy="0" rx="13" ry="6.4" fill="#f39a58"/>
+      <path d="M-6,-6 C-5,-2 -5,2 -6,6 L-3,6.2 C-2,2 -2,-2 -3,-6.2 Z" fill="#fdf8ee"/>
+      <path d="M3,-6.2 C4,-2 4,2 3,6.2 L6,5.6 C7,2 7,-2 6,-5.6 Z" fill="#fdf8ee"/>
+      <path d="M-4,-6 C-2,-10 4,-10 6,-6" fill="#ee8f50"/>
+      <circle cx="9" cy="-1.4" r="1.4" fill="#4a4038"/><circle cx="9.4" cy="-1.8" r="0.5" fill="#ffffff"/>
+    </g>
+    <g id="tang">
+      <path d="M-12,0 L-19,-6 L-17,0 L-19,6 Z" fill="#efc24e"/>
+      <path d="M-12,0 C-10,-10 6,-12 12,-2 C14,0 14,2 12,3 C6,12 -10,10 -12,0 Z" fill="#f5d468"/>
+      <path d="M-8,-7 C-2,-13 6,-11 8,-6 Z" fill="#efc24e"/>
+      <path d="M-8,7 C-2,12 4,10 6,6 Z" fill="#efc24e"/>
+      <path d="M-6,-3 C-2,-6 4,-6 8,-3" stroke="#fbe7a6" stroke-width="1.2" fill="none" opacity="0.8"/>
+      <circle cx="7" cy="-2" r="1.5" fill="#4a4038"/><circle cx="7.4" cy="-2.4" r="0.5" fill="#ffffff"/>
+    </g>
+    <g id="blue">
+      <path d="M-11,0 L-18,-6 L-16.5,0 L-18,6 Z" fill="#f2cf6a"/>
+      <ellipse cx="0" cy="0" rx="12" ry="5.2" fill="#86aedb"/>
+      <path d="M-6,-4.6 C-2,-8.6 4,-8 6,-4.6 Z" fill="#7099cc"/>
+      <path d="M-8,1.6 C-2,3.6 4,3.6 10,1" stroke="#b9d2ec" stroke-width="1.2" fill="none"/>
+      <circle cx="7.6" cy="-1.2" r="1.3" fill="#4a4038"/><circle cx="8" cy="-1.6" r="0.45" fill="#ffffff"/>
+    </g>
+    <g id="mini">
+      <path d="M-4,0 L-7,-2.2 L-6.4,0 L-7,2.2 Z" fill="#c9dbe2"/>
+      <ellipse cx="0" cy="0" rx="4.6" ry="1.8" fill="#eef5f6"/>
+      <circle cx="2.8" cy="-0.4" r="0.5" fill="#6b7f88"/>
+    </g>
+    <g id="pink">
+      <path d="M-9,0 L-15,-5 L-13.6,0 L-15,5 Z" fill="#e98f9f"/>
+      <path d="M-9,0 C-8,-6 4,-8 10,-1.5 C11,0 11,1 10,2 C4,8 -8,6 -9,0 Z" fill="#f3abb7"/>
+      <path d="M-4,-5.6 C0,-9 5,-8 6,-4.6 Z" fill="#e98f9f"/>
+      <path d="M-5,2.2 C-1,3.6 3,3.6 7,2" stroke="#f9d0d6" stroke-width="1" fill="none"/>
+      <circle cx="6" cy="-1.2" r="1.2" fill="#4a4038"/><circle cx="6.4" cy="-1.6" r="0.45" fill="#ffffff"/>
+    </g>
+    <path id="star" d="M0,-6 L1.53,-2.1 L5.71,-1.85 L2.47,0.8 L3.53,4.85 L0,2.6 L-3.53,4.85 L-2.47,0.8 L-5.71,-1.85 L-1.53,-2.1 Z"/>
+    <g id="bub"><circle r="2.4" fill="#ffffff" fill-opacity="0.25" stroke="#ffffff" stroke-width="0.7" stroke-opacity="0.85"/><circle cx="-0.8" cy="-0.8" r="0.6" fill="#ffffff" opacity="0.9"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地面 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <ellipse cx="200" cy="128" rx="250" ry="130" fill="url(#tankglow)"/>
+    <rect x="0" y="212" width="400" height="48" fill="url(#floor)"/>
+    <rect x="0" y="210" width="400" height="3" fill="#c3ccd1"/>
+
+    <g filter="url(#wc)">
+      <!-- 水缸外框 -->
+      <rect x="22" y="48" width="356" height="160" rx="5" fill="url(#frame)"/>
+      <rect x="28" y="54" width="344" height="148" rx="2" fill="#87807a"/>
+
+      <g clip-path="url(#tank)">
+        <!-- 水 -->
+        <rect x="30" y="56" width="340" height="146" fill="url(#water)"/>
+        <path d="M30,64 C70,61 110,66 150,63 C190,60 230,66 270,63 C310,60 340,65 370,63 L370,56 L30,56 Z" fill="#e6f4f2" opacity="0.8"/>
+        <!-- 光束 -->
+        <g fill="#ffffff" opacity="0.16">
+          <polygon points="70,58 96,58 136,198 92,198"/><polygon points="160,58 176,58 206,198 180,198"/><polygon points="250,58 280,58 320,198 278,198"/>
+        </g>
+        <!-- 远处的礁石剪影 -->
+        <path d="M30,180 C60,166 90,170 120,160 C150,152 170,166 200,162 C230,158 260,150 290,158 C320,166 346,156 370,160 L370,198 L30,198 Z" fill="#9fc6cf" opacity="0.7"/>
+        <!-- 沙底 -->
+        <path d="M30,184 C80,178 140,186 200,182 C260,178 320,184 370,180 L370,202 L30,202 Z" fill="url(#sand)"/>
+        <g fill="#cdb28b" opacity="0.8"><ellipse cx="120" cy="192" rx="3" ry="1.4"/><ellipse cx="196" cy="194" rx="2.6" ry="1.2"/><ellipse cx="236" cy="190" rx="2" ry="1"/><ellipse cx="282" cy="195" rx="3" ry="1.3"/></g>
+
+        <!-- 左边的石头、珊瑚、水草 -->
+        <path d="M30,198 C34,180 52,172 68,178 C80,182 84,192 82,198 Z" fill="#a7b6bd"/>
+        <path d="M40,182 C48,176 58,176 64,180" stroke="#c2ced2" stroke-width="1.6" fill="none"/>
+        <path d="M46,186 C40,150 58,130 50,96 M50,152 C62,136 56,116 66,98" stroke="url(#weed)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+        <path d="M58,190 C66,160 54,140 62,112" stroke="#8cbd7c" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+        <g stroke="#ef9a86" stroke-width="3.6" stroke-linecap="round" fill="none">
+          <path d="M92,196 L92,176 L84,164 M92,178 L100,166 L104,156 M100,168 L94,156 M84,166 L80,156"/>
+        </g>
+        <g fill="#f4b5a3"><circle cx="80" cy="155" r="2"/><circle cx="94" cy="155" r="2"/><circle cx="104" cy="155" r="2"/></g>
+        <path d="M112,194 C100,174 106,152 124,148 C142,152 146,174 134,194 Z" fill="#e4877a"/>
+        <g stroke="#f0aa9c" stroke-width="0.8" fill="none" opacity="0.9">
+          <path d="M123,194 L124,150 M123,194 L110,160 M123,194 L136,158 M123,194 L104,176 M123,194 L142,176"/>
+        </g>
+        <ellipse cx="152" cy="192" rx="15" ry="9" fill="#f2bb8f"/>
+        <path d="M140,190 C144,186 148,192 152,188 C156,184 160,190 164,187 M142,195 C146,192 150,196 154,193 C158,190 160,195 163,193" stroke="#dd9a6c" stroke-width="0.9" fill="none"/>
+        <!-- 右边的石头、珊瑚、水草 -->
+        <path d="M290,198 C292,182 312,170 334,174 C354,178 370,184 372,198 Z" fill="#a1b2ba"/>
+        <path d="M302,182 C314,174 330,174 342,178" stroke="#c2ced2" stroke-width="1.6" fill="none"/>
+        <path d="M318,178 C312,150 326,128 318,98 M326,176 C338,152 330,130 340,108" stroke="url(#weed)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+        <path d="M352,182 C346,160 358,142 350,120" stroke="#8cbd7c" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+        <g fill="#b9a2cf">
+          <rect x="272" y="174" width="7" height="20" rx="3.5"/><rect x="281" y="168" width="7" height="26" rx="3.5"/><rect x="263" y="180" width="6.5" height="14" rx="3.2"/>
+        </g>
+        <g fill="#9b84b8"><ellipse cx="275.5" cy="175.5" rx="2.4" ry="1.2"/><ellipse cx="284.5" cy="169.5" rx="2.4" ry="1.2"/><ellipse cx="266.2" cy="181.5" rx="2.2" ry="1.1"/></g>
+        <g stroke="#f3a27f" stroke-width="2.6" stroke-linecap="round" fill="none">
+          <path d="M240,194 C238,186 234,182 230,180 M244,194 C244,184 242,178 240,174 M248,194 C250,186 254,182 258,180 M246,194 C248,184 250,178 250,172"/>
+        </g>
+        <g fill="#7fb072"><ellipse cx="208" cy="194" rx="10" ry="4"/></g>
+        <path d="M200,194 C196,182 204,170 200,160 M208,192 C214,180 206,170 212,158 M216,194 C220,184 216,176 222,168" stroke="#79ae6c" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+
+        <!-- 鱼 -->
+        <use href="#tang" transform="translate(200,112) scale(1.3)"/>
+        <use href="#clown" transform="translate(118,138) scale(0.95)"/>
+        <use href="#clown" transform="translate(146,156) scale(-0.8,0.8)"/>
+        <use href="#blue" transform="translate(276,128) scale(-1.1,1.1)"/>
+        <use href="#blue" transform="translate(96,94) scale(0.85)"/>
+        <use href="#pink" transform="translate(242,160) scale(-1,1)"/>
+        <use href="#pink" transform="translate(248,80) scale(-0.75,0.75)"/>
+        <use href="#turtle" transform="translate(146,102) scale(1.05)"/>
+        <g opacity="0.35" fill="#6f9fb0">
+          <use href="#mini" transform="translate(70,120) scale(0.8)"/><use href="#mini" transform="translate(186,74) scale(0.7)"/><use href="#mini" transform="translate(354,140) scale(-0.8,0.8)"/>
+          <use href="#mini" transform="translate(236,96) scale(0.6)"/><use href="#mini" transform="translate(300,104) scale(0.7)"/>
+        </g>
+        <g>
+          <use href="#mini2" transform="translate(196,150)"/><use href="#mini2" transform="translate(206,146)"/><use href="#mini2" transform="translate(204,156)"/>
+          <use href="#mini2" transform="translate(216,151)"/><use href="#mini2" transform="translate(214,141)"/><use href="#mini2" transform="translate(226,147)"/>
+        </g>
+        <use href="#blue" transform="translate(330,150) scale(-0.7,0.7)"/>
+        <use href="#clown" transform="translate(86,170) scale(0.7)"/>
+        <use href="#star" transform="translate(180,192) rotate(12) scale(1.1)" fill="#f0a77a" stroke="#f0a77a" stroke-width="1.4" stroke-linejoin="round"/>
+        <g fill="#f8d2b4"><circle cx="180" cy="189" r="0.6"/><circle cx="183" cy="192" r="0.6"/><circle cx="178" cy="193.4" r="0.6"/></g>
+        <g>
+          <use href="#mini" transform="translate(286,82)"/><use href="#mini" transform="translate(298,78)"/><use href="#mini" transform="translate(296,88)"/>
+          <use href="#mini" transform="translate(310,84)"/><use href="#mini" transform="translate(308,94)"/><use href="#mini" transform="translate(320,90)"/><use href="#mini" transform="translate(322,80)"/>
+        </g>
+        <!-- 气泡 -->
+        <use href="#bub" transform="translate(62,88) scale(0.9)"/><use href="#bub" transform="translate(66,76) scale(0.7)"/><use href="#bub" transform="translate(60,68) scale(0.55)"/>
+        <use href="#bub" transform="translate(344,104)"/><use href="#bub" transform="translate(340,90) scale(0.75)"/><use href="#bub" transform="translate(346,78) scale(0.6)"/><use href="#bub" transform="translate(342,68) scale(0.5)"/>
+        <use href="#bub" transform="translate(222,100) scale(0.6)"/><use href="#bub" transform="translate(226,90) scale(0.45)"/>
+        <!-- 玻璃反光 -->
+        <polygon points="40,198 60,198 104,58 84,58" fill="#ffffff" opacity="0.1"/>
+        <polygon points="350,198 358,198 368,150 366,140" fill="#ffffff" opacity="0.12"/>
+      </g>
+      <rect x="32" y="58" width="336" height="140" fill="none" stroke="#bfc9c9" stroke-width="1.2" opacity="0.8"/>
+      <rect x="22" y="48" width="356" height="4" fill="#b8b1a8"/>
+
+      <!-- 地上的水光 -->
+      <g filter="url(#soft)" opacity="0.55" fill="#c3e0e2">
+        <ellipse cx="200" cy="222" rx="170" ry="9"/>
+      </g>
+
+      <!-- 长椅 -->
+      <g>
+        <rect x="128" y="226" width="7" height="22" fill="#86664e"/><rect x="266" y="226" width="7" height="22" fill="#86664e"/>
+        <rect x="140" y="226" width="5" height="16" fill="#94735a" opacity="0.8"/><rect x="256" y="226" width="5" height="16" fill="#94735a" opacity="0.8"/>
+        <path d="M118,216 L282,216 L286,224 L114,224 Z" fill="#bb9a7c"/>
+        <rect x="114" y="224" width="172" height="5" rx="1" fill="url(#bench)"/>
+        <path d="M119,216.6 L281,216.6" stroke="#d3e4e2" stroke-width="1.2" opacity="0.8"/>
+        <g stroke="#a5856a" stroke-width="0.7" opacity="0.8"><line x1="120" y1="219.4" x2="280" y2="219.4"/><line x1="117" y1="221.8" x2="283" y2="221.8"/></g>
+      </g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.22" fill="#5d6a78">
+      <ellipse cx="200" cy="249" rx="88" ry="3.5"/><ellipse cx="200" cy="210" rx="180" ry="2"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

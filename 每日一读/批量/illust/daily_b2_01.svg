@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：快时尚——挂满衣服的衣架、购物袋、落地镜（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f4dfc8"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ead2b4"/><stop offset="1" stop-color="#e2c4a2"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef4f3"/><stop offset="0.55" stop-color="#d9e7ea"/><stop offset="1" stop-color="#c6d9de"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b88a"/><stop offset="1" stop-color="#b58e62"/>
+    </linearGradient>
+    <linearGradient id="gCamel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c38f5e"/><stop offset="0.45" stop-color="#dcae7c"/><stop offset="1" stop-color="#bd8857"/>
+    </linearGradient>
+    <linearGradient id="gPink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e1a596"/><stop offset="0.45" stop-color="#f2c4b6"/><stop offset="1" stop-color="#dc9d8d"/>
+    </linearGradient>
+    <linearGradient id="gSage" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8db384"/><stop offset="0.45" stop-color="#afd0a2"/><stop offset="1" stop-color="#86ad7c"/>
+    </linearGradient>
+    <linearGradient id="gCream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ece0cc"/><stop offset="0.45" stop-color="#fbf4e8"/><stop offset="1" stop-color="#e6d8c2"/>
+    </linearGradient>
+    <linearGradient id="gMust" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dcae55"/><stop offset="0.45" stop-color="#efcb7c"/><stop offset="1" stop-color="#d5a54d"/>
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#93afc0"/><stop offset="0.45" stop-color="#b5cddb"/><stop offset="1" stop-color="#8ba7b8"/>
+    </linearGradient>
+    <linearGradient id="gTerra" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cf7754"/><stop offset="0.45" stop-color="#e49572"/><stop offset="1" stop-color="#c86e4c"/>
+    </linearGradient>
+    <linearGradient id="gDenim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7f9cb0"/><stop offset="0.45" stop-color="#9fbacb"/><stop offset="1" stop-color="#7895a9"/>
+    </linearGradient>
+    <linearGradient id="kraft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2c096"/><stop offset="1" stop-color="#d1a979"/>
+    </linearGradient>
+    <linearGradient id="bagT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e59a78"/><stop offset="1" stop-color="#d27f5d"/>
+    </linearGradient>
+    <linearGradient id="bagB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d8dc"/><stop offset="1" stop-color="#a7c2c8"/>
+    </linearGradient>
+    <clipPath id="mclip"><path d="M302,220 L302,72 C302,52 318,43 331,43 C344,43 360,52 360,72 L360,220 Z"/></clipPath>
+    <path id="hanger" d="M0,8 L0,3 C0,-2.5 4.6,-2.5 4.6,1.2 M-15,13.5 L0,7.5 L15,13.5" fill="none" stroke="#a88a68" stroke-width="1.3" stroke-linecap="round"/>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="200" width="400" height="60" fill="url(#floor)"/>
+    <g stroke="#d7b893" stroke-width="0.8" opacity="0.7">
+      <line x1="0" y1="215" x2="400" y2="215"/><line x1="0" y1="233" x2="400" y2="233"/><line x1="0" y1="251" x2="400" y2="251"/>
+      <line x1="90" y1="200" x2="86" y2="215"/><line x1="280" y1="200" x2="277" y2="215"/><line x1="170" y1="215" x2="166" y2="233"/>
+      <line x1="330" y1="233" x2="327" y2="251"/><line x1="60" y1="233" x2="57" y2="251"/>
+    </g>
+    <rect x="0" y="196" width="400" height="5" fill="#ecd6b8"/>
+
+    <!-- 墙上柔和的光 -->
+    <g filter="url(#soft)" opacity="0.45"><path d="M250,0 L330,0 L380,196 L280,196 Z" fill="#fffaf0"/></g>
+
+    <g filter="url(#wc)">
+      <!-- 落地镜 -->
+      <path d="M296,224 L296,72 C296,48 316,37 331,37 C346,37 366,48 366,72 L366,224 Z" fill="#d8b68e"/>
+      <path d="M302,220 L302,72 C302,52 318,43 331,43 C344,43 360,52 360,72 L360,220 Z" fill="url(#glass)"/>
+      <g clip-path="url(#mclip)">
+        <rect x="300" y="182" width="64" height="40" fill="#e6d3bb" opacity="0.8"/>
+        <rect x="300" y="179" width="64" height="4" fill="#efdfc9" opacity="0.8"/>
+        <path d="M352,182 L352,120 L364,116 L364,182 Z" fill="#e7c9a8" opacity="0.55"/>
+        <polygon points="306,120 340,60 352,60 318,120" fill="#ffffff" opacity="0.45"/>
+        <polygon points="314,150 354,82 359,82 319,150" fill="#ffffff" opacity="0.35"/>
+      </g>
+      <path d="M300,224 L294,234 M362,224 L368,234" stroke="#c49f76" stroke-width="3" stroke-linecap="round"/>
+      <path d="M299,74 C299,56 314,46 323,44" stroke="#ecd3b2" stroke-width="1.6" fill="none"/>
+
+      <!-- 衣架 -->
+      <g stroke="#c39b6c" stroke-linecap="round">
+        <line x1="40" y1="60" x2="40" y2="222" stroke-width="3.6"/>
+        <line x1="250" y1="60" x2="250" y2="222" stroke-width="3.6"/>
+        <line x1="30" y1="221" x2="56" y2="221" stroke-width="4"/>
+        <line x1="234" y1="221" x2="260" y2="221" stroke-width="4"/>
+      </g>
+      <g stroke="#e6caa0" stroke-width="0.9" opacity="0.9"><line x1="39" y1="64" x2="39" y2="218"/><line x1="249" y1="64" x2="249" y2="218"/></g>
+      <line x1="31" y1="60" x2="259" y2="60" stroke="#c9a476" stroke-width="3.6" stroke-linecap="round"/>
+      <line x1="34" y1="59" x2="256" y2="59" stroke="#ead1ac" stroke-width="1" opacity="0.8"/>
+      <circle cx="30" cy="60" r="3.2" fill="#c49c6c"/><circle cx="260" cy="60" r="3.2" fill="#c49c6c"/>
+      <g fill="#9c8166"><circle cx="31" cy="226" r="3.4"/><circle cx="55" cy="226" r="3.4"/><circle cx="235" cy="226" r="3.4"/><circle cx="259" cy="226" r="3.4"/></g>
+
+      <!-- 衣架下的鞋 -->
+      <path d="M70,220 L70,203 C70,200 78,200 78,203 L79,212 C86,213 92,215 92,219 L92,221 L70,221 Z" fill="#b97a55"/>
+      <path d="M82,221 L82,204 C82,201 90,201 90,204 L91,213 C98,214 104,216 104,220 L104,222 L82,222 Z" fill="#a96c4a"/>
+      <path d="M112,222 C112,214 118,212 124,213 C130,214 136,216 140,219 L140,222 Z" fill="#f3ebde"/>
+      <path d="M112,222 L140,222" stroke="#cdbba4" stroke-width="1.6"/>
+      <path d="M118,214 L122,218 M122,213 L126,217" stroke="#a7bccb" stroke-width="1"/>
+
+      <!-- 衣服（从左往右，后面的先画） -->
+      <!-- 1 驼色大衣 -->
+      <g transform="translate(58,60)">
+        <path d="M17,13 L24,20 L25,96 L18,97 L17,30 Z M-17,13 L-24,20 L-25,96 L-18,97 L-17,30 Z" fill="#b8844f"/>
+        <path d="M-5,8 L5,8 L18,13 L21,40 L21,118 L-21,118 L-21,40 L-18,13 Z" fill="url(#gCamel)"/>
+        <path d="M-5,8 L-10,24 L-2,30 L0,52 L2,30 L10,24 L5,8 Z" fill="#e3bc8e"/>
+        <path d="M0,52 L0,118" stroke="#a9773f" stroke-width="0.9" opacity="0.7"/>
+        <g fill="#8f6440"><circle cx="-3" cy="62" r="1.4"/><circle cx="-3" cy="80" r="1.4"/><circle cx="-3" cy="98" r="1.4"/></g>
+        <path d="M-15,74 L-6,74 M6,74 L15,74" stroke="#a9773f" stroke-width="1" opacity="0.6"/>
+        <path d="M-12,90 C-13,100 -12,110 -14,117 M12,94 C13,104 12,110 13,117" stroke="#b07c48" stroke-width="0.9" fill="none" opacity="0.5"/>
+      </g>
+      <!-- 2 粉色衬衫 -->
+      <g transform="translate(84,60)">
+        <path d="M-4,8 C-2,11 2,11 4,8 L15,12 L24,27 L18,31 L14,25 L14,62 L-14,62 L-14,25 L-18,31 L-24,27 L-15,12 Z" fill="url(#gPink)"/>
+        <path d="M-4,8 L0,16 L4,8" fill="none" stroke="#cf8e80" stroke-width="1"/>
+        <path d="M-6,30 C-4,40 -6,50 -4,60 M7,34 C6,44 8,52 6,60" stroke="#d48f80" stroke-width="0.8" fill="none" opacity="0.6"/>
+      </g>
+      <!-- 3 灰绿连衣裙 -->
+      <g transform="translate(108,60)">
+        <path d="M-5,8 C-2,12 2,12 5,8 L11,10 L11,28 C10,36 8,40 9,44 L24,108 C10,112 -10,112 -24,108 L-9,44 C-8,40 -10,36 -11,28 L-11,10 Z" fill="url(#gSage)"/>
+        <path d="M-9.5,44 L9.5,44" stroke="#77a06e" stroke-width="3"/>
+        <path d="M-3,52 L-9,106 M3,52 L8,106 M0,50 L0,108" stroke="#7aa271" stroke-width="0.9" opacity="0.6"/>
+        <path d="M-5,8 L-6,2 M5,8 L6,2" stroke="#a88a68" stroke-width="1"/>
+      </g>
+      <!-- 4 条纹 T 恤 -->
+      <g transform="translate(132,60)">
+        <path d="M-4,8 C-2,11 2,11 4,8 L15,12 L24,26 L19,30 L14,24 L14,60 L-14,60 L-14,24 L-19,30 L-24,26 L-15,12 Z" fill="url(#gCream)"/>
+        <g stroke="#9cb5c6" stroke-width="2.4">
+          <line x1="-14" y1="24" x2="14" y2="24"/><line x1="-14" y1="32" x2="14" y2="32"/><line x1="-14" y1="40" x2="14" y2="40"/>
+          <line x1="-14" y1="48" x2="14" y2="48"/><line x1="-14" y1="56" x2="14" y2="56"/>
+          <line x1="-21" y1="21" x2="-15" y2="18"/><line x1="21" y1="21" x2="15" y2="18"/>
+        </g>
+      </g>
+      <!-- 5 芥末黄毛衣 -->
+      <g transform="translate(156,60)">
+        <path d="M15,12 L22,20 L24,62 L17,63 L15,30 Z M-15,12 L-22,20 L-24,62 L-17,63 L-15,30 Z" fill="#d6a74f"/>
+        <path d="M-5,8 C-2,12 2,12 5,8 L15,12 L16,30 L15,66 L-15,66 L-16,30 L-15,12 Z" fill="url(#gMust)"/>
+        <path d="M-5,8 C-2,13 2,13 5,8" stroke="#c99a45" stroke-width="2.2" fill="none"/>
+        <rect x="-15" y="61" width="30" height="5" fill="#d9a94f"/>
+        <g stroke="#c4953f" stroke-width="0.7" opacity="0.8">
+          <line x1="-10" y1="61" x2="-10" y2="66"/><line x1="-5" y1="61" x2="-5" y2="66"/><line x1="0" y1="61" x2="0" y2="66"/><line x1="5" y1="61" x2="5" y2="66"/><line x1="10" y1="61" x2="10" y2="66"/>
+          <path d="M-6,22 L-6,58 M6,22 L6,58" opacity="0.5"/>
+        </g>
+        <rect x="-24" y="59" width="7" height="4" fill="#c9983f"/><rect x="17" y="59" width="7" height="4" fill="#c9983f"/>
+      </g>
+      <!-- 6 灰蓝衬衫 -->
+      <g transform="translate(180,60)">
+        <path d="M15,12 L22,20 L23,66 L16,66 L15,30 Z M-15,12 L-22,20 L-23,66 L-16,66 L-15,30 Z" fill="#8ea9ba"/>
+        <path d="M-5,8 L5,8 L15,12 L16,30 L15,74 L-15,74 L-16,30 L-15,12 Z" fill="url(#gBlue)"/>
+        <path d="M-5,8 L0,15 L-8,16 Z M5,8 L0,15 L8,16 Z" fill="#cfe0ea"/>
+        <line x1="0" y1="15" x2="0" y2="74" stroke="#83a0b3" stroke-width="1"/>
+        <g fill="#eef4f6"><circle cx="1.6" cy="26" r="0.9"/><circle cx="1.6" cy="38" r="0.9"/><circle cx="1.6" cy="50" r="0.9"/><circle cx="1.6" cy="62" r="0.9"/></g>
+        <path d="M-12,26 L-5,26 L-5,32 L-12,32 Z" fill="none" stroke="#87a3b5" stroke-width="0.8"/>
+      </g>
+      <!-- 7 陶土红长裙 -->
+      <g transform="translate(205,60)">
+        <path d="M-5,8 C-2,13 2,13 5,8 L13,11 L18,20 L13,24 L12,30 C10,38 9,42 10,46 L26,114 C12,118 -12,118 -26,114 L-10,46 C-9,42 -10,38 -12,30 L-13,24 L-18,20 L-13,11 Z" fill="url(#gTerra)"/>
+        <path d="M-10,46 C-4,48 4,48 10,46" stroke="#bb6646" stroke-width="1.2" fill="none"/>
+        <path d="M-4,54 L-11,112 M4,54 L10,112 M0,52 L-1,115" stroke="#bf6a4a" stroke-width="0.9" opacity="0.6"/>
+        <g fill="#f3d6c4" opacity="0.8"><circle cx="-5" cy="22" r="1"/><circle cx="4" cy="30" r="1"/><circle cx="-6" cy="66" r="1"/><circle cx="7" cy="80" r="1"/><circle cx="-10" cy="94" r="1"/><circle cx="2" cy="100" r="1"/><circle cx="12" cy="104" r="1"/><circle cx="0" cy="38" r="1"/></g>
+      </g>
+      <!-- 8 牛仔外套 -->
+      <g transform="translate(230,60)">
+        <path d="M16,12 L22,19 L24,64 L17,64 L16,30 Z M-16,12 L-22,19 L-24,64 L-17,64 L-16,30 Z" fill="#7792a6"/>
+        <path d="M-5,8 L5,8 L16,12 L17,30 L16,62 L-16,62 L-17,30 L-16,12 Z" fill="url(#gDenim)"/>
+        <path d="M-5,8 L-9,20 L-1,24 Z M5,8 L9,20 L1,24 Z" fill="#b6cbd8"/>
+        <line x1="0" y1="24" x2="0" y2="62" stroke="#6d889c" stroke-width="1"/>
+        <path d="M-13,30 L-4,30 L-4,38 L-13,38 Z M4,30 L13,30 L13,38 L4,38 Z" fill="none" stroke="#e9cf9c" stroke-width="0.7" stroke-dasharray="1.4 1.2"/>
+        <rect x="-16" y="56" width="32" height="6" fill="#86a1b4"/>
+        <g fill="#e2c38b"><circle cx="-2" cy="34" r="0.9"/><circle cx="-2" cy="46" r="0.9"/><circle cx="-2" cy="59" r="0.9"/></g>
+      </g>
+      <!-- 衣架钩 -->
+      <g>
+        <use href="#hanger" transform="translate(58,60)"/><use href="#hanger" transform="translate(84,60)"/><use href="#hanger" transform="translate(108,60)"/>
+        <use href="#hanger" transform="translate(132,60)"/><use href="#hanger" transform="translate(156,60)"/><use href="#hanger" transform="translate(180,60)"/>
+        <use href="#hanger" transform="translate(205,60)"/><use href="#hanger" transform="translate(230,60)"/>
+      </g>
+
+      <!-- 购物袋 -->
+      <!-- 牛皮纸袋 -->
+      <path d="M162,184 C162,163 190,161 192,182" stroke="#b48d63" stroke-width="2" fill="none"/>
+      <polygon points="150,187 162,182 206,182 194,187" fill="#a8845e"/>
+      <polygon points="194,187 206,182 206,240 194,245" fill="#c39b6d"/>
+      <rect x="150" y="187" width="44" height="58" fill="url(#kraft)"/>
+      <path d="M157,187 C157,166 187,166 187,187" stroke="#b9925f" stroke-width="2.2" fill="none"/>
+      <rect x="150" y="187" width="44" height="4" fill="#d4ad7f"/>
+      <!-- 浅灰蓝袋子，露出薄纸 -->
+      <path d="M248,192 C248,172 270,172 272,190" stroke="#8fadb4" stroke-width="2" fill="none"/>
+      <polygon points="238,194 248,189 290,189 280,194" fill="#8aa7ae"/>
+      <path d="M244,193 L250,172 L258,186 L264,168 L272,186 L280,176 L280,193 Z" fill="#f4d8d0"/>
+      <path d="M258,186 L264,168 L268,182" fill="#ead0d8"/>
+      <polygon points="280,194 290,189 290,242 280,247" fill="#9cb8be"/>
+      <rect x="238" y="194" width="42" height="53" fill="url(#bagB)"/>
+      <path d="M244,194 C244,176 274,176 274,194" stroke="#f6efe3" stroke-width="1.8" fill="none"/>
+      <rect x="238" y="194" width="42" height="4" fill="#b4ccd1"/>
+      <!-- 陶土红小袋 -->
+      <polygon points="182,204 192,200 232,200 222,204" fill="#b5664a"/>
+      <polygon points="222,204 232,200 232,244 222,248" fill="#c87556"/>
+      <rect x="182" y="204" width="40" height="44" fill="url(#bagT)"/>
+      <path d="M189,204 C189,188 215,188 215,204" stroke="#f7ede0" stroke-width="2.2" fill="none"/>
+      <rect x="182" y="204" width="40" height="4" fill="#e9a585"/>
+      <ellipse cx="190" cy="214" rx="2.5" ry="8" fill="#fff" opacity="0.18"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="145" cy="228" rx="120" ry="4"/><ellipse cx="190" cy="247" rx="46" ry="3.5"/><ellipse cx="264" cy="248" rx="30" ry="3"/>
+      <ellipse cx="331" cy="232" rx="40" ry="3.5"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

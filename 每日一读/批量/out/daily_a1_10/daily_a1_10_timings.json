@@ -1,0 +1,292 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_10.mp3",
+ "duration": 60.974,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.36,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.74,
+  "buzz_hz": 5321.0,
+  "buzz_db": 4.9,
+  "comb_db": -1.12
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.4,
+  "leveler_rng": 10.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.93,
+   "parts": [
+    [
+     0.5,
+     1.93
+    ]
+   ],
+   "segments": [
+    "Llega el invierno."
+   ],
+   "text": "Llega el invierno.",
+   "read": "Llega el invierno."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.93,
+   "end": 6.81,
+   "parts": [
+    [
+     2.93,
+     6.81
+    ]
+   ],
+   "segments": [
+    "Ya estamos en invierno y hace mucho frío en mi ciudad."
+   ],
+   "text": "Ya estamos en invierno y hace mucho frío en mi ciudad.",
+   "read": "Ya estamos en invierno y hace mucho frío en mi ciudad."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.81,
+   "end": 10.33,
+   "parts": [
+    [
+     7.81,
+     10.33
+    ]
+   ],
+   "segments": [
+    "Hoy nieva por primera vez este año."
+   ],
+   "text": "Hoy nieva por primera vez este año.",
+   "read": "Hoy nieva por primera vez este año."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 11.33,
+   "end": 16.01,
+   "parts": [
+    [
+     11.33,
+     16.01
+    ]
+   ],
+   "segments": [
+    "Desde la ventana veo los tejados blancos y la calle llena de nieve."
+   ],
+   "text": "Desde la ventana veo los tejados blancos y la calle llena de nieve.",
+   "read": "Desde la ventana veo los tejados blancos y la calle llena de nieve."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 17.01,
+   "end": 20.74,
+   "parts": [
+    [
+     17.01,
+     20.74
+    ]
+   ],
+   "segments": [
+    "La gente camina despacio porque hay hielo en la acera."
+   ],
+   "text": "La gente camina despacio porque hay hielo en la acera.",
+   "read": "La gente camina despacio porque hay hielo en la acera."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 21.74,
+   "end": 26.94,
+   "parts": [
+    [
+     21.74,
+     22.97
+    ],
+    [
+     23.25,
+     26.94
+    ]
+   ],
+   "segments": [
+    "Antes de salir,",
+    "me pongo el abrigo, la bufanda y los guantes."
+   ],
+   "text": "Antes de salir, me pongo el abrigo, la bufanda y los guantes.",
+   "read": "Antes de salir, me pongo el abrigo, la bufanda y los guantes."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 27.94,
+   "end": 31.856,
+   "parts": [
+    [
+     27.94,
+     31.856
+    ]
+   ],
+   "segments": [
+    "Mi hermana Lucía siempre lleva un gorro de lana enorme."
+   ],
+   "text": "Mi hermana Lucía siempre lleva un gorro de lana enorme.",
+   "read": "Mi hermana Lucía siempre lleva un gorro de lana enorme."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 32.856,
+   "end": 36.356,
+   "parts": [
+    [
+     32.856,
+     36.356
+    ]
+   ],
+   "segments": [
+    "Por la tarde vamos a jugar con la nieve en el parque."
+   ],
+   "text": "Por la tarde vamos a jugar con la nieve en el parque.",
+   "read": "Por la tarde vamos a jugar con la nieve en el parque."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 37.356,
+   "end": 40.974,
+   "parts": [
+    [
+     37.356,
+     40.974
+    ]
+   ],
+   "segments": [
+    "Hacemos un muñeco de nieve con una nariz de zanahoria."
+   ],
+   "text": "Hacemos un muñeco de nieve con una nariz de zanahoria.",
+   "read": "Hacemos un muñeco de nieve con una nariz de zanahoria."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 41.974,
+   "end": 46.534,
+   "parts": [
+    [
+     41.974,
+     46.534
+    ]
+   ],
+   "segments": [
+    "Después volvemos a casa cansados y con las manos frías."
+   ],
+   "text": "Después volvemos a casa cansados y con las manos frías.",
+   "read": "Después volvemos a casa cansados y con las manos frías."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 47.534,
+   "end": 50.535,
+   "parts": [
+    [
+     47.534,
+     50.535
+    ]
+   ],
+   "segments": [
+    "Dejo la bufanda y los guantes en una silla."
+   ],
+   "text": "Dejo la bufanda y los guantes en una silla.",
+   "read": "Dejo la bufanda y los guantes en una silla."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 51.535,
+   "end": 54.864,
+   "parts": [
+    [
+     51.535,
+     54.864
+    ]
+   ],
+   "segments": [
+    "Mi madre prepara chocolate caliente para todos."
+   ],
+   "text": "Mi madre prepara chocolate caliente para todos.",
+   "read": "Mi madre prepara chocolate caliente para todos."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 55.864,
+   "end": 59.774,
+   "parts": [
+    [
+     55.864,
+     56.604
+    ],
+    [
+     56.884,
+     59.774
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "el invierno es una estación muy bonita."
+   ],
+   "text": "Para mí, el invierno es una estación muy bonita.",
+   "read": "Para mí, el invierno es una estación muy bonita."
+  }
+ ]
+}

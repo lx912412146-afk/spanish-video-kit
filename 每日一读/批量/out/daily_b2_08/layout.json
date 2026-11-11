@@ -1,0 +1,279 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  621.03125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  629.03125
+ ],
+ "zh": [
+  96,
+  655.03125,
+  480,
+  871.15625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  294.828125,
+  131.625
+ ],
+ "header_gap": 91.96875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.9,
+   "Cuando éramos estudiantes, mis amigos y yo nos veíamos"
+  ],
+  [
+   "mid",
+   7,
+   "casi a diario sin planear nada. Con los años, sin embargo, el"
+  ],
+  [
+   "mid",
+   3.7,
+   "trabajo, la familia y las mudanzas fueron ocupando nuestro tiempo"
+  ],
+  [
+   "mid",
+   3.7,
+   "libre. Las llamadas se volvieron más breves y los encuentros, cada"
+  ],
+  [
+   "mid",
+   5.4,
+   "vez menos frecuentes. Por eso, mi amigo Pablo y yo decidimos"
+  ],
+  [
+   "last",
+   3.5,
+   "reservar una tarde al mes para tomar un café."
+  ],
+  [
+   "mid",
+   5,
+   "Sentados junto a la ventana, hablamos de todo, como si no"
+  ],
+  [
+   "mid",
+   3.7,
+   "hubiera pasado el tiempo. Me di cuenta de que, en la edad adulta,"
+  ],
+  [
+   "mid",
+   4,
+   "la amistad depende menos de la frecuencia que de la voluntad de"
+  ],
+  [
+   "mid",
+   5.6,
+   "cuidarla. De hecho, exige un esfuerzo consciente, porque ya no"
+  ],
+  [
+   "mid",
+   6.3,
+   "surge de forma espontánea. Aun así, merece la pena, pues un"
+  ],
+  [
+   "last",
+   3.5,
+   "buen amigo ofrece algo que ningún éxito profesional sustituye."
+  ]
+ ],
+ "es_max_gap": 7,
+ "es_font": [
+  13.1,
+  -0.1
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

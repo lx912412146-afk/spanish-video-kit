@@ -1,0 +1,241 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_05.mp3",
+ "duration": 58.89,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 1.1,
+  "short_term_std_lu": 0.94,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.74,
+  "buzz_hz": 8781.0,
+  "buzz_db": 6.7,
+  "comb_db": 0.36
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.3,
+   "parts": [
+    [
+     0.5,
+     2.3
+    ]
+   ],
+   "segments": [
+    "Cooperar o competir."
+   ],
+   "text": "Cooperar o competir.",
+   "read": "Cooperar o competir."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.2,
+   "end": 7.7,
+   "parts": [
+    [
+     3.2,
+     7.7
+    ]
+   ],
+   "segments": [
+    "Hace unos meses empecé a remar en una barca larga junto a otros siete principiantes."
+   ],
+   "text": "Hace unos meses empecé a remar en una barca larga junto a otros siete principiantes.",
+   "read": "Hace unos meses empecé a remar en una barca larga junto a otros siete principiantes."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.6,
+   "end": 15.84,
+   "parts": [
+    [
+     8.6,
+     9.83
+    ],
+    [
+     10.11,
+     12.34
+    ],
+    [
+     12.62,
+     15.84
+    ]
+   ],
+   "segments": [
+    "Al principio,",
+    "cada uno intentaba demostrar su fuerza,",
+    "y la barca avanzaba a trompicones sobre el agua tranquila."
+   ],
+   "text": "Al principio, cada uno intentaba demostrar su fuerza, y la barca avanzaba a trompicones sobre el agua tranquila.",
+   "read": "Al principio, cada uno intentaba demostrar su fuerza, y la barca avanzaba a trompicones sobre el agua tranquila."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 16.74,
+   "end": 22.88,
+   "parts": [
+    [
+     16.74,
+     19.1
+    ],
+    [
+     19.38,
+     22.88
+    ]
+   ],
+   "segments": [
+    "Solo cuando logramos acompasar las paladas,",
+    "el esfuerzo individual empezó a sumarse en lugar de neutralizarse."
+   ],
+   "text": "Solo cuando logramos acompasar las paladas, el esfuerzo individual empezó a sumarse en lugar de neutralizarse.",
+   "read": "Solo cuando logramos acompasar las paladas, el esfuerzo individual empezó a sumarse en lugar de neutralizarse."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 23.78,
+   "end": 30.05,
+   "parts": [
+    [
+     23.78,
+     27.9
+    ],
+    [
+     28.18,
+     30.05
+    ]
+   ],
+   "segments": [
+    "Solemos ver la cooperación y la competencia como opuestos irreconciliables,",
+    "como si hubiera que optar por una."
+   ],
+   "text": "Solemos ver la cooperación y la competencia como opuestos irreconciliables, como si hubiera que optar por una.",
+   "read": "Solemos ver la cooperación y la competencia como opuestos irreconciliables, como si hubiera que optar por una."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 30.95,
+   "end": 38.5,
+   "parts": [
+    [
+     30.95,
+     31.69
+    ],
+    [
+     31.97,
+     34.91
+    ],
+    [
+     35.19,
+     38.5
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "la rivalidad sana puede estimular a cada miembro,",
+    "siempre que no rompa el ritmo común del que depende el grupo."
+   ],
+   "text": "Sin embargo, la rivalidad sana puede estimular a cada miembro, siempre que no rompa el ritmo común del que depende el grupo.",
+   "read": "Sin embargo, la rivalidad sana puede estimular a cada miembro, siempre que no rompa el ritmo común del que depende el grupo."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 39.4,
+   "end": 48.36,
+   "parts": [
+    [
+     39.4,
+     42.15
+    ],
+    [
+     42.43,
+     44.58
+    ],
+    [
+     44.86,
+     47.06
+    ],
+    [
+     47.34,
+     48.36
+    ]
+   ],
+   "segments": [
+    "Si cada remero compitiera contra los demás,",
+    "la barca giraría sobre sí misma;",
+    "si todos renunciaran a esforzarse,",
+    "no se movería."
+   ],
+   "text": "Si cada remero compitiera contra los demás, la barca giraría sobre sí misma; si todos renunciaran a esforzarse, no se movería.",
+   "read": "Si cada remero compitiera contra los demás, la barca giraría sobre sí misma; si todos renunciaran a esforzarse, no se movería."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 49.26,
+   "end": 57.69,
+   "parts": [
+    [
+     49.26,
+     53.4
+    ],
+    [
+     53.68,
+     57.69
+    ]
+   ],
+   "segments": [
+    "Quizá la verdadera cuestión no sea elegir entre cooperar y competir,",
+    "sino saber al servicio de qué meta compartida ponemos nuestra ambición."
+   ],
+   "text": "Quizá la verdadera cuestión no sea elegir entre cooperar y competir, sino saber al servicio de qué meta compartida ponemos nuestra ambición.",
+   "read": "Quizá la verdadera cuestión no sea elegir entre cooperar y competir, sino saber al servicio de qué meta compartida ponemos nuestra ambición."
+  }
+ ]
+}

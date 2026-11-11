@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_04",
+ "level": "A2",
+ "no": 4,
+ "title_es": "Una noche bajo las estrellas",
+ "title_zh": "星空下的一夜",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 4 篇。原创短文。简单过去时叙述露营（fui、montamos、encendimos、se llenó），过去未完成时描写（cenábamos、parecían、estaba），现在完成时 nunca he visto 表示到现在为止的经历。11 句，119 词。没有需要不停顿的列举逗号：第 3 句 Cuando se puso el sol、第 5 句 Mientras cenábamos 是从句，第 8 句 A lo lejos 是句首状语，第 10 句 pero 前是转折，都照常停顿。ponerse el sol 是固定说法，原文 se puso el sol；ir de acampada 原文 fui de acampada；enseñar 这里是“指给我看”，译作“教我认”；intentar 是“试着”，释义写“尝试”；escuchamos el ruido del fuego 译作“听着火堆的声音”。帐篷、篝火、满天星星和远处的山影对应插图。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "estrella",
+   "星星",
+   "estrellas"
+  ],
+  [
+   "ir de acampada",
+   "去露营",
+   "fui de acampada"
+  ],
+  [
+   "montaña",
+   "山",
+   "montaña"
+  ],
+  [
+   "montar",
+   "搭建",
+   "montamos"
+  ],
+  [
+   "tienda de campaña",
+   "帐篷",
+   "tienda de campaña"
+  ],
+  [
+   "ponerse el sol",
+   "太阳落山",
+   "se puso el sol"
+  ],
+  [
+   "encender",
+   "点燃",
+   "encendimos"
+  ],
+  [
+   "hoguera",
+   "篝火",
+   "hoguera"
+  ],
+  [
+   "calentar",
+   "加热",
+   "calentamos"
+  ],
+  [
+   "cielo",
+   "天空",
+   "cielo"
+  ],
+  [
+   "llenarse",
+   "布满",
+   "llenó"
+  ],
+  [
+   "constelación",
+   "星座",
+   "constelaciones"
+  ],
+  [
+   "intentar",
+   "尝试",
+   "intenté"
+  ],
+  [
+   "a lo lejos",
+   "在远处",
+   "A lo lejos"
+  ],
+  [
+   "sombra",
+   "影子",
+   "sombras"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El fin de semana pasado fui de acampada a la montaña con mi amigo Marcos.",
+    "zh": "上周末，我和朋友马科斯去山里露营。"
+   },
+   {
+    "es": "Llegamos por la tarde y montamos la tienda de campaña en un lugar tranquilo.",
+    "zh": "我们下午到达，在一个安静的地方搭起了帐篷。"
+   },
+   {
+    "es": "Cuando se puso el sol, empezó a hacer bastante frío.",
+    "zh": "太阳落山以后，天变得相当冷。"
+   },
+   {
+    "es": "Entonces encendimos una pequeña hoguera y calentamos un poco de sopa.",
+    "zh": "于是我们生了一小堆篝火，热了一点汤。"
+   },
+   {
+    "es": "Mientras cenábamos, el cielo se llenó de estrellas.",
+    "zh": "我们吃晚饭的时候，天空中布满了星星。"
+   }
+  ],
+  [
+   {
+    "es": "En la ciudad nunca he visto tantas estrellas juntas.",
+    "zh": "在城市里，我从来没见过这么多星星聚在一起。"
+   },
+   {
+    "es": "Marcos me enseñó algunas constelaciones y yo intenté recordar sus nombres.",
+    "zh": "马科斯教我认了几个星座，我试着记住它们的名字。"
+   },
+   {
+    "es": "A lo lejos, las montañas parecían sombras oscuras.",
+    "zh": "远处的群山看上去像一片片黑影。"
+   },
+   {
+    "es": "Durante un rato no hablamos y solo escuchamos el ruido del fuego.",
+    "zh": "有一阵子我们都没有说话，只是听着火堆的声音。"
+   },
+   {
+    "es": "A la mañana siguiente estaba un poco cansado, pero muy feliz.",
+    "zh": "第二天早上，我有点累，但非常开心。"
+   },
+   {
+    "es": "Fue una de las noches más bonitas de mi vida.",
+    "zh": "那是我这辈子最美的夜晚之一。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：树荫下的人行道、老楼房、长椅、鸽子（水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d5e8ef"/><stop offset="0.5" stop-color="#eaf2ee"/><stop offset="1" stop-color="#f7f0e2"/>
+    </linearGradient>
+    <linearGradient id="walk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6dccb"/><stop offset="1" stop-color="#eee6d8"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a99a7e"/><stop offset="0.5" stop-color="#c9bc9f"/><stop offset="1" stop-color="#9d8f74"/>
+    </linearGradient>
+    <clipPath id="awnClip"><path d="M138,140 L184,140 L188,150 L134,150 Z"/></clipPath>
+    <g id="win">
+      <rect x="-6" y="0" width="5" height="18" fill="#97b0a2"/><rect x="13" y="0" width="5" height="18" fill="#97b0a2"/>
+      <g stroke="#82998c" stroke-width="0.6"><line x1="-6" y1="4" x2="-1" y2="4"/><line x1="-6" y1="8" x2="-1" y2="8"/><line x1="-6" y1="12" x2="-1" y2="12"/><line x1="13" y1="4" x2="18" y2="4"/><line x1="13" y1="8" x2="18" y2="8"/><line x1="13" y1="12" x2="18" y2="12"/></g>
+      <rect x="0" y="0" width="12" height="18" fill="#bfcfd1"/>
+      <rect x="0" y="0" width="12" height="18" fill="none" stroke="#f8f0e3" stroke-width="1.4"/>
+      <line x1="6" y1="0" x2="6" y2="18" stroke="#f8f0e3" stroke-width="1"/>
+      <rect x="1.6" y="1.6" width="3" height="7" fill="#fff" opacity="0.45"/>
+    </g>
+    <g id="balc">
+      <rect x="-8" y="0" width="28" height="2.4" fill="#efe4d2"/>
+      <g stroke="#6e6159" stroke-width="0.8" fill="none"><line x1="-7" y1="-8" x2="19" y2="-8"/><line x1="-7" y1="-8" x2="-7" y2="0"/><line x1="-3" y1="-8" x2="-3" y2="0"/><line x1="1" y1="-8" x2="1" y2="0"/><line x1="5" y1="-8" x2="5" y2="0"/><line x1="9" y1="-8" x2="9" y2="0"/><line x1="13" y1="-8" x2="13" y2="0"/><line x1="17" y1="-8" x2="17" y2="0"/><line x1="19" y1="-8" x2="19" y2="0"/></g>
+      <rect x="-5" y="-12" width="6" height="4" fill="#cf7c58"/><circle cx="-3.5" cy="-13.5" r="2.4" fill="#7fae67"/><circle cx="-1" cy="-14.5" r="1.8" fill="#e2574c"/><circle cx="-4" cy="-15.5" r="1.5" fill="#e86a5c"/>
+      <rect x="11" y="-12" width="6" height="4" fill="#cf7c58"/><circle cx="14" cy="-13.5" r="2.4" fill="#7fae67"/><circle cx="12.5" cy="-15" r="1.8" fill="#e2574c"/><circle cx="16" cy="-15" r="1.6" fill="#e86a5c"/>
+    </g>
+    <g id="pigeon">
+      <path d="M-7,0 L-15,-1.5 L-14,2.6 L-6,3 Z" fill="#8c96a1"/>
+      <path d="M-9,0 C-9,-6 -2,-8.5 4,-7.5 C7,-7 9,-4 8.5,-1 C8,2.6 4,4.2 -2,4.2 C-6,4.2 -9,3 -9,0 Z" fill="#aab3bc"/>
+      <path d="M-6,-1.6 C-2,-6 4,-5.4 5.4,-1.4 C2,0.8 -3,0.8 -6,-1.6 Z" fill="#96a0aa"/>
+      <path d="M-3,-2.4 L1,-3.4 M-2,-0.6 L2,-1.6" stroke="#7d8792" stroke-width="0.9"/>
+      <ellipse cx="6" cy="-6" rx="3.4" ry="3.8" fill="#93b3ab"/>
+      <circle cx="7.6" cy="-9.6" r="3.2" fill="#a5afb8"/>
+      <circle cx="8.6" cy="-10.2" r="0.75" fill="#5a4a40"/>
+      <path d="M10.6,-10 L13.4,-9.2 L10.6,-8.5 Z" fill="#d6a08a"/>
+      <path d="M-1,4 L-1,7 M2.4,4 L2.4,7" stroke="#d58a7c" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+    <g id="canopy">
+      <path d="M-44,14 C-54,8 -52,-8 -42,-12 C-46,-26 -32,-36 -20,-32 C-14,-44 4,-46 12,-38 C22,-44 38,-38 38,-26 C50,-22 52,-6 46,2 C54,10 48,24 36,24 C30,34 14,34 8,28 C0,36 -16,34 -20,26 C-32,32 -46,26 -44,14 Z" fill="#7ea66c"/>
+      <path d="M-38,-6 C-40,-18 -28,-26 -18,-24 C-12,-34 4,-36 10,-28 C18,-32 30,-28 30,-18 C38,-14 38,-4 30,0 C22,6 6,2 0,6 C-8,10 -20,8 -26,4 C-34,4 -38,0 -38,-6 Z" fill="#91b77b"/>
+      <path d="M-32,-12 C-32,-20 -22,-23 -17,-19 C-11,-26 -1,-26 1,-20 C-5,-14 -14,-12 -20,-12 C-24,-9 -32,-8 -32,-12 Z" fill="#a8c98f"/>
+      <path d="M8,-30 C14,-37 27,-33 27,-24 C21,-21 13,-22 8,-30 Z" fill="#a8c98f"/>
+      <path d="M14,-8 C20,-14 30,-12 32,-6 C26,-2 18,-2 14,-8 Z" fill="#9fc187"/>
+      <path d="M-42,14 C-32,20 -20,15 -10,21 C0,26 12,19 22,21 C32,23 42,17 46,4 C51,13 45,24 36,24 C30,34 14,34 8,28 C0,36 -16,34 -20,26 C-32,32 -46,26 -42,14 Z" fill="#6b955c"/>
+      <g fill="#b3d19a" opacity="0.8"><ellipse cx="-24" cy="-26" rx="3" ry="2"/><ellipse cx="-2" cy="-34" rx="3" ry="2"/><ellipse cx="26" cy="-34" rx="2.6" ry="1.8"/><ellipse cx="-38" cy="-8" rx="2.6" ry="1.8"/><ellipse cx="38" cy="-14" rx="2.6" ry="1.8"/></g>
+      <g fill="#628b54" opacity="0.8"><ellipse cx="-30" cy="22" rx="3" ry="2"/><ellipse cx="0" cy="28" rx="3" ry="2"/><ellipse cx="28" cy="26" rx="3" ry="2"/><ellipse cx="42" cy="10" rx="2.6" ry="1.8"/></g>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+
+    <g filter="url(#wc)">
+      <g filter="url(#soft2)" fill="#ffffff" opacity="0.8">
+        <ellipse cx="200" cy="34" rx="22" ry="5"/><ellipse cx="214" cy="31" rx="12" ry="5"/>
+      </g>
+      <!-- 远处巷口的房子 -->
+      <rect x="0" y="112" width="26" height="62" fill="#e9e0d3"/>
+      <rect x="4" y="122" width="5" height="8" fill="#d6dcda"/><rect x="14" y="122" width="5" height="8" fill="#d6dcda"/>
+
+      <!-- 楼房 1（左，被树挡住大半） -->
+      <rect x="24" y="96" width="82" height="78" fill="#f1d2b2"/>
+      <rect x="22" y="92" width="86" height="5" fill="#cf8463"/><rect x="22" y="96" width="86" height="3" fill="#f8e8d4"/>
+      <use href="#win" transform="translate(40,108)"/><use href="#win" transform="translate(78,108)"/>
+      <path d="M50,174 L50,150 C50,143 66,143 66,150 L66,174 Z" fill="#a8805f"/>
+
+      <!-- 楼房 2 -->
+      <rect x="104" y="64" width="84" height="110" fill="#f4e3bd"/>
+      <rect x="102" y="59" width="88" height="5" fill="#cc7d5c"/><rect x="102" y="63" width="88" height="3.5" fill="#fbf1dc"/>
+      <rect x="104" y="98" width="84" height="2.4" fill="#fbf1dc"/><rect x="104" y="132" width="84" height="2.4" fill="#fbf1dc"/>
+      <use href="#win" transform="translate(118,74)"/><use href="#win" transform="translate(156,74)"/>
+      <use href="#win" transform="translate(118,106)"/><use href="#win" transform="translate(156,106)"/>
+      <use href="#balc" transform="translate(118,124)"/><use href="#balc" transform="translate(156,124)"/>
+      <path d="M114,174 L114,150 C114,142 132,142 132,150 L132,174 Z" fill="#a8805f"/><line x1="123" y1="146" x2="123" y2="174" stroke="#94704f" stroke-width="1"/>
+      <rect x="142" y="150" width="38" height="24" fill="#c9d6d4"/><rect x="142" y="150" width="38" height="24" fill="none" stroke="#9c7a5c" stroke-width="1.5"/>
+      <rect x="146" y="153" width="6" height="12" fill="#fff" opacity="0.4"/>
+      <path d="M138,140 L184,140 L188,150 L134,150 Z" fill="#f5ead8"/><g clip-path="url(#awnClip)" fill="#d9846a"><rect x="134" y="140" width="4" height="10"/><rect x="142" y="140" width="4" height="10"/><rect x="150" y="140" width="4" height="10"/><rect x="158" y="140" width="4" height="10"/><rect x="166" y="140" width="4" height="10"/><rect x="174" y="140" width="4" height="10"/><rect x="182" y="140" width="4" height="10"/></g>
+      <path d="M134,150 C138,153 141,153 144,150 C147,153 150,153 153,150 C156,153 159,153 162,150 C165,153 168,153 171,150 C174,153 177,153 180,150 C183,153 186,153 188,150" fill="#d9846a"/>
+
+      <!-- 楼房 3 -->
+      <rect x="188" y="58" width="76" height="116" fill="#ebc0a6"/>
+      <rect x="186" y="53" width="80" height="5" fill="#c46f50"/><rect x="186" y="57" width="80" height="3.5" fill="#f8e4d6"/>
+      <rect x="188" y="98" width="76" height="2.4" fill="#f8e4d6"/><rect x="188" y="132" width="76" height="2.4" fill="#f8e4d6"/>
+      <use href="#win" transform="translate(202,72)"/><use href="#win" transform="translate(240,72)"/>
+      <use href="#win" transform="translate(202,106)"/><use href="#win" transform="translate(240,106)"/>
+      <rect x="192" y="124" width="68" height="2.4" fill="#f5e6d8"/>
+      <g stroke="#6e6159" stroke-width="0.8"><line x1="193" y1="116" x2="259" y2="116"/>
+        <line x1="194" y1="116" x2="194" y2="124"/><line x1="200" y1="116" x2="200" y2="124"/><line x1="206" y1="116" x2="206" y2="124"/><line x1="212" y1="116" x2="212" y2="124"/><line x1="218" y1="116" x2="218" y2="124"/><line x1="224" y1="116" x2="224" y2="124"/><line x1="230" y1="116" x2="230" y2="124"/><line x1="236" y1="116" x2="236" y2="124"/><line x1="242" y1="116" x2="242" y2="124"/><line x1="248" y1="116" x2="248" y2="124"/><line x1="254" y1="116" x2="254" y2="124"/><line x1="259" y1="116" x2="259" y2="124"/></g>
+      <path d="M216,174 L216,152 C216,140 238,140 238,152 L238,174 Z" fill="#9c7656"/>
+      <path d="M216,152 C216,140 238,140 238,152" fill="none" stroke="#f8e4d6" stroke-width="2.4"/>
+      <line x1="227" y1="146" x2="227" y2="174" stroke="#87664a" stroke-width="1"/>
+      <rect x="196" y="150" width="12" height="14" fill="#c5d3d3"/><rect x="246" y="150" width="12" height="14" fill="#c5d3d3"/>
+
+      <!-- 楼房 4、5（右） -->
+      <rect x="264" y="34" width="82" height="140" fill="#f0dcb6"/>
+      <rect x="262" y="29" width="86" height="5" fill="#cc7d5c"/><rect x="262" y="33" width="86" height="3.5" fill="#fbf0dc"/>
+      <use href="#win" transform="translate(278,44)"/><use href="#win" transform="translate(316,44)"/>
+      <use href="#win" transform="translate(278,76)"/><use href="#win" transform="translate(316,76)"/>
+      <use href="#win" transform="translate(278,108)"/><use href="#win" transform="translate(316,108)"/>
+      <use href="#balc" transform="translate(278,94)"/><use href="#balc" transform="translate(316,94)"/>
+      <rect x="272" y="146" width="66" height="28" fill="#c9d6d4"/><rect x="272" y="146" width="66" height="28" fill="none" stroke="#8c9e93" stroke-width="1.6"/>
+      <line x1="305" y1="146" x2="305" y2="174" stroke="#8c9e93" stroke-width="1.4"/>
+      <rect x="346" y="50" width="56" height="124" fill="#e7c6a6"/>
+      <rect x="344" y="45" width="58" height="5" fill="#c46f50"/><rect x="344" y="49" width="58" height="3.5" fill="#f7e6d4"/>
+      <use href="#win" transform="translate(364,62)"/><use href="#win" transform="translate(364,96)"/>
+      <path d="M362,174 L362,150 C362,143 380,143 380,150 L380,174 Z" fill="#a8805f"/>
+
+      <!-- 人行道 -->
+      <rect x="0" y="172" width="400" height="72" fill="url(#walk)"/>
+      <rect x="0" y="172" width="400" height="3" fill="#d8ccb8" opacity="0.8"/>
+      <g stroke="#d5c9b5" stroke-width="0.9" opacity="0.9">
+        <line x1="0" y1="190" x2="400" y2="190"/><line x1="0" y1="211" x2="400" y2="211"/><line x1="0" y1="230" x2="400" y2="230"/>
+        <line x1="40" y1="175" x2="38" y2="190"/><line x1="120" y1="175" x2="118" y2="190"/><line x1="200" y1="175" x2="198" y2="190"/><line x1="280" y1="175" x2="278" y2="190"/><line x1="360" y1="175" x2="358" y2="190"/>
+        <line x1="80" y1="190" x2="77" y2="211"/><line x1="160" y1="190" x2="157" y2="211"/><line x1="240" y1="190" x2="237" y2="211"/><line x1="320" y1="190" x2="317" y2="211"/>
+        <line x1="36" y1="211" x2="32" y2="230"/><line x1="118" y1="211" x2="114" y2="230"/><line x1="198" y1="211" x2="194" y2="230"/><line x1="278" y1="211" x2="274" y2="230"/><line x1="358" y1="211" x2="354" y2="230"/>
+      </g>
+      <rect x="0" y="242" width="400" height="7" fill="#ddd3c3"/><rect x="0" y="242" width="400" height="2" fill="#f2ebdf"/>
+      <rect x="0" y="249" width="400" height="11" fill="#cfc9c0"/>
+
+      <!-- 树影与阳光 -->
+      <g filter="url(#soft)" opacity="0.22" fill="#8a7a5e">
+        <ellipse cx="72" cy="214" rx="56" ry="10"/><ellipse cx="338" cy="214" rx="56" ry="10"/>
+      </g>
+
+      <!-- 路灯 -->
+      <rect x="266.5" y="128" width="3.4" height="112" fill="#66766d"/>
+      <path d="M263,240 L273,240 L272,232 L264,232 Z" fill="#5d6c64"/>
+      <path d="M261,116 L276,116 L274,128 L263,128 Z" fill="#f7ecd0"/>
+      <path d="M260,116 L277,116 L268.2,108 Z" fill="#66766d"/><rect x="262" y="127" width="13" height="2.6" fill="#66766d"/>
+      <circle cx="268.2" cy="106.6" r="1.8" fill="#66766d"/>
+
+      <!-- 长椅 -->
+      <g fill="#6a776f">
+        <path d="M160,212 L163,212 L165,196 L162,196 Z"/><path d="M240,212 L237,212 L235,196 L238,196 Z"/>
+        <path d="M162,196 C160,190 160,184 162,178 L165,178 C163,184 163,190 165,196 Z"/><path d="M238,196 C240,190 240,184 238,178 L235,178 C237,184 237,190 235,196 Z"/>
+        <path d="M156,194 C158,190 164,190 168,192 L166,195 C162,193 159,193 158,195 Z"/><path d="M244,194 C242,190 236,190 232,192 L234,195 C238,193 241,193 242,195 Z"/>
+      </g>
+      <rect x="158" y="178" width="84" height="5" rx="1.5" fill="#c08c62"/>
+      <rect x="158" y="185" width="84" height="5" rx="1.5" fill="#b58159"/>
+      <path d="M156,195 L244,195 L246,201 L154,201 Z" fill="#c99a6e"/>
+      <rect x="154" y="200" width="92" height="2.4" fill="#a87650"/>
+      <line x1="160" y1="179.5" x2="240" y2="179.5" stroke="#e0b58c" stroke-width="1" opacity="0.7"/>
+
+      <!-- 树 -->
+      <path d="M64,238 C66,210 62,180 66,150 C68,136 70,128 70,118 L80,118 C80,130 80,140 82,152 C84,182 80,212 82,238 Z" fill="url(#trunk)"/>
+      <path d="M70,140 C64,130 56,124 46,120 M80,136 C88,128 96,124 104,122" stroke="#a99a7e" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+      <g fill="#ddd3ba" opacity="0.85"><ellipse cx="70" cy="176" rx="3" ry="6"/><ellipse cx="76" cy="206" rx="2.6" ry="5"/><ellipse cx="72" cy="150" rx="2.2" ry="4"/></g>
+      <g fill="#8f8268" opacity="0.6"><ellipse cx="78" cy="190" rx="2" ry="4"/><ellipse cx="68" cy="222" rx="2" ry="3.4"/></g>
+      <rect x="54" y="236" width="38" height="5" rx="1" fill="#b9ad97"/>
+      <use href="#canopy" transform="translate(72,97) scale(1.05)"/>
+
+      <path d="M330,238 C332,210 328,180 332,150 C334,136 336,128 336,118 L346,118 C346,130 346,140 348,152 C350,182 346,212 348,238 Z" fill="url(#trunk)"/>
+      <path d="M336,140 C330,130 322,124 312,120 M346,136 C354,128 362,124 370,122" stroke="#a99a7e" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+      <g fill="#ddd3ba" opacity="0.85"><ellipse cx="336" cy="170" rx="3" ry="6"/><ellipse cx="342" cy="204" rx="2.6" ry="5"/><ellipse cx="338" cy="146" rx="2.2" ry="4"/></g>
+      <g fill="#8f8268" opacity="0.6"><ellipse cx="344" cy="186" rx="2" ry="4"/><ellipse cx="334" cy="222" rx="2" ry="3.4"/></g>
+      <rect x="320" y="236" width="38" height="5" rx="1" fill="#b9ad97"/>
+      <use href="#canopy" transform="translate(340,84) scale(-1.08,1.05)"/>
+
+      <!-- 落叶 -->
+      <g fill="#c9b36a" opacity="0.9">
+        <ellipse cx="104" cy="222" rx="3" ry="1.6" transform="rotate(20 104 222)"/><ellipse cx="250" cy="218" rx="3" ry="1.6" transform="rotate(-30 250 218)"/>
+        <ellipse cx="160" cy="238" rx="3" ry="1.6" transform="rotate(40 160 238)"/><ellipse cx="372" cy="226" rx="3" ry="1.6" transform="rotate(-10 372 226)"/>
+      </g>
+      <ellipse cx="312" cy="220" rx="3" ry="1.6" transform="rotate(30 312 220)" fill="#a9c27a"/><ellipse cx="40" cy="226" rx="3" ry="1.6" transform="rotate(-20 40 226)" fill="#a9c27a"/>
+      <!-- 面包屑 -->
+      <g fill="#efdcb4"><circle cx="146" cy="233" r="1"/><circle cx="152" cy="236" r="0.9"/><circle cx="200" cy="230" r="1"/><circle cx="208" cy="236" r="0.9"/><circle cx="213" cy="232" r="1"/><circle cx="284" cy="232" r="1"/><circle cx="278" cy="236" r="0.9"/><circle cx="240" cy="238" r="1"/></g>
+      <!-- 鸽子 -->
+      <use href="#pigeon" transform="translate(132,228)"/>
+      <use href="#pigeon" transform="translate(190,222) scale(-1,1)"/>
+      <use href="#pigeon" transform="translate(222,234) rotate(24)"/>
+      <use href="#pigeon" transform="translate(298,226) scale(-0.95,0.95)"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#7a6650">
+      <ellipse cx="200" cy="213" rx="46" ry="3"/><ellipse cx="268" cy="241" rx="8" ry="2"/>
+      <ellipse cx="129" cy="235" rx="12" ry="2"/><ellipse cx="192" cy="229" rx="12" ry="2"/><ellipse cx="220" cy="241" rx="12" ry="2"/><ellipse cx="300" cy="233" rx="12" ry="2"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

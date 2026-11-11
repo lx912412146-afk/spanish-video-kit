@@ -1,0 +1,285 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_09.mp3",
+ "duration": 63.454,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.43,
+  "sentence_max_dev_lu": 0.36,
+  "short_term_std_lu": 0.91,
+  "short_term_std_full_lu": 0.92,
+  "peak_dbfs": -1.71,
+  "buzz_hz": 15000.0,
+  "buzz_db": 5.9,
+  "comb_db": -1.19
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.01,
+   "parts": [
+    [
+     0.5,
+     2.01
+    ]
+   ],
+   "segments": [
+    "Me perdí en la ciudad."
+   ],
+   "text": "Me perdí en la ciudad.",
+   "read": "Me perdí en la ciudad."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.01,
+   "end": 6.854,
+   "parts": [
+    [
+     3.01,
+     6.854
+    ]
+   ],
+   "segments": [
+    "Durante las vacaciones visité una ciudad que no conocía."
+   ],
+   "text": "Durante las vacaciones visité una ciudad que no conocía.",
+   "read": "Durante las vacaciones visité una ciudad que no conocía."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.854,
+   "end": 11.394,
+   "parts": [
+    [
+     7.854,
+     11.394
+    ]
+   ],
+   "segments": [
+    "Una tarde salí a pasear solo por el casco antiguo."
+   ],
+   "text": "Una tarde salí a pasear solo por el casco antiguo.",
+   "read": "Una tarde salí a pasear solo por el casco antiguo."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.394,
+   "end": 18.604,
+   "parts": [
+    [
+     12.394,
+     18.604
+    ]
+   ],
+   "segments": [
+    "Las calles eran estrechas y las casas tenían colores alegres y balcones con flores."
+   ],
+   "text": "Las calles eran estrechas y las casas tenían colores alegres y balcones con flores.",
+   "read": "Las calles eran estrechas y las casas tenían colores alegres y balcones con flores."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.604,
+   "end": 23.836,
+   "parts": [
+    [
+     19.604,
+     21.932
+    ],
+    [
+     22.212,
+     23.836
+    ]
+   ],
+   "segments": [
+    "Caminé mucho sin mirar el mapa,",
+    "porque todo era precioso."
+   ],
+   "text": "Caminé mucho sin mirar el mapa, porque todo era precioso.",
+   "read": "Caminé mucho sin mirar el mapa, porque todo era precioso."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.836,
+   "end": 29.376,
+   "parts": [
+    [
+     24.836,
+     26.756
+    ],
+    [
+     27.036,
+     29.376
+    ]
+   ],
+   "segments": [
+    "Cuando quise volver al hotel,",
+    "me di cuenta de que estaba perdido."
+   ],
+   "text": "Cuando quise volver al hotel, me di cuenta de que estaba perdido.",
+   "read": "Cuando quise volver al hotel, me di cuenta de que estaba perdido."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 30.376,
+   "end": 34.799,
+   "parts": [
+    [
+     30.376,
+     31.699
+    ],
+    [
+     31.979,
+     34.799
+    ]
+   ],
+   "segments": [
+    "Abrí el mapa,",
+    "pero las calles parecían todas iguales."
+   ],
+   "text": "Abrí el mapa, pero las calles parecían todas iguales.",
+   "read": "Abrí el mapa, pero las calles parecían todas iguales."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 35.799,
+   "end": 40.54,
+   "parts": [
+    [
+     35.799,
+     37.96
+    ],
+    [
+     38.24,
+     40.54
+    ]
+   ],
+   "segments": [
+    "Estaba un poco preocupado,",
+    "porque ya se encendían las farolas."
+   ],
+   "text": "Estaba un poco preocupado, porque ya se encendían las farolas.",
+   "read": "Estaba un poco preocupado, porque ya se encendían las farolas."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 41.54,
+   "end": 45.94,
+   "parts": [
+    [
+     41.54,
+     45.94
+    ]
+   ],
+   "segments": [
+    "Entonces un señor mayor me preguntó si necesitaba ayuda."
+   ],
+   "text": "Entonces un señor mayor me preguntó si necesitaba ayuda.",
+   "read": "Entonces un señor mayor me preguntó si necesitaba ayuda."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 46.94,
+   "end": 51.664,
+   "parts": [
+    [
+     46.94,
+     51.664
+    ]
+   ],
+   "segments": [
+    "Me explicó el camino muy amablemente y me acompañó hasta una plaza."
+   ],
+   "text": "Me explicó el camino muy amablemente y me acompañó hasta una plaza.",
+   "read": "Me explicó el camino muy amablemente y me acompañó hasta una plaza."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 52.664,
+   "end": 55.774,
+   "parts": [
+    [
+     52.664,
+     55.774
+    ]
+   ],
+   "segments": [
+    "Desde allí encontré mi hotel sin problemas."
+   ],
+   "text": "Desde allí encontré mi hotel sin problemas.",
+   "read": "Desde allí encontré mi hotel sin problemas."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 56.774,
+   "end": 62.254,
+   "parts": [
+    [
+     56.774,
+     62.254
+    ]
+   ],
+   "segments": [
+    "Aquel día aprendí que perderse también es una forma de conocer una ciudad."
+   ],
+   "text": "Aquel día aprendí que perderse también es una forma de conocer una ciudad.",
+   "read": "Aquel día aprendí que perderse también es una forma de conocer una ciudad."
+  }
+ ]
+}

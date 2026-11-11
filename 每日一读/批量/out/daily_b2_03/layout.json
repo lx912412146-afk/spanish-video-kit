@@ -1,0 +1,292 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  642.234375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  650.234375
+ ],
+ "zh": [
+  96,
+  676.234375,
+  480,
+  892.359375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  233.9375,
+  131.625
+ ],
+ "header_gap": 193.984375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   3
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   6.2,
+   "Hace dos años, Diego se mudó de la capital a un pueblo"
+  ],
+  [
+   "mid",
+   4.3,
+   "rodeado de colinas. Gracias al teletrabajo, ahora trabaja desde el"
+  ],
+  [
+   "mid",
+   3.9,
+   "patio, con su portátil frente a los campos. Como él, cada vez más"
+  ],
+  [
+   "mid",
+   3.9,
+   "personas dejan las ciudades en busca de tranquilidad. Su llegada"
+  ],
+  [
+   "mid",
+   3.7,
+   "ha sido recibida con entusiasmo en muchos pueblos que llevaban"
+  ],
+  [
+   "last",
+   3.6,
+   "décadas perdiendo habitantes."
+  ],
+  [
+   "mid",
+   6.6,
+   "No obstante, la vuelta al campo no siempre es tan idílica"
+  ],
+  [
+   "mid",
+   4.7,
+   "como parece. En muchos lugares, la conexión es lenta y apenas"
+  ],
+  [
+   "mid",
+   5,
+   "hay transporte público. Por eso, es fundamental que se mejoren"
+  ],
+  [
+   "mid",
+   6.8,
+   "los servicios y que no se cierren las escuelas. Si los pueblos"
+  ],
+  [
+   "mid",
+   7.2,
+   "recibieran ese apoyo, serían una alternativa real para muchas"
+  ],
+  [
+   "mid",
+   4.9,
+   "familias. Diego, por su parte, asegura que no cambiaría su patio"
+  ],
+  [
+   "last",
+   3.6,
+   "por ninguna oficina."
+  ]
+ ],
+ "es_max_gap": 7.2,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：两棵树之间的吊床、书、草地、斑驳的阳光（水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6f0ec"/><stop offset="0.5" stop-color="#f0f3e8"/><stop offset="1" stop-color="#f7f1df"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d5e1d3"/><stop offset="1" stop-color="#e0e7d4"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6e5ae"/><stop offset="0.45" stop-color="#c2d898"/><stop offset="1" stop-color="#aac884"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f6a4c"/><stop offset="0.45" stop-color="#b48a66"/><stop offset="1" stop-color="#8a644a"/>
+    </linearGradient>
+    <radialGradient id="crownA" cx="0.4" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#a9cf87"/><stop offset="0.6" stop-color="#8cba6e"/><stop offset="1" stop-color="#77a75e"/>
+    </radialGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf2de"/><stop offset="1" stop-color="#efdcbc"/>
+    </linearGradient>
+    <linearGradient id="clothOut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7cba2"/><stop offset="1" stop-color="#d4b289"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#93aec0"/><stop offset="1" stop-color="#7090a6"/>
+    </linearGradient>
+    <path id="cnLp" d="M20,108 C8,100 10,84 24,80 C22,66 36,58 48,62 C54,50 72,46 82,52 C92,44 112,46 118,56 C132,54 146,64 144,76 C158,80 160,96 150,104 C156,116 140,124 128,120 C118,128 100,126 94,120 C84,128 66,126 60,120 C48,126 30,122 28,114 C22,114 18,112 20,108 Z"/>
+    <path id="cnRp" d="M262,92 C246,86 246,68 258,62 C252,46 266,32 282,34 C286,18 304,8 320,12 C330,0 352,-2 364,8 C380,4 396,14 396,28 C410,34 412,56 402,66 C410,80 398,94 384,92 C376,104 356,106 346,98 C334,108 314,106 306,98 C296,106 276,104 272,96 C268,98 264,96 262,92 Z"/>
+    <clipPath id="cnL"><use href="#cnLp"/></clipPath>
+    <clipPath id="cnR"><use href="#cnRp"/></clipPath>
+    <clipPath id="hamIn"><path d="M126,150 Q209,192 292,148 Q209,226 126,150 Z"/></clipPath>
+    <clipPath id="hamOut"><path d="M126,150 Q209,226 292,148 Q209,242 126,150 Z"/></clipPath>
+    <path id="tuft" d="M-5,0 C-4,-4 -3,-7 -4,-10 C-2,-7 -1,-4 0,0 C0,-5 1,-9 3,-12 C3,-8 2,-4 2,0 C3,-3 5,-6 7,-7 C5,-4 4,-2 4,0 Z"/>
+    <g id="flw"><circle cx="0" cy="-1.6" r="1.5"/><circle cx="1.6" cy="0" r="1.5"/><circle cx="0" cy="1.6" r="1.5"/><circle cx="-1.6" cy="0" r="1.5"/><circle r="1" fill="#f2c45e"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空、远山、草地 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <g filter="url(#soft2)" fill="#ffffff" opacity="0.8">
+      <ellipse cx="222" cy="40" rx="22" ry="5.5"/><ellipse cx="236" cy="36" rx="12" ry="5.5"/>
+    </g>
+    <path d="M0,148 C40,136 80,134 120,141 C160,128 200,126 240,137 C280,129 330,128 400,139 L400,175 L0,175 Z" fill="url(#hill)"/>
+    <path d="M0,158 C60,149 120,151 180,157 C240,149 320,147 400,155 L400,180 L0,180 Z" fill="#d0e0bf" opacity="0.85"/>
+    <rect x="0" y="163" width="400" height="97" fill="url(#grass)"/>
+    <path d="M0,163 C80,159 160,165 240,161 C300,159 360,162 400,160 L400,169 L0,169 Z" fill="#dce9ba"/>
+
+    <!-- 树荫（地面上斑驳的影子） -->
+    <g filter="url(#soft2)" fill="#8cb06b" opacity="0.45">
+      <path d="M14,208 C30,200 60,202 74,198 C96,194 130,198 150,202 C170,206 160,214 140,216 C110,220 90,214 70,218 C50,222 24,220 14,214 Z"/>
+      <path d="M236,214 C256,206 290,206 300,202 C330,198 370,202 392,206 L392,226 C360,230 340,224 316,230 C290,234 256,230 240,226 Z"/>
+      <path d="M140,226 C160,220 190,224 210,220 C240,216 270,222 290,226 C280,236 240,234 212,238 C190,240 160,236 140,232 Z"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 远处的小灌木 -->
+      <g fill="#b9cfa6" opacity="0.9">
+        <ellipse cx="178" cy="157" rx="12" ry="6"/><ellipse cx="194" cy="159" rx="9" ry="5"/><ellipse cx="250" cy="156" rx="10" ry="5"/>
+      </g>
+
+      <!-- 左边的树 -->
+      <path d="M70,214 C74,190 76,166 76,142 C76,128 78,114 82,102 L94,102 C92,116 92,130 92,144 C92,170 94,192 98,214 Z" fill="url(#trunk)"/>
+      <path d="M84,112 C76,102 66,96 54,92" stroke="#9c7656" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M90,108 C100,98 110,92 124,90" stroke="#9c7656" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M78,176 C82,180 84,186 82,194 M90,150 C88,158 89,164 92,170" stroke="#82604a" stroke-width="1" fill="none" opacity="0.6"/>
+      <use href="#cnLp" fill="url(#crownA)"/>
+      <g clip-path="url(#cnL)">
+        <g fill="#6c9d56" opacity="0.7">
+          <ellipse cx="40" cy="122" rx="30" ry="11"/><ellipse cx="96" cy="126" rx="42" ry="12"/><ellipse cx="148" cy="112" rx="16" ry="10"/>
+        </g>
+        <g fill="#c6e1a4" opacity="0.75">
+          <ellipse cx="56" cy="66" rx="18" ry="8"/><ellipse cx="96" cy="56" rx="16" ry="7"/><ellipse cx="30" cy="88" rx="9" ry="6"/><ellipse cx="128" cy="68" rx="10" ry="5"/>
+        </g>
+      </g>
+      <g fill="#7aaa60" opacity="0.6">
+        <path d="M36,98 C42,90 54,88 62,94 C54,92 44,94 36,98 Z"/><path d="M76,86 C84,78 98,78 106,84 C96,82 86,82 76,86 Z"/><path d="M112,100 C120,94 130,93 138,98 C130,96 120,97 112,100 Z"/><path d="M56,112 C64,106 74,106 80,110 C72,109 64,110 56,112 Z"/>
+      </g>
+      <path d="M86,120 L88,108 M80,121 L77,113" stroke="#8f6a4c" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- 右边的树（更近、更大） -->
+      <path d="M314,222 C318,192 320,162 320,132 C320,102 318,74 314,50 L330,50 C332,76 334,104 334,132 C334,164 336,194 342,222 Z" fill="url(#trunk)"/>
+      <path d="M320,98 C308,86 296,80 280,76" stroke="#9c7656" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M330,86 C342,74 354,68 370,64" stroke="#9c7656" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M322,152 C326,160 326,170 324,180 M330,112 C328,120 329,128 332,134" stroke="#82604a" stroke-width="1" fill="none" opacity="0.6"/>
+      <use href="#cnRp" fill="url(#crownA)"/>
+      <g clip-path="url(#cnR)">
+        <g fill="#6c9d56" opacity="0.7">
+          <ellipse cx="290" cy="104" rx="34" ry="12"/><ellipse cx="360" cy="106" rx="42" ry="13"/><ellipse cx="406" cy="80" rx="14" ry="12"/>
+        </g>
+        <g fill="#c6e1a4" opacity="0.75">
+          <ellipse cx="300" cy="28" rx="18" ry="8"/><ellipse cx="342" cy="14" rx="18" ry="7"/><ellipse cx="268" cy="56" rx="9" ry="6"/><ellipse cx="380" cy="30" rx="10" ry="5"/>
+        </g>
+      </g>
+      <g fill="#7aaa60" opacity="0.6">
+        <path d="M274,74 C282,66 294,64 300,70 C292,68 282,70 274,74 Z"/><path d="M316,54 C326,46 340,46 346,52 C336,50 326,51 316,54 Z"/><path d="M360,72 C368,64 382,64 388,70 C378,68 368,69 360,72 Z"/><path d="M298,90 C306,84 318,84 324,88 C316,87 306,88 298,90 Z"/><path d="M348,34 C356,28 368,28 372,32 C364,31 356,32 348,34 Z"/>
+      </g>
+      <path d="M324,102 L322,90 M332,101 L336,92" stroke="#8f6a4c" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 吊床绳子 -->
+      <g stroke="#b3936b" stroke-width="1" fill="none">
+        <path d="M92,138 L126,148"/><path d="M92,138 L126,150"/><path d="M92,138 L127,152"/><path d="M92,138 L128,154"/>
+        <path d="M320,134 L292,146"/><path d="M320,134 L292,148"/><path d="M320,134 L291,150"/><path d="M320,134 L290,152"/>
+      </g>
+      <path d="M75,138 C82,134 90,134 94,138 C90,141 82,141 75,138 Z" fill="#cbb08a"/>
+      <path d="M335,134 C328,130 322,130 318,134 C322,137 328,137 335,134 Z" fill="#cbb08a"/>
+
+      <!-- 吊床布：外侧和内侧 -->
+      <path d="M126,150 Q209,242 292,148 Q209,226 126,150 Z" fill="url(#clothOut)"/>
+      <g clip-path="url(#hamOut)" fill="none" stroke-width="3">
+        <path d="M126,150 Q209,232 292,148" stroke="#d98a63"/>
+        <path d="M126,150 Q209,238 292,148" stroke="#9fbd8b" stroke-width="2"/>
+      </g>
+      <path d="M126,150 Q209,192 292,148 Q209,226 126,150 Z" fill="url(#cloth)"/>
+      <g clip-path="url(#hamIn)" fill="none" stroke-width="3.4">
+        <path d="M126,150 Q209,199 292,148" stroke="#e39a74"/>
+        <path d="M126,150 Q209,206 292,148" stroke="#a9c495"/>
+        <path d="M126,150 Q209,213 292,148" stroke="#ebc67e"/>
+        <path d="M126,150 Q209,220 292,148" stroke="#e39a74" stroke-width="2"/>
+      </g>
+      <path d="M126,150 Q209,192 292,148" stroke="#e2c79f" stroke-width="1.6" fill="none"/>
+      <path d="M126,150 Q209,226 292,148" stroke="#f3e2c4" stroke-width="1.6" fill="none"/>
+
+      <!-- 吊床上的书（扣着打开） -->
+      <path d="M187,184 L212,170 L238,185 L235,188 L212,175 L190,187 Z" fill="#f6efdf"/>
+      <path d="M190,187 L212,175 L235,188" stroke="#e4d6bb" stroke-width="0.8" fill="none"/>
+      <path d="M183,184 L211,168 L213,172 L187,187 Z" fill="url(#cover)"/>
+      <path d="M211,168 L242,184 L238,188 L213,172 Z" fill="#7393a9"/>
+      <path d="M210,167.5 L214,167.5 L214.5,172 L211,172.5 Z" fill="#5f7a8e"/>
+
+      <!-- 光斑落在吊床和树干上 -->
+      <g fill="#fffbe6" opacity="0.6" filter="url(#soft2)">
+        <ellipse cx="252" cy="196" rx="8" ry="3"/><ellipse cx="168" cy="186" rx="6" ry="2.5"/>
+      </g>
+
+      <!-- 草丛和小花 -->
+      <g fill="#93b86f">
+        <use href="#tuft" transform="translate(30,234) scale(1.3)"/><use href="#tuft" transform="translate(70,250) scale(1.2)"/>
+        <use href="#tuft" transform="translate(150,244) scale(1.1)"/><use href="#tuft" transform="translate(262,248) scale(1.3)"/>
+        <use href="#tuft" transform="translate(372,240) scale(1.2)"/><use href="#tuft" transform="translate(62,212) scale(0.9)"/>
+        <use href="#tuft" transform="translate(352,220) scale(1)"/><use href="#tuft" transform="translate(304,226) scale(0.9)"/>
+        <use href="#tuft" transform="translate(206,254) scale(1.2)"/><use href="#tuft" transform="translate(104,216) scale(0.8)"/>
+      </g>
+      <g fill="#7ea85d">
+        <use href="#tuft" transform="translate(36,236) scale(1)"/><use href="#tuft" transform="translate(268,250) scale(1)"/>
+        <use href="#tuft" transform="translate(378,242) scale(0.9)"/><use href="#tuft" transform="translate(98,218) scale(0.9)"/>
+        <use href="#tuft" transform="translate(350,222) scale(0.8)"/>
+      </g>
+      <g fill="#fbf6ea">
+        <use href="#flw" transform="translate(50,228)"/><use href="#flw" transform="translate(178,248) scale(0.9)"/>
+        <use href="#flw" transform="translate(356,250)"/><use href="#flw" transform="translate(236,246) scale(0.8)"/>
+        <use href="#flw" transform="translate(140,196) scale(0.7)"/><use href="#flw" transform="translate(280,196) scale(0.6)"/>
+      </g>
+      <g fill="#f0b2a2">
+        <use href="#flw" transform="translate(92,242) scale(0.9)"/><use href="#flw" transform="translate(296,240) scale(0.8)"/>
+        <use href="#flw" transform="translate(384,212) scale(0.7)"/><use href="#flw" transform="translate(30,206) scale(0.6)"/>
+      </g>
+    </g>
+
+    <!-- 地面上的光斑 -->
+    <g filter="url(#soft2)" fill="#fbf4c8" opacity="0.85">
+      <ellipse cx="44" cy="208" rx="8" ry="2.2"/><ellipse cx="122" cy="206" rx="6" ry="1.8"/><ellipse cx="96" cy="212" rx="4" ry="1.4"/>
+      <ellipse cx="262" cy="214" rx="8" ry="2.2"/><ellipse cx="368" cy="218" rx="7" ry="2"/><ellipse cx="300" cy="222" rx="5" ry="1.6"/>
+      <ellipse cx="178" cy="230" rx="9" ry="2.4"/><ellipse cx="246" cy="228" rx="6" ry="1.8"/><ellipse cx="214" cy="234" rx="4" ry="1.4"/>
+    </g>
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#5f6e3e">
+      <ellipse cx="210" cy="236" rx="66" ry="5"/><ellipse cx="84" cy="215" rx="22" ry="3"/><ellipse cx="328" cy="223" rx="26" ry="3.5"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_03",
+ "level": "C1",
+ "no": 3,
+ "title_es": "Elogio de la lentitud",
+ "title_zh": "慢的颂歌",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 3 篇。原创短文。主要语法：más que + 原形 的比较插入语，mientras 引导的同时状语，lo + 形容词的名词化（lo valioso），como si + 过去虚拟式，省略动词的逗号（cualquier demora, un fracaso personal），no pretende…sino 对照，过去虚拟式条件句（Si dejáramos que las cosas duraran…, descubriríamos…）。7 句，133 词。第一人称叙述者没有用到需要变性的形容词。特别判断：第 4 句 cualquier demora 后面的逗号代替省略的 fuera，照常停顿；第 5 句三个并列分句之间的逗号照常停顿；全篇没有名词列举，no_pause_commas 为 {}。leer en diagonal 是“匆匆浏览、一目十行”，词汇收整个说法 leer en diagonal（原文 leemos en diagonal），释义“粗略浏览”，不单收 en diagonal（单用是“斜着”）；第 6 句 pretender 是“意在、打算”，不是“假装”，选入词汇，替换了偏 B1 的 virtud；dar más de sí 指时间“比想象的更经用”，译作“更宽裕”。标题里的 elogio、lentitud 在第 6 句出现，排在词汇最前。插图里的沙漏、茶杯和窗外的云对应第 1—3 句。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "elogio",
+   "赞美",
+   "elogio"
+  ],
+  [
+   "lentitud",
+   "缓慢",
+   "lentitud"
+  ],
+  [
+   "reloj de arena",
+   "沙漏",
+   "reloj de arena"
+  ],
+  [
+   "contemplar",
+   "凝望",
+   "contemplarlo"
+  ],
+  [
+   "grano a grano",
+   "一粒一粒",
+   "grano a grano"
+  ],
+  [
+   "reposar",
+   "静置",
+   "reposa"
+  ],
+  [
+   "valioso",
+   "珍贵的",
+   "valioso"
+  ],
+  [
+   "madurar",
+   "成熟",
+   "madura"
+  ],
+  [
+   "forzar",
+   "强求",
+   "forzar"
+  ],
+  [
+   "demora",
+   "耽搁",
+   "demora"
+  ],
+  [
+   "leer en diagonal",
+   "粗略浏览",
+   "leemos en diagonal"
+  ],
+  [
+   "saborear",
+   "品味",
+   "saboreamos"
+  ],
+  [
+   "pretender",
+   "意在",
+   "pretende"
+  ],
+  [
+   "pereza",
+   "懒惰",
+   "pereza"
+  ],
+  [
+   "reivindicar",
+   "主张",
+   "reivindicar"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Junto a la ventana conservo un reloj de arena que, más que medir el tiempo, parece invitarme a contemplarlo.",
+    "zh": "我在窗边放着一只沙漏，它与其说是在计时，不如说是在邀我静静凝望时间。"
+   },
+   {
+    "es": "Mientras la arena cae grano a grano y el té reposa en la taza, las nubes cruzan el cielo sin prisa.",
+    "zh": "沙子一粒一粒落下、茶在杯中静置的时候，云朵正不慌不忙地飘过天空。"
+   },
+   {
+    "es": "Observarlas me recuerda que casi todo lo valioso madura a un ritmo que no podemos forzar.",
+    "zh": "看着它们，我便想起，几乎一切珍贵的东西，都以一种我们无法强求的节奏慢慢成熟。"
+   }
+  ],
+  [
+   {
+    "es": "Vivimos, sin embargo, como si la rapidez fuera una virtud en sí misma y cualquier demora, un fracaso personal.",
+    "zh": "然而我们活得仿佛快本身就是一种美德，而任何耽搁都是个人的失败。"
+   },
+   {
+    "es": "Respondemos los mensajes al instante, leemos en diagonal y apenas saboreamos lo que comemos.",
+    "zh": "我们即刻回复消息，读书一目十行，吃饭也难得细细品尝。"
+   },
+   {
+    "es": "Este elogio de la lentitud no pretende defender la pereza, sino reivindicar la atención plena que merecen las cosas importantes.",
+    "zh": "这番对慢的赞美并非要为懒惰辩护，而是主张给重要的事以应有的专注。"
+   },
+   {
+    "es": "Si de vez en cuando dejáramos que las cosas duraran lo que tienen que durar, quizá descubriríamos que el tiempo da más de sí.",
+    "zh": "如果我们偶尔让事情该持续多久就持续多久，或许会发现，时间比我们想象的更宽裕。"
+   }
+  ]
+ ]
+}

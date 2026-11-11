@@ -1,0 +1,262 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_10.mp3",
+ "duration": 60.75,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.42,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.75,
+  "buzz_hz": 7850.1,
+  "buzz_db": 5.2,
+  "comb_db": -0.23
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.14,
+   "parts": [
+    [
+     0.5,
+     2.14
+    ]
+   ],
+   "segments": [
+    "Un mercado de segunda mano."
+   ],
+   "text": "Un mercado de segunda mano.",
+   "read": "Un mercado de segunda mano."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.14,
+   "end": 8.28,
+   "parts": [
+    [
+     3.14,
+     8.28
+    ]
+   ],
+   "segments": [
+    "Casi todos los domingos visito un mercado de segunda mano que se monta en una plaza de mi barrio."
+   ],
+   "text": "Casi todos los domingos visito un mercado de segunda mano que se monta en una plaza de mi barrio.",
+   "read": "Casi todos los domingos visito un mercado de segunda mano que se monta en una plaza de mi barrio."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.28,
+   "end": 13.26,
+   "parts": [
+    [
+     9.28,
+     13.26
+    ]
+   ],
+   "segments": [
+    "Entre los puestos cuelgan guirnaldas de luces que dan al lugar un aire alegre."
+   ],
+   "text": "Entre los puestos cuelgan guirnaldas de luces que dan al lugar un aire alegre.",
+   "read": "Entre los puestos cuelgan guirnaldas de luces que dan al lugar un aire alegre."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.26,
+   "end": 19.62,
+   "parts": [
+    [
+     14.26,
+     19.62
+    ]
+   ],
+   "segments": [
+    "Allí se venden libros viejos, cámaras antiguas, jarrones y hasta sillas de madera."
+   ],
+   "text": "Allí se venden libros viejos, cámaras antiguas, jarrones y hasta sillas de madera.",
+   "read": "Allí se venden libros viejos, cámaras antiguas, jarrones y hasta sillas de madera."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.62,
+   "end": 24.4,
+   "parts": [
+    [
+     20.62,
+     24.4
+    ]
+   ],
+   "segments": [
+    "La semana pasada encontré una novela que buscaba desde hacía mucho tiempo."
+   ],
+   "text": "La semana pasada encontré una novela que buscaba desde hacía mucho tiempo.",
+   "read": "La semana pasada encontré una novela que buscaba desde hacía mucho tiempo."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 25.4,
+   "end": 31.23,
+   "parts": [
+    [
+     25.4,
+     26.28
+    ],
+    [
+     26.56,
+     28.29
+    ],
+    [
+     28.57,
+     31.23
+    ]
+   ],
+   "segments": [
+    "La vendedora,",
+    "una señora llamada Rosa,",
+    "me la dejó más barata porque somos casi vecinos."
+   ],
+   "text": "La vendedora, una señora llamada Rosa, me la dejó más barata porque somos casi vecinos.",
+   "read": "La vendedora, una señora llamada Rosa, me la dejó más barata porque somos casi vecinos."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 32.23,
+   "end": 37.04,
+   "parts": [
+    [
+     32.23,
+     37.04
+    ]
+   ],
+   "segments": [
+    "Me encanta imaginar la historia que hay detrás de cada objeto y quién lo tuvo antes."
+   ],
+   "text": "Me encanta imaginar la historia que hay detrás de cada objeto y quién lo tuvo antes.",
+   "read": "Me encanta imaginar la historia que hay detrás de cada objeto y quién lo tuvo antes."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 38.04,
+   "end": 42.95,
+   "parts": [
+    [
+     38.04,
+     42.95
+    ]
+   ],
+   "segments": [
+    "Además, comprar cosas usadas es una forma sencilla de cuidar el medio ambiente."
+   ],
+   "text": "Además, comprar cosas usadas es una forma sencilla de cuidar el medio ambiente.",
+   "read": "Además, comprar cosas usadas es una forma sencilla de cuidar el medio ambiente."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 43.95,
+   "end": 49.08,
+   "parts": [
+    [
+     43.95,
+     46.57
+    ],
+    [
+     46.85,
+     49.08
+    ]
+   ],
+   "segments": [
+    "Aunque algunos objetos estén algo estropeados,",
+    "muchos se pueden arreglar con paciencia."
+   ],
+   "text": "Aunque algunos objetos estén algo estropeados, muchos se pueden arreglar con paciencia.",
+   "read": "Aunque algunos objetos estén algo estropeados, muchos se pueden arreglar con paciencia."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 50.08,
+   "end": 53.89,
+   "parts": [
+    [
+     50.08,
+     53.89
+    ]
+   ],
+   "segments": [
+    "Ahora busco una silla antigua para que mi salón resulte más acogedor."
+   ],
+   "text": "Ahora busco una silla antigua para que mi salón resulte más acogedor.",
+   "read": "Ahora busco una silla antigua para que mi salón resulte más acogedor."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 54.89,
+   "end": 59.55,
+   "parts": [
+    [
+     54.89,
+     56.74
+    ],
+    [
+     57.02,
+     59.55
+    ]
+   ],
+   "segments": [
+    "Sin este pequeño mercado,",
+    "mis domingos serían mucho más aburridos."
+   ],
+   "text": "Sin este pequeño mercado, mis domingos serían mucho más aburridos.",
+   "read": "Sin este pequeño mercado, mis domingos serían mucho más aburridos."
+  }
+ ]
+}

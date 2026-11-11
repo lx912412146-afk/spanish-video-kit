@@ -1,0 +1,306 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  596.5625
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  604.5625
+ ],
+ "zh": [
+  96,
+  630.5625,
+  480,
+  823.5625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  221.046875,
+  131.625
+ ],
+ "header_gap": 211.59375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   1
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ],
+  [
+   "13",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.1,
+   "Ya estamos en invierno y hace mucho frío en mi ciudad. Hoy"
+  ],
+  [
+   "mid",
+   5.2,
+   "nieva por primera vez este año. Desde la ventana veo los tejados"
+  ],
+  [
+   "mid",
+   4.3,
+   "blancos y la calle llena de nieve. La gente camina despacio porque"
+  ],
+  [
+   "mid",
+   3.8,
+   "hay hielo en la acera. Antes de salir, me pongo el abrigo, la bufanda"
+  ],
+  [
+   "mid",
+   6.2,
+   "y los guantes. Mi hermana Lucía siempre lleva un gorro de lana"
+  ],
+  [
+   "last",
+   0,
+   "enorme."
+  ],
+  [
+   "mid",
+   4,
+   "Por la tarde vamos a jugar con la nieve en el parque. Hacemos"
+  ],
+  [
+   "mid",
+   3.6,
+   "un muñeco de nieve con una nariz de zanahoria. Después volvemos"
+  ],
+  [
+   "mid",
+   7,
+   "a casa cansados y con las manos frías. Dejo la bufanda y los"
+  ],
+  [
+   "mid",
+   7,
+   "guantes en una silla. Mi madre prepara chocolate caliente para"
+  ],
+  [
+   "last",
+   3.4,
+   "todos. Para mí, el invierno es una estación muy bonita."
+  ]
+ ],
+ "es_max_gap": 7,
+ "es_font": [
+  12.9,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

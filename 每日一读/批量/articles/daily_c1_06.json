@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_06",
+ "level": "C1",
+ "no": 6,
+ "title_es": "El paisaje como patrimonio",
+ "title_zh": "作为遗产的风景",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 6 篇。原创短文。主要语法：被动 se（se divisan los bancales），副动词表伴随（sabiendo que…），过去时中的条件式表“过去的将来”（jamás vería），no es…sino 对照，过去虚拟式条件句（Si esos bancales se abandonaran, el monte los cubriría…），no implica…sino garantizar que + 虚拟式，mientras haya quien + 虚拟式。7 句，130 词。没有第一人称叙述者。特别判断：bancal 是西班牙山区常见的“梯田、台地”，比 terraza 更地道，选入词汇；monte 在这里指无人耕种、长满灌木的山野，释义作“灌木荒草”；piedra seca 指不用灰浆的干砌石墙；避开了 rural 一词，用 pueblo de casas blancas、la tierra 等说法。全篇没有名词列举（palacios y monumentos 只有两项、没有逗号），no_pause_commas 为 {}。插图里的层层梯田、橄榄树和山坡上的小村庄对应第 1、2 句。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "patrimonio",
+   "遗产",
+   "patrimonio"
+  ],
+  [
+   "divisar",
+   "远远望见",
+   "divisan"
+  ],
+  [
+   "bancal",
+   "梯田",
+   "bancales"
+  ],
+  [
+   "ladera",
+   "山坡",
+   "ladera"
+  ],
+  [
+   "olivo",
+   "橄榄树",
+   "olivos"
+  ],
+  [
+   "centenario",
+   "百年的",
+   "centenarios"
+  ],
+  [
+   "cosecha",
+   "收成",
+   "cosecha"
+  ],
+  [
+   "fruto",
+   "成果",
+   "fruto"
+  ],
+  [
+   "heredar",
+   "继承",
+   "heredado"
+  ],
+  [
+   "levantar",
+   "建造",
+   "levantaron"
+  ],
+  [
+   "monte",
+   "灌木荒草",
+   "monte"
+  ],
+  [
+   "habitar",
+   "栖居",
+   "habitar"
+  ],
+  [
+   "congelar",
+   "冻结",
+   "congelarlos"
+  ],
+  [
+   "al fin y al cabo",
+   "归根结底",
+   "Al fin y al cabo"
+  ],
+  [
+   "pervivir",
+   "存续",
+   "pervive"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Desde el camino se divisan los bancales que descienden por la ladera hasta un pueblo de casas blancas.",
+    "zh": "从山路上望去，层层梯田沿着山坡而下，一直延伸到一座满是白房子的小村。"
+   },
+   {
+    "es": "Entre ellos crecen olivos centenarios que alguien plantó sabiendo que jamás vería su mejor cosecha.",
+    "zh": "梯田间长着百年的橄榄树，种下它们的人明知自己永远等不到最好的收成。"
+   },
+   {
+    "es": "Este paisaje no es obra exclusiva de la naturaleza, sino fruto de siglos de trabajo paciente y de un saber heredado.",
+    "zh": "这片风景并非只是大自然的作品，而是数百年耐心劳作与代代相传的知识的成果。"
+   }
+  ],
+  [
+   {
+    "es": "Tendemos a asociar el patrimonio con palacios y monumentos, pero un muro de piedra seca también guarda la memoria de quienes lo levantaron.",
+    "zh": "我们往往把遗产与宫殿、纪念碑联系在一起，但一道干砌石墙同样保存着筑墙人的记忆。"
+   },
+   {
+    "es": "Si esos bancales se abandonaran, el monte los cubriría en pocos años y con ellos desaparecería una forma de habitar la tierra.",
+    "zh": "如果这些梯田遭到荒废，几年之内灌木荒草就会将它们覆盖，一种栖居于这片土地的方式也将随之消失。"
+   },
+   {
+    "es": "Protegerlos no implica congelarlos como una postal, sino garantizar que sigan siendo útiles para quienes viven allí.",
+    "zh": "保护它们，并不是要把它们冻结成一张明信片，而是要确保它们对当地人依然有用。"
+   },
+   {
+    "es": "Al fin y al cabo, un paisaje solo pervive mientras haya quien lo trabaje.",
+    "zh": "归根结底，只有还有人在耕作，一片风景才能延续下去。"
+   }
+  ]
+ ]
+}

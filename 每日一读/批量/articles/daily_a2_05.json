@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_05",
+ "level": "A2",
+ "no": 5,
+ "title_es": "Mi primer viaje en avión",
+ "title_zh": "第一次坐飞机",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 5 篇。原创短文。简单过去时叙述第一次坐飞机（hice、facturé、despegó、sentí），过去未完成时描写窗外的景色（volábamos、parecían、veía、brillaba），结尾用现在完成时 he viajado。11 句，115 词。第 4 句 Facturé la maleta, pasé el control y esperé en la puerta de embarque 是三个动作的并列谓语，不是名词列举，逗号照常停顿；第 9 句 Abajo 后、第 10 句关系从句 que brillaba 前的逗号也照常停顿。pasar el control 指过安检；ventanilla 是飞机的舷窗，pedir ventanilla 是“要靠窗的座位”；el ala 是阴性名词前用 el；viaje 和 avión 在标题里，排在词汇最前。机翼、白云、地面和蓝天对应插图。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "viaje",
+   "旅行",
+   "viaje"
+  ],
+  [
+   "avión",
+   "飞机",
+   "avión"
+  ],
+  [
+   "anterior",
+   "之前的",
+   "anterior"
+  ],
+  [
+   "aeropuerto",
+   "机场",
+   "aeropuerto"
+  ],
+  [
+   "facturar",
+   "托运",
+   "Facturé"
+  ],
+  [
+   "maleta",
+   "行李箱",
+   "maleta"
+  ],
+  [
+   "puerta de embarque",
+   "登机口",
+   "puerta de embarque"
+  ],
+  [
+   "ventanilla",
+   "舷窗",
+   "ventanilla"
+  ],
+  [
+   "despegar",
+   "起飞",
+   "despegó"
+  ],
+  [
+   "miedo",
+   "害怕",
+   "miedo"
+  ],
+  [
+   "nube",
+   "云",
+   "nubes"
+  ],
+  [
+   "algodón",
+   "棉花",
+   "algodón"
+  ],
+  [
+   "tierra",
+   "大地",
+   "tierra"
+  ],
+  [
+   "ala",
+   "机翼",
+   "ala"
+  ],
+  [
+   "brillar",
+   "闪闪发光",
+   "brillaba"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El verano pasado hice mi primer viaje en avión.",
+    "zh": "去年夏天，我第一次坐飞机旅行。"
+   },
+   {
+    "es": "La noche anterior no pude dormir porque estaba un poco nervioso.",
+    "zh": "前一天晚上我没睡着，因为我有点紧张。"
+   },
+   {
+    "es": "En el aeropuerto había mucha gente y todo era enorme.",
+    "zh": "机场里人很多，一切都显得那么大。"
+   },
+   {
+    "es": "Facturé la maleta, pasé el control y esperé en la puerta de embarque.",
+    "zh": "我托运了行李箱，过了安检，然后在登机口等着。"
+   },
+   {
+    "es": "Me senté junto a la ventanilla, porque quería verlo todo.",
+    "zh": "我坐在舷窗旁边，因为我什么都想看看。"
+   }
+  ],
+  [
+   {
+    "es": "Cuando el avión despegó, sentí un poco de miedo.",
+    "zh": "飞机起飞的时候，我有点害怕。"
+   },
+   {
+    "es": "Unos minutos después, ya volábamos por encima de las nubes.",
+    "zh": "几分钟后，我们已经在云层上方飞行了。"
+   },
+   {
+    "es": "Las nubes parecían algodón y el cielo era de un azul intenso.",
+    "zh": "云朵像棉花一样，天空是一片浓浓的蓝色。"
+   },
+   {
+    "es": "Abajo, la tierra parecía un mapa con campos de colores.",
+    "zh": "往下看，大地就像一张地图，上面是一块块彩色的田野。"
+   },
+   {
+    "es": "También veía el ala del avión, que brillaba bajo el sol.",
+    "zh": "我还能看见飞机的机翼，在阳光下闪闪发亮。"
+   },
+   {
+    "es": "Desde entonces he viajado más veces, pero siempre pido ventanilla.",
+    "zh": "从那以后，我又坐过好几次飞机，但总是要靠窗的座位。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,273 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_08.mp3",
+ "duration": 57.36,
+ "sentence_pause": 0.8,
+ "loudness": {
+  "integrated_lufs": -16.5,
+  "sentence_max_dev_lu": 0.54,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.73,
+  "buzz_hz": 4937.3,
+  "buzz_db": 4.9,
+  "comb_db": -0.38
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.8,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.31,
+   "parts": [
+    [
+     0.5,
+     2.31
+    ]
+   ],
+   "segments": [
+    "La amistad en la edad adulta."
+   ],
+   "text": "La amistad en la edad adulta.",
+   "read": "La amistad en la edad adulta."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.11,
+   "end": 8.63,
+   "parts": [
+    [
+     3.11,
+     4.8
+    ],
+    [
+     5.08,
+     8.63
+    ]
+   ],
+   "segments": [
+    "Cuando éramos estudiantes,",
+    "mis amigos y yo nos veíamos casi a diario sin planear nada."
+   ],
+   "text": "Cuando éramos estudiantes, mis amigos y yo nos veíamos casi a diario sin planear nada.",
+   "read": "Cuando éramos estudiantes, mis amigos y yo nos veíamos casi a diario sin planear nada."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.43,
+   "end": 16.5,
+   "parts": [
+    [
+     9.43,
+     10.42
+    ],
+    [
+     10.7,
+     11.83
+    ],
+    [
+     12.11,
+     16.5
+    ]
+   ],
+   "segments": [
+    "Con los años,",
+    "sin embargo,",
+    "el trabajo, la familia y las mudanzas fueron ocupando nuestro tiempo libre."
+   ],
+   "text": "Con los años, sin embargo, el trabajo, la familia y las mudanzas fueron ocupando nuestro tiempo libre.",
+   "read": "Con los años, sin embargo, el trabajo, la familia y las mudanzas fueron ocupando nuestro tiempo libre."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 17.3,
+   "end": 22.21,
+   "parts": [
+    [
+     17.3,
+     20.33
+    ],
+    [
+     20.61,
+     22.21
+    ]
+   ],
+   "segments": [
+    "Las llamadas se volvieron más breves y los encuentros,",
+    "cada vez menos frecuentes."
+   ],
+   "text": "Las llamadas se volvieron más breves y los encuentros, cada vez menos frecuentes.",
+   "read": "Las llamadas se volvieron más breves y los encuentros, cada vez menos frecuentes."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 23.01,
+   "end": 28.29,
+   "parts": [
+    [
+     23.01,
+     23.51
+    ],
+    [
+     23.79,
+     28.29
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "mi amigo Pablo y yo decidimos reservar una tarde al mes para tomar un café."
+   ],
+   "text": "Por eso, mi amigo Pablo y yo decidimos reservar una tarde al mes para tomar un café.",
+   "read": "Por eso, mi amigo Pablo y yo decidimos reservar una tarde al mes para tomar un café."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 29.09,
+   "end": 34.75,
+   "parts": [
+    [
+     29.09,
+     30.95
+    ],
+    [
+     31.23,
+     32.46
+    ],
+    [
+     32.74,
+     34.75
+    ]
+   ],
+   "segments": [
+    "Sentados junto a la ventana,",
+    "hablamos de todo,",
+    "como si no hubiera pasado el tiempo."
+   ],
+   "text": "Sentados junto a la ventana, hablamos de todo, como si no hubiera pasado el tiempo.",
+   "read": "Sentados junto a la ventana, hablamos de todo, como si no hubiera pasado el tiempo."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 35.55,
+   "end": 42.44,
+   "parts": [
+    [
+     35.55,
+     36.93
+    ],
+    [
+     37.21,
+     38.41
+    ],
+    [
+     38.69,
+     42.44
+    ]
+   ],
+   "segments": [
+    "Me di cuenta de que,",
+    "en la edad adulta,",
+    "la amistad depende menos de la frecuencia que de la voluntad de cuidarla."
+   ],
+   "text": "Me di cuenta de que, en la edad adulta, la amistad depende menos de la frecuencia que de la voluntad de cuidarla.",
+   "read": "Me di cuenta de que, en la edad adulta, la amistad depende menos de la frecuencia que de la voluntad de cuidarla."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 43.24,
+   "end": 48.92,
+   "parts": [
+    [
+     43.24,
+     44.23
+    ],
+    [
+     44.51,
+     46.5
+    ],
+    [
+     46.78,
+     48.92
+    ]
+   ],
+   "segments": [
+    "De hecho,",
+    "exige un esfuerzo consciente,",
+    "porque ya no surge de forma espontánea."
+   ],
+   "text": "De hecho, exige un esfuerzo consciente, porque ya no surge de forma espontánea.",
+   "read": "De hecho, exige un esfuerzo consciente, porque ya no surge de forma espontánea."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 49.72,
+   "end": 56.16,
+   "parts": [
+    [
+     49.72,
+     50.7
+    ],
+    [
+     50.98,
+     52.01
+    ],
+    [
+     52.29,
+     56.16
+    ]
+   ],
+   "segments": [
+    "Aun así,",
+    "merece la pena,",
+    "pues un buen amigo ofrece algo que ningún éxito profesional sustituye."
+   ],
+   "text": "Aun así, merece la pena, pues un buen amigo ofrece algo que ningún éxito profesional sustituye.",
+   "read": "Aun así, merece la pena, pues un buen amigo ofrece algo que ningún éxito profesional sustituye."
+  }
+ ]
+}

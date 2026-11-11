@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_10",
+ "level": "B2",
+ "no": 10,
+ "title_es": "Las mascotas en la ciudad",
+ "title_zh": "城市里的宠物",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 10 篇。原创短文。语法：现在时论述、现在完成时（han conocido）、es fundamental que + 现在虚拟式（mantengan、respeten）、conviene + 原形、无人称 se（se dispone de）、过去虚拟式 + 条件式（Si todos fuéramos …, … sería）、名词化（la convivencia）；连接语 de hecho、no obstante、además、en definitiva。9 句，125 词。叙述者只出现在 mi barrio，没有性别标记。mascotas 在正文第 1 句以复数首次出现，和标题一致；词汇表不收一眼就懂的同源词 excusa，改收第 4 句的 reconocer（承认、坦言）；el descanso ajeno 译作“他人的休息”；considerados 在这里是“体贴的、为他人着想的”，不是“被认为的”；第 2 句写公园里带着狗的邻居，和插图里长椅旁的狗、远处的公寓楼对应。全篇没有名词列举，no_pause_commas 为空。第 1 句原为 para muchos、第 6 句原为 Es imprescindible que，为让西语正文两端对齐时词间空白不超过 7.5 px，改为 para mucha gente、Es fundamental que，意思和译文不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "mascota",
+   "宠物",
+   "mascotas"
+  ],
+  [
+   "reunirse",
+   "聚集",
+   "se reúnen"
+  ],
+  [
+   "compañía",
+   "陪伴",
+   "compañía"
+  ],
+  [
+   "dueño",
+   "主人",
+   "dueños"
+  ],
+  [
+   "reconocer",
+   "承认，坦言",
+   "reconocen"
+  ],
+  [
+   "convivir",
+   "共同生活",
+   "convivir"
+  ],
+  [
+   "reducido",
+   "狭小的",
+   "reducidos"
+  ],
+  [
+   "acera",
+   "人行道",
+   "aceras"
+  ],
+  [
+   "ajeno",
+   "他人的",
+   "ajeno"
+  ],
+  [
+   "adoptar",
+   "领养",
+   "adoptar"
+  ],
+  [
+   "convenir",
+   "最好，宜",
+   "conviene"
+  ],
+  [
+   "disponer de",
+   "拥有",
+   "dispone del"
+  ],
+  [
+   "considerado",
+   "体贴的",
+   "considerados"
+  ],
+  [
+   "en definitiva",
+   "总之",
+   "En definitiva"
+  ],
+  [
+   "acoger",
+   "接纳，善待",
+   "acoge"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En las ciudades viven cada vez más mascotas, que para mucha gente son parte de la familia.",
+    "zh": "城市里的宠物越来越多，对许多人来说，它们就是家庭的一分子。"
+   },
+   {
+    "es": "Cada tarde, en el parque de mi barrio, se reúnen vecinos con sus perros.",
+    "zh": "每天下午，我们街区的公园里都会聚集一些带着狗的邻居。"
+   },
+   {
+    "es": "Para quienes viven solos, un animal ofrece compañía y una excusa para salir a caminar.",
+    "zh": "对独居的人来说，动物既能带来陪伴，也给了他们出门散步的理由。"
+   },
+   {
+    "es": "De hecho, muchos dueños reconocen que han conocido a sus vecinos gracias a su perro.",
+    "zh": "事实上，许多主人坦言，自己正是因为狗才认识了邻居。"
+   }
+  ],
+  [
+   {
+    "es": "No obstante, convivir con animales en espacios reducidos exige responsabilidad.",
+    "zh": "然而，在狭小的空间里与动物共同生活，需要有责任心。"
+   },
+   {
+    "es": "Es fundamental que los dueños mantengan limpias las aceras y respeten el descanso ajeno.",
+    "zh": "主人必须保持人行道的清洁，并尊重他人的休息。"
+   },
+   {
+    "es": "Además, antes de adoptar, conviene pensar si se dispone del tiempo y el espacio necesarios.",
+    "zh": "此外，在领养之前，最好先想一想自己是否有足够的时间和空间。"
+   },
+   {
+    "es": "Si todos fuéramos más considerados, la convivencia sería mucho más sencilla.",
+    "zh": "如果大家都能多为别人着想，共同生活就会容易得多。"
+   },
+   {
+    "es": "En definitiva, una ciudad que acoge bien a sus mascotas suele ser más amable.",
+    "zh": "总之，一座善待宠物的城市，往往也更加友善。"
+   }
+  ]
+ ]
+}

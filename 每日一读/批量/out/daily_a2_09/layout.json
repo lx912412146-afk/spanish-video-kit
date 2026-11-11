@@ -1,0 +1,298 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  594.5
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  602.5
+ ],
+ "zh": [
+  96,
+  628.5,
+  480,
+  821.5
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  251.828125,
+  131.625
+ ],
+ "header_gap": 129.515625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.8,
+   "Durante las vacaciones visité una ciudad que no conocía. Una"
+  ],
+  [
+   "mid",
+   7.8,
+   "tarde salí a pasear solo por el casco antiguo. Las calles eran"
+  ],
+  [
+   "mid",
+   4.9,
+   "estrechas y las casas tenían colores alegres y balcones con flores."
+  ],
+  [
+   "mid",
+   3.5,
+   "Caminé mucho sin mirar el mapa, porque todo era precioso. Cuando"
+  ],
+  [
+   "last",
+   3.4,
+   "quise volver al hotel, me di cuenta de que estaba perdido."
+  ],
+  [
+   "mid",
+   4.4,
+   "Abrí el mapa, pero las calles parecían todas iguales. Estaba un"
+  ],
+  [
+   "mid",
+   4.3,
+   "poco preocupado, porque ya se encendían las farolas. Entonces un"
+  ],
+  [
+   "mid",
+   3.5,
+   "señor mayor me preguntó si necesitaba ayuda. Me explicó el camino"
+  ],
+  [
+   "mid",
+   7.3,
+   "muy amablemente y me acompañó hasta una plaza. Desde allí"
+  ],
+  [
+   "mid",
+   6,
+   "encontré mi hotel sin problemas. Aquel día aprendí que perderse"
+  ],
+  [
+   "last",
+   3.4,
+   "también es una forma de conocer una ciudad."
+  ]
+ ],
+ "es_max_gap": 7.8,
+ "es_font": [
+  12.8,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

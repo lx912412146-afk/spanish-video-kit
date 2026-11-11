@@ -1,0 +1,143 @@
+{
+ "id": "daily_b2_04",
+ "level": "B2",
+ "no": 4,
+ "title_es": "El valor del trabajo manual",
+ "title_zh": "手工劳动的价值",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 4 篇。原创短文。语法：简单过去时、过去完成时（nunca me había sentido）、现在完成时被动态（ha sido considerado）、a medida que、ojalá + 过去虚拟式（dedicaran）、无人称 se（se piensa）；连接语 por eso、sin embargo、de hecho。9 句，121 词。第一人称叙述者为男性（tan orgulloso）。taller 是报名参加的木工课，释义取“工作坊”，不用指小作坊的“作坊”；cepillo 在这里是木工的“刨子”，不是“刷子”，和插图的刨子、锤子对应；el fruto de mi esfuerzo 译作“努力的成果”；ganar destreza 译作“手艺日渐熟练”；trabajo intelectual 译作“脑力劳动”；末句 se piensa con las manos 是无人称句，译作“人也是用双手思考的”。第 3 句 el martillo, la sierra y el cepillo、第 6 句 paciencia, precisión y capacidad 是名词列举，逗号不停顿。第 3 句原为 Allí aprendí a usar el cepillo, el martillo y la sierra.，朗读核对时 martillo 后的 y 被吞掉；先改为 a usar herramientas como el cepillo, el martillo y la sierra，重新合成后 y 仍被吞（martillo y la 连成一个音），改为 la sierra, el martillo y el cepillo 后仍被吞：这个音色按 yeísmo 把 martillo 的 ll 读成 y，martillo y 两个相同的音连在一起；最后把 martillo 放到最前：el martillo, la sierra y el cepillo，y 跟在 sierra 后面。不停顿的逗号改登记在 martillo 后，词汇 martillo、sierra、cepillo 按新的出现顺序排，译文改为“锤子、锯子和刨子”。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "martillo,",
+    "why": "列举：el martillo, la sierra y el cepillo（A, B y C）"
+   }
+  ],
+  "6": [
+   {
+    "after": "paciencia,",
+    "why": "列举：paciencia, precisión y capacidad（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "trabajo manual",
+   "手工劳动",
+   "trabajo manual"
+  ],
+  [
+   "fruto",
+   "成果",
+   "fruto"
+  ],
+  [
+   "esfuerzo",
+   "努力",
+   "esfuerzo"
+  ],
+  [
+   "apuntarse",
+   "报名",
+   "me apunté"
+  ],
+  [
+   "taller",
+   "工作坊",
+   "taller"
+  ],
+  [
+   "carpintería",
+   "木工",
+   "carpintería"
+  ],
+  [
+   "martillo",
+   "锤子",
+   "martillo"
+  ],
+  [
+   "sierra",
+   "锯子",
+   "sierra"
+  ],
+  [
+   "cepillo",
+   "刨子",
+   "cepillo"
+  ],
+  [
+   "imperfección",
+   "瑕疵",
+   "imperfecciones"
+  ],
+  [
+   "orgulloso",
+   "自豪的",
+   "orgulloso"
+  ],
+  [
+   "exigir",
+   "需要，要求",
+   "exige"
+  ],
+  [
+   "destreza",
+   "技艺",
+   "destreza"
+  ],
+  [
+   "opuesto",
+   "对立的",
+   "opuestas"
+  ],
+  [
+   "ojalá",
+   "但愿",
+   "Ojalá"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Durante años trabajé frente a una pantalla sin ver nunca el fruto de mi esfuerzo.",
+    "zh": "多年来，我一直对着屏幕工作，却从未见过自己努力的成果。"
+   },
+   {
+    "es": "Por eso, el otoño pasado me apunté a un taller de carpintería.",
+    "zh": "所以，去年秋天，我报名参加了一个木工作坊。"
+   },
+   {
+    "es": "Allí aprendí a usar el martillo, la sierra y el cepillo.",
+    "zh": "在那里，我学会了使用锤子、锯子和刨子。"
+   },
+   {
+    "es": "Mi primera obra fue una caja llena de imperfecciones, pero nunca me había sentido tan orgulloso.",
+    "zh": "我的第一件作品是一个满是瑕疵的盒子，但我从未如此自豪过。"
+   }
+  ],
+  [
+   {
+    "es": "Tradicionalmente, el trabajo manual ha sido considerado inferior al trabajo intelectual.",
+    "zh": "传统上，手工劳动一直被认为不如脑力劳动。"
+   },
+   {
+    "es": "Sin embargo, trabajar con las manos exige paciencia, precisión y capacidad para resolver problemas.",
+    "zh": "然而，用双手劳动需要耐心、精准，还需要解决问题的能力。"
+   },
+   {
+    "es": "De hecho, a medida que ganaba destreza, comprendí que pensar y hacer no son actividades opuestas.",
+    "zh": "事实上，随着手艺日渐熟练，我明白了思考和动手并不对立。"
+   },
+   {
+    "es": "Ojalá las escuelas dedicaran más tiempo a este tipo de aprendizaje.",
+    "zh": "但愿学校能在这类学习上多花些时间。"
+   },
+   {
+    "es": "Hoy, cada vez que veo aquella caja, recuerdo que también se piensa con las manos.",
+    "zh": "如今，每当我看到那个盒子，就会想起：人也是用双手思考的。"
+   }
+  ]
+ ]
+}

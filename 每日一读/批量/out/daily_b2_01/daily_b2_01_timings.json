@@ -1,0 +1,270 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_01.mp3",
+ "duration": 59.43,
+ "sentence_pause": 0.8,
+ "loudness": {
+  "integrated_lufs": -16.53,
+  "sentence_max_dev_lu": 1.05,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 1.0,
+  "peak_dbfs": -1.75,
+  "buzz_hz": 5474.9,
+  "buzz_db": 6.4,
+  "comb_db": 0.4
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.8,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.78,
+   "parts": [
+    [
+     0.5,
+     1.78
+    ]
+   ],
+   "segments": [
+    "La moda rápida."
+   ],
+   "text": "La moda rápida.",
+   "read": "La moda rápida."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.58,
+   "end": 6.91,
+   "parts": [
+    [
+     2.58,
+     6.91
+    ]
+   ],
+   "segments": [
+    "Antes, las tiendas renovaban sus colecciones al ritmo de las estaciones."
+   ],
+   "text": "Antes, las tiendas renovaban sus colecciones al ritmo de las estaciones.",
+   "read": "Antes, las tiendas renovaban sus colecciones al ritmo de las estaciones."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.71,
+   "end": 13.47,
+   "parts": [
+    [
+     7.71,
+     8.71
+    ],
+    [
+     8.99,
+     13.47
+    ]
+   ],
+   "segments": [
+    "Hoy, en cambio,",
+    "aparecen prendas nuevas cada semana a precios tan bajos que cuesta resistirse."
+   ],
+   "text": "Hoy, en cambio, aparecen prendas nuevas cada semana a precios tan bajos que cuesta resistirse.",
+   "read": "Hoy, en cambio, aparecen prendas nuevas cada semana a precios tan bajos que cuesta resistirse."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.27,
+   "end": 19.89,
+   "parts": [
+    [
+     14.27,
+     15.18
+    ],
+    [
+     15.46,
+     19.89
+    ]
+   ],
+   "segments": [
+    "De este modo,",
+    "la moda rápida ha logrado que vestir a la última deje de ser un lujo."
+   ],
+   "text": "De este modo, la moda rápida ha logrado que vestir a la última deje de ser un lujo.",
+   "read": "De este modo, la moda rápida ha logrado que vestir a la última deje de ser un lujo."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.69,
+   "end": 25.82,
+   "parts": [
+    [
+     20.69,
+     21.98
+    ],
+    [
+     22.26,
+     25.82
+    ]
+   ],
+   "segments": [
+    "No obstante,",
+    "su éxito tiene un precio que no figura en ninguna etiqueta."
+   ],
+   "text": "No obstante, su éxito tiene un precio que no figura en ninguna etiqueta.",
+   "read": "No obstante, su éxito tiene un precio que no figura en ninguna etiqueta."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 26.62,
+   "end": 32.4,
+   "parts": [
+    [
+     26.62,
+     29.37
+    ],
+    [
+     29.65,
+     32.4
+    ]
+   ],
+   "segments": [
+    "Su fabricación consume enormes cantidades de agua,",
+    "y muchas prendas se desechan tras pocos usos."
+   ],
+   "text": "Su fabricación consume enormes cantidades de agua, y muchas prendas se desechan tras pocos usos.",
+   "read": "Su fabricación consume enormes cantidades de agua, y muchas prendas se desechan tras pocos usos."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 33.2,
+   "end": 38.32,
+   "parts": [
+    [
+     33.2,
+     36.37
+    ],
+    [
+     36.65,
+     38.32
+    ]
+   ],
+   "segments": [
+    "Yo mismo acumulaba camisas olvidadas en el armario,",
+    "algunas sin estrenar."
+   ],
+   "text": "Yo mismo acumulaba camisas olvidadas en el armario, algunas sin estrenar.",
+   "read": "Yo mismo acumulaba camisas olvidadas en el armario, algunas sin estrenar."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.12,
+   "end": 45.23,
+   "parts": [
+    [
+     39.12,
+     39.96
+    ],
+    [
+     40.24,
+     42.46
+    ],
+    [
+     42.74,
+     45.23
+    ]
+   ],
+   "segments": [
+    "Un día,",
+    "rodeado de bolsas frente al espejo,",
+    "me pregunté si necesitaba tanta ropa."
+   ],
+   "text": "Un día, rodeado de bolsas frente al espejo, me pregunté si necesitaba tanta ropa.",
+   "read": "Un día, rodeado de bolsas frente al espejo, me pregunté si necesitaba tanta ropa."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 46.03,
+   "end": 51.56,
+   "parts": [
+    [
+     46.03,
+     48.3
+    ],
+    [
+     48.58,
+     51.56
+    ]
+   ],
+   "segments": [
+    "Ahora, antes de comprar una prenda,",
+    "me planteo si la seguiría llevando dentro de un año."
+   ],
+   "text": "Ahora, antes de comprar una prenda, me planteo si la seguiría llevando dentro de un año.",
+   "read": "Ahora, antes de comprar una prenda, me planteo si la seguiría llevando dentro de un año."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 52.36,
+   "end": 58.23,
+   "parts": [
+    [
+     52.36,
+     54.64
+    ],
+    [
+     54.92,
+     58.23
+    ]
+   ],
+   "segments": [
+    "Si más consumidores actuaran así,",
+    "las marcas se verían obligadas a producir menos y mejor."
+   ],
+   "text": "Si más consumidores actuaran así, las marcas se verían obligadas a producir menos y mejor.",
+   "read": "Si más consumidores actuaran así, las marcas se verían obligadas a producir menos y mejor."
+  }
+ ]
+}

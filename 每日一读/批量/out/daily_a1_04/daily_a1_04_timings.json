@@ -1,0 +1,297 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_04.mp3",
+ "duration": 61.185,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.77,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.75,
+  "buzz_hz": 12000.0,
+  "buzz_db": 4.4,
+  "comb_db": -0.57
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.4,
+  "leveler_rng": 10.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.39,
+   "parts": [
+    [
+     0.5,
+     2.39
+    ]
+   ],
+   "segments": [
+    "La cocina de mi casa."
+   ],
+   "text": "La cocina de mi casa.",
+   "read": "La cocina de mi casa."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.39,
+   "end": 7.14,
+   "parts": [
+    [
+     3.39,
+     7.14
+    ]
+   ],
+   "segments": [
+    "La cocina de mi casa es grande y tiene mucha luz."
+   ],
+   "text": "La cocina de mi casa es grande y tiene mucha luz.",
+   "read": "La cocina de mi casa es grande y tiene mucha luz."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.14,
+   "end": 11.54,
+   "parts": [
+    [
+     8.14,
+     11.54
+    ]
+   ],
+   "segments": [
+    "En la ventana hay una planta pequeña en una maceta."
+   ],
+   "text": "En la ventana hay una planta pequeña en una maceta.",
+   "read": "En la ventana hay una planta pequeña en una maceta."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.54,
+   "end": 16.0,
+   "parts": [
+    [
+     12.54,
+     16.0
+    ]
+   ],
+   "segments": [
+    "En el centro hay una mesa de madera con un frutero."
+   ],
+   "text": "En el centro hay una mesa de madera con un frutero.",
+   "read": "En el centro hay una mesa de madera con un frutero."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 17.0,
+   "end": 21.96,
+   "parts": [
+    [
+     17.0,
+     21.96
+    ]
+   ],
+   "segments": [
+    "En la pared hay sartenes, cucharas y otras cosas para cocinar."
+   ],
+   "text": "En la pared hay sartenes, cucharas y otras cosas para cocinar.",
+   "read": "En la pared hay sartenes, cucharas y otras cosas para cocinar."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 22.96,
+   "end": 27.15,
+   "parts": [
+    [
+     22.96,
+     27.15
+    ]
+   ],
+   "segments": [
+    "Mi padre cocina casi todos los días y lo hace muy bien."
+   ],
+   "text": "Mi padre cocina casi todos los días y lo hace muy bien.",
+   "read": "Mi padre cocina casi todos los días y lo hace muy bien."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 28.15,
+   "end": 33.297,
+   "parts": [
+    [
+     28.15,
+     29.897
+    ],
+    [
+     30.177,
+     33.297
+    ]
+   ],
+   "segments": [
+    "Yo lo ayudo:",
+    "corto las verduras y pongo la mesa."
+   ],
+   "text": "Yo lo ayudo: corto las verduras y pongo la mesa.",
+   "read": "Yo lo ayudo: corto las verduras y pongo la mesa."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 34.297,
+   "end": 38.497,
+   "parts": [
+    [
+     34.297,
+     38.497
+    ]
+   ],
+   "segments": [
+    "Hoy mi padre prepara una sopa de verduras en una olla grande."
+   ],
+   "text": "Hoy mi padre prepara una sopa de verduras en una olla grande.",
+   "read": "Hoy mi padre prepara una sopa de verduras en una olla grande."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.497,
+   "end": 41.927,
+   "parts": [
+    [
+     39.497,
+     41.927
+    ]
+   ],
+   "segments": [
+    "Toda la cocina huele muy bien."
+   ],
+   "text": "Toda la cocina huele muy bien.",
+   "read": "Toda la cocina huele muy bien."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 42.927,
+   "end": 46.807,
+   "parts": [
+    [
+     42.927,
+     46.807
+    ]
+   ],
+   "segments": [
+    "Mi madre llega del trabajo y pregunta qué hay de cena."
+   ],
+   "text": "Mi madre llega del trabajo y pregunta qué hay de cena.",
+   "read": "Mi madre llega del trabajo y pregunta qué hay de cena."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 47.807,
+   "end": 50.487,
+   "parts": [
+    [
+     47.807,
+     50.487
+    ]
+   ],
+   "segments": [
+    "Siempre cenamos juntos en la cocina."
+   ],
+   "text": "Siempre cenamos juntos en la cocina.",
+   "read": "Siempre cenamos juntos en la cocina."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 51.487,
+   "end": 54.998,
+   "parts": [
+    [
+     51.487,
+     53.137
+    ],
+    [
+     53.417,
+     54.998
+    ]
+   ],
+   "segments": [
+    "Después de la cena,",
+    "yo lavo los platos."
+   ],
+   "text": "Después de la cena, yo lavo los platos.",
+   "read": "Después de la cena, yo lavo los platos."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 55.998,
+   "end": 59.985,
+   "parts": [
+    [
+     55.998,
+     56.738
+    ],
+    [
+     57.018,
+     59.985
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "la cocina es el corazón de nuestra casa."
+   ],
+   "text": "Para mí, la cocina es el corazón de nuestra casa.",
+   "read": "Para mí, la cocina es el corazón de nuestra casa."
+  }
+ ]
+}

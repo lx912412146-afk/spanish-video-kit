@@ -1,0 +1,267 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_02.mp3",
+ "duration": 59.8,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.5,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.66,
+  "buzz_hz": 11299.8,
+  "buzz_db": 5.4,
+  "comb_db": -0.92
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.27,
+   "parts": [
+    [
+     0.5,
+     2.27
+    ]
+   ],
+   "segments": [
+    "Las cartas escritas a mano."
+   ],
+   "text": "Las cartas escritas a mano.",
+   "read": "Las cartas escritas a mano."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.17,
+   "end": 8.14,
+   "parts": [
+    [
+     3.17,
+     6.59
+    ],
+    [
+     6.87,
+     8.14
+    ]
+   ],
+   "segments": [
+    "Desde hace unos meses escribo cartas a mano a mi amigo Tomás,",
+    "que vive lejos."
+   ],
+   "text": "Desde hace unos meses escribo cartas a mano a mi amigo Tomás, que vive lejos.",
+   "read": "Desde hace unos meses escribo cartas a mano a mi amigo Tomás, que vive lejos."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.04,
+   "end": 14.2,
+   "parts": [
+    [
+     9.04,
+     11.52
+    ],
+    [
+     11.8,
+     14.2
+    ]
+   ],
+   "segments": [
+    "Antes nos mandábamos mensajes con el móvil,",
+    "pero casi siempre eran cortos y rápidos."
+   ],
+   "text": "Antes nos mandábamos mensajes con el móvil, pero casi siempre eran cortos y rápidos.",
+   "read": "Antes nos mandábamos mensajes con el móvil, pero casi siempre eran cortos y rápidos."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.1,
+   "end": 20.06,
+   "parts": [
+    [
+     15.1,
+     20.06
+    ]
+   ],
+   "segments": [
+    "Un día encontré en un cajón una pluma antigua, un tintero y varios sellos."
+   ],
+   "text": "Un día encontré en un cajón una pluma antigua, un tintero y varios sellos.",
+   "read": "Un día encontré en un cajón una pluma antigua, un tintero y varios sellos."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.96,
+   "end": 24.93,
+   "parts": [
+    [
+     20.96,
+     24.93
+    ]
+   ],
+   "segments": [
+    "Entonces pensé que sería bonito escribirle de una manera más personal."
+   ],
+   "text": "Entonces pensé que sería bonito escribirle de una manera más personal.",
+   "read": "Entonces pensé que sería bonito escribirle de una manera más personal."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 25.83,
+   "end": 30.15,
+   "parts": [
+    [
+     25.83,
+     30.15
+    ]
+   ],
+   "segments": [
+    "Ahora me siento a la mesa cada domingo y le cuento con calma lo que me ha pasado."
+   ],
+   "text": "Ahora me siento a la mesa cada domingo y le cuento con calma lo que me ha pasado.",
+   "read": "Ahora me siento a la mesa cada domingo y le cuento con calma lo que me ha pasado."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.05,
+   "end": 35.37,
+   "parts": [
+    [
+     31.05,
+     35.37
+    ]
+   ],
+   "segments": [
+    "Escribir a mano me ayuda a pensar cada frase antes de ponerla en el papel."
+   ],
+   "text": "Escribir a mano me ayuda a pensar cada frase antes de ponerla en el papel.",
+   "read": "Escribir a mano me ayuda a pensar cada frase antes de ponerla en el papel."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 36.27,
+   "end": 42.52,
+   "parts": [
+    [
+     36.27,
+     38.94
+    ],
+    [
+     39.22,
+     42.52
+    ]
+   ],
+   "segments": [
+    "Además, cuando llega una carta suya,",
+    "me hace mucha ilusión abrir el sobre y reconocer su letra."
+   ],
+   "text": "Además, cuando llega una carta suya, me hace mucha ilusión abrir el sobre y reconocer su letra.",
+   "read": "Además, cuando llega una carta suya, me hace mucha ilusión abrir el sobre y reconocer su letra."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 43.42,
+   "end": 46.84,
+   "parts": [
+    [
+     43.42,
+     46.84
+    ]
+   ],
+   "segments": [
+    "Es verdad que las cartas tardan varios días en llegar."
+   ],
+   "text": "Es verdad que las cartas tardan varios días en llegar.",
+   "read": "Es verdad que las cartas tardan varios días en llegar."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 47.74,
+   "end": 53.51,
+   "parts": [
+    [
+     47.74,
+     48.48
+    ],
+    [
+     48.76,
+     50.76
+    ],
+    [
+     51.04,
+     53.51
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "no creo que eso sea un problema,",
+    "porque la espera también forma parte del placer."
+   ],
+   "text": "Sin embargo, no creo que eso sea un problema, porque la espera también forma parte del placer.",
+   "read": "Sin embargo, no creo que eso sea un problema, porque la espera también forma parte del placer."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 54.41,
+   "end": 58.6,
+   "parts": [
+    [
+     54.41,
+     58.6
+    ]
+   ],
+   "segments": [
+    "Ojalá más personas recuperen esta costumbre tan sencilla y tan humana."
+   ],
+   "text": "Ojalá más personas recuperen esta costumbre tan sencilla y tan humana.",
+   "read": "Ojalá más personas recuperen esta costumbre tan sencilla y tan humana."
+  }
+ ]
+}

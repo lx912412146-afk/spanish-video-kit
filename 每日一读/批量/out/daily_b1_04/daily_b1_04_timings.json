@@ -1,0 +1,282 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_04.mp3",
+ "duration": 60.92,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.46,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.99,
+  "peak_dbfs": -1.79,
+  "buzz_hz": 8779.5,
+  "buzz_db": 5.6,
+  "comb_db": -0.26
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.02,
+   "parts": [
+    [
+     0.5,
+     2.02
+    ]
+   ],
+   "segments": [
+    "Aprender a hacer fotos."
+   ],
+   "text": "Aprender a hacer fotos.",
+   "read": "Aprender a hacer fotos."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.02,
+   "end": 8.51,
+   "parts": [
+    [
+     3.02,
+     6.11
+    ],
+    [
+     6.39,
+     8.51
+    ]
+   ],
+   "segments": [
+    "El año pasado mi tío Andrés me regaló su vieja cámara,",
+    "que llevaba años guardada en un armario."
+   ],
+   "text": "El año pasado mi tío Andrés me regaló su vieja cámara, que llevaba años guardada en un armario.",
+   "read": "El año pasado mi tío Andrés me regaló su vieja cámara, que llevaba años guardada en un armario."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.51,
+   "end": 14.55,
+   "parts": [
+    [
+     9.51,
+     11.76
+    ],
+    [
+     12.04,
+     14.55
+    ]
+   ],
+   "segments": [
+    "Al principio hacía fotos de todo,",
+    "pero casi todas salían oscuras o movidas."
+   ],
+   "text": "Al principio hacía fotos de todo, pero casi todas salían oscuras o movidas.",
+   "read": "Al principio hacía fotos de todo, pero casi todas salían oscuras o movidas."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.55,
+   "end": 19.45,
+   "parts": [
+    [
+     15.55,
+     19.45
+    ]
+   ],
+   "segments": [
+    "Entonces me inscribí en un curso para aprender a hacer fotos de verdad."
+   ],
+   "text": "Entonces me inscribí en un curso para aprender a hacer fotos de verdad.",
+   "read": "Entonces me inscribí en un curso para aprender a hacer fotos de verdad."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.45,
+   "end": 24.34,
+   "parts": [
+    [
+     20.45,
+     24.34
+    ]
+   ],
+   "segments": [
+    "El profesor nos enseñó a aprovechar la luz y a elegir bien el encuadre."
+   ],
+   "text": "El profesor nos enseñó a aprovechar la luz y a elegir bien el encuadre.",
+   "read": "El profesor nos enseñó a aprovechar la luz y a elegir bien el encuadre."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 25.34,
+   "end": 30.55,
+   "parts": [
+    [
+     25.34,
+     26.65
+    ],
+    [
+     26.93,
+     30.55
+    ]
+   ],
+   "segments": [
+    "Desde entonces,",
+    "siempre llevo un cuaderno donde apunto lo que funciona y lo que no."
+   ],
+   "text": "Desde entonces, siempre llevo un cuaderno donde apunto lo que funciona y lo que no.",
+   "read": "Desde entonces, siempre llevo un cuaderno donde apunto lo que funciona y lo que no."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.55,
+   "end": 35.43,
+   "parts": [
+    [
+     31.55,
+     35.43
+    ]
+   ],
+   "segments": [
+    "Hoy tengo sobre la mesa varias fotos de paisajes que he impreso yo mismo."
+   ],
+   "text": "Hoy tengo sobre la mesa varias fotos de paisajes que he impreso yo mismo.",
+   "read": "Hoy tengo sobre la mesa varias fotos de paisajes que he impreso yo mismo."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 36.43,
+   "end": 40.48,
+   "parts": [
+    [
+     36.43,
+     38.18
+    ],
+    [
+     38.46,
+     40.48
+    ]
+   ],
+   "segments": [
+    "No creo que sean perfectas,",
+    "pero me siento orgulloso de cada una."
+   ],
+   "text": "No creo que sean perfectas, pero me siento orgulloso de cada una.",
+   "read": "No creo que sean perfectas, pero me siento orgulloso de cada una."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 41.48,
+   "end": 46.62,
+   "parts": [
+    [
+     41.48,
+     43.65
+    ],
+    [
+     43.93,
+     46.62
+    ]
+   ],
+   "segments": [
+    "Además, gracias a la cámara,",
+    "ahora miro con más atención lo que me rodea."
+   ],
+   "text": "Además, gracias a la cámara, ahora miro con más atención lo que me rodea.",
+   "read": "Además, gracias a la cámara, ahora miro con más atención lo que me rodea."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 47.62,
+   "end": 53.55,
+   "parts": [
+    [
+     47.62,
+     49.26
+    ],
+    [
+     49.54,
+     51.81
+    ],
+    [
+     52.09,
+     53.55
+    ]
+   ],
+   "segments": [
+    "Para que una foto sea buena,",
+    "no basta con tener un objetivo caro;",
+    "hace falta paciencia."
+   ],
+   "text": "Para que una foto sea buena, no basta con tener un objetivo caro; hace falta paciencia.",
+   "read": "Para que una foto sea buena, no basta con tener un objetivo caro; hace falta paciencia."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 54.55,
+   "end": 59.72,
+   "parts": [
+    [
+     54.55,
+     56.42
+    ],
+    [
+     56.7,
+     59.72
+    ]
+   ],
+   "segments": [
+    "Cuando tenga más experiencia,",
+    "me gustaría hacer una pequeña exposición en mi barrio."
+   ],
+   "text": "Cuando tenga más experiencia, me gustaría hacer una pequeña exposición en mi barrio.",
+   "read": "Cuando tenga más experiencia, me gustaría hacer una pequeña exposición en mi barrio."
+  }
+ ]
+}

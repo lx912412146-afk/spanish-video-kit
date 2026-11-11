@@ -1,0 +1,285 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_10.mp3",
+ "duration": 64.749,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.37,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.77,
+  "buzz_hz": 13500.0,
+  "buzz_db": 4.7,
+  "comb_db": -0.77
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.6,
+   "parts": [
+    [
+     0.5,
+     2.6
+    ]
+   ],
+   "segments": [
+    "Una cena para mis amigos."
+   ],
+   "text": "Una cena para mis amigos.",
+   "read": "Una cena para mis amigos."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.6,
+   "end": 7.56,
+   "parts": [
+    [
+     3.6,
+     7.56
+    ]
+   ],
+   "segments": [
+    "El viernes pasado invité a mis amigos a cenar en mi casa."
+   ],
+   "text": "El viernes pasado invité a mis amigos a cenar en mi casa.",
+   "read": "El viernes pasado invité a mis amigos a cenar en mi casa."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.56,
+   "end": 13.544,
+   "parts": [
+    [
+     8.56,
+     10.46
+    ],
+    [
+     10.74,
+     13.544
+    ]
+   ],
+   "segments": [
+    "No soy un gran cocinero,",
+    "así que pasé toda la tarde en la cocina."
+   ],
+   "text": "No soy un gran cocinero, así que pasé toda la tarde en la cocina.",
+   "read": "No soy un gran cocinero, así que pasé toda la tarde en la cocina."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.544,
+   "end": 20.374,
+   "parts": [
+    [
+     14.544,
+     20.374
+    ]
+   ],
+   "segments": [
+    "Preparé un guiso de carne con patatas, una ensalada y un postre de chocolate."
+   ],
+   "text": "Preparé un guiso de carne con patatas, una ensalada y un postre de chocolate.",
+   "read": "Preparé un guiso de carne con patatas, una ensalada y un postre de chocolate."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 21.374,
+   "end": 27.121,
+   "parts": [
+    [
+     21.374,
+     27.121
+    ]
+   ],
+   "segments": [
+    "Después puse la mesa con platos, vasos, servilletas y unas velas."
+   ],
+   "text": "Después puse la mesa con platos, vasos, servilletas y unas velas.",
+   "read": "Después puse la mesa con platos, vasos, servilletas y unas velas."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 28.121,
+   "end": 32.701,
+   "parts": [
+    [
+     28.121,
+     32.701
+    ]
+   ],
+   "segments": [
+    "Mis amigos llegaron puntuales y trajeron pan y bebidas."
+   ],
+   "text": "Mis amigos llegaron puntuales y trajeron pan y bebidas.",
+   "read": "Mis amigos llegaron puntuales y trajeron pan y bebidas."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 33.701,
+   "end": 38.181,
+   "parts": [
+    [
+     33.701,
+     36.181
+    ],
+    [
+     36.461,
+     38.181
+    ]
+   ],
+   "segments": [
+    "A todos les gustó mucho el guiso,",
+    "sobre todo a Sergio."
+   ],
+   "text": "A todos les gustó mucho el guiso, sobre todo a Sergio.",
+   "read": "A todos les gustó mucho el guiso, sobre todo a Sergio."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.181,
+   "end": 43.271,
+   "parts": [
+    [
+     39.181,
+     43.271
+    ]
+   ],
+   "segments": [
+    "Sergio repitió plato y Paula me pidió la receta."
+   ],
+   "text": "Sergio repitió plato y Paula me pidió la receta.",
+   "read": "Sergio repitió plato y Paula me pidió la receta."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 44.271,
+   "end": 48.378,
+   "parts": [
+    [
+     44.271,
+     48.378
+    ]
+   ],
+   "segments": [
+    "Charlamos y nos reímos mucho durante toda la noche."
+   ],
+   "text": "Charlamos y nos reímos mucho durante toda la noche.",
+   "read": "Charlamos y nos reímos mucho durante toda la noche."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 49.378,
+   "end": 53.457,
+   "parts": [
+    [
+     49.378,
+     50.597
+    ],
+    [
+     50.877,
+     53.457
+    ]
+   ],
+   "segments": [
+    "Al final,",
+    "todos me ayudaron a fregar los platos."
+   ],
+   "text": "Al final, todos me ayudaron a fregar los platos.",
+   "read": "Al final, todos me ayudaron a fregar los platos."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 54.457,
+   "end": 58.679,
+   "parts": [
+    [
+     54.457,
+     55.999
+    ],
+    [
+     56.279,
+     58.679
+    ]
+   ],
+   "segments": [
+    "Cuando se fueron,",
+    "me sentí cansado pero feliz."
+   ],
+   "text": "Cuando se fueron, me sentí cansado pero feliz.",
+   "read": "Cuando se fueron, me sentí cansado pero feliz."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 59.679,
+   "end": 63.549,
+   "parts": [
+    [
+     59.679,
+     63.549
+    ]
+   ],
+   "segments": [
+    "He descubierto que cocinar para los amigos es un placer."
+   ],
+   "text": "He descubierto que cocinar para los amigos es un placer.",
+   "read": "He descubierto que cocinar para los amigos es un placer."
+  }
+ ]
+}

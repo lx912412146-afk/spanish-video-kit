@@ -1,0 +1,216 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_06.mp3",
+ "duration": 55.0,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.5,
+  "sentence_max_dev_lu": 0.31,
+  "short_term_std_lu": 0.99,
+  "short_term_std_full_lu": 1.01,
+  "peak_dbfs": -1.79,
+  "buzz_hz": 8779.5,
+  "buzz_db": 5.3,
+  "comb_db": -0.12
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.31,
+   "parts": [
+    [
+     0.5,
+     2.31
+    ]
+   ],
+   "segments": [
+    "El paisaje como patrimonio."
+   ],
+   "text": "El paisaje como patrimonio.",
+   "read": "El paisaje como patrimonio."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.31,
+   "end": 8.84,
+   "parts": [
+    [
+     3.31,
+     8.84
+    ]
+   ],
+   "segments": [
+    "Desde el camino se divisan los bancales que descienden por la ladera hasta un pueblo de casas blancas."
+   ],
+   "text": "Desde el camino se divisan los bancales que descienden por la ladera hasta un pueblo de casas blancas.",
+   "read": "Desde el camino se divisan los bancales que descienden por la ladera hasta un pueblo de casas blancas."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.84,
+   "end": 14.99,
+   "parts": [
+    [
+     9.84,
+     14.99
+    ]
+   ],
+   "segments": [
+    "Entre ellos crecen olivos centenarios que alguien plantó sabiendo que jamás vería su mejor cosecha."
+   ],
+   "text": "Entre ellos crecen olivos centenarios que alguien plantó sabiendo que jamás vería su mejor cosecha.",
+   "read": "Entre ellos crecen olivos centenarios que alguien plantó sabiendo que jamás vería su mejor cosecha."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.99,
+   "end": 23.11,
+   "parts": [
+    [
+     15.99,
+     19.08
+    ],
+    [
+     19.36,
+     23.11
+    ]
+   ],
+   "segments": [
+    "Este paisaje no es obra exclusiva de la naturaleza,",
+    "sino fruto de siglos de trabajo paciente y de un saber heredado."
+   ],
+   "text": "Este paisaje no es obra exclusiva de la naturaleza, sino fruto de siglos de trabajo paciente y de un saber heredado.",
+   "read": "Este paisaje no es obra exclusiva de la naturaleza, sino fruto de siglos de trabajo paciente y de un saber heredado."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 24.11,
+   "end": 31.65,
+   "parts": [
+    [
+     24.11,
+     27.27
+    ],
+    [
+     27.55,
+     31.65
+    ]
+   ],
+   "segments": [
+    "Tendemos a asociar el patrimonio con palacios y monumentos,",
+    "pero un muro de piedra seca también guarda la memoria de quienes lo levantaron."
+   ],
+   "text": "Tendemos a asociar el patrimonio con palacios y monumentos, pero un muro de piedra seca también guarda la memoria de quienes lo levantaron.",
+   "read": "Tendemos a asociar el patrimonio con palacios y monumentos, pero un muro de piedra seca también guarda la memoria de quienes lo levantaron."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 32.65,
+   "end": 39.99,
+   "parts": [
+    [
+     32.65,
+     34.66
+    ],
+    [
+     34.94,
+     39.99
+    ]
+   ],
+   "segments": [
+    "Si esos bancales se abandonaran,",
+    "el monte los cubriría en pocos años y con ellos desaparecería una forma de habitar la tierra."
+   ],
+   "text": "Si esos bancales se abandonaran, el monte los cubriría en pocos años y con ellos desaparecería una forma de habitar la tierra.",
+   "read": "Si esos bancales se abandonaran, el monte los cubriría en pocos años y con ellos desaparecería una forma de habitar la tierra."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 40.99,
+   "end": 47.93,
+   "parts": [
+    [
+     40.99,
+     44.02
+    ],
+    [
+     44.3,
+     47.93
+    ]
+   ],
+   "segments": [
+    "Protegerlos no implica congelarlos como una postal,",
+    "sino garantizar que sigan siendo útiles para quienes viven allí."
+   ],
+   "text": "Protegerlos no implica congelarlos como una postal, sino garantizar que sigan siendo útiles para quienes viven allí.",
+   "read": "Protegerlos no implica congelarlos como una postal, sino garantizar que sigan siendo útiles para quienes viven allí."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 48.93,
+   "end": 53.8,
+   "parts": [
+    [
+     48.93,
+     50.12
+    ],
+    [
+     50.4,
+     53.8
+    ]
+   ],
+   "segments": [
+    "Al fin y al cabo,",
+    "un paisaje solo pervive mientras haya quien lo trabaje."
+   ],
+   "text": "Al fin y al cabo, un paisaje solo pervive mientras haya quien lo trabaje.",
+   "read": "Al fin y al cabo, un paisaje solo pervive mientras haya quien lo trabaje."
+  }
+ ]
+}

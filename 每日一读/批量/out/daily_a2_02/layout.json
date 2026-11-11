@@ -1,0 +1,298 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  607.828125
+ ],
+ "zh": [
+  96,
+  633.828125,
+  480,
+  826.828125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  232.96875,
+  131.625
+ ],
+ "header_gap": 182.4375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.2,
+   "El domingo pasado hacía buen tiempo y decidí comer en el"
+  ],
+  [
+   "mid",
+   4.5,
+   "campo. Mi hermana Clara preparó bocadillos de queso y yo llevé"
+  ],
+  [
+   "mid",
+   7.1,
+   "fruta. Lo pusimos todo en una cesta y caminamos hasta una"
+  ],
+  [
+   "mid",
+   5.6,
+   "colina. Allí extendimos un mantel a la sombra de un gran árbol."
+  ],
+  [
+   "last",
+   3.5,
+   "Desde arriba se veían otras colinas verdes y algunas casas."
+  ],
+  [
+   "mid",
+   3.7,
+   "Comimos sin prisa y hablamos de muchas cosas. Los pájaros"
+  ],
+  [
+   "mid",
+   5.9,
+   "cantaban y el viento movía las hojas. Después de comer, Clara"
+  ],
+  [
+   "mid",
+   3.6,
+   "leyó un libro y yo dormí un rato. Fue la tarde más tranquila de todo"
+  ],
+  [
+   "mid",
+   4.7,
+   "el mes. La comida era sencilla, pero me pareció más rica que en"
+  ],
+  [
+   "mid",
+   6.8,
+   "casa. Hemos decidido comer al aire libre más a menudo este"
+  ],
+  [
+   "last",
+   0,
+   "verano."
+  ]
+ ],
+ "es_max_gap": 7.1,
+ "es_font": [
+  13.1,
+  -0.1
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

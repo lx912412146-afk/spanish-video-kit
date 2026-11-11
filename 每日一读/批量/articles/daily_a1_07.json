@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_07",
+ "level": "A1",
+ "no": 7,
+ "title_es": "El parque de mi barrio",
+ "title_zh": "我们街区的公园",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 7 篇。原创短文。只用陈述式现在时，有 hay、tiene、detrás de、estar contento de + 原形。12 句，119 词。特别判断：长椅、树、小喷泉、池塘里的鸭子、远处的楼房都和插图对应；banco 在这里是长椅，不是银行；los abuelos 在这里泛指老人，译作“老人们”；damos una vuelta 译作“转一圈”；es muy verde 说公园里绿色多，译作“到处都绿绿的”；第 12 句 contento 用阳性，叙述者是男性。第 2 句 árboles altos, bancos verdes y una fuente pequeña 是列举，altos, 登记为不停顿；第 7 句 tardes, después de estudiar 和第 11 句 grande, pero 照常停顿。词汇：parque、barrio 在标题里，排在最前；detrás de 原文是句首的 Detrás de。",
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "altos,",
+    "why": "列举：árboles altos, bancos verdes y una fuente pequeña（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "parque",
+   "公园",
+   "parque"
+  ],
+  [
+   "barrio",
+   "街区",
+   "barrio"
+  ],
+  [
+   "alto",
+   "高的",
+   "altos"
+  ],
+  [
+   "banco",
+   "长椅",
+   "bancos"
+  ],
+  [
+   "fuente",
+   "喷泉",
+   "fuente"
+  ],
+  [
+   "estanque",
+   "池塘",
+   "estanque"
+  ],
+  [
+   "pato",
+   "鸭子",
+   "patos"
+  ],
+  [
+   "detrás de",
+   "在后面",
+   "Detrás de"
+  ],
+  [
+   "edificio",
+   "楼房",
+   "edificios"
+  ],
+  [
+   "correr",
+   "跑步",
+   "corre"
+  ],
+  [
+   "pasear",
+   "散步",
+   "pasea"
+  ],
+  [
+   "jugar",
+   "玩",
+   "juegan"
+  ],
+  [
+   "nadar",
+   "游泳",
+   "nadan"
+  ],
+  [
+   "dar una vuelta",
+   "转一圈",
+   "damos una vuelta"
+  ],
+  [
+   "contento",
+   "高兴的",
+   "contento"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En mi barrio hay un parque muy bonito.",
+    "zh": "我们街区有一个很漂亮的公园。"
+   },
+   {
+    "es": "Tiene árboles altos, bancos verdes y una fuente pequeña.",
+    "zh": "公园里有高高的树、绿色的长椅和一个小喷泉。"
+   },
+   {
+    "es": "En el centro hay un estanque con patos.",
+    "zh": "公园中间有一个池塘，里面有鸭子。"
+   },
+   {
+    "es": "Detrás de los árboles están los edificios del barrio.",
+    "zh": "树的后面是街区的楼房。"
+   },
+   {
+    "es": "Por la mañana mucha gente corre o pasea por el parque.",
+    "zh": "早上，很多人在公园里跑步或者散步。"
+   },
+   {
+    "es": "Los niños juegan cerca de la fuente y los abuelos hablan en los bancos.",
+    "zh": "孩子们在喷泉旁边玩，老人们坐在长椅上聊天。"
+   }
+  ],
+  [
+   {
+    "es": "Yo voy casi todas las tardes, después de estudiar.",
+    "zh": "我几乎每天下午学完习都去那儿。"
+   },
+   {
+    "es": "Me siento en un banco y miro los patos del estanque.",
+    "zh": "我坐在长椅上，看池塘里的鸭子。"
+   },
+   {
+    "es": "Los patos nadan despacio y a veces vienen hacia mí.",
+    "zh": "鸭子慢慢地游着，有时候会朝我游过来。"
+   },
+   {
+    "es": "Algunos días mi amigo Pablo viene conmigo y damos una vuelta.",
+    "zh": "有时候我的朋友巴勃罗也跟我一起来，我们就去转一圈。"
+   },
+   {
+    "es": "El parque no es grande, pero es muy verde.",
+    "zh": "公园不大，但是到处都绿绿的。"
+   },
+   {
+    "es": "Estoy contento de tener un parque así cerca de casa.",
+    "zh": "家附近有这样一个公园，我很高兴。"
+   }
+  ]
+ ]
+}

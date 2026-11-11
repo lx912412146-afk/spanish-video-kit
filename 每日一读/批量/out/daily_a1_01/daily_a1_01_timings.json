@@ -1,0 +1,302 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_01.mp3",
+ "duration": 61.817,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.42,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.99,
+  "peak_dbfs": -1.69,
+  "buzz_hz": 8852.1,
+  "buzz_db": 4.7,
+  "comb_db": -0.84
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.73,
+   "parts": [
+    [
+     0.5,
+     1.73
+    ]
+   ],
+   "segments": [
+    "Mi abuela."
+   ],
+   "text": "Mi abuela.",
+   "read": "Mi abuela."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.73,
+   "end": 6.8,
+   "parts": [
+    [
+     2.73,
+     6.8
+    ]
+   ],
+   "segments": [
+    "Mi abuela se llama Carmen y vive muy cerca de nosotros."
+   ],
+   "text": "Mi abuela se llama Carmen y vive muy cerca de nosotros.",
+   "read": "Mi abuela se llama Carmen y vive muy cerca de nosotros."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.8,
+   "end": 10.782,
+   "parts": [
+    [
+     7.8,
+     10.782
+    ]
+   ],
+   "segments": [
+    "Todos los domingos por la tarde voy a su casa."
+   ],
+   "text": "Todos los domingos por la tarde voy a su casa.",
+   "read": "Todos los domingos por la tarde voy a su casa."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 11.782,
+   "end": 15.977,
+   "parts": [
+    [
+     11.782,
+     13.397
+    ],
+    [
+     13.677,
+     15.977
+    ]
+   ],
+   "segments": [
+    "Su salón es pequeño,",
+    "pero es muy bonito y tranquilo."
+   ],
+   "text": "Su salón es pequeño, pero es muy bonito y tranquilo.",
+   "read": "Su salón es pequeño, pero es muy bonito y tranquilo."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 16.977,
+   "end": 21.637,
+   "parts": [
+    [
+     16.977,
+     21.637
+    ]
+   ],
+   "segments": [
+    "Hay cortinas verdes en la ventana y un reloj antiguo en la pared."
+   ],
+   "text": "Hay cortinas verdes en la ventana y un reloj antiguo en la pared.",
+   "read": "Hay cortinas verdes en la ventana y un reloj antiguo en la pared."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 22.637,
+   "end": 27.187,
+   "parts": [
+    [
+     22.637,
+     25.297
+    ],
+    [
+     25.577,
+     27.187
+    ]
+   ],
+   "segments": [
+    "Mi abuela siempre está en su sillón,",
+    "al lado de la ventana."
+   ],
+   "text": "Mi abuela siempre está en su sillón, al lado de la ventana.",
+   "read": "Mi abuela siempre está en su sillón, al lado de la ventana."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 28.187,
+   "end": 32.002,
+   "parts": [
+    [
+     28.187,
+     32.002
+    ]
+   ],
+   "segments": [
+    "Allí teje bufandas de lana para toda la familia."
+   ],
+   "text": "Allí teje bufandas de lana para toda la familia.",
+   "read": "Allí teje bufandas de lana para toda la familia."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 33.002,
+   "end": 38.151,
+   "parts": [
+    [
+     33.002,
+     34.241
+    ],
+    [
+     34.521,
+     38.151
+    ]
+   ],
+   "segments": [
+    "Cuando llego,",
+    "ella prepara té en la tetera y trae dos tazas."
+   ],
+   "text": "Cuando llego, ella prepara té en la tetera y trae dos tazas.",
+   "read": "Cuando llego, ella prepara té en la tetera y trae dos tazas."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.151,
+   "end": 42.601,
+   "parts": [
+    [
+     39.151,
+     42.601
+    ]
+   ],
+   "segments": [
+    "Tomamos el té juntos y hablamos de muchas cosas."
+   ],
+   "text": "Tomamos el té juntos y hablamos de muchas cosas.",
+   "read": "Tomamos el té juntos y hablamos de muchas cosas."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 43.601,
+   "end": 47.321,
+   "parts": [
+    [
+     43.601,
+     47.321
+    ]
+   ],
+   "segments": [
+    "Ella me pregunta por mis clases y por mis amigos."
+   ],
+   "text": "Ella me pregunta por mis clases y por mis amigos.",
+   "read": "Ella me pregunta por mis clases y por mis amigos."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 48.321,
+   "end": 51.561,
+   "parts": [
+    [
+     48.321,
+     51.561
+    ]
+   ],
+   "segments": [
+    "También me cuenta historias divertidas de su pueblo."
+   ],
+   "text": "También me cuenta historias divertidas de su pueblo.",
+   "read": "También me cuenta historias divertidas de su pueblo."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 52.561,
+   "end": 55.161,
+   "parts": [
+    [
+     52.561,
+     55.161
+    ]
+   ],
+   "segments": [
+    "Con ella siempre estoy muy contento."
+   ],
+   "text": "Con ella siempre estoy muy contento.",
+   "read": "Con ella siempre estoy muy contento."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 56.161,
+   "end": 60.617,
+   "parts": [
+    [
+     56.161,
+     56.901
+    ],
+    [
+     57.181,
+     60.617
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "mi abuela es la persona más cariñosa del mundo."
+   ],
+   "text": "Para mí, mi abuela es la persona más cariñosa del mundo.",
+   "read": "Para mí, mi abuela es la persona más cariñosa del mundo."
+  }
+ ]
+}

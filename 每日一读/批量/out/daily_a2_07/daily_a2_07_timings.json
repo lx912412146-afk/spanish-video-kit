@@ -1,0 +1,285 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_07.mp3",
+ "duration": 62.194,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.58,
+  "short_term_std_lu": 1.0,
+  "short_term_std_full_lu": 0.99,
+  "peak_dbfs": -1.47,
+  "buzz_hz": 13500.0,
+  "buzz_db": 3.5,
+  "comb_db": -0.08
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.38,
+   "parts": [
+    [
+     0.5,
+     2.38
+    ]
+   ],
+   "segments": [
+    "Una visita al acuario."
+   ],
+   "text": "Una visita al acuario.",
+   "read": "Una visita al acuario."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.28,
+   "end": 7.003,
+   "parts": [
+    [
+     3.28,
+     7.003
+    ]
+   ],
+   "segments": [
+    "Ayer llevé a mi sobrino Hugo al acuario de la ciudad."
+   ],
+   "text": "Ayer llevé a mi sobrino Hugo al acuario de la ciudad.",
+   "read": "Ayer llevé a mi sobrino Hugo al acuario de la ciudad."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.903,
+   "end": 11.311,
+   "parts": [
+    [
+     7.903,
+     11.311
+    ]
+   ],
+   "segments": [
+    "Tiene seis años y le encantan los animales del mar."
+   ],
+   "text": "Tiene seis años y le encantan los animales del mar.",
+   "read": "Tiene seis años y le encantan los animales del mar."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.211,
+   "end": 16.671,
+   "parts": [
+    [
+     12.211,
+     16.671
+    ]
+   ],
+   "segments": [
+    "Primero vimos unas tortugas grandes que nadaban muy despacio."
+   ],
+   "text": "Primero vimos unas tortugas grandes que nadaban muy despacio.",
+   "read": "Primero vimos unas tortugas grandes que nadaban muy despacio."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 17.571,
+   "end": 22.261,
+   "parts": [
+    [
+     17.571,
+     22.261
+    ]
+   ],
+   "segments": [
+    "Después entramos en una sala oscura con un enorme tanque de cristal."
+   ],
+   "text": "Después entramos en una sala oscura con un enorme tanque de cristal.",
+   "read": "Después entramos en una sala oscura con un enorme tanque de cristal."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 23.161,
+   "end": 28.341,
+   "parts": [
+    [
+     23.161,
+     28.341
+    ]
+   ],
+   "segments": [
+    "Dentro había peces de colores, corales y plantas que se movían suavemente."
+   ],
+   "text": "Dentro había peces de colores, corales y plantas que se movían suavemente.",
+   "read": "Dentro había peces de colores, corales y plantas que se movían suavemente."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.241,
+   "end": 34.401,
+   "parts": [
+    [
+     29.241,
+     34.401
+    ]
+   ],
+   "segments": [
+    "Nos sentamos en un banco delante del cristal y miramos en silencio."
+   ],
+   "text": "Nos sentamos en un banco delante del cristal y miramos en silencio.",
+   "read": "Nos sentamos en un banco delante del cristal y miramos en silencio."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 35.301,
+   "end": 39.605,
+   "parts": [
+    [
+     35.301,
+     37.686
+    ],
+    [
+     37.966,
+     39.605
+    ]
+   ],
+   "segments": [
+    "Hugo intentaba contar los peces,",
+    "pero eran demasiados."
+   ],
+   "text": "Hugo intentaba contar los peces, pero eran demasiados.",
+   "read": "Hugo intentaba contar los peces, pero eran demasiados."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 40.505,
+   "end": 45.727,
+   "parts": [
+    [
+     40.505,
+     42.124
+    ],
+    [
+     42.404,
+     45.727
+    ]
+   ],
+   "segments": [
+    "De vez en cuando,",
+    "pequeñas burbujas subían hasta la superficie."
+   ],
+   "text": "De vez en cuando, pequeñas burbujas subían hasta la superficie.",
+   "read": "De vez en cuando, pequeñas burbujas subían hasta la superficie."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 46.627,
+   "end": 50.487,
+   "parts": [
+    [
+     46.627,
+     50.487
+    ]
+   ],
+   "segments": [
+    "Yo estaba muy tranquilo y no quería salir de allí."
+   ],
+   "text": "Yo estaba muy tranquilo y no quería salir de allí.",
+   "read": "Yo estaba muy tranquilo y no quería salir de allí."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 51.387,
+   "end": 56.155,
+   "parts": [
+    [
+     51.387,
+     52.605
+    ],
+    [
+     52.885,
+     56.155
+    ]
+   ],
+   "segments": [
+    "Al final,",
+    "Hugo me preguntó si podíamos volver pronto."
+   ],
+   "text": "Al final, Hugo me preguntó si podíamos volver pronto.",
+   "read": "Al final, Hugo me preguntó si podíamos volver pronto."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 57.055,
+   "end": 60.994,
+   "parts": [
+    [
+     57.055,
+     58.444
+    ],
+    [
+     58.724,
+     60.994
+    ]
+   ],
+   "segments": [
+    "Le dije que sí,",
+    "porque yo también lo pasé muy bien."
+   ],
+   "text": "Le dije que sí, porque yo también lo pasé muy bien.",
+   "read": "Le dije que sí, porque yo también lo pasé muy bien."
+  }
+ ]
+}

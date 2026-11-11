@@ -1,0 +1,311 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  621.03125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  629.03125
+ ],
+ "zh": [
+  96,
+  655.03125,
+  480,
+  871.15625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  283.09375,
+  131.625
+ ],
+ "header_gap": 105.765625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.5,
+   "En la esquina de mi calle hay una panadería muy antigua. El"
+  ],
+  [
+   "mid",
+   5.6,
+   "panadero se llama Manuel y empieza a trabajar muy temprano."
+  ],
+  [
+   "mid",
+   4.7,
+   "Cuando paso por la puerta, siempre huele a pan caliente. En los"
+  ],
+  [
+   "mid",
+   5.1,
+   "estantes de madera hay barras de pan y panes redondos. En la"
+  ],
+  [
+   "mid",
+   4,
+   "vitrina hay pasteles, galletas y magdalenas. Todo parece muy rico"
+  ],
+  [
+   "last",
+   3.6,
+   "y es difícil elegir."
+  ],
+  [
+   "mid",
+   5.6,
+   "Cada mañana compro una barra de pan para el desayuno."
+  ],
+  [
+   "mid",
+   3.9,
+   "Manuel siempre me saluda por mi nombre. Él dice que su secreto"
+  ],
+  [
+   "mid",
+   6.2,
+   "es mucho cariño y poca prisa. Los domingos también compro"
+  ],
+  [
+   "mid",
+   3.9,
+   "magdalenas, porque a mi padre le encantan. Desayunamos todos"
+  ],
+  [
+   "mid",
+   5.2,
+   "juntos con pan tostado y café. Para mí, la panadería es el lugar"
+  ],
+  [
+   "last",
+   3.6,
+   "más alegre de mi calle."
+  ]
+ ],
+ "es_max_gap": 6.2,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：水：一种稀缺资源——干涸的水库、开裂的土地、低水位，前景一个滴水的水龙头（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f0e2"/><stop offset="0.6" stop-color="#f8eedb"/><stop offset="1" stop-color="#f2e2c6"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8e4"/><stop offset="0.35" stop-color="#fbe9c0" stop-opacity="0.8"/><stop offset="1" stop-color="#f8eedb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6d2ab"/><stop offset="1" stop-color="#dcc49a"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d6d8"/><stop offset="1" stop-color="#a3bfc5"/>
+    </linearGradient>
+    <linearGradient id="plate" gradientUnits="userSpaceOnUse" x1="0" y1="164" x2="0" y2="262">
+      <stop offset="0" stop-color="#eddab4"/><stop offset="1" stop-color="#e8cb9b"/>
+    </linearGradient>
+    <linearGradient id="dam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ebe4d7"/><stop offset="1" stop-color="#d9d0c1"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9fb2ba"/><stop offset="0.45" stop-color="#d3dee2"/><stop offset="1" stop-color="#93a7b0"/>
+    </linearGradient>
+    <linearGradient id="steelH" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3dee2"/><stop offset="1" stop-color="#97abb3"/>
+    </linearGradient>
+    <g id="plates">
+<polygon points="-40,264 8,264 4,251"/>
+<polygon points="45,264 76,264 69,253"/>
+<polygon points="105,264 132,264 121,256"/>
+<polygon points="292,265 326,265 298,258"/>
+<polygon points="386,265 441,265 395,255 386,264"/>
+<polygon points="-46,262 -41,262 5,249 14,244 13,229 -35,236 -47,246"/>
+<polygon points="15,263 40,263 67,251 78,240 42,237 20,244 11,249"/>
+<polygon points="81,263 101,263 120,253 130,236 99,233 83,240 74,251"/>
+<polygon points="137,263 161,263 175,261 160,235 143,233 134,236 126,253"/>
+<polygon points="188,262 206,263 208,261 215,240 190,223 163,234 180,260"/>
+<polygon points="253,263 285,263 291,256 278,242 249,230 220,240 213,262"/>
+<polygon points="327,262 352,259 321,231 295,229 283,242 297,255"/>
+<polygon points="325,231 356,258 380,262 389,251 378,242 332,222"/>
+<polygon points="441,262 445,262 446,251 417,236 392,227 384,243 395,252"/>
+<polygon points="-15,206 -48,216 -47,228 -32,227 10,210 11,209"/>
+<polygon points="12,211 -30,228 -32,234 14,227 42,211"/>
+<polygon points="45,212 19,227 20,241 42,234 72,212 65,208"/>
+<polygon points="76,212 46,234 82,238 98,231 104,217 92,211"/>
+<polygon points="108,216 102,230 132,234 141,231 149,211 140,207"/>
+<polygon points="153,211 145,231 162,231 188,222 191,213 173,208"/>
+<polygon points="195,213 193,222 217,238 246,228 238,213 216,207"/>
+<polygon points="242,214 250,228 279,239 291,227 277,209 256,209"/>
+<polygon points="280,209 295,227 319,228 328,220 324,216 282,209"/>
+<polygon points="329,216 333,221 379,240 387,225 368,214 335,209"/>
+<polygon points="373,214 391,225 415,233 443,227 398,212 377,211"/>
+<polygon points="447,227 447,217 436,212 403,206 401,212 444,226"/>
+<polygon points="-8,201 -12,204 14,207 38,196 40,189.2"/>
+<polygon points="41,196 17,208 16,209 45,210 65,206 70,202 63,195"/>
+<polygon points="74,202 69,206 77,210 92,209 120,195 100,192"/>
+<polygon points="123,196 95,210 108,215 139,206 140,199 127,195"/>
+<polygon points="144,199 143,206 152,209 172,206 176,195 162,194"/>
+<polygon points="179,195 176,206 193,212 214,205 212,199 187,193"/>
+<polygon points="216,199 217,205 240,212 253,208 245,197 227,190"/>
+<polygon points="248,197 256,208 277,208 278,207 276,196 272,195"/>
+<polygon points="279,196 282,207 324,214 331,208 313,198 298,195"/>
+<polygon points="316,198 334,208 367,212 372,209 349,196 324,194"/>
+<polygon points="352,196 375,209 396,210 398,205 385,196 353,192"/>
+<polygon points="389,196 402,205 434,210 443,207 422,198 391,195"/>
+<polygon points="11,181.8 -24,189.8 -27,191 -21,195 -17,195 27,184.3"/>
+<polygon points="29,184.6 -15,195 -8,201 40,188.6 41,187.9 36,183.9"/>
+<polygon points="44,187.9 43,188.5 43,195 64,194 80,186.2 64,184.8"/>
+<polygon points="83,186.4 67,194 73,201 99,191 101,187.7 87,185.7"/>
+<polygon points="105,187.5 103,191 122,194 127,194 139,185 125,180.9"/>
+<polygon points="141,185.1 129,194 143,198 161,192 158,185 152,183.9"/>
+<polygon points="161,184.7 164,192 178,193 185,192 190,185.1 182,181.4"/>
+<polygon points="192,185.1 188,192 214,198 225,189.7 225,187.5 213,184.2"/>
+<polygon points="229,187.5 229,189.7 246,195 270,194 256,185.9 240,185.2"/>
+<polygon points="258,185.9 273,193 277,195 296,193 288,185.2 264,182.8"/>
+<polygon points="291,185.3 298,193 313,197 321,193 314,185.1 295,181.6"/>
+<polygon points="317,185.1 324,193 348,195 349,191 335,185 330,184.3"/>
+<polygon points="337,184.8 353,191 384,195 386,194 372,186.2 349,181.5"/>
+<polygon points="375,186.3 389,194 421,197 428,193 409,186.9 384,184.7"/>
+<polygon points="-27,177.3 -48,182.4 -48,186.4 -29,184.7 -4,177.2 -10,175.2"/>
+<polygon points="-2,177.3 -26,184.7 -24,189.2 11,181.1 17,177 12,176.2"/>
+<polygon points="20,176.8 15,181 30,183.5 37,182.9 50,177.7 47,172.9"/>
+<polygon points="53,177.8 39,183 44,187.1 65,183.7 83,176.2 74,174.5"/>
+<polygon points="85,176.3 67,183.8 83,185.3 87,184.6 99,177.6 91,175.9"/>
+<polygon points="101,177.5 89,184.7 104,186.7 124,180.3 125,177.8 116,176.2"/>
+<polygon points="128,177.5 127,180.1 141,184.1 152,182.9 156,176.5 146,173.2"/>
+<polygon points="159,176.6 154,182.9 161,183.9 181,180.7 182,177.4 174,175.2"/>
+<polygon points="185,177.4 184,180.7 192,184.1 212,183.3 211,178.2 197,174.9"/>
+<polygon points="214,178.3 215,183.3 227,186.6 238,184.1 235,176.8 225,174.7"/>
+<polygon points="237,176.8 240,184.1 256,185 261,181.9 259,177.7 249,175.2"/>
+<polygon points="262,177.6 264,182 288,184.3 293,180.9 287,177.5 276,175.6"/>
+<polygon points="290,177.5 296,180.8 314,184.1 327,183.3 311,176.1 299,174.7"/>
+<polygon points="313,176.1 329,183.2 335,184 346,180.8 343,178.6 319,175"/>
+<polygon points="346,178.7 349,180.8 372,185.3 380,183.7 363,176.6 346,174.9"/>
+<polygon points="366,176.6 383,183.7 408,186 404,182.7 388,177.5 373,175.5"/>
+<polygon points="391,177.3 407,182.8 437,183.2 425,179.3 396,174.3"/>
+<polygon points="-18,170.3 -33,174.3 -26,176.5 -9,174.5 2,170.7 -1,168.4"/>
+<polygon points="5,170.7 -6,174.4 -1,176.5 14,175.4 32,168.9 22,168.3"/>
+<polygon points="38,168.3 34,168.9 16,175.3 21,176.2 47,172.4 52,170.6"/>
+<polygon points="62,169 54,170.7 50,172.5 53,177.1 74,173.9 81,170"/>
+<polygon points="89,168.5 83,170 77,173.8 85,175.4 92,175 108,168.7"/>
+<polygon points="109,168.8 93,175.2 101,176.7 116,175.5 119,171.3"/>
+<polygon points="137,167.9 121,171.2 118,175.4 127,177 144,172.8"/>
+<polygon points="148,172.8 159,175.9 174,174.5 173,170.6 161,169.5"/>
+<polygon points="185,168.1 176,170.5 176,174.4 184,176.7 195,174.2 200,169.7"/>
+<polygon points="202,169.8 198,174.3 212,177.5 223,174.1 220,171.1 207,169.1"/>
+<polygon points="223,171.1 226,174 236,176 247,174.4 245,170.2 234,168.6"/>
+<polygon points="247,170.3 250,174.5 260,176.9 274,174.9 268,171.3 252,169.6"/>
+<polygon points="275,168 270,171.2 276,174.8 288,176.8 296,174 291,170.3"/>
+<polygon points="301,167.6 293,170.2 299,174 311,175.3 316,174.2 314,169.5"/>
+<polygon points="316,169.6 319,174.4 343,178 343,174.2 335,171.6 323,169.6"/>
+<polygon points="337,171.5 345,174.3 362,175.8 370,174.7 360,171 347,168.4"/>
+<polygon points="362,171 373,174.8 388,176.7 393,173.7 387,170.9 374,169.6"/>
+<polygon points="390,171 396,173.7 424,178.8 424,174.5 413,171.7 391,169.6"/>
+<polygon points="4,164.5 -12,164.5 -22,167.6 -17,169.7 0,167.9 7,165.5"/>
+<polygon points="30,164.5 18,164.6 9,165.6 2,167.8 5,170.1 22,167.8"/>
+<polygon points="49,164.5 33,164.5 25,167.7 34,168.3 39,167.7 49,165"/>
+<polygon points="70,164.5 57,164.5 51,165 40,167.9 54,170.1 62,168.4 70,164.8"/>
+<polygon points="90,164.5 79,164.5 73,164.7 64,168.5 82,169.5 88,168 91,164.8"/>
+<polygon points="114,164.4 96,164.4 94,164.7 90,168 109,167.8 117,164.9"/>
+<polygon points="129,164.6 123,164.6 119,165.1 111,167.9 120,170.6 136,167.5 138,165.9"/>
+<polygon points="160,164.6 149,164.6 140,166 139,167.5 145,172.4 160,168.9 161,164.7"/>
+<polygon points="178,164.5 165,164.5 163,164.6 162,168.8 174,170 184,167.6 182,164.7"/>
+<polygon points="208,164.4 184,164.5 187,167.5 200,169.2 205,168.5"/>
+<polygon points="223,164.6 210,164.5 207,168.5 221,170.5 232,168.1 230,165.4"/>
+<polygon points="243,164.6 235,164.6 232,165.4 235,168 246,169.6 250,168.9 251,165"/>
+<polygon points="264,164.6 255,164.6 253,165 252,169 268,170.7 273,167.5 269,165.5"/>
+<polygon points="289,164.5 278,164.5 271,165.4 275,167.5 291,169.6 299,167.2 294,165.2"/>
+<polygon points="318,164.4 298,164.5 297,165.2 302,167.2 314,168.9 321,168.9"/>
+<polygon points="329,164.6 320,164.6 323,169 335,171 345,167.9 341,166.3"/>
+<polygon points="348,164.6 344,166.3 347,167.9 360,170.4 371,169.1 352,165"/>
+<polygon points="370,164.6 359,164.5 354,164.8 373,168.9 386,170.4 388,169 380,166"/>
+<polygon points="391,164.6 386,164.6 382,166 390,169.1 412,171.2 418,168.8 399,165"/>
+<polygon points="419,164.5 401,164.5 420,168.6 427,169.3 435,168.9 422,164.8"/>
+    </g>
+    <path id="drop" d="M0,-6 C1.5,-3 3.6,-0.5 3.6,1.8 C3.6,4 2,5.4 0,5.4 C-2,5.4 -3.6,4 -3.6,1.8 C-3.6,-0.5 -1.5,-3 0,-6 Z"/>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空和炽热的太阳 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <circle cx="330" cy="46" r="40" fill="url(#sun)"/>
+    <circle cx="330" cy="46" r="11" fill="#fdf3d8" opacity="0.9"/>
+
+    <g filter="url(#wc)">
+      <!-- 远山 -->
+      <path d="M0,104 C40,92 80,88 120,96 C160,86 200,84 236,92 C270,84 310,82 350,90 C372,86 390,86 400,88 L400,130 L0,130 Z" fill="#e0d3b6"/>
+      <path d="M0,112 C50,104 100,102 150,108 C200,102 260,98 310,104 L310,130 L0,130 Z" fill="#d6c7a3"/>
+      <g fill="#bfb68b" opacity="0.8">
+        <circle cx="30" cy="108" r="3"/><circle cx="38" cy="107" r="2.5"/><circle cx="96" cy="103" r="3"/><circle cx="170" cy="104" r="2.6"/><circle cx="178" cy="103" r="3"/><circle cx="250" cy="101" r="2.6"/>
+      </g>
+
+      <!-- 水库：对岸的坡和一圈圈旧水位线 -->
+      <path d="M0,116 C80,110 170,108 250,112 C280,110 300,108 320,108 L400,108 L400,168 L0,168 Z" fill="url(#bank)"/>
+      <path d="M0,117 C80,111 170,109 250,113 C280,111 300,109 320,109" stroke="#b9b07e" stroke-width="3" fill="none" opacity="0.7"/>
+      <g fill="none" stroke-width="1.6">
+        <path d="M0,124 C80,119 170,117 250,121 C280,119 300,118 320,118" stroke="#efe0c2"/>
+        <path d="M0,129 C80,124 170,122 250,126 C280,124 300,123 320,123" stroke="#d6bd92" stroke-width="1"/>
+        <path d="M0,134 C80,129 170,128 250,131 C280,130 300,129 320,129" stroke="#efe0c2"/>
+        <path d="M0,139 C80,135 170,134 250,136 C280,135 300,135 320,135" stroke="#d6bd92" stroke-width="1"/>
+        <path d="M0,144 C80,141 170,140 250,142 C280,141 300,141 320,141" stroke="#efe0c2"/>
+      </g>
+      <!-- 大坝 -->
+      <path d="M312,104 C340,100 370,98 400,98 L400,156 C370,154 340,154 316,156 Z" fill="url(#dam)"/>
+      <path d="M314,112 C340,108 370,106 400,106 L400,118 C370,118 340,120 314,122 Z" fill="#cfc6b2" opacity="0.7"/>
+      <path d="M314,122 C340,120 370,118 400,118 L400,121 C370,121 340,123 314,125 Z" fill="#b9b08f" opacity="0.5"/>
+      <rect x="306" y="96" width="98" height="6" fill="#efe9de"/>
+      <g stroke="#b8ad9c" stroke-width="1"><line x1="306" y1="96" x2="404" y2="96"/><line x1="314" y1="96" x2="314" y2="91"/><line x1="330" y1="96" x2="330" y2="91"/><line x1="346" y1="96" x2="346" y2="91"/><line x1="362" y1="96" x2="362" y2="91"/><line x1="378" y1="96" x2="378" y2="91"/><line x1="394" y1="96" x2="394" y2="91"/><line x1="306" y1="91" x2="404" y2="91"/></g>
+      <g stroke="#d1c7b6" stroke-width="0.8" opacity="0.9"><line x1="340" y1="102" x2="340" y2="154"/><line x1="368" y1="100" x2="368" y2="154"/></g>
+      <!-- 对岸的枯树 -->
+      <g stroke="#8c735c" stroke-linecap="round" fill="none">
+        <path d="M58,122 C58,112 57,104 60,94" stroke-width="2.2"/>
+        <path d="M59,108 C54,104 50,100 48,94 M59,104 C64,100 68,98 72,92 M60,98 C62,94 66,92 68,88 M50,99 C47,98 45,96 44,92" stroke-width="1.1"/>
+      </g>
+
+      <!-- 低水位的水面和露出来的泥滩 -->
+      <path d="M90,154 C120,140 270,136 330,150 C300,166 140,168 90,154 Z" fill="#e9d7b3"/>
+      <path d="M116,152 C146,143 232,141 266,149 C244,158 150,160 116,152 Z" fill="url(#water)"/>
+      <g stroke="#e6eff0" stroke-width="1.1" stroke-linecap="round" opacity="0.9">
+        <line x1="146" y1="149" x2="170" y2="149"/><line x1="196" y1="147" x2="226" y2="147"/><line x1="180" y1="153" x2="198" y2="153"/>
+      </g>
+      <path d="M116,152 C150,160 244,158 266,149" stroke="#d6c3a0" stroke-width="1.2" fill="none"/>
+
+      <!-- 前景：开裂的土地 -->
+      <rect x="0" y="164.6" width="400" height="98" fill="#c49d6c"/>
+      <use href="#plates" fill="#d3ae7f" transform="translate(0,1.2)"/>
+      <use href="#plates" fill="url(#plate)"/>
+      <g fill="#f2e2c2" opacity="0.6">
+        <path d="M22,232 L40,226 L60,214"/><path d="M150,212 L172,208"/><path d="M226,236 L246,230"/><path d="M340,218 L366,214"/>
+      </g>
+      <g stroke="#f4e6c8" stroke-width="1" fill="none" opacity="0.7" stroke-linecap="round">
+        <path d="M24,236 L40,230 M140,240 L156,236 M222,240 L240,234 M300,240 L318,238 M338,222 L360,226 M100,214 L118,210 M196,214 L214,210"/>
+      </g>
+      <!-- 搁浅的小船和船桨 -->
+      <g transform="translate(292,157) rotate(-7)">
+        <path d="M-30,-5 C-26,7 22,9 32,-5 Z" fill="#9fbcc6"/>
+        <path d="M-27,0 C-12,5 16,5 29,-1" stroke="#86a6b1" stroke-width="1" fill="none"/>
+        <path d="M-30,-5 C-16,-11 18,-11 32,-5 C18,-1 -16,-1 -30,-5 Z" fill="#e7cfa6"/>
+        <path d="M-30,-5 C-16,-1 18,-1 32,-5" stroke="#c48a5e" stroke-width="1.6" fill="none"/>
+        <path d="M-30,-5 C-16,-11 18,-11 32,-5" stroke="#d3a578" stroke-width="1" fill="none"/>
+        <path d="M-2,-8.4 L3,-1.8" stroke="#c48a5e" stroke-width="2.2"/>
+      </g>
+      <path d="M252,166 L276,161" stroke="#d6b285" stroke-width="1.6" stroke-linecap="round"/>
+      <ellipse cx="249" cy="166.8" rx="5" ry="1.8" fill="#d6b285" transform="rotate(-11 249 166.8)"/>
+      <!-- 干草 -->
+      <g stroke="#c4a86a" stroke-width="1" fill="none" stroke-linecap="round">
+        <path d="M172,172 L170,165 M174,172 L175,164 M176,172 L179,166"/><path d="M350,184 L348,177 M352,184 L353,176 M354,184 L357,178"/>
+        <path d="M24,190 L22,183 M26,190 L27,182 M28,190 L31,184"/>
+      </g>
+
+      <!-- 前景的水龙头 -->
+      <rect x="64" y="236" width="32" height="12" rx="2" fill="#ddd4c4"/>
+      <rect x="64" y="236" width="32" height="3" rx="1.5" fill="#ece5d9"/>
+      <rect x="74" y="146" width="11" height="92" fill="url(#steel)"/>
+      <rect x="72" y="196" width="15" height="6" rx="1.5" fill="url(#steel)"/>
+      <rect x="72" y="146" width="15" height="6" rx="1.5" fill="url(#steel)"/>
+      <path d="M74,146 C74,136 80,132 88,132 L96,132 L96,143 L89,143 C86,143 85,144 85,146 Z" fill="url(#steelH)"/>
+      <rect x="94" y="128" width="20" height="18" rx="3" fill="url(#steelH)"/>
+      <path d="M114,134 L124,134 C130,134 133,138 133,144 L133,150 L125,150 L125,145 C125,143 124,142 122,142 L114,142 Z" fill="url(#steelH)"/>
+      <rect x="123.5" y="149" width="11" height="3.5" rx="1.2" fill="#9fb2ba"/>
+      <rect x="102" y="118" width="4" height="10" fill="#a9bcc3"/>
+      <ellipse cx="104" cy="117" rx="12" ry="3.6" fill="#d97c5c"/>
+      <ellipse cx="104" cy="116" rx="9" ry="2.4" fill="#e9997a"/>
+      <circle cx="104" cy="116" r="2" fill="#c96a4c"/>
+      <path d="M78,150 L78,232" stroke="#eef3f4" stroke-width="1.4" opacity="0.7"/>
+      <path d="M98,131 L110,131" stroke="#eef3f4" stroke-width="1.4" opacity="0.7"/>
+      <!-- 水滴 -->
+      <use href="#drop" transform="translate(129,157) scale(0.75)" fill="#a9cdd8"/>
+      <use href="#drop" transform="translate(129,184)" fill="#a9cdd8"/>
+      <ellipse cx="127.8" cy="185" rx="0.9" ry="1.6" fill="#ffffff" opacity="0.7"/>
+      <ellipse cx="129" cy="237" rx="11" ry="2.6" fill="#c2b59e" opacity="0.8"/>
+      <ellipse cx="129" cy="237" rx="6" ry="1.4" fill="#b6c9cc" opacity="0.9"/>
+      <g stroke="#b6cfd6" stroke-width="1" fill="none" stroke-linecap="round"><path d="M122,233 L120,230 M136,233 L138,230 M129,232 L129,229"/></g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="82" cy="248" rx="24" ry="3"/><ellipse cx="292" cy="164" rx="28" ry="2.4"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

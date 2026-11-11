@@ -1,0 +1,155 @@
+{
+ "id": "daily_a2_10",
+ "level": "A2",
+ "no": 10,
+ "title_es": "Una cena para mis amigos",
+ "title_zh": "为朋友们做的晚饭",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 10 篇。原创短文。简单过去时叙述请朋友吃晚饭（invité、preparé、puse、nos reímos），现在时 No soy un gran cocinero 交代背景，结尾用现在完成时 he descubierto；así que、sobre todo 是常用连接说法。11 句，116 词。第 3 句 un guiso de carne con patatas, una ensalada y un postre de chocolate 和第 4 句 platos, vasos, servilletas y unas velas 都是名词列举，patatas、platos、vasos 后的逗号不停顿；第 2 句 así que 前、第 6 句 sobre todo 前、第 9 句 Al final 后、第 10 句 Cuando 从句后的逗号照常停顿。repetir plato 是“再添一份”；fregar los platos 是“洗碗”；poner la mesa 原文是 puse la mesa；cocinero 是阳性，和男声叙述者一致；为了少用数字，蜡烛写 unas velas。几盘菜、一锅炖菜、蜡烛、杯子、餐具和厨房对应插图。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "patatas,",
+    "why": "列举：un guiso de carne con patatas, una ensalada y un postre de chocolate（A, B y C）"
+   }
+  ],
+  "4": [
+   {
+    "after": "platos,",
+    "why": "列举：platos, vasos, servilletas y unas velas（A, B, C y D）"
+   },
+   {
+    "after": "vasos,",
+    "why": "列举：platos, vasos, servilletas y unas velas（A, B, C y D）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "invitar",
+   "邀请",
+   "invité"
+  ],
+  [
+   "cenar",
+   "吃晚饭",
+   "cenar"
+  ],
+  [
+   "cocinero",
+   "厨师",
+   "cocinero"
+  ],
+  [
+   "así que",
+   "所以",
+   "así que"
+  ],
+  [
+   "guiso",
+   "炖菜",
+   "guiso"
+  ],
+  [
+   "postre",
+   "甜点",
+   "postre"
+  ],
+  [
+   "poner la mesa",
+   "摆餐桌",
+   "puse la mesa"
+  ],
+  [
+   "servilleta",
+   "餐巾",
+   "servilletas"
+  ],
+  [
+   "vela",
+   "蜡烛",
+   "velas"
+  ],
+  [
+   "puntual",
+   "准时的",
+   "puntuales"
+  ],
+  [
+   "sobre todo",
+   "尤其",
+   "sobre todo"
+  ],
+  [
+   "repetir plato",
+   "再添一份",
+   "repitió plato"
+  ],
+  [
+   "receta",
+   "菜谱",
+   "receta"
+  ],
+  [
+   "fregar",
+   "洗",
+   "fregar"
+  ],
+  [
+   "placer",
+   "乐趣",
+   "placer"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El viernes pasado invité a mis amigos a cenar en mi casa.",
+    "zh": "上周五，我请朋友们来我家吃晚饭。"
+   },
+   {
+    "es": "No soy un gran cocinero, así que pasé toda la tarde en la cocina.",
+    "zh": "我不是什么好厨师，所以整个下午都待在厨房里。"
+   },
+   {
+    "es": "Preparé un guiso de carne con patatas, una ensalada y un postre de chocolate.",
+    "zh": "我做了土豆炖肉、一份沙拉和一道巧克力甜点。"
+   },
+   {
+    "es": "Después puse la mesa con platos, vasos, servilletas y unas velas.",
+    "zh": "然后我摆好餐桌，放上盘子、杯子、餐巾和几支蜡烛。"
+   },
+   {
+    "es": "Mis amigos llegaron puntuales y trajeron pan y bebidas.",
+    "zh": "朋友们准时到了，还带来了面包和饮料。"
+   }
+  ],
+  [
+   {
+    "es": "A todos les gustó mucho el guiso, sobre todo a Sergio.",
+    "zh": "大家都很喜欢那道炖菜，尤其是塞尔吉奥。"
+   },
+   {
+    "es": "Sergio repitió plato y Paula me pidió la receta.",
+    "zh": "塞尔吉奥又添了一份，保拉还向我要了菜谱。"
+   },
+   {
+    "es": "Charlamos y nos reímos mucho durante toda la noche.",
+    "zh": "整个晚上我们都在聊天，笑得很开心。"
+   },
+   {
+    "es": "Al final, todos me ayudaron a fregar los platos.",
+    "zh": "最后，大家都帮我一起洗碗。"
+   },
+   {
+    "es": "Cuando se fueron, me sentí cansado pero feliz.",
+    "zh": "他们走了以后，我觉得很累，但是很幸福。"
+   },
+   {
+    "es": "He descubierto que cocinar para los amigos es un placer.",
+    "zh": "我发现，为朋友们做饭是一件乐事。"
+   }
+  ]
+ ]
+}

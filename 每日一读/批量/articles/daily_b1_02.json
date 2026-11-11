@@ -1,0 +1,141 @@
+{
+ "id": "daily_b1_02",
+ "level": "B1",
+ "no": 2,
+ "title_es": "Las cartas escritas a mano",
+ "title_zh": "手写的信",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 2 篇。原创短文。现在时、现在完成时、简单过去时、过去未完成时（antes nos mandábamos…）；条件式 sería bonito；现在虚拟式 no creo que eso sea、ojalá… recuperen；连接语 además、sin embargo、entonces；固定说法 desde hace、hacer ilusión、tardar en、formar parte de。10 句，142 词。人名只有 Tomás，译作托马斯。pluma 在这里是钢笔（pluma estilográfica 的简称），不是羽毛；letra 是“字迹”，不是“字母”；第 10 句 tan humana 译成“富有人情味”。第 3 句 antigua, 是列举（una pluma antigua, un tintero y varios sellos），不停顿；第 1 句 Tomás, 后面是解释性的关系从句，照常停顿。词汇里 carta、a mano 在标题里，排在最前；hacer ilusión 原文是 hace mucha ilusión。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "antigua,",
+    "why": "列举：una pluma antigua, un tintero y varios sellos（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "carta",
+   "信",
+   "cartas"
+  ],
+  [
+   "a mano",
+   "手写",
+   "a mano"
+  ],
+  [
+   "mandar",
+   "发送",
+   "mandábamos"
+  ],
+  [
+   "cajón",
+   "抽屉",
+   "cajón"
+  ],
+  [
+   "pluma",
+   "钢笔",
+   "pluma"
+  ],
+  [
+   "tintero",
+   "墨水瓶",
+   "tintero"
+  ],
+  [
+   "sello",
+   "邮票",
+   "sellos"
+  ],
+  [
+   "con calma",
+   "从容地",
+   "con calma"
+  ],
+  [
+   "hacer ilusión",
+   "令人开心",
+   "hace mucha ilusión"
+  ],
+  [
+   "sobre",
+   "信封",
+   "sobre"
+  ],
+  [
+   "letra",
+   "字迹",
+   "letra"
+  ],
+  [
+   "tardar",
+   "花费时间",
+   "tardan"
+  ],
+  [
+   "espera",
+   "等待",
+   "espera"
+  ],
+  [
+   "formar parte de",
+   "是一部分",
+   "forma parte del"
+  ],
+  [
+   "ojalá",
+   "但愿",
+   "Ojalá"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Desde hace unos meses escribo cartas a mano a mi amigo Tomás, que vive lejos.",
+    "zh": "几个月来，我一直给住在远方的朋友托马斯写手写信。"
+   },
+   {
+    "es": "Antes nos mandábamos mensajes con el móvil, pero casi siempre eran cortos y rápidos.",
+    "zh": "以前我们用手机互发消息，但那些消息几乎总是又短又匆忙。"
+   },
+   {
+    "es": "Un día encontré en un cajón una pluma antigua, un tintero y varios sellos.",
+    "zh": "有一天，我在抽屉里找到了一支旧钢笔、一个墨水瓶和几张邮票。"
+   },
+   {
+    "es": "Entonces pensé que sería bonito escribirle de una manera más personal.",
+    "zh": "于是我想，用一种更有个人色彩的方式给他写信，一定会很美好。"
+   },
+   {
+    "es": "Ahora me siento a la mesa cada domingo y le cuento con calma lo que me ha pasado.",
+    "zh": "现在，每个星期天我都会坐到桌前，从容地把自己遇到的事讲给他听。"
+   }
+  ],
+  [
+   {
+    "es": "Escribir a mano me ayuda a pensar cada frase antes de ponerla en el papel.",
+    "zh": "手写能帮我在落笔之前把每句话都想清楚。"
+   },
+   {
+    "es": "Además, cuando llega una carta suya, me hace mucha ilusión abrir el sobre y reconocer su letra.",
+    "zh": "而且，每当他的信寄到，打开信封、认出他的字迹，都让我特别开心。"
+   },
+   {
+    "es": "Es verdad que las cartas tardan varios días en llegar.",
+    "zh": "的确，信要过好几天才能寄到。"
+   },
+   {
+    "es": "Sin embargo, no creo que eso sea un problema, porque la espera también forma parte del placer.",
+    "zh": "然而，我并不认为这是个问题，因为等待本身也是乐趣的一部分。"
+   },
+   {
+    "es": "Ojalá más personas recuperen esta costumbre tan sencilla y tan humana.",
+    "zh": "但愿有更多的人重拾这个简单而富有人情味的习惯。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "daily_b2_07",
+ "level": "B2",
+ "no": 7,
+ "title_es": "El tren frente al avión",
+ "title_zh": "火车与飞机",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 7 篇。原创短文。语法：简单过去时与过去未完成时叙述、preferir A a B、seguir + 副动词（sigue siendo）、cuando + 现在虚拟式（cuando tenga más sentido）、no se trata de … sino de、过去虚拟式 + 条件式（Si … fueran …, … cambiarían）；连接语 además、no obstante、por lo tanto。8 句，125 词。第一人称叙述，文中没有需要变性的形容词或分词。标题里的 frente a 是“与……相比”，正文第 5 句 Frente al avión 照此译作“与飞机相比”，词汇表原文写法照正文大写；controles 指机场安检；词汇表不收一眼就懂的同源词 preferir，改收第 7 句 cada medio 的 medio（交通工具），第 5 句 distancias medias 的 medias 是形容词“中等的”，不是同一个用法；第 3 句的田野、村庄、群山和插图里火车穿过田野、远处有山的画面对应。第 3 句 campos dorados, pueblos blancos y montañas lejanas 是名词列举，逗号不停顿；第 1 句 por primera vez 两边是插入语，照常停顿。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "dorados,",
+    "why": "列举：campos dorados, pueblos blancos y montañas lejanas（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "frente a",
+   "相较于",
+   "Frente al"
+  ],
+  [
+   "trayecto",
+   "路程",
+   "trayecto"
+  ],
+  [
+   "con antelación",
+   "提前",
+   "con antelación"
+  ],
+  [
+   "interminable",
+   "没完没了的",
+   "interminables"
+  ],
+  [
+   "ventanilla",
+   "车窗",
+   "ventanilla"
+  ],
+  [
+   "contemplar",
+   "欣赏",
+   "contemplé"
+  ],
+  [
+   "dorado",
+   "金黄的",
+   "dorados"
+  ],
+  [
+   "ahorrarse",
+   "省去",
+   "me ahorré"
+  ],
+  [
+   "contaminar",
+   "污染",
+   "contamina"
+  ],
+  [
+   "imprescindible",
+   "不可或缺",
+   "imprescindible"
+  ],
+  [
+   "tratarse de",
+   "关乎，在于",
+   "se trata de"
+  ],
+  [
+   "renunciar a",
+   "放弃",
+   "renunciar al"
+  ],
+  [
+   "medio",
+   "交通工具",
+   "medio"
+  ],
+  [
+   "billete",
+   "票",
+   "billetes"
+  ],
+  [
+   "costumbre",
+   "习惯",
+   "costumbre"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El verano pasado viajé a una ciudad del sur y, por primera vez, preferí el tren al avión.",
+    "zh": "去年夏天，我去南方的一座城市，第一次舍弃飞机，选择了火车。"
+   },
+   {
+    "es": "El trayecto fue más largo, pero no tuve que llegar con antelación ni pasar controles interminables.",
+    "zh": "路上花的时间更长，但我不用提前赶到，也不用经过没完没了的安检。"
+   },
+   {
+    "es": "Desde la ventanilla contemplé campos dorados, pueblos blancos y montañas lejanas mientras leía.",
+    "zh": "我一边看书，一边透过车窗欣赏金黄的田野、白色的村庄和远处的群山。"
+   },
+   {
+    "es": "Además, la estación estaba en pleno centro, así que me ahorré el viaje hasta el aeropuerto.",
+    "zh": "而且，火车站就在市中心，我省去了去机场的那段路。"
+   }
+  ],
+  [
+   {
+    "es": "Frente al avión, el tren contamina mucho menos en distancias medias.",
+    "zh": "与飞机相比，在中等距离的出行中，火车造成的污染要少得多。"
+   },
+   {
+    "es": "No obstante, el avión sigue siendo imprescindible para cruzar océanos o recorrer grandes distancias.",
+    "zh": "不过，要跨越大洋或走完很远的路程，飞机依然不可或缺。"
+   },
+   {
+    "es": "Por lo tanto, no se trata de elegir uno y renunciar al otro, sino de usar cada medio cuando tenga más sentido.",
+    "zh": "因此，关键不在于选一种、弃一种，而在于在最合适的时候用合适的交通工具。"
+   },
+   {
+    "es": "Si los billetes de tren fueran más baratos, sin duda muchos viajeros cambiarían de costumbre.",
+    "zh": "如果火车票更便宜一些，毫无疑问，会有很多旅客改变出行习惯。"
+   }
+  ]
+ ]
+}

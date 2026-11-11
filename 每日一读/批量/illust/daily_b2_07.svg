@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：火车与飞机——火车穿过田野，天上一架飞机，远处是山（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8e9f0"/><stop offset="0.6" stop-color="#e9f1ef"/><stop offset="1" stop-color="#f6f1e2"/>
+    </linearGradient>
+    <linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bccbd4"/><stop offset="1" stop-color="#d2dcdc"/>
+    </linearGradient>
+    <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9bcc6"/><stop offset="1" stop-color="#c6d3d2"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd69d"/><stop offset="1" stop-color="#a6c98a"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1db9e"/><stop offset="1" stop-color="#e8c97f"/>
+    </linearGradient>
+    <linearGradient id="car" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf8f2"/><stop offset="0.7" stop-color="#efe9df"/><stop offset="1" stop-color="#ddd5c8"/>
+    </linearGradient>
+    <linearGradient id="plane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfbf8"/><stop offset="1" stop-color="#cfdae0"/>
+    </linearGradient>
+    <g id="wagon">
+      <rect x="0" y="0" width="60" height="19" rx="3" fill="url(#car)"/>
+      <rect x="1" y="-1.6" width="58" height="3" rx="1.5" fill="#d9d5cd"/>
+      <rect x="0" y="12" width="60" height="2.6" fill="#d98a68"/>
+      <g fill="#a9c3cf"><rect x="5" y="4" width="8" height="5.4" rx="1"/><rect x="16" y="4" width="8" height="5.4" rx="1"/><rect x="36" y="4" width="8" height="5.4" rx="1"/><rect x="47" y="4" width="8" height="5.4" rx="1"/></g>
+      <rect x="27" y="3.4" width="6" height="12.4" rx="1" fill="#c9d6dc"/>
+      <g fill="#7f7770"><circle cx="9" cy="20" r="2.4"/><circle cx="15" cy="20" r="2.4"/><circle cx="45" cy="20" r="2.4"/><circle cx="51" cy="20" r="2.4"/></g>
+    </g>
+    <path id="poppy" d="M0,-3 C2,-3.4 3.4,-1.6 3,0.4 C2.6,2.6 0.6,3.2 -0.6,3 C-2.6,2.8 -3.4,1 -3,-0.8 C-2.6,-2.4 -1.4,-2.8 0,-3 Z"/>
+    <g id="wheat" stroke-linecap="round">
+      <path d="M0,0 C-1,-8 -3,-16 -5,-24 M2,0 C2,-9 2,-18 1,-27 M4,0 C5,-8 7,-16 9,-23" stroke="#cda44f" stroke-width="1" fill="none"/>
+      <g fill="#ddb661"><ellipse cx="-5.4" cy="-27" rx="1.7" ry="3.9" transform="rotate(-12 -5.4 -27)"/><ellipse cx="1" cy="-30.6" rx="1.7" ry="4.1"/><ellipse cx="9.6" cy="-26" rx="1.7" ry="3.9" transform="rotate(14 9.6 -26)"/></g>
+      <g fill="#ecd08a"><ellipse cx="0.6" cy="-31.4" rx="0.7" ry="2.2"/><ellipse cx="-5.8" cy="-27.8" rx="0.7" ry="2" transform="rotate(-12 -5.8 -27.8)"/></g>
+    </g>
+    <g id="flower">
+      <path d="M0,0 C-1,6 -1,12 0,18" stroke="#6f9f55" stroke-width="1" fill="none"/>
+      <path d="M0,10 C-4,8 -6,9 -7,12 C-4,13 -2,12 0,10 Z" fill="#7fae66"/>
+      <path d="M0,-3 C2.4,-4 4.6,-2 4.2,0.6 C3.8,3.2 1,4 -0.8,3.8 C-3.4,3.4 -4.6,1.2 -4,-1 C-3.4,-3 -1.8,-3.4 0,-3 Z" fill="#e2604f"/>
+      <path d="M0,-3 C1.6,-3.4 3,-2.4 3.4,-1 C1.6,-1.6 0.4,-1.4 -1,-0.6 C-1.6,-1.8 -1.2,-2.8 0,-3 Z" fill="#ef8a78"/>
+      <circle cx="0" cy="0.4" r="1" fill="#6f5a4a"/>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <g filter="url(#soft2)" fill="#ffffff" opacity="0.85">
+      <ellipse cx="120" cy="74" rx="22" ry="5"/><ellipse cx="134" cy="70" rx="12" ry="5"/>
+      <ellipse cx="350" cy="78" rx="20" ry="5"/>
+    </g>
+    <!-- 飞机拉出的白线 -->
+    <g filter="url(#soft2)" opacity="0.9">
+      <path d="M296,50 C270,56 240,62 196,72" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M296,53 C272,60 246,67 210,77" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 飞机 -->
+      <g transform="translate(318,44) rotate(-12)">
+        <path d="M-24,1 C-24,-2 -20,-3.4 -14,-3.4 L18,-3.4 C24,-3.4 28,-1.6 30,0.6 C28,2.4 24,3.2 18,3.2 L-14,3.2 C-20,3.2 -24,3 -24,1 Z" fill="url(#plane)"/>
+        <path d="M-20,-3 L-26,-12 L-21,-12 L-12,-3 Z" fill="#e7eef1"/>
+        <path d="M-2,1 L-14,13 L-8,13 L10,1 Z" fill="#d7e2e7"/>
+        <path d="M2,-2 L-6,-9 L-2,-9 L8,-2 Z" fill="#c9d6dc"/>
+        <path d="M-22,1 L-28,5 L-24,5 L-18,1 Z" fill="#d7e2e7"/>
+        <g fill="#a9bcc6"><circle cx="-8" cy="-1" r="0.7"/><circle cx="-4" cy="-1" r="0.7"/><circle cx="0" cy="-1" r="0.7"/><circle cx="4" cy="-1" r="0.7"/><circle cx="8" cy="-1" r="0.7"/><circle cx="12" cy="-1" r="0.7"/></g>
+        <path d="M24,-2.4 L28,-0.6 L24,-0.4 Z" fill="#9fb3be"/>
+        <rect x="-4" y="5" width="6" height="2.4" rx="1.2" fill="#c3d0d6"/>
+      </g>
+
+      <!-- 远山 -->
+      <path d="M0,124 L30,104 L52,112 L84,86 L110,100 L140,90 L170,110 L196,98 L228,112 L262,84 L290,96 L316,74 L346,94 L372,86 L400,100 L400,140 L0,140 Z" fill="url(#mtn)"/>
+      <g fill="#f4f6f4" opacity="0.9">
+        <path d="M84,86 L76,92 L80,93 L84,90 L88,94 L92,91 Z"/><path d="M262,84 L254,90 L258,91 L262,88 L266,92 L270,89 Z"/>
+        <path d="M316,74 L306,82 L311,83 L316,79 L320,84 L326,80 Z"/>
+      </g>
+      <path d="M0,132 L40,116 L70,124 L110,108 L150,122 L190,112 L240,124 L280,108 L320,118 L360,104 L400,118 L400,146 L0,146 Z" fill="url(#mtn2)" opacity="0.75"/>
+
+      <!-- 山丘和树林 -->
+      <path d="M0,140 C60,128 120,128 180,136 C240,130 320,124 400,132 L400,176 L0,176 Z" fill="url(#hill)"/>
+      <path d="M0,150 C70,142 140,142 210,148 C280,142 340,140 400,144 L400,176 L0,176 Z" fill="#b3d294"/>
+      <path d="M60,146 C90,140 120,140 150,144 L156,156 C124,154 92,154 64,158 Z" fill="#e9d79a"/>
+      <path d="M232,144 C262,140 300,138 330,140 L336,152 C306,152 270,152 238,154 Z" fill="#efd58f"/>
+      <path d="M0,160 C40,156 80,155 120,157 L124,170 C80,170 40,171 0,172 Z" fill="#ecd08a"/>
+      <path d="M262,156 C310,152 360,152 400,154 L400,168 C360,168 310,168 266,170 Z" fill="#ecd08a"/>
+      <g stroke="#d9b866" stroke-width="0.8" opacity="0.8" fill="none">
+        <path d="M66,150 C94,146 122,146 152,149"/><path d="M240,148 C270,145 300,145 332,146"/><path d="M4,165 C40,162 80,162 120,163"/><path d="M268,162 C310,159 360,159 398,160"/>
+      </g>
+      <g fill="#8fb874">
+        <circle cx="20" cy="140" r="6"/><circle cx="28" cy="138" r="5"/><circle cx="174" cy="136" r="5.5"/><circle cx="182" cy="135" r="4.5"/>
+        <circle cx="356" cy="134" r="6"/><circle cx="366" cy="133" r="5"/><circle cx="374" cy="135" r="4.5"/>
+      </g>
+      <!-- 小村子 -->
+      <!-- 白色的小村庄 -->
+      <g>
+        <g fill="#fdfaf4">
+          <rect x="172" y="129" width="16" height="7"/><rect x="189" y="126" width="15" height="8"/><rect x="205" y="127" width="14" height="7"/>
+          <rect x="220" y="125" width="16" height="9"/><rect x="237" y="129" width="14" height="7"/><rect x="182" y="133" width="16" height="6"/><rect x="200" y="133" width="17" height="6"/><rect x="219" y="133" width="15" height="6"/>
+        </g>
+        <g fill="#e6dfd2"><rect x="186" y="129" width="2" height="7"/><rect x="202" y="126" width="2" height="8"/><rect x="234" y="125" width="2" height="9"/><rect x="249" y="129" width="2" height="7"/><rect x="215" y="133" width="2" height="6"/></g>
+        <g fill="#d98a68">
+          <path d="M171,129.5 L180,127 L189,129.5 Z"/><path d="M188,126.5 L196.5,124 L205,126.5 Z"/><path d="M204,127.5 L212,125 L220,127.5 Z"/>
+          <path d="M219,125.5 L228,122.8 L237,125.5 Z"/><path d="M236,129.5 L244,127 L252,129.5 Z"/><path d="M181,133.5 L190,131.2 L199,133.5 Z"/><path d="M199,133.5 L208.5,131.2 L218,133.5 Z"/><path d="M218,133.5 L226.5,131.2 L235,133.5 Z"/>
+        </g>
+        <g fill="#b3c6cf"><rect x="176" y="131" width="2" height="2.2"/><rect x="193" y="128.5" width="2" height="2.2"/><rect x="198" y="128.5" width="2" height="2.2"/><rect x="210" y="129.5" width="2" height="2.2"/><rect x="225" y="128" width="2" height="2.2"/><rect x="230" y="128" width="2" height="2.2"/><rect x="242" y="131" width="2" height="2.2"/><rect x="188" y="135" width="2" height="2.2"/><rect x="206" y="135" width="2" height="2.2"/><rect x="224" y="135" width="2" height="2.2"/></g>
+      </g>
+
+      <!-- 路基、铁轨、电线杆 -->
+      <path d="M0,176 C120,172 280,172 400,176 L400,186 L0,186 Z" fill="#dccfb8"/>
+      <path d="M0,180 C120,177 280,177 400,180" stroke="#c9baa2" stroke-width="1" fill="none"/>
+      <g stroke="#a99886" stroke-width="1.6"><line x1="0" y1="174.2" x2="400" y2="174.2"/></g>
+      <g stroke="#c7b39a" stroke-width="1.2" opacity="0.9">
+        <line x1="6" y1="173" x2="6" y2="176"/><line x1="18" y1="173" x2="18" y2="176"/><line x1="30" y1="173" x2="30" y2="176"/><line x1="330" y1="173" x2="330" y2="176"/><line x1="342" y1="173" x2="342" y2="176"/><line x1="354" y1="173" x2="354" y2="176"/><line x1="366" y1="173" x2="366" y2="176"/><line x1="378" y1="173" x2="378" y2="176"/><line x1="390" y1="173" x2="390" y2="176"/>
+      </g>
+      <g stroke="#a59d93" stroke-width="1.6"><line x1="58" y1="174" x2="58" y2="128"/><line x1="196" y1="174" x2="196" y2="128"/><line x1="334" y1="174" x2="334" y2="128"/></g>
+      <g stroke="#a59d93" stroke-width="1"><line x1="58" y1="132" x2="70" y2="132"/><line x1="196" y1="132" x2="208" y2="132"/><line x1="334" y1="132" x2="346" y2="132"/></g>
+      <path d="M0,135 C20,136.4 48,136.4 68,135 C110,136.4 160,136.4 206,135 C250,136.4 300,136.4 344,135 C370,136 390,136 400,135.4" stroke="#a59d93" stroke-width="0.8" fill="none"/>
+
+      <!-- 火车（往右开） -->
+      <use href="#wagon" x="34" y="152"/>
+      <use href="#wagon" x="97" y="152"/>
+      <use href="#wagon" x="160" y="152"/>
+      <g>
+        <path d="M223,152 L270,152 C282,152 292,158 298,166 L300,171 L223,171 Z" fill="url(#car)"/>
+        <path d="M224,150.4 L268,150.4 C272,150.4 276,151.6 278,153 L224,153 Z" fill="#d9d5cd"/>
+        <rect x="223" y="164" width="76" height="2.6" fill="#d98a68"/>
+        <path d="M276,153.6 C284,154.6 290,158.6 294,164 L282,164 C281,160 279,156 276,153.6 Z" fill="#8fa9b6"/>
+        <g fill="#a9c3cf"><rect x="228" y="156" width="8" height="5.4" rx="1"/><rect x="239" y="156" width="8" height="5.4" rx="1"/><rect x="259" y="156" width="8" height="5.4" rx="1"/></g>
+        <rect x="250" y="155.4" width="6" height="12.4" rx="1" fill="#c9d6dc"/>
+        <circle cx="296" cy="168.4" r="1.4" fill="#f7e7b5"/>
+        <g fill="#7f7770"><circle cx="232" cy="172" r="2.4"/><circle cx="238" cy="172" r="2.4"/><circle cx="276" cy="172" r="2.4"/><circle cx="282" cy="172" r="2.4"/></g>
+      </g>
+      <g fill="#e5ddd0"><rect x="94" y="156" width="3" height="12"/><rect x="157" y="156" width="3" height="12"/><rect x="220" y="156" width="3" height="12"/></g>
+      <g stroke="#c4cdd0" stroke-width="0.9"><line x1="150" y1="150.4" x2="156" y2="138"/><line x1="156" y1="138" x2="166" y2="138"/><line x1="166" y1="138" x2="160" y2="150.4"/></g>
+
+      <!-- 前景的麦田和虞美人 -->
+      <path d="M0,186 C100,182 300,182 400,186 L400,262 L0,262 Z" fill="url(#field)"/>
+      <g stroke="#dcb969" stroke-width="0.9" fill="none" opacity="0.8">
+        <path d="M0,200 C100,196 300,196 400,200"/><path d="M0,216 C100,212 300,212 400,216"/><path d="M0,234 C100,230 300,230 400,234"/>
+      </g>
+      <path d="M0,186 C100,182 300,182 400,186 L400,191 C300,188 100,188 0,191 Z" fill="#bcd59b"/>
+      <!-- 远处的小红花 -->
+      <g fill="#e2604f">
+        <use href="#poppy" transform="translate(48,200) scale(0.6)"/><use href="#poppy" transform="translate(126,198) scale(0.6)"/><use href="#poppy" transform="translate(258,199) scale(0.6)"/><use href="#poppy" transform="translate(352,202) scale(0.6)"/>
+        <use href="#poppy" transform="translate(212,196) scale(0.5)"/><use href="#poppy" transform="translate(34,196) scale(0.5)"/><use href="#poppy" transform="translate(168,204) scale(0.7)"/><use href="#poppy" transform="translate(300,206) scale(0.7)"/>
+        <use href="#poppy" transform="translate(90,208) scale(0.7)"/><use href="#poppy" transform="translate(228,210) scale(0.75)"/>
+      </g>
+      <!-- 中景麦穗 -->
+      <g>
+        <use href="#wheat" transform="translate(10,214) scale(0.5)"/><use href="#wheat" transform="translate(30,216) scale(0.5)"/><use href="#wheat" transform="translate(52,213) scale(0.5)"/><use href="#wheat" transform="translate(110,215) scale(0.5)"/>
+        <use href="#wheat" transform="translate(140,213) scale(0.5)"/><use href="#wheat" transform="translate(188,216) scale(0.5)"/><use href="#wheat" transform="translate(250,214) scale(0.5)"/><use href="#wheat" transform="translate(272,216) scale(0.5)"/>
+        <use href="#wheat" transform="translate(320,213) scale(0.5)"/><use href="#wheat" transform="translate(342,216) scale(0.5)"/><use href="#wheat" transform="translate(380,214) scale(0.5)"/>
+      </g>
+      <!-- 中景虞美人 -->
+      <use href="#flower" transform="translate(70,222) scale(0.9)"/><use href="#flower" transform="translate(156,226) scale(0.95)"/><use href="#flower" transform="translate(206,220) scale(0.85)"/>
+      <use href="#flower" transform="translate(296,224) scale(0.95)"/><use href="#flower" transform="translate(362,222) scale(0.9)"/>
+      <!-- 近景麦穗和虞美人 -->
+      <g>
+        <use href="#wheat" transform="translate(4,256)"/><use href="#wheat" transform="translate(20,260) scale(1.1)"/><use href="#wheat" transform="translate(38,254)"/>
+        <use href="#wheat" transform="translate(94,258) scale(1.05)"/><use href="#wheat" transform="translate(116,262) scale(1.1)"/>
+        <use href="#wheat" transform="translate(178,258)"/><use href="#wheat" transform="translate(236,260) scale(1.05)"/>
+        <use href="#wheat" transform="translate(286,258) scale(1.1)"/><use href="#wheat" transform="translate(338,256)"/><use href="#wheat" transform="translate(358,260) scale(1.1)"/><use href="#wheat" transform="translate(380,255)"/>
+      </g>
+      <use href="#flower" transform="translate(60,234) scale(1.45)"/><use href="#flower" transform="translate(76,240) scale(1.3)"/>
+      <use href="#flower" transform="translate(140,240) scale(1.4)"/><use href="#flower" transform="translate(212,236) scale(1.35)"/>
+      <use href="#flower" transform="translate(316,238) scale(1.45)"/><use href="#flower" transform="translate(332,244) scale(1.25)"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.18" fill="#8a6a4a">
+      <ellipse cx="168" cy="176" rx="140" ry="2.6"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

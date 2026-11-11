@@ -1,0 +1,302 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_06.mp3",
+ "duration": 64.737,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.4,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.78,
+  "buzz_hz": 15000.0,
+  "buzz_db": 4.3,
+  "comb_db": 0.58
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.227,
+   "parts": [
+    [
+     0.5,
+     2.227
+    ]
+   ],
+   "segments": [
+    "Mi cafetería favorita."
+   ],
+   "text": "Mi cafetería favorita.",
+   "read": "Mi cafetería favorita."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.227,
+   "end": 7.707,
+   "parts": [
+    [
+     3.227,
+     7.707
+    ]
+   ],
+   "segments": [
+    "Cerca de mi casa hay una cafetería pequeña y muy acogedora."
+   ],
+   "text": "Cerca de mi casa hay una cafetería pequeña y muy acogedora.",
+   "read": "Cerca de mi casa hay una cafetería pequeña y muy acogedora."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.707,
+   "end": 13.957,
+   "parts": [
+    [
+     8.707,
+     13.957
+    ]
+   ],
+   "segments": [
+    "Tiene mesas redondas, lámparas bajas y muchas plantas verdes."
+   ],
+   "text": "Tiene mesas redondas, lámparas bajas y muchas plantas verdes.",
+   "read": "Tiene mesas redondas, lámparas bajas y muchas plantas verdes."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.957,
+   "end": 18.945,
+   "parts": [
+    [
+     14.957,
+     18.945
+    ]
+   ],
+   "segments": [
+    "En las estanterías de madera hay tazas de todos los colores."
+   ],
+   "text": "En las estanterías de madera hay tazas de todos los colores.",
+   "read": "En las estanterías de madera hay tazas de todos los colores."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.945,
+   "end": 23.915,
+   "parts": [
+    [
+     19.945,
+     23.915
+    ]
+   ],
+   "segments": [
+    "La dueña se llama Rosa y siempre está muy alegre."
+   ],
+   "text": "La dueña se llama Rosa y siempre está muy alegre.",
+   "read": "La dueña se llama Rosa y siempre está muy alegre."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.915,
+   "end": 29.305,
+   "parts": [
+    [
+     24.915,
+     27.495
+    ],
+    [
+     27.775,
+     29.305
+    ]
+   ],
+   "segments": [
+    "Voy allí los viernes por la tarde,",
+    "después de clase."
+   ],
+   "text": "Voy allí los viernes por la tarde, después de clase.",
+   "read": "Voy allí los viernes por la tarde, después de clase."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 30.305,
+   "end": 34.685,
+   "parts": [
+    [
+     30.305,
+     32.775
+    ],
+    [
+     33.055,
+     34.685
+    ]
+   ],
+   "segments": [
+    "Elijo siempre la mesa del rincón,",
+    "junto a una planta."
+   ],
+   "text": "Elijo siempre la mesa del rincón, junto a una planta.",
+   "read": "Elijo siempre la mesa del rincón, junto a una planta."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 35.685,
+   "end": 39.595,
+   "parts": [
+    [
+     35.685,
+     39.595
+    ]
+   ],
+   "segments": [
+    "Pido un café con leche y un trozo de tarta de chocolate."
+   ],
+   "text": "Pido un café con leche y un trozo de tarta de chocolate.",
+   "read": "Pido un café con leche y un trozo de tarta de chocolate."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 40.595,
+   "end": 44.406,
+   "parts": [
+    [
+     40.595,
+     44.406
+    ]
+   ],
+   "segments": [
+    "Rosa hace las tartas en casa y están muy ricas."
+   ],
+   "text": "Rosa hace las tartas en casa y están muy ricas.",
+   "read": "Rosa hace las tartas en casa y están muy ricas."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 45.406,
+   "end": 48.569,
+   "parts": [
+    [
+     45.406,
+     47.029
+    ],
+    [
+     47.309,
+     48.569
+    ]
+   ],
+   "segments": [
+    "Mientras tomo el café,",
+    "leo un libro."
+   ],
+   "text": "Mientras tomo el café, leo un libro.",
+   "read": "Mientras tomo el café, leo un libro."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 49.569,
+   "end": 53.559,
+   "parts": [
+    [
+     49.569,
+     53.559
+    ]
+   ],
+   "segments": [
+    "La música es suave y la gente habla en voz baja."
+   ],
+   "text": "La música es suave y la gente habla en voz baja.",
+   "read": "La música es suave y la gente habla en voz baja."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 54.559,
+   "end": 58.449,
+   "parts": [
+    [
+     54.559,
+     58.449
+    ]
+   ],
+   "segments": [
+    "Allí estoy muy tranquilo después de una semana larga."
+   ],
+   "text": "Allí estoy muy tranquilo después de una semana larga.",
+   "read": "Allí estoy muy tranquilo después de una semana larga."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 59.449,
+   "end": 63.537,
+   "parts": [
+    [
+     59.449,
+     60.189
+    ],
+    [
+     60.469,
+     63.537
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "esta cafetería es como mi segunda casa."
+   ],
+   "text": "Para mí, esta cafetería es como mi segunda casa.",
+   "read": "Para mí, esta cafetería es como mi segunda casa."
+  }
+ ]
+}

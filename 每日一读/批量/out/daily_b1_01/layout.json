@@ -1,0 +1,305 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  663.4375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  671.4375
+ ],
+ "zh": [
+  96,
+  697.4375,
+  480,
+  936.6875
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  184.46875,
+  131.625
+ ],
+ "header_gap": 254.671875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   6.5,
+   "El verano pasado decidí hacer mi primer viaje solo por la"
+  ],
+  [
+   "mid",
+   7.2,
+   "costa del norte. Al principio tenía un poco de miedo, porque"
+  ],
+  [
+   "mid",
+   4.2,
+   "nunca había viajado sin mi familia. Llevaba una mochila ligera, un"
+  ],
+  [
+   "mid",
+   5.7,
+   "mapa de papel y un sombrero para protegerme del sol. Un día"
+  ],
+  [
+   "mid",
+   5.8,
+   "subí a un mirador y, desde arriba, vi un pueblo blanco junto al"
+  ],
+  [
+   "mid",
+   4.3,
+   "mar. Allí comprendí que viajar solo te obliga a tomar decisiones y"
+  ],
+  [
+   "last",
+   3.6,
+   "a confiar en ti mismo."
+  ],
+  [
+   "mid",
+   4.9,
+   "Sin embargo, no creo que sea un viaje para todo el mundo."
+  ],
+  [
+   "mid",
+   5.5,
+   "Algunas noches me sentía bastante solo, sobre todo durante la"
+  ],
+  [
+   "mid",
+   4.5,
+   "cena. Por eso, es importante que hables con la gente del lugar y"
+  ],
+  [
+   "mid",
+   7.5,
+   "que preguntes por sus costumbres. Yo lo repetiría sin dudar,"
+  ],
+  [
+   "mid",
+   5.9,
+   "porque volví a casa más tranquilo y más seguro de mí mismo."
+  ],
+  [
+   "mid",
+   5,
+   "Cuando tengas la oportunidad, te recomiendo que lo pruebes al"
+  ],
+  [
+   "last",
+   3.6,
+   "menos una vez."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

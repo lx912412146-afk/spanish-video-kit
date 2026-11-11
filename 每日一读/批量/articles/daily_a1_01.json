@@ -1,0 +1,142 @@
+{
+ "id": "daily_a1_01",
+ "level": "A1",
+ "no": 1,
+ "title_es": "Mi abuela",
+ "title_zh": "我的奶奶",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 1 篇。原创短文。只用陈述式现在时，有 hay、se llama、cuando + 现在时等 A1 常用结构。12 句，121 词。特别判断：abuela 不分奶奶、外婆，照选题表译作“奶奶”；teje 是 tejer（编织），和插图里装毛线的篮子对应，译作“织”；está en su sillón 说的是平时坐在扶手椅上，译作“坐在扶手椅上”；pueblo 指奶奶的家乡，译作“老家”；cariñosa 指长辈对孙辈的疼爱，译作“慈爱”；第 4 句 cortinas verdes 和插图里的绿色窗帘一致。第 3 句 pequeño, pero、第 5 句 sillón, al lado、第 7 句 llego, ella 都是照常停顿的逗号，全篇没有列举，no_pause_commas 为空。词汇：abuela 在标题里，排在最前；tejer 原文是变位 teje，cariñoso 原文是阴性 cariñosa。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "abuela",
+   "奶奶",
+   "abuela"
+  ],
+  [
+   "domingo",
+   "星期天",
+   "domingos"
+  ],
+  [
+   "salón",
+   "客厅",
+   "salón"
+  ],
+  [
+   "cortina",
+   "窗帘",
+   "cortinas"
+  ],
+  [
+   "ventana",
+   "窗户",
+   "ventana"
+  ],
+  [
+   "reloj",
+   "钟",
+   "reloj"
+  ],
+  [
+   "antiguo",
+   "老式的",
+   "antiguo"
+  ],
+  [
+   "pared",
+   "墙",
+   "pared"
+  ],
+  [
+   "sillón",
+   "扶手椅",
+   "sillón"
+  ],
+  [
+   "tejer",
+   "织",
+   "teje"
+  ],
+  [
+   "bufanda",
+   "围巾",
+   "bufandas"
+  ],
+  [
+   "lana",
+   "毛线",
+   "lana"
+  ],
+  [
+   "tetera",
+   "茶壶",
+   "tetera"
+  ],
+  [
+   "taza",
+   "杯子",
+   "tazas"
+  ],
+  [
+   "cariñoso",
+   "慈爱的",
+   "cariñosa"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Mi abuela se llama Carmen y vive muy cerca de nosotros.",
+    "zh": "我奶奶叫卡门，她住得离我们很近。"
+   },
+   {
+    "es": "Todos los domingos por la tarde voy a su casa.",
+    "zh": "每个星期天下午，我都去她家。"
+   },
+   {
+    "es": "Su salón es pequeño, pero es muy bonito y tranquilo.",
+    "zh": "她的客厅不大，但是很漂亮，也很安静。"
+   },
+   {
+    "es": "Hay cortinas verdes en la ventana y un reloj antiguo en la pared.",
+    "zh": "窗户上挂着绿色的窗帘，墙上有一个老式的钟。"
+   },
+   {
+    "es": "Mi abuela siempre está en su sillón, al lado de la ventana.",
+    "zh": "奶奶总是坐在她的扶手椅上，就在窗户旁边。"
+   },
+   {
+    "es": "Allí teje bufandas de lana para toda la familia.",
+    "zh": "她在那里给全家人织毛线围巾。"
+   }
+  ],
+  [
+   {
+    "es": "Cuando llego, ella prepara té en la tetera y trae dos tazas.",
+    "zh": "我一到，她就用茶壶泡茶，再拿来两个杯子。"
+   },
+   {
+    "es": "Tomamos el té juntos y hablamos de muchas cosas.",
+    "zh": "我们一起喝茶，聊很多事情。"
+   },
+   {
+    "es": "Ella me pregunta por mis clases y por mis amigos.",
+    "zh": "她会问起我的功课，也会问起我的朋友。"
+   },
+   {
+    "es": "También me cuenta historias divertidas de su pueblo.",
+    "zh": "她还给我讲她老家的趣事。"
+   },
+   {
+    "es": "Con ella siempre estoy muy contento.",
+    "zh": "和她在一起，我总是很开心。"
+   },
+   {
+    "es": "Para mí, mi abuela es la persona más cariñosa del mundo.",
+    "zh": "对我来说，奶奶是世界上最慈爱的人。"
+   }
+  ]
+ ]
+}

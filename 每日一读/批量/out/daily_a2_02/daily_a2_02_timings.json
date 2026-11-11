@@ -1,0 +1,275 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_02.mp3",
+ "duration": 60.888,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.46,
+  "short_term_std_lu": 0.9,
+  "short_term_std_full_lu": 0.9,
+  "peak_dbfs": -1.61,
+  "buzz_hz": 5143.1,
+  "buzz_db": 4.4,
+  "comb_db": -0.23
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.12,
+   "parts": [
+    [
+     0.5,
+     2.12
+    ]
+   ],
+   "segments": [
+    "Comer al aire libre."
+   ],
+   "text": "Comer al aire libre.",
+   "read": "Comer al aire libre."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.12,
+   "end": 7.76,
+   "parts": [
+    [
+     3.12,
+     7.76
+    ]
+   ],
+   "segments": [
+    "El domingo pasado hacía buen tiempo y decidí comer en el campo."
+   ],
+   "text": "El domingo pasado hacía buen tiempo y decidí comer en el campo.",
+   "read": "El domingo pasado hacía buen tiempo y decidí comer en el campo."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.76,
+   "end": 13.38,
+   "parts": [
+    [
+     8.76,
+     13.38
+    ]
+   ],
+   "segments": [
+    "Mi hermana Clara preparó bocadillos de queso y yo llevé fruta."
+   ],
+   "text": "Mi hermana Clara preparó bocadillos de queso y yo llevé fruta.",
+   "read": "Mi hermana Clara preparó bocadillos de queso y yo llevé fruta."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.38,
+   "end": 19.08,
+   "parts": [
+    [
+     14.38,
+     19.08
+    ]
+   ],
+   "segments": [
+    "Lo pusimos todo en una cesta y caminamos hasta una colina."
+   ],
+   "text": "Lo pusimos todo en una cesta y caminamos hasta una colina.",
+   "read": "Lo pusimos todo en una cesta y caminamos hasta una colina."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.08,
+   "end": 23.75,
+   "parts": [
+    [
+     20.08,
+     23.75
+    ]
+   ],
+   "segments": [
+    "Allí extendimos un mantel a la sombra de un gran árbol."
+   ],
+   "text": "Allí extendimos un mantel a la sombra de un gran árbol.",
+   "read": "Allí extendimos un mantel a la sombra de un gran árbol."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.75,
+   "end": 29.79,
+   "parts": [
+    [
+     24.75,
+     29.79
+    ]
+   ],
+   "segments": [
+    "Desde arriba se veían otras colinas verdes y algunas casas."
+   ],
+   "text": "Desde arriba se veían otras colinas verdes y algunas casas.",
+   "read": "Desde arriba se veían otras colinas verdes y algunas casas."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 30.79,
+   "end": 34.04,
+   "parts": [
+    [
+     30.79,
+     34.04
+    ]
+   ],
+   "segments": [
+    "Comimos sin prisa y hablamos de muchas cosas."
+   ],
+   "text": "Comimos sin prisa y hablamos de muchas cosas.",
+   "read": "Comimos sin prisa y hablamos de muchas cosas."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 35.04,
+   "end": 38.89,
+   "parts": [
+    [
+     35.04,
+     38.89
+    ]
+   ],
+   "segments": [
+    "Los pájaros cantaban y el viento movía las hojas."
+   ],
+   "text": "Los pájaros cantaban y el viento movía las hojas.",
+   "read": "Los pájaros cantaban y el viento movía las hojas."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.89,
+   "end": 44.618,
+   "parts": [
+    [
+     39.89,
+     41.33
+    ],
+    [
+     41.61,
+     44.618
+    ]
+   ],
+   "segments": [
+    "Después de comer,",
+    "Clara leyó un libro y yo dormí un rato."
+   ],
+   "text": "Después de comer, Clara leyó un libro y yo dormí un rato.",
+   "read": "Después de comer, Clara leyó un libro y yo dormí un rato."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 45.618,
+   "end": 48.428,
+   "parts": [
+    [
+     45.618,
+     48.428
+    ]
+   ],
+   "segments": [
+    "Fue la tarde más tranquila de todo el mes."
+   ],
+   "text": "Fue la tarde más tranquila de todo el mes.",
+   "read": "Fue la tarde más tranquila de todo el mes."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 49.428,
+   "end": 54.448,
+   "parts": [
+    [
+     49.428,
+     51.498
+    ],
+    [
+     51.778,
+     54.448
+    ]
+   ],
+   "segments": [
+    "La comida era sencilla,",
+    "pero me pareció más rica que en casa."
+   ],
+   "text": "La comida era sencilla, pero me pareció más rica que en casa.",
+   "read": "La comida era sencilla, pero me pareció más rica que en casa."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 55.448,
+   "end": 59.688,
+   "parts": [
+    [
+     55.448,
+     59.688
+    ]
+   ],
+   "segments": [
+    "Hemos decidido comer al aire libre más a menudo este verano."
+   ],
+   "text": "Hemos decidido comer al aire libre más a menudo este verano.",
+   "read": "Hemos decidido comer al aire libre más a menudo este verano."
+  }
+ ]
+}

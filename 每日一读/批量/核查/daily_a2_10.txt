@@ -1,0 +1,57 @@
+✓  1 Una cena para mis amigos.
+     识别：Una cena para mis amigos.
+✓  2 El viernes pasado invité a mis amigos a cenar en mi casa.
+     识别：El viernes pasado invité a mis amigos a cenar en mi casa.
+✓  3 No soy un gran cocinero, así que pasé toda la tarde en la cocina.
+     识别：No soy un gran cocinero, así que pasé toda la tarde en la cocina.
+✓  4 Preparé un guiso de carne con patatas, una ensalada y un postre de chocolate.
+     识别：Preparé un guiso de carne con patatas, una ensalada y un postre de chocolate.
+✓  5 Después puse la mesa con platos, vasos, servilletas y unas velas.
+     识别：Después puse la mesa con platos, vasos, servilletas y unas velas.
+✓  6 Mis amigos llegaron puntuales y trajeron pan y bebidas.
+     识别：Mis amigos llegaron puntuales y trajeron pan y bebidas.
+✓  7 A todos les gustó mucho el guiso, sobre todo a Sergio.
+     识别：A todos les gustó mucho el guiso, sobre todo a Sergio.
+✓  8 Sergio repitió plato y Paula me pidió la receta.
+     识别：Sergio repitió plato y Paula me pidió la receta.
+✓  9 Charlamos y nos reímos mucho durante toda la noche.
+     识别：Charlamos y nos reímos mucho durante toda la noche.
+✓ 10 Al final, todos me ayudaron a fregar los platos.
+     识别：Al final, todos me ayudaron a fregar los platos.
+✓ 11 Cuando se fueron, me sentí cansado pero feliz.
+     识别：Cuando se fueron, me sentí cansado pero feliz.
+✓ 12 He descubierto que cocinar para los amigos es un placer.
+     识别：He descubierto que cocinar para los amigos es un placer.
+✓ 高亮版   0.19 秒 应为 page_static.png：和其余 12 张逐对比，最接近混淆的是 page_hl_09.png（差值比 0.07，要求 < 0.35）；整页差 1.60
+✓ 高亮版   1.94 秒 应为 page_hl_01.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.63
+✓ 高亮版   5.98 秒 应为 page_hl_02.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.65
+✓ 高亮版  11.44 秒 应为 page_hl_03.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.14，要求 < 0.35）；整页差 1.62
+✓ 高亮版  17.83 秒 应为 page_hl_04.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.64
+✓ 高亮版  24.62 秒 应为 page_hl_05.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.65
+✓ 高亮版  30.79 秒 应为 page_hl_06.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.64
+✓ 高亮版  36.31 秒 应为 page_hl_07.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.18，要求 < 0.35）；整页差 1.64
+✓ 高亮版  41.60 秒 应为 page_hl_08.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.63
+✓ 高亮版  46.71 秒 应为 page_hl_09.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.63
+✓ 高亮版  51.79 秒 应为 page_hl_10.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.62
+✓ 高亮版  56.94 秒 应为 page_hl_11.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.63
+✓ 高亮版  61.69 秒 应为 page_hl_12.png：和其余 12 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.63
+✓ 高亮版  64.31 秒 应为 page_static.png：和其余 12 张逐对比，最接近混淆的是 page_hl_12.png（差值比 0.08，要求 < 0.35）；整页差 1.59
+✓ daily_a2_10.mp4：h264 1080×1512 24/1 yuv420p，aac 48000 Hz
+✓ daily_a2_10.mp4：视频 64.792 秒，音频 64.776 秒，帧数 1555
+✓ 总时长 64.8 秒（53—67）
+✓ MP4 音轨整体响度 -16.50 LUFS，峰值 -1.78 dBFS
+✓ 逐句识别：12 句，0 句有出入
+✓ 画面：高亮版 14 段，0 处不对
+✓ 每句从开口到读完都高亮这一句（12 句）
+✓ 源图 13 张＝静态页＋12 张高亮页
+✓ 页面不滚动、没有截断（scroll [720, 1008]，overflow 0）
+✓ 底部留白 181 px
+✓ 西语两端对齐最大词间空白 7.4 px（字号 [13.1, -0.1]）
+✓ 插图、西语、译文、词汇栏互不重叠
+✓ 标题栏左右留空 77 px
+✓ 插图上的标题在插图内（右端 280，插图右端 480）
+✓ 词汇栏每条都在栏内（换行的 2 条）
+✓ 词汇 15 条，正文里找不到的：无
+✓ 中文半角字符：无
+✓ 朗读文字＝标题＋正文（逐句一致）
+全部通过

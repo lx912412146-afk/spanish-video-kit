@@ -1,0 +1,129 @@
+{
+ "id": "daily_c1_09",
+ "level": "C1",
+ "no": 9,
+ "title_es": "La memoria de los objetos",
+ "title_zh": "物件的记忆",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 9 篇。原创短文。主要语法：al + 原形 作时间状语，简单过去时与过去未完成时的叙述，介词 + 关系代词（a las que se aferra），代词式动词 desprenderse de、aferrarse a，条件式表假设（tirarlas sería como…），lo + 过去分词的名词化（lo vivido），aunque + 现在虚拟式表让步（aunque no vuelva a funcionar），将来时表决心（lo guardaré）。7 句，126 词。第一人称叙述者是男性（讲述祖父的皮箱），没有需要变性的形容词。特别判断：第 2 句 unas fotografías descoloridas, un reloj de bolsillo detenido y unas gafas de montura redonda 是名词列举，descoloridas 后的逗号不停顿，已登记；第 7 句 marca 一语双关，既指钟表“指示时间”，也指“标记”，译作“标记”；aferrarse a 指记忆“紧紧依附”在物件上。标题里的 memoria、objeto 太基础，没有放进词汇表。插图里的旧皮箱、旧照片、怀表和眼镜对应第 1、2 句。",
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "descoloridas,",
+    "why": "列举：unas fotografías descoloridas, un reloj de bolsillo detenido y unas gafas de montura redonda（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "desván",
+   "阁楼",
+   "desván"
+  ],
+  [
+   "cuero",
+   "皮革",
+   "cuero"
+  ],
+  [
+   "descolorido",
+   "褪色的",
+   "descoloridas"
+  ],
+  [
+   "reloj de bolsillo",
+   "怀表",
+   "reloj de bolsillo"
+  ],
+  [
+   "detenido",
+   "停止的",
+   "detenido"
+  ],
+  [
+   "montura",
+   "镜框",
+   "montura"
+  ],
+  [
+   "desde luego",
+   "当然",
+   "desde luego"
+  ],
+  [
+   "ancla",
+   "锚",
+   "anclas"
+  ],
+  [
+   "aferrarse",
+   "紧抓，依附",
+   "se aferra"
+  ],
+  [
+   "devolver",
+   "带回",
+   "devolverme"
+  ],
+  [
+   "desprenderse de",
+   "舍弃",
+   "desprendernos de"
+  ],
+  [
+   "tirar",
+   "扔掉",
+   "tirarlas"
+  ],
+  [
+   "lo vivido",
+   "过往经历",
+   "lo vivido"
+  ],
+  [
+   "volver a",
+   "再次",
+   "vuelva a"
+  ],
+  [
+   "medir",
+   "衡量",
+   "mide"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hace poco, al ordenar el desván, encontré la vieja maleta de cuero de mi abuelo.",
+    "zh": "前不久整理阁楼时，我找到了祖父那只旧皮箱。"
+   },
+   {
+    "es": "Dentro había unas fotografías descoloridas, un reloj de bolsillo detenido y unas gafas de montura redonda.",
+    "zh": "箱子里有几张褪了色的照片、一块停了的怀表，还有一副圆框眼镜。"
+   },
+   {
+    "es": "Ninguno de esos objetos tenía valor económico, pero al tocarlos sentí que conservaban algo de él.",
+    "zh": "这些东西没有一件值钱，可我一摸到它们，就觉得其中还留存着他的一部分。"
+   }
+  ],
+  [
+   {
+    "es": "Los objetos, desde luego, no recuerdan nada, pero funcionan como anclas a las que se aferra nuestra memoria.",
+    "zh": "当然，物件本身什么也不记得，但它们就像一只只锚，让我们的记忆紧紧依附其上。"
+   },
+   {
+    "es": "El olor del cuero o el peso del reloj en la mano bastan para devolverme a las tardes de mi infancia.",
+    "zh": "皮革的气味，或是怀表握在手中的分量，就足以把我带回童年的那些下午。"
+   },
+   {
+    "es": "Quizá por eso nos cuesta tanto desprendernos de cosas inútiles: tirarlas sería como renunciar a una parte de lo vivido.",
+    "zh": "也许正因如此，我们才很难舍弃那些无用之物：扔掉它们，就如同放弃了一部分过往。"
+   },
+   {
+    "es": "Aunque el reloj no vuelva a funcionar, lo guardaré, porque marca un tiempo que ya no se mide en horas.",
+    "zh": "即使这块表再也不会走了，我也会留着它，因为它标记的是一种不再以钟点衡量的时间。"
+   }
+  ]
+ ]
+}

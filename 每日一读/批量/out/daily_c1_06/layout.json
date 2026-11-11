@@ -1,0 +1,271 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  613.53125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  621.53125
+ ],
+ "zh": [
+  96,
+  647.53125,
+  480,
+  886.78125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  287.671875,
+  131.625
+ ],
+ "header_gap": 87.421875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.2,
+   "Desde el camino se divisan los bancales que descienden por la"
+  ],
+  [
+   "mid",
+   5.1,
+   "ladera hasta un pueblo de casas blancas. Entre ellos crecen olivos"
+  ],
+  [
+   "mid",
+   5.4,
+   "centenarios que alguien plantó sabiendo que jamás vería su mejor"
+  ],
+  [
+   "mid",
+   6,
+   "cosecha. Este paisaje no es obra exclusiva de la naturaleza, sino"
+  ],
+  [
+   "last",
+   3.4,
+   "fruto de siglos de trabajo paciente y de un saber heredado."
+  ],
+  [
+   "mid",
+   4.5,
+   "Tendemos a asociar el patrimonio con palacios y monumentos,"
+  ],
+  [
+   "mid",
+   3.9,
+   "pero un muro de piedra seca también guarda la memoria de quienes"
+  ],
+  [
+   "mid",
+   3.5,
+   "lo levantaron. Si esos bancales se abandonaran, el monte los cubriría"
+  ],
+  [
+   "mid",
+   5.8,
+   "en pocos años y con ellos desaparecería una forma de habitar la"
+  ],
+  [
+   "mid",
+   7.4,
+   "tierra. Protegerlos no implica congelarlos como una postal, sino"
+  ],
+  [
+   "mid",
+   4.9,
+   "garantizar que sigan siendo útiles para quienes viven allí. Al fin y al"
+  ],
+  [
+   "last",
+   3.4,
+   "cabo, un paisaje solo pervive mientras haya quien lo trabaje."
+  ]
+ ],
+ "es_max_gap": 7.4,
+ "es_font": [
+  12.7,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

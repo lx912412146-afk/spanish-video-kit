@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_06",
+ "level": "A1",
+ "no": 6,
+ "title_es": "Mi cafetería favorita",
+ "title_zh": "我最喜欢的咖啡馆",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 6 篇。原创短文。只用陈述式现在时，有 hay、se llama、mientras + 现在时。12 句，119 词。特别判断：acogedora 说咖啡馆让人觉得舒服、像家一样，译作“温馨”；lámparas bajas 对应插图里垂得很低的吊灯，译作“低低的吊灯”；estanterías de madera 对应插图里放杯子的木架；dueña 是店主，词头按词典写阳性 dueño；están muy ricas 说蛋糕好吃，释义取“好吃的”；una semana larga 译作“漫长的一周”；第 6 句写成 Elijo siempre…，不写 Siempre elijo…，免得 siempre 和 elijo 连读成 siemprelijo、被识别成 lijo；第 11 句 muy tranquilo 用阳性，叙述者是男性。第 2 句 mesas redondas, lámparas bajas y muchas plantas verdes 是列举，redondas, 登记为不停顿；第 5 句 tarde, después de clase、第 6 句 rincón, junto a… 是补充说明，照常停顿。词汇：cafetería 在标题里，排在最前；favorita 正文里没有，不列；elegir 原文是句首的 Elijo，pedir 原文是句首的 Pido。",
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "redondas,",
+    "why": "列举：mesas redondas, lámparas bajas y muchas plantas verdes（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "cafetería",
+   "咖啡馆",
+   "cafetería"
+  ],
+  [
+   "acogedor",
+   "温馨的",
+   "acogedora"
+  ],
+  [
+   "redondo",
+   "圆的",
+   "redondas"
+  ],
+  [
+   "lámpara",
+   "灯",
+   "lámparas"
+  ],
+  [
+   "estantería",
+   "架子",
+   "estanterías"
+  ],
+  [
+   "dueño",
+   "店主",
+   "dueña"
+  ],
+  [
+   "alegre",
+   "开朗的",
+   "alegre"
+  ],
+  [
+   "viernes",
+   "星期五",
+   "viernes"
+  ],
+  [
+   "elegir",
+   "选",
+   "Elijo"
+  ],
+  [
+   "rincón",
+   "角落",
+   "rincón"
+  ],
+  [
+   "pedir",
+   "点餐",
+   "Pido"
+  ],
+  [
+   "trozo",
+   "一块",
+   "trozo"
+  ],
+  [
+   "tarta",
+   "蛋糕",
+   "tarta"
+  ],
+  [
+   "rico",
+   "好吃的",
+   "ricas"
+  ],
+  [
+   "en voz baja",
+   "小声",
+   "en voz baja"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cerca de mi casa hay una cafetería pequeña y muy acogedora.",
+    "zh": "我家附近有一家小咖啡馆，非常温馨。"
+   },
+   {
+    "es": "Tiene mesas redondas, lámparas bajas y muchas plantas verdes.",
+    "zh": "店里有圆圆的桌子、低低的吊灯，还有很多绿色植物。"
+   },
+   {
+    "es": "En las estanterías de madera hay tazas de todos los colores.",
+    "zh": "木架子上摆着各种颜色的杯子。"
+   },
+   {
+    "es": "La dueña se llama Rosa y siempre está muy alegre.",
+    "zh": "店主叫罗莎，她总是很开朗。"
+   },
+   {
+    "es": "Voy allí los viernes por la tarde, después de clase.",
+    "zh": "每个星期五下午下了课，我就去那儿。"
+   },
+   {
+    "es": "Elijo siempre la mesa del rincón, junto a una planta.",
+    "zh": "我总是选角落里的那张桌子，旁边有一盆植物。"
+   }
+  ],
+  [
+   {
+    "es": "Pido un café con leche y un trozo de tarta de chocolate.",
+    "zh": "我点一杯牛奶咖啡和一块巧克力蛋糕。"
+   },
+   {
+    "es": "Rosa hace las tartas en casa y están muy ricas.",
+    "zh": "罗莎的蛋糕都是自己在家做的，非常好吃。"
+   },
+   {
+    "es": "Mientras tomo el café, leo un libro.",
+    "zh": "我一边喝咖啡，一边看书。"
+   },
+   {
+    "es": "La música es suave y la gente habla en voz baja.",
+    "zh": "音乐很轻柔，大家说话都很小声。"
+   },
+   {
+    "es": "Allí estoy muy tranquilo después de una semana larga.",
+    "zh": "过了漫长的一周，我在那儿感到很放松。"
+   },
+   {
+    "es": "Para mí, esta cafetería es como mi segunda casa.",
+    "zh": "对我来说，这家咖啡馆就像我的第二个家。"
+   }
+  ]
+ ]
+}

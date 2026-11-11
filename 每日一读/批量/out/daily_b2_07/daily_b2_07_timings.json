@@ -1,0 +1,253 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_07.mp3",
+ "duration": 57.12,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.44,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.65,
+  "buzz_hz": 8778.8,
+  "buzz_db": 6.4,
+  "comb_db": -0.3
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.9,
+   "parts": [
+    [
+     0.5,
+     1.9
+    ]
+   ],
+   "segments": [
+    "El tren frente al avión."
+   ],
+   "text": "El tren frente al avión.",
+   "read": "El tren frente al avión."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.8,
+   "end": 8.92,
+   "parts": [
+    [
+     2.8,
+     5.99
+    ],
+    [
+     6.27,
+     7.16
+    ],
+    [
+     7.44,
+     8.92
+    ]
+   ],
+   "segments": [
+    "El verano pasado viajé a una ciudad del sur y,",
+    "por primera vez,",
+    "preferí el tren al avión."
+   ],
+   "text": "El verano pasado viajé a una ciudad del sur y, por primera vez, preferí el tren al avión.",
+   "read": "El verano pasado viajé a una ciudad del sur y, por primera vez, preferí el tren al avión."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.82,
+   "end": 15.71,
+   "parts": [
+    [
+     9.82,
+     11.54
+    ],
+    [
+     11.82,
+     15.71
+    ]
+   ],
+   "segments": [
+    "El trayecto fue más largo,",
+    "pero no tuve que llegar con antelación ni pasar controles interminables."
+   ],
+   "text": "El trayecto fue más largo, pero no tuve que llegar con antelación ni pasar controles interminables.",
+   "read": "El trayecto fue más largo, pero no tuve que llegar con antelación ni pasar controles interminables."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 16.61,
+   "end": 22.41,
+   "parts": [
+    [
+     16.61,
+     22.41
+    ]
+   ],
+   "segments": [
+    "Desde la ventanilla contemplé campos dorados, pueblos blancos y montañas lejanas mientras leía."
+   ],
+   "text": "Desde la ventanilla contemplé campos dorados, pueblos blancos y montañas lejanas mientras leía.",
+   "read": "Desde la ventanilla contemplé campos dorados, pueblos blancos y montañas lejanas mientras leía."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 23.31,
+   "end": 28.91,
+   "parts": [
+    [
+     23.31,
+     26.22
+    ],
+    [
+     26.5,
+     28.91
+    ]
+   ],
+   "segments": [
+    "Además, la estación estaba en pleno centro,",
+    "así que me ahorré el viaje hasta el aeropuerto."
+   ],
+   "text": "Además, la estación estaba en pleno centro, así que me ahorré el viaje hasta el aeropuerto.",
+   "read": "Además, la estación estaba en pleno centro, así que me ahorré el viaje hasta el aeropuerto."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 29.81,
+   "end": 34.26,
+   "parts": [
+    [
+     29.81,
+     30.88
+    ],
+    [
+     31.16,
+     34.26
+    ]
+   ],
+   "segments": [
+    "Frente al avión,",
+    "el tren contamina mucho menos en distancias medias."
+   ],
+   "text": "Frente al avión, el tren contamina mucho menos en distancias medias.",
+   "read": "Frente al avión, el tren contamina mucho menos en distancias medias."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 35.16,
+   "end": 41.56,
+   "parts": [
+    [
+     35.16,
+     36.45
+    ],
+    [
+     36.73,
+     41.56
+    ]
+   ],
+   "segments": [
+    "No obstante,",
+    "el avión sigue siendo imprescindible para cruzar océanos o recorrer grandes distancias."
+   ],
+   "text": "No obstante, el avión sigue siendo imprescindible para cruzar océanos o recorrer grandes distancias.",
+   "read": "No obstante, el avión sigue siendo imprescindible para cruzar océanos o recorrer grandes distancias."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 42.46,
+   "end": 49.8,
+   "parts": [
+    [
+     42.46,
+     43.21
+    ],
+    [
+     43.49,
+     46.48
+    ],
+    [
+     46.76,
+     49.8
+    ]
+   ],
+   "segments": [
+    "Por lo tanto,",
+    "no se trata de elegir uno y renunciar al otro,",
+    "sino de usar cada medio cuando tenga más sentido."
+   ],
+   "text": "Por lo tanto, no se trata de elegir uno y renunciar al otro, sino de usar cada medio cuando tenga más sentido.",
+   "read": "Por lo tanto, no se trata de elegir uno y renunciar al otro, sino de usar cada medio cuando tenga más sentido."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 50.7,
+   "end": 55.92,
+   "parts": [
+    [
+     50.7,
+     52.97
+    ],
+    [
+     53.25,
+     55.92
+    ]
+   ],
+   "segments": [
+    "Si los billetes de tren fueran más baratos,",
+    "sin duda muchos viajeros cambiarían de costumbre."
+   ],
+   "text": "Si los billetes de tren fueran más baratos, sin duda muchos viajeros cambiarían de costumbre.",
+   "read": "Si los billetes de tren fueran más baratos, sin duda muchos viajeros cambiarían de costumbre."
+  }
+ ]
+}
