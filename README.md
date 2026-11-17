@@ -276,6 +276,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 每课内容是一个 JSON（`content/Lxx.json`），`build_decks.js` 统一排版生成。PPTX 和 PDF 在 Release `courseware-book1`。
   - [`课件/第一册/单词表/`](课件/第一册/单词表/)：按课整理的单词表，682 个词条（单词、词性、中文释义），各课第一次出现的动词形式和原形，127 个动词的完整变位表。Word、PDF（128 页）和 CSV 在 Release `book1-vocab`。
 - [`课件/第二册/`](课件/第二册/)：第二册（老版）第 1–18 课的分课课件，版式同上（第二册没有语音部分；第 6、12、18 课是复习课）。PPTX 和 PDF 在 Release `courseware-book2`。
+  - [`课件/第二册/单词表/`](课件/第二册/单词表/)：接着第一册单词表按课整理，525 个词条（单词、词性、中文释义，第一册学过的词有了新意思的单列），各课第一次出现的动词形式和原形，142 个新动词的完整变位表（含将来时、条件式、虚拟式现在时、否定命令式），书后附第一册动词的新时态。Word、PDF（165 页）和 CSV 在 Release `book2-vocab`。
 - [`课件/第三册/`](课件/第三册/)：第三册（老版）第 1–18 课的分课课件，版式同上（第 6、12、18 课按复习课处理）。PPTX 和 PDF 在 Release `courseware-book3`。
 - [`课件/第四册/`](课件/第四册/)：第四册（老版）第 1–18 课的分课课件，版式同上。PPTX 和 PDF 在 Release `courseware-book4`。
 
@@ -375,6 +376,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `courseware-book1` | 第一册分课课件：`book1_L01.pptx` … `book1_L24.pptx` 和同名 PDF、`courseware-book1-SHA256SUMS.txt` |
 | `book1-vocab` | 第一册分课单词表：`book1-vocab.docx`、`book1-vocab.pdf`、`book1-vocab-words.csv`、`book1-vocab-verbs.csv`、`book1-vocab-SHA256SUMS.txt` |
 | `courseware-book2` | 第二册分课课件：`book2_L01.pptx` … `book2_L18.pptx` 和同名 PDF、`courseware-book2-SHA256SUMS.txt` |
+| `book2-vocab` | 第二册分课单词表：`book2-vocab.docx`、`book2-vocab.pdf`、`book2-vocab-words.csv`、`book2-vocab-verbs.csv`、`book2-vocab-SHA256SUMS.txt` |
 | `courseware-book3` | 第三册分课课件：`book3_L01.pptx` … `book3_L18.pptx` 和同名 PDF、`courseware-book3-SHA256SUMS.txt` |
 | `courseware-book4` | 第四册分课课件：`book4_L01.pptx` … `book4_L18.pptx` 和同名 PDF、`courseware-book4-SHA256SUMS.txt` |
 | `whitepaper` | 西班牙语学习白皮书：`es-whitepaper.docx`、`es-whitepaper.pdf`、`whitepaper-SHA256SUMS.txt` |
@@ -449,3 +451,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 用户看过样片后选定逐句高亮版作为每日一读的成品形式，`每日一读/README.md` 和 Release 说明已注明。
     - 每日一读 50 篇（A1—C1 每级 10 篇，原创短文和插图，逐句高亮版）和 Release `daily-reading-50`；新增 `每日一读/批量/`（选题表、编写和插图要求、文章、插图、朗读、核查报告、审读记录、成品一览）。
     - `每日一读/tools/`：新增 `run_batch.py`（批量合成、出片、核查）、`collect_batch.py`（归档）、`summary_batch.py`（成品一览）、`check_daily.py`（文章自查）、`render_svg.py`（插图自查）、`contact.py`（插图总览）；`make_daily_audio.py` 句间停顿不过时自动退到 0.9、0.8 秒，音色可以写在文章里；`render_page.py` 自动选西语字号和字距；`make_daily_video.py` 可以只出高亮版；`qa_daily.py` 多查几项版面。用新版工具重做第 01 篇样片核对过（朗读 MP3 逐字节相同），样片没有重新发布；`每日一读/article_01.json` 换成新版格式，内容没变。
+  - 2026-11-17：
+    - 新增 `课件/第二册/单词表/`（第二册分课单词表的数据和生成程序）和 Release `book2-vocab`。
