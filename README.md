@@ -269,6 +269,9 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`试卷/第一册分阶段模拟卷/`](试卷/第一册分阶段模拟卷/)：同样题型的 8 套分阶段卷，范围分别是第 1–4、1–8、1–12、1–14、1–16、1–18 课和第 1–20 课（A、B 两套）。每套另有第四部分“基础知识”（单项选择、冠词填空、前置词填空、动词变位，40 题、30 分），各题分值相应调整，全卷 150 分、150 分钟。
   - 每套一个文件夹，原文是 `试卷.md`；`课程大纲.md` 是各课语法和话题，`出题要求.md`、`审校要求.md` 是出题和审校的规则。
   - PDF 和听力音频在 Release `exam-book1-stages`。
+- [`试卷/Metodo1-2高考模拟卷/`](试卷/Metodo1-2高考模拟卷/)：《Método de español》第 1–2 册（按 A1、A2 理解）的高考西班牙语模拟卷，按 2024 年起的新课标卷题型原创，满分 150 分、120 分钟。
+  - 原文是 `试卷.md`；试卷、答题卡、答案与评分说明（Word 和 PDF，A4）和听力 MP3 在 Release `exam-metodo12`。
+  - 听力按高考格式：试音、中文指令语、读题时间、每段播两遍、作答停顿；每句都用语音识别核对过，成品 MP3 又逐句复核。
 
 ## 课件
 
@@ -372,6 +375,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `work-files` | 工作文件：Qwen3 原始合成缓存 `qwen3-synthesis-cache.zip`（505 段）、50 篇和 es02 的预览截图 `preview-stills.zip`、`work-files-SHA256SUMS.txt` |
 | `exam-book1` | 第一册高考模拟卷：学生版 / 教师版 PDF、整套听力 `listening_full.mp3`、分段听力 `texto_1.mp3` … `texto_9.mp3` |
 | `exam-book1-stages` | 8 套分阶段卷，文件名以卷号开头（`L01-04` … `L01-20B`）：`_student.pdf`、`_teacher.pdf`、`_listening.mp3`、`_texto_1.mp3` … `_texto_9.mp3` |
+| `exam-metodo12` | Método 1–2 册高考模拟卷：试卷 `exam-metodo12-paper.docx/.pdf`、答题卡 `exam-metodo12-answer-sheet.docx/.pdf`、答案与评分说明 `exam-metodo12-key.docx/.pdf`、整套听力 `exam-metodo12-listening.mp3`、分段听力 `exam-metodo12-texto_1.mp3` … `texto_9.mp3`、核对报告 `exam-metodo12-asr-check.json`、`exam-metodo12-final-check.json`、`exam-metodo12-SHA256SUMS.txt` |
 | `lesson-videos` | 教学视频：`book1_lesson01_quien_es_el.mp4`（第一册第一课）、`lesson-videos-SHA256SUMS.txt` |
 | `courseware-book1` | 第一册分课课件：`book1_L01.pptx` … `book1_L24.pptx` 和同名 PDF、`courseware-book1-SHA256SUMS.txt` |
 | `book1-vocab` | 第一册分课单词表：`book1-vocab.docx`、`book1-vocab.pdf`、`book1-vocab-words.csv`、`book1-vocab-verbs.csv`、`book1-vocab-SHA256SUMS.txt` |
@@ -453,3 +457,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - `每日一读/tools/`：新增 `run_batch.py`（批量合成、出片、核查）、`collect_batch.py`（归档）、`summary_batch.py`（成品一览）、`check_daily.py`（文章自查）、`render_svg.py`（插图自查）、`contact.py`（插图总览）；`make_daily_audio.py` 句间停顿不过时自动退到 0.9、0.8 秒，音色可以写在文章里；`render_page.py` 自动选西语字号和字距；`make_daily_video.py` 可以只出高亮版；`qa_daily.py` 多查几项版面。用新版工具重做第 01 篇样片核对过（朗读 MP3 逐字节相同），样片没有重新发布；`每日一读/article_01.json` 换成新版格式，内容没变。
   - 2026-11-17：
     - 新增 `课件/第二册/单词表/`（第二册分课单词表的数据和生成程序）和 Release `book2-vocab`。
+    - 新增 `试卷/Metodo1-2高考模拟卷/`（《Método de español》第 1–2 册高考模拟卷的原文、排版和听力程序、核对报告）和 Release `exam-metodo12`。

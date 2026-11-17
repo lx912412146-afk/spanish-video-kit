@@ -1,0 +1,2586 @@
+{
+ "sentences": 258,
+ "mismatch": 0,
+ "rows": [
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "现在是听力试音时间。",
+   "start": 1.5,
+   "ok": true,
+   "asr": "现在是听力试音时间",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "试音",
+   "voice": "男1",
+   "text": "Hola a todos.",
+   "start": 4.53,
+   "ok": true,
+   "asr": "Hola a todos.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "试音",
+   "voice": "男1",
+   "text": "Esta es la prueba de sonido del examen de español.",
+   "start": 6.26,
+   "ok": true,
+   "asr": "Esta es la prueba de sonido del examen de español.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "试音到此结束。",
+   "start": 10.45,
+   "ok": true,
+   "asr": "试音到此结束",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "听力考试正式开始。",
+   "start": 13.866,
+   "ok": true,
+   "asr": "听力考试正式开始",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "请看第一部分听力第一节。",
+   "start": 16.236,
+   "ok": true,
+   "asr": "请看第一部分听力第一节",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "听下面五段录音，每段录音后有一道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "start": 19.386,
+   "ok": true,
+   "asr": "听下面五段录音每段录音后有一道小题从题中所给的 a b c 三个选项中选出最佳选项",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "每段录音后有十秒钟，用来作答和阅读下一小题。",
+   "start": 28.386,
+   "ok": true,
+   "asr": "每段录音后有十秒钟用来作答和阅读下一小题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "每段录音播放两遍。",
+   "start": 33.526,
+   "ok": true,
+   "asr": "每段录音播放两遍",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "现在，你有五秒钟的时间阅读第一小题。",
+   "start": 36.317,
+   "ok": true,
+   "asr": "现在你有五秒钟的时间阅读第一小题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "第一段录音。",
+   "start": 44.906,
+   "ok": true,
+   "asr": "第一段录音",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第1遍",
+   "voice": "女2",
+   "text": "Jorge, ¿has visto mis llaves?",
+   "start": 47.016,
+   "ok": true,
+   "asr": "Jorge, ¿has visto mis llaves?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第1遍",
+   "voice": "女2",
+   "text": "No están en el coche.",
+   "start": 49.364,
+   "ok": true,
+   "asr": "No están en el coche.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第1遍",
+   "voice": "男2",
+   "text": "Esta mañana estaban en la mesa de la cocina.",
+   "start": 51.182,
+   "ok": true,
+   "asr": "Esta mañana estaban en la mesa de la cocina.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第1遍",
+   "voice": "男2",
+   "text": "Luego las he puesto en tu bolso.",
+   "start": 54.652,
+   "ok": true,
+   "asr": "Luego las he puesto en tu bolso.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第1遍",
+   "voice": "女2",
+   "text": "¡Ah, sí, aquí están!",
+   "start": 57.652,
+   "ok": true,
+   "asr": "Ah, sí, aquí están.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第1遍",
+   "voice": "女2",
+   "text": "Muchas gracias.",
+   "start": 59.647,
+   "ok": true,
+   "asr": "Muchas gracias.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第2遍",
+   "voice": "女2",
+   "text": "Jorge, ¿has visto mis llaves?",
+   "start": 63.607,
+   "ok": true,
+   "asr": "Jorge, ¿has visto mis llaves?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第2遍",
+   "voice": "女2",
+   "text": "No están en el coche.",
+   "start": 65.955,
+   "ok": true,
+   "asr": "No están en el coche.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第2遍",
+   "voice": "男2",
+   "text": "Esta mañana estaban en la mesa de la cocina.",
+   "start": 67.773,
+   "ok": true,
+   "asr": "Esta mañana estaban en la mesa de la cocina.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第2遍",
+   "voice": "男2",
+   "text": "Luego las he puesto en tu bolso.",
+   "start": 71.243,
+   "ok": true,
+   "asr": "Luego las he puesto en tu bolso.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第2遍",
+   "voice": "女2",
+   "text": "¡Ah, sí, aquí están!",
+   "start": 74.243,
+   "ok": true,
+   "asr": "Ah, sí, aquí están.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 1 第2遍",
+   "voice": "女2",
+   "text": "Muchas gracias.",
+   "start": 76.237,
+   "ok": true,
+   "asr": "Muchas gracias.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "第二段录音。",
+   "start": 87.197,
+   "ok": true,
+   "asr": "第二段录音",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第1遍",
+   "voice": "男1",
+   "text": "Perdone, ¿a qué hora sale el próximo tren para Toledo?",
+   "start": 89.22,
+   "ok": true,
+   "asr": "¿Perdone? ¿A qué hora sale el próximo tren para Toledo?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第1遍",
+   "voice": "女3",
+   "text": "A las diez y veinte.",
+   "start": 93.3,
+   "ok": true,
+   "asr": "A las 10 y 20.",
+   "tries": 2,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第1遍",
+   "voice": "女3",
+   "text": "El de las diez menos cuarto acaba de salir.",
+   "start": 94.819,
+   "ok": true,
+   "asr": "El de las 10 menos cuarto acaba de salir.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第1遍",
+   "voice": "男1",
+   "text": "Vaya, tengo una reunión allí a las once y media.",
+   "start": 98.307,
+   "ok": true,
+   "asr": "Vaya, tengo una reunión allí a las 11 y media.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第1遍",
+   "voice": "男1",
+   "text": "¿Cuánto tarda el tren?",
+   "start": 101.897,
+   "ok": true,
+   "asr": "¿Cuánto tarda el tren?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第1遍",
+   "voice": "女3",
+   "text": "Treinta y cinco minutos.",
+   "start": 103.767,
+   "ok": true,
+   "asr": "Treinta y cinco minutos.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第1遍",
+   "voice": "女3",
+   "text": "Tranquilo, llega a tiempo.",
+   "start": 105.989,
+   "ok": true,
+   "asr": "Tranquilo, llega a tiempo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第2遍",
+   "voice": "男1",
+   "text": "Perdone, ¿a qué hora sale el próximo tren para Toledo?",
+   "start": 111.179,
+   "ok": true,
+   "asr": "¿Perdone? ¿A qué hora sale el próximo tren para Toledo?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第2遍",
+   "voice": "女3",
+   "text": "A las diez y veinte.",
+   "start": 115.259,
+   "ok": true,
+   "asr": "A las 10 y 20.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第2遍",
+   "voice": "女3",
+   "text": "El de las diez menos cuarto acaba de salir.",
+   "start": 116.777,
+   "ok": true,
+   "asr": "El de las 10 menos cuarto acaba de salir.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第2遍",
+   "voice": "男1",
+   "text": "Vaya, tengo una reunión allí a las once y media.",
+   "start": 120.266,
+   "ok": true,
+   "asr": "Vaya, tengo una reunión allí a las 11 y media.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第2遍",
+   "voice": "男1",
+   "text": "¿Cuánto tarda el tren?",
+   "start": 123.856,
+   "ok": true,
+   "asr": "¿Cuánto tarda el tren?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第2遍",
+   "voice": "女3",
+   "text": "Treinta y cinco minutos.",
+   "start": 125.726,
+   "ok": true,
+   "asr": "Treinta y cinco minutos.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 2 第2遍",
+   "voice": "女3",
+   "text": "Tranquilo, llega a tiempo.",
+   "start": 127.947,
+   "ok": true,
+   "asr": "Tranquilo, llega a tiempo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "第三段录音。",
+   "start": 140.137,
+   "ok": true,
+   "asr": "第三段录音",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第1遍",
+   "voice": "女1",
+   "text": "Buenos días.",
+   "start": 142.107,
+   "ok": true,
+   "asr": "Buenos días.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第1遍",
+   "voice": "女1",
+   "text": "¿A cuánto están las naranjas?",
+   "start": 143.427,
+   "ok": true,
+   "asr": "¿A cuánto están las naranjas?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第1遍",
+   "voice": "男2",
+   "text": "A dos euros el kilo.",
+   "start": 146.077,
+   "ok": true,
+   "asr": "A 2 euros el kilo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第1遍",
+   "voice": "男2",
+   "text": "Y las manzanas, a tres.",
+   "start": 147.982,
+   "ok": true,
+   "asr": "Y las manzanas a tres.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第1遍",
+   "voice": "女1",
+   "text": "Pues póngame dos kilos de naranjas y un kilo de manzanas, por favor.",
+   "start": 150.496,
+   "ok": true,
+   "asr": "Pues póngame dos kilos de naranjas y un kilo de manzanas, por favor.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第1遍",
+   "voice": "男2",
+   "text": "Muy bien.",
+   "start": 155.556,
+   "ok": true,
+   "asr": "Muy bien.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第1遍",
+   "voice": "男2",
+   "text": "¿Algo más?",
+   "start": 156.686,
+   "ok": true,
+   "asr": "¿Algo más?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第1遍",
+   "voice": "女1",
+   "text": "No, nada más, gracias.",
+   "start": 158.189,
+   "ok": true,
+   "asr": "No, nada más, gracias.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第2遍",
+   "voice": "女1",
+   "text": "Buenos días.",
+   "start": 163.439,
+   "ok": true,
+   "asr": "Buenos días.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第2遍",
+   "voice": "女1",
+   "text": "¿A cuánto están las naranjas?",
+   "start": 164.759,
+   "ok": true,
+   "asr": "¿A cuánto están las naranjas?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第2遍",
+   "voice": "男2",
+   "text": "A dos euros el kilo.",
+   "start": 167.409,
+   "ok": true,
+   "asr": "A 2 euros el kilo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第2遍",
+   "voice": "男2",
+   "text": "Y las manzanas, a tres.",
+   "start": 169.314,
+   "ok": true,
+   "asr": "Y las manzanas a tres.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第2遍",
+   "voice": "女1",
+   "text": "Pues póngame dos kilos de naranjas y un kilo de manzanas, por favor.",
+   "start": 171.827,
+   "ok": true,
+   "asr": "Pues póngame dos kilos de naranjas y un kilo de manzanas, por favor.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第2遍",
+   "voice": "男2",
+   "text": "Muy bien.",
+   "start": 176.887,
+   "ok": true,
+   "asr": "Muy bien.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第2遍",
+   "voice": "男2",
+   "text": "¿Algo más?",
+   "start": 178.017,
+   "ok": true,
+   "asr": "¿Algo más?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 3 第2遍",
+   "voice": "女1",
+   "text": "No, nada más, gracias.",
+   "start": 179.521,
+   "ok": true,
+   "asr": "No, nada más, gracias.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "第四段录音。",
+   "start": 191.771,
+   "ok": true,
+   "asr": "第四段录音",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第1遍",
+   "voice": "男1",
+   "text": "Hola, Sara.",
+   "start": 193.904,
+   "ok": true,
+   "asr": "Hola Sara.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第1遍",
+   "voice": "男1",
+   "text": "¿Qué tal el fin de semana?",
+   "start": 195.034,
+   "ok": true,
+   "asr": "¿Qué tal el fin de semana?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第1遍",
+   "voice": "男1",
+   "text": "¿Fuiste a la playa con tus primos?",
+   "start": 196.634,
+   "ok": true,
+   "asr": "Fuiste a la playa con tus primos.",
+   "tries": 2,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第1遍",
+   "voice": "女4",
+   "text": "No, al final no.",
+   "start": 199.191,
+   "ok": true,
+   "asr": "No, al final no.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第1遍",
+   "voice": "女4",
+   "text": "El sábado llovió todo el día y nos quedamos en casa viendo películas.",
+   "start": 201.381,
+   "ok": true,
+   "asr": "El sábado llovió todo el día y nos quedamos en casa viendo películas.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第1遍",
+   "voice": "男1",
+   "text": "¿Y el domingo?",
+   "start": 206.684,
+   "ok": true,
+   "asr": "Y el domingo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第1遍",
+   "voice": "女4",
+   "text": "El domingo fui al museo de arte con mi madre.",
+   "start": 208.32,
+   "ok": true,
+   "asr": "El domingo fui al museo de arte con mi madre.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第2遍",
+   "voice": "男1",
+   "text": "Hola, Sara.",
+   "start": 214.57,
+   "ok": true,
+   "asr": "Hola Sara.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第2遍",
+   "voice": "男1",
+   "text": "¿Qué tal el fin de semana?",
+   "start": 215.7,
+   "ok": true,
+   "asr": "¿Qué tal el fin de semana?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第2遍",
+   "voice": "男1",
+   "text": "¿Fuiste a la playa con tus primos?",
+   "start": 217.3,
+   "ok": true,
+   "asr": "Fuiste a la playa con tus primos.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第2遍",
+   "voice": "女4",
+   "text": "No, al final no.",
+   "start": 219.858,
+   "ok": true,
+   "asr": "No, al final no.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第2遍",
+   "voice": "女4",
+   "text": "El sábado llovió todo el día y nos quedamos en casa viendo películas.",
+   "start": 222.048,
+   "ok": true,
+   "asr": "El sábado llovió todo el día y nos quedamos en casa viendo películas.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第2遍",
+   "voice": "男1",
+   "text": "¿Y el domingo?",
+   "start": 227.35,
+   "ok": true,
+   "asr": "Y el domingo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 4 第2遍",
+   "voice": "女4",
+   "text": "El domingo fui al museo de arte con mi madre.",
+   "start": 228.986,
+   "ok": true,
+   "asr": "El domingo fui al museo de arte con mi madre.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "第五段录音。",
+   "start": 242.236,
+   "ok": true,
+   "asr": "第五段录音",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "男2",
+   "text": "Buenas noches.",
+   "start": 244.196,
+   "ok": true,
+   "asr": "Buenas noches.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "男2",
+   "text": "Tengo una habitación reservada a nombre de Andrés Molina.",
+   "start": 245.686,
+   "ok": true,
+   "asr": "Tengo una habitación reservada a nombre de Andrés Molina.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "女2",
+   "text": "Un momento, por favor.",
+   "start": 250.166,
+   "ok": true,
+   "asr": "Un momento, por favor.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "女2",
+   "text": "Sí, una habitación doble para tres noches.",
+   "start": 251.728,
+   "ok": true,
+   "asr": "Sí, una habitación doble para tres noches.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "女2",
+   "text": "¿Me deja su pasaporte?",
+   "start": 254.621,
+   "ok": true,
+   "asr": "¿Me deja su pasaporte?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "男2",
+   "text": "Aquí tiene.",
+   "start": 256.548,
+   "ok": true,
+   "asr": "Aquí tiene.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "男2",
+   "text": "¿A qué hora es el desayuno?",
+   "start": 258.03,
+   "ok": true,
+   "asr": "¿A qué hora es el desayuno?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "女2",
+   "text": "De siete a diez, en el primer piso.",
+   "start": 260.525,
+   "ok": true,
+   "asr": "De 7 a 10, en el primer piso.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第1遍",
+   "voice": "女2",
+   "text": "Su habitación es la doscientos cuatro.",
+   "start": 263.289,
+   "ok": true,
+   "asr": "Su habitación es la 204.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "男2",
+   "text": "Buenas noches.",
+   "start": 268.585,
+   "ok": true,
+   "asr": "Buenas noches.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "男2",
+   "text": "Tengo una habitación reservada a nombre de Andrés Molina.",
+   "start": 270.075,
+   "ok": true,
+   "asr": "Tengo una habitación reservada a nombre de Andrés Molina.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "女2",
+   "text": "Un momento, por favor.",
+   "start": 274.555,
+   "ok": true,
+   "asr": "Un momento, por favor.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "女2",
+   "text": "Sí, una habitación doble para tres noches.",
+   "start": 276.117,
+   "ok": true,
+   "asr": "Sí, una habitación doble para tres noches.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "女2",
+   "text": "¿Me deja su pasaporte?",
+   "start": 279.01,
+   "ok": true,
+   "asr": "¿Me deja su pasaporte?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "男2",
+   "text": "Aquí tiene.",
+   "start": 280.937,
+   "ok": true,
+   "asr": "Aquí tiene.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "男2",
+   "text": "¿A qué hora es el desayuno?",
+   "start": 282.419,
+   "ok": true,
+   "asr": "¿A qué hora es el desayuno?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "女2",
+   "text": "De siete a diez, en el primer piso.",
+   "start": 284.914,
+   "ok": true,
+   "asr": "De 7 a 10, en el primer piso.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 5 第2遍",
+   "voice": "女2",
+   "text": "Su habitación es la doscientos cuatro.",
+   "start": 287.678,
+   "ok": true,
+   "asr": "Su habitación es la 204.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "第二节。",
+   "start": 299.974,
+   "ok": true,
+   "asr": "第二节",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "听下面四段录音，每段录音后有几道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "start": 301.224,
+   "ok": true,
+   "asr": "听下面四段录音每段录音后有几道小题从题中所给的 a b c 三个选项中选出最佳选项",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "每段录音播放前，有时间阅读小题，每小题五秒钟；",
+   "start": 309.524,
+   "ok": true,
+   "asr": "每段录音播放前有时间阅读小题每小题五秒钟",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "播放后，每小题有五秒钟作答。",
+   "start": 314.284,
+   "ok": true,
+   "asr": "播放后每小题有五秒钟作答",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "每段录音播放两遍。",
+   "start": 317.694,
+   "ok": true,
+   "asr": "每段录音播放两遍",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "听第六段录音，回答第六至八题。",
+   "start": 320.485,
+   "ok": true,
+   "asr": "听第六段录音回答第六至八题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "现在，你有十五秒钟的时间阅读这三道小题。",
+   "start": 324.114,
+   "ok": true,
+   "asr": "现在你有十五秒钟的时间阅读这三道小题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "Hola, Marcos.",
+   "start": 342.984,
+   "ok": true,
+   "asr": "Hola Marcos.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "El sábado es el cumpleaños de Lorena.",
+   "start": 344.29,
+   "ok": true,
+   "asr": "El sábado es el cumpleaños de Lorena.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "Vamos a hacerle una fiesta sorpresa.",
+   "start": 347.302,
+   "ok": true,
+   "asr": "Vamos a hacerle una fiesta sorpresa.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "男2",
+   "text": "¡Qué buena idea!",
+   "start": 350.462,
+   "ok": true,
+   "asr": "¡Qué buena idea!",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "男2",
+   "text": "¿Dónde va a ser?",
+   "start": 351.822,
+   "ok": true,
+   "asr": "¿Dónde va a ser?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "En casa de Óscar, porque tiene un jardín muy grande.",
+   "start": 353.434,
+   "ok": true,
+   "asr": "En casa de Oscar, porque tiene un jardín muy grande.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "男2",
+   "text": "¿Y a qué hora?",
+   "start": 357.374,
+   "ok": true,
+   "asr": "¿Y a qué hora?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "A las seis de la tarde.",
+   "start": 358.824,
+   "ok": true,
+   "asr": "A las 6 de la tarde.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "Lorena llega a las siete, así que tenemos que estar allí antes.",
+   "start": 360.672,
+   "ok": true,
+   "asr": "Lorena llega a las 7, así que tenemos que estar allí antes.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "男2",
+   "text": "Vale, ¿y qué llevo yo?",
+   "start": 365.283,
+   "ok": true,
+   "asr": "Vale, ¿y qué llevo yo?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "男2",
+   "text": "¿Hago una tarta?",
+   "start": 367.293,
+   "ok": true,
+   "asr": "¿Hago una tarta?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "No, la tarta la compra Óscar.",
+   "start": 369.193,
+   "ok": true,
+   "asr": "No, la tarta la compra Oscar.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "Tú puedes traer algo de beber y tu guitarra.",
+   "start": 371.843,
+   "ok": true,
+   "asr": "Tú puedes traer algo de beber y tu guitarra.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "男2",
+   "text": "Perfecto, ¿y qué le regalamos?",
+   "start": 375.203,
+   "ok": true,
+   "asr": "Perfecto. ¿Y qué le regalamos?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "A Lorena le encanta viajar.",
+   "start": 378.467,
+   "ok": true,
+   "asr": "A Lorena le encanta viajar.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "女1",
+   "text": "Podemos comprarle un libro de viajes entre todos.",
+   "start": 380.623,
+   "ok": true,
+   "asr": "¿Podemos comprarle un libro de viajes entre todos?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "男2",
+   "text": "De acuerdo.",
+   "start": 384.692,
+   "ok": true,
+   "asr": "De acuerdo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第1遍",
+   "voice": "男2",
+   "text": "Mañana voy a la librería después de clase.",
+   "start": 385.902,
+   "ok": true,
+   "asr": "Mañana voy a la librería después de clase.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "Hola, Marcos.",
+   "start": 391.632,
+   "ok": true,
+   "asr": "Hola Marcos.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "El sábado es el cumpleaños de Lorena.",
+   "start": 392.938,
+   "ok": true,
+   "asr": "El sábado es el cumpleaños de Lorena.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "Vamos a hacerle una fiesta sorpresa.",
+   "start": 395.951,
+   "ok": true,
+   "asr": "Vamos a hacerle una fiesta sorpresa.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "男2",
+   "text": "¡Qué buena idea!",
+   "start": 399.111,
+   "ok": true,
+   "asr": "¡Qué buena idea!",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "男2",
+   "text": "¿Dónde va a ser?",
+   "start": 400.471,
+   "ok": true,
+   "asr": "¿Dónde va a ser?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "En casa de Óscar, porque tiene un jardín muy grande.",
+   "start": 402.082,
+   "ok": true,
+   "asr": "En casa de Oscar, porque tiene un jardín muy grande.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "男2",
+   "text": "¿Y a qué hora?",
+   "start": 406.022,
+   "ok": true,
+   "asr": "¿Y a qué hora?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "A las seis de la tarde.",
+   "start": 407.472,
+   "ok": true,
+   "asr": "A las seis de la tarde.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "Lorena llega a las siete, así que tenemos que estar allí antes.",
+   "start": 409.32,
+   "ok": true,
+   "asr": "Lorena llega a las 7, así que tenemos que estar allí antes.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "男2",
+   "text": "Vale, ¿y qué llevo yo?",
+   "start": 413.931,
+   "ok": true,
+   "asr": "Vale, ¿y qué llevo yo?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "男2",
+   "text": "¿Hago una tarta?",
+   "start": 415.941,
+   "ok": true,
+   "asr": "¿Hago una tarta?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "No, la tarta la compra Óscar.",
+   "start": 417.841,
+   "ok": true,
+   "asr": "No, la tarta la compra Oscar.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "Tú puedes traer algo de beber y tu guitarra.",
+   "start": 420.491,
+   "ok": true,
+   "asr": "Tú puedes traer algo de beber y tu guitarra.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "男2",
+   "text": "Perfecto, ¿y qué le regalamos?",
+   "start": 423.851,
+   "ok": true,
+   "asr": "Perfecto. ¿Y qué le regalamos?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "A Lorena le encanta viajar.",
+   "start": 427.115,
+   "ok": true,
+   "asr": "A Lorena le encanta viajar.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "女1",
+   "text": "Podemos comprarle un libro de viajes entre todos.",
+   "start": 429.271,
+   "ok": true,
+   "asr": "¿Podemos comprarle un libro de viajes entre todos?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "男2",
+   "text": "De acuerdo.",
+   "start": 433.34,
+   "ok": true,
+   "asr": "De acuerdo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 6 第2遍",
+   "voice": "男2",
+   "text": "Mañana voy a la librería después de clase.",
+   "start": 434.55,
+   "ok": true,
+   "asr": "Mañana voy a la librería después de clase.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "听第七段录音，回答第九至十二题。",
+   "start": 452.28,
+   "ok": true,
+   "asr": "听第七段录音回答第九至十二题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "start": 455.85,
+   "ok": true,
+   "asr": "现在你有二十秒钟的时间阅读这四道小题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "Buenos días.",
+   "start": 479.91,
+   "ok": true,
+   "asr": "Buenos días.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "Llamo por el anuncio del piso.",
+   "start": 481.16,
+   "ok": true,
+   "asr": "Llamo por el anuncio del piso.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "¿Todavía está libre?",
+   "start": 483.45,
+   "ok": true,
+   "asr": "¿Todavía está libre?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "Sí, todavía está libre.",
+   "start": 485.216,
+   "ok": true,
+   "asr": "Sí, todavía está libre.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "Tiene tres habitaciones, un salón, una cocina y dos baños.",
+   "start": 487.546,
+   "ok": true,
+   "asr": "Tiene tres habitaciones, un salón, una cocina y dos baños.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "¿Y dónde está exactamente?",
+   "start": 493.212,
+   "ok": true,
+   "asr": "¿Y dónde está exactamente?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "En la calle Mayor, al lado de la estación de metro.",
+   "start": 495.253,
+   "ok": true,
+   "asr": "En la calle mayor, al lado de la estación de metro,",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "Está a diez minutos de la universidad en bicicleta.",
+   "start": 499.0,
+   "ok": true,
+   "asr": "Está a 10 minutos de la universidad en bicicleta.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "¡Qué bien!",
+   "start": 503.077,
+   "ok": true,
+   "asr": "¡Qué bien!",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "¿Cuánto cuesta al mes?",
+   "start": 503.937,
+   "ok": true,
+   "asr": "¿Cuánto cuesta al mes?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "Seiscientos euros, con el agua y la luz incluidas.",
+   "start": 506.006,
+   "ok": true,
+   "asr": "600 euros, con el agua y la luz incluidas.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "Somos tres estudiantes, así que cada uno paga doscientos.",
+   "start": 510.392,
+   "ok": true,
+   "asr": "Somos tres estudiantes, así que cada uno paga 200.",
+   "tries": 2,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "¿El piso tiene muebles?",
+   "start": 514.882,
+   "ok": true,
+   "asr": "El piso tiene muebles.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "Sí, tiene camas, mesas y armarios.",
+   "start": 517.012,
+   "ok": true,
+   "asr": "Sí, tiene camas, mesas y armarios.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "Pero no tiene lavadora, porque la vieja se rompió el mes pasado.",
+   "start": 520.722,
+   "ok": true,
+   "asr": "Pero no tiene lavadora, porque la vieja se rompió el mes pasado.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "No pasa nada.",
+   "start": 526.079,
+   "ok": true,
+   "asr": "No pasa nada.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "Nosotros podemos comprar una.",
+   "start": 527.479,
+   "ok": true,
+   "asr": "Nosotros podemos comprar una.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "¿Puedo ver el piso esta tarde?",
+   "start": 529.749,
+   "ok": true,
+   "asr": "¿Puedo ver el piso esta tarde?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "Esta tarde no puedo, trabajo hasta las ocho.",
+   "start": 532.089,
+   "ok": true,
+   "asr": "Esta tarde no puedo, trabajo hasta las ocho.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "女3",
+   "text": "¿Le va bien mañana a las cinco?",
+   "start": 536.012,
+   "ok": true,
+   "asr": "¿Le va bien mañana a las 5?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "Sí, perfecto.",
+   "start": 538.664,
+   "ok": true,
+   "asr": "Sí, perfecto.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "Mañana a las cinco estoy allí.",
+   "start": 540.384,
+   "ok": true,
+   "asr": "Mañana a las 5 estoy allí.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第1遍",
+   "voice": "男1",
+   "text": "Muchas gracias.",
+   "start": 542.654,
+   "ok": true,
+   "asr": "Muchas gracias.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "Buenos días.",
+   "start": 546.774,
+   "ok": true,
+   "asr": "Buenos días.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "Llamo por el anuncio del piso.",
+   "start": 548.024,
+   "ok": true,
+   "asr": "Llamo por el anuncio del piso.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "¿Todavía está libre?",
+   "start": 550.314,
+   "ok": true,
+   "asr": "¿Todavía está libre?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "Sí, todavía está libre.",
+   "start": 552.081,
+   "ok": true,
+   "asr": "Sí, todavía está libre.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "Tiene tres habitaciones, un salón, una cocina y dos baños.",
+   "start": 554.411,
+   "ok": true,
+   "asr": "Tiene tres habitaciones, un salón, una cocina y dos baños.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "¿Y dónde está exactamente?",
+   "start": 560.077,
+   "ok": true,
+   "asr": "¿Y dónde está exactamente?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "En la calle Mayor, al lado de la estación de metro.",
+   "start": 562.117,
+   "ok": true,
+   "asr": "En la calle mayor, al lado de la estación de metro,",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "Está a diez minutos de la universidad en bicicleta.",
+   "start": 565.865,
+   "ok": true,
+   "asr": "Está a 10 minutos de la universidad en bicicleta.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "¡Qué bien!",
+   "start": 569.941,
+   "ok": true,
+   "asr": "¡Qué bien!",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "¿Cuánto cuesta al mes?",
+   "start": 570.801,
+   "ok": true,
+   "asr": "¿Cuánto cuesta al mes?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "Seiscientos euros, con el agua y la luz incluidas.",
+   "start": 572.87,
+   "ok": true,
+   "asr": "600 euros, con el agua y la luz incluidas.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "Somos tres estudiantes, así que cada uno paga doscientos.",
+   "start": 577.256,
+   "ok": true,
+   "asr": "Somos tres estudiantes, así que cada uno paga 200.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "¿El piso tiene muebles?",
+   "start": 581.746,
+   "ok": true,
+   "asr": "El piso tiene muebles.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "Sí, tiene camas, mesas y armarios.",
+   "start": 583.876,
+   "ok": true,
+   "asr": "Sí, tiene camas, mesas y armarios.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "Pero no tiene lavadora, porque la vieja se rompió el mes pasado.",
+   "start": 587.586,
+   "ok": true,
+   "asr": "Pero no tiene lavadora, porque la vieja se rompió el mes pasado.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "No pasa nada.",
+   "start": 592.943,
+   "ok": true,
+   "asr": "No pasa nada.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "Nosotros podemos comprar una.",
+   "start": 594.343,
+   "ok": true,
+   "asr": "Nosotros podemos comprar una.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "¿Puedo ver el piso esta tarde?",
+   "start": 596.613,
+   "ok": true,
+   "asr": "¿Puedo ver el piso esta tarde?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "Esta tarde no puedo, trabajo hasta las ocho.",
+   "start": 598.953,
+   "ok": true,
+   "asr": "Esta tarde no puedo, trabajo hasta las ocho.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "女3",
+   "text": "¿Le va bien mañana a las cinco?",
+   "start": 602.876,
+   "ok": true,
+   "asr": "¿Le va bien mañana a las 5?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "Sí, perfecto.",
+   "start": 605.529,
+   "ok": true,
+   "asr": "Sí, perfecto.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "Mañana a las cinco estoy allí.",
+   "start": 607.249,
+   "ok": true,
+   "asr": "Mañana a las 5 estoy allí.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 7 第2遍",
+   "voice": "男1",
+   "text": "Muchas gracias.",
+   "start": 609.519,
+   "ok": true,
+   "asr": "Muchas gracias.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "听第八段录音，回答第十三至十六题。",
+   "start": 630.639,
+   "ok": true,
+   "asr": "听第八段录音回答第十三至十六题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "start": 634.399,
+   "ok": true,
+   "asr": "现在你有二十秒钟的时间阅读这四道小题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "Me llamo Teresa y tengo setenta años.",
+   "start": 658.459,
+   "ok": true,
+   "asr": "Me llamo Teresa y tengo 70 años.",
+   "tries": 3,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "Ahora vivo en Valencia con mi hija, pero de pequeña vivía en un pueblo de las montañas.",
+   "start": 661.826,
+   "ok": true,
+   "asr": "Ahora vivo en Valencia con mi hija, pero de pequeña vivía en un pueblo de las montañas.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "En mi casa éramos seis: mis padres, mis tres hermanos y yo.",
+   "start": 667.786,
+   "ok": true,
+   "asr": "En mi casa éramos seis, mis padres, mis tres hermanos y yo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "Mi padre era panadero y todos los días se levantaba a las cuatro de la mañana para hacer el pan.",
+   "start": 673.336,
+   "ok": true,
+   "asr": "Mi padre era panadero, y todos los días se levantaba a las 4 de la mañana para hacer el pan.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "Mis hermanos y yo íbamos a la escuela a pie y tardábamos casi una hora en llegar.",
+   "start": 680.636,
+   "ok": true,
+   "asr": "Mis hermanos y yo íbamos a la escuela a pie, y tardábamos casi una hora en llegar.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "No teníamos televisión, así que por las tardes jugábamos en la calle con los otros niños hasta la hora de cenar.",
+   "start": 686.28,
+   "ok": true,
+   "asr": "No teníamos televisión, así que por las tardes jugábamos en la calle con los otros niños hasta la hora de cenar.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "En invierno hacía mucho frío y por las noches mi madre nos contaba historias junto al fuego.",
+   "start": 694.25,
+   "ok": true,
+   "asr": "En invierno hacía mucho frío y por las noches mi madre nos contaba historias junto al fuego.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "Ahora la vida es muy diferente.",
+   "start": 700.95,
+   "ok": true,
+   "asr": "Ahora la vida es muy diferente.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "Mis nietos tienen móvil y ordenador, y van al colegio en autobús.",
+   "start": 703.564,
+   "ok": true,
+   "asr": "Mis nietos tienen móvil y ordenador, y van al colegio en autobús.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "Tienen muchas cosas, pero casi nunca juegan en la calle.",
+   "start": 708.788,
+   "ok": true,
+   "asr": "Tienen muchas cosas, pero casi nunca juegan en la calle.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第1遍",
+   "voice": "女4",
+   "text": "A veces pienso que nosotros éramos más pobres, pero también más libres.",
+   "start": 713.175,
+   "ok": true,
+   "asr": "A veces pienso que nosotros seramos más pobres, pero también más libres.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "Me llamo Teresa y tengo setenta años.",
+   "start": 721.205,
+   "ok": true,
+   "asr": "Me llamo Teresa y tengo 70 años.",
+   "tries": 3,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "Ahora vivo en Valencia con mi hija, pero de pequeña vivía en un pueblo de las montañas.",
+   "start": 724.573,
+   "ok": true,
+   "asr": "Ahora vivo en Valencia con mi hija, pero de pequeña vivía en un pueblo de las montañas.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "En mi casa éramos seis: mis padres, mis tres hermanos y yo.",
+   "start": 730.533,
+   "ok": true,
+   "asr": "En mi casa éramos seis, mis padres, mis tres hermanos y yo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "Mi padre era panadero y todos los días se levantaba a las cuatro de la mañana para hacer el pan.",
+   "start": 736.083,
+   "ok": true,
+   "asr": "Mi padre era panadero, y todos los días se levantaba a las 4 de la mañana para hacer el pan.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "Mis hermanos y yo íbamos a la escuela a pie y tardábamos casi una hora en llegar.",
+   "start": 743.383,
+   "ok": true,
+   "asr": "Mis hermanos y yo íbamos a la escuela a pie, y tardábamos casi una hora en llegar.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "No teníamos televisión, así que por las tardes jugábamos en la calle con los otros niños hasta la hora de cenar.",
+   "start": 749.027,
+   "ok": true,
+   "asr": "No teníamos televisión, así que por las tardes jugábamos en la calle con los otros niños hasta la hora de cenar.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "En invierno hacía mucho frío y por las noches mi madre nos contaba historias junto al fuego.",
+   "start": 756.997,
+   "ok": true,
+   "asr": "En invierno hacía mucho frío y por las noches mi madre nos contaba historias junto al fuego.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "Ahora la vida es muy diferente.",
+   "start": 763.697,
+   "ok": true,
+   "asr": "Ahora la vida es muy diferente.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "Mis nietos tienen móvil y ordenador, y van al colegio en autobús.",
+   "start": 766.311,
+   "ok": true,
+   "asr": "Mis nietos tienen móvil y ordenador, y van al colegio en autobús.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "Tienen muchas cosas, pero casi nunca juegan en la calle.",
+   "start": 771.534,
+   "ok": true,
+   "asr": "Tienen muchas cosas, pero casi nunca juegan en la calle.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 8 第2遍",
+   "voice": "女4",
+   "text": "A veces pienso que nosotros éramos más pobres, pero también más libres.",
+   "start": 775.922,
+   "ok": true,
+   "asr": "A veces pienso que nosotros seramos más pobres, pero también más libres.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "听第九段录音，回答第十七至二十题。",
+   "start": 800.952,
+   "ok": true,
+   "asr": "听第九段录音回答第十七至二十题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "start": 804.932,
+   "ok": true,
+   "asr": "现在你有二十秒钟的时间阅读这四道小题",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "Hola, Elena.",
+   "start": 828.992,
+   "ok": true,
+   "asr": "Hola, Elena.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "¿Qué tal tus vacaciones?",
+   "start": 830.582,
+   "ok": true,
+   "asr": "¿Qué tal tus vacaciones?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Muy bien, Hugo.",
+   "start": 832.842,
+   "ok": true,
+   "asr": "Muy bien, Hugo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Pasé dos semanas en México con mi hermana.",
+   "start": 834.413,
+   "ok": true,
+   "asr": "Pasé dos semanas en México con mi hermana.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "¡Qué suerte!",
+   "start": 837.213,
+   "ok": true,
+   "asr": "¡Qué suerte!",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "¿Qué ciudades visitaste?",
+   "start": 838.523,
+   "ok": true,
+   "asr": "¿Qué ciudades visitaste?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Primero estuvimos en Ciudad de México y luego fuimos a Veracruz en autobús.",
+   "start": 840.68,
+   "ok": true,
+   "asr": "Primero estuvimos en Ciudad de México y luego fuimos a Veracruz en autobús.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "¿Y qué tal el viaje?",
+   "start": 845.513,
+   "ok": true,
+   "asr": "¿Y qué tal el viaje?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Al principio, fatal.",
+   "start": 847.403,
+   "ok": true,
+   "asr": "Al principio, fatal.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Cuando llegamos al aeropuerto, mi maleta no estaba.",
+   "start": 849.564,
+   "ok": true,
+   "asr": "Cuando llegamos al aeropuerto, mi maleta no estaba.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Tuve que comprar ropa nueva.",
+   "start": 853.014,
+   "ok": true,
+   "asr": "Tuve que comprar ropa nueva.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "¡Vaya!",
+   "start": 855.384,
+   "ok": true,
+   "asr": "Vaya.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "¿Y al final encontraron la maleta?",
+   "start": 856.404,
+   "ok": true,
+   "asr": "¿Y al final encontraron la maleta?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Sí, me la llevaron al hotel tres días después.",
+   "start": 859.074,
+   "ok": true,
+   "asr": "Sí, me la llevaron al hotel tres días después.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "¿Y qué te gustó más?",
+   "start": 862.648,
+   "ok": true,
+   "asr": "¿Y qué te gustó más?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "La comida, sin duda.",
+   "start": 864.548,
+   "ok": true,
+   "asr": "La comida, sin duda.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Comíamos en los mercados todos los días.",
+   "start": 866.552,
+   "ok": true,
+   "asr": "Comíamos en los mercados todos los días.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Todo estaba riquísimo y era muy barato.",
+   "start": 869.192,
+   "ok": true,
+   "asr": "Todo estaba riquísimo y era muy barato.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "¿Hacía mucho calor?",
+   "start": 872.119,
+   "ok": true,
+   "asr": "¿Hacía mucho calor?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "En Ciudad de México no hacía mucho calor y llovía casi todas las tardes.",
+   "start": 874.079,
+   "ok": true,
+   "asr": "En Ciudad de México no hacía mucho calor y llovía casi todas las tardes.",
+   "tries": 2,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Pero en Veracruz hacía muchísimo calor.",
+   "start": 878.65,
+   "ok": true,
+   "asr": "Pero en Veracruz hacía muchísimo calor.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "Me encanta México.",
+   "start": 881.534,
+   "ok": true,
+   "asr": "Me encanta México.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "男2",
+   "text": "Quiero ir el año que viene.",
+   "start": 883.224,
+   "ok": true,
+   "asr": "Quiero ir el año que viene.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Pues tienes que ir.",
+   "start": 885.354,
+   "ok": true,
+   "asr": "Pues tienes que ir.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第1遍",
+   "voice": "女2",
+   "text": "Te va a gustar mucho.",
+   "start": 886.578,
+   "ok": true,
+   "asr": "Te va a gustar mucho.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "Hola, Elena.",
+   "start": 890.81,
+   "ok": true,
+   "asr": "Hola, Elena.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "¿Qué tal tus vacaciones?",
+   "start": 892.4,
+   "ok": true,
+   "asr": "¿Qué tal tus vacaciones?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Muy bien, Hugo.",
+   "start": 894.66,
+   "ok": true,
+   "asr": "Muy bien, Hugo.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Pasé dos semanas en México con mi hermana.",
+   "start": 896.231,
+   "ok": true,
+   "asr": "Pasé dos semanas en México con mi hermana.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "¡Qué suerte!",
+   "start": 899.031,
+   "ok": true,
+   "asr": "¡Qué suerte!",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "¿Qué ciudades visitaste?",
+   "start": 900.341,
+   "ok": true,
+   "asr": "¿Qué ciudades visitaste?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Primero estuvimos en Ciudad de México y luego fuimos a Veracruz en autobús.",
+   "start": 902.497,
+   "ok": true,
+   "asr": "Primero estuvimos en Ciudad de México y luego fuimos a Veracruz en autobús.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "¿Y qué tal el viaje?",
+   "start": 907.33,
+   "ok": true,
+   "asr": "¿Y qué tal el viaje?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Al principio, fatal.",
+   "start": 909.22,
+   "ok": true,
+   "asr": "Al principio, fatal.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Cuando llegamos al aeropuerto, mi maleta no estaba.",
+   "start": 911.382,
+   "ok": true,
+   "asr": "Cuando llegamos al aeropuerto, mi maleta no estaba.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Tuve que comprar ropa nueva.",
+   "start": 914.832,
+   "ok": true,
+   "asr": "Tuve que comprar ropa nueva.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "¡Vaya!",
+   "start": 917.202,
+   "ok": true,
+   "asr": "Vaya.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "¿Y al final encontraron la maleta?",
+   "start": 918.222,
+   "ok": true,
+   "asr": "¿Y al final encontraron la maleta?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Sí, me la llevaron al hotel tres días después.",
+   "start": 920.892,
+   "ok": true,
+   "asr": "Sí, me la llevaron al hotel tres días después.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "¿Y qué te gustó más?",
+   "start": 924.466,
+   "ok": true,
+   "asr": "¿Y qué te gustó más?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "La comida, sin duda.",
+   "start": 926.366,
+   "ok": true,
+   "asr": "La comida, sin duda.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Comíamos en los mercados todos los días.",
+   "start": 928.369,
+   "ok": true,
+   "asr": "Comíamos en los mercados todos los días.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Todo estaba riquísimo y era muy barato.",
+   "start": 931.009,
+   "ok": true,
+   "asr": "Todo estaba riquísimo y era muy barato.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "¿Hacía mucho calor?",
+   "start": 933.936,
+   "ok": true,
+   "asr": "¿Hacía mucho calor?",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "En Ciudad de México no hacía mucho calor y llovía casi todas las tardes.",
+   "start": 935.896,
+   "ok": true,
+   "asr": "En Ciudad de México no hacía mucho calor y llovía casi todas las tardes.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Pero en Veracruz hacía muchísimo calor.",
+   "start": 940.467,
+   "ok": true,
+   "asr": "Pero en Veracruz hacía muchísimo calor.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "Me encanta México.",
+   "start": 943.351,
+   "ok": true,
+   "asr": "Me encanta México.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "男2",
+   "text": "Quiero ir el año que viene.",
+   "start": 945.041,
+   "ok": true,
+   "asr": "Quiero ir el año que viene.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Pues tienes que ir.",
+   "start": 947.171,
+   "ok": true,
+   "asr": "Pues tienes que ir.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "Texto 9 第2遍",
+   "voice": "女2",
+   "text": "Te va a gustar mucho.",
+   "start": 948.395,
+   "ok": true,
+   "asr": "Te va a gustar mucho.",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "听力部分到此结束。",
+   "start": 969.627,
+   "ok": true,
+   "asr": "听力部分到此结束",
+   "tries": 1,
+   "diff": []
+  },
+  {
+   "where": "指令语",
+   "voice": "中",
+   "text": "现在，你有两分钟的时间将试卷上的答案转涂到答题卡上。",
+   "start": 971.837,
+   "ok": true,
+   "asr": "现在你有两分钟的时间将试卷上的答案转图到答题卡上",
+   "tries": 1,
+   "diff": []
+  }
+ ]
+}
