@@ -1,0 +1,56 @@
+{
+ "prueba": "Expresión e interacción escritas",
+ "zh": "书面表达与互动",
+ "duracion": "50 minutos",
+ "intro": "Esta prueba tiene dos tareas. Dispone de 50 minutos para realizarlas en el orden que prefiera. Escriba sus textos en la Hoja de respuestas.",
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1-B1", "palabras": [100, 150],
+   "instruccion": "Usted ha recibido este correo electrónico de su amigo Samuel. Escríbale un correo de respuesta (entre 100 y 150 palabras) en el que:",
+   "puntos": [
+    "lo salude y lo felicite por su nuevo trabajo;",
+    "le recomiende un barrio para vivir y le explique por qué;",
+    "le explique cómo funciona el transporte en la ciudad;",
+    "le proponga un plan para su primer fin de semana;",
+    "se despida."
+   ],
+   "estimulo": {"genero": "correo electrónico", "de": "Samuel", "asunto": "¡Me voy a vivir a tu ciudad!",
+    "cuerpo": ["¡Hola!", "¿Sabes qué? En septiembre me voy a vivir a tu ciudad: voy a trabajar tres meses en una empresa de diseño. ¡Estoy muy contento! Pero no conozco nada. ¿En qué barrio puedo buscar piso? ¿Cómo me muevo por la ciudad? Escríbeme pronto.", "Un abrazo,", "Samuel"],
+    "zh": "你好！你知道吗？九月我要搬到你的城市去住了：我要在一家设计公司工作三个月。我很高兴！可是我什么都不了解。我可以在哪个街区找房子？在城里怎么出行？快给我回信。拥抱你，萨穆埃尔"},
+   "modelo": {
+    "nota": "示例答案。城市和街区信息为虚构，考生应写自己真实的城市。",
+    "texto": ["¡Hola, Samuel!", "¡Qué buena noticia! Enhorabuena por el nuevo trabajo. Me alegro mucho de que vengas a vivir a mi ciudad.", "Para buscar piso, te recomiendo el barrio del Carmen. Está cerca del centro, es tranquilo y tiene muchas tiendas pequeñas y cafeterías. Además, los alquileres no son muy caros.", "El transporte funciona bastante bien. Hay metro y autobuses hasta medianoche, y puedes sacar un abono mensual por unos cuarenta euros. Si te gusta la bici, también hay carriles bici por toda la ciudad.", "¿Qué te parece si el primer fin de semana te enseño el casco antiguo? El sábado podemos pasear por el mercado y comer en un restaurante que me encanta, y el domingo, si hace bueno, subir al mirador.", "Escríbeme cuando sepas qué día llegas.", "Un abrazo muy fuerte,", "Marta"],
+    "comentario": "五个要点都写到了，顺序和题目一致：问候祝贺 → 推荐街区并说明理由（离市中心近、安静、房租不贵）→ 交通（地铁、公交、月票、自行车道）→ 第一个周末的安排 → 告别。用了 me alegro de que + 虚拟式、¿Qué te parece si…?、si hace bueno 等 B1 结构，篇幅在 100–150 词之间。"}
+  },
+  {
+   "n": 2, "nivel": "B2-C1", "palabras": [250, 300],
+   "instruccion": "Elija una de las dos opciones.",
+   "opciones": [
+    {"n": 1, "titulo": "Opción 1 · Artículo de opinión",
+     "instruccion": "Usted ha leído esta noticia en el periódico digital Noticias de Villaserena. Escriba un artículo de opinión (entre 250 y 300 palabras) para la sección «Tribuna de los lectores» en el que:",
+     "puntos": ["presente el tema;", "dé su opinión sobre la medida;", "justifique su opinión con argumentos;", "escriba una conclusión."],
+     "estimulo": {"cabecera": "NOTICIAS DE VILLASERENA · Educación", "titular": "Cada vez más colegios dejan los móviles fuera de las aulas",
+      "cuerpo": "Varios colegios de la región han decidido que, desde el próximo curso, los alumnos dejarán el móvil en una caja al entrar en clase y no podrán recogerlo hasta la salida. Según los directores, la medida mejorará la concentración y la convivencia. Algunas familias, sin embargo, la consideran exagerada y recuerdan que el teléfono también puede servir para aprender.",
+      "zh": "《维拉塞雷纳新闻》（虚构的报纸）教育版：越来越多的学校把手机挡在教室外面。本地区多所学校决定，从下学年起，学生进教室时要把手机放进一个盒子里，放学时才能取回。校长们认为这项措施能提高注意力、改善校园相处。不过一些家长认为这样做过头了，并指出手机也可以用来学习。"},
+     "modelo": {
+      "texto": ["Móviles fuera del aula: una medida necesaria, pero no suficiente", "Varios colegios de nuestra región han anunciado que, a partir del próximo curso, los alumnos tendrán que dejar el móvil en una caja al entrar en clase. La noticia ha abierto un debate entre quienes ven en esta medida una forma de recuperar la concentración y quienes la consideran exagerada.", "En mi opinión, la prohibición es acertada. Cualquiera que haya pasado una hora en un aula de adolescentes sabe que basta una notificación para que la atención de todo un grupo se esfume. Y no hace falta que el teléfono suene: su simple presencia sobre la mesa ya es una invitación constante a mirarlo. Si la escuela pretende enseñar a pensar con calma, tiene que proteger ese tiempo.", "Hay otro argumento que suele olvidarse: la convivencia. En los recreos de muchos institutos ya no se oyen conversaciones, sino el silencio de decenas de pantallas. Retirar los móviles obliga a los jóvenes a hablar entre ellos, a jugar y, a veces, a aburrirse, algo que también forma parte de crecer.", "Ahora bien, entiendo a las familias que temen perder una herramienta útil. El teléfono permite buscar información, grabar un trabajo o traducir una palabra. Por eso, la prohibición debería ir acompañada de alternativas: ordenadores en las aulas y clases en las que se enseñe a usar la tecnología con sentido crítico.", "En definitiva, apartar el móvil durante las clases no es un castigo, sino una manera de devolver a la escuela su función. Lo importante es que la medida no se quede en una caja cerrada, sino que forme parte de un proyecto educativo más amplio."],
+      "comentario": "标题表明立场。第一段介绍话题和争议双方；第二段先亮明观点（En mi opinión, la prohibición es acertada），再给出第一个论据（注意力）；第三段给出第二个论据（校园相处）；第四段用 Ahora bien 承认反方观点并提出折中办法；最后一段用 En definitiva 总结。连接词多样（Y、Por eso、Ahora bien、En definitiva），用了 cualquiera que haya…、basta… para que…、no se quede… sino que forme… 等 C1 结构。"}},
+    {"n": 2, "titulo": "Opción 2 · Carta a la redacción",
+     "instruccion": "Usted ha leído esta noticia en el periódico de su ciudad. Escriba una carta al director del periódico (entre 250 y 300 palabras) en la que:",
+     "puntos": ["explique por qué no está de acuerdo con la decisión;", "describa las consecuencias que tendrá para los vecinos;", "proponga una alternativa;", "diga qué espera de las autoridades."],
+     "estimulo": {"cabecera": "EL CORREO DE VILLASERENA · Local", "titular": "El jardín de Las Acacias será un aparcamiento",
+      "cuerpo": "El ayuntamiento ha aprobado la construcción de un aparcamiento de tres plantas y doscientas plazas en el lugar que hoy ocupa el jardín de Las Acacias, en pleno centro. Según el concejal de Movilidad, la obra resolverá los problemas de aparcamiento de la zona. Los trabajos comenzarán en marzo y durarán dieciocho meses.",
+      "zh": "《维拉塞雷纳邮报》（虚构的报纸）本地版：阿卡西亚斯花园将变成停车场。市政府已批准在市中心阿卡西亚斯花园所在地建一座三层、两百个车位的停车场。交通事务议员说，这项工程将解决该地区停车难的问题。工程三月开工，为期十八个月。"},
+     "modelo": {
+      "texto": ["Señor director:", "Soy vecina del barrio de Las Acacias desde hace más de veinte años y le escribo, preocupada, a propósito de la noticia publicada el pasado martes: el ayuntamiento ha aprobado construir un aparcamiento de tres plantas donde hoy está nuestro jardín.", "No estoy de acuerdo con esta decisión, y no soy la única. El jardín de Las Acacias es el único espacio verde del centro. Allí juegan los niños después del colegio, pasean las personas mayores y, en verano, sus árboles dan la única sombra de toda la zona. Además, es donde cada junio celebramos la fiesta del barrio. Sustituirlo por cemento sería, a mi juicio, un error muy difícil de reparar.", "Las consecuencias para los vecinos serían graves. Durante dieciocho meses sufriríamos el ruido y el polvo de las obras. Después, doscientas plazas atraerían todavía más coches a unas calles estrechas que ya están saturadas, con más tráfico y peor calidad del aire. Y perderíamos, además, el lugar de encuentro que da vida al barrio.", "Comprendo que aparcar en el centro es difícil, pero hay otras soluciones. El antiguo solar de la estación, en las afueras, podría convertirse en un aparcamiento disuasorio, conectado con el centro por un autobús frecuente. Al mismo tiempo, se podrían ampliar el carril bici y el horario del transporte público.", "Por todo ello, pido al ayuntamiento que reconsidere su decisión y que consulte a los vecinos antes de empezar las obras. Esperamos que nuestros representantes escuchen, por una vez, a quienes vivimos aquí y no solo a quienes llegan en coche.", "Atentamente,", "Pilar Gómez Ruiz"],
+      "comentario": "格式完整：称呼 Señor director、自我介绍和写信缘由、正文、Atentamente 和署名。四个要点各占一段：不同意的理由 → 对居民的影响（用条件式 sufriríamos、atraerían 设想后果）→ 替代方案 → 对政府的期待（pido que + 虚拟式、Esperamos que + 虚拟式）。语气正式而有说服力。"}}
+   ]
+  }
+ ],
+ "criterios": [
+  {"es": "Cohesión", "zh": "衔接：段落安排、连接词、指代是否清楚连贯。"},
+  {"es": "Corrección", "zh": "准确：语法、词汇、拼写和标点是否正确。"},
+  {"es": "Alcance", "zh": "广度：词汇和语法结构是否丰富，能否准确表达复杂意思。"},
+  {"es": "Cumplimiento de la tarea", "zh": "完成任务：是否写到全部要点，文体、语域和字数是否符合要求。"}
+ ]
+}

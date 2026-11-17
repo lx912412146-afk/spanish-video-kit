@@ -1,0 +1,190 @@
+{
+ "prueba": "Comprensión auditiva",
+ "zh": "听力理解",
+ "duracion": "55 minutos aproximadamente",
+ "intro": "Esta prueba tiene seis tareas y 38 preguntas. Escuchará cada audio dos veces. Marque sus respuestas en la Hoja de respuestas.",
+ "voces": {"narrador": "男1"},
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1", "tipo": "banco", "lectura_s": 30, "entre_s": 10, "tempo": 0.9,
+   "instruccion": "Usted va a escuchar una conversación entre dos amigos, Andrés y Lucía. La escuchará dos veces. Complete las frases (1-5) con una de las opciones del recuadro (A-O). Hay quince opciones; elija solo cinco.",
+   "audio": [{"label": null, "segs": [
+    {"v": "男2", "who": "Andrés", "es": "Hola, Lucía. ¿Vamos al cine el sábado por la mañana?", "zh": "你好，露西娅。星期六上午去看电影吗？"},
+    {"v": "女2", "who": "Lucía", "es": "Lo siento, por la mañana no puedo. Voy al mercado con mi madre, como todos los sábados.", "zh": "抱歉，上午不行。我要和我妈妈去市场，每个星期六都这样。"},
+    {"v": "男2", "who": "Andrés", "es": "¿Y por la tarde?", "zh": "那下午呢？"},
+    {"v": "女2", "who": "Lucía", "es": "Por la tarde tengo que estudiar, porque el lunes tengo un examen de inglés. El de matemáticas es el jueves.", "zh": "下午我得学习，因为星期一有英语考试。数学考试在星期四。"},
+    {"v": "男2", "who": "Andrés", "es": "Entonces, ¿vamos el domingo en bici al lago?", "zh": "那星期天骑自行车去湖边吧？"},
+    {"v": "女2", "who": "Lucía", "es": "¡Vale! Pero yo no tengo bici. La de mi madre es muy grande para mí… Le pido la suya a mi hermana.", "zh": "好啊！不过我没有自行车。我妈妈的那辆对我来说太大了……我跟我姐姐（妹妹）借她的。"},
+    {"v": "男2", "who": "Andrés", "es": "Muy bien. ¿Quedamos en la puerta del colegio?", "zh": "很好。我们在学校门口见？"},
+    {"v": "女2", "who": "Lucía", "es": "Mejor en la puerta del parque, que está más cerca del lago. ¿A las diez y media?", "zh": "最好在公园门口，离湖更近。十点半？"},
+    {"v": "男2", "who": "Andrés", "es": "Perfecto. Yo llevo unos bocadillos de queso y de tortilla.", "zh": "好极了。我带些奶酪三明治和西班牙土豆鸡蛋饼三明治。"},
+    {"v": "女2", "who": "Lucía", "es": "Y yo, la fruta y el agua. ¿Viene Pedro? A él le encanta ir en bici por la montaña.", "zh": "我带水果和水。佩德罗来吗？他特别喜欢骑车上山。"},
+    {"v": "男2", "who": "Andrés", "es": "No, esta semana Pedro está en la playa con sus padres. Vuelve el martes.", "zh": "不来，这个星期佩德罗和他爸妈在海边。星期二回来。"},
+    {"v": "女2", "who": "Lucía", "es": "¡Qué suerte! Bueno, ¡hasta el domingo!", "zh": "真幸运！好吧，星期天见！"},
+    {"v": "男2", "who": "Andrés", "es": "¡Hasta el domingo!", "zh": "星期天见！"}
+   ]}],
+   "banco": ["abuela", "casa", "cine", "colegio", "francés", "hermana", "inglés", "lago", "madre", "matemáticas", "mercado", "montaña", "parque", "piscina", "playa"],
+   "preguntas": [
+    {"n": 1, "enunciado": "El sábado por la mañana, Lucía va al ______ con su madre.", "clave": "K", "explicacion": "Voy al mercado con mi madre（我和妈妈去市场）。cine 是安德烈斯提议的，lago 是星期天去的地方。"},
+    {"n": 2, "enunciado": "El lunes, Lucía tiene un examen de ______.", "clave": "G", "explicacion": "el lunes tengo un examen de inglés（星期一有英语考试）；数学考试在星期四。"},
+    {"n": 3, "enunciado": "Lucía va a usar la bicicleta de su ______.", "clave": "F", "explicacion": "Le pido la suya a mi hermana（我跟姐姐借她的）；妈妈的车太大，不借。"},
+    {"n": 4, "enunciado": "Andrés y Lucía quedan en la puerta del ______.", "clave": "M", "explicacion": "Mejor en la puerta del parque（最好在公园门口）；学校门口是安德烈斯先提的，被否定了。"},
+    {"n": 5, "enunciado": "Esta semana, Pedro está en la ______ con sus padres.", "clave": "O", "explicacion": "Pedro está en la playa con sus padres（佩德罗和爸妈在海边）；“喜欢骑车上山”只是露西娅说他的爱好。"}
+   ]
+  },
+  {
+   "n": 2, "nivel": "A2", "tipo": "seleccion", "lectura_s": 30, "entre_s": 5, "respuesta_s": 10,
+   "instruccion": "Usted va a escuchar cinco noticias de un programa de radio. Escuchará cada noticia dos veces. Elija la opción correcta (A, B o C) para cada pregunta (6-10).",
+   "audio": [
+    {"label": "Noticia uno", "segs": [{"v": "女2", "es": "Y ahora, el tiempo. Hoy por la mañana tendremos sol en casi toda la región, pero por la tarde llegarán tormentas a la zona norte, con lluvia y algo de viento. Las temperaturas bajarán unos cinco grados. Mañana, en cambio, volverá el buen tiempo, y podremos disfrutar de un fin de semana tranquilo.", "zh": "下面是天气预报。今天上午全区大部分地方晴，但下午北部地区将有雷暴，伴有降雨和小风。气温将下降五度左右。明天天气转好，周末会很平静。"}]},
+    {"label": "Noticia dos", "segs": [{"v": "女1", "es": "El nuevo parque del barrio de San Isidro abre sus puertas este sábado. Tiene zonas de juego para niños, un pequeño lago y un camino de tres kilómetros para correr o pasear. La fiesta de inauguración empezará a las once de la mañana, con música y actividades gratuitas para toda la familia.", "zh": "圣伊西德罗区的新公园本周六开放。园内有儿童游乐区、一个小湖和一条三公里长的跑步、散步道。开园庆祝活动上午十一点开始，有音乐和面向全家的免费活动。"}]},
+    {"label": "Noticia tres", "segs": [{"v": "女2", "es": "Información para los viajeros. Desde el próximo lunes y durante un mes, la parada de la línea cinco de autobús en la plaza Mayor cambia de lugar por unas obras. La parada provisional estará en la calle Ancha, a unos cien metros. Los horarios de la línea no cambian.", "zh": "乘客须知：从下星期一起，因施工，5 路公交车在主广场的车站将临时迁移一个月。临时车站设在安查街，距离约一百米。该线路的时刻表不变。"}]},
+    {"label": "Noticia cuatro", "segs": [{"v": "女1", "es": "El ayuntamiento organiza un concurso de fotografía para jóvenes de catorce a veinte años. El tema de este año es «Mi barrio». Cada participante puede enviar dos fotos como máximo, antes del treinta de mayo. El ganador recibirá una cámara profesional y su foto aparecerá en la portada de la revista municipal.", "zh": "市政府为十四到二十岁的青年举办摄影比赛。今年的主题是“我的街区”。每位参赛者最多可以提交两张照片，截止日期是五月三十日。获胜者将得到一台专业相机，作品还会登上市政杂志的封面。"}]},
+    {"label": "Noticia cinco", "segs": [{"v": "女2", "es": "Y terminamos con música. El grupo Los Viajeros, que acaba de publicar su tercer disco, dará un concierto el doce de julio en el estadio municipal. Las entradas ya están a la venta en internet y cuestan veinte euros. Los niños menores de doce años no pagan, pero tienen que ir acompañados de un adulto.", "zh": "最后是音乐新闻。刚发行第三张专辑的“旅行者”乐队将于七月十二日在市体育场举行音乐会。门票已在网上开售，每张二十欧元。十二岁以下儿童免费，但须由成人陪同。"}]}
+   ],
+   "preguntas": [
+    {"n": 6, "enunciado": "Según la información del tiempo, esta tarde…", "opciones": ["volverá el buen tiempo.", "puede llover en la zona norte.", "hará más calor que por la mañana."], "clave": "B", "explicacion": "por la tarde llegarán tormentas a la zona norte, con lluvia（下午北部有雷暴和降雨）。天气转好是明天；气温是下降五度。"},
+    {"n": 7, "enunciado": "El nuevo parque de San Isidro…", "opciones": ["abre todos los días a las once.", "cobra las actividades de la fiesta.", "tiene un camino para correr."], "clave": "C", "explicacion": "un camino de tres kilómetros para correr o pasear（三公里的跑步、散步道）。十一点是开园活动的时间，不是每天开门的时间；开园活动是免费的（actividades gratuitas）。"},
+    {"n": 8, "enunciado": "La parada de la línea 5 en la plaza Mayor…", "opciones": ["cambia de sitio durante un mes.", "tiene horarios nuevos a partir del lunes.", "se cierra para siempre."], "clave": "A", "explicacion": "durante un mes… cambia de lugar（一个月内换地方）。Los horarios de la línea no cambian（时刻表不变）；是临时迁移，不是永久关闭。"},
+    {"n": 9, "enunciado": "En el concurso de fotografía…", "opciones": ["puede participar gente de todas las edades.", "cada persona puede enviar dos fotos como máximo.", "el premio es un viaje."], "clave": "B", "explicacion": "Cada participante puede enviar dos fotos como máximo（每人最多两张）。只限十四到二十岁；奖品是一台专业相机。"},
+    {"n": 10, "enunciado": "Para el concierto de Los Viajeros…", "opciones": ["los niños pequeños entran gratis.", "las entradas se compran en el estadio.", "las entradas cuestan doce euros."], "clave": "A", "explicacion": "Los niños menores de doce años no pagan（十二岁以下儿童免费）。门票在网上买，二十欧元；“十二”是日期和儿童年龄。"}
+   ]
+  },
+  {
+   "n": 3, "nivel": "B1", "tipo": "relacionar", "lectura_s": 30, "entre_s": 5, "respuesta_s": 10,
+   "instruccion": "Usted va a escuchar a ocho personas que hablan de su cambio de profesión. Escuchará a cada persona dos veces. Relacione a cada persona (11-18) con uno de los enunciados (A-K). Hay once enunciados; elija solo ocho.",
+   "enunciados": [
+    "Tuvo la idea de su negocio durante un viaje.",
+    "Al principio, su familia no estaba de acuerdo con su decisión.",
+    "Empezó a estudiar en la universidad después de los cuarenta años.",
+    "Dejó su trabajo anterior porque le causaba problemas físicos.",
+    "Su experiencia anterior le resulta útil en su nuevo trabajo.",
+    "Convirtió en profesión algo que hacía desde la infancia.",
+    "Se arrepiente de haber cambiado de profesión.",
+    "Ahora gana menos dinero, pero es más feliz.",
+    "Aprendió su nuevo oficio gracias a un familiar.",
+    "Abrió su negocio con un amigo.",
+    "Quería pasar más tiempo con sus hijos."
+   ],
+   "enunciados_zh": ["在一次旅行中想到了自己生意的点子。", "起初家人不同意他/她的决定。", "四十岁以后才开始上大学。", "因为以前的工作带来身体上的问题而辞职。", "以前的经验对现在的工作很有用。", "把从小就做的事变成了职业。", "后悔改行。", "现在挣得少了，但更快乐。", "靠一位家人学会了新手艺。", "和一个朋友一起开了店。", "想多花时间陪孩子。"],
+   "sobran": ["C", "G", "J"],
+   "audio": [
+    {"label": "Persona uno", "segs": [{"v": "女1", "es": "Trabajé diez años en un banco. Tenía un buen horario y un buen sueldo, pero no era feliz. Desde que era niña, los domingos hacía pan en casa; era mi gran afición. Hace tres años abrí mi propia panadería. Me levanto a las cuatro de la mañana, sí, pero me encanta. Y, para mi sorpresa, gano más que en el banco.", "zh": "我在银行工作了十年。工作时间好，工资也高，可我不快乐。我从小每个星期天都在家做面包，那是我最大的爱好。三年前我开了自己的面包店。我凌晨四点起床，没错，但我很喜欢。而且，没想到我挣得比在银行还多。"}]},
+    {"label": "Persona dos", "segs": [{"v": "男2", "es": "Fui cocinero durante veinte años en un restaurante del centro. Me gustaba mi trabajo, pero pasaba diez horas al día de pie y empezó a dolerme mucho la espalda. El médico me dijo que tenía que cambiar de vida. Ahora trabajo en una librería: atiendo a los clientes, recomiendo libros… y, sobre todo, puedo sentarme cuando lo necesito.", "zh": "我在市中心一家餐馆当了二十年厨师。我喜欢这份工作，可每天要站十个小时，后来腰疼得厉害。医生说我得换一种生活。现在我在一家书店工作：接待顾客、推荐书……最重要的是，需要的时候可以坐下。"}]},
+    {"label": "Persona tres", "segs": [{"v": "女3", "es": "Yo era profesora de matemáticas en un instituto. Nunca me habían interesado los trabajos manuales, pero cuando mi abuelo, que era carpintero, decidió jubilarse, empecé a ayudarlo en el taller por las tardes. Él me enseñó el oficio con mucha paciencia y descubrí que me encantaba. Hoy el taller es mío y hago muebles por encargo.", "zh": "我原来是中学数学老师。我从来对手工活不感兴趣，可是当我当木匠的爷爷决定退休时，我开始下午去作坊帮他。他很耐心地教我手艺，我发现自己非常喜欢。现在作坊归我了，我接订单做家具。"}]},
+    {"label": "Persona cuatro", "segs": [{"v": "女2", "es": "Fui abogada durante doce años en una gran empresa. Trabajaba hasta las nueve o las diez de la noche y no tenía tiempo para nada. Un día vi un anuncio: buscaban guías para un parque natural. Hice el curso, aprobé el examen y aquí estoy. Gano la mitad que antes, es verdad, pero cada día vuelvo a casa contenta.", "zh": "我在一家大公司当了十二年律师。每天工作到晚上九、十点，什么时间都没有。有一天我看到一则广告：一个自然公园招导游。我上了培训课，通过了考试，就到了这里。我挣的是以前的一半，没错，可每天回家都很开心。"}]},
+    {"label": "Persona cinco", "segs": [{"v": "女4", "es": "Mis padres son médicos y querían que yo también lo fuera. Empecé la carrera de Medicina, pero en tercero la dejé para entrar en una escuela de teatro. Durante dos años, en casa casi no se hablaba del tema. Hoy mis padres vienen a todos mis estrenos. No siempre hay trabajo, es verdad, pero no me arrepiento ni un minuto.", "zh": "我父母都是医生，他们希望我也当医生。我上了医学专业，可是大三时退学，进了一所戏剧学校。有两年时间，家里几乎不谈这件事。现在我父母每场首演都来看。确实不是总有活儿干，但我一分钟都没后悔过。"}]},
+    {"label": "Persona seis", "segs": [{"v": "男2", "es": "Fui piloto durante quince años. Me encantaba volar, pero pasaba muchas noches fuera de casa. Cuando nacieron mis gemelos, me di cuenta de que me estaba perdiendo sus primeros años. Un amigo mecánico me enseñó a reparar bicicletas. Hoy tengo un taller a dos calles de casa y todas las mañanas los llevo al colegio. A veces echo de menos los aviones, claro.", "zh": "我当了十五年飞行员。我很喜欢飞，可经常好几个晚上不在家。我的双胞胎出生后，我发现自己错过了他们最初的几年。一个当机修工的朋友教我修自行车。现在我在离家两条街的地方有一家修车铺，每天早上送他们上学。当然，有时我也会想念飞机。"}]},
+    {"label": "Persona siete", "segs": [{"v": "女1", "es": "Trabajaba en una agencia de publicidad en Madrid. Hace cinco años hice un viaje a Perú y, en un pueblo de los Andes, conocí a un grupo de tejedoras. Sus trabajos eran tan bonitos que pensé que tenían que llegar a más gente. Al volver, abrí una tienda en internet. Al principio una amiga me ayudaba con las fotos, pero el negocio lo llevo yo sola.", "zh": "我原来在马德里一家广告公司工作。五年前我去秘鲁旅行，在安第斯山区的一个村子里认识了一群织布的妇女。她们的作品太美了，我觉得应该让更多人看到。回来以后，我开了一家网店。开始时一个朋友帮我拍照片，但店是我一个人经营的。"}]},
+    {"label": "Persona ocho", "segs": [{"v": "女3", "es": "Fui enfermera de urgencias durante veinte años. A los cuarenta y cinco empecé a escribir novelas policíacas, y la tercera tuvo tanto éxito que dejé el hospital. Lo que viví allí me ayuda muchísimo: sé cómo reacciona la gente en situaciones extremas, cómo habla un médico cansado a las cuatro de la mañana… Los lectores dicen que mis historias parecen reales.", "zh": "我在急诊科当了二十年护士。四十五岁时我开始写侦探小说，第三本大获成功，于是我离开了医院。我在那里的经历对我帮助极大：我知道人在极端情况下会有什么反应，知道一个疲惫的医生凌晨四点怎么说话……读者说我的故事像真的一样。"}]}
+   ],
+   "preguntas": [
+    {"n": 11, "persona": 1, "clave": "F", "explicacion": "Desde que era niña, los domingos hacía pan en casa; era mi gran afición（从小就在家做面包，是最大的爱好），现在开了面包店。她挣得比以前多，所以不是 H。"},
+    {"n": 12, "persona": 2, "clave": "D", "explicacion": "pasaba diez horas al día de pie y empezó a dolerme mucho la espalda（每天站十小时，腰疼得厉害），医生让他换种生活。"},
+    {"n": 13, "persona": 3, "clave": "I", "explicacion": "mi abuelo, que era carpintero… me enseñó el oficio（当木匠的爷爷教她手艺）。她说自己从来对手工活不感兴趣，所以不是 F。"},
+    {"n": 14, "persona": 4, "clave": "H", "explicacion": "Gano la mitad que antes… pero cada día vuelvo a casa contenta（挣以前的一半，但每天开心）。"},
+    {"n": 15, "persona": 5, "clave": "B", "explicacion": "父母希望她当医生；Durante dos años, en casa casi no se hablaba del tema（两年里家里几乎不谈这事），说明家里起初不赞成。她说 no me arrepiento（不后悔），不是 G；她是从大学退学，不是四十岁后上大学（C）。"},
+    {"n": 16, "persona": 6, "clave": "K", "explicacion": "Cuando nacieron mis gemelos, me di cuenta de que me estaba perdiendo sus primeros años（双胞胎出生后发现错过了他们最初几年），现在每天送孩子上学。朋友只是教他修车，修车铺是他自己的（tengo un taller，没说和朋友合开，不是 J）；“想念飞机”不等于后悔（不是 G）。"},
+    {"n": 17, "persona": 7, "clave": "A", "explicacion": "在秘鲁旅行时认识织布的妇女，回来后开网店：点子来自旅行。朋友只是帮忙拍照，el negocio lo llevo yo sola（店是我一个人经营），不是 J。"},
+    {"n": 18, "persona": 8, "clave": "E", "explicacion": "Lo que viví allí me ayuda muchísimo（在医院的经历对我帮助极大）。她四十五岁开始写小说，不是上大学（C）。"}
+   ]
+  },
+  {
+   "n": 4, "nivel": "B2", "tipo": "seleccion", "lectura_s": 45, "entre_s": 10,
+   "instruccion": "Usted va a escuchar una entrevista a Clara Montes, fundadora de una biblioteca de objetos. La escuchará dos veces. Elija la opción correcta (A, B o C) para cada pregunta (19-26).",
+   "audio": [{"label": null, "segs": [
+    {"v": "男2", "who": "Entrevistador", "es": "Buenas tardes y bienvenidos a «Vecinos con ideas». Hoy nos acompaña Clara Montes, que hace cuatro años fundó en su barrio una biblioteca de objetos. Clara, ¿qué es exactamente una biblioteca de objetos?", "zh": "下午好，欢迎收听《有想法的邻居》。今天来到节目的是克拉拉·蒙特斯，她四年前在自己的街区创办了一家“物品图书馆”。克拉拉，物品图书馆到底是什么？"},
+    {"v": "女4", "who": "Clara", "es": "Pues funciona igual que una biblioteca de libros, pero lo que prestamos son cosas: herramientas, tiendas de campaña, una máquina de coser, juegos de mesa… Los socios pagan una cuota muy baja, diez euros al año, y pueden llevarse lo que necesiten durante una semana. La idea es que no haga falta comprar algo que solo vas a usar dos o tres veces en la vida.", "zh": "它和借书的图书馆一样运作，只不过我们借出的是东西：工具、帐篷、一台缝纫机、桌游……会员交很低的会费，一年十欧元，需要什么都可以借走一个星期。我们的想法是：一辈子只用两三次的东西，没必要去买。"},
+    {"v": "男2", "who": "Entrevistador", "es": "¿Y de dónde salió la idea?", "zh": "这个点子是怎么来的？"},
+    {"v": "女4", "who": "Clara", "es": "De una conversación en el ascensor, aunque parezca mentira. Un día subí con un vecino que llevaba un taladro nuevo, todavía en la caja. Le dije que yo tenía uno igual y que lo había usado una sola vez. Hicimos la cuenta y resultó que en nuestro edificio había por lo menos seis taladros… para colgar, como mucho, un par de cuadros al año.", "zh": "说来你可能不信，来自电梯里的一次聊天。有一天我和一个邻居一起上楼，他拿着一把新电钻，还装在盒子里。我跟他说我也有一把一样的，只用过一次。我们一算，发现我们这栋楼里至少有六把电钻……一年顶多用来挂两幅画。"},
+    {"v": "男2", "who": "Entrevistador", "es": "¿Cómo fueron los comienzos?", "zh": "刚开始是什么样的？"},
+    {"v": "女4", "who": "Clara", "es": "Muy modestos. Éramos cuatro amigas y empezamos en mi trastero, con lo que los vecinos nos querían regalar. Abríamos solo los sábados por la mañana y apuntábamos los préstamos en un cuaderno. Al año siguiente, el ayuntamiento nos cedió un local en el centro cívico y, a cambio, organizamos talleres gratuitos de reparación para todo el barrio.", "zh": "很简陋。我们是四个朋友，在我家的储藏室起步，用的是邻居愿意送给我们的东西。只在星期六上午开门，借出的东西记在一个本子上。第二年，市政府把社区中心的一间房让给我们用，作为交换，我们为全街区办免费的维修工作坊。"},
+    {"v": "男2", "who": "Entrevistador", "es": "Imagino que habrá habido problemas. ¿Qué ha sido lo más difícil?", "zh": "我想肯定遇到过问题。最难的是什么？"},
+    {"v": "女4", "who": "Clara", "es": "Al principio se nos rompían muchas cosas, y no por mala intención: la gente no sabía usarlas. Alguien se llevaba una lijadora sin haberla tocado nunca y, claro… Por eso ahora, cuando prestamos algo complicado, un voluntario explica cómo funciona, y cada objeto lleva una pequeña ficha con instrucciones. Desde que lo hacemos, las averías han bajado muchísimo.", "zh": "一开始很多东西被弄坏了，不是有人故意的：大家不会用。有人借走一台砂光机，以前从来没碰过，结果当然……所以现在借出复杂的东西时，会有一位志愿者讲解怎么用，每件东西还附一张简短的说明卡。这样做以后，损坏少了很多。"},
+    {"v": "男2", "who": "Entrevistador", "es": "¿Y la gente devuelve las cosas? Es lo primero que todo el mundo se pregunta.", "zh": "大家会把东西还回来吗？这是所有人首先想问的。"},
+    {"v": "女4", "who": "Clara", "es": "Sí, y eso fue lo que más me sorprendió. En cuatro años solo hemos perdido tres objetos. Uno de ellos, una tienda de campaña, apareció meses después en la puerta del local, con una nota pidiendo perdón. La verdad es que no es algo que nos quite el sueño.", "zh": "会的，这是最让我意外的。四年里我们只丢了三件东西。其中一顶帐篷几个月后出现在我们门口，还附了一张道歉的纸条。说实话，这不是让我们睡不着觉的事。"},
+    {"v": "男2", "who": "Entrevistador", "es": "¿Hay objetos que tengan más éxito que otros?", "zh": "有没有哪些东西特别受欢迎？"},
+    {"v": "女4", "who": "Clara", "es": "Depende mucho de la temporada. En primavera triunfan las herramientas de jardín, y en verano se llevan las neveras portátiles y las tiendas de campaña. Y en diciembre, aunque cueste creerlo, lo que más sale son las fuentes grandes, los manteles y las sillas: todo el mundo tiene invitados y nadie quiere comprar doce sillas para usarlas un solo día.", "zh": "很看季节。春天园艺工具最受欢迎，夏天大家借便携冷藏箱和帐篷。十二月呢，说出来可能不信，借得最多的是大盘子、桌布和椅子：家家都有客人，谁也不想为了用一天去买十二把椅子。"},
+    {"v": "男2", "who": "Entrevistador", "es": "Después de cuatro años, ¿qué es lo que más valora del proyecto?", "zh": "四年过去了，这个项目您最看重的是什么？"},
+    {"v": "女4", "who": "Clara", "es": "Se podría pensar que es el ahorro o el medio ambiente, y las dos cosas son importantes. Pero para mí lo más valioso es que los vecinos se conocen. Antes nos cruzábamos en la escalera sin saludarnos; ahora, cuando alguien viene a por una sierra, se queda un rato charlando, y de ahí han salido amistades, grupos de excursiones… hasta una boda.", "zh": "大家可能以为是省钱或者环保，这两点都很重要。但对我来说，最宝贵的是邻居们彼此认识了。以前我们在楼梯上碰见都不打招呼；现在有人来借锯子，会留下来聊一会儿，由此有了友谊、远足小组……甚至还有一场婚礼。"},
+    {"v": "男2", "who": "Entrevistador", "es": "Para terminar, ¿qué le diría a alguien que quiere poner en marcha algo parecido en su barrio?", "zh": "最后，您想对想在自己街区做类似事情的人说什么？"},
+    {"v": "女4", "who": "Clara", "es": "Que empiece en pequeño. No hace falta un local enorme ni cientos de objetos. Basta con tres o cuatro personas comprometidas y unas cuantas cosas útiles. Lo demás llega solo, cuando la gente ve que funciona.", "zh": "从小做起。不需要很大的场地，也不需要几百件东西。有三四个投入的人和一些有用的东西就够了。等大家看到它行得通，其余的自然会来。"},
+    {"v": "男2", "who": "Entrevistador", "es": "Clara Montes, muchas gracias.", "zh": "克拉拉·蒙特斯，非常感谢。"}
+   ]}],
+   "preguntas": [
+    {"n": 19, "enunciado": "Según Clara, en una biblioteca de objetos…", "opciones": ["se venden a precios bajos objetos que los vecinos ya no usan.", "se prestan cosas a cambio de una cuota baja.", "los vecinos intercambian objetos sin pagar nada."], "clave": "B", "explicacion": "lo que prestamos son cosas… Los socios pagan una cuota muy baja, diez euros al año（借出的是东西，会员一年交十欧元）。是借，不是卖；要交会费，不是完全免费。"},
+    {"n": 20, "enunciado": "La idea del proyecto surgió cuando Clara…", "opciones": ["vio que muchos vecinos tenían un objeto que casi no usaban.", "necesitó un taladro para colgar unos cuadros y no podía comprarlo.", "recibió de regalo un taladro que no necesitaba."], "clave": "A", "explicacion": "在电梯里和邻居聊起电钻，发现楼里至少有六把，一年只用来挂一两幅画。她自己就有电钻，不是买不起；邻居手里那把是他自己新买的，没有送给她。"},
+    {"n": 21, "enunciado": "Al principio, la biblioteca de objetos…", "opciones": ["abría todos los días por la mañana.", "estaba en un local del ayuntamiento.", "funcionaba en un espacio de la propia Clara."], "clave": "C", "explicacion": "Éramos cuatro amigas y empezamos en mi trastero（我们四个朋友在我家的储藏室起步）。只在星期六上午开门；市政府的房子是第二年才有的。"},
+    {"n": 22, "enunciado": "Según Clara, al principio muchos objetos se rompían porque…", "opciones": ["los socios no sabían utilizarlos.", "eran demasiado viejos.", "algunas personas los trataban mal a propósito."], "clave": "A", "explicacion": "no por mala intención: la gente no sabía usarlas（不是故意的，大家不会用）。"},
+    {"n": 23, "enunciado": "Sobre los objetos que no se devuelven, Clara da a entender que…", "opciones": ["son la principal preocupación del grupo.", "los socios tienen que pagarlos.", "no suponen un problema importante."], "clave": "C", "explicacion": "四年只丢了三件，其中一件还被送回；no es algo que nos quite el sueño（不是让我们睡不着觉的事），意思是不担心。需要推断：quitar el sueño 指让人发愁。采访中没提赔偿。"},
+    {"n": 24, "enunciado": "En diciembre, los socios piden sobre todo…", "opciones": ["neveras portátiles.", "cosas para recibir invitados en casa.", "herramientas para colgar adornos."], "clave": "B", "explicacion": "las fuentes grandes, los manteles y las sillas: todo el mundo tiene invitados（大盘子、桌布、椅子：家家有客人）。便携冷藏箱是夏天借的。"},
+    {"n": 25, "enunciado": "Para Clara, lo más valioso del proyecto es que…", "opciones": ["las familias ahorran dinero.", "ayuda a proteger el medio ambiente.", "ha creado relaciones entre los vecinos."], "clave": "C", "explicacion": "para mí lo más valioso es que los vecinos se conocen（对我来说最宝贵的是邻居们彼此认识了）。省钱和环保她说也重要，但不是最看重的。"},
+    {"n": 26, "enunciado": "A quien quiera crear un proyecto parecido, Clara le aconseja…", "opciones": ["empezar con pocos medios y pocas personas.", "buscar primero un local grande.", "pedir ayuda al ayuntamiento desde el principio."], "clave": "A", "explicacion": "Que empiece en pequeño… Basta con tres o cuatro personas comprometidas（从小做起，三四个投入的人就够了）。她明确说不需要很大的场地。"}
+   ]
+  },
+  {
+   "n": 5, "nivel": "C1", "tipo": "seleccion", "lectura_s": 45, "entre_s": 10, "entre_fragmentos_s": 5,
+   "instruccion": "Usted va a escuchar seis fragmentos de una conferencia sobre la arquitectura y el clima. Escuchará la conferencia dos veces. Elija la opción correcta (A, B o C) para cada fragmento (27-32).",
+   "audio": [
+    {"label": "Fragmento uno", "segs": [{"v": "女3", "es": "Buenos días. Si comparamos una fotografía de los nuevos barrios de oficinas de Sevilla con otra de los de Oslo, probablemente nos costará distinguirlas: los mismos edificios de cristal, las mismas torres. Y, sin embargo, el clima de estas dos ciudades no podría ser más distinto. Esos edificios, iguales en todas partes, solo resultan habitables gracias a enormes sistemas de calefacción y de aire acondicionado, que consumen una cantidad de energía considerable. Y no hablo solo de la factura: hablo también de emisiones.", "zh": "早上好。如果把塞维利亚新办公区的照片和奥斯陆新办公区的照片放在一起比较，我们可能很难分辨：同样的玻璃楼，同样的高楼。可是这两座城市的气候再不同不过了。这些到处都一样的建筑，全靠庞大的供暖和空调系统才能住人，而这些系统消耗的能源相当可观。我说的不只是电费账单，也是排放。"}]},
+    {"label": "Fragmento dos", "segs": [{"v": "女3", "es": "La arquitectura tradicional, en cambio, nació de la necesidad. Pensemos en el patio andaluz. No es solo un espacio bonito lleno de macetas: es una auténtica máquina de refrescar. Durante la noche, el aire fresco baja y se acumula en el patio; durante el día, los muros gruesos y la sombra conservan esa temperatura, y el agua de la fuente y de las plantas la hace bajar todavía más. Todo ello, sin gastar un solo vatio. Durante siglos, las familias andaluzas pasaban allí las tardes de verano.", "zh": "传统建筑则是从需要中产生的。想想安达卢西亚的庭院。它不只是一个摆满花盆的漂亮空间，而是一台真正的降温机器。夜里，凉空气下沉，积聚在庭院里；白天，厚墙和阴影保住这个温度，喷泉和植物的水分又让温度进一步下降。这一切，一瓦电都不用。几百年来，安达卢西亚人家夏天的下午就在那里度过。"}]},
+    {"label": "Fragmento tres", "segs": [{"v": "女3", "es": "En el otro extremo del país encontramos soluciones igual de ingeniosas para el frío. En muchas casas tradicionales del Pirineo, los animales vivían en la planta baja, y su calor subía hacia las habitaciones de la familia. Las ventanas eran pequeñas para no perder calor, y los tejados, muy inclinados, para que la nieve no se acumulara. Incluso la piedra de los muros, muy gruesa, acumulaba el calor del día y lo devolvía por la noche. Nada era casual: cada detalle respondía a las condiciones del lugar.", "zh": "在国家的另一端，我们能看到同样巧妙的防寒办法。在比利牛斯山区的许多传统房屋里，牲畜住在底层，它们的热量向上传到家人住的房间。窗户很小，以免散热；屋顶很陡，让积雪存不住。就连很厚的石墙也会白天蓄热、夜里放热。没有什么是偶然的：每个细节都是针对当地条件的。"}]},
+    {"label": "Fragmento cuatro", "segs": [{"v": "女3", "es": "Ahora bien, no estoy proponiendo que volvamos a vivir con las vacas debajo del dormitorio. Copiar las formas del pasado no tiene sentido: nuestras necesidades y nuestras ciudades son otras. Lo que sí podemos hacer es recuperar los principios que había detrás de esas formas: orientar bien los edificios, aprovechar la sombra y la ventilación natural, elegir materiales que guarden el calor o el fresco. En otras palabras, aprender del pasado sin quedarse en él.", "zh": "不过，我并不是建议我们回到卧室底下养牛的生活。照搬过去的形式没有意义：我们的需求和城市都不一样了。我们可以做的，是找回这些形式背后的原则：让建筑朝向合理，利用阴影和自然通风，选择能保温或保凉的材料。换句话说，向过去学习，但不停留在过去。"}]},
+    {"label": "Fragmento cinco", "segs": [{"v": "女3", "es": "Y esto no es solo teoría. En un barrio nuevo de una ciudad del interior, construido siguiendo estos principios, las viviendas gastan alrededor de un treinta por ciento menos en refrigeración que otras de la misma zona. Sus habitantes, además, aseguran que en verano se vive mejor en ellas. Lo más interesante es que construirlas apenas costó más. Es decir, la eficiencia no depende tanto del dinero como de las decisiones que se toman al diseñar.", "zh": "这不只是理论。内陆某城市有一个按这些原则建成的新街区，那里的住宅制冷能耗比同一地区的其他住宅低三成左右。住户们还说，夏天住在里面更舒服。最有意思的是，建造成本几乎没有增加。也就是说，能效与其说取决于钱，不如说取决于设计时作出的决定。"}]},
+    {"label": "Fragmento seis", "segs": [{"v": "女3", "es": "Para terminar, quiero insistir en algo que a menudo se olvida: ningún edificio es eficiente por sí solo. El patio andaluz funcionaba porque sus habitantes sabían cuándo abrir y cerrar las ventanas, cuándo regar, cuándo correr las cortinas. Por muy bien diseñada que esté una casa, de poco servirá si quienes viven en ella no la usan bien. La arquitectura, en definitiva, también es una cuestión de costumbres.", "zh": "最后，我想强调一件常被忘记的事：没有哪座建筑本身就是节能的。安达卢西亚庭院之所以管用，是因为住在里面的人知道什么时候开窗关窗、什么时候浇水、什么时候拉窗帘。房子设计得再好，住的人用不好也没多大用处。说到底，建筑也是一个习惯问题。"}]}
+   ],
+   "preguntas": [
+    {"n": 27, "fragmento": 1, "enunciado": "Según la conferenciante, los edificios de cristal de muchas ciudades…", "opciones": ["se adaptan bien a cualquier clima.", "son más baratos de construir.", "necesitan mucha energía para ser habitables."], "clave": "C", "explicacion": "solo resultan habitables gracias a enormes sistemas de calefacción y de aire acondicionado, que consumen una cantidad de energía considerable（全靠庞大的供暖和空调才能住人，耗能可观）。它们到处一样，恰恰说明没有适应气候；造价没有提到。"},
+    {"n": 28, "fragmento": 2, "enunciado": "La conferenciante presenta el patio andaluz como…", "opciones": ["un sistema natural para refrescar la casa.", "un elemento sobre todo decorativo.", "un espacio que necesita mucha agua."], "clave": "A", "explicacion": "No es solo un espacio bonito…: es una auténtica máquina de refrescar… sin gastar un solo vatio（不只是好看，而是一台不用电的降温机器）。水只是帮助降温的因素之一，没说需要很多水。"},
+    {"n": 29, "fragmento": 3, "enunciado": "En las casas tradicionales del Pirineo…", "opciones": ["la familia vivía en la planta baja.", "los animales ayudaban a calentar la vivienda.", "las ventanas eran grandes para que entrara el sol."], "clave": "B", "explicacion": "los animales vivían en la planta baja, y su calor subía hacia las habitaciones（牲畜住底层，热量上传到家人房间）。住底层的是牲畜不是家人；窗户是小的。"},
+    {"n": 30, "fragmento": 4, "enunciado": "La conferenciante propone…", "opciones": ["volver a construir las casas tal y como se hacía antes.", "recuperar los principios, no las formas, del pasado.", "dejar de usar materiales modernos en los edificios."], "clave": "B", "explicacion": "Copiar las formas del pasado no tiene sentido… Lo que sí podemos hacer es recuperar los principios（照搬形式没意义，可以找回背后的原则）。她只说要选保温保凉的材料，没说不用现代材料。"},
+    {"n": 31, "fragmento": 5, "enunciado": "El ejemplo del barrio nuevo sirve a la conferenciante para mostrar que…", "opciones": ["las viviendas eficientes resultan mucho más caras de construir.", "este tipo de diseño solo funciona en ciudades del interior.", "ahorrar energía no exige gastar mucho más al construir."], "clave": "C", "explicacion": "制冷能耗低三成左右，construirlas apenas costó más（造价几乎没增加），la eficiencia no depende tanto del dinero（能效与其说靠钱……）。“内陆城市”只是例子发生的地点。"},
+    {"n": 32, "fragmento": 6, "enunciado": "Al final, la conferenciante concluye que…", "opciones": ["la forma de vivir en un edificio influye en su eficiencia.", "un buen diseño basta, por sí solo, para que una casa ahorre energía.", "las casas antiguas eran más cómodas que las de hoy en día."], "clave": "A", "explicacion": "ningún edificio es eficiente por sí solo… de poco servirá si quienes viven en ella no la usan bien（没有哪座建筑本身就节能，住的人用不好也没用）。B 正好相反；C 她没有比较舒适程度。"}
+   ]
+  },
+  {
+   "n": 6, "nivel": "C1", "tipo": "seleccion_multiple", "lectura_s": 50, "entre_s": 10,
+   "instruccion": "Usted va a escuchar una conferencia sobre un proyecto de ciencia ciudadana. La escuchará dos veces. Elija las seis opciones (A-L) que corresponden a lo que se dice en la conferencia (33-38).",
+   "audio": [{"label": null, "segs": [
+    {"v": "男2", "es": "Buenas tardes. Hoy quiero hablarles de «Alas de barrio», un proyecto en el que participo desde hace cinco años. Su objetivo es sencillo: saber qué mariposas viven en los parques y jardines de nuestra ciudad y cómo cambian sus poblaciones con el tiempo.", "zh": "下午好。今天我想谈谈“街区之翼”，我参与这个项目已经五年了。它的目标很简单：弄清楚我们城市的公园和花园里有哪些蝴蝶，它们的数量随时间怎样变化。"},
+    {"v": "男2", "es": "¿Por qué mariposas? Porque reaccionan muy rápido a los cambios del entorno: a la temperatura, a los productos químicos, a la desaparición de ciertas plantas. Cuando dejan de verse en un lugar, suele ser una señal de que algo va mal. Además, son fáciles de reconocer y a casi todo el mundo le resultan simpáticas, lo que facilita mucho el trabajo con voluntarios.", "zh": "为什么是蝴蝶？因为它们对环境变化反应很快：温度、化学品、某些植物的消失。一个地方见不到蝴蝶了，往往说明出了问题。而且蝴蝶容易辨认，几乎人人都喜欢，这让和志愿者合作容易得多。"},
+    {"v": "男2", "es": "Para obtener datos fiables, necesitábamos recorrer decenas de parques cada semana durante la primavera y el verano, y nuestro pequeño equipo no tenía gente suficiente. Así que pedimos ayuda a los vecinos.", "zh": "要得到可靠的数据，我们需要在春夏两季每周走遍几十个公园，而我们这个小团队人手不够。于是我们请邻居们帮忙。"},
+    {"v": "男2", "es": "La respuesta nos sorprendió: el primer año se apuntaron más de doscientas personas. Había jubilados, familias con niños, estudiantes, trabajadores que aprovechaban la hora de la comida… Ninguno era especialista. Les ofrecimos una formación de dos sesiones, en la que aprendían a reconocer las veinte especies más comunes y a seguir un método muy sencillo: recorrer siempre el mismo camino, a la misma hora y en días de sol, y anotar todo lo que veían. Cada recorrido dura unos cuarenta y cinco minutos.", "zh": "反响出乎我们意料：第一年就有两百多人报名。有退休的人、带孩子的家庭、学生、利用午饭时间的上班族……没有一个是专家。我们给他们安排了两次培训课，教他们认出最常见的二十种蝴蝶，并遵守一个很简单的方法：总走同一条路线，在同一时间、晴天里走，把看到的都记下来。每次走一趟大约四十五分钟。"},
+    {"v": "男2", "es": "Algunos colegas dudaban de la calidad de esos datos. Sin embargo, cuando los comparamos con los de nuestros técnicos, las diferencias eran mínimas. Lo decisivo no era saber mucho de mariposas, sino ser constante y respetar el método. Además, nuestro equipo revisa todos los datos antes de publicarlos.", "zh": "有些同行怀疑这些数据的质量。可是我们拿它们和我们技术人员的数据一比，差别极小。关键不是懂多少蝴蝶知识，而是坚持不懈、遵守方法。此外，所有数据在发表前都由我们团队审核。"},
+    {"v": "男2", "es": "¿Y qué nos dicen los datos? Lo más claro es que los parques donde no se corta la hierba en primavera tienen muchas más mariposas, porque encuentran flores y lugares donde poner sus huevos. Gracias a estos datos, el servicio de jardinería ya ha cambiado la forma de cortar el césped en doce parques, y en ellos el número de mariposas ha aumentado de forma notable. También hemos visto que algunas especies están disminuyendo en el centro de la ciudad, aunque todavía no sabemos exactamente por qué: puede ser el calor, la contaminación o la falta de determinadas plantas.", "zh": "那么，数据告诉了我们什么？最明确的是，春天不割草的公园里蝴蝶多得多，因为它们能找到花和产卵的地方。根据这些数据，园林部门已经在十二个公园改变了割草方式，这些公园里的蝴蝶明显多了。我们还发现，有些种类在市中心正在减少，不过还不确切知道原因：可能是高温、污染，或者缺少某些植物。"},
+    {"v": "男2", "es": "Pero hay un resultado que no esperábamos y que, para mí, es el más valioso. Muchos voluntarios nos cuentan que ahora miran la naturaleza de otra manera: se fijan en las flores de su calle, plantan en sus balcones especies que atraen a las mariposas y hablan del proyecto con sus vecinos.", "zh": "但有一个结果是我们没想到的，在我看来也是最宝贵的。许多志愿者告诉我们，他们现在用另一种眼光看大自然：留意自己街上的花，在阳台上种吸引蝴蝶的植物，还跟邻居谈起这个项目。"},
+    {"v": "男2", "es": "Por supuesto, la ciencia ciudadana no sustituye a la investigación profesional; la complementa. Pero proyectos como este demuestran que, con las herramientas adecuadas, cualquier persona puede contribuir al conocimiento científico y, de paso, a cuidar el lugar donde vive. Muchas gracias.", "zh": "当然，公民科学不能取代专业研究，而是补充它。但这样的项目说明，有了合适的工具，任何人都能为科学知识作贡献，顺便也爱护了自己生活的地方。谢谢大家。"}
+   ]}],
+   "enunciados": [
+    "El equipo de investigación no podía reunir por sí solo todos los datos que necesitaba.",
+    "La mayoría de los participantes son estudiantes universitarios.",
+    "Los voluntarios pueden elegir un recorrido distinto cada vez que salen.",
+    "Los voluntarios reciben una formación breve antes de empezar.",
+    "Para obtener datos fiables, la constancia era más importante que los conocimientos previos.",
+    "El ayuntamiento financia la mayor parte del proyecto.",
+    "Ya se sabe por qué disminuyen algunas especies.",
+    "Dejar crecer la hierba en primavera favorece a las mariposas.",
+    "Desde que participan en el proyecto, muchos voluntarios prestan más atención a la naturaleza que tienen cerca.",
+    "Los datos de los voluntarios se publican sin ninguna revisión.",
+    "La ciencia ciudadana puede sustituir a la investigación profesional.",
+    "Algunas especies son cada vez menos frecuentes en el centro de la ciudad."
+   ],
+   "enunciados_zh": ["研究团队靠自己收集不了所需的全部数据。", "大多数参与者是大学生。", "志愿者每次出去可以走不同的路线。", "志愿者开始前会接受简短的培训。", "要得到可靠的数据，坚持比已有知识更重要。", "市政府承担项目的大部分经费。", "已经知道某些种类减少的原因。", "春天让草长着对蝴蝶有利。", "参加项目以后，许多志愿者更留意身边的自然了。", "志愿者的数据不经任何审核就发表。", "公民科学可以取代专业研究。", "有些种类在市中心越来越少见。"],
+   "claves": ["A", "D", "E", "H", "I", "L"],
+   "explicaciones": {
+    "A": "正确。nuestro pequeño equipo no tenía gente suficiente. Así que pedimos ayuda a los vecinos（小团队人手不够，于是请邻居帮忙）。",
+    "B": "错误。报名的人里有退休者、家庭、学生、上班族，没说大多数是大学生。",
+    "C": "错误。方法要求 recorrer siempre el mismo camino（总走同一条路线）。",
+    "D": "正确。Les ofrecimos una formación de dos sesiones（安排了两次培训课）。",
+    "E": "正确。Lo decisivo no era saber mucho de mariposas, sino ser constante y respetar el método（关键不是懂多少，而是坚持和遵守方法）。",
+    "F": "错误。讲座没有谈经费；提到的市政部门只是园林部门改变了割草方式。",
+    "G": "错误。todavía no sabemos exactamente por qué（还不确切知道原因）。",
+    "H": "正确。los parques donde no se corta la hierba en primavera tienen muchas más mariposas（春天不割草的公园蝴蝶多得多）。",
+    "I": "正确。Muchos voluntarios nos cuentan que ahora miran la naturaleza de otra manera: se fijan en las flores de su calle（许多志愿者说现在用另一种眼光看自然，会留意自己街上的花）。",
+    "J": "错误。nuestro equipo revisa todos los datos antes de publicarlos（发表前由团队审核）。",
+    "K": "错误。la ciencia ciudadana no sustituye a la investigación profesional; la complementa（不能取代，而是补充）。",
+    "L": "正确。algunas especies están disminuyendo en el centro de la ciudad（有些种类在市中心正在减少）。"
+   }
+  }
+ ]
+}

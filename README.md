@@ -272,6 +272,8 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`试卷/Metodo1-2高考模拟卷/`](试卷/Metodo1-2高考模拟卷/)：《Método de español》第 1–2 册（按 A1、A2 理解）的高考西班牙语模拟卷，按 2024 年起的新课标卷题型原创，满分 150 分、120 分钟。
   - 原文是 `试卷.md`；试卷、答题卡、答案与评分说明（Word 和 PDF，A4）和听力 MP3 在 Release `exam-metodo12`。
   - 听力按高考格式：试音、中文指令语、读题时间、每段播两遍、作答停顿；每句都用语音识别核对过，成品 MP3 又逐句复核。
+- [`试卷/SIELE模拟卷/`](试卷/SIELE模拟卷/)：按 SIELE Global 公开的考试结构出的一整套原创模拟卷（非官方，与 SIELE、塞万提斯学院无关），阅读、听力、写作、口语四项，每项的 tarea、题型、题量、时间和计分都按考试规格（`考试规格.md`）。考生试题册 21 页、答题卡 4 页、教师用书 28 页（答案、解析、听力原文和译文、写作和口语的评分标准和范文、成绩换算），听力约 45 分钟、口语提问约 26 分钟。
+  - 内容是 `content/` 里的四个 JSON，`tools/build_pdf.py` 排成 PDF；录音由 `tools/make_audio.py` 用本仓库的 Qwen3-TTS 合成，逐句语音识别核对，成品再逐句复核（461 句）。PDF 和录音在 Release `siele-mock-1`。
 
 ## 课件
 
@@ -375,6 +377,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `work-files` | 工作文件：Qwen3 原始合成缓存 `qwen3-synthesis-cache.zip`（505 段）、50 篇和 es02 的预览截图 `preview-stills.zip`、`work-files-SHA256SUMS.txt` |
 | `exam-book1` | 第一册高考模拟卷：学生版 / 教师版 PDF、整套听力 `listening_full.mp3`、分段听力 `texto_1.mp3` … `texto_9.mp3` |
 | `exam-book1-stages` | 8 套分阶段卷，文件名以卷号开头（`L01-04` … `L01-20B`）：`_student.pdf`、`_teacher.pdf`、`_listening.mp3`、`_texto_1.mp3` … `_texto_9.mp3` |
+| `siele-mock-1` | SIELE 模拟卷（第一套，非官方）：`siele-mock-1-candidate.pdf`（考生试题册）、`siele-mock-1-answer-sheet.pdf`（答题卡）、`siele-mock-1-teacher.pdf`（教师用书）、听力 `SIELE_CA_T1.mp3` … `SIELE_CA_T6.mp3` 和连播 `SIELE_CA_completa.mp3`、口语 `SIELE_EIO_*.mp3`（6 条）、`siele-mock-1-audio.zip`、`siele-mock-1-audio-checks.json`、`siele-mock-1-SHA256SUMS.txt` |
 | `exam-metodo12` | Método 1–2 册高考模拟卷：试卷 `exam-metodo12-paper.docx/.pdf`、答题卡 `exam-metodo12-answer-sheet.docx/.pdf`、答案与评分说明 `exam-metodo12-key.docx/.pdf`、整套听力 `exam-metodo12-listening.mp3`、分段听力 `exam-metodo12-texto_1.mp3` … `texto_9.mp3`、核对报告 `exam-metodo12-asr-check.json`、`exam-metodo12-final-check.json`、`exam-metodo12-SHA256SUMS.txt` |
 | `lesson-videos` | 教学视频：`book1_lesson01_quien_es_el.mp4`（第一册第一课）、`lesson-videos-SHA256SUMS.txt` |
 | `courseware-book1` | 第一册分课课件：`book1_L01.pptx` … `book1_L24.pptx` 和同名 PDF、`courseware-book1-SHA256SUMS.txt` |
@@ -458,3 +461,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 2026-11-17：
     - 新增 `课件/第二册/单词表/`（第二册分课单词表的数据和生成程序）和 Release `book2-vocab`。
     - 新增 `试卷/Metodo1-2高考模拟卷/`（《Método de español》第 1–2 册高考模拟卷的原文、排版和听力程序、核对报告）和 Release `exam-metodo12`。
+    - 新增 `试卷/SIELE模拟卷/`（SIELE 模拟卷第一套的内容、考试规格、审校记录、插图、录音和排版程序）和 Release `siele-mock-1`。

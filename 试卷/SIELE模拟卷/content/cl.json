@@ -1,0 +1,188 @@
+{
+ "prueba": "Comprensión de lectura",
+ "zh": "阅读理解",
+ "duracion": "60 minutos",
+ "intro": "Esta prueba tiene cinco tareas y 38 preguntas. Dispone de 60 minutos. Marque sus respuestas en la Hoja de respuestas.",
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1", "tipo": "seleccion",
+   "instruccion": "Usted va a leer cinco textos breves. Elija la opción correcta (A, B o C) para cada una de las cinco preguntas (1-5).",
+   "textos": [
+    {"id": 1, "genero": "mensaje", "cabecera": "Nuria → Sara",
+     "cuerpo": ["Hola, Sara:", "Al final no podemos ir al cine el viernes, porque mi hermano está enfermo y tengo que cuidarlo. ¿Te parece bien el sábado por la tarde? La película empieza a las seis y media. Si quieres, comemos antes en mi casa. Escríbeme cuando puedas.", "Un beso,", "Nuria"],
+     "preguntas": [{"n": 1, "foco": "idea general", "enunciado": "Nuria escribe a Sara para…",
+       "opciones": ["pedirle ayuda con su hermano.", "cambiar el día de un plan.", "invitarla a comer el viernes."], "clave": "B",
+       "explicacion": "Al final no podemos ir al cine el viernes… ¿Te parece bien el sábado por la tarde?（星期五去不了电影院了……星期六下午行吗？）是把约好的事改到另一天。她得照顾生病的兄弟，没请萨拉帮忙；一起吃饭是星期六看电影之前，不是星期五。"}]},
+    {"id": 2, "genero": "anuncio", "cabecera": "PISCINA MUNICIPAL LOS ÁLAMOS",
+     "cuerpo": ["Cursos de natación para adultos", "• Nivel inicial: lunes y miércoles, de 19:00 a 20:00 h.", "• Nivel medio: martes y jueves, de 19:00 a 20:00 h.", "Precio: 30 € al mes (vecinos del barrio: 25 €).", "Inscripciones en la recepción de la piscina, de lunes a viernes, de 9:00 a 13:00 h. Es obligatorio usar gorro."],
+     "preguntas": [{"n": 2, "foco": "información explícita", "enunciado": "En los cursos de la piscina Los Álamos…",
+       "opciones": ["las clases son siempre por la mañana.", "hay clases de natación todos los días.", "los vecinos del barrio pagan menos."], "clave": "C",
+       "explicacion": "Precio: 30 € al mes (vecinos del barrio: 25 €)（每月 30 欧元，本街区居民 25 欧元）。上课是晚上 7—8 点，上午 9 点到下午 1 点是报名时间；课只在星期一到星期四。"}]},
+    {"id": 3, "genero": "aviso", "cabecera": "BIBLIOTECA CENTRAL · HORARIO DE VERANO",
+     "cuerpo": ["Del 1 de julio al 31 de agosto, la biblioteca abre de lunes a viernes, de 9:00 a 13:00 h. Los sábados está cerrada.", "La sala de estudio del primer piso no abre en julio porque la estamos pintando.", "Puede devolver los libros en el buzón de la entrada, a cualquier hora."],
+     "preguntas": [{"n": 3, "foco": "información explícita", "enunciado": "En julio y agosto, la biblioteca…",
+       "opciones": ["solo abre por la mañana, de lunes a viernes.", "abre también los sábados.", "tiene la sala de estudio cerrada todo el verano."], "clave": "A",
+       "explicacion": "de lunes a viernes, de 9:00 a 13:00 h（星期一到星期五，9 点到 13 点），下午不开。星期六闭馆；自习室只是七月不开（因为在粉刷），不是整个夏天。"}]},
+    {"id": 4, "genero": "correo electrónico", "cabecera": "Asunto: Comida de despedida",
+     "cuerpo": ["Hola a todos:", "Como sabéis, Raúl termina su contrato el día 15 y vuelve a Chile. Queremos hacer una comida con él el jueves 14, a las dos, en el restaurante El Patio. Por favor, decidme antes del martes si podéis venir. También vamos a comprarle un regalo entre todos.", "Elena"],
+     "preguntas": [{"n": 4, "foco": "idea general", "enunciado": "Elena escribe este correo para…",
+       "opciones": ["presentar a un compañero nuevo de la oficina.", "reservar mesa para unos clientes.", "organizar la despedida de un compañero."], "clave": "C",
+       "explicacion": "Raúl termina su contrato el día 15 y vuelve a Chile. Queremos hacer una comida con él…（劳尔 15 号合同到期回智利，我们想和他一起吃顿饭）：给要走的同事办送别饭。劳尔不是新同事；在餐厅吃饭的是同事们，不是客户。"}]},
+    {"id": 5, "genero": "anuncio", "cabecera": "SE VENDE BICICLETA",
+     "cuerpo": ["Vendo bicicleta de montaña azul, de dos años, en muy buen estado. Solo tiene un pequeño arañazo en el sillín. Con luces y candado. Precio: 120 €.", "La vendo porque me voy a vivir a otra ciudad y no tengo sitio para llevarla. ¡Me da pena, porque me gusta mucho!", "Si te interesa, pregunta por Pablo en la portería del número 14 de la calle Olmo."],
+     "preguntas": [{"n": 5, "foco": "información explícita", "enunciado": "Pablo vende la bicicleta porque…",
+       "opciones": ["el sillín está roto.", "se va a vivir a otra ciudad.", "ya no le gusta montar en bicicleta."], "clave": "B",
+       "explicacion": "La vendo porque me voy a vivir a otra ciudad y no tengo sitio para llevarla（我要搬到别的城市去，没地方带它）。车况很好，车座上只有一道小划痕，并不是坏了不能用；他说 ¡Me da pena, porque me gusta mucho!（真舍不得，我很喜欢它）。"}]}
+   ]
+  },
+  {
+   "n": 2, "nivel": "A2", "tipo": "seleccion",
+   "instruccion": "Usted va a leer un correo electrónico. Después, elija la opción correcta (A, B o C) para responder a las cinco preguntas (6-10).",
+   "textos": [
+    {"id": 6, "genero": "correo electrónico", "cabecera": "De: Albergue Las Encinas · Para: Rosa Ruiz · Asunto: Re: Habitación para el puente de mayo",
+     "cuerpo": [
+      "Estimada señora Ruiz:",
+      "Muchas gracias por su mensaje. Le confirmamos que tenemos una habitación libre para cuatro personas del viernes 2 al domingo 4 de mayo. La habitación tiene baño propio y una ventana con vistas al río. Como usted nos pide, podemos poner también una cama pequeña para su hijo, sin coste adicional.",
+      "El precio es de 45 euros por noche para toda la familia, con el desayuno incluido. El desayuno se sirve en el comedor de 8:00 a 10:30. Si desean cenar en el albergue, la cena cuesta 9 euros por persona, pero deben avisarnos antes de las cinco de la tarde.",
+      "Para confirmar la reserva necesitamos un primer pago de 30 euros antes del 20 de abril. Puede hacerlo con tarjeta en nuestra página web o por transferencia bancaria. El resto se paga al llegar, en efectivo o con tarjeta. Si cancela la reserva antes del 25 de abril, le devolvemos los 30 euros; a partir de esa fecha, no es posible.",
+      "En cuanto a su pregunta sobre la hora de llegada: la recepción está abierta de 9:00 a 21:00. Si llegan más tarde, llámennos y les dejaremos la llave en una caja junto a la puerta principal.",
+      "Por último, en la zona hay muchas rutas para caminar. En recepción tenemos mapas gratuitos y, los sábados por la mañana, uno de nuestros monitores hace una excursión con las familias hasta la cascada. No es necesario reservarla.",
+      "Quedamos a la espera de su respuesta.",
+      "Un saludo cordial,",
+      "Marta Gil",
+      "Recepción del Albergue Las Encinas"],
+     "preguntas": [
+      {"n": 6, "foco": "idea principal", "enunciado": "La señora Ruiz había escrito al albergue para…",
+       "opciones": ["preguntar por una habitación para su familia.", "quejarse de la habitación del año pasado.", "cancelar una reserva que había hecho para mayo."], "clave": "A",
+       "explicacion": "回信确认有四人间、答应加一张小床（Como usted nos pide），又回答了她关于到达时间的问题（En cuanto a su pregunta sobre la hora de llegada）：她来信是为全家住几天打听情况。信里没有投诉；取消只是回信里讲的规定。"},
+      {"n": 7, "foco": "idea principal", "enunciado": "En su respuesta, el albergue…",
+       "opciones": ["propone a la familia venir en otras fechas de mayo.", "dice que no tiene habitaciones libres.", "acepta la petición y explica las condiciones."], "clave": "C",
+       "explicacion": "Le confirmamos que tenemos una habitación libre…（确认有空房），后面讲价格、早晚饭、付款、取消、到达时间：同意了她的要求并说明条件。日期没变，也不是没有房间。"},
+      {"n": 8, "foco": "información explícita", "enunciado": "La cama pequeña para el hijo…",
+       "opciones": ["cuesta 9 euros por noche.", "es gratis para el niño.", "solo está disponible el sábado."], "clave": "B",
+       "explicacion": "podemos poner también una cama pequeña para su hijo, sin coste adicional（可以给您儿子加一张小床，不另收费）。9 欧元是每人一顿晚饭的价钱。"},
+      {"n": 9, "foco": "información explícita", "enunciado": "La familia recupera los 30 euros si…",
+       "opciones": ["cancela la reserva antes del 25 de abril.", "paga el resto con tarjeta.", "llega antes de las nueve de la noche."], "clave": "A",
+       "explicacion": "Si cancela la reserva antes del 25 de abril, le devolvemos los 30 euros（4 月 25 日以前取消，退还 30 欧元）。用卡付余款、晚上 9 点前到达都和退款无关。"},
+      {"n": 10, "foco": "información explícita", "enunciado": "La excursión hasta la cascada…",
+       "opciones": ["hay que reservarla en la recepción.", "es solo para adultos.", "se hace los sábados por la mañana con un monitor."], "clave": "C",
+       "explicacion": "los sábados por la mañana, uno de nuestros monitores hace una excursión… hasta la cascada. No es necesario reservarla（星期六上午有辅导员带各家去瀑布，不用预约）。信里说是 con las familias（和各家一起去），不是只给大人的；前台提供的是免费地图。"}
+     ]}
+   ]
+  },
+  {
+   "n": 3, "nivel": "B1", "tipo": "relacionar",
+   "instruccion": "Usted va a leer tres textos en los que tres personas cuentan su primer viaje sin compañía. Relacione las preguntas (11-18) con los textos (A, B o C).",
+   "titulo": "Mi primer viaje sin compañía",
+   "textos": [
+    {"id": "A", "cabecera": "A. Inés (Valencia)",
+     "cuerpo": ["Mi primer viaje sola fue a Lisboa, cuando tenía diecinueve años. Mis padres no estaban muy tranquilos, así que les prometí llamarlos todas las noches. El segundo día perdí el móvil en un tranvía y pasé una tarde horrible pensando en lo preocupados que estarían. Al final, el empleado de la oficina de objetos perdidos me dejó llamar desde su teléfono. Lo que más recuerdo es la libertad de decidir cada mañana adónde ir: un día cambié todos mis planes para seguir a un grupo de músicos por el barrio de Alfama. Desde entonces viajo sola por lo menos una vez al año."]},
+    {"id": "B", "cabecera": "B. Tomás (Buenos Aires)",
+     "cuerpo": ["Yo viajé solo por primera vez por trabajo. La empresa me mandó a una feria en Santiago de Chile y, como mi compañera se enfermó, tuve que ir sin ella. Estaba nerviosísimo, porque nunca había presentado nuestros productos en público. Preparé la presentación en el avión y la repetí varias veces delante del espejo del hotel. Salió bastante bien y conseguimos dos clientes nuevos. Lo malo fue que no tuve tiempo para conocer la ciudad: solo vi el aeropuerto, el hotel y la feria. Por eso, el año pasado volví de vacaciones con mi pareja y por fin subimos al cerro San Cristóbal."]},
+    {"id": "C", "cabecera": "C. Carmen (Ciudad de México)",
+     "cuerpo": ["Hice mi primer viaje sola a los sesenta y dos años, después de jubilarme. Siempre había viajado con mi marido o con mis hijos, y eran ellos los que lo organizaban todo. Esta vez elegí un recorrido en tren por el norte de España y lo preparé yo misma durante meses: boletos, alojamientos, horarios. Mis hijos pensaban que me iba a sentir sola, pero en los trenes conocí a gente de todas partes y todavía me escribo con una pareja de Galicia. Lo más difícil fue la mochila: llevé demasiada ropa y en la segunda semana tuve que mandar una caja a México por correo."]}
+   ],
+   "preguntas": [
+    {"n": 11, "enunciado": "¿Quién tuvo que viajar sin compañía porque otra persona no pudo ir?", "clave": "B",
+     "explicacion": "Tomás：como mi compañera se enfermó, tuve que ir sin ella（同事病了，我只好一个人去）。"},
+    {"n": 12, "enunciado": "¿Quién tuvo un problema para comunicarse con su familia?", "clave": "A",
+     "explicacion": "Inés：答应父母每晚打电话，第二天在电车上丢了手机，最后借失物招领处工作人员的电话才打通。"},
+    {"n": 13, "enunciado": "¿Quién dedicó mucho tiempo a preparar el viaje?", "clave": "C",
+     "explicacion": "Carmen：lo preparé yo misma durante meses: boletos, alojamientos, horarios（车票、住处、时刻都是我自己花几个月准备的）。Tomás 在飞机上准备的是产品展示，不是这次旅行。"},
+    {"n": 14, "enunciado": "¿Quién sigue en contacto con personas que conoció durante el viaje?", "clave": "C",
+     "explicacion": "Carmen：todavía me escribo con una pareja de Galicia（现在还和一对加利西亚夫妇通信）。"},
+    {"n": 15, "enunciado": "¿Quién volvió más tarde al mismo lugar?", "clave": "B",
+     "explicacion": "Tomás：el año pasado volví de vacaciones con mi pareja（去年和伴侣又去度假）。Inés 只说此后每年至少独自旅行一次，没说回里斯本。"},
+    {"n": 16, "enunciado": "¿Quién cambió lo que tenía pensado hacer un día?", "clave": "A",
+     "explicacion": "Inés：un día cambié todos mis planes para seguir a un grupo de músicos（有一天我把计划全改了，跟着一群乐手走）。"},
+    {"n": 17, "enunciado": "¿Quién llevó más equipaje del necesario?", "clave": "C",
+     "explicacion": "Carmen：llevé demasiada ropa（带的衣服太多），第二周只好寄一箱回墨西哥。"},
+    {"n": 18, "enunciado": "¿Quién practicó algo antes de hacerlo en público?", "clave": "B",
+     "explicacion": "Tomás：la repetí varias veces delante del espejo del hotel（在旅馆的镜子前把展示练了好几遍）。"}
+   ]
+  },
+  {
+   "n": 4, "nivel": "B2", "tipo": "fragmentos",
+   "instruccion": "Usted va a leer dos textos de los que se han extraído cuatro fragmentos. Elija, para cada hueco (19-26), el fragmento correcto. En cada texto hay un fragmento que no debe elegir.",
+   "textos": [
+    {"id": "T1", "titulo": "Teletrabajar desde el pueblo: ¿solución o espejismo?", "genero": "artículo de opinión",
+     "cuerpo": [
+      "Durante los últimos años, muchos pueblos que perdían habitantes han visto en el teletrabajo una oportunidad inesperada. Ayuntamientos de distintas regiones ofrecen viviendas baratas, espacios de trabajo compartido e incluso ayudas a quienes decidan instalarse allí. [19] Sin embargo, conviene mirar el fenómeno con más calma.",
+      "En primer lugar, no basta con tener un ordenador para trabajar a distancia. Sin una conexión a internet estable, cualquier videollamada se convierte en una pequeña tortura, y en muchas zonas rurales la fibra óptica sigue siendo una promesa. [20] Quien llega con entusiasmo y descubre que no puede enviar un archivo pesado suele marcharse antes de que acabe el primer invierno.",
+      "En segundo lugar, un pueblo no es solo un paisaje bonito. Necesita escuela, médico, transporte público y comercios abiertos todo el año. [21] Los nuevos vecinos, por su parte, deberían participar en la vida local y no limitarse a ocupar una casa de lunes a viernes.",
+      "Nada de esto significa que la idea esté condenada al fracaso. Hay ejemplos de localidades que han recuperado población gracias a una combinación de buenas infraestructuras, vivienda asequible y una acogida sincera. [22] El teletrabajo puede ser una herramienta valiosa, pero no hará el milagro por sí solo."],
+     "fragmentos": [
+      {"letra": "A", "texto": "Lo que tienen en común esas localidades es que no lo confiaron todo a una sola medida, sino que planificaron a largo plazo."},
+      {"letra": "B", "texto": "Las imágenes de profesionales con su portátil frente a las montañas han llenado periódicos y redes sociales."},
+      {"letra": "C", "texto": "Por eso, antes de lanzar campañas para atraer a nadie, las administraciones tendrían que asegurarse de que esa conexión existe."},
+      {"letra": "D", "texto": "Si las administraciones dejan que estos servicios desaparezcan, ninguna familia se quedará mucho tiempo, por muy barata que sea la vivienda."},
+      {"letra": "E", "texto": "Afortunadamente, hoy casi todos los pueblos disponen ya de fibra óptica."}],
+     "claves": {"19": "B", "20": "C", "21": "D", "22": "A"}, "sobra": "E",
+     "explicaciones": {
+      "19": "空后面是 Sin embargo, conviene mirar el fenómeno con más calma（不过，看这件事还是要冷静些），前面应是热烈的一面：B 说报纸和社交网络上满是对着山景用笔记本电脑工作的画面。",
+      "20": "前一句说许多农村还没有光纤；C 的 esa conexión 指的就是网络连接，Por eso 引出“先保证网络再招人”。",
+      "21": "前一句列出学校、医生、公共交通、商店；D 的 estos servicios 指这些服务；D 先说政府一方，下一句 Los nuevos vecinos, por su parte 再说新居民一方。",
+      "22": "前一句说有的地方靠基础设施、住房和真心接纳把人口拉回来；A 的 Lo que tienen en común esas localidades（这些地方的共同点）指的就是这些地方。",
+      "sobra": "E 说如今几乎所有村子都通了光纤，和第二段 en muchas zonas rurales la fibra óptica sigue siendo una promesa（许多农村地区的光纤仍然只是一个承诺）矛盾，放在哪里都不成立。"}},
+    {"id": "T2", "titulo": "Tres días en la sierra de Aranda", "genero": "guía de viaje",
+     "cuerpo": [
+      "Quien busque una escapada tranquila a menos de dos horas de la capital encontrará en la sierra de Aranda un destino ideal en cualquier estación. Sus pueblos de piedra, rodeados de bosques de castaños, conservan una arquitectura tradicional que sorprende al visitante. [23]",
+      "El primer día conviene dedicarlo a Villaseca, el pueblo más grande de la comarca, donde se encuentra la oficina de turismo. Allí se puede conseguir un mapa de los senderos señalizados y reservar las visitas guiadas al antiguo molino. [24] Por la tarde, una ruta corta y sin dificultad lleva hasta el mirador del Águila, desde donde se domina todo el valle.",
+      "El segundo día es el momento de calzarse las botas. La ruta de los castaños, de unos doce kilómetros, une Villaseca con el pequeño pueblo de Robledo siguiendo el curso del río. [25] En Robledo, varias casas de comidas ofrecen el plato típico de la zona: un guiso de judías con castañas que reconforta después de la caminata.",
+      "El tercer día puede reservarse para descansar o para descubrir la gastronomía local. Los domingos se celebra en la plaza de Villaseca un mercado de productores donde se venden quesos, miel y embutidos. [26]",
+      "En cuanto al alojamiento, la oferta es amplia: desde casas rurales completas hasta pequeños hoteles familiares. En otoño, eso sí, conviene reservar con tiempo."],
+     "fragmentos": [
+      {"letra": "F", "texto": "Es recomendable llegar temprano, ya que muchos puestos se quedan sin género antes del mediodía."},
+      {"letra": "G", "texto": "Es aconsejable hacerlo con antelación, porque el número de plazas por grupo es reducido."},
+      {"letra": "H", "texto": "Sus calles empedradas y sus balcones de madera parecen sacados de otra época."},
+      {"letra": "I", "texto": "Aunque apenas tiene desnivel, el camino puede estar embarrado después de las lluvias, así que se recomienda llevar calzado impermeable."},
+      {"letra": "J", "texto": "Por desgracia, el molino lleva años cerrado al público."}],
+     "claves": {"23": "H", "24": "G", "25": "I", "26": "F"}, "sobra": "J",
+     "explicaciones": {
+      "23": "前一句讲石头村庄保留着传统建筑；H 接着描写村里的石板街和木阳台（Sus calles… parecen sacados de otra época）。",
+      "24": "前一句说可以在旅游办公室预约老磨坊的导览；G 的 hacerlo 指“预约”，plazas por grupo（每组名额）也和导览对应。",
+      "25": "前一句介绍沿河的十二公里步道；I 讲这条路（el camino）坡度小但雨后泥泞，要穿防水鞋。",
+      "26": "前一句讲星期天的生产者集市；F 的 puestos（摊位）、sin género（货卖光）都指集市。",
+      "sobra": "J 说磨坊多年不对外开放（lleva años cerrado al público），和文中可以预约磨坊导览（reservar las visitas guiadas al antiguo molino）矛盾，放在哪里都不成立。"}}
+   ]
+  },
+  {
+   "n": 5, "nivel": "C1", "tipo": "huecos",
+   "instruccion": "Usted va a leer un texto del que se han eliminado doce palabras o grupos de palabras. Elija, para cada hueco (27-38), la opción correcta (A, B o C).",
+   "titulo": "El valor de olvidar",
+   "fuente": "Texto elaborado para esta prueba.",
+   "cuerpo": [
+    "Durante siglos, el olvido se ha considerado un defecto de la memoria, una especie de avería [27] habría que combatir con todos los medios disponibles. Sin embargo, buena parte de la investigación actual en psicología cognitiva [28] a una conclusión menos intuitiva: olvidar no es necesariamente un fallo, sino un mecanismo que permite al cerebro seleccionar lo relevante.",
+    "Ya a finales del siglo XIX, el psicólogo alemán Hermann Ebbinghaus describió la llamada curva del olvido, según la cual perdemos buena parte de lo aprendido en las horas y los días [29] a su adquisición, a menos que volvamos sobre ello. Para comprobarlo, Ebbinghaus se tomó a sí mismo como sujeto de estudio: memorizaba listas de sílabas sin sentido y medía cuánto esfuerzo le costaba volver a aprenderlas al cabo de unos minutos, de unas horas o de varios días. Lejos de ser una mala noticia, este hallazgo [30] origen a una de las técnicas de estudio más eficaces que se conocen: la repetición espaciada. [31] releer un tema diez veces la víspera de un examen, resulta mucho más rentable revisarlo en sesiones breves, separadas por intervalos cada vez más largos.",
+    "La explicación parece residir en el esfuerzo de recuperación. Cuando intentamos recordar algo que ya hemos empezado a olvidar, el cerebro se ve obligado [32] reconstruir la información, y ese trabajo refuerza la huella de la memoria. [33], los repasos demasiado seguidos generan una sensación engañosa de dominio: como el contenido aún está fresco, creemos saberlo, aunque en realidad lo olvidaremos pronto.",
+    "El sueño desempeña también un papel [34]. Durante determinadas fases del descanso nocturno, el cerebro reorganiza lo vivido a lo largo del día, consolida unos recuerdos y deja que otros se desvanezcan. Algunos experimentos indican que quienes duermen después de una sesión de estudio recuerdan más al día siguiente que quienes pasan el mismo tiempo despiertos. [35], dormir poco antes de un examen puede resultar contraproducente, por muchas horas de estudio que se ganen.",
+    "Nada de lo anterior invita a despreciar la memoria, sino a comprenderla mejor. Un sistema que lo guardara todo sería, paradójicamente, menos útil: nos costaría distinguir lo esencial de lo accesorio y [36] decisiones con rapidez. Quizá por ello algunos investigadores proponen dejar de ver el olvido como el enemigo del aprendizaje y considerarlo, más bien, su [37] necesario. [38], aprender consistiría no tanto en acumular datos como en decidir qué merece la pena conservar."],
+   "preguntas": [
+    {"n": 27, "foco": "gramática", "opciones": ["quien", "que", "la cual"], "clave": "B",
+     "explicacion": "限定性关系从句修饰物（una avería），用 que。quien 只指人；la cual 不单独引导限定性从句（前面要有介词或逗号）。"},
+    {"n": 28, "foco": "gramática (B2)", "opciones": ["apunte", "apuntan", "apunta"], "clave": "C",
+     "explicacion": "主语是 buena parte de la investigación（研究的很大一部分），核心词 parte 是单数，所以动词用单数陈述式 apunta；这里没有要求虚拟式的成分。"},
+    {"n": 29, "foco": "léxico", "opciones": ["posteriores", "después", "tras"], "clave": "A",
+     "explicacion": "posterior a（在……之后的）是形容词，和 los días 性数一致，后接 a。después 要接 de（después de su adquisición），tras 是前置词，后面不能再加 a。"},
+    {"n": 30, "foco": "léxico", "opciones": ["hizo", "tuvo", "dio"], "clave": "C",
+     "explicacion": "dar origen a（引出、催生）是固定搭配。tener origen 的意思是“起源于”，要用 en；没有 hacer origen 的说法。"},
+    {"n": 31, "foco": "cohesión", "opciones": ["Además de", "En lugar de", "A pesar de"], "clave": "B",
+     "explicacion": "前后是两种做法的对照：与其考前一晚重读十遍，不如分几次短时间复习。en lugar de（而不是、代替）。además de（除了……还）、a pesar de（尽管）都不合逻辑。"},
+    {"n": 32, "foco": "gramática", "opciones": ["a", "de", "en"], "clave": "A",
+     "explicacion": "verse obligado a + 不定式（不得不）。"},
+    {"n": 33, "foco": "cohesión", "opciones": ["Por consiguiente", "Es decir", "Por el contrario"], "clave": "C",
+     "explicacion": "前一句说费力回忆能加深记忆，这一句说复习间隔太近反而让人产生“已经掌握”的错觉：两者相反，用 por el contrario。por consiguiente 表结果，es decir 表换句话说。"},
+    {"n": 34, "foco": "léxico (B2)", "opciones": ["decidido", "decisivo", "dispuesto"], "clave": "B",
+     "explicacion": "desempeñar un papel decisivo（起决定性作用）。decidido 是“果断的、下定决心的”，dispuesto 是“愿意的、准备好的”，都不能修饰 papel。"},
+    {"n": 35, "foco": "cohesión", "opciones": ["Por eso", "Aunque", "Sin embargo"], "clave": "A",
+     "explicacion": "前面讲睡眠能巩固记忆，所以考前少睡反而有害：用 por eso 引出结论。用 aunque 句子就没有主句；sin embargo 表转折，可“睡眠帮助记忆”和“考前少睡有害”并不相反，后者是从前者推出来的。"},
+    {"n": 36, "foco": "gramática", "opciones": ["tomaríamos", "tomar", "tomemos"], "clave": "B",
+     "explicacion": "和前面的 distinguir 并列，都作 nos costaría 的主语：nos costaría distinguir… y tomar decisiones（我们会难以区分……也难以迅速作决定）。tomaríamos 让意思变成“我们会很快作决定”，和上下文相反；tomemos 没有根据。"},
+    {"n": 37, "foco": "léxico", "opciones": ["rival", "ajeno", "aliado"], "clave": "C",
+     "explicacion": "不再把遗忘看成学习的敌人，而看成它必要的盟友（aliado）。rival（对手）和上下文相反；ajeno 是形容词，不能作 su 后面的名词。"},
+    {"n": 38, "foco": "cohesión", "opciones": ["Desde esta perspectiva", "Sin embargo", "En primer lugar"], "clave": "A",
+     "explicacion": "最后一句是按上面这种看法得出的结论：desde esta perspectiva（从这个角度看）。sin embargo 表转折，en primer lugar 用来列举第一点，都放不进结尾。"}
+   ]
+  }
+ ]
+}
