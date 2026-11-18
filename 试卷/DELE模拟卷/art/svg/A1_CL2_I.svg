@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <defs>
+    <clipPath id="upper">
+      <path d="M112 328 C104 280 108 222 122 188 C132 166 158 162 174 176 C194 196 224 200 244 186 L256 150 C260 136 282 134 288 148 L300 176 C340 208 392 240 440 256 C484 270 510 298 504 328 Z"/>
+    </clipPath>
+    <clipPath id="sole">
+      <path d="M104 324 H498 C522 324 534 344 530 360 C527 374 516 382 502 382 H120 C104 382 96 372 96 356 C96 340 98 330 104 324 Z"/>
+    </clipPath>
+  </defs>
+  <g transform="translate(-14,-30)" stroke="#222" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 鞋面 -->
+    <path d="M112 328 C104 280 108 222 122 188 C132 166 158 162 174 176 C194 196 224 200 244 186 L256 150 C260 136 282 134 288 148 L300 176 C340 208 392 240 440 256 C484 270 510 298 504 328 Z" fill="#6fa8dc" stroke="none"/>
+    <g clip-path="url(#upper)">
+      <!-- 鞋头 -->
+      <path d="M440 340 C436 302 452 280 480 262" fill="none" stroke-width="8"/>
+      <!-- 后跟 -->
+      <path d="M40 340 L168 340 C166 296 158 246 136 168 L40 168 Z" fill="#d9d9d9" stroke-width="8"/>
+      <!-- 鞋带区 -->
+      <path d="M292 206 C334 236 386 264 432 280" fill="none" stroke-width="8"/>
+      <path d="M326 196 L310 224 M354 216 L338 244 M382 233 L366 261" fill="none" stroke-width="8"/>
+    </g>
+    <path d="M112 328 C104 280 108 222 122 188 C132 166 158 162 174 176 C194 196 224 200 244 186 L256 150 C260 136 282 134 288 148 L300 176 C340 208 392 240 440 256 C484 270 510 298 504 328 Z" fill="none"/>
+    <!-- 鞋底：白色中底 + 灰色大底 -->
+    <path d="M104 324 H498 C522 324 534 344 530 360 C527 374 516 382 502 382 H120 C104 382 96 372 96 356 C96 340 98 330 104 324 Z" fill="#fff" stroke="none"/>
+    <g clip-path="url(#sole)">
+      <rect x="80" y="358" width="470" height="40" fill="#d9d9d9" stroke-width="8"/>
+    </g>
+    <path d="M104 324 H498 C522 324 534 344 530 360 C527 374 516 382 502 382 H120 C104 382 96 372 96 356 C96 340 98 330 104 324 Z" fill="none"/>
+  </g>
+</svg>

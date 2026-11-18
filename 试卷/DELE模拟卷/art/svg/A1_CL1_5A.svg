@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <defs>
+    <clipPath id="canopy">
+      <path d="M300 60 C316 118 352 198 350 258 C349 288 326 308 300 314 C274 308 251 288 250 258 C248 198 284 118 300 60 Z"/>
+    </clipPath>
+  </defs>
+  <g stroke="#222" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 伞尖 -->
+    <line x1="300" y1="34" x2="300" y2="66" stroke-width="9"/>
+    <!-- 伞杆 -->
+    <line x1="300" y1="300" x2="300" y2="345" stroke-width="10"/>
+    <!-- 钩形伞柄 -->
+    <path d="M300 338 L300 366 A28 28 0 0 1 244 366 L244 356" fill="none" stroke-width="30"/>
+    <path d="M300 338 L300 366 A28 28 0 0 1 244 366 L244 356" fill="none" stroke="#a67c52" stroke-width="16"/>
+    <!-- 收拢的伞面 -->
+    <path d="M300 60 C316 118 352 198 350 258 C349 288 326 308 300 314 C274 308 251 288 250 258 C248 198 284 118 300 60 Z" fill="#6fa8dc" stroke="none"/>
+    <g clip-path="url(#canopy)" fill="none">
+      <path d="M300 66 C306 142 326 228 316 318" stroke-width="5"/>
+      <path d="M300 66 C294 142 274 228 284 318" stroke-width="5"/>
+      <!-- 束带 -->
+      <path d="M230 194 C270 212 330 212 370 194 L370 220 C330 238 270 238 230 220 Z" fill="#f2c94c" stroke-width="5"/>
+    </g>
+    <circle cx="326" cy="220" r="7" fill="#fff" stroke-width="4"/>
+    <path d="M300 60 C316 118 352 198 350 258 C349 288 326 308 300 314 C274 308 251 288 250 258 C248 198 284 118 300 60 Z" fill="none" stroke-width="7"/>
+  </g>
+</svg>

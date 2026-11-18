@@ -1,0 +1,135 @@
+{
+  "nivel": "A1",
+  "prueba": "Expresión e interacción escritas",
+  "zh": "书面表达与互动",
+  "duracion_min": 25,
+  "intro_es": "La prueba de Expresión e interacción escritas contiene dos tareas. Duración: 25 minutos. Escriba sus respuestas en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "instruccion_es": [
+        "Usted vive en Valencia y quiere apuntarse a una actividad del polideportivo de su barrio. Para inscribirse, tiene que completar un formulario.",
+        "Lea primero el anuncio del polideportivo."
+      ],
+      "instruccion_zh": "你住在瓦伦西亚，想报名参加街区体育中心的一项活动，报名要填写一张表格。先读体育中心的广告，然后在答题纸上填写报名表。",
+      "tema_zh": "填写体育中心的活动报名表：个人信息，加三个简答栏（想参加的活动和时间、原因、平时的业余爱好）。",
+      "estimulo": {
+        "tipo": "texto",
+        "genero": "anuncio",
+        "cabecera": [],
+        "cuerpo": [
+          "Polideportivo Municipal Los Pinos",
+          "Actividades de otoño (de octubre a diciembre): natación, yoga, baile y baloncesto.",
+          "Para personas de todas las edades. Estudiantes: 15 euros al mes.",
+          "Para inscribirse, complete el formulario y entréguelo en la recepción."
+        ],
+        "firma": "",
+        "zh": [
+          "松树市立体育中心",
+          "秋季活动（10 月至 12 月）：游泳、瑜伽、舞蹈和篮球。",
+          "适合所有年龄段。学生：每月 15 欧元。",
+          "报名请填写报名表，交到前台。"
+        ]
+      },
+      "pautas": [],
+      "palabras": [15, 25],
+      "formulario": [
+        {"campo": "Nombre", "tipo": "corto", "modelo": "Yang"},
+        {"campo": "Apellido(s)", "tipo": "corto", "modelo": "Liu"},
+        {"campo": "Nacionalidad", "tipo": "corto", "modelo": "china"},
+        {"campo": "Fecha de nacimiento", "tipo": "corto", "modelo": "12/05/2003"},
+        {"campo": "Dirección en Valencia", "tipo": "corto", "modelo": "Calle de Cuba, 23, 4.º B"},
+        {"campo": "Correo electrónico", "tipo": "corto", "modelo": "liuyang@ejemplo.es"},
+        {"campo": "Profesión", "tipo": "corto", "modelo": "estudiante"},
+        {"campo": "¿Qué actividad quiere hacer? ¿Qué días? (5-8 palabras)", "tipo": "largo", "palabras": [5, 8], "modelo": "Quiero hacer natación los martes y jueves."},
+        {"campo": "¿Por qué quiere hacer esta actividad? (5-8 palabras)", "tipo": "largo", "palabras": [5, 8], "modelo": "Porque me gusta nadar y quiero hacer amigos."},
+        {"campo": "¿Qué hace normalmente en su tiempo libre? (5-8 palabras)", "tipo": "largo", "palabras": [5, 8], "modelo": "Leo libros, cocino y juego al bádminton."}
+      ],
+      "opciones": [],
+      "modelo": {
+        "texto": [],
+        "palabras": 22,
+        "zh": [
+          "姓名：杨；姓：刘；国籍：中国；出生日期：2003 年 5 月 12 日；瓦伦西亚住址：古巴街 23 号 4 楼 B 户；电子邮箱：liuyang@ejemplo.es；职业：学生。",
+          "想参加的活动和时间：我想每周二、周四游泳。",
+          "原因：因为我喜欢游泳，也想交朋友。",
+          "业余时间：我看书、做饭，还打羽毛球。"
+        ],
+        "comentario_zh": "个人信息栏只填名词、数字或短语即可：国籍形容词用小写（china），日期按日/月/年写，地址按“街名, 门牌号, 楼层和门”的西班牙习惯写。三个简答栏分别是 7、8、7 个词，合计 22 词，在 15—25 词之内，每栏都是完整的句子。第一栏用 quiero + 原形动词，活动选的是广告里列出的 natación，并写出日子（los martes y jueves）；第二栏用 porque 说明原因，me gusta + 原形动词；第三栏用三个现在时第一人称变位（leo、cocino、juego），注意 jugar al + 球类运动。"
+      }
+    },
+    {
+      "n": 2,
+      "instruccion_es": [
+        "Su amiga española Sofía va a pasar el mes de septiembre en la ciudad donde usted vive. Ella le escribe este mensaje:",
+        "Escriba un correo electrónico a Sofía. En él tiene que:"
+      ],
+      "instruccion_zh": "你的西班牙朋友索菲亚九月要来你住的城市待一个月，她给你发了这条消息。给索菲亚写一封电子邮件，邮件里要：打招呼；说说你的城市是什么样的；说明九月那里的天气；告诉她该带什么衣服；告别。建议词数：30—40 词。",
+      "tema_zh": "给要来自己城市的西班牙朋友回邮件：介绍城市、九月的天气和该带的衣服。",
+      "estimulo": {
+        "tipo": "texto",
+        "genero": "mensaje",
+        "cabecera": [],
+        "cuerpo": [
+          "¡Hola! En septiembre voy a estar un mes en tu ciudad. ¡Qué bien! ¿Cómo es? ¿Qué tiempo hace allí en septiembre? ¿Qué ropa tengo que llevar? Escríbeme pronto."
+        ],
+        "firma": "Sofía",
+        "zh": [
+          "你好！九月我要去你的城市待一个月。太好了！你的城市是什么样的？九月那里天气怎么样？我该带什么衣服？快给我回信吧。"
+        ]
+      },
+      "pautas": [
+        "saludar;",
+        "decir cómo es su ciudad;",
+        "explicar qué tiempo hace allí en septiembre;",
+        "decirle qué ropa tiene que llevar;",
+        "despedirse."
+      ],
+      "palabras": [30, 40],
+      "formulario": [],
+      "opciones": [],
+      "modelo": {
+        "texto": [
+          "¡Hola, Sofía!",
+          "Chengdu es una ciudad grande y muy bonita, con muchos parques y comida muy rica. En septiembre hace calor y llueve bastante. Tienes que llevar ropa de verano y un paraguas.",
+          "¡Hasta pronto!",
+          "Zhang Yue"
+        ],
+        "palabras": 37,
+        "zh": [
+          "你好，索菲亚！",
+          "成都是一座很大、很漂亮的城市，有很多公园，吃的东西也很好吃。九月天气热，雨也比较多。你要带夏天的衣服和一把伞。",
+          "回头见！",
+          "张悦"
+        ],
+        "comentario_zh": "范文 37 词（含署名），在 30—40 词之内。五个要点逐一完成：“¡Hola, Sofía!”打招呼；用 ser + 形容词和 con + 名词介绍城市（Chengdu es una ciudad grande y muy bonita, con muchos parques…）；用 hace calor、llueve 说九月的天气；用 tener que + 原形动词告诉朋友该带什么（Tienes que llevar ropa de verano y un paraguas），正好回答了来信里的问题；最后用“¡Hasta pronto!”告别并署名。全文对朋友用 tú，句子短、全部是现在时，形容词和名词性数一致（una ciudad grande y muy bonita、comida muy rica），¡! 成对使用。"
+      }
+    }
+  ],
+  "criterios": [
+    {
+      "es": "Calificación global (0-3 puntos)",
+      "zh": "两个任务各用一张整体量表打一个 0—3 的整分，各占写作成绩的 50%。评分员同时看三方面：任务完成（栏目、要点是否写到且切题）、语言（常用词和基本句型是否用对、能否看懂）、字数是否达到要求。"
+    },
+    {
+      "es": "3 puntos",
+      "zh": "所有栏目和要点都写到，内容清楚、切题，称呼和结尾得体；常用词汇、现在时变位和性数一致基本正确，偶有小错但完全不影响理解；字数符合要求。"
+    },
+    {
+      "es": "2 puntos (nivel A1 alcanzado)",
+      "zh": "达到 A1。绝大部分栏目或要点完成，最多漏掉一个次要要点，读者能明白全部主要信息；有一些拼写、变位、性数错误，但多数句子不用猜就能看懂；字数基本符合要求。"
+    },
+    {
+      "es": "1 punto",
+      "zh": "只完成一部分栏目或要点，或有内容答非所问；错误较多，读者要费力猜才能看懂部分句子；或第 2 题只写了 20—29 词（字数不足时最高 1 分）。"
+    },
+    {
+      "es": "0 puntos",
+      "zh": "基本没有完成任务：内容和题目无关、几乎无法看懂、大段照抄题目原文，或第 2 题少于 20 词（这种情况不评分，记 0 分）。"
+    },
+    {
+      "es": "Número de palabras",
+      "zh": "第 1 题三个简答栏每栏按建议写 5—8 词，合计约 15—25 词，只写一两个词或空着的栏目算没有完成；第 2 题建议 30—40 词，少于 20 词不评分，20—29 词最高 1 分；明显多写不加分，多写部分的错误照样计入。"
+    }
+  ]
+}

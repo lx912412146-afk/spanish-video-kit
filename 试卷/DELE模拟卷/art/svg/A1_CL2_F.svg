@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <g transform="translate(30,0)" stroke="#222" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 练习本（螺旋装订） -->
+    <g transform="rotate(-8 205 240)">
+      <rect x="95" y="85" width="220" height="310" rx="14" fill="#f2c94c"/>
+      <rect x="150" y="140" width="120" height="58" rx="6" fill="#fff"/>
+      <path d="M82 115 H112 M82 150 H112 M82 185 H112 M82 220 H112 M82 255 H112 M82 290 H112 M82 325 H112 M82 360 H112"/>
+    </g>
+    <!-- 竖着的智能手机 -->
+    <rect x="300" y="52" width="172" height="350" rx="32" fill="#999"/>
+    <rect x="318" y="94" width="136" height="260" rx="8" fill="#fff"/>
+    <line x1="366" y1="73" x2="406" y2="73"/>
+    <circle cx="386" cy="378" r="9" fill="#d9d9d9"/>
+    <!-- 聊天气泡（只有横线） -->
+    <path d="M344 120 H428 Q442 120 442 134 V218 Q442 232 428 232 H366 L338 258 L344 232 Q330 232 330 218 V134 Q330 120 344 120 Z" fill="#93c47d"/>
+    <line x1="350" y1="151" x2="422" y2="151"/>
+    <line x1="350" y1="177" x2="422" y2="177"/>
+    <line x1="350" y1="203" x2="394" y2="203"/>
+  </g>
+</svg>

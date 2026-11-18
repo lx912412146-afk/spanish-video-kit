@@ -1,0 +1,15 @@
+[
+  {"id": "A1_CL1_5A", "uso": "阅读 T1 第 5 题选项 A", "es": "Un paraguas cerrado.", "zh": "一把收拢的长柄雨伞，竖着放，伞柄弯成钩形。单个物品，白底，线条清楚，不画人。", "estilo": "icono"},
+  {"id": "A1_CL1_5B", "uso": "阅读 T1 第 5 题选项 B（正确答案）", "es": "Un bañador de mujer.", "zh": "一件女式连体泳衣，平放展开，正面朝前。单个物品，白底，线条清楚，不画人。", "estilo": "icono"},
+  {"id": "A1_CL1_5C", "uso": "阅读 T1 第 5 题选项 C", "es": "Una bicicleta.", "zh": "一辆普通的城市自行车，侧面视角，带车筐。单个物品，白底，线条清楚，不画人。", "estilo": "icono"},
+  {"id": "A1_CL2_A", "uso": "阅读 T2 文本 A 的图标（图书馆告示）", "es": "Unos libros.", "zh": "三本叠放在一起的书，书脊朝前，表示图书馆。", "estilo": "icono"},
+  {"id": "A1_CL2_B", "uso": "阅读 T2 文本 B 的图标（手机短信）", "es": "Un teléfono móvil con un mensaje.", "zh": "一部竖着的智能手机，屏幕上有一个聊天气泡（气泡里只画几条横线，不写字），表示手机短信。", "estilo": "icono"},
+  {"id": "A1_CL2_C", "uso": "阅读 T2 文本 C 的图标（便条）", "es": "Una nota en la puerta de una nevera.", "zh": "一台冰箱的门，上面用一块磁贴贴着一张小便条（便条上只画几条横线，不写字），表示家里的留言条。", "estilo": "icono"},
+  {"id": "A1_CL2_D", "uso": "阅读 T2 文本 D 的图标（博物馆告示）", "es": "Un museo.", "zh": "一座有三角形屋顶和几根柱子的古典建筑正面，表示博物馆。", "estilo": "icono"},
+  {"id": "A1_CL2_E", "uso": "阅读 T2 文本 E 的图标（游泳池告示）", "es": "Una piscina.", "zh": "泳池的一角：金属扶梯和几道水波纹，表示游泳池。不画人，也不画泳帽（避免直接提示答案）。", "estilo": "icono"},
+  {"id": "A1_CL2_F", "uso": "阅读 T2 文本 F 的图标（手机短信）", "es": "Un teléfono móvil con un mensaje y un cuaderno.", "zh": "一部竖着的智能手机，屏幕上有一个聊天气泡（只画横线，不写字），手机旁边放着一本练习本，表示学生发的短信。", "estilo": "icono"},
+  {"id": "A1_CL2_G", "uso": "阅读 T2 文本 G 的图标（药店告示）", "es": "La cruz de una farmacia.", "zh": "西班牙药店门口常见的绿色十字标志，表示药店。", "estilo": "icono"},
+  {"id": "A1_CL2_H", "uso": "阅读 T2 文本 H 的图标（语言学校告示）", "es": "Una pizarra y un libro abierto.", "zh": "一块挂在墙上的小黑板（上面不写字），前面放着一本打开的书，表示学校、教室。", "estilo": "icono"},
+  {"id": "A1_CL2_I", "uso": "阅读 T2 文本 I 的图标（鞋店广告）", "es": "Una zapatilla de deporte.", "zh": "一只普通的运动鞋，侧面视角，表示鞋店。不画价签，也不特意画成童鞋（避免直接提示第 11 题的答案）。", "estilo": "icono"},
+  {"id": "A1_CL2_J", "uso": "阅读 T2 文本 J 的图标（住宅楼告示）", "es": "Un edificio de viviendas con un aviso en la puerta.", "zh": "一栋五层住宅楼的正面，每层有窗户和小阳台，楼门上贴着一张小告示（只画几条横线，不写字），表示给住户的通知。不画电梯，也不画红叉（避免直接提示第 10 题的答案）。", "estilo": "icono"}
+]

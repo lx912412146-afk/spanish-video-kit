@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <g stroke="#222" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 三角形屋顶 -->
+    <path d="M300 50 L480 150 H120 Z" fill="#f2c94c"/>
+    <circle cx="300" cy="112" r="18" fill="#fff"/>
+    <rect x="130" y="150" width="340" height="36" fill="#d9d9d9"/>
+    <!-- 柱廊后的墙 -->
+    <rect x="172" y="186" width="256" height="136" fill="#999"/>
+    <!-- 门 -->
+    <rect x="270" y="238" width="60" height="84" fill="#a67c52"/>
+    <!-- 柱子 -->
+    <rect x="152" y="186" width="42" height="136" fill="#fff"/>
+    <rect x="216" y="186" width="42" height="136" fill="#fff"/>
+    <rect x="342" y="186" width="42" height="136" fill="#fff"/>
+    <rect x="406" y="186" width="42" height="136" fill="#fff"/>
+    <!-- 台阶 -->
+    <rect x="116" y="322" width="368" height="32" fill="#d9d9d9"/>
+    <rect x="94" y="354" width="412" height="36" fill="#999"/>
+  </g>
+</svg>

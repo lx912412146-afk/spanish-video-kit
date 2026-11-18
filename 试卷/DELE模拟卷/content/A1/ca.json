@@ -1,0 +1,298 @@
+{
+  "nivel": "A1",
+  "prueba": "Comprensión auditiva",
+  "zh": "听力理解",
+  "duracion_min": 25,
+  "intro_es": "La prueba de Comprensión auditiva contiene cuatro tareas. Usted tiene que responder a 25 preguntas. Duración: 25 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tipo": "imagenes",
+      "instruccion_es": "Usted va a escuchar cinco conversaciones muy breves. Va a escuchar cada conversación dos veces. Después de cada conversación, va a escuchar una pregunta. Tiene que seleccionar la imagen que responde a la pregunta. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到五段非常简短的对话，每段对话听两遍。每段对话之后会听到一个问题，请选出回答这个问题的图片。把所选答案涂在答题卡上。",
+      "tema_zh": "日常生活中的极短对话：在咖啡馆点饮料、给爸爸买礼物、买火车票、问去美术馆怎么走、打电话问天气、约周末运动。",
+      "audios": [
+        {
+          "id": "0",
+          "rotulo": "Conversación 0",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Camarera", "es": "Buenos días, señor, ¿qué va a tomar?", "zh": "先生，早上好。您要喝点什么？"},
+            {"v": "男2", "who": "Cliente", "es": "Un café con leche, por favor. Bueno, no, mejor un zumo de naranja.", "zh": "请来一杯牛奶咖啡。嗯，不，还是来一杯橙汁吧。"},
+            {"v": "女3", "who": "Camarera", "es": "Lo siento, hoy no tenemos zumo. ¿Quiere usted un té?", "zh": "抱歉，今天没有果汁。您要不要来杯茶？"},
+            {"v": "男2", "who": "Cliente", "es": "Sí, perfecto, un té con limón, gracias.", "zh": "好啊，太好了，一杯柠檬茶，谢谢。"}
+          ],
+          "pregunta_oral": "¿Qué va a tomar el hombre?",
+          "opciones": ["art:A1_CA1_0A", "art:A1_CA1_0B", "art:A1_CA1_0C"],
+          "clave": "B",
+          "explicacion": "问题：这位男士要喝什么？他先点 “Un café con leche”，马上改口 “mejor un zumo de naranja”；服务员说 “hoy no tenemos zumo”，建议喝茶，他答 “un té con limón”。所以是茶 B。A 橙汁今天没有，C 牛奶咖啡是他自己改掉的。"
+        },
+        {
+          "id": "1",
+          "rotulo": "Conversación 1",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Chica", "es": "Buenos días, busco un regalo para mi padre. ¿Cuánto cuesta este reloj?", "zh": "早上好。我在给我爸爸找礼物。这块手表多少钱？"},
+            {"v": "女4", "who": "Dependienta", "es": "Cuesta 80 euros, pero también tenemos cosas más baratas: corbatas y libros de cocina.", "zh": "80 欧元。不过我们也有便宜一些的东西：领带和烹饪书。"},
+            {"v": "女1", "who": "Chica", "es": "Mi padre nunca lleva corbata, pero le encanta cocinar. Entonces me llevo un libro.", "zh": "我爸爸从来不打领带，不过他特别喜欢做饭。那我就买一本书吧。"}
+          ],
+          "pregunta_oral": "¿Qué compra la chica?",
+          "opciones": ["art:A1_CA1_1A", "art:A1_CA1_1B", "art:A1_CA1_1C"],
+          "clave": "C",
+          "explicacion": "问题：女孩买了什么？店员推荐比手表便宜的领带和烹饪书，女孩说父亲 “nunca lleva corbata, pero le encanta cocinar”，最后 “me llevo un libro”，所以是烹饪书 C。A 手表她只问了价钱（80 欧元，比较贵），没有买；B 领带父亲从来不戴。"
+        },
+        {
+          "id": "2",
+          "rotulo": "Conversación 2",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Viajera", "es": "Perdone, ¿el tren para Valencia sale a las diez?", "zh": "请问，去瓦伦西亚的火车是十点开吗？"},
+            {"v": "男2", "who": "Empleado", "es": "No, señora, hoy sale a las diez y media. Hay otro más tarde, a las doce.", "zh": "不是，女士，今天是十点半开。后面还有一班，十二点。"},
+            {"v": "女2", "who": "Viajera", "es": "Pues quiero un billete para el tren de las diez y media, por favor.", "zh": "那请给我一张十点半那班车的票。"}
+          ],
+          "pregunta_oral": "¿A qué hora sale el tren de la señora?",
+          "opciones": ["art:A1_CA1_2A", "art:A1_CA1_2B", "art:A1_CA1_2C"],
+          "clave": "A",
+          "explicacion": "问题：这位女士坐的火车几点开？她以为是十点，职员纠正 “hoy sale a las diez y media”，还说有一班 “a las doce”；她买的是 “el tren de las diez y media”，所以是 10:30，选 A。B 十二点是后面另一班车，C 十点是她原来以为的时间，都不对。"
+        },
+        {
+          "id": "3",
+          "rotulo": "Conversación 3",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Chico", "es": "Perdone, ¿puedo ir andando al museo de arte? ¿Está lejos de aquí?", "zh": "请问，我可以走着去美术馆吗？离这儿远吗？"},
+            {"v": "女4", "who": "Señora", "es": "Sí, está bastante lejos, a cuarenta minutos andando. Hay un autobús, pero hoy hay mucho tráfico. Lo mejor es el metro.", "zh": "挺远的，走路要四十分钟。有公交车，可是今天路上很堵。最好坐地铁。"},
+            {"v": "男2", "who": "Chico", "es": "Vale, entonces voy en metro, muchas gracias.", "zh": "好的，那我坐地铁去，太感谢您了。"}
+          ],
+          "pregunta_oral": "¿Cómo va a ir el chico al museo?",
+          "opciones": ["art:A1_CA1_3A", "art:A1_CA1_3B", "art:A1_CA1_3C"],
+          "clave": "B",
+          "explicacion": "问题：男孩怎么去美术馆？他想走路去，但女士说 “a cuarenta minutos andando”，太远；公交车 “hoy hay mucho tráfico”；她建议 “Lo mejor es el metro”，男孩说 “voy en metro”，所以选地铁 B。A 步行和 C 公交车都被否定了。"
+        },
+        {
+          "id": "4",
+          "rotulo": "Conversación 4",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Ana", "es": "Hola, Lucía, ¿qué tal por Santander? ¿Hace buen tiempo allí?", "zh": "你好，Lucía。桑坦德那边怎么样？天气好吗？"},
+            {"v": "女1", "who": "Lucía", "es": "Pues hoy no mucho. No llueve, pero hace mucho viento y bastante frío. Dicen que mañana va a hacer sol.", "zh": "今天不太好。没下雨，可是风很大，也挺冷的。听说明天会出太阳。"},
+            {"v": "女3", "who": "Ana", "es": "¡Qué bien, entonces mañana puedes ir a la playa!", "zh": "太好了！那你明天可以去海滩了。"}
+          ],
+          "pregunta_oral": "¿Qué tiempo hace hoy en Santander?",
+          "opciones": ["art:A1_CA1_4A", "art:A1_CA1_4B", "art:A1_CA1_4C"],
+          "clave": "A",
+          "explicacion": "问题：今天桑坦德天气怎么样？Lucía 说 “No llueve, pero hace mucho viento y bastante frío”，今天刮大风，选 A。B 下雨被 “No llueve” 直接否定；C 晴天是明天的天气（“mañana va a hacer sol”），不是今天。"
+        },
+        {
+          "id": "5",
+          "rotulo": "Conversación 5",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Jorge", "es": "Carmen, el sábado jugamos al tenis. ¿Quieres venir con nosotros?", "zh": "Carmen，星期六我们打网球，你想和我们一起来吗？"},
+            {"v": "女2", "who": "Carmen", "es": "Gracias, pero los sábados por la mañana nado en la piscina.", "zh": "谢谢，可是每个星期六上午我都在游泳池游泳。"},
+            {"v": "男2", "who": "Jorge", "es": "Bueno, ¿y el domingo? Jugamos al fútbol en el parque.", "zh": "好吧，那星期天呢？我们在公园踢足球。"},
+            {"v": "女2", "who": "Carmen", "es": "No, gracias, el fútbol no me gusta nada.", "zh": "不了，谢谢，我一点都不喜欢足球。"}
+          ],
+          "pregunta_oral": "¿Qué hace Carmen los sábados?",
+          "opciones": ["art:A1_CA1_5A", "art:A1_CA1_5B", "art:A1_CA1_5C"],
+          "clave": "C",
+          "explicacion": "问题：Carmen 每个星期六做什么？她拒绝了周六的网球，因为 “los sábados por la mañana nado en la piscina”，所以选游泳 C。B 网球是 Jorge 他们周六的安排，她不去；A 足球是周日在公园的提议，而且她说 “el fútbol no me gusta nada”。"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "tipo": "relacionar_imagenes",
+      "instruccion_es": "Usted va a escuchar cinco mensajes muy breves: anuncios y mensajes de teléfono. Va a escuchar cada mensaje dos veces. Tiene que relacionar cada mensaje con una imagen. Hay nueve imágenes, incluida la del ejemplo. Tiene que seleccionar cinco. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到五条非常简短的讯息：广播通知和电话留言。每条听两遍。请把每条讯息和一张图片对应起来。一共九张图片（含例题用的一张），你要选出五张。把所选答案涂在答题卡上。",
+      "tema_zh": "车站、超市、体育中心、图书馆的广播，自行车店的电话和朋友的语音留言。",
+      "imagenes": [
+        {"id": "A", "art": "art:A1_CA2_A"},
+        {"id": "B", "art": "art:A1_CA2_B"},
+        {"id": "C", "art": "art:A1_CA2_C"},
+        {"id": "D", "art": "art:A1_CA2_D"},
+        {"id": "E", "art": "art:A1_CA2_E"},
+        {"id": "F", "art": "art:A1_CA2_F"},
+        {"id": "G", "art": "art:A1_CA2_G"},
+        {"id": "H", "art": "art:A1_CA2_H"},
+        {"id": "I", "art": "art:A1_CA2_I"}
+      ],
+      "audios": [
+        {
+          "id": "0",
+          "rotulo": "Mensaje 0",
+          "presentacion": "",
+          "segs": [
+            {"v": "女4", "who": "Locutora de la estación", "es": "Señores viajeros, el tren con destino a Zaragoza va a salir de la vía número dos a las once y cuarto. Gracias por su atención.", "zh": "各位旅客，开往萨拉戈萨的列车将于十一点一刻从二号站台发车。谢谢您的关注。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "C",
+          "explicacion": "火车站广播：“el tren con destino a Zaragoza va a salir de la vía número dos”，讲的是一列火车发车的站台和时间，对应站台上的火车 C。F 出租车也是交通工具，但录音里没有提到。"
+        },
+        {
+          "id": "6",
+          "rotulo": "Mensaje 6",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Locutor del supermercado", "es": "Atención, señores clientes: hoy, en la sección de pescado, tenemos sardinas frescas a 3 euros el kilo. Es una oferta solo para hoy.", "zh": "各位顾客请注意。今天鱼类柜台有新鲜沙丁鱼，每公斤 3 欧元。这个优惠只限今天。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "G",
+          "explicacion": "超市广播：“en la sección de pescado, tenemos sardinas frescas”，优惠的是鱼，对应沙丁鱼 G。B 水果也是超市里卖的东西，但广播里一次也没有提到水果，所以不选。"
+        },
+        {
+          "id": "7",
+          "rotulo": "Mensaje 7",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Recepcionista del polideportivo", "es": "Polideportivo Los Pinos, buenos días. Hoy la piscina está cerrada todo el día. Mañana abre a las nueve, como siempre.", "zh": "松树体育中心，早上好。今天游泳池全天关闭。明天照常九点开门。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "E",
+          "explicacion": "体育中心的电话录音：“Hoy la piscina está cerrada todo el día”，说的是游泳池今天关闭，对应游泳池 E。H 篮球也可能在体育中心，但录音里只提到 “piscina”，没有篮球。"
+        },
+        {
+          "id": "8",
+          "rotulo": "Mensaje 8",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Nuria", "es": "Hola, Paula, soy Nuria. El sábado es mi cumpleaños y hago una fiesta en mi casa a las seis. ¿Puedes venir tú también? Llámame esta tarde, por favor.", "zh": "你好，Paula，我是 Nuria。星期六是我的生日，我六点在家里开派对。你也能来吗？今天下午给我回个电话吧。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "A",
+          "explicacion": "朋友的语音留言：“El sábado es mi cumpleaños y hago una fiesta en mi casa”，邀请对方来参加生日派对，对应生日蛋糕 A。其他图片（水果、出租车、篮球）都和生日无关。"
+        },
+        {
+          "id": "9",
+          "rotulo": "Mensaje 9",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Andrés", "es": "Buenas tardes, señora Ortega. Soy Andrés, de la tienda de bicicletas. Su bicicleta ya está lista. Puede venir a buscarla mañana por la tarde.", "zh": "下午好，Ortega 女士。我是自行车店的 Andrés。您的自行车已经弄好了，明天下午可以来取。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "I",
+          "explicacion": "自行车店打来的电话：“Su bicicleta ya está lista. Puede venir a buscarla”，对应自行车 I。F 出租车同样是交通工具，是干扰图，录音里没有提到。"
+        },
+        {
+          "id": "10",
+          "rotulo": "Mensaje 10",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Locutora de la biblioteca", "es": "Atención, por favor: la biblioteca cierra en quince minutos. Si quieren llevar libros a casa, tienen que pedirlos ahora. Muchas gracias por su visita.", "zh": "请注意。图书馆十五分钟后闭馆。想借书回家的读者，请现在办理。感谢您的光临。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "D",
+          "explicacion": "图书馆广播：“la biblioteca cierra en quince minutos. Si quieren llevar libros a casa…”，对应摆满书的书架 D。本题剩下没用的三张图是 B 水果、F 出租车、H 篮球。"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "tipo": "frases",
+      "instruccion_es": "Usted va a escuchar a una mujer, Elena, que habla de su familia y de otras personas importantes para ella. Va a escuchar cada frase dos veces. Tiene que relacionar el principio de cada frase con su final. Hay doce finales, incluido el del ejemplo. Tiene que seleccionar ocho. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到一位叫 Elena 的女士介绍她的家人和身边其他重要的人。每句话听两遍。请把每个句子的开头和它的结尾对应起来。一共十二个结尾（含例题用的一个），你要选出八个。把所选答案涂在答题卡上。",
+      "tema_zh": "Elena 介绍自己的家人、最好的朋友、邻居和同事。",
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Elena", "es": "Mi hermana Marta tiene veinte años. Estudia Medicina en Salamanca porque quiere trabajar en un hospital.", "zh": "我妹妹 Marta 二十岁。她在萨拉曼卡学医，因为她想在医院工作。"},
+            {"v": "女2", "who": "Elena", "es": "Mi padre, Luis, es cocinero en un restaurante del puerto. Trabaja mucho, pero los lunes descansa en casa.", "zh": "我爸爸叫 Luis，是港口一家餐馆的厨师。他工作很忙，不过每周一在家休息。"},
+            {"v": "女2", "who": "Elena", "es": "Mi madre, Pilar, es muy deportista. Todas las mañanas sale a correr una hora por el parque.", "zh": "我妈妈叫 Pilar，很爱运动。她每天早上都去公园跑一个小时。"},
+            {"v": "女2", "who": "Elena", "es": "Mi abuelo Ramón tiene ochenta años y vive en un pueblo pequeño. Mis primos de Madrid van a verlo todos los veranos.", "zh": "我爷爷 Ramón 八十岁了，住在一个小村子里。我那些住在马德里的表兄弟姐妹每年夏天都去看他。"},
+            {"v": "女2", "who": "Elena", "es": "Mi hermano pequeño, Hugo, tiene doce años. Toca la guitarra muy bien y quiere tener un grupo de música.", "zh": "我弟弟 Hugo 十二岁。他吉他弹得很好，想组一个乐队。"},
+            {"v": "女2", "who": "Elena", "es": "Mi tía Rosa vive en París con su marido, que es francés y profesor de piano.", "zh": "我姑姑 Rosa 和丈夫住在巴黎，她丈夫是法国人，是钢琴老师。"},
+            {"v": "女2", "who": "Elena", "es": "Mi mejor amiga, Nerea, trabaja en una librería del centro, y su madre tiene una panadería en mi calle.", "zh": "我最好的朋友 Nerea 在市中心的一家书店工作，她妈妈在我住的那条街上开了一家面包店。"},
+            {"v": "女2", "who": "Elena", "es": "Mi vecino, el señor Ramírez, vive solo en el piso de al lado con su perro, que es muy grande y muy bueno.", "zh": "我的邻居 Ramírez 先生住在我隔壁，一个人和他的狗一起生活，那条狗很大，也很乖。"},
+            {"v": "女2", "who": "Elena", "es": "Y mi compañero de trabajo, Javier, habla cuatro idiomas: español, inglés, francés y un poco de chino.", "zh": "还有我的同事 Javier，他会说四种语言：西班牙语、英语、法语，还会一点中文。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "inicios": [
+        {"n": 0, "texto": "Mi hermana Marta…", "clave": "D", "seg": 0, "explicacion": "例题。Marta “Estudia Medicina … porque quiere trabajar en un hospital”，学医、想去医院工作，就是 D “estudia para ser médica”（为了当医生而学习）。"},
+        {"n": 11, "texto": "Mi padre, Luis…", "clave": "I", "seg": 1, "explicacion": "爸爸 “es cocinero en un restaurante del puerto”，厨师就是在餐馆里做饭的人，对应 I “prepara comida en un restaurante”。句中还说 “los lunes descansa”，说明他并非天天上班，这一点不在结尾里。"},
+        {"n": 12, "texto": "Mi madre, Pilar…", "clave": "G", "seg": 2, "explicacion": "妈妈 “Todas las mañanas sale a correr una hora por el parque”，每天早上跑步，换一种说法就是 G “hace ejercicio todos los días”（每天锻炼）。“deportista” 也是提示。"},
+        {"n": 13, "texto": "Mi abuelo Ramón…", "clave": "C", "seg": 3, "explicacion": "爷爷 “vive en un pueblo pequeño”，pueblo（村镇）和 ciudad（城市）相对，所以是 C “no vive en una ciudad”。H “vive en Madrid” 是干扰项：住在马德里的是表兄弟姐妹（“Mis primos de Madrid”），他们只是夏天去看爷爷。"},
+        {"n": 14, "texto": "Mi hermano pequeño, Hugo…", "clave": "B", "seg": 4, "explicacion": "弟弟 Hugo “Toca la guitarra muy bien”，吉他是一种乐器，对应 B “toca un instrumento”。F “enseña música” 不对：Hugo 只是自己弹，没有说他教别人。"},
+        {"n": 15, "texto": "Mi tía Rosa…", "clave": "K", "seg": 5, "explicacion": "姑姑 Rosa “vive en París”，巴黎在法国，对住在西班牙的说话人来说是别的国家，所以选 K “vive en otro país”。F “enseña música” 是干扰项：钢琴老师是她丈夫 “su marido, que es … profesor de piano”。"},
+        {"n": 16, "texto": "Mi mejor amiga, Nerea…", "clave": "A", "seg": 6, "explicacion": "Nerea “trabaja en una librería”，在书店工作就是卖书，对应 A “vende libros”。L “vende pan” 是干扰项：开面包店的是她妈妈 “su madre tiene una panadería”，不是 Nerea。"},
+        {"n": 17, "texto": "Mi vecino, el señor Ramírez…", "clave": "J", "seg": 7, "explicacion": "邻居 “vive solo … con su perro”，家里养着一条狗，换成概括的说法就是 J “tiene un animal en casa”。其他人的句子里都没有提到动物。"},
+        {"n": 18, "texto": "Mi compañero de trabajo, Javier…", "clave": "E", "seg": 8, "explicacion": "同事 Javier “habla cuatro idiomas: español, inglés, francés y un poco de chino”，idiomas 和 lenguas 意思相同，对应 E “habla cuatro lenguas”。本题没用的三个结尾是 F、H、L。"}
+      ],
+      "finales": [
+        {"id": "A", "texto": "…vende libros.", "zh": "……卖书。"},
+        {"id": "B", "texto": "…toca un instrumento.", "zh": "……演奏一种乐器。"},
+        {"id": "C", "texto": "…no vive en una ciudad.", "zh": "……不住在城市里。"},
+        {"id": "D", "texto": "…estudia para ser médica.", "zh": "……为了当医生而学习。"},
+        {"id": "E", "texto": "…habla cuatro lenguas.", "zh": "……会说四种语言。"},
+        {"id": "F", "texto": "…enseña música.", "zh": "……教音乐。"},
+        {"id": "G", "texto": "…hace ejercicio todos los días.", "zh": "……每天都锻炼身体。"},
+        {"id": "H", "texto": "…vive en Madrid.", "zh": "……住在马德里。"},
+        {"id": "I", "texto": "…prepara comida en un restaurante.", "zh": "……在餐馆里做饭。"},
+        {"id": "J", "texto": "…tiene un animal en casa.", "zh": "……家里养着一只动物。"},
+        {"id": "K", "texto": "…vive en otro país.", "zh": "……住在别的国家。"},
+        {"id": "L", "texto": "…vende pan.", "zh": "……卖面包。"}
+      ]
+    },
+    {
+      "n": 4,
+      "tipo": "completar",
+      "instruccion_es": "Usted va a escuchar una conversación entre dos amigos, Inés y Raúl. Hablan del piso nuevo de Raúl. Va a escuchar la conversación dos veces. Tiene que completar las frases con una de las opciones. Hay nueve opciones, incluida la del ejemplo. Tiene que seleccionar siete. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到两个朋友 Inés 和 Raúl 的对话，他们在聊 Raúl 的新家。对话听两遍。请从选项中选词补全句子。一共九个选项（含例题用的一个），你要选出七个。把所选答案涂在答题卡上。",
+      "tema_zh": "两个朋友聊 Raúl 的新家、附近有什么、怎么上班，以及星期六的乔迁聚会。",
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Inés", "es": "Hola, Raúl, ¿qué tal en tu piso nuevo?", "zh": "嗨，Raúl！新家住得怎么样？"},
+            {"v": "男2", "who": "Raúl", "es": "Muy bien, gracias, Inés. Está en el barrio de Las Flores y desde el salón veo el río.", "zh": "很好，谢谢，Inés。房子在 Las Flores 区，从客厅能看到河。"},
+            {"v": "女3", "who": "Inés", "es": "¡Qué bonito! ¿Y el piso es grande?", "zh": "真不错！那房子大吗？"},
+            {"v": "男2", "who": "Raúl", "es": "Bueno, no es muy grande. Tiene dos habitaciones y una cocina pequeña, pero el salón tiene mucha luz.", "zh": "嗯，不算很大。有两个卧室和一个小厨房，不过客厅光线很好。"},
+            {"v": "女3", "who": "Inés", "es": "¿Vives solo o con alguien?", "zh": "你是一个人住，还是和别人一起住？"},
+            {"v": "男2", "who": "Raúl", "es": "Con mi primo Óscar. Él estudia en la universidad y yo trabajo. Cada uno paga 300 euros al mes.", "zh": "和我表弟 Óscar 一起住。他在上大学，我在工作。我们每人每月付 300 欧元。"},
+            {"v": "女3", "who": "Inés", "es": "Pues no está mal. ¿Y qué hay en el barrio?", "zh": "还不错嘛。那附近有什么？"},
+            {"v": "男2", "who": "Raúl", "es": "Al lado de mi casa hay una farmacia y el supermercado está muy cerca.", "zh": "我家旁边有一家药店，超市也很近。"},
+            {"v": "女3", "who": "Inés", "es": "¿Y cómo vas al trabajo? ¿Vas en tu coche?", "zh": "那你怎么去上班？开车去吗？"},
+            {"v": "男2", "who": "Raúl", "es": "Ya no, ahora voy en metro. La estación está a cinco minutos de casa.", "zh": "现在不开车了，我坐地铁。地铁站离家只有五分钟。"},
+            {"v": "女3", "who": "Inés", "es": "¡Qué suerte! Oye, ¿y cuándo es la fiesta en tu casa?", "zh": "运气真好！对了，你家的聚会是什么时候？"},
+            {"v": "男2", "who": "Raúl", "es": "El sábado por la noche, a las nueve. El domingo no puedo porque trabajo.", "zh": "星期六晚上九点。星期天不行，因为我要上班。"},
+            {"v": "女3", "who": "Inés", "es": "Muy bien, ¿llevo algo a la fiesta? ¿Una tarta, por ejemplo?", "zh": "好的，我带点什么去吗？比如一个蛋糕？"},
+            {"v": "男2", "who": "Raúl", "es": "No, gracias, mi madre va a hacer una tarta de chocolate. Puedes traer algo de beber.", "zh": "不用了，谢谢，我妈妈会做一个巧克力蛋糕。你可以带点喝的。"},
+            {"v": "女3", "who": "Inés", "es": "Vale, pues llevo unos refrescos. ¡Nos vemos el sábado!", "zh": "好，那我带些汽水。星期六见！"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "frases": [
+        {"n": 0, "texto": "Desde el salón, Raúl ve el ____.", "clave": "E", "explicacion": "例题。Raúl 说 “desde el salón veo el río”，从客厅能看到河，所以填 E río。地铁站只是 “a cinco minutos de casa”，从客厅看不到。"},
+        {"n": 19, "texto": "El piso tiene ____ habitaciones.", "clave": "C", "explicacion": "Raúl 说 “Tiene dos habitaciones y una cocina pequeña”，所以是 C dos。选项里另一个数字 300 是每月的房租，填在这里意思不通。"},
+        {"n": 20, "texto": "Raúl vive con su ____.", "clave": "H", "explicacion": "Inés 问 “¿Vives solo o con alguien?”，Raúl 答 “Con mi primo Óscar”，所以是 H primo。后面提到的妈妈只是要给聚会做蛋糕，并不和他住在一起，而且 madre 也不在选项里。"},
+        {"n": 21, "texto": "Raúl paga ____ euros al mes.", "clave": "G", "explicacion": "“Cada uno paga 300 euros al mes”，他和表弟每人每月付 300 欧元，所以是 G 300。“dos” 是卧室的数量，不是钱数。"},
+        {"n": 22, "texto": "Al lado de la casa de Raúl hay una ____.", "clave": "A", "explicacion": "“Al lado de mi casa hay una farmacia”，所以是 A farmacia。超市只是 “está muy cerca”（很近），不是在旁边，而且也不在选项里。"},
+        {"n": 23, "texto": "Para ir al trabajo, Raúl toma el ____.", "clave": "F", "explicacion": "Inés 问是不是开车（“¿Vas en tu coche?”），Raúl 说 “Ya no, ahora voy en metro”，所以是 F metro。开车是以前的做法，被 “Ya no” 否定了。"},
+        {"n": 24, "texto": "La fiesta es el ____ por la noche.", "clave": "I", "explicacion": "“El sábado por la noche, a las nueve”，所以是 I sábado。B domingo 是干扰项：Raúl 说 “El domingo no puedo porque trabajo”，这是本题唯一不用的选项。"},
+        {"n": 25, "texto": "La madre de Raúl va a hacer una ____.", "clave": "D", "explicacion": "Inés 想带蛋糕，Raúl 说 “mi madre va a hacer una tarta de chocolate”，所以是 D tarta。Inés 最后带的是饮料 “unos refrescos”，不是蛋糕。"}
+      ],
+      "opciones": [
+        {"id": "A", "texto": "farmacia"},
+        {"id": "B", "texto": "domingo"},
+        {"id": "C", "texto": "dos"},
+        {"id": "D", "texto": "tarta"},
+        {"id": "E", "texto": "río"},
+        {"id": "F", "texto": "metro"},
+        {"id": "G", "texto": "300"},
+        {"id": "H", "texto": "primo"},
+        {"id": "I", "texto": "sábado"}
+      ]
+    }
+  ]
+}

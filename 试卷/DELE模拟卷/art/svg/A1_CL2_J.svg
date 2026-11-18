@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <g stroke="#222" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 地面 -->
+    <line x1="120" y1="414" x2="480" y2="414"/>
+    <!-- 五层住宅楼 -->
+    <rect x="168" y="44" width="264" height="370" fill="#f6b26b"/>
+    <rect x="156" y="30" width="288" height="22" rx="4" fill="#999"/>
+    <line x1="168" y1="326" x2="432" y2="326"/>
+    <!-- 二至五层：窗户和小阳台 -->
+    <g stroke-width="8">
+      <rect x="208" y="62" width="52" height="42" fill="#6fa8dc"/><rect x="340" y="62" width="52" height="42" fill="#6fa8dc"/>
+      <rect x="196" y="92" width="76" height="20" fill="#fff"/><rect x="328" y="92" width="76" height="20" fill="#fff"/>
+      <rect x="208" y="128" width="52" height="42" fill="#6fa8dc"/><rect x="340" y="128" width="52" height="42" fill="#6fa8dc"/>
+      <rect x="196" y="158" width="76" height="20" fill="#fff"/><rect x="328" y="158" width="76" height="20" fill="#fff"/>
+      <rect x="208" y="194" width="52" height="42" fill="#6fa8dc"/><rect x="340" y="194" width="52" height="42" fill="#6fa8dc"/>
+      <rect x="196" y="224" width="76" height="20" fill="#fff"/><rect x="328" y="224" width="76" height="20" fill="#fff"/>
+      <rect x="208" y="260" width="52" height="42" fill="#6fa8dc"/><rect x="340" y="260" width="52" height="42" fill="#6fa8dc"/>
+      <rect x="196" y="290" width="76" height="20" fill="#fff"/><rect x="328" y="290" width="76" height="20" fill="#fff"/>
+      <!-- 阳台栏杆 -->
+      <path d="M222 92 V112 M246 92 V112 M354 92 V112 M378 92 V112 M222 158 V178 M246 158 V178 M354 158 V178 M378 158 V178 M222 224 V244 M246 224 V244 M354 224 V244 M378 224 V244 M222 290 V310 M246 290 V310 M354 290 V310 M378 290 V310" stroke-width="6"/>
+      <!-- 一层窗户 -->
+      <rect x="190" y="344" width="44" height="44" fill="#6fa8dc"/><rect x="366" y="344" width="44" height="44" fill="#6fa8dc"/>
+    </g>
+    <!-- 楼门和门上的告示（只有横线） -->
+    <rect x="254" y="336" width="92" height="78" fill="#a67c52"/>
+    <rect x="272" y="346" width="56" height="46" fill="#fff" stroke-width="7"/>
+    <line x1="284" y1="361" x2="316" y2="361" stroke-width="6"/>
+    <line x1="284" y1="377" x2="308" y2="377" stroke-width="6"/>
+  </g>
+</svg>

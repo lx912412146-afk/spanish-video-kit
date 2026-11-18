@@ -1,0 +1,511 @@
+{
+  "nivel": "A1",
+  "prueba": "Comprensión de lectura",
+  "zh": "阅读理解",
+  "duracion_min": 45,
+  "intro_es": "La prueba de Comprensión de lectura contiene cuatro tareas. Usted tiene que responder a 25 preguntas. Duración: 45 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a leer un correo electrónico que Carmen escribe a su amiga Fang. Después, conteste a las preguntas (1-5). Seleccione la opción correcta (A, B o C). Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将读到卡门写给朋友芳的一封电子邮件。读后回答问题（1—5），从 A、B、C 中选出正确答案。把选好的答案涂在答题卡上。",
+      "tema_zh": "朋友来信：搬进海边的新公寓，介绍合租的室友、房子、每天的作息和周末安排，并邀请对方七月来玩。",
+      "textos": [
+        {
+          "id": "T",
+          "genero": "correo electrónico",
+          "titulo": "",
+          "cabecera": ["De: Carmen Ruiz", "Para: Wang Fang", "Asunto: ¡Mi piso nuevo!"],
+          "cuerpo": [
+            "¡Hola, Fang!",
+            "¿Qué tal estás? Yo estoy muy contenta: desde el lunes vivo en Valencia, en un piso nuevo cerca de la playa. Está un poco lejos del centro, pero me gusta mucho. Vivo con dos chicas, Irene y Paula. Irene es enfermera y Paula estudia medicina, como yo.",
+            "El piso tiene tres dormitorios, un baño, un salón y una cocina pequeña. No tiene terraza, pero es muy bonito y tiene mucha luz.",
+            "De lunes a viernes me levanto a las siete y media y voy a la universidad en bicicleta. A mediodía como en casa con mis compañeras de piso y por la tarde estudio en la biblioteca.",
+            "Los sábados por la mañana trabajo en la tienda de ropa de mi tía Rosa. Los domingos descanso: duermo mucho y por la tarde paseo por la playa con Irene.",
+            "¿Por qué no vienes en julio? Puedes dormir en el sofá cama del salón y usar la bicicleta de Paula. No necesitas paraguas: aquí casi nunca llueve. ¡Pero trae tu bañador!",
+            "Un beso,"
+          ],
+          "firma": "Carmen",
+          "zh": [
+            "你好，芳！",
+            "你好吗？我很开心：从星期一起，我住在瓦伦西亚一套靠近海滩的新公寓里。这里离市中心有点远，但我很喜欢。我和两个女孩一起住，伊雷内和保拉。伊雷内是护士，保拉和我一样学医。",
+            "公寓有三间卧室、一个卫生间、一个客厅和一个小厨房。没有露台，但是很漂亮，采光也很好。",
+            "星期一到星期五，我七点半起床，骑自行车去大学。中午我和室友们在家吃饭，下午在图书馆学习。",
+            "每个星期六上午，我在罗莎姑姑的服装店工作。星期天我休息：睡个够，下午和伊雷内在海滩散步。",
+            "你七月来玩好不好？你可以睡客厅的沙发床，还可以用保拉的自行车。不用带雨伞：这里几乎从来不下雨。不过一定要带上你的泳衣！",
+            "吻你，"
+          ],
+          "palabras": 172
+        }
+      ],
+      "preguntas": [
+        {
+          "n": 0,
+          "texto": "T",
+          "enunciado": "Carmen vive ahora…",
+          "opciones": ["en el centro de Valencia.", "cerca del mar.", "en casa de su tía."],
+          "clave": "B",
+          "explicacion": "原文“vivo en Valencia, en un piso nuevo cerca de la playa”，la playa（海滩）就在海边，所以选 B“cerca del mar”。A 错：原文说“Está un poco lejos del centro”。C 错：姑姑 Rosa 是她星期六打工的服装店的店主，她并不住在姑姑家。"
+        },
+        {
+          "n": 1,
+          "texto": "T",
+          "enunciado": "Paula…",
+          "opciones": ["es enfermera.", "estudia lo mismo que Carmen.", "no vive con Carmen."],
+          "clave": "B",
+          "explicacion": "原文“Paula estudia medicina, como yo”，Paula 和 Carmen 学的是同一个专业，B“estudia lo mismo que Carmen”是同义改写。A 错：当护士的是 Irene（“Irene es enfermera”）。C 错：Carmen 说“Vivo con dos chicas, Irene y Paula”，她们住在一起。"
+        },
+        {
+          "n": 2,
+          "texto": "T",
+          "enunciado": "En el piso de Carmen hay…",
+          "opciones": ["dos cuartos de baño.", "una terraza.", "tres habitaciones."],
+          "clave": "C",
+          "explicacion": "原文“El piso tiene tres dormitorios”，dormitorio 就是卧室（habitación），选 C。A 错：公寓只有“un baño”，一个卫生间。B 错：原文明确说“No tiene terraza”。"
+        },
+        {
+          "n": 3,
+          "texto": "T",
+          "enunciado": "A mediodía, Carmen…",
+          "opciones": ["come con Irene y Paula.", "come en la universidad.", "estudia en la biblioteca."],
+          "clave": "A",
+          "explicacion": "原文“A mediodía como en casa con mis compañeras de piso”，合租的室友（compañeras de piso）就是 Irene 和 Paula，选 A。B 错：她上午去大学，午饭是回家吃的。C 错：去图书馆学习是下午的事（“por la tarde estudio en la biblioteca”）。"
+        },
+        {
+          "n": 4,
+          "texto": "T",
+          "enunciado": "Los sábados por la mañana, Carmen…",
+          "opciones": ["pasea por la playa.", "duerme mucho.", "vende ropa."],
+          "clave": "C",
+          "explicacion": "原文“Los sábados por la mañana trabajo en la tienda de ropa de mi tía Rosa”，在服装店上班就是卖衣服，选 C。A、B 都是她星期天做的事：“Los domingos descanso: duermo mucho y por la tarde paseo por la playa”。"
+        },
+        {
+          "n": 5,
+          "texto": "T",
+          "enunciado": "¿Qué tiene que llevar Fang a Valencia?",
+          "opciones": ["art:A1_CL1_5A", "art:A1_CL1_5B", "art:A1_CL1_5C"],
+          "clave": "B",
+          "explicacion": "原文最后一句“¡Pero trae tu bañador!”，Carmen 让 Fang 带泳衣，选 B（泳衣）。A（雨伞）错：“No necesitas paraguas: aquí casi nunca llueve”。C（自行车）错：Fang 不用自己带，可以用 Paula 的（“usar la bicicleta de Paula”）。"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "tipo": "relacionar",
+      "instruccion_es": "Usted va a leer diez textos cortos: avisos, carteles, notas y mensajes. Relacione cada frase (6-11) con el texto correspondiente (A-J). Hay tres textos que no debe seleccionar. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将读到十个短文本：告示、标牌、便条和短信。把每个句子（6—11）和对应的文本（A—J）配对。有三个文本用不上。把选好的答案涂在答题卡上。",
+      "tema_zh": "日常生活中的告示、标牌、便条和手机短信（图书馆、药店、游泳池、博物馆、鞋店、语言学校、住宅楼等）。",
+      "opciones_tipo": "textos",
+      "textos": [
+        {
+          "id": "A",
+          "genero": "cartel",
+          "titulo": "Biblioteca del Barrio Norte", "titulo_zh": "北区图书馆",
+          "cuerpo": ["Horario de verano: de lunes a viernes, de 9:00 a 14:00. En agosto, cerrada. Para devolver libros por la tarde, use el buzón de la puerta."],
+          "zh": ["北区图书馆。夏季开放时间：星期一至星期五，9:00—14:00。八月闭馆。下午还书请使用门口的还书箱。"],
+          "icono": "art:A1_CL2_A",
+          "palabras": 26
+        },
+        {
+          "id": "B",
+          "genero": "mensaje de móvil",
+          "titulo": "",
+          "cuerpo": ["Hola, Ana. Estoy en el autobús y hay mucho tráfico. Llego a la cafetería a las seis y cuarto, no a las seis. ¿Pides tú los cafés? Besos, Marta."],
+          "zh": ["你好，安娜。我在公交车上，路上很堵。我六点一刻到咖啡馆，不是六点。你先帮我们点咖啡好吗？吻你，玛尔塔。"],
+          "icono": "art:A1_CL2_B",
+          "palabras": 29
+        },
+        {
+          "id": "C",
+          "genero": "nota",
+          "titulo": "",
+          "cuerpo": ["Pablo: hoy no como en casa. Tienes sopa en la nevera. Por favor, compra pan y leche en el supermercado. Vuelvo a las nueve. Mamá"],
+          "zh": ["巴勃罗：我今天不在家吃饭。冰箱里有汤。请去超市买面包和牛奶。我九点回来。妈妈"],
+          "icono": "art:A1_CL2_C",
+          "palabras": 25
+        },
+        {
+          "id": "D",
+          "genero": "cartel",
+          "titulo": "Museo de la Ciudad", "titulo_zh": "城市博物馆",
+          "cuerpo": ["Entrada gratis los domingos, de 17:00 a 20:00. No se pueden hacer fotos en las salas. Las mochilas y los bolsos grandes se dejan en la entrada."],
+          "zh": ["城市博物馆。星期天 17:00—20:00 免费入场。展厅内禁止拍照。双肩包和大包请寄存在入口处。"],
+          "icono": "art:A1_CL2_D",
+          "palabras": 27
+        },
+        {
+          "id": "E",
+          "genero": "cartel",
+          "titulo": "Piscina municipal", "titulo_zh": "市立游泳池",
+          "cuerpo": ["Abierta de lunes a sábado, de 10:00 a 20:00. Domingos, cerrada. Para entrar en el agua, es obligatorio llevar gorro. Prohibido comer en la zona de la piscina."],
+          "zh": ["市立游泳池。星期一至星期六 10:00—20:00 开放。星期天关闭。下水必须戴泳帽。泳池区禁止吃东西。"],
+          "icono": "art:A1_CL2_E",
+          "palabras": 28
+        },
+        {
+          "id": "F",
+          "genero": "mensaje de móvil",
+          "titulo": "",
+          "cuerpo": ["Hola, Carlos. Soy Li Na, de la clase de las nueve. Mañana no puedo ir a clase porque tengo cita con el médico. ¿Me mandas los deberes por correo? Gracias."],
+          "zh": ["你好，卡洛斯。我是李娜，九点那个班的。明天我不能去上课，因为我约了医生。你能把作业发到我的邮箱吗？谢谢。"],
+          "icono": "art:A1_CL2_F",
+          "palabras": 30
+        },
+        {
+          "id": "G",
+          "genero": "aviso",
+          "titulo": "Farmacia Sol", "titulo_zh": "太阳药店",
+          "cuerpo": ["Hoy, martes, cerramos a las 14:00. Por la tarde, puede ir a la Farmacia Luna, en la calle Mayor, 25. Está abierta hasta las 22:00."],
+          "zh": ["太阳药店。今天星期二，我们 14:00 关门。下午您可以去马约尔街 25 号的月亮药店，那里营业到 22:00。"],
+          "icono": "art:A1_CL2_G",
+          "palabras": 25
+        },
+        {
+          "id": "H",
+          "genero": "aviso",
+          "titulo": "Escuela de idiomas Babel", "titulo_zh": "巴别语言学校",
+          "cuerpo": ["La clase de español de los martes, nivel A1, cambia de aula: ahora es en el aula 3, en el primer piso. El horario y el profesor son los mismos."],
+          "zh": ["巴别语言学校。星期二的 A1 西班牙语课换教室：现在改在二楼（primer piso）的 3 号教室。上课时间和老师都不变。"],
+          "icono": "art:A1_CL2_H",
+          "palabras": 30
+        },
+        {
+          "id": "I",
+          "genero": "anuncio",
+          "titulo": "Zapatería Paso a Paso", "titulo_zh": "“步步”鞋店",
+          "cuerpo": ["¡Rebajas! Esta semana, todos los zapatos de niño y de niña cuestan la mitad. Solo de lunes a viernes. El sábado, precios normales."],
+          "zh": ["“一步一步”鞋店。大减价！本周所有男童鞋和女童鞋半价。仅限星期一至星期五。星期六恢复原价。"],
+          "icono": "art:A1_CL2_I",
+          "palabras": 23
+        },
+        {
+          "id": "J",
+          "genero": "aviso",
+          "titulo": "Aviso a los vecinos", "titulo_zh": "致住户的通知",
+          "cuerpo": ["El ascensor no funciona hasta el jueves. Lo sentimos. Si necesitan ayuda con las bolsas de la compra, hablen con el portero. Gracias."],
+          "zh": ["致各位住户。电梯星期四之前都不能用。很抱歉。如果需要帮忙拿购物袋，请找门房。谢谢。"],
+          "icono": "art:A1_CL2_J",
+          "palabras": 23
+        }
+      ],
+      "enunciados": [
+        {
+          "n": 0,
+          "persona": "",
+          "texto": "Esta persona va a llegar un poco tarde.",
+          "zh": "这个人要晚到一会儿。",
+          "clave": "B",
+          "explicacion": "短信 B：“Llego a la cafetería a las seis y cuarto, no a las seis”，比约好的时间晚一刻钟，就是“va a llegar un poco tarde”。F 是明天不能来上课，C 是妈妈说九点回家，都不是迟到。"
+        },
+        {
+          "n": 6,
+          "persona": "",
+          "texto": "Para nadar aquí, hay que llevar algo en la cabeza.",
+          "zh": "在这里游泳，头上必须戴东西。",
+          "clave": "E",
+          "explicacion": "游泳池告示 E：“Para entrar en el agua, es obligatorio llevar gorro”，泳帽（gorro）戴在头上，对应“llevar algo en la cabeza”。博物馆 D 也有规定，但只是把双肩包和大包放在入口，和头上戴东西无关。"
+        },
+        {
+          "n": 7,
+          "persona": "",
+          "texto": "Si necesita medicinas esta tarde, tiene que ir a otro sitio.",
+          "zh": "如果今天下午需要买药，就得去别的地方。",
+          "clave": "G",
+          "explicacion": "药店告示 G：“Hoy, martes, cerramos a las 14:00. Por la tarde, puede ir a la Farmacia Luna”，下午买药要去另一家药店。图书馆 A 也是 14:00 关门，但那里不卖药，下午只能把书投进门口的还书箱。"
+        },
+        {
+          "n": 8,
+          "persona": "",
+          "texto": "Un hijo tiene que hacer la compra hoy.",
+          "zh": "一个儿子今天得去买东西。",
+          "clave": "C",
+          "explicacion": "妈妈留给儿子 Pablo 的便条 C：“Por favor, compra pan y leche en el supermercado”，儿子要去超市买东西，就是“hacer la compra”。J 里虽然出现了“bolsas de la compra”，但说的是电梯坏了可以找门房帮忙，并没有人要去买东西。"
+        },
+        {
+          "n": 9,
+          "persona": "",
+          "texto": "Esta persona no va a estar en clase mañana.",
+          "zh": "这个人明天不来上课。",
+          "clave": "F",
+          "explicacion": "学生 Li Na 的短信 F：“Mañana no puedo ir a clase porque tengo cita con el médico”。H 也和西班牙语课有关，但只是换教室（“cambia de aula”），课照常上，没有人缺课。"
+        },
+        {
+          "n": 10,
+          "persona": "",
+          "texto": "Estos días, en este edificio, hay que subir a pie.",
+          "zh": "这几天在这栋楼里只能走楼梯上楼。",
+          "clave": "J",
+          "explicacion": "告示 J：“El ascensor no funciona hasta el jueves”，电梯星期四之前都坏着，这几天上楼只能走楼梯（subir a pie）。H 虽然提到“primer piso”，但只是说教室在几楼，没有说电梯不能用。"
+        },
+        {
+          "n": 11,
+          "persona": "",
+          "texto": "Esta semana, aquí puede comprar algo más barato para sus hijos.",
+          "zh": "这个星期，在这里给孩子买东西更便宜。",
+          "clave": "I",
+          "explicacion": "鞋店广告 I：“Esta semana, todos los zapatos de niño y de niña cuestan la mitad”，童鞋半价。博物馆 D 星期天下午免费，但那是门票，不是给孩子买东西；药店 G 和便条 C（让儿子去超市买面包和牛奶）都没有提到打折。"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "tipo": "relacionar",
+      "instruccion_es": "Usted va a leer lo que necesitan siete personas y diez anuncios de tiendas y servicios de un barrio. Relacione a cada persona (12-17) con el anuncio correspondiente (A-J). Hay tres anuncios que no debe seleccionar. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将读到七个人的需求和一个街区里十家商店、服务机构的广告。为每个人（12—17）找到合适的广告（A—J）。有三则广告用不上。把选好的答案涂在答题卡上。",
+      "tema_zh": "街区里的商店和服务广告（健身房、两家眼镜店、面包店、素食餐厅、水果店、书店、瑜伽中心、比萨店、自行车店），和人们的需求配对。",
+      "opciones_tipo": "textos",
+      "textos": [
+        {
+          "id": "A",
+          "genero": "anuncio",
+          "titulo": "Gimnasio Forma", "titulo_zh": "“体型”健身房",
+          "cuerpo": ["Yoga, baile y natación. Abierto de lunes a sábado, de 7:00 a 23:00. Clases de yoga: a las 8:00 y a las 21:30. Primer mes: 20 euros."],
+          "zh": ["“状态”健身房。瑜伽、舞蹈和游泳。星期一至星期六 7:00—23:00 营业。瑜伽课：8:00 和 21:30 两个时段。第一个月 20 欧元。"],
+          "icono": "",
+          "palabras": 27
+        },
+        {
+          "id": "B",
+          "genero": "anuncio",
+          "titulo": "Óptica Plaza", "titulo_zh": "广场眼镜店",
+          "cuerpo": ["Gafas para ver bien en clase o en el trabajo. Sus gafas, listas en una hora. Abierto de lunes a sábado, de 9:30 a 20:30. Domingos, cerrado."],
+          "zh": ["“广场”眼镜店。让您上课、上班都看得清楚的眼镜。一小时就能取眼镜。星期一至星期六 9:30—20:30 营业。星期天休息。"],
+          "icono": "",
+          "palabras": 27
+        },
+        {
+          "id": "C",
+          "genero": "anuncio",
+          "titulo": "Óptica Miramar", "titulo_zh": "海景眼镜店",
+          "cuerpo": ["Gafas y gafas de sol para toda la familia. Revisión de la vista gratis. Abierto de lunes a sábado, de 10:00 a 20:00, y los domingos, de 10:00 a 14:00."],
+          "zh": ["米拉马尔眼镜店。适合全家人的眼镜和太阳镜。免费检查视力。星期一至星期六 10:00—20:00 营业，星期天 10:00—14:00 营业。"],
+          "icono": "",
+          "palabras": 30
+        },
+        {
+          "id": "D",
+          "genero": "anuncio",
+          "titulo": "Panadería Hermanos Gil", "titulo_zh": "希尔兄弟面包店",
+          "cuerpo": ["Pan recién hecho todos los días desde las siete de la mañana. Tartas de cumpleaños: haga su pedido en la tienda un día antes."],
+          "zh": ["希尔兄弟面包店。每天早上七点起供应新鲜出炉的面包。生日蛋糕：请提前一天到店预订。"],
+          "icono": "",
+          "palabras": 24
+        },
+        {
+          "id": "E",
+          "genero": "anuncio",
+          "titulo": "Restaurante La Huerta", "titulo_zh": "“菜园”餐厅",
+          "cuerpo": ["Cocina vegetariana: verduras, arroz, pasta y postres caseros. Menú del día: 12 euros. Abierto todos los días, solo a mediodía, de 13:00 a 16:00."],
+          "zh": ["“菜园”餐厅。素食：蔬菜、米饭、意面和自制甜点。每日套餐 12 欧元。每天营业，只在中午 13:00—16:00 开门。"],
+          "icono": "",
+          "palabras": 24
+        },
+        {
+          "id": "F",
+          "genero": "anuncio",
+          "titulo": "Frutería La Pera Verde", "titulo_zh": "“青梨”水果店",
+          "cuerpo": ["Fruta y verdura fresca de la región. Abierto de lunes a sábado. Para personas mayores: haga su pedido por teléfono y le llevamos la compra a casa sin pagar más."],
+          "zh": ["“青梨”水果店。本地新鲜水果和蔬菜。星期一至星期六营业。老年顾客：打电话订货，我们把东西送到家，不另收费。"],
+          "icono": "",
+          "palabras": 30
+        },
+        {
+          "id": "G",
+          "genero": "anuncio",
+          "titulo": "Librería El Búho", "titulo_zh": "“猫头鹰”书店",
+          "cuerpo": ["Libros en español, inglés y francés. Diccionarios y libros para aprender idiomas. Los sábados, de 11:00 a 12:00, leemos cuentos a niños de 4 a 8 años. Gratis."],
+          "zh": ["“猫头鹰”书店。西班牙语、英语和法语图书。词典和语言学习用书。每个星期六 11:00—12:00 给 4 到 8 岁的孩子讲故事。免费。"],
+          "icono": "",
+          "palabras": 28
+        },
+        {
+          "id": "H",
+          "genero": "anuncio",
+          "titulo": "Centro de Yoga Loto", "titulo_zh": "莲花瑜伽中心",
+          "cuerpo": ["Clases para adultos de lunes a viernes, de 9:00 a 12:00. Los sábados por la tarde, yoga para niños de 6 a 10 años. Primera clase gratis."],
+          "zh": ["莲花瑜伽中心。成人课程：星期一至星期五 9:00—12:00。星期六下午有 6 到 10 岁的儿童瑜伽。第一节课免费。"],
+          "icono": "",
+          "palabras": 27
+        },
+        {
+          "id": "I",
+          "genero": "anuncio",
+          "titulo": "Pizzería Bella Nápoles", "titulo_zh": "“美丽那不勒斯”比萨店",
+          "cuerpo": ["Pizzas, pasta y ensaladas. Tenemos pizzas sin carne y menú para niños. Abierto de martes a domingo, de 13:00 a 23:30. Mesas en la terraza."],
+          "zh": ["“美丽那不勒斯”比萨店。比萨、意面和沙拉。有不含肉的比萨和儿童套餐。星期二至星期日 13:00—23:30 营业。有露天座位。"],
+          "icono": "",
+          "palabras": 25
+        },
+        {
+          "id": "J",
+          "genero": "anuncio",
+          "titulo": "Bicicletas Ruedas", "titulo_zh": "“车轮”自行车店",
+          "cuerpo": ["Venta y reparación de bicicletas. Alquiler por horas: 3 euros la hora. Con la bici, le damos un mapa de la ciudad gratis. Abierto todos los días."],
+          "zh": ["“车轮”自行车店。自行车销售和维修。按小时出租：每小时 3 欧元。租车免费送一张城市地图。每天营业。"],
+          "icono": "",
+          "palabras": 27
+        }
+      ],
+      "enunciados": [
+        {
+          "n": 0,
+          "persona": "Mercedes",
+          "texto": "El sábado es el cumpleaños de mi hija y quiero comprar un pastel grande para la fiesta.",
+          "zh": "星期六是我女儿的生日，我想为生日聚会买一个大蛋糕。",
+          "clave": "D",
+          "explicacion": "Mercedes 要为女儿的生日聚会买蛋糕。面包店 D：“Tartas de cumpleaños: haga su pedido en la tienda un día antes”。书店 G 星期六也有儿童活动，比萨店 I 有儿童套餐，但这两家都不卖蛋糕。"
+        },
+        {
+          "n": 12,
+          "persona": "Isabel",
+          "texto": "Mi abuela tiene 85 años y no puede salir de casa. Necesita naranjas y tomates todas las semanas.",
+          "zh": "我奶奶 85 岁了，出不了门。她每个星期都需要橙子和西红柿。",
+          "clave": "F",
+          "explicacion": "奶奶年纪大、出不了门，要买的橙子和西红柿是水果和蔬菜。水果店 F：“Para personas mayores: haga su pedido por teléfono y le llevamos la compra a casa”。素食餐厅 E 虽然有“verduras”，但它是餐厅，卖的是做好的套餐，不卖水果蔬菜。"
+        },
+        {
+          "n": 13,
+          "persona": "Javier",
+          "texto": "Trabajo en una oficina hasta las nueve de la noche y quiero hacer yoga después del trabajo.",
+          "zh": "我在办公室上班，一直到晚上九点，下班后我想练瑜伽。",
+          "clave": "A",
+          "explicacion": "Javier 晚上九点下班。健身房 A：“Clases de yoga: a las 8:00 y a las 21:30”，晚上九点半有瑜伽课。瑜伽中心 H 的成人课只在星期一至星期五 9:00—12:00，正是他上班的时间。"
+        },
+        {
+          "n": 14,
+          "persona": "Elena",
+          "texto": "El viernes por la noche quiero cenar fuera con mi hijo, pero él no come carne.",
+          "zh": "星期五晚上我想和儿子去外面吃晚饭，可是他不吃肉。",
+          "clave": "I",
+          "explicacion": "比萨店 I 有“pizzas sin carne”，而且“Abierto de martes a domingo, de 13:00 a 23:30”，星期五晚上开门。素食餐厅 E 虽然没有肉，但“solo a mediodía”，晚上不营业。"
+        },
+        {
+          "n": 15,
+          "persona": "Zhang Wei",
+          "texto": "En clase no veo bien la pizarra y necesito unas gafas. Solo tengo tiempo libre los domingos.",
+          "zh": "上课时我看不清黑板，需要配一副眼镜。我只有星期天有空。",
+          "clave": "C",
+          "explicacion": "眼镜店 C 卖眼镜，并且“los domingos, de 10:00 a 14:00”星期天上午营业。眼镜店 B 也配眼镜，还说“para ver bien en clase”，但“Domingos, cerrado”，星期天不开门，而 Zhang Wei 只有星期天有空。"
+        },
+        {
+          "n": 16,
+          "persona": "Lucía",
+          "texto": "El sábado por la mañana quiero hacer algo con mi hija de cinco años. A ella le encanta escuchar historias.",
+          "zh": "星期六上午我想和五岁的女儿一起做点什么。她特别喜欢听故事。",
+          "clave": "G",
+          "explicacion": "书店 G：“Los sábados, de 11:00 a 12:00, leemos cuentos a niños de 4 a 8 años”，星期六上午讲故事，五岁的孩子可以参加。瑜伽中心 H 也有儿童活动，但在星期六下午，而且要 6 到 10 岁。"
+        },
+        {
+          "n": 17,
+          "persona": "Chen Yu",
+          "texto": "Estoy de vacaciones con dos amigos. Queremos conocer la ciudad en bici, pero no tenemos ninguna.",
+          "zh": "我和两个朋友在度假。我们想骑自行车逛逛这座城市，可是一辆车也没有。",
+          "clave": "J",
+          "explicacion": "自行车店 J：“Alquiler por horas: 3 euros la hora”，可以按小时租车，还送一张城市地图（“un mapa de la ciudad gratis”）。健身房 A 和瑜伽中心 H 虽然也是运动场所，但不出租自行车。"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a leer un cartel de una escuela de español con las actividades de la semana. Después, conteste a las preguntas (18-25). Seleccione la opción correcta (A, B o C). Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将读到一所西班牙语学校的一周活动海报。读后回答问题（18—25），从 A、B、C 中选出正确答案。把选好的答案涂在答题卡上。",
+      "tema_zh": "语言学校的一周课外活动海报：街区散步、烹饪课、西语电影、去科尔多瓦一日游，以及报名和咨询方式。",
+      "textos": [
+        {
+          "id": "T",
+          "genero": "cartel",
+          "titulo": "Escuela de Español Alameda, Sevilla: actividades de la semana", "titulo_zh": "塞维利亚阿拉梅达西班牙语学校：本周活动",
+          "cabecera": [],
+          "cuerpo": [
+            "Del lunes 6 al sábado 11 de octubre, la escuela organiza cuatro actividades para practicar el español fuera del aula. Puede venir con sus amigos.",
+            "Lunes 6. Paseo por el barrio de Triana. Salimos a las 17:00 de la puerta de la escuela y volvemos a las 19:00. Es gratis.",
+            "Miércoles 8. Taller de cocina. Aprendemos a preparar gazpacho y tortilla de patatas, y después cenamos todos juntos. Es a las 18:30, en la cocina de la segunda planta. Precio: 8 euros. Máximo: 12 personas.",
+            "Viernes 10. Cine en español. Vemos una comedia española con subtítulos en español. Empieza a las 20:00, en el aula 5. La entrada es gratis y hay refrescos para todos.",
+            "Sábado 11. Excursión a Córdoba en autobús. Salimos a las 8:00 de la estación de autobuses y volvemos a las 21:00. Precio: 35 euros (autobús y entrada a la Mezquita). La comida no está incluida.",
+            "Para las actividades del miércoles y del sábado, tiene que apuntarse en la recepción hasta el martes 7, a las 14:00. Para las otras dos, no es necesario.",
+            "¿Tiene preguntas? Hable con Lola en la secretaría, de lunes a viernes, de 9:00 a 15:00. Por favor, no llame por teléfono."
+          ],
+          "firma": "",
+          "zh": [
+            "10 月 6 日星期一至 11 日星期六，学校组织四项活动，让大家在课堂外练习西班牙语。您可以带朋友一起来。",
+            "6 日星期一：特里亚纳区散步。17:00 从学校门口出发，19:00 回来。免费。",
+            "8 日星期三：烹饪课。我们学做西班牙冷汤（gazpacho）和土豆鸡蛋饼（tortilla de patatas），然后大家一起吃晚饭。18:30 开始，地点在三楼（segunda planta）的厨房。费用 8 欧元。最多 12 人。",
+            "10 日星期五：西语电影。我们看一部西班牙喜剧，配西班牙语字幕。20:00 在 5 号教室开始。免费入场，每人都有饮料。",
+            "11 日星期六：坐大巴去科尔多瓦一日游。8:00 从长途汽车站出发，21:00 回来。费用 35 欧元（含车费和清真寺门票）。不含餐费。",
+            "星期三和星期六的活动，须在 7 日星期二 14:00 之前到前台报名。另外两项活动不用报名。",
+            "有问题吗？请在星期一至星期五 9:00—15:00 到秘书处找洛拉。请不要打电话。"
+          ],
+          "palabras": 200
+        }
+      ],
+      "preguntas": [
+        {
+          "n": 18,
+          "texto": "T",
+          "enunciado": "El paseo por Triana…",
+          "opciones": ["empieza delante de la escuela.", "dura más de tres horas.", "cuesta cinco euros por persona."],
+          "clave": "A",
+          "explicacion": "原文“Salimos a las 17:00 de la puerta de la escuela”，散步从学校门口出发，A“empieza delante de la escuela”正确。B 错：17:00 出发、19:00 回来，只有两个小时。C 错：原文说“Es gratis”，不要钱。"
+        },
+        {
+          "n": 19,
+          "texto": "T",
+          "enunciado": "El taller de cocina…",
+          "opciones": ["cuesta doce euros.", "es en la cocina de la primera planta.", "no es para más de doce personas."],
+          "clave": "C",
+          "explicacion": "原文“Máximo: 12 personas”，最多 12 人参加，即 C“no es para más de doce personas”。A 错：费用是 8 欧元，12 是人数。B 错：厨房在“segunda planta”，不是 primera planta。"
+        },
+        {
+          "n": 20,
+          "texto": "T",
+          "enunciado": "La película del viernes…",
+          "opciones": ["tiene subtítulos en inglés.", "empieza a las diez de la noche.", "no cuesta dinero."],
+          "clave": "C",
+          "explicacion": "原文“La entrada es gratis”，看电影不花钱，选 C。A 错：字幕是西班牙语的（“con subtítulos en español”）。B 错：电影“Empieza a las 20:00”，是晚上八点，不是十点。"
+        },
+        {
+          "n": 21,
+          "texto": "T",
+          "enunciado": "El sábado, los estudiantes…",
+          "opciones": ["van a Córdoba en tren.", "vuelven a Sevilla por la noche.", "salen de la escuela a las ocho de la mañana."],
+          "clave": "B",
+          "explicacion": "原文“volvemos a las 21:00”，晚上九点回到塞维利亚，即 B“por la noche”。A 错：去科尔多瓦坐的是大巴（“Excursión a Córdoba en autobús”）。C 错：八点出发没错，但出发地点是长途汽车站（“de la estación de autobuses”），从学校门口出发的是星期一的散步。"
+        },
+        {
+          "n": 22,
+          "texto": "T",
+          "enunciado": "Los 35 euros de la excursión son para pagar…",
+          "opciones": ["el viaje y la visita a la Mezquita.", "el autobús y la comida.", "la entrada a la Mezquita y la comida."],
+          "clave": "A",
+          "explicacion": "原文“Precio: 35 euros (autobús y entrada a la Mezquita)”，35 欧元包括坐车（el viaje）和参观清真寺（la visita a la Mezquita），选 A。B、C 都包括饭钱，但原文说“La comida no está incluida”。"
+        },
+        {
+          "n": 23,
+          "texto": "T",
+          "enunciado": "Hay que apuntarse antes para…",
+          "opciones": ["el paseo por Triana y la película del viernes.", "el taller de cocina y el viaje a Córdoba.", "todas las actividades de la semana."],
+          "clave": "B",
+          "explicacion": "原文“Para las actividades del miércoles y del sábado, tiene que apuntarse”，星期三是烹饪课，星期六是去科尔多瓦，选 B。A 是另外两项活动，原文说“Para las otras dos, no es necesario”。C 错：并不是四项都要报名。"
+        },
+        {
+          "n": 24,
+          "texto": "T",
+          "enunciado": "El último día para apuntarse es…",
+          "opciones": ["el lunes.", "el miércoles.", "el martes."],
+          "clave": "C",
+          "explicacion": "原文“tiene que apuntarse en la recepción hasta el martes 7, a las 14:00”，报名截止到星期二，选 C。A 星期一只是第一项活动（散步）的日子，之后还可以报名。B 星期三是烹饪课的日子，那时报名已经结束。"
+        },
+        {
+          "n": 25,
+          "texto": "T",
+          "enunciado": "Si un estudiante tiene preguntas, puede…",
+          "opciones": ["ir a la secretaría por la mañana.", "llamar por teléfono a la secretaría.", "hablar con Lola el sábado."],
+          "clave": "A",
+          "explicacion": "原文“Hable con Lola en la secretaría, de lunes a viernes, de 9:00 a 15:00”，上午去秘书处可以找到 Lola，选 A。B 错：原文明确说“Por favor, no llame por teléfono”。C 错：Lola 只在星期一到星期五上班。"
+        }
+      ]
+    }
+  ]
+}

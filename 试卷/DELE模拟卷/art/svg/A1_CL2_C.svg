@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <g stroke="#222" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 冰箱 -->
+    <line x1="212" y1="396" x2="212" y2="418" stroke-width="16"/>
+    <line x1="388" y1="396" x2="388" y2="418" stroke-width="16"/>
+    <rect x="180" y="30" width="240" height="374" rx="26" fill="#d9d9d9"/>
+    <line x1="180" y1="138" x2="420" y2="138"/>
+    <!-- 把手 -->
+    <path d="M210 70 V108 M210 168 V256" stroke-width="24"/>
+    <path d="M210 70 V108 M210 168 V256" stroke="#fff" stroke-width="8"/>
+    <!-- 磁贴贴着的便条（只有横线） -->
+    <g transform="rotate(5 322 272)">
+      <rect x="262" y="210" width="120" height="128" rx="4" fill="#fff"/>
+      <line x1="282" y1="252" x2="362" y2="252" stroke-width="8"/>
+      <line x1="282" y1="278" x2="362" y2="278" stroke-width="8"/>
+      <line x1="282" y1="304" x2="336" y2="304" stroke-width="8"/>
+      <circle cx="322" cy="212" r="20" fill="#eb5757"/>
+    </g>
+  </g>
+</svg>

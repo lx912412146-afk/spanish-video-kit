@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <g stroke="#222" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 三本叠放的书，书脊朝前 -->
+    <rect x="100" y="300" width="400" height="98" rx="14" fill="#6fa8dc"/>
+    <line x1="148" y1="300" x2="148" y2="398"/>
+    <line x1="452" y1="300" x2="452" y2="398"/>
+    <rect x="138" y="202" width="340" height="98" rx="14" fill="#eb5757"/>
+    <line x1="184" y1="202" x2="184" y2="300"/>
+    <line x1="432" y1="202" x2="432" y2="300"/>
+    <rect x="116" y="104" width="356" height="98" rx="14" fill="#93c47d"/>
+    <line x1="162" y1="104" x2="162" y2="202"/>
+    <line x1="426" y1="104" x2="426" y2="202"/>
+  </g>
+</svg>

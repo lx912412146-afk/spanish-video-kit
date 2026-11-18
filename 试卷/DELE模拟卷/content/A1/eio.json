@@ -1,0 +1,239 @@
+{
+  "nivel": "A1",
+  "prueba": "Expresión e interacción orales",
+  "zh": "口头表达与互动",
+  "duracion_min": 10,
+  "preparacion_min": 10,
+  "intro_es": "La prueba de Expresión e interacción orales contiene tres tareas. Duración: 10 minutos. Antes de la prueba, usted tiene 10 minutos para preparar las Tareas 1 y 2.",
+  "tareas": [
+    {
+      "n": 1,
+      "titulo_es": "Presentación personal",
+      "minutos": [1, 2],
+      "preparacion": true,
+      "instruccion_es": ["Usted tiene que hacer una presentación personal durante uno o dos minutos. Puede hablar de los aspectos de la tarjeta."],
+      "instruccion_zh": "你要做一段 1—2 分钟的自我介绍，可以讲卡片上列出的这些方面。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Presentación personal",
+          "puntos": ["Nombre", "Edad", "Nacionalidad", "Lugar de residencia", "Profesión o estudios", "Carácter", "Lenguas que habla"],
+          "art": "",
+          "texto": [],
+          "modelo": [
+            "Hola, buenos días. Me llamo Chen Jing. Chen es mi apellido y Jing es mi nombre. Tengo diecinueve años.",
+            "Soy china, de Chengdu. Chengdu es una ciudad muy grande del suroeste de China, y la comida allí es muy buena.",
+            "Ahora vivo en Hangzhou, en una residencia de la universidad. Vivo con tres compañeras de clase. Nuestra habitación es pequeña, pero muy bonita.",
+            "Soy estudiante. Estudio español en la universidad y estoy en primer curso. Tengo clase todas las mañanas. El español es difícil, pero me gusta mucho.",
+            "¿Cómo soy yo? Pues soy una persona tranquila y un poco tímida, pero también soy simpática y muy trabajadora. Mis amigas dicen que soy muy paciente.",
+            "Hablo chino, claro, y también inglés, bastante bien. Hablo un poco de español y quiero hablar mejor. En el futuro quiero trabajar con empresas españolas. Muchas gracias."
+          ],
+          "modelo_zh": [
+            "大家好。我叫陈静。陈是我的姓，静是我的名字。我十九岁。",
+            "我是中国人，来自成都。成都是中国西南部一座很大的城市，那里的菜非常好吃。",
+            "现在我住在杭州，住在大学宿舍里，和三个同班同学住在一起。我们的房间很小，但很漂亮。",
+            "我是学生，在大学学西班牙语，现在读一年级。我每天上午都有课。西班牙语很难，但我很喜欢。",
+            "我是什么样的人呢？我比较安静，有点害羞，不过我也很友善，非常勤奋。我的朋友们说我很有耐心。",
+            "我当然会说中文，英语也说得不错。我会说一点西班牙语，想说得更好。将来我想和西班牙的公司打交道。谢谢。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Buenos días. Siéntese, por favor. ¿Qué tal está?",
+          "Vamos a empezar la prueba. En la Tarea 1, usted tiene que presentarse: su nombre, su edad, su nacionalidad, dónde vive, su trabajo o sus estudios, cómo es usted y qué lenguas habla.",
+          "Tiene uno o dos minutos. Puede empezar cuando quiera.",
+          "Muy bien, muchas gracias."
+        ],
+        "preguntas": [],
+        "notas_zh": "开场寒暄（问好、请坐、问 “¿Qué tal está?”）不计分，只为让考生放松。T1 考官不提问、不打断，让考生按准备好的内容讲 1—2 分钟；讲满 2 分钟时礼貌地说 “Muy bien, muchas gracias.” 转入 T2。考生不到 1 分钟就停下时，可以等几秒、点头示意继续，但不要替考生提问。参考回答约 140 词，按 A1 考生的慢语速约 1.5 分钟，七个方面都讲到了。"
+      }
+    },
+    {
+      "n": 2,
+      "titulo_es": "Exposición de un tema",
+      "minutos": [2, 3],
+      "preparacion": true,
+      "instruccion_es": [
+        "Usted tiene que hablar durante dos o tres minutos sobre un tema. Elija uno de los dos temas.",
+        "En cada tema hay cinco aspectos. Elija tres y hable de ellos. Las preguntas le pueden ayudar."
+      ],
+      "instruccion_zh": "你要就一个话题讲 2—3 分钟。从两个话题中选一个。每个话题有五个方面，选其中三个来讲。卡片上的问题可以帮助你组织内容。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Mi tiempo libre",
+          "puntos": [
+            "Qué hace en su tiempo libre",
+            "Cuándo tiene tiempo libre",
+            "Con quién pasa su tiempo libre",
+            "Dónde pasa su tiempo libre",
+            "Algo nuevo que quiere aprender"
+          ],
+          "art": "",
+          "texto": [
+            "¿Qué le gusta hacer? ¿Hace deporte? ¿Lee? ¿Ve series o películas? ¿Escucha música?",
+            "¿Tiene tiempo libre por las tardes? ¿Y los fines de semana? ¿Cuántas horas?",
+            "¿Está solo? ¿Está con su familia, con sus amigos o con sus compañeros?",
+            "¿Está en casa? ¿Va al parque, al cine, a la playa o al centro de la ciudad?",
+            "¿Qué quiere aprender? ¿Un deporte, un instrumento, a bailar, a cocinar?"
+          ],
+          "modelo": [
+            "Bueno, yo voy a hablar de mi tiempo libre. Voy a hablar de tres cosas: qué hago, cuándo tengo tiempo libre y con quién estoy.",
+            "Primero, ¿qué hago en mi tiempo libre? Me gusta mucho el deporte. Juego al bádminton dos o tres veces por semana, en el polideportivo de la universidad. También me gusta leer y ver series en el móvil. Mi serie favorita es una serie china de amor. Es un poco tonta, pero me encanta. Y por la noche, antes de dormir, siempre escucho música.",
+            "Segundo, ¿cuándo tengo tiempo libre? De lunes a viernes tengo clase por la mañana y por la tarde estudio en la biblioteca. Por eso tengo poco tiempo libre, solo por la noche, de ocho a diez, más o menos. Los sábados y los domingos tengo más tiempo porque no hay clases. Los sábados por la mañana duermo mucho, ¡hasta las diez!",
+            "Y tercero, ¿con quién estoy? Entre semana estoy con mis compañeras de la residencia. Jugamos al bádminton juntas o vamos a cenar a un restaurante cerca de la universidad. Los fines de semana, a veces voy al centro de la ciudad con una amiga. Paseamos por el lago, vamos de compras o tomamos un té. En vacaciones vuelvo a Chengdu y estoy con mi familia.",
+            "Para mí, el tiempo libre es muy importante, porque estudio mucho y necesito descansar. Nada más. Muchas gracias."
+          ],
+          "modelo_zh": [
+            "嗯，我来讲讲我的业余时间。我讲三点：我做什么、我什么时候有空、我和谁在一起。",
+            "第一，我业余时间做什么？我很喜欢运动，每周在学校体育馆打两三次羽毛球。我也喜欢看书，用手机看电视剧。我最喜欢的是一部中国爱情剧，有点傻，可我特别喜欢。晚上睡觉前我总是听音乐。",
+            "第二，我什么时候有空？周一到周五我上午上课，下午在图书馆学习，所以空闲时间很少，只有晚上八点到十点左右。周六周日没有课，时间多一些。周六上午我睡得很久，一直睡到十点！",
+            "第三，我和谁在一起？平时我和宿舍的同学在一起，我们一起打羽毛球，或者去学校附近的饭馆吃晚饭。周末我有时和一个朋友去市中心，我们在湖边散步、逛街或者喝茶。放假的时候我回成都，和家人在一起。",
+            "对我来说，业余时间很重要，因为我学习很忙，需要休息。我讲完了，谢谢。"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "La comida",
+          "puntos": [
+            "Qué come normalmente",
+            "Los horarios de las comidas",
+            "Dónde come",
+            "Su comida favorita",
+            "Cocinar"
+          ],
+          "art": "",
+          "texto": [
+            "¿Qué desayuna? ¿Qué come al mediodía? ¿Qué cena?",
+            "¿A qué hora desayuna, come y cena? ¿Es igual los fines de semana?",
+            "¿Come en casa, en el trabajo, en la universidad o en restaurantes?",
+            "¿Cuál es su plato favorito? ¿Qué comida no le gusta?",
+            "¿Sabe cocinar? ¿Quién cocina en su casa? ¿Qué platos prepara usted?"
+          ],
+          "modelo": [
+            "Yo voy a hablar de la comida. Voy a hablar de qué como normalmente, de los horarios de las comidas y de mi comida favorita.",
+            "Primero, ¿qué como normalmente? Para desayunar, tomo leche de soja y pan chino, o un huevo. Al mediodía como en el comedor de la universidad: arroz con verduras y un poco de carne o pescado. Por la noche ceno poco, por ejemplo una sopa o unos fideos. Bebo mucha agua y té verde, pero no bebo café.",
+            "Segundo, los horarios. En China comemos pronto. Yo desayuno a las siete, como a las doce y ceno a las seis y media, más o menos. En España es muy diferente: la gente come a las dos o a las tres de la tarde y cena a las nueve o a las diez de la noche. ¡Es muy tarde para mí!",
+            "Y tercero, mi comida favorita. Soy de Chengdu y me encanta la comida de mi región, la comida de Sichuan. Es muy picante, pero muy rica. Mi plato favorito es el tofu picante de mi abuela. Cuando vuelvo a casa, ella siempre lo prepara para mí. También me gusta la comida española, sobre todo la tortilla de patatas y la paella. No me gustan mucho los dulces.",
+            "Para mí, comer bien es muy importante, y comer con amigos es todavía mejor. Muchas gracias."
+          ],
+          "modelo_zh": [
+            "我来讲讲吃饭。我讲三点：我平时吃什么、一日三餐的时间、我最喜欢的菜。",
+            "第一，我平时吃什么？早饭我喝豆浆，吃中式面点，或者吃一个鸡蛋。中午我在学校食堂吃米饭、蔬菜，再加一点肉或鱼。晚饭吃得少，比如一碗汤或一碗面。我喝很多水和绿茶，但不喝咖啡。",
+            "第二，吃饭的时间。在中国我们吃饭比较早。我七点吃早饭，十二点吃午饭，六点半左右吃晚饭。西班牙很不一样：人们下午两三点吃午饭，晚上九点、十点才吃晚饭。对我来说太晚了！",
+            "第三，我最喜欢的菜。我是成都人，特别喜欢家乡的川菜，很辣，但很好吃。我最喜欢的是奶奶做的麻婆豆腐，我每次回家她都给我做。我也喜欢西班牙菜，尤其是土豆鸡蛋饼和海鲜饭。我不太喜欢甜食。",
+            "对我来说，吃得好很重要，和朋友一起吃就更好了。谢谢。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Muy bien. Ahora vamos a pasar a la Tarea 2. ¿Qué tema ha preparado: Mi tiempo libre o La comida?",
+          "De acuerdo. Usted tiene que hablar de tres aspectos del tema durante dos o tres minutos. Puede empezar cuando quiera.",
+          "Muy bien, gracias."
+        ],
+        "preguntas": [
+          "Tema 1: ¿Qué hace usted los fines de semana?",
+          "Tema 1: ¿Hace deporte? ¿Qué deporte?",
+          "Tema 1: ¿Con quién sale normalmente?",
+          "Tema 2: ¿Qué come normalmente al mediodía?",
+          "Tema 2: ¿A qué hora cena?",
+          "Tema 2: ¿Cuál es su plato favorito?"
+        ],
+        "notas_zh": "考生先说选了哪张卡（Tema 1：Mi tiempo libre；Tema 2：La comida），再从五个方面里选三个讲 2—3 分钟。考官原则上不打断；只有考生停下超过十秒，或只讲了一两个方面就没话说时，才用上面的问题提示一次（前缀 Tema 1、Tema 2 表示用于哪张卡），提示后让考生接着自己讲，不要变成问答。考生卡片上每个方面旁边印着几个提示问题，只是帮助组织内容，考生不必逐条回答，讲到其中三个方面即可。两篇参考回答各约 230 词，都讲满三个方面。"
+      }
+    },
+    {
+      "n": 3,
+      "titulo_es": "Conversación con el entrevistador",
+      "minutos": [3, 4],
+      "preparacion": false,
+      "instruccion_es": [
+        "El entrevistador le va a hacer algunas preguntas sobre el tema de la Tarea 2. Responda a sus preguntas.",
+        "Al final, usted tiene que hacer dos preguntas al entrevistador sobre el mismo tema."
+      ],
+      "instruccion_zh": "考官会就你在 Tarea 2 讲的话题问你一些问题，请回答。最后，你要就同一个话题向考官提两个问题。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Conversación sobre el tema de la Tarea 2",
+          "puntos": [
+            "Responda a las preguntas del entrevistador sobre el tema de la Tarea 2.",
+            "Haga dos preguntas al entrevistador sobre el mismo tema."
+          ],
+          "art": "",
+          "texto": [],
+          "modelo": [
+            "E: Muy bien. Ahora vamos a hablar un poco más de su tiempo libre. ¿Qué hace normalmente los domingos?",
+            "C: Los domingos me levanto tarde, a las diez más o menos. Luego lavo la ropa y limpio la habitación. Por la tarde estudio un poco o voy al lago con mis amigas.",
+            "E: Usted juega al bádminton. ¿Hace otros deportes?",
+            "C: Sí, a veces nado en la piscina de la universidad. No me gusta correr, es un poco aburrido.",
+            "E: ¿Ve mucho la televisión?",
+            "C: No, en la residencia no tengo televisión. Veo series en el móvil o en el ordenador.",
+            "E: ¿Y ve series en español?",
+            "C: Sí, ahora veo una serie española para aprender, pero es difícil, porque hablan muy rápido.",
+            "E: ¿Sale por la noche con sus amigos?",
+            "C: A veces. Los viernes vamos a cenar o a cantar en un karaoke. Pero tenemos que volver a la residencia antes de las once.",
+            "E: ¿Y qué va a hacer en las vacaciones de invierno?",
+            "C: Normalmente vuelvo a Chengdu, pero este invierno quiero ir a Harbin con mis padres, porque allí hay mucha nieve y es muy bonito.",
+            "E: ¡Qué bien! Ahora usted puede hacerme dos preguntas a mí sobre el tiempo libre.",
+            "C: Vale. ¿Qué hace usted en su tiempo libre?",
+            "E: Pues me gusta mucho leer y caminar por la montaña. Los domingos voy al campo con mi perro.",
+            "C: ¡Qué bonito! ¿Y usted practica algún deporte?",
+            "E: Sí, juego al tenis con mi hermano los sábados por la mañana. Muy bien, muchas gracias. Hemos terminado la prueba.",
+            "C: Muchas gracias a usted. Adiós."
+          ],
+          "modelo_zh": [
+            "E：很好。现在我们再多聊聊您的业余时间。您星期天一般做什么？",
+            "C：星期天我起得晚，十点左右。然后洗衣服、打扫房间。下午学一会儿习，或者和朋友们去湖边。",
+            "E：您打羽毛球。您还做别的运动吗？",
+            "C：做，有时候在学校的游泳池游泳。我不喜欢跑步，有点无聊。",
+            "E：您常看电视吗？",
+            "C：不常看，宿舍里没有电视。我用手机或电脑看电视剧。",
+            "E：那您看西班牙语的电视剧吗？",
+            "C：看，现在我在看一部西班牙电视剧来学习，不过很难，因为他们说得很快。",
+            "E：您晚上和朋友出去吗？",
+            "C：有时候。星期五我们去吃饭或者去唱卡拉 OK。不过我们得在十一点以前回宿舍。",
+            "E：寒假您打算做什么？",
+            "C：我一般回成都，不过今年冬天我想和爸爸妈妈去哈尔滨，因为那里雪很多，很漂亮。",
+            "E：真好！现在您可以就业余时间问我两个问题。",
+            "C：好的。您业余时间做什么？",
+            "E：我很喜欢看书和爬山。星期天我带着我的狗去郊外。",
+            "C：真不错！那您做什么运动吗？",
+            "E：做，我星期六上午和我哥哥打网球。很好，非常感谢。考试结束了。",
+            "C：也谢谢您。再见。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Ahora vamos a hacer la Tarea 3. Vamos a hablar un poco más del tema de la Tarea 2. Yo le hago algunas preguntas y, al final, usted me hace dos preguntas a mí.",
+          "Muy bien. Ahora usted puede hacerme dos preguntas sobre el mismo tema.",
+          "Muchas gracias. Hemos terminado la prueba. Adiós."
+        ],
+        "preguntas": [
+          "Tema 1: ¿Qué hace normalmente los domingos?",
+          "Tema 1: ¿Qué deporte hace? ¿Dónde lo hace?",
+          "Tema 1: ¿Ve mucho la televisión? ¿Qué programas o series le gustan?",
+          "Tema 1: ¿Sale por la noche con sus amigos? ¿Adónde van?",
+          "Tema 1: ¿Le gusta leer? ¿Qué lee?",
+          "Tema 1: ¿Qué hace en vacaciones?",
+          "Tema 1: ¿Prefiere estar en casa o salir? ¿Por qué?",
+          "Tema 2: ¿Qué desayuna normalmente?",
+          "Tema 2: Entre semana, ¿come en casa o fuera de casa?",
+          "Tema 2: ¿Va a restaurantes? ¿Qué restaurantes le gustan?",
+          "Tema 2: ¿Conoce la comida española? ¿Qué platos le gustan?",
+          "Tema 2: ¿Qué come su familia en las fiestas importantes?",
+          "Tema 2: ¿Sabe cocinar? ¿Qué cocina?",
+          "Tema 2: ¿Bebe café o té? ¿Cuántas veces al día?"
+        ],
+        "notas_zh": "T3 不准备，接着考生在 T2 选的话题对话 3—4 分钟。前缀 Tema 1（Mi tiempo libre）、Tema 2（La comida）表示问题用于哪张卡，每张卡 7 个问题，挑 4—6 个问即可，不必全问，也不要问考生在 T2 已经讲清楚的内容。语速放慢，考生没听懂时可以重复或换更简单的说法；回答太短时追问 “¿Por qué?”“¿Y qué más?”。最后请考生向考官提两个和话题有关的问题，考官用一两句话简短回答。参考回答以 Tema 1 为例。"
+      }
+    }
+  ],
+  "criterios": [
+    {"es": "Uso de la lengua", "zh": "看语言本身：常用词够不够把日常话题说清楚；现在时变位、名词和形容词的性数一致、ser/estar/tener/gustar 等高频结构是否基本用对；发音和语调能否让人听懂。可以有停顿和错误，只要不让听的人猜不出意思。"},
+    {"es": "Cumplimiento de la tarea", "zh": "看任务完成得怎样：T1 是否讲到卡片上的大部分方面，T2 是否讲满三个方面、时间够两分钟，T3 能否听懂并回答考官的问题，最后能否提出两个切题的问题；内容不跑题，能用 y、pero、porque、también 把短句连起来。"}
+  ]
+}

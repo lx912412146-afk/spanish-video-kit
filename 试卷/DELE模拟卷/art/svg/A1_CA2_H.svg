@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<line x1="20" y1="420" x2="580" y2="420" stroke-width="6"/><rect x="196" y="300" width="26" height="120" fill="#999"/><path d="M209 300 L209 200 L250 200" stroke="#222" stroke-width="26"/><path d="M209 300 L209 200 L250 200" stroke="#999" stroke-width="14"/><rect x="162" y="168" width="64" height="20" rx="4" fill="#999"/><rect x="210" y="36" width="260" height="170" rx="10" fill="#fff"/><rect x="300" y="100" width="80" height="62" fill="none" stroke="#eb5757" stroke-width="7"/><path d="M290 192 L304 268 L376 268 L390 192" stroke-width="4"/><path d="M308 196 L318 268 M330 198 L334 268 M350 198 L346 268 M372 196 L362 268" stroke-width="4"/><path d="M296 222 L384 222 M300 246 L380 246" stroke-width="4"/><ellipse cx="340" cy="192" rx="54" ry="11" stroke="#222" stroke-width="14"/><ellipse cx="340" cy="192" rx="54" ry="11" stroke="#f6b26b" stroke-width="7"/><g transform="translate(470 352)"><circle r="62" fill="#f6b26b"/><path d="M-62 0 L62 0 M0 -62 L0 62" stroke-width="6"/><path d="M-44 -44 C-20 -20 -20 20 -44 44 M44 -44 C20 -20 20 20 44 44" stroke-width="6"/></g>
+  </g>
+</svg>

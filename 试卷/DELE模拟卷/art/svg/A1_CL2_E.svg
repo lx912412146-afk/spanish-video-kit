@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 泳池金属扶梯 -->
+    <g stroke="#222" stroke-width="32">
+      <path d="M244 282 V150 C244 96 176 96 176 150 V168"/>
+      <path d="M374 282 V150 C374 96 306 96 306 150 V168"/>
+      <path d="M244 206 H374 M244 256 H374"/>
+    </g>
+    <g stroke="#d9d9d9" stroke-width="14">
+      <path d="M244 282 V150 C244 96 176 96 176 150 V168"/>
+      <path d="M374 282 V150 C374 96 306 96 306 150 V168"/>
+      <path d="M244 206 H374 M244 256 H374"/>
+    </g>
+    <!-- 水波纹 -->
+    <g stroke="#222" stroke-width="28">
+      <path d="M90 300 q35 -24 70 0 t70 0 t70 0 t70 0 t70 0 t70 0"/>
+      <path d="M90 348 q35 -24 70 0 t70 0 t70 0 t70 0 t70 0 t70 0"/>
+      <path d="M160 396 q35 -24 70 0 t70 0 t70 0 t70 0"/>
+    </g>
+    <g stroke="#6fa8dc" stroke-width="12">
+      <path d="M90 300 q35 -24 70 0 t70 0 t70 0 t70 0 t70 0 t70 0"/>
+      <path d="M90 348 q35 -24 70 0 t70 0 t70 0 t70 0 t70 0 t70 0"/>
+      <path d="M160 396 q35 -24 70 0 t70 0 t70 0 t70 0"/>
+    </g>
+  </g>
+</svg>

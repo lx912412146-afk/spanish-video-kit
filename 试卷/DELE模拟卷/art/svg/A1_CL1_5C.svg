@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <g transform="translate(0,-38)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- 辐条 -->
+    <g stroke="#999" stroke-width="3">
+      <line x1="91" y1="315" x2="239" y2="315"/><line x1="100.9" y1="278" x2="229.1" y2="352"/>
+      <line x1="128" y1="250.9" x2="202" y2="379.1"/><line x1="165" y1="241" x2="165" y2="389"/>
+      <line x1="202" y1="250.9" x2="128" y2="379.1"/><line x1="229.1" y1="278" x2="100.9" y2="352"/>
+      <line x1="361" y1="315" x2="509" y2="315"/><line x1="370.9" y1="278" x2="499.1" y2="352"/>
+      <line x1="398" y1="250.9" x2="472" y2="379.1"/><line x1="435" y1="241" x2="435" y2="389"/>
+      <line x1="472" y1="250.9" x2="398" y2="379.1"/><line x1="499.1" y1="278" x2="370.9" y2="352"/>
+    </g>
+    <!-- 车圈和轮胎 -->
+    <circle cx="165" cy="315" r="74" stroke="#999" stroke-width="5"/>
+    <circle cx="435" cy="315" r="74" stroke="#999" stroke-width="5"/>
+    <circle cx="165" cy="315" r="84" stroke="#222" stroke-width="16"/>
+    <circle cx="435" cy="315" r="84" stroke="#222" stroke-width="16"/>
+    <!-- 挡泥板 -->
+    <path d="M69.2 280.1 A102 102 0 0 1 216 226.7" stroke="#222" stroke-width="18"/>
+    <path d="M426.1 213.4 A102 102 0 0 1 533.5 288.6" stroke="#222" stroke-width="18"/>
+    <path d="M69.2 280.1 A102 102 0 0 1 216 226.7" stroke="#d9d9d9" stroke-width="8"/>
+    <path d="M426.1 213.4 A102 102 0 0 1 533.5 288.6" stroke="#d9d9d9" stroke-width="8"/>
+    <!-- 链条 -->
+    <path d="M285 299 L165 306 M285 351 L165 324" stroke="#222" stroke-width="4"/>
+    <!-- 车架（女式低跨梁城市车） -->
+    <g stroke="#222" stroke-width="22">
+      <path d="M285 325 L255 195"/><path d="M285 325 L165 315"/><path d="M258 208 L165 315"/>
+      <path d="M407 205 C365 235 300 262 285 325"/><path d="M400 172 L412 220"/>
+      <path d="M412 220 C420 255 430 285 435 315"/>
+    </g>
+    <g stroke="#93c47d" stroke-width="12">
+      <path d="M285 325 L255 195"/><path d="M285 325 L165 315"/><path d="M258 208 L165 315"/>
+      <path d="M407 205 C365 235 300 262 285 325"/><path d="M400 172 L412 220"/>
+      <path d="M412 220 C420 255 430 285 435 315"/>
+    </g>
+    <!-- 座杆和车座 -->
+    <line x1="255" y1="195" x2="250" y2="170" stroke="#222" stroke-width="10"/>
+    <path d="M216 166 C230 151 274 151 292 162 C294 173 270 177 250 177 C234 177 220 175 216 166 Z" fill="#a67c52" stroke="#222" stroke-width="7"/>
+    <!-- 车把 -->
+    <line x1="400" y1="172" x2="394" y2="140" stroke="#222" stroke-width="10"/>
+    <path d="M396 140 C380 135 362 134 348 140" stroke="#222" stroke-width="10"/>
+    <path d="M368 136 L344 142" stroke="#222" stroke-width="20"/>
+    <path d="M368 136 L344 142" stroke="#a67c52" stroke-width="9"/>
+    <!-- 车筐 -->
+    <path d="M398 150 L414 150" stroke="#222" stroke-width="8"/>
+    <path d="M440 200 L418 242" stroke="#222" stroke-width="6"/>
+    <path d="M410 128 L515 128 L505 200 L420 200 Z" fill="#a67c52" stroke="#222" stroke-width="7"/>
+    <path d="M413.5 152 L511.5 152 M416.8 176 L508.2 176 M446 128 L448 200 M480 128 L477 200" stroke="#222" stroke-width="4"/>
+    <path d="M405 128 L520 128" stroke="#222" stroke-width="10"/>
+    <!-- 牙盘和脚蹬 -->
+    <circle cx="285" cy="325" r="26" fill="#d9d9d9" stroke="#222" stroke-width="6"/>
+    <path d="M285 325 L306 366" stroke="#222" stroke-width="10"/>
+    <path d="M292 369 L320 363" stroke="#222" stroke-width="12"/>
+    <!-- 车轴 -->
+    <circle cx="165" cy="315" r="10" fill="#222" stroke="none"/>
+    <circle cx="435" cy="315" r="10" fill="#222" stroke="none"/>
+    <circle cx="285" cy="325" r="7" fill="#222" stroke="none"/>
+  </g>
+</svg>
