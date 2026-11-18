@@ -1,0 +1,300 @@
+{
+  "nivel": "B1",
+  "prueba": "Comprensión auditiva",
+  "zh": "听力理解",
+  "duracion_min": 40,
+  "intro_es": "La prueba de Comprensión auditiva contiene cinco tareas. Usted tiene que responder a 30 preguntas. Duración: 40 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar seis mensajes: anuncios, avisos y mensajes de contestador. Escuchará cada mensaje dos veces. Después debe contestar a las preguntas, de la 1 a la 6. Seleccione la opción correcta. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到六条讯息：广告、广播通知和电话留言。每条讯息播放两遍。听后回答第 1—6 题，选出正确答案。请把答案涂在答题卡上。",
+      "tema_zh": "日常生活中的短讯息：诊所改约留言、烹饪学校广告、车站广播、图书馆通知、手机维修广告、朋友的电话留言",
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "Mensaje 1",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Recepcionista", "es": "Buenos días, señor Molina. Le llamo de la clínica de fisioterapia Ribera. Tenemos que anular su cita del jueves a las once, porque la fisioterapeuta estará en un curso de formación. Le podemos ofrecer el viernes a la misma hora o el lunes por la tarde. Por favor, llámenos al 96 312 45 78 para confirmar.", "zh": "早上好，莫利纳先生。我是里贝拉理疗诊所的。我们不得不取消您周四十一点的预约，因为理疗师那天要去上培训课。我们可以给您改到周五同一时间，或者周一下午。请拨打 96 312 45 78 和我们确认。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "2",
+          "rotulo": "Mensaje 2",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Locutor", "es": "¿Quieres aprender a cocinar platos sanos sin pasar horas en la cocina? En la escuela Sabor y Salud te enseñamos recetas rápidas y baratas. Las clases son los martes y los jueves por la tarde, en grupos de ocho. Este mes, si te apuntas con un amigo, los dos pagáis solo la mitad de la matrícula. ¡No te lo pierdas!", "zh": "想学做健康的菜，又不想在厨房里待上好几个小时吗？在“味道与健康”烹饪学校，我们教你又快又便宜的菜谱。课程在每周二和周四下午，每组八个人。本月如果你和一位朋友一起报名，两个人都只付一半的注册费。千万别错过！"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "3",
+          "rotulo": "Mensaje 3",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Megafonía", "es": "Señores viajeros, atención, por favor. El tren regional con destino Salamanca y salida prevista a las 17:40 saldrá con unos veinte minutos de retraso. El retraso se debe a una avería técnica. Además, el tren saldrá de la vía 6, y no de la vía 2, como estaba anunciado. Les pedimos disculpas por las molestias.", "zh": "各位旅客请注意。开往萨拉曼卡、原定 17:40 发车的地区列车将晚点约二十分钟。晚点原因是技术故障。另外，该列车将从 6 号站台发车，而不是之前通知的 2 号站台。给您带来不便，敬请谅解。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "4",
+          "rotulo": "Mensaje 4",
+          "presentacion": "",
+          "segs": [
+            {"v": "女4", "who": "Bibliotecaria", "es": "Buenas tardes, este es un mensaje de la biblioteca municipal del barrio del Carmen. El libro que usted reservó ya ha llegado y lo tiene a su disposición en el mostrador de préstamos. Se lo guardamos hasta el próximo martes. Recuerde que necesita traer su carné de la biblioteca, porque sin él no podemos prestarle el libro.", "zh": "下午好，这是卡门区市立图书馆的留言。您预约的书已经到了，放在借阅台，随时可以来取。我们给您保留到下周二。请记得带上您的借书证，没有借书证我们不能把书借给您。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "5",
+          "rotulo": "Mensaje 5",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Locutor", "es": "¿Se te ha roto la pantalla del móvil? En Reparatodo lo arreglamos en solo una hora y sin pedir cita. Además, si la reparación no queda bien, te devolvemos el dinero. Estamos en la calle Mayor, número 15, al lado del mercado. Abrimos de lunes a sábado, de diez de la mañana a ocho de la tarde.", "zh": "手机屏幕摔坏了吗？在“全能修”，我们只要一个小时就能修好，而且不用预约。另外，如果修得不好，我们退钱。我们在马约尔街 15 号，市场旁边。营业时间是周一到周六，上午十点到晚上八点。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "6",
+          "rotulo": "Mensaje 6",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Inés", "es": "Hola, Marta, soy Inés. Te llamo por la excursión del sábado a la sierra. Al final no vamos en mi coche, porque lo tengo en el taller. Iremos en el autobús de las ocho, que sale de la estación. Ya he comprado los billetes para las dos, así que tú solo tienes que traer la comida. ¡Nos vemos el sábado!", "zh": "喂，玛尔塔，我是伊内斯。我打电话是为了周六去山里郊游的事。最后我们不开我的车了，因为车在修理厂。我们坐八点的大巴去，车从车站出发。两个人的票我已经买好了，你只要带吃的就行。周六见！"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "preguntas": [
+        {"n": 1, "audio": "1", "enunciado": "La clínica llama para...", "opciones": ["ofrecer al paciente otros días para su sesión.", "recordar al paciente su cita del jueves.", "invitar al paciente a un curso de formación."], "clave": "A", "explicacion": "诊所说“Tenemos que anular su cita del jueves a las once”，接着提出“el viernes a la misma hora o el lunes por la tarde”两个新时间，打电话的目的是改约，选 A。B 错：周四的预约已经取消，不是提醒。C 错：去上培训课的是理疗师，不是病人。"},
+        {"n": 2, "audio": "2", "enunciado": "Según el anuncio, este mes...", "opciones": ["el amigo que acompaña al alumno no paga nada.", "hay clases los martes y los jueves por la mañana.", "inscribirse con otra persona sale más barato."], "clave": "C", "explicacion": "广告说“si te apuntas con un amigo, los dos pagáis solo la mitad de la matrícula”，两人一起报名都只付一半，所以更便宜，选 C。A 错：朋友也要付一半，不是免费。B 错：上课时间是周二、周四“por la tarde”（下午），不是上午。"},
+        {"n": 3, "audio": "3", "enunciado": "Según el aviso, el tren a Salamanca...", "opciones": ["saldrá antes de la hora prevista.", "cambia de lugar de salida.", "se cancela por una avería."], "clave": "B", "explicacion": "广播说“el tren saldrá de la vía 6, y no de la vía 2, como estaba anunciado”，发车站台变了，选 B。A 错：列车“saldrá con unos veinte minutos de retraso”，是晚点不是提前。C 错：“una avería técnica”只是晚点的原因，列车并没有取消。"},
+        {"n": 4, "audio": "4", "enunciado": "¿Qué tiene que hacer la persona que recibe el mensaje?", "opciones": ["Devolver el libro antes del próximo martes.", "Llevar su tarjeta para recoger el libro.", "Llamar por teléfono para reservar el libro."], "clave": "B", "explicacion": "留言说书已经到了，保留到下周二，并提醒“necesita traer su carné de la biblioteca”，所以要带借书证去取书，选 B。A 错：周二是取书的期限，不是还书的期限。C 错：书已经预约好了（“El libro que usted reservó”），不用再打电话预约。"},
+        {"n": 5, "audio": "5", "enunciado": "Según el anuncio, en esta tienda...", "opciones": ["si el arreglo falla, se recupera lo pagado.", "hay que reservar hora antes de ir.", "atienden a los clientes todos los días de la semana."], "clave": "A", "explicacion": "广告说“si la reparación no queda bien, te devolvemos el dinero”，修不好就退钱，选 A。B 错：广告明确说修手机“sin pedir cita”，不用预约。C 错：营业时间是“de lunes a sábado”，周日不营业。"},
+        {"n": 6, "audio": "6", "enunciado": "Inés le pide a Marta que...", "opciones": ["compre los billetes del autobús.", "conduzca hasta la sierra.", "se encargue de llevar algo para comer."], "clave": "C", "explicacion": "伊内斯说“tú solo tienes que traer la comida”，玛尔塔只需要带吃的，选 C。A 错：车票伊内斯已经买了（“Ya he comprado los billetes para las dos”）。B 错：她们坐大巴去（“Iremos en el autobús de las ocho”），不开车。"}
+      ]
+    },
+    {
+      "n": 2,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar a una mujer que cuenta cómo cambió de profesión. Escuchará la audición dos veces. Después debe contestar a las preguntas, de la 7 a la 12. Seleccione la opción correcta. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到一位女士讲她如何换了职业。录音播放两遍。听后回答第 7—12 题，选出正确答案。请把答案涂在答题卡上。",
+      "tema_zh": "换职业：一位程序员怎样学会修复旧家具，开了自己的作坊",
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Elena", "es": "Hola, me llamo Elena y tengo treinta y seis años. Hasta hace tres años trabajaba como programadora en una empresa de Bilbao. Ganaba un buen sueldo, pero pasaba nueve o diez horas al día delante del ordenador y siempre estaba cansada. Hoy tengo un pequeño taller donde restauro muebles antiguos, y os quiero contar cómo cambió mi vida.", "zh": "大家好，我叫埃莱娜，三十六岁。三年前，我还在毕尔巴鄂一家公司当程序员。工资不错，可我每天要在电脑前坐九到十个小时，总是很累。现在我有一间小作坊，专门修复旧家具。我想跟大家讲讲我的生活是怎么改变的。"},
+            {"v": "女1", "who": "Elena", "es": "Todo empezó por casualidad. Cuando murió mi abuela, mi familia vendió su piso, y yo me quedé con una cómoda de madera muy vieja. Estaba en muy mal estado y nadie más la quería. Pregunté en varias tiendas de muebles cuánto costaba restaurarla, pero los precios eran altísimos. Entonces pensé: ¿y si aprendo a hacerlo yo misma?", "zh": "一切都始于偶然。祖母去世后，家里把她的房子卖了，我留下了一个很旧的木头五斗柜。它破得很厉害，别人都不想要。我去了好几家家具店问修复要多少钱，价格都高得吓人。于是我想：要不我自己学着修？"},
+            {"v": "女1", "who": "Elena", "es": "Primero vi algunos vídeos en internet, pero no me sirvieron de mucho, porque nadie me corregía. Así que me apunté a un curso de los sábados en un taller del casco viejo. El profesor era Tomás, un carpintero jubilado con muchísima paciencia. Él me enseñó a quitar la pintura vieja, a reparar las patas y a elegir el barniz adecuado para cada madera.", "zh": "一开始我在网上看了一些视频，可是没多大用，因为没人给我纠正。于是我报了老城区一家作坊的周六课程。老师叫托马斯，是一位退休的木匠，特别有耐心。他教我怎样去掉旧漆、修理柜腿，还有怎样给每种木头挑合适的清漆。"},
+            {"v": "女1", "who": "Elena", "es": "Al principio pensaba que me costaría encontrar tiempo, pero no fue así, porque tenía los sábados libres. Y lo más difícil no fue la técnica, sino aprender a ir despacio. En mi trabajo todo era urgente, y yo quería terminar la cómoda en dos semanas. Tomás siempre me decía que la madera tiene su propio ritmo. Al final tardé casi cuatro meses, pero el resultado fue precioso.", "zh": "起初我以为会挤不出时间，其实不然，因为我周六都有空。最难的也不是技术，而是学会慢下来。在公司里什么事都很急，我原本想两个星期就把五斗柜修好。托马斯总对我说，木头有它自己的节奏。最后我花了将近四个月，但成品漂亮极了。"},
+            {"v": "女1", "who": "Elena", "es": "Después de la cómoda vinieron una mesa, unas sillas y una estantería. Mis amigos empezaron a pedirme que arreglara sus muebles, y algunos hasta querían pagarme. Pero no dejé la empresa de un día para otro. Durante un año trabajé como programadora solo por las mañanas, y por las tardes restauraba muebles en un garaje que alquilé. Así pude comprobar si era posible vivir de esto.", "zh": "五斗柜之后，又修了一张桌子、几把椅子和一个书架。朋友们开始请我修他们的家具，有的甚至想付钱给我。不过我没有一下子就辞职。有一年时间，我只在上午当程序员，下午就在租来的车库里修家具。这样我就能检验靠这个到底能不能生活。"},
+            {"v": "女1", "who": "Elena", "es": "Ahora tengo clientes de toda la ciudad. Muchos me traen muebles de sus padres o de sus abuelos, igual que mi cómoda. No pago publicidad: casi todos llegan porque alguien les ha hablado de mí. Además, una vez al mes doy un taller para principiantes, y eso me encanta, porque me recuerda mis primeros sábados con Tomás.", "zh": "现在全城都有我的客户。很多人拿来的是父母或祖父母留下的家具，就像我那个五斗柜一样。我不花钱做广告：几乎所有人都是听别人说起我才来的。另外，我每个月给初学者开一次工作坊，我特别喜欢，因为它让我想起最初跟托马斯学习的那些周六。"},
+            {"v": "女1", "who": "Elena", "es": "Es verdad que gano menos dinero que antes, pero duermo mejor y me siento orgullosa de lo que hago. Si alguien está pensando en cambiar de profesión, mi consejo es no tener prisa. Probad primero, combinad las dos cosas durante un tiempo y, sobre todo, buscad a alguien que os enseñe bien.", "zh": "我现在挣的钱确实比以前少，可是睡得更好了，也为自己做的事感到骄傲。如果有人在考虑换职业，我的建议是别着急。先试一试，两份工作同时做一段时间，最重要的是，找一个能好好教你们的人。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "preguntas": [
+        {"n": 7, "audio": "1", "enunciado": "Elena empezó a restaurar muebles porque...", "opciones": ["su familia le pidió que arreglara la cómoda de la abuela.", "había visto vídeos sobre el tema en internet.", "pagar a un profesional le parecía demasiado caro."], "clave": "C", "explicacion": "埃莱娜去家具店问修复五斗柜的价格，“los precios eran altísimos”，于是想“¿y si aprendo a hacerlo yo misma?”，选 C。A 错：家人没有请她修，五斗柜是“nadie más la quería”，她自己留下的。B 错：看网络视频是决定自学以后的事，而且“no me sirvieron de mucho”。"},
+        {"n": 8, "audio": "1", "enunciado": "¿Cómo aprendió Elena a restaurar muebles?", "opciones": ["En unas clases de fin de semana.", "Sola, con vídeos de internet.", "Trabajando como ayudante de un carpintero."], "clave": "A", "explicacion": "她说“me apunté a un curso de los sábados en un taller del casco viejo”，是在周六的课上学会的，选 A。B 错：视频“no me sirvieron de mucho”。C 错：木匠托马斯是课程的老师，她是学生，并没有在木匠那里当帮工。"},
+        {"n": 9, "audio": "1", "enunciado": "Según Elena, lo más difícil al principio fue...", "opciones": ["encontrar tiempo para ir al curso.", "acostumbrarse a trabajar sin prisa.", "aprender las técnicas de restauración."], "clave": "B", "explicacion": "她说“lo más difícil no fue la técnica, sino aprender a ir despacio”，最难的是习惯慢节奏，选 B。A 错：“pensaba que me costaría encontrar tiempo, pero no fue así”，时间不成问题。C 错：她明确说最难的“no fue la técnica”。"},
+        {"n": 10, "audio": "1", "enunciado": "¿Qué hizo Elena con su trabajo de programadora?", "opciones": ["Lo dejó justo después de terminar la cómoda.", "Lo dejó cuando sus amigos empezaron a pagarle.", "Lo mantuvo un tiempo, pero a media jornada."], "clave": "C", "explicacion": "她说“no dejé la empresa de un día para otro”，而是“Durante un año trabajé como programadora solo por las mañanas”，即先只上半天班，做了一年，选 C。A、B 错：修完五斗柜、朋友开始想付钱时，她都没有马上辞职。"},
+        {"n": 11, "audio": "1", "enunciado": "Hoy, la mayoría de los clientes de Elena...", "opciones": ["han visto la publicidad de su taller en internet.", "la conocen por lo que otras personas les cuentan.", "son vecinos de su mismo barrio."], "clave": "B", "explicacion": "她说“No pago publicidad: casi todos llegan porque alguien les ha hablado de mí”，客户大多是别人介绍来的，选 B。A 错：她不花钱做广告。C 错：她的客户来自“toda la ciudad”，不只是本街区的邻居。"},
+        {"n": 12, "audio": "1", "enunciado": "¿Qué recomienda Elena a quien quiere cambiar de profesión?", "opciones": ["No abandonar enseguida el empleo que tiene.", "Elegir un oficio en el que se gane más.", "Aprender por su cuenta, sin ningún maestro."], "clave": "A", "explicacion": "她的建议是“no tener prisa”，“combinad las dos cosas durante un tiempo”，即先别辞掉原来的工作，两边兼顾一段时间，选 A。B 错：她自己挣得比以前少，也没有建议找收入更高的职业。C 错：她说“buscad a alguien que os enseñe bien”，要找人好好教，而不是自学。"}
+      ]
+    },
+    {
+      "n": 3,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar seis noticias de un programa de radio. Escuchará el programa dos veces. Después debe contestar a las preguntas, de la 13 a la 18. Seleccione la opción correcta. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到一个电台节目中的六条新闻。节目播放两遍。听后回答第 13—18 题，选出正确答案。请把答案涂在答题卡上。",
+      "tema_zh": "电台早间新闻：城市公共自行车、青少年睡眠研究、博物馆新展厅、社区时间银行、慈善长跑改线、天气预报",
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Locutora", "es": "Buenos días, son las ocho de la mañana y empieza el informativo de Radio Ciudad. Vamos con las noticias del día.", "zh": "早上好，现在是早上八点，“城市电台”新闻节目开始。下面是今天的新闻。"},
+            {"v": "男2", "who": "Locutor", "es": "Desde el próximo lunes, el servicio público de bicicletas de Valencia funcionará las veinticuatro horas del día. Hasta ahora, las bicicletas solo se podían usar entre las seis de la mañana y la medianoche. El ayuntamiento explica que muchos trabajadores lo habían pedido porque terminan su jornada muy tarde. El precio del abono anual no cambiará.", "zh": "从下周一起，巴伦西亚的公共自行车将二十四小时运营。此前，自行车只能在早上六点到午夜之间使用。市政府解释说，许多下班很晚的上班族早就提出了这个要求。年卡价格不变。"},
+            {"v": "女2", "who": "Locutora", "es": "Un grupo de investigadores de Granada ha publicado un estudio sobre el sueño de los jóvenes. Según sus datos, siete de cada diez chicos y chicas de entre quince y veinte años usan el móvil en la cama. Esta costumbre hace que duerman casi una hora menos de lo necesario. Los expertos recomiendan dejar el teléfono fuera del dormitorio y leer un rato antes de dormir.", "zh": "格拉纳达的一组研究人员发表了一项关于年轻人睡眠的研究。数据显示，十五到二十岁的年轻人中，十个里有七个会躺在床上玩手机。这个习惯使他们的睡眠比需要的少了将近一小时。专家建议把手机放在卧室外面，睡前读一会儿书。"},
+            {"v": "男2", "who": "Locutor", "es": "En Cádiz, el museo de arte Puerta del Mar abre hoy una nueva sala dedicada a jóvenes artistas andaluces. Durante el primer mes, la entrada a esta sala será gratuita. Después costará cuatro euros, aunque los estudiantes y los mayores de sesenta y cinco años solo pagarán la mitad.", "zh": "在加的斯，“海门”艺术博物馆今天开放一个新展厅，专门展出安达卢西亚青年艺术家的作品。第一个月这个展厅免费参观。之后门票四欧元，不过学生和六十五岁以上的老人只需付一半。"},
+            {"v": "女2", "who": "Locutora", "es": "En Sevilla, los vecinos del barrio de Triana han creado un banco de tiempo. La idea es sencilla: cada persona ofrece una hora de su tiempo para ayudar a otra, por ejemplo, cuidando plantas o dando clases de inglés. A cambio, recibe una hora de otro servicio. Aquí no se usa dinero. Ya participan más de doscientas personas.", "zh": "在塞维利亚，特里亚纳区的居民建立了一个“时间银行”。想法很简单：每个人拿出一小时帮助别人，比如照看植物或教英语；作为交换，他会得到别人一小时的其他服务。这里不用钱。目前已有两百多人参加。"},
+            {"v": "男2", "who": "Locutor", "es": "Y en deportes, la carrera popular de Zaragoza, que se celebra el 12 de octubre, cambia este año de recorrido. Por unas obras en el centro, los corredores no saldrán de la plaza del Pilar, sino del parque Grande. El dinero de las inscripciones servirá para comprar material para el hospital infantil de la ciudad.", "zh": "体育新闻：10 月 12 日举行的萨拉戈萨大众长跑今年改变路线。由于市中心施工，选手们将不从皮拉尔广场出发，而是从大公园出发。报名费将用于为本市儿童医院购买设备。"},
+            {"v": "女2", "who": "Locutora", "es": "Y ahora, el tiempo. Hoy habrá lluvias fuertes en Galicia y en Asturias, sobre todo por la tarde. En el resto del país el cielo estará despejado, y en Andalucía se llegará a los treinta grados. Para el fin de semana se espera un descenso de las temperaturas en casi toda la península.", "zh": "下面是天气。今天加利西亚和阿斯图里亚斯有大雨，尤其是下午。全国其他地区天气晴朗，安达卢西亚气温将达到三十度。预计周末半岛大部分地区气温下降。"},
+            {"v": "男2", "who": "Locutor", "es": "Estas han sido las noticias de las ocho. Volvemos a las nueve con más información. Muy buenos días a todos.", "zh": "以上是八点新闻。九点我们再为您带来更多消息。祝大家早上愉快。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "preguntas": [
+        {"n": 13, "audio": "1", "enunciado": "A partir del lunes, las bicicletas públicas de Valencia...", "opciones": ["solo se podrán usar hasta la medianoche.", "se podrán utilizar también durante la noche.", "costarán menos a quienes trabajan tarde."], "clave": "B", "explicacion": "新闻说公共自行车“funcionará las veinticuatro horas del día”，以后夜里也能用，选 B。A 错：只能用到午夜是“Hasta ahora”的情况，周一以后就变了。C 错：“El precio del abono anual no cambiará”，价格不变。"},
+        {"n": 14, "audio": "1", "enunciado": "Según el estudio, muchos jóvenes...", "opciones": ["dejan el móvil fuera del dormitorio.", "leen un rato antes de dormir.", "descansan menos de lo que necesitan."], "clave": "C", "explicacion": "研究说在床上用手机的习惯“hace que duerman casi una hora menos de lo necesario”，即年轻人睡得比需要的少，选 C。A、B 错：把手机放在卧室外、睡前读书是专家的建议（“Los expertos recomiendan”），不是年轻人现在的做法。"},
+        {"n": 15, "audio": "1", "enunciado": "La nueva sala del museo de Cádiz...", "opciones": ["se podrá visitar sin pagar durante unas semanas.", "será siempre gratuita para los estudiantes.", "costará cuatro euros a los mayores de sesenta y cinco años."], "clave": "A", "explicacion": "新闻说“Durante el primer mes, la entrada a esta sala será gratuita”，开放的第一个月免费，选 A。B 错：一个月后学生也要付半价（“solo pagarán la mitad”），不是一直免费。C 错：四欧元是全价，六十五岁以上的老人只付一半。"},
+        {"n": 16, "audio": "1", "enunciado": "En el banco de tiempo de Triana...", "opciones": ["cada vecino paga un poco por cada hora de ayuda.", "solo se ofrecen clases de idiomas.", "los vecinos intercambian servicios entre ellos."], "clave": "C", "explicacion": "时间银行的做法是每人花一小时帮别人，“A cambio, recibe una hora de otro servicio”，即邻居之间互换服务，选 C。A 错：新闻明确说“Aquí no se usa dinero”。B 错：教英语只是例子之一，还有照看植物等。"},
+        {"n": 17, "audio": "1", "enunciado": "Este año, la carrera popular de Zaragoza...", "opciones": ["tendrá un punto de salida diferente al habitual.", "saldrá, como siempre, de la plaza del Pilar.", "ayudará a pagar las obras del centro."], "clave": "A", "explicacion": "新闻说选手“no saldrán de la plaza del Pilar, sino del parque Grande”，起点换了，选 A。B 错：今年恰恰不从皮拉尔广场出发。C 错：报名费用于“comprar material para el hospital infantil”，市中心施工只是改线的原因。"},
+        {"n": 18, "audio": "1", "enunciado": "¿Qué tiempo se espera para el fin de semana?", "opciones": ["Lluvias fuertes en Galicia y Asturias por la tarde.", "Temperaturas más bajas en casi todo el país.", "Unos treinta grados en Andalucía."], "clave": "B", "explicacion": "天气预报说“Para el fin de semana se espera un descenso de las temperaturas en casi toda la península”，周末降温，选 B。A、C 错：北部大雨和安达卢西亚三十度说的都是“Hoy”（今天）的天气，不是周末。"}
+      ]
+    },
+    {
+      "n": 4,
+      "tipo": "relacionar",
+      "instruccion_es": "Usted va a escuchar a siete personas que cuentan cómo aprendieron una lengua extranjera. Escuchará a cada persona dos veces. Seleccione el enunciado que corresponde a cada persona. Hay diez enunciados, incluido el del ejemplo. Seleccione solamente seis. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到七个人讲自己是怎样学会一门外语的。每个人的话播放两遍。为每个人选出与他/她所说内容相符的句子。共有十个句子（含例题所用的一个），只需选出六个。请把答案涂在答题卡上。",
+      "tema_zh": "怎样学会一门外语：七个人的不同经历（其中一位来自墨西哥）",
+      "opciones_tipo": "frases",
+      "frases": [
+        {"id": "A", "texto": "Aprendió el idioma mientras viajaba por el país.", "zh": "是在那个国家旅行时学会这门语言的。"},
+        {"id": "B", "texto": "Practicaba con alguien que estudiaba su lengua.", "zh": "和一个正在学自己母语的人一起练习。"},
+        {"id": "C", "texto": "Su empleo le obligó a estudiar el idioma.", "zh": "工作要求他/她必须学这门语言。"},
+        {"id": "D", "texto": "Al principio no hablaba porque tenía vergüenza.", "zh": "一开始因为不好意思而不敢开口。"},
+        {"id": "E", "texto": "Dejó las clases y siguió estudiando con el móvil.", "zh": "不再上课，改用手机继续学。"},
+        {"id": "F", "texto": "Volvió a aprender una lengua que había hablado en su infancia.", "zh": "重新学起了小时候会说的语言。"},
+        {"id": "G", "texto": "Aprendió el idioma para comunicarse con la familia de su pareja.", "zh": "为了和伴侣的家人交流而学。"},
+        {"id": "H", "texto": "Estudió el idioma viviendo con una familia de acogida.", "zh": "住在寄宿家庭里学这门语言。"},
+        {"id": "I", "texto": "Una aplicación del móvil no le bastó para aprender a conversar.", "zh": "光靠手机应用没能学会和人对话。"},
+        {"id": "J", "texto": "Aprendió sin profesor, delante de la televisión.", "zh": "没有老师，是看电视学会的。"}
+      ],
+      "audios": [
+        {
+          "id": "0",
+          "rotulo": "Persona 0",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Clara", "es": "Yo aprendí alemán en Barcelona, sin salir de mi ciudad. En la universidad conocí a Lucas, un chico de Berlín que estudiaba español. Quedábamos dos tardes por semana: una hora hablábamos en alemán y otra hora en español. Así los dos mejoramos mucho y, además, nos hicimos muy buenos amigos. Todavía hoy hablamos por teléfono cada semana.", "zh": "我是在巴塞罗那学的德语，没离开过自己的城市。我在大学认识了卢卡斯，一个在学西班牙语的柏林小伙子。我们每周见两个下午：一个小时说德语，一个小时说西班牙语。这样我们俩都进步很大，还成了好朋友。直到现在，我们每周都还通电话。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "B",
+          "explicacion": "例题。克拉拉在大学认识了正在学西班牙语的德国人卢卡斯，“una hora hablábamos en alemán y otra hora en español”，两人互相练习对方的语言，对应 B。"
+        },
+        {
+          "id": "19",
+          "rotulo": "Persona 1",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Marcos", "es": "Mi mujer es italiana y, cuando empezamos a salir, yo no sabía ni una palabra de italiano. Ella habla muy bien español, así que al principio no lo necesitaba. Pero cuando visitábamos a su familia en Nápoles, yo no entendía nada en las comidas. Por eso decidí aprenderlo. Hoy hablo con mis suegros sin problemas, aunque ellos dicen que tengo acento español.", "zh": "我妻子是意大利人。我们刚开始交往时，我一个意大利语单词都不会。她西班牙语说得很好，所以一开始我用不着。可是我们去那不勒斯看她家人时，饭桌上的话我一句也听不懂。所以我决定学。现在我和岳父母交流没问题，虽然他们说我有西班牙口音。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "G",
+          "explicacion": "马科斯的妻子是意大利人，去那不勒斯看她家人时“yo no entendía nada en las comidas. Por eso decidí aprenderlo”，学意大利语是为了和妻子的家人交流，对应 G。H 不对：他只是去探望岳父母，没有住在寄宿家庭。"
+        },
+        {
+          "id": "20",
+          "rotulo": "Persona 2",
+          "presentacion": "",
+          "segs": [
+            {"v": "女4", "who": "Rosa", "es": "Hace dos años quise aprender francés y me descargué una de esas aplicaciones tan famosas. Al principio me divertía, porque era como un juego. Pero después de unos meses me di cuenta de que no era capaz de mantener una conversación. Ahora voy a una academia dos veces por semana y, con un profesor de verdad, por fin estoy aprendiendo a hablar.", "zh": "两年前我想学法语，就下载了一个很有名的应用。一开始挺好玩，因为像游戏一样，可是几个月后我发现自己根本没法跟人对话。现在我每周去两次语言学校，有了真正的老师，终于在学着开口说了。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "I",
+          "explicacion": "罗莎先用手机应用学法语，几个月后发现“no era capaz de mantener una conversación”，现在改去语言学校上课，对应 I。E 正好相反：她是从手机应用转向上课，不是放弃上课改用手机。"
+        },
+        {
+          "id": "21",
+          "rotulo": "Persona 3",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Guadalupe", "es": "Soy de Monterrey y trabajo en una empresa de transporte. Hace cinco años mi jefe me pidió que me encargara de los clientes de Brasil, así que tuve que aprender portugués rápidamente. Tomaba clases en línea desde mi computadora a la hora de la comida y practicaba con mis compañeros brasileños por videollamada. Al principio me costaba, pero ahora manejo el idioma bastante bien.", "zh": "我是蒙特雷人，在一家运输公司工作。五年前老板让我负责巴西的客户，所以我不得不很快学会葡萄牙语。我在午饭时间用电脑上网课，还通过视频通话跟巴西同事练习。一开始挺吃力，但现在我的葡萄牙语已经相当熟练了。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "C",
+          "explicacion": "瓜达卢佩来自墨西哥蒙特雷（拉美说话人，用了 computadora、en línea、manejo el idioma 等说法）。老板让她负责巴西客户，“tuve que aprender portugués rápidamente”，是工作要求她学的，对应 C。E 不对：她是用电脑上网课，没有放弃上课改用手机。"
+        },
+        {
+          "id": "22",
+          "rotulo": "Persona 4",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Beatriz", "es": "De pequeña viví seis años en Londres, porque mi padre trabajaba allí, y hablaba inglés como una niña inglesa más. Pero volvimos a España cuando yo tenía diez años y poco a poco lo fui olvidando. A los treinta me apunté a un curso y me sorprendió lo rápido que volvían las palabras. Ahora lo hablo casi tan bien como entonces.", "zh": "我小时候在伦敦住了六年，因为我父亲在那儿工作，我说英语跟英国小孩没什么两样。可是我十岁时我们回了西班牙，我就慢慢忘了。三十岁时我报了个课程，没想到那些词回来得那么快。现在我的英语几乎和当年一样好。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "F",
+          "explicacion": "贝亚特丽丝小时候在伦敦住过六年，回西班牙后“poco a poco lo fui olvidando”，三十岁重新上课，“me sorprendió lo rápido que volvían las palabras”，对应 F。C 不对：在伦敦工作的是她父亲，不是她自己。H 不对：她是和自己的家人住在国外。"
+        },
+        {
+          "id": "23",
+          "rotulo": "Persona 5",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Hugo", "es": "Cuando llegué a Dublín para estudiar un máster, entendía casi todo, pero no me atrevía a abrir la boca. Tenía miedo de equivocarme y de que la gente se riera de mí. Durante las primeras semanas apenas hablaba en clase. Un día, un compañero me invitó a un club de debate, y allí, poco a poco, perdí el miedo. Ahora participo sin problemas.", "zh": "我刚到都柏林读硕士的时候，几乎什么都听得懂，可就是不敢开口。我怕说错，怕别人笑话我。头几个星期我在课上几乎不说话。有一天，一个同学邀请我去参加辩论社，在那里我渐渐不再害怕了。现在我发言毫无问题。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "D",
+          "explicacion": "乌戈刚到都柏林时“no me atrevía a abrir la boca”，因为怕说错、怕被人笑话，头几周“apenas hablaba en clase”，即一开始不好意思开口，对应 D。A 不对：他是去都柏林读硕士，不是在旅行中学的。"
+        },
+        {
+          "id": "24",
+          "rotulo": "Persona 6",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Ana", "es": "Yo nunca he ido a clases de japonés. Todo lo que sé lo he aprendido con las series de dibujos animados que veía en la tele después del instituto. Primero las veía con subtítulos en español, luego en japonés y, al final, sin nada. Mi gramática no es perfecta, claro, pero cuando viajé a Tokio el año pasado, pude pedir comida y preguntar a la gente por la calle.", "zh": "我从来没上过日语课。我会的一切都是看电视上的动画片学的，那是我高中放学后常看的。一开始看带西班牙语字幕的，后来看日语字幕的，最后什么字幕都不要。当然，我的语法并不完美，不过去年去东京旅行时，我能点菜，也能在街上向人问路。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "J",
+          "explicacion": "安娜说“Yo nunca he ido a clases de japonés”，全靠看“las series de dibujos animados que veía en la tele”学会，没有老师、靠电视，对应 J。A 不对：去东京旅行是去年的事，那时她已经会说日语，只是在旅行中用上了。"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "tipo": "quien",
+      "instruccion_es": "Usted va a escuchar una conversación entre dos compañeros de trabajo, Daniel y Sara. Indique si los enunciados, del 25 al 30, se refieren a Daniel, a Sara o a ninguno de los dos. Escuchará la conversación dos veces. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到两位同事达尼埃尔和萨拉的对话。判断第 25—30 题的句子说的是达尼埃尔（A）、萨拉（B），还是两人都不是（C）。对话播放两遍。请把答案涂在答题卡上。",
+      "tema_zh": "上班的交通方式：两位同事聊骑车、开车和坐地铁",
+      "personas": {"A": "Daniel", "B": "Sara"},
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Daniel", "es": "Hola, buenos días, Sara. Oye, ¿has venido en bici? Llevas el casco en la mano.", "zh": "早上好，萨拉。哎，你是骑车来的？你手里拿着头盔呢。"},
+            {"v": "女4", "who": "Sara", "es": "Hola, Daniel, buenos días. Pues sí, desde que me mudé a San Isidro vengo en bicicleta todos los días. Tardo unos veinte minutos, y antes, en autobús, tardaba casi media hora.", "zh": "早上好，达尼埃尔。是啊，自从我搬到圣伊西德罗区，每天都骑车来。大概二十分钟，以前坐公交要将近半小时。"},
+            {"v": "男2", "who": "Daniel", "es": "¡Qué suerte tienes, de verdad! Yo vengo en coche y paso más tiempo buscando aparcamiento que conduciendo. Esta mañana he dado tres vueltas a la manzana.", "zh": "你真走运！我开车来，找车位的时间比开车的时间还长。今天早上我绕着街区转了三圈。"},
+            {"v": "女4", "who": "Sara", "es": "¿Y por qué no pruebas el metro? Desde tu casa tienes una línea directa.", "zh": "那你为什么不试试坐地铁？从你家有直达的线路。"},
+            {"v": "男2", "who": "Daniel", "es": "Ya lo sé, pero a las ocho va lleno y no soporto ir de pie y apretado. Prefiero el coche, aunque me sale caro.", "zh": "我知道，可八点的地铁挤满了人，我受不了站着被挤来挤去。我宁愿开车，虽然挺花钱的。"},
+            {"v": "女4", "who": "Sara", "es": "Pues yo con la bici me ahorro el abono de transporte, y además hago ejercicio. Antes iba al gimnasio dos veces por semana, pero ya no voy, porque no me hace falta.", "zh": "我骑车就省了交通月票的钱，而且还锻炼了身体。以前我每周去两次健身房，现在不去了，因为用不着了。"},
+            {"v": "男2", "who": "Daniel", "es": "Bueno, yo no sé si me atrevería. En el centro hay mucho tráfico y me parece peligroso.", "zh": "嗯，我不知道自己敢不敢。市中心车太多，我觉得危险。"},
+            {"v": "女4", "who": "Sara", "es": "Al principio yo también tenía miedo, pero ahora hay carriles bici en casi todas las calles grandes. Y cuando llueve, dejo la bici en casa y me trae mi pareja en coche, porque le pilla de camino.", "zh": "一开始我也害怕，不过现在几乎所有大街上都有自行车道了。下雨的时候，我就把自行车留在家里，让我爱人开车送我，反正顺路。"},
+            {"v": "男2", "who": "Daniel", "es": "Mira, mi hermano se ha comprado una bicicleta eléctrica y me ha ofrecido la vieja. A lo mejor la pruebo algún sábado, cuando hay menos tráfico.", "zh": "对了，我兄弟买了一辆电动自行车，说要把旧的给我。说不定我哪个周六试试，那时候车少。"},
+            {"v": "女4", "who": "Sara", "es": "¡Me parece muy buena idea! Si quieres, este sábado damos una vuelta juntos por el parque del río. Así te enseño el camino más tranquilo para venir a la oficina.", "zh": "这主意太好了！要是你愿意，这个周六我们一起去河边公园骑一圈。顺便我告诉你来办公室最清静的路线。"},
+            {"v": "男2", "who": "Daniel", "es": "De acuerdo, pero vamos con calma. Hace años que no monto en bicicleta.", "zh": "好吧，不过我们慢慢来。我好多年没骑过自行车了。"},
+            {"v": "女4", "who": "Sara", "es": "Tranquilo, que iremos despacio. El viernes te mando un mensaje y quedamos.", "zh": "放心，我们会骑得很慢。周五我给你发消息，约个时间。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "enunciados": [
+        {"n": 25, "texto": "Ahora tarda menos tiempo en llegar al trabajo.", "zh": "现在到单位花的时间比以前少了。", "clave": "B", "explicacion": "萨拉说现在骑车“Tardo unos veinte minutos”，以前坐公交“tardaba casi media hora”，现在用时更短，选 B。达尼埃尔没有说自己的通勤时间有什么变化。"},
+        {"n": 26, "texto": "Le cuesta encontrar sitio para aparcar.", "zh": "很难找到停车的地方。", "clave": "A", "explicacion": "达尼埃尔说“paso más tiempo buscando aparcamiento que conduciendo”，今天早上还“he dado tres vueltas a la manzana”，找车位很难，选 A。萨拉骑车，不存在停车问题。"},
+        {"n": 27, "texto": "Va a la oficina en metro.", "zh": "坐地铁去办公室。", "clave": "C", "explicacion": "坐地铁只是萨拉给达尼埃尔的建议（“¿Y por qué no pruebas el metro?”），达尼埃尔嫌地铁太挤，宁愿开车；萨拉自己骑车上班。两人都不坐地铁，选 C。"},
+        {"n": 28, "texto": "Ha dejado de ir al gimnasio.", "zh": "不再去健身房了。", "clave": "B", "explicacion": "萨拉说“Antes iba al gimnasio dos veces por semana, pero ya no voy”，骑车锻炼后就不去健身房了，选 B。达尼埃尔没有谈到健身房。"},
+        {"n": 29, "texto": "Cuando llueve, va a trabajar en autobús.", "zh": "下雨时坐公交去上班。", "clave": "C", "explicacion": "萨拉说下雨时“me trae mi pareja en coche”，是爱人开车送她，不是坐公交（坐公交是她搬家以前的事）；达尼埃尔一直开车。两人都没这么说，选 C。"},
+        {"n": 30, "texto": "Un familiar le ha ofrecido una bicicleta.", "zh": "一位亲戚说要给他/她一辆自行车。", "clave": "A", "explicacion": "达尼埃尔说“mi hermano se ha comprado una bicicleta eléctrica y me ha ofrecido la vieja”，兄弟要把旧自行车给他，选 A。萨拉只是提议周六一起骑车。"}
+      ]
+    }
+  ]
+}

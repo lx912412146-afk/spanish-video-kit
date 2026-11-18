@@ -1,0 +1,159 @@
+{
+  "nivel": "B1",
+  "prueba": "Expresión e interacción escritas",
+  "zh": "书面表达与互动",
+  "duracion_min": 60,
+  "intro_es": "La prueba de Expresión e interacción escritas contiene dos tareas. En la Tarea 2 tiene que elegir una de las dos opciones. Duración: 60 minutos. Escriba sus textos únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "instruccion_es": ["Usted ha recibido este correo electrónico de su amigo Daniel:", "Escriba un correo electrónico de respuesta en el que:"],
+      "instruccion_zh": "您收到了朋友丹尼尔的这封邮件。请写一封回信，在信中：问候他，并说明您为什么不能参加星期六的活动；讲讲您以前是否参加过类似的活动，当时情况怎样；提出用别的方式帮助协会；就这次活动或协会向他提一个问题；告别。字数：100—120 词。",
+      "tema_zh": "回复朋友的邀请：参加居民协会在街区学校画壁画的志愿活动",
+      "estimulo": {
+        "tipo": "texto",
+        "genero": "correo electrónico",
+        "cabecera": ["De: Daniel", "Asunto: ¿Te vienes a pintar?"],
+        "cuerpo": [
+          "¡Hola! ¿Cómo va todo?",
+          "Te escribo porque mi asociación de vecinos ha organizado una jornada para pintar un mural en el colegio del barrio el próximo sábado. Al terminar, haremos una comida en el parque para todos los voluntarios.",
+          "¿Te apetece venir? Hace mucho que no nos vemos y sería una buena ocasión para charlar. Necesitamos gente para pintar, pero también para preparar la comida y hacer fotos. Y si conoces a alguien que quiera ayudar, puede venir contigo.",
+          "¡Contéstame pronto!",
+          "Un abrazo,"
+        ],
+        "firma": "Daniel",
+        "zh": [
+          "嗨！最近怎么样？",
+          "我写信是因为我们居民协会组织了一次活动，下周六去街区的学校画一幅壁画。结束后，我们会在公园为所有志愿者准备一顿午饭。",
+          "你想来吗？我们很久没见了，这正好是个聊天的机会。我们需要人画画，也需要人准备饭菜和拍照。如果你认识想帮忙的人，也可以带他一起来。",
+          "快点回我！",
+          "拥抱你，"
+        ]
+      },
+      "pautas": [
+        "lo salude y le explique por qué no puede ir a la jornada del sábado;",
+        "le cuente si alguna vez ha participado en una actividad parecida y cómo fue;",
+        "le proponga otra forma de colaborar con la asociación;",
+        "le haga alguna pregunta sobre la jornada o sobre la asociación;",
+        "se despida."
+      ],
+      "palabras": [100, 120],
+      "formulario": [],
+      "opciones": [],
+      "modelo": {
+        "texto": [
+          "¡Hola, Daniel!",
+          "¡Qué buena idea lo del mural! Me encantaría ir, pero ese sábado no puedo porque se casa mi hermana y tengo que estar en Toledo todo el fin de semana.",
+          "El año pasado pinté con otros voluntarios las paredes de una residencia de mayores y, aunque terminamos llenos de pintura, fue una experiencia preciosa.",
+          "Si quieres, puedo ayudaros de otra manera: diseñar los carteles de la próxima jornada o compartir la información en el grupo de mi barrio. Además, mi compañero de piso, Luis, quiere ir; luego te paso su número.",
+          "Por cierto, ¿la asociación organiza estas actividades a menudo? Me gustaría apuntarme a la siguiente.",
+          "Un abrazo y ¡que salga todo genial!",
+          "Lucía"
+        ],
+        "palabras": 116,
+        "zh": [
+          "丹尼尔，你好！",
+          "画壁画这个主意太好了！我很想去，可是那个星期六我去不了，因为我姐姐结婚，整个周末我都得在托莱多。",
+          "去年我和其他志愿者一起给一家养老院粉刷墙壁，虽然最后弄得满身是油漆，但那是一次很棒的经历。",
+          "如果你愿意，我可以用别的方式帮你们：为下一次活动设计海报，或者把消息转发到我们小区的群里。另外，我的室友路易斯想去，我待会儿把他的电话发给你。",
+          "对了，协会经常组织这样的活动吗？我想报名参加下一次。",
+          "拥抱你，祝一切顺利！",
+          "露西娅"
+        ],
+        "comentario_zh": "范文用“¡Qué buena idea lo del mural!”回应来信，随即说明去不了的原因（姐姐结婚），完成要点 1；第二段用简单过去时“pinté”“terminamos”和让步连接词“aunque”讲去年给养老院刷墙的经历，完成要点 2；第三段用“puedo ayudaros de otra manera”提出设计海报、转发消息，还回应了来信中“si conoces a alguien”，介绍室友，完成要点 3；第四段提问，完成要点 4；结尾用“¡que salga todo genial!”（que＋虚拟式表示祝愿）告别。全文用 tú 和 vosotros，语气亲切，符合朋友间的邮件。约 116 词。"
+      }
+    },
+    {
+      "n": 2,
+      "instruccion_es": ["Elija solo una de las dos opciones que se le proponen a continuación."],
+      "instruccion_zh": "请从下面两个题目中任选一个。选项 1：您在一个博客上读到这篇帖子。请为博客写一篇评论，讲述：发生了什么事，在什么时候、什么地方；您做了什么来解决问题，有没有人帮您；当时您有什么感受；为什么现在想起那一天会笑，您从中学到了什么。选项 2：您在一份电子报纸上读到这则新闻。请为“读者观点”栏目写一篇评论文章，在文中：说明您对这项措施的看法及理由；谈谈它对居民和商户可能有哪些好处和坏处；说说您所在的城市有没有类似的做法，或者那里的交通情况如何；提出让这项措施更好地实施的建议。字数：130—150 词。",
+      "tema_zh": "二选一：讲述一个倒霉却有好结局的日子／评论市中心周日禁行汽车的措施",
+      "estimulo": {},
+      "pautas": [],
+      "palabras": [130, 150],
+      "formulario": [],
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Opción 1",
+          "instruccion_es": ["Usted ha leído esta entrada en un blog:", "Escriba un comentario para el blog en el que cuente:"],
+          "estimulo": {
+            "tipo": "texto",
+            "genero": "blog",
+            "cabecera": ["Blog «La vida misma»", "Desastres con final feliz"],
+            "cuerpo": ["Hay días en los que todo sale mal: pierdes el autobús, te quedas sin batería en el móvil, empieza a llover… Y, sin embargo, muchas veces son esos días los que mejor recordamos después. ¿Y vosotros? ¿Habéis vivido algún día desastroso que ahora recordáis con una sonrisa?"],
+            "firma": "Andrea",
+            "zh": ["有些日子什么都不顺：错过公交车，手机没电，天又下起雨来……可是，往往正是这样的日子，事后让我们记得最清楚。你们呢？有没有哪一天糟糕透顶，现在想起来却会心一笑？"]
+          },
+          "pautas": [
+            "qué le pasó, cuándo y dónde;",
+            "qué hizo para solucionar el problema y si alguien le ayudó;",
+            "cómo se sintió en aquel momento;",
+            "por qué ahora recuerda ese día con una sonrisa y qué aprendió de él."
+          ],
+          "modelo": {
+            "texto": [
+              "¡Me ha encantado tu entrada, Andrea! Yo viví un día así hace dos años, cuando llegué a Granada para estudiar un máster.",
+              "Primero, mi vuelo salió con tres horas de retraso. Después, en el aeropuerto, descubrí que mi maleta no había llegado. Y cuando encontré el piso que había alquilado, no había nadie para darme las llaves y mi móvil no tenía batería.",
+              "Me sentí fatal: estaba cansada, tenía hambre y no conocía a nadie. Entonces entré en un bar y le conté mi problema a la dueña. Ella me dejó cargar el móvil, me invitó a cenar y llamó al propietario del piso.",
+              "Hoy recuerdo aquel día con una sonrisa porque Rocío, la dueña del bar, es ahora una de mis mejores amigas. Aprendí que pedir ayuda no es ninguna vergüenza y que, a veces, los problemas traen cosas buenas."
+            ],
+            "palabras": 141,
+            "zh": [
+              "安德烈娅，你的帖子我太喜欢了！两年前我也经历过这样的一天，那是我刚到格拉纳达读硕士的时候。",
+              "先是我的航班晚了三个小时。接着在机场，我发现行李箱没有到。等我找到租好的公寓，却没有人给我钥匙，手机也没电了。",
+              "我难受极了：又累又饿，一个人也不认识。于是我走进一家酒吧，把我的麻烦告诉了老板娘。她让我给手机充电，请我吃了晚饭，还给房东打了电话。",
+              "现在想起那一天我会笑，因为酒吧老板娘罗西奥如今是我最好的朋友之一。我明白了，求助一点也不丢人，而且有时候，麻烦也会带来好事。"
+            ],
+            "comentario_zh": "范文开头先回应博主（“¡Me ha encantado tu entrada, Andrea!”），符合博客评论的文体，并交代时间、地点（要点 1）；第二段用“Primero… Después… Y cuando…”按顺序讲一连串倒霉事，用过去完成时“no había llegado”“había alquilado”表示更早发生的事；第三段用过去未完成时“estaba cansada, tenía hambre”描写当时的感受（要点 3），用简单过去时“entré”“me dejó”“llamó”讲怎样解决、谁帮了忙（要点 2）；最后一段说明为什么现在想起来会笑、学到了什么（要点 4）。三种过去时分工清楚，是 B1 叙事的重点。约 141 词。"
+          }
+        },
+        {
+          "id": "2",
+          "titulo": "Opción 2",
+          "instruccion_es": ["Usted ha leído esta noticia en un periódico digital:", "Escriba un texto de opinión para la sección «Los lectores opinan» en el que:"],
+          "estimulo": {
+            "tipo": "texto",
+            "genero": "noticia",
+            "cabecera": ["Diario de Valdemora", "El centro, sin coches los domingos"],
+            "cuerpo": ["El Ayuntamiento de Valdemora ha anunciado que, a partir de enero, el centro de la ciudad estará cerrado al tráfico todos los domingos. Las calles se dedicarán a pasear, montar en bicicleta y organizar actividades culturales. Algunos comerciantes temen perder clientes por la falta de aparcamiento."],
+            "firma": "",
+            "zh": ["巴尔德莫拉市政府宣布，从一月起，每个星期天市中心将禁止车辆通行。街道将用于散步、骑自行车和举办文化活动。一些商户担心，由于没有地方停车，他们会失去顾客。"]
+          },
+          "pautas": [
+            "explique qué le parece la medida y por qué;",
+            "comente qué ventajas e inconvenientes puede tener para los vecinos y para los comerciantes;",
+            "cuente si en su ciudad hay alguna iniciativa parecida o cómo es allí el tráfico;",
+            "proponga alguna idea para que la medida funcione mejor."
+          ],
+          "modelo": {
+            "texto": [
+              "Un domingo sin coches",
+              "Me parece una medida excelente. Vivo cerca del centro y los fines de semana el ruido y la contaminación son insoportables, así que poder pasear tranquilamente un domingo sería un lujo.",
+              "Para los vecinos, las ventajas están claras: aire más limpio, menos ruido y más espacio para que jueguen los niños. Sin embargo, entiendo que los comerciantes estén preocupados, porque muchos clientes vienen en coche desde otros barrios.",
+              "En la ciudad donde nací, en China, algunas calles del centro se cierran al tráfico durante las fiestas y siempre se llenan de familias y de puestos de comida.",
+              "Para que la medida funcione, propongo que el ayuntamiento ponga más autobuses los domingos y que organice mercados y conciertos en la calle. Así, la gente seguirá viniendo al centro y las tiendas no perderán clientes. Ojalá otras ciudades se animen a hacer lo mismo."
+            ],
+            "palabras": 146,
+            "zh": [
+              "没有汽车的星期天",
+              "我觉得这项措施非常好。我住在市中心附近，周末的噪音和污染让人受不了，所以星期天能安安静静地散步，简直是一种奢侈。",
+              "对居民来说，好处很明显：空气更干净，噪音更少，孩子们也有更多地方玩。不过，我能理解商户的担心，因为很多顾客是从别的街区开车来的。",
+              "在我出生的中国城市，节日期间市中心有些街道会禁止车辆通行，那时街上总是挤满了出来逛的一家家人和小吃摊。",
+              "为了让这项措施成功，我建议市政府星期天增开公交车，并在街上举办集市和音乐会。这样，人们还会继续来市中心，商店也不会失去顾客。但愿其他城市也能效仿。"
+            ],
+            "comentario_zh": "范文加了一个简短的标题，第一段直接表态并说明理由（要点 1），用条件式“sería un lujo”；第二段分别谈居民的好处和商户的担心（要点 2），用了“para que jueguen”“entiendo que… estén preocupados”两处虚拟式；第三段介绍自己家乡的类似做法（要点 3）；第四段用“Para que… funcione, propongo que… ponga… y que organice…”提出建议（要点 4），最后用“Ojalá＋虚拟式”收尾。así que、sin embargo、así 等连接词让观点层次分明。约 146 词。"
+          }
+        }
+      ],
+      "modelo": {}
+    }
+  ],
+  "criterios": [
+    {"es": "Adecuación al género discursivo", "zh": "看文章是否符合要求的文体（邮件、博客评论、读者评论）：称呼、开头和结尾是否得当，语气和正式程度是否合适，说明里列出的每个要点是否都写到，字数是否在规定范围内。"},
+    {"es": "Coherencia", "zh": "看内容是否条理清楚、前后连贯：段落安排是否合理，是否用 porque、aunque、así que、además 等连接词把句子和观点串起来，读者能否顺畅地跟上作者的思路。"},
+    {"es": "Corrección", "zh": "看语法和词汇用得对不对：动词时态、语式和变位，性数配合，前置词，拼写和重音。偶尔出错但不影响理解可以接受；错误多到让读者看不懂则要扣分。"},
+    {"es": "Alcance", "zh": "看语言是否丰富：词汇是否多样、准确，能否用本级的句型（各种过去时、虚拟式、条件式、关系从句）讲经历、表达感受和观点，而不是一直重复同样的简单结构。"},
+    {"es": "Calificación holística", "zh": "评分员通读全文后给出的总体印象分：任务完成得怎样，读者读起来是否轻松，整体语言水平是否达到 B1。与上面四项分析评分分开打分，占写作成绩的 40%。"}
+  ]
+}
