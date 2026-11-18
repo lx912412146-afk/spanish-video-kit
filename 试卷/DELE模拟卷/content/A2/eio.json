@@ -1,0 +1,379 @@
+{
+  "nivel": "A2",
+  "prueba": "Expresión e interacción orales",
+  "zh": "口头表达与互动",
+  "duracion_min": 12,
+  "preparacion_min": 12,
+  "intro_es": "La prueba de Expresión e interacción orales contiene tres tareas. Duración: 12 minutos. Antes de la prueba, usted tiene 12 minutos para preparar las tres tareas. Durante la preparación puede tomar notas y hacer un esquema. En la prueba puede consultar sus notas, pero no puede limitarse a leerlas.",
+  "tareas": [
+    {
+      "n": 1,
+      "titulo_es": "Monólogo",
+      "minutos": [2, 3],
+      "preparacion": true,
+      "instruccion_es": [
+        "Elija uno de los dos temas propuestos.",
+        "Usted tiene que hablar durante dos o tres minutos sobre el tema elegido. Hable de todos los puntos de la tarjeta.",
+        "El entrevistador no interviene en esta tarea."
+      ],
+      "instruccion_zh": "从两个话题中选一个，就所选话题连续讲两到三分钟，卡片上的每个要点都要讲到。这一部分考官不插话。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Una celebración especial",
+          "puntos": [
+            "qué celebraron, cuándo y dónde fue;",
+            "quiénes estaban allí y con quién estuvo usted;",
+            "qué hicieron, qué comieron y qué bebieron;",
+            "qué fue lo que más le gustó y lo que menos le gustó;",
+            "cómo se celebra normalmente esa fiesta en su país."
+          ],
+          "art": "",
+          "texto": ["Hable de una fiesta o celebración especial en la que estuvo: una boda, un cumpleaños, una graduación o una fiesta tradicional. Tiene que hablar de estos puntos:"],
+          "modelo": [
+            "Voy a hablar de la boda de mi prima Lin. Fue en octubre del año pasado, en un hotel muy grande de Hangzhou, la ciudad donde vive mi familia.",
+            "En la boda había muchísima gente, más de doscientas personas: toda la familia, los amigos de los novios y también sus compañeros de trabajo. Yo estuve casi todo el tiempo con mis padres y con mis primos. Hacía mucho tiempo que no los veía, porque ahora vivo en otra ciudad, así que estaba muy contenta.",
+            "Por la mañana, el novio fue a buscar a mi prima a su casa. Es una tradición en China: las amigas de la novia no abren la puerta y el novio tiene que darles sobres rojos con dinero. Fue muy divertido. Por la tarde fuimos todos al hotel. Primero hubo una ceremonia corta y luego empezó la cena. Comimos muchos platos típicos, por ejemplo pescado, gambas y pato, y al final una tarta enorme. Bebimos té, zumo y también un poco de vino.",
+            "Lo que más me gustó fue el momento en que los novios hablaron delante de todos. Mi prima lloró un poco y mi tía también. Fue muy bonito. Lo que menos me gustó fue el ruido: la música estaba muy alta y no podía hablar con nadie.",
+            "En mi país, normalmente las bodas son muy grandes y bastante caras, y se invita a mucha gente. Pero ahora algunos jóvenes prefieren hacer bodas más pequeñas, solo con la familia y los amigos. A mí también me gustan más las bodas pequeñas, en el campo, con poca gente."
+          ],
+          "modelo_zh": [
+            "我要讲的是我表姐林的婚礼。那是去年十月，在杭州一家很大的酒店办的，杭州是我家人住的城市。",
+            "婚礼上人非常多，有两百多人：全家人、新郎新娘的朋友，还有他们的同事。我几乎一直和父母、表兄弟姐妹们在一起。我现在住在别的城市，很久没见到他们了，所以特别高兴。",
+            "早上，新郎去我表姐家接她。这是中国的一个传统：新娘的女伴们不开门，新郎得给她们发装着钱的红包。特别好玩。下午我们都去了酒店。先是一个简短的仪式，然后开始晚宴。我们吃了很多传统菜，比如鱼、虾和鸭子，最后还有一个很大的蛋糕。我们喝了茶、果汁，还喝了一点葡萄酒。",
+            "我最喜欢的是新郎新娘在大家面前讲话的那一刻。我表姐哭了一点，我姨妈也哭了。非常感人。我最不喜欢的是太吵：音乐声很大，我没法和任何人说话。",
+            "在我们国家，婚礼一般规模很大，花费也不少，会请很多人。不过现在有些年轻人更喜欢办小一点的婚礼，只请家人和朋友。我也更喜欢在乡下办、人不多的小婚礼。"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "Mi barrio",
+          "puntos": [
+            "dónde está su barrio y desde cuándo vive allí;",
+            "qué tiendas, servicios y lugares hay;",
+            "qué hace normalmente en su barrio;",
+            "cómo era el lugar donde vivía antes;",
+            "qué le gusta, qué no le gusta y qué le gustaría cambiar."
+          ],
+          "art": "",
+          "texto": ["Hable del barrio o de la zona donde vive ahora. Tiene que hablar de estos puntos:"],
+          "modelo": [
+            "Desde hace dos años vivo en un barrio cerca del centro de Valencia. Vine a España para estudiar español y ahora comparto un piso con dos chicas italianas.",
+            "Mi barrio es bastante tranquilo, pero tiene de todo. En mi calle hay una panadería, una farmacia, un supermercado pequeño y dos o tres bares. Muy cerca de mi casa hay una parada de metro, así que llego al centro en diez minutos. También hay un mercado antiguo donde venden fruta, pescado y carne muy frescos, y al lado hay un parque bastante grande.",
+            "Normalmente, por las mañanas voy a la academia y por las tardes estudio en casa. Los sábados voy al mercado con mis compañeras de piso y compramos comida para toda la semana. Los domingos, si hace buen tiempo, corro un poco en el parque.",
+            "Antes vivía en Chengdu, con mis padres, en un barrio muy diferente. Era un barrio nuevo, con edificios muy altos y calles muy anchas. Había un centro comercial enorme, pero no había mercados tradicionales ni bares pequeños. Allí siempre iba en coche o en autobús, porque todo estaba lejos.",
+            "Lo que más me gusta de mi barrio de ahora es que puedo ir andando a todas partes y que la gente es muy simpática. El panadero ya me conoce y siempre me pregunta por mis estudios. Lo que no me gusta es el ruido de los fines de semana por la noche. Me gustaría tener más zonas verdes y una biblioteca cerca de casa."
+          ],
+          "modelo_zh": [
+            "我在瓦伦西亚市中心附近的一个街区已经住了两年。我来西班牙学西班牙语，现在和两个意大利女生合租一套公寓。",
+            "我住的街区挺安静的，但是什么都有。我这条街上有一家面包店、一家药店、一个小超市和两三家酒吧。我家附近就有地铁站，所以十分钟就能到市中心。还有一个老市场，卖的水果、鱼和肉都很新鲜，旁边还有一个挺大的公园。",
+            "平时我上午去语言学校，下午在家学习。星期六我和室友们去市场买一个星期的食物。星期天如果天气好，我就在公园里跑跑步。",
+            "以前我和父母住在成都，那个街区很不一样。那是个新区，楼很高，街道很宽。有一个很大的购物中心，但是没有传统市场，也没有小酒吧。在那儿我出门总是坐车或者坐公交车，因为哪儿都很远。",
+            "我最喜欢现在这个街区的地方是去哪儿都能走路，而且人都很和气。面包店老板已经认识我了，总是问我学习怎么样。我不喜欢的是周末晚上有点吵。我希望这里能多一些绿地，家附近再有一个图书馆。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Buenos días. Siéntese, por favor. Vamos a empezar la prueba de Expresión e interacción orales.",
+          "Primero vamos a hacer la Tarea 1. Usted tiene que hablar durante dos o tres minutos sobre el tema que ha preparado. ¿Qué tema ha elegido?",
+          "Muy bien. Puede empezar cuando quiera.",
+          "Muchas gracias. Ahora vamos a pasar a la Tarea 2."
+        ],
+        "preguntas": [
+          "Tema 1: ¿Qué celebraron y dónde fue?",
+          "Tema 1: ¿Quiénes estaban en la celebración?",
+          "Tema 1: ¿Qué comieron?",
+          "Tema 1: ¿Qué fue lo que más le gustó?",
+          "Tema 1: ¿Cómo se celebra normalmente esa fiesta en su país?",
+          "Tema 2: ¿Desde cuándo vive en su barrio?",
+          "Tema 2: ¿Qué tiendas hay cerca de su casa?",
+          "Tema 2: ¿Qué hace normalmente los fines de semana en su barrio?",
+          "Tema 2: ¿Cómo era el lugar donde vivía antes?",
+          "Tema 2: ¿Qué le gustaría cambiar de su barrio?"
+        ],
+        "notas_zh": "这一部分是考生的独白，考官原则上不插话，只听并留意考生是否讲到卡片上的五个要点、是否用到过去时（简单过去时和过去未完成时）。考生不到两分钟就停下来时，可以按考生所选的话题用上面的问题提示一两次；讲满三分钟可以礼貌地结束，转入 Tarea 2。"
+      }
+    },
+    {
+      "n": 2,
+      "titulo_es": "Descripción de una fotografía",
+      "minutos": [2, 3],
+      "preparacion": true,
+      "instruccion_es": [
+        "Elija una de las dos fotografías.",
+        "Describa la fotografía durante dos o tres minutos. Puede usar como ayuda las preguntas que hay debajo de la fotografía."
+      ],
+      "instruccion_zh": "从两张照片中选一张，描述两到三分钟。可以参考照片下面的问题来组织描述。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Fotografía 1: en el mercado",
+          "puntos": [
+            "¿Dónde están estas personas? ¿Cómo es el lugar?",
+            "¿Cómo son las personas? ¿Qué ropa llevan?",
+            "¿Qué está haciendo cada una?",
+            "¿Qué productos se ven en la imagen?",
+            "¿Qué relación cree que hay entre la mujer y la niña?",
+            "¿Qué cree que van a hacer después?"
+          ],
+          "art": "art:A2_EIO2_1",
+          "texto": [],
+          "modelo": [
+            "En esta foto veo un mercado. Creo que es un mercado cubierto, de esos que hay en el centro de muchas ciudades españolas. Es por la mañana, porque hay mucha luz y bastante gente comprando.",
+            "En el centro de la foto hay un puesto de fruta y verdura. Detrás del mostrador está el vendedor. Es un hombre de unos cincuenta años, alto y delgado, con barba gris y el pelo corto. Lleva una camiseta verde y un delantal marrón. Está metiendo unas naranjas en una bolsa de papel y está sonriendo.",
+            "Delante del puesto hay una mujer de unos treinta y cinco años. Es morena, tiene el pelo largo y lleva gafas. Lleva unos vaqueros, un jersey rojo y una bolsa de tela al hombro. Está hablando con el vendedor. A su lado hay una niña de seis o siete años. Lleva un vestido amarillo y unas zapatillas blancas, y tiene en las manos una caja pequeña de fresas. Está muy contenta. Creo que es su hija y que le gustan mucho las fresas.",
+            "En el puesto hay muchos productos: naranjas, manzanas, plátanos, fresas, tomates, lechugas y pimientos. También hay unos carteles pequeños con los precios. Al fondo se ven otros puestos, uno de pescado y otro de flores, y otras personas que pasan con bolsas.",
+            "Me parece que la mujer está comprando comida para toda la semana, o quizás para una comida especial con la familia. Después, creo que van a ir a otro puesto para comprar pescado o pan, y luego van a volver a casa a cocinar. A mí me gustan mucho los mercados porque los productos son frescos y los vendedores son muy simpáticos."
+          ],
+          "modelo_zh": [
+            "这张照片里我看到的是一个市场。我想是那种西班牙很多城市市中心都有的室内市场。现在是上午，因为光线很亮，有不少人在买东西。",
+            "照片中间是一个水果蔬菜摊。柜台后面是摊主，一个五十岁左右的男人，又高又瘦，留着灰白的胡子，短头发。他穿着绿色 T 恤，系着棕色围裙，正在把橙子装进纸袋，脸上带着笑。",
+            "摊位前有一位三十五岁左右的女士，黑色长发，戴着眼镜。她穿着牛仔裤和红色毛衣，肩上挎着一个布袋，正在和摊主说话。她旁边有一个六七岁的小女孩，穿着黄色连衣裙和白色运动鞋，双手捧着一小盒草莓，非常高兴。我想她是那位女士的女儿，很喜欢吃草莓。",
+            "摊上有很多东西：橙子、苹果、香蕉、草莓、西红柿、生菜和甜椒，还有一些写着价格的小牌子。背景里能看到别的摊位，一个卖鱼，一个卖花，还有一些提着袋子走过的人。",
+            "我觉得这位女士在买一个星期吃的东西，也可能是为家里一顿特别的饭买菜。之后，我想她们会去别的摊位买鱼或者面包，然后回家做饭。我很喜欢市场，因为东西新鲜，摊主们也都很热情。"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "Fotografía 2: en la recepción de un hotel",
+          "puntos": [
+            "¿Dónde están estas personas? ¿Cómo es el lugar?",
+            "¿Cómo son las personas? ¿Qué ropa llevan?",
+            "¿Qué están haciendo?",
+            "¿Qué objetos hay en la imagen?",
+            "¿De dónde cree que vienen los dos jóvenes? ¿Por qué están allí?",
+            "¿Qué cree que van a hacer después?"
+          ],
+          "art": "art:A2_EIO2_2",
+          "texto": [],
+          "modelo": [
+            "En la foto veo la recepción de un hotel. El hotel parece moderno y bastante bonito: hay plantas, un sofá y una ventana grande. Creo que es por la tarde, porque el reloj de la pared marca las tres.",
+            "A la izquierda hay una pareja joven, un chico y una chica de unos treinta años. Tienen dos maletas grandes, una azul y otra negra, y el chico lleva también una mochila. El chico es alto y tiene barba. Lleva una camiseta blanca, una chaqueta vaquera y una gorra. Está enseñando su móvil a la recepcionista; creo que le está enseñando la reserva. La chica es rubia, tiene el pelo corto y lleva un vestido de verano y unas gafas de sol en la cabeza. Está mirando un mapa de la ciudad.",
+            "Detrás del mostrador está la recepcionista. Es una mujer de unos cuarenta y cinco años, con el pelo recogido. Lleva un uniforme azul oscuro y está sonriendo. Tiene una tarjeta en la mano; seguramente es la llave de la habitación. En el mostrador hay un timbre, unos folletos y un ordenador.",
+            "Al fondo, en un sofá, hay un señor mayor que está leyendo el periódico. Por la ventana se ve una calle con sol.",
+            "Me parece que los dos jóvenes son turistas y que están de vacaciones. Creo que vienen de otra ciudad, o quizás de otro país, y que acaban de llegar en tren o en avión, porque todavía tienen las maletas. Después, seguramente van a subir a la habitación, van a descansar un poco y luego van a salir a conocer la ciudad. A mí me encanta llegar a un hotel nuevo cuando estoy de viaje."
+          ],
+          "modelo_zh": [
+            "照片里我看到的是一家酒店的前台。酒店看起来很现代，也挺漂亮：有植物、一张沙发和一扇大窗户。我想现在是下午，因为墙上的钟指着三点。",
+            "左边是一对年轻人，一男一女，三十岁左右。他们有两个大行李箱，一个蓝色，一个黑色，男生还背着一个双肩包。男生个子高，留着胡子，穿白色短袖衫和牛仔外套，戴一顶帽子。他正把手机给前台看，我想是在给她看预订信息。女生是金发，短发，穿一条夏天的连衣裙，头上架着墨镜，正在看城市地图。",
+            "柜台后面是前台接待员，一位四十五岁左右的女士，头发盘起来，穿深蓝色制服，面带微笑。她手里拿着一张卡，应该是房卡。柜台上有一个服务铃、几本宣传册和一台电脑。",
+            "背景里，一位老先生坐在沙发上看报纸。从窗户能看到外面阳光照着的街道。",
+            "我觉得这两个年轻人是游客，正在度假。我想他们是从别的城市，也可能是从别的国家来的，刚坐火车或者飞机到，因为行李还在身边。之后他们应该会上楼进房间，休息一会儿，然后出去逛逛这座城市。我旅行的时候，最喜欢住进一家新酒店的感觉。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Ahora vamos a hacer la Tarea 2. ¿Qué fotografía ha elegido?",
+          "Muy bien. Describa la fotografía, por favor. Tiene dos o tres minutos.",
+          "Gracias. Ahora vamos a pasar a la Tarea 3."
+        ],
+        "preguntas": [
+          "Foto 1: ¿Dónde están estas personas?",
+          "Foto 1: ¿Cómo es el vendedor? ¿Y la mujer?",
+          "Foto 1: ¿Qué está haciendo la niña?",
+          "Foto 1: ¿Qué cosas venden en el puesto?",
+          "Foto 1: ¿Qué relación cree que hay entre la mujer y la niña?",
+          "Foto 1: ¿Qué cree que compra la mujer? ¿Para qué?",
+          "Foto 1: ¿Qué cree que van a hacer después?",
+          "Foto 1: ¿Usted va mucho a los mercados? ¿Qué compra normalmente?",
+          "Foto 2: ¿Dónde están estas personas?",
+          "Foto 2: ¿Cómo son los dos jóvenes? ¿Qué ropa llevan?",
+          "Foto 2: ¿Qué está haciendo la recepcionista?",
+          "Foto 2: ¿Qué hay encima del mostrador?",
+          "Foto 2: ¿Qué hace el señor que está en el sofá?",
+          "Foto 2: ¿Por qué cree que los jóvenes están en el hotel?",
+          "Foto 2: ¿Qué cree que van a hacer después?",
+          "Foto 2: ¿Usted prefiere dormir en hoteles o en apartamentos cuando viaja?"
+        ],
+        "notas_zh": "考生按所选照片描述两到三分钟。先让考生自己说，不要打断，也不要纠正错误；如果考生不到两分钟就停下，或者漏掉了地点、人物外貌和衣着、动作、物品、推测等方面，再从上面对应照片的问题里选一两个追问，每次只问一个。最后两个问题可以把话题引到考生自己的经历。"
+      }
+    },
+    {
+      "n": 3,
+      "titulo_es": "Diálogo en una situación simulada",
+      "minutos": [3, 4],
+      "preparacion": true,
+      "instruccion_es": [
+        "Usted va a hablar con el entrevistador en una situación imaginaria. La situación está relacionada con la fotografía que ha elegido en la Tarea 2.",
+        "Lea la situación y los puntos de la tarjeta. La conversación dura entre tres y cuatro minutos."
+      ],
+      "instruccion_zh": "和考官进行一段模拟情景对话，情景与你在 Tarea 2 选的照片有关。先读情景说明和卡片上的要点，对话三到四分钟。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Situación 1: en el mercado",
+          "puntos": [
+            "salude y diga qué quiere comprar;",
+            "pregunte el precio de algunos productos;",
+            "pida la cantidad que necesita de cada cosa;",
+            "pregunte por un producto que no ve en el puesto;",
+            "pregunte cuánto es en total, pague y despídase."
+          ],
+          "art": "",
+          "texto": [
+            "Esta situación está relacionada con la fotografía 1.",
+            "Usted está en un mercado. Quiere comprar fruta y verdura porque el sábado vienen unos amigos a comer a su casa. El entrevistador es el vendedor del puesto.",
+            "Durante la conversación, usted tiene que:"
+          ],
+          "modelo": [
+            "E: Buenos días. ¿Qué le pongo?",
+            "C: Buenos días. Quería fruta y verdura para una comida. Este sábado vienen unos amigos a mi casa.",
+            "E: ¡Qué bien! ¿Y para cuántas personas es?",
+            "C: Para seis personas. Vamos a hacer una ensalada grande y una paella. Primero, quiero tomates. ¿A cuánto están?",
+            "E: Estos están a 2 euros el kilo, y esos, los de ensalada, a 2,50.",
+            "C: Póngame dos kilos de los de ensalada, por favor. No los quiero muy maduros, porque son para el sábado.",
+            "E: No se preocupe, estos están perfectos. ¿Algo más?",
+            "C: Sí, también necesito cebollas y pimientos. ¿Son de aquí?",
+            "E: Sí, son de la huerta, de aquí al lado. Están muy buenos. ¿Cuántos quiere?",
+            "C: Un kilo de cebollas y tres pimientos rojos, por favor.",
+            "E: Aquí tiene. ¿Qué más le pongo?",
+            "C: Ahora, la fruta para el postre. ¿Cuánto cuestan las fresas?",
+            "E: Las fresas, 4 euros la caja. Están muy dulces.",
+            "C: Vale, deme una caja. Oiga, ¿no tiene mangos? No los veo.",
+            "E: Lo siento, hoy no me han llegado. Mañana sí voy a tener. Pero tengo piña, que también está muy rica.",
+            "C: Bueno, pues entonces una piña. Y el sábado por la mañana, ¿abre usted?",
+            "E: Sí, el sábado abrimos de ocho a dos. Si quiere, le guardo unos mangos para ese día.",
+            "C: ¡Qué amable! Sí, por favor, guárdeme cuatro. Vengo a las diez, más o menos. ¿Y tiene limones? Los necesito para la paella.",
+            "E: Sí, claro, aquí están. ¿Cuántos le pongo?",
+            "C: Cuatro, por favor. Y ya está, nada más. ¿Cuánto es todo?",
+            "E: A ver, son 15 euros con 40.",
+            "C: ¿Puedo pagar con tarjeta?",
+            "E: Lo siento, en el puesto solo aceptamos dinero en efectivo.",
+            "C: No pasa nada. Aquí tiene 20 euros.",
+            "E: Y aquí tiene la vuelta, 4 euros con 60. ¿Quiere una bolsa?",
+            "C: No, gracias, tengo la mía. Muchas gracias y hasta el sábado.",
+            "E: Gracias a usted. ¡Hasta el sábado!"
+          ],
+          "modelo_zh": [
+            "E：早上好，您要点什么？",
+            "C：早上好。我想买些水果和蔬菜，做一顿饭。这个星期六有几个朋友来我家。",
+            "E：真好！一共几个人？",
+            "C：六个人。我们要做一大份沙拉和一锅海鲜饭。先买西红柿吧，多少钱一公斤？",
+            "E：这种两欧元一公斤，那种做沙拉的两欧五。",
+            "C：请给我两公斤做沙拉的。别太熟的，因为是星期六才用。",
+            "E：放心，这些正好。还要别的吗？",
+            "C：要，我还需要洋葱和甜椒。是本地产的吗？",
+            "E：是的，就是附近菜园里的，非常好。您要多少？",
+            "C：请给我一公斤洋葱和三个红甜椒。",
+            "E：给您。还要点什么？",
+            "C：现在买甜点用的水果。草莓多少钱？",
+            "E：草莓四欧元一盒，很甜。",
+            "C：好，给我一盒。请问，您这儿没有芒果吗？我没看见。",
+            "E：抱歉，今天没到货，明天会有。不过我有菠萝，也很好吃。",
+            "C：好吧，那就来一个菠萝。还有，星期六上午您开门吗？",
+            "E：开，星期六我们八点到两点营业。您要是愿意，我给您留几个芒果，星期六来拿。",
+            "C：您真好！好的，请给我留四个。我大概十点来。您有柠檬吗？做海鲜饭要用。",
+            "E：当然有，在这儿。要几个？",
+            "C：请给我四个。好了，就这些。一共多少钱？",
+            "E：我算一下，一共十五欧元四十。",
+            "C：可以刷卡吗？",
+            "E：抱歉，我们摊位只收现金。",
+            "C：没关系。给您二十欧元。",
+            "E：找您四欧元六十。要袋子吗？",
+            "C：不用了，谢谢，我自己带了。非常感谢，星期六见。",
+            "E：也谢谢您。星期六见！"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "Situación 2: en la recepción de un hotel",
+          "puntos": [
+            "salude, diga su nombre y explique que tiene una reserva;",
+            "explique que quiere quedarse una noche más y pregunte el precio;",
+            "pregunte a qué hora es el desayuno y dónde es;",
+            "pida información sobre qué visitar cerca del hotel y cómo ir;",
+            "pregunte si puede dejar las maletas en el hotel el último día."
+          ],
+          "art": "",
+          "texto": [
+            "Esta situación está relacionada con la fotografía 2.",
+            "Usted acaba de llegar con un amigo a un hotel. Tienen una reserva para dos noches, pero quieren quedarse una noche más. El entrevistador es el recepcionista.",
+            "Durante la conversación, usted tiene que:"
+          ],
+          "modelo": [
+            "E: Buenas tardes, bienvenido al hotel Mirador. ¿En qué puedo ayudarle?",
+            "C: Buenas tardes. Me llamo Wang Lei y tengo una reserva para dos noches, una habitación doble.",
+            "E: Un momento, por favor. Sí, aquí está: señor Wang, habitación doble, del 12 al 14 de mayo. ¿Me deja su pasaporte?",
+            "C: Sí, claro, aquí tiene. Una pregunta: mi amigo y yo queremos quedarnos una noche más. ¿Es posible?",
+            "E: Déjeme ver. Sí, tenemos la habitación libre también la noche del 14.",
+            "C: ¡Qué bien! ¿Y cuánto cuesta esa noche?",
+            "E: Son 85 euros, con el desayuno incluido.",
+            "C: Muy bien, entonces nos quedamos tres noches. ¿A qué hora es el desayuno? ¿Y dónde es?",
+            "E: De siete y media a diez y media, en el comedor de la primera planta.",
+            "C: Perfecto. Otra cosa: es la primera vez que estamos en esta ciudad. ¿Qué podemos visitar cerca del hotel?",
+            "E: Pues muy cerca está la catedral, a unos diez minutos andando. El museo de arte también está cerca. Aquí tiene un mapa.",
+            "C: Muchas gracias. ¿Y hay algún restaurante bueno y no muy caro por aquí? Queremos probar la comida típica.",
+            "E: Sí, en la plaza Mayor, a cinco minutos, hay varios restaurantes con menú del día. Le recomiendo La Bodega de Ana.",
+            "C: Muy bien, lo apunto. Otra pregunta: ¿la habitación es tranquila? Mi amigo duerme muy mal con ruido.",
+            "E: Sí, no se preocupe. La habitación da a un patio interior y es muy tranquila.",
+            "C: ¡Perfecto! ¿Y para ir a la playa? ¿Hay autobús?",
+            "E: Sí, el autobús número 5 para delante del hotel. Tarda unos veinte minutos.",
+            "C: Muy bien. Y el último día, nuestro tren sale por la tarde. ¿Podemos dejar las maletas aquí después de dejar la habitación?",
+            "E: Sí, claro, no hay ningún problema. Tenemos una sala para las maletas. Pero la habitación hay que dejarla antes de las doce.",
+            "C: De acuerdo. Muchas gracias por todo.",
+            "E: De nada. Aquí tiene la llave: es la habitación 304, en la tercera planta. ¡Que disfruten de su estancia!",
+            "C: Gracias. Hasta luego."
+          ],
+          "modelo_zh": [
+            "E：下午好，欢迎来到观景酒店。有什么可以帮您？",
+            "C：下午好。我叫王磊，预订了两晚，一间双人房。",
+            "E：请稍等。有了：王先生，双人房，5 月 12 日到 14 日。可以看一下您的护照吗？",
+            "C：当然，给您。我想问一下：我和我朋友想多住一晚，可以吗？",
+            "E：我看看。可以，14 日晚上这间房也空着。",
+            "C：太好了！那一晚多少钱？",
+            "E：85 欧元，含早餐。",
+            "C：很好，那我们就住三晚。早餐几点？在哪儿吃？",
+            "E：七点半到十点半，在二楼的餐厅。",
+            "C：好的。还有一件事：我们第一次来这座城市，酒店附近有什么可以参观的？",
+            "E：大教堂离这儿很近，走路十分钟左右。美术馆也不远。给您一张地图。",
+            "C：非常感谢。这附近有没有好吃又不太贵的餐馆？我们想尝尝当地菜。",
+            "E：有，走五分钟到马约尔广场，那儿有好几家餐馆供应每日套餐。我推荐“安娜酒馆”。",
+            "C：好的，我记下来。再问一下：房间安静吗？我朋友有一点声音就睡不好。",
+            "E：放心，房间朝着内院，很安静。",
+            "C：太好了！那去海滩呢？有公交车吗？",
+            "E：有，5 路公交车就在酒店门口停，大概二十分钟。",
+            "C：好的。还有，最后一天我们的火车是下午的。退房以后可以把行李放在这里吗？",
+            "E：当然可以，没问题。我们有行李寄存室。不过房间要在十二点以前退。",
+            "C：好的。谢谢您的帮助。",
+            "E：不客气。这是您的房卡：304 房间，在四楼。祝你们住得愉快！",
+            "C：谢谢。回头见。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Ahora vamos a hacer la Tarea 3. Vamos a imaginar una situación relacionada con la fotografía que usted ha descrito.",
+          "Si ha elegido la fotografía 1, yo soy el vendedor de un puesto del mercado y usted es un cliente.",
+          "Si ha elegido la fotografía 2, yo soy el recepcionista del hotel y usted es un cliente que acaba de llegar.",
+          "¿Empezamos?",
+          "Muy bien, muchas gracias. La prueba ha terminado."
+        ],
+        "preguntas": [
+          "Situación 1: Buenos días. ¿Qué le pongo?",
+          "Situación 1: ¿Para cuántas personas es la comida?",
+          "Situación 1: Los tomates están a 2 euros el kilo. ¿Cuántos quiere?",
+          "Situación 1: ¿Algo más?",
+          "Situación 1: Lo siento, hoy no tengo ese producto. ¿Quiere otra cosa?",
+          "Situación 1: Son 15 euros con 40.",
+          "Situación 1: ¿Quiere una bolsa?",
+          "Situación 1: Gracias a usted. ¡Hasta luego!",
+          "Situación 2: Buenas tardes, bienvenido. ¿En qué puedo ayudarle?",
+          "Situación 2: ¿A nombre de quién está la reserva?",
+          "Situación 2: ¿Me deja su pasaporte, por favor?",
+          "Situación 2: Para la tercera noche tenemos la misma habitación. Son 85 euros.",
+          "Situación 2: El desayuno es de siete y media a diez y media.",
+          "Situación 2: ¿Qué le interesa más: museos, tiendas o la playa?",
+          "Situación 2: La habitación hay que dejarla antes de las doce.",
+          "Situación 2: ¿Necesita algo más?"
+        ],
+        "notas_zh": "考官按考生在 Tarea 2 选的照片进入对应情景：照片 1 扮演市场摊主，照片 2 扮演酒店前台。考官的话要简短、自然，主要让考生主动完成卡片上的五个要点；考生漏掉某个要点时，可以用上面的话（如“¿Algo más?”“¿Necesita algo más?”）引导。价格、时间等可以临场编，但不要说得太长。对话三到四分钟，到时间礼貌结束。"
+      }
+    }
+  ],
+  "criterios": [
+    {"es": "Uso de la lengua", "zh": "看考生说出的西语本身：发音能不能让人听懂，说得是否大体连贯；现在时、过去时、ir a、命令式等本级语法和日常词汇用得是否基本正确、够不够用。有错误不要紧，只要不影响对方理解。占 66%。"},
+    {"es": "Cumplimiento de la tarea", "zh": "看考生是否完成了任务：独白和照片描述有没有讲到卡片上的各个要点、时长是否够；情景对话里能否按要点提出请求、回答对方、礼貌地开始和结束；内容是否切题。占 34%。"}
+  ]
+}

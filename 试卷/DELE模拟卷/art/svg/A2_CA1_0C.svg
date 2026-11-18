@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <!-- 蓝色圆领羊毛衫，没有纽扣 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 衣身和两只长袖 -->
+    <path d="M252 80 L205 96 L126 336 L170 354 L212 205 L210 404 L390 404 L388 205 L430 354 L474 336 L395 96 L348 80 Q300 130 252 80 Z" fill="#6fa8dc"/>
+    <!-- 领口里侧（后领） -->
+    <path d="M264 80 Q300 64 336 80 Q300 104 264 80 Z" fill="#999" stroke-width="6"/>
+    <!-- 罗纹圆领 -->
+    <path d="M252 80 Q300 130 348 80 L336 80 Q300 104 264 80 Z" fill="#6fa8dc" stroke-width="6"/>
+    <g stroke-width="3" fill="none">
+      <path d="M268 90 L262 97"/><path d="M280 98 L276 106"/><path d="M293 101 L292 110"/>
+      <path d="M307 101 L308 110"/><path d="M320 98 L324 106"/><path d="M332 90 L338 97"/>
+    </g>
+    <!-- 罗纹下摆 -->
+    <path d="M210 374 L390 374" fill="none" stroke-width="6"/>
+    <g stroke-width="3" fill="none">
+      <path d="M226 380 L226 398"/><path d="M244 380 L244 398"/><path d="M262 380 L262 398"/>
+      <path d="M280 380 L280 398"/><path d="M298 380 L298 398"/><path d="M316 380 L316 398"/>
+      <path d="M334 380 L334 398"/><path d="M352 380 L352 398"/><path d="M370 380 L370 398"/>
+    </g>
+    <!-- 罗纹袖口 -->
+    <path d="M134 312 L177 330" fill="none" stroke-width="6"/>
+    <path d="M466 312 L423 330" fill="none" stroke-width="6"/>
+    <g stroke-width="3" fill="none">
+      <path d="M143 322 L138 335"/><path d="M155 327 L150 340"/><path d="M167 331 L162 344"/>
+      <path d="M457 322 L462 335"/><path d="M445 327 L450 340"/><path d="M433 331 L438 344"/>
+    </g>
+    <!-- 毛线针脚 -->
+    <g stroke-width="3" fill="none" stroke="#222" opacity="0.45">
+      <path d="M262 170 L270 180 L278 170"/><path d="M322 170 L330 180 L338 170"/>
+      <path d="M292 225 L300 235 L308 225"/>
+      <path d="M262 280 L270 290 L278 280"/><path d="M322 280 L330 290 L338 280"/>
+      <path d="M292 330 L300 340 L308 330"/>
+      <path d="M168 256 L176 266 L184 256"/><path d="M416 256 L424 266 L432 256"/>
+    </g>
+  </g>
+</svg>

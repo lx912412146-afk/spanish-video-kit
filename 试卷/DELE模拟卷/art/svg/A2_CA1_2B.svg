@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <!-- 电子钟显示 10:30 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="182" y="92" width="56" height="22" rx="6" fill="#d9d9d9"/>
+    <rect x="362" y="92" width="56" height="22" rx="6" fill="#d9d9d9"/>
+    <rect x="130" y="342" width="50" height="26" rx="6" fill="#999"/>
+    <rect x="420" y="342" width="50" height="26" rx="6" fill="#999"/>
+    <rect x="86" y="110" width="428" height="240" rx="44" fill="#6fa8dc"/>
+    <rect x="122" y="146" width="356" height="168" rx="18" fill="#fff"/>
+  </g>
+  <text x="300" y="270" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="120" fill="#222">10:30</text>
+</svg>

@@ -1,0 +1,495 @@
+{
+  "nivel": "A2",
+  "prueba": "Comprensión de lectura",
+  "zh": "阅读理解",
+  "duracion_min": 60,
+  "intro_es": "La prueba de Comprensión de lectura contiene cuatro tareas. Usted tiene que responder a 25 preguntas. Duración: 60 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a leer un correo electrónico que Rocío ha escrito a su amiga Inés. Después, responda a las preguntas (1-5). Seleccione la opción correcta (A, B o C). Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将读到罗西奥写给朋友伊内斯的一封电子邮件。读后回答第 1—5 题，从 A、B、C 中选出正确答案。把答案涂在答题卡上。",
+      "tema_zh": "私人邮件：搬到萨拉曼卡以后的新住处、新工作和一次周末出游（住房、工作、饮食）",
+      "textos": [
+        {
+          "id": "T",
+          "genero": "correo electrónico",
+          "titulo": "",
+          "cabecera": ["De: Rocío Vidal", "Para: Inés Calvo", "Asunto: Noticias desde Salamanca"],
+          "cuerpo": [
+            "¡Hola, Inés!",
+            "¿Qué tal estás? Perdona por no escribirte antes, pero estas semanas han sido muy intensas. Como sabes, en septiembre empecé a trabajar en una agencia de viajes aquí, en Salamanca. Los primeros días me quedé en un hostal del centro, pero el lunes pasado por fin me mudé a un piso con dos chicas muy majas, Lola y Begoña.",
+            "El piso es antiguo, pero tiene mucha luz. Mi habitación es más pequeña que la de Madrid, aunque tiene un balcón con vistas a una plaza preciosa. Lo malo es que el edificio no tiene ascensor y vivimos en un cuarto piso, así que subo y bajo las escaleras muchas veces al día. ¡Ya no necesito ir al gimnasio!",
+            "En el trabajo estoy muy contenta. Mis compañeros son simpáticos y mi jefa me ayuda mucho. Por las mañanas atiendo a los clientes en la oficina y por las tardes organizo viajes para grupos de jubilados. Lo más difícil para mí es hablar por teléfono en inglés, pero poco a poco lo hago mejor.",
+            "El sábado pasado Lola y Begoña me llevaron a un pueblo de la sierra. Comimos en un restaurante pequeño y probé el hornazo, una empanada típica de la zona, con carne y huevo. Por la tarde empezó a llover y volvimos a casa mojadas, pero lo pasamos genial.",
+            "Oye, ¿por qué no vienes a verme en diciembre? Puedes dormir en el sofá del salón, que es bastante cómodo. Eso sí, trae ropa de abrigo, porque aquí en invierno hace mucho más frío que en Madrid.",
+            "Escríbeme pronto y cuéntame qué tal va tu curso de cocina.",
+            "Un beso muy fuerte,"
+          ],
+          "firma": "Rocío",
+          "zh": [
+            "你好，伊内斯！",
+            "你好吗？抱歉这么久才给你写信，这几个星期实在太忙了。你知道的，九月我开始在萨拉曼卡这边的一家旅行社上班。头几天我住在市中心的一家小旅馆，上周一终于搬进了一套公寓，和两个很好相处的女孩洛拉和贝戈尼亚住在一起。",
+            "公寓是老房子，但采光很好。我的房间比在马德里的那间小，不过有个阳台，能看到一个很漂亮的广场。不好的是楼里没有电梯，我们又住在四楼，所以我每天要上上下下爬好多次楼梯。我再也不用去健身房了！",
+            "工作上我很开心。同事们都很友善，上司也帮了我很多。上午我在办公室接待客人，下午为退休老人团组织旅行。对我来说最难的是用英语打电话，不过我一点一点在进步。",
+            "上周六洛拉和贝戈尼亚带我去了山里的一个小镇。我们在一家小餐馆吃饭，我尝了 hornazo，这是当地一种夹肉和鸡蛋的特色馅饼。下午开始下雨，我们回到家时全身都湿了，不过玩得非常开心。",
+            "对了，你十二月为什么不来看我呢？你可以睡客厅的沙发，那张沙发挺舒服的。不过一定要带上厚衣服，因为这里冬天比马德里冷得多。",
+            "快给我回信，告诉我你的烹饪课上得怎么样。",
+            "紧紧拥抱你，"
+          ],
+          "palabras": 274
+        }
+      ],
+      "preguntas": [
+        {
+          "n": 1,
+          "texto": "T",
+          "enunciado": "Según el correo, Rocío…",
+          "opciones": ["empezó a trabajar en Salamanca el lunes pasado.", "ahora vive con otras dos personas.", "todavía vive en un hostal del centro."],
+          "clave": "B",
+          "explicacion": "原文“el lunes pasado por fin me mudé a un piso con dos chicas muy majas, Lola y Begoña”，说明她现在和两个女孩合住，B 正确。A 错：她九月就开始上班了，上周一是搬家的日子；C 错：住小旅馆只是“Los primeros días”（刚来的头几天）。"
+        },
+        {
+          "n": 2,
+          "texto": "T",
+          "enunciado": "¿Cómo es la habitación de Rocío?",
+          "opciones": ["Es más grande que la que tenía en Madrid.", "Está en un edificio con ascensor.", "Desde ella se puede ver una plaza bonita."],
+          "clave": "C",
+          "explicacion": "原文“tiene un balcón con vistas a una plaza preciosa”，从房间的阳台能看到漂亮的广场，C 正确。A 错：“Mi habitación es más pequeña que la de Madrid”，是更小而不是更大；B 错：“el edificio no tiene ascensor”，楼里没有电梯。"
+        },
+        {
+          "n": 3,
+          "texto": "T",
+          "enunciado": "En su trabajo, Rocío…",
+          "opciones": ["todavía necesita mejorar su inglés al teléfono.", "no se lleva bien con su jefa.", "organiza viajes para grupos por las mañanas."],
+          "clave": "A",
+          "explicacion": "原文“Lo más difícil para mí es hablar por teléfono en inglés, pero poco a poco lo hago mejor”：用英语打电话现在（es）仍是她最难的事，她只是在一点点进步，说明还没做好、还需要提高，A 正确。B 错：“mi jefa me ayuda mucho”，和上司相处很好；C 错：组织团体旅行是“por las tardes”，上午她接待客人。"
+        },
+        {
+          "n": 4,
+          "texto": "T",
+          "enunciado": "¿Qué hizo Rocío el sábado pasado?",
+          "opciones": ["Visitó sola un pueblo pequeño de la sierra.", "Se quedó en casa por la lluvia.", "Comió una especialidad de aquella zona."],
+          "clave": "C",
+          "explicacion": "原文“probé el hornazo, una empanada típica de la zona”，她尝了当地的特色食物，C 正确（especialidad 即 plato típico）。A 错：是 Lola 和 Begoña 带她去的，不是一个人；B 错：下午才下雨，她们当时已经在外面了，“volvimos a casa mojadas”。"
+        },
+        {
+          "n": 5,
+          "texto": "T",
+          "enunciado": "¿Qué le recomienda Rocío a Inés para su visita?",
+          "opciones": ["Buscar un hostal en el centro.", "Llevar ropa para el frío.", "Apuntarse a un curso de cocina."],
+          "clave": "B",
+          "explicacion": "原文“trae ropa de abrigo, porque aquí en invierno hace mucho más frío que en Madrid”，她提醒伊内斯带保暖的衣服，B 正确。A 错：她请伊内斯睡客厅的沙发，住小旅馆的是她自己刚来的时候；C 错：烹饪课是伊内斯自己正在上的课，“cuéntame qué tal va tu curso de cocina”。"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a leer nueve textos breves: anuncios, avisos y noticias. A continuación, conteste a la pregunta de cada texto (6-13) y seleccione la opción correcta (A, B o C). El texto 0 es un ejemplo. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将读到九篇短文（广告、告示和简讯）。请回答每篇短文后面的问题（第 6—13 题），从 A、B、C 中选出正确答案。第 0 篇是例题。把答案涂在答题卡上。",
+      "tema_zh": "日常生活中的短文：游泳池开放时间、停水通知、租房、街区节日改期、学校郊游、公司食堂关闭、鞋店打折、流感疫苗、公交线路调整",
+      "textos": [
+        {
+          "id": "0",
+          "genero": "anuncio",
+          "titulo": "Piscina municipal Los Álamos", "titulo_zh": "白杨市立游泳池",
+          "cabecera": [],
+          "cuerpo": [
+            "Horario de verano (del 15 de junio al 15 de septiembre): de lunes a viernes, de 11:00 a 21:00; sábados y domingos, de 10:00 a 20:00.",
+            "En julio y agosto, los lunes hay también un horario de noche, de 21:00 a 23:00, solo para mayores de 18 años.",
+            "Los niños menores de 8 años tienen que venir siempre con un adulto. Entrada: 4 euros; menores de 14 años, 2 euros."
+          ],
+          "firma": "",
+          "zh": [
+            "夏季开放时间（6 月 15 日至 9 月 15 日）：周一至周五 11:00—21:00；周六、周日 10:00—20:00。",
+            "七月和八月的每个周一另有夜场，21:00—23:00，仅限 18 岁以上人士。",
+            "8 岁以下儿童必须由成人陪同。门票 4 欧元；14 岁以下 2 欧元。"
+          ],
+          "palabras": 70
+        },
+        {
+          "id": "6",
+          "genero": "aviso",
+          "titulo": "Comunidad de vecinos · Calle del Olmo, 14", "titulo_zh": "榆树街 14 号业主委员会",
+          "cabecera": [],
+          "cuerpo": [
+            "Estimados vecinos:",
+            "El próximo martes, 8 de octubre, unos técnicos van a cambiar las tuberías del edificio. Por eso, ese día no va a haber agua de 9:00 a 14:00. Les recomendamos llenar algunas botellas el lunes por la noche.",
+            "El ascensor va a funcionar con normalidad, pero el garaje va a estar cerrado toda la mañana. Si tienen alguna pregunta, pueden hablar con Andrés, el portero."
+          ],
+          "firma": "La administración",
+          "zh": [
+            "各位邻居：",
+            "下周二（10 月 8 日）技术人员要更换大楼的水管，因此当天 9:00—14:00 停水。建议大家周一晚上先装好几瓶水。",
+            "电梯照常运行，但车库整个上午关闭。如有问题，可以找门房安德烈斯。"
+          ],
+          "palabras": 67
+        },
+        {
+          "id": "7",
+          "genero": "anuncio",
+          "titulo": "Se alquila habitación", "titulo_zh": "房间出租",
+          "cabecera": [],
+          "cuerpo": [
+            "Alquilo habitación en piso compartido, a diez minutos a pie de la universidad. La habitación es exterior y tiene cama grande, mesa de estudio y armario. El piso tiene cocina completa, dos baños y una terraza pequeña. Viven dos estudiantes de Medicina, muy tranquilos.",
+            "Precio: 320 euros al mes. La luz y el agua no están incluidas, pero internet sí. No se admiten animales. Libre desde el 1 de febrero. Preguntar por Sergio."
+          ],
+          "firma": "",
+          "zh": [
+            "出租合租公寓中的一个房间，步行十分钟到大学。房间朝外，有大床、书桌和衣柜。公寓有设备齐全的厨房、两个卫生间和一个小露台。现住两名医学院学生，人都很安静。",
+            "价格：每月 320 欧元，不含水电，但含网费。不接受宠物。2 月 1 日起可以入住。请找塞尔希奥。"
+          ],
+          "palabras": 73
+        },
+        {
+          "id": "8",
+          "genero": "noticia",
+          "titulo": "Cambios en las fiestas de San Roque", "titulo_zh": "圣罗克节活动调整",
+          "cabecera": [],
+          "cuerpo": [
+            "Por la lluvia de los últimos días, el Ayuntamiento ha cambiado el programa de las fiestas del barrio de San Roque. El concierto del viernes va a ser en el polideportivo, y no en la plaza Mayor. La comida popular del sábado pasa al domingo, a la misma hora. Los fuegos artificiales del domingo por la noche no cambian. La carrera infantil, en cambio, se ha cancelado."
+          ],
+          "firma": "",
+          "zh": [
+            "由于最近几天下雨，市政府调整了圣罗克街区节日的活动安排。周五的音乐会改在体育馆举行，不在主广场了。周六的街区聚餐改到周日，时间不变。周日晚上的烟花照常进行。儿童赛跑则已经取消。"
+          ],
+          "palabras": 67
+        },
+        {
+          "id": "9",
+          "genero": "nota informativa",
+          "titulo": "Academia Sol · Excursión a Toledo", "titulo_zh": "太阳学校 · 托莱多一日游",
+          "cabecera": [],
+          "cuerpo": [
+            "Queridos estudiantes:",
+            "El jueves 17 vamos a ir de excursión a Toledo con los profesores. El autobús sale a las 8:15 de la puerta de la academia; por favor, lleguen diez minutos antes. La excursión cuesta 25 euros e incluye el viaje y la entrada a la catedral, pero no la comida. Ese día no hay clases por la mañana, pero sí por la tarde, desde las 17:00. Apúntense en recepción antes del lunes."
+          ],
+          "firma": "",
+          "zh": [
+            "亲爱的同学们：",
+            "17 日（周四）我们将和老师们一起去托莱多郊游。大巴 8:15 从学校门口出发，请提前十分钟到。郊游费用 25 欧元，包括车费和大教堂门票，但不含午饭。当天上午不上课，下午 17:00 起照常上课。请在周一之前到前台报名。"
+          ],
+          "palabras": 74
+        },
+        {
+          "id": "10",
+          "genero": "comunicado interno",
+          "titulo": "Aviso para todo el personal", "titulo_zh": "致全体员工的通知",
+          "cabecera": [],
+          "cuerpo": [
+            "Os informamos de que el comedor de la empresa va a estar cerrado del 3 al 14 de marzo por obras. Durante esos días, podéis comer en la cafetería del segundo piso, que va a abrir de 13:00 a 16:00 y va a ofrecer un menú del día por 6 euros. También podéis traer comida de casa: los microondas de la sala de descanso funcionan con normalidad. Perdonad las molestias."
+          ],
+          "firma": "Departamento de Recursos Humanos",
+          "zh": [
+            "特此通知：因施工，公司食堂 3 月 3 日至 14 日关闭。这段时间大家可以去二楼的咖啡厅用餐，咖啡厅 13:00—16:00 营业，提供 6 欧元的每日套餐。也可以从家里带饭：休息室的微波炉照常使用。给大家带来不便，敬请谅解。"
+          ],
+          "palabras": 70
+        },
+        {
+          "id": "11",
+          "genero": "anuncio",
+          "titulo": "Zapatería Paso a Paso · Rebajas de invierno", "titulo_zh": "“步步”鞋店 · 冬季打折",
+          "cabecera": [],
+          "cuerpo": [
+            "Del 7 de enero al 28 de febrero, todos los zapatos y botas de la temporada tienen un 30 % de descuento; los bolsos y los cinturones, un 20 %.",
+            "Durante las rebajas no devolvemos el dinero, pero puede cambiar sus productos por otra talla o por otro modelo en los quince días siguientes a la compra. Para hacer un cambio, es necesario traer el tique.",
+            "Horario: de lunes a sábado, de 10:00 a 20:30."
+          ],
+          "firma": "",
+          "zh": [
+            "1 月 7 日至 2 月 28 日，本季所有鞋子和靴子打七折（优惠 30 %）；包和皮带打八折（优惠 20 %）。",
+            "打折期间不退款，但购买后十五天内可以换别的尺码或别的款式。换货时须带购物小票。",
+            "营业时间：周一至周六 10:00—20:30。"
+          ],
+          "palabras": 73
+        },
+        {
+          "id": "12",
+          "genero": "aviso",
+          "titulo": "Centro de Salud Las Huertas · Vacuna de la gripe", "titulo_zh": "拉斯韦尔塔斯社区医疗中心 · 流感疫苗",
+          "cabecera": [],
+          "cuerpo": [
+            "Desde el 15 de octubre, las personas mayores de 60 años y las personas con algunas enfermedades pueden vacunarse contra la gripe en este centro. Antes de venir, es necesario pedir cita por teléfono o en la aplicación del centro de salud: no vacunamos a nadie sin cita. La vacuna es gratuita. Si ha tenido fiebre en los últimos días, espere una semana para vacunarse. Traiga su tarjeta sanitaria."
+          ],
+          "firma": "",
+          "zh": [
+            "自 10 月 15 日起，60 岁以上的人和患有某些疾病的人可以在本中心接种流感疫苗。来之前须通过电话或卫生中心的应用程序预约：没有预约一律不接种。疫苗免费。如果最近几天发过烧，请等一周再来接种。请携带医疗卡。"
+          ],
+          "palabras": 69
+        },
+        {
+          "id": "13",
+          "genero": "aviso",
+          "titulo": "Autobuses urbanos · Línea 5", "titulo_zh": "市内公交 · 5 路",
+          "cabecera": [],
+          "cuerpo": [
+            "Por las obras de la calle Real, desde el lunes 2 de junio hasta finales de julio, la línea 5 no va a parar en la plaza de España. La parada más cercana va a estar en la calle Goya, a 200 metros. Además, de lunes a viernes los autobuses van a pasar cada 15 minutos, y no cada 10, como hasta ahora. Los sábados y domingos, el horario no cambia. Perdonen las molestias."
+          ],
+          "firma": "",
+          "zh": [
+            "由于皇家街施工，自 6 月 2 日（周一）起至 7 月底，5 路公交车不在西班牙广场停靠。最近的车站设在戈雅街，相距 200 米。此外，周一至周五的发车间隔由现在的 10 分钟改为 15 分钟。周六、周日的时刻表不变。给您带来不便，敬请原谅。"
+          ],
+          "palabras": 74
+        }
+      ],
+      "preguntas": [
+        {
+          "n": 0,
+          "texto": "0",
+          "enunciado": "Según el anuncio, en julio la piscina…",
+          "opciones": ["los lunes cierra más tarde.", "cierra a las 20:00 todos los días.", "no deja entrar a niños menores de 8 años."],
+          "clave": "A",
+          "explicacion": "原文“En julio y agosto, los lunes hay también un horario de noche, de 21:00 a 23:00”，七月的周一开到 23:00，比平时关门晚，A 正确。B 错：周一到周五开到 21:00，只有周末 20:00 关门；C 错：8 岁以下的孩子由成人陪同就可以来。"
+        },
+        {
+          "n": 6,
+          "texto": "6",
+          "enunciado": "El martes por la mañana, los vecinos…",
+          "opciones": ["van a tener agua hasta las dos de la tarde.", "no van a poder usar el ascensor.", "no van a poder entrar en el garaje."],
+          "clave": "C",
+          "explicacion": "原文“el garaje va a estar cerrado toda la mañana”，周二整个上午车库关闭，进不去，C 正确。A 错：“no va a haber agua de 9:00 a 14:00”，9 点到 14 点恰恰停水；B 错：“El ascensor va a funcionar con normalidad”，电梯照常运行。"
+        },
+        {
+          "n": 7,
+          "texto": "7",
+          "enunciado": "En este piso…",
+          "opciones": ["no hay que pagar internet aparte.", "se puede vivir con un perro.", "la habitación está libre desde enero."],
+          "clave": "A",
+          "explicacion": "原文“La luz y el agua no están incluidas, pero internet sí”，网费已经包含在 320 欧元房租里，不用另付，A 正确。B 错：“No se admiten animales”，不能养宠物；C 错：房间“Libre desde el 1 de febrero”，二月才空出来。"
+        },
+        {
+          "n": 8,
+          "texto": "8",
+          "enunciado": "Según la noticia…",
+          "opciones": ["el concierto ya no se va a celebrar.", "la comida popular va a ser un día después.", "los fuegos artificiales son el sábado."],
+          "clave": "B",
+          "explicacion": "原文“La comida popular del sábado pasa al domingo, a la misma hora”，聚餐从周六改到周日，推迟了一天，B 正确。A 错：音乐会没有取消，只是改在体育馆举行，取消的是儿童赛跑；C 错：烟花还是“del domingo por la noche”，时间不变。"
+        },
+        {
+          "n": 9,
+          "texto": "9",
+          "enunciado": "Los estudiantes que van a la excursión…",
+          "opciones": ["tienen que llegar a la academia a las 8:15.", "no tienen clase en todo el día.", "tienen que pagar la comida aparte."],
+          "clave": "C",
+          "explicacion": "原文“incluye el viaje y la entrada a la catedral, pero no la comida”，25 欧元里不含午饭，午饭要另外付钱，C 正确。A 错：8:15 是发车时间，学生要“lleguen diez minutos antes”，即 8:05 到；B 错：只是上午没课，下午 17:00 起照常上课。"
+        },
+        {
+          "n": 10,
+          "texto": "10",
+          "enunciado": "Del 3 al 14 de marzo, los trabajadores…",
+          "opciones": ["no van a poder calentar la comida en la empresa.", "tienen otro lugar para comer en el edificio.", "van a pagar 6 euros por comer en el comedor."],
+          "clave": "B",
+          "explicacion": "原文“podéis comer en la cafetería del segundo piso”：这是公司发给全体员工的通知，“del segundo piso”指公司这栋楼的二楼，食堂关了，员工还可以去楼里的咖啡厅吃饭，B 正确。A 错：“los microondas de la sala de descanso funcionan con normalidad”，微波炉照常可用；C 错：食堂关闭，6 欧元的套餐是在咖啡厅吃。"
+        },
+        {
+          "n": 11,
+          "texto": "11",
+          "enunciado": "Según el anuncio, durante las rebajas los clientes…",
+          "opciones": ["pueden cambiar unos zapatos por otro número.", "tienen un 30 % de descuento en los bolsos.", "pueden recuperar el dinero de su compra en quince días."],
+          "clave": "A",
+          "explicacion": "原文“puede cambiar sus productos por otra talla o por otro modelo”，买的鞋可以换别的尺码，A 正确（número 指鞋码）。B 错：包和皮带优惠 20 %，30 % 是鞋和靴子；C 错：“no devolvemos el dinero”，打折期间只换不退。"
+        },
+        {
+          "n": 12,
+          "texto": "12",
+          "enunciado": "Para vacunarse en este centro, hay que…",
+          "opciones": ["ir al centro directamente, sin cita.", "esperar una semana después de pedir cita.", "reservar día y hora antes de ir."],
+          "clave": "C",
+          "explicacion": "原文“Antes de venir, es necesario pedir cita”“no vacunamos a nadie sin cita”，必须先预约时间，C 正确。A 错：没有预约不给接种；B 错：等一周是针对最近发过烧的人，“Si ha tenido fiebre en los últimos días, espere una semana”，不是预约以后都要等一周。"
+        },
+        {
+          "n": 13,
+          "texto": "13",
+          "enunciado": "Desde el 2 de junio, la línea 5…",
+          "opciones": ["no va a funcionar los fines de semana.", "va a pasar menos a menudo entre semana.", "va a parar en la plaza de España."],
+          "clave": "B",
+          "explicacion": "原文“de lunes a viernes los autobuses van a pasar cada 15 minutos, y no cada 10”，工作日的车次变少了，B 正确。A 错：“Los sábados y domingos, el horario no cambia”，周末照常运行；C 错：施工期间恰恰“no va a parar en la plaza de España”。"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "tipo": "relacionar",
+      "instruccion_es": "Usted va a leer tres textos en los que tres personas cuentan cómo aprendieron a cocinar. Relacione las preguntas (14-19) con los textos (A, B o C). Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将读到三篇短文，三个人讲述自己是怎样学会做饭的。请把问题（第 14—19 题）和文本（A、B、C）对应起来。把答案涂在答题卡上。",
+      "tema_zh": "三个人讲自己怎样学会做饭（饮食、过去的经历）",
+      "opciones_tipo": "textos",
+      "textos": [
+        {
+          "id": "A",
+          "genero": "foro",
+          "titulo": "Marcos, 34 años (Bilbao)", "titulo_zh": "马科斯，34 岁（毕尔巴鄂）",
+          "cuerpo": [
+            "Aprendí a cocinar con mi abuela Amaia cuando tenía ocho o nueve años. Todos los domingos iba a su casa del pueblo y ella me dejaba ayudarla: yo lavaba las verduras y ella me explicaba cada paso. Mi primer plato fue una tortilla de patatas y, la verdad, salió fatal, pero toda la familia se la comió. Hoy cocino casi todos los días para mi mujer y mis hijos, y me encanta probar recetas nuevas de otros países. Solo hay un postre que nunca me sale bien: el arroz con leche de mi abuela. Lo he intentado muchas veces, pero el suyo era mucho mejor."
+          ],
+          "zh": [
+            "我八九岁的时候跟奶奶阿玛娅学会了做饭。每个星期天我都去她在乡下的家，她让我在厨房帮忙：我洗菜，她给我讲每一个步骤。我做的第一道菜是土豆鸡蛋饼，说实话，做得糟透了，不过全家人还是把它吃光了。现在我几乎每天给妻子和孩子们做饭，而且很喜欢尝试其他国家的新菜谱。只有一道甜点我怎么也做不好：奶奶做的米布丁。我试过很多次，可她做的要好吃得多。"
+          ],
+          "icono": "",
+          "palabras": 105
+        },
+        {
+          "id": "B",
+          "genero": "foro",
+          "titulo": "Elena, 22 años (Valencia)", "titulo_zh": "埃莱娜，22 岁（瓦伦西亚）",
+          "cuerpo": [
+            "Yo empecé a cocinar hace tres años, cuando me fui a estudiar a Valencia, lejos de mi familia. En casa de mis padres nunca preparaba nada porque mi padre lo hacía todo, ¡y muy bien! Los primeros meses en el piso de estudiantes comía pasta y bocadillos casi todos los días, y me sentía fatal. Entonces empecé a ver vídeos de cocina en internet y a copiar en un cuaderno las recetas que más me gustaban. Ahora preparo platos sencillos pero sanos, y algunos sábados invito a cenar a mis compañeros de piso. ¡Dicen que mis lentejas son las mejores de la casa!"
+          ],
+          "zh": [
+            "我三年前开始做饭，那时我去瓦伦西亚上大学，离家人很远。在父母家我从来不做饭，因为什么都是我爸爸做，而且做得很好！刚住进学生公寓的头几个月，我几乎天天吃意大利面和三明治，感觉糟透了。后来我开始在网上看做菜视频，把最喜欢的菜谱抄在一个本子上。现在我做些简单但健康的菜，有些星期六还请室友们吃晚饭。他们说我做的扁豆是全屋最好吃的！"
+          ],
+          "icono": "",
+          "palabras": 103
+        },
+        {
+          "id": "C",
+          "genero": "foro",
+          "titulo": "Tomás, 67 años (Toledo)", "titulo_zh": "托马斯，67 岁（托莱多）",
+          "cuerpo": [
+            "Durante cuarenta años trabajé en un banco y nunca tuve tiempo para cocinar: mi mujer preparaba la comida y yo fregaba los platos. Hace dos años me jubilé y decidí apuntarme a un curso de cocina en el centro cultural del barrio. Somos doce alumnos de todas las edades y nos vemos dos tardes por semana. El profesor es un cocinero joven, muy simpático y muy paciente. Al principio me cortaba los dedos y quemaba las cebollas, pero he mejorado mucho. Además, he hecho nuevos amigos. Ahora, los domingos, preparo yo la comida para toda la familia y mi mujer descansa."
+          ],
+          "zh": [
+            "我在银行工作了四十年，从来没有时间做饭：饭是妻子做，我负责洗碗。两年前我退休了，决定报名参加街区文化中心的烹饪课。我们班有十二个学员，年龄各不相同，每周两个下午上课。老师是一位年轻的厨师，人很好，也很有耐心。一开始我老是切到手指，还把洋葱烧焦，不过现在进步很大。而且我还交了新朋友。现在每个星期天都是我给全家做午饭，让妻子休息。"
+          ],
+          "icono": "",
+          "palabras": 101
+        }
+      ],
+      "enunciados": [
+        {
+          "n": 14,
+          "persona": "",
+          "texto": "¿Quién empezó a cocinar cuando se mudó a otra ciudad?",
+          "zh": "谁是搬到另一个城市时开始做饭的？",
+          "clave": "B",
+          "explicacion": "Elena 说“Yo empecé a cocinar hace tres años, cuando me fui a estudiar a Valencia, lejos de mi familia”，她是去另一个城市上大学时开始做饭的。Marcos 小时候在奶奶家学做饭，Tomás 退休后在本街区上课，两人都没有提到搬去别的城市。"
+        },
+        {
+          "n": 15,
+          "persona": "",
+          "texto": "¿Quién aprende a cocinar con otros alumnos?",
+          "zh": "谁在和其他学员一起学做饭？",
+          "clave": "C",
+          "explicacion": "Tomás 说“Somos doce alumnos de todas las edades y nos vemos dos tardes por semana”，他在文化中心和别的学员一起上烹饪课。Marcos 是跟奶奶一个人学的，Elena 是自己看网上的视频学的，都不是在班里学。"
+        },
+        {
+          "n": 16,
+          "persona": "",
+          "texto": "¿Quién aprendió a cocinar con una persona de su familia?",
+          "zh": "谁是跟一位家人学会做饭的？",
+          "clave": "A",
+          "explicacion": "Marcos 说“Aprendí a cocinar con mi abuela Amaia”，教他做饭的是奶奶，也就是家人。Elena 在家时“mi padre lo hacía todo”，她并没有跟父亲学，而是后来看视频学的；Tomás 的老师是“un cocinero joven”，不是家人。"
+        },
+        {
+          "n": 17,
+          "persona": "",
+          "texto": "¿Quién escribió a mano sus recetas favoritas?",
+          "zh": "谁把自己最喜欢的菜谱亲手抄写下来？",
+          "clave": "B",
+          "explicacion": "Elena 说她开始“copiar en un cuaderno las recetas que más me gustaban”，把最喜欢的菜谱抄在本子上。Marcos 只说喜欢尝试新菜谱，Tomás 讲的是上课和做饭的经历，两人都没有提到把菜谱写下来。"
+        },
+        {
+          "n": 18,
+          "persona": "",
+          "texto": "¿Quién no consigue preparar bien una receta familiar?",
+          "zh": "谁有一道家里的菜一直做不好？",
+          "clave": "A",
+          "explicacion": "Marcos 说“Solo hay un postre que nunca me sale bien: el arroz con leche de mi abuela”，奶奶的米布丁他至今做不好。Tomás 说以前切到手、烧焦洋葱，但“he mejorado mucho”；Elena 说她的扁豆最好吃，两人都没说有做不好的菜。"
+        },
+        {
+          "n": 19,
+          "persona": "",
+          "texto": "¿Quién empezó a cocinar cuando dejó de trabajar?",
+          "zh": "谁是不再工作以后才开始做饭的？",
+          "clave": "C",
+          "explicacion": "Tomás 说“Hace dos años me jubilé y decidí apuntarme a un curso de cocina”，他是退休、不再上班以后才学做饭的。Marcos 八九岁就开始学，Elena 是去外地上大学时开始做饭的，都和停止工作无关。"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a leer una entrada de un blog de viajes. Después, responda a las preguntas (20-25). Seleccione la opción correcta (A, B o C). Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将读到一篇旅行博客文章。读后回答第 20—25 题，从 A、B、C 中选出正确答案。把答案涂在答题卡上。",
+      "tema_zh": "旅行博客：和 79 岁的奶奶坐火车游西班牙北部十五天（旅行、过去的经历）",
+      "textos": [
+        {
+          "id": "T",
+          "genero": "blog",
+          "titulo": "Quince días en tren con mi abuela", "titulo_zh": "和奶奶坐火车旅行的十五天",
+          "cabecera": ["Blog «Maletas y caminos»", "Publicado el 12 de octubre"],
+          "cuerpo": [
+            "Hace un mes volví del viaje más especial de mi vida: quince días por el norte de España con mi abuela Remedios, que tiene 79 años. La idea fue suya. Un domingo, mientras comíamos en su casa de Córdoba, me dijo: «Nunca he visto el mar Cantábrico y no quiero esperar más». Mi abuela trabajó toda su vida en una tienda de ropa y casi nunca tuvo vacaciones, así que no lo pensé dos veces y le dije que sí.",
+            "Decidimos viajar en tren por varias razones. A mi abuela le dan miedo los aviones y yo no tengo coche. Además, en el tren se puede caminar, leer, mirar el paisaje y hablar con otros viajeros. Compramos un billete especial que permite subir y bajar del tren muchas veces durante quince días.",
+            "El primer día no empezó muy bien. El tren de Madrid a León salió con dos horas de retraso por un problema técnico y llegamos muy tarde, cuando el restaurante del hotel ya estaba cerrado. Al final cenamos un bocadillo en la habitación. Yo estaba un poco nerviosa y muy cansada, pero mi abuela se rio mucho y dijo que era una aventura de jóvenes.",
+            "Después visitamos Oviedo, Gijón y Santander, tres ciudades preciosas. En cada ciudad nos quedamos dos o tres noches. Por las mañanas paseábamos despacio por el centro y por las tardes descansábamos o tomábamos un café en alguna terraza. En Gijón, mi abuela se quitó los zapatos y caminó por la playa durante una hora. Hacía viento y frío, pero ella estaba feliz como una niña. Para mí, ese fue el mejor momento del viaje.",
+            "Pero lo que más le gustó a ella fue la gente. En el tren de León a Oviedo conoció a una señora de Bilbao, Maite, que también viajaba con su nieta. Hablaron durante todo el viaje de recetas, de sus nietos y de cuando eran jóvenes. Desde entonces se llaman por teléfono todas las semanas y ya son muy buenas amigas.",
+            "Este viaje me enseñó muchas cosas. Por ejemplo, que no hace falta ser joven para vivir aventuras, que mi abuela hace amigos en cualquier sitio y que tiene más energía que yo. Ya tenemos planes para el año que viene: vamos a ir a Portugal, otra vez en tren, y esta vez Maite y su nieta van a venir con nosotras. ¿Alguien conoce un buen hotel en Oporto?"
+          ],
+          "firma": "Clara Montero",
+          "zh": [
+            "一个月前，我结束了这辈子最特别的一次旅行：和 79 岁的奶奶雷梅迪奥斯在西班牙北部玩了十五天。这个主意是她出的。一个星期天，我们在她科尔多瓦的家里吃饭，她对我说：“我从来没见过坎塔布里亚海，我不想再等了。”奶奶一辈子都在一家服装店工作，几乎没休过假，所以我想都没想就答应了。",
+            "我们决定坐火车旅行，原因有好几个：奶奶怕坐飞机，我又没有车。而且在火车上可以走动、看书、看风景，还能和别的乘客聊天。我们买了一种特别的车票，十五天内可以多次上下车。",
+            "第一天开头不太顺利。从马德里开往莱昂的火车因为技术故障晚点了两个小时，我们到的时候已经很晚了，酒店的餐厅已经关门。最后我们在房间里吃了个三明治当晚饭。我有点着急，也很累，可奶奶笑个不停，说这就像年轻人的冒险。",
+            "之后我们去了奥维耶多、希洪和桑坦德，三座城市都很美。每个城市我们住两三晚。上午我们在市中心慢慢散步，下午就休息，或者找个露天咖啡座喝杯咖啡。在希洪，奶奶脱了鞋，在海滩上走了一个小时。那天风很大，也挺冷，可她开心得像个孩子。对我来说，那是整个旅行中最美好的时刻。",
+            "不过，她最喜欢的是旅途中遇到的人。在从莱昂到奥维耶多的火车上，她认识了一位来自毕尔巴鄂的太太马伊特，她也是和孙女一起旅行。两个人一路上聊菜谱、聊孙子孙女、聊年轻时的事。从那以后，她们每个星期都通电话，已经成了很好的朋友。",
+            "这次旅行让我学到了很多。比如，不年轻也照样可以去冒险；奶奶走到哪儿都能交上朋友；还有，她比我还有精力。我们已经有了明年的计划：去葡萄牙，还是坐火车，而且这次马伊特和她的孙女也要和我们一起去。有谁知道波尔图有什么好酒店吗？"
+          ],
+          "palabras": 400
+        }
+      ],
+      "preguntas": [
+        {
+          "n": 20,
+          "texto": "T",
+          "enunciado": "La abuela de Clara quería hacer el viaje porque…",
+          "opciones": ["tenía muchos días libres en su trabajo.", "quería visitar a una amiga de Bilbao.", "no conocía el mar del norte de España."],
+          "clave": "C",
+          "explicacion": "原文中奶奶说“Nunca he visto el mar Cantábrico y no quiero esperar más”，她从没见过西班牙北部的坎塔布里亚海，C 正确。A 错：“casi nunca tuvo vacaciones”，她几乎没休过假；B 错：毕尔巴鄂的 Maite 是旅途中在火车上才认识的，不是去看望的朋友。"
+        },
+        {
+          "n": 21,
+          "texto": "T",
+          "enunciado": "Clara y su abuela viajaron en tren porque…",
+          "opciones": ["a la abuela le da miedo volar.", "el coche de Clara era muy pequeño.", "había billetes especiales para mayores."],
+          "clave": "A",
+          "explicacion": "原文“A mi abuela le dan miedo los aviones”，奶奶怕坐飞机，A 正确（volar 即坐飞机）。B 错：“yo no tengo coche”，Clara 根本没有车；C 错：特别车票是“permite subir y bajar del tren muchas veces”，可以多次上下车，不是老年人专用票。"
+        },
+        {
+          "n": 22,
+          "texto": "T",
+          "enunciado": "¿Qué pasó el primer día del viaje?",
+          "opciones": ["El tren salió de León con retraso.", "Tuvieron que cenar en el cuarto.", "La abuela se enfadó por el problema."],
+          "clave": "B",
+          "explicacion": "原文“el restaurante del hotel ya estaba cerrado. Al final cenamos un bocadillo en la habitación”，她们只好在房间里吃晚饭，B 正确（cuarto 即 habitación）。A 错：晚点的是从马德里出发的火车，León 是目的地；C 错：“mi abuela se rio mucho”，奶奶没有生气。"
+        },
+        {
+          "n": 23,
+          "texto": "T",
+          "enunciado": "Durante el viaje, Clara y su abuela…",
+          "opciones": ["cambiaban de ciudad cada día.", "visitaban las ciudades con calma.", "pasaban todas las tardes en la playa."],
+          "clave": "B",
+          "explicacion": "原文“Por las mañanas paseábamos despacio por el centro y por las tardes descansábamos”，她们不慌不忙地游览城市，B 正确。A 错：“En cada ciudad nos quedamos dos o tres noches”，每个城市住两三晚；C 错：下午是休息或在露天咖啡座喝咖啡，并没有天天去海滩。"
+        },
+        {
+          "n": 24,
+          "texto": "T",
+          "enunciado": "Para Clara, el mejor momento del viaje fue cuando…",
+          "opciones": ["su abuela conoció a Maite en el tren.", "tomaron un café en una terraza.", "su abuela caminó sin zapatos junto al mar."],
+          "clave": "C",
+          "explicacion": "原文“mi abuela se quitó los zapatos y caminó por la playa… Para mí, ese fue el mejor momento del viaje”，C 正确。A 错：认识 Maite 是奶奶最喜欢的，“lo que más le gustó a ella fue la gente”；B 错：喝咖啡只是每天下午的日常活动。"
+        },
+        {
+          "n": 25,
+          "texto": "T",
+          "enunciado": "¿Qué planes tienen Clara y su abuela?",
+          "opciones": ["Viajar a otro país con más gente.", "Volver al norte de España con Maite y su nieta.", "Ir a Portugal en avión esta vez."],
+          "clave": "A",
+          "explicacion": "原文“vamos a ir a Portugal, otra vez en tren, y esta vez Maite y su nieta van a venir con nosotras”，明年去另一个国家，同行的人也更多，A 正确。B 错：要去的是葡萄牙，不是再去西班牙北部；C 错：“otra vez en tren”，还是坐火车。"
+        }
+      ]
+    }
+  ]
+}

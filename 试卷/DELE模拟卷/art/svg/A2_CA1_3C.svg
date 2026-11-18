@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <!-- 海边一栋矮的公寓楼，前面是大海 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 沙滩 -->
+    <path d="M40 318 L560 318 L560 362 L40 362 Z" fill="#f2c94c"/>
+    <!-- 大海 -->
+    <path d="M40 350 Q60 338 80 350 T120 350 T160 350 T200 350 T240 350 T280 350 T320 350 T360 350 T400 350 T440 350 T480 350 T520 350 T560 350 L560 408 Q560 426 542 426 L58 426 Q40 426 40 408 Z" fill="#6fa8dc"/>
+    <g fill="none" stroke="#fff" stroke-width="6">
+      <path d="M70 380 q20 -12 40 0 t40 0"/>
+      <path d="M230 378 q20 -12 40 0 t40 0"/>
+      <path d="M400 382 q20 -12 40 0 t40 0"/>
+      <path d="M140 408 q20 -12 40 0 t40 0"/>
+      <path d="M320 408 q20 -12 40 0 t40 0"/>
+      <path d="M480 408 q16 -10 32 0"/>
+    </g>
+    <!-- 公寓楼（三层，平顶，带阳台） -->
+    <rect x="110" y="128" width="380" height="190" fill="#f4d6c0"/>
+    <rect x="100" y="116" width="400" height="16" fill="#999"/>
+    <g fill="#6fa8dc" stroke-width="5">
+      <rect x="136" y="146" width="44" height="34"/><rect x="216" y="146" width="44" height="34"/><rect x="340" y="146" width="44" height="34"/><rect x="420" y="146" width="44" height="34"/>
+      <rect x="136" y="204" width="44" height="34"/><rect x="216" y="204" width="44" height="34"/><rect x="340" y="204" width="44" height="34"/><rect x="420" y="204" width="44" height="34"/>
+      <rect x="136" y="262" width="44" height="34"/><rect x="420" y="262" width="44" height="34"/>
+    </g>
+    <!-- 阳台栏杆 -->
+    <g fill="#fff" stroke-width="5">
+      <rect x="128" y="176" width="140" height="14"/><rect x="332" y="176" width="140" height="14"/>
+      <rect x="128" y="234" width="140" height="14"/><rect x="332" y="234" width="140" height="14"/>
+    </g>
+    <!-- 大门 -->
+    <rect x="272" y="252" width="56" height="66" fill="#a67c52"/>
+  </g>
+</svg>

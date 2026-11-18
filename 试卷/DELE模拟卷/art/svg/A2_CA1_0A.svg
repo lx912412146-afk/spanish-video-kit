@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <!-- 白色男式长袖衬衫：有领子、纽扣 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 衣身和两只长袖 -->
+    <path d="M262 76 L205 96 L126 336 L170 354 L212 205 L210 404 Q300 416 390 404 L388 205 L430 354 L474 336 L395 96 L338 76 Q300 92 262 76 Z" fill="#fff"/>
+    <!-- 袖口 -->
+    <path d="M134 312 L177 330" fill="none" stroke-width="6"/>
+    <path d="M466 312 L423 330" fill="none" stroke-width="6"/>
+    <circle cx="156" cy="333" r="5" fill="#fff" stroke-width="4"/>
+    <circle cx="444" cy="333" r="5" fill="#fff" stroke-width="4"/>
+    <!-- 领口里侧 -->
+    <path d="M262 76 Q300 58 338 76 L300 112 Z" fill="#d9d9d9"/>
+    <!-- 门襟 -->
+    <path d="M289 118 L289 409" fill="none" stroke-width="5"/>
+    <path d="M311 118 L311 409" fill="none" stroke-width="5"/>
+    <!-- 领子 -->
+    <path d="M262 74 L300 112 L280 146 L244 98 Z" fill="#fff"/>
+    <path d="M338 74 L300 112 L320 146 L356 98 Z" fill="#fff"/>
+    <!-- 纽扣 -->
+    <g fill="#fff" stroke-width="4">
+      <circle cx="300" cy="162" r="7"/>
+      <circle cx="300" cy="210" r="7"/>
+      <circle cx="300" cy="258" r="7"/>
+      <circle cx="300" cy="306" r="7"/>
+      <circle cx="300" cy="354" r="7"/>
+    </g>
+    <!-- 胸袋 -->
+    <path d="M332 168 L374 168 L374 206 L353 216 L332 206 Z" fill="#fff" stroke-width="5"/>
+  </g>
+</svg>

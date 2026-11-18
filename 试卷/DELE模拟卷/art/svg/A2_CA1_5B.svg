@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <!-- 两张明信片（背面朝上，右上角都已经贴好邮票） -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 240 175)">
+      <rect x="95.0" y="77.0" width="290" height="196" rx="6" fill="#fff"/>
+      <!-- 中间分隔线 -->
+      <path d="M240 99.0 L240 251.0" fill="none" stroke="#999" stroke-width="4"/>
+      <!-- 左边：手写的几行（只是波浪线，不写字） -->
+      <g fill="none" stroke="#999" stroke-width="4">
+        <path d="M115.0 137.0 q8 -8 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+        <path d="M115.0 169.0 q8 -8 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+        <path d="M115.0 201.0 q8 -8 16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+        <path d="M115.0 233.0 q8 -8 16 0 t16 0 t16 0 t16 0"/>
+      </g>
+      <!-- 右边：地址线 -->
+      <g fill="none" stroke="#999" stroke-width="4">
+        <path d="M256 189.0 L367.0 189.0"/>
+        <path d="M256 217.0 L367.0 217.0"/>
+        <path d="M256 245.0 L367.0 245.0"/>
+      </g>
+      <!-- 已贴好的邮票 -->
+      <rect x="315.0" y="93.0" width="54" height="64" fill="#fff" stroke-width="4" stroke-dasharray="0 7"/>
+      <rect x="315.0" y="93.0" width="54" height="64" fill="#fff" stroke="none"/>
+      <rect x="322.0" y="100.0" width="40" height="50" fill="#6fa8dc" stroke-width="4"/>
+      <path d="M322.0 137.0 Q335.0 123.0 345.0 133.0 Q353.0 127.0 362.0 133.0 L362.0 150.0 L322.0 150.0 Z" fill="#93c47d" stroke-width="3"/>
+      <circle cx="349.0" cy="113.0" r="6" fill="#f2c94c" stroke-width="3"/>
+    </g>
+    <g transform="rotate(6 360 282)">
+      <rect x="215.0" y="184.0" width="290" height="196" rx="6" fill="#fff"/>
+      <!-- 中间分隔线 -->
+      <path d="M360 206.0 L360 358.0" fill="none" stroke="#999" stroke-width="4"/>
+      <!-- 左边：手写的几行（只是波浪线，不写字） -->
+      <g fill="none" stroke="#999" stroke-width="4">
+        <path d="M235.0 244.0 q8 -8 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+        <path d="M235.0 276.0 q8 -8 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+        <path d="M235.0 308.0 q8 -8 16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+        <path d="M235.0 340.0 q8 -8 16 0 t16 0 t16 0 t16 0"/>
+      </g>
+      <!-- 右边：地址线 -->
+      <g fill="none" stroke="#999" stroke-width="4">
+        <path d="M376 296.0 L487.0 296.0"/>
+        <path d="M376 324.0 L487.0 324.0"/>
+        <path d="M376 352.0 L487.0 352.0"/>
+      </g>
+      <!-- 已贴好的邮票 -->
+      <rect x="435.0" y="200.0" width="54" height="64" fill="#fff" stroke-width="4" stroke-dasharray="0 7"/>
+      <rect x="435.0" y="200.0" width="54" height="64" fill="#fff" stroke="none"/>
+      <rect x="442.0" y="207.0" width="40" height="50" fill="#6fa8dc" stroke-width="4"/>
+      <path d="M442.0 244.0 Q455.0 230.0 465.0 240.0 Q473.0 234.0 482.0 240.0 L482.0 257.0 L442.0 257.0 Z" fill="#93c47d" stroke-width="3"/>
+      <circle cx="469.0" cy="220.0" r="6" fill="#f2c94c" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

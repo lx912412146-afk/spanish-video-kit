@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <!-- 市中心一栋很多层的高楼（两边是城里的矮楼） -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 街道 -->
+    <path d="M40 392 L560 392" fill="none"/>
+    <path d="M70 418 L120 418 M170 418 L220 418 M270 418 L330 418 M380 418 L430 418 M480 418 L530 418" fill="none" stroke="#999" stroke-width="6"/>
+    <!-- 左边的楼 -->
+    <rect x="82" y="236" width="130" height="156" fill="#f6b26b"/>
+    <g fill="#fff" stroke-width="5">
+      <rect x="100" y="256" width="28" height="26"/><rect x="166" y="256" width="28" height="26"/>
+      <rect x="100" y="300" width="28" height="26"/><rect x="166" y="300" width="28" height="26"/>
+      <rect x="100" y="344" width="28" height="26"/><rect x="166" y="344" width="28" height="26"/>
+    </g>
+    <!-- 右边的楼 -->
+    <rect x="388" y="196" width="130" height="196" fill="#b4a7d6"/>
+    <g fill="#fff" stroke-width="5">
+      <rect x="406" y="216" width="28" height="26"/><rect x="472" y="216" width="28" height="26"/>
+      <rect x="406" y="260" width="28" height="26"/><rect x="472" y="260" width="28" height="26"/>
+      <rect x="406" y="304" width="28" height="26"/><rect x="472" y="304" width="28" height="26"/>
+      <rect x="406" y="348" width="28" height="26"/><rect x="472" y="348" width="28" height="26"/>
+    </g>
+    <!-- 高楼 -->
+    <rect x="226" y="26" width="148" height="366" fill="#d9d9d9"/>
+    <rect x="216" y="18" width="168" height="16" fill="#999"/>
+    <g fill="#6fa8dc" stroke-width="4">
+      <rect x="242" y="48" width="30" height="13"/><rect x="285" y="48" width="30" height="13"/><rect x="328" y="48" width="30" height="13"/>
+      <rect x="242" y="71" width="30" height="13"/><rect x="285" y="71" width="30" height="13"/><rect x="328" y="71" width="30" height="13"/>
+      <rect x="242" y="94" width="30" height="13"/><rect x="285" y="94" width="30" height="13"/><rect x="328" y="94" width="30" height="13"/>
+      <rect x="242" y="117" width="30" height="13"/><rect x="285" y="117" width="30" height="13"/><rect x="328" y="117" width="30" height="13"/>
+      <rect x="242" y="140" width="30" height="13"/><rect x="285" y="140" width="30" height="13"/><rect x="328" y="140" width="30" height="13"/>
+      <rect x="242" y="163" width="30" height="13"/><rect x="285" y="163" width="30" height="13"/><rect x="328" y="163" width="30" height="13"/>
+      <rect x="242" y="186" width="30" height="13"/><rect x="285" y="186" width="30" height="13"/><rect x="328" y="186" width="30" height="13"/>
+      <rect x="242" y="209" width="30" height="13"/><rect x="285" y="209" width="30" height="13"/><rect x="328" y="209" width="30" height="13"/>
+      <rect x="242" y="232" width="30" height="13"/><rect x="285" y="232" width="30" height="13"/><rect x="328" y="232" width="30" height="13"/>
+      <rect x="242" y="255" width="30" height="13"/><rect x="285" y="255" width="30" height="13"/><rect x="328" y="255" width="30" height="13"/>
+      <rect x="242" y="278" width="30" height="13"/><rect x="285" y="278" width="30" height="13"/><rect x="328" y="278" width="30" height="13"/>
+      <rect x="242" y="301" width="30" height="13"/><rect x="285" y="301" width="30" height="13"/><rect x="328" y="301" width="30" height="13"/>
+      <rect x="242" y="324" width="30" height="13"/><rect x="328" y="324" width="30" height="13"/>
+      <rect x="242" y="347" width="30" height="13"/><rect x="328" y="347" width="30" height="13"/>
+    </g>
+    <!-- 大门 -->
+    <rect x="280" y="330" width="40" height="62" fill="#6fa8dc" stroke-width="5"/>
+    <path d="M300 330 L300 392" fill="none" stroke-width="4"/>
+  </g>
+</svg>

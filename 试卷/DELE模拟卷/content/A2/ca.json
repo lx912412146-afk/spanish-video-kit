@@ -1,0 +1,385 @@
+{
+  "nivel": "A2",
+  "prueba": "Comprensión auditiva",
+  "zh": "听力理解",
+  "duracion_min": 40,
+  "intro_es": "La prueba de Comprensión auditiva contiene cuatro tareas. Usted tiene que responder a 25 preguntas. Duración: 40 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tipo": "imagenes",
+      "instruccion_es": "Usted va a escuchar siete conversaciones breves, incluido el ejemplo. Antes de cada conversación, va a escuchar una frase sobre la situación. Escuchará cada conversación dos veces. Después de la conversación, va a escuchar una pregunta. Seleccione la imagen correcta: A, B o C. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到七段简短对话（包括例题）。每段对话前有一句话介绍情景。每段对话听两遍。对话结束后你会听到一个问题，请选出正确的图片：A、B 或 C。请把答案涂在答题卡上。",
+      "tema_zh": "日常对话：买礼物、看病、买车票、搬家、餐馆点菜、邮局寄包裹、周末安排",
+      "audios": [
+        {
+          "id": "0",
+          "rotulo": "Conversación 0",
+          "presentacion": "Va a escuchar a un hombre y a una mujer en una tienda de ropa.",
+          "segs": [
+            {"v": "男2", "who": "Dependiente", "es": "Buenas tardes, ¿puedo ayudarla?", "zh": "下午好，需要帮忙吗？"},
+            {"v": "女2", "who": "Mujer", "es": "Sí, gracias, busco un regalo para mi padre. Es su cumpleaños el sábado. ¿Tienen camisas de la talla grande?", "zh": "好的，谢谢。我在给我父亲找礼物，星期六是他的生日。你们有大号的衬衫吗？"},
+            {"v": "男2", "who": "Dependiente", "es": "Lo siento, de esa talla ya no nos quedan. ¿Quiere ver una corbata? Tenemos estas de seda, que son muy bonitas.", "zh": "抱歉，那个尺码已经没有了。您要不要看看领带？我们有这些真丝的，非常漂亮。"},
+            {"v": "女2", "who": "Mujer", "es": "No, mi padre nunca lleva corbata. Mire, ese jersey azul me gusta mucho. ¿Es de lana o de algodón?", "zh": "不用了，我父亲从来不打领带。您看，那件蓝色毛衣我很喜欢。是羊毛的还是棉的？"},
+            {"v": "男2", "who": "Dependiente", "es": "Es de pura lana, y además está muy bien de precio.", "zh": "是纯羊毛的，而且价格很合适。"},
+            {"v": "女2", "who": "Mujer", "es": "Perfecto, pues me lo llevo.", "zh": "太好了，那我就买它了。"}
+          ],
+          "pregunta_oral": "¿Qué compra la mujer?",
+          "opciones": ["art:A2_CA1_0A", "art:A2_CA1_0B", "art:A2_CA1_0C"],
+          "clave": "C",
+          "explicacion": "女士先问大号衬衫，店员说“de esa talla ya no nos quedan”（那个尺码已经没有了）；店员推荐领带，她说“mi padre nunca lleva corbata”（我父亲从不打领带）；最后看中蓝色毛衣，说“pues me lo llevo”（那我就买它了）。所以选 C。A 衬衫没货，B 领带父亲不戴。"
+        },
+        {
+          "id": "1",
+          "rotulo": "Conversación 1",
+          "presentacion": "Va a escuchar a una mujer y a un médico en un centro de salud.",
+          "segs": [
+            {"v": "男2", "who": "Médico", "es": "Buenos días, siéntese, por favor. ¿Qué le pasa, señora Ruiz?", "zh": "早上好，请坐。鲁伊斯太太，您哪里不舒服？"},
+            {"v": "女3", "who": "Señora Ruiz", "es": "Pues mire, doctor, desde el lunes me duele mucho la espalda. No puedo dormir bien.", "zh": "是这样的，医生，从星期一开始我的背就疼得厉害，觉都睡不好。"},
+            {"v": "男2", "who": "Médico", "es": "¿Tiene también dolor de cabeza o fiebre?", "zh": "您还有头疼或者发烧吗？"},
+            {"v": "女3", "who": "Señora Ruiz", "es": "No, la cabeza no me duele. La semana pasada me dolía un poco la garganta, pero eso ya pasó.", "zh": "没有，头不疼。上星期嗓子有点疼，不过已经好了。"},
+            {"v": "男2", "who": "Médico", "es": "¿Ha levantado algo pesado estos días?", "zh": "这几天您搬过什么重东西吗？"},
+            {"v": "女3", "who": "Señora Ruiz", "es": "Sí, el domingo ayudé a mi hijo con la mudanza.", "zh": "搬过，星期天我帮儿子搬家了。"},
+            {"v": "男2", "who": "Médico", "es": "Bueno, pues le voy a recetar unas pastillas para el dolor.", "zh": "好，那我给您开点止疼药。"}
+          ],
+          "pregunta_oral": "¿Qué le duele a la mujer?",
+          "opciones": ["art:A2_CA1_1A", "art:A2_CA1_1B", "art:A2_CA1_1C"],
+          "clave": "B",
+          "explicacion": "女士说“desde el lunes me duele mucho la espalda”（从星期一起背很疼），后面说帮儿子搬家，也说明了原因，所以选 B。A 头疼：她明确说“la cabeza no me duele”。C 嗓子疼是上星期的事，“eso ya pasó”（已经好了）。"
+        },
+        {
+          "id": "2",
+          "rotulo": "Conversación 2",
+          "presentacion": "Va a escuchar a un hombre y a una mujer en una estación de autobuses.",
+          "segs": [
+            {"v": "男2", "who": "Viajero", "es": "Buenos días, quería un billete a Segovia para esta mañana.", "zh": "早上好，我想买一张今天上午去塞哥维亚的票。"},
+            {"v": "女1", "who": "Taquillera", "es": "Lo siento, el de las 9:15 ya está completo. Hay otro a las 10:30.", "zh": "抱歉，9:15 那班已经满了。10:30 还有一班。"},
+            {"v": "男2", "who": "Viajero", "es": "A las 10:30 no puedo, tengo que esperar a mi hermana. ¿Hay alguno más tarde?", "zh": "10:30 我不行，我得等我妹妹。还有更晚一点的吗？"},
+            {"v": "女1", "who": "Taquillera", "es": "Sí, hay uno a las 11:45 que llega a Segovia a la una y cuarto.", "zh": "有，11:45 有一班，一点一刻到塞哥维亚。"},
+            {"v": "男2", "who": "Viajero", "es": "Perfecto, deme uno para ese. ¿Cuánto es el billete?", "zh": "太好了，给我一张那班的。票多少钱？"},
+            {"v": "女1", "who": "Taquillera", "es": "Son 12 euros, ¿va a pagar con tarjeta?", "zh": "12 欧元。您刷卡吗？"},
+            {"v": "男2", "who": "Viajero", "es": "No, voy a pagar en efectivo, aquí tiene.", "zh": "不，我付现金，给您。"}
+          ],
+          "pregunta_oral": "¿A qué hora sale el autobús del hombre?",
+          "opciones": ["art:A2_CA1_2A", "art:A2_CA1_2B", "art:A2_CA1_2C"],
+          "clave": "C",
+          "explicacion": "9:15 那班“ya está completo”（已经满了）；10:30 那班男士说“no puedo, tengo que esperar a mi hermana”；售票员说 11:45 还有一班，男士回答“deme uno para ese”（给我一张那班的），所以选 C。“la una y cuarto”是到达时间，不是出发时间。"
+        },
+        {
+          "id": "3",
+          "rotulo": "Conversación 3",
+          "presentacion": "Va a escuchar a dos amigas que se encuentran en la calle.",
+          "segs": [
+            {"v": "女2", "who": "Elena", "es": "¡Hola, Marta, cuánto tiempo! Me han dicho que te has cambiado de casa. ¿Ya no vives en el apartamento de la playa?", "zh": "你好，玛尔塔，好久不见！听说你搬家了。你不住海边那套公寓了？"},
+            {"v": "女4", "who": "Marta", "es": "No, ya no vivo allí. Me gustaba mucho, pero estaba muy lejos de mi trabajo. Ahora vivo en el centro.", "zh": "对，我已经不住那儿了。我很喜欢那里，可是离我上班的地方太远了。现在我住在市中心。"},
+            {"v": "女2", "who": "Elena", "es": "¿Y has encontrado una casa con jardín, como querías?", "zh": "那你找到你一直想要的带花园的房子了吗？"},
+            {"v": "女4", "who": "Marta", "es": "¡Qué va, las casas con jardín son carísimas! Tengo un piso en un edificio muy alto, en la planta doce.", "zh": "哪儿啊，带花园的房子贵得要命！我住在一栋很高的楼里，在十二层。"},
+            {"v": "女2", "who": "Elena", "es": "¡Qué bien, tienes que invitarme un día!", "zh": "真好，哪天你得请我去你家！"}
+          ],
+          "pregunta_oral": "¿Dónde vive Marta ahora?",
+          "opciones": ["art:A2_CA1_3A", "art:A2_CA1_3B", "art:A2_CA1_3C"],
+          "clave": "A",
+          "explicacion": "海边的公寓玛尔塔说“ya no vivo allí”（已经不住那儿了），所以不是 C；带花园的房子“son carísimas”（太贵了），她没有住，所以不是 B；她说“tengo un piso en un edificio muy alto, en la planta doce”（住在很高的楼里，十二层），选 A。"
+        },
+        {
+          "id": "4",
+          "rotulo": "Conversación 4",
+          "presentacion": "Va a escuchar a un camarero y a una clienta en un restaurante.",
+          "segs": [
+            {"v": "男2", "who": "Camarero", "es": "¿Qué va a tomar de segundo? Hoy tenemos ternera con patatas, está muy buena.", "zh": "您第二道菜要点什么？今天有牛肉配土豆，非常好吃。"},
+            {"v": "女1", "who": "Clienta", "es": "Gracias, pero no como carne roja. ¿Tienen pollo asado hoy?", "zh": "谢谢，不过我不吃红肉。今天有烤鸡吗？"},
+            {"v": "男2", "who": "Camarero", "es": "Lo siento mucho, señora, el pollo se ha terminado hace un momento. Pero tenemos pescado fresco: merluza a la plancha con verduras.", "zh": "非常抱歉，女士，烤鸡刚刚卖完了。不过我们有新鲜的鱼：铁板鳕鱼配蔬菜。"},
+            {"v": "女1", "who": "Clienta", "es": "Bueno, pues tomo la merluza. Y para beber, agua sin gas, por favor.", "zh": "好吧，那我要鳕鱼。喝的要不带气的矿泉水，谢谢。"},
+            {"v": "男2", "who": "Camarero", "es": "Muy bien, ¿le traigo ahora la carta de postres?", "zh": "好的，现在给您拿甜点单吗？"},
+            {"v": "女1", "who": "Clienta", "es": "No, gracias, mejor más tarde.", "zh": "不用了，谢谢，等会儿再说吧。"}
+          ],
+          "pregunta_oral": "¿Qué va a comer la mujer?",
+          "opciones": ["art:A2_CA1_4A", "art:A2_CA1_4B", "art:A2_CA1_4C"],
+          "clave": "A",
+          "explicacion": "服务员推荐牛肉，女士说“no como carne roja”（我不吃红肉），排除 C；她想要烤鸡，但“el pollo se ha terminado”（鸡卖完了），排除 B；服务员说还有“pescado fresco: merluza a la plancha con verduras”，她说“tomo la merluza”（我要鳕鱼），选 A。"
+        },
+        {
+          "id": "5",
+          "rotulo": "Conversación 5",
+          "presentacion": "Va a escuchar a una empleada y a un cliente en una oficina de correos.",
+          "segs": [
+            {"v": "女3", "who": "Empleada", "es": "Buenos días, ¿qué desea?", "zh": "早上好，您要办什么？"},
+            {"v": "男2", "who": "Cliente", "es": "Quiero mandar este paquete a Alemania. Son unos libros para mi hija.", "zh": "我想把这个包裹寄到德国，是给我女儿的几本书。"},
+            {"v": "女3", "who": "Empleada", "es": "Lo siento, pero la caja está rota por este lado y así no puede salir.", "zh": "抱歉，这个箱子这一边破了，这样寄不出去。"},
+            {"v": "男2", "who": "Cliente", "es": "Vaya, ¿y venden cajas aquí?", "zh": "哎呀，那你们这儿卖箱子吗？"},
+            {"v": "女3", "who": "Empleada", "es": "Sí, tenemos de varios tamaños. Esta mediana cuesta 3 euros.", "zh": "卖，有好几种尺寸。这个中号的 3 欧元。"},
+            {"v": "男2", "who": "Cliente", "es": "Pues deme una, por favor. Y también quiero mandar estas dos postales.", "zh": "那请给我一个。另外，我还想寄这两张明信片。"},
+            {"v": "女3", "who": "Empleada", "es": "Muy bien, ¿necesita sellos para las postales?", "zh": "好的，明信片要买邮票吗？"},
+            {"v": "男2", "who": "Cliente", "es": "No, gracias, ya llevan sellos. Los compré ayer en el estanco.", "zh": "不用了，谢谢，已经贴好邮票了，是我昨天在烟草店买的。"}
+          ],
+          "pregunta_oral": "¿Qué compra el hombre en la oficina de correos?",
+          "opciones": ["art:A2_CA1_5A", "art:A2_CA1_5B", "art:A2_CA1_5C"],
+          "clave": "C",
+          "explicacion": "男士的箱子破了，他问“¿venden cajas aquí?”，职员说中号的 3 欧元，他说“pues deme una”（那给我一个），在邮局买的是箱子，选 C。A 邮票：职员问他要不要买，他说明信片“ya llevan sellos”，邮票是昨天在烟草店买的；B 明信片是他自己带来要寄的，不是在邮局买的。"
+        },
+        {
+          "id": "6",
+          "rotulo": "Conversación 6",
+          "presentacion": "Va a escuchar a dos amigos, una chica y un chico, que hablan por teléfono.",
+          "segs": [
+            {"v": "女4", "who": "Lucía", "es": "Oye, Pablo, ¿vamos al cine el sábado por la tarde?", "zh": "喂，巴勃罗，星期六下午我们去看电影吧？"},
+            {"v": "男2", "who": "Pablo", "es": "El sábado por la tarde no puedo, juego al tenis con mi hermano. ¿Por qué no vienes con nosotros?", "zh": "星期六下午我不行，我要和我哥哥打网球。你跟我们一起来吧？"},
+            {"v": "女4", "who": "Lucía", "es": "Hace mucho tiempo que no juego, pero me apetece. Vale, voy con vosotros. ¿Y cuándo vamos al cine?", "zh": "我很久没打了，不过挺想打的。好，我跟你们去。那我们什么时候去看电影？"},
+            {"v": "男2", "who": "Pablo", "es": "Podemos ir el domingo. El sábado por la noche hay un concierto en el parque, ¿te vienes también?", "zh": "可以星期天去。星期六晚上公园里有一场音乐会，你也来吗？"},
+            {"v": "女4", "who": "Lucía", "es": "No, esa noche ceno con mis padres. Entonces, nos vemos en las pistas.", "zh": "不了，那天晚上我和父母一起吃饭。那我们就在球场见。"}
+          ],
+          "pregunta_oral": "¿Qué va a hacer la chica el sábado por la tarde?",
+          "opciones": ["art:A2_CA1_6A", "art:A2_CA1_6B", "art:A2_CA1_6C"],
+          "clave": "B",
+          "explicacion": "卢西娅约星期六下午看电影，巴勃罗说“juego al tenis con mi hermano”并邀请她，她说“me apetece. Vale, voy con vosotros”（挺想打的，好，我跟你们去），最后说“nos vemos en las pistas”（球场见），选 B。A 看电影改到了“el domingo”；C 音乐会在星期六晚上，她说“esa noche ceno con mis padres”。"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar siete fragmentos de un programa de radio, incluido el ejemplo. Escuchará cada fragmento dos veces. Después debe contestar a las preguntas. Seleccione la opción correcta: A, B o C. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到一个广播节目的七个片段（包括例题）。每个片段听两遍。然后回答问题，选出正确答案：A、B 或 C。请把答案涂在答题卡上。",
+      "tema_zh": "广播节目片段：家具店广告、地铁施工新闻、烹饪学校广告、周末天气预报、街区节日、图书馆新闻、健身房广告",
+      "audios": [
+        {
+          "id": "0",
+          "rotulo": "Audio 0",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Locutora", "es": "¿Necesita muebles nuevos para su casa? Muebles Sánchez celebra su aniversario con grandes descuentos. Hasta el 30 de abril, los sofás tienen un 20 por ciento de descuento, y las mesas y sillas, un 10 por ciento. Además, si compra antes del sábado, le llevamos los muebles a casa gratis. Estamos en la calle Mayor, 15. ¡Venga a vernos pronto!", "zh": "您家需要新家具吗？桑切斯家具店庆祝周年，大幅优惠。4 月 30 日之前，沙发打八折，桌椅打九折。另外，星期六之前购买，我们免费送货上门。我们在马约尔街 15 号。欢迎尽快光临！"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "7",
+          "rotulo": "Audio 7",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Locutor", "es": "Desde el próximo lunes, la línea 3 del metro va a estar cerrada por obras entre las estaciones Centro y Universidad. Las obras van a durar todo el mes de julio. Durante estas semanas, el ayuntamiento va a poner autobuses gratuitos entre las dos estaciones, que van a pasar cada diez minutos. Las demás líneas funcionan con normalidad.", "zh": "从下星期一起，地铁 3 号线“中心站”到“大学站”区间因施工关闭，施工持续整个七月。在这几个星期里，市政府将在两站之间开设免费公交车，每十分钟一班。其他线路正常运行。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "8",
+          "rotulo": "Audio 8",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Locutora", "es": "¿Le gusta la cocina? En la Escuela Sabores puede aprender a cocinar platos de muchos países. Este otoño hay cursos de cocina italiana, mexicana y japonesa. Las clases son martes y jueves, de siete a nueve de la tarde. Los grupos son de ocho personas como máximo. Y al final de cada clase, cenamos todos juntos lo que hemos preparado.", "zh": "您喜欢烹饪吗？在“美味”烹饪学校，您可以学做许多国家的菜。今年秋天开设意大利菜、墨西哥菜和日本菜课程。每星期二和星期四上课，晚上七点到九点。每班最多八人。每节课结束时，我们大家一起把做好的菜当晚饭吃掉。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "9",
+          "rotulo": "Audio 9",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Locutora", "es": "Y ahora, el tiempo para el fin de semana. El sábado va a hacer sol en todo el país, con 25 grados en el sur. El domingo, en cambio, llega la lluvia al norte y, por la tarde, también al centro. Ese día, en la costa del Mediterráneo no va a llover, pero va a hacer mucho viento.", "zh": "下面是周末天气。星期六全国晴，南部气温 25 度。星期天则不同，北部有雨，下午中部也会下雨。当天地中海沿岸不会下雨，但风很大。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "10",
+          "rotulo": "Audio 10",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Locutor", "es": "Este fin de semana se celebran las fiestas del barrio de San Pedro. El viernes por la noche hay un concierto de música tradicional en la plaza. El sábado por la mañana, los niños pueden participar en talleres de pintura. Y el domingo, a las doce, empieza la comida popular en el parque: cada vecino tiene que llevar un plato.", "zh": "这个周末是圣佩德罗街区的节日。星期五晚上在广场有传统音乐会。星期六上午，孩子们可以参加绘画工作坊。星期天十二点，公园里的街坊聚餐开始：每位邻居都要带一道菜。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "11",
+          "rotulo": "Audio 11",
+          "presentacion": "",
+          "segs": [
+            {"v": "女4", "who": "Locutora", "es": "Buenas noticias para los estudiantes. A partir del 1 de mayo, la Biblioteca Municipal va a abrir también los fines de semana. Los sábados y los domingos, el horario es de diez de la mañana a dos de la tarde. Además, la biblioteca tiene ahora veinte ordenadores más. Para usarlos, solo hay que presentar el carné de la biblioteca.", "zh": "给学生们的好消息：从 5 月 1 日起，市立图书馆周末也开放。星期六和星期天的开放时间是上午十点到下午两点。另外，图书馆现在多了二十台电脑，只要出示借书证就可以使用。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "12",
+          "rotulo": "Audio 12",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Locutora", "es": "¿Quiere estar en forma este verano? En el gimnasio Activa, la primera semana es gratis. Tenemos piscina y clases de baile y de yoga. Abrimos todos los días, de siete de la mañana a once de la noche. Y si viene con un amigo, los dos pagan la mitad el primer mes. Estamos al lado de la estación de tren.", "zh": "今年夏天想保持好身材吗？在“活力”健身房，第一周免费。我们有游泳池，还有舞蹈课和瑜伽课。每天早上七点到晚上十一点营业。如果您和朋友一起来，第一个月两人都只付一半。我们就在火车站旁边。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "preguntas": [
+        {"n": 0, "audio": "0", "enunciado": "Según el anuncio, en Muebles Sánchez…", "opciones": ["los sofás cuestan un 10 por ciento menos.", "antes del sábado, el envío es gratuito.", "abren una tienda nueva en la calle Mayor."], "clave": "B", "explicacion": "广告说“si compra antes del sábado, le llevamos los muebles a casa gratis”（星期六之前购买免费送货上门），B 是同义转述。A 错：沙发的折扣是 20 por ciento，10 por ciento 是桌椅的折扣。C 错：商店是在庆祝周年（aniversario），不是开新店。"},
+        {"n": 7, "audio": "7", "enunciado": "Según la noticia, durante el mes de julio…", "opciones": ["se puede viajar en autobús sin pagar.", "van a cerrar todas las líneas de metro.", "el metro va a pasar cada diez minutos."], "clave": "A", "explicacion": "新闻说市政府会安排“autobuses gratuitos”（免费公交车），A“坐公交车不用付钱”正确。B 错：只有 3 号线部分区间关闭，“las demás líneas funcionan con normalidad”。C 错：“cada diez minutos”说的是公交车，不是地铁。"},
+        {"n": 8, "audio": "8", "enunciado": "En la Escuela Sabores…", "opciones": ["las clases son por la mañana, de siete a nueve.", "solo se enseña cocina de España.", "los alumnos comen juntos al terminar la clase."], "clave": "C", "explicacion": "广告最后说“al final de cada clase, cenamos todos juntos lo que hemos preparado”，C“学员下课时一起吃饭”是转述。A 错：上课时间是“de siete a nueve de la tarde”（晚上七点到九点），不是上午。B 错：课程是意大利菜、墨西哥菜和日本菜。"},
+        {"n": 9, "audio": "9", "enunciado": "Según la información del tiempo…", "opciones": ["el sábado va a llover en la zona norte del país.", "en el centro, el domingo por la tarde va a hacer mal tiempo.", "el domingo va a llover en la costa del Mediterráneo."], "clave": "B", "explicacion": "预报说星期天北部有雨，“por la tarde, también al centro”（下午中部也下雨），B“星期天下午中部天气不好”正确。A 错：星期六“va a hacer sol en todo el país”。C 错：星期天地中海沿岸“no va a llover, pero va a hacer mucho viento”。"},
+        {"n": 10, "audio": "10", "enunciado": "En las fiestas del barrio de San Pedro…", "opciones": ["el concierto es el sábado por la mañana.", "los niños pueden pintar el viernes.", "los vecinos deben traer algo de comer."], "clave": "C", "explicacion": "节目说星期天聚餐“cada vecino tiene que llevar un plato”（每位邻居都要带一道菜），C“邻居们要带点吃的”正确。A 错：音乐会在“el viernes por la noche”。B 错：孩子们的绘画工作坊在“el sábado por la mañana”，不是星期五。"},
+        {"n": 11, "audio": "11", "enunciado": "Según la noticia, la Biblioteca Municipal…", "opciones": ["ofrece más ordenadores que antes.", "abre los fines de semana todo el día.", "cierra durante el mes de mayo."], "clave": "A", "explicacion": "新闻说图书馆“tiene ahora veinte ordenadores más”（现在多了二十台电脑），A“电脑比以前多”正确。B 错：周末开放时间是“de diez de la mañana a dos de la tarde”，不是全天。C 错：从 5 月 1 日起图书馆反而开放得更多，并没有关门。"},
+        {"n": 12, "audio": "12", "enunciado": "Según el anuncio, en el gimnasio Activa…", "opciones": ["solo se puede hacer deporte de lunes a viernes.", "es más barato apuntarse con otra persona.", "el primer mes no hay que pagar nada."], "clave": "B", "explicacion": "广告说“si viene con un amigo, los dos pagan la mitad el primer mes”（和朋友一起来，第一个月两人都半价），B“和别人一起报名更便宜”正确。A 错：广告说“Abrimos todos los días”（每天都营业），周末也开门。C 错：免费的是“la primera semana”（第一周），第一个月是和朋友一起才半价。"}
+      ]
+    },
+    {
+      "n": 3,
+      "tipo": "quien",
+      "instruccion_es": "Usted va a escuchar una conversación entre dos amigos, Javier y Carmen. Escuchará la conversación dos veces. Indique si los enunciados se refieren a Javier, a Carmen o a ninguno de los dos. Si el enunciado se refiere a Javier, seleccione la letra A. Si se refiere a Carmen, seleccione la letra B. Si no se refiere a ninguno de los dos, seleccione la letra C. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到两个朋友哈维尔和卡门的一段对话，听两遍。判断下面的句子说的是哈维尔、卡门，还是两人都不是：说哈维尔选 A，说卡门选 B，两人都不是选 C。请把答案涂在答题卡上。",
+      "tema_zh": "两个老朋友在街上碰见，聊新工作、上班时间、学外语、上司和旅行计划",
+      "personas": {"A": "Javier", "B": "Carmen"},
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Carmen", "es": "¡Hola, Javier, cuánto tiempo! Me ha dicho Ana que tienes un trabajo nuevo. ¿Qué tal te va?", "zh": "你好，哈维尔，好久不见！安娜跟我说你换了新工作。怎么样？"},
+            {"v": "男2", "who": "Javier", "es": "Hola, Carmen, pues me va muy bien. Desde enero trabajo en una librería aquí en el barrio. Antes estaba en una oficina en las afueras y tardaba casi una hora en llegar. Ahora voy andando y en diez minutos estoy allí.", "zh": "你好，卡门，挺好的。从一月起我在这个街区的一家书店上班。以前我在郊区的一个办公室，路上要将近一个小时。现在我走路去，十分钟就到。"},
+            {"v": "女3", "who": "Carmen", "es": "¡Qué suerte tienes, Javier! Yo sigo en el hospital y tardo mucho en llegar, porque está muy lejos de mi casa.", "zh": "你真幸运啊，哈维尔！我还在医院上班，路上要很久，因为医院离我家很远。"},
+            {"v": "男2", "who": "Javier", "es": "¿Y sigues trabajando por las noches?", "zh": "你还上夜班吗？"},
+            {"v": "女3", "who": "Carmen", "es": "Ya no, ahora trabajo por las mañanas, pero tengo que ir dos sábados al mes. Eso es lo peor.", "zh": "不上了，现在我上早班，不过每个月有两个星期六要去上班。这是最糟糕的。"},
+            {"v": "男2", "who": "Javier", "es": "Pues yo tengo libres todos los fines de semana. Oye, ¿y al final empezaste las clases de francés?", "zh": "我周末都休息。对了，你后来开始上法语课了吗？"},
+            {"v": "女3", "who": "Carmen", "es": "Al final no, este año ha sido imposible, no he tenido tiempo para nada. ¿Y tú no ibas a estudiar inglés?", "zh": "最后没去，今年根本不可能，我什么时间都没有。你不是说要学英语吗？"},
+            {"v": "男2", "who": "Javier", "es": "Sí, pero con el cambio de trabajo tampoco he podido. Quizás el año que viene. ¿Y qué tal con tu jefa? Antes no estabas muy contenta con ella.", "zh": "是啊，可是换了工作，我也没能去学。也许明年吧。你和你的上司怎么样？以前你对她不太满意。"},
+            {"v": "女3", "who": "Carmen", "es": "Esa jefa ya no está, se jubiló en verano. La nueva es muy simpática y siempre nos ayuda. El año pasado quería cambiar de trabajo, pero ahora estoy muy bien allí.", "zh": "那位上司已经不在了，夏天退休了。新来的很和气，总是帮我们。去年我想换工作，不过现在我在那儿挺好的。"},
+            {"v": "男2", "who": "Javier", "es": "Me alegro mucho por ti. Yo también estoy encantado en la librería, no quiero cambiar nada. Por cierto, el mes que viene me voy a Lisboa con mi hermano. ¿Por qué no vienes con nosotros?", "zh": "真为你高兴。我在书店也很开心，什么都不想改变。对了，下个月我要和我弟弟去里斯本。你要不要跟我们一起去？"},
+            {"v": "女3", "who": "Carmen", "es": "¡Me encantaría, pero el mes que viene no tengo vacaciones! ¡Tráeme un recuerdo, por favor!", "zh": "我很想去，可是下个月我没有假期！给我带个纪念品吧！"},
+            {"v": "男2", "who": "Javier", "es": "Claro que sí, te traigo algo bonito.", "zh": "当然，我给你带个好看的东西。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "enunciados": [
+        {"n": 13, "texto": "Ahora puede ir a su trabajo a pie.", "zh": "现在可以走路去上班。", "clave": "A", "explicacion": "哈维尔说以前上班要将近一个小时，现在“voy andando y en diez minutos estoy allí”（走路十分钟就到）。卡门说医院“está muy lejos de mi casa”，路上要很久。所以只有哈维尔，选 A。"},
+        {"n": 14, "texto": "Tiene que trabajar algunos fines de semana.", "zh": "有些周末要上班。", "clave": "B", "explicacion": "卡门说“tengo que ir dos sábados al mes”（每个月有两个星期六要去上班）；哈维尔正相反，“tengo libres todos los fines de semana”（周末都休息）。所以选 B。"},
+        {"n": 15, "texto": "Este año ha empezado a estudiar un idioma.", "zh": "今年开始学一门外语了。", "clave": "C", "explicacion": "两人都没开始学外语：卡门的法语课“al final no”，“no he tenido tiempo para nada”；哈维尔的英语“tampoco he podido”，“quizás el año que viene”。两人都不符合，选 C。"},
+        {"n": 16, "texto": "Ahora tiene una jefa más agradable.", "zh": "现在的女上司更好相处。", "clave": "B", "explicacion": "卡门说以前的上司“se jubiló en verano”（夏天退休了），“la nueva es muy simpática y siempre nos ayuda”（新来的很和气，总是帮我们）。哈维尔没有谈自己的上司。所以选 B。"},
+        {"n": 17, "texto": "Quiere buscar otro trabajo.", "zh": "想另找工作。", "clave": "C", "explicacion": "卡门说“el año pasado quería cambiar de trabajo, pero ahora estoy muy bien allí”（去年想换，现在挺好）；哈维尔说“no quiero cambiar nada”（什么都不想改变）。两人现在都不想换工作，选 C。"},
+        {"n": 18, "texto": "Va a hacer un viaje con un familiar.", "zh": "要和一位家人去旅行。", "clave": "A", "explicacion": "哈维尔说“el mes que viene me voy a Lisboa con mi hermano”（下个月和我弟弟去里斯本）；卡门想去，但“el mes que viene no tengo vacaciones”，去不了。所以选 A。"}
+      ]
+    },
+    {
+      "n": 4,
+      "tipo": "relacionar",
+      "instruccion_es": "Usted va a escuchar ocho mensajes, incluido el ejemplo. Escuchará cada mensaje dos veces. Relacione cada mensaje con un enunciado, de la A a la K. Hay once enunciados. Seleccione ocho, incluido el ejemplo. Hay tres enunciados que no debe seleccionar. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到八条讯息（包括例题），每条听两遍。请把每条讯息和 A—K 中的一个句子对应起来。一共十一个句子，选出八个（包括例题），有三个句子用不上。请把答案涂在答题卡上。",
+      "tema_zh": "广播通知和电话留言：诊所、火车站、朋友的生日邀请、超市、修车厂、机场、语言学校、商场",
+      "opciones_tipo": "frases",
+      "frases": [
+        {"id": "A", "texto": "Un comercio cierra hoy antes de lo normal.", "zh": "一家商店今天比平时早关门。"},
+        {"id": "B", "texto": "Alguien puede recuperar una cosa que ha perdido.", "zh": "有人可以找回丢失的东西。"},
+        {"id": "C", "texto": "Un tren no va a salir a su hora.", "zh": "一列火车不能按时出发。"},
+        {"id": "D", "texto": "Una tienda tiene ofertas especiales por ser día de fiesta.", "zh": "一家商店因为过节有特价。"},
+        {"id": "E", "texto": "Unos viajeros deben ir a otra zona del aeropuerto.", "zh": "一些旅客要去机场的另一个区域。"},
+        {"id": "F", "texto": "Proponen otro día para una cita.", "zh": "对方提议把预约改到另一天。"},
+        {"id": "G", "texto": "Se ha cancelado un vuelo.", "zh": "一个航班取消了。"},
+        {"id": "H", "texto": "El precio de un arreglo es más bajo de lo esperado.", "zh": "修理费比预想的低。"},
+        {"id": "I", "texto": "Una persona no puede ir a una fiesta.", "zh": "有人去不了一个聚会。"},
+        {"id": "J", "texto": "Alguien invita a una celebración.", "zh": "有人邀请别人参加庆祝活动。"},
+        {"id": "K", "texto": "Unos alumnos no tienen clase mañana.", "zh": "一些学生明天不上课。"}
+      ],
+      "audios": [
+        {
+          "id": "0",
+          "rotulo": "Mensaje 0",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Recepcionista", "es": "Buenos días, señor Ortega. Le hablamos desde la Clínica Dental Sonrisa. Tenemos que cambiar su cita del jueves a las cinco porque la doctora está enferma. Le proponemos el viernes a la misma hora. Por favor, llámenos para confirmar, muchas gracias.", "zh": "早上好，奥尔特加先生。这里是“微笑”牙科诊所。您星期四五点的预约需要改一下，因为医生病了。我们建议改到星期五同一时间。请给我们回电话确认，谢谢。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "F",
+          "explicacion": "诊所说星期四五点的预约要改，因为医生病了，“le proponemos el viernes a la misma hora”（建议改到星期五同一时间），对应 F“提议把预约改到另一天”。"
+        },
+        {
+          "id": "19",
+          "rotulo": "Mensaje 19",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Locutor", "es": "Señores viajeros, les informamos de que el tren con destino a Bilbao de las 16:20 va a salir con treinta minutos de retraso. Mientras tanto, pueden esperar en la cafetería de la estación. Sentimos mucho las molestias.", "zh": "各位旅客，开往毕尔巴鄂的 16:20 次列车将晚点三十分钟发车。在此期间，您可以在车站咖啡厅等候。给您带来不便，我们深表歉意。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "C",
+          "explicacion": "车站广播说开往毕尔巴鄂的火车“va a salir con treinta minutos de retraso”（晚点三十分钟发车），对应 C“火车不能按时出发”。G 说的是航班取消，这里是火车，而且没有取消。"
+        },
+        {
+          "id": "20",
+          "rotulo": "Mensaje 20",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Marta", "es": "Hola, Luis, soy Marta. Oye, este sábado celebro mi cumpleaños en casa, a partir de las nueve de la noche. Vienen todos los compañeros de la universidad. No tienes que traer nada, solo ganas de bailar. ¡Te espero sin falta!", "zh": "你好，路易斯，我是玛尔塔。这个星期六晚上九点起，我在家过生日，大学的同学都来。你什么都不用带，只要带上想跳舞的心情就行。一定要来啊！"}
+          ],
+          "pregunta_oral": "",
+          "clave": "J",
+          "explicacion": "玛尔塔说“este sábado celebro mi cumpleaños en casa”，请路易斯来参加，对应 J“有人邀请别人参加庆祝活动”。I（有人去不了聚会）是干扰项：留言里没有人说不能来。"
+        },
+        {
+          "id": "21",
+          "rotulo": "Mensaje 21",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Locutora", "es": "Señores clientes, les recordamos que hoy, por ser festivo, el supermercado cierra a las tres de la tarde. Mañana abrimos con el horario de siempre, de nueve de la mañana a diez de la noche. Gracias por su visita.", "zh": "各位顾客，提醒大家：今天是节假日，超市下午三点关门。明天恢复平时的营业时间，早上九点到晚上十点。感谢您的光临。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "A",
+          "explicacion": "超市广播说今天过节，“el supermercado cierra a las tres de la tarde”，而平时的营业时间是“de nueve de la mañana a diez de la noche”，说明今天比平时早关门，对应 A。D 是干扰项：广播提到了节日（festivo），但没有说打折。"
+        },
+        {
+          "id": "22",
+          "rotulo": "Mensaje 22",
+          "presentacion": "",
+          "segs": [
+            {"v": "男2", "who": "Ramón", "es": "Buenas tardes, señora López. Soy Ramón, del taller Gómez. Ya hemos arreglado su coche. Puede venir a recogerlo mañana entre las nueve y la una. El problema era pequeño, así que la reparación cuesta menos de lo que le dijimos.", "zh": "下午好，洛佩斯女士。我是戈麦斯修车厂的拉蒙。您的车已经修好了，明天九点到一点之间可以来取。问题不大，所以修理费比我们之前跟您说的要少。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "H",
+          "explicacion": "修车厂说车修好了，“la reparación cuesta menos de lo que le dijimos”（修理费比之前说的少），对应 H“修理费比预想的低”。"
+        },
+        {
+          "id": "23",
+          "rotulo": "Mensaje 23",
+          "presentacion": "",
+          "segs": [
+            {"v": "女4", "who": "Locutora", "es": "Información para los pasajeros del vuelo 457 con destino a Roma. La puerta de embarque ha cambiado. Ahora es la puerta 25, en la planta baja. El embarque empieza dentro de quince minutos.", "zh": "飞往罗马的 457 航班的旅客请注意：登机口已更改，现在是一楼的 25 号登机口。十五分钟后开始登机。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "E",
+          "explicacion": "机场广播说“la puerta de embarque ha cambiado”，现在是一楼的 25 号登机口，旅客要换个地方登机，对应 E。G 是干扰项：航班没有取消，“el embarque empieza dentro de quince minutos”。"
+        },
+        {
+          "id": "24",
+          "rotulo": "Mensaje 24",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Secretaria", "es": "Hola, buenas tardes, este es un mensaje de la Academia Lenguas para los alumnos del curso de alemán. Mañana no hay clase porque hay obras en el edificio. La próxima clase es el jueves, a la hora de siempre.", "zh": "下午好，这是“语言”学校给德语班学员的通知。明天因为大楼施工不上课。下一次课在星期四，时间照旧。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "K",
+          "explicacion": "语言学校通知德语班学员“mañana no hay clase porque hay obras en el edificio”，对应 K“一些学生明天不上课”。下次课星期四照常，说的不是预约改期，所以不选 F。"
+        },
+        {
+          "id": "25",
+          "rotulo": "Mensaje 25",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Locutora", "es": "Señores clientes, una persona ha encontrado una cartera marrón en la cafetería del centro comercial. Su dueño puede recogerla en el punto de información de la primera planta. Tiene que traer su documento de identidad.", "zh": "各位顾客，有人在商场咖啡厅捡到一个棕色钱包。失主可以到二楼的服务台领取，请带上身份证件。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "B",
+          "explicacion": "商场广播说有人捡到一个棕色钱包，“su dueño puede recogerla en el punto de información”（失主可以去服务台领取），对应 B“有人可以找回丢失的东西”。"
+        }
+      ]
+    }
+  ]
+}

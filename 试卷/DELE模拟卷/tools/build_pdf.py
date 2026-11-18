@@ -764,14 +764,18 @@ def booklet_eio():
         cards = [card(o, t, len(ops) > 1) for o in ops]
         # 没有插图、卡片很短（或没有卡片）的 tarea 不另起一页，接在上一个 tarea 后面
         light = not any(str(o.get('art', '')).startswith('art:') for o in ops) and len(re.findall(r'\w+', re.sub(r'<[^>]+>', ' ', ''.join(cards)))) < 60
-        h.append(('<section class="pg">' if k and not light else '<section style="margin-top:14pt">' if k else '<section>')
+        # 每张卡片是四个带图方案的整页“láminas”（C1 口语 T3）：说明接在上一个 tarea 后面，每张卡片各占一页，不拆到两页
+        lamina = len(ops) > 1 and all(any(isinstance(p, dict) and str(p.get('art', '')).startswith('art:') for p in (o.get('propuestas') or [])) for o in ops)
+        h.append(('<section class="pg">' if k and not light and not lamina else '<section style="margin-top:14pt">' if k else '<section>')
                  + f'<h3>Tarea {t["n"]} · {e(t.get("titulo_es", ""))}{mt}{pt}</h3>' + inst(t.get('instruccion_es')))
         for j, o in enumerate(ops):
-            brk = j and (words_of(o.get('texto')) > 200 or str(o.get('art', '')).startswith('art:') and len(ops) > 1 and LV != 'A1')
+            brk = lamina or j and (words_of(o.get('texto')) > 200 or str(o.get('art', '')).startswith('art:') and len(ops) > 1 and LV != 'A1')
             h.append(('<div style="break-before:page"></div>' if brk else '') + cards[j])
         h.append('</section>')
         if light and k:
             print(f'  口语 Tarea {t["n"]} 卡片很短，接在上一个 tarea 后面，不另起一页')
+        if lamina:
+            print(f'  口语 Tarea {t["n"]} 的卡片各占一页，说明接在上一个 tarea 后面')
     return ''.join(h) + '</section>'
 
 

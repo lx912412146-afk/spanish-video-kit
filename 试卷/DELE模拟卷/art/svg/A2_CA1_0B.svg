@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <defs>
+    <clipPath id="tie">
+      <path d="M283 118 L317 118 L360 348 L300 414 L240 348 Z"/>
+    </clipPath>
+    <clipPath id="knot">
+      <path d="M264 60 L336 60 L321 122 L279 122 Z"/>
+    </clipPath>
+  </defs>
+  <!-- 一条领带 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M283 118 L317 118 L360 348 L300 414 L240 348 Z" fill="#eb5757"/>
+    <g clip-path="url(#tie)" stroke="#f2c94c" stroke-width="10" fill="none">
+      <path d="M220 170 L380 70"/>
+      <path d="M220 230 L380 130"/>
+      <path d="M220 290 L380 190"/>
+      <path d="M220 350 L380 250"/>
+      <path d="M220 410 L380 310"/>
+      <path d="M220 470 L380 370"/>
+    </g>
+    <path d="M283 118 L317 118 L360 348 L300 414 L240 348 Z" fill="none"/>
+    <!-- 领结 -->
+    <path d="M264 60 L336 60 L321 122 L279 122 Z" fill="#eb5757"/>
+    <g clip-path="url(#knot)" stroke="#f2c94c" stroke-width="10" fill="none">
+      <path d="M240 120 L360 45"/>
+    </g>
+    <path d="M264 60 L336 60 L321 122 L279 122 Z" fill="none"/>
+  </g>
+</svg>

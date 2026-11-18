@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <defs>
+    <clipPath id="fish">
+      <path d="M134 226 C166 176 262 164 342 192 C366 200 386 212 400 224 L454 182 L440 228 L458 274 L400 236 C382 250 350 264 300 270 C230 276 164 262 134 226 Z"/>
+    </clipPath>
+  </defs>
+  <!-- 一盘铁板鱼配蔬菜 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 -18)">
+    <!-- 盘子 -->
+    <ellipse cx="300" cy="250" rx="262" ry="158" fill="#fff"/>
+    <ellipse cx="300" cy="250" rx="206" ry="118" fill="none" stroke="#999" stroke-width="4"/>
+    <!-- 鱼 -->
+    <path d="M272 184 L298 154 L336 190" fill="#d9d9d9"/>
+    <path d="M134 226 C166 176 262 164 342 192 C366 200 386 212 400 224 L454 182 L440 228 L458 274 L400 236 C382 250 350 264 300 270 C230 276 164 262 134 226 Z" fill="#d9d9d9"/>
+    <g clip-path="url(#fish)" fill="none" stroke-width="7">
+      <path d="M262 160 L236 290"/>
+      <path d="M306 160 L280 290"/>
+      <path d="M350 160 L324 290"/>
+    </g>
+    <path d="M214 194 Q228 226 214 260" fill="none" stroke-width="5"/>
+    <circle cx="176" cy="216" r="9" fill="#fff" stroke-width="4"/>
+    <circle cx="176" cy="216" r="3" fill="#222" stroke-width="2"/>
+    <!-- 蔬菜：西兰花、胡萝卜片、红椒条、四季豆 -->
+    <g stroke-width="5">
+      <path d="M150 312 L162 340 M196 306 L202 340" fill="none" stroke-width="10"/>
+      <path d="M150 312 L162 340 M196 306 L202 340" fill="none" stroke="#93c47d" stroke-width="4"/>
+      <path d="M128 312 C122 292 144 280 156 290 C164 278 186 284 184 300 C190 312 176 324 160 318 C150 326 132 324 128 312 Z" fill="#93c47d"/>
+      <path d="M176 304 C172 286 192 276 204 286 C214 276 234 284 230 300 C236 312 222 322 206 316 C196 324 180 318 176 304 Z" fill="#93c47d"/>
+      <circle cx="262" cy="322" r="15" fill="#f6b26b"/>
+      <circle cx="298" cy="334" r="15" fill="#f6b26b"/>
+      <circle cx="334" cy="322" r="15" fill="#f6b26b"/>
+      <path d="M368 300 C392 292 414 300 424 318 L412 326 C404 312 388 308 372 314 Z" fill="#eb5757"/>
+      <path d="M388 330 C410 322 434 330 444 346 L432 352 C424 340 408 336 392 344 Z" fill="#eb5757"/>
+      <path d="M232 348 L290 360 M240 360 L300 368" fill="none" stroke-width="12"/>
+      <path d="M232 348 L290 360 M240 360 L300 368" fill="none" stroke="#93c47d" stroke-width="5"/>
+    </g>
+  </g>
+</svg>

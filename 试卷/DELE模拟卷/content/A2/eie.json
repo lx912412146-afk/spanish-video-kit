@@ -1,0 +1,174 @@
+{
+  "nivel": "A2",
+  "prueba": "Expresión e interacción escritas",
+  "zh": "书面表达与互动",
+  "duracion_min": 45,
+  "intro_es": "La prueba de Expresión e interacción escritas contiene dos tareas. En la Tarea 2 usted tiene que elegir una de las dos opciones. Duración: 45 minutos. Escriba sus textos únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tema_zh": "回复朋友的生日聚会邀请，并给他推荐一家餐厅（节日、饮食）",
+      "instruccion_es": [
+        "Usted ha recibido este correo electrónico de su amigo Javier.",
+        "Escriba un correo electrónico de respuesta en el que:"
+      ],
+      "instruccion_zh": "你收到了朋友哈维尔的一封电子邮件。请给他回一封邮件，内容包括：打招呼；感谢他的邀请；告诉他你能不能去参加午餐聚会，并说明原因；给他推荐一家餐厅，并说明你为什么喜欢它；告别。建议词数：60—70 词。",
+      "estimulo": {
+        "tipo": "texto",
+        "genero": "correo electrónico",
+        "cabecera": ["De: Javier Soler", "Asunto: ¡Mi cumpleaños!"],
+        "cuerpo": [
+          "¡Hola! ¿Qué tal estás? El sábado 20 es mi cumpleaños y voy a hacer una comida en el jardín de mis padres. ¿Puedes venir?",
+          "Otra cosa: el domingo quiero invitar a cenar a mi familia. ¿Me recomiendas algún restaurante bueno en el centro?"
+        ],
+        "firma": "Un abrazo, Javier",
+        "zh": [
+          "你好！最近怎么样？20 号星期六是我的生日，我打算在我父母家的花园里办一场午餐聚会。你能来吗？",
+          "还有一件事：星期天我想请家里人吃晚饭。你能给我推荐一家市中心不错的餐厅吗？"
+        ]
+      },
+      "pautas": [
+        "salude;",
+        "dele las gracias por la invitación;",
+        "dígale si puede ir a la comida y por qué;",
+        "recomiéndele un restaurante y explique por qué le gusta a usted;",
+        "despídase."
+      ],
+      "palabras": [60, 70],
+      "formulario": [],
+      "opciones": [],
+      "modelo": {
+        "texto": [
+          "¡Hola, Javier!",
+          "¡Muchas gracias por invitarme a tu cumpleaños! Me gustaría mucho ir, pero ese sábado no puedo, porque tengo que trabajar todo el día en la tienda. ¡Lo siento mucho!",
+          "Para el domingo te recomiendo La Brasa, un restaurante pequeño cerca de la plaza Mayor. Fui el mes pasado con mis padres y comimos una carne buenísima. ¡Y no es nada caro!",
+          "¡Feliz cumpleaños!",
+          "Un abrazo,",
+          "Lin"
+        ],
+        "palabras": 68,
+        "zh": [
+          "你好，哈维尔！",
+          "非常感谢你邀请我参加你的生日聚会！我很想去，可是那个星期六我去不了，因为我要在店里上一整天班。真的很抱歉！",
+          "星期天的话，我推荐你去 La Brasa，那是主广场附近的一家小餐馆。上个月我和父母去过，我们吃的肉好吃极了。而且一点也不贵！",
+          "生日快乐！",
+          "拥抱你，",
+          "林"
+        ],
+        "comentario_zh": "范文完成了全部五个要点：“¡Hola, Javier!”打招呼；“¡Muchas gracias por invitarme…!”致谢；“ese sábado no puedo, porque tengo que trabajar”说明不能去及原因；推荐餐厅后用简单过去时“Fui… comimos…”讲自己去过的经历，说明喜欢的理由；最后祝生日快乐并告别。用了 tener que＋原形动词、me gustaría、buenísima 和连接词 pero、porque，语气亲切，符合朋友之间的邮件。共 68 词。"
+      }
+    },
+    {
+      "n": 2,
+      "tema_zh": "两题选一：讲一次难忘的旅行（旅行、过去的经历）／根据图片和资料讲一个人第一次参加大众长跑的那一天（活动、健康）",
+      "instruccion_es": [
+        "Elija solo una de las dos opciones."
+      ],
+      "instruccion_zh": "两题任选一题，建议词数：70—80 词。Opción 1：你在西班牙语学校的校刊上看到一则征稿启事，请为杂志写一篇短文，讲一次难忘的旅行：去了哪里、什么时候、和谁去；那里是什么样子、天气怎么样；在那里做了什么；最喜欢的是什么；这次旅行为什么对你很特别。Opción 2：看图并阅读资料。玛丽莎上星期天第一次参加了大众长跑，请写一篇短文讲那一天：她是谁、为什么决定参加；她是怎样准备的；比赛中发生了什么、谁去给她加油；到达终点时有什么感受；她现在有什么打算。",
+      "estimulo": {},
+      "pautas": [],
+      "palabras": [70, 80],
+      "formulario": [],
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Opción 1",
+          "instruccion_es": [
+            "Usted ha leído este anuncio en la revista de su escuela de español.",
+            "Escriba un texto para la revista en el que cuente:"
+          ],
+          "estimulo": {
+            "tipo": "texto",
+            "genero": "anuncio",
+            "cabecera": [],
+            "cuerpo": [
+              "Revista «Entre Clases» · Sección «Viajeros»",
+              "¿Cuál es el viaje más bonito de tu vida? Escríbenos y cuéntanos tu experiencia. Vamos a publicar los mejores textos en el número de junio."
+            ],
+            "firma": "",
+            "zh": [
+              "《课间》杂志·“旅行者”栏目",
+              "你这辈子最美好的一次旅行是哪一次？给我们写稿，讲讲你的经历吧。我们会在六月号上刊登最好的文章。"
+            ]
+          },
+          "pautas": [
+            "adónde fue, cuándo y con quién;",
+            "cómo era el lugar y qué tiempo hacía;",
+            "qué hizo allí;",
+            "qué fue lo que más le gustó;",
+            "por qué es un viaje especial para usted."
+          ],
+          "modelo": {
+            "texto": [
+              "El verano pasado fui a Granada con mi hermana. Viajamos en tren desde Madrid y llegamos en unas tres horas. La ciudad era preciosa, con calles pequeñas y casas blancas, pero hacía muchísimo calor.",
+              "Visitamos la Alhambra, comimos tapas en el barrio del Albaicín y una noche escuchamos música flamenca. Lo que más me gustó fue ver la puesta de sol desde un mirador. Es un viaje especial porque fue el primero que hicimos las dos solas."
+            ],
+            "palabras": 77,
+            "zh": [
+              "去年夏天我和姐姐去了格拉纳达。我们从马德里坐火车，大约三个小时就到了。那座城市美极了，街道小小的，房子都是白色的，不过天气热得要命。",
+              "我们参观了阿尔罕布拉宫，在阿尔拜辛区吃了 tapas（西班牙下酒小菜），有一天晚上还听了弗拉明戈音乐。我最喜欢的是在观景台上看日落。这次旅行对我来说很特别，因为那是我们姐妹俩第一次单独出去旅行。"
+            ],
+            "comentario_zh": "范文完成了五个要点：第一句交代时间、地点和同伴；用过去未完成时描写地方和天气（era preciosa, hacía muchísimo calor）；用简单过去时叙述做过的事（Visitamos, comimos, escuchamos）；用“Lo que más me gustó fue…”说出最喜欢的部分；最后用 porque 说明这次旅行为什么特别。简单过去时讲事件、过去未完成时作描写，是 A2 讲述过去经历的典型写法。共 77 词。"
+          }
+        },
+        {
+          "id": "2",
+          "titulo": "Opción 2",
+          "instruccion_es": [
+            "Observe la imagen y lea la información.",
+            "El domingo pasado Marisa Gil participó por primera vez en una carrera popular. Escriba un texto sobre ese día en el que cuente:"
+          ],
+          "estimulo": {
+            "tipo": "imagen",
+            "art": "art:A2_EIE2_2",
+            "genero": "ficha",
+            "cabecera": [],
+            "cuerpo": [
+              "Carrera popular «Corre por tu barrio»",
+              "Domingo, 13 de abril. Salida: 9:30, en el parque de la Ribera. Distancia: 5 kilómetros.",
+              "Participantes: 800. El dinero de las inscripciones es para la biblioteca del barrio.",
+              "Marisa Gil, 46 años, enfermera. Su primera carrera. Tiempo: 38 minutos."
+            ],
+            "firma": "",
+            "zh": [
+              "“为你的街区而跑”大众长跑",
+              "4 月 13 日（周日）。起跑：9:30，河滨公园。距离：5 公里。",
+              "参赛人数：800 人。报名费全部捐给街区图书馆。",
+              "玛丽莎·希尔，46 岁，护士。第一次参加长跑。成绩：38 分钟。"
+            ]
+          },
+          "pautas": [
+            "quién es Marisa y por qué decidió participar;",
+            "cómo se preparó para la carrera;",
+            "qué pasó durante la carrera y quién fue a animarla;",
+            "cómo se sintió al llegar a la meta;",
+            "qué planes tiene ahora."
+          ],
+          "modelo": {
+            "texto": [
+              "Marisa tiene 46 años y es enfermera. Decidió participar porque el dinero era para la biblioteca de su barrio. Durante dos meses entrenó tres tardes por semana en el parque.",
+              "El domingo a las 9:30 empezó la carrera, con 800 participantes. Al final estaba muy cansada, pero cerca de la meta vio a su marido y a su hija con un cartel. Llegó en 38 minutos y se sintió muy feliz. En otoño va a correr diez kilómetros."
+            ],
+            "palabras": 78,
+            "zh": [
+              "玛丽莎 46 岁，是一名护士。她决定参加，是因为比赛的钱是给她所在街区的图书馆的。两个月里，她每周有三个下午在公园训练。",
+              "星期天 9:30 比赛开始，一共有 800 人参加。跑到最后她已经非常累了，但在终点附近她看到丈夫和女儿举着一块标语。她用 38 分钟跑完全程，感到非常开心。今年秋天她要去跑十公里。"
+            ],
+            "comentario_zh": "范文用上了图片和资料里的信息（年龄、职业、起跑时间、人数、成绩、报名费的用途、终点旁举标语的家人），五个要点依次完成：介绍人物并用 porque 说明参赛原因；用简单过去时讲赛前训练（entrenó）；用过去未完成时描写状态（estaba muy cansada），用简单过去时讲事件（vio, llegó）；用“se sintió muy feliz”讲感受；最后用 ir a＋原形动词讲计划。第三人称叙述，时间顺序清楚。共 78 词。"
+          }
+        }
+      ],
+      "modelo": {}
+    }
+  ],
+  "criterios": [
+    {
+      "es": "Uso de la lengua",
+      "zh": "占 66%。看语言本身：词汇是否够用、准确；现在时、简单过去时、过去未完成时、ir a、比较级等本级语法和拼写是否基本正确，错误是否影响理解；句子之间有没有简单的连接。"
+    },
+    {
+      "es": "Cumplimiento de la tarea",
+      "zh": "占 34%。看任务完成得怎样：每条要点是否都写到，内容是否切合所给的情境、图片或资料；文体、称呼和语气是否合适；字数是否在建议范围内，读者能否看懂要传达的信息。"
+    }
+  ]
+}

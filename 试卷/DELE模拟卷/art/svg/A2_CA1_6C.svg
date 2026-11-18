@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <!-- 公园里的露天舞台，一支乐队（吉他手、歌手、鼓手）在演出 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 草地 -->
+    <path d="M30 380 Q300 362 570 380 L570 412 Q570 428 554 428 L46 428 Q30 428 30 412 Z" fill="#93c47d"/>
+    <!-- 两边的树 -->
+    <rect x="66" y="270" width="22" height="112" fill="#a67c52"/>
+    <path d="M77 166 C110 166 130 190 126 214 C142 230 136 262 112 268 C100 280 56 280 44 268 C20 262 14 230 30 214 C24 190 44 166 77 166 Z" fill="#93c47d"/>
+    <rect x="512" y="270" width="22" height="112" fill="#a67c52"/>
+    <path d="M523 166 C556 166 576 190 572 214 C588 230 582 262 558 268 C546 280 502 280 490 268 C466 262 460 230 476 214 C470 190 490 166 523 166 Z" fill="#93c47d"/>
+    <!-- 舞台：柱子、顶棚、台面 -->
+    <rect x="146" y="118" width="14" height="210" fill="#999" stroke-width="5"/>
+    <rect x="440" y="118" width="14" height="210" fill="#999" stroke-width="5"/>
+    <path d="M124 126 L476 126 L442 72 L158 72 Z" fill="#eb5757"/>
+    <g stroke-width="4">
+      <path d="M140 126 L156 146 L172 126 Z" fill="#f2c94c"/>
+      <path d="M188 126 L204 146 L220 126 Z" fill="#6fa8dc"/>
+      <path d="M236 126 L252 146 L268 126 Z" fill="#f2c94c"/>
+      <path d="M284 126 L300 146 L316 126 Z" fill="#6fa8dc"/>
+      <path d="M332 126 L348 146 L364 126 Z" fill="#f2c94c"/>
+      <path d="M380 126 L396 146 L412 126 Z" fill="#6fa8dc"/>
+      <path d="M428 126 L444 146 L460 126 Z" fill="#f2c94c"/>
+    </g>
+    <rect x="128" y="322" width="344" height="44" fill="#a67c52"/>
+    <path d="M128 340 L472 340" fill="none" stroke-width="4"/>
+
+    <!-- 吉他手 -->
+    <path d="M204 268 L200 318 M218 268 L222 318" fill="none" stroke-width="20"/>
+    <path d="M204 268 L200 318 M218 268 L222 318" fill="none" stroke="#6fa8dc" stroke-width="9"/>
+    <rect x="188" y="206" width="46" height="66" rx="12" fill="#f2c94c"/>
+    <circle cx="211" cy="186" r="18" fill="#c99a6e"/>
+    <path d="M193 184 C192 166 230 162 229 182 C220 176 204 176 193 184 Z" fill="#222" stroke-width="4"/>
+    <!-- 吉他 -->
+    <path d="M226 244 L276 198" fill="none" stroke-width="12"/>
+    <path d="M226 244 L276 198" fill="none" stroke="#a67c52" stroke-width="4"/>
+    <rect x="270" y="186" width="16" height="16" rx="3" fill="#a67c52" stroke-width="4" transform="rotate(-42 278 194)"/>
+    <path d="M182 256 C176 236 196 226 208 236 C214 224 234 228 232 244 C240 260 220 276 202 270 C190 274 184 266 182 256 Z" fill="#a67c52"/>
+    <circle cx="210" cy="250" r="6" fill="#222" stroke-width="3"/>
+    <!-- 吉他手的手臂 -->
+    <path d="M192 214 L186 240 L204 252" fill="none" stroke-width="16"/>
+    <path d="M192 214 L186 240 L204 252" fill="none" stroke="#c99a6e" stroke-width="6"/>
+    <path d="M230 214 L246 232 L262 214" fill="none" stroke-width="16"/>
+    <path d="M230 214 L246 232 L262 214" fill="none" stroke="#c99a6e" stroke-width="6"/>
+
+    <!-- 歌手 -->
+    <path d="M292 280 L290 318 M308 280 L310 318" fill="none" stroke-width="16"/>
+    <path d="M292 280 L290 318 M308 280 L310 318" fill="none" stroke="#f4d6c0" stroke-width="6"/>
+    <path d="M300 172 C276 172 272 194 278 222 L322 222 C328 194 324 172 300 172 Z" fill="#a67c52"/>
+    <path d="M284 208 L316 208 L330 284 L270 284 Z" fill="#b4a7d6"/>
+    <circle cx="300" cy="188" r="17" fill="#f4d6c0"/>
+    <path d="M283 186 C284 168 316 166 317 186 C306 178 294 178 283 186 Z" fill="#a67c52" stroke-width="4"/>
+    <!-- 举起的手和拿话筒的手 -->
+    <path d="M286 214 L268 196 L258 168" fill="none" stroke-width="16"/>
+    <path d="M286 214 L268 196 L258 168" fill="none" stroke="#f4d6c0" stroke-width="6"/>
+    <path d="M314 214 L326 226 L330 206" fill="none" stroke-width="16"/>
+    <path d="M314 214 L326 226 L330 206" fill="none" stroke="#f4d6c0" stroke-width="6"/>
+    <!-- 话筒架 -->
+    <path d="M336 322 L336 212 M322 322 L336 300 L350 322" fill="none" stroke-width="5"/>
+    <rect x="320" y="192" width="26" height="12" rx="6" fill="#222" stroke-width="3" transform="rotate(-30 333 198)"/>
+
+    <!-- 鼓手 -->
+    <rect x="374" y="206" width="42" height="62" rx="12" fill="#6fa8dc"/>
+    <circle cx="395" cy="186" r="18" fill="#f4d6c0"/>
+    <path d="M377 184 C376 164 414 162 413 182 C404 176 388 176 377 184 Z" fill="#999" stroke-width="4"/>
+    <!-- 举着鼓槌的手 -->
+    <path d="M378 214 L366 232 L360 212" fill="none" stroke-width="16"/>
+    <path d="M378 214 L366 232 L360 212" fill="none" stroke="#f4d6c0" stroke-width="6"/>
+    <path d="M412 214 L424 232 L430 212" fill="none" stroke-width="16"/>
+    <path d="M412 214 L424 232 L430 212" fill="none" stroke="#f4d6c0" stroke-width="6"/>
+    <path d="M360 212 L348 186 M430 212 L444 188" fill="none" stroke-width="5"/>
+    <!-- 鼓 -->
+    <circle cx="395" cy="290" r="34" fill="#fff"/>
+    <circle cx="395" cy="290" r="20" fill="none" stroke="#6fa8dc" stroke-width="8"/>
+    <path d="M352 258 L352 280 Q366 288 380 280 L380 258" fill="#eb5757" stroke-width="5"/>
+    <ellipse cx="366" cy="258" rx="14" ry="6" fill="#fff" stroke-width="5"/>
+
+    <!-- 音符 -->
+    <g fill="#222" stroke-width="5">
+      <ellipse cx="94" cy="136" rx="11" ry="8" transform="rotate(-20 94 136)"/>
+      <path d="M104 132 L104 94 Q114 104 124 108" fill="none"/>
+      <ellipse cx="486" cy="140" rx="11" ry="8" transform="rotate(-20 486 140)"/>
+      <ellipse cx="520" cy="132" rx="11" ry="8" transform="rotate(-20 520 132)"/>
+      <path d="M496 136 L496 98 L530 90 L530 128" fill="none"/>
+      <path d="M496 106 L530 98" fill="none" stroke-width="7"/>
+    </g>
+  </g>
+</svg>

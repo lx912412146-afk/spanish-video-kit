@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <defs>
+    <clipPath id="strings">
+      <ellipse cx="300" cy="150" rx="84" ry="108"/>
+    </clipPath>
+  </defs>
+  <!-- 一只网球拍和一个网球 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(35 300 230) translate(-30 0)">
+      <!-- 拍喉 -->
+      <path d="M262 250 L292 318 M338 250 L308 318" fill="none" stroke-width="24"/>
+      <path d="M262 250 L292 318 M338 250 L308 318" fill="none" stroke="#6fa8dc" stroke-width="11"/>
+      <!-- 拍面和网线 -->
+      <ellipse cx="300" cy="150" rx="84" ry="108" fill="#fff" stroke="none"/>
+      <g clip-path="url(#strings)" stroke="#999" stroke-width="4" fill="none">
+        <path d="M236 30 L236 270 M258 30 L258 270 M280 30 L280 270 M302 30 L302 270 M324 30 L324 270 M346 30 L346 270 M368 30 L368 270"/>
+        <path d="M200 66 L400 66 M200 90 L400 90 M200 114 L400 114 M200 138 L400 138 M200 162 L400 162 M200 186 L400 186 M200 210 L400 210 M200 234 L400 234"/>
+      </g>
+      <!-- 拍框 -->
+      <ellipse cx="300" cy="150" rx="94" ry="118" fill="none" stroke-width="30"/>
+      <ellipse cx="300" cy="150" rx="94" ry="118" fill="none" stroke="#6fa8dc" stroke-width="16"/>
+      <!-- 拍柄 -->
+      <rect x="284" y="312" width="32" height="118" rx="8" fill="#222"/>
+      <g stroke="#999" stroke-width="4">
+        <path d="M288 334 L312 326 M288 356 L312 348 M288 378 L312 370 M288 400 L312 392"/>
+      </g>
+      <rect x="280" y="420" width="40" height="14" rx="6" fill="#999"/>
+    </g>
+    <!-- 网球 -->
+    <circle cx="452" cy="348" r="54" fill="#f2c94c"/>
+    <path d="M404 322 C432 334 440 368 426 398" fill="none" stroke="#fff" stroke-width="8"/>
+    <path d="M498 300 C470 314 464 350 482 382" fill="none" stroke="#fff" stroke-width="8"/>
+    <circle cx="452" cy="348" r="54" fill="none"/>
+  </g>
+</svg>

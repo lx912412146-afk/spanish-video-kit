@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#fff"/>
+  <defs>
+    <clipPath id="steak">
+      <path d="M128 236 C122 192 170 166 230 170 C300 174 344 200 344 244 C344 292 300 316 238 314 C176 312 134 282 128 236 Z"/>
+    </clipPath>
+  </defs>
+  <!-- 一块牛排配炸薯条 -->
+  <g stroke="#222" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 -18)">
+    <!-- 盘子 -->
+    <ellipse cx="300" cy="250" rx="262" ry="158" fill="#fff"/>
+    <ellipse cx="300" cy="250" rx="206" ry="118" fill="none" stroke="#999" stroke-width="4"/>
+    <!-- 牛排（上边一条白色肥边，烤网纹） -->
+    <path d="M128 236 C122 192 170 166 230 170 C300 174 344 200 344 244 C344 292 300 316 238 314 C176 312 134 282 128 236 Z" fill="#a67c52"/>
+    <g clip-path="url(#steak)" fill="none">
+      <path d="M124 236 C130 192 178 172 232 176 C294 180 336 200 350 232" stroke="#f4d6c0" stroke-width="34"/>
+      <path d="M138 250 C146 212 182 194 232 196 C288 199 324 216 340 246" stroke-width="5"/>
+      <path d="M186 214 L158 300" stroke-width="8"/>
+      <path d="M236 210 L206 316" stroke-width="8"/>
+      <path d="M286 212 L256 316" stroke-width="8"/>
+      <path d="M330 236 L306 310" stroke-width="8"/>
+    </g>
+    <path d="M128 236 C122 192 170 166 230 170 C300 174 344 200 344 244 C344 292 300 316 238 314 C176 312 134 282 128 236 Z" fill="none"/>
+    <!-- 炸薯条 -->
+    <g fill="#f2c94c" stroke-width="5">
+      <rect x="372" y="170" width="20" height="120" rx="4" transform="rotate(-18 382 230)"/>
+      <rect x="400" y="164" width="20" height="124" rx="4" transform="rotate(8 410 226)"/>
+      <rect x="428" y="176" width="20" height="112" rx="4" transform="rotate(24 438 232)"/>
+      <rect x="386" y="190" width="20" height="116" rx="4" transform="rotate(30 396 248)"/>
+      <rect x="414" y="196" width="20" height="112" rx="4" transform="rotate(-26 424 252)"/>
+      <rect x="360" y="220" width="20" height="100" rx="4" transform="rotate(62 370 270)"/>
+      <rect x="430" y="232" width="20" height="96" rx="4" transform="rotate(-58 440 280)"/>
+      <rect x="398" y="236" width="20" height="96" rx="4" transform="rotate(84 408 284)"/>
+    </g>
+  </g>
+</svg>

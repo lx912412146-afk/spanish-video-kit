@@ -2,13 +2,14 @@
 
 > **非官方模拟卷。** 本卷按塞万提斯学院公开的 DELE 考试结构（各级考试说明和官方样卷的题型、题量、时间、计分）自编，与塞万提斯学院、萨拉曼卡大学都没有关系，也没有经过它们审定。所有文章、对话、录音、插图和题目都是原创，没有使用或改写官方样卷。
 
-A1、A2、B1、B2、C1 五级各一整套，四项齐全：阅读（Comprensión de lectura）、听力（Comprensión auditiva）、写作（Expresión e interacción escritas）、口语（Expresión e interacción orales）。每一级的 tarea 数量、题型、题量、文本长度、作答时间和计分方法都按考试规格（[`考试规格.md`](考试规格.md)），可以直接打印做整套模考。（目前已完成：A1；A2、B1、B2、C1 正在制作，完成后加进同一个 Release。）
+A1、A2、B1、B2、C1 五级各一整套，四项齐全：阅读（Comprensión de lectura）、听力（Comprensión auditiva）、写作（Expresión e interacción escritas）、口语（Expresión e interacción orales）。每一级的 tarea 数量、题型、题量、文本长度、作答时间和计分方法都按考试规格（[`考试规格.md`](考试规格.md)），可以直接打印做整套模考。（目前已完成：A1、A2；B1、B2、C1 正在制作，完成后加进同一个 Release。）
 
 成品在 Release [`dele-mock-a1-c1`](../../../releases/tag/dele-mock-a1-c1)。每一级：
 
 | 级别 | 阅读 | 听力 | 写作 | 口语 | 题册／答题卡／教师用书（页） | 录音 |
 | --- | --- | --- | --- | --- | --- | --- |
 | A1 | 45 分钟，4 个 tarea，25 题 | 25 分钟，4 个 tarea，25 题 | 25 分钟，2 个 tarea | 10 分钟＋准备 10 分钟，3 个 tarea | 18／4／28 | 约 23 分钟，236 句 |
+| A2 | 60 分钟，4 个 tarea，25 题 | 40 分钟，4 个 tarea，25 题 | 45 分钟，2 个 tarea | 12 分钟＋准备 12 分钟，3 个 tarea | 22／4／33 | 约 38 分钟，403 句 |
 
 每一级的文件（以 A1 为例，其他级别把 `a1`、`A1` 换掉）：
 
