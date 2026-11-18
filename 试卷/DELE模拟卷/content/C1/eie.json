@@ -1,0 +1,184 @@
+{
+  "nivel": "C1",
+  "prueba": "Expresión, mediación e interacción escritas",
+  "zh": "书面表达、中介与互动",
+  "duracion_min": 80,
+  "intro_es": "La prueba de Expresión, mediación e interacción escritas contiene dos tareas. En la Tarea 2 tendrá que elegir una de las dos opciones propuestas. Duración: 80 minutos. Escriba sus textos únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tema_zh": "中介任务：听一位墨西哥建筑师关于废弃工业建筑再利用的讲座，为文化杂志写一篇观点文章（概括、评价、表达观点）。",
+      "instruccion_es": [
+        "Usted va a escuchar un fragmento de una conferencia en la que la arquitecta mexicana Lorena Garza habla sobre el futuro de los edificios industriales abandonados. Escuchará la audición dos veces. Mientras escucha, tome notas: después tendrá que redactar un texto a partir de ellas.",
+        "La revista cultural Contraluz, que leen sobre todo personas interesadas en el patrimonio y en la vida urbana, prepara un número dedicado a la memoria de las ciudades y le ha pedido un artículo de opinión sobre esta conferencia para los lectores que no pudieron asistir. Redacte un artículo en el que:"
+      ],
+      "instruccion_zh": "考生先听一段讲座录音（放两遍），边听边记笔记；然后为文化杂志《逆光》写一篇观点文章，读者是关心文化遗产和城市生活、但没有到场听讲座的人。文章要：概括讲座的主要观点和例子；评价讲座（哪里有说服力、缺什么）；表达并论证自己对工业建筑再利用的看法；联系自己知道的一个实例。字数 220—250 词。",
+      "estimulo": {
+        "tipo": "audio",
+        "audio": {
+          "presentacion": "A continuación, escuchará un fragmento de una conferencia de la arquitecta Lorena Garza, especialista en rehabilitación urbana, sobre qué hacer con los edificios industriales abandonados.",
+          "segs": [
+            {"v": "女2", "who": "Lorena Garza", "es": "Buenas tardes a todos y muchas gracias por la invitación. Quiero empezar con una imagen que seguramente todos ustedes conocen. En casi todas nuestras ciudades hay una fábrica cerrada desde hace años, con los vidrios rotos y los muros llenos de grafitis. Los vecinos pasan junto a ella todos los días y, con el tiempo, ya ni siquiera la ven. Esta tarde me gustaría platicarles de qué podemos hacer con esos edificios y, sobre todo, de quién debería decidirlo.", "zh": "大家下午好，非常感谢邀请。我想从一个大家一定都熟悉的画面说起。几乎在我们每座城市里，都有一家关闭多年的工厂，玻璃碎了，墙上满是涂鸦。居民们每天从它旁边经过，久而久之，甚至已经视而不见。今天下午，我想和大家聊聊我们能拿这些建筑怎么办，尤其是应该由谁来决定。"},
+            {"v": "女2", "who": "Lorena Garza", "es": "Cuando una fábrica cierra, las autoridades suelen elegir entre dos caminos. El primero es derribarla y vender el terreno, que casi siempre vale mucho más que el edificio. El segundo es convertirla en museo, como si bastara con conservar las máquinas detrás de una vitrina. Yo defiendo un tercer camino, más lento y más difícil. Se trata de darle al edificio una segunda vida, con usos nuevos que respondan a lo que el barrio necesita hoy.", "zh": "一家工厂关闭后，政府通常在两条路中选一条。第一条是把它拆掉、把地卖掉——地皮几乎总是比建筑值钱得多。第二条是把它改成博物馆，好像只要把机器放进玻璃展柜保存起来就够了。我主张第三条路，它更慢，也更难：给建筑第二次生命，赋予它新的用途，满足街区今天的需要。"},
+            {"v": "女2", "who": "Lorena Garza", "es": "Tengo dos razones para defender esta opción. La primera es ambiental. Construir un edificio nuevo consume enormes cantidades de cemento, de acero y de energía. De hecho, buena parte de las emisiones de un edificio se produce antes de que nadie viva o trabaje en él. Cuando reutilizamos una estructura que ya existe, esas emisiones sencillamente nos las ahorramos. Dicho de otro modo, el edificio más sostenible suele ser el que ya está construido.", "zh": "我支持这种做法有两个理由。第一个是环境方面的。盖一栋新楼要消耗大量的水泥、钢材和能源。事实上，一栋建筑的排放有很大一部分是在有人入住或开始工作之前就产生了。如果我们重新利用已有的结构，这些排放就能省下来。换句话说，最可持续的建筑往往就是已经建好的那一栋。"},
+            {"v": "女2", "who": "Lorena Garza", "es": "La segunda razón tiene que ver con la memoria. Muchas de estas fábricas dieron trabajo a tres o cuatro generaciones de la misma colonia. Allí se conocieron parejas, se organizaron huelgas y se celebraron fiestas. Cuando una máquina derriba el edificio en una sola mañana, no solo desaparecen unos muros. Desaparece un punto de referencia que daba sentido a la historia del barrio y de las familias que lo habitan.", "zh": "第二个理由与记忆有关。这些工厂中有许多曾让同一个街区的三四代人在那里工作。人们在那里相识、组织罢工、举办庆祝活动。当一台机器在一个上午就把建筑拆掉时，消失的不只是几堵墙，还有一个让街区和住在那里的家庭的历史有意义的参照点。"},
+            {"v": "女2", "who": "Lorena Garza", "es": "Les pongo un ejemplo que conozco bien, porque participé en el proyecto. En las afueras de Puebla había una antigua fábrica de hilados abandonada desde los años noventa. Antes de dibujar una sola línea, organizamos durante un año reuniones con los vecinos para preguntarles qué les hacía falta. Nos pidieron una biblioteca, talleres para los artesanos de la zona y un patio donde los niños pudieran jugar con seguridad. Hoy el edificio recibe a más de mil personas cada semana. Y muchas de ellas son hijos y nietos de los antiguos obreros.", "zh": "我举一个我很熟悉的例子，因为我参与了这个项目。在普埃布拉郊外，有一家从九十年代起就废弃的老纺纱厂。在画下第一条线之前，我们花了一年时间和居民开会，问他们缺什么。他们要了一座图书馆、给当地手工艺人的作坊，还有一个孩子们可以安全玩耍的院子。如今这栋建筑每周接待一千多人，其中很多是当年工人的子孙。"},
+            {"v": "女2", "who": "Lorena Garza", "es": "Pero no quiero darles una visión ingenua. A pocos kilómetros de allí, otra fábrica muy parecida se transformó en departamentos de lujo y oficinas para empresas tecnológicas. El resultado arquitectónico es impecable: el proyecto ganó varios premios y aparece en todas las revistas. Sin embargo, en cinco años las rentas de la zona se duplicaron, y muchas familias que vivían allí desde siempre tuvieron que irse. El edificio se salvó, pero el barrio se perdió.", "zh": "但我不想给大家一个天真的印象。离那里几公里远，另一家非常相似的工厂被改成了豪华公寓和科技公司的办公室。从建筑角度看，结果无可挑剔：这个项目得过好几个奖，所有杂志都登过。然而，五年之内，这一带的房租翻了一番，许多世代住在那里的家庭不得不搬走。建筑保住了，街区却失去了。"},
+            {"v": "女2", "who": "Lorena Garza", "es": "Por eso insisto en que reutilizar no es bueno en sí mismo. Todo depende de para quién se hace y de quién toma las decisiones. A partir de mi experiencia, propongo tres condiciones. La primera es que los vecinos participen desde el principio, y no cuando el proyecto ya está terminado. La segunda es mezclar usos, es decir, combinar vivienda a precios accesibles, espacios públicos y actividades económicas del propio barrio. La tercera es conservar huellas visibles del pasado industrial. Pero no como simple decoración, sino explicando qué se hacía allí y quién lo hacía.", "zh": "所以我坚持认为，再利用本身并不一定是好事。一切取决于为谁而做、由谁来决定。根据我的经验，我提出三个条件。第一，居民要从一开始就参与，而不是等项目完成以后。第二，要混合多种用途，也就是把价格可负担的住房、公共空间和街区本身的经济活动结合起来。第三，要保留看得见的工业历史痕迹，但不是作为单纯的装饰，而是要讲清楚那里曾经做什么、是谁在做。"},
+            {"v": "女2", "who": "Lorena Garza", "es": "Tampoco quiero ocultarles las dificultades. Muchos de estos terrenos están contaminados por décadas de actividad industrial, y limpiarlos es caro. Las estructuras antiguas suelen necesitar refuerzos importantes para cumplir las normas actuales de seguridad. En algunos casos, rehabilitar cuesta incluso más que construir de nuevo. Por eso estos proyectos rara vez salen adelante sin apoyo público y sin reglas claras que frenen la especulación.", "zh": "我也不想向大家隐瞒其中的困难。这些地块很多都被几十年的工业活动污染了，治理费用很高。老结构往往需要大规模加固，才能达到现行的安全标准。有时候，改造甚至比新建还贵。所以，没有公共资金支持、没有遏制投机的明确规则，这类项目很少能做成。"},
+            {"v": "女2", "who": "Lorena Garza", "es": "Termino con una idea. Solemos ver las fábricas abandonadas como un problema que hay que resolver cuanto antes. Yo les propongo verlas de otra manera, como una pregunta que la ciudad se hace a sí misma. Esa pregunta tiene tres partes: qué queremos recordar, para quién construimos y quién tiene derecho a quedarse. La respuesta que demos dirá mucho más de nosotros que cualquier edificio nuevo. Muchas gracias por su atención.", "zh": "最后我想说一点。我们常常把废弃工厂看作一个需要尽快解决的问题。我建议换一种方式看待它们：把它们看作城市向自己提出的一个问题。这个问题有三个部分：我们想记住什么，我们为谁而建，谁有权留下来。我们给出的答案，会比任何一栋新楼更能说明我们是谁。谢谢大家。"}
+          ]
+        }
+      },
+      "pautas": [
+        "resuma las ideas principales de la conferenciante y los ejemplos con los que las ilustra;",
+        "valore la conferencia: qué le ha parecido más convincente y qué echa en falta;",
+        "exprese su propia postura sobre la reutilización de edificios industriales y la defienda con argumentos;",
+        "relacione el tema con algún caso que usted conozca."
+      ],
+      "palabras": [220, 250],
+      "formulario": [],
+      "opciones": [],
+      "modelo": {
+        "texto": [
+          "Fábricas vacías: ¿ruina u oportunidad?",
+          "¿Qué hacer con las fábricas abandonadas que salpican nuestras ciudades y, sobre todo, quién debe decidirlo? Así abrió su conferencia la arquitecta mexicana Lorena Garza.",
+          "Garza descarta tanto la demolición como la conversión en museo y defiende una tercera vía: usos nuevos que respondan a las necesidades del barrio. Reutilizar, argumenta, evita buena parte de las emisiones de una obra nueva y preserva la memoria de generaciones de obreros. Lo ilustra con una fábrica poblana convertida, tras un año de consultas vecinales, en biblioteca y talleres. Ahora bien, advierte, rehabilitar también puede expulsar a los vecinos, como ocurrió con otra fábrica cercana transformada en viviendas de lujo. Para evitarlo, propone tres condiciones: participación vecinal desde el inicio, mezcla de usos y huellas industriales que expliquen, y no que decoren.",
+          "La exposición convence porque, en lugar de teorizar, contrapone un caso logrado y otro fallido. Eché de menos, eso sí, propuestas de financiación más concretas que un genérico «apoyo público», ya que la propia ponente admite que rehabilitar puede costar más que construir de cero.",
+          "Comparto su idea central: rehabilitar solo tiene sentido si el barrio sigue perteneciendo a quienes lo habitan; de lo contrario, la memoria se convierte en decorado. En mi ciudad, una antigua estación de tren se transformó en un centro comercial que ningún vecino había pedido. Quizá la lección sea que, antes de decidir qué hacer con los muros, conviene escuchar a quienes viven a su alrededor."
+        ],
+        "palabras": 245,
+        "zh": [
+          "空置的工厂：废墟还是机遇？",
+          "如何处置散落在我们城市各处的废弃工厂？更重要的是，该由谁来决定？墨西哥建筑师洛雷娜·加尔萨就是以这两个问题开始她的讲座的。",
+          "加尔萨既不赞成拆除，也不赞成改成博物馆，而是主张第三条路：满足街区需要的新用途。她认为，再利用可以避免新建工程的大部分排放，还能保存一代代工人的记忆。她举了普埃布拉一家工厂的例子：经过一年的居民咨询，它变成了图书馆和手工作坊。不过她也提醒，改造同样可能把居民赶走，附近另一家被改成豪华住宅的工厂就是如此。为避免这种情况，她提出三个条件：居民从一开始就参与、混合多种用途、保留起讲解作用而非装饰作用的工业痕迹。",
+          "这场讲座很有说服力，因为它没有空谈理论，而是把一个成功的案例和一个失败的案例对照起来。不过，我觉得缺少比笼统的“公共支持”更具体的筹资建议，毕竟主讲人自己也承认，改造有可能比从零开始新建还贵。",
+          "我赞同她的核心观点：改造只有在街区仍然属于住在那里的人时才有意义；否则，记忆就会沦为布景。在我的城市，一座旧火车站被改成了一家没有任何居民要求过的购物中心。也许我们得到的教训是：在决定如何处置这些墙之前，应该先听听住在周围的人怎么说。"
+        ],
+        "comentario_zh": "范文以问句开头点题，交代讲座人和主题，照顾到没听讲座的读者。第二段完成“概括”：用 descarta、defiende、argumenta、advierte、propone 等转述动词，有选择地重组讲座主线——两种常见做法和第三条路、环境与记忆两个论据、普埃布拉的成功案例和附近的反例、三个条件，没有照抄原话。第三段“评价”讲座：肯定成败案例的对照，同时指出筹资只停留在“apoyo público”，并用讲座人自己承认的成本问题作依据。第四段表明并论证个人观点（de lo contrario 引出理由），联系本地实例。语言上用了 Ahora bien、eso sí、ya que 等衔接手段，插入式转述（argumenta、advierte），虚拟式（que respondan、que expliquen, y no que decoren、Quizá la lección sea），语域符合文化杂志的半正式文章。"
+      }
+    },
+    {
+      "n": 2,
+      "tema_zh": "二选一：选项 1 根据哥伦比亚青年阅读习惯的图表为图书馆简报写文章；选项 2 针对西班牙一所大学取消老年人语言课的新闻，给副校长写正式投诉信。",
+      "instruccion_es": [
+        "Elija solo una de las dos opciones que se le proponen a continuación."
+      ],
+      "instruccion_zh": "两题选一，字数 180—220 词。选项 1：一个哥伦比亚公共图书馆网络为简报的青年阅读专号约稿，考生根据图表写文章：介绍图表并突出最重要的数据；比较各种阅读形式的变化；提出变化的可能原因；以给图书馆的建议作结论。选项 2：阅读一则地方报纸的新闻（标题：《瓦尔德奥利瓦大学将取消面向老年人的面授语言课程》），考生是该项目学员，给负责大学推广事务的副校长写正式信件：介绍自己与项目的关系；表示反对并论证项目应当保留；评价学校提出的替代方案；在保留面授课的前提下提出至少两条降低成本的具体建议；请求答复或会面。",
+      "estimulo": {},
+      "pautas": [],
+      "palabras": [180, 220],
+      "formulario": [],
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Opción 1",
+          "instruccion_es": [
+            "Una red de bibliotecas públicas de Colombia prepara un número especial de su boletín dedicado a la lectura juvenil y le ha pedido un artículo basado en los datos del siguiente gráfico.",
+            "Escriba un artículo en el que:"
+          ],
+          "estimulo": {
+            "tipo": "grafico",
+            "grafico": {
+              "titulo": "Hábitos de lectura de los jóvenes de 15 a 29 años en Colombia (porcentaje de jóvenes; datos referidos a los doce meses anteriores a cada encuesta)",
+              "fuente": "Datos ficticios.",
+              "tipo": "lineas",
+              "series": [
+                {"nombre": "Han leído algún libro en papel", "valores": [61, 54, 47, 49]},
+                {"nombre": "Han leído algún libro en formato digital", "valores": [12, 21, 30, 31]},
+                {"nombre": "Han escuchado algún audiolibro", "valores": [2, 5, 14, 22]},
+                {"nombre": "No han leído ningún libro", "valores": [31, 33, 30, 26]}
+              ],
+              "categorias": ["2014", "2018", "2022", "2026"],
+              "unidad": "%"
+            }
+          },
+          "pautas": [
+            "presente el gráfico y destaque los datos más relevantes;",
+            "compare la evolución de los distintos formatos de lectura;",
+            "plantee posibles causas de los cambios observados;",
+            "termine con una conclusión que incluya alguna recomendación para las bibliotecas."
+          ],
+          "modelo": {
+            "texto": [
+              "Los jóvenes no leen menos: leen de otra manera",
+              "El gráfico recoge la evolución de los hábitos de lectura de los jóvenes colombianos de 15 a 29 años entre 2014 y 2026, y desmiente una idea muy extendida: la de que las nuevas generaciones han dejado de leer.",
+              "El dato más llamativo es el auge del audiolibro, que ha pasado de un testimonial 2 % al 22 %; es decir, se ha multiplicado por once. La lectura en pantalla también ha crecido de forma notable, del 12 % al 31 %, aunque desde 2022 parece haberse estancado. El papel, en cambio, perdió terreno hasta 2022, cuando tocó fondo con un 47 %, pero en 2026 repunta ligeramente hasta el 49 %. Por último, la proporción de jóvenes que no han leído ningún libro en el último año baja al 26 %, la cifra más baja de la serie.",
+              "Entre las posibles causas, cabe señalar la generalización del celular, que permite escuchar un libro mientras se viaja o se hace deporte, y quizá cierto cansancio de las pantallas, que explicaría la leve recuperación del papel.",
+              "En definitiva, las bibliotecas no deberían ver estos formatos como rivales. Ampliar el catálogo de audiolibros sin renunciar a los clubes de lectura en papel parece la mejor manera de llegar a todos los jóvenes lectores."
+            ],
+            "palabras": 213,
+            "zh": [
+              "年轻人读得并不少，只是换了读法",
+              "这张图表展示了 2014 年至 2026 年间哥伦比亚 15 至 29 岁年轻人阅读习惯的变化，它推翻了一种流传很广的看法：新一代已经不读书了。",
+              "最引人注目的数据是有声书的兴起：从微不足道的 2 % 增长到 22 %，也就是说增长到原来的十一倍。屏幕阅读也明显增长，从 12 % 升到 31 %，不过自 2022 年以来似乎停滞了。相反，纸质书阅读一直下滑到 2022 年，跌到谷底 47 %，但 2026 年略有回升，达到 49 %。最后，过去一年一本书都没读过的年轻人比例降到 26 %，是整个统计期内的最低值。",
+              "可能的原因包括手机的普及——它让人可以在路上或运动时听书；也许还有某种对屏幕的厌倦，这可以解释纸质书的小幅回升。",
+              "总之，图书馆不应把这些阅读形式看作对手。在扩充有声书馆藏的同时保留纸质书读书会，似乎是接触所有年轻读者的最好办法。"
+            ],
+            "comentario_zh": "范文用概括结论的标题开篇，第一段介绍图表（对象、年龄段、时间跨度）并提出要反驳的看法。第二段挑出关键数据而不是逐项罗列，用 ha pasado de… al…、se ha multiplicado por、tocó fondo、repunta ligeramente 等描述变化的表达，并用 en cambio、aunque、por último 比较各种阅读形式。第三段用 cabe señalar 和表推测的条件式（que explicaría）提出原因。最后一段向图书馆提出建议，完成全部要点。语域客观、正式，符合机构简报文章。"
+          }
+        },
+        {
+          "id": "2",
+          "titulo": "Opción 2",
+          "instruccion_es": [
+            "Lea la siguiente noticia, publicada en un periódico local.",
+            "Usted asiste desde hace dos años a las clases de ese programa. Escriba una carta formal a la vicerrectora de Extensión Universitaria en la que:"
+          ],
+          "estimulo": {
+            "tipo": "texto",
+            "genero": "noticia",
+            "titulo": "La Universidad de Valdeoliva suprimirá sus cursos presenciales de idiomas para mayores", "titulo_zh": "瓦尔德奥利瓦大学将取消面向老年人的面授语言课程",
+            "cabecera": [],
+            "cuerpo": [
+              "La Universidad de Valdeoliva no ofrecerá el próximo curso su Programa de Idiomas para Mayores, en el que este año se han matriculado unas 900 personas de más de 60 años. Según el Vicerrectorado de Extensión Universitaria, el programa, gratuito desde su creación en 2009, resulta «insostenible» por el aumento de los costes y la falta de profesorado disponible.",
+              "En su lugar, la universidad pondrá a disposición de los interesados una plataforma en línea para aprender inglés, francés o alemán a su propio ritmo. La vicerrectora, Pilar Sanchís, ha asegurado que la nueva herramienta «llegará a más gente» y ha invitado a los alumnos a enviar sus sugerencias antes del 15 de diciembre."
+            ],
+            "firma": "El Correo del Valle, 18 de noviembre de 2026",
+            "zh": [
+              "瓦尔德奥利瓦大学下学年将不再开设老年人语言项目，今年约有 900 名 60 岁以上的人报名参加。据大学推广事务副校长办公室称，这个自 2009 年创办以来一直免费的项目，由于成本上涨和缺少可用的教师，已经“难以为继”。",
+              "作为替代，大学将为有兴趣的人提供一个在线平台，让他们按照自己的节奏学习英语、法语或德语。副校长皮拉尔·桑奇斯保证说，新工具“将惠及更多人”，并邀请学员在 12 月 15 日之前提交建议。"
+            ]
+          },
+          "pautas": [
+            "se presente y explique su relación con el programa;",
+            "exprese su desacuerdo con la decisión y argumente por qué el programa debería mantenerse;",
+            "valore la alternativa que propone la universidad;",
+            "plantee al menos dos propuestas concretas para reducir los costes sin renunciar a las clases presenciales;",
+            "solicite una respuesta o una reunión."
+          ],
+          "modelo": {
+            "texto": [
+              "Estimada señora Sanchís:",
+              "Me dirijo a usted como alumna del Programa de Idiomas para Mayores, en el que estudio francés desde hace dos cursos, tras leer en El Correo del Valle que la universidad piensa suprimirlo.",
+              "Comprendo que los costes hayan aumentado, pero considero que la decisión es un error. Para muchos de nosotros, las clases no son solo una forma de aprender un idioma: son también la principal ocasión de salir de casa, conversar y sentirnos parte de una comunidad. Una plataforma en línea, por útil que sea, no puede sustituir ese contacto. Me temo, además, que dejaría fuera precisamente a quienes menos dominan la tecnología, por lo que difícilmente «llegará a más gente».",
+              "Permítame sugerir algunas alternativas. Podría establecerse una matrícula simbólica, con exenciones para quienes tengan pocos recursos. También podrían impartir clases, bajo la supervisión de un docente, los estudiantes del máster de enseñanza de idiomas que necesitan realizar prácticas. Incluso un modelo mixto, con una sesión presencial semanal y actividades en la plataforma, sería preferible a la supresión total.",
+              "Le agradecería que tuviera en cuenta estas propuestas y que recibiera a una representación del alumnado para tratar el asunto. Quedo a la espera de su respuesta.",
+              "Atentamente,",
+              "Carmen Olmedo Ruiz"
+            ],
+            "palabras": 204,
+            "zh": [
+              "尊敬的桑奇斯女士：",
+              "我是老年人语言项目的学员，在该项目学习法语已经两年。我在《山谷邮报》上读到学校打算取消这个项目，特此致信。",
+              "我理解成本有所上涨，但我认为这个决定是错误的。对我们许多人来说，上课不只是学语言的方式，也是走出家门、与人交谈、感到自己属于一个集体的主要机会。在线平台再有用，也无法取代这种接触。而且我担心，它恰恰会把最不熟悉技术的人排除在外，所以很难说它“能惠及更多人”。",
+              "请允许我提出几个替代方案。可以收取象征性的学费，对经济困难者予以减免。也可以让需要实习的语言教学硕士生在教师指导下授课。即便采用混合模式——每周一次面授课，加上平台上的练习——也比完全取消要好。",
+              "恳请您考虑这些建议，并接见学员代表商谈此事。期待您的答复。",
+              "此致",
+              "卡门·奥尔梅多·鲁伊斯"
+            ],
+            "comentario_zh": "范文是格式规范的正式信件：称呼“Estimada señora Sanchís:”，结尾“Quedo a la espera de su respuesta. Atentamente,”。第一段说明身份和写信缘由；第二段表示反对并论证，用让步结构（Comprendo que + 虚拟式、por útil que sea）回应校方的理由，并引用原文（«llegará a más gente»）评价在线平台；第三段提出三条具体建议，用 Podría establecerse、sería preferible 等条件式缓和语气；最后一段用 Le agradecería que + 虚拟式过去未完成时提出请求。所有要点都已完成，语气礼貌而坚定。"
+          }
+        }
+      ],
+      "modelo": {}
+    }
+  ],
+  "criterios": [
+    {"es": "Coherencia y cohesión", "zh": "看文章是否条理清楚：段落安排合理，观点层层推进；能否恰当使用连接词、指代和替换，让读者不必回头重读就能跟上思路。占每个任务的 22%。"},
+    {"es": "Corrección", "zh": "看语言是否准确：复杂句、虚拟式、时态配合、介词和搭配、拼写和标点。不影响理解的偶发小错可以接受，反复出现的同类错误要扣分。占 22%。"},
+    {"es": "Alcance", "zh": "看语言资源是否丰富、精确：能否用多样的句式和准确的词汇表达让步、假设、委婉、细微差别，而不是反复使用简单结构；语域是否与文体相符。占 22%。"},
+    {"es": "Mediación y cumplimiento de la Tarea 1", "zh": "看考生能否有选择地、准确地转述讲座的主要观点和例子而不照抄或歪曲，能否对讲座作出有依据的评价，并清楚地表达和论证自己的看法；文体、读者和字数是否符合要求。占 34%。"},
+    {"es": "Adecuación y cumplimiento de la Tarea 2", "zh": "看考生是否完成所选题目的全部要点：图表题能否挑出关键数据加以比较和解释；书信题能否针对原文作出回应、提出建议或要求；格式、称呼、语气和字数是否适合该文体和读者。占 34%。"}
+  ]
+}

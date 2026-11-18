@@ -1,0 +1,410 @@
+{
+  "nivel": "C1",
+  "prueba": "Comprensión de lectura y uso de la lengua",
+  "zh": "阅读与语言运用",
+  "duracion_min": 90,
+  "intro_es": "La prueba de Comprensión de lectura y uso de la lengua contiene cinco tareas. Usted tiene que responder a 40 preguntas. Duración: 90 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tipo": "seleccion",
+      "instruccion_es": "Lea el siguiente texto, que recoge las condiciones de un programa de residencias para traductores. A continuación, responda a las preguntas (1-6). Seleccione la opción correcta (a, b o c). Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "阅读一份文学翻译驻留项目的申请规定，回答第 1—6 题，从 a、b、c 中选出正确答案，并在答题卡上涂出。",
+      "tema_zh": "墨西哥一家文化基金会的文学翻译驻留项目规定：申请条件、资助、与其他资助的兼容、驻留义务、补交材料、中途退出。",
+      "textos": [
+        {
+          "id": "T",
+          "genero": "bases de una convocatoria",
+          "titulo": "Programa de Residencias de Traducción Literaria 2027: bases de participación", "titulo_zh": "2027 年文学翻译驻留计划：申请须知",
+          "cabecera": [],
+          "cuerpo": [
+            "1. Objeto. La Fundación Casa del Mirador convoca cuatro residencias de diez semanas en su sede de Oaxaca de Juárez, dirigidas a traductores que estén preparando la versión al español de una obra literaria escrita originalmente en otra lengua, incluidas las lenguas originarias de México. Las estancias se desarrollarán entre el 1 de septiembre y el 10 de noviembre de 2027.",
+            "2. Requisitos. Podrán presentar su candidatura las personas mayores de edad, de cualquier nacionalidad, que acrediten al menos una traducción literaria publicada en forma de libro y que cuenten con un contrato o una carta de intención de una editorial que se comprometa a publicar la obra en un plazo máximo de dos años. Excepcionalmente, se aceptarán solicitudes de personas sin traducciones publicadas cuando el proyecto se refiera a una obra escrita en una lengua originaria de México; en ese caso, la carta de la editorial podrá sustituirse por el aval de una institución académica. No podrán participar quienes hayan sido residentes de la Fundación en alguna de las dos convocatorias anteriores, ni el personal de la Fundación ni sus familiares directos.",
+            "3. Dotación. Cada residencia incluye alojamiento individual en la sede, con espacio de trabajo propio; el boleto de avión de ida y vuelta desde la ciudad de residencia del beneficiario, y una ayuda económica de 45 000 pesos mexicanos para toda la estancia. La ayuda se abonará en dos pagos: el 60 % a la llegada a la sede y el 40 % restante una vez que la coordinación del programa haya recibido y aprobado la memoria final. Los gastos de viaje de posibles acompañantes corren por cuenta de los residentes.",
+            "4. Compatibilidad. La residencia es compatible con las subvenciones a la traducción o a la edición que reciba la editorial para la misma obra, sin que ello afecte a la cuantía de la ayuda económica. En cambio, no podrá disfrutarse al mismo tiempo que una beca personal de manutención concedida al traductor para el mismo período. Los candidatos deberán comunicar por escrito cualquier ayuda relacionada con el proyecto que ellos o su editorial obtengan después de presentar la solicitud.",
+            "5. Obligaciones. Los residentes deberán permanecer en la sede al menos ocho de las diez semanas. Las ausencias de más de tres días consecutivos requerirán la autorización previa de la coordinación; los días de ausencia autorizada no se descuentan de la ayuda ni tienen que recuperarse al final de la estancia, siempre que se respete el mínimo de ocho semanas. Una ausencia no autorizada podrá suponer la pérdida del segundo pago. Asimismo, cada residente participará en una lectura pública y entregará, dentro del mes siguiente al término de la residencia, una memoria de actividades acompañada de una muestra de al menos treinta páginas de la traducción.",
+            "6. Solicitudes. Las solicitudes se presentarán únicamente mediante el formulario disponible en la página web de la Fundación, del 15 de enero al 15 de marzo de 2027. Deberán incluir un currículum, un plan de trabajo, la carta de la editorial o, en su caso, el aval académico, y una muestra de diez páginas de la traducción junto con el texto original. Si la documentación está incompleta, la Fundación lo notificará por correo electrónico y el solicitante dispondrá de diez días hábiles para completarla; transcurrido ese plazo sin respuesta, la solicitud se tendrá por retirada. Durante dicho plazo solo podrán aportarse los documentos que falten: en ningún caso se admitirá una muestra distinta de la enviada inicialmente.",
+            "7. Selección. Un comité de tres traductores ajenos a la Fundación valorará la calidad de la muestra, el interés de la obra para los lectores en español y la viabilidad del plan de trabajo. En caso de empate, tendrán prioridad las obras que nunca se hayan traducido al español. La resolución se publicará el 31 de mayo de 2027.",
+            "8. Renuncias y abandono. Si una persona seleccionada renuncia antes del comienzo de la residencia, su plaza se ofrecerá a la primera candidatura de la lista de reserva; una vez iniciadas las estancias, las plazas que queden libres no se cubrirán. Quien abandone la residencia sin causa justificada deberá devolver el importe del boleto de avión y perderá el derecho al segundo pago. Si el abandono se debe a una enfermedad grave propia o de un familiar directo, debidamente acreditada, no se exigirá ninguna devolución y el segundo pago se abonará igualmente, siempre que el residente entregue la memoria final en el plazo previsto."
+          ],
+          "firma": "Fundación Casa del Mirador · Oaxaca de Juárez, 7 de diciembre de 2026",
+          "zh": [
+            "1. 目的。米拉多之家基金会在瓦哈卡市的总部设立四个为期十周的驻留名额，面向正在把一部原文为其他语言（包括墨西哥原住民语言）的文学作品译成西班牙语的译者。驻留时间为 2027 年 9 月 1 日至 11 月 10 日。",
+            "2. 申请条件。凡年满十八岁、国籍不限、能证明至少有一部文学译著以图书形式出版，并持有出版社承诺在两年内出版该作品的合同或意向书者，均可申请。作为例外，如果项目涉及用墨西哥原住民语言写成的作品，没有出版过译著的人也可以申请；此时出版社的意向书可以用学术机构的担保代替。前两届中任何一届的基金会驻留者，以及基金会员工及其直系亲属，不得申请。",
+            "3. 资助内容。每个驻留名额包括：总部的单人住宿和独立工作空间；从受资助者居住城市往返的机票；整个驻留期间共 45 000 墨西哥比索的资助金。资助金分两次支付：到达总部时支付 60 %，其余 40 % 在项目协调处收到并批准结项总结后支付。可能的随行人员的旅费由驻留者自理。",
+            "4. 与其他资助的兼容。驻留可以与出版社为同一作品获得的翻译或出版资助同时享受，且不影响资助金额。但不得与同一时期发给译者本人的个人生活资助同时享受。申请人提交申请后，如本人或其出版社获得与该项目有关的任何资助，须书面告知。",
+            "5. 义务。驻留者须在总部至少停留十周中的八周。连续三天以上的离开须事先获得协调处批准；经批准离开的天数不扣资助，也不必在驻留结束时补回，前提是满足八周的最低要求。未经批准的离开可能导致失去第二笔款项。此外，每位驻留者须参加一次公开朗读会，并在驻留结束后一个月内提交活动总结和至少三十页的译稿样章。",
+            "6. 申请。申请只能通过基金会网站上的表格提交，时间为 2027 年 1 月 15 日至 3 月 15 日。申请材料包括：简历、工作计划、出版社的信（或相应的学术担保），以及十页译稿样章和对应的原文。材料不全时，基金会将通过电子邮件通知，申请人有十个工作日补齐；逾期未答复的，视为撤回申请。补交期间只能提交缺少的文件，绝不接受与最初所交不同的样章。",
+            "7. 评选。由三位与基金会无关的译者组成的评审委员会，评估样章的质量、作品对西语读者的意义和工作计划的可行性。评分相同时，优先考虑从未译成西班牙语的作品。结果将于 2027 年 5 月 31 日公布。",
+            "8. 放弃与中途退出。入选者如在驻留开始前放弃，名额将给予候补名单上的第一位申请人；驻留开始后空出的名额不再递补。无正当理由中途退出者，须退还机票费用，并失去领取第二笔款项的权利。如因本人或直系亲属患重病（有正式证明）而退出，不要求退还任何款项；只要驻留者在规定期限内提交结项总结，第二笔款项照常支付。"
+          ],
+          "palabras": 737
+        }
+      ],
+      "preguntas": [
+        {
+          "n": 1,
+          "texto": "T",
+          "enunciado": "Según las bases, una traductora que todavía no ha publicado ninguna traducción…",
+          "opciones": [
+            "solo puede presentarse si consigue el aval de una institución académica.",
+            "puede presentarse si la obra original está escrita en una lengua indígena de México.",
+            "puede presentarse siempre que no haya sido residente de la Fundación en los últimos años."
+          ],
+          "clave": "B",
+          "explicacion": "第 2 条：“Excepcionalmente, se aceptarán solicitudes de personas sin traducciones publicadas cuando el proyecto se refiera a una obra escrita en una lengua originaria de México”，lengua originaria 即墨西哥原住民（indígena）语言，b 对。a 错：这种情况下学术担保只是“podrá sustituirse”出版社的信，二者有一即可，并非唯一条件；c 错：没做过前两届驻留者是所有人都要满足的条件，不能代替出版要求。"
+        },
+        {
+          "n": 2,
+          "texto": "T",
+          "enunciado": "En cuanto a la ayuda económica, las bases establecen que…",
+          "opciones": [
+            "se entrega íntegra en el momento en que el residente llega a la sede.",
+            "incluye una cantidad adicional para cubrir los gastos de viaje de quienes acompañen al residente.",
+            "una parte de ella depende de que se apruebe el informe que el residente presenta al final."
+          ],
+          "clave": "C",
+          "explicacion": "第 3 条：“el 40 % restante una vez que la coordinación del programa haya recibido y aprobado la memoria final”，即有一部分钱以结项总结获批为条件，c 对。a 错：资助分两次支付（60 % 和 40 %），不是到达时一次付清；b 错：原文明确说“Los gastos de viaje de posibles acompañantes corren por cuenta de los residentes”。"
+        },
+        {
+          "n": 3,
+          "texto": "T",
+          "enunciado": "Si, después de presentar su solicitud, la editorial de un candidato obtiene una subvención para traducir esa misma obra, el candidato…",
+          "opciones": [
+            "podrá disfrutar de la residencia, pero tendrá que notificárselo a la Fundación.",
+            "tendrá que elegir entre la subvención de la editorial y la residencia.",
+            "recibirá de la Fundación una ayuda económica de menor cuantía."
+          ],
+          "clave": "A",
+          "explicacion": "第 4 条：驻留与出版社获得的资助兼容，“sin que ello afecte a la cuantía de la ayuda económica”；申请后本人或出版社获得的相关资助都须“comunicar por escrito”，a 对。b 错：不能同时享受的是发给译者本人的“beca personal de manutención”，不是出版社的资助；c 错：原文说资助金额不受影响。"
+        },
+        {
+          "n": 4,
+          "texto": "T",
+          "enunciado": "Un residente que necesite ausentarse de la sede durante cuatro días seguidos…",
+          "opciones": [
+            "perderá en cualquier caso el segundo pago de la ayuda.",
+            "tendrá que recuperar esos cuatro días quedándose en la sede después de que termine la estancia.",
+            "deberá contar antes con el visto bueno de los responsables del programa."
+          ],
+          "clave": "C",
+          "explicacion": "第 5 条：“Las ausencias de más de tres días consecutivos requerirán la autorización previa de la coordinación”，四天超过三天，必须事先获准，c 对。a 错：只有未经批准的离开才“podrá suponer”失去第二笔钱，并不是无论如何都会失去；b 错：原文说获准离开的天数“no tienen que recuperarse al final de la estancia”。"
+        },
+        {
+          "n": 5,
+          "texto": "T",
+          "enunciado": "Si a una solicitud le falta parte de la documentación, el candidato…",
+          "opciones": [
+            "recibirá un aviso y tendrá unos días para completar su solicitud.",
+            "podrá aprovechar ese plazo para presentar una muestra de traducción mejorada.",
+            "quedará excluido del proceso de selección de forma inmediata."
+          ],
+          "clave": "A",
+          "explicacion": "第 6 条：材料不全时“la Fundación lo notificará por correo electrónico y el solicitante dispondrá de diez días hábiles para completarla”，a 对。b 错：补交期间“en ningún caso se admitirá una muestra distinta de la enviada inicialmente”；c 错：不会立即被排除，只有逾期不补才“se tendrá por retirada”。"
+        },
+        {
+          "n": 6,
+          "texto": "T",
+          "enunciado": "Una residente que abandona la estancia en la quinta semana porque su padre ha sufrido una enfermedad grave, debidamente acreditada,…",
+          "opciones": [
+            "tendrá que devolver lo que costó su boleto de avión.",
+            "seguirá teniendo derecho a la última parte del dinero si presenta su informe a tiempo.",
+            "será sustituida en la residencia por la primera candidata de la lista de reserva."
+          ],
+          "clave": "B",
+          "explicacion": "第 8 条：因直系亲属重病（有证明）退出时“no se exigirá ninguna devolución y el segundo pago se abonará igualmente, siempre que el residente entregue la memoria final en el plazo previsto”，b 对。a 错：退还机票费只针对“sin causa justificada”的退出；c 错：驻留开始后空出的名额“no se cubrirán”，候补名单只用于开始前放弃的情况。"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "tipo": "fragmentos",
+      "instruccion_es": "Lea el siguiente texto, del que se han extraído seis párrafos. A continuación, lea los siete párrafos propuestos (A-G) y decida en qué lugar del texto (7-12) hay que colocar cada uno. Hay un párrafo que no tiene que elegir. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "阅读一篇被抽掉六个段落的文章，再读 A—G 七个段落，判断每个段落应放回文中第 7—12 处的哪一处。有一个段落不用。在答题卡上涂出答案。",
+      "tema_zh": "西班牙城市居民用自制传感器测量噪音：官方噪音地图的局限、数据可信度之争、市政府的合作和隐私问题。",
+      "texto": {
+        "genero": "reportaje",
+        "titulo": "Los cartógrafos del ruido", "titulo_zh": "噪音的绘图员",
+        "autor": "Irene Castells",
+        "cuerpo": [
+          "Cuando Amparo Ferrer se jubiló, después de treinta y dos años enseñando física en un instituto de Valencia, pensó que por fin podría dormir sin despertador. No contaba con el camión de la basura, que pasaba cada noche a las tres y cuarto, ni con la terraza del bar de la esquina, que en los últimos años había duplicado sus mesas y alargado su horario. Lejos de resignarse, decidió aplicar el consejo que había repetido a sus alumnos durante décadas: antes de quejarse de algo, hay que medirlo.",
+          "[7]",
+          "Allí descubrió que su calle ya figuraba en el mapa oficial de ruido del municipio y que, según ese mapa, no tenía ningún problema. La explicación, que tardó semanas en entender, es técnica pero reveladora. Los mapas de ruido que exige la normativa europea no se elaboran a partir de mediciones directas, sino de modelos informáticos que estiman el sonido en función del tráfico, de la anchura de las calles o de la altura de los edificios. Y el resultado final se expresa como una media anual.",
+          "[8]",
+          "El caso de Amparo no es excepcional. En los últimos cinco años, decenas de asociaciones vecinales de ciudades como Valencia, Madrid o Zaragoza han desplegado redes de sensores caseros, muchas veces con el apoyo de grupos universitarios y de programadores voluntarios. Los aparatos son baratos y fáciles de montar, y cada vez más vecinos aprenden a construirlos en talleres organizados en bibliotecas y centros cívicos. En el barrio de Ferrer, la red ya reúne más de doscientos aparatos, instalados en balcones, ventanas y azoteas, que publican sus registros en tiempo real en una página web abierta a cualquiera que quiera consultarlos.",
+          "[9]",
+          "Los vecinos replican que nunca han pretendido sustituir a los equipos homologados. Lo que reclaman es que sus registros sirvan para orientar dónde y cuándo debe medir el ayuntamiento. «No queremos ganar ningún juicio; queremos que alguien venga a escuchar a las tres de la mañana», resume Ferrer, que hoy coordina la red de su barrio. Algunos investigadores van incluso más allá y sostienen que la precisión de cada sensor importa mucho menos que el hecho de que haya muchos.",
+          "[10]",
+          "Esa idea ha empezado a abrirse camino en algunas administraciones. En una ciudad mediana de Castilla, el ayuntamiento firmó el año pasado un convenio con la federación vecinal por el que los datos ciudadanos funcionan como un sistema de alerta: cuando un sensor detecta niveles anómalos durante varias noches seguidas, un técnico municipal acude con un equipo homologado para comprobarlo. En los primeros doce meses, el acuerdo permitió identificar once locales que incumplían de forma reiterada su horario de cierre.",
+          "[11]",
+          "No todo son ventajas, sin embargo. Los especialistas en protección de datos recuerdan que un aparato que capta sonido es, en potencia, un micrófono que apunta a la calle. Los diseñadores de las redes vecinales insisten en que sus dispositivos no graban nada: se limitan a calcular el nivel de presión sonora y borran la señal original en una fracción de segundo, de modo que resulta imposible reconstruir una conversación a partir de los datos que se publican.",
+          "[12]",
+          "Quizá la lección más interesante de estos cartógrafos aficionados no tenga que ver con los decibelios. Durante décadas, la ciudad se ha medido desde arriba, con instrumentos y criterios que los vecinos no podían discutir. Lo que estas redes ponen sobre la mesa es una pregunta incómoda: quién tiene derecho a decir cómo suena un barrio. Durante mucho tiempo, la respuesta pareció evidente: quienes tenían los aparatos homologados. Amparo Ferrer no duda al responder: «Quienes lo escuchamos cada noche»."
+        ],
+        "zh": [
+          "安帕罗·费雷尔在瓦伦西亚一所中学教了三十二年物理，退休时她以为终于可以不用闹钟、睡个好觉了。她没料到每天夜里三点一刻都会经过的垃圾车，也没料到街角酒吧的露天座——这几年它的桌子翻了一倍，营业时间也延长了。她没有认命，而是决定照自己几十年来对学生反复说的那句话去做：要抱怨一件事，先得测量它。",
+          "（第 7 处填 C）",
+          "在那里她发现，她住的街道早就出现在市政府的官方噪音地图上，而按照这张地图，这条街根本没有问题。她花了好几个星期才弄懂其中的原因，这个原因很技术化，却很能说明问题：欧洲法规要求的噪音地图不是根据直接测量绘制的，而是用计算机模型，按交通量、街道宽度或建筑高度来估算声音。最终结果用年平均值来表示。",
+          "（第 8 处填 F）",
+          "安帕罗的情况并非个例。过去五年里，瓦伦西亚、马德里、萨拉戈萨等城市的几十个居民协会建起了自制传感器网络，常常得到大学团队和志愿程序员的帮助。这些设备便宜、容易组装，越来越多的居民在图书馆和社区中心举办的工作坊里学着自己制作。在费雷尔住的街区，这个网络已有两百多台设备，装在阳台、窗户和屋顶平台上，实时把记录发布在一个任何人都能查看的网站上。",
+          "（第 9 处填 A）",
+          "居民们反驳说，他们从没想过要取代经过认证的设备。他们要求的是，让自己的记录帮助市政府决定在哪里、在什么时候进行测量。“我们不想打赢什么官司，我们只希望有人能在凌晨三点来听一听。”如今负责协调街区网络的费雷尔这样概括。一些研究人员走得更远，他们认为单个传感器的精度远不如传感器数量多来得重要。",
+          "（第 10 处填 G）",
+          "这个观点已经开始被一些地方政府接受。在卡斯蒂利亚的一座中等城市，市政府去年与居民协会联合会签订协议，让市民数据充当预警系统：某个传感器连续几个晚上测到异常水平时，市政技术人员就带着认证设备前去核实。头十二个月里，这项协议查出了十一家屡次不按时关门的场所。",
+          "（第 11 处填 D）",
+          "不过，也并不全是好处。数据保护专家提醒，能捕捉声音的设备在潜在意义上就是一只对着街道的麦克风。居民网络的设计者坚持说，他们的设备什么都不录：只计算声压级，并在不到一秒的时间里删除原始信号，因此不可能根据公开的数据还原任何一段对话。",
+          "（第 12 处填 B）",
+          "这些业余地图绘制者带来的最有意思的启示，也许与分贝无关。几十年来，城市一直是被自上而下地测量的，所用的仪器和标准居民无从质疑。这些网络提出了一个令人不安的问题：谁有权说一个街区听起来是什么样子。很长时间里，答案似乎显而易见：拥有认证设备的人。安帕罗·费雷尔毫不犹豫地回答：“是我们这些每天夜里都在听的人。”"
+        ],
+        "palabras": 593
+      },
+      "fragmentos": [
+        {"id": "A", "texto": "Pero la abundancia de datos no ha resuelto el conflicto; en cierto modo, solo lo ha desplazado. Los técnicos municipales desconfían de unos dispositivos que nadie ha calibrado en un laboratorio, que se colocan a alturas muy distintas y que, según ellos, a veces confunden el viento o la lluvia con el tráfico. Para la administración, una medición sin certificado no constituye una prueba.", "zh": "然而，大量的数据并没有解决冲突；在某种意义上，只是把冲突转移了。市政技术人员不信任这些设备：它们没有在实验室里校准过，安装高度各不相同，而且据他们说，有时会把风声或雨声当成交通噪音。对政府来说，没有认证的测量不能算证据。"},
+        {"id": "B", "texto": "Aun así, la tentación de ir más lejos existe. Algunos colectivos ya ensayan aparatos capaces de identificar el tipo de sonido —una moto, una persiana metálica, una discusión—, lo que obligaría a procesar fragmentos de audio. Ahí, reconocen los propios impulsores de las redes, se cruzaría una frontera que exigiría reglas claras y el consentimiento expreso de los vecinos.", "zh": "尽管如此，想走得更远的诱惑是存在的。一些团体已经在试验能识别声音类型的设备——摩托车、金属卷帘门、争吵声——这就需要处理音频片段。网络的发起者自己也承认，到了这一步就越过了一条界线，需要明确的规则和居民的明确同意。"},
+        {"id": "C", "texto": "Por unos cuarenta euros compró un sensor de sonido del tamaño de una caja de cerillas, lo conectó a un ordenador diminuto y lo colgó de la barandilla del balcón. Durante tres meses, el aparato registró el nivel de ruido cada segundo. Cuando cruzó esos datos con el diario de insomnio que llevaba en paralelo, el resultado fue tan elocuente que decidió presentarlo en la junta de su distrito.", "zh": "她花了大约四十欧元买了一个火柴盒大小的声音传感器，接到一台微型电脑上，挂在阳台栏杆上。三个月里，这台设备每秒钟记录一次噪音水平。她把这些数据和自己同时记的失眠日记对照，结果一目了然，于是决定把它拿到区议会去。"},
+        {"id": "D", "texto": "Ninguno de ellos aparecía en el mapa oficial ni había acumulado denuncias suficientes para justificar una inspección. Varios vecinos admitieron después que habían dejado de llamar a la policía porque estaban convencidos de que no servía de nada. En ese sentido, los sensores no solo midieron el ruido: hicieron visible un malestar que, con el tiempo, se había vuelto silencioso.", "zh": "这些场所没有一家出现在官方地图上，也没有积累到足以启动检查的投诉。好几位居民后来承认，他们早就不再给警察打电话了，因为确信那毫无用处。从这个意义上说，传感器不仅测量了噪音，还让一种久而久之变得沉默的不满显现了出来。"},
+        {"id": "E", "texto": "A diferencia de Amparo Ferrer, la mayoría de quienes instalan estos aparatos no lo hacen por un problema concreto, sino por simple curiosidad tecnológica: según una encuesta de las propias redes, apenas uno de cada diez participantes había presentado alguna vez una queja por ruido antes de colgar su sensor en el balcón.", "zh": "与安帕罗·费雷尔不同，大多数安装这些设备的人并不是因为遇到了具体问题，而纯粹是出于对技术的好奇：根据这些网络自己做的调查，在把传感器挂上阳台之前，只有十分之一的参与者曾经投诉过噪音。"},
+        {"id": "F", "texto": "Ese promedio es justamente lo que borra la experiencia cotidiana de los vecinos. Un camión que a las tres de la madrugada rompe el silencio durante cuarenta segundos apenas altera la media de todo un año; para el vecino al que despierta, en cambio, es el acontecimiento central de la noche. Los modelos, además, ignoran fuentes como las terrazas, las obras o las fiestas del barrio.", "zh": "恰恰是这个平均值抹去了居民的日常感受。凌晨三点一辆卡车打破寂静四十秒，对全年的平均值几乎没有影响；可对被它吵醒的居民来说，那是整个夜晚最重要的事。此外，这些模型也忽略了露天座、施工或街区节庆这类噪音来源。"},
+        {"id": "G", "texto": "Su razonamiento es estadístico: un aparato barato puede equivocarse en dos o tres decibelios, pero un centenar de ellos repartidos por un barrio dibuja patrones que ningún equipo profesional, instalado durante una semana en un único punto, sería capaz de captar. Lo relevante, por tanto, no sería cuánto se equivoca cada sensor, sino lo que revelan todos juntos.", "zh": "他们的理由是统计学上的：一台便宜的设备可能会有两三个分贝的误差，但一百台分布在街区各处的设备能描绘出规律，而任何一台只在一个点上安装一周的专业设备都捕捉不到这些规律。所以，重要的不是每个传感器误差多大，而是所有传感器放在一起揭示了什么。"}
+      ],
+      "huecos": [
+        {"n": 7, "clave": "C", "explicacion": "上一段结尾“antes de quejarse de algo, hay que medirlo”，C 正是她动手测量：买传感器、记录三个月，并“decidió presentarlo en la junta de su distrito”；下一段开头“Allí descubrió…”中的 Allí 指的就是区议会。其他片段都不能解释 Allí。"},
+        {"n": 8, "clave": "F", "explicacion": "上一段最后一句“el resultado final se expresa como una media anual”，F 开头“Ese promedio”直接承接，说明平均值为什么抹去了夜间噪音的体验；下一段“El caso de Amparo no es excepcional”从个人经历转向更多居民，衔接自然。"},
+        {"n": 9, "clave": "A", "explicacion": "上一段介绍两百多台设备、数据实时公开，A 用“Pero la abundancia de datos no ha resuelto el conflicto”转折，并以政府的看法“una medición sin certificado no constituye una prueba”结尾；下一段“Los vecinos replican que nunca han pretendido sustituir a los equipos homologados”正是对这一看法的回应。"},
+        {"n": 10, "clave": "G", "explicacion": "上一段结尾“Algunos investigadores … sostienen que la precisión de cada sensor importa mucho menos que el hecho de que haya muchos”，G 开头“Su razonamiento es estadístico”解释这些研究者的理由（数量弥补精度）；下一段“Esa idea ha empezado a abrirse camino”中的 Esa idea 指的就是这一观点。"},
+        {"n": 11, "clave": "D", "explicacion": "上一段说协议查出了“once locales”，D 开头“Ninguno de ellos aparecía en el mapa oficial”中的 ellos 指这些场所，并总结传感器的意义；下一段“No todo son ventajas, sin embargo”由好处转向问题，正好接在 D 的正面总结之后。"},
+        {"n": 12, "clave": "B", "explicacion": "上一段说设备不录音、只计算声压级、无法还原对话，B 用“Aun así, la tentación de ir más lejos existe”让步转折，讲能识别声音类型的设备会触及隐私底线；下一段“Quizá la lección más interesante…”是全文的结论。"}
+      ],
+      "distractores": [
+        {"id": "E", "explicacion": "E 与话题有关，也提到安帕罗和阳台上的传感器，但它说大多数参与者装传感器“no … por un problema concreto, sino por simple curiosidad tecnológica”，与文中“El caso de Amparo no es excepcional”以及居民因夜间噪音而测量、要求有人“venga a escuchar a las tres de la mañana”的整体论述相矛盾，放在任何一处都接不上前后文。"}
+      ]
+    },
+    {
+      "n": 3,
+      "tipo": "seleccion",
+      "instruccion_es": "Lea la siguiente columna de opinión y responda a las preguntas (13-18). Seleccione la opción correcta (a, b o c). Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "阅读一篇报刊评论专栏文章，回答第 13—18 题，从 a、b、c 中选出正确答案，并在答题卡上涂出。",
+      "tema_zh": "阿根廷报纸专栏：打分评价文化如何把日常交往变成互相考核，以及信任为什么无法用星星衡量。",
+      "textos": [
+        {
+          "id": "T",
+          "genero": "columna de opinión",
+          "titulo": "Cinco estrellas para nadie", "titulo_zh": "谁也得不到五颗星",
+          "cabecera": [],
+          "cuerpo": [
+            "El otro día, cuando estaba por bajarme de un auto de aplicación en Palermo, el conductor se dio vuelta antes de que yo abriera la puerta y me pidió, casi en un susurro: «¿Me ponés cinco estrellas? Con una de cuatro ya me empiezan a mirar raro». Le dije que sí, por supuesto. Lo que no le dije es que durante todo el viaje yo también había estado pendiente de mi propia calificación: no había comido nada, no había hablado por teléfono y cerré la puerta con una delicadeza impropia de mí. Éramos dos desconocidos examinándose en silencio durante veinte cuadras.",
+            "Nadie votó que la vida cotidiana tuviera que convertirse en un concurso permanente, pero eso es lo que pasó. Hoy puntuamos al plomero, al restaurante, a la profesora de yoga, a la médica que nos atendió por videollamada y hasta al empleado que nos respondió un correo. Y, a cambio, somos puntuados como pasajeros, como huéspedes y como compradores. Las plataformas presentan este sistema como una conquista del consumidor, que por fin tendría voz frente a las empresas. Es una forma elegante de describir algo bastante más prosaico: a las empresas les sale más barato que los clientes vigilen a los trabajadores que pagarle a alguien para que lo haga.",
+            "Lo curioso es que, cuanto más se puntúa, menos significan las puntuaciones. En casi todas las aplicaciones la nota media ronda el 4,8, de modo que la escala de uno a cinco funciona, en la práctica, como un sistema binario: cinco estrellas quiere decir «correcto» y cualquier otra cosa equivale a una denuncia. El cuatro, que en cualquier escala razonable sería una nota más que digna, se ha convertido en una manera educada de hundirle el trabajo a alguien. Quien califica lo sabe, y por eso casi nadie se anima a usarlo.",
+            "Confieso mi parte de culpa. Yo pongo cinco estrellas casi siempre, incluso cuando la comida llegó fría o el técnico se fue dejando el problema a medias. No lo hago por generosidad, sino por una mezcla de pereza y de miedo: miedo a que mi pequeño enojo de un martes a la noche le cueste el puesto a una persona de la que no sé nada. Multiplíquese mi cobardía por varios millones de usuarios y se entenderá por qué esos promedios dicen tan poco sobre la calidad de un servicio y tanto sobre nuestra incomodidad.",
+            "No pretendo que se eliminen las reseñas. Saber que un hotel tiene chinches o que un mecánico cobra el doble de lo pactado es información valiosa que, antes de internet, solo circulaba entre amigos. Lo que me inquieta es otra cosa: que la nota haya reemplazado a la conversación. Cuando algo sale mal, ya no se lo decimos a la persona que tenemos enfrente; esperamos a estar solos frente a la pantalla para castigarla o perdonarla en una escala del uno al cinco. Ganamos un instrumento de medida y, de paso, perdimos la costumbre de reclamar en voz alta, y también la de agradecer en voz alta.",
+            "Quizá por eso me reconcilia tanto con el mundo don Aníbal, el dueño del almacén de mi cuadra. Su negocio no figura en ninguna aplicación y, si figurara, seguramente tendría una nota mediocre: abre cuando quiere, nunca tiene cambio y opina de política sin que nadie se lo pida. Pero desde hace veinte años anota en un cuaderno de tapas azules lo que le debemos los vecinos, y jamás nos hizo firmar nada. A eso, antes de que todo se midiera con estrellitas, lo llamábamos confianza. Y no hacía falta calificarla: alcanzaba con no defraudarla."
+          ],
+          "firma": "Julián Etchegaray · La Costanera (Buenos Aires)",
+          "zh": [
+            "前几天，我坐网约车到了巴勒莫区，正要下车，还没开门，司机就转过身来，几乎是耳语般地问我：“能给我打五星吗？只要有一个四星，他们就开始用怪眼神看我了。”我当然说好。我没告诉他的是，整趟路上我也一直在担心自己的评分：我什么都没吃，没打电话，关车门时还轻得不像我。我们是两个陌生人，在二十个街区的路上默默地互相考核。",
+            "没有谁投票决定日常生活必须变成一场没完没了的比赛，可事情就是这样发生了。如今我们给水管工、餐馆、瑜伽老师、通过视频给我们看病的医生打分，甚至给回了我们一封邮件的职员打分。反过来，我们作为乘客、房客和买家也被别人打分。平台把这套系统说成是消费者的胜利——消费者终于能对企业发声了。这是一种体面的说法，描述的其实是一件平淡得多的事：让顾客去监督员工，比花钱雇人来做这件事便宜。",
+            "奇怪的是，打分越多，分数就越没有意义。几乎所有应用里的平均分都在 4.8 左右，所以一到五分的评分实际上成了二选一：五星表示“还行”，其他任何分数都等于投诉。四星在任何合理的评分体系里都是相当体面的分数，如今却成了一种客客气气砸掉别人饭碗的方式。打分的人心知肚明，所以几乎没人敢用它。",
+            "我承认自己也有责任。我几乎总是打五星，哪怕饭送到时已经凉了，或者技术员问题只修了一半就走了。我这么做不是出于慷慨，而是出于懒惰和恐惧：怕我某个星期二晚上的一点小火气，让一个我一无所知的人丢了工作。把我的这份怯懦乘以几百万用户，就能明白为什么这些平均分对服务质量说明得那么少，对我们的不安却说明得那么多。",
+            "我并不是主张取消评价。知道一家旅馆有臭虫、一个修车工收的钱是谈好价钱的两倍，这些都是有价值的信息，而在互联网出现之前，它们只在朋友之间流传。让我不安的是另一件事：分数取代了交谈。出了问题，我们不再对眼前的人说，而是等到独自面对屏幕时，用一到五的分数去惩罚或原谅对方。我们得到了一件测量工具，顺便也丢掉了大声抱怨的习惯，还有大声道谢的习惯。",
+            "也许正因为如此，我们街区杂货店的老板阿尼瓦尔先生总能让我和这个世界和解。他的店不在任何应用上，就算在，分数大概也很一般：想开门才开门，从来没有零钱找，没人问也要对政治发表意见。可二十年来，他一直在一本蓝皮本子上记着我们这些邻居欠他的账，从没让我们签过任何字据。在一切都用小星星衡量之前，我们把这叫作信任。信任不需要打分：只要不辜负它就够了。"
+          ],
+          "palabras": 600
+        }
+      ],
+      "preguntas": [
+        {
+          "n": 13,
+          "texto": "T",
+          "enunciado": "Con la anécdota del viaje, el autor quiere mostrar que…",
+          "opciones": [
+            "los conductores de aplicaciones suelen presionar a sus pasajeros para obtener buenas notas.",
+            "tanto quien presta un servicio como quien lo recibe se sienten observados.",
+            "los pasajeros se comportan con más cuidado cuando el trayecto es largo."
+          ],
+          "clave": "B",
+          "explicacion": "第一段结尾“Éramos dos desconocidos examinándose en silencio durante veinte cuadras”：司机担心拿到四星，作者也在担心“mi propia calificación”，双方都觉得自己被评价，b 对。a 错：只是一位司机提出请求，作者想说明的不是司机施压，而是互相考核；c 错：作者小心翼翼是因为担心自己的评分，和路程长短无关。"
+        },
+        {
+          "n": 14,
+          "texto": "T",
+          "enunciado": "¿Qué piensa el autor del argumento con el que las plataformas defienden las calificaciones?",
+          "opciones": [
+            "Que encubre, bajo una apariencia favorable al cliente, un ahorro para las empresas.",
+            "Que describe con exactitud el poder que han ganado los consumidores frente a las empresas.",
+            "Que demuestra la preocupación de las compañías por las condiciones de sus trabajadores."
+          ],
+          "clave": "A",
+          "explicacion": "作者说把评分说成“una conquista del consumidor”是“una forma elegante de describir algo bastante más prosaico”：让顾客监督员工“les sale más barato”。即表面为顾客着想，实际为企业省钱，a 对。b 错：作者用的条件式“tendría voz”和后面的讽刺正是在否定这种说法；c 错：作者认为评分是用来监督员工的，不是关心员工。"
+        },
+        {
+          "n": 15,
+          "texto": "T",
+          "enunciado": "Según el autor, una calificación de cuatro estrellas…",
+          "opciones": [
+            "refleja con bastante fidelidad que el servicio recibido fue de una calidad aceptable.",
+            "es la que eligen habitualmente los usuarios que quieren ser justos.",
+            "se interpreta hoy como una queja contra quien ha prestado el servicio."
+          ],
+          "clave": "C",
+          "explicacion": "第三段：五星以外“cualquier otra cosa equivale a una denuncia”，四星成了“una manera educada de hundirle el trabajo a alguien”，即被当作投诉，c 对。a 错：只有“en cualquier escala razonable”四星才算体面，作者说现在已经不是这样；b 错：原文说“casi nadie se anima a usarlo”。"
+        },
+        {
+          "n": 16,
+          "texto": "T",
+          "enunciado": "Cuando el autor confiesa su «parte de culpa», da a entender que…",
+          "opciones": [
+            "suele castigar con notas bajas a quienes lo atienden mal.",
+            "prefiere no dejar ninguna calificación cuando un servicio lo decepciona de verdad.",
+            "las notas medias revelan, más que la calidad, el temor a perjudicar a alguien."
+          ],
+          "clave": "C",
+          "explicacion": "作者几乎总给五星，因为“miedo a que mi pequeño enojo … le cueste el puesto a una persona”，并说平均分“dicen tan poco sobre la calidad de un servicio y tanto sobre nuestra incomodidad”，c 对。a 错：作者恰恰不打低分，饭凉了也给五星；b 错：作者不是不打分，而是照样打五星。"
+        },
+        {
+          "n": 17,
+          "texto": "T",
+          "enunciado": "¿Qué es lo que más le preocupa al autor del sistema de reseñas?",
+          "opciones": [
+            "Que haya sustituido el trato directo con las personas cuando surge algún problema.",
+            "Que la información sobre los malos servicios circule solo entre conocidos.",
+            "Que desaparezca una herramienta útil para saber qué servicios conviene evitar."
+          ],
+          "clave": "A",
+          "explicacion": "第五段：“Lo que me inquieta es otra cosa: que la nota haya reemplazado a la conversación”，出了问题不再当面对人说，而是“esperamos a estar solos frente a la pantalla”，再用分数惩罚或原谅对方，a 对。b 错：只在朋友间流传是“antes de internet”的情况；c 错：作者明确说“No pretendo que se eliminen las reseñas”，并承认评价有用，他担心的不是评价工具消失。"
+        },
+        {
+          "n": 18,
+          "texto": "T",
+          "enunciado": "Al hablar de don Aníbal, el autor sugiere que…",
+          "opciones": [
+            "los pequeños comercios del barrio deberían estar presentes en las aplicaciones.",
+            "la confianza nace del trato a lo largo del tiempo y no necesita puntuaciones.",
+            "sería justo que el almacenero obtuviera una calificación más alta de la que tendría."
+          ],
+          "clave": "B",
+          "explicacion": "老板二十年来在本子上记邻居的欠账，“jamás nos hizo firmar nada”；作者说“A eso … lo llamábamos confianza. Y no hacía falta calificarla”，b 对。a 错：作者欣赏的正是这家店不在任何应用上；c 错：作者认为信任根本不需要打分，并不是想给老板更高的分。"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "tipo": "relacionar",
+      "instruccion_es": "Lea los resúmenes de seis ponencias presentadas en unas jornadas sobre patrimonio alimentario. A continuación, lea las preguntas (19-26) y decida a qué resumen (A-F) corresponde cada una. Algunos resúmenes deben seleccionarse más de una vez. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "阅读一次饮食遗产研讨会的六篇报告摘要（A—F），判断第 19—26 题的每个问题对应哪一篇摘要。有的摘要要选不止一次。在答题卡上涂出答案。",
+      "tema_zh": "“伊比利亚美洲饮食遗产研讨会”的六篇报告摘要：秘鲁冻干土豆、墨西哥城郊的米尔帕、卡斯蒂利亚的“传统”面包、阿根廷马黛茶广告、波哥大农贸市场、智利学校食堂的传统菜。",
+      "opciones_tipo": "textos",
+      "textos": [
+        {
+          "id": "A",
+          "genero": "resumen de ponencia",
+          "titulo": "Heladas que ya no llegan: el chuño ante el cambio climático · Rosa Quispe Mamani (Puno, Perú)", "titulo_zh": "不再到来的霜冻：气候变化下的冻干土豆 · 罗莎·基斯佩·马马尼（秘鲁普诺）",
+          "cuerpo": ["El chuño, la papa deshidratada mediante ciclos de helada nocturna y sol intenso, ha permitido durante siglos conservar alimentos en las comunidades del altiplano. Su elaboración depende, sin embargo, de un calendario climático que se está volviendo imprevisible: las noches de helada son hoy menos numerosas y más irregulares. Esta ponencia presenta los resultados de tres años de trabajo con cuatro comunidades de la región de Puno, en las que los propios productores anotaron cada mañana la temperatura mínima y el estado de los tubérculos. Los datos muestran que las familias no han abandonado la técnica, sino que la han modificado: trasladan las zonas de secado a mayor altura y cubren las papas durante las horas centrales del día. Lejos de ser un saber inmóvil, concluimos, la tradición sobrevive precisamente porque se transforma."],
+          "zh": ["冻干土豆（chuño）是利用夜间霜冻和强烈日晒交替脱水的土豆，几百年来让高原社区得以储存食物。但它的制作依赖一套越来越难以预测的气候节律：如今霜冻之夜更少，也更不规律。本报告介绍在普诺地区四个社区三年工作的成果；在这些社区里，生产者本人每天早上记录最低气温和土豆的状态。数据显示，各家并没有放弃这门技术，而是作了调整：把晾晒场地移到更高的地方，并在一天中日照最强的几个小时把土豆盖起来。我们的结论是：传统并非一成不变的知识，它恰恰因为改变才得以延续。"],
+          "icono": "",
+          "palabras": 133
+        },
+        {
+          "id": "B",
+          "genero": "resumen de ponencia",
+          "titulo": "La milpa resiste en los bordes de la ciudad · Héctor Villaseñor (Ciudad de México)", "titulo_zh": "城市边缘坚守的米尔帕田 · 埃克托尔·比利亚塞尼奥尔（墨西哥城）",
+          "cuerpo": ["En la periferia sur de la Ciudad de México todavía sobreviven cientos de pequeñas parcelas en las que se cultiva la milpa, el sistema tradicional que asocia maíz, frijol y calabaza. A partir de entrevistas con cuarenta familias propietarias, esta ponencia analiza las presiones que amenazan su continuidad: el aumento del precio del suelo, las ofertas de las inmobiliarias y el desinterés de muchos jóvenes, que ven en la parcela un recuerdo familiar más que una fuente de ingresos. Frente a ese panorama, proponemos que las alcaldías reduzcan el impuesto predial a las familias que mantengan sus terrenos cultivados y que se creen mercados de proximidad donde vender la cosecha sin intermediarios. Sin medidas de este tipo, advertimos, la milpa urbana podría desaparecer en apenas una generación."],
+          "zh": ["在墨西哥城南部郊区，仍有数百块小地块在种植米尔帕（milpa）——一种把玉米、菜豆和南瓜套种在一起的传统农作体系。本报告基于对四十户地主家庭的访谈，分析威胁其延续的压力：地价上涨、房地产商的收购报价，以及许多年轻人缺乏兴趣——他们把地块看作家族记忆，而不是收入来源。针对这种情况，我们建议各区政府对仍在耕种土地的家庭减免房产税，并设立就近市场，让农户不经中间商出售收成。我们提醒：如果没有这类措施，城市里的米尔帕可能在短短一代人之内消失。"],
+          "icono": "",
+          "palabras": 127
+        },
+        {
+          "id": "C",
+          "genero": "resumen de ponencia",
+          "titulo": "¿Pan de toda la vida? Una historia de la hogaza castellana · Elena Barrachina (Valladolid, España)", "titulo_zh": "“老辈传下来的面包”？卡斯蒂利亚大圆面包的历史 · 埃莱娜·巴拉奇纳（西班牙巴利亚多利德）",
+          "cuerpo": ["En numerosos pueblos de Castilla se vende hoy, con éxito creciente, una hogaza de corteza gruesa que se presenta como el pan «de toda la vida». Esta ponencia contrasta esa imagen con la documentación conservada en los archivos de varios gremios de panaderos y con los testimonios de una veintena de panaderos jubilados. Los resultados indican que la receta actual no procede de una tradición ancestral: se generalizó en los años sesenta, cuando una harinera de la región la difundió entre sus clientes para dar salida a un nuevo tipo de harina. Antes de esa fecha, el pan cotidiano de la zona era más plano y más denso, y se horneaba una sola vez por semana. Ello no resta valor a la hogaza actual, pero obliga a revisar la idea de que su receta se ha mantenido intacta durante siglos."],
+          "zh": ["如今在卡斯蒂利亚的许多村镇，一种厚皮大圆面包卖得越来越好，人们把它说成是“祖祖辈辈一直吃的”面包。本报告把这种说法与几个面包师行会档案中保存的文献，以及二十来位退休面包师的口述进行对照。结果表明，现在的配方并非来自古老的传统：它是在六十年代普及开来的——当时本地区一家面粉厂为了推销一种新面粉，把这个配方推广给了客户。在那之前，当地的日常面包更扁、更密实，而且每周只烤一次。这并不降低现在这种面包的价值，但我们需要重新审视“它的配方几百年来原封未动”的说法。"],
+          "icono": "",
+          "palabras": 140
+        },
+        {
+          "id": "D",
+          "genero": "resumen de ponencia",
+          "titulo": "Del mate compartido al mate individual: publicidad y costumbre · Martín Larralde (Rosario, Argentina)", "titulo_zh": "从共饮马黛茶到各喝各的：广告与习俗 · 马丁·拉拉尔德（阿根廷罗萨里奥）",
+          "cuerpo": ["La publicidad de la yerba mate ha cambiado profundamente en las últimas décadas. A partir de un corpus de trescientos anuncios publicados en la prensa y la televisión argentinas entre 1960 y 2020, esta ponencia muestra cómo la imagen de la ronda familiar, con un único mate que pasa de mano en mano, fue sustituida por la de un consumidor solitario que toma su propio mate en la oficina o en el gimnasio. Sin embargo, una encuesta a mil doscientas personas de Rosario y Córdoba revela que la gran mayoría sigue compartiendo el mate al menos una vez al día, incluso después de las recomendaciones sanitarias de los últimos años. La costumbre, concluimos, ha resistido mucho mejor que su representación comercial."],
+          "zh": ["近几十年来，马黛茶的广告发生了深刻变化。本报告以 1960 年至 2020 年间在阿根廷报刊和电视上发布的三百则广告为语料，说明一家人围坐、一只茶杯在众人手中传递的形象，如何被一个在办公室或健身房独自喝自己那杯马黛茶的消费者形象所取代。然而，对罗萨里奥和科尔多瓦一千二百人的调查显示，绝大多数人仍然每天至少与别人分享一次马黛茶，即使在近年的卫生建议发布之后也是如此。我们的结论是：这一习俗远比它在广告中的形象更经得起时间的考验。"],
+          "icono": "",
+          "palabras": 121
+        },
+        {
+          "id": "E",
+          "genero": "resumen de ponencia",
+          "titulo": "La plaza de mercado como archivo vivo · Lucía Arbeláez (Bogotá, Colombia)", "titulo_zh": "农贸市场：活的档案馆 · 卢西亚·阿尔贝拉埃斯（哥伦比亚波哥大）",
+          "cuerpo": ["Crecí entre los puestos de hierbas de una plaza de mercado del sur de Bogotá, donde mi madre trabajó durante treinta años. Esa experiencia está en el origen de esta ponencia, que se apoya además en dos años de observación y en conversaciones con medio centenar de vendedoras. Las plazas no son solo lugares de compraventa: en ellas se conserva un conocimiento sobre plantas, frutas y remedios que no está escrito en ninguna parte y que se transmite de una generación a otra en el mismo puesto. Por eso proponemos que estos espacios sean reconocidos como patrimonio inmaterial. Ahora bien, ese reconocimiento no debería convertirlos en escenarios para turistas: si las vendedoras acaban desplazadas por cafeterías y tiendas de recuerdos, se perderá justamente lo que se pretendía proteger."],
+          "zh": ["我在波哥大南部一个农贸市场的草药摊之间长大，我母亲在那里工作了三十年。这段经历是本报告的起点；此外，报告还基于两年的观察以及与五十来位女摊贩的交谈。农贸市场不只是买卖的地方：那里保存着关于植物、水果和偏方的知识，这些知识没有写在任何地方，而是在同一个摊位上一代代传下去。因此，我们建议把这些场所认定为非物质文化遗产。不过，这种认定不应把它们变成供游客观看的布景：如果女摊贩最终被咖啡馆和纪念品店挤走，失去的恰恰是原本想要保护的东西。"],
+          "icono": "",
+          "palabras": 128
+        },
+        {
+          "id": "F",
+          "genero": "resumen de ponencia",
+          "titulo": "Sabores de casa en el comedor escolar · Valentina Ríos (Valparaíso, Chile)", "titulo_zh": "学校食堂里的家乡味 · 巴伦蒂娜·里奥斯（智利瓦尔帕莱索）",
+          "cuerpo": ["Hace dos años, doce escuelas públicas de la región de Valparaíso incorporaron a su menú semanal tres platos de la cocina tradicional chilena, como la cazuela o el pastel de choclo. Esta ponencia presenta la evaluación de esa experiencia. Durante los primeros meses, más de la mitad de los alumnos dejaba los nuevos platos casi intactos. La situación cambió cuando las escuelas invitaron a madres, padres y abuelos a cocinar junto al personal del comedor y a contar en clase la historia de cada receta: al final del segundo año, la comida desperdiciada se había reducido a menos de la cuarta parte. El principal obstáculo sigue siendo el costo, ya que algunos ingredientes encarecen el menú. Aun así, la experiencia demuestra que la memoria culinaria también se aprende."],
+          "zh": ["两年前，瓦尔帕莱索地区的十二所公立学校在每周菜单中加入了三道智利传统菜，比如炖肉汤（cazuela）和玉米派（pastel de choclo）。本报告介绍对这一做法的评估。最初几个月里，一半以上的学生几乎原封不动地剩下这些新菜。后来学校邀请父母和祖父母与食堂员工一起做饭，并在课堂上讲每道菜的来历，情况才有了变化：到第二年年底，浪费的饭菜减少到原来的四分之一以下。主要障碍仍然是成本，因为有些食材会让菜单变贵。尽管如此，这次实践证明，饮食记忆也是可以学会的。"],
+          "icono": "",
+          "palabras": 128
+        }
+      ],
+      "enunciados": [
+        {"n": 19, "persona": "", "texto": "¿En qué ponencia algunas de las personas estudiadas se encargaron también de recoger datos para la investigación?", "zh": "哪篇报告中，部分被研究者本人也负责为研究收集数据？", "clave": "A", "explicacion": "A：“los propios productores anotaron cada mañana la temperatura mínima y el estado de los tubérculos”，被研究的农户亲自记录数据。C 的退休面包师和 E 的女摊贩只是接受访谈、提供口述，F 的家长参与的是做饭和讲故事，都不是收集数据。"},
+        {"n": 20, "persona": "", "texto": "¿Qué ponencia pone en duda la antigüedad que suele atribuirse a un alimento?", "zh": "哪篇报告对人们通常认为某种食物历史悠久的说法提出了质疑？", "clave": "C", "explicacion": "C：被说成“de toda la vida”的面包，其配方“no procede de una tradición ancestral: se generalizó en los años sesenta”，质疑它的古老。A 说冻干土豆“durante siglos”帮助高原社区储存食物，B 把米尔帕称为“el sistema tradicional”，都没有质疑其历史；D 讨论的是广告形象的变化，不涉及食物的起源。"},
+        {"n": 21, "persona": "", "texto": "¿En qué ponencia el punto de partida de la investigación es la propia vida de quien la presenta?", "zh": "哪篇报告的研究起点是报告人本人的生活经历？", "clave": "E", "explicacion": "E 开头：“Crecí entre los puestos de hierbas … donde mi madre trabajó durante treinta años. Esa experiencia está en el origen de esta ponencia”。其他摘要介绍的都是访谈、档案、问卷或田野工作，没有提到作者与研究对象的个人关系。"},
+        {"n": 22, "persona": "", "texto": "¿Qué ponencia contrasta la manera en que la publicidad presenta un hábito con lo que la gente afirma hacer en la actualidad?", "zh": "哪篇报告把广告对某种习惯的呈现与人们自述的当下做法进行了对比？", "clave": "D", "explicacion": "D 分析三百则广告中“consumidor solitario”的形象，又用一千二百人的调查说明多数人“sigue compartiendo el mate”。C 也对照了一种说法和事实，但用的是历史档案和退休面包师的回忆，不是广告与当今消费者的自述。"},
+        {"n": 23, "persona": "", "texto": "¿Qué ponencia propone beneficios económicos para quienes mantengan viva una actividad tradicional?", "zh": "哪篇报告提议给继续从事某种传统活动的人经济上的好处？", "clave": "B", "explicacion": "B 建议“que las alcaldías reduzcan el impuesto predial a las familias que mantengan sus terrenos cultivados”，并设立不经中间商的市场。E 提出的是认定为非物质遗产，不是经济措施；F 只提到成本是障碍，没有提出补偿。"},
+        {"n": 24, "persona": "", "texto": "¿Qué ponencia valora los resultados de una iniciativa que unas instituciones ya han puesto en marcha?", "zh": "哪篇报告评估了某些机构已经实施的一项举措的成效？", "clave": "F", "explicacion": "F：“Hace dos años”，十二所公立学校已在菜单中加入传统菜，报告“presenta la evaluación de esa experiencia”，并给出剩饭减少的结果。B 和 E 提出的是尚未实施的建议；A 研究的是农户自己的做法，不是机构的举措。"},
+        {"n": 25, "persona": "", "texto": "¿Qué ponencia explica cómo un grupo ha adaptado un procedimiento tradicional a un entorno natural que está cambiando?", "zh": "哪篇报告说明了一个群体如何调整一种传统做法，以适应正在变化的自然环境？", "clave": "A", "explicacion": "A：霜冻之夜变少、变得不规律，农户便“trasladan las zonas de secado a mayor altura y cubren las papas durante las horas centrales del día”。C 中配方的改变与自然环境无关，是面粉厂推广的结果；B 的米尔帕面对的是城市扩张，而不是技术调整。"},
+        {"n": 26, "persona": "", "texto": "¿Qué ponencia advierte de que una medida de protección podría destruir aquello que pretende salvaguardar?", "zh": "哪篇报告提醒，一项保护措施可能毁掉它本想保护的东西？", "clave": "E", "explicacion": "E 提醒，认定为遗产后如果女摊贩被咖啡馆和纪念品店取代，“se perderá justamente lo que se pretendía proteger”。B 警告的是“sin medidas”（缺少措施）会让米尔帕消失，方向正好相反。"}
+      ]
+    },
+    {
+      "n": 5,
+      "tipo": "huecos",
+      "instruccion_es": "Lea el siguiente texto y complete los huecos (27-40) con la opción correcta (a, b o c). Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "阅读下文，从 a、b、c 中选出适合第 27—40 空的选项，并在答题卡上涂出。",
+      "tema_zh": "哥伦比亚作者的随笔：在祖母家发现的一盒旧信，引出手写信与即时通讯的对比。",
+      "texto": {
+        "genero": "artículo de opinión",
+        "titulo": "Elogio de la carta", "titulo_zh": "书信颂",
+        "cabecera": [],
+        "cuerpo": [
+          "Hace unos meses, mientras vaciaba la casa de mi abuela en Envigado, encontré una caja de zapatos repleta de cartas. Eran casi doscientas, escritas [27] lo largo de cuatro décadas por una prima suya que había emigrado a Caracas a finales de los años cincuenta. Las leí de un [28], sin acordarme siquiera de cenar, y al terminar tuve la extraña sensación de conocer a una mujer a la que nunca había visto.",
+          "Lo que más me llamó la atención no fue lo que contaban —bodas, mudanzas, enfermedades, alguna pelea familiar—, sino el modo de contarlo. Cada carta empezaba disculpándose por el retraso y terminaba pidiendo noticias a vuelta de [29], [30] el tiempo que tardaban en cruzar la frontera formara parte de la conversación. Entre una y otra podían pasar semanas, y esa espera, [31] enfriar la relación, parecía alimentarla.",
+          "Hoy nos escribimos más que nunca, pero rara vez nos tomamos la [32] de escribir una carta. Los mensajes llegan al instante y se responden sobre la marcha; sirven para coordinar, avisar o felicitar, y cumplen esa función a la perfección. [33], algo se pierde por el camino. Una carta obliga a ordenar las ideas antes de empezar, a elegir cada palabra y a aceptar que el destinatario la leerá cuando nosotros ya [34] pensando en otra cosa.",
+          "La prima de mi abuela, por ejemplo, jamás se quejaba de su soledad en Caracas, [35] sus cartas de los primeros años dejaran adivinar lo mucho que le costaba adaptarse. Hablaba del clima, de los precios, de los vecinos; la nostalgia asomaba en los detalles, en la insistencia con que preguntaba por el olor del café de la finca o por los guayabos del patio. Había que leer entre [36] para entenderla, y ese ejercicio de atención es, quizá, una de las formas más hondas del cariño.",
+          "No escribo esto para reclamar que volvamos a la pluma y a la estampilla: sería absurdo y, [37], injusto con quienes hoy pueden hablar a diario con sus familias al otro lado del océano. Pero sí me gustaría que, de vez en cuando, nos [38] el lujo de escribir algo largo a alguien querido, aunque sea por correo electrónico y sin esperar una respuesta inmediata.",
+          "Terminé de leer las cartas una madrugada de domingo, y fue entonces cuando caí en la [39] de que no conservo ni un solo mensaje de las personas que más quiero. Aquellas cartas, escritas de su puño y [40] por una mujer que extrañaba su tierra, fueron pensadas para durar; mis mensajes, casi siempre, para desaparecer."
+        ],
+        "firma": "Mariana Escobar Restrepo · Revista Tertulia (Medellín)",
+        "zh": [
+          "几个月前，我在恩维加多清空祖母的房子时，发现了一个装满信件的鞋盒。信有将近两百封，是祖母的一位表姐妹在四十年间（a lo largo de）写的，她在五十年代末移居到了加拉加斯。我一口气（de un tirón）把信读完，连晚饭都忘了吃；读完后，我有一种奇怪的感觉，仿佛认识了一位从未见过的女人。",
+          "最吸引我的不是信里讲的事——婚礼、搬家、生病、偶尔的家庭争吵——而是讲述的方式。每封信开头都为回信晚了而道歉，结尾总是请对方收信后立即回信（a vuelta de correo）告知消息，仿佛（como si）信件越过边境所花的时间也是对话的一部分。两封信之间可能隔上好几个星期，而这种等待非但没有（lejos de）让关系变淡，反而似乎让它更加深厚。",
+          "如今我们比以往任何时候都写得多，却很少费心（tomarse la molestia）去写一封信。短信瞬间送达，随手就回；它们用来协调、通知或祝贺，并且完美地完成了这些功能。然而（Sin embargo），有些东西在途中丢失了。写信迫使人在动笔前理清思路、斟酌每一个词，并且接受这样一个事实：对方读到信的时候，我们自己早已（estemos）在想别的事了。",
+          "比如祖母的那位表姐妹，她从不抱怨在加拉加斯的孤独，尽管（aunque）她最初几年的信让人能猜出她适应得有多艰难。她谈天气、谈物价、谈邻居；乡愁藏在细节里，藏在她一再追问庄园里咖啡的香味、院子里的番石榴树时的那份执着里。要读懂她，就得读出字里行间（entre líneas）的意思，而这种用心的阅读，也许是爱最深沉的形式之一。",
+          "我写这些，并不是要呼吁大家重新拿起笔、贴上邮票：那样做很荒唐，而且（además）对那些如今每天都能和大洋彼岸的家人通话的人也不公平。但我确实希望我们偶尔能奢侈一回（nos diéramos el lujo），给心爱的人写点长东西，哪怕是用电子邮件，也不必等着对方马上回复。",
+          "我是在一个星期天的凌晨读完这些信的，就在那时我意识到（caí en la cuenta）：我最爱的那些人发给我的消息，我一条也没有保存。那些信是一个思念故土的女人亲笔（de su puño y letra）写下的，是为了留存而写；而我的消息，几乎总是为了消失。"
+        ],
+        "palabras": 413
+      },
+      "preguntas": [
+        {"n": 27, "opciones": ["por", "en", "a"], "clave": "C", "foco": "gramática", "explicacion": "“a lo largo de cuatro décadas”意为“在四十年间（持续地）”，a lo largo de 是固定的介词短语。por 和 en 都不能和 lo largo de 组成这个短语（por lo largo、en lo largo 都不成立）。"},
+        {"n": 28, "opciones": ["tirón", "soplo", "tramo"], "clave": "A", "foco": "léxico", "explicacion": "“leer algo de un tirón”意为“一口气、不间断地读完”，与后文“sin acordarme siquiera de cenar”相符。de un soplo、de un tramo 都不是表示“一口气”的固定说法。"},
+        {"n": 29, "opciones": ["correo", "esquina", "página"], "clave": "A", "foco": "léxico", "explicacion": "“a vuelta de correo”意为“收到信后立即回信”，固定说法，符合写信的语境。esquina 只出现在“a la vuelta de la esquina”（近在眼前）里；a vuelta de página 也不成立。"},
+        {"n": 30, "opciones": ["a menos que", "como si", "siempre que"], "clave": "B", "foco": "gramática", "explicacion": "“como si + 虚拟式过去未完成时（formara）”表示“仿佛……”：信在路上的时间好像也成了对话的一部分，下文“esa espera … parecía alimentarla”也印证这层意思。a menos que（除非）和 siempre que（只要）虽然也接虚拟式，但表示条件，放进句中成了“除非／只要路上的时间是对话的一部分，才请对方尽快回信”，语义不通。"},
+        {"n": 31, "opciones": ["a fuerza de", "a raíz de", "lejos de"], "clave": "C", "foco": "conectores", "explicacion": "“lejos de + 不定式”意为“非但没有……”，与后面“parecía alimentarla”形成对照：等待没让感情变淡，反而加深了。a fuerza de 意为“靠反复……”，a raíz de 意为“由于（某事件）”，都和句意矛盾。"},
+        {"n": 32, "opciones": ["paciencia", "molestia", "carga"], "clave": "B", "foco": "léxico", "explicacion": "“tomarse la molestia de + 不定式”意为“费心去做某事”，固定搭配。paciencia 常与 tener 搭配（tener la paciencia de），carga 常用于 ser una carga、llevar la carga，都不能和 tomarse la … de 连用。"},
+        {"n": 33, "opciones": ["Sin embargo", "Por consiguiente", "Es decir"], "clave": "A", "foco": "conectores", "explicacion": "前句说短信“cumplen esa función a la perfección”，后句“algo se pierde por el camino”，两句是转折关系，用 Sin embargo。Por consiguiente 表示结果，Es decir 表示解释，都不符合逻辑。"},
+        {"n": 34, "opciones": ["estaremos", "estaríamos", "estemos"], "clave": "C", "foco": "gramática", "explicacion": "cuando 引导指向将来的时间从句，要用虚拟式现在时：“cuando nosotros ya estemos pensando en otra cosa”。在这种从句里不能用将来时 estaremos，条件式 estaríamos 也不能与主句的 leerá 搭配。"},
+        {"n": 35, "opciones": ["puesto que", "aunque", "a pesar de"], "clave": "B", "foco": "conectores", "explicacion": "“jamás se quejaba”与“sus cartas dejaran adivinar lo mucho que le costaba”是让步关系，aunque 可以接虚拟式。puesto que 表示原因，而且要接陈述式；a pesar de 后面要加 que 才能接变位动词。"},
+        {"n": 36, "opciones": ["líneas", "párrafos", "letras"], "clave": "A", "foco": "léxico", "explicacion": "“leer entre líneas”意为“读出言外之意”，正好呼应前文“la nostalgia asomaba en los detalles”。entre párrafos、entre letras 都不是固定说法。"},
+        {"n": 37, "opciones": ["en cambio", "además", "no obstante"], "clave": "B", "foco": "conectores", "explicacion": "“sería absurdo y, además, injusto”：在“荒唐”之外再追加一个评价，是递进关系，用 además。en cambio 和 no obstante 表示对比或转折，而“荒唐”和“不公平”并不对立。"},
+        {"n": 38, "opciones": ["daríamos", "dábamos", "diéramos"], "clave": "C", "foco": "gramática", "explicacion": "主句“me gustaría que”用条件式表达愿望，que 从句要用虚拟式过去未完成时：“nos diéramos el lujo de…”（darse el lujo de 意为“奢侈一回、难得享受”）。条件式 daríamos 和陈述式 dábamos 都不能用在这个从句里。"},
+        {"n": 39, "opciones": ["cuenta", "razón", "idea"], "clave": "A", "foco": "léxico", "explicacion": "“caer en la cuenta de que…”意为“意识到、恍然明白”，固定说法。razón 常用于 dar/tener la razón，idea 常用于 tener una idea，都不能和 caer en la 搭配。"},
+        {"n": 40, "opciones": ["firma", "letra", "pluma"], "clave": "B", "foco": "léxico", "explicacion": "“de su puño y letra”意为“亲笔（书写）”，固定说法，强调信是本人手写的，和后文“mis mensajes”形成对比。firma、pluma 不能进入这个固定短语。"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "nivel": "C1",
+  "prueba": "Expresión, mediación e interacción orales",
+  "zh": "口头表达、中介与互动",
+  "duracion_min": 20,
+  "preparacion_min": 20,
+  "intro_es": "La prueba de Expresión, mediación e interacción orales contiene tres tareas. Usted dispone de 20 minutos para preparar las tareas 1 y 2. La prueba con el entrevistador dura unos 20 minutos.",
+  "tareas": [
+    {
+      "n": 1,
+      "titulo_es": "Exposición sobre un tema",
+      "minutos": [3, 5],
+      "preparacion": true,
+      "instruccion_es": [
+        "Usted debe hacer una exposición oral sobre un tema a partir de un texto. Elija uno de los dos textos que se le proponen.",
+        "Durante el tiempo de preparación, lea el texto y tome notas. En la exposición no podrá leer el texto, pero sí consultar sus notas.",
+        "En su exposición, que debe durar entre tres y cinco minutos, tiene que presentar las ideas principales del texto y la postura de quien lo escribe, valorar los argumentos que se ofrecen y expresar su propia opinión sobre el tema, justificándola."
+      ],
+      "instruccion_zh": "考生根据一篇文章做口头陈述，两篇文章中选一篇。准备时间内阅读文章、做笔记；陈述时不能看原文，可以看笔记。陈述 3—5 分钟，要介绍文章的主要观点和作者的立场，评价文中的论据，并表达、论证自己对这个话题的看法。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Dejen que se aburran",
+          "puntos": [
+            "Presente el tema del texto y su idea principal.",
+            "Resuma los argumentos más importantes de la autora y su postura.",
+            "Valore esos argumentos: ¿le parecen convincentes, discutibles, incompletos?",
+            "Exprese su propia opinión sobre el tema y justifíquela con ejemplos."
+          ],
+          "art": "",
+          "texto": [
+            "Hace unas semanas, en una junta de padres de familia de la escuela de mi hija, una mamá preguntó con verdadera angustia qué podía hacer los domingos por la tarde, porque su hijo de ocho años «se aburría». Hubo un silencio incómodo y, enseguida, una lluvia de sugerencias: clases de robótica, aplicaciones educativas, talleres de ajedrez, cursos de inglés en fin de semana. Nadie se atrevió a decir lo que yo pensaba como psicóloga y como madre: que quizá lo mejor que puede pasarle a ese niño es, precisamente, aburrirse.",
+            "Durante siglos, el aburrimiento fue el estado natural de la infancia. Los niños pasaban horas sin un plan concreto, mirando por la ventana, inventando juegos con una caja de cartón o peleándose con sus hermanos por cualquier tontería. No era una situación ideal, pero tenía una virtud que hoy hemos olvidado: obligaba a buscar dentro de uno mismo algo con que llenar el tiempo. Hoy, en cambio, cualquier minuto vacío se rellena de inmediato con una pantalla o con una actividad organizada por adultos.",
+            "Quienes estudian la creatividad llevan años insistiendo en una idea que suena paradójica: el aburrimiento no es el enemigo de la imaginación, sino su punto de partida. Cuando un niño no tiene nada que hacer, al principio protesta, se queja, da vueltas por la casa. Pero si los adultos resisten la tentación de rescatarlo, al cabo de un rato suele ocurrir algo interesante: empieza a dibujar, construye una cabaña con las sábanas, se inventa una historia con sus muñecos. En otras palabras, descubre que es capaz de entretenerse solo.",
+            "Esa capacidad no es un detalle menor. Un niño que sabe tolerar la falta de estímulos tiene más probabilidades de convertirse en un adolescente que soporta mejor la frustración y en un adulto que no necesita mirar el celular cada vez que hace fila en el banco. Aprender a estar con uno mismo, sin distracciones, es una forma de autonomía que ninguna clase extraescolar puede enseñar directamente. Y es también una protección: varios especialistas advierten que los niños con agendas demasiado cargadas suelen mostrar más ansiedad y descansar peor, aunque nadie sabe todavía con exactitud qué es causa y qué es consecuencia.",
+            "¿Por qué, entonces, nos cuesta tanto dejar que nuestros hijos se aburran? Creo que hay al menos tres razones. La primera es la culpa: muchas madres y muchos padres trabajamos jornadas larguísimas y sentimos que el poco tiempo libre de los niños debe ser «aprovechado». La segunda es la competencia. Vivimos rodeados del mensaje de que el mundo será cada vez más exigente y de que, si nuestro hijo no aprende programación a los siete años, se quedará atrás. Y la tercera, quizá la más incómoda, es que un niño aburrido molesta. Protesta, pide atención, interrumpe. Darle una tableta es la forma más rápida de comprar media hora de paz.",
+            "No quiero caer en la nostalgia fácil. Las actividades organizadas tienen un valor enorme: un deporte en equipo enseña disciplina, la música desarrolla capacidades que de otro modo quedarían dormidas y, para muchas familias que trabajan hasta tarde, esas actividades son además una solución práctica. Lo que me preocupa es la acumulación: niños que salen de la escuela para ir a inglés, de inglés a natación y de natación a hacer la tarea, sin un solo hueco libre en toda la semana. Tampoco creo que las pantallas sean el demonio. El problema no es que existan, sino que se hayan convertido en la respuesta automática a cualquier momento de calma.",
+            "Dejar que un niño se aburra tampoco significa desentenderse de él. Significa ofrecerle un entorno con posibilidades (papel, colores, libros, objetos que se puedan desarmar, un rincón del patio donde ensuciarse) y, sobre todo, aguantar sin culpa sus primeras quejas. Esos diez minutos de «no sé qué hacer» suelen ser la antesala de algo propio, algo que nadie ha planeado por él.",
+            "Las escuelas también tienen algo que decir. Algunas ya han empezado a reducir la tarea para la casa y a dejar en el horario momentos de juego libre, sin objetivos ni calificaciones. Al principio, cuentan los maestros, a muchos alumnos les cuesta: no saben qué hacer si nadie les dice qué hacer. Con el paso de las semanas, sin embargo, aparecen juegos nuevos, alianzas inesperadas y una calma que antes no existía en el recreo.",
+            "Volviendo a la junta de padres: al final me atreví a hablar. Dije, con toda la delicadeza de la que fui capaz, que tal vez el niño no necesitaba otra actividad, sino una tarde sin ninguna. Algunos me miraron como si hubiera propuesto algo peligroso. Otros se acercaron después a contarme, casi en voz baja, que ellos pensaban lo mismo pero no se atrevían a decirlo. Quizá sea hora de decirlo en voz alta: el aburrimiento no es un fracaso de los padres. Es un regalo que, bien acompañado, puede durar toda la vida."
+          ],
+          "texto_zh": [
+            "几周前，在我女儿学校的家长会上，一位妈妈非常焦虑地问，星期天下午她能做些什么，因为她八岁的儿子“觉得无聊”。现场一阵尴尬的沉默，紧接着建议如雨点般涌来：机器人课、教育类应用、国际象棋工作坊、周末英语班。作为心理学家，也作为母亲，我心里的想法却没有人敢说出口：也许对那个孩子来说，最好的事情恰恰就是无聊。",
+            "几百年来，无聊一直是童年的常态。孩子们一连几个小时没有任何具体安排，望着窗外发呆，用一个纸箱发明游戏，或者为一点小事和兄弟姐妹吵架。这并不是理想的状态，但它有一个今天被我们遗忘的优点：它迫使人在自己身上寻找打发时间的东西。如今，任何一分钟的空白都会立刻被屏幕或者大人安排的活动填满。",
+            "研究创造力的人多年来一直强调一个听起来自相矛盾的观点：无聊不是想象力的敌人，而是它的起点。孩子无事可做时，一开始会抗议、抱怨、在家里转来转去。但如果大人忍住不去“解救”他，过一会儿往往会发生有趣的事：他开始画画，用床单搭一个小窝，用玩偶编一个故事。换句话说，他发现自己能够独自找乐子。",
+            "这种能力可不是小事。一个能忍受缺少刺激的孩子，更有可能成长为一个更能承受挫折的青少年，以及一个在银行排队时不必每次都看手机的成年人。学会与自己相处、不被分心，是一种任何课外班都无法直接教会的自主能力。它也是一种保护：好几位专家提醒，日程排得太满的孩子往往更焦虑、休息得更差，尽管目前还没有人确切知道哪个是因、哪个是果。",
+            "那么，为什么我们这么难让孩子无聊呢？我认为至少有三个原因。第一是内疚：我们很多做父母的工作时间极长，觉得孩子仅有的一点空闲必须被“充分利用”。第二是竞争。我们周围充斥着这样的信息：世界会越来越苛刻，孩子要是七岁还不学编程，就会落后。第三个原因也许最令人难堪：无聊的孩子很烦人。他抗议、要人关注、打断大人。给他一台平板电脑，是换来半小时清静最快的办法。",
+            "我不想陷入廉价的怀旧。有组织的活动价值巨大：团队运动教人自律，音乐能开发原本会沉睡的能力，而且对很多工作到很晚的家庭来说，这些活动也是一个实际的解决办法。让我担心的是层层叠加：孩子放学去上英语课，英语课后去游泳，游完泳再去写作业，一整个星期没有一点空隙。我也不认为屏幕是魔鬼。问题不在于它们存在，而在于它们已经成了应对任何安静时刻的条件反射。",
+            "让孩子无聊也不意味着对他撒手不管。它意味着给他一个充满可能性的环境（纸、彩笔、书、可以拆开的东西、院子里一个可以弄脏衣服的角落），而最重要的是，不带内疚地忍住他最初的抱怨。那十分钟的“我不知道干什么”，往往是某种属于他自己、没有人替他计划的东西的前奏。",
+            "学校也有话可说。有些学校已经开始减少家庭作业，在课表里留出自由游戏的时间，没有目标，也不打分。老师们说，一开始很多学生不适应：没人告诉他们做什么，他们就不知道该做什么。但几周以后，新的游戏出现了，意想不到的伙伴关系形成了，课间也有了一种以前没有的平静。",
+            "回到那次家长会：最后我还是鼓起勇气发了言。我尽可能委婉地说，也许那个孩子需要的不是再多一项活动，而是一个什么活动都没有的下午。有些人看着我，好像我提议了什么危险的事。另一些人事后走过来，几乎压低声音告诉我，他们也这么想，只是不敢说。也许是时候大声说出来了：无聊不是父母的失败。它是一份礼物，只要陪伴得当，可以受用一生。"
+          ],
+          "modelo": [
+            "Bueno, el texto que he elegido se titula «Dejen que se aburran». Lo escribe una psicóloga que además es madre, y parte de una anécdota: en una reunión de padres del colegio, una madre pregunta qué puede hacer porque su hijo se aburre los domingos, y todos los demás empiezan a proponerle actividades. La autora, en cambio, piensa que lo mejor para ese niño sería precisamente aburrirse.",
+            "Su tesis principal es que el aburrimiento no es algo negativo, sino el punto de partida de la creatividad. Explica que, cuando un niño no tiene nada que hacer, al principio se queja, pero si los adultos no lo rescatan, acaba inventando algo por su cuenta. Y, según ella, esa capacidad de entretenerse solo es una forma de autonomía que le servirá también de adolescente y de adulto, por ejemplo, para tolerar la frustración o para no depender todo el rato del móvil.",
+            "Luego se pregunta por qué a los padres les cuesta tanto dejar que los niños se aburran, y da tres razones: la culpa de los padres que trabajan muchas horas; la presión de la competencia, es decir, la idea de que si el niño no aprende programación a los siete años se quedará atrás; y la más incómoda de reconocer, que un niño aburrido molesta y que darle una tableta es lo más cómodo.",
+            "A mí me parece un texto bastante equilibrado, porque la autora no cae en la nostalgia. Reconoce que las actividades extraescolares tienen valor y que las pantallas no son el demonio; lo que critica es la acumulación de actividades y que la pantalla se haya convertido en una respuesta automática. Además, menciona algunas escuelas que han reducido los deberes y han dado tiempo de juego libre con buenos resultados, lo cual le da más fuerza a su argumento.",
+            "En cuanto a mi opinión, estoy bastante de acuerdo con ella, aunque con algún matiz. En China, por ejemplo, conozco a muchas familias en las que los niños tienen clases todos los fines de semana: inglés, piano o matemáticas. Yo misma, de pequeña, tenía muy poco tiempo libre. Creo que eso me hizo más disciplinada, pero también me costó mucho, más tarde, descubrir qué me gustaba de verdad. En ese sentido, la autora tiene razón: si nunca tienes un momento vacío, no aprendes a escucharte.",
+            "Sin embargo, echo de menos una reflexión más profunda sobre la desigualdad: la autora solo la toca de pasada, cuando habla de las familias que trabajan hasta tarde. Para una familia que vive en una casa con jardín y con libros, dejar que el niño se aburra es fácil. Pero para una familia con pocos recursos, que vive en un piso pequeño y donde los padres trabajan hasta tarde, la actividad organizada a veces es la única opción segura. Así que yo diría que el aburrimiento es positivo, sí, pero que necesita unas condiciones que no todos tienen.",
+            "En resumen, me parece un artículo convincente y útil para los padres, aunque quizá un poco optimista. La idea clave, que el tiempo libre sin planificar también educa, me parece muy importante, y me gustaría que las escuelas la tomaran más en serio."
+          ],
+          "modelo_zh": [
+            "我选的文章题目是《让他们无聊吧》。作者是一位心理学家，同时也是母亲。文章从一件小事说起：在学校家长会上，一位妈妈问儿子星期天无聊该怎么办，其他家长纷纷给她推荐各种活动。作者却认为，对那个孩子最好的恰恰是无聊。",
+            "她的核心观点是：无聊不是坏事，而是创造力的起点。她解释说，孩子无事可做时一开始会抱怨，但如果大人不去“解救”，他最终会自己想出点什么。她认为，这种独自找乐子的能力是一种自主能力，到了青少年和成年阶段也有用，比如更能承受挫折，或者不必时时刻刻依赖手机。",
+            "接着她追问，为什么父母这么难让孩子无聊，并给出三个原因：工作时间长的父母心怀内疚；竞争的压力，也就是“孩子七岁不学编程就会落后”的想法；还有最难以承认的一点：无聊的孩子很烦人，给他一台平板最省事。",
+            "我觉得这篇文章相当平衡，因为作者没有陷入怀旧。她承认课外活动有价值、屏幕也不是魔鬼；她批评的是活动的层层叠加，以及屏幕成了条件反射式的应对。她还提到一些学校减少作业、留出自由游戏时间并取得了好效果，这让她的论证更有说服力。",
+            "至于我的看法，我基本同意她，但有一点保留。比如在中国，我认识很多家庭，孩子每个周末都要上课：英语、钢琴或数学。我自己小时候空闲时间也很少。我觉得这让我更自律，但后来我也很难发现自己真正喜欢什么。在这一点上，作者是对的：如果从来没有空白的时间，你就学不会倾听自己。",
+            "不过，我觉得文章对不平等的思考不够深入：作者只在谈到工作到很晚的家庭时顺带提了一下。对住在带花园、有书的房子里的家庭来说，让孩子无聊很容易。但对一个资源有限、住在小公寓、父母工作到很晚的家庭来说，有组织的活动有时是唯一安全的选择。所以我会说，无聊确实有益，但它需要一些并非人人都具备的条件。",
+            "总之，我认为这是一篇有说服力、对父母很有用的文章，尽管也许有点乐观。它的核心观点——没有安排的空闲时间同样具有教育意义——我认为非常重要，也希望学校能更认真地对待。"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "El pueblo no es un fondo de pantalla",
+          "puntos": [
+            "Presente el tema del texto y su idea principal.",
+            "Resuma los argumentos más importantes del autor y su postura.",
+            "Valore esos argumentos: ¿le parecen convincentes, discutibles, incompletos?",
+            "Exprese su propia opinión sobre el tema y justifíquela con ejemplos."
+          ],
+          "art": "",
+          "texto": [
+            "Desde hace unos años, cada pocos meses aparece en la prensa la misma historia feliz: una pareja joven deja su piso de alquiler en Madrid o Barcelona, se instala en un pueblo de doscientos habitantes y, gracias al teletrabajo, sigue cobrando un sueldo de ciudad mientras sus hijos juegan en la plaza. La fotografía suele ser preciosa: montañas al fondo, un ordenador portátil sobre una mesa de madera, un perro tumbado al sol. El mensaje implícito también está claro: la despoblación rural tiene arreglo, y el arreglo se llama conexión a internet.",
+            "Yo crecí en un pueblo de Teruel que en los años sesenta tenía mil habitantes y hoy no llega a ciento cincuenta. Cuando era niño, éramos doce en la escuela; este curso, mi sobrino ha sido el único alumno de su edad. Por eso cualquier noticia de gente que llega me alegra de verdad. Y por eso mismo desconfío de las soluciones mágicas.",
+            "No seré yo quien critique a esas familias. Conozco a varias y admiro su valentía. Además, los números les dan en parte la razón: en algunas comarcas, la llegada de unas pocas decenas de vecinos ha bastado para salvar una escuela que estaba a punto de cerrar o para que el único bar del pueblo vuelva a abrir por las tardes. En lugares donde cada habitante cuenta, diez familias nuevas no son una anécdota, sino una transfusión.",
+            "Lo que me preocupa es el relato, no las personas. Porque esa imagen de postal esconde, al menos, tres problemas que conviene mirar de frente si de verdad queremos que los pueblos tengan futuro.",
+            "El primero es que el teletrabajo solo está al alcance de una minoría. Lo disfrutan, sobre todo, profesionales con estudios superiores que trabajan para empresas de las grandes ciudades. Un pueblo no se sostiene únicamente con programadores y traductores: necesita también a alguien que abra la panadería, que cuide a los mayores, que repare los tractores. Y esos empleos, que no se pueden hacer desde casa, siguen desapareciendo. En mi comarca, por ejemplo, el último taller mecánico cerró hace dos años.",
+            "El segundo problema es el de los servicios. Quien se muda al campo con niños descubre pronto que el centro de salud abre dos días por semana, que el instituto más cercano está a cuarenta minutos y que el autobús pasa dos veces al día. Si alguien se pone enfermo de noche, el hospital más próximo queda a una hora de carretera. En muchos pueblos, la fibra óptica ha llegado antes que el pediatra. Cuando la familia urbana se da cuenta, a menudo hace las maletas a los dos o tres años, y el pueblo vuelve a quedarse como estaba, o peor, porque se confirma la sospecha de que allí no se puede vivir.",
+            "El tercero es más delicado y tiene que ver con la convivencia. En algunos valles de moda, la llegada de nuevos residentes con sueldos urbanos ha disparado el precio de las casas, y los jóvenes del propio pueblo ya no pueden permitirse quedarse. Hay recién llegados que se integran, participan en las fiestas y se apuntan a la asociación de vecinos. Pero también los hay que viven en el pueblo como quien vive en un hotel: duermen allí, trabajan para otro sitio y apenas conocen el nombre del vecino de enfrente.",
+            "Nada de esto significa que haya que desanimar a nadie. Significa que el teletrabajo puede ser una herramienta útil, pero no una política. Si las administraciones confían en que la conexión digital resolverá por sí sola un problema de décadas, se estarán ahorrando lo más caro y lo más necesario: médicos, escuelas, transporte, vivienda asequible y empleo local. Hay ejemplos que funcionan, como algunas comarcas que han combinado la llegada de teletrabajadores con viviendas públicas de alquiler, un consultorio abierto a diario y ayudas para que los jóvenes del lugar monten su propio negocio. Pero todos tienen algo en común: detrás hay una apuesta pública sostenida, no solo un buen anuncio.",
+            "Tampoco los que llegan pueden limitarse a disfrutar del paisaje. Vivir en un pueblo implica asumir que la comunidad es pequeña y que cada uno sostiene una parte. Comprar en la tienda del pueblo aunque sea un poco más cara, llevar a los niños a la escuela local, participar en las decisiones del ayuntamiento: esos gestos, aparentemente pequeños, deciden si un recién llegado es un vecino o un turista de larga duración.",
+            "El campo no necesita que lo salven desde una pantalla. Necesita que lo tomemos en serio como un lugar donde se puede nacer, trabajar, enfermar y envejecer con dignidad. Cuando eso ocurra, el teletrabajo será una buena noticia más. Mientras tanto, convendría dejar de vender el pueblo como un bonito fondo de pantalla."
+          ],
+          "texto_zh": [
+            "几年来，每隔几个月，报上就会出现同一个美好的故事：一对年轻夫妇离开在马德里或巴塞罗那租的公寓，搬到一个两百人的村子，靠远程办公继续拿城里的工资，孩子们则在广场上玩耍。照片通常很漂亮：远处是群山，木桌上放着一台笔记本电脑，一只狗躺在阳光下。言外之意也很清楚：农村人口流失是有解的，解药就叫网络连接。",
+            "我在特鲁埃尔的一个村子长大，那里上世纪六十年代有一千居民，如今不到一百五十人。我小时候，学校里有我们十二个孩子；这个学年，我侄子是他那个年龄唯一的学生。所以，任何有人搬来的消息都让我真心高兴。也正因为如此，我不相信灵丹妙药。",
+            "我不会去批评那些家庭。我认识好几家，佩服他们的勇气。而且数字也部分证明他们是对的：在一些地区，几十位新居民的到来就足以保住一所快要关门的学校，或者让村里唯一的酒吧重新在下午开门。在每个居民都举足轻重的地方，十户新家庭不是一桩趣闻，而是一次输血。",
+            "让我担心的是这种叙事，而不是这些人。因为这幅明信片式的画面背后至少藏着三个问题，如果我们真心希望村庄有未来，就应该正视它们。",
+            "第一，远程办公只有少数人能享受。享受它的主要是受过高等教育、为大城市企业工作的专业人士。一个村子不能只靠程序员和翻译维持：它也需要有人开面包店、照顾老人、修拖拉机。而这些不能在家完成的工作还在不断消失。比如在我们那个地区，最后一家汽修厂两年前就关门了。",
+            "第二个问题是公共服务。带着孩子搬到乡下的人很快会发现，卫生所一周只开两天，最近的中学在四十分钟路程之外，公交车一天只来两趟。要是有人夜里生病，最近的医院在一小时车程之外。在许多村子，光纤比儿科医生来得还早。等城里来的家庭意识到这一点，往往两三年后就收拾行李走人，村子又回到原样，甚至更糟，因为“那里没法生活”的猜测得到了证实。",
+            "第三个问题更微妙，涉及共同生活。在一些热门山谷，拿城市工资的新居民涌入，使房价飙升，本村的年轻人反而住不起了。有的新来者融入当地，参加节庆，加入居民协会。但也有人住在村里就像住酒店：在那儿睡觉，为别处工作，连对门邻居叫什么都几乎不知道。",
+            "这一切并不意味着要给任何人泼冷水，而是说明：远程办公可以是一个有用的工具，但不是一项政策。如果政府指望数字连接自己就能解决一个积累了几十年的问题，那就等于把最昂贵也最必要的投入省掉了：医生、学校、交通、负担得起的住房和本地就业。也有成功的例子，比如一些地区把吸引远程办公者与公共租赁住房、每天开门的诊所以及资助本地年轻人创业结合起来。但这些例子有一个共同点：背后是持续的公共投入，而不只是一则漂亮的广告。",
+            "新来的人也不能只顾享受风景。住在村里，意味着接受社区很小、每个人都要撑起一部分。即使贵一点也在村里的小店买东西，把孩子送进本地学校，参与镇政府的决策：这些看似微小的举动，决定了一个新来者是邻居，还是一个长住的游客。",
+            "乡村不需要有人隔着屏幕去拯救它。它需要我们认真对待它，把它当作一个可以有尊严地出生、工作、生病和变老的地方。到那时，远程办公会是又一个好消息。在此之前，我们最好别再把村庄当成一张漂亮的桌面壁纸来推销。"
+          ],
+          "modelo": [
+            "El artículo que he elegido se titula «El pueblo no es un fondo de pantalla». Su autor, que creció en un pueblo de Teruel que se ha ido quedando casi vacío, habla de un fenómeno que se ha puesto muy de moda en los últimos años: las familias que dejan la ciudad y se van a vivir a un pueblo gracias al teletrabajo.",
+            "Lo interesante es que el autor no critica a esas familias. Al contrario, dice que las admira y reconoce que, en lugares muy pequeños, la llegada de unas pocas familias puede salvar una escuela o hacer que vuelva a abrir el bar. Lo que critica es el relato, es decir, la imagen idealizada que transmiten los medios, como si internet fuera la solución mágica a la despoblación.",
+            "Según él, esa imagen esconde tres problemas. El primero es que el teletrabajo solo está al alcance de una minoría de profesionales cualificados, y un pueblo también necesita panaderos, cuidadores o mecánicos. El segundo es la falta de servicios: hay pueblos con fibra óptica pero sin pediatra, y muchas familias se marchan a los pocos años. Y el tercero tiene que ver con la convivencia: en algunos valles de moda la vivienda se ha encarecido tanto que los jóvenes del lugar no pueden quedarse, y algunos recién llegados viven en el pueblo como si fuera un hotel.",
+            "Su conclusión es que el teletrabajo puede ser una herramienta, pero no una política. Las administraciones tienen que invertir en médicos, escuelas, transporte y vivienda, y los nuevos vecinos tienen que implicarse en la vida de la comunidad.",
+            "A mí el texto me ha parecido muy sólido, sobre todo porque distingue bien entre las personas y el discurso. Me ha convencido especialmente el argumento de los servicios: nadie se queda a vivir en un sitio donde no hay médico ni escuela, por muy bonito que sea el paisaje. Ahora bien, creo que en algún momento es un poco injusto con los recién llegados. Decir que quien no se implica enseguida es un turista de larga duración me parece algo duro, porque integrarse en un pueblo pequeño lleva tiempo, y a veces son los propios vecinos los que no se lo ponen fácil.",
+            "En mi país pasa algo parecido, aunque a otra escala. Muchos pueblos del interior de China se han quedado casi solo con personas mayores y niños, porque los adultos se van a trabajar a las ciudades. En los últimos años, algunos jóvenes han vuelto para vender productos locales por internet o para montar alojamientos rurales, y eso ha ayudado. Pero, como dice el autor, sin hospitales y sin buenas escuelas es difícil que se queden mucho tiempo.",
+            "En resumen, estoy de acuerdo con la idea central: repoblar no es solo llenar casas vacías, sino crear las condiciones para vivir. El teletrabajo es una buena noticia, pero no puede sustituir a las políticas públicas."
+          ],
+          "modelo_zh": [
+            "我选的文章题目是《村庄不是电脑桌面壁纸》。作者在特鲁埃尔一个逐渐空心化的村子长大，他谈的是近几年很流行的一个现象：一些家庭靠远程办公离开城市，搬到村子里生活。",
+            "有意思的是，作者并不批评这些家庭。相反，他说很佩服他们，也承认在很小的地方，几户家庭的到来就能保住一所学校，或者让酒吧重新开门。他批评的是那种叙事，也就是媒体传达的理想化形象，好像网络是解决人口流失的灵丹妙药。",
+            "他认为，这种形象掩盖了三个问题。第一，远程办公只有少数高学历专业人士能享受，而一个村子还需要面包师、护工和修理工。第二，公共服务不足：有的村子有光纤却没有儿科医生，很多家庭几年后就搬走了。第三涉及共同生活：在一些热门山谷，房价涨得本地年轻人留不下来，有些新来者把村子当成酒店。",
+            "他的结论是：远程办公可以是一个工具，但不是一项政策。政府必须投资医生、学校、交通和住房，新居民也必须参与社区生活。",
+            "我觉得这篇文章很扎实，尤其是它把“人”和“说法”区分得很清楚。最让我信服的是关于公共服务的论点：没有医生、没有学校的地方，风景再美也没人会留下来。不过，我觉得作者有时对新来者有点不公平。说没有马上投入社区生活的人是“长住的游客”有点刻薄，因为融入一个小村子需要时间，有时恰恰是老住户不给他们机会。",
+            "我的国家也有类似情况，只是规模不同。中国内地很多村子几乎只剩下老人和孩子，因为成年人都去城里打工了。近几年，一些年轻人回乡通过网络卖本地产品，或者开乡村民宿，这起了一定作用。但正如作者所说，没有医院和好学校，他们很难长期留下。",
+            "总之，我同意文章的核心观点：振兴村庄不只是把空房子住满，而是要创造生活的条件。远程办公是好消息，但不能代替公共政策。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Buenos días. Siéntese, por favor. ¿Cómo se llama usted?",
+          "Muy bien. Vamos a empezar la prueba. En la primera tarea usted tiene que hacer una exposición a partir del texto que ha preparado. ¿Qué texto ha elegido?",
+          "De acuerdo. Tiene entre tres y cinco minutos. Puede consultar sus notas, pero no leerlas. Cuando quiera, puede empezar.",
+          "Muchas gracias. Ahora vamos a seguir hablando de este tema."
+        ],
+        "preguntas": [
+          "Si el candidato se detiene antes de tiempo: ¿Podría resumir en pocas palabras cuál es la tesis del texto?",
+          "¿Qué argumento le parece más convincente? ¿Y cuál le parece más débil?",
+          "¿Cuál es, en definitiva, su opinión personal sobre el tema?"
+        ],
+        "notas_zh": "考官在这一部分基本不打断，只在考生明显提前停下或偏题时用上面的问题提示。注意考生是否做到“中介”：用自己的话转述文章要点和作者立场（不是背诵原文），再评价论据，最后表达并论证个人观点。不足 3 分钟可提示，超过 5 分钟应礼貌打断。文本 1 的作者是墨西哥人（celular、hacer fila、junta de padres de familia、hacer la tarea），文本 2 的作者来自西班牙阿拉贡（piso、ordenador portátil、instituto、comarca），考官可借此观察考生能否理解不同地区的用词；考生用哪种西语作答都可以。"
+      }
+    },
+    {
+      "n": 2,
+      "titulo_es": "Entrevista sobre un tema",
+      "minutos": [4, 6],
+      "preparacion": true,
+      "instruccion_es": [
+        "El entrevistador le hará preguntas sobre el tema del texto que usted ha elegido en la Tarea 1.",
+        "Usted deberá hablar de sus experiencias, dar su opinión sobre las cuestiones que se le planteen, justificarla y defender su postura, aunque el entrevistador le proponga otros puntos de vista. También deberá responder a preguntas sobre situaciones hipotéticas.",
+        "La entrevista durará entre cuatro y seis minutos."
+      ],
+      "instruccion_zh": "考官就考生在任务 1 中选择的文章话题提问。考生要谈个人经历，就考官提出的问题发表并论证看法；即使考官提出不同观点，也要坚持（或有理由地调整）自己的立场，并回答关于假设情境的问题。时长 4—6 分钟。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Entrevista sobre el tema del texto de la Tarea 1",
+          "puntos": [
+            "Hable de sus experiencias personales relacionadas con el tema.",
+            "Dé su opinión sobre las ideas del texto y defiéndala aunque el entrevistador le plantee objeciones.",
+            "Responda a preguntas sobre situaciones hipotéticas relacionadas con el tema."
+          ],
+          "art": "",
+          "texto": [],
+          "modelo": [
+            "E: Muy bien. Ahora vamos a seguir hablando del tema del texto. Dígame, ¿recuerda usted aburrirse de niña? ¿Qué hacía cuando no tenía nada que hacer?",
+            "C: Pues la verdad es que me aburría poco, porque tenía muchas clases. Pero recuerdo los veranos en casa de mis abuelos, en un pueblo. Allí no había casi nada que hacer y al principio lo odiaba. Luego empecé a leer todos los libros viejos de mi tío y a dibujar mapas de lugares inventados. Ahora pienso que esos veranos fueron de los momentos más creativos de mi infancia.",
+            "E: ¿Y ahora? ¿Le cuesta estar un rato sin mirar el móvil?",
+            "C: Muchísimo, para qué le voy a mentir. Si estoy esperando el autobús o haciendo cola, saco el móvil casi sin darme cuenta. A veces intento dejarlo en el bolso, pero es difícil. Por eso entiendo muy bien lo que dice la autora: si no aprendes de pequeño a estar sin estímulos, de mayor te cuesta todavía más.",
+            "E: La autora dice que el aburrimiento es el punto de partida de la imaginación. Pero ¿no cree que es una idea un poco romántica? Muchos niños, cuando se aburren, no inventan nada: simplemente se ponen de mal humor.",
+            "C: Sí, es verdad que no es automático. Hay niños que se aburren, se enfadan y ya está. Pero creo que eso pasa sobre todo al principio, cuando no están acostumbrados. La autora también lo dice: los primeros minutos son de quejas. Si los padres aguantan y el niño tiene algunos materiales a mano, normalmente acaba haciendo algo. Lo que no funciona, claro, es dejarlo solo en una habitación vacía.",
+            "E: Hablemos de la competencia. En un mundo tan exigente, ¿no es lógico que los padres quieran que sus hijos aprendan todo lo posible desde pequeños?",
+            "C: Es lógico, y lo entiendo, porque mis padres hicieron lo mismo conmigo. Pero creo que hay que distinguir entre aprender y acumular. Un niño puede aprender muchísimo jugando, sin que nadie le ponga una nota. Además, no estoy segura de que empezar a programar a los siete años te dé una ventaja real a los veinticinco. En cambio, la capacidad de concentrarse o de tolerar la frustración sí te sirve toda la vida.",
+            "E: Ya, pero los padres que no apuntan a sus hijos a nada pueden sentir que les están quitando oportunidades. ¿Qué les diría?",
+            "C: Les diría que no se trata de todo o nada. Se pueden elegir una o dos actividades que al niño le gusten de verdad y dejar algunas tardes libres. Para mí, el problema no son las actividades, sino la agenda llena, como dice el texto.",
+            "E: Imagine que el Ministerio de Educación propone prohibir los deberes en primaria. ¿Qué consecuencias cree que tendría?",
+            "C: Creo que tendría cosas buenas y malas. Por un lado, los niños tendrían más tiempo para jugar y para estar con la familia. Por otro, me temo que algunas familias llenarían ese tiempo con academias privadas, y entonces no habríamos ganado nada; incluso aumentaría la desigualdad, porque no todos pueden pagarlas. Yo no los prohibiría, sino que los limitaría: pocos deberes, pero con sentido.",
+            "E: Y si usted tuviera hijos, ¿pondría normas sobre las pantallas?",
+            "C: Sí, seguramente. No las prohibiría, porque forman parte de su mundo, pero sí pondría horarios: nada de pantallas durante las comidas, por ejemplo, ni antes de dormir. Y, sobre todo, intentaría dar ejemplo, porque si yo me paso el día con el móvil, no puedo pedirles a ellos que no lo usen.",
+            "E: Muy bien, muchas gracias."
+          ],
+          "modelo_zh": [
+            "考官：好。现在我们继续谈这篇文章的话题。请问，您记得小时候觉得无聊吗？无事可做的时候您会干什么？",
+            "考生：说实话，我很少无聊，因为我有很多课。不过我记得在乡下外公外婆家过的暑假。那里几乎没什么可做的，一开始我很讨厌。后来我开始读舅舅留下的所有旧书，还画一些虚构地方的地图。现在想来，那几个暑假是我童年最有创造力的时光之一。",
+            "考官：那现在呢？您很难有一会儿不看手机吗？",
+            "考生：非常难，不瞒您说。等公交或者排队的时候，我几乎下意识就掏出手机。有时我想把它放在包里，但很难做到。所以我很理解作者说的：小时候如果没学会在没有刺激的情况下待着，长大后就更难了。",
+            "考官：作者说无聊是想象力的起点。可您不觉得这个想法有点浪漫化吗？很多孩子无聊的时候什么也不发明，只是发脾气。",
+            "考生：对，这确实不是自动发生的。有的孩子无聊了就生气，仅此而已。但我认为这主要发生在一开始、他们还不习惯的时候。作者也说了：头几分钟都是抱怨。如果父母忍住，孩子手边又有一些材料，他通常最后会做点什么。当然，把他一个人留在空房间里是行不通的。",
+            "考官：我们谈谈竞争。在这么苛刻的世界里，父母希望孩子从小尽可能多学东西，不是很合理吗？",
+            "考生：是合理的，我也理解，因为我父母对我也是这样。但我认为要区分“学习”和“堆砌”。孩子玩的时候也能学到很多，不需要谁给他打分。而且，我不确定七岁开始学编程到二十五岁时真能带来什么优势。相反，专注的能力、承受挫折的能力，倒是一辈子都有用。",
+            "考官：可是，不给孩子报任何班的父母可能会觉得自己剥夺了孩子的机会。您会对他们说什么？",
+            "考生：我会说，这不是全有或全无的问题。可以选一两项孩子真正喜欢的活动，留出几个空闲的下午。对我来说，问题不在活动本身，而在排满的日程，就像文章说的那样。",
+            "考官：假设教育部提议在小学禁止布置家庭作业。您认为会有什么后果？",
+            "考生：我觉得有好有坏。一方面，孩子会有更多时间玩、陪家人。另一方面，我担心有些家庭会用私立补习班填满这些时间，那样就什么也没得到，甚至会加剧不平等，因为不是人人都付得起。我不会禁止作业，而是加以限制：少布置，但要有意义。",
+            "考官：如果您有孩子，您会给屏幕使用定规矩吗？",
+            "考生：会的，应该会。我不会禁止，因为屏幕是他们世界的一部分，但我会规定时间：比如吃饭时和睡前不许用。而且最重要的是我会以身作则，因为如果我自己整天抱着手机，就没法要求他们不用。",
+            "考官：很好，谢谢。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Ahora vamos a hablar un poco más sobre el tema del texto que ha presentado. Le voy a hacer algunas preguntas sobre sus experiencias, sobre sus opiniones y sobre algunas situaciones hipotéticas.",
+          "Muy bien, muchas gracias. Pasamos a la última tarea."
+        ],
+        "preguntas": [
+          "Texto 1, experiencias personales: ¿Recuerda usted aburrirse de niño o de niña? ¿Qué hacía cuando no tenía nada que hacer?",
+          "Texto 1, experiencias personales: ¿Cuántas actividades extraescolares tenía? ¿Las eligió usted o las eligieron sus padres?",
+          "Texto 1, experiencias personales: ¿Le cuesta estar un rato sin mirar el móvil? ¿En qué situaciones le pasa?",
+          "Texto 1, opiniones: La autora dice que el aburrimiento es el punto de partida de la imaginación. ¿No le parece una idea un poco romántica?",
+          "Texto 1, opiniones: En un mundo tan competitivo, ¿no es lógico que los padres quieran que sus hijos aprendan todo lo posible desde pequeños?",
+          "Texto 1, opiniones: Hay quien piensa que las pantallas también estimulan la creatividad de los niños. ¿Qué opina usted?",
+          "Texto 1, opiniones: ¿Qué papel deberían tener las escuelas? ¿Deberían reducir los deberes y dejar más tiempo de juego libre?",
+          "Texto 1, situaciones hipotéticas: Imagine que el Ministerio de Educación propone prohibir los deberes en primaria. ¿Qué consecuencias cree que tendría?",
+          "Texto 1, situaciones hipotéticas: Si usted tuviera hijos, ¿cuánto tiempo libre sin planificar les dejaría? ¿Pondría normas sobre las pantallas?",
+          "Texto 1, situaciones hipotéticas: Si pudiera volver a su infancia, ¿qué cambiaría de la manera en que pasaba su tiempo libre?",
+          "Texto 2, experiencias personales: ¿Conoce a alguien que haya dejado la ciudad para irse a vivir al campo? ¿Cómo le ha ido?",
+          "Texto 2, experiencias personales: ¿Ha teletrabajado o estudiado a distancia alguna vez? ¿Qué ventajas e inconvenientes encontró?",
+          "Texto 2, experiencias personales: ¿Cómo es el lugar donde usted creció? ¿Ha cambiado mucho en los últimos años?",
+          "Texto 2, opiniones: El autor dice que el teletrabajo puede ser una herramienta, pero no una política. ¿Qué le parece esa distinción?",
+          "Texto 2, opiniones: ¿Cree que la despoblación rural es un problema que debe resolver el Estado o una evolución natural que no tiene sentido frenar?",
+          "Texto 2, opiniones: ¿No le parece exagerado llamar turistas de larga duración a algunos recién llegados?",
+          "Texto 2, opiniones: En su país, ¿existe un fenómeno parecido? ¿Qué se está haciendo al respecto?",
+          "Texto 2, situaciones hipotéticas: Si le ofrecieran trabajar a distancia con el mismo sueldo, ¿se iría a vivir a un pueblo? ¿Qué condiciones pondría?",
+          "Texto 2, situaciones hipotéticas: Imagine que es usted alcalde o alcaldesa de un pueblo que pierde habitantes y tiene un presupuesto limitado. ¿En qué lo invertiría primero?",
+          "Texto 2, situaciones hipotéticas: ¿Qué cree que pasaría si dentro de veinte años la mitad de los trabajos se pudieran hacer desde casa?"
+        ],
+        "notas_zh": "按考生在任务 1 选的文章提问：文本 1 用前 10 题，文本 2 用后 10 题，各分三部分——个人经历（3 题）、观点（4 题）、假设情境（3 题）；不必全部问完，4—6 分钟内每部分至少问 1—2 题。观点部分考官要故意提出反对意见或追问“¿No cree que…?”，看考生能否坚持立场、举例论证或有理由地让步；假设部分看考生能否自如使用条件式和虚拟式过去时。参考回答只按文本 1 编写（考官的话取自前 10 题，外加两处即兴追问）。考生选文本 2 时，考官改用后 10 题，同样按“经历—观点—假设”的顺序进行；评分时参照这段参考回答的展开方式：先举亲身经历，回应反驳时先承认对方有道理再说明自己为什么坚持，假设题用条件式、虚拟式过去时，并且回扣文章里的论点（文本 2 的论点见任务 1 文本 2 的参考回答）。"
+      }
+    },
+    {
+      "n": 3,
+      "titulo_es": "Conversación informal: negociación",
+      "minutos": [4, 6],
+      "preparacion": false,
+      "instruccion_es": [
+        "Usted y el entrevistador van a mantener una conversación en la que tendrán que negociar hasta llegar a un acuerdo. Elija una de las dos situaciones que se le proponen.",
+        "Lea la situación y las cuatro propuestas. Explique cuál le parece más adecuada y por qué, comente los inconvenientes de las demás, responda a los argumentos del entrevistador y, entre los dos, elijan una sola propuesta.",
+        "Esta tarea no tiene tiempo de preparación. La conversación durará entre cuatro y seis minutos."
+      ],
+      "instruccion_zh": "考生与考官进行一次需要协商的对话，最后达成一致。两种情境中选一种。阅读情境说明和四个方案，说明自己认为最合适的方案及理由，评论其他方案的不足，回应考官的论点，两人最终共同选定一个方案。本任务没有准备时间，时长 4—6 分钟。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Una actividad para el aniversario de la empresa",
+          "puntos": [
+            "Diga qué propuesta le parece mejor y explique por qué.",
+            "Comente los inconvenientes que ve en las otras propuestas.",
+            "Escuche la opinión del entrevistador y responda a sus argumentos.",
+            "Lleguen a un acuerdo y elijan entre los dos una de las cuatro propuestas."
+          ],
+          "art": "",
+          "texto": [
+            "Usted trabaja en una empresa de diseño gráfico con sede en Bogotá. La empresa cumple diez años y la dirección quiere organizar una actividad para sus sesenta empleados con dos objetivos: celebrar el aniversario y mejorar la relación entre departamentos que apenas se conocen. Unos quince compañeros trabajan a distancia desde otras ciudades del país. El presupuesto es limitado y la actividad tiene que hacerse en un solo día laborable.",
+            "Usted y el entrevistador forman parte del comité organizador y deben elegir una de estas cuatro propuestas."
+          ],
+          "texto_zh": [
+            "您在一家总部设在波哥大的平面设计公司工作。公司成立十周年，管理层想为六十名员工组织一次活动，目的有两个：庆祝周年，并改善几个彼此不太熟悉的部门之间的关系。约十五位同事在国内其他城市远程工作。预算有限，活动必须在一个工作日内完成。",
+            "您和考官都是筹备委员会成员，要从以下四个方案中选定一个。",
+            "四个方案：A 咖啡庄园一日游——坐大巴去离波哥大三小时的一座庄园，参观咖啡园、参加品鉴工作坊、吃田园午餐；这是最贵的方案，一天之内要坐六个小时的车。B 植树日——和一家环保基金会合作，在离城一小时的自然公园植树造林，按不同部门混合分组干活；需要一定的体力，还要看天气。C 分组烹饪比赛——在市中心一所烹饪学校举行，每组做一套菜，由评委选出最佳；每场只能容纳三十人，所以要分两场。D 办公室大型寻宝游戏——由一家专业公司把办公室布置成分组闯关的寻宝游戏，远程工作的同事通过视频通话参加；这是最便宜的方案，但地点就是平常上班的地方。"
+          ],
+          "propuestas": [
+            {"id": "A", "titulo": "Excursión a una finca cafetera", "descripcion": "Viaje en autobús a una finca a tres horas de Bogotá: recorrido por los cafetales, taller de cata y almuerzo campestre. Es la opción más cara y supone seis horas de carretera en un solo día.", "art": "art:C1_EIO3_1A"},
+            {"id": "B", "titulo": "Jornada de siembra de árboles", "descripcion": "Reforestación de un parque natural a una hora de la ciudad, organizada con una fundación ambiental. Se trabaja en equipos mezclados de distintos departamentos. Exige cierta forma física y depende del tiempo que haga.", "art": "art:C1_EIO3_1B"},
+            {"id": "C", "titulo": "Competencia de cocina por equipos", "descripcion": "Concurso en una escuela de cocina del centro: cada equipo prepara un menú y un jurado elige el mejor. Solo caben treinta personas por turno, así que habría que organizar dos turnos.", "art": "art:C1_EIO3_1C"},
+            {"id": "D", "titulo": "Gran juego de pistas en la oficina", "descripcion": "Una empresa especializada convierte la oficina en un juego de pistas y retos por equipos; los compañeros que trabajan a distancia participan por videollamada. Es la opción más barata, pero se celebra en el lugar de trabajo de siempre.", "art": "art:C1_EIO3_1D"}
+          ],
+          "modelo": [
+            "E: ¿Qué situación ha elegido?",
+            "C: La primera, la de la actividad para el aniversario de la empresa.",
+            "E: Muy bien. Pues usted y yo estamos en el comité organizador. ¿Qué propuesta le parece mejor?",
+            "C: A mí la que más me convence es la jornada de siembra de árboles. Creo que cumple muy bien los dos objetivos. Por un lado, se trabaja en equipos mezclados, así que la gente de diseño, de cuentas y de administración tendría que colaborar de verdad, no solo charlar en una mesa. Y por otro, para un aniversario me parece bonito hacer algo que deje huella. Podríamos sembrar diez árboles por cada año de la empresa, por ejemplo.",
+            "E: Es una idea simpática, pero yo prefiero el juego de pistas en la oficina. Es la opción más barata y, sobre todo, la única en la que pueden participar los compañeros que trabajan desde otras ciudades. Si hacemos algo al aire libre cerca de Bogotá, ellos se quedan fuera.",
+            "C: Entiendo lo que dice, y es un punto importante. Pero, precisamente porque es el décimo aniversario, creo que merece la pena traer a esos compañeros a Bogotá. Son unos quince, ¿no? Muchos casi no conocen en persona al resto del equipo. Si los volvemos a meter en una videollamada, para ellos será un día de trabajo más. Además, hacerlo en la oficina, donde estamos todos los días, no tiene mucho ambiente de fiesta.",
+            "E: Ya, pero traer a quince personas cuesta dinero, y el presupuesto es limitado.",
+            "C: Claro, pero si lo comparamos con la finca cafetera, la siembra sale bastante más barata: el parque está a una hora y la fundación se encarga de casi todo. Lo que ahorramos en transporte lo podemos dedicar a los billetes de los que vienen de fuera. La finca, sinceramente, me parece demasiado: seis horas de autobús en un solo día es agotador.",
+            "E: En eso estoy de acuerdo, la finca la descartaría. Pero con los árboles tengo otra duda. ¿Qué pasa si llueve? Y no todo el mundo está en forma para cavar durante horas.",
+            "C: Son dos buenas preguntas. Lo de la lluvia se puede resolver eligiendo bien la fecha; en enero, por ejemplo, suele llover menos. Y en cuanto al esfuerzo físico, no hace falta que todo el mundo cave: se pueden repartir otras tareas, como preparar los árboles, hacer fotos o encargarse del almuerzo. Así nadie se siente excluido.",
+            "E: ¿Y la competencia de cocina? A mí me parecía divertida.",
+            "C: Es divertida, sí, pero tiene un problema: solo caben treinta personas por turno. Si hacemos dos turnos, la mitad de la empresa no coincide con la otra mitad, y el objetivo era precisamente juntar a todo el mundo.",
+            "E: Bueno, me ha convencido bastante. Pero me gustaría que no perdiéramos lo mejor del juego: que la gente se mezcle de verdad.",
+            "C: Totalmente de acuerdo. Podemos formar los equipos por sorteo, para que en cada grupo haya personas de departamentos distintos y de ciudades distintas.",
+            "E: Perfecto. Entonces, ¿quedamos en la jornada de siembra, en enero y con los compañeros de fuera?",
+            "C: Quedamos en eso. Creo que será un aniversario que la gente va a recordar."
+          ],
+          "modelo_zh": [
+            "考官：您选了哪个情境？",
+            "考生：第一个，公司周年纪念活动。",
+            "考官：好。您和我都是筹备委员会的成员。您觉得哪个方案最好？",
+            "考生：最让我信服的是植树日。我觉得它很好地满足了两个目标。一方面，大家分成混合小组干活，设计部、客户部、行政部的人得真正合作，而不只是坐在一张桌子旁聊天。另一方面，周年纪念做一件能留下痕迹的事很有意义。比如，公司每成立一年就种十棵树。",
+            "考官：这个想法挺可爱，但我更喜欢办公室寻宝游戏。它最便宜，而且最重要的是，只有它能让在其他城市远程工作的同事也参加。如果我们在波哥大附近搞户外活动，他们就被排除在外了。",
+            "考生：我明白您的意思，这一点很重要。但正因为是十周年，我觉得值得把这些同事请到波哥大来。大约十五个人吧？他们很多人几乎没见过团队其他人。如果又让他们参加视频通话，对他们来说就只是又一个工作日。而且在我们天天上班的办公室里办，也没什么节日气氛。",
+            "考官：可是把十五个人请来要花钱，预算又有限。",
+            "考生：当然，但和咖啡庄园比，植树便宜多了：公园只有一小时路程，几乎所有事都由基金会负责。省下的交通费可以用来买外地同事的车票机票。说实话，庄园有点过了：一天之内坐六个小时大巴太累人。",
+            "考官：这一点我同意，庄园可以排除。但植树我还有一个疑问：下雨怎么办？而且不是每个人的体力都能连续挖好几个小时。",
+            "考生：这两个问题都很好。下雨的问题可以靠选好日期解决，比如一月份雨通常少一些。至于体力，不需要人人都挖坑：可以分配别的任务，比如准备树苗、拍照或负责午餐。这样谁都不会觉得被排除在外。",
+            "考官：那烹饪比赛呢？我觉得挺有趣的。",
+            "考生：是有趣，但有个问题：每一场只能容纳三十人。如果分两场，公司一半人和另一半人就碰不到一起，而目标恰恰是把所有人聚在一起。",
+            "考官：好吧，您基本说服我了。不过我希望别丢掉游戏最好的那一点：让大家真正混在一起。",
+            "考生：完全同意。我们可以抽签分组，让每个小组里都有不同部门、不同城市的人。",
+            "考官：很好。那我们就定植树日，安排在一月，并且请外地同事来参加？",
+            "考生：就这么定了。我相信这会是一个大家都会记住的周年纪念。"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "Un nuevo uso para el solar del barrio",
+          "puntos": [
+            "Diga qué propuesta le parece mejor y explique por qué.",
+            "Comente los inconvenientes que ve en las otras propuestas.",
+            "Escuche la opinión del entrevistador y responda a sus argumentos.",
+            "Lleguen a un acuerdo y elijan entre los dos una de las cuatro propuestas."
+          ],
+          "art": "",
+          "texto": [
+            "Usted vive en un barrio de una ciudad española. Junto a la estación hay un solar abandonado de unos dos mil metros cuadrados que el ayuntamiento ha decidido ceder a los vecinos. La asociación vecinal ha conseguido una subvención para acondicionarlo, pero después tendrá que hacerse cargo del mantenimiento. En el barrio viven muchas personas mayores y familias jóvenes, hay pocas zonas verdes y los adolescentes se quejan de que no tienen dónde reunirse.",
+            "Usted y el entrevistador forman parte de la junta directiva de la asociación y deben decidir cuál de estos cuatro proyectos presentarán en la próxima asamblea."
+          ],
+          "texto_zh": [
+            "您住在西班牙某座城市的一个街区。车站旁有一块约两千平方米的废弃空地，市政府决定把它交给居民使用。居民协会争取到了一笔整修补贴，但之后的维护要由协会自己负责。街区里住着很多老人和年轻家庭，绿地很少，青少年抱怨没有地方聚会。",
+            "您和考官都是协会理事会成员，要决定在下次居民大会上提交以下四个项目中的哪一个。",
+            "四个项目：A 社区菜园——抽签分配的小块菜地、堆肥区，以及面向街区各学校的工作坊；维护成本最低，但要靠有责任心的志愿者，而且只有约四十户能分到菜地。B 儿童乐园和老人活动区——秋千、滑梯，供老人做轻度锻炼的健身器材，长椅和遮阴的树；这是上一次居民调查中呼声最高的方案，不过街区里已经有两个小型儿童乐园。C 运动场和青年空间——一块篮球兼五人制足球场、一面小攀岩墙和带顶棚的看台；满足了青少年的要求，但有些居民担心夜间噪音，需要规定开放时间。D 露天文化广场——可拆装的舞台、长椅、遮阳篷和遮阴区，用来办音乐会、露天电影、戏剧演出和二手市集；能让街区热闹起来，但需要有人策划节目，音响设备也很贵。"
+          ],
+          "propuestas": [
+            {"id": "A", "titulo": "Huerto comunitario", "descripcion": "Parcelas de cultivo que se asignan por sorteo, zona de compostaje y talleres para los colegios del barrio. Es el proyecto más barato de mantener, pero depende de que haya voluntarios comprometidos y solo unas cuarenta familias tendrían parcela.", "art": "art:C1_EIO3_2A"},
+            {"id": "B", "titulo": "Parque infantil y zona de mayores", "descripcion": "Columpios y toboganes, aparatos de gimnasia suave para mayores, bancos y árboles que den sombra. Fue la opción más pedida en la última encuesta vecinal, aunque en el barrio ya hay dos parques infantiles pequeños.", "art": "art:C1_EIO3_2B"},
+            {"id": "C", "titulo": "Pista deportiva y espacio joven", "descripcion": "Una pista de baloncesto y fútbol sala, un pequeño rocódromo y unas gradas cubiertas. Responde a lo que piden los adolescentes, pero algunos vecinos temen el ruido por la noche y habría que fijar un horario.", "art": "art:C1_EIO3_2C"},
+            {"id": "D", "titulo": "Plaza cultural al aire libre", "descripcion": "Un escenario desmontable, bancos, toldos y zonas de sombra para conciertos, cine de verano, teatro y mercadillos de segunda mano. Daría vida al barrio, pero necesita que alguien organice la programación y el equipo de sonido es caro.", "art": "art:C1_EIO3_2D"}
+          ],
+          "modelo": [
+            "E: ¿Qué situación ha elegido?",
+            "C: La segunda, la del solar del barrio.",
+            "E: Muy bien. Usted y yo somos de la junta de la asociación. ¿Qué proyecto le parece mejor?",
+            "C: Yo, de entrada, me inclino por el huerto comunitario. Me parece que encaja bien con un barrio donde hay muchas personas mayores y pocas zonas verdes. Los mayores tienen tiempo y muchas veces experiencia con el campo, y los niños de los colegios podrían aprender con ellos. Además, es la opción más barata de mantener, y eso es importante, porque la subvención solo cubre la obra.",
+            "E: Pues yo lo veo distinto. A mí me preocupan los adolescentes. Dicen que no tienen ningún sitio para reunirse y, si no se lo damos, van a seguir en los portales o en la estación. Yo apostaría por la pista deportiva.",
+            "C: Es verdad que los jóvenes necesitan un espacio, y eso no lo había pensado tanto. Pero la pista tiene un riesgo claro: el ruido. El solar está junto a la estación, pero también rodeado de viviendas, y si los mayores empiezan a quejarse, el proyecto puede acabar creando conflictos entre generaciones, que es justo lo contrario de lo que queremos.",
+            "E: Se podría poner un horario, hasta las diez de la noche, por ejemplo.",
+            "C: Sí, pero ¿quién controla ese horario? Nosotros somos una asociación de voluntarios. Y con el huerto pasa algo parecido, lo reconozco: depende de que haya gente comprometida. Además, solo cuarenta familias tendrían parcela, y en el barrio somos muchísimos más.",
+            "E: Exacto, eso es lo que no me convence del huerto. ¿Y el parque infantil? Fue lo más pedido en la encuesta.",
+            "C: Sí, pero ya hay dos parques en el barrio. Creo que la gente lo pidió porque es lo que conoce, no porque sea lo que más falta. ¿Y si miramos la plaza cultural? Ahora que lo pienso, puede ser un buen punto de encuentro. Con bancos y sombra, los mayores tendrían un sitio agradable por la mañana, y por la tarde se podrían hacer conciertos o cine de verano, que atraen a los jóvenes y a las familias.",
+            "E: La idea me gusta, pero aquí pone que necesita a alguien que organice la programación. Eso es mucho trabajo.",
+            "C: Lo es, pero podemos implicar a los propios jóvenes. Si ellos organizan algunos conciertos o un mercadillo, sentirán el espacio como suyo y, además, lo cuidarán. En cuanto al equipo de sonido, se podría alquilar solo para los eventos grandes en lugar de comprarlo.",
+            "E: Bueno, eso cambia bastante las cosas. Si los jóvenes participan en la programación, también respondemos a lo que ellos pedían.",
+            "C: Y los mayores no tendrían el problema del ruido todas las noches, solo en eventos concretos y con horario.",
+            "E: De acuerdo. Entonces, ¿presentamos en la asamblea la plaza cultural, con una comisión de jóvenes para la programación?",
+            "C: Sí, me parece la opción más equilibrada. Así llegamos a todo el barrio y no solo a un grupo."
+          ],
+          "modelo_zh": [
+            "考官：您选了哪个情境？",
+            "考生：第二个，街区空地。",
+            "考官：好。您和我都是协会理事会成员。您觉得哪个项目最好？",
+            "考生：我一开始倾向于社区菜园。我觉得它很适合一个老人多、绿地少的街区。老人有时间，很多还有种地经验，学校的孩子可以跟他们学。而且它维护成本最低，这很重要，因为补贴只管施工。",
+            "考官：我的看法不一样。我担心的是青少年。他们说没有任何聚会的地方，如果我们不给，他们就会继续待在楼门口或者车站。我会选运动场。",
+            "考生：年轻人确实需要一个空间，这一点我之前没怎么考虑。但运动场有个明显的风险：噪音。空地虽然在车站旁边，但周围也都是住宅，如果老人开始投诉，这个项目可能会制造代际矛盾，这恰恰和我们想要的相反。",
+            "考官：可以规定开放时间，比如到晚上十点。",
+            "考生：可以，但谁来管这个时间？我们只是个志愿者协会。我承认菜园也有类似问题：它依赖有人长期投入。而且只有四十户能分到地，街区的人可多得多。",
+            "考官：没错，这正是菜园让我不放心的地方。那儿童乐园呢？调查里呼声最高。",
+            "考生：是，但街区已经有两个乐园了。我觉得大家选它是因为熟悉，而不是因为最缺。我们看看文化广场怎么样？现在想想，它可以成为一个很好的聚会场所。有长椅和树荫，老人上午有个舒服的去处；下午、晚上可以办音乐会或者露天电影，吸引年轻人和家庭。",
+            "考官：这个想法我喜欢，但说明里写了需要有人组织节目。这工作量很大。",
+            "考生：是很大，但我们可以让年轻人自己参与。如果由他们来组织一些音乐会或者跳蚤市场，他们会把这里当成自己的地方，还会爱护它。至于音响设备，可以只在大型活动时租用，而不是买下来。",
+            "考官：嗯，这就大不一样了。如果年轻人参与安排节目，我们也回应了他们的诉求。",
+            "考生：老人也不会每天晚上受噪音困扰，只是在个别活动时，而且有时间限制。",
+            "考官：同意。那我们就在大会上提交文化广场方案，并成立一个青年委员会负责节目安排？",
+            "考生：好，我觉得这是最平衡的选择。这样能照顾到整个街区，而不只是某一个群体。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Pasamos ahora a la Tarea 3. Aquí tiene dos situaciones. Elija una, por favor.",
+          "Lea con atención la situación y las cuatro propuestas. Tómese un momento.",
+          "Bien. Usted y yo tenemos que tomar juntos esta decisión. ¿Qué propuesta le parece mejor?",
+          "Tenemos que llegar a un acuerdo. ¿Con cuál nos quedamos, entonces?",
+          "Muy bien, pues quedamos en eso. Hemos terminado la prueba. Muchas gracias."
+        ],
+        "preguntas": [
+          "Tarjeta 1: ¿Cuál de las cuatro propuestas le parece más adecuada para los objetivos de la empresa? ¿Por qué?",
+          "Tarjeta 1: Yo prefiero el juego de pistas en la oficina: es lo más barato y nadie se queda fuera. ¿No le parece un buen argumento?",
+          "Tarjeta 1: ¿No cree que la excursión a la finca es demasiado cara y cansada para un solo día?",
+          "Tarjeta 1: ¿Qué hacemos con los compañeros que trabajan desde otras ciudades?",
+          "Tarjeta 1: ¿Y si alguien no puede hacer esfuerzo físico o ese día llueve?",
+          "Tarjeta 1: ¿Qué propuesta descartaría usted en primer lugar? ¿Por qué?",
+          "Tarjeta 1: Entonces, ¿qué propuesta elegimos?",
+          "Tarjeta 2: ¿Qué proyecto le parece que responde mejor a las necesidades del barrio?",
+          "Tarjeta 2: A mí me convence la pista deportiva, porque los adolescentes no tienen ningún sitio. ¿Qué le parece?",
+          "Tarjeta 2: El huerto solo beneficiaría a unas cuarenta familias. ¿No es demasiado poco?",
+          "Tarjeta 2: El parque infantil fue lo más pedido en la encuesta. ¿No deberíamos respetar lo que quieren los vecinos?",
+          "Tarjeta 2: ¿Quién se encargaría del mantenimiento cuando se acabe la subvención?",
+          "Tarjeta 2: ¿Cómo convencería a los vecinos mayores que temen el ruido?",
+          "Tarjeta 2: Bueno, tenemos que decidir. ¿Qué proyecto presentamos en la asamblea?"
+        ],
+        "notas_zh": "考官要扮演持不同意见的一方：考生选了哪个方案，考官就先支持另一个（卡片 1 默认支持 D“办公室寻宝游戏”，卡片 2 默认支持 C“运动场”；若考生正好选了这个，就改支持别的），用反驳、追问和提出条件逼考生论证、比较、让步，最后两人共同选定一个方案。考生论证充分时考官可以让步，不必坚持到底；考生只说“好的”就同意时，考官要再提一个反对理由。四个方案的要点——卡片 1（哥伦比亚波哥大一家设计公司的十周年活动）：A 咖啡庄园一日游（最贵，往返六小时）；B 植树日（混合分组，需体力，看天气）；C 分组烹饪比赛（每场三十人，要分两场）；D 办公室寻宝游戏（最便宜，远程同事可视频参加，但在平常的办公室）。卡片 2（西班牙一个街区车站旁的空地）：A 社区菜园（最省维护费，靠志愿者，只有约四十户有地）；B 儿童乐园和老人健身区（调查呼声最高，但已有两个乐园）；C 运动场和青年空间（满足青少年，夜间噪音）；D 露天文化广场（活跃街区，需要有人组织节目，音响贵）。"
+      }
+    }
+  ],
+  "criterios": [
+    {"es": "Fluidez", "zh": "看考生说话是否连贯顺畅：能否较长时间不费力地表达，停顿主要用来组织思路而不是找词；语速自然，能用连接词把观点组织成条理清楚的整体，不靠背诵。占分析评分的 22%。"},
+    {"es": "Corrección", "zh": "看语法、词汇和发音的准确程度：复杂结构（虚拟式、条件句、时态配合、关系从句）基本正确，偶有失误不影响理解并能自行纠正；发音和语调清楚易懂。占分析评分的 22%。"},
+    {"es": "Alcance", "zh": "看语言资源的广度：词汇和句式是否丰富多样，能否准确表达细微差别、换种说法解释，恰当使用习语和与情境相符的语域，不因词汇不够而回避话题。占分析评分的 22%。"},
+    {"es": "Mediación y cumplimiento de la Tarea 1", "zh": "能否用自己的话准确转述文章的主要观点和作者立场，区分事实与观点，对论据作出有根据的评价，再清楚地陈述并论证个人看法；内容完整、时长 3—5 分钟。"},
+    {"es": "Entrevista y cumplimiento de la Tarea 2", "zh": "能否就个人经历、观点和假设情境作出充分、切题的回答；面对考官的反驳能坚持立场或有理由地调整，并举例支持，回答有展开，而不是一两句话了事。"},
+    {"es": "Interacción y cumplimiento de la Tarea 3", "zh": "能否主动提出并论证自己的选择，比较各个方案，回应考官的论点（反驳、让步、提出条件），推动对话向前，最后和考官就一个方案达成明确的一致。各任务完成度分别占该任务分析评分的 34%。"},
+    {"es": "Calificación holística (entrevistador)", "zh": "考官在整场考试结束后给一个整体分（占口试成绩的 40%），综合判断考生能否自如、灵活、有效地用西语处理复杂话题并与人互动，是否达到 C1；评分员另按上面的分析项打分（占 60%，三个任务各 20%），两者互不参照。"}
+  ]
+}

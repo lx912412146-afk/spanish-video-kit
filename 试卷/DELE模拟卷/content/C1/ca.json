@@ -1,0 +1,248 @@
+{
+  "nivel": "C1",
+  "prueba": "Comprensión auditiva y uso de la lengua",
+  "zh": "听力理解与语言运用",
+  "duracion_min": 50,
+  "intro_es": "La prueba de Comprensión auditiva y uso de la lengua contiene cuatro tareas. Usted tiene que responder a 30 preguntas. Duración: 50 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tipo": "seleccion_multiple",
+      "instruccion_es": "Usted va a escuchar un fragmento de una conferencia. Lo escuchará dos veces. Después debe seleccionar, de los doce enunciados que aparecen a continuación, los seis que corresponden a lo que se dice en la conferencia. Escriba las letras elegidas por orden alfabético en las preguntas de la 1 a la 6. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到一段讲座的片段，录音播放两遍。请从下面十二个陈述（A—L）中选出与讲座内容相符的六个，把字母按字母顺序填在第 1—6 题。请把答案涂在答题卡上。",
+      "tema_zh": "“垃圾考古”：一位哥伦比亚人类学家讲她在麦德林所做的家庭垃圾研究——方法、发现（申报与实际消费的差距、涨价引起的浪费、填埋场里分解缓慢）、伦理问题和她对研究用途的看法。说话人来自哥伦比亚（recicladores、alcaldías、tapabocas、hacer el mercado、costo 等用词）。",
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "",
+          "presentacion": "A continuación, escuchará a Catalina Restrepo, antropóloga colombiana, que habla sobre lo que la basura doméstica revela de nuestros hábitos.",
+          "segs": [
+            {"v": "女2", "who": "Catalina Restrepo", "es": "Buenas tardes a todos y muchas gracias por la invitación. Cuando cuento que me dedico a estudiar la basura, la gente suele reírse o poner cara de asco. Y, sin embargo, pocas cosas hablan de nosotros con tanta sinceridad como lo que tiramos cada día. Las encuestas recogen lo que decimos que hacemos, mientras que la bolsa de basura recoge lo que hacemos de verdad. Hoy quiero contarles qué aprendimos en Medellín después de abrir miles de bolsas.", "zh": "大家下午好，非常感谢邀请。每当我说自己是研究垃圾的，大家往往会笑，或者露出嫌恶的表情。然而，很少有什么东西能像我们每天扔掉的东西那样坦诚地讲述我们。问卷记录的是我们说自己做了什么，而垃圾袋记录的是我们真正做了什么。今天我想跟大家讲讲，我们在麦德林打开了成千上万个垃圾袋之后学到了什么。"},
+            {"v": "女2", "who": "Catalina Restrepo", "es": "La idea, desde luego, no es mía. En los años setenta del siglo pasado, varios arqueólogos empezaron a aplicar a los vertederos modernos los métodos de una excavación antigua. Yo me formé en esa escuela, pero cuando volví a Medellín entendí que no podía copiarla sin más. Aquí una buena parte de lo que se desecha nunca llega al vertedero, porque los recicladores lo recuperan antes en la calle. Por eso decidimos recoger las bolsas en la puerta de cada casa, antes de que nadie pudiera tocarlas.", "zh": "当然，这个想法不是我的。上世纪七十年代，一些考古学家开始把发掘古代遗址的方法用在现代垃圾填埋场上。我就是在这一学派里受的训练，但回到麦德林以后，我明白不能照搬。在这里，扔掉的东西有很大一部分根本到不了填埋场，因为拾荒回收者在街上就先把它们捡走了。所以我们决定在每户人家门口收垃圾袋，赶在任何人碰它们之前。"},
+            {"v": "女2", "who": "Catalina Restrepo", "es": "Durante tres años, un equipo de doce personas analizó los residuos de unas cuatrocientas familias de seis barrios muy distintos. Todas aceptaron participar y firmaron un consentimiento, pero no sabían en qué semanas íbamos a pasar por su casa. Este detalle era fundamental. Si alguien sabe que lo están observando, cambia su conducta, y entonces ya no estudiamos la vida real, sino una especie de actuación. Cada bolsa se pesaba, se abría sobre una mesa y su contenido se clasificaba en más de cien categorías. Trabajábamos con guantes, tapabocas y muchísima paciencia.", "zh": "三年间，一个十二人的团队分析了六个差异很大的街区约四百户家庭的垃圾。所有家庭都同意参加并签了知情同意书，但他们不知道我们会在哪几周去他们家。这个细节至关重要。一个人如果知道自己被观察，行为就会改变，那我们研究的就不再是真实生活，而是一种表演。每一袋垃圾都要称重，在桌上打开，里面的东西分成一百多个类别。我们戴着手套和口罩，靠的是极大的耐心。"},
+            {"v": "女2", "who": "Catalina Restrepo", "es": "El primer resultado no sorprendió a nadie del equipo, aunque sí a los periodistas que siguieron el proyecto. Lo que la gente declara en los cuestionarios y lo que aparece en su basura casi nunca coincide, y no hablo de pequeñas diferencias. En casi todos los hogares, por ejemplo, se bebía bastante más alcohol del que se reconocía. Con la fruta y la verdura, curiosamente, pasaba justo lo contrario: las familias aseguraban comer mucha más de la que en realidad compraban.", "zh": "第一个结果团队里没有人感到意外，倒是让跟踪报道这个项目的记者们吃了一惊。人们在问卷里申报的和垃圾里出现的几乎从不一致，而且差别可不小。比如，几乎每一户实际喝的酒都比承认的多出不少。有意思的是，水果和蔬菜的情况正好相反：各家都说自己吃的比实际买的多得多。"},
+            {"v": "女2", "who": "Catalina Restrepo", "es": "El segundo hallazgo, en cambio, sí nos tomó por sorpresa. Esperábamos que los barrios con menos recursos desperdiciaran menos comida, por pura necesidad, y en términos generales fue así. Pero había una excepción muy llamativa. A veces un producto básico, como el arroz o el aceite, subía de precio de repente. Entonces las familias más modestas compraban grandes cantidades por miedo a nuevas subidas. Como no tenían dónde guardarlas bien, una parte acababa en la basura. Es decir, el desperdicio no dependía solo del dinero, sino también de la incertidumbre.", "zh": "第二个发现却真的出乎我们意料。我们原以为资源较少的街区出于纯粹的需要会浪费更少的食物，总体上也确实如此。但有一个很引人注目的例外。有时大米、食用油这类基本商品会突然涨价。这时，最拮据的家庭会因为害怕再涨而大量购买。由于没有地方好好储存，其中一部分最后进了垃圾桶。也就是说，浪费不仅取决于钱，也取决于不确定感。"},
+            {"v": "女2", "who": "Catalina Restrepo", "es": "Hay otra creencia muy extendida que conviene matizar. Solemos pensar que lo orgánico desaparece enseguida en un vertedero, pero no siempre es así. En las capas profundas, sin aire y sin luz, la descomposición es lentísima. Un colega encontró en un vertedero de Bogotá periódicos de hace treinta años que todavía se podían leer. A su lado había restos de comida casi intactos. Podríamos decir que la basura también es un archivo.", "zh": "还有一个流传很广的看法需要修正。我们通常以为有机物在填埋场里很快就会消失，但并非总是如此。在深层，没有空气也没有光，分解极其缓慢。一位同事在波哥大的一个填埋场里发现了三十年前、至今仍能读的报纸，旁边还有几乎完好的食物残渣。可以说，垃圾也是一种档案。"},
+            {"v": "女2", "who": "Catalina Restrepo", "es": "Al terminar cada fase, entregábamos a las familias un pequeño informe con sus propios datos. Muchas familias no se lo podían creer, y algunas nos contaron después que habían cambiado su manera de hacer el mercado. No era nuestro objetivo, pero confieso que nos alegró.", "zh": "每个阶段结束时，我们都会给各家一份关于他们自己数据的小报告。很多家庭简直不敢相信，有些后来告诉我们，他们改变了买东西的方式。这不是我们的目的，但我承认我们挺高兴的。"},
+            {"v": "女2", "who": "Catalina Restrepo", "es": "Ahora bien, este trabajo plantea dilemas éticos que no quiero esquivar. En una bolsa de basura aparecen cartas, recetas médicas, facturas con nombres y direcciones. Desde el primer día establecimos una regla estricta: cualquier papel con datos personales se destruía sin leerlo. Aun así, hubo críticos que nos acusaron de invadir la intimidad de la gente, y entiendo perfectamente su preocupación. Mi respuesta es que la alternativa, no saber nada, también tiene un costo.", "zh": "不过，这项工作带来了伦理难题，我不想回避。垃圾袋里会有信件、医生处方、印着姓名和地址的账单。从第一天起我们就定了一条严格的规矩：任何带有个人信息的纸张都不看、直接销毁。即便如此，还是有批评者指责我们侵犯人们的隐私，我完全理解他们的担忧。我的回答是：另一种选择——什么都不知道——也是有代价的。"},
+            {"v": "女2", "who": "Catalina Restrepo", "es": "Quisiera terminar con una advertencia. Algunos medios presentaron nuestros datos como la prueba de que la gente miente, y eso me parece injusto. Nadie miente a propósito sobre cuántas manzanas come; sencillamente, recordamos mejor lo que nos gustaría hacer que lo que hacemos. A mí no me interesa señalar a nadie. Me interesa que las alcaldías diseñen sus políticas a partir de hechos y no de buenas intenciones. Si queremos producir menos residuos, primero tenemos que saber cuáles producimos realmente. Y para eso, créanme, no hay mejor fuente que una bolsa de basura bien abierta. Muchas gracias por su atención.", "zh": "最后我想提醒一点。有些媒体把我们的数据说成是“人们撒谎”的证据，我觉得这不公平。没有人会故意在自己吃了几个苹果这件事上撒谎；只是我们记住的往往是自己想做的，而不是实际做的。我无意指责任何人。我希望的是市政府根据事实、而不是根据良好的意愿来制定政策。如果我们想少产生垃圾，首先得知道自己实际上产生了哪些垃圾。而要做到这一点，相信我，没有比一个好好打开的垃圾袋更好的信息来源了。谢谢大家。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "frases": [
+        {"id": "A", "texto": "La conferenciante aplicó en su ciudad un enfoque que otros investigadores habían desarrollado antes.", "zh": "演讲者在自己的城市运用了其他研究者此前已发展出的方法。", "correcta": true, "explicacion": "她说“La idea, desde luego, no es mía”，这种方法上世纪七十年代已由考古学家用于现代填埋场；她回到麦德林后“entendí que no podía copiarla sin más”，即在已有方法的基础上加以调整。A 与原文相符。"},
+        {"id": "B", "texto": "En Medellín, casi todo lo que se tira en las casas acaba en el vertedero.", "zh": "在麦德林，家里扔掉的东西几乎都进了填埋场。", "correcta": false, "explicacion": "原文说“una buena parte de lo que se desecha nunca llega al vertedero, porque los recicladores lo recuperan antes”，正因为如此她们才到各家门口收垃圾。B 与原文正好相反。"},
+        {"id": "C", "texto": "Las familias participantes ignoraban en qué momento se iban a llevar su basura para analizarla.", "zh": "参与研究的家庭不知道自己的垃圾什么时候会被拿去分析。", "correcta": true, "explicacion": "“no sabían en qué semanas íbamos a pasar por su casa”，并解释这样做是为了避免被观察的人改变行为。C 用 ignoraban 改写了 no sabían，与原文相符。"},
+        {"id": "D", "texto": "Al equipo le sorprendió que las respuestas de los cuestionarios no coincidieran con lo hallado en la basura.", "zh": "问卷回答与垃圾里的发现不一致，这让研究团队感到意外。", "correcta": false, "explicacion": "原文：“El primer resultado no sorprendió a nadie del equipo, aunque sí a los periodistas”。感到意外的是记者，不是团队；D 把别人的反应安在了团队身上。"},
+        {"id": "E", "texto": "Los hogares decían beber más alcohol del que luego aparecía en sus bolsas.", "zh": "各家声称喝的酒比垃圾袋里出现的多。", "correcta": false, "explicacion": "原文“se bebía bastante más alcohol del que se reconocía”：实际喝的比承认的多，即申报偏少。E 把方向说反了（夸大的是水果蔬菜，不是酒）。"},
+        {"id": "F", "texto": "Los participantes exageraban la presencia de fruta y verdura en su alimentación.", "zh": "参与者夸大了自己饮食中水果和蔬菜的分量。", "correcta": true, "explicacion": "“las familias aseguraban comer mucha más de la que en realidad compraban”——说自己吃的比实际买的多得多，就是夸大。F 与原文相符。"},
+        {"id": "G", "texto": "En general, los hogares con menos ingresos fueron los que más comida desperdiciaron.", "zh": "总体来看，收入较低的家庭浪费的食物最多。", "correcta": false, "explicacion": "研究者原本预料资源少的街区浪费更少，“en términos generales fue así”——总体上确实浪费更少，只在突然涨价时出现例外。G 把例外说成了总体情况。"},
+        {"id": "H", "texto": "El miedo a que los alimentos se encarecieran llevaba a algunas familias a acumular comida que después se estropeaba.", "zh": "害怕食品涨价，使一些家庭囤积了后来变质的食物。", "correcta": true, "explicacion": "“compraban grandes cantidades por miedo a nuevas subidas… una parte acababa en la basura”，并总结浪费也取决于“la incertidumbre”。H 与原文相符。"},
+        {"id": "I", "texto": "Lejos de la superficie de un vertedero, incluso la materia orgánica puede tardar décadas en descomponerse.", "zh": "在填埋场深处，连有机物也可能几十年都分解不了。", "correcta": true, "explicacion": "“En las capas profundas, sin aire y sin luz, la descomposición es lentísima”，同事在三十年前的报纸旁发现“restos de comida casi intactos”。I 与原文相符。"},
+        {"id": "J", "texto": "El equipo solo leía los documentos personales cuando resultaban útiles para el estudio.", "zh": "团队只在个人文件对研究有用时才阅读它们。", "correcta": false, "explicacion": "规定是“cualquier papel con datos personales se destruía sin leerlo”——一律不看就销毁，没有“有用才看”的例外。"},
+        {"id": "K", "texto": "La conferenciante considera que las críticas sobre la intimidad carecían de fundamento.", "zh": "演讲者认为关于隐私的批评毫无根据。", "correcta": false, "explicacion": "她说“entiendo perfectamente su preocupación”，承认批评者的担忧可以理解，只是认为“什么都不知道”同样有代价。K 说她认为批评毫无根据，不符。"},
+        {"id": "L", "texto": "Según la conferenciante, los datos deberían orientar las decisiones municipales y no servir para culpar a los ciudadanos.", "zh": "演讲者认为，这些数据应当用来指导市政决策，而不是用来指责市民。", "correcta": true, "explicacion": "“A mí no me interesa señalar a nadie. Me interesa que las alcaldías diseñen sus políticas a partir de hechos”，并说把数据当成“撒谎”的证据“me parece injusto”。L 正确。"}
+      ]
+    },
+    {
+      "n": 2,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar cuatro conversaciones entre dos personas. Escuchará cada conversación dos veces. Después debe contestar a dos preguntas sobre cada conversación, de la 7 a la 14. Seleccione la respuesta correcta entre las tres opciones. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到四段两人对话，每段播放两遍。每段对话回答两道题（第 7—14 题），从三个选项中选出正确答案。请把答案涂在答题卡上。",
+      "tema_zh": "四段对话：①墨西哥城的房客和房东商量浴室漏水的修缮（departamento、recámara、plomero、renta、ahorita）；②布宜诺斯艾利斯广告公司两位同事讨论客户要求提前上线的广告（voseo：pensá、querés、mirá，colectivo）；③西班牙客户打电话向搬家公司投诉物品损坏；④两兄妹商量是否卖掉祖母在哥伦比亚咖啡产区的庄园（finca、un platal、de chiquitos、celular）。",
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "Conversación 1",
+          "presentacion": "",
+          "segs": [
+            {"v": "女3", "who": "Daniela", "es": "Buenas tardes, don Ernesto, habla Daniela, la del departamento del cuarto piso. Disculpe que lo moleste en domingo, pero la mancha de humedad del baño ya llegó hasta la recámara.", "zh": "下午好，埃内斯托先生，我是达妮埃拉，四楼那套公寓的。不好意思星期天打扰您，可是浴室那块潮湿的霉斑已经蔓延到卧室了。"},
+            {"v": "男2", "who": "Don Ernesto", "es": "No me diga, Daniela, ¿otra vez la humedad? Yo pensé que con la pintura que le dimos en marzo ya estaba resuelto.", "zh": "不会吧，达妮埃拉，又是潮湿的问题？我以为三月份刷过一遍漆以后就已经解决了。"},
+            {"v": "女3", "who": "Daniela", "es": "Pues no, la pintura solo la tapó unas semanas. Ayer vino un plomero conocido mío. Dice que el problema es un tubo que está detrás de la pared del baño y que pierde agua por dentro.", "zh": "没有，刷漆只是把它盖住了几个星期。昨天我认识的一个水管工来看过，他说问题出在浴室墙后面的一根管子，从里面漏水。"},
+            {"v": "男2", "who": "Don Ernesto", "es": "Mire, lo que yo puedo hacer ahorita es mandarle a mi pintor el martes, que es de toda confianza y me cobra poco. Lo del tubo habría que platicarlo con calma, porque abrir una pared ya es una obra grande.", "zh": "您看，我现在能做的是星期二让我的油漆工过去，他特别可靠，收费也便宜。管子的事得慢慢商量，因为把墙打开就是个大工程了。"},
+            {"v": "女3", "who": "Daniela", "es": "Con todo respeto, don Ernesto, pintar otra vez es tirar el dinero. Si no se cambia ese tubo, en un mes estamos igual. Además, la ropa del clóset ya huele a humedad y tuve que tirar dos pares de zapatos.", "zh": "恕我直言，埃内斯托先生，再刷一遍漆就是白花钱。那根管子不换，一个月后还是老样子。而且衣柜里的衣服已经有霉味了，我还扔了两双鞋。"},
+            {"v": "男2", "who": "Don Ernesto", "es": "Bueno, bueno, no se me enoje. ¿Y usted qué propone, entonces?", "zh": "好了好了，您别生气。那您说怎么办？"},
+            {"v": "女3", "who": "Daniela", "es": "Que un plomero abra la pared esta misma semana. Yo lo dejo entrar cuando haga falta, aunque tenga que pedir permiso en el trabajo. Y, por todas las molestias, me gustaría que me descontara una parte de la renta de este mes.", "zh": "这个星期就让水管工把墙打开。需要的时候我让他进来，哪怕要跟单位请假。另外，这么多麻烦，我希望您能把这个月的房租减一部分。"},
+            {"v": "男2", "who": "Don Ernesto", "es": "Lo del descuento no se lo puedo prometer, porque la obra me va a salir carísima. Lo que sí le ofrezco es reponerle los zapatos y que mi plomero vaya el jueves temprano. ¿Le parece bien así?", "zh": "减房租我没法答应您，因为这个工程要花我一大笔钱。不过我可以赔您那两双鞋，再让我的水管工星期四一早过去。您看行吗？"},
+            {"v": "女3", "who": "Daniela", "es": "Me parece justo, siempre que el jueves vaya de verdad. Y no se preocupe por la renta, que se la pago el día primero, como siempre.", "zh": "我觉得公平，只要星期四他真的来。房租您放心，我还是像往常一样一号付给您。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "2",
+          "rotulo": "Conversación 2",
+          "presentacion": "",
+          "segs": [
+            {"v": "女1", "who": "Lucía", "es": "Martín, ¿viste el correo de Heladerías Quintana? Quieren adelantar la campaña dos semanas por la ola de calor.", "zh": "马丁，你看到金塔纳冰激凌店的邮件了吗？因为这波热浪，他们想把广告活动提前两周。"},
+            {"v": "男2", "who": "Martín", "es": "Lo vi recién, y para mí hay que decirles que sí, Lucía. Es el cliente más grande que tenemos este año y, si lo dejamos colgado, el año que viene se va con otra agencia.", "zh": "我刚看到。我觉得得答应他们，露西亚。这是我们今年最大的客户，要是把他们晾着，明年他们就去找别的公司了。"},
+            {"v": "女1", "who": "Lucía", "es": "Ya sé que es importante, pero pensá un poco en el equipo. Los diseñadores están con dos proyectos más y las fotos de verano todavía no están hechas. Si aceptamos así como está, vamos a entregar algo flojo, y eso también nos puede costar el cliente.", "zh": "我知道这很重要，可你也替团队想想。设计师手上还有两个项目，夏季的照片还没拍。要是就这么答应，我们交出去的东西会很差，那同样会让我们丢掉这个客户。"},
+            {"v": "男2", "who": "Martín", "es": "¿Y entonces qué querés, que les digamos que no? Mirá que el dueño es muy especial y no le gusta nada que le pongan peros.", "zh": "那你想怎样，跟他们说不行？你要知道，那个老板很难打交道，最受不了别人跟他提反对意见。"},
+            {"v": "女1", "who": "Lucía", "es": "No, tampoco es eso. Lo que propongo es dividir la campaña. Para la fecha que piden sacamos los anuncios de radio y los carteles de las paradas de colectivo. Eso se puede hacer rápido con las fotos del año pasado. El video lo dejamos para quince días después, como estaba previsto.", "zh": "不，也不是这个意思。我建议把广告活动拆开。到他们要的日期，先推出电台广告和公交车站的海报，这些用去年的照片很快就能做好。视频按原计划，十五天以后再出。"},
+            {"v": "男2", "who": "Martín", "es": "Mirá, eso puede funcionar. Con este calor, lo que necesitan es que la gente vea la marca ya, no una película perfecta. ¿Pero quién se lo dice? Porque la última vez yo terminé discutiendo con él por el presupuesto.", "zh": "嗯，这个也许行得通。天这么热，他们需要的是让大家马上看到这个牌子，而不是一部完美的片子。可是谁去跟他说？上次我就因为预算跟他吵起来了。"},
+            {"v": "女1", "who": "Lucía", "es": "Lo llamamos juntos esta tarde. Vos le explicás las ventajas comerciales, que a vos te escucha, y yo le cuento cómo lo vamos a organizar. Y si pide algo más, no prometemos nada sin hablar antes con el equipo.", "zh": "今天下午我们一起给他打电话。你跟他讲商业上的好处，他听你的；我来讲我们怎么安排。如果他还提别的要求，没先和团队商量之前我们什么都不答应。"},
+            {"v": "男2", "who": "Martín", "es": "Trato hecho, me parece bien. Antes de llamarlo, hablo con el fotógrafo para ver si puede adelantar la sesión aunque sea unos días.", "zh": "一言为定，我同意。打电话之前，我先跟摄影师谈谈，看他能不能把拍摄提前，哪怕提前几天也好。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "3",
+          "rotulo": "Conversación 3",
+          "presentacion": "",
+          "segs": [
+            {"v": "女2", "who": "Sonia", "es": "Mudanzas Atlántico, le atiende Sonia. ¿En qué puedo ayudarla?", "zh": "大西洋搬家公司，我是索尼娅。有什么可以帮您？"},
+            {"v": "女4", "who": "Pilar Robles", "es": "Buenos días, me llamo Pilar Robles. Ayer ustedes me hicieron la mudanza de Valladolid a Santander. Al desembalar, me he encontrado el espejo grande del salón roto y la mesa del comedor con un arañazo enorme.", "zh": "早上好，我叫皮拉尔·罗夫莱斯。昨天你们帮我从巴利亚多利德搬到桑坦德。拆包的时候，我发现客厅那面大镜子碎了，餐桌上也有一道很大的划痕。"},
+            {"v": "女2", "who": "Sonia", "es": "Vaya, lo siento muchísimo, señora Robles. Deme un momento, que abro su expediente. A ver, la mesa sí aparece en la lista de objetos que usted firmó, pero el espejo no está por ningún lado.", "zh": "哎呀，真是非常抱歉，罗夫莱斯女士。请稍等，我打开您的档案。我看看……您签字的物品清单上确实有餐桌，可是镜子哪儿都找不到。"},
+            {"v": "女4", "who": "Pilar Robles", "es": "¿Cómo que no está? Si lo envolvieron sus propios operarios delante de mí.", "zh": "怎么会没有？那是你们自己的工人当着我的面包好的。"},
+            {"v": "女2", "who": "Sonia", "es": "No lo dudo, pero el seguro solo cubre los objetos que figuran en esa lista. Lo dice la cláusula cuarta del contrato. Si el espejo no está, yo, sinceramente, no puedo tramitarlo.", "zh": "我不怀疑这一点，但保险只赔那份清单上列出的物品。合同第四条就是这么写的。镜子不在清单上，说实话，我没法给您办理。"},
+            {"v": "女4", "who": "Pilar Robles", "es": "Pues me parece una tomadura de pelo. Yo di por hecho que sus chicos lo apuntarían. ¿Y con la mesa qué hacemos?", "zh": "我觉得这简直是在耍人。我还以为你们的人会把它记上。那餐桌怎么办？"},
+            {"v": "女2", "who": "Sonia", "es": "Con la mesa tiene usted dos posibilidades. Podemos mandarle a un restaurador que trabaja con nosotros y que se la deja como nueva. La otra opción es descontarle un quince por ciento del precio de la mudanza. Usted decide qué le conviene más.", "zh": "餐桌有两种办法。我们可以派一位和我们合作的修复师过去，把桌子修得跟新的一样。另一种办法是搬家费给您打八五折。您看哪种更合适。"},
+            {"v": "女4", "who": "Pilar Robles", "es": "Mire, la mesa era de mi abuela, así que el dinero no me sirve de nada. Prefiero que venga el restaurador. Y lo del espejo no lo pienso dejar así: voy a poner una reclamación por escrito.", "zh": "这样吧，那张桌子是我祖母的，钱对我来说没有用。我宁愿让修复师来。镜子的事我可不打算就这么算了：我要提交书面投诉。"},
+            {"v": "女2", "who": "Sonia", "es": "Está usted en su derecho, por supuesto. Le envío ahora mismo el formulario por correo electrónico, y el restaurador la llamará mañana para concertar una visita.", "zh": "当然，这是您的权利。我现在就把表格发到您的邮箱，修复师明天会给您打电话约上门时间。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        },
+        {
+          "id": "4",
+          "rotulo": "Conversación 4",
+          "presentacion": "",
+          "segs": [
+            {"v": "女4", "who": "Valentina", "es": "Hola, Andrés, ¿qué más? ¿Pudiste hablar con el señor que quiere comprar la finca de la abuela?", "zh": "嗨，安德烈斯，最近怎么样？你和那位想买奶奶庄园的先生谈了吗？"},
+            {"v": "男2", "who": "Andrés", "es": "Sí, ayer me llamó otra vez. Ofrece un buen precio, Valentina, más de lo que yo esperaba. Y la verdad es que mantener esa casa nos está costando un platal entre los impuestos, el agua y el sueldo de don Aurelio.", "zh": "谈了，他昨天又给我打电话了。他出的价不错，巴伦蒂娜，比我预想的还高。说实话，维持那座房子要花我们一大笔钱，又是税、又是水费，还有奥雷利奥先生的工资。"},
+            {"v": "女4", "who": "Valentina", "es": "Ya sé, pero me da mucha tristeza venderla. Allá pasamos todas las vacaciones de chiquitos. Yo había pensado en otra cosa: arreglar las habitaciones y alquilársela a turistas los fines de semana. Con ese paisaje cafetero, la gente pagaría muy bien.", "zh": "我知道，可是卖掉我会很难过。我们小时候每个假期都在那儿过。我想的是另一个办法：把房间收拾好，周末租给游客。有那么美的咖啡园风景，大家会愿意出好价钱的。"},
+            {"v": "男2", "who": "Andrés", "es": "Suena muy bonito, pero ¿quién se encarga de todo eso? Tú vives en Bogotá, yo en Medellín, y la finca nos queda lejísimos a los dos. Alguien tiene que recibir a la gente, limpiar y resolver los problemas que surjan.", "zh": "听起来很美，可是谁来管这一切？你住在波哥大，我住在麦德林，庄园离我们俩都远得很。总得有人接待客人、打扫卫生、解决随时冒出来的问题。"},
+            {"v": "女4", "who": "Valentina", "es": "Don Aurelio podría hacerlo. Es muy responsable, conoce la casa mejor que nadie y le vendría bien ganar un poco más. Yo me encargo de las reservas desde aquí, que eso se hace con el celular.", "zh": "奥雷利奥先生可以做。他很靠得住，比谁都熟悉那座房子，多挣一点对他也有好处。预订的事我在这边管，用手机就能弄。"},
+            {"v": "男2", "who": "Andrés", "es": "Mira, no te voy a decir que no, pero tampoco quiero que esto se alargue por años. Hagamos una cosa: lo intentamos durante un año. Si en ese tiempo el alquiler no cubre por lo menos los gastos, la vendemos y no se habla más.", "zh": "这样吧，我不会说不行，但我也不想这事一拖好几年。我们这么办：先试一年。如果这一年里租金连开销都抵不上，我们就卖掉，不再多说。"},
+            {"v": "女4", "who": "Valentina", "es": "Me parece justo, la verdad. Y al señor que quiere comprarla, dile que lo vamos a pensar con calma, pero sin cerrarle la puerta.", "zh": "说真的，我觉得这样很公平。至于那位想买的先生，你就跟他说我们要慢慢考虑，但也不把话说死。"},
+            {"v": "男2", "who": "Andrés", "es": "De acuerdo, así se lo digo. Y en diciembre nos vamos todos para la finca, que hace años que no estamos allá juntos.", "zh": "好，我就这么跟他说。十二月我们全家都去庄园吧，我们好几年没一起去那儿了。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "preguntas": [
+        {"n": 7, "audio": "1", "enunciado": "Al principio de la conversación, ¿qué le ofrece el propietario a la inquilina?", "opciones": ["Mandarle al plomero que ella conoce.", "Repetir el arreglo que ya se hizo en marzo.", "Hacer una obra grande en el baño cuanto antes."], "clave": "B", "explicacion": "房东说“lo que yo puedo hacer ahorita es mandarle a mi pintor el martes”，即像三月那样再刷一遍漆。A 错：水管工是房客自己认识的；C 错：他认为开墙是大工程，“habría que platicarlo con calma”。"},
+        {"n": 8, "audio": "1", "enunciado": "¿En qué quedan finalmente el propietario y la inquilina?", "opciones": ["Él le hará un descuento en la renta por las molestias.", "Ella buscará un plomero y él pagará la factura.", "Él la compensará por lo que perdió y mandará a un plomero."], "clave": "C", "explicacion": "房东提出“reponerle los zapatos y que mi plomero vaya el jueves”，房客说“Me parece justo”。A 错：减租他说“no se lo puedo prometer”；B 错：去的是房东的水管工，不用房客去找。"},
+        {"n": 9, "audio": "2", "enunciado": "¿Por qué Lucía no quiere aceptar sin más lo que pide el cliente?", "opciones": ["Porque cree que las prisas perjudicarían la calidad del trabajo.", "Porque el dueño de la empresa siempre discute el presupuesto.", "Porque las fotos del año pasado no sirven para la nueva campaña."], "clave": "A", "explicacion": "露西亚说团队已满负荷、照片还没拍，“Si aceptamos así como está, vamos a entregar algo flojo”，即仓促完成会影响质量。B 是马丁说的他自己上次和老板因预算吵架，不是露西亚的理由；C 与原文相反，她恰恰打算用去年的照片做海报。"},
+        {"n": 10, "audio": "2", "enunciado": "¿Qué deciden hacer Lucía y Martín?", "opciones": ["Rechazar el nuevo plazo y mantener el calendario previsto.", "Que Martín llame al cliente él solo para convencerlo.", "Proponer al cliente que la campaña salga en dos fases."], "clave": "C", "explicacion": "露西亚提议“dividir la campaña”：先出电台广告和海报，视频“para quince días después”，马丁同意（“Trato hecho”）。A 错：他们并不拒绝，只是分阶段；B 错：露西亚说“Lo llamamos juntos esta tarde”。"},
+        {"n": 11, "audio": "3", "enunciado": "Según la empleada, la empresa no puede hacerse cargo del espejo porque…", "opciones": ["no estaba incluido en el inventario que había aprobado la clienta.", "se rompió cuando la clienta ya lo había desembalado.", "la clienta lo envolvió sin ayuda de los operarios."], "clave": "A", "explicacion": "职员说保险“solo cubre los objetos que figuran en esa lista”，而客户签字的清单上没有镜子。B 错：职员没说镜子是拆包后碎的；C 与原文相反：“lo envolvieron sus propios operarios”。"},
+        {"n": 12, "audio": "3", "enunciado": "¿Qué decide hacer la clienta?", "opciones": ["Quedarse con el descuento y olvidarse del espejo.", "Aceptar la reparación de la mesa y reclamar por el espejo.", "Buscar por su cuenta a alguien que le restaure la mesa."], "clave": "B", "explicacion": "客户说“Prefiero que venga el restaurador”，还要“poner una reclamación por escrito”。A 错：她说钱对她没用，也不放过镜子的事；C 错：修复师是公司派来的合作者，不是她自己找。"},
+        {"n": 13, "audio": "4", "enunciado": "¿Qué inconveniente ve Andrés en la idea de su hermana?", "opciones": ["Que a los turistas no les atraería una zona tan apartada.", "Que don Aurelio no estaría dispuesto a trabajar más.", "Que ninguno de los dos vive cerca para ocuparse del negocio."], "clave": "C", "explicacion": "安德烈斯问“¿quién se encarga de todo eso?”，并指出两人分别住在波哥大和麦德林，庄园“nos queda lejísimos a los dos”。A 错：“距离远”说的是兄妹，不是游客，妹妹还认为风景能吸引游客；B 错：他没说管家不愿意，是妹妹提议让管家来做。"},
+        {"n": 14, "audio": "4", "enunciado": "¿Qué acuerdan finalmente los hermanos?", "opciones": ["Poner a prueba el alquiler durante un plazo limitado.", "Venderle la finca al comprador antes de que acabe el año.", "Rechazar definitivamente la oferta del comprador."], "clave": "A", "explicacion": "安德烈斯提议“lo intentamos durante un año”，租金抵不上开销再卖，妹妹表示同意。B 错：十二月是全家去庄园，不是卖掉；C 错：他们对买家“sin cerrarle la puerta”。"}
+      ]
+    },
+    {
+      "n": 3,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar una entrevista radiofónica a una actriz de doblaje. La escuchará dos veces. Después debe contestar a las preguntas, de la 15 a la 20. Seleccione la respuesta correcta entre las tres opciones. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到一段对一位配音演员的电台访谈，录音播放两遍。请回答第 15—20 题，从三个选项中选出正确答案。请把答案涂在答题卡上。",
+      "tema_zh": "电台访谈：一位定居墨西哥城的阿根廷配音演员谈她怎样入行、“中性西语”、配音最难的地方、西班牙与拉美配音之争、人工合成声音的问题和给年轻人的建议。嘉宾是阿根廷人（说话中带出 vos 的动词变位：tenés、grabás，以及 lindo、un peso、enojarte），主持人用西班牙半岛的说法。",
+      "audios": [
+        {
+          "id": "1",
+          "rotulo": "",
+          "presentacion": "A continuación, escuchará una entrevista a Valeria Sosa, actriz de doblaje argentina que trabaja en México.",
+          "segs": [
+            {"v": "男2", "who": "Presentador", "es": "Buenas tardes y bienvenidos a Voces de la tarde. Hoy nos acompaña Valeria Sosa, actriz de doblaje argentina que vive en Ciudad de México desde hace casi veinte años. Si ustedes han visto dibujos animados con doblaje latinoamericano en la última década, es muy probable que la hayan escuchado sin saberlo. Valeria, muchas gracias por venir.", "zh": "下午好，欢迎收听《午后之声》。今天的嘉宾是巴莱里娅·索萨，一位在墨西哥城生活了将近二十年的阿根廷配音演员。各位如果在过去十年里看过拉美西语配音的动画片，很可能听过她的声音而不自知。巴莱里娅，非常感谢您来。"},
+            {"v": "女3", "who": "Valeria Sosa", "es": "Gracias a ustedes por invitarme. Y sí, eso de que me escuchen sin saber quién soy es, en el fondo, la mejor definición de mi trabajo. Si al salir del cine el público se acuerda de mí, es que algo hice mal.", "zh": "谢谢你们邀请我。没错，大家听到我的声音却不知道我是谁，说到底，这正是对我这份工作最好的定义。如果观众走出电影院还记得我，那就说明我哪里做得不好。"},
+            {"v": "男2", "who": "Presentador", "es": "¿Cómo llegó usted al doblaje? Supongo que no es una profesión con la que una sueña de niña.", "zh": "您是怎么进入配音这一行的？我想这不是小女孩会梦想的职业吧。"},
+            {"v": "女3", "who": "Valeria Sosa", "es": "Para nada, yo quería ser actriz de teatro. Estudié actuación en Buenos Aires y vine a México con una obra que iba a estar tres meses en cartel. La obra fracasó a las dos semanas y me quedé sin trabajo en una ciudad donde no conocía a nadie. Una compañera del elenco me llevó a una prueba en un estudio, casi para que no me deprimiera encerrada en el hotel. Me dieron un papel de dos frases en una serie juvenil. Me salió horrible, pero el director vio algo en mí y me volvió a llamar al mes siguiente.", "zh": "完全不是，我本来想当话剧演员。我在布宜诺斯艾利斯学表演，随一部原定演三个月的戏来到墨西哥。结果戏两周就砸了，我在一个谁也不认识的城市失了业。剧组的一位同事带我去一家录音棚参加试音，差不多是为了不让我闷在酒店里消沉。他们给了我一部青少年剧里只有两句台词的角色。我配得糟透了，但导演在我身上看到了点什么，下个月又叫我去了。"},
+            {"v": "男2", "who": "Presentador", "es": "Usted es argentina, pero en sus personajes no se le nota en absoluto. ¿Cómo se consigue eso?", "zh": "您是阿根廷人，可在您配的角色里完全听不出来。这是怎么做到的？"},
+            {"v": "女3", "who": "Valeria Sosa", "es": "Con muchísimo trabajo y, al principio, con bastante sufrimiento. En el doblaje para toda Latinoamérica usamos lo que llamamos español neutro, que en realidad no es el español de ningún lugar. Es un acuerdo entre profesionales: evitamos las palabras demasiado locales, cuidamos mucho la entonación y, por supuesto, no usamos el vos. Durante los primeros años yo grababa una toma y el director me paraba: ahí se te escapó Buenos Aires, otra vez. Hoy me sale sin pensar, pero en casa, con mis hijos, sigo hablando como una porteña de toda la vida.", "zh": "靠大量的练习，一开始还挺痛苦的。给整个拉丁美洲配音时，我们用所谓的“中性西语”，其实它不是任何地方的西班牙语。这是业内的一种约定：避免太地方化的词，特别注意语调，当然也不用 vos。头几年我每录一条，导演就会叫停：这里又冒出布宜诺斯艾利斯腔了。现在不用想就能做到，但在家里跟孩子们说话，我还是一口地道的布宜诺斯艾利斯腔。"},
+            {"v": "男2", "who": "Presentador", "es": "Mucha gente cree que lo más importante en su oficio es tener una voz bonita. ¿De verdad es así?", "zh": "很多人以为您这一行最重要的是嗓音好听。是这样吗？"},
+            {"v": "女3", "who": "Valeria Sosa", "es": "Ese es el gran malentendido de esta profesión. Una voz agradable ayuda, claro, pero no es lo esencial. Lo difícil es actuar en un segundo y medio, que es lo que dura a veces una frase en pantalla. Tenés que reír, llorar o enojarte exactamente cuando el actor original abre la boca, y además respirar donde él respira. Y casi siempre grabás sola, sin el compañero con el que se supone que estás discutiendo. Para alguien que viene del teatro, donde todo depende de la mirada del otro, eso al principio es desconcertante.", "zh": "这是对这个职业最大的误解。嗓音好听当然有帮助，但不是关键。难的是在一秒半里完成表演，屏幕上一句台词有时就这么长。你得在原版演员张嘴的那一刻笑、哭或者发火，还得在他换气的地方换气。而且几乎总是一个人录，那个照理说正在和你吵架的搭档并不在场。对一个从舞台出来、一切都靠和对方眼神交流的人来说，这一开始很让人不知所措。"},
+            {"v": "男2", "who": "Presentador", "es": "En España se doblan muchas de las mismas películas, pero con otras voces. ¿Existe rivalidad entre los dos doblajes?", "zh": "在西班牙，很多同样的电影也会配音，只是换了别的声音。这两种配音之间有竞争吗？"},
+            {"v": "女3", "who": "Valeria Sosa", "es": "Entre los profesionales, ninguna. Nos conocemos, colaboramos en festivales y nos admiramos mutuamente. Otra cosa es el público. En las redes sociales, cada vez que se estrena una película, empieza la guerra. Unos dicen que el doblaje español suena exagerado, y otros, que el latinoamericano parece de telenovela. Yo estoy convencida de que cada uno defiende lo que escuchó de niño. No es una cuestión de calidad, sino de memoria afectiva. A mí, por ejemplo, el doblaje español me encanta porque me recuerda unas vacaciones en Madrid, y nada más.", "zh": "在从业者之间，完全没有。我们彼此认识，在电影节上合作，互相欣赏。观众就是另一回事了。每次有电影上映，社交网络上就开战：有人说西班牙配音听起来太夸张，有人说拉美配音像电视连续剧。我确信每个人维护的都是自己小时候听惯的东西。这不是质量问题，而是情感记忆的问题。拿我来说，我很喜欢西班牙配音，因为它让我想起在马德里度过的一个假期，仅此而已。"},
+            {"v": "男2", "who": "Presentador", "es": "Hablemos ahora un poco del futuro. Ya existen programas capaces de imitar una voz humana con unos pocos minutos de grabación. ¿A usted le da miedo?", "zh": "现在我们谈谈未来吧。现在已经有程序只要几分钟的录音就能模仿人的声音。您害怕吗？"},
+            {"v": "女3", "who": "Valeria Sosa", "es": "Miedo no es la palabra. Me inspira respeto y, sobre todo, me indigna la forma en que se está haciendo. Hace un año me enteré de que una aplicación usaba la voz de uno de mis personajes más conocidos para leer anuncios. Nadie me había pedido permiso ni me había pagado un peso. Lo que me preocupa no es que la máquina me sustituya mañana, porque todavía no sabe actuar. Me preocupa que se use nuestra voz sin contrato y sin consentimiento. Por eso en el sindicato estamos peleando para que cada contrato diga con claridad para qué se puede usar una grabación y para qué no.", "zh": "“害怕”不是恰当的词。它让我心存敬畏，但更让我气愤的是现在的做法。一年前我得知，有个应用程序用我最出名的一个角色的声音来念广告。没有人征求过我的同意，也没付我一分钱。我担心的不是机器明天就取代我，因为它还不会表演。我担心的是有人在没有合同、没有许可的情况下使用我们的声音。所以我们在工会里正在争取，让每份合同都写清楚一段录音可以用来做什么、不可以用来做什么。"},
+            {"v": "男2", "who": "Presentador", "es": "Para terminar, ¿qué le diría a un joven que sueña con dedicarse a esto?", "zh": "最后，您会对一个梦想从事这一行的年轻人说什么？"},
+            {"v": "女3", "who": "Valeria Sosa", "es": "Que se olvide un poco de su voz y aprenda a actuar. Que haga teatro y que lea mucho en voz alta. Y que escuche con atención cómo habla la gente en la calle, en el mercado, en el metro. También que se arme de paciencia, porque los primeros años se cobra poco y se espera mucho. A mí me costó cinco años poder vivir solo del doblaje. Pero si le gusta contar historias sin que nadie le vea la cara, no hay oficio más lindo en el mundo.", "zh": "先别太在意自己的嗓音，去学表演。多演话剧，多朗读，留心听街上、市场里、地铁里的人怎么说话。还要有耐心，因为头几年挣得少、等得多。我花了五年才能只靠配音养活自己。但如果你喜欢在没人看到你脸的情况下讲故事，世界上没有比这更美的职业了。"},
+            {"v": "男2", "who": "Presentador", "es": "Muchísimas gracias por todo, Valeria. Ha sido un placer escucharla, por una vez, sabiendo quién es.", "zh": "非常感谢您，巴莱里娅。很高兴这一次能在知道您是谁的情况下听您说话。"},
+            {"v": "女3", "who": "Valeria Sosa", "es": "El placer fue mío. Muchas gracias a todos los oyentes.", "zh": "这是我的荣幸。谢谢各位听众。"}
+          ],
+          "pregunta_oral": "",
+          "clave": "",
+          "explicacion": ""
+        }
+      ],
+      "preguntas": [
+        {"n": 15, "audio": "1", "enunciado": "¿Cómo empezó Valeria a trabajar en el doblaje?", "opciones": ["Se trasladó a México con la idea de dedicarse a ello.", "Acudió a una prueba por iniciativa de una colega.", "Un director se fijó en ella durante una función de teatro."], "clave": "B", "explicacion": "她说戏失败后失业，“Una compañera del elenco me llevó a una prueba en un estudio”。A 错：她来墨西哥是为了演一部话剧；C 错：导演是在试音、配那两句台词时看中她的，不是在剧场里。"},
+        {"n": 16, "audio": "1", "enunciado": "Según Valeria, el llamado español neutro…", "opciones": ["es la variedad que se habla en Ciudad de México.", "ha terminado por sustituir su manera de hablar en familia.", "es una convención que no se habla en ningún país."], "clave": "C", "explicacion": "她说中性西语“no es el español de ningún lugar. Es un acuerdo entre profesionales”。A 错：它不是任何地方（包括墨西哥城）的口语；B 错：她在家里“sigo hablando como una porteña”。"},
+        {"n": 17, "audio": "1", "enunciado": "Para Valeria, lo más difícil de su trabajo es…", "opciones": ["actuar ajustándose al ritmo exacto de la imagen.", "contar con una voz que le resulte agradable al público.", "aprender a grabar en grupo con otros actores."], "clave": "A", "explicacion": "“Lo difícil es actuar en un segundo y medio”：要在原版演员张嘴时表演、在他换气处换气，即与画面节奏严格同步。B 是她说的“gran malentendido”；C 与原文相反：“casi siempre grabás sola”。"},
+        {"n": 18, "audio": "1", "enunciado": "Sobre la polémica entre el doblaje español y el latinoamericano, Valeria cree que…", "opciones": ["refleja una competencia real entre los profesionales de ambos lados.", "demuestra que el doblaje latinoamericano suena más natural.", "tiene más que ver con los recuerdos de infancia que con la calidad."], "clave": "C", "explicacion": "她说“cada uno defiende lo que escuchó de niño. No es una cuestión de calidad, sino de memoria afectiva”。A 错：从业者之间“ninguna”竞争；B 错：她只转述网上两派的说法，没有评判哪种更自然。"},
+        {"n": 19, "audio": "1", "enunciado": "¿Qué es lo que más le preocupa a Valeria de las voces artificiales?", "opciones": ["Que sustituyan muy pronto a los actores en todos los papeles.", "Que se utilicen las voces de los actores sin su consentimiento.", "Que el sindicato no esté dispuesto a negociar nuevos contratos."], "clave": "B", "explicacion": "“Me preocupa que se use nuestra voz sin contrato y sin consentimiento”，并举了应用擅用她角色声音的例子。A 错：“no es que la máquina me sustituya mañana”；C 错：工会正争取把合同写清楚。"},
+        {"n": 20, "audio": "1", "enunciado": "¿Qué recomienda Valeria a quienes quieren dedicarse al doblaje?", "opciones": ["Que se formen antes como actores.", "Que cuiden su voz por encima de todo lo demás.", "Que no acepten trabajos mal pagados al empezar."], "clave": "A", "explicacion": "她的建议是“Que se olvide un poco de su voz y aprenda a actuar. Que haga teatro”。B 与“se olvide un poco de su voz”相反；C 错：她说头几年“se cobra poco”，要有耐心，没劝人拒绝低薪工作。"}
+      ]
+    },
+    {
+      "n": 4,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar diez diálogos breves en los que aparecen expresiones propias de la lengua hablada. Escuchará cada diálogo dos veces. Después debe contestar a las preguntas, de la 21 a la 30. Seleccione la respuesta correcta entre las tres opciones. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "你将听到十段简短对话，对话中有口语中常用的习惯表达。每段播放两遍。请回答第 21—30 题，从三个选项中选出正确答案。请把答案涂在答题卡上。",
+      "tema_zh": "十段日常短对话（西班牙半岛的说法），每段考一个习语：dar largas、hacer la vista gorda、buscarle tres pies al gato、salir rana、a buenas horas, mangas verdes、cortar por lo sano、no dar su brazo a torcer、hacer su agosto、consultarlo con la almohada、llover sobre mojado。",
+      "audios": [
+        {"id": "1", "rotulo": "Diálogo 1", "presentacion": "", "segs": [
+          {"v": "女3", "who": "Elena", "es": "Oye, ¿al final te ha contestado el director sobre lo del aumento de sueldo?", "zh": "哎，主任最后回复你加薪的事了吗？"},
+          {"v": "男2", "who": "Jorge", "es": "Qué va, cada vez que le pregunto me dice que ahora está muy liado y que lo hablamos la semana que viene. Ya van tres meses así; me está dando largas.", "zh": "哪儿啊，我每次问，他都说现在太忙，下周再谈。已经这样三个月了，他是在拖着我。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "2", "rotulo": "Diálogo 2", "presentacion": "", "segs": [
+          {"v": "男2", "who": "Tomás", "es": "¿Has visto que el vecino del tercero sigue aparcando la moto en la entrada del garaje, aunque está prohibido?", "zh": "你看到没有，三楼那个邻居还在车库入口停摩托车，尽管那是禁止的？"},
+          {"v": "女1", "who": "Nuria", "es": "Claro que lo he visto, y el conserje también. Pero como el vecino le da buenas propinas en Navidad, hace la vista gorda.", "zh": "我当然看到了，门房也看到了。可是那个邻居圣诞节给他的小费很丰厚，所以他就睁一只眼闭一只眼。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "3", "rotulo": "Diálogo 3", "presentacion": "", "segs": [
+          {"v": "男2", "who": "Raúl", "es": "Antes de alquilar la furgoneta para la mudanza, quiero comparar otras tres ofertas y que un abogado revise el contrato.", "zh": "搬家租面包车之前，我想再比较另外三家的报价，还要请律师看看合同。"},
+          {"v": "女2", "who": "Inés", "es": "¿Un abogado para un fin de semana? Deja ya de buscarle tres pies al gato, que esto es más sencillo de lo que parece.", "zh": "租一个周末还要请律师？别再自找麻烦了，这事比看上去简单。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "4", "rotulo": "Diálogo 4", "presentacion": "", "segs": [
+          {"v": "男2", "who": "Pablo", "es": "Oye, ¿qué tal el cocinero nuevo del restaurante? Cuando lo contratasteis decías que tenía un currículum impresionante.", "zh": "哎，餐厅新来的厨师怎么样？你们雇他的时候你说他的履历很亮眼。"},
+          {"v": "女4", "who": "Silvia", "es": "Ya, eso pensábamos todos, pero nos ha salido rana: llega tarde, los platos salen fríos y los clientes se quejan cada noche.", "zh": "是啊，我们当时都这么想，可他让我们大失所望：总迟到，菜端出去是凉的，客人每天晚上都投诉。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "5", "rotulo": "Diálogo 5", "presentacion": "", "segs": [
+          {"v": "女4", "who": "Marta", "es": "Oye, si quieres, este sábado te ayudo a pintar el piso, que por fin tengo la tarde libre.", "zh": "哎，你要是愿意，这个星期六我帮你刷房子吧，我终于有一个下午空出来了。"},
+          {"v": "男2", "who": "Diego", "es": "¿Ahora me lo ofreces? A buenas horas, mangas verdes. Terminé de pintarlo yo solo el domingo pasado y todavía me duele la espalda.", "zh": "现在才说？早干什么去了。我上个星期天一个人刷完了，到现在背还疼。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "6", "rotulo": "Diálogo 6", "presentacion": "", "segs": [
+          {"v": "女1", "who": "Rosa", "es": "¿Sigues compartiendo piso con aquel chico que nunca pagaba su parte del alquiler a tiempo?", "zh": "你还和那个从来不按时交房租的男生合租吗？"},
+          {"v": "女2", "who": "Carmen", "es": "Ya no, se acabó. Después de seis meses de excusas, corté por lo sano: le di dos semanas para buscarse otro sitio y ahora vivo sola.", "zh": "不了，结束了。找了六个月的借口之后，我干脆一刀两断：给他两个星期另找住处，现在我一个人住。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "7", "rotulo": "Diálogo 7", "presentacion": "", "segs": [
+          {"v": "男2", "who": "Óscar", "es": "¿Y tu padre, ya usa el bastón que le recomendó el médico después de la caída?", "zh": "你父亲呢，摔倒以后医生建议他用的拐杖，他用了吗？"},
+          {"v": "女3", "who": "Laura", "es": "Para nada, dice que eso es para viejos y que él camina perfectamente. Se lo hemos pedido mil veces, pero no da su brazo a torcer.", "zh": "根本没有，他说那是老年人用的，他走路好得很。我们求了他无数次，可他就是不肯让步。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "8", "rotulo": "Diálogo 8", "presentacion": "", "segs": [
+          {"v": "女2", "who": "Sara", "es": "¡Menuda tormenta cayó durante el concierto del parque! Todo el mundo salió empapado.", "zh": "公园音乐会的时候下了好大一场暴雨！所有人出来都湿透了。"},
+          {"v": "男2", "who": "Iván", "es": "Todo el mundo no. Los que vendían paraguas y chubasqueros en la entrada hicieron su agosto: los vendían a quince euros y se quedaron sin ninguno en media hora.", "zh": "也不是所有人。在入口卖雨伞和雨衣的人可发了一笔：一把卖十五欧元，半个小时就卖光了。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "9", "rotulo": "Diálogo 9", "presentacion": "", "segs": [
+          {"v": "男2", "who": "Hugo", "es": "Entonces, ¿qué vas a hacer con la oferta de Lisboa? La empresa quiere una respuesta antes del lunes.", "zh": "那么，里斯本那份工作你打算怎么办？公司要你星期一之前答复。"},
+          {"v": "女1", "who": "Alba", "es": "No lo sé todavía. Es un buen puesto, pero tendría que dejar aquí a mi familia. Lo consultaré con la almohada y mañana te cuento.", "zh": "我还不知道。职位是不错，可我得把家人留在这里。我睡一觉好好想想，明天告诉你。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "10", "rotulo": "Diálogo 10", "presentacion": "", "segs": [
+          {"v": "女3", "who": "Teresa", "es": "¿Cómo va la cooperativa después de la sequía del verano? Perdisteis casi media cosecha, ¿no?", "zh": "夏天大旱以后，合作社怎么样了？你们差不多损失了一半收成吧？"},
+          {"v": "女4", "who": "Amparo", "es": "Pues imagínate, y ahora el banco nos ha subido los intereses del préstamo. Esto es llover sobre mojado; no sé cuánto más vamos a aguantar.", "zh": "你想想看，现在银行又提高了我们贷款的利息。这真是雪上加霜，我不知道我们还能撑多久。"}
+        ], "pregunta_oral": "", "clave": "", "explicacion": ""}
+      ],
+      "preguntas": [
+        {"n": 21, "audio": "1", "enunciado": "¿Qué quiere decir el hombre sobre el director?", "opciones": ["Que le ha prometido el aumento para la semana próxima.", "Que va aplazando la respuesta sin comprometerse.", "Que le ha negado el aumento sin darle explicaciones."], "clave": "B", "explicacion": "“dar largas”指一再推迟、拖着不给明确答复。主任每次都说“lo hablamos la semana que viene”，已经三个月。A 错：他只说下周“谈”，没有答应加薪；C 错：主任没有拒绝，只是一直拖。"},
+        {"n": 22, "audio": "2", "enunciado": "Según la mujer, el conserje…", "opciones": ["finge no enterarse de lo que hace el vecino.", "no ha visto la moto porque casi nunca vigila la entrada.", "ya le ha dicho al vecino que está prohibido aparcar allí."], "clave": "A", "explicacion": "“hacer la vista gorda”指明明知道却假装没看见、不加干涉。女士说“lo he visto, y el conserje también”，因为收了小费才不管。B 错：门房是看到了的；C 错：门房因为收了小费才不管，并没有去提醒那位邻居。"},
+        {"n": 23, "audio": "3", "enunciado": "¿Qué le reprocha la mujer al hombre?", "opciones": ["Que está gastando demasiado dinero en la mudanza.", "Que se fía demasiado de lo que dicen los contratos.", "Que complica sin motivo algo que es fácil."], "clave": "C", "explicacion": "“buscarle tres pies al gato”指把简单的事情复杂化、自找麻烦，后面一句“esto es más sencillo de lo que parece”也说明了这一点。A 错：她没谈花多少钱；B 错：男士恰恰是对合同不放心才要请律师。"},
+        {"n": 24, "audio": "4", "enunciado": "¿Qué quiere decir la mujer sobre el cocinero?", "opciones": ["Que ha superado lo que esperaban de él.", "Que tiene un carácter difícil con sus compañeros.", "Que no ha estado a la altura de lo esperado."], "clave": "C", "explicacion": "“salir rana”指（人或事）令人失望、没达到预期。他们本以为“tenía un currículum impresionante”，结果迟到、菜凉、客人投诉。A 与之相反；B 错：她列举的是工作表现，没有说他和同事相处不好。"},
+        {"n": 25, "audio": "5", "enunciado": "¿Qué expresa el hombre?", "opciones": ["Que la ayuda llega cuando ya no le sirve.", "Que prefiere hacer las cosas sin ayuda de nadie.", "Que acepta el ofrecimiento para el próximo fin de semana."], "clave": "A", "explicacion": "“A buenas horas, mangas verdes”用来抱怨帮助或东西来得太晚、已经没用了：房子“Terminé de pintarlo yo solo el domingo pasado”。B 错：他一个人刷是因为没人帮，不是喜欢独自做；C 错：活已经干完，他并没有接受。"},
+        {"n": 26, "audio": "6", "enunciado": "¿Qué ha hecho la mujer que compartía piso?", "opciones": ["Ha pactado con el chico un plazo para pagar lo que debía.", "Ha acabado de raíz con un problema que se alargaba.", "Ha decidido concederle al chico una última oportunidad."], "clave": "B", "explicacion": "“cortar por lo sano”指采取果断措施彻底解决拖延已久的问题。六个月的借口之后，她让对方两周内搬走，“ahora vivo sola”。A 错：两周是让他另找住处，不是还钱的期限；C 错：“se acabó”，没有再给机会。"},
+        {"n": 27, "audio": "7", "enunciado": "¿Qué dice la mujer de su padre?", "opciones": ["Que se mantiene firme en su postura.", "Que se hizo daño en el brazo al caerse.", "Que al final ha aceptado el consejo del médico."], "clave": "A", "explicacion": "“no dar su brazo a torcer”指固执己见、不肯让步：家人求了“mil veces”，他还是坚持不用拐杖。B 是按字面理解“brazo”的干扰项，对话没说他伤了胳膊；C 与“no da su brazo a torcer”正好相反。"},
+        {"n": 28, "audio": "8", "enunciado": "¿Qué quiere decir el hombre sobre los vendedores?", "opciones": ["Que solo trabajan durante los meses de verano.", "Que se mojaron tanto como el público del concierto.", "Que sacaron mucho provecho de la situación."], "clave": "C", "explicacion": "“hacer su agosto”指趁机大赚一笔：雨伞雨衣“a quince euros”，半小时卖光。A 是按字面“agosto（八月）”理解的干扰项；B 错：他说“Todo el mundo no”，正是要把卖伞的人排除在“倒霉的人”之外。"},
+        {"n": 29, "audio": "9", "enunciado": "¿Qué va a hacer la mujer?", "opciones": ["Hablar esta noche con su familia antes de decidir.", "Pensarlo con calma antes de responder.", "Rechazar el puesto para quedarse con su familia."], "clave": "B", "explicacion": "“consultarlo con la almohada”指睡一觉、给自己时间好好考虑再做决定，所以她说“mañana te cuento”。A 错：习语里的“consultar”不是和家人商量；C 错：她“No lo sé todavía”，还没决定拒绝。"},
+        {"n": 30, "audio": "10", "enunciado": "¿Qué quiere decir la mujer que trabaja en la cooperativa?", "opciones": ["Que las lluvias han vuelto a dañar los cultivos.", "Que confía en que la situación mejore pronto.", "Que a un problema se le ha sumado otro."], "clave": "C", "explicacion": "“llover sobre mojado”指祸不单行：旱灾损失近一半收成之后，银行又“nos ha subido los intereses”。A 是字面理解的干扰项，对话说的是“sequía”（干旱），不是下雨；B 错：她说“no sé cuánto más vamos a aguantar”。"}
+      ]
+    }
+  ]
+}
