@@ -1,0 +1,295 @@
+{
+  "nivel": "B2",
+  "prueba": "Comprensión auditiva",
+  "zh": "听力理解",
+  "duracion_min": 40,
+  "intro_es": "La prueba de Comprensión auditiva contiene cinco tareas. Usted tiene que responder a 30 preguntas. Duración: 40 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar seis conversaciones breves. Escuchará cada conversación dos veces. Después debe contestar a las preguntas, de la 1 a la 6. Seleccione la opción correcta. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "您将听到六段简短的对话，每段播放两遍。听后回答第 1—6 题，选出正确的选项。请把答案涂在答题卡上。",
+      "tema_zh": "六段简短对话，话题依次是工作、消费、健康、城市、教育和科技，考说话人的意图、态度和言外之意（第 6 段的巴莱里娅是墨西哥人，用 celular、bajar 和简单过去时 ¿ya bajaste?）",
+      "audios": [
+        {"id": "1", "rotulo": "Conversación 1", "presentacion": "",
+         "segs": [
+           {"v": "女2", "who": "Marta", "es": "Jorge, ¿podrías presentar tú el informe en la reunión del jueves? Tengo médico a esa hora.", "zh": "豪尔赫，星期四开会时的报告你能替我讲吗？那个时间我要去看医生。"},
+           {"v": "男2", "who": "Jorge", "es": "Lo siento, ese día estoy toda la mañana con unos clientes. Pídeselo a Sergio, que conoce bien el proyecto.", "zh": "抱歉，那天我一上午都要陪客户。你去请塞尔吉奥吧，他很了解这个项目。"},
+           {"v": "女2", "who": "Marta", "es": "Ya, pero Sergio siempre dice que sí y luego se le olvida.", "zh": "是啊，可塞尔吉奥总是满口答应，过后就忘了。"},
+           {"v": "男2", "who": "Jorge", "es": "Pues mándale un correo, y así te queda por escrito.", "zh": "那你就给他发封邮件，这样就有书面记录了。"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "2", "rotulo": "Conversación 2", "presentacion": "",
+         "segs": [
+           {"v": "女3", "who": "Clienta", "es": "Buenas tardes, compré esta cafetera hace tres semanas y ya no funciona. Quería que me devolvieran el dinero.", "zh": "下午好，这台咖啡机我三个星期前买的，现在已经坏了。我想退款。"},
+           {"v": "女1", "who": "Dependienta", "es": "Lo siento, señora, el plazo para devoluciones es de quince días. Eso sí, la reparación es gratuita porque está en garantía.", "zh": "很抱歉，女士，退货期限是十五天。不过它还在保修期内，修理是免费的。"},
+           {"v": "女3", "who": "Clienta", "es": "¿Y cuánto tardarán en arreglarla? La uso todas las mañanas.", "zh": "那修好要多久？我每天早上都要用。"},
+           {"v": "女1", "who": "Dependienta", "es": "Unas dos semanas, pero mientras tanto podemos dejarle otra de préstamo.", "zh": "大概两个星期，不过这段时间我们可以先借给您一台。"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "3", "rotulo": "Conversación 3", "presentacion": "",
+         "segs": [
+           {"v": "女4", "who": "Irene", "es": "Pablo, ¿qué tal la espalda? ¿Fuiste al fisioterapeuta que te recomendé?", "zh": "巴勃罗，你的背怎么样了？我推荐的那个理疗师你去看了吗？"},
+           {"v": "男2", "who": "Pablo", "es": "Fui dos veces y me alivió bastante. Pero me mandó unos ejercicios para hacer en casa todos los días, y eso ya es otra historia.", "zh": "去了两次，缓解了不少。可他让我每天在家做一些练习，那就是另一回事了。"},
+           {"v": "女4", "who": "Irene", "es": "¿Y no los estás haciendo?", "zh": "那你没在做吗？"},
+           {"v": "男2", "who": "Pablo", "es": "Digamos que los hago cuando me acuerdo, que no es muy a menudo.", "zh": "这么说吧，想起来的时候就做，可我不怎么想得起来。"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "4", "rotulo": "Conversación 4", "presentacion": "",
+         "segs": [
+           {"v": "女1", "who": "Carmen", "es": "¿Has visto la plaza? Han quitado todos los bancos y han puesto unas jardineras enormes.", "zh": "你看到广场了吗？长椅全拆了，摆上了一些巨大的花槽。"},
+           {"v": "女3", "who": "Rosa", "es": "Ya lo he visto. Muy bonito, justo lo que nos faltaba. Ahora los mayores, que iban allí a sentarse, pueden admirar las flores de pie.", "zh": "看到了。真“漂亮”啊，这下可好了。以前去那儿坐坐的老人们，现在可以站着赏花了。"},
+           {"v": "女1", "who": "Carmen", "es": "Dicen que así nadie hará ruido por la noche.", "zh": "听说这样晚上就没人在那儿吵闹了。"},
+           {"v": "女3", "who": "Rosa", "es": "Pues vaya solución: por unos pocos, nos quedamos todos sin sitio.", "zh": "这算什么办法：因为少数几个人，我们大家都没地方坐了。"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "5", "rotulo": "Conversación 5", "presentacion": "",
+         "segs": [
+           {"v": "女2", "who": "Madre", "es": "Buenas tardes, don Ernesto. Mi hija pasa casi tres horas diarias con los deberes, y nos parece excesivo.", "zh": "下午好，埃内斯托老师。我女儿每天花将近三个小时做作业，我们觉得太多了。"},
+           {"v": "男2", "who": "Profesor", "es": "Entiendo, señora, pero lo que yo mando no debería llevar más de cuarenta minutos.", "zh": "我理解，女士，不过我布置的作业应该不会超过四十分钟。"},
+           {"v": "女2", "who": "Madre", "es": "Pues ella no para en toda la tarde.", "zh": "可她整个下午都停不下来。"},
+           {"v": "男2", "who": "Profesor", "es": "Quizá convendría ver cómo se organiza en casa. En clase, cuando tiene el móvil cerca, le cuesta mucho concentrarse.", "zh": "也许应该看看她在家是怎么安排的。在课堂上，只要手机在旁边，她就很难集中注意力。"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""},
+        {"id": "6", "rotulo": "Conversación 6", "presentacion": "",
+         "segs": [
+           {"v": "女4", "who": "Valeria", "es": "Oye, Daniel, ¿ya bajaste la nueva aplicación del banco? Ahora haces todo desde el celular.", "zh": "喂，达尼埃尔，银行的新应用你下载了吗？现在什么都能在手机上办。"},
+           {"v": "男2", "who": "Daniel", "es": "La bajé, pero me pedía tantos permisos que la borré. ¿Para qué quiere saber dónde estoy o ver mis fotos?", "zh": "下载了，可它要的权限太多，我就删了。它干吗要知道我在哪儿，还要看我的照片？"},
+           {"v": "女4", "who": "Valeria", "es": "No exageres, todas las aplicaciones piden lo mismo.", "zh": "别夸张了，所有应用都要这些。"},
+           {"v": "男2", "who": "Daniel", "es": "Ese es el problema. Que todo el mundo lo acepte no significa que esté bien.", "zh": "问题就在这儿。大家都接受，并不代表这就是对的。"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""}
+      ],
+      "preguntas": [
+        {"n": 1, "audio": "1", "enunciado": "¿Qué le recomienda Jorge a Marta al final de la conversación?",
+         "opciones": ["Que cambie la hora de su cita con el médico.", "Que deje constancia de lo que le pida a Sergio.", "Que envíe el informe a los clientes por correo."],
+         "clave": "B",
+         "explicacion": "豪尔赫最后说“Pues mándale un correo, y así te queda por escrito”，即给塞尔吉奥发邮件，让请求留下书面凭据，对应 b。a：改看医生的时间，两人都没有提；c 借用了 correo 一词，但邮件是发给塞尔吉奥的，不是把报告发给客户。"},
+        {"n": 2, "audio": "2", "enunciado": "¿Qué le ofrece la dependienta a la clienta?",
+         "opciones": ["Devolverle el dinero aunque haya pasado el plazo.", "Cobrarle solo una parte de la reparación.", "Prestarle un aparato mientras arreglan el suyo."],
+         "clave": "C",
+         "explicacion": "店员说“mientras tanto podemos dejarle otra de préstamo”，即修理期间先借给顾客一台咖啡机，对应 c。a 错：退货期限是十五天，已经过了，所以不能退款；b 错：咖啡机在保修期内，“la reparación es gratuita”，不是只收一部分钱。"},
+        {"n": 3, "audio": "3", "enunciado": "¿Qué da a entender Pablo?",
+         "opciones": ["Que no sigue bien las pautas que le dieron.", "Que el tratamiento no le ha servido de nada.", "Que prefiere ir a la consulta todos los días."],
+         "clave": "A",
+         "explicacion": "巴勃罗说在家做练习“eso ya es otra historia”，又说“los hago cuando me acuerdo, que no es muy a menudo”，暗示他没有按理疗师的要求坚持练习，对应 a。b 错：他说“me alivió bastante”，治疗是有效的；c 错：“todos los días”说的是在家做练习，不是每天去诊所。"},
+        {"n": 4, "audio": "4", "enunciado": "¿Qué opina Rosa de la reforma de la plaza?",
+         "opciones": ["Que ha mejorado mucho el aspecto del barrio.", "Que acabará con el ruido de las noches.", "Que es injusta con la mayoría de los vecinos."],
+         "clave": "C",
+         "explicacion": "罗莎说的是反话：“justo lo que nos faltaba”是表示不满的固定说法（“这下可好了”），“pueden admirar las flores de pie”讽刺老人们没地方坐了；最后一句“por unos pocos, nos quedamos todos sin sitio”说明她认为因为少数人而让大多数居民受损，不公平，对应 c。a 只取了“Muy bonito”的字面意思；b 是卡门转述的改造理由，罗莎并不认同（“Pues vaya solución”）。"},
+        {"n": 5, "audio": "5", "enunciado": "¿Qué insinúa el profesor?",
+         "opciones": ["Que la alumna podría distraerse mientras estudia.", "Que va a reducir la cantidad de deberes.", "Que la alumna no entiende las explicaciones en clase."],
+         "clave": "A",
+         "explicacion": "老师说作业“no debería llevar más de cuarenta minutos”，建议“ver cómo se organiza en casa”，又提到她在课上“cuando tiene el móvil cerca, le cuesta mucho concentrarse”，暗示孩子在家写作业时可能分心，对应 a。b 错：老师认为作业不多，没有说要减少；c 错：老师说的是注意力不集中，不是听不懂讲解。"},
+        {"n": 6, "audio": "6", "enunciado": "¿Qué actitud muestra Daniel ante la aplicación?",
+         "opciones": ["Le parece muy práctico poder usarla desde el móvil.", "Desconfía de la información personal que solicita.", "Acepta sus condiciones porque son las habituales."],
+         "clave": "B",
+         "explicacion": "达尼埃尔因为应用要的权限太多而把它删了，还反问“¿Para qué quiere saber dónde estoy o ver mis fotos?”，说明他对应用索取个人信息心存戒备，对应 b。a 是巴莱里娅的看法（“Ahora haces todo desde el celular”）；c 正相反：他认为“Que todo el mundo lo acepte no significa que esté bien”。"}
+      ]
+    },
+    {
+      "n": 2,
+      "tipo": "quien",
+      "instruccion_es": "Usted va a escuchar una conversación entre dos amigos, Andrés y Lucía. Indique si los enunciados, del 7 al 12, se refieren a Andrés, a Lucía o a ninguno de los dos. Escuchará la conversación dos veces. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "您将听到两位朋友安德烈斯和露西娅的对话。请判断第 7—12 题的陈述说的是安德烈斯、露西娅，还是两人都不是。对话播放两遍。请把答案涂在答题卡上。",
+      "tema_zh": "两位朋友谈论一座翻修后的传统市场（城市生活与消费）",
+      "personas": {"A": "Andrés", "B": "Lucía"},
+      "audios": [
+        {"id": "1", "rotulo": "", "presentacion": "",
+         "segs": [
+           {"v": "女2", "who": "Lucía", "es": "Andrés, ¿has ido ya al mercado de San Lorenzo desde que lo reformaron? Yo estuve el sábado y me encantó.", "zh": "安德烈斯，圣洛伦索市场翻修以后你去过了吗？我星期六去了，特别喜欢。"},
+           {"v": "男2", "who": "Andrés", "es": "Fui la semana pasada y, te soy sincero, salí bastante desanimado. Antes había fruterías, carnicerías y pescaderías de toda la vida. Ahora casi todo son bares de tapas y puestos de comida para llevar.", "zh": "我上星期去了，说实话，出来的时候挺失望的。以前那里有开了几十年的水果店、肉店和鱼店，现在几乎全是小吃酒吧和外卖摊位。"},
+           {"v": "女2", "who": "Lucía", "es": "Bueno, algunos puestos tradicionales siguen ahí. Y el edificio ha quedado precioso. Por fin se ve la estructura de hierro original, que estaba tapada desde hacía décadas.", "zh": "嗯，有些传统摊位还在。而且建筑修得漂亮极了。原来的铁架结构被遮了几十年，现在终于露出来了。"},
+           {"v": "男2", "who": "Andrés", "es": "En eso tienes razón, la restauración está muy bien hecha. Lo que no soporto es que se haya convertido en un sitio para turistas. Un sábado por la mañana no se puede ni caminar.", "zh": "这一点你说得对，修复做得很好。我受不了的是它变成了游客去的地方。星期六上午连路都走不动。"},
+           {"v": "女2", "who": "Lucía", "es": "Pues yo creo que eso también tiene su lado bueno. Mi vecina tiene una pescadería allí y dice que vende más que nunca, porque la gente que va a tomar algo acaba comprando.", "zh": "我倒觉得这也有好的一面。我邻居在那儿开鱼店，她说生意从来没这么好过，因为去喝点东西的人最后也会买些东西。"},
+           {"v": "男2", "who": "Andrés", "es": "Eso será en su caso. Lo que yo veo es que los precios han subido muchísimo. Mi madre hacía allí la compra todos los días y ahora va al supermercado, porque no le sale a cuenta.", "zh": "那大概只是她的情况。我看到的是价格涨了一大截。我妈以前每天都在那儿买菜，现在去超市了，因为不划算。"},
+           {"v": "女2", "who": "Lucía", "es": "Eso es verdad, ya no es un mercado para la compra diaria. Aun así, antes de la reforma estaba medio vacío y cada mes cerraba algún puesto. Prefiero esto a que lo hubieran cerrado.", "zh": "这倒是，它已经不是买日常菜的市场了。尽管如此，翻修之前市场半空着，每个月都有摊位关门。比起被关掉，我宁愿是现在这样。"},
+           {"v": "男2", "who": "Andrés", "es": "Ya, pero podrían haberlo hecho de otra manera. Por ejemplo, dejando la planta baja para los puestos de alimentación y la de arriba para los bares.", "zh": "是啊，可他们本可以换个做法。比如一楼留给食品摊位，楼上给酒吧。"},
+           {"v": "女2", "who": "Lucía", "es": "Pues mira, esa idea no está nada mal. ¿Por qué no la propones en la próxima reunión de la asociación de vecinos?", "zh": "嘿，这个主意还真不错。你何不在下次居民协会开会时提出来？"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""}
+      ],
+      "enunciados": [
+        {"n": 7, "texto": "Echa de menos el tipo de comercio que había antes.", "zh": "怀念以前那类店铺。", "clave": "A",
+         "explicacion": "安德烈斯说“salí bastante desanimado”，并对比“Antes había fruterías, carnicerías y pescaderías de toda la vida”和现在的酒吧、外卖摊，流露出对传统店铺的怀念。露西娅说“me encantó”，还指出“algunos puestos tradicionales siguen ahí”，没有这种惋惜。"},
+        {"n": 8, "texto": "Cree que la reforma ha ocultado partes del edificio original.", "zh": "认为翻修把原建筑的一些部分遮住了。", "clave": "C",
+         "explicacion": "两人说的正相反：露西娅说“Por fin se ve la estructura de hierro original, que estaba tapada desde hacía décadas”，即翻修让原来的铁架重新露了出来；安德烈斯也同意“la restauración está muy bien hecha”。所以两人都没有这种看法，选 C。"},
+        {"n": 9, "texto": "Ve ventajas en que el mercado atraiga a tanta gente.", "zh": "认为市场吸引这么多人是有好处的。", "clave": "B",
+         "explicacion": "安德烈斯抱怨游客太多，露西娅接着说“eso también tiene su lado bueno”，并举邻居的鱼店“vende más que nunca”为例。安德烈斯回答“Eso será en su caso”，并不认同，所以这是露西娅的观点。"},
+        {"n": 10, "texto": "Piensa que el mercado sigue siendo adecuado para la compra diaria.", "zh": "认为这个市场仍然适合日常买菜。", "clave": "C",
+         "explicacion": "两人都认为不再适合：安德烈斯说母亲“ahora va al supermercado, porque no le sale a cuenta”；露西娅也承认“ya no es un mercado para la compra diaria”。两人说的都和陈述相反，选 C。"},
+        {"n": 11, "texto": "Piensa que, sin la reforma, el mercado habría acabado cerrando.", "zh": "认为如果没有翻修，市场最终会关门。", "clave": "B",
+         "explicacion": "露西娅说翻修前“estaba medio vacío y cada mes cerraba algún puesto”，又说“Prefiero esto a que lo hubieran cerrado”，意思是翻修让市场免于关门。安德烈斯没有谈到这一点，只说本可以换个做法。"},
+        {"n": 12, "texto": "Sugiere otra forma de distribuir el espacio del mercado.", "zh": "提出另一种安排市场空间的方式。", "clave": "A",
+         "explicacion": "安德烈斯说“podrían haberlo hecho de otra manera”，并提出“dejando la planta baja para los puestos de alimentación y la de arriba para los bares”。露西娅只是觉得这个主意不错，建议他在居民协会提出来，主意不是她的。"}
+      ]
+    },
+    {
+      "n": 3,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar una entrevista radiofónica a Ramiro Ortega, creador de una biblioteca de objetos en su barrio. Escuchará la entrevista dos veces. Después debe contestar a las preguntas, de la 13 a la 18. Seleccione la opción correcta. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "您将听到一段对拉米罗·奥尔特加的广播访谈，他在自己的街区创办了一个“物品图书馆”。访谈播放两遍。听后回答第 13—18 题，选出正确的选项。请把答案涂在答题卡上。",
+      "tema_zh": "广播访谈：一位阿根廷工程师在瓦伦西亚的街区创办出借工具和日用品的“物品图书馆”（消费与环保；嘉宾是阿根廷人，用 acá、lugar 等说法）",
+      "audios": [
+        {"id": "1", "rotulo": "", "presentacion": "",
+         "segs": [
+           {"v": "女1", "who": "Locutora", "es": "Buenas tardes y bienvenidos a Vivir mejor. Hoy nos acompaña Ramiro Ortega, un ingeniero argentino que vive en Valencia desde hace ocho años. Ramiro ha creado en su barrio una biblioteca muy especial. Ramiro, bienvenido al programa.", "zh": "下午好，欢迎收听《更好地生活》。今天我们请来了拉米罗·奥尔特加，一位在瓦伦西亚生活了八年的阿根廷工程师。拉米罗在他住的街区创办了一个非常特别的图书馆。拉米罗，欢迎来到节目。"},
+           {"v": "男2", "who": "Ramiro", "es": "Muchas gracias, Elena, es un placer estar acá.", "zh": "非常感谢，埃莱娜，很高兴来到这里。"},
+           {"v": "女1", "who": "Locutora", "es": "Cuéntenos, ¿qué se puede sacar de su biblioteca? Porque libros, precisamente, no.", "zh": "跟我们说说，在您的图书馆能借到什么？因为偏偏不是书。"},
+           {"v": "男2", "who": "Ramiro", "es": "No, libros no tenemos. Prestamos objetos que la gente necesita de vez en cuando: un taladro, una escalera, una tienda de campaña, una máquina de coser. Ahora mismo tenemos unos cuatrocientos.", "zh": "对，我们没有书。我们出借的是人们偶尔才需要的东西：电钻、梯子、帐篷、缝纫机。现在我们大约有四百件。"},
+           {"v": "女1", "who": "Locutora", "es": "¿Y cómo surgió la idea?", "zh": "这个想法是怎么来的？"},
+           {"v": "男2", "who": "Ramiro", "es": "Fue casi por casualidad. Cuando me mudé, tuve que colgar unos estantes y me compré un taladro. Lo usé veinte minutos y lo guardé en un armario. Después leí que un taladro doméstico se usa, en toda su vida, apenas unos minutos. Y pensé que en mi edificio debía de haber diez taladros durmiendo en diez armarios.", "zh": "差不多是偶然。我搬家时要装几个搁板，就买了一把电钻。用了二十分钟，就收进了柜子。后来我读到，一把家用电钻一辈子只会用上几分钟。我就想，我们楼里大概有十把电钻在十个柜子里睡大觉。"},
+           {"v": "女1", "who": "Locutora", "es": "¿Y cómo funciona exactamente? ¿Los socios tienen que pagar?", "zh": "那具体是怎么运作的？会员要付钱吗？"},
+           {"v": "男2", "who": "Ramiro", "es": "Sí, pagan una cuota de quince euros al año, que se destina sobre todo a arreglar lo que se rompe. Reservan por internet y recogen el objeto los martes o los sábados en un local que nos cede el ayuntamiento. Cada préstamo dura una semana.", "zh": "要，每年交十五欧元会费，主要用来修理坏掉的东西。会员在网上预约，每周二或周六到市政府免费提供给我们的一间场地取东西。每次借期一周。"},
+           {"v": "女1", "who": "Locutora", "es": "¿Y de dónde salen todos esos objetos?", "zh": "那么多东西都是从哪儿来的？"},
+           {"v": "男2", "who": "Ramiro", "es": "Casi todos son donaciones. Al principio pensábamos que nadie iba a regalar nada, y fue justo al revés: la gente aprovechó para vaciar los trasteros. Tuvimos que empezar a rechazar cosas porque no teníamos lugar, y ahora solo aceptamos lo que nos piden los socios.", "zh": "几乎都是捐赠的。一开始我们以为没人会捐东西，结果正好相反：大家趁机把储藏室都清空了。因为没有地方放，我们不得不开始拒收，现在只接受会员需要的东西。"},
+           {"v": "女1", "who": "Locutora", "es": "Supongo que no todo habrá sido tan fácil. ¿Qué problemas se han encontrado?", "zh": "我想也不是一切都那么顺利吧。你们遇到过哪些问题？"},
+           {"v": "男2", "who": "Ramiro", "es": "Menos de los que la gente imagina. Siempre me preguntan si nos roban, y la verdad es que en tres años solo hemos perdido dos cosas. El problema real es otro: muchos devuelven los objetos sucios o sin las piezas pequeñas, y eso nos da muchísimo trabajo.", "zh": "比大家想象的少。人们总问我东西会不会被偷，其实三年里我们只丢过两件。真正的问题是另一个：很多人还东西时又脏又缺小零件，这给我们添了很多活儿。"},
+           {"v": "女1", "who": "Locutora", "es": "¿Y quién se encarga de todo ese trabajo?", "zh": "那这些活儿都由谁来做？"},
+           {"v": "男2", "who": "Ramiro", "es": "Somos unos quince voluntarios. La mayoría empezó como socio y se quedó porque le gustó el ambiente. Hay jubilados que enseñan a usar las herramientas y estudiantes que vienen a aprender. Mucha gente cree que lo importante es el dinero que se ahorra. Para mí, lo más valioso es otra cosa: más que objetos, prestamos confianza entre vecinos.", "zh": "我们大约有十五个志愿者。大多数人一开始是会员，因为喜欢这里的氛围就留了下来。有退休的人教大家使用工具，也有学生来学。很多人以为重要的是省下的钱。对我来说，最宝贵的是另一样东西：我们借出去的与其说是物品，不如说是邻里之间的信任。"},
+           {"v": "女1", "who": "Locutora", "es": "Para terminar, ¿qué le diría a alguien que quiera hacer algo parecido en su barrio?", "zh": "最后，您想对想在自己街区做类似事情的人说些什么？"},
+           {"v": "男2", "who": "Ramiro", "es": "Lo primero, que empiece pequeño. Nosotros arrancamos con una estantería en la entrada de mi edificio y veinte objetos. Más tarde supe que en otras ciudades ya existían proyectos así, pero si hubiera esperado a tenerlo todo planeado, nunca lo habría hecho.", "zh": "首先，从小处做起。我们一开始只是在我那栋楼的入口处放了一个架子和二十件东西。后来我才知道别的城市早就有这样的项目了，但如果我当初非要等一切都计划好，就永远不会做成。"},
+           {"v": "女1", "who": "Locutora", "es": "Muchas gracias, Ramiro, y mucha suerte con el proyecto.", "zh": "非常感谢，拉米罗，祝项目顺利。"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""}
+      ],
+      "preguntas": [
+        {"n": 13, "audio": "1", "enunciado": "Según Ramiro, la idea de crear la biblioteca surgió…",
+         "opciones": ["cuando un vecino le pidió prestado su taladro.", "al comprobar lo poco que se usan ciertos aparatos.", "porque conocía proyectos parecidos en otras ciudades."],
+         "clave": "B",
+         "explicacion": "拉米罗说自己的电钻“Lo usé veinte minutos y lo guardé en un armario”，后来又读到家用电钻一辈子只用几分钟，于是想到楼里有“diez taladros durmiendo en diez armarios”，即意识到这类工具利用率很低，对应 b。a：没有邻居借电钻的情节；c 错：他说“Más tarde supe que en otras ciudades ya existían proyectos así”，是事后才知道的。"},
+        {"n": 14, "audio": "1", "enunciado": "¿Para qué sirve sobre todo la cuota anual de los socios?",
+         "opciones": ["Para pagar el alquiler del local.", "Para comprar los objetos que piden los socios.", "Para reparar los objetos que se estropean."],
+         "clave": "C",
+         "explicacion": "拉米罗说会费“se destina sobre todo a arreglar lo que se rompe”，即主要用来修理坏掉的东西，对应 c。a 错：场地是“un local que nos cede el ayuntamiento”，市政府无偿提供；b 错：东西“Casi todos son donaciones”，“lo que nos piden los socios”指只接受会员需要的捐赠，不是用会费去买。"},
+        {"n": 15, "audio": "1", "enunciado": "¿Qué ocurrió con las donaciones?",
+         "opciones": ["Recibieron muchas más de las que esperaban.", "Solo aceptaron las que venían de los socios.", "Fueron escasas durante los primeros meses."],
+         "clave": "A",
+         "explicacion": "拉米罗说原以为“nadie iba a regalar nada”，结果“fue justo al revés”，捐的东西多到“Tuvimos que empezar a rechazar cosas”，对应 a。b 错：现在只接受“lo que nos piden los socios”，即会员需要的东西，并不是只接受会员捐的；c 与“fue justo al revés”相反。"},
+        {"n": 16, "audio": "1", "enunciado": "Según Ramiro, ¿cuál es el principal problema de la biblioteca?",
+         "opciones": ["Que algunos socios no devuelven lo que se llevan.", "Que muchas cosas vuelven en malas condiciones.", "Que el local solo abre dos días a la semana."],
+         "clave": "B",
+         "explicacion": "拉米罗说“El problema real es otro”：很多人还东西时“sucios o sin las piezas pequeñas”，对应 b。a 是大家常以为的问题，但三年只丢了两件（“solo hemos perdido dos cosas”）；c 借用了“los martes o los sábados”取东西的信息，但他并没有把这当成问题。"},
+        {"n": 17, "audio": "1", "enunciado": "¿Qué es lo que más valora Ramiro del proyecto?",
+         "opciones": ["Los lazos que se han creado en el barrio.", "El dinero que ahorran los socios.", "La gran cantidad de objetos que han reunido."],
+         "clave": "A",
+         "explicacion": "拉米罗说“Mucha gente cree que lo importante es el dinero que se ahorra”，但“Para mí, lo más valioso es otra cosa: más que objetos, prestamos confianza entre vecinos”，他最看重的是邻里之间建立起来的信任和联系，对应 a。b 是别人以为的重点，被他否定；c 与“más que objetos”矛盾。"},
+        {"n": 18, "audio": "1", "enunciado": "¿Qué aconseja Ramiro a quien quiera crear algo parecido?",
+         "opciones": ["Que estudie primero otros proyectos similares.", "Que busque desde el principio apoyo municipal.", "Que se lance aunque no lo tenga todo previsto."],
+         "clave": "C",
+         "explicacion": "拉米罗建议“que empiece pequeño”，并说“si hubiera esperado a tenerlo todo planeado, nunca lo habría hecho”，即不必等一切计划周全才开始，对应 c。a 错：他是事后才知道别处有类似项目，并没有建议先去研究；b 借用了 ayuntamiento，但他没有这样建议，他们是从楼门口的一个架子起步的。"}
+      ]
+    },
+    {
+      "n": 4,
+      "tipo": "relacionar",
+      "instruccion_es": "Usted va a escuchar a siete personas que cuentan algo que aprendieron cuando ya eran adultas. Escuchará a cada persona dos veces. Seleccione el enunciado que corresponde a cada persona. Hay diez enunciados, incluido el del ejemplo, pero debe seleccionar solo seis. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "您将听到七个人讲述自己成年后学会的一件事，每人的录音播放两遍。请为每个人选出相符的陈述。共有十个陈述（包括例题用的一个），只需选出六个。请把答案涂在答题卡上。",
+      "tema_zh": "七个人讲述自己成年后学会的一件事：开车、手语、游泳、用电脑、钢琴、做面包、跳探戈（教育与个人经历；第 21 题的说话人是哥伦比亚人）",
+      "opciones_tipo": "frases",
+      "frases": [
+        {"id": "A", "texto": "Empezó gracias a un obsequio.", "zh": "因为一份礼物而开始。"},
+        {"id": "B", "texto": "Su objetivo era ganar independencia.", "zh": "目的是变得独立。"},
+        {"id": "C", "texto": "Tuvo que aprenderlo por motivos laborales.", "zh": "因为工作原因不得不学。"},
+        {"id": "D", "texto": "Le resultó más difícil de lo que esperaba.", "zh": "比预想的更难。"},
+        {"id": "E", "texto": "Contó con la ayuda de alguien mucho más joven.", "zh": "得到了一个比自己年轻得多的人的帮助。"},
+        {"id": "F", "texto": "Al principio le incomodaba la mirada de los demás.", "zh": "一开始很在意别人的目光。"},
+        {"id": "G", "texto": "Ahora comparte con otros lo que aprendió.", "zh": "现在把学到的东西传授给别人。"},
+        {"id": "H", "texto": "Lamenta no haber empezado antes.", "zh": "后悔没有早点开始。"},
+        {"id": "I", "texto": "Retomó algo que había dejado hace años.", "zh": "重拾了多年前放下的事情。"},
+        {"id": "J", "texto": "Lo aprendió sin la ayuda de nadie.", "zh": "完全靠自己学会。"}
+      ],
+      "audios": [
+        {"id": "0", "rotulo": "Persona 0", "presentacion": "",
+         "segs": [
+           {"v": "女3", "who": "Nuria", "es": "Yo me saqué el carné de conducir a los cuarenta y cinco años. Toda la vida había conducido mi marido, y a mí me parecía cómodo. Pero un invierno él se rompió una pierna y me di cuenta de que no podía ir sola ni al médico. Ahí decidí que nunca más iba a necesitar a nadie para moverme.", "zh": "我四十五岁才考了驾照。一直以来都是我丈夫开车，我也觉得挺省事。可有一年冬天他摔断了腿，我才发现自己连去看医生都没法一个人去。那时我就下定决心，以后出门再也不要靠别人。"}
+         ],
+         "pregunta_oral": "", "clave": "B",
+         "explicacion": "例题。努丽娅在丈夫腿断后发现“no podía ir sola ni al médico”，于是决定“nunca más iba a necesitar a nadie para moverme”，学车是为了不依赖别人，对应 B。她没有提到工作需要、礼物或别人的帮助。"},
+        {"id": "19", "rotulo": "Persona 1", "presentacion": "",
+         "segs": [
+           {"v": "男2", "who": "Tomás", "es": "Trabajo en la oficina de atención al ciudadano de mi ayuntamiento. Hace dos años se aprobó una norma: en cada oficina tenía que haber alguien que supiera lengua de signos. Como yo era el último que había llegado, me tocó a mí. Hice un curso de seis meses. Ahora, cuando viene algún vecino sordo, lo atiendo yo, y se nota que lo agradece.", "zh": "我在市政府的市民服务处工作。两年前出台了一项规定：每个办事处都要有一个会手语的人。因为我是最后来的，这事就落到了我头上。我上了六个月的课。现在有听障居民来办事，都是我接待，看得出他们很感激。"}
+         ],
+         "pregunta_oral": "", "clave": "C",
+         "explicacion": "托马斯说单位规定“en cada oficina tenía que haber alguien que supiera lengua de signos”，又因为是新来的，“me tocó a mí”，是工作要求他学的，对应 C。他现在用手语接待居民，并没有教别人，所以不是 G；他是上课学的，也不是 J。"},
+        {"id": "20", "rotulo": "Persona 2", "presentacion": "",
+         "segs": [
+           {"v": "女1", "who": "Pilar", "es": "En mi pueblo no había piscina, así que nunca aprendí a nadar. A los cincuenta me apunté a un curso para adultos. Los primeros días me daba muchísimo apuro que me vieran con flotador, rodeada de niños que nadaban como peces. Iba a primera hora, cuando no había casi nadie. Ahora hago mis cuarenta largos y me da igual quién me mire.", "zh": "我们村里没有游泳池，所以我一直没学会游泳。五十岁时我报了一个成人班。头几天，让人看见我套着游泳圈、周围全是游得像鱼一样的孩子，我特别不好意思。我总是一大早去，那时几乎没人。现在我每次都游四十趟，谁看我都无所谓了。"}
+         ],
+         "pregunta_oral": "", "clave": "F",
+         "explicacion": "皮拉尔说开始时“me daba muchísimo apuro que me vieran con flotador”，所以专挑“cuando no había casi nadie”的时候去，说明她一开始很在意别人的眼光，对应 F。周围的孩子只是游得好，并没有教她，所以不是 E；她也没有说后悔学晚了（不是 H）。"},
+        {"id": "21", "rotulo": "Persona 3", "presentacion": "",
+         "segs": [
+           {"v": "女4", "who": "Gloria", "es": "Yo nunca había usado un computador, ni siquiera en el trabajo. Cuando me jubilé, quise aprender para hacer videollamadas con mi hermana, que vive en Medellín. Probé con unos videos de internet, pero no entendía nada. Al final, mi nieto, que tiene doce años, se sentaba conmigo todas las tardes y me lo explicaba con una paciencia increíble.", "zh": "我从来没用过电脑，连上班时都没用过。退休以后，我想学会和住在麦德林的妹妹视频通话。我先试着看网上的视频学，可是什么都看不懂。最后是我十二岁的孙子每天下午陪我坐着，特别耐心地给我讲。"}
+         ],
+         "pregunta_oral": "", "clave": "E",
+         "explicacion": "格洛丽亚自己看视频“no entendía nada”，最后是“mi nieto, que tiene doce años”每天下午耐心地教她，对应 E。“ni siquiera en el trabajo”说明学电脑和工作无关（不是 C）；她不是自学成功的（不是 J）。说话人是哥伦比亚人，用 computador、videos。"},
+        {"id": "22", "rotulo": "Persona 4", "presentacion": "",
+         "segs": [
+           {"v": "男2", "who": "Joaquín", "es": "De pequeño estudié piano durante seis años, pero a los catorce lo dejé porque prefería jugar al fútbol con mis amigos. El año pasado, al jubilarme, encontré las partituras viejas en casa de mi madre y me volví a apuntar a clases. Pensaba que a mi edad me costaría muchísimo, pero los dedos se acordaban de más cosas de las que yo creía.", "zh": "我小时候学了六年钢琴，可十四岁就放弃了，因为更想和朋友踢足球。去年退休时，我在母亲家里翻出了旧乐谱，又报名去上课了。我原以为到这个年纪会学得非常吃力，没想到手指记得的东西比我以为的多。"}
+         ],
+         "pregunta_oral": "", "clave": "I",
+         "explicacion": "华金十四岁时“lo dejé”，退休后“me volví a apuntar a clases”，是重拾多年前放下的钢琴，对应 I。他说“Pensaba que a mi edad me costaría muchísimo, pero…”，结果比想象的容易，所以不是 D。"},
+        {"id": "23", "rotulo": "Persona 5", "presentacion": "",
+         "segs": [
+           {"v": "女2", "who": "Elvira", "es": "Siempre me había fascinado el pan de verdad, el de masa madre. Hace cinco años convencí a un panadero jubilado del pueblo de mis padres para que me enseñara. Pasé con él muchos fines de semana llenos de harina. Ahora soy yo la que da un taller los sábados en la asociación de vecinos, y ya han pasado por allí más de cien personas.", "zh": "我一直着迷于真正的面包，就是用天然酵种做的那种。五年前，我说服了我父母老家村里一位退休的面包师傅教我。我跟着他度过了许多沾满面粉的周末。现在轮到我每周六在居民协会开工作坊了，已经有一百多人来学过。"}
+         ],
+         "pregunta_oral": "", "clave": "G",
+         "explicacion": "埃尔维拉说“Ahora soy yo la que da un taller los sábados”，已经有一百多人来学，现在是她把手艺传给别人，对应 G。教她的是“un panadero jubilado”，不是比她年轻的人，她也不是自学的，所以不是 E、J。"},
+        {"id": "24", "rotulo": "Persona 6", "presentacion": "",
+         "segs": [
+           {"v": "女3", "who": "Amparo", "es": "Para mi cumpleaños, mi marido me regaló un curso de tango para los dos. Yo no lo habría elegido nunca, la verdad, pero no quería decepcionarlo. Ya llevamos tres años y no nos perdemos ni una clase. Mucha gente nos dice que es una pena no haber empezado de jóvenes, pero yo creo que entonces no lo habríamos disfrutado igual.", "zh": "我过生日时，丈夫送了我们俩一个探戈课程。说实话，我自己是绝不会选这个的，但我不想让他失望。我们已经跳了三年，一节课都没落下。很多人对我们说，可惜没有年轻时就开始，可我觉得要是那时学，我们不会像现在这样享受。"}
+         ],
+         "pregunta_oral": "", "clave": "A",
+         "explicacion": "安帕罗说“mi marido me regaló un curso de tango”，她是因为丈夫送的生日礼物才开始的，对应 A。别人说“es una pena no haber empezado de jóvenes”，但她本人并不这么认为，所以不是 H。"}
+      ]
+    },
+    {
+      "n": 5,
+      "tipo": "seleccion",
+      "instruccion_es": "Usted va a escuchar a una socióloga que da una conferencia sobre la soledad no deseada. Escuchará la conferencia dos veces. Después debe contestar a las preguntas, de la 25 a la 30. Seleccione la opción correcta. Marque las opciones elegidas en la Hoja de respuestas.",
+      "instruccion_zh": "您将听到一位社会学家关于非自愿孤独的讲座。讲座播放两遍。听后回答第 25—30 题，选出正确的选项。请把答案涂在答题卡上。",
+      "tema_zh": "社会学家的讲座：城市中的非自愿孤独——定义、年轻人、社交网络、城市设计、健康后果和一个街区的实例（人际关系、城市与健康）",
+      "audios": [
+        {"id": "1", "rotulo": "", "presentacion": "",
+         "segs": [
+           {"v": "女4", "who": "Conferenciante", "es": "Buenas tardes y gracias por venir. Hoy quiero hablarles de un problema que durante mucho tiempo hemos considerado un asunto privado: la soledad no deseada. Y quiero empezar con una distinción importante: estar solo no es lo mismo que sentirse solo. Hay personas que viven solas y tienen una vida social muy rica, y personas que viven rodeadas de gente y se sienten profundamente aisladas. Lo que define este tipo de soledad no es el número de contactos. Es la distancia entre las relaciones que tenemos y las que nos gustaría tener.", "zh": "下午好，感谢各位到来。今天我想谈一个长期以来被我们当作私事的问题：非自愿的孤独。我想先做一个重要的区分：独自一人和感到孤独不是一回事。有些人独自生活，社交却非常丰富；也有些人身边总是有人，却感到深深的隔绝。界定这种孤独的不是联系人的多少，而是我们拥有的人际关系和我们希望拥有的人际关系之间的差距。"},
+           {"v": "女4", "who": "Conferenciante", "es": "Durante años, la imagen típica de la persona sola ha sido la de una mujer mayor y viuda. Esa imagen sigue siendo real, pero los estudios recientes nos han dado una sorpresa. En muchas ciudades europeas, el grupo que más soledad declara es el de los jóvenes de entre dieciocho y veinticinco años. Es una paradoja, porque hablamos de la generación más conectada de la historia.", "zh": "多年来，孤独者的典型形象是一位守寡的老年妇女。这一形象至今仍然真实，但近年的研究给了我们一个意外：在许多欧洲城市，自称最孤独的群体是十八到二十五岁的年轻人。这是一个悖论，因为我们说的是历史上联系最紧密的一代人。"},
+           {"v": "女4", "who": "Conferenciante", "es": "¿Por qué ocurre esto? No hay una única causa, pero sí algunas pistas. Las redes sociales no son el problema en sí mismas. El problema aparece cuando sustituyen a los encuentros cara a cara, en lugar de complementarlos. A eso se suma la movilidad: muchos jóvenes se mudan para estudiar o trabajar y empiezan de cero en lugares donde no conocen a nadie.", "zh": "为什么会这样？原因不止一个，但有一些线索。社交网络本身并不是问题。问题出在它们取代了面对面的见面，而不是作为补充。此外还有流动性：许多年轻人为了求学或工作而搬家，在一个谁也不认识的地方从零开始。"},
+           {"v": "女4", "who": "Conferenciante", "es": "La ciudad también influye, y mucho. Durante décadas hemos diseñado barrios pensando en el coche y en el consumo: grandes avenidas, centros comerciales en las afueras, plazas sin bancos ni sombra. Son espacios por los que se pasa, pero en los que nadie se queda. Y si nadie se queda, nadie se encuentra.", "zh": "城市也有影响，而且影响很大。几十年来，我们设计街区时想的是汽车和消费：宽阔的大道、建在郊区的购物中心、没有长椅也没有树荫的广场。这些都是人们路过、却没人停留的空间。没有人停留，也就没有人相遇。"},
+           {"v": "女4", "who": "Conferenciante", "es": "Las consecuencias no son solo emocionales. Sabemos que la soledad prolongada aumenta el riesgo de depresión, de enfermedades del corazón y de pérdida de memoria. Algunos investigadores comparan sus efectos sobre la salud con los de fumar a diario. Por eso cada vez más ayuntamientos la tratan como un problema de salud pública, y no como una cuestión personal.", "zh": "后果不只是情绪上的。我们知道，长期孤独会增加患抑郁症、心脏病和记忆力衰退的风险。一些研究者把它对健康的影响比作每天吸烟。因此，越来越多的市政府把它当作公共卫生问题，而不是个人问题来处理。"},
+           {"v": "女4", "who": "Conferenciante", "es": "¿Y qué podemos hacer? Les pondré un ejemplo. En un barrio de una ciudad mediana, el ayuntamiento decidió no organizar más talleres contra la soledad, porque siempre acudían las mismas personas. Hizo algo más sencillo: convirtió un aparcamiento en una plaza con mesas, un huerto y una pequeña biblioteca. Al cabo de un año, el número de vecinos que decían no hablar con nadie del barrio se había reducido casi a la mitad.", "zh": "那我们能做什么？我举个例子。在一座中等城市的某个街区，市政府决定不再举办应对孤独的工作坊，因为来参加的总是同一批人。它做了一件更简单的事：把一个停车场改成了广场，放上桌子，开了一块菜园和一个小图书馆。一年后，说自己和街区里谁都不说话的居民减少了将近一半。"},
+           {"v": "女4", "who": "Conferenciante", "es": "La lección es clara: no podemos obligar a nadie a tener amigos, pero sí podemos crear lugares donde sea fácil encontrarse. Muchas gracias por su atención.", "zh": "结论很清楚：我们不能强迫任何人交朋友，但我们可以创造让人容易相遇的地方。谢谢大家。"}
+         ],
+         "pregunta_oral": "", "clave": "", "explicacion": ""}
+      ],
+      "preguntas": [
+        {"n": 25, "audio": "1", "enunciado": "Según la conferenciante, lo que caracteriza la soledad no deseada es…",
+         "opciones": ["el hecho de vivir sin compañía de otras personas.", "contar con un número reducido de amistades.", "la insatisfacción con las propias relaciones."],
+         "clave": "C",
+         "explicacion": "演讲者区分了“estar solo”和“sentirse solo”，并说“Lo que define este tipo de soledad no es el número de contactos. Es la distancia entre las relaciones que tenemos y las que nos gustaría tener”，即对自己的人际关系不满意，对应 c。a 错：独居的人也可以社交丰富；b 错：她明确说不在于联系人的数量。"},
+        {"n": 26, "audio": "1", "enunciado": "¿Qué revelan los estudios recientes, según la conferenciante?",
+         "opciones": ["Que los jóvenes son quienes más afirman sentirse solos.", "Que las mujeres mayores han dejado de ser un grupo afectado.", "Que los jóvenes pasan menos tiempo conectados que antes."],
+         "clave": "A",
+         "explicacion": "演讲者说研究带来了意外：“el grupo que más soledad declara es el de los jóvenes de entre dieciocho y veinticinco años”，对应 a。b 错：她说老年寡妇的形象“sigue siendo real”；c 错：她说年轻人是“la generación más conectada de la historia”，正好相反。"},
+        {"n": 27, "audio": "1", "enunciado": "¿Qué opina la conferenciante de las redes sociales?",
+         "opciones": ["Que son la causa principal del aislamiento de los jóvenes.", "Que perjudican si ocupan el lugar del trato directo.", "Que facilitan la integración de quienes cambian de ciudad."],
+         "clave": "B",
+         "explicacion": "她说“Las redes sociales no son el problema en sí mismas”，问题出在“cuando sustituyen a los encuentros cara a cara”，即取代面对面交往时才有害，对应 b。a 与“no son el problema en sí mismas”矛盾；c 借用了搬家的内容，但她把搬家列为孤独的另一个原因，并没有说网络能帮助融入。"},
+        {"n": 28, "audio": "1", "enunciado": "¿Qué critica la conferenciante de muchos barrios actuales?",
+         "opciones": ["Que invitan a circular, pero no a permanecer.", "Que tienen demasiados centros comerciales en el centro.", "Que dan prioridad al transporte público."],
+         "clave": "A",
+         "explicacion": "她说这些空间“Son espacios por los que se pasa, pero en los que nadie se queda”，即只供路过、不让人停留，对应 a。b 错：她说购物中心建在“las afueras”，不是市中心；c 错：她说街区是“pensando en el coche”设计的，不是优先公共交通。"},
+        {"n": 29, "audio": "1", "enunciado": "Según la conferenciante, la soledad prolongada…",
+         "opciones": ["afecta sobre todo a personas con problemas de corazón.", "es un asunto que cada persona debe resolver sola.", "puede ser tan dañina para la salud como el tabaco."],
+         "clave": "C",
+         "explicacion": "她说“Algunos investigadores comparan sus efectos sobre la salud con los de fumar a diario”，即长期孤独对健康的危害可以和吸烟相比，对应 c。a 颠倒了因果：是孤独增加患心脏病的风险；b 错：越来越多的市政府把它当作“un problema de salud pública, y no como una cuestión personal”。"},
+        {"n": 30, "audio": "1", "enunciado": "¿Qué destaca la conferenciante de la experiencia del barrio?",
+         "opciones": ["Que los talleres lograron atraer a vecinos nuevos.", "Que se cambió el entorno en vez de ofrecer cursos.", "Que la soledad desapareció por completo del barrio."],
+         "clave": "B",
+         "explicacion": "市政府决定“no organizar más talleres”，而是“convirtió un aparcamiento en una plaza”，即改造空间环境而不是办课程，对应 b。a 错：正因为工作坊“siempre acudían las mismas personas”才停办；c 错：不与人交谈的居民只是“se había reducido casi a la mitad”，并没有完全消失。"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "nivel": "B2",
+  "prueba": "Expresión e interacción escritas",
+  "zh": "书面表达与互动",
+  "duracion_min": 80,
+  "intro_es": "La prueba de Expresión e interacción escritas contiene dos tareas. Duración: 80 minutos. Escriba sus textos únicamente en la Hoja de respuestas.",
+  "tareas": [
+    {
+      "n": 1,
+      "tema_zh": "住房与代际共处：大学生与独居老人同住的项目（电台新闻）",
+      "instruccion_es": [
+        "Usted va a escuchar una noticia emitida en un programa de radio local sobre un nuevo servicio de alojamiento para estudiantes. La escuchará dos veces. Mientras escucha, puede tomar notas.",
+        "Un amigo suyo de otro país va a estudiar en Granada el próximo curso y está buscando alojamiento. Escríbale un correo electrónico en el que:"
+      ],
+      "instruccion_zh": "你将听到地方电台播出的一则新闻，内容是一项新的学生住宿服务。录音播放两遍，可以边听边记笔记。你的一个外国朋友下学年要去格拉纳达读书，正在找住处。给他写一封电子邮件：问候他并说明写信的原因；概括这个项目的内容和条件；谈谈你认为它对他可能有哪些好处和不便；建议他是否申请，并告诉他怎么申请；结束语。字数：150—180 词。",
+      "estimulo": {
+        "tipo": "audio",
+        "audio": {
+          "presentacion": "A continuación, va a escuchar una noticia de un programa de radio local.",
+          "segs": [
+            {"v": "女1", "who": "Locutora", "es": "Buenas tardes, empezamos con una noticia que interesa a muchos jóvenes. Encontrar piso en Granada es cada vez más difícil y más caro. Por eso, la universidad y el ayuntamiento han presentado hoy Dos Generaciones. Es un programa para que los estudiantes compartan casa con personas mayores que viven solas. Su coordinador, Fernando Ruiz, nos explica cómo funciona.", "zh": "下午好，我们先来关注一条很多年轻人关心的新闻。在格拉纳达找房子越来越难，也越来越贵。为此，大学和市政府今天推出了“两代人”项目。这个项目让学生和独居的老人合住。项目协调人费尔南多·鲁伊斯为我们介绍它是怎样运作的。"},
+            {"v": "男2", "who": "Fernando Ruiz", "es": "Es muy sencillo: el estudiante no paga alquiler, solo una parte de la luz y el agua, unos 60 euros al mes. A cambio, se compromete a cenar con la persona mayor al menos cuatro noches por semana. También debe acompañarla de vez en cuando al médico o a hacer la compra. Eso sí, no se trata de cuidar a nadie, sino de hacerse compañía.", "zh": "其实很简单：学生不用付房租，只分担一部分电费和水费，每月大约 60 欧元。作为交换，学生要保证每周至少和老人一起吃四次晚饭。另外还要时不时陪老人去看医生或者去买东西。不过，这并不是要照顾谁，而是互相作伴。"},
+            {"v": "女1", "who": "Locutora", "es": "Para participar, los estudiantes deben tener entre 18 y 30 años y pasar una entrevista. Quienes ofrecen la habitación tienen que ser mayores de 65 años. Antes de formar cada pareja, el equipo visitará la vivienda y, después, hará un seguimiento mensual. Si la convivencia no funciona, cualquiera de las dos partes puede dejar el programa. Mercedes, una vecina de 78 años, ya se ha apuntado.", "zh": "想参加的学生年龄要在 18 到 30 岁之间，并且要通过一次面试。提供房间的人必须在 65 岁以上。每一对人配对之前，项目团队会上门查看住房，之后每月回访一次。如果相处不来，任何一方都可以退出项目。78 岁的居民梅塞德斯已经报了名。"},
+            {"v": "女3", "who": "Mercedes", "es": "Desde que murió mi marido, la casa se me hace muy grande. Me apetece tener a alguien joven con quien hablar por las noches. Lo único es que le pediré que no llegue muy tarde, porque si no, no pego ojo.", "zh": "自从我丈夫去世，我一个人住这房子觉得太大了。我很想有个年轻人晚上能陪我说说话。唯一的一点是，我会请他别回来得太晚，不然我会一夜睡不着。"},
+            {"v": "女1", "who": "Locutora", "es": "Las solicitudes pueden presentarse hasta el 15 de julio en la oficina de alojamiento de la universidad.", "zh": "申请截止到 7 月 15 日，可以到大学的住宿办公室提交。"}
+          ]
+        }
+      },
+      "pautas": [
+        "salúdelo y explíquele por qué le escribe;",
+        "resuma en qué consiste el programa y cuáles son sus condiciones;",
+        "comente qué ventajas e inconvenientes podría tener para él, en su opinión;",
+        "recomiéndele si debe solicitarlo o no y explíquele cómo hacerlo;",
+        "despídase."
+      ],
+      "palabras": [150, 180],
+      "formulario": [],
+      "opciones": [],
+      "modelo": {
+        "texto": [
+          "Asunto: Alojamiento en Granada",
+          "¡Hola, Marco!",
+          "¿Qué tal? Ayer oí en la radio una noticia que te puede interesar, ahora que buscas piso.",
+          "La universidad y el ayuntamiento han creado Dos Generaciones, un programa para que los estudiantes vivan con personas mayores que están solas. No pagarías alquiler, solo unos 60 euros al mes de luz y agua. A cambio, tendrías que cenar con esa persona al menos cuatro noches por semana y acompañarla a veces al médico o a hacer la compra. Eso sí, no se trata de cuidarla, sino de hacerle compañía.",
+          "A mí me parece una oportunidad estupenda: ahorrarías muchísimo y hablarías español a diario. El único inconveniente es que perderías algo de libertad: una señora del programa quiere que su estudiante no llegue tarde, ¡y a ti te encanta salir!",
+          "Aun así, yo en tu lugar lo solicitaría, porque si la convivencia no funciona, puedes dejarlo. Tienes hasta el 15 de julio para presentar la solicitud en la oficina de alojamiento de la universidad; además, tendrás que pasar una entrevista.",
+          "Un abrazo,",
+          "Laura"
+        ],
+        "palabras": 177,
+        "zh": [
+          "主题：格拉纳达的住处",
+          "你好，马可！",
+          "最近怎么样？昨天我在电台听到一条新闻，你现在正在找住处，可能会感兴趣。",
+          "大学和市政府推出了一个叫“两代人”的项目，让学生和独居的老人住在一起。你不用付房租，每月只出大约 60 欧元的水电费。作为交换，你每周至少要和那位老人一起吃四次晚饭，有时还要陪他去看医生或者买东西。不过，这不是要你照顾他，而是给他作伴。",
+          "我觉得这是个很好的机会：你能省很多钱，还能天天说西班牙语。唯一的不便是你会少一点自由：项目里的一位老太太希望她的学生别太晚回家，而你那么爱出去玩！",
+          "尽管如此，换了我是你，我会申请，因为如果相处不来，你可以退出。申请截止到 7 月 15 日，交到大学的住宿办公室就行；另外，你还得通过一次面试。",
+          "拥抱你，",
+          "劳拉"
+        ],
+        "comentario_zh": "范文是写给朋友的非正式邮件。开头问候并说明写信原因（在电台听到新闻，想到朋友正在找房子）；第二段转述项目要点：不付房租、每月约 60 欧元水电费、每周至少四次晚饭、偶尔陪同看病买菜、是作伴而不是照顾；第三段表达看法，权衡省钱、练西语和少了自由，并借用录音里老人的要求；最后给出建议，说明申请地点、截止日期和还要面试。语言上用条件式表示假设（pagarías、tendrías、yo en tu lugar lo solicitaría），para que、quiere que 后用虚拟式，还有 no se trata de… sino de…、Eso sí、Aun así 等连接手段。"
+      }
+    },
+    {
+      "n": 2,
+      "tema_zh": "选项一：媒体——年轻人获取新闻的渠道（图表评论）；选项二：文化——一部家族小说的书评",
+      "instruccion_es": [
+        "Elija solo una de las dos opciones que se le ofrecen a continuación."
+      ],
+      "instruccion_zh": "两题选一。选项一：你为大学的网络杂志写一篇评论文章。根据图表（18—29 岁的年轻人每周至少一次用来获取新闻的媒体，2016 年与 2026 年对比，可多选）：介绍话题和图表信息；比较两年的数据，指出最显著的变化；谈谈变化的原因；评价主要通过社交网络获取信息的利与弊；写出结论或建议。选项二：你有一个读书博客，刚读完下面这部小说（出版社网站上的内容简介）。写一篇书评：介绍小说和作者；概述情节，但不透露结局；评价人物、结构或文风等方面；说明你会推荐给哪类读者、为什么；邀请读者发表看法。字数：150—180 词。",
+      "estimulo": {},
+      "pautas": [],
+      "palabras": [150, 180],
+      "formulario": [],
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Opción 1",
+          "instruccion_es": [
+            "Usted colabora con la revista digital de su universidad, que prepara un número especial sobre los medios de comunicación. Le han pedido un artículo de opinión a partir del siguiente gráfico, que muestra qué porcentaje de jóvenes de 18 a 29 años utiliza cada medio para informarse al menos una vez por semana. Cada persona podía elegir varias respuestas.",
+            "Redacte un artículo en el que:"
+          ],
+          "estimulo": {
+            "tipo": "grafico",
+            "grafico": {
+              "titulo": "Medios que usan los jóvenes de 18 a 29 años para informarse al menos una vez por semana",
+              "fuente": "Datos ficticios.",
+              "tipo": "barras",
+              "series": [
+                {"nombre": "2016", "valores": [48, 61, 39, 22, 24, 17]},
+                {"nombre": "2026", "valores": [71, 33, 36, 47, 15, 5]}
+              ],
+              "categorias": ["Redes sociales", "Televisión", "Periódicos digitales", "Plataformas de vídeo", "Radio", "Prensa en papel"],
+              "unidad": "%"
+            }
+          },
+          "pautas": [
+            "presente el tema y la información que recoge el gráfico;",
+            "compare los datos de 2016 y de 2026 y destaque los cambios que le parezcan más significativos;",
+            "explique a qué se deben, en su opinión, esos cambios;",
+            "valore las ventajas y los riesgos de informarse sobre todo a través de las redes sociales;",
+            "termine con una conclusión o una propuesta."
+          ],
+          "modelo": {
+            "texto": [
+              "De la pantalla del salón a la del móvil",
+              "¿Cómo nos enteramos los jóvenes de lo que pasa en el mundo? Según este gráfico, la respuesta ha cambiado mucho entre 2016 y 2026.",
+              "Lo más llamativo es el descenso de la televisión, que ha pasado del 61 % al 33 %, mientras que las redes sociales se han convertido en la principal fuente (71 %). También destaca el auge de las plataformas de vídeo, cuyo uso se ha duplicado con creces. La prensa en papel, por su parte, casi ha desaparecido.",
+              "En mi opinión, estos cambios se deben al móvil: con él, la información es inmediata, gratuita y está siempre a mano.",
+              "Informarse a través de las redes tiene ventajas, como la rapidez o la variedad de voces. Pero también conlleva riesgos: los bulos se difunden sin control y los algoritmos nos muestran solo lo que confirma nuestras ideas.",
+              "Por eso, sería conveniente que en los institutos se enseñara a contrastar fuentes. No se trata de renunciar a las redes, sino de usarlas con espíritu crítico."
+            ],
+            "palabras": 173,
+            "zh": [
+              "从客厅的屏幕到手机的屏幕",
+              "我们年轻人是怎样了解世界上发生的事情的？从这张图表来看，2016 年到 2026 年间，答案发生了很大的变化。",
+              "最引人注目的是电视的下滑，从 61% 降到了 33%，而社交网络成了最主要的信息来源（71%）。视频平台的兴起也很突出，使用比例增长了一倍多。至于纸质报纸，几乎已经消失了。",
+              "在我看来，这些变化是手机带来的：有了手机，信息即时、免费，而且随时就在手边。",
+              "通过社交网络获取信息有它的好处，比如速度快、声音多元。但它也有风险：谣言肆意传播，算法只给我们看那些印证自己观点的内容。",
+              "因此，中学最好能教学生核实、比较信息来源。问题不在于放弃社交网络，而在于带着批判精神去使用它们。"
+            ],
+            "comentario_zh": "范文是一篇有标题的评论文章。开头用设问引出话题、点明图表比较的年份；第二段只挑最显著的变化（电视下滑、社交网络和视频平台上升、纸质报纸几乎消失），不逐项罗列数字；第三段解释原因；第四段权衡利弊；结尾提出建议并总结立场。语言上用了 mientras que、por su parte、pero、por eso 等连接词，cuyo、se deben a、sería conveniente que + 过去虚拟式（se enseñara）、no se trata de… sino de… 等 B2 结构，用词具体（bulos、algoritmos、contrastar fuentes）。"
+          }
+        },
+        {
+          "id": "2",
+          "titulo": "Opción 2",
+          "instruccion_es": [
+            "Usted tiene un blog en el que comenta los libros que lee. Acaba de terminar la novela que se presenta a continuación, cuya sinopsis ha publicado la editorial en su página web.",
+            "Escriba una reseña para su blog en la que:"
+          ],
+          "estimulo": {
+            "tipo": "texto",
+            "genero": "sinopsis",
+            "titulo": "El último verano de los Valcárcel", "titulo_zh": "巴尔卡塞尔一家的最后一个夏天",
+            "cabecera": ["Elena Garrido", "Ediciones Marea Alta, 2026. 312 páginas"],
+            "cuerpo": [
+              "Agosto de 1989. Como cada año, los cuatro hermanos Valcárcel se reúnen en la vieja casa familiar de un pueblo de la costa de Lugo para celebrar el cumpleaños de su madre, Amalia. Pero este verano no será como los demás: durante la cena, Amalia anuncia que ha decidido vender la casa y se niega a explicar por qué.",
+              "A partir de ese momento, los hermanos, que llevan años sin hablar de verdad, empiezan a desconfiar unos de otros. Julia, la mayor, está convencida de que alguien ha influido en su madre; Tomás, que emigró a Buenos Aires hace dos décadas, se siente un extraño en su propia familia; y los gemelos, Clara y Marcos, guardan un secreto que podría cambiarlo todo.",
+              "Narrada a través de las voces de sus cinco protagonistas, la novela alterna los días de aquel agosto con recuerdos de la infancia de los hermanos y va revelando, poco a poco, las heridas que nunca llegaron a cerrarse. Con un estilo sencillo, pero lleno de matices, Elena Garrido construye una historia sobre la memoria, la herencia y lo difícil que resulta, a veces, decir las cosas a tiempo.",
+              "Tras el éxito de su primera novela, La orilla quieta, la autora gallega confirma que es una de las voces más interesantes de la narrativa actual."
+            ],
+            "firma": "",
+            "zh": [
+              "1989 年 8 月。和每年一样，巴尔卡塞尔家的四个兄弟姐妹回到卢戈海边一个村子的老宅，为母亲阿玛利娅庆祝生日。但这个夏天将与往年不同：晚饭时，阿玛利娅宣布她决定卖掉这座房子，却拒绝解释原因。",
+              "从这一刻起，多年来没有真正交谈过的兄弟姐妹开始互相猜疑。大姐胡利娅确信有人影响了母亲；二十年前移民布宜诺斯艾利斯的托马斯觉得自己在家里成了外人；而双胞胎克拉拉和马科斯藏着一个可能改变一切的秘密。",
+              "小说通过五位主人公的声音展开，在那年八月的日子和兄弟姐妹的童年回忆之间交替推进，一点点揭开那些从未愈合的伤口。埃莱娜·加里多文笔朴素而富有层次，讲述了一个关于记忆、家族传承，以及有时把话及时说出口有多难的故事。",
+              "继首部小说《平静的岸》获得成功之后，这位加利西亚女作家用这部新作证明，她是当代小说界最值得关注的声音之一。"
+            ]
+          },
+          "pautas": [
+            "presente la novela y a su autora;",
+            "resuma el argumento sin desvelar el final;",
+            "valore algunos aspectos del libro, como los personajes, la estructura o el estilo;",
+            "explique a qué tipo de lectores se la recomendaría y por qué;",
+            "invite a sus lectores a dar su opinión."
+          ],
+          "modelo": {
+            "texto": [
+              "El último verano de los Valcárcel: una casa llena de silencios",
+              "Hay novelas que se olvidan nada más cerrarlas y otras que te acompañan durante días. La segunda novela de la gallega Elena Garrido pertenece, sin duda, a este último grupo.",
+              "La historia transcurre en agosto de 1989, en una casa familiar de la costa de Lugo, donde los cuatro hermanos Valcárcel celebran el cumpleaños de su madre. Durante la cena, ella les anuncia que piensa vender la casa, y a partir de entonces salen a la luz celos, reproches y un secreto que no voy a desvelar.",
+              "Lo que más me ha gustado es que cada capítulo esté narrado por un personaje distinto: así vamos descubriendo que ninguno tiene toda la razón. Tomás, el hermano que emigró a Argentina, es para mí el más conmovedor. Es cierto que el ritmo decae un poco a mitad del libro, pero el final lo compensa con creces.",
+              "Por eso se la recomiendo a lectores pacientes que disfruten de las historias familiares. ¿La habéis leído? Contadme qué os ha parecido."
+            ],
+            "palabras": 177,
+            "zh": [
+              "《巴尔卡塞尔家的最后一个夏天》：一座满是沉默的房子",
+              "有些小说一合上就忘了，有些却会陪你好几天。加利西亚作家埃莱娜·加里多的第二部小说无疑属于后者。",
+              "故事发生在 1989 年 8 月卢戈海边的一座老宅里，巴尔卡塞尔家的四个兄弟姐妹在这里为母亲庆祝生日。晚饭时，母亲宣布她打算卖掉房子。从那以后，嫉妒、指责，还有一个我不打算透露的秘密，都一一浮出水面。",
+              "我最喜欢的是每一章都由不同的人物讲述：这样我们会渐渐发现，谁也不是完全有理。在我看来，移民去了阿根廷的托马斯最打动人。确实，小说中段节奏有点拖沓，但结尾完全弥补了这一点。",
+              "所以，我把这本书推荐给有耐心、喜欢家族故事的读者。你们读过吗？告诉我你们觉得怎么样吧。"
+            ],
+            "comentario_zh": "范文是一篇博客书评。标题点出书名和总体印象；第一段用对比开头，并介绍作者；第二段简述情节，明确表示不透露秘密；第三段评价叙述结构（每章换一个叙述者）、人物和节奏，有褒有贬；最后用 Por eso 承接对节奏的评价（中段拖沓、结尾值得），说明推荐给哪类读者、为什么，并用问句邀请读者留言，符合博客的互动特点。语言上用了 lo que más me ha gustado es que + 虚拟式、lectores pacientes que disfruten…（关系从句中的虚拟式）、es cierto que…, pero…、compensar con creces 等表达，用 vosotros 称呼读者，语气亲切。"
+          }
+        }
+      ],
+      "modelo": {}
+    }
+  ],
+  "criterios": [
+    {"es": "Adecuación al género discursivo", "zh": "看文章是否符合任务要求的文体和读者：信件、评论文章、书评各有其格式；称呼、开头结尾和语域（正式或随意）要得当；所有要点都要完成，不能离题或遗漏。"},
+    {"es": "Coherencia", "zh": "看全文是否条理清楚、前后连贯：段落安排合理，观点有展开、有理由；连接词、指代和标点用得恰当，读者能顺畅地跟上作者的思路。"},
+    {"es": "Corrección", "zh": "看语法、词汇和拼写是否准确：时态、语式（特别是虚拟式和条件式）、性数配合、介词搭配和重音。偶尔出现、不影响理解的小错误可以接受；反复出现或妨碍理解的错误要扣分。"},
+    {"es": "Alcance", "zh": "看语言资源是否丰富：词汇是否具体多样、能否避免重复；句式是否有变化（各类从句、被动和无人称结构、条件句、让步句等）；能否准确表达观点的细微差别。"},
+    {"es": "Valoración global", "zh": "评分员读完全文后的整体判断：任务完成的效果和语言整体水平是否达到 B2。分析量表四项占 60%（两个任务各一半），整体评价占 40%，每项都按 0—3 分评定。"}
+  ]
+}

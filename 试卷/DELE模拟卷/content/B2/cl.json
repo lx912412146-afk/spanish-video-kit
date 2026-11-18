@@ -1,0 +1,564 @@
+{
+ "nivel": "B2",
+ "prueba": "Comprensión de lectura",
+ "zh": "阅读理解",
+ "duracion_min": 70,
+ "intro_es": "La prueba de Comprensión de lectura contiene cuatro tareas. Usted tiene que responder a 36 preguntas. Duración: 70 minutos. Marque sus opciones únicamente en la Hoja de respuestas.",
+ "tareas": [
+  {
+   "n": 1,
+   "tipo": "seleccion",
+   "instruccion_es": "A continuación va a leer un artículo sobre la recuperación de las fuentes públicas. Responda a las preguntas 1 a 6 eligiendo la opción correcta (a, b o c). Marque las opciones elegidas en la Hoja de respuestas.",
+   "instruccion_zh": "阅读一篇关于公共水泉重新兴起的文章，回答第 1—6 题，从 a、b、c 中选出正确答案。在答题卡上涂出所选答案。",
+   "tema_zh": "城市生活与环境：公共饮水泉重新回到街头（信息类文章）",
+   "textos": [
+    {
+     "id": "T",
+     "genero": "artículo",
+     "titulo": "Beber en la calle: la segunda vida de las fuentes públicas",
+     "titulo_zh": "在街头喝水：公共水泉的第二次生命",
+     "cabecera": [],
+     "cuerpo": [
+      "Durante siglos, las fuentes públicas fueron el corazón de pueblos y barrios: junto a ellas se llenaban los cántaros, se comentaban las noticias y nacía más de un noviazgo. Cuando el agua corriente llegó a casi todas las viviendas, perdieron su razón de ser y muchas desaparecieron sin que nadie las echara de menos. Ahora, sin embargo, numerosos ayuntamientos las están recuperando, y el cambio tiene más de una explicación.",
+      "La primera es el calor. Con veranos cada vez más extremos, poder beber en la calle se ha convertido en una cuestión de salud pública, sobre todo para quienes pasan allí buena parte del día, como repartidores, barrenderos o personas sin hogar. Por eso las fuentes figuran ya en los planes municipales contra el calor, junto al arbolado y las zonas de sombra. La segunda es económica y ambiental: el agua del grifo cuesta muchísimo menos que la embotellada y no genera envases.",
+      "El mayor obstáculo no es técnico, sino de confianza: muchos ciudadanos siguen convencidos de que el agua de las fuentes es peor que la de casa. «Es la misma agua y pasa los mismos controles», asegura Nieves Arrieta, ingeniera de una empresa municipal de aguas. «Pero una fuente sucia o que gotea transmite sensación de abandono, y la gente deduce que nadie vigila tampoco lo que sale por el grifo. Una fuente estropeada hace más daño que una que no existe».",
+      "Tampoco faltan las críticas. Hay vecinos que consideran excesivo el gasto de mantenimiento y recuerdan que algunos modelos antiguos, de chorro continuo, desperdician miles de litros al día. Más delicado es el debate en épocas de sequía: algunos ayuntamientos cierran entonces las fuentes para dar ejemplo de ahorro, pero hay quien replica que esa medida apenas reduce el consumo y castiga precisamente a quienes no tienen otro sitio donde beber.",
+      "Las fuentes de nueva generación se diseñan, además, pensando en usuarios muy diversos: suelen tener un segundo caño más bajo, destinado a niños y personas en silla de ruedas, y un grifo para rellenar botellas, porque hoy son más quienes llenan una botella que quienes beben directamente del caño. Algunos municipios incluso las señalan con carteles en las calles cercanas para que cualquiera encuentre la más próxima.",
+      "Quizá lo más interesante sea lo que este regreso revela sobre la ciudad que queremos. En unas calles donde casi todo invita a consumir, una fuente es uno de los pocos lugares que ofrecen algo sin pedir nada a cambio. Instalar fuentes es sencillo; lo difícil será que los vecinos vuelvan a fiarse de ellas. De eso, y no del número de grifos, dependerá que esta segunda vida sea algo más que una moda pasajera."
+     ],
+     "firma": "Clara Montiel",
+     "zh": [
+      "几个世纪里，公共水泉一直是村镇和街区的中心：人们在泉边灌满水罐，交流各种消息，不少恋情也是从这里开始的。后来几乎家家户户都通了自来水，水泉失去了存在的意义，许多水泉消失了，也没有人惦记。然而现在，许多市政府正在恢复这些水泉，而这一转变的原因不止一个。",
+      "第一个原因是炎热。夏天越来越极端，能不能在街上喝到水已经成了公共健康问题，对一天中大部分时间都待在街上的人来说尤其如此，比如送货员、环卫工人和无家可归的人。因此，水泉已经和树木、遮阴区一起被列入了市政府的防暑计划。第二个原因既关乎经济，也关乎环保：自来水比瓶装水便宜得多，而且不会产生包装废弃物。",
+      "最大的障碍不在技术，而在信任：许多市民仍然认定，水泉里的水不如家里的水。“这是同样的水，经过同样的检测，”一家市政供水公司的工程师涅韦斯·阿列塔肯定地说，“但是一个脏兮兮或者滴水的水泉会给人一种没人管的感觉，人们就会推断，龙头里流出来的水也没人把关。一个坏了的水泉比没有水泉害处更大。”",
+      "批评的声音也不少。有些居民认为维护费用太高，还提到一些老式的长流水水泉每天要白白流掉好几千升水。更棘手的是干旱时期的争论：一些市政府这时会关闭水泉，为节约用水做表率；但也有人反驳说，这种做法几乎减少不了用水量，吃亏的恰恰是那些没有别处可以喝水的人。",
+      "此外，新一代水泉在设计上照顾到各种各样的使用者：通常多装一个较低的水嘴，供儿童和坐轮椅的人使用，还有一个给水瓶灌水的龙头，因为如今用瓶子接水的人比直接凑到水嘴上喝的人还多。有些城市甚至在附近的街道上设了指示牌，让每个人都能找到离自己最近的水泉。",
+      "这次回归最耐人寻味的地方，也许是它揭示了我们想要一座什么样的城市。街上几乎处处都在引诱人们消费，而水泉是少数几个给予而不要求任何回报的地方之一。建水泉很容易；难的是让居民重新信任它们。这“第二次生命”能否不只是一阵短暂的风潮，取决于这一点，而不是龙头的数量。"
+     ],
+     "palabras": 446
+    }
+   ],
+   "preguntas": [
+    {
+     "n": 1,
+     "texto": "T",
+     "enunciado": "Según el primer párrafo, las fuentes públicas…",
+     "opciones": [
+      "eran un punto de encuentro que solo existía en los pueblos pequeños.",
+      "desaparecieron a pesar de las protestas de muchos vecinos.",
+      "dejaron de hacer falta cuando hubo agua en las casas."
+     ],
+     "clave": "C",
+     "explicacion": "原文：“Cuando el agua corriente llegó a casi todas las viviendas, perdieron su razón de ser”，家里通了自来水，就不必再去水泉打水，C 正确。A 错，水泉是“el corazón de pueblos y barrios”，城里的街区也有，不限于小村镇；B 错，原文说许多水泉消失时“sin que nadie las echara de menos”，没有人惦记，更谈不上抗议。"
+    },
+    {
+     "n": 2,
+     "texto": "T",
+     "enunciado": "Según el texto, las fuentes forman parte de los planes municipales contra el calor porque…",
+     "opciones": [
+      "permiten hidratarse a quien pasa gran parte del día al aire libre.",
+      "refrescan las calles tanto como los árboles y la sombra.",
+      "lo han reclamado durante años los trabajadores que pasan el día en la calle."
+     ],
+     "clave": "A",
+     "explicacion": "原文：“poder beber en la calle se ha convertido en una cuestión de salud pública”，尤其是对一天中大部分时间都待在街上的人，“Por eso las fuentes figuran ya en los planes municipales contra el calor”，A 正确。B 错，原文只说水泉和“el arbolado y las zonas de sombra”一起被列入计划，没说水泉能像树荫一样给街道降温；C 错，原文提到送货员、环卫工人，只是举例说明谁最需要在街上喝水，没有说是他们要求设水泉的。"
+    },
+    {
+     "n": 3,
+     "texto": "T",
+     "enunciado": "Cuando Nieves Arrieta afirma que «una fuente estropeada hace más daño que una que no existe», quiere decir que…",
+     "opciones": [
+      "reparar una fuente vieja sale más caro que instalar otra nueva.",
+      "el agua de las fuentes antiguas no pasa los mismos controles.",
+      "el mal estado de una fuente hace dudar de la calidad del agua."
+     ],
+     "clave": "C",
+     "explicacion": "阿列塔解释说：“una fuente sucia o que gotea transmite sensación de abandono, y la gente deduce que nadie vigila tampoco lo que sale por el grifo”，脏了、坏了的水泉让人怀疑水质，所以比没有水泉更糟，C 正确。A 错，她说的“daño”是对信任的损害，没有比较维修和新建的费用；B 与她的话相反：“Es la misma agua y pasa los mismos controles”。"
+    },
+    {
+     "n": 4,
+     "texto": "T",
+     "enunciado": "Según el texto, cerrar las fuentes en épocas de sequía…",
+     "opciones": [
+      "ha permitido ahorrar miles de litros de agua al día.",
+      "perjudica, según algunos, a quienes más las necesitan.",
+      "es lo que piden los vecinos para dar ejemplo de ahorro."
+     ],
+     "clave": "B",
+     "explicacion": "原文：“hay quien replica que esa medida apenas reduce el consumo y castiga precisamente a quienes no tienen otro sitio donde beber”，B 正确。A 错，“miles de litros al día”指的是老式长流水水泉浪费的水，关于关闭水泉，原文只说它“apenas reduce el consumo”；C 错，为了“dar ejemplo de ahorro”而关闭水泉的是“algunos ayuntamientos”，居民抱怨的是维护费用。"
+    },
+    {
+     "n": 5,
+     "texto": "T",
+     "enunciado": "Según el texto, las fuentes de nueva generación…",
+     "opciones": [
+      "tienen en cuenta a personas con necesidades distintas.",
+      "se usan sobre todo para beber directamente del caño.",
+      "llevan un cartel que indica de dónde procede el agua."
+     ],
+     "clave": "A",
+     "explicacion": "原文说新一代水泉“se diseñan, además, pensando en usuarios muy diversos”，多了一个供“niños y personas en silla de ruedas”使用的低水嘴，还有给水瓶灌水的龙头，A 正确。B 与原文相反：“hoy son más quienes llenan una botella que quienes beben directamente del caño”；C 错，指示牌设在“las calles cercanas”，是为了让人找到“la más próxima”，不是说明水从哪里来。"
+    },
+    {
+     "n": 6,
+     "texto": "T",
+     "enunciado": "Según la autora, el futuro de las fuentes dependerá sobre todo de que…",
+     "opciones": [
+      "se instalen muchas más en todos los barrios de la ciudad.",
+      "los ciudadanos recuperen la confianza en ellas.",
+      "su mantenimiento resulte más barato que ahora."
+     ],
+     "clave": "B",
+     "explicacion": "作者说：“lo difícil será que los vecinos vuelvan a fiarse de ellas. De eso, y no del número de grifos, dependerá que esta segunda vida sea algo más que una moda pasajera”，B 正确。A 正好被“y no del número de grifos”否定；C 错，维护费用是第四段里一些居民的批评（“el gasto de mantenimiento”），作者在最后一段没有把它当作关键。"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "tipo": "relacionar",
+   "instruccion_es": "Va a leer cuatro testimonios de personas que pasaron una temporada sin usar las redes sociales. Relacione las preguntas 7 a 16 con los textos (A, B, C o D). Cada texto puede corresponder a más de una pregunta. Marque las opciones elegidas en la Hoja de respuestas.",
+   "instruccion_zh": "阅读四篇短文，几个人讲述自己一段时间不用社交网络的经历。把第 7—16 题和短文（A、B、C、D）对应起来，每篇短文可以对应不止一道题。在答题卡上涂出所选答案。",
+   "tema_zh": "科技与社会：四个人暂时离开社交网络的经历",
+   "opciones_tipo": "textos",
+   "textos": [
+    {
+     "id": "A",
+     "genero": "testimonio",
+     "titulo": "Nerea, 23 años, estudiante (Bilbao)",
+     "titulo_zh": "内雷亚，23 岁，学生（毕尔巴鄂）",
+     "cuerpo": [
+      "Lo hice casi por obligación: en una asignatura de la carrera nos propusieron pasar un mes sin redes sociales y llevar un diario en el que anotáramos cómo nos sentíamos cada día. Pensé que sería pan comido, pero la primera semana fue horrible. Mis amigas lo organizan todo a través de un grupo y, como yo no me enteraba de nada, me perdí un par de cenas y hasta una fiesta de cumpleaños. Me sentí bastante sola, la verdad. Lo bueno llegó después: empecé a acostarme mucho antes, porque ya no me quedaba hasta las dos de la madrugada viendo vídeos, y por las mañanas tenía la cabeza más despejada. Cuando terminó el mes volví a instalar las aplicaciones, aunque ahora las tengo escondidas en una carpeta y con un límite de media hora al día."
+     ],
+     "zh": [
+      "我几乎是被迫这么做的：大学的一门课要求我们一个月不用社交网络，还要写日记，记下每天的感受。我以为这是小菜一碟，结果第一周糟透了。我的朋友们什么事都在一个群里商量，我什么消息都不知道，错过了几次晚饭，甚至还错过了一个生日聚会。说实话，我感到挺孤单的。好处是后来才出现的：我开始比以前早得多上床睡觉，因为不再看视频看到凌晨两点，早上脑子也更清醒。一个月结束后，我又把应用装了回来，不过现在把它们藏在一个文件夹里，还设了每天半小时的使用限制。"
+     ],
+     "icono": "",
+     "palabras": 136
+    },
+    {
+     "id": "B",
+     "genero": "testimonio",
+     "titulo": "Joaquín, 44 años, profesor (Mendoza, Argentina)",
+     "titulo_zh": "华金，44 岁，教师（阿根廷门多萨）",
+     "cuerpo": [
+      "Fue mi hija de quince años la que me desafió: «Si vos aguantás un mes sin redes, yo apago el celular a las diez de la noche». Acepté enseguida, convencido de que me iba a resultar facilísimo. Me equivoqué. Los primeros días sacaba el teléfono del bolsillo sin darme cuenta, en la cola del banco o mientras esperaba el colectivo. Después me acostumbré y empecé a aprovechar esos ratos muertos para pensar en mis clases. ¿Me cambió la vida? Sinceramente, mucho menos de lo que esperaba: seguía igual de estresado por el trabajo y seguía durmiendo mal. Lo que sí noté es que en casa conversábamos más durante la cena. Ya volví a las redes, pero solo las abro los fines de semana. Y mi hija, por cierto, sigue cumpliendo su parte del trato."
+     ],
+     "zh": [
+      "是我十五岁的女儿向我发起挑战的：“你要是能一个月不上社交网络，我就晚上十点关手机。”我马上就答应了，以为这对我来说易如反掌。我错了。头几天，在银行排队或者等公交车的时候，我会不知不觉地从口袋里掏出手机。后来我习惯了，开始利用这些零碎时间想想我的课。我的生活改变了吗？说实话，比我预想的少得多：我还是因为工作压力很大，还是睡不好。我确实注意到的是，家里吃晚饭时我们聊得更多了。现在我又用社交网络了，但只在周末打开。顺便说一句，我女儿至今还在遵守她那部分约定。"
+     ],
+     "icono": "",
+     "palabras": 134
+    },
+    {
+     "id": "C",
+     "genero": "testimonio",
+     "titulo": "Rosa, 56 años, pastelera (Murcia)",
+     "titulo_zh": "罗莎，56 岁，糕点师（穆尔西亚）",
+     "cuerpo": [
+      "En mi caso, el experimento duró dos semanas, no un mes. Tengo una pastelería pequeña y gran parte de los encargos me llegan por mensajes en las redes, donde además publico cada mañana fotos de las tartas del día. Después de unas Navidades agotadoras, en las que contestaba a clientes hasta medianoche, decidí desconectar. Al principio me sentí liberada, pero enseguida empezaron los problemas: algunos clientes creyeron que habíamos cerrado y los encargos bajaron casi a la mitad. Así que volví antes de tiempo. No me arrepiento de haberlo intentado, porque desde entonces solo respondo mensajes en horario de tienda. Lo que me molesta es leer artículos que presentan la desconexión como la solución para todo el mundo. Para quien vive de un pequeño negocio, desconectar del todo es un lujo que no se puede permitir."
+     ],
+     "zh": [
+      "我的情况是，这个实验只持续了两个星期，而不是一个月。我开了一家小糕点店，很大一部分订单是通过社交网络上的私信来的，我每天早上还在上面发当天蛋糕的照片。圣诞季我累坏了，那段时间一直回复顾客到半夜，之后我决定断网。一开始我觉得很解脱，可问题很快就来了：一些顾客以为我们关门了，订单几乎少了一半。所以我提前回来了。我不后悔尝试过，因为从那以后我只在营业时间回复消息。让我不舒服的是，有些文章把断网说成适合所有人的办法。对靠小生意谋生的人来说，彻底断网是一种负担不起的奢侈。"
+     ],
+     "icono": "",
+     "palabras": 136
+    },
+    {
+     "id": "D",
+     "genero": "testimonio",
+     "titulo": "Andrés, 34 años, ilustrador (Ciudad de México)",
+     "titulo_zh": "安德烈斯，34 岁，插画师（墨西哥城）",
+     "cuerpo": [
+      "Yo no me puse ningún plazo: simplemente borré mis cuentas un lunes, harto de compararme a todas horas con otros ilustradores que parecían tener más éxito que yo. Lo curioso es que, sin esa presión constante, volví a dibujar por placer, en cuadernos que nadie iba a ver, algo que no hacía desde que salí de la universidad. Mis colegas me advirtieron que perdería clientes, y es cierto que un par de agencias dejaron de llamarme. Sin embargo, otros me encontraron gracias a mi página web o porque alguien les habló de mí. Ya pasó un año y no tengo ninguna intención de volver. No digo que las redes sean malas; digo que a mí me hacían sentir que nunca era suficiente. Hoy trabajo menos horas y, aun así, gano casi lo mismo que antes."
+     ],
+     "zh": [
+      "我没给自己定任何期限：一个星期一，我干脆把账号都删了，因为我受够了时时刻刻拿自己和那些看起来比我成功的插画师比较。有意思的是，没有了这种持续的压力，我又开始为了乐趣而画画，画在没人会看的本子上，这是我大学毕业以后就没再做过的事。同行们提醒我会失去客户，确实有几家代理公司不再找我了。不过，另一些客户通过我的网站，或者因为有人向他们提起我，找到了我。已经过去一年了，我完全没有回去的打算。我不是说社交网络不好，我是说它们让我觉得自己永远不够好。现在我工作的时间少了，可挣得还是和以前差不多。"
+     ],
+     "icono": "",
+     "palabras": 135
+    }
+   ],
+   "enunciados": [
+    {
+     "n": 7,
+     "persona": "",
+     "texto": "¿Quién abandonó la experiencia antes de lo previsto?",
+     "zh": "谁比原计划提前结束了这次尝试？",
+     "clave": "C",
+     "explicacion": "罗莎说“el experimento duró dos semanas, no un mes”，又说“volví antes de tiempo”，因为订单减少提前恢复使用，选 C。涅雷亚和华金都坚持了一个月；安德烈斯“no me puse ningún plazo”，本来就没有定期限，而且一直没有回去。"
+    },
+    {
+     "n": 8,
+     "persona": "",
+     "texto": "¿Quién se quedó fuera de algunos planes de su grupo de amigos?",
+     "zh": "谁错过了朋友们的一些聚会安排？",
+     "clave": "A",
+     "explicacion": "涅雷亚说朋友们“lo organizan todo a través de un grupo”，她收不到消息，“me perdí un par de cenas y hasta una fiesta de cumpleaños”，选 A。其他三人都没有提到因此错过朋友的活动；华金提到的晚饭是和家人一起吃的，而且反而聊得更多了。"
+    },
+    {
+     "n": 9,
+     "persona": "",
+     "texto": "¿Quién retomó una actividad que había dejado hacía muchos años?",
+     "zh": "谁重新拾起了一项多年没做的活动？",
+     "clave": "D",
+     "explicacion": "安德烈斯说“volví a dibujar por placer… algo que no hacía desde que salí de la universidad”，选 D。罗莎的“volví antes de tiempo”和涅雷亚的“volví a instalar las aplicaciones”说的是重新使用社交网络，只隔了几周；华金利用零碎时间想课程，不是重拾旧爱好。"
+    },
+    {
+     "n": 10,
+     "persona": "",
+     "texto": "¿Quién reconoce que la experiencia tuvo menos efectos de los que imaginaba?",
+     "zh": "谁承认这次经历带来的变化比想象的小？",
+     "clave": "B",
+     "explicacion": "华金自问“¿Me cambió la vida?”，回答“mucho menos de lo que esperaba”，压力和睡眠都没有改善，选 B。涅雷亚也说自己想错了，但她指的是第一周比想象的难熬（“Pensé que sería pan comido”），不是效果小；罗莎、安德烈斯都没有这样的评价。"
+    },
+    {
+     "n": 11,
+     "persona": "",
+     "texto": "¿Quién se iba a dormir más temprano mientras estuvo sin redes?",
+     "zh": "谁在不用社交网络期间睡得更早了？",
+     "clave": "A",
+     "explicacion": "涅雷亚说“empecé a acostarme mucho antes, porque ya no me quedaba hasta las dos de la madrugada viendo vídeos”，选 A。华金正好相反，“seguía durmiendo mal”；罗莎说的“hasta medianoche”是断网之前回复顾客的情况。"
+    },
+    {
+     "n": 12,
+     "persona": "",
+     "texto": "¿Quién se queja de cómo se habla de la desconexión en algunas publicaciones?",
+     "zh": "谁对一些文章谈论断网的方式表示不满？",
+     "clave": "C",
+     "explicacion": "罗莎说“Lo que me molesta es leer artículos que presentan la desconexión como la solución para todo el mundo”，选 C。安德烈斯说“No digo que las redes sean malas”，只是限定自己的说法，并没有批评别人写的文章。"
+    },
+    {
+     "n": 13,
+     "persona": "",
+     "texto": "¿Quién ha dejado las redes de forma definitiva?",
+     "zh": "谁彻底离开了社交网络？",
+     "clave": "D",
+     "explicacion": "安德烈斯说“Ya pasó un año y no tengo ninguna intención de volver”，选 D。涅雷亚一个月后“volví a instalar las aplicaciones”；华金“Ya volví a las redes”，只在周末用；罗莎两周后就回去了。注：安德烈斯是墨西哥人，“Ya pasó un año”用简单过去时表示到现在为止的事，是拉美常见用法（西班牙多说 ya ha pasado）。"
+    },
+    {
+     "n": 14,
+     "persona": "",
+     "texto": "¿Quién tuvo que ir anotando por escrito sus sensaciones?",
+     "zh": "谁必须把自己每天的感受记录下来？",
+     "clave": "A",
+     "explicacion": "涅雷亚说课程要求“llevar un diario en el que anotáramos cómo nos sentíamos cada día”，选 A。安德烈斯在“cuadernos que nadie iba a ver”里画的是画，不是记录感受；华金、罗莎都没有提到写东西。"
+    },
+    {
+     "n": 15,
+     "persona": "",
+     "texto": "¿Quién consiguió con su experiencia que otra persona modificara un hábito?",
+     "zh": "谁通过这次经历让另一个人改变了一个习惯？",
+     "clave": "B",
+     "explicacion": "华金和女儿约定：他一个月不上社交网络，女儿就“apago el celular a las diez de la noche”；最后他说“mi hija… sigue cumpliendo su parte del trato”，女儿改变了用手机的习惯，选 B。其他三人的经历只涉及自己。注：vos aguantás 是阿根廷的 voseo，celular（手机）、colectivo（公交车）是拉美用词。"
+    },
+    {
+     "n": 16,
+     "persona": "",
+     "texto": "¿Quién atiende ahora a sus clientes solo durante ciertas horas?",
+     "zh": "谁现在只在固定的时间段回应顾客？",
+     "clave": "C",
+     "explicacion": "罗莎说“desde entonces solo respondo mensajes en horario de tienda”，选 C。安德烈斯说“Hoy trabajo menos horas”，讲的是工作时间变短，没有说只在某个时段接待客户；涅雷亚的“media hora al día”是给自己设的使用时限，与顾客无关。"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "tipo": "fragmentos",
+   "instruccion_es": "Lea el siguiente artículo, del que se han extraído seis fragmentos. A continuación, lea los ocho fragmentos propuestos (A-H) y decida en qué lugar del texto (17-22) hay que colocar cada uno. Hay dos fragmentos que no tiene que elegir. Marque las opciones elegidas en la Hoja de respuestas.",
+   "instruccion_zh": "阅读下面的文章，文中抽掉了六个片段。再读八个片段（A—H），确定每个片段应放回文中哪个位置（17—22）。有两个片段是多余的。在答题卡上涂出所选答案。",
+   "tema_zh": "旅游的影响：一个山村在网上爆红之后",
+   "texto": {
+    "genero": "artículo",
+    "titulo": "Doscientos vecinos y un millón de visualizaciones",
+    "titulo_zh": "两百位邻居和一百万次播放",
+    "autor": "Daniel Requena",
+    "cuerpo": [
+     "Hasta hace tres años, Valdecuervos era uno de esos pueblos de la sierra de Teruel que solo aparecían en las noticias cuando nevaba más de la cuenta. Tenía doscientos habitantes, un bar que abría los fines de semana y un puente medieval sobre el río que casi nadie se detenía a fotografiar. [17] En menos de una semana, el vídeo superó el millón de visualizaciones y el pueblo empezó a recibir visitantes de toda España.",
+     "Al principio, la llegada de turistas se recibió como una buena noticia. El bar empezó a abrir a diario, dos familias reformaron casas antiguas para alquilarlas y el ayuntamiento, que llevaba años intentando frenar la despoblación, vio en aquel fenómeno una oportunidad inesperada. [18] Durante el verano siguiente, algunos fines de semana llegaron a juntarse más de dos mil personas en un pueblo sin aparcamiento ni servicios públicos suficientes.",
+     "Los problemas no tardaron en aparecer. Los coches bloqueaban la única carretera de acceso, las basuras se acumulaban junto al río y algunos vecinos mayores dejaron de salir de casa los sábados para no encontrarse con la multitud. [19] Ese contraste entre la imagen idílica que se difunde en las redes y la realidad que viven los habitantes es, según los expertos, uno de los rasgos que definen el llamado turismo viral.",
+     "La geógrafa Inés Albarracín, que estudia este fenómeno desde hace una década, explica que su principal característica es la rapidez. «Un destino tradicional crece a lo largo de muchos años y tiene tiempo de adaptarse. [20] No hay hoteles, no hay transporte, no hay normas, y los vecinos se sienten invadidos de un día para otro», señala. A su juicio, el error más frecuente de las autoridades es reaccionar tarde, cuando el daño ya está hecho y la convivencia se ha deteriorado.",
+     "En Valdecuervos decidieron actuar antes de que fuera demasiado tarde. Desde la primavera pasada, quienes quieren visitar el puente los fines de semana deben reservar plaza en la página web del ayuntamiento, y los coches se quedan en un aparcamiento situado a tres kilómetros, desde donde sale un autobús cada media hora. [21] Aun así, la medida tiene detractores: algunos negocios se quejan de que han perdido clientes, y hay quien la considera una manera de cobrar por un paisaje que pertenece a todos.",
+     "El alcalde, Julián Ortiz, defiende la decisión con datos: el número de visitantes se ha reducido a la mitad, pero ahora se quedan más tiempo, comen en el pueblo y gastan más en los comercios locales. [22] Quizá ese sea el verdadero reto de los lugares que, de repente, se vuelven famosos: aprovechar la visibilidad sin perder aquello que los hacía especiales."
+    ],
+    "zh": [
+     "三年前，巴尔德奎尔沃斯还是特鲁埃尔山区那种只有雪下得特别大时才会上新闻的村子。村里有两百位居民、一家只在周末营业的酒吧，还有一座横跨小河的中世纪石桥，几乎没有人停下来给它拍照。（第 17 空填 D：直到一个路过的年轻女孩在日出时拍下这座桥，把视频传到网上，一切才改变了。）不到一个星期，视频的播放量就超过了一百万，村子开始迎来全国各地的游客。",
+     "起初，游客的到来被看作好消息。酒吧开始天天营业，两户人家把老房子翻修后出租，多年来一直设法遏制人口流失的镇政府也从这一现象中看到了意想不到的机会。（第 18 空填 A：然而，谁也没有料到，游客数量会一个月接一个月地失控增长。）第二年夏天，有些周末，这个既没有停车场、公共服务也不足的村子里竟聚集了两千多人。",
+     "问题很快就出现了。汽车堵住了唯一的进村道路，垃圾堆在河边，一些上了年纪的村民为了避开人群，周六干脆不出门。（第 19 空填 H：矛盾的是，与此同时，网上流传的照片里仍是一个宁静、空旷、几乎无人知晓的地方。）专家认为，社交网络上传播的田园形象和居民实际生活之间的这种反差，正是所谓“网红旅游”的特征之一。",
+     "地理学家伊内斯·阿尔瓦拉辛研究这一现象已有十年，她解释说，它的主要特点是来得快。“传统的旅游目的地是用很多年慢慢发展起来的，有时间去适应。（第 20 空填 E：相反，一个一周之内就出名的村子，根本没有余地做任何准备。）没有旅馆，没有交通，没有规章，村民一夜之间就觉得自己被入侵了。”她认为，当局最常犯的错误是反应太晚，等到损害已经造成、邻里关系已经恶化才行动。",
+     "巴尔德奎尔沃斯决定在为时已晚之前采取行动。从去年春天起，想在周末参观石桥的人必须在镇政府网站上预约名额，汽车一律停在三公里外的停车场，从那里每半小时发一班巴士。（第 21 空填 G：预约费三欧元，这只是象征性的金额，用于清洁和维护道路。）尽管如此，这项措施仍有反对者：一些商家抱怨客人少了，还有人认为这是在为一片属于所有人的风景收费。",
+     "镇长胡利安·奥尔蒂斯用数据为这一决定辩护：游客人数减少了一半，但现在他们停留的时间更长，在村里吃饭，在本地商店花的钱也更多。（第 22 空填 C：“我们要的不是更少的人，而是从容而来、尊重我们这些当地居民的游客。”他总结道。）也许这才是那些突然出名的地方面临的真正挑战：既要利用知名度，又不能失去让自己与众不同的东西。"
+    ],
+    "palabras": 438
+   },
+   "fragmentos": [
+    {
+     "id": "A",
+     "texto": "Sin embargo, nadie había previsto que el número de visitantes seguiría creciendo sin control mes tras mes.",
+     "zh": "然而，谁也没有料到，游客数量会一个月接一个月地失控增长。"
+    },
+    {
+     "id": "B",
+     "texto": "Por el contrario, un pueblo pequeño suele recibir ayudas públicas para mejorar rápidamente sus carreteras y servicios.",
+     "zh": "相反，小村子通常会得到公共补贴，用来迅速改善道路和各项服务。"
+    },
+    {
+     "id": "C",
+     "texto": "«No queremos menos gente, sino gente que venga con calma y respete a quienes vivimos aquí», resume.",
+     "zh": "“我们要的不是更少的人，而是从容而来、尊重我们这些当地居民的游客。”他总结道。"
+    },
+    {
+     "id": "D",
+     "texto": "Todo cambió cuando una joven que estaba de paso grabó el puente al amanecer y lo subió a internet.",
+     "zh": "直到一个路过的年轻女孩在日出时拍下这座桥，把视频传到网上，一切才改变了。"
+    },
+    {
+     "id": "E",
+     "texto": "En cambio, un pueblo que se hace famoso en una semana no tiene margen para preparar nada.",
+     "zh": "相反，一个一周之内就出名的村子，根本没有余地做任何准备。"
+    },
+    {
+     "id": "F",
+     "texto": "Por eso, muchos vecinos decidieron vender sus casas y marcharse a vivir a la capital de la provincia.",
+     "zh": "因此，许多村民决定卖掉房子，搬到省会去住。"
+    },
+    {
+     "id": "G",
+     "texto": "La reserva cuesta tres euros, una cantidad simbólica que se destina a la limpieza y al mantenimiento de los caminos.",
+     "zh": "预约费三欧元，这只是象征性的金额，用于清洁和维护道路。"
+    },
+    {
+     "id": "H",
+     "texto": "Paradójicamente, mientras tanto, en internet seguían circulando fotos de un lugar tranquilo, vacío y casi secreto.",
+     "zh": "矛盾的是，与此同时，网上流传的照片里仍是一个宁静、空旷、几乎无人知晓的地方。"
+    }
+   ],
+   "huecos": [
+    {
+     "n": 17,
+     "clave": "D",
+     "explicacion": "空前说石桥“casi nadie se detenía a fotografiar”，空后突然出现“el vídeo superó el millón de visualizaciones”，定冠词 el vídeo 说明前面必须已经提到视频。D 讲有人拍下石桥并上传网络（“Todo cambió cuando…”），正好完成从“无人拍照”到“视频爆红”的转折。"
+    },
+    {
+     "n": 18,
+     "clave": "A",
+     "explicacion": "空前说镇政府把游客的到来看作“una oportunidad inesperada”，空后是两千多人涌进一个没有停车场的小村。A 用“Sin embargo”转折，“nadie había previsto que… seguiría creciendo sin control”，引出后面的失控局面；过去完成时 había previsto 也和叙述的时态一致。"
+    },
+    {
+     "n": 19,
+     "clave": "H",
+     "explicacion": "空后的“Ese contraste entre la imagen idílica que se difunde en las redes y la realidad”要求前面先出现“网上的形象”和“现实”的对照。空前讲堵车、垃圾、老人不敢出门（现实），H 说网上照片仍是“un lugar tranquilo, vacío y casi secreto”（形象），“Paradójicamente, mientras tanto”正好构成反差。"
+    },
+    {
+     "n": 20,
+     "clave": "E",
+     "explicacion": "引语先说“Un destino tradicional crece a lo largo de muchos años y tiene tiempo de adaptarse”，E 用“En cambio”与之对比：一周就出名的村子“no tiene margen para preparar nada”，后面的“No hay hoteles, no hay transporte, no hay normas”具体说明毫无准备。B 也有对比连接词，但内容与后文矛盾，见多余片段说明。"
+    },
+    {
+     "n": 21,
+     "clave": "G",
+     "explicacion": "空前介绍了预约（“deben reservar plaza”）和停车、接驳巴士，G 里的“La reserva”指的正是这项预约，并说明三欧元的用途；空后有人批评这是“una manera de cobrar por un paisaje”，正因为预约要收费，这一批评才说得通。"
+    },
+    {
+     "n": 22,
+     "clave": "C",
+     "explicacion": "空前是镇长胡利安·奥尔蒂斯用数据为措施辩护，C 是他的原话，句末“resume”的主语就是镇长。“No queremos menos gente, sino gente que venga con calma”也和“人数减半、但停留更久”的数据一致，并引出最后一句“aprovechar la visibilidad sin perder…”。"
+    }
+   ],
+   "distractores": [
+    {
+     "id": "B",
+     "explicacion": "B 以“Por el contrario”开头，看上去可以放在第 20 空，与“传统目的地”形成对比；但它说小村子会得到补贴“para mejorar rápidamente sus carreteras y servicios”，与紧接着的“No hay hoteles, no hay transporte, no hay normas”矛盾，也与全文描写的小村缺乏服务不符。"
+    },
+    {
+     "id": "F",
+     "explicacion": "F 看似可以接在第 19 空前面那句“老人周六不敢出门”之后，但全文没有村民卖房离开的情节：第二段说的是“reformaron casas antiguas para alquilarlas”，镇长也说“quienes vivimos aquí”；而且第 19 空后面的“Ese contraste…”要求前文先提到网上的形象，F 无法衔接。放在第 18 空也不行：镇政府看到“oportunidad”推不出“Por eso… vender sus casas”，这和它想“frenar la despoblación”正好相反。"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "tipo": "huecos",
+   "instruccion_es": "Lea el texto y complete los huecos 23 a 36 con la opción correcta (a, b o c). Marque las opciones elegidas en la Hoja de respuestas.",
+   "instruccion_zh": "阅读下面的文章，从 a、b、c 中选出正确的选项填入第 23—36 空。在答题卡上涂出所选答案。",
+   "tema_zh": "传记：虚构的科学插画家安帕罗·利尼安的一生",
+   "texto": {
+    "genero": "biografía",
+    "titulo": "Amparo Liñán, la mujer que dibujaba lo invisible",
+    "titulo_zh": "安帕罗·利尼安：描绘看不见之物的女人",
+    "cabecera": [],
+    "cuerpo": [
+     "Amparo Liñán nació en Cádiz en 1903, en el seno de una familia de comerciantes que no veía con buenos ojos que una hija [23] su tiempo al dibujo. Su padre, sin embargo, que admiraba en secreto el talento de la niña, le regaló una caja de lápices de colores el día en que cumplió ocho años, y aquel regalo, según contaría ella muchas décadas después, le [24] la vida. Desde entonces, no hubo papel en la casa que se salvara de sus garabatos: cuadernos de cuentas, sobres viejos, márgenes de periódicos.",
+     "[25] la oposición de su madre, a los diecinueve años consiguió una plaza como ayudante en un laboratorio de biología de Madrid. Su tarea [26] en copiar a mano lo que los investigadores observaban a través del microscopio: células, algas, insectos diminutos que nadie había dibujado antes con tanto detalle. Los científicos pronto se dieron [27] de que sus láminas eran mucho más claras que las fotografías de la época, que solían salir borrosas y sin contraste. Fue entonces cuando empezaron a llamarla, medio en broma, «la fotógrafa sin cámara».",
+     "Durante los años veinte, sus dibujos se publicaron en revistas científicas de media Europa, aunque casi nunca [28] su nombre: aparecían firmados con las iniciales del director del laboratorio. Amparo lo aceptaba [29] no tenía otra opción. «Si hubiera protestado, me [30] al día siguiente», confesó en una entrevista que concedió ya anciana. Aun así, su fama corrió de boca en boca entre los investigadores, y llegó a recibir encargos de universidades francesas y alemanas.",
+     "Cuando estalló la Guerra Civil, el laboratorio cerró sus puertas y Amparo, como tantos otros científicos y artistas, se [31] obligada a exiliarse. Llegó a México en 1939, tras un largo viaje en barco, con una maleta de ropa y una carpeta de dibujos, [32] contenido se perdió años más tarde en un incendio. Allí trabajó durante más de tres décadas para la universidad y dio clases de ilustración científica a varias generaciones de estudiantes, [33] enseñaba a mirar «con paciencia de jardinero».",
+     "En México se casó con un médico asturiano, también exiliado, con quien tuvo dos hijas. Nunca volvió a instalarse en España, [34] visitó Cádiz en varias ocasiones a partir de 1977. En sus últimos años, cuando ya [35] fallaba la vista y apenas salía de casa, seguía dibujando cada mañana las plantas de su jardín, como si [36] demostrar que mirar con atención también es una forma de resistencia. Murió en 1987, a los ochenta y cuatro años. Hoy, algunas de sus láminas se exponen en un museo de Ciudad de México, esta vez sí, firmadas por ella."
+    ],
+    "firma": "",
+    "zh": [
+     "安帕罗·利尼安 1903 年出生在加的斯一个商人家庭，家里人不赞成一个女儿把时间花在画画上（第 23 空：dedicara）。不过，她的父亲暗自欣赏女儿的天分，在她八岁生日那天送给她一盒彩色铅笔。按照她几十年后的说法，这份礼物改变了她的一生（第 24 空：cambió）。从那以后，家里没有一张纸能逃过她的涂鸦：账本、旧信封、报纸的页边。",
+     "尽管母亲反对（第 25 空：A pesar de），她十九岁时还是在马德里一家生物实验室谋得了助手的职位。她的工作就是（第 26 空：consistía）把研究人员在显微镜下观察到的东西用手描画下来：细胞、藻类，还有以前从没有人画得这么细致的微小昆虫。科学家们很快就发现（第 27 空：cuenta），她的图版比当时的照片清楚得多，那时的照片往往模糊、没有反差。也就是从那时起，人们半开玩笑地叫她“没有相机的摄影师”。",
+     "二十年代，她的画在欧洲许多国家的科学杂志上发表，但几乎从来不署她的名字（第 28 空：con）：画上署的是实验室主任姓名的首字母。安帕罗接受了这一点，因为（第 29 空：porque）她别无选择。“要是我当时抗议，第二天他们就会把我解雇（第 30 空：habrían despedido）。”她年迈时在一次采访中坦言。尽管如此，她的名声还是在研究人员中口口相传，她甚至收到了法国和德国大学的委托。",
+     "内战爆发后，实验室关了门，安帕罗和许多科学家、艺术家一样，被迫（第 31 空：vio）流亡。1939 年，经过漫长的海上航行，她带着一箱衣服和一夹画稿到了墨西哥，这夹画稿（第 32 空：cuyo）后来在一场火灾中遗失了。在那里，她为大学工作了三十多年，给好几代学生教授科学插画，教他们（第 33 空：a quienes）“以园丁的耐心”去观察。",
+     "在墨西哥，她嫁给了一位同样流亡的阿斯图里亚斯医生，和他生了两个女儿。她再也没有回西班牙定居，不过（第 34 空：aunque）1977 年以后曾多次回到加的斯。晚年，她视力已经衰退（第 35 空：le），也很少出门，却仍然每天早上画花园里的植物，仿佛想（第 36 空：quisiera）证明：专注地观看也是一种抵抗。她于 1987 年去世，享年八十四岁。如今，她的一些图版在墨西哥城的一家博物馆展出，这一次，署的是她自己的名字。"
+    ],
+    "palabras": 424
+   },
+   "preguntas": [
+    {
+     "n": 23,
+     "opciones": [
+      "dedicaba",
+      "dedicara",
+      "dedicaría"
+     ],
+     "clave": "B",
+     "foco": "gramática",
+     "explicacion": "“no veía con buenos ojos que…”表示评价、不赞成，从句要用虚拟式；主句是过去未完成时 veía，从句相应用过去虚拟式 dedicara。dedicaba 是陈述式，dedicaría 是条件式，都不能用在这种表示态度的 que 从句里。"
+    },
+    {
+     "n": 24,
+     "opciones": [
+      "cambiaba",
+      "cambie",
+      "cambió"
+     ],
+     "clave": "C",
+     "foco": "gramática",
+     "explicacion": "“aquel regalo… le cambió la vida”讲的是过去一次性完成的事件，用简单过去时 cambió。cambiaba 是过去未完成时，表示过去的习惯或背景，不合语境；cambie 是现在虚拟式，这里是陈述事实的主句，不需要虚拟式。"
+    },
+    {
+     "n": 25,
+     "opciones": [
+      "A pesar de",
+      "Debido a",
+      "En cuanto a"
+     ],
+     "clave": "A",
+     "foco": "conectores",
+     "explicacion": "母亲反对是不利条件，她仍然得到了实验室的职位，前后是让步关系：“A pesar de la oposición de su madre”。Debido a 表示原因（因为母亲反对才得到职位，不合逻辑）；En cuanto a 意思是“至于、关于”，不能引出让步。"
+    },
+    {
+     "n": 26,
+     "opciones": [
+      "consistía",
+      "trataba",
+      "constaba"
+     ],
+     "clave": "A",
+     "foco": "léxico",
+     "explicacion": "固定搭配“consistir en + 不定式”，表示“（某事）的内容就是……”：“Su tarea consistía en copiar a mano…”。tratar 要说 tratarse de；constar de 是“由……组成”，constar en 是“记载在……里”，都不能表示“工作的内容是……”。"
+    },
+    {
+     "n": 27,
+     "opciones": [
+      "razón",
+      "lugar",
+      "cuenta"
+     ],
+     "clave": "C",
+     "foco": "léxico",
+     "explicacion": "“darse cuenta de que…”意为“意识到、发现”，是固定搭配：“se dieron cuenta de que sus láminas eran mucho más claras”。dar la razón（认为某人有理）、dar lugar a（引起）都构不成“se dieron … de que”的结构。"
+    },
+    {
+     "n": 28,
+     "opciones": [
+      "por",
+      "con",
+      "sin"
+     ],
+     "clave": "B",
+     "foco": "gramática",
+     "explicacion": "冒号后说明画作“aparecían firmados con las iniciales del director del laboratorio”，可见“几乎从来不署她的名字”，即 casi nunca con su nombre。填 sin 会变成“几乎总是署她的名字”，与后文矛盾；por su nombre 在这里不成搭配。"
+    },
+    {
+     "n": 29,
+     "opciones": [
+      "aunque",
+      "sino que",
+      "porque"
+     ],
+     "clave": "C",
+     "foco": "conectores",
+     "explicacion": "她接受不署自己的名字，是因为别无选择，前后是因果关系，用 porque。aunque 表示让步，逻辑不通；sino que 只能用在否定之后（no…, sino que…），这里主句是肯定句。"
+    },
+    {
+     "n": 30,
+     "opciones": [
+      "habrían despedido",
+      "despedirán",
+      "hayan despedido"
+     ],
+     "clave": "A",
+     "foco": "gramática",
+     "explicacion": "“Si hubiera protestado”是与过去事实相反的假设（过去完成虚拟式），主句用复合条件式：me habrían despedido。despedirán 是将来时，hayan despedido 是现在完成虚拟式，都不能和这种过去的假设搭配。"
+    },
+    {
+     "n": 31,
+     "opciones": [
+      "puso",
+      "vio",
+      "hizo"
+     ],
+     "clave": "B",
+     "foco": "léxico",
+     "explicacion": "“verse obligado/a a + 不定式”是固定说法，意为“不得不、被迫”：“se vio obligada a exiliarse”。ponerse、hacerse 虽然也能表示变化（ponerse nervioso、hacerse rico），但不能和 obligada a 搭配。"
+    },
+    {
+     "n": 32,
+     "opciones": [
+      "que su",
+      "cuya",
+      "cuyo"
+     ],
+     "clave": "C",
+     "foco": "gramática",
+     "explicacion": "关系形容词 cuyo 表示所属，性数要和后面被拥有的名词一致，而不是和先行词一致：contenido 是阳性单数，所以用 cuyo，而不是与 carpeta 一致的 cuya。“que su contenido”是口语中常见的不规范说法。"
+    },
+    {
+     "n": 33,
+     "opciones": [
+      "quienes",
+      "a quienes",
+      "los cuales"
+     ],
+     "clave": "B",
+     "foco": "gramática",
+     "explicacion": "enseñar a alguien a hacer algo：被教的人前面要有前置词 a（相当于 les enseñaba），所以关系代词也要带 a：a quienes enseñaba a mirar。quienes、los cuales 前面都缺 a，语法不对。"
+    },
+    {
+     "n": 34,
+     "opciones": [
+      "aunque",
+      "porque",
+      "así que"
+     ],
+     "clave": "A",
+     "foco": "conectores",
+     "explicacion": "“再也没有回西班牙定居”和“多次回加的斯探访”之间是让步关系：虽然没回去定居，但回去过几次，用 aunque。porque（原因）、así que（结果）都不合逻辑。"
+    },
+    {
+     "n": 35,
+     "opciones": [
+      "la",
+      "se",
+      "le"
+     ],
+     "clave": "C",
+     "foco": "gramática",
+     "explicacion": "fallar 表示“（身体器官）不中用”时，人是间接宾语：la vista le fallaba，用 le。用 la 属于 laísmo，不规范；se 不能表示“她的视力”。"
+    },
+    {
+     "n": 36,
+     "opciones": [
+      "quiere",
+      "quisiera",
+      "querría"
+     ],
+     "clave": "B",
+     "foco": "gramática",
+     "explicacion": "“como si”（仿佛）后面只能用过去虚拟式或过去完成虚拟式：como si quisiera demostrar…。quiere（陈述式现在时）和 querría（条件式）都不能放在 como si 之后。"
+    }
+   ]
+  }
+ ]
+}

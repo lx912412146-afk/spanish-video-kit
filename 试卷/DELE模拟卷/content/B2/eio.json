@@ -1,0 +1,447 @@
+{
+  "nivel": "B2",
+  "prueba": "Expresión e interacción orales",
+  "zh": "口头表达与互动",
+  "duracion_min": 20,
+  "preparacion_min": 20,
+  "intro_es": "La prueba de Expresión e interacción orales contiene tres tareas. Duración: 20 minutos. Antes de la prueba tendrá 20 minutos para preparar las tareas 1 y 2. En cada tarea podrá elegir entre dos opciones.",
+  "tareas": [
+    {
+      "n": 1,
+      "titulo_es": "Valorar propuestas",
+      "minutos": [6, 7],
+      "preparacion": true,
+      "instruccion_es": [
+        "Elija una de las dos opciones. En cada una se presentan un problema y seis propuestas para solucionarlo.",
+        "Primero tendrá que hablar durante tres o cuatro minutos sobre las propuestas. Debe comentar, como mínimo, cuatro de ellas.",
+        "Al valorar cada propuesta, explique por qué le parece una buena o una mala solución, qué ventajas e inconvenientes tiene, a quién beneficia o perjudica y si la modificaría de algún modo.",
+        "Después conversará con el entrevistador sobre el tema durante dos o tres minutos."
+      ],
+      "instruccion_zh": "从两个选项中选一个。每个选项给出一个问题和六条解决建议。先用三到四分钟谈这些建议，至少评价其中四条：为什么觉得它是好办法或不好的办法、有哪些利弊、对谁有利或不利、是否需要修改。然后和考官就这个话题交谈两到三分钟。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "El pequeño comercio desaparece de los barrios",
+          "texto": ["En muchas ciudades, las tiendas de barrio de toda la vida están cerrando. No pueden competir con los grandes centros comerciales ni con las compras por internet, y el alquiler de los locales no deja de subir. Cada vez hay más calles con las persianas bajadas, y muchos vecinos, sobre todo los mayores, tienen que desplazarse lejos para hacer la compra. El ayuntamiento de una ciudad ha pedido ideas a los ciudadanos para frenar esta situación. Estas son algunas de las propuestas que ha recibido:"],
+          "texto_zh": ["在许多城市，开了几十年的街区小店纷纷关门。它们竞争不过大型购物中心和网购，店面租金又不断上涨。卷帘门紧闭的街道越来越多，许多居民，尤其是老年人，不得不跑很远去买东西。某市政府向市民征集遏制这一现象的点子，下面是收到的部分建议：", "① 给在本街区开了十年以上的商店减免市政税；② 不再批准在郊区开大型购物中心；③ 把各街区的主要商业街改为步行街；④ 发行只能在本街区商店使用的折扣卡；⑤ 为店主开设免费课程，教他们在网上销售；⑥ 对店铺空置一年以上的业主罚款。"],
+          "puntos": [
+            "Bajar los impuestos municipales a las tiendas que lleven más de diez años en el barrio.",
+            "No conceder más permisos para abrir grandes centros comerciales en las afueras.",
+            "Convertir en peatonales las principales calles comerciales de cada barrio.",
+            "Crear una tarjeta de descuentos que solo se pueda usar en los comercios del barrio.",
+            "Ofrecer cursos gratuitos para que los comerciantes aprendan a vender por internet.",
+            "Multar a los propietarios que mantengan sus locales vacíos más de un año."
+          ],
+          "art": "",
+          "modelo": [
+            "Bueno, he elegido este tema porque es algo que veo en mi propio barrio: en los últimos años han cerrado una librería, una zapatería y dos fruterías, y ahora hay varios locales vacíos en mi calle.",
+            "Empiezo por la primera propuesta, la de bajar los impuestos a las tiendas que llevan más de diez años abiertas. Me parece justa, porque son negocios que dan vida a la calle desde hace mucho tiempo. Sin embargo, tiene un inconveniente: no ayuda a los comercios nuevos, que son precisamente los que más dificultades tienen al principio. Yo la ampliaría también a las tiendas que abran por primera vez en el barrio.",
+            "La idea de no permitir más centros comerciales en las afueras no me convence tanto. Es verdad que así se protege a las tiendas pequeñas, pero también se perjudica a mucha gente que vive lejos del centro o que necesita precios más bajos. Además, creo que hoy en día las compras por internet hacen más daño al pequeño comercio que los centros comerciales, así que esta medida no resolvería el problema de fondo.",
+            "En cambio, la peatonalización me parece una de las mejores propuestas. Cuando una calle se vuelve peatonal, la gente pasea más tranquila, se para delante de los escaparates y acaba entrando en las tiendas. Eso sí, habría que pensar en los repartidores y en las personas mayores que necesitan llegar en coche o en taxi; por ejemplo, con un horario especial de carga y descarga.",
+            "La tarjeta de descuentos es una idea original, pero tengo dudas de que funcione. Si los descuentos los pagara el ayuntamiento, saldría muy caro, y si los pagaran los comerciantes, ganarían todavía menos de lo que ganan ahora.",
+            "Los cursos para vender por internet, en cambio, me parecen muy útiles, sobre todo para los comerciantes mayores, que muchas veces no saben por dónde empezar. No se trata de luchar contra internet, sino de usarlo a favor del barrio.",
+            "En resumen, yo me quedaría con la peatonalización y con los cursos, y aplicaría la bajada de impuestos con algunos cambios. La multa a los propietarios de los locales vacíos me parece demasiado dura, aunque entiendo que el problema existe.",
+            "E: Muy bien. Ha dicho que la peatonalización es una de las mejores propuestas. ¿Conoce algún caso en el que haya funcionado?",
+            "C: Sí, en el centro de mi ciudad cerraron al tráfico una calle muy comercial hace unos cinco años. Al principio los comerciantes estaban en contra, porque pensaban que iban a perder clientes, pero ahora es una de las calles con más ambiente.",
+            "E: ¿Y usted dónde suele hacer la compra: en las tiendas del barrio, en grandes superficies o por internet?",
+            "C: Depende. La comida la compro casi siempre en el mercado y en una frutería que tengo al lado de casa, porque la calidad es mejor y me conocen. Pero la ropa o los aparatos electrónicos los compro por internet, la verdad, porque es más cómodo y más barato.",
+            "E: Entonces, ¿cree que los consumidores también tenemos parte de responsabilidad?",
+            "C: Claro que sí. Nos quejamos de que cierran las tiendas, pero luego lo compramos todo con el móvil desde el sofá. Si queremos barrios con vida, tenemos que cambiar un poco nuestros hábitos.",
+            "E: Ha dicho que la multa le parece demasiado dura. ¿Qué haría usted con los locales vacíos?",
+            "C: Quizá lo haría al revés: en lugar de multar, daría ayudas a los propietarios que alquilen sus locales a un precio razonable a personas que quieran abrir un negocio.",
+            "E: ¿Se le ocurre alguna otra medida que no aparezca en la lista?",
+            "C: Pues, por ejemplo, organizar mercadillos o actividades culturales en la calle los fines de semana, para que la gente vuelva a pasear por el barrio y descubra comercios que no conocía."
+          ],
+          "modelo_zh": [
+            "嗯，我选这个话题，是因为我在自己住的街区就看到了这种情况：这几年关了一家书店、一家鞋店和两家水果店，现在我那条街上有好几间空铺。",
+            "先说第一条，给开了十年以上的店减税。我觉得这很公平，因为这些店让街道热闹了很多年。不过它有一个缺点：帮不了新开的店，而新店恰恰是起步时困难最多的。我会把它扩大到第一次在本街区开业的店。",
+            "不再允许在郊区开购物中心，这个主意我不太认同。这样确实能保护小店，但也会损害很多住得离市中心远、或者需要更低价格的人。而且我觉得如今网购对小商店的打击比购物中心更大，所以这项措施解决不了根本问题。",
+            "相反，改成步行街我觉得是最好的建议之一。一条街变成步行街后，人们逛得更从容，会在橱窗前停下来，最后走进店里。不过也得考虑送货的人和需要坐车或打车来的老人，比如设一个专门的装卸货时段。",
+            "折扣卡是个有新意的主意，但我怀疑它能不能行得通。如果折扣由市政府出钱，成本会很高；如果由店主出，他们赚得就比现在还少。",
+            "教店主网上销售的课程，我倒觉得很有用，特别是对年纪大的店主，他们常常不知道从哪儿入手。问题不在于和网络对抗，而在于让网络为街区所用。",
+            "总之，我会选步行街和培训课程，减税也可以做，但要做些调整。对空置店铺的业主罚款，我觉得太严厉了，虽然我明白这个问题确实存在。",
+            "考官：很好。您说步行街是最好的建议之一。您知道有哪个地方这样做成功了吗？",
+            "考生：有，大约五年前，我们市中心有一条很热闹的商业街禁止了车辆通行。一开始店主们都反对，以为会失去顾客，可现在那里是最有人气的街道之一。",
+            "考官：那您一般在哪儿买东西：街区的小店、大卖场，还是网上？",
+            "考生：看情况。吃的我几乎都在市场和家旁边的一家水果店买，因为质量更好，店主也认识我。不过衣服和电子产品，说实话，我在网上买，因为更方便也更便宜。",
+            "考官：那您觉得我们消费者也有一部分责任吗？",
+            "考生：当然有。我们一边抱怨小店关门，一边躺在沙发上用手机买所有东西。如果想要有生气的街区，我们就得稍微改改自己的习惯。",
+            "考官：您说罚款太严厉了。那您会怎么处理空置的店铺？",
+            "考生：也许我会反过来做：不罚款，而是补贴那些以合理价格把店铺租给想开店的人的业主。",
+            "考官：您还能想到清单上没有的其他办法吗？",
+            "考生：比如说，周末在街上办集市或文化活动，让人们重新回到街区散步，发现以前不知道的小店。"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "Demasiadas horas sentados en el trabajo",
+          "texto": ["Según diversos estudios, muchos trabajadores de oficina pasan más de ocho horas al día sentados, si se suma el tiempo de trabajo, el transporte y el ocio. Los médicos advierten de que esta vida sedentaria está relacionada con dolores de espalda, problemas de corazón y estrés. Una asociación de empresas ha abierto un debate para mejorar la salud de los empleados y ha reunido las siguientes propuestas:"],
+          "texto_zh": ["多项研究显示，把工作、通勤和休闲时间加在一起，许多办公室职员每天坐着的时间超过八个小时。医生提醒，这种久坐的生活方式与背痛、心脏问题和压力有关。一个企业协会发起了一场关于改善员工健康的讨论，并汇总了以下建议：", "① 所有办公室都配备可以站着办公的桌子；② 强制每两小时休息十分钟、活动身体；③ 公司为员工承担一部分健身房或体育活动的费用；④ 骑车或步行上班的人每年多放一天假；⑤ 简短的会议边走边开，不在会议室开；⑥ 聘请一位理疗师每周来公司一次。"],
+          "puntos": [
+            "Instalar en todas las oficinas mesas que permitan trabajar de pie.",
+            "Hacer obligatoria una pausa de diez minutos cada dos horas para moverse.",
+            "Pagar a los empleados una parte del gimnasio o de sus actividades deportivas.",
+            "Dar un día libre al año a quienes vayan al trabajo en bicicleta o andando.",
+            "Hacer las reuniones cortas caminando, en lugar de en una sala.",
+            "Contratar a un fisioterapeuta que visite la empresa una vez por semana."
+          ],
+          "art": "",
+          "modelo": [
+            "He elegido este tema porque trabajo muchas horas delante del ordenador y sé por experiencia que, al final del día, te duele todo: la espalda, el cuello, los ojos. Y no soy el único: en mi oficina casi todos mis compañeros se quejan de lo mismo.",
+            "La primera propuesta, la de las mesas para trabajar de pie, me parece interesante, aunque es cara. Si una empresa tiene cien empleados, cambiar todas las mesas supone un gasto importante. Quizá se podría empezar con algunas mesas compartidas que la gente use por turnos.",
+            "La pausa obligatoria cada dos horas es, en mi opinión, la medida más eficaz y la más barata. Lo que no me gusta es la palabra obligatoria: cuando tienes mucho trabajo, que te obliguen a parar puede generar todavía más estrés. Yo preferiría que fuera una recomendación y que los jefes dieran ejemplo.",
+            "Pagar una parte del gimnasio está bien, pero creo que beneficia sobre todo a las personas que ya hacen deporte. A quien no le gusta el gimnasio no lo va a convencer un descuento. Por eso me parece más interesante el día libre para quienes van en bicicleta o andando, porque cambia un hábito de todos los días. Eso sí, solo sirve para quienes viven cerca; para los que vienen de otro pueblo sería injusto.",
+            "Las reuniones caminando me parecen una idea simpática, pero poco práctica. Si hay que tomar notas, mirar documentos o si llueve, no funcionan. Para una conversación rápida entre dos personas, quizá sí.",
+            "Y el fisioterapeuta me parece útil, sobre todo para las personas que ya tienen dolores, pero es más una solución para cuando el problema ya existe que una forma de prevenirlo. Además, una vez por semana para toda una empresa es muy poco.",
+            "En conclusión, yo combinaría las pausas, las mesas compartidas y el día libre, porque son medidas que cambian la rutina y no solo tratan los síntomas.",
+            "E: Usted ha dicho que trabaja muchas horas delante del ordenador. ¿Hace algo para moverse durante la jornada?",
+            "C: Intento levantarme cada hora, para beber agua o para hablar con algún compañero en lugar de escribirle un mensaje. Parece una tontería, pero se nota.",
+            "E: ¿Cree que la salud de los empleados es responsabilidad de la empresa o de cada persona?",
+            "C: Creo que es una responsabilidad compartida. La empresa tiene que ofrecer unas condiciones adecuadas, pero si yo salgo del trabajo y paso tres horas en el sofá, la empresa no puede hacer nada.",
+            "E: ¿Y el teletrabajo? ¿Mejora o empeora este problema?",
+            "C: Yo creo que lo empeora, porque en casa ni siquiera caminas hasta la parada del autobús. Tengo amigos que teletrabajan y me dicen que algunos días casi no salen de casa.",
+            "E: ¿En su país las empresas suelen ofrecer este tipo de medidas?",
+            "C: Las empresas grandes, cada vez más; algunas incluso tienen gimnasio propio. Pero en las pequeñas todavía es raro, porque no tienen recursos.",
+            "E: Si usted dirigiera una empresa, ¿qué medida aplicaría primero?",
+            "C: La pausa cada dos horas, sin duda, porque no cuesta dinero y se puede empezar desde el primer día."
+          ],
+          "modelo_zh": [
+            "我选这个话题，是因为我每天长时间对着电脑工作，亲身体会到一天下来浑身都疼：背、脖子、眼睛。而且不只是我：我们办公室几乎所有同事都有同样的抱怨。",
+            "第一条，配可以站着办公的桌子，我觉得很有意思，只是比较贵。一家公司如果有一百个员工，把桌子全换掉是一笔不小的开支。也许可以先放几张共用的桌子，大家轮流用。",
+            "每两小时强制休息，我认为是最有效也最便宜的措施。我不喜欢的是“强制”这个词：工作很多的时候，被逼着停下来反而会让人更有压力。我更希望它是一个建议，并且由领导带头做。",
+            "公司承担一部分健身房费用不错，但我觉得受益的主要是本来就爱运动的人。不喜欢健身房的人，不会因为打个折就去。所以我觉得给骑车或步行上班的人多放一天假更有意思，因为它改变的是每天的习惯。不过这只对住得近的人有用，对从外地来上班的人就不公平了。",
+            "边走边开会，我觉得这个主意挺可爱，但不太实际。要记笔记、看文件，或者下雨的时候，就行不通了。两个人之间简短聊几句的话，也许可以。",
+            "请理疗师我觉得有用，尤其是对已经有疼痛的人，但这更像是问题出现以后的补救，而不是预防。而且一整个公司每周只来一次，也太少了。",
+            "总之，我会把休息、共用的站立桌和额外假期结合起来，因为这些措施改变的是日常习惯，而不只是治标。",
+            "考官：您说您长时间对着电脑工作。那您在工作日里会做些什么来活动身体吗？",
+            "考生：我尽量每小时站起来一次，去喝点水，或者走过去跟同事说话，而不是给他发消息。看起来是小事，但效果很明显。",
+            "考官：您认为员工的健康是公司的责任还是每个人自己的责任？",
+            "考生：我觉得是共同的责任。公司要提供合适的条件，可如果我下班后在沙发上躺三个小时，公司也没办法。",
+            "考官：那远程办公呢？它会让这个问题变好还是变坏？",
+            "考生：我觉得会更糟，因为在家连走到公交车站的路都省了。我有朋友远程办公，他们说有些天几乎不出门。",
+            "考官：在您的国家，公司一般会提供这类措施吗？",
+            "考生：大公司越来越多了，有些甚至有自己的健身房。但小公司还很少见，因为没有那么多资源。",
+            "考官：如果您来管理一家公司，您会先实行哪项措施？",
+            "考生：肯定是每两小时休息一次，因为它不花钱，第一天就能开始。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Buenos días. Vamos a empezar con la tarea 1. ¿Qué opción ha preparado?",
+          "Muy bien. Tiene entre tres y cuatro minutos para hablar sobre las propuestas. Recuerde que debe comentar, al menos, cuatro de ellas. Puede empezar cuando quiera.",
+          "(Pasados unos cuatro minutos) Gracias. Ahora vamos a hablar un poco más sobre este tema.",
+          "(Al cabo de seis o siete minutos en total) Muy bien, muchas gracias. Pasamos a la tarea 2."
+        ],
+        "preguntas": [
+          "Opción 1: De todas las propuestas, ¿cuál le parece la más eficaz? ¿Por qué?",
+          "Opción 1: ¿Hay alguna propuesta que le parezca injusta para alguien?",
+          "Opción 1: ¿Dónde suele hacer usted la compra? ¿Por qué?",
+          "Opción 1: ¿Cree que los consumidores también son responsables de que cierren las tiendas de barrio?",
+          "Opción 1: ¿Qué pierde un barrio cuando desaparecen sus comercios?",
+          "Opción 1: ¿Pasa lo mismo en su ciudad o en su país?",
+          "Opción 1: ¿Se le ocurre alguna otra medida que no aparezca en la lista?",
+          "Opción 2: Si usted dirigiera una empresa, ¿qué medida aplicaría primero?",
+          "Opción 2: ¿Hay alguna propuesta que le parezca poco realista? ¿Por qué?",
+          "Opción 2: ¿Cuántas horas pasa usted sentado al día? ¿Hace algo para evitarlo?",
+          "Opción 2: ¿La salud de los trabajadores es responsabilidad de la empresa o de cada persona?",
+          "Opción 2: ¿El teletrabajo mejora o empeora este problema?",
+          "Opción 2: ¿En su país las empresas suelen ofrecer este tipo de medidas?",
+          "Opción 2: ¿Se le ocurre alguna otra medida que no aparezca en la lista?"
+        ],
+        "notas_zh": "准备时可以记要点，但考试时不能照稿念。独白 3—4 分钟，考生至少要评价 4 条建议；如果只是罗列、不作评价，可提示“¿Qué ventajas o inconvenientes tiene esta propuesta?”。讨论阶段从考生说过的内容出发，每张卡选 3—4 个问题即可；问题前标的“Opción 1/2”对应考生选的卡。两张卡六条建议的译文见下面各卡的“考生材料译文”。参考回答的独白约 360 词（卡 1）和 320 词（卡 2），讨论约 2—3 分钟。"
+      }
+    },
+    {
+      "n": 2,
+      "titulo_es": "Describir una situación imaginada a partir de una fotografía",
+      "minutos": [5, 6],
+      "preparacion": true,
+      "instruccion_es": [
+        "Elija una de las dos fotografías. Imagine la situación que muestra y hable sobre ella durante dos o tres minutos. Puede guiarse por las preguntas de la tarjeta.",
+        "Después, el entrevistador le hará algunas preguntas sobre el tema de la fotografía y sobre sus propias experiencias y opiniones durante dos o tres minutos."
+      ],
+      "instruccion_zh": "从两张照片中选一张，想象照片里的情境，用两到三分钟谈一谈，可以参考卡片上的问题。然后考官会就照片的话题以及您自己的经历和看法提几个问题，交谈两到三分钟。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Una despedida en el aeropuerto",
+          "texto": ["Las personas de la fotografía están en un aeropuerto. Una de ellas está a punto de empezar una nueva etapa en su vida. Imagine la situación y hable sobre ella durante dos o tres minutos."],
+          "texto_zh": ["照片中的人在机场，其中一人即将开始人生的新阶段。请想象当时的情境，用两到三分钟谈一谈。", "卡上的提示问题：您认为这些人是谁？他们之间是什么关系？您认为男孩要去哪里？他为什么要走？之前几个小时或几天发生了什么？每个人的心情怎样？您认为他们在想什么？远处的女孩是谁？她在对男孩说什么？接下来会发生什么？这家人的生活会有什么变化？"],
+          "puntos": [
+            "¿Quiénes cree que son estas personas? ¿Qué relación hay entre ellas?",
+            "¿Adónde cree que va el chico? ¿Por qué se marcha?",
+            "¿Qué ha ocurrido en las horas o los días anteriores?",
+            "¿Cómo se siente cada uno? ¿Qué cree que están pensando?",
+            "¿Quién es la chica del fondo? ¿Qué le está diciendo al chico?",
+            "¿Qué va a pasar después? ¿Cómo cambiará la vida de esta familia?"
+          ],
+          "art": "art:B2_EIO2_1",
+          "modelo": [
+            "En la foto veo a una familia en un aeropuerto, en la zona de salidas. Creo que el chico, el de la mochila grande, se va a estudiar al extranjero, quizá un año de intercambio con su universidad. Lleva el pasaporte y la tarjeta de embarque en la mano, y a su lado tiene una maleta enorme, así que seguramente todavía tiene que facturarla.",
+            "La mujer que lo abraza debe de ser su madre. Tiene los ojos llenos de lágrimas, y se nota que le cuesta mucho separarse de él. Me imagino que es la primera vez que su hijo se va tan lejos y durante tanto tiempo. El hombre que le pone la mano en el hombro será su padre. Parece más tranquilo, pero yo creo que también está emocionado y que intenta disimularlo. Lleva en la mano una bolsa de papel con un bocadillo, seguro que para el viaje, porque los padres siempre piensan que sus hijos van a pasar hambre.",
+            "La niña que está al lado podría ser su hermana pequeña. Está haciendo una foto con el móvil, quizá para mandársela a los abuelos, que no han podido venir.",
+            "Al fondo, junto al control de seguridad, hay una chica con una mochila parecida que mira el reloj y le hace un gesto con la mano. A lo mejor es una compañera de la universidad que va al mismo sitio, o incluso su novia, y le está diciendo que se dé prisa porque van a perder el vuelo.",
+            "Me imagino que los días anteriores fueron de muchos nervios: papeles, despedidas con los amigos y la maleta hecha y deshecha varias veces. Después de este momento, el chico pasará el control y, cuando llegue, lo primero que hará será llamar a su familia. Los primeros días lo echará todo de menos, pero seguro que al final del curso no querrá volver. Y sus padres, al llegar a casa, notarán mucho el silencio, sobre todo a la hora de comer.",
+            "E: ¿Ha vivido usted alguna despedida parecida, en un aeropuerto o en una estación?",
+            "C: Sí, cuando vine a estudiar a España. Mis padres me acompañaron al aeropuerto y mi madre lloró muchísimo, igual que la mujer de la foto. Yo intenté no llorar delante de ellos, pero en el avión ya no pude más.",
+            "E: ¿Cree que es bueno que los jóvenes estudien en el extranjero?",
+            "C: Creo que sí, porque aprendes a ser independiente, conoces otras culturas y mejoras mucho los idiomas. Pero también tiene un lado difícil: te sientes solo, sobre todo al principio, y te pierdes momentos importantes de tu familia.",
+            "E: ¿Qué es lo que más se echa de menos cuando uno vive lejos de casa?",
+            "C: En mi caso, la comida de mi madre y las conversaciones tranquilas en la mesa. Ahora hablamos por videollamada casi todos los días, pero no es lo mismo.",
+            "E: Antes, los estudiantes que se iban fuera escribían cartas. ¿Cree que la tecnología ha cambiado esta experiencia?",
+            "C: Totalmente. Por un lado es más fácil, porque puedes ver a tu familia cuando quieres. Por otro lado, a veces estás tan conectado con tu país que no te integras del todo en el nuevo.",
+            "E: ¿Le gustaría vivir en otro país en el futuro?",
+            "C: Me gustaría, pero solo unos años. Al final, creo que querría volver a vivir cerca de mi familia."
+          ],
+          "modelo_zh": [
+            "照片上是一家人在机场的出发大厅。我想那个背着大背包的男孩要出国留学，也许是跟学校去交换一年。他手里拿着护照和登机牌，身边放着一只很大的箱子，所以他大概还没办托运。",
+            "抱着他的女人应该是他母亲。她眼里满是泪水，看得出她很舍不得和他分开。我想这是儿子第一次去这么远、走这么久。把手搭在男孩肩上的男人大概是他父亲。他看起来平静一些，但我觉得他心里也很激动，只是在掩饰。他手里提着一个装着三明治的纸袋，肯定是给儿子路上吃的，因为父母总觉得孩子会挨饿。",
+            "旁边的小女孩可能是他妹妹。她正在用手机拍照，也许是要发给没能来的爷爷奶奶。",
+            "远处安检口旁边，有个背着类似背包的女孩，一边看表一边向他招手。也许她是去同一个地方的大学同学，甚至可能是他女朋友，在催他快一点，不然要误机了。",
+            "我想前几天一定非常紧张：办手续、和朋友告别，箱子收了又拆、拆了又收。这之后，男孩会过安检，到了以后第一件事就是给家里打电话。头几天他会什么都想念，但到学年结束时，他多半不想回来了。而他的父母回到家，会特别感到家里安静了，尤其是吃饭的时候。",
+            "考官：您经历过类似的告别吗，在机场或者车站？",
+            "考生：有，我来西班牙留学的时候。父母送我去机场，我妈妈哭得很厉害，就像照片里的女人一样。我努力不在他们面前哭，可上了飞机就忍不住了。",
+            "考官：您觉得年轻人出国留学好吗？",
+            "考生：我觉得好，因为能学会独立、了解别的文化，外语也会进步很多。但也有难的一面：会感到孤单，尤其是刚开始的时候，还会错过家里的重要时刻。",
+            "考官：离家生活时，最想念的是什么？",
+            "考生：对我来说，是妈妈做的饭和饭桌上悠闲的聊天。现在我们几乎每天都视频，但那不一样。",
+            "考官：以前出国的学生要写信。您觉得科技改变了这种经历吗？",
+            "考生：完全改变了。一方面更容易了，想见家人随时都能见。另一方面，有时候和自己国家联系得太紧，反而没法完全融入新的地方。",
+            "考官：将来您想在别的国家生活吗？",
+            "考生：想，但只住几年。我想最后还是会回到家人身边生活。"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "Una mañana a la orilla del río",
+          "texto": ["Las personas de la fotografía están participando en una actividad al aire libre. Imagine la situación y hable sobre ella durante dos o tres minutos."],
+          "texto_zh": ["照片中的人正在参加一项户外活动。请想象当时的情境，用两到三分钟谈一谈。", "卡上的提示问题：您认为这些人在哪里？他们在做什么？您认为是谁组织了这次活动？他们为什么来参加？女孩找到了什么？她在对那个男人说什么？远处的两个女人是谁？她们在做什么？照片里的人心情怎样？您认为接下来会发生什么？"],
+          "puntos": [
+            "¿Dónde cree que están estas personas? ¿Qué están haciendo?",
+            "¿Quién cree que ha organizado la actividad? ¿Por qué han venido?",
+            "¿Qué ha encontrado la niña? ¿Qué le está diciendo al hombre?",
+            "¿Quiénes son las dos mujeres del fondo? ¿Qué están haciendo?",
+            "¿Cómo se sienten las personas de la foto?",
+            "¿Qué cree que va a pasar después?"
+          ],
+          "art": "art:B2_EIO2_2",
+          "modelo": [
+            "En esta foto se ve a un grupo de personas limpiando la orilla de un río. Creo que están en una ciudad, porque al fondo hay un puente y algunos edificios. Todos llevan guantes y chalecos del mismo color, así que me imagino que es una actividad organizada, quizá por una asociación ecologista o por el ayuntamiento. Hace sol y es por la mañana; probablemente es un sábado o un domingo.",
+            "Han recogido muchísima basura: hay varias bolsas llenas, un neumático viejo e incluso un carro de supermercado que han sacado del agua. Eso dice mucho de cómo tratamos los ríos. Hay gente de todas las edades, y me parece que muchos no se conocían antes de hoy, pero se les ve contentos de hacer algo útil juntos.",
+            "En primer plano hay una niña con botas de agua que le enseña una botella a un hombre. El hombre está agachado y tiene una carpeta en la mano, así que puede ser el organizador de la actividad, aunque también podría ser su padre. Dentro de la botella parece que hay un papel enrollado. ¡A lo mejor es un mensaje! La niña está emocionadísima, y seguramente le está diciendo: «¡Mira lo que he encontrado!».",
+            "Al fondo, una mujer joven ha puesto una cámara sobre un trípode y le acerca un micrófono a una señora mayor, que lleva el mismo chaleco que los voluntarios. Me imagino que es una periodista de la televisión local que está haciendo un reportaje, y la señora podría ser la presidenta de la asociación, que explica por qué organizan estas jornadas.",
+            "En cuanto a lo que va a pasar después, creo que abrirán la botella todos juntos para leer el mensaje. Quizá lo escribió alguien hace muchos años, y al final la botella saldrá en el reportaje más que la propia limpieza. Al terminar, pesarán toda la basura y se harán una foto de grupo con las bolsas.",
+            "E: ¿Ha participado alguna vez en una actividad de voluntariado como esta?",
+            "C: Una vez, en la universidad, fuimos a limpiar una playa con un grupo de compañeros. Me sorprendió la cantidad de plásticos pequeños que había en la arena; tardamos horas en recogerlos.",
+            "E: ¿Cree que estas jornadas sirven de verdad o son más bien simbólicas?",
+            "C: Creo que las dos cosas. Es verdad que un día de limpieza no soluciona el problema, porque a la semana siguiente vuelve a haber basura. Pero sirven para que la gente tome conciencia, y eso, a largo plazo, es importante.",
+            "E: ¿Quién debería encargarse de mantener limpios los ríos y las playas?",
+            "C: En primer lugar, las autoridades, que tienen que limpiar y también multar a quien tira basura. Pero cada uno de nosotros también es responsable: si nadie tirara nada, no haría falta limpiar.",
+            "E: ¿Y usted qué hace en su vida diaria para cuidar el medio ambiente?",
+            "C: Intento usar menos plástico: llevo mi propia bolsa cuando voy a comprar y una botella reutilizable. También separo la basura en casa, aunque reconozco que a veces me da pereza.",
+            "E: ¿Cree que los niños deberían participar en este tipo de actividades?",
+            "C: Sí, me parece fundamental. Lo que aprendes de pequeño con tus propias manos no se olvida, y además los niños luego se lo cuentan a sus padres."
+          ],
+          "modelo_zh": [
+            "照片上是一群人在清理河岸。我想他们在城市里，因为背景有一座桥和一些楼房。大家都戴着手套、穿着同样颜色的背心，所以我猜这是有组织的活动，也许是环保协会或者市政府组织的。阳光很好，是上午，大概是周六或周日。",
+            "他们捡了非常多的垃圾：有好几袋满满的垃圾、一个旧轮胎，甚至还有一辆从水里拖出来的超市推车。这很能说明我们是怎么对待河流的。参加的人各个年龄都有，我觉得很多人今天之前并不认识，但看得出他们一起做有意义的事很开心。",
+            "前景中，一个穿雨靴的小女孩正把一只瓶子拿给一个男人看。男人蹲着，手里拿着文件夹，所以他可能是活动的组织者，不过也可能是她爸爸。瓶子里好像有一卷纸。说不定是一封信！小女孩激动极了，大概在说：“快看我找到了什么！”",
+            "远处，一个年轻女人把摄像机架在三脚架上，把话筒递到一位老太太面前，老太太穿着和志愿者一样的背心。我想那个年轻女人是本地电视台的记者，在做一个报道；那位老太太可能是协会的会长，正在解释她们为什么组织这样的活动。",
+            "至于接下来会发生什么，我想大家会一起打开瓶子读里面的信。也许那是很多年前有人写的，最后这只瓶子在报道里会比清理活动本身更引人注目。活动结束时，他们会把所有垃圾称一称，再和垃圾袋一起拍张合影。",
+            "考官：您参加过类似的志愿活动吗？",
+            "考生：有一次，在大学的时候，我和一群同学去清理海滩。沙子里那么多细小的塑料让我很吃惊，我们花了好几个小时才捡完。",
+            "考官：您觉得这种活动真的有用，还是更多只是象征性的？",
+            "考生：我觉得两者都有。确实，清理一天解决不了问题，因为下个星期又会有垃圾。但它能让人们提高意识，从长远看这很重要。",
+            "考官：应该由谁负责保持河流和海滩的清洁？",
+            "考生：首先是政府部门，他们要负责清理，也要处罚乱扔垃圾的人。但我们每个人也有责任：如果谁都不乱扔，就不需要清理了。",
+            "考官：那您在日常生活中为保护环境做些什么？",
+            "考生：我尽量少用塑料：买东西时自己带袋子，还带一个可重复使用的水瓶。在家我也做垃圾分类，虽然我承认有时候会偷懒。",
+            "考官：您觉得孩子应该参加这类活动吗？",
+            "考生：应该，我觉得这非常重要。小时候亲手学到的东西是忘不了的，而且孩子回家还会讲给父母听。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Ahora pasamos a la tarea 2. ¿Qué fotografía ha preparado?",
+          "De acuerdo. Imagine la situación y descríbala durante dos o tres minutos. Puede usar las preguntas de la tarjeta como guía.",
+          "(Al terminar la descripción) Gracias. Ahora le voy a hacer algunas preguntas relacionadas con la fotografía.",
+          "(Al cabo de cinco o seis minutos en total) Muy bien, muchas gracias. Pasamos a la última tarea."
+        ],
+        "preguntas": [
+          "Opción 1: ¿Ha vivido usted alguna despedida parecida? ¿Cómo fue?",
+          "Opción 1: ¿Cree que es bueno que los jóvenes estudien en el extranjero? ¿Qué ventajas e inconvenientes tiene?",
+          "Opción 1: ¿Qué es lo que más se echa de menos cuando uno vive lejos de casa?",
+          "Opción 1: ¿Cree que la tecnología ha cambiado la experiencia de vivir lejos de la familia?",
+          "Opción 1: ¿A qué edad cree que los jóvenes deberían independizarse?",
+          "Opción 1: ¿Le gustaría vivir en otro país en el futuro? ¿Dónde y por qué?",
+          "Opción 1: ¿Prefiere las despedidas largas o cortas? ¿Por qué?",
+          "Opción 2: ¿Ha participado alguna vez en una actividad de voluntariado? ¿Cómo fue la experiencia?",
+          "Opción 2: ¿Cree que estas jornadas de limpieza sirven de verdad o son más bien simbólicas?",
+          "Opción 2: ¿Quién debería encargarse de mantener limpios los ríos y las playas?",
+          "Opción 2: ¿Qué hace usted en su vida diaria para cuidar el medio ambiente?",
+          "Opción 2: ¿Le parece bien que se multe a quien tira basura en la calle o en la naturaleza?",
+          "Opción 2: ¿Cómo es el problema de la basura en los ríos o en las playas de su país?",
+          "Opción 2: ¿Cree que los niños deberían participar en este tipo de actividades?"
+        ],
+        "notas_zh": "描述约 2—3 分钟。考生说得太短时，可以用卡上的问题提示（如“¿Qué cree que ha pasado antes?”“¿Qué va a pasar después?”）。这个任务重在想象：人物关系、事情的前因后果，没有标准答案，合理、有细节即可，鼓励使用表推测的结构（deber de、将来时表推测 será、a lo mejor、puede que + 虚拟式）。之后的交谈围绕考生自己的经历和看法，每张照片选 4—6 个问题；问题前标的“Opción 1/2”对应考生选的照片。照片 1：机场里一家人送别要出国留学的男孩，远处有个女孩在催他；照片 2：志愿者在城市河岸捡垃圾，小女孩捡到一只装着纸卷的瓶子，远处有记者在采访。"
+      }
+    },
+    {
+      "n": 3,
+      "titulo_es": "Opinar sobre una encuesta",
+      "minutos": [3, 4],
+      "preparacion": false,
+      "instruccion_es": [
+        "Elija una de las dos encuestas. Primero, responda usted a las preguntas.",
+        "Después, compare sus respuestas con los resultados de la encuesta y coméntelos con el entrevistador: qué datos le llaman la atención, si coinciden con lo que usted piensa y por qué cree que la gente ha respondido así.",
+        "Esta tarea no se prepara."
+      ],
+      "instruccion_zh": "从两份调查中选一份。先自己回答问卷上的问题，然后把自己的回答和调查结果作比较，和考官谈谈：哪些数据让您印象深刻，是否和您的想法一致，您认为人们为什么这样回答。本任务不准备。",
+      "opciones": [
+        {
+          "id": "1",
+          "titulo": "Cocinar en casa",
+          "texto": ["Encuesta realizada a mil personas de entre dieciocho y sesenta y cinco años. Datos ficticios."],
+          "texto_zh": ["对一千名十八至六十五岁的人进行的调查。数据为虚构。", "问卷：1. 您一周做几天饭？（每天或几乎每天／三四天／一两天／不做）；2. 您多久叫一次外卖？（一周几次／一周一次／一个月偶尔几次／从不）；3. 您在哪儿学的做饭？（在家跟家人学／看网上的菜谱／上培训班／不会做饭）；4. 买东西时您看食品标签吗？（总是看／有时看／从不看）；5. 一顿饭您最看重什么？（健康／快／便宜／好吃）；6. 如果您不常做饭，主要原因是什么？（没时间／累或懒／不太会做／一个人住，不值得做／在外面吃或叫外卖更便宜）。调查结果是第 6 题的答案分布（见考官提示）。"],
+          "puntos": [],
+          "art": "",
+          "encuesta": {
+            "preguntas": [
+              "¿Cuántos días a la semana cocina usted? (todos o casi todos / tres o cuatro / uno o dos / ninguno)",
+              "¿Con qué frecuencia pide comida a domicilio? (varias veces por semana / una vez por semana / alguna vez al mes / nunca)",
+              "¿Dónde aprendió a cocinar? (en casa, con mi familia / con recetas de internet / en un curso / no sé cocinar)",
+              "Cuando hace la compra, ¿lee las etiquetas de los productos? (siempre / a veces / nunca)",
+              "¿Qué es lo que más valora de una comida? (que sea sana / que sea rápida / que sea barata / que esté rica)",
+              "Si no cocina más a menudo, ¿cuál es el principal motivo? (falta de tiempo / cansancio o pereza / no sé cocinar bien / vivo solo y no me compensa / me sale más barato comer fuera o pedir comida)"
+            ],
+            "resultados": {
+              "titulo": "¿Cuál es el principal motivo por el que no cocina más a menudo? (datos ficticios)",
+              "categorias": ["Falta de tiempo", "Cansancio o pereza al final del día", "No sabe cocinar bien", "Vive solo y no le compensa", "Le sale más barato comer fuera o pedir comida"],
+              "valores": [38, 22, 17, 14, 9],
+              "unidad": "%"
+            }
+          },
+          "modelo": [
+            "E: ¿Qué encuesta ha elegido?",
+            "C: La de cocinar en casa.",
+            "E: Muy bien. Primero, dígame cómo ha respondido usted a las preguntas.",
+            "C: Pues yo cocino tres o cuatro días a la semana, sobre todo el fin de semana. Pido comida a domicilio alguna vez al mes, cuando llego muy cansada. Aprendí a cocinar con mi madre, aunque ahora también miro muchas recetas en internet. Las etiquetas las leo a veces, sobre todo para ver el azúcar. Y lo que más valoro de una comida es que esté rica, aunque intento que también sea sana. En cuanto al motivo por el que no cocino más, es sobre todo el cansancio.",
+            "E: Ahora mire los resultados. ¿Qué le llama la atención?",
+            "C: Lo primero, que la falta de tiempo sea el motivo principal, con un treinta y ocho por ciento. No me sorprende, porque mucha gente trabaja todo el día y llega a casa muy tarde. Pero me parece interesante que el segundo motivo sea el cansancio o la pereza: si sumamos los dos, es más de la mitad. Creo que a veces decimos que no tenemos tiempo cuando, en realidad, lo que tenemos es cansancio.",
+            "E: ¿Es su caso?",
+            "C: Sí, por eso he marcado el cansancio y no la falta de tiempo. Entre semana me pasa exactamente eso: tengo tiempo, pero no tengo ganas.",
+            "E: Un diecisiete por ciento dice que no sabe cocinar bien. ¿Le parece mucho?",
+            "C: Me parece bastante, pero lo entiendo. Antes se aprendía en casa, y ahora muchos jóvenes se van a vivir solos sin saber hacer casi nada. Yo creo que en los colegios deberían enseñar a preparar platos sencillos, igual que enseñan otras cosas útiles para la vida.",
+            "E: ¿Y qué opina del dato de las personas que viven solas?",
+            "C: Me parece muy lógico. Cuando vives solo, cocinar para una persona da pereza y a veces se tira comida. Una solución puede ser cocinar más cantidad un día y congelar raciones para toda la semana.",
+            "E: Solo un nueve por ciento dice que le sale más barato comer fuera. ¿Por qué cree que es tan poco?",
+            "C: Porque normalmente es al revés: cocinar en casa es mucho más barato. Quizá ese nueve por ciento son personas que comen en el comedor de la empresa, que a veces tiene precios muy bajos."
+          ],
+          "modelo_zh": [
+            "考官：您选了哪份调查？",
+            "考生：在家做饭那份。",
+            "考官：好。先说说您自己是怎么回答这些问题的。",
+            "考生：我每周做三四天饭，主要是周末。每个月会叫几次外卖，一般是特别累的时候。我是跟妈妈学的做饭，不过现在也常在网上看菜谱。食品标签我有时候看，主要是看含糖量。一顿饭我最看重的是好吃，不过也尽量吃得健康。至于我为什么不多做饭，主要是因为累。",
+            "考官：现在看看调查结果。哪些地方引起了您的注意？",
+            "考生：首先是没时间成了最主要的原因，占百分之三十八。这我不意外，因为很多人整天工作，很晚才到家。不过我觉得有意思的是，第二个原因是累或者懒：两项加起来超过一半。我觉得我们有时说没时间，其实是太累了。",
+            "考官：您就是这种情况吗？",
+            "考生：是的，所以我选的是累，而不是没时间。工作日我就是这样：有时间，但没心情。",
+            "考官：百分之十七的人说自己不太会做饭。您觉得多吗？",
+            "考生：我觉得挺多的，但能理解。以前做饭是在家里学的，现在很多年轻人搬出去独住时几乎什么都不会做。我认为学校应该教学生做简单的菜，就像教其他生活中有用的东西一样。",
+            "考官：那您怎么看独居者这个数据？",
+            "考生：我觉得很合理。一个人住的时候，为自己一个人做饭会觉得麻烦，有时还会浪费食物。一个办法是某一天多做一些，分成小份冻起来吃一个星期。",
+            "考官：只有百分之九的人说在外面吃更便宜。您觉得为什么这么少？",
+            "考生：因为通常正好相反：在家做饭便宜得多。也许这百分之九是在公司食堂吃饭的人，食堂有时候价格很低。"
+          ]
+        },
+        {
+          "id": "2",
+          "titulo": "Leer en la era de las pantallas",
+          "texto": ["Encuesta realizada a mil personas de entre dieciocho y sesenta y cinco años. Datos ficticios."],
+          "texto_zh": ["对一千名十八至六十五岁的人进行的调查。数据为虚构。", "问卷：1. 不算学习和工作用书，您一年读几本书？（一本也不读／一到五本／六到十二本／十二本以上）；2. 您喜欢用什么形式阅读？（纸质书／电子书阅读器／手机或平板／无所谓）；3. 您一般怎么得到书？（买／从图书馆借／别人借给我或送给我）；4. 工作或学习之外，您每天在屏幕前待几个小时？（不到一小时／一到三小时／三到五小时／五小时以上）；5. 睡前您通常做什么？（看书／看剧或视频／刷社交网络／别的事）；6. 如果您不多读书，主要原因是什么？（没时间／更喜欢别的娱乐／读长文难以集中注意力／不喜欢读书／书太贵）。调查结果是第 6 题的答案分布（见考官提示）。"],
+          "puntos": [],
+          "art": "",
+          "encuesta": {
+            "preguntas": [
+              "¿Cuántos libros lee al año, sin contar los de estudio o de trabajo? (ninguno / entre uno y cinco / entre seis y doce / más de doce)",
+              "¿En qué formato prefiere leer? (en papel / en libro electrónico / en el móvil o la tableta / me da igual)",
+              "¿Cómo consigue normalmente los libros? (los compro / los saco de la biblioteca / me los prestan o me los regalan)",
+              "¿Cuántas horas al día pasa delante de una pantalla fuera del trabajo o de los estudios? (menos de una / entre una y tres / entre tres y cinco / más de cinco)",
+              "¿Qué suele hacer antes de dormir? (leer / ver series o vídeos / mirar las redes sociales / otra cosa)",
+              "Si no lee más, ¿cuál es el principal motivo? (falta de tiempo / prefiero otras formas de ocio / me cuesta concentrarme en textos largos / no me gusta leer / los libros son caros)"
+            ],
+            "resultados": {
+              "titulo": "¿Cuál es el principal motivo por el que no lee más? (datos ficticios)",
+              "categorias": ["Falta de tiempo", "Prefiere otras formas de ocio: series, videojuegos, redes sociales", "Le cuesta concentrarse en textos largos", "No le gusta leer", "Los libros son caros"],
+              "valores": [41, 27, 15, 12, 5],
+              "unidad": "%"
+            }
+          },
+          "modelo": [
+            "E: ¿Qué encuesta ha elegido?",
+            "C: La de la lectura, porque es un tema que me interesa.",
+            "E: Muy bien. ¿Cómo ha respondido usted a las preguntas?",
+            "C: Leo entre seis y doce libros al año, más o menos uno al mes. Prefiero leer en papel, aunque cuando viajo uso el libro electrónico porque pesa menos. Casi siempre saco los libros de la biblioteca. Fuera de las clases paso entre tres y cinco horas delante de una pantalla, lo cual es bastante, y antes de dormir, lo reconozco, miro las redes sociales. Si no leo más, es porque me cuesta concentrarme en textos largos.",
+            "E: Vamos a ver los resultados. ¿Qué le parece más interesante?",
+            "C: Pues que el motivo principal sea la falta de tiempo, con un cuarenta y uno por ciento. Me parece un poco contradictorio, porque mucha gente pasa horas con el móvil. Creo que no es que no tengamos tiempo, sino que lo dedicamos a otras cosas. De hecho, el segundo motivo lo dice claramente: un veintisiete por ciento prefiere las series, los videojuegos o las redes.",
+            "E: ¿Se siente identificado con algún dato?",
+            "C: Sí, con el de la concentración, que es justo lo que he marcado yo. Me pasa que, después de muchas horas mirando el móvil, me cuesta leer más de diez páginas seguidas sin distraerme. Por eso, cuando leo, intento dejar el teléfono en otra habitación.",
+            "E: Solo un cinco por ciento dice que los libros son caros. ¿Le sorprende?",
+            "C: Un poco, porque los libros no son baratos. Pero supongo que quien quiere leer encuentra alternativas, como las bibliotecas o los libros de segunda mano. Yo, por ejemplo, casi nunca compro libros.",
+            "E: ¿Cree que hoy se lee menos que antes?",
+            "C: No estoy seguro. Creo que leemos más que nunca, pero textos cortos: mensajes, noticias, publicaciones. Lo que se lee menos son libros largos, y es una pena, porque un libro te obliga a pensar con calma.",
+            "E: ¿Qué se podría hacer para animar a la gente a leer más?",
+            "C: Quizá organizar clubes de lectura en los barrios, o que en los colegios los alumnos puedan elegir lo que leen. Cuando te obligan a leer un libro que no te gusta, acabas odiando la lectura."
+          ],
+          "modelo_zh": [
+            "考官：您选了哪份调查？",
+            "考生：阅读那份，因为我对这个话题感兴趣。",
+            "考官：好。您自己是怎么回答这些问题的？",
+            "考生：我每年读六到十二本书，差不多一个月一本。我更喜欢读纸质书，不过旅行时用电子书，因为轻。书我几乎都是从图书馆借的。课外我每天对着屏幕三到五个小时，挺多的；睡前，我承认，我会刷社交网络。我之所以不多读，是因为读长文章时我很难集中注意力。",
+            "考官：我们来看看结果。您觉得哪一点最有意思？",
+            "考生：最主要的原因是没时间，占百分之四十一。我觉得这有点矛盾，因为很多人每天在手机上花好几个小时。我认为不是我们没有时间，而是把时间用在了别的事情上。其实第二个原因说得很清楚：百分之二十七的人更喜欢看剧、打游戏或者刷社交网络。",
+            "考官：有哪个数据说中了您的情况吗？",
+            "考生：有，注意力那一项，我选的正是这个。我发现看了很长时间手机以后，连续读十页以上而不走神都很难。所以我读书的时候尽量把手机放在另一个房间。",
+            "考官：只有百分之五的人说书太贵。您觉得意外吗？",
+            "考生：有一点，因为书并不便宜。不过我想，想读书的人总能找到别的办法，比如图书馆或者二手书。比如我自己就几乎不买书。",
+            "考官：您认为现在的人读得比以前少吗？",
+            "考生：我不太确定。我觉得我们读的东西比以往任何时候都多，但都是短文字：消息、新闻、帖子。读得少了的是长篇的书，这很可惜，因为一本书会让人静下心来思考。",
+            "考官：可以做些什么来鼓励人们多读书？",
+            "考生：也许可以在街区组织读书会，或者让学生在学校里自己选读什么。被逼着读一本不喜欢的书，最后只会讨厌读书。"
+          ]
+        }
+      ],
+      "examinador": {
+        "guion": [
+          "Para terminar, le voy a enseñar dos encuestas. Elija la que prefiera.",
+          "Primero, responda usted a las preguntas de la encuesta. Después, vamos a comentar los resultados.",
+          "(Al cabo de tres o cuatro minutos) Muy bien, muchas gracias. Hemos terminado la prueba."
+        ],
+        "preguntas": [
+          "Opción 1: ¿Qué dato le ha sorprendido más? ¿Por qué?",
+          "Opción 1: ¿Coinciden sus respuestas con los resultados de la encuesta?",
+          "Opción 1: ¿Por qué cree que tanta gente dice que no tiene tiempo para cocinar?",
+          "Opción 1: ¿Quién le enseñó a cocinar? ¿Cree que se debería enseñar en el colegio?",
+          "Opción 1: ¿Qué opina de las aplicaciones para pedir comida a domicilio?",
+          "Opción 1: ¿Cree que los resultados serían parecidos en su país?",
+          "Opción 2: ¿Qué dato le ha llamado más la atención?",
+          "Opción 2: ¿Se siente identificado con alguno de los motivos?",
+          "Opción 2: ¿Cree que las pantallas afectan a nuestra capacidad de concentración?",
+          "Opción 2: ¿Prefiere leer en papel o en una pantalla? ¿Por qué?",
+          "Opción 2: ¿Cree que hoy se lee menos que antes?",
+          "Opción 2: ¿Qué se podría hacer para animar a la gente a leer más?"
+        ],
+        "notas_zh": "本任务不准备。考生先口头回答问卷（约 1 分钟），再看结果发表看法；问卷第 6 题就是调查结果对应的问题，考官引导考生先拿自己第 6 题的选择和结果比较，再谈其他数据、说明原因、提出看法，可以追问最高和最低的数据。问题前标的“Opción 1/2”对应考生选的调查。调查 1“在家做饭”的结果（不常在家做饭的主要原因）：没时间 38%，下班后累或懒 22%，不太会做饭 17%，独居、觉得不值得做 14%，在外面吃或叫外卖更便宜 9%。调查 2“屏幕时代的阅读”的结果（不多读书的主要原因）：没时间 41%，更喜欢看剧、打游戏、刷社交网络等其他娱乐 27%，读长文难以集中注意力 15%，不喜欢读书 12%，书太贵 5%。数据均为虚构。"
+      }
+    }
+  ],
+  "criterios": [
+    {"es": "Coherencia", "zh": "看话语是否条理清楚、前后连贯：观点和理由之间有逻辑联系，会用连接词（además、sin embargo、por eso 等）组织内容，独白有开头、展开和结尾，对话中的回应切题。"},
+    {"es": "Fluidez", "zh": "看说话是否自然顺畅：语速比较平稳，停顿主要用于组织思路而不是找词，遇到困难能换个说法继续下去，交谈时能及时接话，不需要考官反复引导。"},
+    {"es": "Corrección", "zh": "看语法和词汇是否准确：动词变位、时态（简单过去时、过去未完成时）、虚拟式、性数一致等基本正确，偶有错误但不影响理解；发音清楚，不妨碍沟通。"},
+    {"es": "Alcance", "zh": "看语言资源是否丰富：能用多样的词汇和句型表达观点、假设、让步和建议（虚拟式、条件式、si 从句等），能就熟悉的和较抽象的话题展开讨论，不总是重复同样的说法。"},
+    {"es": "Valoración global", "zh": "考官根据整场表现给一个总分：三个任务的要求是否完成（评价至少四条建议、想象并描述情境、评论调查结果），交流是否有效，整体是否达到 B2 水平。"}
+  ]
+}
