@@ -1,0 +1,106 @@
+{
+ "prueba": "Expresión e interacción orales",
+ "zh": "口头表达与互动",
+ "duracion": "26 minutos aproximadamente (con el tiempo de preparación)",
+ "intro": "Esta prueba tiene cinco tareas. Sus respuestas se graban. Siga las instrucciones de cada tarea y del audio.",
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1-A2",
+   "instruccion": "Usted va a contestar a cuatro preguntas sobre usted. Las preguntas empiezan automáticamente en el audio. Escuchará cada pregunta dos veces. Después de la señal, tiene 15 segundos para contestar a las preguntas 1 y 2, y 30 segundos para contestar a las preguntas 3 y 4.",
+   "voz": "女2",
+   "preguntas": [
+    {"n": 1, "es": "¿Cuántas personas hay en su familia? ¿Quiénes son?", "zh": "您家里有几口人？都有谁？", "segundos": 15,
+     "modelo": "En mi familia somos cuatro: mis padres, mi hermano pequeño y yo. Mi padre es médico y mi madre trabaja en una tienda de ropa."},
+    {"n": 2, "es": "¿Qué comida le gusta más? ¿Por qué?", "zh": "您最喜欢吃什么？为什么？", "segundos": 15,
+     "modelo": "Me gustan mucho los fideos con carne que prepara mi madre. Son muy sabrosos y siempre me recuerdan a mi casa."},
+    {"n": 3, "es": "¿Qué hizo usted en su último cumpleaños?", "zh": "您上一次过生日做了什么？", "segundos": 30,
+     "modelo": "Mi último cumpleaños fue en marzo. Era sábado, así que por la mañana dormí mucho. Por la tarde mis amigos me prepararon una fiesta sorpresa en casa de una compañera, con una tarta enorme. Después fuimos a cenar a un restaurante y me regalaron una mochila nueva. Fue un día muy bonito."},
+    {"n": 4, "es": "¿Qué lugar le gustaría conocer en el futuro? ¿Por qué?", "zh": "将来您想去哪个地方看看？为什么？", "segundos": 30,
+     "modelo": "Me gustaría mucho conocer México, porque me interesan su historia y su cultura. Quiero visitar las pirámides, pasear por los mercados y probar la auténtica comida mexicana. Además, así podría practicar español todos los días con la gente."}
+   ]
+  },
+  {
+   "n": 2, "nivel": "A2",
+   "instruccion": "Usted tiene que describir una imagen. Elija una de las dos (tiene unos 30 segundos). Después tiene 2 minutos para preparar la descripción; puede tomar notas, pero no se evalúan. Luego hable entre 1 y 2 minutos. Hable de:",
+   "aspectos": [
+    "cuántas personas hay y qué relación cree que existe entre ellas;",
+    "cómo son y qué ropa llevan;",
+    "qué están haciendo y cómo cree que se sienten;",
+    "en qué lugar se encuentran y cómo es;",
+    "qué objetos hay, cómo son y dónde están."
+   ],
+   "imagenes": [
+    {"n": 1, "titulo": "Imagen 1 · En la estación de tren", "archivo": "art/imagen1_estacion.png",
+     "escena": "Andén de una estación de tren, de día, bajo un techo de metal y cristal. A la izquierda hay un tren rojo y blanco parado, con las puertas abiertas. En el centro, un hombre de unos treinta y cinco años, con traje gris, corbata azul y una mochila negra a la espalda, mira su reloj de pulsera y camina deprisa hacia el tren. A la derecha, en un banco de madera, está sentada una señora mayor de pelo blanco y corto, con gafas y abrigo marrón, que lee un libro; a su lado, en el suelo, hay una maleta verde con ruedas. Delante del banco, una chica de unos veinte años, con chaqueta vaquera, pantalón negro y mochila roja, y un chico de su edad, con jersey amarillo, se abrazan; los dos sonríen. Del techo cuelga un reloj grande y redondo, sin números escritos. En una columna hay un cartel azul que dice «Andén 2»: es el único texto de la imagen. Al fondo se ven una máquina de bebidas y una papelera. No hay más personas.",
+     "zh": "火车站站台，白天，在金属和玻璃搭成的顶棚下。左边停着一列红白相间的火车，车门开着。中间一位三十五岁左右的男子，穿灰色西装、打蓝色领带、背黑色双肩包，一边看手表一边快步走向火车。右边一条木长椅上坐着一位白色短发的老太太，戴眼镜，穿棕色大衣，在看书；她身边的地上放着一个带轮子的绿色行李箱。长椅前，一个二十岁左右的女孩（穿牛仔夹克、黑裤子，背红色双肩包）和一个同龄的男孩（穿黄色毛衣）相互拥抱；两人都在笑。顶棚上挂着一个大圆钟，钟面上不写数字。一根柱子上有一块蓝色牌子，写着“Andén 2”（2 号站台），这是图中唯一的文字。背景里有一台饮料售货机和一个垃圾桶。画面里没有别的人。"},
+    {"n": 2, "titulo": "Imagen 2 · La cena en familia", "archivo": "art/imagen2_cocina.png",
+     "escena": "Cocina de una casa, por la noche: por la ventana se ve el cielo oscuro. A la izquierda, junto a los fogones, un hombre de unos cuarenta años, con barba corta, camisa azul y delantal blanco, remueve con una cuchara de madera una olla grande de la que sale vapor. A su lado, una mujer de la misma edad, con el pelo rizado recogido, gafas y jersey verde, corta zanahorias en una tabla de madera. Delante del fregadero, de pie sobre un taburete, un niño de unos cinco años con pijama de rayas lava tomates bajo el grifo. A la derecha, una niña de unos diez años, con coleta, camiseta naranja y vaqueros, pone platos y tenedores en una mesa redonda. En la mesa hay un frutero con plátanos y manzanas, una jarra de agua y una barra de pan. Sobre la mesa cuelga una lámpara amarilla encendida. En la puerta del frigorífico hay dibujos infantiles sujetos con imanes. Un gato gris duerme en una silla. En la imagen no hay ningún texto.",
+     "zh": "一户人家的厨房，晚上，窗外天已经黑了。左边灶台旁，一位四十岁左右的男子，留短胡子，穿蓝衬衫、系白围裙，用木勺搅着一口冒热气的大锅。他旁边一位年纪相仿的女子，卷发扎起，戴眼镜，穿绿色毛衣，在木砧板上切胡萝卜。水池前，一个五岁左右的男孩穿着条纹睡衣，站在小凳子上，在水龙头下洗西红柿。右边，一个十岁左右的女孩扎着马尾，穿橙色 T 恤和牛仔裤，正往一张圆桌上摆盘子和叉子。桌上有一个装着香蕉和苹果的果盘、一壶水和一根长面包。桌子上方挂着一盏亮着的黄色吊灯。冰箱门上用磁贴贴着孩子画的画。一只灰猫在一把椅子上睡觉。图中没有任何文字。"}
+   ],
+   "modelo": {"imagen": 1, "texto": "En la imagen hay cuatro personas en el andén de una estación de tren. Creo que el chico y la chica son novios o buenos amigos; las otras dos personas seguramente no se conocen. El hombre del centro tiene unos treinta y cinco años y lleva un traje gris, una corbata azul y una mochila negra. La señora del banco es mayor, tiene el pelo blanco y corto, y lleva gafas y un abrigo marrón. La chica lleva una chaqueta vaquera, un pantalón negro y una mochila roja, y el chico lleva un jersey amarillo. El hombre mira su reloj y camina deprisa hacia el tren: creo que llega tarde y está un poco nervioso. La señora, en cambio, está muy tranquila, leyendo un libro. Los dos jóvenes se abrazan y sonríen; quizá se despiden, o quizá acaban de encontrarse. Están en una estación con un techo de metal y cristal, y es de día. A la izquierda hay un tren rojo y blanco con las puertas abiertas. Del techo cuelga un reloj grande y redondo, y en una columna hay un cartel azul que dice «Andén 2». Al lado de la señora, en el suelo, hay una maleta verde con ruedas, y al fondo se ven una máquina de bebidas y una papelera.", "comentario": "五个方面按顺序都谈到了：人数和关系、外貌和衣着、正在做什么和情绪、地点、物品及位置。用 creo que、seguramente、quizá 表推测，用 estar + 副动词（está leyendo）描述正在进行的动作，用 a la izquierda、al lado de、al fondo 说明位置。描述只用图里有的东西。"}
+  },
+  {
+   "n": 3, "nivel": "B1",
+   "instruccion": "Esta tarea tiene dos partes. En cada parte, elija una de las dos situaciones (tiene aproximadamente 1 minuto) y deje un mensaje de voz. Tiene como máximo 1 minuto y 30 segundos para cada mensaje.",
+   "partes": [
+    {"parte": "Parte primera", "opciones": [
+     {"n": 1, "situacion": "El sábado había quedado con un amigo o una amiga para ir al cine, pero ahora no puede ir. Deje un mensaje en su contestador. En el mensaje debe:", "puntos": ["saludar y decir que no puede ir a la cita;", "explicar por qué no puede ir y pedir disculpas;", "proponer otro día y otra hora, y despedirse."], "zh": "您约了朋友星期六去看电影，现在去不了了。给他/她电话留言：问候，说明不能赴约；解释原因并道歉；提出另约的日子和时间，并道别。"},
+     {"n": 2, "situacion": "Usted termina sus estudios este verano y quiere que un familiar (un tío, una tía, un abuelo…) vaya a su ceremonia de graduación. Deje un mensaje en su contestador. En el mensaje debe:", "puntos": ["saludar y darle la noticia;", "decirle cuándo y dónde es la ceremonia;", "explicar por qué es importante para usted que vaya y pedirle una respuesta."], "zh": "您今年夏天毕业，想请一位亲戚（叔叔、阿姨、爷爷……）参加毕业典礼。给他/她电话留言：问候并告诉他/她这个消息；说明典礼的时间和地点；解释为什么希望他/她来，并请他/她回复。"}]},
+    {"parte": "Parte segunda", "opciones": [
+     {"n": 1, "situacion": "Usted ha vuelto de un viaje organizado por una agencia, y el programa no fue el que le habían prometido. Deje un mensaje en el servicio de atención al cliente de la agencia. En el mensaje debe:", "puntos": ["decir quién es y qué viaje hizo;", "explicar qué problemas hubo con el programa;", "decir qué solución espera de la agencia."], "zh": "您参加了一家旅行社组织的旅行，刚回来，行程和对方承诺的不一样。给旅行社客服留言：说明您是谁、参加的是哪次旅行；说明行程出了哪些问题；说明您希望旅行社怎样解决。"},
+     {"n": 2, "situacion": "Tiene cita con el dentista la semana que viene, pero ese día no puede ir. Deje un mensaje en el contestador de la clínica dental. En el mensaje debe:", "puntos": ["dar su nombre y decir cuándo es su cita;", "explicar por qué tiene que cambiarla;", "proponer otro día u otra hora y pedir que le confirmen el cambio."], "zh": "您下周约了牙医，可那天去不了。给牙科诊所电话留言：报上姓名，说明原来预约的时间；解释为什么要改期；提出另一个日子或时间，并请诊所确认。"}]}
+   ],
+   "modelos": [
+    {"parte": "Parte primera", "opcion": 2, "texto": "Hola, tía Carmen, soy Paula. ¿Qué tal estás? Te llamo para darte una noticia buenísima: ¡por fin termino la carrera! La ceremonia de graduación es el viernes veinte de junio, a las once de la mañana, en el salón de actos de la universidad. Después vamos a comer todos juntos en un restaurante cerca de casa. Me hace muchísima ilusión que vengas, porque tú siempre me has animado, sobre todo el primer año, cuando estaba tan perdida y quería dejarlo todo. ¿Me llamas o me escribes antes del domingo para decirme si puedes venir? Así reservo la mesa. ¡Un beso muy fuerte!"},
+    {"parte": "Parte segunda", "opcion": 1, "texto": "Buenas tardes. Me llamo Chen Yu y la semana pasada hice con su agencia el viaje de siete días por el norte de España, del tres al nueve de mayo. Les llamo porque el programa no se cumplió. En el folleto prometían hoteles en el centro de cada ciudad, pero dos noches dormimos en un hotel a cuarenta minutos, al lado de una autopista. Además, la excursión a los Picos de Europa se canceló sin ninguna explicación y nadie nos devolvió el dinero. Creo que es justo que me devuelvan el precio de la excursión y una parte de esas dos noches. Espero su respuesta. Mi teléfono es el seis, cuatro, cuatro, uno, dos, ocho, nueve, cero, tres. Muchas gracias."}
+   ],
+   "modelos_comentario": "每段留言都按三个要点展开：开头说明身份和打电话的原因，中间给出具体信息或描述问题，最后提出请求或解决办法。给亲戚的留言用 tú，语气亲热，用 me hace ilusión que + 虚拟式表达期待；给旅行社的投诉用 usted / ustedes，先说明是哪次旅行，再具体对比承诺和实际（prometían…, pero…），最后用 creo que es justo que + 虚拟式提出要求，并留下联系方式。"
+  },
+  {
+   "n": 4, "nivel": "B2",
+   "instruccion": "Elija uno de los dos temas (tiene unos 30 segundos). El tema que elija será también el de la Tarea 5. Lea el texto. Después escuchará tres preguntas; cada pregunta se oye dos veces. Tiene como máximo 1 minuto para responder a cada una.",
+   "voz": "女2", "lectura_s": 35,
+   "temas": [
+    {"n": 1, "titulo": "La comida rápida",
+     "texto": "La comida rápida forma parte de la vida de millones de personas. Es barata, se sirve en pocos minutos y se encuentra a casi cualquier hora, algo muy práctico para quien trabaja o estudia todo el día. Sin embargo, los médicos advierten que suele tener demasiada sal, azúcar y grasa, y la relacionan con el aumento de la obesidad, sobre todo entre los niños. Algunos países han prohibido anunciarla en los programas infantiles o han puesto impuestos a las bebidas azucaradas. Por su parte, muchas cadenas de restaurantes han añadido ensaladas y fruta a sus menús, aunque sus críticos dicen que es solo una cuestión de imagen.",
+     "zh": "快餐是数百万人生活的一部分。它便宜，几分钟就能上桌，几乎任何时候都买得到，对整天忙于工作或学习的人来说非常方便。然而医生提醒，快餐往往盐、糖和脂肪过多，并把它和肥胖率上升联系在一起，儿童尤其如此。一些国家已经禁止在儿童节目中播放快餐广告，或者对含糖饮料征税。快餐连锁店则纷纷在菜单上加了沙拉和水果，不过批评者说这只是为了形象。",
+     "preguntas": [
+      {"tipo": "opinión", "es": "¿Cree usted que la comida rápida es un problema para la salud? ¿Por qué?", "zh": "您认为快餐是一个健康问题吗？为什么？",
+       "modelo": "Sí, creo que puede ser un problema, aunque depende de cuánto se coma. Una hamburguesa de vez en cuando no le hace daño a nadie. El problema es que mucha gente come comida rápida casi todos los días, porque es barata y cómoda, y esa comida tiene demasiada grasa, sal y azúcar. Si además no se hace deporte, es fácil engordar y tener problemas de salud. Por eso pienso que lo peligroso no es la comida rápida en sí, sino abusar de ella."},
+      {"tipo": "información", "es": "¿Es popular la comida rápida en su país? ¿Qué come la gente cuando tiene poco tiempo?", "zh": "快餐在您的国家受欢迎吗？人们时间紧的时候吃什么？",
+       "modelo": "En China la comida rápida es muy popular, sobre todo entre los jóvenes. En mi ciudad, Hangzhou, hay restaurantes de hamburguesas en todos los centros comerciales, pero también tenemos nuestra propia comida rápida: un plato de fideos, unos bollos al vapor o arroz con verduras, que se comen en diez minutos. Además, hoy mucha gente pide la comida por el móvil y la recibe en la oficina en media hora. Es muy cómodo, aunque no siempre es sano."},
+      {"tipo": "suposición", "es": "Imagine que usted dirige un colegio. ¿Qué haría para que sus alumnos comieran de forma más sana?", "zh": "假设您是一所学校的校长，您会怎么做，让学生吃得更健康？",
+       "modelo": "Si yo dirigiera un colegio, lo primero que haría sería cambiar el menú del comedor: más verdura, más fruta y menos fritos. También quitaría las máquinas de refrescos y pondría fuentes de agua en los pasillos. Y, sobre todo, organizaría talleres de cocina, para que los alumnos aprendieran a preparar platos sanos y fáciles. Creo que, si los cocinaran ellos mismos, los comerían con más ganas."}
+     ]},
+    {"n": 2, "titulo": "Aprender idiomas con aplicaciones",
+     "texto": "Cada día, millones de personas abren una aplicación en el teléfono para aprender un idioma. Estas aplicaciones son baratas o gratuitas, se pueden usar en cualquier momento, en el autobús o en la cola del supermercado, y convierten el estudio en un juego con puntos y premios. Sus defensores dicen que han acercado los idiomas a personas que nunca habrían ido a una academia. Los críticos, en cambio, señalan que muchos usuarios abandonan a las pocas semanas y que, aunque aprendan palabras sueltas, casi nunca practican la conversación con personas reales.",
+     "zh": "每天都有数百万人打开手机上的应用来学外语。这些应用便宜甚至免费，随时都能用，在公交车上、在超市排队时都行，还用积分和奖励把学习变成游戏。支持者说，它们让那些本来永远不会去语言学校的人接触到了外语。批评者则指出，很多用户几个星期后就放弃了，而且即使学会了一些零散的单词，也几乎从不和真人练习对话。",
+     "preguntas": [
+      {"tipo": "opinión", "es": "En su opinión, ¿qué ventajas e inconvenientes tienen las aplicaciones para aprender idiomas?", "zh": "您认为用应用学外语有哪些优点和缺点？"},
+      {"tipo": "información", "es": "¿Cómo ha aprendido usted español? ¿Ha usado alguna aplicación?", "zh": "您是怎么学西班牙语的？用过什么应用吗？"},
+      {"tipo": "suposición", "es": "Si tuviera que aprender otro idioma en un año, ¿cuál elegiría y cómo lo estudiaría?", "zh": "如果您要在一年里学会另一门外语，您会选哪一门？怎么学？"}
+     ]}
+   ],
+   "modelo_comentario": "三个问题对应三种功能：表达观点（creo que…, depende de…, lo peligroso no es… sino…）、提供信息（介绍本国的真实情况，用现在时和具体例子）、作出假设（si yo dirigiera…, 条件式 haría, quitaría, organizaría；para que + 虚拟式过去时）。每题约 1 分钟，回答要直接切题，再加理由或例子。"
+  },
+  {
+   "n": 5, "nivel": "C1",
+   "instruccion": "Usted va a dar su opinión sobre el tema que eligió en la Tarea 4. Elija una de las dos afirmaciones (tiene unos 45 segundos). Tiene 2 minutos para preparar su intervención; puede tomar notas, pero no se evalúan. Después hable entre 3 y 4 minutos. En su intervención debe:",
+   "puntos": ["presentar su posición;", "justificarla con argumentos;", "poner ejemplos;", "terminar con una conclusión que deje clara su postura."],
+   "temas": [
+    {"n": 1, "titulo": "La comida rápida", "afirmaciones": [
+     {"letra": "A", "es": "«Los gobiernos deberían subir los impuestos de la comida rápida para proteger la salud de la población.»", "zh": "“政府应当提高快餐的税收，以保护民众的健康。”"},
+     {"letra": "B", "es": "«Cada persona es libre de comer lo que quiera: el Estado no debe decidir qué ponemos en el plato.»", "zh": "“每个人都有吃自己想吃的东西的自由：国家不应决定我们盘子里放什么。”"}]},
+    {"n": 2, "titulo": "Aprender idiomas con aplicaciones", "afirmaciones": [
+     {"letra": "A", "es": "«Hoy en día, con una buena aplicación se puede aprender un idioma sin ir a clase.»", "zh": "“如今，有一个好的应用，不上课也能学会一门外语。”"},
+     {"letra": "B", "es": "«Las aplicaciones sirven para practicar, pero nunca podrán sustituir a un profesor.»", "zh": "“应用可以用来练习，但永远代替不了老师。”"}]}
+   ],
+   "modelo": {"tema": 1, "afirmacion": "B", "texto": ["Yo estoy de acuerdo con la segunda afirmación: creo que cada adulto debe ser libre de decidir lo que come, y que subir los impuestos de la comida rápida no es la mejor manera de proteger la salud.", "Mi primer argumento tiene que ver con la libertad. Los adultos tomamos cada día muchas decisiones que afectan a nuestra salud: si hacemos deporte o no, cuántas horas dormimos, si vamos al trabajo andando o en coche. A nadie se le ocurre poner una multa a quien no camina media hora al día. ¿Por qué tendría que ser distinto con una hamburguesa? Si aceptamos que el Estado decida qué ponemos en el plato, no sé muy bien dónde se va a detener.", "El segundo argumento es de justicia. Un impuesto así lo pagan sobre todo las familias con menos dinero, que muchas veces no comen comida rápida porque les guste, sino porque es lo más barato y lo más rápido después de una jornada de diez horas. Subir el precio no les da más tiempo para cocinar ni les pone un mercado con verdura fresca cerca de casa; simplemente les hace la vida un poco más cara. Se suele citar el ejemplo del tabaco, pero la comparación no me convence: el tabaco es dañino en cualquier cantidad, mientras que una hamburguesa de vez en cuando no le hace daño a nadie.", "Ahora bien, defender la libertad no significa no hacer nada. Lo que sí debe hacer el Estado es informar con claridad y ofrecer alternativas. En mi ciudad, Hangzhou, algunos restaurantes ya indican las calorías de cada plato, y en el colegio de mi primo pequeño han empezado a dar clases de cocina sencilla. Mi primo, que antes solo quería patatas fritas, el otro día preparó muy orgulloso una ensalada para toda la familia, y hasta repitió. Ese tipo de medidas cambia los hábitos sin prohibir ni castigar a nadie.", "Por supuesto, entiendo la preocupación por la obesidad infantil, y en el caso de los niños creo que sí hay que ser más estrictos: me parece razonable limitar la publicidad dirigida a ellos y cuidar lo que se sirve en los comedores escolares. Pero los niños todavía no pueden decidir solos; los adultos, sí.", "En conclusión, creo que la salud se protege mejor educando que castigando. Un impuesto puede hacer más cara una hamburguesa, pero no enseña a nadie a comer mejor. Prefiero un Estado que informe y ofrezca opciones, y unos ciudadanos que, con esa información, elijan libremente."],
+    "comentario": "开头明确表态（Yo estoy de acuerdo con la segunda afirmación），接着给出“自由”和“公平”两个论据，各配例子（拿运动、睡眠作类比；回应常被引用的烟草税），再用 Ahora bien 提出替代办法（提供信息、开烹饪课）并举亲身见闻，用 Por supuesto 让步（儿童应区别对待），最后 En conclusión 重申立场。全文四百多词，按正常语速说 3 分多钟。"}
+  }
+ ],
+ "criterios": [
+  {"es": "Uso de la lengua", "zh": "语言运用：词汇和语法的范围与准确度、发音和语调、流利程度。"},
+  {"es": "Cumplimiento de la tarea", "zh": "完成任务：是否按要求谈到全部要点，内容是否切题、连贯，时长是否合适。"}
+ ]
+}

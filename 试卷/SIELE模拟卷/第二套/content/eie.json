@@ -1,0 +1,56 @@
+{
+ "prueba": "Expresión e interacción escritas",
+ "zh": "书面表达与互动",
+ "duracion": "50 minutos",
+ "intro": "Esta prueba tiene dos tareas. Dispone de 50 minutos para realizarlas en el orden que prefiera. Escriba sus textos en la Hoja de respuestas.",
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1-B1", "palabras": [100, 150],
+   "instruccion": "Usted ha recibido este correo electrónico de su amiga Valeria. Escríbale un correo de respuesta (entre 100 y 150 palabras) en el que:",
+   "puntos": [
+    "la salude y le diga qué le parece la noticia;",
+    "le recomiende un tipo de alojamiento y le explique por qué;",
+    "le diga dónde puede buscarlo y cuánto cuesta, más o menos;",
+    "le ofrezca su ayuda para los primeros días;",
+    "se despida."
+   ],
+   "estimulo": {"genero": "correo electrónico", "de": "Valeria", "asunto": "Prácticas en tu ciudad",
+    "cuerpo": ["¡Hola!", "¡Tengo una noticia! El mes que viene empiezo unas prácticas de seis meses en un hospital de tu ciudad. Ahora necesito encontrar alojamiento. ¿Qué es mejor, compartir apartamento o vivir sola? ¿Dónde puedo buscar? ¿Me ayudas?", "Un beso,", "Valeria"],
+    "zh": "你好！我有个消息！下个月我要在你们城市的一家医院开始为期六个月的实习。现在我得找个住的地方。合租公寓好，还是一个人住好？我可以去哪儿找？你能帮帮我吗？亲亲你，瓦莱里娅"},
+   "modelo": {
+    "nota": "示例答案。城市、街区和价格信息为虚构，考生应写自己真实的城市。",
+    "texto": ["¡Hola, Valeria!", "¡Qué noticia tan buena! Me alegro muchísimo de que vengas a hacer las prácticas aquí. ¡Por fin vamos a vernos a menudo!", "Yo, en tu lugar, compartiría apartamento con otros jóvenes. Es más barato que vivir sola y, además, así conoces gente desde el primer día.", "Puedes buscar en las páginas de anuncios de internet. Te aconsejo mirar en el barrio de San Andrés: está cerca del hospital y tiene muy buen ambiente. Allí una habitación en un apartamento compartido cuesta unos trescientos euros al mes, con los gastos incluidos.", "Si quieres, puedes quedarte en mi casa la primera semana. Así vamos juntas a ver algunas habitaciones y eliges la que más te guste.", "Escríbeme cuando sepas qué día llegas.", "Un beso muy fuerte,", "Ana"],
+    "comentario": "五个要点都写到了，顺序和题目一致：问候并对消息表示高兴 → 推荐合租并说明理由（比一个人住便宜、第一天就能认识人）→ 去哪儿找（网上的租房广告、离医院近的街区）和大概的价钱 → 主动提出第一周可以住自己家、一起去看房 → 告别。用了 me alegro de que + 虚拟式、en tu lugar + 条件式（compartiría）、cuando sepas、la que más te guste 等 B1 结构，篇幅在 100–150 词之间。"}
+  },
+  {
+   "n": 2, "nivel": "B2-C1", "palabras": [250, 300],
+   "instruccion": "Elija una de las dos opciones.",
+   "opciones": [
+    {"n": 1, "titulo": "Opción 1 · Artículo de opinión",
+     "instruccion": "Usted ha leído esta noticia en el periódico digital Puerto Albor Hoy. Escriba un artículo de opinión (entre 250 y 300 palabras) para la sección «La voz de los lectores» en el que:",
+     "puntos": ["presente el tema;", "dé su opinión sobre la medida;", "justifique su opinión con argumentos;", "escriba una conclusión."],
+     "estimulo": {"cabecera": "PUERTO ALBOR HOY · Ciudad", "titular": "Puerto Albor tendrá autobuses gratis desde enero",
+      "cuerpo": "El ayuntamiento ha anunciado que, desde el 1 de enero, todos los vecinos podrán viajar gratis en los autobuses urbanos. La medida costará cada año el ocho por ciento del presupuesto municipal. Según el alcalde, reducirá el tráfico y la contaminación; la oposición teme que se recorten otros servicios y que los autobuses vayan aún más llenos.",
+      "zh": "《阿尔沃港今日》（虚构的报纸）城市版：阿尔沃港一月起公交免费。市政府宣布，从 1 月 1 日起，全体市民都可以免费乘坐市内公交车。这项措施每年要花掉市政预算的百分之八。市长说，这能减少交通拥堵和污染；反对派则担心其他公共服务会被削减，公交车也会更加拥挤。"},
+     "modelo": {
+      "texto": ["Autobuses gratis: una buena idea que necesita algo más", "El ayuntamiento de Puerto Albor ha anunciado que, a partir de enero, los autobuses urbanos serán gratuitos para todos los vecinos. La noticia ha sido recibida con entusiasmo por unos y con desconfianza por otros, que temen que la medida acabe pagándose con recortes en el resto de los servicios.", "En mi opinión, se trata de una medida valiente y, en líneas generales, acertada. Para empezar, es una cuestión de justicia: quienes más usan el autobús son precisamente quienes menos pueden permitirse un coche, como los estudiantes, los jubilados o los trabajadores con sueldos bajos. Para muchas familias, no tener que pagar el viaje supondrá un ahorro considerable a final de mes.", "En segundo lugar, si de verdad queremos reducir el tráfico y la contaminación, no basta con pedir a la gente que deje el coche en casa: hay que ofrecerle una alternativa atractiva. Que el transporte sea gratuito es, sin duda, un argumento muy convincente para cambiar de hábitos.", "Ahora bien, la gratuidad por sí sola no hará milagros. Si los autobuses pasan cada veinte minutos y van abarrotados, muchos conductores seguirán prefiriendo su coche. Por eso, el ayuntamiento debería aprovechar la ocasión para aumentar la frecuencia, crear más carriles bus y explicar con claridad de dónde saldrá el dinero, de modo que nadie sospeche que se recortarán otros servicios.", "En resumen, abrir las puertas del autobús a todos es un paso en la buena dirección. Lo que está por ver es si la ciudad será capaz de acompañarlo de un servicio a la altura. Si lo consigue, Puerto Albor podría convertirse en un ejemplo para muchas otras ciudades."],
+      "comentario": "标题表明立场：是个好主意，但还不够。第一段介绍新闻和争议双方；第二段亮明观点（se trata de una medida valiente y, en líneas generales, acertada），用 Para empezar 引出第一个论据（公平：最常坐公交的人恰恰最买不起车）；第三段用 En segundo lugar 给出第二个论据（要减少交通和污染，就得给人有吸引力的替代办法）；第四段用 Ahora bien 承认光免费不够，回应反对派的担心并提出具体建议；最后一段用 En resumen 总结，并展望前景。用了 quienes más… son precisamente quienes menos…、no basta con… hay que…、que 从句作主语用虚拟式（Que el transporte sea gratuito es…）、de modo que nadie sospeche、lo que está por ver es si… 等 C1 结构。"}},
+    {"n": 2, "titulo": "Opción 2 · Carta a la redacción",
+     "instruccion": "Usted ha leído esta noticia en La Gaceta de Puerto Albor. Escriba una carta al director del periódico (entre 250 y 300 palabras) en la que:",
+     "puntos": ["explique qué representa el cine para usted y para el barrio;", "dé su opinión sobre el cierre;", "proponga alguna solución para que siga abierto;", "diga qué espera de los vecinos o de las autoridades."],
+     "estimulo": {"cabecera": "LA GACETA DE PUERTO ALBOR · Barrios", "titular": "Cierra el último cine del barrio de Las Moreras",
+      "cuerpo": "Después de sesenta y dos años, el cine Mirasol, la única sala del barrio, cerrará el 30 de junio. Sus dueños explican que el número de espectadores ha caído a la mitad en diez años y que no pueden pagar la reforma que exige la nueva normativa. En su lugar se construirán viviendas de lujo.",
+      "zh": "《阿尔沃港公报》（虚构的报纸）街区版：莫雷拉斯街区最后一家电影院要关门了。开了六十二年之后，街区唯一的电影院米拉索尔将于 6 月 30 日停业。业主说，十年来观众人数减少了一半，新规定要求的改造费用他们负担不起。原址将建起豪华住宅。"},
+     "modelo": {
+      "texto": ["Señor director:", "Le escribo como vecino del barrio de Las Moreras desde hace más de treinta años, después de leer en su periódico que el cine Mirasol cerrará sus puertas el próximo 30 de junio.", "Para mí, el Mirasol no es solo un cine. Allí vi mi primera película con mi abuelo, allí tuve mi primera cita y allí llevo ahora a mis hijos los domingos por la tarde. Para el barrio es, además, mucho más que una sala: es el único lugar de ocio y cultura que nos queda, donde se reúne el cineclub de los jubilados y donde los colegios organizan sesiones para sus alumnos.", "Entiendo que los propietarios no puedan asumir solos una reforma tan cara, pero me parece una pena que la única salida sea derribarlo para construir viviendas de lujo que ningún vecino podrá pagar. Si el Mirasol desaparece, perderemos un espacio de encuentro que difícilmente se recuperará, y el barrio será un poco más gris y más triste.", "Creo que existen alternativas. El ayuntamiento podría ayudar a pagar la reforma a cambio de usar la sala para actividades culturales del barrio. También podría crearse una asociación de amigos del cine: con una pequeña cuota mensual, cientos de vecinos estaríamos dispuestos a colaborar. Incluso podría pedirse a la constructora que reservara una sala de cine en la planta baja del nuevo edificio.", "Por todo ello, pido a las autoridades que estudien estas propuestas antes de conceder la licencia de obras, y animo a los vecinos a asistir a la reunión que celebraremos el próximo jueves en la asociación vecinal. El Mirasol ha cuidado de nosotros durante sesenta y dos años; ahora nos toca a nosotros cuidar de él.", "Atentamente,", "Javier Morales Peña"],
+      "comentario": "格式完整：称呼 Señor director、自我介绍和写信缘由、正文、Atentamente 和署名。四个要点各占一段：电影院对自己和街区意味着什么（三个 allí 排比，回忆具体，再说到街区的老人和学校）→ 对关门的看法（Entiendo que… pero me parece una pena que + 虚拟式，先表示理解再表明态度，并用条件句 Si el Mirasol desaparece, perderemos… 说明后果）→ 解决办法（市政府资助改造、成立“电影院之友”协会、在新楼底层保留放映厅，用条件式提出建议）→ 对政府和邻居的期待（pido a las autoridades que + 虚拟式、animo a los vecinos a…）。结尾 ha cuidado de nosotros…; ahora nos toca a nosotros cuidar de él 前后呼应，语气正式而有感染力。"}}
+   ]
+  }
+ ],
+ "criterios": [
+  {"es": "Cohesión", "zh": "衔接：段落安排、连接词、指代是否清楚连贯。"},
+  {"es": "Corrección", "zh": "准确：语法、词汇、拼写和标点是否正确。"},
+  {"es": "Alcance", "zh": "广度：词汇和语法结构是否丰富，能否准确表达复杂意思。"},
+  {"es": "Cumplimiento de la tarea", "zh": "完成任务：是否写到全部要点，文体、语域和字数是否符合要求。"}
+ ]
+}

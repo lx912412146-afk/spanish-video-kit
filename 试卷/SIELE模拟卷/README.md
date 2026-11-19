@@ -4,7 +4,11 @@
 
 一整套 SIELE Global 格式的模拟考试，四项齐全：阅读（CL）、听力（CA）、写作（EIE）、口语（EIO）。每一项的 tarea 数量、题型、题量、文本长度、作答时间和计分方法都按 SIELE 的公开规格（见 [`考试规格.md`](考试规格.md)），可以直接打印做整套模考。
 
-成品在 Release [`siele-mock-1`](../../../releases/tag/siele-mock-1)：
+<!-- 其他几套 -->
+**其他几套：** [第二套](第二套/)（Release `siele-mock-2`）。结构、题型和计分和本卷一样，话题全部不同。
+<!-- /其他几套 -->
+
+成品在 Release [`siele-mock-1`](../../../../releases/tag/siele-mock-1)：
 
 | 文件 | 内容 |
 | --- | --- |
