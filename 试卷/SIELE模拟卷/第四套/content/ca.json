@@ -1,0 +1,196 @@
+{
+ "prueba": "Comprensión auditiva",
+ "zh": "听力理解",
+ "duracion": "46 minutos aproximadamente",
+ "intro": "Esta prueba tiene seis tareas y 38 preguntas. Escuchará cada audio dos veces. Marque sus respuestas en la Hoja de respuestas.",
+ "voces": {"narrador": "男1"},
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1", "tipo": "banco", "lectura_s": 30, "entre_s": 10, "tempo": 0.9,
+   "instruccion": "Usted va a escuchar una conversación entre dos amigos, Diego y Paula. La escuchará dos veces. Complete las frases (1-5) con una de las opciones del recuadro (A-O). Hay quince opciones; elija solo cinco.",
+   "audio": [{"label": null, "segs": [
+    {"v": "女3", "who": "Paula", "es": "Hola, Diego. El sábado vienen a cenar a casa unos amigos de la universidad.", "zh": "你好，迭戈。星期六有几个大学同学来我家吃晚饭。"},
+    {"v": "男2", "who": "Diego", "es": "¡Qué buena idea! ¿Ya sabes qué vas a cocinar?", "zh": "好主意！你想好做什么菜了吗？"},
+    {"v": "女3", "who": "Paula", "es": "Todavía no, y somos seis. ¿Me ayudas?", "zh": "还没有，我们一共六个人。你帮帮我好吗？"},
+    {"v": "男2", "who": "Diego", "es": "Claro que sí. Para empezar, ¿por qué no haces una sopa de verduras?", "zh": "当然。头盘为什么不做个蔬菜汤呢？"},
+    {"v": "女3", "who": "Paula", "es": "Con este calor, una sopa no. Prefiero una ensalada con tomate y queso.", "zh": "这么热的天，汤就算了。我更想做番茄奶酪沙拉。"},
+    {"v": "男2", "who": "Diego", "es": "Me parece muy bien. ¿Y de segundo vas a hacer carne?", "zh": "很好。那主菜做肉吗？"},
+    {"v": "女3", "who": "Paula", "es": "No, mi amiga Elena no come carne. Voy a hacer pescado al horno.", "zh": "不行，我朋友埃莱娜不吃肉。我打算做烤鱼。"},
+    {"v": "男2", "who": "Diego", "es": "Perfecto, me encanta el pescado. ¿Y lo haces con verduras?", "zh": "太好了，我特别喜欢吃鱼。你打算配蔬菜吗？"},
+    {"v": "女3", "who": "Paula", "es": "No, con arroz, que es más fácil.", "zh": "不，配米饭，更简单。"},
+    {"v": "男2", "who": "Diego", "es": "¿Y de postre vas a hacer una tarta de chocolate?", "zh": "那甜点你要做巧克力蛋糕吗？"},
+    {"v": "女3", "who": "Paula", "es": "Me gustaría, pero no tengo tiempo.", "zh": "我很想做，可是没时间。"},
+    {"v": "男2", "who": "Diego", "es": "Entonces compra helado. En mi calle venden uno de limón muy rico.", "zh": "那就买冰淇淋吧。我家那条街上有卖柠檬味的，很好吃。"},
+    {"v": "女3", "who": "Paula", "es": "¡Me encanta! Y para beber, agua y refrescos.", "zh": "我太喜欢了！喝的就准备水和汽水。"},
+    {"v": "男2", "who": "Diego", "es": "¿Y cuándo compramos todo? ¿El viernes por la tarde, en el supermercado?", "zh": "那我们什么时候去买东西？星期五下午去超市？"},
+    {"v": "女3", "who": "Paula", "es": "Mejor el sábado por la mañana, en el mercado. Así el pescado está más fresco.", "zh": "最好星期六上午去市场。这样鱼更新鲜。"},
+    {"v": "男2", "who": "Diego", "es": "De acuerdo, te llamo el sábado a las nueve.", "zh": "好，星期六九点我给你打电话。"}
+   ]}],
+   "banco": ["arroz", "carne", "chocolate", "ensalada", "fruta", "helado", "mercado", "pan", "pescado", "queso", "refrescos", "sopa", "supermercado", "tarta", "verduras"],
+   "preguntas": [
+    {"n": 1, "enunciado": "Para empezar, Paula va a preparar una ______.", "clave": "D", "explicacion": "Prefiero una ensalada con tomate y queso（我更想做番茄奶酪沙拉）。sopa 是迭戈的建议，宝拉说天太热，不做汤。"},
+    {"n": 2, "enunciado": "Elena, la amiga de Paula, no come ______.", "clave": "B", "explicacion": "mi amiga Elena no come carne（我朋友埃莱娜不吃肉），所以宝拉改做鱼。"},
+    {"n": 3, "enunciado": "Paula va a servir el pescado con ______.", "clave": "A", "explicacion": "迭戈问 ¿Y lo haces con verduras?（配蔬菜吗？），宝拉回答 No, con arroz（不，配米饭）。"},
+    {"n": 4, "enunciado": "De postre, van a comer ______ de limón.", "clave": "F", "explicacion": "Entonces compra helado. En mi calle venden uno de limón muy rico（那就买冰淇淋，我家那条街上有卖柠檬味的），宝拉回答 ¡Me encanta!（太喜欢了）。巧克力蛋糕（tarta de chocolate）宝拉没时间做。"},
+    {"n": 5, "enunciado": "Van a comprar la comida el sábado en el ______.", "clave": "G", "explicacion": "迭戈提议星期五去超市（supermercado），宝拉说 Mejor el sábado por la mañana, en el mercado（最好星期六上午去市场）。"}
+   ]
+  },
+  {
+   "n": 2, "nivel": "A2", "tipo": "seleccion", "lectura_s": 30, "entre_s": 5, "respuesta_s": 10,
+   "instruccion": "Usted va a escuchar cinco noticias de un programa de radio. Escuchará cada noticia dos veces. Elija la opción correcta (A, B o C) para cada pregunta (6-10).",
+   "audio": [
+    {"label": "Noticia uno", "segs": [{"v": "女4", "es": "Este domingo se celebra la carrera popular de diez kilómetros por el centro de la ciudad. La salida será a las ocho de la mañana en la plaza de la Constitución, y la llegada, en el estadio municipal. Desde las siete hasta las doce del mediodía, varias calles del centro estarán cerradas al tráfico. Las inscripciones se pueden hacer hasta el viernes.", "zh": "本周日将举行穿越市中心的十公里大众长跑。起点在宪法广场，早上八点出发，终点设在市体育场。从早上七点到中午十二点，市中心多条街道禁止车辆通行。报名截止到星期五。"}]},
+    {"label": "Noticia dos", "segs": [{"v": "男2", "es": "Información para los usuarios del metro. La línea tres cerrará durante todo el mes de agosto por obras. En esas semanas, unos autobuses gratuitos harán el mismo recorrido y pararán al lado de cada estación. Estos autobuses pasarán cada diez minutos. Las demás líneas funcionarán con normalidad.", "zh": "地铁乘客请注意：地铁三号线因施工，整个八月停运。这几周里，免费公交车将沿同一路线运行，在每个车站旁边停靠。这些公交车每十分钟一班。其他线路正常运营。"}]},
+    {"label": "Noticia tres", "segs": [{"v": "女4", "es": "Y ahora, el tiempo para el fin de semana. El sábado será un día frío y con muchas nubes en toda la región, y por la noche puede nevar en las montañas. El domingo, en cambio, saldrá el sol, aunque las temperaturas seguirán bajas, entre dos y ocho grados. Si van a viajar a la sierra, lleven cadenas en el coche.", "zh": "下面是周末天气。星期六全区天冷、多云，夜里山区可能下雪。星期天则会出太阳，不过气温仍然很低，在二到八度之间。如果要去山区，请在车上带好防滑链。"}]},
+    {"label": "Noticia cuatro", "segs": [{"v": "男2", "es": "Gran noticia para el baloncesto de nuestra ciudad. El equipo femenino ganó ayer la semifinal y el próximo sábado jugará la primera final de su historia. Como su pabellón es pequeño, el partido será en el polideportivo del Parque Norte, con capacidad para cinco mil personas. Las entradas son gratuitas y se pueden recoger desde mañana.", "zh": "本市篮球界的好消息：女子篮球队昨天赢得半决赛，下星期六将打队史上第一场决赛。由于球队自己的体育馆太小，比赛将在可容纳五千人的北公园综合体育馆举行。门票免费，从明天起可以领取。"}]},
+    {"label": "Noticia cinco", "segs": [{"v": "女4", "es": "Desde el lunes, la ciudad tiene un nuevo servicio de bicicletas públicas, con cuarenta estaciones en el centro y en los barrios cercanos. Para usarlo, primero hay que registrarse en la aplicación del ayuntamiento. La primera media hora es gratis y después se paga por cada hora. Las bicicletas se pueden usar de seis de la mañana a once de la noche.", "zh": "从星期一起，本市有了新的公共自行车服务，在市中心和附近街区设有四十个站点。使用前要先在市政府的应用程序上注册。前半小时免费，之后按小时付费。自行车的使用时间是早上六点到晚上十一点。"}]}
+   ],
+   "preguntas": [
+    {"n": 6, "enunciado": "La carrera popular del domingo…", "opciones": ["empieza y termina en el estadio municipal.", "sale a las siete de la mañana.", "corta varias calles durante unas horas."], "clave": "C", "explicacion": "Desde las siete hasta las doce del mediodía, varias calles del centro estarán cerradas al tráfico（七点到十二点市中心多条街道封闭）。起点是宪法广场，只有终点在体育场；出发时间是八点，七点是开始封路的时间。"},
+    {"n": 7, "enunciado": "En agosto, los viajeros de la línea tres…", "opciones": ["podrán usar autobuses sin pagar.", "tendrán un tren cada diez minutos.", "se quedarán sin transporte público."], "clave": "A", "explicacion": "unos autobuses gratuitos harán el mismo recorrido（免费公交车走同一路线）。每十分钟一班的是公交车，不是地铁；有替代的公交车，所以不会没有交通工具。"},
+    {"n": 8, "enunciado": "Según la información del tiempo, el domingo…", "opciones": ["hará sol, pero seguirá el frío.", "puede nevar en las montañas.", "las temperaturas subirán bastante."], "clave": "A", "explicacion": "El domingo, en cambio, saldrá el sol, aunque las temperaturas seguirán bajas（星期天出太阳，但气温仍然很低）。可能下雪的是星期六夜里；气温不会明显上升。"},
+    {"n": 9, "enunciado": "La final de baloncesto del sábado…", "opciones": ["se jugará en el pabellón del equipo.", "tiene entradas a la venta desde hoy.", "será la primera para este equipo."], "clave": "C", "explicacion": "jugará la primera final de su historia（打队史上第一场决赛）。球队的体育馆太小，比赛改在北公园综合体育馆；门票免费，而且明天（desde mañana）才能领。"},
+    {"n": 10, "enunciado": "Para usar las bicicletas públicas…", "opciones": ["se paga desde el primer minuto.", "hay que registrarse en una aplicación.", "hay que devolverlas antes de las seis."], "clave": "B", "explicacion": "Para usarlo, primero hay que registrarse en la aplicación del ayuntamiento（使用前要先在市政府的应用程序上注册）。前半小时免费；自行车可以用到晚上十一点，六点是早上开始的时间。"}
+   ]
+  },
+  {
+   "n": 3, "nivel": "B1", "tipo": "relacionar", "lectura_s": 30, "entre_s": 5, "respuesta_s": 10,
+   "instruccion": "Usted va a escuchar a ocho personas que hablan de un objeto muy especial para ellas. Escuchará a cada persona dos veces. Relacione a cada persona (11-18) con uno de los enunciados (A-K). Hay once enunciados; elija solo ocho.",
+   "enunciados": [
+    "Lo compró con el primer dinero que ganó.",
+    "Ya no funciona, pero no quiere arreglarlo.",
+    "Lo hizo con sus propias manos.",
+    "Lo usa casi todos los días.",
+    "Le recuerda cómo conoció a su pareja.",
+    "Lo perdió y lo recuperó muchos años después.",
+    "Le costó mucho dinero.",
+    "Se lo llevó cuando se fue a vivir a otro país.",
+    "Al principio no le gustaba nada.",
+    "Lo compró en un mercado de segunda mano.",
+    "Piensa regalárselo a alguien de su familia."
+   ],
+   "enunciados_zh": ["是用自己挣的第一笔钱买的。", "已经坏了，但不想修。", "是自己亲手做的。", "几乎每天都用。", "让他/她想起怎样认识了自己的伴侣。", "丢了，很多年后又找回来了。", "花了很多钱。", "搬到另一个国家生活时带走了它。", "起初一点也不喜欢它。", "是在二手市场买的。", "打算把它送给家里的某个人。"],
+   "sobran": ["C", "G", "J"],
+   "audio": [
+    {"label": "Persona uno", "segs": [{"v": "女1", "es": "Tengo el reloj de mi abuelo. Me lo regaló cuando cumplí quince años, y desde entonces lo llevaba a todas partes. Hace tres años se paró. Un relojero me dijo que podía arreglarlo fácilmente, pero no quise. Se paró la misma semana en que murió mi abuelo, y prefiero dejarlo así, marcando siempre la misma hora.", "zh": "我有一块爷爷（外公）的手表。我十五岁生日时他送给我的，从那以后我走到哪儿都戴着。三年前它停了。一位钟表匠说很容易修好，可我不愿意。它是在爷爷去世的那个星期停的，我宁愿让它就这样，永远停在同一个时间。"}]},
+    {"label": "Persona dos", "segs": [{"v": "男2", "es": "A los diecisiete años trabajé todo un verano en una heladería de Rosario. Con mi primer sueldo me compré una guitarra. No era cara ni muy buena, pero era mía, ¿viste? Aprendí a tocar solo, mirando videos. Cuando me vine a vivir a Madrid no pude traerla, así que sigue en casa de mis viejos. Ahora solo la toco cuando voy de visita.", "zh": "十七岁那年，我在罗萨里奥的一家冰淇淋店干了一整个夏天。我用第一份工资给自己买了一把吉他。它不贵，也不怎么好，可它是我的，你懂吧？我是看视频自学弹的。我搬到马德里生活时没能把它带来，所以它还在我爸妈家。现在我只有回去探亲时才弹。"}]},
+    {"label": "Persona tres", "segs": [{"v": "女2", "es": "Lo que más quiero es un cuaderno de recetas que escribió mi madre a mano. Tiene manchas de aceite y alguna página rota. Me lo dio cuando me fui a vivir sola. Ahora cocino con él casi todos los días: las lentejas, la tortilla, el bizcocho de los domingos. Cada vez que lo abro, me parece estar otra vez en la cocina con ella.", "zh": "我最珍爱的是一本我妈妈手写的菜谱本。上面有油渍，有的页还破了。我自己搬出去住的时候她把它给了我，现在我几乎每天都照着它做饭：扁豆、土豆鸡蛋饼、星期天的松糕。每次翻开它，我都觉得又和她一起待在厨房里了。"}]},
+    {"label": "Persona cuatro", "segs": [{"v": "女3", "es": "Cuando tenía seis años, nos cambiamos de casa y perdí mi oso de peluche. Lloré semanas enteras. Veinte años después, mis papás vendieron la casa y, al vaciar la bodega, mi papá encontró una caja de la mudanza sin abrir. Adentro estaba mi oso, un poco sucio, pero entero. Ahora está sentado en una repisa de mi pieza y no pienso perderlo nunca más.", "zh": "我六岁那年搬家，把我的毛绒熊弄丢了。我哭了好几个星期。二十年后，我爸妈要卖房子，清理储藏室时，我爸爸发现了一个当年搬家时没打开过的箱子。我的熊就在里面，有点脏，但完好无损。现在它坐在我卧室的架子上，我再也不会把它弄丢了。"}]},
+    {"label": "Persona cinco", "segs": [{"v": "女4", "es": "Cuando salí de Cuba para venir a vivir a España, solo podía traer una maleta. Dejé ropa y libros, pero el álbum de fotos de mi familia vino conmigo. Ahí están mis abuelos de jóvenes, mis primos en la playa, mi madre el día de su boda. No lo miro muy a menudo, porque me pongo triste, pero saber que está aquí me tranquiliza.", "zh": "我离开古巴来西班牙生活时，只能带一个行李箱。衣服和书我都留下了，但我家的相册跟着我来了。里面有我爷爷奶奶年轻时的样子、我的表兄弟姐妹在海边、我妈妈结婚那天。我不常翻它，因为会难过，但知道它在这儿，我心里就踏实。"}]},
+    {"label": "Persona seis", "segs": [{"v": "男2", "es": "En mi billetera llevo siempre una boleta de concierto, ya muy gastada. Fue en Medellín, hace doce años. Mi amigo no pudo ir y yo fui solo. En la fila conocí a una muchacha que también estaba sola, nos pusimos a conversar y terminamos viendo el concierto juntos. Hoy es mi esposa, y la boleta sigue en mi billetera.", "zh": "我的钱包里一直放着一张音乐会门票，已经很旧了。那是十二年前在麦德林。我朋友去不了，我就一个人去了。排队时我认识了一个也是一个人来的姑娘，我们聊了起来，最后一起看了音乐会。现在她是我妻子，那张票还在我钱包里。"}]},
+    {"label": "Persona siete", "segs": [{"v": "女1", "es": "Cuando me casé, mi suegra nos regaló una lámpara de cerámica que ella compró en un mercado de segunda mano. Era enorme, de color naranja, y me pareció horrible. La tuve guardada en un armario varios años. Un día la saqué para una fiesta y todos los invitados la admiraron. Ahora está en la sala y, la verdad, ya no me imagino la casa sin ella.", "zh": "我结婚的时候，婆婆送了我们一盏陶瓷台灯，是她在二手市场买的。它特别大，橙色的，我觉得难看极了。我把它在柜子里放了好几年。有一天开派对时我把它拿了出来，客人们都很欣赏。现在它摆在客厅里，说实话，我已经想象不出家里没有它会是什么样了。"}]},
+    {"label": "Persona ocho", "segs": [{"v": "男2", "es": "Tengo un ajedrez de madera que era de mi padre. Él me enseñó a jugar en el patio de nuestra casa de Montevideo, cuando yo tenía ocho años. Hace poco, un anticuario me ofreció bastante plata por él, pero no lo vendo. Mi nieta Sofía ya juega mejor que yo, y cuando cumpla quince años se lo voy a regalar.", "zh": "我有一副木头国际象棋，是我父亲的。我八岁时，他在我们蒙得维的亚家的院子里教我下棋。前不久，一个古董商出了不少钱想买，但我不卖。我孙女索菲亚现在下得比我还好，等她满十五岁，我就把它送给她。"}]}
+   ],
+   "preguntas": [
+    {"n": 11, "persona": 1, "clave": "B", "explicacion": "Hace tres años se paró. Un relojero me dijo que podía arreglarlo fácilmente, pero no quise（三年前停了，钟表匠说能修，可我不愿意）。表是爷爷送的，她没说要送给别人（不是 K）。"},
+    {"n": 12, "persona": 2, "clave": "A", "explicacion": "Con mi primer sueldo me compré una guitarra（用第一份工资买了吉他）。No era cara（不贵），不是 G；搬到马德里时 no pude traerla（没能带来），不是 H；现在只有探亲时才弹，不是 D。"},
+    {"n": 13, "persona": 3, "clave": "D", "explicacion": "cocino con él casi todos los días（几乎每天都照着它做饭）。菜谱是妈妈手写的，不是她自己做的（不是 C）。"},
+    {"n": 14, "persona": 4, "clave": "F", "explicacion": "六岁时 perdí mi oso de peluche（弄丢了毛绒熊），Veinte años después… Adentro estaba mi oso（二十年后在一个搬家时没打开过的箱子里找到了）。"},
+    {"n": 15, "persona": 5, "clave": "H", "explicacion": "Cuando salí de Cuba para venir a vivir a España… el álbum de fotos de mi familia vino conmigo（离开古巴来西班牙生活时，相册跟着她来了）。No lo miro muy a menudo（不常翻），不是 D。"},
+    {"n": 16, "persona": 6, "clave": "E", "explicacion": "在音乐会排队时认识了一个姑娘，Hoy es mi esposa（现在她是我妻子），门票一直在钱包里，让他想起和妻子的相识。"},
+    {"n": 17, "persona": 7, "clave": "I", "explicacion": "me pareció horrible. La tuve guardada en un armario varios años（我觉得难看极了，在柜子里放了好几年）。在二手市场买灯的是婆婆，不是她本人（不是 J）。"},
+    {"n": 18, "persona": 8, "clave": "K", "explicacion": "Mi nieta Sofía… cuando cumpla quince años se lo voy a regalar（等孙女满十五岁就送给她）。古董商出了不少钱，是别人想买，棋本来是父亲的，他没花钱（不是 G）。"}
+   ]
+  },
+  {
+   "n": 4, "nivel": "B2", "tipo": "seleccion", "lectura_s": 45, "entre_s": 10,
+   "instruccion": "Usted va a escuchar una entrevista a Martín Flores, maestro de una escuela rural de los Andes peruanos. La escuchará dos veces. Elija la opción correcta (A, B o C) para cada pregunta (19-26).",
+   "audio": [{"label": null, "segs": [
+    {"v": "女2", "who": "Entrevistadora", "es": "Buenas tardes. Hoy conversamos con Martín Flores, maestro de una escuela rural de los Andes del sur del Perú, a casi cuatro mil metros de altura. Martín, gracias por acompañarnos.", "zh": "下午好。今天我们和马丁·弗洛雷斯聊一聊，他是秘鲁南部安第斯山区一所乡村小学的老师，学校在将近四千米的高处。马丁，谢谢您来到节目。"},
+    {"v": "男2", "who": "Martín", "es": "Gracias a ustedes. Es un gusto contar cómo se vive allá arriba.", "zh": "谢谢你们。很高兴能讲讲山上的生活。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "Para empezar, ¿cómo llegó usted a esa escuela?", "zh": "先说说，您是怎么到那所学校去的？"},
+    {"v": "男2", "who": "Martín", "es": "Un poco por casualidad. Yo nací y estudié en Lima. Hace doce años, recién salido de la universidad, me ofrecieron reemplazar durante un año a un maestro enfermo. Pensé que sería una buena experiencia y que después volvería a la ciudad. Pero me enamoré del lugar y de los chicos, y ahí sigo.", "zh": "有点偶然。我在利马出生、在利马上学。十二年前我刚从大学毕业，有人请我去代一位生病老师的课，代一年。我想这会是一段不错的经历，之后再回城里。可是我爱上了那个地方和那些孩子，一直待到现在。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "¿Y cómo es la escuela donde trabaja?", "zh": "您工作的学校是什么样的？"},
+    {"v": "男2", "who": "Martín", "es": "Es muy pequeña. Tengo veintitrés alumnos de seis a doce años y soy el único maestro, así que todos estudian juntos en la misma aula. Al principio me parecía imposible, pero he descubierto que tiene ventajas: los mayores ayudan a los pequeños a leer, y explicando ellos también aprenden.", "zh": "很小。我有二十三个学生，六岁到十二岁，我是唯一的老师，所以大家都在同一间教室里上课。开始我觉得这根本不可能，后来发现也有好处：大孩子帮小孩子读书，他们在讲解的时候自己也在学。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "Muchos de sus alumnos viven lejos de la escuela, ¿verdad?", "zh": "您的很多学生住得离学校很远，对吧？"},
+    {"v": "男2", "who": "Martín", "es": "Sí, algunos caminan más de una hora para llegar. En la época de lluvias, de diciembre a marzo, el río crece mucho y el camino se vuelve peligroso. Por eso, varios niños no pueden venir. La escuela no cierra, pero les preparo tareas para que trabajen en casa. En la cosecha el problema es otro: las familias necesitan a los chicos para trabajar en el campo.", "zh": "是的，有的孩子要走一个多小时才能到。雨季从十二月到三月，河水涨得很高，路变得很危险，所以有几个孩子来不了。学校不停课，我给他们准备作业在家里做。到了收获季节，问题就不一样了：家里需要孩子去地里干活。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "Usted venía de Lima. ¿Qué fue lo más difícil al principio?", "zh": "您是从利马来的。刚开始最难的是什么？"},
+    {"v": "男2", "who": "Martín", "es": "Todos piensan que fue el frío o la soledad. Pero lo más difícil fue otra cosa: casi todos los niños hablaban quechua en casa, y yo no entendía lo que me decían. Así que me puse a aprender, y las mamás y los abuelos fueron mis profesores. Hoy enseño en las dos lenguas, aunque los chicos todavía se ríen de mi pronunciación.", "zh": "大家都以为是寒冷或者孤独。但最难的是另一件事：几乎所有孩子在家都说克丘亚语，他们跟我说什么我都听不懂。于是我开始学，孩子们的妈妈和爷爷奶奶就是我的老师。现在我用两种语言上课，不过孩子们还是会笑我的发音。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "¿Y cómo enseña, por ejemplo, las matemáticas?", "zh": "那您怎么教，比如说，数学？"},
+    {"v": "男2", "who": "Martín", "es": "Con lo que tenemos alrededor. El libro del ministerio está bien, pero sus ejemplos hablan de trenes y de supermercados que mis alumnos nunca han visto. Así que contamos las ovejas de la comunidad, calculamos cuántas papas caben en un saco o medimos el terreno de la escuela. Cuando un problema habla de su propia vida, los chicos lo entienden mucho más rápido.", "zh": "用身边现有的东西。教育部的课本不错，可书里的例子讲的是火车、超市，我的学生从来没见过。所以我们数村里的羊，算一个麻袋能装多少土豆，或者量学校的地。题目讲的是他们自己的生活时，孩子们理解得快得多。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "Hace poco llegó internet a la escuela. ¿Qué ha cambiado?", "zh": "前不久学校通了网。有什么变化？"},
+    {"v": "男2", "who": "Martín", "es": "Llegó hace dos años, con una antena que pagó la municipalidad. Funciona solo unas horas al día y es lenta, pero para los chicos ha sido como abrir una ventana. Una niña vio el mar por primera vez en un video y se quedó callada un buen rato. Eso sí, la pantalla no reemplaza al maestro. Sin alguien que los guíe, los niños solo miran dibujos animados.", "zh": "两年前通的，市政府出钱装了一个天线。每天只有几个小时能用，而且很慢，但对孩子们来说就像打开了一扇窗：有个小女孩在视频里第一次看到大海，好半天说不出话来。不过，屏幕代替不了老师。没有人引导，孩子们只会看动画片。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "¿Participan las familias en la vida de la escuela?", "zh": "家长们参与学校的事情吗？"},
+    {"v": "男2", "who": "Martín", "es": "Sí, participan muchísimo. En la comunidad se mantiene una costumbre antigua, el trabajo comunal: cuando hay que hacer algo para todos, cada familia pone de su parte. Así construyeron el comedor de la escuela el año pasado, en tres fines de semana, y nadie cobró nada.", "zh": "参与，参与得非常多。村里保留着一个古老的习俗——集体劳动：有为大家做的事，每家都出一份力。去年学校的食堂就是这样建起来的，用了三个周末，谁也没要一分钱。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "Para terminar, ¿cómo ve el futuro de la escuela?", "zh": "最后，您怎么看学校的未来？"},
+    {"v": "男2", "who": "Martín", "es": "Con algo de preocupación. Dinero no nos falta tanto como la gente cree; lo que me quita el sueño es otra cosa. Cuando llegué tenía cuarenta alumnos y hoy tengo veintitrés, porque muchas familias jóvenes se van a la ciudad a buscar trabajo. Me han ofrecido varias veces volver a Lima, pero no pienso irme. Mi miedo es que un día cierren la escuela porque ya no queden niños.", "zh": "有些担心。我们并不像大家以为的那样缺钱；让我睡不着觉的是另一件事。我刚来时有四十个学生，现在只有二十三个，因为很多年轻的家庭去城里找工作了。好几次有人请我回利马，但我不会走。我怕的是有一天学校因为没有孩子而关门。"},
+    {"v": "女2", "who": "Entrevistadora", "es": "Martín Flores, muchas gracias y mucha suerte.", "zh": "马丁·弗洛雷斯，非常感谢，祝您好运。"}
+   ]}],
+   "preguntas": [
+    {"n": 19, "enunciado": "Martín llegó a la escuela…", "opciones": ["después de trabajar muchos años en Lima.", "para hacer un reemplazo de un año.", "porque había nacido en un pueblo cercano."], "clave": "B", "explicacion": "me ofrecieron reemplazar durante un año a un maestro enfermo（有人请他代一位生病老师的课，代一年）。他是 recién salido de la universidad（刚大学毕业），不是在利马工作多年之后；他 nací y estudié en Lima（在利马出生）。"},
+    {"n": 20, "enunciado": "Según Martín, tener alumnos de distintas edades en la misma aula…", "opciones": ["le sigue pareciendo imposible.", "hace que los mayores aprendan menos.", "permite que aprendan unos de otros."], "clave": "C", "explicacion": "los mayores ayudan a los pequeños a leer, y explicando ellos también aprenden（大孩子帮小孩子读书，讲解时自己也在学），即孩子们互相学习。“不可能”只是 al principio（开始时）的想法，后来 he descubierto que tiene ventajas（发现有好处）；大孩子讲解时自己也在学，并没有学得更少。"},
+    {"n": 21, "enunciado": "En la época de lluvias, algunos niños no van a clase porque…", "opciones": ["el camino es peligroso cuando crece el río.", "tienen que ayudar a sus familias en el campo.", "la escuela cierra durante toda la temporada."], "clave": "A", "explicacion": "el río crece mucho y el camino se vuelve peligroso（河水上涨，路变得危险）。家里需要孩子去地里干活是收获季节（En la cosecha el problema es otro）的问题，不是雨季；La escuela no cierra（学校不停课）。"},
+    {"n": 22, "enunciado": "Según Martín, lo más difícil al principio fue…", "opciones": ["acostumbrarse al frío de la montaña.", "no entender lo que decían sus alumnos.", "sentirse solo, lejos de su familia."], "clave": "B", "explicacion": "Todos piensan que fue el frío o la soledad. Pero lo más difícil fue otra cosa… yo no entendía lo que me decían（大家以为是寒冷或孤独，但最难的是听不懂孩子们说的话）。"},
+    {"n": 23, "enunciado": "Para enseñar matemáticas, Martín…", "opciones": ["usa situaciones de la vida diaria de la comunidad.", "sigue siempre los ejemplos del libro del ministerio.", "pone sobre todo ejemplos de la vida en la ciudad."], "clave": "A", "explicacion": "contamos las ovejas de la comunidad, calculamos cuántas papas caben en un saco（数村里的羊，算麻袋能装多少土豆）。课本里火车、超市这类城市生活的例子，学生从没见过，所以他不照搬课本。"},
+    {"n": 24, "enunciado": "Según Martín, internet en la escuela…", "opciones": ["funciona bien durante todo el día.", "puede reemplazar al maestro en algunas clases.", "ha mostrado a los niños lugares que no conocían."], "clave": "C", "explicacion": "una niña vio el mar por primera vez en un video（一个女孩在视频里第一次看到大海），就像 abrir una ventana（打开一扇窗）。网络 Funciona solo unas horas al día（每天只能用几个小时）；la pantalla no reemplaza al maestro（屏幕代替不了老师）。"},
+    {"n": 25, "enunciado": "Las familias de los alumnos…", "opciones": ["pagaron a unos obreros para hacer el comedor.", "construyeron el comedor con su propio trabajo.", "casi nunca participan en la vida de la escuela."], "clave": "B", "explicacion": "cada familia pone de su parte. Así construyeron el comedor de la escuela… y nadie cobró nada（每家都出一份力，食堂就是这样建起来的，谁也没要钱）。没有雇工人，所以不是 A；他开头就说 Sí, participan muchísimo（参与得非常多），所以不是 C。"},
+    {"n": 26, "enunciado": "Lo que más preocupa a Martín es que…", "opciones": ["lo obliguen a volver a Lima.", "la escuela no tenga dinero suficiente.", "la escuela se quede sin alumnos."], "clave": "C", "explicacion": "Mi miedo es que un día cierren la escuela porque ya no queden niños（我怕有一天学校因为没有孩子而关门）。回利马是别人提议的，而且他说 no pienso irme（我不打算走），没有人逼他；Dinero no nos falta tanto como la gente cree（并不像大家以为的那样缺钱）。"}
+   ]
+  },
+  {
+   "n": 5, "nivel": "C1", "tipo": "seleccion", "lectura_s": 45, "entre_s": 10, "entre_fragmentos_s": 5,
+   "instruccion": "Usted va a escuchar seis fragmentos de una conferencia sobre la historia del café en Colombia. Escuchará la conferencia dos veces. Elija la opción correcta (A, B o C) para cada fragmento (27-32).",
+   "audio": [
+    {"label": "Fragmento uno", "segs": [{"v": "女1", "es": "Buenos días. Cuando pensamos en Colombia, el café aparece casi de inmediato, como si siempre hubiera estado allí. Sin embargo, el cafeto es originario de África y llegó a América a través de Europa. A lo que hoy es Colombia lo trajeron, probablemente, misioneros jesuitas hace casi trescientos años. Durante décadas fue poco más que una curiosidad: se cultivaba en pequeñas cantidades, en los huertos de algunos conventos y haciendas. Nadie imaginaba entonces que acabaría siendo el símbolo de todo un país.", "zh": "早上好。一想到哥伦比亚，我们几乎马上就会想到咖啡，好像它一直就在那里。然而，咖啡树原产非洲，是经由欧洲传到美洲的。把它带到今天的哥伦比亚的，很可能是将近三百年前的耶稣会传教士。几十年里，它不过是一种稀罕物：只在一些修道院和庄园的园子里少量种植。那时谁也想不到，它最终会成为一个国家的象征。"}]},
+    {"label": "Fragmento dos", "segs": [{"v": "女1", "es": "Cuenta una leyenda que, hace unos doscientos años, un párroco del nordeste del país encontró una manera muy original de extender el cultivo. Cuando sus fieles se confesaban, en lugar de pedirles oraciones como penitencia, les mandaba plantar cafetos. Sea verdad o no, la historia dice mucho. El café no se extendió solo por razones económicas, sino también gracias a la iniciativa de personas concretas. Poco después, de esa misma región salieron las primeras exportaciones.", "zh": "传说大约两百年前，该国东北部的一位教区神父想出了一个很特别的办法来推广种植。信徒来告解时，他不让他们念经赎罪，而是让他们种咖啡树。不管是真是假，这个故事说明了很多：咖啡的推广不只是出于经济原因，也靠一些具体的人的主动作为。不久之后，第一批出口的咖啡就是从这个地区运出去的。"}]},
+    {"label": "Fragmento tres", "segs": [{"v": "女1", "es": "Pero el gran salto llegó unas décadas más tarde. Miles de familias campesinas fueron ocupando entonces las laderas de las montañas del centro del país. En otros países productores, el café se cultivaba en enormes haciendas con cientos de trabajadores. En Colombia, en cambio, lo producían sobre todo pequeñas fincas familiares. Cada familia cuidaba sus propias plantas y recogía los granos a mano, uno a uno, cuando estaban maduros. Ese modelo marcó para siempre la cultura cafetera del país.", "zh": "但真正的飞跃发生在几十年之后。那时，成千上万的农民家庭陆续在中部山区的山坡上安家。在其他产咖啡的国家，咖啡种在有几百个工人的大庄园里；而在哥伦比亚，咖啡主要由家庭小农场生产。每家照料自己的咖啡树，等咖啡果熟了，一颗一颗用手采摘。这种模式永远地塑造了这个国家的咖啡文化。"}]},
+    {"label": "Fragmento cuatro", "segs": [{"v": "女1", "es": "Hacia mil novecientos veinte, el café ya era el primer producto de exportación del país, y su dinero ayudó a construir ferrocarriles, carreteras y puertos. En mil novecientos veintisiete, los productores crearon una federación para defender sus intereses. Con los años, esa federación apostó por algo entonces poco habitual: vender el café colombiano con nombre propio, como un producto de origen y de calidad. No quería que fuera una mercancía anónima, mezclada con granos de cualquier lugar.", "zh": "到一九二〇年前后，咖啡已经是这个国家的第一大出口产品，卖咖啡的钱帮助修建了铁路、公路和港口。一九二七年，生产者成立了一个联合会来维护自己的利益。后来，这个联合会押注于一件在当时并不常见的事：给哥伦比亚咖啡冠上自己的名字，作为有产地、有品质的产品来卖，而不是当作和各地咖啡豆混在一起的无名商品。"}]},
+    {"label": "Fragmento cinco", "segs": [{"v": "女1", "es": "Desde los años sesenta, un acuerdo internacional fijaba cuotas de exportación y mantenía los precios relativamente estables. Cuando ese acuerdo se rompió, en mil novecientos ochenta y nueve, los precios se desplomaron. Para muchas familias, de un año para otro, vender la cosecha dejó de cubrir lo que costaba producirla. Algunas resistieron; otras arrancaron sus cafetos para sembrar otros cultivos, y muchos jóvenes se marcharon a las ciudades. Aquella crisis demostró lo frágil que es depender de un solo producto.", "zh": "从六十年代起，一项国际协定规定出口配额，让价格保持相对稳定。一九八九年这项协定破裂，价格暴跌。对很多家庭来说，一年之间，卖收成的钱就不够抵生产成本了。有的家庭撑了下来；有的拔掉咖啡树改种别的作物，许多年轻人去了城市。那场危机说明，只依靠一种产品是多么脆弱。"}]},
+    {"label": "Fragmento seis", "segs": [{"v": "女1", "es": "Hoy el panorama es distinto. Una nueva generación, en muchos casos hijos de quienes se marcharon, ha vuelto a las fincas para producir cafés especiales. Esos cafés se venden a muy buen precio en el extranjero. Y ha ocurrido algo curioso: durante décadas, el mejor café se exportaba y en las casas se tomaba el de peor calidad. Ahora abren cafeterías en todo el país, y cada vez más colombianos descubren su propio café. Quizá ese sea el cambio más profundo: que el café, por fin, se quede también en casa.", "zh": "今天的情况不同了。新的一代——很多是当年离开的人的子女——回到农场生产精品咖啡，在国外卖得很好。还有一件有意思的事：几十年里，最好的咖啡都出口了，家里喝的是品质最差的。现在全国各地都在开咖啡馆，越来越多的哥伦比亚人开始认识自己的咖啡。也许这才是最深刻的变化：咖啡终于也留在了家里。"}]}
+   ],
+   "preguntas": [
+    {"n": 27, "fragmento": 1, "enunciado": "Según la conferenciante, en Colombia el café…", "opciones": ["tardó décadas en cultivarse a gran escala.", "fue desde el principio un símbolo nacional.", "llegó directamente desde África."], "clave": "A", "explicacion": "Durante décadas fue poco más que una curiosidad: se cultivaba en pequeñas cantidades（几十年里只是稀罕物，少量种植）。Nadie imaginaba entonces que acabaría siendo el símbolo（当时谁也想不到它会成为象征）；咖啡 llegó a América a través de Europa（经由欧洲传到美洲）。"},
+    {"n": 28, "fragmento": 2, "enunciado": "La conferenciante cuenta la leyenda del párroco para mostrar que…", "opciones": ["la Iglesia de aquella época se oponía al cultivo del café.", "esta historia está muy bien documentada.", "la iniciativa individual ayudó a extender el cultivo."], "clave": "C", "explicacion": "El café no se extendió solo por razones económicas, sino también gracias a la iniciativa de personas concretas（咖啡的推广不只出于经济原因，也靠具体的人的主动作为）。神父是在推广而不是反对种咖啡，所以不是 A；Sea verdad o no（不管是真是假）说明这个故事并无确凿记载，所以不是 B。"},
+    {"n": 29, "fragmento": 3, "enunciado": "A diferencia de otros países productores, en Colombia el café…", "opciones": ["se cultivaba en grandes haciendas con muchos trabajadores.", "estaba sobre todo en manos de pequeños productores.", "se recogía casi siempre con máquinas."], "clave": "B", "explicacion": "En Colombia, en cambio, lo producían sobre todo pequeñas fincas familiares（而在哥伦比亚，咖啡主要由家庭小农场生产）。有几百个工人的大庄园（enormes haciendas con cientos de trabajadores）是其他国家的模式，所以不是 A；咖啡果是 a mano, uno a uno（一颗一颗用手）采摘的，所以不是 C。"},
+    {"n": 30, "fragmento": 4, "enunciado": "Según la conferenciante, la estrategia de la federación de productores fue…", "opciones": ["novedosa, porque destacaba el origen del café.", "la misma que seguían entonces los demás países productores.", "vender más café aunque bajara la calidad."], "clave": "A", "explicacion": "apostó por algo entonces poco habitual: vender el café colombiano con nombre propio, como un producto de origen y de calidad（押注于当时不常见的做法：作为有产地、有品质的产品来卖）。poco habitual 说明不是大家都这么做；强调的是品质，不是牺牲品质。"},
+    {"n": 31, "fragmento": 5, "enunciado": "Tras la ruptura del acuerdo internacional…", "opciones": ["subieron los precios del café.", "el café dejó de ser rentable para muchas familias.", "los países fijaron cuotas de exportación más estrictas."], "clave": "B", "explicacion": "Para muchas familias, de un año para otro, vender la cosecha dejó de cubrir lo que costaba producirla（对很多家庭来说，卖收成的钱不够抵生产成本），即种咖啡不再赚钱。价格是 se desplomaron（暴跌），所以不是 A；规定出口配额的正是那项破裂了的协定，协定破裂后配额就没有了，所以不是 C。"},
+    {"n": 32, "fragmento": 6, "enunciado": "Para la conferenciante, el cambio más profundo de los últimos años es que…", "opciones": ["los jóvenes han perdido el interés por el cultivo del café.", "los colombianos valoran cada vez más su propio café.", "Colombia ya no vende su café en el extranjero."], "clave": "B", "explicacion": "cada vez más colombianos descubren su propio café. Quizá ese sea el cambio más profundo: que el café, por fin, se quede también en casa（越来越多的哥伦比亚人认识自己的咖啡，这也许是最深刻的变化）。新一代 ha vuelto a las fincas（回到了农场），所以不是 A；精品咖啡 se venden a muy buen precio en el extranjero（在国外卖得很好），所以不是 C。"}
+   ]
+  },
+  {
+   "n": 6, "nivel": "C1", "tipo": "seleccion_multiple", "lectura_s": 50, "entre_s": 10,
+   "instruccion": "Usted va a escuchar una conferencia sobre la moda rápida y un proyecto de reciclaje de ropa. La escuchará dos veces. Elija las seis opciones (A-L) que corresponden a lo que se dice en la conferencia (33-38).",
+   "audio": [{"label": null, "segs": [
+    {"v": "女3", "es": "Buenas tardes y gracias por venir. Os propongo empezar con un pequeño ejercicio: pensad en la última prenda que os comprasteis y en cuántas veces os la habéis puesto.", "zh": "下午好，谢谢大家来。我建议先做个小练习：想想你们最近买的一件衣服，到现在穿过几次。"},
+    {"v": "女3", "es": "Si la respuesta es pocas, no sois los únicos. En las dos últimas décadas, la cantidad de ropa que se fabrica en el mundo prácticamente se ha duplicado. Al mismo tiempo, el número de veces que usamos cada prenda no ha dejado de bajar. Es lo que llamamos moda rápida: colecciones nuevas cada pocas semanas, precios muy bajos y prendas pensadas para durar poco.", "zh": "如果答案是“没几次”，那么你们并不是唯一的。过去二十年里，全世界生产的服装几乎翻了一番，而每件衣服被穿的次数却一直在减少。这就是我们所说的快时尚：每隔几周就出新款，价格很低，衣服本来就不是为了穿很久而做的。"},
+    {"v": "女3", "es": "Una camiseta que cuesta lo mismo que un café parece una ganga. Pero ese precio no incluye el agua que se gastó en cultivar el algodón ni los tintes que acaban en los ríos. Tampoco incluye el transporte desde el otro lado del mundo. Ese coste existe; simplemente, lo pagamos de otra manera.", "zh": "一件和一杯咖啡一样价钱的 T 恤看起来很划算。但这个价格不包括种棉花用掉的水、流进河里的染料，也不包括从地球另一端运过来的运费。这些成本是存在的，只不过我们用别的方式付了。"},
+    {"v": "女3", "es": "¿Y qué pasa con la ropa que ya no queremos? Mucha gente cree que, si la deja en un contenedor, se convertirá en ropa nueva. Por desgracia, menos del uno por ciento del tejido usado acaba transformado en prendas nuevas. Una parte se vende en mercados de segunda mano de otros continentes, y otra termina en vertederos. En pleno desierto, en el norte de Chile, hay vertederos ilegales con montañas de ropa que llegan de Europa, de Estados Unidos y de Asia.", "zh": "那我们不要的衣服怎么样了？很多人以为，把衣服放进回收箱，它就会变成新衣服。可惜，旧纺织品里只有不到百分之一最后做成了新衣服。一部分在其他大洲的二手市场上出售，另一部分进了垃圾场。在智利北部的沙漠中央，有一些非法垃圾场，堆着一座座来自欧洲、美国和亚洲的衣服山。"},
+    {"v": "女3", "es": "Hace cinco años, un grupo de vecinas de nuestro barrio decidió hacer algo y creó un proyecto que se llama «Segunda Puntada». Pusieron contenedores en colegios, mercados y centros de salud, y abrieron un taller donde se clasifica todo lo que se recoge. Ese trabajo lo hacen mujeres que llevaban mucho tiempo en paro y que, gracias al proyecto, han conseguido un contrato.", "zh": "五年前，我们街区的一群女邻居决定做点什么，创办了一个叫“第二针”的项目。她们在学校、市场和卫生中心放了回收箱，开了一个作坊，把收来的东西全部分拣。分拣工作由长期失业的妇女来做，她们通过这个项目签上了劳动合同。"},
+    {"v": "女3", "es": "Cada prenda tiene uno de tres destinos. La que está en buen estado se lava y se vende a precios muy bajos en la tienda del barrio. La que tiene algún defecto se arregla en el taller de costura. Y la que ya no se puede usar ni arreglar se tritura y se convierte en relleno para cojines o en paneles que aíslan del ruido.", "zh": "每件衣服有三种去处。状况好的洗干净后，在街区的小店里低价出售。有点毛病的在缝纫工坊里修好。既不能穿也修不好的，就粉碎后做成靠垫的填充物，或者做成隔音板。"},
+    {"v": "女3", "es": "Ese taller de costura, además, abre dos tardes por semana para cualquier vecino. No hace falta saber coser: las propias trabajadoras enseñan a cambiar una cremallera o a arreglar un pantalón. Muchas de las personas que vienen nos cuentan que ahora compran bastante menos ropa.", "zh": "此外，这个缝纫工坊每周有两个下午向所有居民开放。不会缝纫也没关系：工人们会亲自教大家换拉链、改裤子。很多来参加的人告诉我们，他们现在买衣服少多了。"},
+    {"v": "女3", "es": "En cuanto al dinero, el proyecto se mantiene con lo que se vende en la tienda y con una pequeña ayuda del ayuntamiento. Varias marcas de ropa nos han ofrecido dinero, pero hemos dicho que no: no queremos que nadie use el proyecto para limpiar su imagen.", "zh": "至于资金，项目靠小店的销售收入和市政府的一小笔补助维持。好几家服装品牌提出给我们钱，但我们拒绝了：我们不想让任何人利用这个项目来洗白自己的形象。"},
+    {"v": "女3", "es": "Y termino con una advertencia. Reciclar está bien, pero no es la solución. La prenda más sostenible es la que ya tenéis en el armario. Antes de comprar algo, os recomiendo que penséis si de verdad lo necesitáis y cuántas veces os lo vais a poner. Muchas gracias.", "zh": "最后我想提醒一句。回收是好事，但它不是解决办法。最环保的衣服，是你们衣柜里已经有的那件。买东西之前，我建议大家想一想是不是真的需要，会穿几次。谢谢大家。"}
+   ]}],
+   "enunciados": [
+    "En los últimos veinte años, la producción mundial de ropa ha aumentado mucho.",
+    "Hoy en día usamos cada prenda más veces que antes.",
+    "La mayor parte de la ropa que se deja en los contenedores se convierte en ropa nueva.",
+    "Una parte de la ropa usada de Europa termina en vertederos de otros continentes.",
+    "El proyecto ha dado empleo a mujeres que llevaban tiempo sin trabajo.",
+    "Toda la ropa que recoge el proyecto se vende en su tienda.",
+    "La ropa que no se puede aprovechar se convierte en material para otros productos.",
+    "El taller de costura está reservado a personas que ya saben coser.",
+    "Algunas marcas de ropa financian una parte del proyecto.",
+    "Según la conferenciante, reciclar la ropa resuelve el problema de la moda rápida.",
+    "El precio de la ropa barata no refleja todo lo que cuesta producirla.",
+    "Muchas personas que van al taller de costura dicen que han reducido sus compras de ropa."
+   ],
+   "enunciados_zh": ["过去二十年，全世界的服装产量大大增加了。", "如今我们每件衣服穿的次数比以前多。", "放进回收箱的衣服大部分会变成新衣服。", "欧洲的一部分旧衣服最后进了其他大洲的垃圾场。", "这个项目让长期找不到工作的妇女有了工作。", "项目收来的衣服全部在它的小店里出售。", "无法再利用的衣服被做成其他产品的材料。", "缝纫工坊只对已经会缝纫的人开放。", "一些服装品牌承担项目的部分经费。", "讲座人认为，回收衣服就能解决快时尚的问题。", "便宜衣服的价格没有反映生产它的全部成本。", "很多去缝纫工坊的人说，他们买衣服少了。"],
+   "claves": ["A", "D", "E", "G", "K", "L"],
+   "explicaciones": {
+    "A": "正确。En las dos últimas décadas, la cantidad de ropa que se fabrica en el mundo prácticamente se ha duplicado（过去二十年全世界生产的服装几乎翻了一番）。",
+    "B": "错误。el número de veces que usamos cada prenda no ha dejado de bajar（每件衣服被穿的次数一直在减少）。",
+    "C": "错误。menos del uno por ciento del tejido usado acaba transformado en prendas nuevas（不到百分之一做成了新衣服）。",
+    "D": "正确。En pleno desierto, en el norte de Chile, hay vertederos ilegales con montañas de ropa que llegan de Europa（智利北部沙漠里有非法垃圾场，堆着来自欧洲等地的衣服山）。智利在南美洲，对欧洲来说是另一个大洲。",
+    "E": "正确。Ese trabajo lo hacen mujeres que llevaban mucho tiempo en paro y que… han conseguido un contrato（分拣由长期失业的妇女来做，她们签上了合同）。",
+    "F": "错误。每件衣服有三种去处（uno de tres destinos）：好的出售，有毛病的修补，不能用的粉碎再利用。",
+    "G": "正确。la que ya no se puede usar ni arreglar se tritura y se convierte en relleno para cojines o en paneles（不能穿也修不好的粉碎后做成填充物或隔音板）。",
+    "H": "错误。Ese taller de costura, además, abre dos tardes por semana para cualquier vecino. No hace falta saber coser（缝纫工坊每周两个下午对所有居民开放，不会缝纫也没关系）。",
+    "I": "错误。Varias marcas de ropa nos han ofrecido dinero, pero hemos dicho que no（好几家服装品牌提出给钱，但被拒绝了）；经费来自小店和市政府。",
+    "J": "错误。Reciclar está bien, pero no es la solución（回收是好事，但不是解决办法）；她认为最好的是少买。",
+    "K": "正确。ese precio no incluye el agua… ni los tintes… Tampoco incluye el transporte… Ese coste existe; simplemente, lo pagamos de otra manera（价格不包括水、染料和运输，这些成本我们用别的方式付了）。",
+    "L": "正确。Muchas de las personas que vienen nos cuentan que ahora compran bastante menos ropa（很多来参加的人说现在买衣服少多了）。"
+   }
+  }
+ ]
+}

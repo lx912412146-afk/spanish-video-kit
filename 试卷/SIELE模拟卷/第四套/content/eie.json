@@ -1,0 +1,56 @@
+{
+ "prueba": "Expresión e interacción escritas",
+ "zh": "书面表达与互动",
+ "duracion": "50 minutos",
+ "intro": "Esta prueba tiene dos tareas. Dispone de 50 minutos para realizarlas en el orden que prefiera. Escriba sus textos en la Hoja de respuestas.",
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1-B1", "palabras": [100, 150],
+   "instruccion": "Usted ha recibido este correo electrónico de su amiga Julia. Escríbale un correo de respuesta (entre 100 y 150 palabras) en el que:",
+   "puntos": [
+    "la salude y le diga si le interesa la idea;",
+    "le explique qué tipo de cocina le gusta más y por qué;",
+    "le diga si le va bien el horario del curso y, si no, le proponga otro;",
+    "le cuente algo que le pasó alguna vez cocinando;",
+    "se despida."
+   ],
+   "estimulo": {"genero": "correo electrónico", "de": "Julia", "asunto": "¿Nos apuntamos a un curso de cocina?",
+    "cuerpo": ["¡Hola!", "He visto que en el centro cultural de mi barrio empieza en octubre un curso de cocina, los sábados por la mañana. ¡Siempre decimos que queremos aprender a cocinar mejor! ¿Te apuntas conmigo? ¿Qué tipo de cocina te gusta más?", "Un beso,", "Julia"],
+    "zh": "主题：我们一起报个烹饪班吧？你好！我看到我们街区的文化中心十月要开一个烹饪班，每星期六上午上课。我们总说想把菜做得更好！你跟我一起报名吗？你最喜欢哪种菜？亲亲，胡莉娅"},
+   "modelo": {
+    "nota": "示例答案。考生应按自己的真实情况写。",
+    "texto": ["¡Hola, Julia!", "¡Qué buena idea! Me encanta. Tienes razón: siempre decimos que queremos cocinar mejor y nunca hacemos nada.", "La cocina que más me gusta es la mexicana, porque tiene sabores muy variados y platos llenos de color. También me gusta la italiana, porque es sencilla y siempre queda bien.", "El problema es el horario. Los sábados por la mañana trabajo en una tienda hasta las dos. ¿Hay también un grupo por la tarde o entre semana? Los martes y los jueves por la tarde estoy libre.", "¿Sabes qué me pasó el mes pasado? Quise preparar una paella para mis padres, pero le puse demasiada agua y salió una sopa. ¡Al final pedimos una pizza! Así que necesito ese curso.", "Pregunta por los otros horarios y me cuentas.", "Un abrazo,", "Ana"],
+    "comentario": "五个要点都写到了，顺序和题目一致：问候并表示感兴趣 → 最喜欢的菜系和理由（最喜欢墨西哥菜，因为口味丰富、颜色好看；也喜欢意大利菜，因为简单、做出来总不会差）→ 说明星期六上午要上班，问有没有下午或平时的班，并给出自己有空的时间 → 讲一次做饭的经历（海鲜饭水放多了变成汤）→ 告别。用了 ¿Sabes qué me pasó…?、Quise preparar…, pero… 等过去时叙述，以及 Así que 引出结论，篇幅在 100–150 词之间。"}
+  },
+  {
+   "n": 2, "nivel": "B2-C1", "palabras": [250, 300],
+   "instruccion": "Elija una de las dos opciones.",
+   "opciones": [
+    {"n": 1, "titulo": "Opción 1 · Artículo de opinión",
+     "instruccion": "Usted ha leído esta noticia en el periódico digital Noticias de Montesauce. Escriba un artículo de opinión (entre 250 y 300 palabras) para la sección «Tribuna de los lectores» en el que:",
+     "puntos": ["presente el tema;", "explique qué ventajas e inconvenientes tiene, en su opinión, esta medida;", "diga si le gustaría que otras empresas hicieran lo mismo y por qué;", "escriba una conclusión."],
+     "estimulo": {"cabecera": "NOTICIAS DE MONTESAUCE · Economía", "titular": "Una empresa de la ciudad prueba la semana laboral de cuatro días",
+      "cuerpo": "Desde el próximo lunes, los ochenta empleados de una empresa de diseño gráfico de Montesauce trabajarán solo de lunes a jueves, con el mismo sueldo. La prueba durará seis meses. La dirección espera que mejoren la productividad y la salud del equipo; algunos clientes, en cambio, temen quedarse sin atención los viernes.",
+      "zh": "《蒙特绍塞新闻》（虚构的报纸）经济版：本市一家公司试行每周四天工作制。从下星期一起，蒙特绍塞（虚构的城市）一家平面设计公司的八十名员工只在星期一到星期四上班，工资不变。试行期六个月。公司管理层希望借此提高工作效率、改善员工的健康；一些客户则担心星期五找不到人。"},
+     "modelo": {
+      "texto": ["Cuatro días de trabajo: un experimento que merece la pena", "Una empresa de diseño gráfico de nuestra ciudad ha anunciado que, durante seis meses, sus ochenta empleados trabajarán de lunes a jueves sin que se les reduzca el sueldo. La noticia ha despertado tanto entusiasmo como desconfianza, y no es para menos: lo que está en juego es nuestra manera de entender el trabajo.", "A mi juicio, las ventajas son evidentes. Un fin de semana de tres días permite descansar de verdad, pasar más tiempo con la familia y resolver esas gestiones que hoy ocupan nuestras tardes. Un trabajador descansado comete menos errores y se pone enfermo con menos frecuencia, de modo que la empresa no pierde productividad, sino que probablemente la gana. Además, quien sabe que tiene el viernes libre tiende a organizar mejor su semana y a perder menos tiempo en reuniones inútiles.", "Ahora bien, sería ingenuo ignorar los inconvenientes. Si las mismas tareas deben hacerse en menos días, existe el riesgo de que las jornadas se alarguen y el estrés aumente. Tampoco parece razonable que los clientes se queden sin atención un día entero; la empresa tendrá que organizar turnos para que siempre haya alguien disponible.", "¿Me gustaría que otras empresas siguieran el ejemplo? Sin duda, aunque no de cualquier manera. En una oficina el modelo parece viable, pero en un hospital o en un supermercado exigiría contratar a más personal. Por eso, cada sector debería buscar su propia fórmula antes de adoptarlo.", "En definitiva, esta prueba es una oportunidad que no deberíamos desaprovechar. Si dentro de seis meses los resultados son positivos, habremos dado un paso hacia un modelo de trabajo más humano; y si no lo son, al menos sabremos por qué."],
+      "comentario": "标题表明立场。第一段介绍新闻和争议；第二段亮明观点（A mi juicio, las ventajas son evidentes），从休息、健康、效率三方面讲好处；第三段用 Ahora bien 转向坏处（工作日变长、客户星期五找不到人），并提出排班的办法；第四段回答“是否希望其他公司效仿”，区分办公室和医院、超市等行业；最后用 En definitiva 总结，并用将来完成时 habremos dado 展望结果。用了 sin que se les reduzca、existe el riesgo de que + 虚拟式、no…, sino que…、para que siempre haya 等 C1 结构，连接词多样。"}},
+    {"n": 2, "titulo": "Opción 2 · Carta a la redacción",
+     "instruccion": "Usted ha leído esta noticia en el periódico de su ciudad. Escriba una carta al director del periódico (entre 250 y 300 palabras) en la que:",
+     "puntos": ["explique qué significan las fiestas para el barrio;", "dé su opinión sobre la decisión del ayuntamiento;", "proponga alguna forma de salvar las fiestas;", "diga qué espera de las autoridades y de los vecinos."],
+     "estimulo": {"cabecera": "LA VOZ DE MONTESAUCE · Barrios", "titular": "El barrio de Los Naranjos se queda sin fiestas este año",
+      "cuerpo": "El ayuntamiento ha anunciado que este año no se celebrarán las fiestas del barrio de Los Naranjos, que tienen lugar cada septiembre desde hace más de cuarenta años. Según la concejala de Cultura, no hay presupuesto suficiente, porque el dinero se dedicará a reparar las calles del centro. La asociación de vecinos lamenta la decisión.",
+      "zh": "《蒙特绍塞之声》（虚构的报纸）街区版：橙树街区（Los Naranjos）今年没有节庆活动了。市政府宣布，今年不举办橙树街区的节庆。这个节庆四十多年来每年九月都举行。据主管文化的市议员说，预算不够，因为钱要用来修市中心的街道。居民协会对这一决定表示遗憾。"},
+     "modelo": {
+      "texto": ["Señor director:", "Le escribo como vecina del barrio de Los Naranjos, donde vivo desde que nací, a propósito de la noticia publicada el pasado lunes: el ayuntamiento ha decidido que este año no habrá fiestas en nuestro barrio por falta de presupuesto.", "Para quien no conoce el barrio, quizá se trate solo de unos días de música y puestos de comida. Para nosotros son mucho más. Durante esa semana de septiembre, vecinos que apenas se saludan el resto del año cocinan juntos, los mayores enseñan a los niños los bailes de siempre y quienes se fueron a vivir lejos vuelven para reencontrarse con su gente. Las fiestas son, en pocas palabras, lo que convierte un conjunto de calles en una comunidad.", "Entiendo que el dinero público es limitado y que arreglar las calles del centro es necesario. Sin embargo, me parece injusto que el recorte recaiga precisamente en uno de los pocos acontecimientos que unen a los vecinos, sobre todo cuando su coste es mínimo comparado con el de cualquier obra.", "Creo que hay alternativas. Los comercios del barrio podrían patrocinar algunas actividades a cambio de publicidad, y muchos vecinos estaríamos dispuestos a colaborar como voluntarios en el montaje y la limpieza. También podría organizarse una rifa o una comida popular para reunir fondos.", "Por todo ello, pido al ayuntamiento que reconsidere su decisión o, al menos, que se reúna con la asociación de vecinos para buscar juntos una solución. A mis vecinos, por su parte, les pido que no se resignen: si queremos conservar nuestras fiestas, tendremos que defenderlas entre todos.", "Atentamente,", "Rosario Méndez Prieto"],
+      "comentario": "格式完整：称呼 Señor director、自我介绍和写信缘由、正文、Atentamente 和署名。四个要点各占一段：节庆对街区的意义（邻里一起做饭、老人教孩子跳舞、离开的人回来团聚）→ 对市政府决定的看法（先用 Entiendo que… 承认对方的理由，再用 Sin embargo 表明不同意）→ 挽救节庆的办法（用条件式 podrían、estaríamos、podría organizarse 提出建议）→ 对政府和居民的期待（pido que + 虚拟式、les pido que no se resignen）。语气正式而有说服力，用了 quizá se trate、me parece injusto que + 虚拟式等结构。"}}
+   ]
+  }
+ ],
+ "criterios": [
+  {"es": "Cohesión", "zh": "衔接：段落安排、连接词、指代是否清楚连贯。"},
+  {"es": "Corrección", "zh": "准确：语法、词汇、拼写和标点是否正确。"},
+  {"es": "Alcance", "zh": "广度：词汇和语法结构是否丰富，能否准确表达复杂意思。"},
+  {"es": "Cumplimiento de la tarea", "zh": "完成任务：是否写到全部要点，文体、语域和字数是否符合要求。"}
+ ]
+}
