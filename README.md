@@ -285,6 +285,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`课件/第二册/`](课件/第二册/)：第二册（老版）第 1–18 课的分课课件，版式同上（第二册没有语音部分；第 6、12、18 课是复习课）。PPTX 和 PDF 在 Release `courseware-book2`。
   - [`课件/第二册/单词表/`](课件/第二册/单词表/)：接着第一册单词表按课整理，525 个词条（单词、词性、中文释义，第一册学过的词有了新意思的单列），各课第一次出现的动词形式和原形，142 个新动词的完整变位表（含将来时、条件式、虚拟式现在时、否定命令式），书后附第一册动词的新时态。Word、PDF（165 页）和 CSV 在 Release `book2-vocab`。
 - [`课件/第三册/`](课件/第三册/)：第三册（老版）第 1–18 课的分课课件，版式同上（第 6、12、18 课按复习课处理）。PPTX 和 PDF 在 Release `courseware-book3`。
+  - [`课件/第三册/单词表/`](课件/第三册/单词表/)：接着第一、二册单词表按课整理，671 个词条（单词、词性、中文释义，前两册学过的词有了新意思的单列），各课第一次出现的动词形式和原形，200 个新动词的完整变位表（含虚拟式过去未完成时 -ra、-se 形式），书后附前两册动词的虚拟式过去未完成时。Word、PDF（204 页）和 CSV 在 Release `book3-vocab`。
 - [`课件/第四册/`](课件/第四册/)：第四册（老版）第 1–18 课的分课课件，版式同上。PPTX 和 PDF 在 Release `courseware-book4`。
 
 ## 学习白皮书
@@ -388,6 +389,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `courseware-book2` | 第二册分课课件：`book2_L01.pptx` … `book2_L18.pptx` 和同名 PDF、`courseware-book2-SHA256SUMS.txt` |
 | `book2-vocab` | 第二册分课单词表：`book2-vocab.docx`、`book2-vocab.pdf`、`book2-vocab-words.csv`、`book2-vocab-verbs.csv`、`book2-vocab-SHA256SUMS.txt` |
 | `courseware-book3` | 第三册分课课件：`book3_L01.pptx` … `book3_L18.pptx` 和同名 PDF、`courseware-book3-SHA256SUMS.txt` |
+| `book3-vocab` | 第三册分课单词表：`book3-vocab.docx`、`book3-vocab.pdf`、`book3-vocab-words.csv`、`book3-vocab-verbs.csv`、`book3-vocab-SHA256SUMS.txt` |
 | `courseware-book4` | 第四册分课课件：`book4_L01.pptx` … `book4_L18.pptx` 和同名 PDF、`courseware-book4-SHA256SUMS.txt` |
 | `whitepaper` | 西班牙语学习白皮书：`es-whitepaper.docx`、`es-whitepaper.pdf`、`whitepaper-SHA256SUMS.txt` |
 | `dele-whitepaper` | DELE 考试白皮书（A1–C2）：`dele-whitepaper.docx`、`dele-whitepaper.pdf`、`dele-whitepaper-SHA256SUMS.txt` |
@@ -472,3 +474,4 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 2026-11-19：
     - DELE 模拟卷加上 B2（`试卷/DELE模拟卷/` 和 Release `dele-mock-a1-c1`）。
     - DELE 模拟卷加上 C1（`试卷/DELE模拟卷/` 和 Release `dele-mock-a1-c1`）。
+    - 新增 `课件/第三册/单词表/`（第三册分课单词表的数据和生成程序）和 Release `book3-vocab`。
