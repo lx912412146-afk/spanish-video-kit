@@ -9,7 +9,7 @@
 | 文件 | 内容 |
 |---|---|
 | `试卷.md` | 全卷原文：考试说明、注意事项、四部分试题、参考答案与评分标准（每题的依据或考点、写作评分档次、两篇范文）、听力原文（含录音结构）、知识点覆盖表和来源 |
-| Release [`exam-metodo12`](../../releases/tag/exam-metodo12) | 试卷 `exam-metodo12-paper.docx/.pdf`（8 页）、答题卡 `exam-metodo12-answer-sheet.docx/.pdf`（2 页）、答案与评分说明 `exam-metodo12-key.docx/.pdf`（9 页，含听力原文）；整套听力 `exam-metodo12-listening.mp3`（16 分 19 秒，按高考格式：试音、中文指令语、读题时间、每段播两遍、作答停顿，最后提示用两分钟转涂答题卡——这两分钟不在录音里）、每段只放一遍的 `exam-metodo12-texto_1.mp3` … `texto_9.mp3`（讲评用）；核对报告 `exam-metodo12-asr-check.json`、`exam-metodo12-final-check.json`；`exam-metodo12-SHA256SUMS.txt` |
+| Release [`exam-metodo12`](../../../../releases/tag/exam-metodo12) | 试卷 `exam-metodo12-paper.docx/.pdf`（8 页）、答题卡 `exam-metodo12-answer-sheet.docx/.pdf`（2 页）、答案与评分说明 `exam-metodo12-key.docx/.pdf`（9 页，含听力原文）；整套听力 `exam-metodo12-listening.mp3`（16 分 19 秒，按高考格式：试音、中文指令语、读题时间、每段播两遍、作答停顿，最后提示用两分钟转涂答题卡——这两分钟不在录音里）、每段只放一遍的 `exam-metodo12-texto_1.mp3` … `texto_9.mp3`（讲评用）；核对报告 `exam-metodo12-asr-check.json`、`exam-metodo12-final-check.json`；`exam-metodo12-SHA256SUMS.txt` |
 | `tools/check_paper.py` | 格式自检：各部分顺序、题号和选项、完形空格和选项表、语法填空提示词的位置、答案表和依据表一致、答案分布、听力原文的格式、范文词数和标注一致 |
 | `tools/make_listening.py` | 从“听力原文”生成整套听力：合成、逐句语音识别核对（西语 Parakeet-TDT 0.6B v3，中文指令语 SenseVoice）、拼接、响度和电磁音核查（`build`）；再从成品 MP3 里把每一句切出来重新识别（`final`） |
 | `tools/export_json.py`、`tools/build_exam.js` | 把 `试卷.md` 排成 A4 的试卷、答题卡、答案与评分说明（docx），再用 LibreOffice 转 PDF |

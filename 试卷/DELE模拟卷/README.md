@@ -4,7 +4,7 @@
 
 A1、A2、B1、B2、C1 五级各一整套，四项齐全：阅读（Comprensión de lectura）、听力（Comprensión auditiva）、写作（Expresión e interacción escritas）、口语（Expresión e interacción orales）。每一级的 tarea 数量、题型、题量、文本长度、作答时间和计分方法都按考试规格（[`考试规格.md`](考试规格.md)），可以直接打印做整套模考。
 
-成品在 Release [`dele-mock-a1-c1`](../../../releases/tag/dele-mock-a1-c1)。每一级：
+成品在 Release [`dele-mock-a1-c1`](../../../../releases/tag/dele-mock-a1-c1)。每一级：
 
 | 级别 | 阅读 | 听力 | 写作 | 口语 | 题册／答题卡／教师用书（页） | 录音 |
 | --- | --- | --- | --- | --- | --- | --- |

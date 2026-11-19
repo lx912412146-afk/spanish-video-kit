@@ -1,6 +1,6 @@
 # 《现代西班牙语》第一册 第一课 ¿Quién es él? 教学视频
 
-1920×1080，约 13 分钟。中文讲解（女声）＋西语示范（男女声），每个示范词句后留跟读时间。视频文件在 Release [`lesson-videos`](../../../releases/tag/lesson-videos)。
+1920×1080，约 13 分钟。中文讲解（女声）＋西语示范（男女声），每个示范词句后留跟读时间。视频文件在 Release [`lesson-videos`](../../../../releases/tag/lesson-videos)。
 
 | 部分 | 内容 |
 | --- | --- |

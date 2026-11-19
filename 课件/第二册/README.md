@@ -1,6 +1,6 @@
 # 《现代西班牙语》第二册（老版）分课课件
 
-第 1–18 课，每课一个 PowerPoint 课件（16:9），另有同内容的 PDF。PPTX 和 PDF 在 Release [`courseware-book2`](../../../releases/tag/courseware-book2)。版式和[第一册课件](../第一册/)相同。
+第 1–18 课，每课一个 PowerPoint 课件（16:9），另有同内容的 PDF。PPTX 和 PDF 在 Release [`courseware-book2`](../../../../releases/tag/courseware-book2)。版式和[第一册课件](../第一册/)相同。
 
 每课的结构：封面 → 本课目标 → 本课词汇 → 课文（仿照本课编写的原创对话或短文，附中文）→ 语法（要点、例句；变位表较大时单独一页）→ 常用表达 → 课堂练习 → 练习答案 → 本课小结 → 课后作业。大部分页附有给老师的备注（演讲者备注）。
 
