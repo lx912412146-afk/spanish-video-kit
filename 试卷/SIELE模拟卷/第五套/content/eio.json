@@ -1,0 +1,106 @@
+{
+ "prueba": "Expresión e interacción orales",
+ "zh": "口头表达与互动",
+ "duracion": "26 minutos aproximadamente (con el tiempo de preparación)",
+ "intro": "Esta prueba tiene cinco tareas. Sus respuestas se graban. Siga las instrucciones de cada tarea y del audio.",
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1-A2",
+   "instruccion": "Usted va a contestar a cuatro preguntas sobre usted. Las preguntas empiezan automáticamente en el audio. Escuchará cada pregunta dos veces. Después de la señal, tiene 15 segundos para contestar a las preguntas 1 y 2, y 30 segundos para contestar a las preguntas 3 y 4.",
+   "voz": "女2",
+   "preguntas": [
+    {"n": 1, "es": "¿Cómo es el barrio donde vive? ¿Qué hay cerca de su casa?", "zh": "您住的街区是什么样的？您家附近有什么？", "segundos": 15,
+     "modelo": "Vivo en un barrio tranquilo del norte de Shenzhen. Hay muchos árboles y, cerca de mi casa, hay un parque pequeño, un supermercado y una parada de metro."},
+    {"n": 2, "es": "¿Practica usted algún deporte? ¿Con qué frecuencia?", "zh": "您做什么运动吗？多久做一次？", "segundos": 15,
+     "modelo": "Sí, nado dos veces por semana en la piscina de mi universidad. Y los sábados, a veces, juego al baloncesto con mis amigos."},
+    {"n": 3, "es": "¿Qué hizo usted en sus últimas vacaciones?", "zh": "您上一次假期做了什么？", "segundos": 30,
+     "modelo": "En mis últimas vacaciones, en julio, fui a la provincia de Yunnan con dos amigos. Estuvimos allí diez días. Visitamos varios pueblos antiguos, caminamos por las montañas y probamos muchos platos nuevos. Lo que más me gustó fue un lago precioso. Lo único malo fue que un día llovió tanto que volvimos al hotel empapados."},
+    {"n": 4, "es": "¿Qué planes tiene para el próximo año?", "zh": "明年您有什么计划？", "segundos": 30,
+     "modelo": "El próximo año voy a terminar mis estudios en la universidad. Después quiero buscar trabajo en una empresa de comercio internacional, porque allí podré usar el español. Además, me gustaría hacer un viaje a México en verano y, si tengo tiempo, aprender a conducir."}
+   ]
+  },
+  {
+   "n": 2, "nivel": "A2",
+   "instruccion": "Usted tiene que describir una imagen. Elija una de las dos (tiene unos 30 segundos). Después tiene 2 minutos para preparar la descripción; puede tomar notas, pero no se evalúan. Luego hable entre 1 y 2 minutos. Hable de:",
+   "aspectos": [
+    "cuántas personas hay y qué relación cree que existe entre ellas;",
+    "cómo son y qué ropa llevan;",
+    "qué están haciendo y cómo cree que se sienten;",
+    "en qué lugar se encuentran y cómo es;",
+    "qué objetos hay, cómo son y dónde están."
+   ],
+   "imagenes": [
+    {"n": 1, "titulo": "Imagen 1 · En el aeropuerto", "archivo": "art/imagen1_aeropuerto.png",
+     "escena": "Sala de espera de un aeropuerto, de día. Al fondo, una gran ventana de cristal ocupa toda la pared; a través de ella se ve un avión blanco, sin letras ni logotipos, parado en la pista, y el cielo azul con algunas nubes. Encima de la ventana hay un cartel con el texto «Puerta 12», que es el único texto de la imagen. Delante de la ventana hay una fila de seis asientos grises, de cara al espectador. Hay cuatro personas. En el primer asiento de la izquierda está sentada una mujer de unos treinta y cinco años, con el pelo negro y corto, jersey rojo y pantalón vaquero, que lee un libro; a sus pies hay una maleta pequeña azul con ruedas. A la izquierda de la imagen, al lado de la fila de asientos y junto a la ventana, un niño de unos siete años, con camiseta verde, pantalón corto y gorra naranja, está de pie, de perfil, con las manos levantadas, y mira el avión con la boca abierta. En el cuarto asiento, en el centro de la imagen, está sentado un chico de unos veinticinco años, con barba corta, sudadera gris con capucha y unos auriculares grandes en la cabeza, que mira su teléfono móvil; en el suelo, a su lado, hay una mochila negra grande. En el último asiento de la derecha, una señora mayor de unos setenta años, con el pelo blanco y corto, gafas y abrigo morado, duerme con la cabeza inclinada hacia un lado; tiene un bolso marrón sobre las rodillas. Los demás asientos están vacíos. En la esquina derecha, junto a la ventana, hay una planta grande en una maceta blanca.",
+     "zh": "白天的机场候机厅。背景是占满整面墙的大玻璃窗，窗外停机坪上停着一架白色飞机（没有文字和标志），蓝天上有几朵云。窗户上方有一块牌子，写着“Puerta 12”（登机口 12），这是图中唯一的文字。窗前有一排六个灰色座椅，面朝观看者。共四个人。最左边的座位上坐着一位三十五岁左右的女士，黑色短发，红毛衣，牛仔裤，正在看书；她脚边有一个带轮子的蓝色小行李箱。画面左侧、那排座椅旁边的窗前，一个七岁左右的男孩，绿 T 恤、短裤、橙色棒球帽，侧身站着，举着双手，张着嘴看飞机。第四个座位上（画面中间）坐着一个二十五岁左右的小伙子，短胡子，灰色连帽卫衣，头上戴着大耳机，正在看手机；他旁边的地上放着一个黑色大背包。最右边的座位上，一位七十岁左右的老太太，白色短发，戴眼镜，穿紫色大衣，头歪向一边睡着了；膝盖上放着一个棕色手提包。其余座位空着。右边角落、窗户旁有一盆种在白色花盆里的大植物。"},
+    {"n": 2, "titulo": "Imagen 2 · Un huerto en el barrio", "archivo": "art/imagen2_huerto.png",
+     "escena": "Un huerto comunitario entre edificios de viviendas, una mañana soleada de principios de verano. Al fondo se ven dos edificios de ladrillo de cuatro pisos, con flores en los balcones. Delante de los edificios hay una valla baja de madera y, colgado en la valla, un cartel de madera con el texto «Huerto del barrio», que es el único texto de la imagen. En el huerto hay cuatro bancales de madera con tierra: en el primero, a la izquierda, hay tomateras atadas a palos, con tomates rojos y verdes; en el segundo, lechugas; en el tercero, zanahorias; y en el cuarto, a la derecha, flores amarillas. Hay cuatro personas. A la izquierda, junto a las tomateras, un señor de unos sesenta y cinco años, con sombrero de paja, camisa blanca de manga corta, pantalón marrón y botas, riega las plantas con una regadera verde. En el centro, una chica de unos dieciséis años, con el pelo rubio recogido en una coleta, camiseta amarilla, peto vaquero y guantes de jardín, está de rodillas junto al bancal de las lechugas y planta lechugas pequeñas; a su lado, en el suelo, hay una pala pequeña y una caja de plástico con más plantas. A la derecha, un hombre de unos cuarenta años, con gafas, camiseta azul y pantalón corto beige, empuja una carretilla llena de tierra. En primer plano, en el centro, una niña de unos cinco años, con vestido rosa y botas de agua rojas, sostiene con las dos manos una cesta con zanahorias y sonríe. Al fondo, a la derecha, junto a la valla, hay un banco de madera con una botella de agua y una mochila verde encima.",
+     "zh": "居民楼之间的社区菜园，初夏一个晴朗的上午。背景是两栋四层的砖楼，阳台上种着花。楼前有一道矮木栅栏，栅栏上挂着一块木牌，写着“Huerto del barrio”（街区菜园），这是图中唯一的文字。菜园里有四个木框菜畦：左边第一个种着绑在木杆上的番茄，结着红的和绿的番茄；第二个种生菜；第三个种胡萝卜；右边第四个种黄色的花。共四个人。左边番茄旁，一位六十五岁左右的老先生，戴草帽，穿白色短袖衬衫、棕色裤子和靴子，正用绿色洒水壶浇水。中间一个十六岁左右的女孩，金发扎成马尾，黄 T 恤，牛仔背带裤，戴园艺手套，跪在生菜畦旁种小生菜苗；她旁边地上有一把小铲子和一个装着更多菜苗的塑料箱。右边一个四十岁左右的男人，戴眼镜，蓝 T 恤，米色短裤，推着一辆装满土的手推车。前景中间，一个五岁左右的小女孩，穿粉色连衣裙和红色雨靴，双手捧着一篮胡萝卜，笑着。背景右边、栅栏旁有一张木长椅，上面放着一瓶水和一个绿色背包。"}
+   ],
+   "modelo": {"imagen": 1, "texto": "En la imagen hay cuatro personas en la sala de espera de un aeropuerto. Creo que la mujer y el niño son madre e hijo, y que el chico y la señora son otros viajeros. La mujer tiene unos treinta y cinco años y el pelo negro y corto; lleva un jersey rojo y un pantalón vaquero. El niño tiene unos siete años y lleva una camiseta verde, un pantalón corto y una gorra naranja. El chico del centro es joven, tiene barba y lleva una sudadera gris y unos auriculares grandes. La señora de la derecha es mayor, tiene el pelo blanco y lleva gafas y un abrigo morado. La mujer está leyendo un libro y el chico está mirando su móvil. La señora está durmiendo; seguramente está cansada. El niño está de pie junto a la ventana y mira el avión con la boca abierta; parece muy emocionado. Al fondo hay una ventana enorme y, a través de ella, se ve un avión blanco en la pista. Es de día y el cielo está azul, con algunas nubes. Encima de la ventana hay un cartel que dice «Puerta 12». Delante de la ventana hay una fila de asientos grises. A los pies de la mujer hay una maleta azul pequeña, y en el suelo, al lado del chico, hay una mochila negra. En la esquina hay una planta grande.", "comentario": "五个方面按顺序都谈到了：人数和关系、外貌和衣着、正在做什么和情绪、地点、物品及位置。用了 creo que、seguramente、parece 表推测，estar + 副动词描述正在进行的动作，用 al fondo、encima de、delante de、a los pies de、al lado de 说明位置。描述的都是图里有的东西，没有添加图中没有的细节。"}
+  },
+  {
+   "n": 3, "nivel": "B1",
+   "instruccion": "Esta tarea tiene dos partes. En cada parte, elija una de las dos situaciones (tiene aproximadamente 1 minuto) y deje un mensaje de voz. Tiene como máximo 1 minuto y 30 segundos para cada mensaje.",
+   "partes": [
+    {"parte": "Parte primera", "opciones": [
+     {"n": 1, "situacion": "Un amigo le prestó un libro y usted tenía que devolvérselo esta semana, pero todavía no lo ha terminado. Deje un mensaje en su contestador. En el mensaje debe:", "puntos": ["saludar y explicar por qué llama;", "explicar por qué no ha podido terminar el libro;", "proponer otra fecha para devolverlo y despedirse."], "zh": "朋友借给您一本书，您本该这周还，可是还没看完。给他电话留言：问候并说明打电话的原因；解释为什么还没能看完；提出另一个还书的日子，并道别。"},
+     {"n": 2, "situacion": "Quiere hacer un plan con una amiga para este fin de semana. Deje un mensaje en su contestador. En el mensaje debe:", "puntos": ["saludar y proponerle un plan;", "explicar dónde y a qué hora pueden verse;", "pedirle que le conteste y despedirse."], "zh": "您想和一位朋友这个周末一起出去。给她电话留言：问候并提出一个计划；说明在哪里、几点见面；请她回复，并道别。"}]},
+    {"parte": "Parte segunda", "opciones": [
+     {"n": 1, "situacion": "Tiene una mesa reservada en un restaurante para el sábado, pero necesita cambiar la reserva. Deje un mensaje en el contestador del restaurante. En el mensaje debe:", "puntos": ["decir su nombre y para cuándo es la reserva;", "explicar qué quiere cambiar y por qué;", "pedir que le confirmen el cambio y dejar su teléfono."], "zh": "您在一家餐馆订了星期六的位子，但需要改订。给餐馆电话留言：说出您的名字和订位的时间；说明想改什么、为什么改；请对方确认更改，并留下电话号码。"},
+     {"n": 2, "situacion": "La farola que hay delante de su casa no funciona. Deje un mensaje en el servicio de atención al ciudadano del ayuntamiento. En el mensaje debe:", "puntos": ["presentarse y decir dónde está la farola;", "describir el problema y decir desde cuándo ocurre;", "explicar por qué es urgente y pedir que la arreglen."], "zh": "您家门前的路灯坏了。给市政府的市民服务热线留言：自我介绍，说明路灯的位置；描述问题，说明从什么时候开始的；解释为什么紧急，并请他们修理。"}]}
+   ],
+   "modelos": [
+    {"parte": "Parte primera", "opcion": 1, "texto": "Hola, Pablo, soy Li Wei. Te llamo por la novela que me prestaste hace dos semanas. Te dije que te la devolvía este viernes, pero lo siento mucho: todavía no la he terminado. Esta semana he tenido exámenes casi todos los días y no he tenido tiempo para leer. Me quedan unas cien páginas y me está encantando, así que no quiero dejarla a medias. ¿Te parece bien si te la devuelvo el sábado de la semana que viene? Si la necesitas antes, dímelo y te la llevo mañana mismo. Muchas gracias por tu paciencia. ¡Un abrazo y hasta pronto!"},
+    {"parte": "Parte segunda", "opcion": 2, "texto": "Buenos días. Me llamo Zhang Min y vivo en la calle del Olmo, número quince. Llamo para avisar de que la farola que está delante de mi portal no funciona. Desde el lunes de la semana pasada está apagada toda la noche, y a veces se enciende un momento y se vuelve a apagar. La calle queda muy oscura y es peligroso, porque hay un colegio cerca y muchas personas mayores pasan por esta calle cuando vuelven a casa. Además, el sábado una vecina se cayó en la acera porque no veía bien. Les pido, por favor, que envíen a alguien para arreglarla lo antes posible. Mi teléfono es el seis, cero, cero, uno, dos, tres, cuatro, cinco, seis. Muchas gracias."}
+   ],
+   "modelos_comentario": "两段留言都按三个要点的顺序展开。给朋友的留言用 tú，先道歉、说明原因（exámenes casi todos los días），再提出具体的新日期，并给对方留有余地（Si la necesitas antes…）。给市政府的留言用 usted（Les pido, por favor…），先说清自己是谁、路灯在哪里，再说明问题从什么时候开始（Desde el lunes de la semana pasada），用具体的事例说明紧急（hay un colegio cerca；una vecina se cayó），最后留下联系电话。"
+  },
+  {
+   "n": 4, "nivel": "B2",
+   "instruccion": "Elija uno de los dos temas (tiene unos 30 segundos). El tema que elija será también el de la Tarea 5. Lea el texto. Después escuchará tres preguntas; cada pregunta se oye dos veces. Tiene como máximo 1 minuto para responder a cada una.",
+   "voz": "女2", "lectura_s": 35,
+   "temas": [
+    {"n": 1, "titulo": "Trabajar mientras se estudia",
+     "texto": "Cada vez más estudiantes universitarios tienen un trabajo a tiempo parcial: atienden en cafeterías, dan clases particulares, reparten pedidos o trabajan los fines de semana en tiendas. Algunos lo hacen por necesidad, para pagar el alquiler o la matrícula; otros, para ganar experiencia o tener más independencia. Muchas empresas valoran que un joven haya trabajado durante la carrera, porque demuestra responsabilidad y capacidad de organización. Sin embargo, muchos profesores advierten que trabajar demasiadas horas puede afectar a las notas y que bastantes estudiantes acaban agotados, sin tiempo para descansar ni para su vida social. Además, los empleos para estudiantes suelen estar mal pagados.",
+     "zh": "越来越多的大学生在做兼职：在咖啡馆当服务员、做家教、送外卖，或者周末在商店打工。有些人是不得已，要付房租或学费；另一些人是为了积累经验或更独立。很多公司看重年轻人上大学期间有过工作经历，因为这说明他们有责任心、会安排时间。不过，很多老师提醒说，打工时间太长会影响成绩，不少学生最后累垮了，既没时间休息，也没有社交生活。此外，给学生的工作往往报酬很低。",
+     "preguntas": [
+      {"tipo": "opinión", "es": "¿Cree usted que es buena idea trabajar mientras se estudia? ¿Por qué?", "zh": "您认为边上学边打工是个好主意吗？为什么？",
+       "modelo": "Creo que sí, siempre que el trabajo no ocupe demasiadas horas. Trabajar unas horas a la semana te obliga a organizarte mejor y te enseña cosas que no se aprenden en clase: a tratar con clientes, a cumplir un horario y a resolver problemas sin ayuda. Además, ganar tu propio dinero te da independencia y te hace valorar lo que cuesta conseguirlo. Ahora bien, el estudio tiene que ser lo primero. Si un estudiante trabaja treinta horas por semana, es casi imposible que rinda bien en la universidad. Para mí, lo ideal son unas diez o quince horas, a ser posible en algo relacionado con lo que estudias."},
+      {"tipo": "información", "es": "¿Es habitual en su país que los estudiantes trabajen? ¿Ha tenido usted algún trabajo mientras estudiaba?", "zh": "在您的国家，学生打工常见吗？您上学期间打过工吗？",
+       "modelo": "En China no es tan habitual como en otros países, porque muchas familias prefieren que sus hijos se dediquen solo a estudiar. Aun así, cada vez más universitarios trabajan a tiempo parcial: dan clases particulares, trabajan en cafeterías o hacen prácticas en empresas durante las vacaciones. Yo, por ejemplo, el año pasado trabajé los fines de semana como guía en un museo de Shenzhen, con visitantes de habla hispana. Al principio estaba muy nervioso, pero aprendí muchísimo y mejoré bastante mi español."},
+      {"tipo": "suposición", "es": "Imagine que una empresa le ofrece un trabajo bien pagado de veinte horas por semana durante el curso. ¿Lo aceptaría? ¿Por qué?", "zh": "假设一家公司在学期中给您提供一份每周二十小时、报酬不错的工作。您会接受吗？为什么？",
+       "modelo": "Creo que no lo aceptaría durante el curso. Veinte horas por semana son demasiadas: tendría que trabajar casi todas las tardes y no me quedaría tiempo para estudiar ni para descansar. El año que viene termino la carrera y quiero sacar buenas notas. Eso sí, si la empresa me permitiera trabajar menos horas, por ejemplo solo los fines de semana, o empezar en verano, lo pensaría en serio, sobre todo si el trabajo tuviera relación con el comercio internacional, que es lo que me interesa."}
+     ]},
+    {"n": 2, "titulo": "Las compras por internet y las tiendas de barrio",
+     "texto": "En los últimos años, comprar por internet se ha convertido en una costumbre para millones de personas. Desde casa se pueden comparar precios, leer opiniones y recibir casi cualquier producto en uno o dos días. Para quienes trabajan muchas horas o viven lejos de las ciudades, es una gran ventaja. Pero, mientras crecen las ventas en línea, en muchos barrios cierran pequeñas tiendas de toda la vida: librerías, ferreterías, tiendas de ropa. Sus defensores recuerdan que estos comercios dan vida a las calles, ofrecen un trato personal y crean empleo cerca de casa. Además, los envíos a domicilio aumentan el tráfico y los residuos de embalaje.",
+     "zh": "近年来，网上购物成了数百万人的习惯。在家里就能比较价格、看评价，几乎任何商品一两天就能送到。对工作时间长或住在远离城市的地方的人来说，这是很大的便利。但是，随着网上销售增长，很多街区的老店一家家关门：书店、五金店、服装店。支持这些小店的人提醒说，它们让街道有生气，提供贴心的服务，还在家门口创造就业。此外，送货上门也增加了交通量和包装垃圾。",
+     "preguntas": [
+      {"tipo": "opinión", "es": "¿Prefiere usted comprar por internet o en las tiendas de su barrio? ¿Por qué?", "zh": "您更喜欢在网上买东西，还是在街区的小店买？为什么？"},
+      {"tipo": "información", "es": "¿Qué cosas compra normalmente por internet y cuáles prefiere comprar en una tienda? Hable de sus costumbres.", "zh": "您平常在网上买哪些东西？哪些东西更愿意去商店买？谈谈您的习惯。"},
+      {"tipo": "suposición", "es": "Imagine que la última tienda pequeña de su calle va a cerrar. ¿Qué haría usted para ayudarla?", "zh": "假设您那条街上最后一家小店要关门了，您会做些什么来帮它？"}
+     ]}
+   ],
+   "modelo_comentario": "三个问题对应三种功能：表达观点（Creo que sí, siempre que + 虚拟式；Ahora bien 引出保留意见；es casi imposible que + 虚拟式）、提供信息（先介绍本国的一般情况，再讲一段自己的经历，用过去时）、作出假设（条件式 no lo aceptaría, tendría, lo pensaría；si + 虚拟式过去时 si la empresa me permitiera…）。每题约 1 分钟，先直接回答，再给理由或例子。"
+  },
+  {
+   "n": 5, "nivel": "C1",
+   "instruccion": "Usted va a dar su opinión sobre el tema que eligió en la Tarea 4. Elija una de las dos afirmaciones (tiene unos 45 segundos). Tiene 2 minutos para preparar su intervención; puede tomar notas, pero no se evalúan. Después hable entre 3 y 4 minutos. En su intervención debe:",
+   "puntos": ["presentar su posición;", "justificarla con argumentos;", "poner ejemplos;", "terminar con una conclusión que deje clara su postura."],
+   "temas": [
+    {"n": 1, "titulo": "Trabajar mientras se estudia", "afirmaciones": [
+     {"letra": "A", "es": "«Trabajar mientras se estudia enseña responsabilidad y merece la pena, aunque quite tiempo a los estudios.»", "zh": "“边上学边打工能培养责任感，值得去做，哪怕会占用学习时间。”"},
+     {"letra": "B", "es": "«Los estudiantes deben dedicarse solo a sus estudios: ya tendrán tiempo de trabajar cuando terminen.»", "zh": "“学生应当一心学习：等毕业了有的是时间工作。”"}]},
+    {"n": 2, "titulo": "Las compras por internet y las tiendas de barrio", "afirmaciones": [
+     {"letra": "A", "es": "«Las tiendas de barrio tienen futuro: ninguna página web puede sustituir el trato personal.»", "zh": "“街区小店是有前途的：任何网站都代替不了面对面的服务。”"},
+     {"letra": "B", "es": "«Comprar por internet es más práctico y más barato; las tiendas de barrio tienen que adaptarse o desaparecerán.»", "zh": "“网上购物更方便、更便宜；街区小店必须适应，否则就会消失。”"}]}
+   ],
+   "modelo": {"tema": 1, "afirmacion": "A", "texto": ["Yo estoy de acuerdo con la primera afirmación: creo que trabajar mientras se estudia merece la pena, siempre que se haga con medida.", "Mi primer argumento es que un empleo enseña cosas que no se aprenden en ninguna asignatura. En clase, si llegas tarde o no entregas un trabajo, el único perjudicado eres tú. En un empleo, en cambio, hay compañeros que dependen de ti y clientes que esperan un buen servicio, y esa responsabilidad obliga a madurar muy deprisa. Lo viví yo mismo el año pasado, cuando empecé a trabajar los fines de semana como guía en un museo de Shenzhen. El primer día llegué diez minutos tarde y un grupo entero de turistas tuvo que esperarme. Nadie me riñó, pero no he vuelto a llegar tarde nunca más, ni al museo ni a clase.", "El segundo argumento tiene que ver con la organización del tiempo y con el futuro profesional. Quien trabaja unas horas a la semana aprende a planificar: sabe que el sábado no podrá estudiar y, por eso, aprovecha mejor las tardes entre semana. Además, cuando termine la carrera, tendrá algo que contar en una entrevista de trabajo. Las empresas no buscan solo buenas notas; quieren personas que sepan trabajar en equipo, tratar con el público y resolver problemas sin ayuda, y eso se aprende trabajando. Un amigo mío que pasó dos años en una librería me contó que, en su primera entrevista, le preguntaron más por esa experiencia que por su expediente académico.", "Tampoco hay que olvidar el aspecto económico. Para muchos estudiantes, trabajar no es una elección, sino la única manera de pagar el alquiler o los libros. Ganar su propio dinero les da independencia y les ayuda a valorar el esfuerzo de sus padres. Y cuando a uno le cuesta ganar el dinero, se lo piensa dos veces antes de gastarlo.", "Ahora bien, reconozco que quienes defienden la segunda afirmación tienen parte de razón. Si un estudiante trabaja treinta o cuarenta horas por semana, sus estudios acabarán resintiéndose, y también su salud. Por eso creo que el límite razonable está en unas quince horas semanales y que, siempre que sea posible, conviene buscar un trabajo relacionado con la carrera. Las universidades también podrían ayudar, ofreciendo empleos dentro del campus con horarios flexibles en época de exámenes.", "En conclusión, pienso que trabajar durante los estudios no es una pérdida de tiempo, sino una inversión. Con un horario razonable, un empleo a tiempo parcial no aleja al estudiante de la universidad: lo prepara para la vida que empieza cuando sale de ella."],
+    "comentario": "开头明确表态（Yo estoy de acuerdo con la primera afirmación），随后给出三个论据：打工培养责任感（配一个亲身经历的例子）、学会安排时间并为求职做准备（配朋友的例子）、经济独立。接着用 Ahora bien 承认反方有道理，提出具体的限度（每周约十五小时）和建议，最后用 En conclusión 重申立场（no es… sino…）。全文四百多词，按正常语速说 3 分多钟。"}
+  }
+ ],
+ "criterios": [
+  {"es": "Uso de la lengua", "zh": "语言运用：词汇和语法的范围与准确度、发音和语调、流利程度。"},
+  {"es": "Cumplimiento de la tarea", "zh": "完成任务：是否按要求谈到全部要点，内容是否切题、连贯，时长是否合适。"}
+ ]
+}

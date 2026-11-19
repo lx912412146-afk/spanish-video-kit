@@ -1,0 +1,56 @@
+{
+ "prueba": "Expresión e interacción escritas",
+ "zh": "书面表达与互动",
+ "duracion": "50 minutos",
+ "intro": "Esta prueba tiene dos tareas. Dispone de 50 minutos para realizarlas en el orden que prefiera. Escriba sus textos en la Hoja de respuestas.",
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1-B1", "palabras": [100, 150],
+   "instruccion": "Usted ha recibido este correo electrónico de su prima Paula. Escríbale un correo de respuesta (entre 100 y 150 palabras) en el que:",
+   "puntos": [
+    "la salude y le diga qué le parece la noticia;",
+    "le explique qué tiempo hace en su país entre septiembre y febrero;",
+    "le aconseje qué cosas debe traer y cuáles es mejor comprar al llegar;",
+    "le proponga un plan para cuando llegue;",
+    "se despida."
+   ],
+   "estimulo": {"genero": "correo electrónico", "de": "Paula", "asunto": "¡Voy a estudiar en tu país!",
+    "cuerpo": ["¡Hola, prima!", "¡Tengo una gran noticia! De septiembre a febrero voy a estudiar en una universidad de tu país con una beca de intercambio. ¡Estoy muy nerviosa! ¿Qué tiempo hace allí esos meses? ¿Qué cosas tengo que llevar? Escríbeme pronto.", "Besos,", "Paula"],
+    "zh": "你好，表姐（表妹）！我有个好消息！从九月到二月，我要拿交换生奖学金去你们国家的一所大学学习。我好紧张！那几个月那边天气怎么样？我该带些什么东西？快给我回信。亲亲你，保拉"},
+   "modelo": {
+    "nota": "示例答案。以中国北京为例，考生应按自己国家和城市的真实情况写。",
+    "texto": ["¡Hola, Paula!", "¡Qué noticia tan buena! Me alegro muchísimo de que vengas a estudiar a China. ¡Por fin vamos a vernos!", "En Pekín, esos meses son muy diferentes. En septiembre y octubre hace un tiempo estupendo: sol, cielo azul y unos veinte grados. En cambio, de diciembre a febrero hace mucho frío, a veces diez grados bajo cero, y el aire es muy seco.", "Te aconsejo traer ropa ligera y algún jersey para el otoño. Para el invierno necesitas un abrigo de plumas, pero no lo traigas: aquí los hay buenos y baratos. Las sábanas y las toallas también es mejor comprarlas al llegar.", "¿Qué te parece si el primer fin de semana vamos a la Gran Muralla? En otoño está preciosa. Después podemos cenar con mis padres, que tienen muchas ganas de verte.", "Escríbeme cuando tengas el billete. ¡Te espero!", "Un abrazo,", "Ming"],
+    "comentario": "五个要点都写到了，顺序和题目一致：问候并对消息表示高兴 → 说明九月到二月的天气（秋天晴朗、冬天寒冷干燥）→ 建议带什么（薄衣服、毛衣），哪些东西到了再买（羽绒服、床单和毛巾），并说明理由 → 提议第一个周末去长城、再和自己的父母一起吃饭 → 告别。用了 me alegro de que + 虚拟式、te aconsejo + 不定式、否定命令式 no lo traigas、los hay、es mejor + 不定式、¿Qué te parece si…?、关系从句 que tienen muchas ganas de verte、cuando + 虚拟式（cuando tengas）和 En cambio 等连接词，都是 B1 结构；篇幅在 100–150 词之间。"}
+  },
+  {
+   "n": 2, "nivel": "B2-C1", "palabras": [250, 300],
+   "instruccion": "Elija una de las dos opciones.",
+   "opciones": [
+    {"n": 1, "titulo": "Opción 1 · Artículo de opinión",
+     "instruccion": "Usted ha leído esta noticia en el periódico digital Crónica de Valdeplata. Escriba un artículo de opinión (entre 250 y 300 palabras) para la sección «Tribuna de los lectores» en el que:",
+     "puntos": ["presente el tema;", "explique su postura sobre la nueva norma;", "justifique su postura con argumentos y ejemplos;", "escriba una conclusión."],
+     "estimulo": {"cabecera": "CRÓNICA DE VALDEPLATA · Ciudad", "titular": "Los patinetes eléctricos, fuera de las aceras",
+      "cuerpo": "Desde el 1 de enero, los patinetes eléctricos no podrán circular por las aceras de la ciudad y deberán usar el carril bici o la calzada. Las multas podrán llegar a los 200 euros. Las asociaciones de peatones celebran la decisión del ayuntamiento, mientras que muchos usuarios aseguran que circular entre coches y autobuses es demasiado peligroso.",
+      "zh": "《瓦尔德普拉塔纪事报》（虚构的报纸）城市版：电动滑板车被赶下人行道。从 1 月 1 日起，电动滑板车不得在本市人行道上行驶，必须走自行车道或机动车道，罚款最高 200 欧元。行人协会对市政府的决定表示欢迎，而许多滑板车使用者说，在汽车和公交车之间行驶太危险。"},
+     "modelo": {
+      "texto": ["Las aceras, para quien camina", "A partir del 1 de enero, los patinetes eléctricos no podrán circular por las aceras de Valdeplata: tendrán que hacerlo por el carril bici o por la calzada, y quien no cumpla la norma se arriesgará a multas de hasta 200 euros. La medida ha dividido a la ciudad. Los peatones la aplauden, mientras que muchos usuarios la consideran injusta e incluso peligrosa.", "A mi juicio, el ayuntamiento ha acertado. La acera es el único espacio de la ciudad pensado para quienes van a pie, y entre ellos hay personas mayores, niños y personas con movilidad reducida. Un patinete que avanza a veinte kilómetros por hora entre la gente es un riesgo evidente: basta un despiste para provocar una caída grave. Quien haya tenido que apartarse de un salto al salir de un portal sabe de qué hablo.", "No se trata, sin embargo, de demonizar a nadie. El patinete es un medio de transporte limpio, barato y práctico, y conviene que la ciudad lo siga fomentando. Pero precisamente por eso necesita un espacio propio, y ese espacio no puede ser el de los peatones.", "Ahora bien, los usuarios tienen razón en algo: obligarlos a circular entre coches y autobuses sin ninguna protección sería trasladar el peligro de un sitio a otro. La prohibición solo tendrá sentido si va acompañada de una red de carriles bici continua y segura, y de calles en las que la velocidad máxima sea de treinta kilómetros por hora.", "En definitiva, devolver las aceras a los peatones es un acierto, siempre que la medida no se quede a medias. Una ciudad que quiere que todos se muevan con seguridad no puede limitarse a prohibir: también tiene que construir."],
+      "comentario": "标题表明立场。第一段介绍新规和争议双方；第二段亮明观点（A mi juicio, el ayuntamiento ha acertado），以人行道上的老人、儿童和行动不便的人为例说明危险；第三段用 No se trata de… 避免把滑板车使用者一棍子打死，并指出滑板车需要自己的空间；第四段用 Ahora bien 承认反方的道理，提出这项禁令的配套条件（连续安全的自行车道、限速 30 公里的街道）；最后一段用 En definitiva 总结：devolver las aceras a los peatones 呼应标题，结尾一句 no puede limitarse a prohibir: también tiene que construir 呼应第四段提出的配套条件。用了 quien haya + 虚拟式、basta… para…、conviene que + 虚拟式、solo tendrá sentido si…、siempre que + 虚拟式等 C1 结构，连接词多样（mientras que、sin embargo、precisamente por eso、Ahora bien、En definitiva）。"}},
+    {"n": 2, "titulo": "Opción 2 · Carta a la redacción",
+     "instruccion": "Usted ha leído esta noticia en el periódico de su ciudad. Escriba una carta a la directora del periódico (entre 250 y 300 palabras) en la que:",
+     "puntos": ["explique el motivo de su carta y su opinión sobre el proyecto;", "valore las ventajas y los inconvenientes que tendría para la zona;", "proponga una alternativa;", "diga qué espera de las autoridades."],
+     "estimulo": {"cabecera": "EL ECO DE VALDEPLATA · Local", "titular": "Un centro comercial junto al parque natural de Los Sauces",
+      "cuerpo": "El ayuntamiento ha dado luz verde a un centro comercial con sesenta tiendas y un aparcamiento para mil coches en unos terrenos situados junto al parque natural de Los Sauces. La empresa promotora asegura que creará cuatrocientos empleos. Los grupos ecologistas advierten de que el tráfico y el ruido afectarán a las aves que viven en el parque.",
+      "zh": "《瓦尔德普拉塔回声报》（虚构的报纸）本地版：洛斯绍塞斯自然公园旁将建购物中心。市政府已批准在紧邻洛斯绍塞斯自然公园的一块地上建一座购物中心，有六十家商店和一个可停一千辆车的停车场。开发商说它将创造四百个工作岗位。环保组织警告说，车流和噪音会影响生活在公园里的鸟类。"},
+     "modelo": {
+      "texto": ["Señora directora:", "Le escribo a raíz de la noticia publicada el pasado lunes sobre el centro comercial que se construirá junto al parque natural de Los Sauces. Vivo en el barrio de El Molino, a cinco minutos del parque, y paseo por él casi a diario con mi familia, así que no puedo quedarme callado: este proyecto me parece un grave error.", "No niego que tenga ventajas. Los cuatrocientos empleos que promete la empresa serían una buena noticia en una zona con tanto paro juvenil, y es cierto que muchos vecinos tenemos que ir hasta el centro para hacer algunas compras. Sin embargo, los inconvenientes pesan mucho más. Un aparcamiento para mil coches supone tráfico constante, ruido y contaminación a pocos metros de un espacio protegido. Si las aves que anidan en las lagunas abandonan el parque, como temen los ecologistas, habremos perdido algo que ningún centro comercial podrá devolvernos.", "Existen alternativas más sensatas. En el polígono industrial del norte hay naves vacías desde hace años, bien comunicadas por carretera y por autobús, donde el centro podría instalarse sin dañar ningún espacio natural y, de paso, recuperar una zona hoy abandonada. Además, el ayuntamiento podría apoyar al pequeño comercio de nuestros barrios, que también crea empleo y da vida a las calles.", "Por todo ello, pido a nuestros concejales que paralicen el proyecto hasta que se haga un estudio de impacto ambiental independiente, y que consulten a los vecinos antes de tomar una decisión definitiva. Espero que, por una vez, el beneficio inmediato no se imponga a un patrimonio natural que pertenece también a nuestros hijos.", "Atentamente,", "Andrés Llorente Vidal"],
+      "comentario": "格式完整：称呼 Señora directora、写信缘由和自我介绍、正文、Atentamente 和署名。四个要点各占一段：写信原因和观点（este proyecto me parece un grave error）→ 权衡利弊（先用 No niego que + 虚拟式 承认就业等好处，再用 Sin embargo 转到弊端；用 Si… abandonan…, habremos perdido… 设想后果）→ 替代方案（工业区闲置多年的厂房、扶持街区小商店）→ 对政府的期待（pido que + 虚拟式、hasta que + 虚拟式、Espero que + 虚拟式）。语气正式，有理有据，让步和反驳层次清楚。"}}
+   ]
+  }
+ ],
+ "criterios": [
+  {"es": "Cohesión", "zh": "衔接：段落安排、连接词、指代是否清楚连贯。"},
+  {"es": "Corrección", "zh": "准确：语法、词汇、拼写和标点是否正确。"},
+  {"es": "Alcance", "zh": "广度：词汇和语法结构是否丰富，能否准确表达复杂意思。"},
+  {"es": "Cumplimiento de la tarea", "zh": "完成任务：是否写到全部要点，文体、语域和字数是否符合要求。"}
+ ]
+}
