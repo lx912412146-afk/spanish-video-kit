@@ -1,0 +1,56 @@
+{
+ "prueba": "Expresión e interacción escritas",
+ "zh": "书面表达与互动",
+ "duracion": "50 minutos",
+ "intro": "Esta prueba tiene dos tareas. Dispone de 50 minutos para realizarlas en el orden que prefiera. Escriba sus textos en la Hoja de respuestas.",
+ "tareas": [
+  {
+   "n": 1, "nivel": "A1-B1", "palabras": [100, 150],
+   "instruccion": "Usted ha recibido este correo electrónico de su amigo Diego. Escríbale un correo de respuesta (entre 100 y 150 palabras) en el que:",
+   "puntos": [
+    "lo salude y le agradezca la invitación;",
+    "le diga qué días puede ir y cómo piensa viajar;",
+    "le pregunte qué cosas tiene que llevar;",
+    "le cuente qué actividades de la fiesta le interesan más y por qué;",
+    "se despida."
+   ],
+   "estimulo": {"genero": "correo electrónico", "de": "Diego", "asunto": "¡Ven a la fiesta de mi pueblo!",
+    "cuerpo": ["¡Hola!", "¿Qué tal todo? Del 12 al 15 de agosto es la fiesta de mi pueblo y quiero invitarte. Hay conciertos, bailes en la plaza y comida típica. Puedes dormir en casa de mis padres. ¿Te animas? ¿Qué días puedes venir?", "Un abrazo,", "Diego"],
+    "zh": "你好！最近怎么样？8 月 12 日到 15 日是我们镇上的节日，我想请你来玩。有音乐会、广场上的舞会，还有传统美食。你可以住在我父母家。来吗？你哪几天能来？拥抱你，迭戈"},
+   "modelo": {
+    "nota": "示例答案。日期、交通和感兴趣的活动都是虚构的，考生应按自己的情况写。",
+    "texto": ["¡Hola, Diego!", "¡Muchas gracias por la invitación! Tengo muchas ganas de conocer tu pueblo y a tu familia.", "Puedo ir del 13 al 15, porque el día 12 todavía tengo que trabajar. Voy a ir en autobús: hay uno que sale a las ocho de la mañana y llega a tu pueblo antes de comer. ¿Puedes recogerme en la estación?", "Una pregunta: ¿qué tengo que llevar? ¿Hace frío por la noche? ¿Necesito ropa especial para los bailes?", "Lo que más me interesa son los conciertos, porque me encanta la música en vivo. También quiero probar la comida típica, porque me gusta mucho cocinar y siempre quiero aprender recetas nuevas.", "Saluda a tus padres de mi parte y dales las gracias. ¡Nos vemos pronto!", "Un abrazo fuerte,", "Irene"],
+    "comentario": "五个要点都写到了，顺序和题目一致：问候并感谢邀请 → 能去的日期和理由、交通方式（del 13 al 15、en autobús）→ 问要带什么（三个具体问题）→ 最感兴趣的活动和理由（两个 porque）→ 告别（Saluda a tus padres de mi parte）。用了 tengo muchas ganas de + 不定式、Lo que más me interesa son…、¿Puedes + 不定式? 等 A2–B1 结构，篇幅在 100–150 词之间。"}
+  },
+  {
+   "n": 2, "nivel": "B2-C1", "palabras": [250, 300],
+   "instruccion": "Elija una de las dos opciones.",
+   "opciones": [
+    {"n": 1, "titulo": "Opción 1 · Artículo de opinión",
+     "instruccion": "Usted ha leído esta noticia en el periódico digital El Mirador de Valdecarmín. Escriba un artículo de opinión (entre 250 y 300 palabras) para la sección «Opinan los lectores» en el que:",
+     "puntos": ["presente el tema;", "dé su opinión sobre la medida;", "justifique su opinión con argumentos;", "escriba una conclusión."],
+     "estimulo": {"cabecera": "EL MIRADOR DE VALDECARMÍN · Ciudad", "titular": "El centro histórico, sin coches desde enero",
+      "cuerpo": "La alcaldía ha aprobado que, desde el 1 de enero, solo puedan entrar en el centro histórico los vehículos de los residentes, los de emergencias y los de reparto, estos últimos hasta las once de la mañana. Los comerciantes temen perder clientes, mientras que las asociaciones de vecinos celebran una medida que, según dicen, devolverá las calles a los peatones.",
+      "zh": "《巴尔德卡明瞭望》（虚构的网络报纸）城市版：从一月起，历史城区不再让汽车进入。市政府已批准，从 1 月 1 日起，只有居民的车辆、急救车辆和送货车辆可以进入历史城区，送货车只限上午十一点以前。商户担心失去顾客，居民协会则对这项措施表示欢迎，认为它将把街道还给行人。"},
+     "modelo": {
+      "texto": ["Devolver el centro a quienes lo caminan", "Desde el 1 de enero, solo los residentes, los servicios de emergencia y los vehículos de reparto podrán entrar en el centro histórico de Valdecarmín. La decisión de la alcaldía ha dividido a la ciudad: los vecinos la celebran, mientras que muchos comerciantes temen que sus tiendas se queden vacías.", "A mi juicio, se trata de una medida valiente y, sobre todo, necesaria. Basta con pasear un sábado por el centro para comprobar que sus calles, trazadas hace siglos para carretas y caminantes, no están pensadas para soportar cientos de coches. Las aceras son tan estrechas que dos personas apenas pueden cruzarse, y el ruido y los humos perjudican tanto la salud de los vecinos como las fachadas de los edificios más antiguos.", "Además, la experiencia de otras ciudades demuestra que los temores de los comerciantes suelen ser exagerados. Quien camina se detiene ante las vitrinas, entra en una librería o se sienta en una terraza; quien conduce, en cambio, solo piensa en dónde estacionar. Lejos de vaciar el centro, la peatonalización suele llenarlo de vida.", "Ahora bien, para que la medida funcione no basta con prohibir. La alcaldía debería reforzar el transporte público, construir estacionamientos en las afueras bien conectados con el centro y garantizar el acceso de las personas mayores y con movilidad reducida, que no pueden quedar excluidas.", "En definitiva, cerrar el centro a los coches no es un ataque contra nadie, sino una oportunidad para devolver un espacio común a quienes lo recorren a pie. Ojalá dentro de unos años nos preguntemos cómo pudimos tolerar tanto tiempo lo contrario."],
+      "comentario": "标题表明立场。第一段介绍新闻和争议双方；第二段亮明观点（A mi juicio, se trata de una medida valiente y, sobre todo, necesaria），用街道狭窄、噪音和废气作第一个论据；第三段用 Además 引出第二个论据，回应商户的担心（步行的人才会逛店）；第四段用 Ahora bien 提出让措施奏效的条件（公共交通、城外停车场、老人和行动不便者的通行）；最后一段用 En definitiva 总结，以 Ojalá + 虚拟式收尾。用了 basta con… para…、tanto… como…、quien…, en cambio…、lejos de + 不定式、para que + 虚拟式等 C1 结构。"}},
+    {"n": 2, "titulo": "Opción 2 · Carta a la redacción",
+     "instruccion": "Usted ha leído esta noticia en el periódico de su ciudad. Escriba una carta al director del periódico (entre 250 y 300 palabras) en la que:",
+     "puntos": ["explique qué opina de la decisión;", "cuente qué uso hacen los vecinos de la biblioteca los fines de semana;", "proponga una solución;", "diga qué espera de las autoridades."],
+     "estimulo": {"cabecera": "DIARIO DE VALDECARMÍN · Barrios", "titular": "La biblioteca de Los Tilos dejará de abrir los fines de semana",
+      "cuerpo": "Desde el 1 de marzo, la biblioteca municipal del barrio de Los Tilos solo abrirá de lunes a viernes. La alcaldía explica que el presupuesto de cultura se ha reducido y que no puede pagar al personal de fin de semana. A cambio, ampliará el horario de los días laborables hasta las nueve de la noche.",
+      "zh": "《巴尔德卡明日报》（虚构的报纸）街区版：洛斯蒂洛斯图书馆周末将不再开放。从 3 月 1 日起，洛斯蒂洛斯街区的市立图书馆只在星期一到星期五开放。市政府解释说，文化预算减少了，付不起周末工作人员的工资。作为补偿，工作日的开放时间将延长到晚上九点。"},
+     "modelo": {
+      "texto": ["Señor director:", "Le escribo como vecina del barrio de Los Tilos y usuaria habitual de la biblioteca municipal, a propósito de la noticia publicada el pasado lunes en este diario: a partir de marzo, la biblioteca dejará de abrir los sábados y los domingos.", "Considero que la decisión es un error. Entiendo que el presupuesto municipal se haya reducido, pero recortar precisamente en el único espacio cultural gratuito del barrio me parece injusto, y ampliar el horario entre semana no compensa la pérdida.", "Cualquiera que pase por la biblioteca un sábado por la mañana lo entenderá enseguida. La sala infantil se llena de familias que durante la semana no tienen tiempo de leer con sus hijos. Los estudiantes que viven en casas pequeñas o comparten apartamento encuentran allí el silencio que necesitan para preparar sus exámenes. Y muchas personas mayores acuden a leer la prensa o al club de lectura de los domingos, que para algunas es el único rato de compañía de toda la semana.", "Existen alternativas. La alcaldía podría reorganizar los turnos del personal para mantener la biblioteca abierta al menos los sábados por la mañana, o llegar a un acuerdo con la asociación de vecinos y con la universidad para organizar un grupo de voluntarios que, bajo la supervisión de un bibliotecario, atendiera la sala de lectura los fines de semana.", "Por todo ello, pido a las autoridades municipales que reconsideren su decisión y que, antes de aplicar cualquier recorte, escuchen a quienes utilizamos la biblioteca. Un barrio sin lugares de encuentro es un barrio más pobre, y eso no se arregla alargando un horario que a muchos no nos sirve.", "Atentamente,", "Teresa Montiel Prado"],
+      "comentario": "格式完整：称呼 Señor director、自我介绍和写信缘由、正文、Atentamente 和署名。四个要点各占一段：对决定的看法（Considero que…；Entiendo que + 虚拟式, pero…）→ 周末居民怎样使用图书馆（孩子和家长、学生、老人三类人，各举一个具体场景）→ 解决办法（用条件式 podría 提出两个方案，que… atendiera 用虚拟式）→ 对政府的期待（pido que + 虚拟式）。结尾一句 Un barrio sin lugares de encuentro es un barrio más pobre 呼应主题。语气正式、有理有据。"}}
+   ]
+  }
+ ],
+ "criterios": [
+  {"es": "Cohesión", "zh": "衔接：段落安排、连接词、指代是否清楚连贯。"},
+  {"es": "Corrección", "zh": "准确：语法、词汇、拼写和标点是否正确。"},
+  {"es": "Alcance", "zh": "广度：词汇和语法结构是否丰富，能否准确表达复杂意思。"},
+  {"es": "Cumplimiento de la tarea", "zh": "完成任务：是否写到全部要点，文体、语域和字数是否符合要求。"}
+ ]
+}
