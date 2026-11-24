@@ -1,0 +1,285 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_13.mp3",
+ "duration": 59.594,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.6,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.77,
+  "buzz_hz": 4880.1,
+  "buzz_db": 5.0,
+  "comb_db": -0.6
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.61,
+   "parts": [
+    [
+     0.5,
+     2.61
+    ]
+   ],
+   "segments": [
+    "Un fin de semana en la nieve."
+   ],
+   "text": "Un fin de semana en la nieve.",
+   "read": "Un fin de semana en la nieve."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.61,
+   "end": 7.47,
+   "parts": [
+    [
+     3.61,
+     7.47
+    ]
+   ],
+   "segments": [
+    "En enero pasé un fin de semana en la nieve con mi amigo Javier."
+   ],
+   "text": "En enero pasé un fin de semana en la nieve con mi amigo Javier.",
+   "read": "En enero pasé un fin de semana en la nieve con mi amigo Javier."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.47,
+   "end": 12.23,
+   "parts": [
+    [
+     8.47,
+     12.23
+    ]
+   ],
+   "segments": [
+    "Alquilamos una cabaña de madera al pie de la montaña."
+   ],
+   "text": "Alquilamos una cabaña de madera al pie de la montaña.",
+   "read": "Alquilamos una cabaña de madera al pie de la montaña."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.23,
+   "end": 17.786,
+   "parts": [
+    [
+     13.23,
+     14.461
+    ],
+    [
+     14.741,
+     17.786
+    ]
+   ],
+   "segments": [
+    "Al llegar,",
+    "vimos el tejado de la cabaña cubierto de nieve."
+   ],
+   "text": "Al llegar, vimos el tejado de la cabaña cubierto de nieve.",
+   "read": "Al llegar, vimos el tejado de la cabaña cubierto de nieve."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.786,
+   "end": 22.616,
+   "parts": [
+    [
+     18.786,
+     22.616
+    ]
+   ],
+   "segments": [
+    "Había pinos muy altos y no se oía ningún ruido."
+   ],
+   "text": "Había pinos muy altos y no se oía ningún ruido.",
+   "read": "Había pinos muy altos y no se oía ningún ruido."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 23.616,
+   "end": 28.055,
+   "parts": [
+    [
+     23.616,
+     25.745
+    ],
+    [
+     26.025,
+     28.055
+    ]
+   ],
+   "segments": [
+    "Javier ya sabía esquiar,",
+    "pero para mí era la primera vez."
+   ],
+   "text": "Javier ya sabía esquiar, pero para mí era la primera vez.",
+   "read": "Javier ya sabía esquiar, pero para mí era la primera vez."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.055,
+   "end": 32.935,
+   "parts": [
+    [
+     29.055,
+     32.935
+    ]
+   ],
+   "segments": [
+    "El sábado por la mañana fui a mi primera clase de esquí."
+   ],
+   "text": "El sábado por la mañana fui a mi primera clase de esquí.",
+   "read": "El sábado por la mañana fui a mi primera clase de esquí."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 33.935,
+   "end": 36.169,
+   "parts": [
+    [
+     33.935,
+     36.169
+    ]
+   ],
+   "segments": [
+    "Me caí muchas veces en la nieve."
+   ],
+   "text": "Me caí muchas veces en la nieve.",
+   "read": "Me caí muchas veces en la nieve."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 37.169,
+   "end": 41.202,
+   "parts": [
+    [
+     37.169,
+     41.202
+    ]
+   ],
+   "segments": [
+    "Pero por la tarde ya podía bajar despacio sin caerme."
+   ],
+   "text": "Pero por la tarde ya podía bajar despacio sin caerme.",
+   "read": "Pero por la tarde ya podía bajar despacio sin caerme."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 42.202,
+   "end": 47.462,
+   "parts": [
+    [
+     42.202,
+     44.282
+    ],
+    [
+     44.562,
+     47.462
+    ]
+   ],
+   "segments": [
+    "Cuando volvimos a la cabaña,",
+    "dejamos los esquís junto a la puerta."
+   ],
+   "text": "Cuando volvimos a la cabaña, dejamos los esquís junto a la puerta.",
+   "read": "Cuando volvimos a la cabaña, dejamos los esquís junto a la puerta."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 48.462,
+   "end": 53.042,
+   "parts": [
+    [
+     48.462,
+     53.042
+    ]
+   ],
+   "segments": [
+    "Luego nos sentamos delante de la chimenea con un chocolate caliente."
+   ],
+   "text": "Luego nos sentamos delante de la chimenea con un chocolate caliente.",
+   "read": "Luego nos sentamos delante de la chimenea con un chocolate caliente."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 54.042,
+   "end": 58.394,
+   "parts": [
+    [
+     54.042,
+     55.964
+    ],
+    [
+     56.244,
+     58.394
+    ]
+   ],
+   "segments": [
+    "Me dolía todo el cuerpo,",
+    "pero estaba muy contento."
+   ],
+   "text": "Me dolía todo el cuerpo, pero estaba muy contento.",
+   "read": "Me dolía todo el cuerpo, pero estaba muy contento."
+  }
+ ]
+}

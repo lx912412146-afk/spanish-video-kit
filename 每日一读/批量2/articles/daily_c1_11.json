@@ -1,0 +1,129 @@
+{
+ "id": "daily_c1_11",
+ "level": "C1",
+ "no": 11,
+ "title_es": "Las lenguas que se apagan",
+ "title_zh": "渐渐消失的语言",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 11 篇。原创短文。主要语法：副动词表时间（Siendo maestro…），无人称 se 与被动 se（no se pierde、Podría objetarse、puede decirse），no solo…sino 对照，aun así 引出让步，过去虚拟式条件句（Si cada lengua fuera…, apenas importaría），关系从句（que ningún diccionario registra、que se resiste a enmudecer）。7 句，133 词。第一人称叙述者是男性（讲述父亲留下的录音机），没有用到需要变性的形容词。特别判断：按要求不写任何真实语言的名称和濒危数据，只说 la lengua del lugar；标题里的 apagarse 是比喻义“熄灭、消逝”，正文第 4 句用同一形式 se apagan，所以排在词汇最前；第 2 句 grabó con ella 的 ella 指录音机，第 3 句 sus cintas 指录音机的磁带；第 3 句 canciones de cuna, refranes y nombres de hierbas 是名词列举，cuna 后的逗号不停顿，已登记；第 7 句 un mero documento 译作“一份资料”，与 un mundo 对照。词汇不选 vocabulario、código、intercambiable 这类同源词，多选 objetar、captar、enmudecer、resistirse a 等动词和 aun así 这样的连接语。插图里的旧词典、手稿、录音机和磁带对应第 1—3 句。排版后改：第 1 句 algún manuscrito amarillento → algún manuscrito ya amarillento（原来第一行 Entre diccionarios … amarillento, 两端对齐词间空白 8.7 px，超过 8 px；改后最大 7.5 px），译文“发黄的手稿”→“已经发黄的手稿”。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "cuna,",
+    "why": "列举：canciones de cuna, refranes y nombres de hierbas（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "apagarse",
+   "消逝",
+   "se apagan"
+  ],
+  [
+   "gastado",
+   "磨旧的",
+   "gastados"
+  ],
+  [
+   "amarillento",
+   "发黄的",
+   "amarillento"
+  ],
+  [
+   "grabadora",
+   "录音机",
+   "grabadora"
+  ],
+  [
+   "canción de cuna",
+   "摇篮曲",
+   "canciones de cuna"
+  ],
+  [
+   "refrán",
+   "谚语",
+   "refranes"
+  ],
+  [
+   "registrar",
+   "收录",
+   "registra"
+  ],
+  [
+   "irrepetible",
+   "独一无二的",
+   "irrepetible"
+  ],
+  [
+   "objetar",
+   "反驳",
+   "objetarse"
+  ],
+  [
+   "aun así",
+   "尽管如此",
+   "aun así"
+  ],
+  [
+   "matiz",
+   "细微差别",
+   "matices"
+  ],
+  [
+   "captar",
+   "捕捉",
+   "captar"
+  ],
+  [
+   "apenas",
+   "几乎不",
+   "apenas"
+  ],
+  [
+   "resistirse a",
+   "不肯，抗拒",
+   "se resiste a"
+  ],
+  [
+   "enmudecer",
+   "陷入沉默",
+   "enmudecer"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Entre diccionarios gastados y algún manuscrito ya amarillento, conservo en mi estudio la vieja grabadora de mi padre.",
+    "zh": "在书房里，几本翻旧的词典和一两份已经发黄的手稿之间，我珍藏着父亲那台老录音机。"
+   },
+   {
+    "es": "Siendo maestro en un valle remoto, grabó con ella a los ancianos que aún hablaban la lengua del lugar.",
+    "zh": "当年他在一处偏远的山谷里教书，用它录下了那些仍说着当地语言的老人。"
+   },
+   {
+    "es": "En sus cintas sobreviven canciones de cuna, refranes y nombres de hierbas que ningún diccionario registra.",
+    "zh": "它的磁带里留存着摇篮曲、谚语，还有任何词典都未曾收录的草木之名。"
+   }
+  ],
+  [
+   {
+    "es": "Cuando las lenguas se apagan, no se pierde solo un vocabulario, sino una manera irrepetible de ordenar la realidad.",
+    "zh": "语言消逝之时，失去的不只是一套词汇，更是一种独一无二的梳理现实的方式。"
+   },
+   {
+    "es": "Podría objetarse que todo puede decirse en otro idioma; aun así, hay matices que ninguna traducción logra captar por completo.",
+    "zh": "也许有人会反驳说，任何话都能换一种语言说出来；即便如此，总有些细微的意味，是任何译文都无法完全捕捉的。"
+   },
+   {
+    "es": "Si cada lengua fuera un simple código intercambiable, su desaparición apenas importaría; pero cada una guarda la memoria de toda una comunidad.",
+    "zh": "倘若每种语言只是一套可以互换的简单代码，它的消失便几乎无关紧要；然而每一种语言都承载着整个群体的记忆。"
+   },
+   {
+    "es": "Por eso, cuando enciendo la grabadora, no oigo un mero documento, sino un mundo que se resiste a enmudecer.",
+    "zh": "所以，每当我打开那台录音机，我听到的并不只是一份资料，而是一个不肯就此沉寂的世界。"
+   }
+  ]
+ ]
+}

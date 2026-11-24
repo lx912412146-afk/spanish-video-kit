@@ -1,0 +1,48 @@
+✓  1 Compartir entre vecinos.
+     识别：Compartir entre vecinos.
+✓  2 El invierno pasado, mi vecina Elena colocó una estantería de madera junto a los buzones del portal.
+     识别：El invierno pasado, mi vecina Elena colocó una estantería de madera junto a los buzones del portal.
+✓  3 La idea era sencilla: dejar lo que ya no usábamos y llevarnos lo que nos hiciera falta.
+     识别：La idea era sencilla, dejar lo que ya no usábamos y llevarnos lo que nos hiciera falta.
+✓  4 Al principio solo había algún libro suelto, pero pronto se fueron sumando tarros de mermelada, una caja de herramientas y una planta.
+     识别：Al principio solo había algún libro suelto, pero pronto se fueron sumando tarros de mermelada, una caja de herramientas y una planta.
+✓  5 Lo más valioso, sin embargo, han sido las conversaciones que surgen junto a la estantería.
+     识别：Lo más valioso, sin embargo, han sido las conversaciones que surgen junto a la estantería.
+✓  6 Vecinos que antes apenas se saludaban ahora se prestan libros y se echan una mano.
+     识别：Vecinos que antes apenas se saludaban ahora, se prestan libros y se echan una mano.
+✓  7 Algunos dudaban de que la iniciativa funcionara, por miedo a que unos pocos se lo llevaran todo.
+     识别：Algunos dudaban de que la iniciativa funcionara, por miedo a que unos pocos se lo llevaran todo.
+✓  8 Pero la experiencia ha demostrado lo contrario: la confianza se contagia.
+     识别：Pero la experiencia ha demostrado lo contrario. La confianza se contagia.
+✓  9 Al compartir, consumimos menos y, sobre todo, transformamos un simple edificio en una comunidad.
+     识别：Al compartir, consumimos menos y, sobre todo, transformamos un simple edificio en una comunidad.
+✓ 高亮版   0.19 秒 应为 page_static.png：和其余 9 张逐对比，最接近混淆的是 page_hl_02.png（差值比 0.07，要求 < 0.35）；整页差 1.63
+✓ 高亮版   1.75 秒 应为 page_hl_01.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.65
+✓ 高亮版   6.69 秒 应为 page_hl_02.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.71
+✓ 高亮版  13.58 秒 应为 page_hl_03.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.15，要求 < 0.35）；整页差 1.67
+✓ 高亮版  21.46 秒 应为 page_hl_04.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.71
+✓ 高亮版  29.62 秒 应为 page_hl_05.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.68
+✓ 高亮版  36.35 秒 应为 page_hl_06.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.16，要求 < 0.35）；整页差 1.68
+✓ 高亮版  42.67 秒 应为 page_hl_07.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.15，要求 < 0.35）；整页差 1.68
+✓ 高亮版  48.67 秒 应为 page_hl_08.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.17，要求 < 0.35）；整页差 1.66
+✓ 高亮版  55.50 秒 应为 page_hl_09.png：和其余 9 张逐对比，最接近混淆的是 page_static.png（差值比 0.15，要求 < 0.35）；整页差 1.68
+✓ 高亮版  60.02 秒 应为 page_static.png：和其余 9 张逐对比，最接近混淆的是 page_hl_09.png（差值比 0.08，要求 < 0.35）；整页差 1.61
+✓ daily_b2_15.mp4：h264 1080×1512 24/1 yuv420p，aac 48000 Hz
+✓ daily_b2_15.mp4：视频 60.500 秒，音频 60.480 秒，帧数 1452
+✓ 总时长 60.5 秒（53—67）
+✓ MP4 音轨整体响度 -16.49 LUFS，峰值 -1.54 dBFS
+✓ 逐句识别：9 句，0 句有出入
+✓ 画面：高亮版 11 段，0 处不对
+✓ 每句从开口到读完都高亮这一句（9 句）
+✓ 源图 10 张＝静态页＋9 张高亮页
+✓ 页面不滚动、没有截断（scroll [720, 1008]，overflow 0）
+✓ 底部留白 94 px
+✓ 西语两端对齐最大词间空白 7.5 px（字号 [13.1, -0.05]）
+✓ 插图、西语、译文、词汇栏互不重叠
+✓ 标题栏左右留空 155 px
+✓ 插图上的标题在插图内（右端 268，插图右端 480）
+✓ 词汇栏每条都在栏内（换行的 2 条）
+✓ 词汇 15 条，正文里找不到的：无
+✓ 中文半角字符：无
+✓ 朗读文字＝标题＋正文（逐句一致）
+全部通过

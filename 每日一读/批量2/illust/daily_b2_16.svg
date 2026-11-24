@@ -1,0 +1,586 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：花田旁的两个木蜂箱，蜜蜂在薰衣草和向日葵间飞（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4e7ee"/><stop offset="0.3" stop-color="#e3eeee"/><stop offset="0.45" stop-color="#f3f1e4"/><stop offset="1" stop-color="#f6efdc"/>
+    </linearGradient>
+    <linearGradient id="hills" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d8c2"/><stop offset="1" stop-color="#b6d0b2"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9df9f"/><stop offset="1" stop-color="#b6d08b"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d79c"/><stop offset="1" stop-color="#a8c682"/>
+    </linearGradient>
+    <linearGradient id="lavRow" gradientUnits="userSpaceOnUse" x1="0" y1="112" x2="0" y2="262">
+      <stop offset="0" stop-color="#c6b9da"/><stop offset="0.35" stop-color="#ae9bcd"/><stop offset="1" stop-color="#9580bd"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3f1e6" stop-opacity="0.55"/><stop offset="1" stop-color="#f3f1e6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hiveY" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e7c67c"/><stop offset="0.5" stop-color="#f1d58f"/><stop offset="1" stop-color="#dcb96c"/>
+    </linearGradient>
+    <linearGradient id="hiveC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ecdcb8"/><stop offset="0.5" stop-color="#f5e8ca"/><stop offset="1" stop-color="#e0cfab"/>
+    </linearGradient>
+    <linearGradient id="hiveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a6cbc4"/><stop offset="0.5" stop-color="#b8d8d1"/><stop offset="1" stop-color="#98bdb6"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3eee4"/><stop offset="1" stop-color="#ddd6ca"/>
+    </linearGradient>
+    <radialGradient id="seed" cx="0.45" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#a8774c"/><stop offset="0.7" stop-color="#8c5f3e"/><stop offset="1" stop-color="#7a5236"/>
+    </radialGradient>
+    <path id="petal" d="M0,0 C2.6,-3 2.8,-9 0,-14 C-2.8,-9 -2.6,-3 0,0 Z"/>
+    <g id="sunflower">
+      <g fill="#f0bf45">
+        <use href="#petal"/><use href="#petal" transform="rotate(30)"/><use href="#petal" transform="rotate(60)"/><use href="#petal" transform="rotate(90)"/>
+        <use href="#petal" transform="rotate(120)"/><use href="#petal" transform="rotate(150)"/><use href="#petal" transform="rotate(180)"/><use href="#petal" transform="rotate(210)"/>
+        <use href="#petal" transform="rotate(240)"/><use href="#petal" transform="rotate(270)"/><use href="#petal" transform="rotate(300)"/><use href="#petal" transform="rotate(330)"/>
+      </g>
+      <g fill="#f6d46a">
+        <use href="#petal" transform="rotate(15) scale(0.85)"/><use href="#petal" transform="rotate(45) scale(0.85)"/><use href="#petal" transform="rotate(75) scale(0.85)"/><use href="#petal" transform="rotate(105) scale(0.85)"/>
+        <use href="#petal" transform="rotate(135) scale(0.85)"/><use href="#petal" transform="rotate(165) scale(0.85)"/><use href="#petal" transform="rotate(195) scale(0.85)"/><use href="#petal" transform="rotate(225) scale(0.85)"/>
+        <use href="#petal" transform="rotate(255) scale(0.85)"/><use href="#petal" transform="rotate(285) scale(0.85)"/><use href="#petal" transform="rotate(315) scale(0.85)"/><use href="#petal" transform="rotate(345) scale(0.85)"/>
+      </g>
+      <circle r="6.4" fill="url(#seed)"/>
+      <g fill="#6e4a33" opacity="0.6"><circle cx="-2" cy="-1.5" r="0.7"/><circle cx="1.5" cy="-2.4" r="0.7"/><circle cx="2.4" cy="1" r="0.7"/><circle cx="-1" cy="2.4" r="0.7"/><circle cx="0" cy="0" r="0.7"/><circle cx="-3" cy="1.2" r="0.6"/></g>
+    </g>
+    <path id="sleaf" d="M0,0 C4,-6 13,-7 18,-2 C14,4 5,5 0,0 Z"/>
+    <!-- 蜜蜂（原点 = 身体中心，面朝右） -->
+    <g id="bee">
+      <ellipse cx="-0.6" cy="-3" rx="2.4" ry="1.5" fill="#ffffff" opacity="0.75" transform="rotate(-25 -0.6 -3)"/>
+      <ellipse cx="1.4" cy="-3.2" rx="2" ry="1.3" fill="#ffffff" opacity="0.7" transform="rotate(15 1.4 -3.2)"/>
+      <ellipse rx="3.4" ry="2.3" fill="#efbf4e"/>
+      <path d="M-1.4,-2.2 C-1,-0.8 -1,0.8 -1.4,2.2 L-0.4,2.3 C0,0.8 0,-0.8 -0.4,-2.3 Z" fill="#5a4a3e"/>
+      <path d="M0.9,-2.2 C1.3,-0.8 1.3,0.8 0.9,2.2 L1.8,2 C2.1,0.8 2.1,-0.8 1.8,-2 Z" fill="#5a4a3e"/>
+      <circle cx="3.6" cy="-0.2" r="1.4" fill="#5a4a3e"/>
+      <path d="M-3.4,0 L-4.8,0.3 L-3.3,0.8 Z" fill="#5a4a3e"/>
+    </g>
+    <g id="beeL"><use href="#bee" transform="scale(-1,1)"/></g>
+    <!-- 薰衣草一小丛 -->
+    <g id="lav">
+      <path d="M0,0 C-1,-5 -3,-9 -4,-13 M0,0 C0,-5 0,-10 0.5,-15 M0,0 C1,-5 3,-9 4.5,-12" stroke="#8fae72" stroke-width="0.8" fill="none"/>
+      <g fill="#9b86c3"><ellipse cx="-4.2" cy="-15" rx="1.3" ry="3"/><ellipse cx="0.6" cy="-17.4" rx="1.3" ry="3.2"/><ellipse cx="4.8" cy="-14" rx="1.3" ry="3"/></g>
+      <g fill="#b7a5d9"><ellipse cx="-4.3" cy="-16" rx="0.7" ry="1.6"/><ellipse cx="0.5" cy="-18.4" rx="0.7" ry="1.7"/><ellipse cx="4.7" cy="-15" rx="0.7" ry="1.6"/></g>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <g filter="url(#soft2)" fill="#ffffff" opacity="0.85">
+      <ellipse cx="302" cy="40" rx="24" ry="6"/><ellipse cx="316" cy="36" rx="13" ry="6"/>
+      <ellipse cx="372" cy="70" rx="16" ry="4"/><ellipse cx="160" cy="76" rx="18" ry="4"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 远山 -->
+      <path d="M0,112 C30,100 64,94 100,98 C140,102 170,92 210,90 C250,88 280,98 320,96 C350,94 378,88 400,90 L400,120 L0,120 Z" fill="url(#hills)"/>
+      <g fill="#a9c79c">
+        <circle cx="66" cy="106" r="4"/><circle cx="72" cy="105" r="3.4"/><circle cx="240" cy="100" r="4.2"/><circle cx="247" cy="101" r="3.4"/>
+        <circle cx="372" cy="96" r="4"/>
+      </g>
+      <!-- 小农舍 -->
+      <rect x="178" y="96" width="18" height="11" fill="#f4ece0"/>
+      <path d="M175,97 L187,89 L199,97 Z" fill="#d79a7c"/>
+
+      <!-- 花田：一垄垄薰衣草向远处汇聚 -->
+      <rect x="0" y="110" width="400" height="152" fill="url(#field)"/>
+      <g fill="url(#lavRow)">
+        <path d="M190.2,117.9 L193.0,117.9 L-216,262 L-284,262 Z"/>
+        <path d="M194.2,117.9 L197.0,117.9 L-116,262 L-184,262 Z"/>
+        <path d="M198.2,117.9 L201.0,117.9 L-16,262 L-84,262 Z"/>
+        <path d="M202.2,117.9 L205.0,117.9 L84,262 L16,262 Z"/>
+        <path d="M206.2,117.9 L209.0,117.9 L184,262 L116,262 Z"/>
+        <path d="M210.2,117.9 L213.0,117.9 L284,262 L216,262 Z"/>
+        <path d="M214.2,117.9 L217.0,117.9 L384,262 L316,262 Z"/>
+        <path d="M218.2,117.9 L221.0,117.9 L484,262 L416,262 Z"/>
+        <path d="M222.2,117.9 L225.0,117.9 L584,262 L516,262 Z"/>
+        <path d="M226.2,117.9 L229.0,117.9 L684,262 L616,262 Z"/>
+        <path d="M230.2,117.9 L233.0,117.9 L784,262 L716,262 Z"/>
+      </g>
+      <g fill="#c9badf" opacity="0.55">
+        <path d="M199.4,117.9 L200.3,117.9 L-32,262 L-54,262 Z"/>
+        <path d="M203.4,117.9 L204.3,117.9 L68,262 L46,262 Z"/>
+        <path d="M207.4,117.9 L208.3,117.9 L168,262 L146,262 Z"/>
+        <path d="M211.4,117.9 L212.3,117.9 L268,262 L246,262 Z"/>
+        <path d="M215.4,117.9 L216.3,117.9 L368,262 L346,262 Z"/>
+        <path d="M219.4,117.9 L220.3,117.9 L468,262 L446,262 Z"/>
+        <path d="M223.4,117.9 L224.3,117.9 L568,262 L546,262 Z"/>
+      </g>
+      <!-- 远处花田上的一层薄雾 -->
+      <rect x="0" y="110" width="400" height="22" fill="url(#haze)"/>
+      <!-- 近处几垄薰衣草的花穗 -->
+      <g fill="#8c77b9" opacity="0.85">
+        <ellipse cx="136" cy="174.6" rx="0.6" ry="1.6"/>
+        <ellipse cx="148" cy="174.1" rx="0.6" ry="1.6"/>
+        <ellipse cx="128" cy="178.1" rx="0.6" ry="1.8"/>
+        <ellipse cx="140" cy="178.6" rx="0.6" ry="1.8"/>
+        <ellipse cx="153" cy="179.0" rx="0.6" ry="1.8"/>
+        <ellipse cx="126" cy="182.8" rx="0.7" ry="1.9"/>
+        <ellipse cx="138" cy="183.6" rx="0.7" ry="1.9"/>
+        <ellipse cx="116" cy="188.6" rx="0.7" ry="2.0"/>
+        <ellipse cx="130" cy="188.4" rx="0.7" ry="2.0"/>
+        <ellipse cx="145" cy="188.7" rx="0.7" ry="2.0"/>
+        <ellipse cx="113" cy="193.0" rx="0.8" ry="2.1"/>
+        <ellipse cx="128" cy="193.6" rx="0.8" ry="2.1"/>
+        <ellipse cx="102" cy="198.9" rx="0.8" ry="2.3"/>
+        <ellipse cx="119" cy="199.2" rx="0.8" ry="2.3"/>
+        <ellipse cx="136" cy="198.5" rx="0.8" ry="2.3"/>
+        <ellipse cx="99" cy="205.7" rx="0.9" ry="2.5"/>
+        <ellipse cx="116" cy="204.6" rx="0.9" ry="2.5"/>
+        <ellipse cx="86" cy="212.2" rx="0.9" ry="2.6"/>
+        <ellipse cx="105" cy="211.6" rx="0.9" ry="2.6"/>
+        <ellipse cx="124" cy="212.2" rx="0.9" ry="2.6"/>
+        <ellipse cx="83" cy="219.6" rx="1.0" ry="2.8"/>
+        <ellipse cx="104" cy="219.5" rx="1.0" ry="2.8"/>
+        <ellipse cx="69" cy="225.9" rx="1.1" ry="3.0"/>
+        <ellipse cx="90" cy="225.6" rx="1.1" ry="3.0"/>
+        <ellipse cx="111" cy="225.4" rx="1.1" ry="3.0"/>
+        <ellipse cx="65" cy="233.8" rx="1.1" ry="3.2"/>
+        <ellipse cx="88" cy="234.1" rx="1.1" ry="3.2"/>
+        <ellipse cx="48" cy="242.8" rx="1.2" ry="3.4"/>
+        <ellipse cx="73" cy="243.8" rx="1.2" ry="3.4"/>
+        <ellipse cx="97" cy="242.7" rx="1.2" ry="3.4"/>
+        <ellipse cx="43" cy="251.9" rx="1.3" ry="3.7"/>
+        <ellipse cx="71" cy="251.9" rx="1.3" ry="3.7"/>
+        <ellipse cx="25" cy="261.3" rx="1.4" ry="3.9"/>
+        <ellipse cx="53" cy="263.0" rx="1.4" ry="3.9"/>
+        <ellipse cx="81" cy="261.4" rx="1.4" ry="3.9"/>
+        <ellipse cx="20" cy="273.2" rx="1.5" ry="4.2"/>
+        <ellipse cx="51" cy="272.8" rx="1.5" ry="4.2"/>
+        <ellipse cx="178" cy="174.1" rx="0.6" ry="1.6"/>
+        <ellipse cx="190" cy="174.6" rx="0.6" ry="1.6"/>
+        <ellipse cx="172" cy="178.6" rx="0.6" ry="1.8"/>
+        <ellipse cx="185" cy="178.9" rx="0.6" ry="1.8"/>
+        <ellipse cx="198" cy="178.7" rx="0.6" ry="1.8"/>
+        <ellipse cx="173" cy="183.6" rx="0.7" ry="1.9"/>
+        <ellipse cx="187" cy="183.7" rx="0.7" ry="1.9"/>
+        <ellipse cx="167" cy="188.6" rx="0.7" ry="2.0"/>
+        <ellipse cx="182" cy="188.4" rx="0.7" ry="2.0"/>
+        <ellipse cx="196" cy="188.2" rx="0.7" ry="2.0"/>
+        <ellipse cx="168" cy="193.8" rx="0.8" ry="2.1"/>
+        <ellipse cx="183" cy="193.0" rx="0.8" ry="2.1"/>
+        <ellipse cx="161" cy="199.4" rx="0.8" ry="2.3"/>
+        <ellipse cx="178" cy="198.8" rx="0.8" ry="2.3"/>
+        <ellipse cx="194" cy="198.7" rx="0.8" ry="2.3"/>
+        <ellipse cx="162" cy="205.1" rx="0.9" ry="2.5"/>
+        <ellipse cx="180" cy="205.9" rx="0.9" ry="2.5"/>
+        <ellipse cx="154" cy="211.7" rx="0.9" ry="2.6"/>
+        <ellipse cx="173" cy="211.1" rx="0.9" ry="2.6"/>
+        <ellipse cx="192" cy="211.6" rx="0.9" ry="2.6"/>
+        <ellipse cx="156" cy="218.7" rx="1.0" ry="2.8"/>
+        <ellipse cx="175" cy="218.2" rx="1.0" ry="2.8"/>
+        <ellipse cx="147" cy="227.1" rx="1.1" ry="3.0"/>
+        <ellipse cx="168" cy="225.4" rx="1.1" ry="3.0"/>
+        <ellipse cx="189" cy="225.6" rx="1.1" ry="3.0"/>
+        <ellipse cx="147" cy="234.1" rx="1.1" ry="3.2"/>
+        <ellipse cx="171" cy="234.0" rx="1.1" ry="3.2"/>
+        <ellipse cx="137" cy="242.3" rx="1.2" ry="3.4"/>
+        <ellipse cx="161" cy="242.5" rx="1.2" ry="3.4"/>
+        <ellipse cx="186" cy="242.8" rx="1.2" ry="3.4"/>
+        <ellipse cx="138" cy="251.5" rx="1.3" ry="3.7"/>
+        <ellipse cx="164" cy="252.1" rx="1.3" ry="3.7"/>
+        <ellipse cx="127" cy="261.2" rx="1.4" ry="3.9"/>
+        <ellipse cx="155" cy="261.3" rx="1.4" ry="3.9"/>
+        <ellipse cx="183" cy="262.0" rx="1.4" ry="3.9"/>
+        <ellipse cx="129" cy="271.8" rx="1.5" ry="4.2"/>
+        <ellipse cx="158" cy="272.4" rx="1.5" ry="4.2"/>
+        <ellipse cx="220" cy="173.9" rx="0.6" ry="1.6"/>
+        <ellipse cx="232" cy="174.2" rx="0.6" ry="1.6"/>
+        <ellipse cx="218" cy="178.6" rx="0.6" ry="1.8"/>
+        <ellipse cx="230" cy="179.0" rx="0.6" ry="1.8"/>
+        <ellipse cx="243" cy="178.2" rx="0.6" ry="1.8"/>
+        <ellipse cx="221" cy="183.6" rx="0.7" ry="1.9"/>
+        <ellipse cx="235" cy="183.5" rx="0.7" ry="1.9"/>
+        <ellipse cx="219" cy="188.2" rx="0.7" ry="2.0"/>
+        <ellipse cx="233" cy="188.3" rx="0.7" ry="2.0"/>
+        <ellipse cx="247" cy="188.5" rx="0.7" ry="2.0"/>
+        <ellipse cx="223" cy="193.8" rx="0.8" ry="2.1"/>
+        <ellipse cx="239" cy="192.9" rx="0.8" ry="2.1"/>
+        <ellipse cx="220" cy="199.8" rx="0.8" ry="2.3"/>
+        <ellipse cx="236" cy="199.8" rx="0.8" ry="2.3"/>
+        <ellipse cx="253" cy="198.7" rx="0.8" ry="2.3"/>
+        <ellipse cx="225" cy="205.1" rx="0.9" ry="2.5"/>
+        <ellipse cx="243" cy="205.7" rx="0.9" ry="2.5"/>
+        <ellipse cx="222" cy="211.5" rx="0.9" ry="2.6"/>
+        <ellipse cx="241" cy="211.6" rx="0.9" ry="2.6"/>
+        <ellipse cx="259" cy="212.0" rx="0.9" ry="2.6"/>
+        <ellipse cx="228" cy="219.0" rx="1.0" ry="2.8"/>
+        <ellipse cx="247" cy="219.2" rx="1.0" ry="2.8"/>
+        <ellipse cx="223" cy="226.0" rx="1.1" ry="3.0"/>
+        <ellipse cx="245" cy="226.6" rx="1.1" ry="3.0"/>
+        <ellipse cx="266" cy="225.6" rx="1.1" ry="3.0"/>
+        <ellipse cx="231" cy="234.2" rx="1.1" ry="3.2"/>
+        <ellipse cx="252" cy="234.7" rx="1.1" ry="3.2"/>
+        <ellipse cx="226" cy="243.2" rx="1.2" ry="3.4"/>
+        <ellipse cx="251" cy="243.2" rx="1.2" ry="3.4"/>
+        <ellipse cx="275" cy="242.5" rx="1.2" ry="3.4"/>
+        <ellipse cx="233" cy="251.7" rx="1.3" ry="3.7"/>
+        <ellipse cx="260" cy="252.3" rx="1.3" ry="3.7"/>
+        <ellipse cx="228" cy="261.8" rx="1.4" ry="3.9"/>
+        <ellipse cx="256" cy="261.5" rx="1.4" ry="3.9"/>
+        <ellipse cx="283" cy="260.7" rx="1.4" ry="3.9"/>
+        <ellipse cx="237" cy="271.0" rx="1.5" ry="4.2"/>
+        <ellipse cx="267" cy="272.1" rx="1.5" ry="4.2"/>
+        <ellipse cx="262" cy="174.0" rx="0.6" ry="1.6"/>
+        <ellipse cx="274" cy="173.9" rx="0.6" ry="1.6"/>
+        <ellipse cx="262" cy="178.5" rx="0.6" ry="1.8"/>
+        <ellipse cx="275" cy="179.0" rx="0.6" ry="1.8"/>
+        <ellipse cx="288" cy="179.0" rx="0.6" ry="1.8"/>
+        <ellipse cx="270" cy="183.4" rx="0.7" ry="1.9"/>
+        <ellipse cx="283" cy="182.6" rx="0.7" ry="1.9"/>
+        <ellipse cx="270" cy="188.7" rx="0.7" ry="2.0"/>
+        <ellipse cx="285" cy="187.9" rx="0.7" ry="2.0"/>
+        <ellipse cx="299" cy="187.8" rx="0.7" ry="2.0"/>
+        <ellipse cx="279" cy="193.4" rx="0.8" ry="2.1"/>
+        <ellipse cx="293" cy="193.8" rx="0.8" ry="2.1"/>
+        <ellipse cx="279" cy="199.9" rx="0.8" ry="2.3"/>
+        <ellipse cx="295" cy="198.6" rx="0.8" ry="2.3"/>
+        <ellipse cx="312" cy="198.6" rx="0.8" ry="2.3"/>
+        <ellipse cx="288" cy="204.6" rx="0.9" ry="2.5"/>
+        <ellipse cx="306" cy="204.6" rx="0.9" ry="2.5"/>
+        <ellipse cx="289" cy="211.8" rx="0.9" ry="2.6"/>
+        <ellipse cx="307" cy="211.5" rx="0.9" ry="2.6"/>
+        <ellipse cx="327" cy="212.0" rx="0.9" ry="2.6"/>
+        <ellipse cx="299" cy="218.9" rx="1.0" ry="2.8"/>
+        <ellipse cx="320" cy="219.0" rx="1.0" ry="2.8"/>
+        <ellipse cx="300" cy="226.2" rx="1.1" ry="3.0"/>
+        <ellipse cx="321" cy="225.9" rx="1.1" ry="3.0"/>
+        <ellipse cx="344" cy="225.9" rx="1.1" ry="3.0"/>
+        <ellipse cx="312" cy="233.5" rx="1.1" ry="3.2"/>
+        <ellipse cx="335" cy="233.4" rx="1.1" ry="3.2"/>
+        <ellipse cx="313" cy="242.4" rx="1.2" ry="3.4"/>
+        <ellipse cx="338" cy="242.4" rx="1.2" ry="3.4"/>
+        <ellipse cx="364" cy="243.2" rx="1.2" ry="3.4"/>
+        <ellipse cx="328" cy="252.7" rx="1.3" ry="3.7"/>
+        <ellipse cx="354" cy="252.5" rx="1.3" ry="3.7"/>
+        <ellipse cx="328" cy="260.9" rx="1.4" ry="3.9"/>
+        <ellipse cx="356" cy="262.2" rx="1.4" ry="3.9"/>
+        <ellipse cx="386" cy="261.9" rx="1.4" ry="3.9"/>
+        <ellipse cx="344" cy="271.9" rx="1.5" ry="4.2"/>
+        <ellipse cx="375" cy="271.6" rx="1.5" ry="4.2"/>
+        <ellipse cx="304" cy="174.5" rx="0.6" ry="1.6"/>
+        <ellipse cx="316" cy="173.8" rx="0.6" ry="1.6"/>
+        <ellipse cx="308" cy="178.8" rx="0.6" ry="1.8"/>
+        <ellipse cx="321" cy="178.5" rx="0.6" ry="1.8"/>
+        <ellipse cx="333" cy="179.0" rx="0.6" ry="1.8"/>
+        <ellipse cx="318" cy="182.7" rx="0.7" ry="1.9"/>
+        <ellipse cx="331" cy="183.7" rx="0.7" ry="1.9"/>
+        <ellipse cx="322" cy="188.6" rx="0.7" ry="2.0"/>
+        <ellipse cx="336" cy="187.8" rx="0.7" ry="2.0"/>
+        <ellipse cx="351" cy="187.8" rx="0.7" ry="2.0"/>
+        <ellipse cx="334" cy="193.9" rx="0.8" ry="2.1"/>
+        <ellipse cx="349" cy="193.0" rx="0.8" ry="2.1"/>
+        <ellipse cx="337" cy="198.7" rx="0.8" ry="2.3"/>
+        <ellipse cx="355" cy="198.8" rx="0.8" ry="2.3"/>
+        <ellipse cx="371" cy="199.7" rx="0.8" ry="2.3"/>
+        <ellipse cx="351" cy="204.5" rx="0.9" ry="2.5"/>
+        <ellipse cx="369" cy="205.1" rx="0.9" ry="2.5"/>
+        <ellipse cx="356" cy="211.6" rx="0.9" ry="2.6"/>
+        <ellipse cx="375" cy="212.6" rx="0.9" ry="2.6"/>
+        <ellipse cx="394" cy="212.1" rx="0.9" ry="2.6"/>
+        <ellipse cx="372" cy="219.0" rx="1.0" ry="2.8"/>
+        <ellipse cx="392" cy="218.1" rx="1.0" ry="2.8"/>
+        <ellipse cx="378" cy="226.8" rx="1.1" ry="3.0"/>
+        <ellipse cx="400" cy="225.9" rx="1.1" ry="3.0"/>
+        <ellipse cx="396" cy="234.9" rx="1.1" ry="3.2"/>
+        <ellipse cx="403" cy="242.9" rx="1.2" ry="3.4"/>
+      </g>
+      <g fill="#c7b8e2" opacity="0.9">
+        <ellipse cx="130" cy="174.4" rx="0.6" ry="1.6"/>
+        <ellipse cx="142" cy="174.6" rx="0.6" ry="1.6"/>
+        <ellipse cx="154" cy="174.3" rx="0.6" ry="1.6"/>
+        <ellipse cx="134" cy="178.2" rx="0.6" ry="1.8"/>
+        <ellipse cx="146" cy="178.2" rx="0.6" ry="1.8"/>
+        <ellipse cx="119" cy="182.8" rx="0.7" ry="1.9"/>
+        <ellipse cx="132" cy="182.7" rx="0.7" ry="1.9"/>
+        <ellipse cx="145" cy="182.8" rx="0.7" ry="1.9"/>
+        <ellipse cx="123" cy="188.7" rx="0.7" ry="2.0"/>
+        <ellipse cx="137" cy="188.7" rx="0.7" ry="2.0"/>
+        <ellipse cx="106" cy="193.2" rx="0.8" ry="2.1"/>
+        <ellipse cx="121" cy="192.9" rx="0.8" ry="2.1"/>
+        <ellipse cx="136" cy="193.7" rx="0.8" ry="2.1"/>
+        <ellipse cx="111" cy="199.2" rx="0.8" ry="2.3"/>
+        <ellipse cx="127" cy="198.6" rx="0.8" ry="2.3"/>
+        <ellipse cx="91" cy="205.8" rx="0.9" ry="2.5"/>
+        <ellipse cx="108" cy="205.4" rx="0.9" ry="2.5"/>
+        <ellipse cx="125" cy="206.0" rx="0.9" ry="2.5"/>
+        <ellipse cx="97" cy="212.5" rx="0.9" ry="2.6"/>
+        <ellipse cx="115" cy="212.3" rx="0.9" ry="2.6"/>
+        <ellipse cx="74" cy="219.4" rx="1.0" ry="2.8"/>
+        <ellipse cx="93" cy="218.5" rx="1.0" ry="2.8"/>
+        <ellipse cx="113" cy="219.5" rx="1.0" ry="2.8"/>
+        <ellipse cx="79" cy="225.7" rx="1.1" ry="3.0"/>
+        <ellipse cx="101" cy="227.2" rx="1.1" ry="3.0"/>
+        <ellipse cx="54" cy="234.3" rx="1.1" ry="3.2"/>
+        <ellipse cx="77" cy="234.9" rx="1.1" ry="3.2"/>
+        <ellipse cx="99" cy="235.1" rx="1.1" ry="3.2"/>
+        <ellipse cx="61" cy="242.1" rx="1.2" ry="3.4"/>
+        <ellipse cx="86" cy="243.4" rx="1.2" ry="3.4"/>
+        <ellipse cx="30" cy="252.8" rx="1.3" ry="3.7"/>
+        <ellipse cx="58" cy="252.8" rx="1.3" ry="3.7"/>
+        <ellipse cx="83" cy="252.5" rx="1.3" ry="3.7"/>
+        <ellipse cx="39" cy="260.9" rx="1.4" ry="3.9"/>
+        <ellipse cx="68" cy="262.1" rx="1.4" ry="3.9"/>
+        <ellipse cx="4" cy="271.7" rx="1.5" ry="4.2"/>
+        <ellipse cx="35" cy="273.0" rx="1.5" ry="4.2"/>
+        <ellipse cx="65" cy="273.0" rx="1.5" ry="4.2"/>
+        <ellipse cx="172" cy="174.4" rx="0.6" ry="1.6"/>
+        <ellipse cx="184" cy="174.4" rx="0.6" ry="1.6"/>
+        <ellipse cx="196" cy="174.2" rx="0.6" ry="1.6"/>
+        <ellipse cx="179" cy="178.7" rx="0.6" ry="1.8"/>
+        <ellipse cx="192" cy="178.8" rx="0.6" ry="1.8"/>
+        <ellipse cx="167" cy="183.5" rx="0.7" ry="1.9"/>
+        <ellipse cx="181" cy="183.4" rx="0.7" ry="1.9"/>
+        <ellipse cx="194" cy="183.2" rx="0.7" ry="1.9"/>
+        <ellipse cx="175" cy="188.1" rx="0.7" ry="2.0"/>
+        <ellipse cx="189" cy="187.7" rx="0.7" ry="2.0"/>
+        <ellipse cx="161" cy="193.4" rx="0.8" ry="2.1"/>
+        <ellipse cx="176" cy="193.8" rx="0.8" ry="2.1"/>
+        <ellipse cx="191" cy="193.7" rx="0.8" ry="2.1"/>
+        <ellipse cx="170" cy="198.5" rx="0.8" ry="2.3"/>
+        <ellipse cx="185" cy="198.7" rx="0.8" ry="2.3"/>
+        <ellipse cx="153" cy="204.6" rx="0.9" ry="2.5"/>
+        <ellipse cx="171" cy="205.4" rx="0.9" ry="2.5"/>
+        <ellipse cx="188" cy="205.1" rx="0.9" ry="2.5"/>
+        <ellipse cx="163" cy="212.4" rx="0.9" ry="2.6"/>
+        <ellipse cx="183" cy="211.2" rx="0.9" ry="2.6"/>
+        <ellipse cx="145" cy="219.6" rx="1.0" ry="2.8"/>
+        <ellipse cx="166" cy="219.0" rx="1.0" ry="2.8"/>
+        <ellipse cx="186" cy="218.9" rx="1.0" ry="2.8"/>
+        <ellipse cx="157" cy="226.0" rx="1.1" ry="3.0"/>
+        <ellipse cx="178" cy="226.4" rx="1.1" ry="3.0"/>
+        <ellipse cx="136" cy="235.1" rx="1.1" ry="3.2"/>
+        <ellipse cx="159" cy="233.9" rx="1.1" ry="3.2"/>
+        <ellipse cx="183" cy="235.1" rx="1.1" ry="3.2"/>
+        <ellipse cx="150" cy="242.8" rx="1.2" ry="3.4"/>
+        <ellipse cx="175" cy="242.8" rx="1.2" ry="3.4"/>
+        <ellipse cx="125" cy="252.3" rx="1.3" ry="3.7"/>
+        <ellipse cx="152" cy="252.7" rx="1.3" ry="3.7"/>
+        <ellipse cx="178" cy="253.0" rx="1.3" ry="3.7"/>
+        <ellipse cx="140" cy="261.0" rx="1.4" ry="3.9"/>
+        <ellipse cx="169" cy="261.7" rx="1.4" ry="3.9"/>
+        <ellipse cx="114" cy="271.3" rx="1.5" ry="4.2"/>
+        <ellipse cx="143" cy="271.9" rx="1.5" ry="4.2"/>
+        <ellipse cx="173" cy="271.9" rx="1.5" ry="4.2"/>
+        <ellipse cx="215" cy="174.3" rx="0.6" ry="1.6"/>
+        <ellipse cx="226" cy="174.6" rx="0.6" ry="1.6"/>
+        <ellipse cx="237" cy="174.4" rx="0.6" ry="1.6"/>
+        <ellipse cx="224" cy="178.7" rx="0.6" ry="1.8"/>
+        <ellipse cx="236" cy="178.4" rx="0.6" ry="1.8"/>
+        <ellipse cx="215" cy="183.5" rx="0.7" ry="1.9"/>
+        <ellipse cx="229" cy="183.1" rx="0.7" ry="1.9"/>
+        <ellipse cx="242" cy="182.8" rx="0.7" ry="1.9"/>
+        <ellipse cx="226" cy="187.9" rx="0.7" ry="2.0"/>
+        <ellipse cx="241" cy="187.6" rx="0.7" ry="2.0"/>
+        <ellipse cx="216" cy="193.7" rx="0.8" ry="2.1"/>
+        <ellipse cx="232" cy="194.1" rx="0.8" ry="2.1"/>
+        <ellipse cx="247" cy="193.1" rx="0.8" ry="2.1"/>
+        <ellipse cx="229" cy="198.7" rx="0.8" ry="2.3"/>
+        <ellipse cx="244" cy="199.3" rx="0.8" ry="2.3"/>
+        <ellipse cx="217" cy="204.6" rx="0.9" ry="2.5"/>
+        <ellipse cx="234" cy="204.6" rx="0.9" ry="2.5"/>
+        <ellipse cx="252" cy="204.7" rx="0.9" ry="2.5"/>
+        <ellipse cx="231" cy="211.8" rx="0.9" ry="2.6"/>
+        <ellipse cx="249" cy="212.1" rx="0.9" ry="2.6"/>
+        <ellipse cx="218" cy="219.5" rx="1.0" ry="2.8"/>
+        <ellipse cx="237" cy="218.9" rx="1.0" ry="2.8"/>
+        <ellipse cx="258" cy="218.2" rx="1.0" ry="2.8"/>
+        <ellipse cx="234" cy="225.7" rx="1.1" ry="3.0"/>
+        <ellipse cx="255" cy="226.6" rx="1.1" ry="3.0"/>
+        <ellipse cx="219" cy="233.8" rx="1.1" ry="3.2"/>
+        <ellipse cx="241" cy="234.9" rx="1.1" ry="3.2"/>
+        <ellipse cx="264" cy="233.6" rx="1.1" ry="3.2"/>
+        <ellipse cx="237" cy="242.0" rx="1.2" ry="3.4"/>
+        <ellipse cx="263" cy="242.1" rx="1.2" ry="3.4"/>
+        <ellipse cx="219" cy="251.6" rx="1.3" ry="3.7"/>
+        <ellipse cx="246" cy="251.2" rx="1.3" ry="3.7"/>
+        <ellipse cx="273" cy="251.8" rx="1.3" ry="3.7"/>
+        <ellipse cx="242" cy="262.0" rx="1.4" ry="3.9"/>
+        <ellipse cx="269" cy="260.7" rx="1.4" ry="3.9"/>
+        <ellipse cx="222" cy="272.2" rx="1.5" ry="4.2"/>
+        <ellipse cx="251" cy="273.3" rx="1.5" ry="4.2"/>
+        <ellipse cx="282" cy="271.2" rx="1.5" ry="4.2"/>
+        <ellipse cx="256" cy="173.8" rx="0.6" ry="1.6"/>
+        <ellipse cx="268" cy="173.8" rx="0.6" ry="1.6"/>
+        <ellipse cx="280" cy="173.9" rx="0.6" ry="1.6"/>
+        <ellipse cx="269" cy="179.0" rx="0.6" ry="1.8"/>
+        <ellipse cx="282" cy="178.7" rx="0.6" ry="1.8"/>
+        <ellipse cx="263" cy="183.4" rx="0.7" ry="1.9"/>
+        <ellipse cx="277" cy="182.8" rx="0.7" ry="1.9"/>
+        <ellipse cx="290" cy="182.7" rx="0.7" ry="1.9"/>
+        <ellipse cx="277" cy="187.9" rx="0.7" ry="2.0"/>
+        <ellipse cx="292" cy="188.4" rx="0.7" ry="2.0"/>
+        <ellipse cx="271" cy="194.1" rx="0.8" ry="2.1"/>
+        <ellipse cx="287" cy="192.8" rx="0.8" ry="2.1"/>
+        <ellipse cx="301" cy="192.9" rx="0.8" ry="2.1"/>
+        <ellipse cx="287" cy="199.0" rx="0.8" ry="2.3"/>
+        <ellipse cx="304" cy="199.2" rx="0.8" ry="2.3"/>
+        <ellipse cx="279" cy="204.6" rx="0.9" ry="2.5"/>
+        <ellipse cx="297" cy="205.1" rx="0.9" ry="2.5"/>
+        <ellipse cx="314" cy="206.0" rx="0.9" ry="2.5"/>
+        <ellipse cx="298" cy="211.9" rx="0.9" ry="2.6"/>
+        <ellipse cx="317" cy="211.9" rx="0.9" ry="2.6"/>
+        <ellipse cx="290" cy="218.3" rx="1.0" ry="2.8"/>
+        <ellipse cx="310" cy="218.9" rx="1.0" ry="2.8"/>
+        <ellipse cx="330" cy="219.5" rx="1.0" ry="2.8"/>
+        <ellipse cx="312" cy="225.8" rx="1.1" ry="3.0"/>
+        <ellipse cx="332" cy="226.8" rx="1.1" ry="3.0"/>
+        <ellipse cx="301" cy="233.4" rx="1.1" ry="3.2"/>
+        <ellipse cx="324" cy="234.4" rx="1.1" ry="3.2"/>
+        <ellipse cx="348" cy="233.4" rx="1.1" ry="3.2"/>
+        <ellipse cx="326" cy="242.0" rx="1.2" ry="3.4"/>
+        <ellipse cx="351" cy="243.0" rx="1.2" ry="3.4"/>
+        <ellipse cx="315" cy="252.2" rx="1.3" ry="3.7"/>
+        <ellipse cx="341" cy="253.0" rx="1.3" ry="3.7"/>
+        <ellipse cx="367" cy="252.7" rx="1.3" ry="3.7"/>
+        <ellipse cx="342" cy="261.0" rx="1.4" ry="3.9"/>
+        <ellipse cx="371" cy="260.7" rx="1.4" ry="3.9"/>
+        <ellipse cx="329" cy="271.1" rx="1.5" ry="4.2"/>
+        <ellipse cx="361" cy="273.4" rx="1.5" ry="4.2"/>
+        <ellipse cx="390" cy="271.9" rx="1.5" ry="4.2"/>
+        <ellipse cx="298" cy="173.7" rx="0.6" ry="1.6"/>
+        <ellipse cx="310" cy="173.8" rx="0.6" ry="1.6"/>
+        <ellipse cx="322" cy="174.1" rx="0.6" ry="1.6"/>
+        <ellipse cx="314" cy="178.3" rx="0.6" ry="1.8"/>
+        <ellipse cx="326" cy="178.4" rx="0.6" ry="1.8"/>
+        <ellipse cx="311" cy="183.7" rx="0.7" ry="1.9"/>
+        <ellipse cx="325" cy="183.1" rx="0.7" ry="1.9"/>
+        <ellipse cx="338" cy="183.3" rx="0.7" ry="1.9"/>
+        <ellipse cx="329" cy="187.8" rx="0.7" ry="2.0"/>
+        <ellipse cx="343" cy="188.0" rx="0.7" ry="2.0"/>
+        <ellipse cx="326" cy="193.1" rx="0.8" ry="2.1"/>
+        <ellipse cx="342" cy="193.6" rx="0.8" ry="2.1"/>
+        <ellipse cx="357" cy="193.5" rx="0.8" ry="2.1"/>
+        <ellipse cx="346" cy="199.5" rx="0.8" ry="2.3"/>
+        <ellipse cx="363" cy="198.9" rx="0.8" ry="2.3"/>
+        <ellipse cx="343" cy="205.7" rx="0.9" ry="2.5"/>
+        <ellipse cx="360" cy="205.4" rx="0.9" ry="2.5"/>
+        <ellipse cx="378" cy="204.6" rx="0.9" ry="2.5"/>
+        <ellipse cx="366" cy="212.1" rx="0.9" ry="2.6"/>
+        <ellipse cx="385" cy="212.5" rx="0.9" ry="2.6"/>
+        <ellipse cx="362" cy="219.3" rx="1.0" ry="2.8"/>
+        <ellipse cx="382" cy="218.8" rx="1.0" ry="2.8"/>
+        <ellipse cx="401" cy="218.6" rx="1.0" ry="2.8"/>
+        <ellipse cx="389" cy="225.9" rx="1.1" ry="3.0"/>
+        <ellipse cx="385" cy="235.1" rx="1.1" ry="3.2"/>
+      </g>
+
+      <!-- 蜂箱所在的草地 -->
+      <path d="M0,184 C30,178 80,176 130,182 C150,186 160,194 158,206 C156,222 136,240 120,262 L0,262 Z" fill="url(#grass)"/>
+      <path d="M0,184 C30,178 80,176 130,182 C150,186 160,194 158,206" stroke="#a9c985" stroke-width="1.4" fill="none" opacity="0.8"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#6c7a4a">
+      <ellipse cx="68" cy="224" rx="40" ry="4"/><ellipse cx="136" cy="212" rx="32" ry="3.4"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 后面的蓝色蜂箱 -->
+      <g>
+        <rect x="112" y="196" width="4" height="16" fill="#a98058"/><rect x="156" y="196" width="4" height="16" fill="#a98058"/>
+        <rect x="108" y="192" width="56" height="6" rx="1" fill="#c39669"/>
+        <rect x="112" y="162" width="48" height="30" fill="url(#hiveB)"/>
+        <rect x="112" y="138" width="48" height="24" fill="url(#hiveC)"/>
+        <rect x="112" y="161" width="48" height="2" fill="#c9b994"/>
+        <path d="M107,138 L165,138 L163,130 L109,130 Z" fill="url(#roof)"/>
+        <rect x="106" y="137" width="60" height="3.4" rx="1" fill="#d2cabd"/>
+        <rect x="126" y="186" width="20" height="3" rx="1" fill="#5e544c"/>
+        <rect x="122" y="189" width="28" height="3" fill="#d8b087"/>
+        <rect x="129" y="146" width="14" height="4" rx="2" fill="#d6c7a6" opacity="0.8"/>
+        <rect x="129" y="172" width="14" height="4" rx="2" fill="#8bb2aa" opacity="0.8"/>
+      </g>
+
+      <!-- 前面的黄色蜂箱 -->
+      <g>
+        <rect x="42" y="208" width="5" height="18" fill="#a98058"/><rect x="88" y="208" width="5" height="18" fill="#a98058"/>
+        <rect x="36" y="203" width="64" height="7" rx="1" fill="#c39669"/>
+        <rect x="40" y="170" width="56" height="33" fill="url(#hiveY)"/>
+        <rect x="40" y="140" width="56" height="30" fill="url(#hiveC)"/>
+        <rect x="40" y="169" width="56" height="2" fill="#c9b994"/>
+        <path d="M34,140 L102,140 L99.6,131 L36.4,131 Z" fill="url(#roof)"/>
+        <rect x="33" y="139" width="70" height="3.6" rx="1" fill="#d2cabd"/>
+        <rect x="56" y="197" width="24" height="3.4" rx="1" fill="#5e544c"/>
+        <rect x="51" y="200" width="34" height="3.4" fill="#d8b087"/>
+        <rect x="60" y="150" width="16" height="4.4" rx="2.2" fill="#d6c7a6" opacity="0.8"/>
+        <rect x="60" y="181" width="16" height="4.4" rx="2.2" fill="#c9a85c" opacity="0.8"/>
+        <rect x="42" y="142" width="3" height="58" fill="#ffffff" opacity="0.25"/>
+      </g>
+
+      <!-- 向日葵 -->
+      <g stroke="#78a25a" stroke-width="3" fill="none" stroke-linecap="round">
+        <path d="M318,262 C316,220 318,170 320,132"/>
+        <path d="M352,262 C354,220 350,160 348,112"/>
+        <path d="M384,262 C382,224 384,180 382,138"/>
+        <path d="M336,262 C338,236 338,200 336,170"/>
+        <path d="M370,262 C370,236 370,204 368,182"/>
+      </g>
+      <g fill="#7fae5f">
+        <use href="#sleaf" transform="translate(318,206) rotate(-160) scale(1.5)"/><use href="#sleaf" transform="translate(319,176) rotate(-20) scale(1.3)"/>
+        <use href="#sleaf" transform="translate(352,214) rotate(-15) scale(1.6)"/><use href="#sleaf" transform="translate(350,160) rotate(-165) scale(1.35)"/>
+        <use href="#sleaf" transform="translate(383,220) rotate(-20) scale(1.4)"/><use href="#sleaf" transform="translate(383,190) rotate(-160) scale(1.3)"/>
+        <use href="#sleaf" transform="translate(337,236) rotate(-165) scale(1.4)"/><use href="#sleaf" transform="translate(369,240) rotate(-10) scale(1.3)"/>
+      </g>
+      <g fill="#94c072">
+        <use href="#sleaf" transform="translate(349,140) rotate(-25) scale(1.15)"/><use href="#sleaf" transform="translate(320,154) rotate(-150) scale(1.1)"/>
+        <use href="#sleaf" transform="translate(337,200) rotate(-30) scale(1.15)"/><use href="#sleaf" transform="translate(369,212) rotate(-150) scale(1.1)"/>
+      </g>
+      <use href="#sunflower" transform="translate(320,130) scale(1.35)"/>
+      <use href="#sunflower" transform="translate(348,108) scale(1.5)"/>
+      <use href="#sunflower" transform="translate(382,136) scale(1.35)"/>
+      <use href="#sunflower" transform="translate(336,170) scale(1.25)"/>
+      <use href="#sunflower" transform="translate(368,182) scale(1.2)"/>
+
+      <!-- 前景草丛和小花 -->
+      <g stroke="#8fb874" stroke-width="0.9" fill="none" stroke-linecap="round">
+        <path d="M20,246 C19,242 17,240 15,239 M20,246 C20,242 20,239 21,237 M20,246 C21,243 23,241 25,241"/>
+        <path d="M126,232 C125,228 123,226 121,225 M126,232 C126,228 126,225 127,223 M126,232 C127,229 129,227 131,227"/>
+        <path d="M60,250 C59,246 57,244 55,243 M60,250 C60,246 60,243 61,241 M60,250 C61,247 63,245 65,245"/>
+      </g>
+      <g fill="#fbf7ec"><circle cx="30" cy="236" r="1.6"/><circle cx="108" cy="236" r="1.5"/><circle cx="96" cy="250" r="1.5"/><circle cx="16" cy="206" r="1.3"/></g>
+      <g fill="#efc95e"><circle cx="30" cy="236" r="0.7"/><circle cx="108" cy="236" r="0.7"/><circle cx="96" cy="250" r="0.7"/></g>
+    </g>
+
+    <!-- 蜜蜂飞过的虚线 -->
+    <g fill="none" stroke="#9a8670" stroke-width="0.6" stroke-dasharray="1.6 2.2" opacity="0.75">
+      <path d="M78,192 C96,198 106,178 124,172 C140,166 160,172 176,160"/>
+      <path d="M196,202 C206,188 226,196 238,184 C250,172 270,180 286,166 C296,156 300,146 304,140"/>
+      <path d="M242,232 C232,222 216,226 210,214"/>
+    </g>
+    <g filter="url(#wc)">
+      <use href="#bee" transform="translate(180,157) scale(1.3) rotate(-20)"/>
+      <use href="#bee" transform="translate(306,136) scale(1.35) rotate(-40)"/>
+      <use href="#beeL" transform="translate(192,204) scale(1.25)"/>
+      <use href="#bee" transform="translate(330,94) scale(1.25)"/>
+      <use href="#beeL" transform="translate(398,124) scale(1.2)"/>
+      <use href="#beeL" transform="translate(208,212) scale(1.3) rotate(-30)"/>
+      <use href="#beeL" transform="translate(74,191) scale(1.15)"/>
+      <use href="#bee" transform="translate(260,150) scale(1.15) rotate(-10)"/>
+      <use href="#bee" transform="translate(102,150) scale(1.1) rotate(10)"/>
+    </g>
+
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

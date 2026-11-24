@@ -368,6 +368,10 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
   - 文章、插图、朗读 MP3、时间表、核查报告、审读记录在 `每日一读/批量/`；篇目见 `每日一读/批量/选题表.md`，每篇的时长、响度、版面数据见 `每日一读/批量/成品一览.md`。
   - 每篇的成品核查（逐句语音识别、逐段画面比对、响度、版面）全部通过，50 篇共 2074 项。
   - 视频在 Release `daily-reading-50`。
+- **第二批 50 篇**（2026-11-24）：A1—C1 各级第 11—20 篇，形式、音色和做法同第一批，题目、文章、插图都是新的；每篇 53.5—64.1 秒（平均 59.3 秒）。
+  - 文章、插图、朗读 MP3、时间表、核查报告、审读记录在 `每日一读/批量2/`；篇目见 `每日一读/批量2/选题表.md`，每篇的数据见 `每日一读/批量2/成品一览.md`。
+  - 每篇的成品核查全部通过，50 篇共 2076 项。
+  - 视频在 Release `daily-reading-batch2`。
 
 ## 教学视频
 
@@ -414,6 +418,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `hsk1-reading` | HSK1 中文阅读视频：`hsk1_01.mp4` … `hsk1_50.mp4`（50 篇）、`hsk1-reading-checks.json`、`hsk1-reading-SHA256SUMS.txt` |
 | `daily-reading` | 每日一读（单页朗读视频）：第 01 篇样片 `daily_01_Mi_pequeno_huerto_highlight.mp4`（逐句高亮版，选定的成品）、`daily_01_Mi_pequeno_huerto.mp4`（静态版，备用）、`daily-reading-SHA256SUMS.txt` |
 | `daily-reading-50` | 每日一读 50 篇（A1—C1 每级 10 篇，逐句高亮版）：`daily_A1-01_Mi_abuela.mp4` … `daily_C1-10_La_plaza_lugar_de_encuentro.mp4`、`daily-reading-50-SHA256SUMS.txt` |
+| `daily-reading-batch2` | 每日一读第二批 50 篇（A1—C1 各级第 11—20 篇，逐句高亮版）：`daily_A1-11_La_tienda_de_flores.mp4` … `daily_C1-20_La_musica_y_la_memoria.mp4`、`daily-reading-batch2-SHA256SUMS.txt` |
 
 ## 来源与改动
 
@@ -491,3 +496,6 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `试卷/SIELE模拟卷/第五套/`（SIELE 模拟卷第五套的内容、考试规格、审校记录、插图和程序）和 Release `siele-mock-5`。
   - 2026-11-24：
     - 新增 `课件/第四册/单词表/`（第四册分课单词表的数据和生成程序）和 Release `book4-vocab`。
+    - 每日一读第二批 50 篇（A1—C1 各级第 11—20 篇，原创短文和插图，逐句高亮版）和 Release `daily-reading-batch2`；新增 `每日一读/批量2/`（选题表、编写和插图要求、文章、插图、朗读、核查报告、审读记录、成品一览）。
+    - `每日一读/tools/`：新增 `trygap.py`（离线试排，比较词间空白的改法）；`check_daily.py` 同时读第一批、第二批的选题表，容易读错的词加上 agricultores、preguntaos；`collect_batch.py`、`summary_batch.py` 可以用环境变量指定批次子目录、校验和文件名和标题。
+    - `西班牙语/tools/voices.json`：`qwen3_M1F5_25`（原速）的 `leveler_ladder` 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同慢速音色）。只有前面各档都不过才会用到，已通过的篇目结果不变。

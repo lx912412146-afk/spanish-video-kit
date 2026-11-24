@@ -1,0 +1,126 @@
+{
+ "id": "daily_c1_12",
+ "level": "C1",
+ "no": 12,
+ "title_es": "La necesidad del silencio",
+ "title_zh": "对寂静的需要",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 12 篇。原创短文。主要语法：简单过去时与过去未完成时交替叙述，cuando 引导的时间从句，dar por + 过去分词（daba por perdida），现在完成时（Nos han enseñado），urgir + 原形的无人称用法（urge llenar），es…donde 强调句，No se trata de + 原形，过去虚拟式条件句（si nunca nos concediéramos…, acabaríamos…），acabar + 副动词。8 句，134 词。第一人称叙述者是男性，没有用到需要变性的形容词（perdida 和 una calma 配合）。特别判断：插图里的木码头是空的，第 2 句就写 estaba vacío，叙述者在岸边；第 6 句 es en él donde 的 él 指 el silencio，译文写明“寂静之中”；se asientan 取“沉淀”义，和后面 el agua turbia que se aclara 的比喻呼应；第 7 句 la vida compartida 译作“与人共处”；unos minutos 是约数，不是钟点；第 8 句原为 a nosotros mismos，句末复数 mismos 的词尾 s 容易被吞，改为 todas las voces menos la nuestra，意思不变。全篇没有名词列举（palabras o música 只有两项、没有逗号），no_pause_commas 为 {}。标题里的 necesidad、silencio 太基础，没有放进词汇表。插图里的平静湖面、倒影、薄雾和空着的木码头对应第 1、2 句。录音核对后改：第一次合成全长只有 52.8 秒（下限 53 秒，这个音色读这篇偏快），在第 2 句后加一句 Hasta el bosque parecía contener la respiración.（连树林都仿佛屏住了呼吸，对应插图岸边的松林），第 2 句删去 pequeño 以免超过 134 词。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "alba",
+   "黎明",
+   "alba"
+  ],
+  [
+   "flotar",
+   "飘浮",
+   "flotaba"
+  ],
+  [
+   "inmóvil",
+   "静止的",
+   "inmóvil"
+  ],
+  [
+   "embarcadero",
+   "小码头",
+   "embarcadero"
+  ],
+  [
+   "reflejarse",
+   "倒映",
+   "se reflejaba"
+  ],
+  [
+   "nitidez",
+   "清晰",
+   "nitidez"
+  ],
+  [
+   "quietud",
+   "静谧",
+   "quietud"
+  ],
+  [
+   "dar por perdido",
+   "以为已失去",
+   "daba por perdida"
+  ],
+  [
+   "urgir",
+   "亟须",
+   "urge"
+  ],
+  [
+   "asentarse",
+   "沉淀",
+   "se asientan"
+  ],
+  [
+   "turbio",
+   "浑浊的",
+   "turbia"
+  ],
+  [
+   "agitarse",
+   "搅动",
+   "agitarse"
+  ],
+  [
+   "aislamiento",
+   "与世隔绝",
+   "aislamiento"
+  ],
+  [
+   "bullicio",
+   "喧闹",
+   "bullicio"
+  ],
+  [
+   "concederse",
+   "给予自己",
+   "concediéramos"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Un día de otoño bajé al lago antes del alba, cuando la niebla todavía flotaba sobre el agua inmóvil.",
+    "zh": "一个秋日，天还未亮，我便下到湖边，那时薄雾仍飘浮在静止的水面上。"
+   },
+   {
+    "es": "El embarcadero de madera estaba vacío, y en la superficie se reflejaba la montaña con una nitidez casi irreal.",
+    "zh": "木码头上空无一人，湖面倒映着山影，清晰得近乎不真实。"
+   },
+   {
+    "es": "Hasta el bosque parecía contener la respiración.",
+    "zh": "连树林都仿佛屏住了呼吸。"
+   },
+   {
+    "es": "Durante un largo rato no oí nada, y aquella quietud me devolvió una calma que daba por perdida.",
+    "zh": "很长一段时间里，我什么也没有听见，而那份静谧让我重新找回了一种我以为早已失去的平静。"
+   }
+  ],
+  [
+   {
+    "es": "Nos han enseñado a ver el silencio como un vacío incómodo que urge llenar con palabras o música.",
+    "zh": "我们一直被教导，要把寂静看作令人不自在的空白，亟须用言语或音乐去填满。"
+   },
+   {
+    "es": "Sin embargo, es en él donde las ideas se asientan, como el agua turbia que se aclara cuando deja de agitarse.",
+    "zh": "然而，正是在寂静之中，思绪才得以沉淀，就像浑浊的水一旦不再被搅动，便会渐渐澄清。"
+   },
+   {
+    "es": "No se trata de idealizar el aislamiento: también necesitamos el bullicio de la vida compartida.",
+    "zh": "这并不是要美化与世隔绝：我们同样需要与人共处时的热闹。"
+   },
+   {
+    "es": "Pero si nunca nos concediéramos unos minutos de silencio, acabaríamos oyendo todas las voces menos la nuestra.",
+    "zh": "但如果我们从不给自己留出几分钟的寂静，最终便会听得见所有的声音，唯独听不见自己的声音。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：书房一角，书架上的旧词典和手稿，桌上一台老式录音机和磁带（水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f3dec6"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0bf9a"/><stop offset="1" stop-color="#d2ab83"/>
+    </linearGradient>
+    <linearGradient id="deskF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b98e67"/><stop offset="1" stop-color="#a77d58"/>
+    </linearGradient>
+    <linearGradient id="shelfBack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d2b18c"/><stop offset="1" stop-color="#dcbe9b"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b3865f"/><stop offset="0.5" stop-color="#c99d74"/><stop offset="1" stop-color="#b3865f"/>
+    </linearGradient>
+    <linearGradient id="rec" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a4b9ba"/><stop offset="1" stop-color="#7f9a9d"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf5e8"/><stop offset="1" stop-color="#eee2cb"/>
+    </linearGradient>
+    <linearGradient id="paperV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f6eedd"/><stop offset="1" stop-color="#e8dbc2"/>
+    </linearGradient>
+    <g id="cas">
+      <rect x="-24" y="-15" width="48" height="30" rx="2.5" fill="#efe7d8"/>
+      <rect x="-20" y="-12" width="40" height="15" rx="1.5" fill="#d9906a"/>
+      <rect x="-12" y="-7" width="24" height="7" rx="1" fill="#6b625a"/>
+      <circle cx="-7" cy="-3.5" r="3.4" fill="#8a6a50"/><circle cx="7" cy="-3.5" r="2.4" fill="#8a6a50"/>
+      <circle cx="-7" cy="-3.5" r="1.4" fill="#f3eee4"/><circle cx="7" cy="-3.5" r="1.4" fill="#f3eee4"/>
+      <path d="M-14,15 L-11,8 L11,8 L14,15 Z" fill="#e2d8c6"/>
+      <circle cx="-6" cy="11.5" r="1" fill="#b9ad9a"/><circle cx="6" cy="11.5" r="1" fill="#b9ad9a"/>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和窗光 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <g filter="url(#soft)" opacity="0.45">
+      <path d="M26,64 L118,64 L150,172 L56,172 Z" fill="#fffaf0"/>
+    </g>
+
+    <!-- 书架的影子 -->
+    <g filter="url(#soft2)" opacity="0.14" fill="#8a6a4a">
+      <rect x="252" y="22" width="10" height="154"/>
+    </g>
+
+    <g filter="url(#soft2)" opacity="0.14" fill="#8a6a4a">
+      <rect x="66" y="82" width="62" height="50"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 墙上的旧照片：远山和村子 -->
+      <rect x="60" y="76" width="62" height="50" fill="#c49870"/>
+      <rect x="65" y="81" width="52" height="40" fill="#efe2c8"/>
+      <path d="M65,108 C74,100 82,98 90,103 C98,96 106,95 117,101 L117,121 L65,121 Z" fill="#d6bf9c"/>
+      <path d="M65,114 C78,110 96,111 117,113 L117,121 L65,121 Z" fill="#c9ac86"/>
+      <g fill="#e9d8b8"><rect x="84" y="106" width="6" height="5"/><rect x="92" y="104" width="5" height="7"/><rect x="99" y="107" width="6" height="4"/></g>
+      <g fill="#b79874"><path d="M83,106 L87,103 L91,106 Z"/><path d="M91.5,104 L94.5,101 L97.5,104 Z"/><path d="M98,107 L102,104 L106,107 Z"/></g>
+      <ellipse cx="80" cy="90" rx="9" ry="2.5" fill="#f6ecd8" opacity="0.8"/>
+
+      <!-- 书架 -->
+      <rect x="256" y="18" width="124" height="160" fill="url(#wood)"/>
+      <rect x="250" y="14" width="136" height="7" rx="1.5" fill="#d6b48c"/>
+      <rect x="264" y="25" width="108" height="150" fill="url(#shelfBack)"/>
+      <g fill="#c49870">
+        <rect x="262" y="64" width="112" height="5"/><rect x="262" y="110" width="112" height="5"/><rect x="262" y="156" width="112" height="5"/>
+      </g>
+      <g fill="#a87b58" opacity="0.35">
+        <rect x="264" y="69" width="108" height="3"/><rect x="264" y="115" width="108" height="3"/><rect x="264" y="161" width="108" height="3"/>
+      </g>
+
+      <!-- 第一层：旧词典 -->
+      <rect x="268" y="32" width="12" height="32" fill="#b8695a"/>
+      <rect x="280" y="30" width="14" height="34" fill="#8d9a6a"/>
+      <rect x="294" y="36" width="10" height="28" fill="#c9a66b"/>
+      <rect x="304" y="31" width="15" height="33" fill="#7f97a8"/>
+      <rect x="319" y="34" width="11" height="30" fill="#a87b58"/>
+      <path d="M331,64 L343,64 L349,35 L337,33 Z" fill="#c88a6c"/>
+      <g stroke="#e4c88e" stroke-width="1.3" opacity="0.9">
+        <line x1="268" y1="37" x2="280" y2="37"/><line x1="268" y1="58" x2="280" y2="58"/>
+        <line x1="280" y1="35" x2="294" y2="35"/><line x1="280" y1="40" x2="294" y2="40"/><line x1="280" y1="58" x2="294" y2="58"/>
+        <line x1="304" y1="36" x2="319" y2="36"/><line x1="304" y1="58" x2="319" y2="58"/>
+        <line x1="319" y1="39" x2="330" y2="39"/><line x1="319" y1="59" x2="330" y2="59"/>
+      </g>
+      <rect x="307" y="43" width="9" height="7" fill="#efe2c4" opacity="0.8"/>
+      <rect x="283" y="45" width="8" height="6" fill="#efe2c4" opacity="0.7"/>
+      <rect x="350" y="57" width="22" height="7" fill="#9eb3a8"/>
+      <rect x="352" y="51" width="19" height="6" fill="#d9906a"/>
+      <rect x="351" y="46" width="20" height="5" fill="#e9dcc2"/>
+
+      <!-- 第二层：手稿 -->
+      <g>
+        <rect x="270" y="102" width="40" height="8" fill="#efe4cf"/>
+        <rect x="272" y="96" width="38" height="6" fill="#f6eedd"/>
+        <rect x="269" y="90" width="40" height="6" fill="#ebdfc6"/>
+        <rect x="271" y="85" width="37" height="5" fill="#f8f1e2"/>
+        <g stroke="#ddcfb4" stroke-width="0.6"><line x1="270" y1="105" x2="310" y2="105"/><line x1="272" y1="99" x2="310" y2="99"/><line x1="269" y1="93" x2="309" y2="93"/><line x1="271" y1="87.5" x2="308" y2="87.5"/></g>
+        <path d="M288,85 L288,110 M270,97 L310,97" stroke="#b8695a" stroke-width="1.2" fill="none"/>
+        <path d="M288,85 C284,81 282,82 284,85 C286,84 292,81 292,84 Z" fill="#b8695a"/>
+      </g>
+      <rect x="314" y="96" width="32" height="14" rx="7" fill="url(#paperV)"/>
+      <ellipse cx="345" cy="103" rx="3.5" ry="7" fill="#e8dbc2"/>
+      <ellipse cx="345" cy="103" rx="1.8" ry="4" fill="#d8c8aa"/>
+      <path d="M326,96 L326,110" stroke="#c9a66b" stroke-width="1.6"/>
+      <rect x="352" y="78" width="16" height="32" fill="#9eb3a8"/>
+      <rect x="355" y="84" width="10" height="8" fill="#e9e0cc"/>
+
+      <!-- 第三层：词典和一盘录音带 -->
+      <rect x="268" y="124" width="16" height="32" fill="#7f97a8"/>
+      <rect x="284" y="128" width="12" height="28" fill="#b8695a"/>
+      <rect x="296" y="122" width="15" height="34" fill="#a87b58"/>
+      <rect x="311" y="130" width="11" height="26" fill="#8d9a6a"/>
+      <g stroke="#e4c88e" stroke-width="1.3" opacity="0.9">
+        <line x1="268" y1="129" x2="284" y2="129"/><line x1="268" y1="150" x2="284" y2="150"/>
+        <line x1="296" y1="127" x2="311" y2="127"/><line x1="296" y1="131" x2="311" y2="131"/><line x1="296" y1="150" x2="311" y2="150"/>
+        <line x1="284" y1="133" x2="296" y2="133"/><line x1="311" y1="151" x2="322" y2="151"/>
+      </g>
+      <rect x="299" y="136" width="9" height="7" fill="#efe2c4" opacity="0.8"/>
+      <circle cx="348" cy="141" r="15" fill="#7d7068"/>
+      <circle cx="348" cy="141" r="12.5" fill="#a08676"/>
+      <g fill="#dcbe9b"><circle cx="348" cy="134" r="3.2"/><circle cx="341.9" cy="144.5" r="3.2"/><circle cx="354.1" cy="144.5" r="3.2"/></g>
+      <circle cx="348" cy="141" r="2.2" fill="#e9e0cc"/>
+      <ellipse cx="343" cy="134" rx="3" ry="1.5" fill="#fff" opacity="0.3"/>
+
+      <!-- 书桌 -->
+      <rect x="0" y="176" width="400" height="58" fill="url(#desk)"/>
+      <rect x="0" y="174" width="400" height="3" fill="#e9cfae"/>
+      <rect x="0" y="234" width="400" height="26" fill="url(#deskF)"/>
+      <rect x="0" y="232" width="400" height="3" fill="#e4c6a0"/>
+      <g stroke="#c9a37c" stroke-width="0.8" opacity="0.5" fill="none">
+        <path d="M0,190 C80,188 160,192 240,189 C300,187 360,190 400,189"/><path d="M0,216 C90,214 170,219 260,215 C320,213 370,216 400,215"/>
+      </g>
+    </g>
+
+    <!-- 桌面上的阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="174" cy="207" rx="68" ry="4"/><ellipse cx="62" cy="226" rx="46" ry="3"/>
+      <ellipse cx="280" cy="208" rx="30" ry="3"/><ellipse cx="282" cy="228" rx="26" ry="2.6"/><ellipse cx="126" cy="225" rx="24" ry="2.2"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 打开的旧词典和眼镜 -->
+      <path d="M17,206 C38,200 54,201 61,205 C68,201 84,200 105,206 L108,228 C88,224 72,225 61,229 C50,225 34,224 14,228 Z" fill="#a8564a"/>
+      <path d="M20,202 C38,196 54,197 61,201 L61,225 C52,221 38,221 18,224 Z" fill="url(#page)"/>
+      <path d="M61,201 C68,197 84,196 102,202 L104,224 C84,221 70,221 61,225 Z" fill="url(#page)"/>
+      <g stroke="#e3d6bd" stroke-width="0.6" fill="none">
+        <path d="M18,224 C38,222 52,222 61,226"/><path d="M104,224 C84,222 70,222 61,226"/>
+      </g>
+      <path d="M61,201 L61,225" stroke="#d8c8aa" stroke-width="1"/>
+      <path d="M58,202 C56,212 57,220 59,224" stroke="#e3d3b6" stroke-width="2" fill="none" opacity="0.7"/>
+      <path d="M62,226 C63,232 61,236 63,241" stroke="#b8695a" stroke-width="1.8" fill="none"/>
+      <g fill="none" stroke="#8a7462" stroke-width="1.1">
+        <ellipse cx="74" cy="214" rx="6" ry="3.6"/><ellipse cx="89" cy="215" rx="6" ry="3.6"/>
+        <path d="M80,214 C81.5,212.5 82.5,212.5 83,214"/><path d="M68,213 L62,210"/><path d="M95,214 L100,211"/>
+      </g>
+      <ellipse cx="73" cy="213" rx="2.6" ry="1.2" fill="#fff" opacity="0.6"/>
+
+      <!-- 录音机 -->
+      <path d="M126,146 C126,126 218,126 218,146" stroke="#8aa0a3" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M116,142 L228,142 L234,150 L110,150 Z" fill="#b9cbcb"/>
+      <g>
+        <rect x="170" y="137" width="8" height="7" rx="1" fill="#efe6d6"/><rect x="179" y="137" width="8" height="7" rx="1" fill="#efe6d6"/>
+        <rect x="188" y="136" width="8" height="8" rx="1" fill="#d0805c"/><rect x="197" y="137" width="8" height="7" rx="1" fill="#efe6d6"/>
+        <rect x="206" y="137" width="8" height="7" rx="1" fill="#efe6d6"/><rect x="215" y="137" width="8" height="7" rx="1" fill="#efe6d6"/>
+      </g>
+      <rect x="110" y="148" width="124" height="58" rx="7" fill="url(#rec)"/>
+      <rect x="112" y="150" width="120" height="4" rx="2" fill="#bfd0d0" opacity="0.7"/>
+      <circle cx="141" cy="178" r="21" fill="#6f8a8e"/>
+      <g fill="none" stroke="#93abae" stroke-width="1.3">
+        <circle cx="141" cy="178" r="17"/><circle cx="141" cy="178" r="12.5"/><circle cx="141" cy="178" r="8"/>
+      </g>
+      <circle cx="141" cy="178" r="3.5" fill="#93abae"/>
+      <rect x="170" y="158" width="56" height="40" rx="3" fill="#ebe2d2"/>
+      <use href="#cas" transform="translate(198,176) scale(0.95)"/>
+      <rect x="172" y="160" width="52" height="5" fill="#fff" opacity="0.35"/>
+      <g fill="#6f8a8e"><circle cx="176" cy="202" r="2"/><circle cx="220" cy="202" r="2"/></g>
+      <rect x="116" y="204" width="10" height="4" rx="1" fill="#5f6f70"/><rect x="218" y="204" width="10" height="4" rx="1" fill="#5f6f70"/>
+      <ellipse cx="120" cy="162" rx="3" ry="8" fill="#fff" opacity="0.3"/>
+
+      <!-- 麦克风和电线 -->
+      <path d="M140,222 C166,228 196,232 220,224 C238,218 244,206 234,196" stroke="#6b625a" stroke-width="1.4" fill="none"/>
+      <g transform="translate(124,221) rotate(-8)">
+        <rect x="-14" y="-3.6" width="30" height="7.2" rx="3.6" fill="#7f9a9d"/>
+        <rect x="-14" y="-3.6" width="30" height="2.4" rx="1.2" fill="#a4b9ba"/>
+        <circle cx="-17" cy="0" r="6.2" fill="#c9d1cf"/>
+        <path d="M-21,-3 L-13,3 M-21,3 L-13,-3 M-17,-6 L-17,6 M-23,0 L-11,0" stroke="#a3aeab" stroke-width="0.7"/>
+        <ellipse cx="-19" cy="-2.5" rx="2" ry="1.2" fill="#fff" opacity="0.6"/>
+      </g>
+
+      <!-- 一摞磁带盒 -->
+      <g>
+        <rect x="254" y="200" width="54" height="9" rx="1" fill="#e8dfcf"/><rect x="254" y="202" width="54" height="5" fill="#8d9a6a"/>
+        <rect x="256" y="191" width="52" height="9" rx="1" fill="#efe7d8"/><rect x="256" y="193" width="52" height="5" fill="#d9906a"/>
+        <rect x="253" y="182" width="53" height="9" rx="1" fill="#e8dfcf"/><rect x="253" y="184" width="53" height="5" fill="#7f97a8"/>
+        <path d="M253,182 L306,182 L310,177 L257,177 Z" fill="#f4eee2"/>
+        <g fill="#f4eee2" opacity="0.8"><rect x="262" y="203.5" width="14" height="2"/><rect x="264" y="194.5" width="14" height="2"/><rect x="261" y="185.5" width="14" height="2"/></g>
+      </g>
+      <!-- 桌上的一盘散放的磁带 -->
+      <use href="#cas" transform="translate(282,222) rotate(-7) scale(1,0.5)"/>
+    </g>
+
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

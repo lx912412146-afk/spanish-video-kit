@@ -1,0 +1,302 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_19.mp3",
+ "duration": 60.531,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.58,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.99,
+  "peak_dbfs": -1.59,
+  "buzz_hz": 15000.0,
+  "buzz_db": 4.1,
+  "comb_db": -0.73
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.23,
+   "parts": [
+    [
+     0.5,
+     2.23
+    ]
+   ],
+   "segments": [
+    "Mi hermano pequeño."
+   ],
+   "text": "Mi hermano pequeño.",
+   "read": "Mi hermano pequeño."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.23,
+   "end": 8.061,
+   "parts": [
+    [
+     3.23,
+     5.861
+    ],
+    [
+     6.141,
+     8.061
+    ]
+   ],
+   "segments": [
+    "Mateo, mi hermano pequeño,",
+    "es un niño muy alegre."
+   ],
+   "text": "Mateo, mi hermano pequeño, es un niño muy alegre.",
+   "read": "Mateo, mi hermano pequeño, es un niño muy alegre."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.061,
+   "end": 13.231,
+   "parts": [
+    [
+     9.061,
+     13.231
+    ]
+   ],
+   "segments": [
+    "En su habitación hay una cama pequeña y una ventana grande."
+   ],
+   "text": "En su habitación hay una cama pequeña y una ventana grande.",
+   "read": "En su habitación hay una cama pequeña y una ventana grande."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.231,
+   "end": 17.051,
+   "parts": [
+    [
+     14.231,
+     17.051
+    ]
+   ],
+   "segments": [
+    "Desde la ventana se ve el cielo azul."
+   ],
+   "text": "Desde la ventana se ve el cielo azul.",
+   "read": "Desde la ventana se ve el cielo azul."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.051,
+   "end": 21.535,
+   "parts": [
+    [
+     18.051,
+     21.535
+    ]
+   ],
+   "segments": [
+    "El juguete favorito de Mateo es un coche rojo."
+   ],
+   "text": "El juguete favorito de Mateo es un coche rojo.",
+   "read": "El juguete favorito de Mateo es un coche rojo."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 22.535,
+   "end": 26.457,
+   "parts": [
+    [
+     22.535,
+     26.457
+    ]
+   ],
+   "segments": [
+    "Con sus bloques de colores hace una torre alta como él."
+   ],
+   "text": "Con sus bloques de colores hace una torre alta como él.",
+   "read": "Con sus bloques de colores hace una torre alta como él."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 27.457,
+   "end": 30.256,
+   "parts": [
+    [
+     27.457,
+     30.256
+    ]
+   ],
+   "segments": [
+    "Después la tira al suelo y se ríe mucho."
+   ],
+   "text": "Después la tira al suelo y se ríe mucho.",
+   "read": "Después la tira al suelo y se ríe mucho."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 31.256,
+   "end": 34.402,
+   "parts": [
+    [
+     31.256,
+     34.402
+    ]
+   ],
+   "segments": [
+    "Por la tarde juego con él al fútbol en el parque."
+   ],
+   "text": "Por la tarde juego con él al fútbol en el parque.",
+   "read": "Por la tarde juego con él al fútbol en el parque."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 35.402,
+   "end": 39.072,
+   "parts": [
+    [
+     35.402,
+     39.072
+    ]
+   ],
+   "segments": [
+    "Mateo corre detrás del balón y grita de alegría."
+   ],
+   "text": "Mateo corre detrás del balón y grita de alegría.",
+   "read": "Mateo corre detrás del balón y grita de alegría."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 40.072,
+   "end": 44.307,
+   "parts": [
+    [
+     40.072,
+     41.317
+    ],
+    [
+     41.597,
+     44.307
+    ]
+   ],
+   "segments": [
+    "Por la noche,",
+    "le leo un cuento antes de dormir."
+   ],
+   "text": "Por la noche, le leo un cuento antes de dormir.",
+   "read": "Por la noche, le leo un cuento antes de dormir."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 45.307,
+   "end": 50.007,
+   "parts": [
+    [
+     45.307,
+     47.706
+    ],
+    [
+     47.986,
+     50.007
+    ]
+   ],
+   "segments": [
+    "Siempre quiere el mismo cuento,",
+    "el de un perro valiente."
+   ],
+   "text": "Siempre quiere el mismo cuento, el de un perro valiente.",
+   "read": "Siempre quiere el mismo cuento, el de un perro valiente."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 51.007,
+   "end": 54.601,
+   "parts": [
+    [
+     51.007,
+     54.601
+    ]
+   ],
+   "segments": [
+    "Muchas veces se duerme con su coche rojo en la mano."
+   ],
+   "text": "Muchas veces se duerme con su coche rojo en la mano.",
+   "read": "Muchas veces se duerme con su coche rojo en la mano."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 55.601,
+   "end": 59.331,
+   "parts": [
+    [
+     55.601,
+     57.721
+    ],
+    [
+     58.001,
+     59.331
+    ]
+   ],
+   "segments": [
+    "A veces es muy travieso,",
+    "pero lo quiero mucho."
+   ],
+   "text": "A veces es muy travieso, pero lo quiero mucho.",
+   "read": "A veces es muy travieso, pero lo quiero mucho."
+  }
+ ]
+}

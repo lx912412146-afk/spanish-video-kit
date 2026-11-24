@@ -1,0 +1,273 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_12.mp3",
+ "duration": 61.615,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.45,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.81,
+  "buzz_hz": 5347.4,
+  "buzz_db": 3.9,
+  "comb_db": 0.12
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.4,
+  "leveler_rng": 10.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.37,
+   "parts": [
+    [
+     0.5,
+     2.37
+    ]
+   ],
+   "segments": [
+    "Una boda en el pueblo."
+   ],
+   "text": "Una boda en el pueblo.",
+   "read": "Una boda en el pueblo."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.37,
+   "end": 8.6,
+   "parts": [
+    [
+     3.37,
+     4.84
+    ],
+    [
+     5.12,
+     8.6
+    ]
+   ],
+   "segments": [
+    "El mes pasado,",
+    "mi prima Lucía se casó en el pueblo de mi madre."
+   ],
+   "text": "El mes pasado, mi prima Lucía se casó en el pueblo de mi madre.",
+   "read": "El mes pasado, mi prima Lucía se casó en el pueblo de mi madre."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.6,
+   "end": 14.699,
+   "parts": [
+    [
+     9.6,
+     11.349
+    ],
+    [
+     11.629,
+     14.699
+    ]
+   ],
+   "segments": [
+    "Después de la ceremonia,",
+    "los invitados fuimos a comer a un patio."
+   ],
+   "text": "Después de la ceremonia, los invitados fuimos a comer a un patio.",
+   "read": "Después de la ceremonia, los invitados fuimos a comer a un patio."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.699,
+   "end": 22.693,
+   "parts": [
+    [
+     15.699,
+     18.833
+    ],
+    [
+     19.113,
+     20.473
+    ],
+    [
+     20.753,
+     22.693
+    ]
+   ],
+   "segments": [
+    "Alrededor había casas blancas y,",
+    "en el centro,",
+    "una mesa muy larga."
+   ],
+   "text": "Alrededor había casas blancas y, en el centro, una mesa muy larga.",
+   "read": "Alrededor había casas blancas y, en el centro, una mesa muy larga."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 23.693,
+   "end": 29.238,
+   "parts": [
+    [
+     23.693,
+     29.238
+    ]
+   ],
+   "segments": [
+    "Sobre la mesa había un mantel blanco, flores y copas de cristal."
+   ],
+   "text": "Sobre la mesa había un mantel blanco, flores y copas de cristal.",
+   "read": "Sobre la mesa había un mantel blanco, flores y copas de cristal."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 30.238,
+   "end": 34.788,
+   "parts": [
+    [
+     30.238,
+     34.788
+    ]
+   ],
+   "segments": [
+    "Encima de nosotros colgaban luces pequeñas de una casa a otra."
+   ],
+   "text": "Encima de nosotros colgaban luces pequeñas de una casa a otra.",
+   "read": "Encima de nosotros colgaban luces pequeñas de una casa a otra."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 35.788,
+   "end": 39.618,
+   "parts": [
+    [
+     35.788,
+     39.618
+    ]
+   ],
+   "segments": [
+    "Comimos durante horas y conocí a unos primos de mi madre."
+   ],
+   "text": "Comimos durante horas y conocí a unos primos de mi madre.",
+   "read": "Comimos durante horas y conocí a unos primos de mi madre."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 40.618,
+   "end": 44.908,
+   "parts": [
+    [
+     40.618,
+     44.908
+    ]
+   ],
+   "segments": [
+    "Por la noche se encendieron las luces y todo parecía mágico."
+   ],
+   "text": "Por la noche se encendieron las luces y todo parecía mágico.",
+   "read": "Por la noche se encendieron las luces y todo parecía mágico."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 45.908,
+   "end": 49.978,
+   "parts": [
+    [
+     45.908,
+     49.978
+    ]
+   ],
+   "segments": [
+    "Luego todos aplaudimos cuando los novios cortaron la tarta."
+   ],
+   "text": "Luego todos aplaudimos cuando los novios cortaron la tarta.",
+   "read": "Luego todos aplaudimos cuando los novios cortaron la tarta."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 50.978,
+   "end": 55.038,
+   "parts": [
+    [
+     50.978,
+     55.038
+    ]
+   ],
+   "segments": [
+    "Mi tío tocó la guitarra y bailamos hasta muy tarde."
+   ],
+   "text": "Mi tío tocó la guitarra y bailamos hasta muy tarde.",
+   "read": "Mi tío tocó la guitarra y bailamos hasta muy tarde."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 56.038,
+   "end": 60.416,
+   "parts": [
+    [
+     56.038,
+     57.965
+    ],
+    [
+     58.245,
+     60.416
+    ]
+   ],
+   "segments": [
+    "Fue una boda sencilla,",
+    "pero la más alegre de mi vida."
+   ],
+   "text": "Fue una boda sencilla, pero la más alegre de mi vida.",
+   "read": "Fue una boda sencilla, pero la más alegre de mi vida."
+  }
+ ]
+}

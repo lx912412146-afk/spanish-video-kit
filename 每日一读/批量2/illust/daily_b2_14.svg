@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：左边灯火通明的城市（天空被灯光照得发白），右边乡间山丘上的星空（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <!-- 天空：左边被城市灯光照亮的浅色黄昏天，向右渐变成柔和的深蓝夜空 -->
+    <linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="212" y1="40" x2="352" y2="20">
+      <stop offset="0" stop-color="#f6e9d8"/><stop offset="0.22" stop-color="#e8dbd6"/><stop offset="0.45" stop-color="#b7b7cb"/>
+      <stop offset="0.72" stop-color="#7c8bb0"/><stop offset="1" stop-color="#5f7099"/>
+    </linearGradient>
+    <radialGradient id="skyTop" gradientUnits="userSpaceOnUse" cx="400" cy="0" r="210">
+      <stop offset="0" stop-color="#4d5d86" stop-opacity="0.4"/><stop offset="0.6" stop-color="#4d5d86" stop-opacity="0.15"/><stop offset="1" stop-color="#4d5d86" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dome" gradientUnits="userSpaceOnUse" cx="96" cy="176" r="170">
+      <stop offset="0" stop-color="#fde2b4" stop-opacity="0.9"/><stop offset="0.45" stop-color="#f9e3c4" stop-opacity="0.55"/><stop offset="1" stop-color="#f8e8d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="farHill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7486a8"/><stop offset="1" stop-color="#687b9e"/>
+    </linearGradient>
+    <linearGradient id="nearHill" gradientUnits="userSpaceOnUse" x1="196" y1="0" x2="320" y2="0">
+      <stop offset="0" stop-color="#9890a6"/><stop offset="0.45" stop-color="#7280a0"/><stop offset="1" stop-color="#5c6f92"/>
+    </linearGradient>
+    <linearGradient id="road" gradientUnits="userSpaceOnUse" x1="200" y1="0" x2="290" y2="0">
+      <stop offset="0" stop-color="#c2b4b2"/><stop offset="0.5" stop-color="#9c9aae"/><stop offset="1" stop-color="#8790aa"/>
+    </linearGradient>
+    <linearGradient id="bldBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c4b3b6"/><stop offset="1" stop-color="#b5a3ab"/>
+    </linearGradient>
+    <linearGradient id="bldFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a596a6"/><stop offset="1" stop-color="#93859b"/>
+    </linearGradient>
+    <linearGradient id="street" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8b6b1"/><stop offset="1" stop-color="#b7a6a6"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff0c4" stop-opacity="0.95"/><stop offset="0.35" stop-color="#fbe2a6" stop-opacity="0.5"/><stop offset="1" stop-color="#f8d99a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="winGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fbe3a8" stop-opacity="0.8"/><stop offset="1" stop-color="#fbe3a8" stop-opacity="0"/>
+    </radialGradient>
+    <path id="star4" d="M0,-4 C0.4,-1 1,-0.4 4,0 C1,0.4 0.4,1 0,4 C-0.4,1 -1,0.4 -4,0 C-1,-0.4 -0.4,-1 0,-4 Z"/>
+    <!-- 一行亮着的窗（有一扇暗着） -->
+    <g id="wa"><rect width="3.6" height="4.4" fill="#fbe0a0"/><rect x="7" width="3.6" height="4.4" fill="#fbe0a0"/><rect x="14" width="3.6" height="4.4" fill="#d9c8c6"/><rect x="21" width="3.6" height="4.4" fill="#fbe0a0"/></g>
+    <g id="wb"><rect width="3.6" height="4.4" fill="#d9c8c6"/><rect x="7" width="3.6" height="4.4" fill="#fbe0a0"/><rect x="14" width="3.6" height="4.4" fill="#fbe0a0"/><rect x="21" width="3.6" height="4.4" fill="#fbe0a0"/></g>
+    <g id="wc3"><rect width="3.6" height="4.4" fill="#fbe0a0"/><rect x="7" width="3.6" height="4.4" fill="#fbe0a0"/><rect x="14" width="3.6" height="4.4" fill="#fbe0a0"/></g>
+    <path id="pine" d="M0,0 L-5,10 L-2.4,10 L-7,19 L-3,19 L-9,29 L-1.4,29 L-1.4,34 L1.4,34 L1.4,29 L9,29 L3,19 L7,19 L2.4,10 L5,10 Z"/>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <rect width="400" height="260" fill="url(#skyTop)"/>
+    <rect width="400" height="260" fill="url(#dome)"/>
+
+    <!-- 银河 -->
+    <g filter="url(#soft)" opacity="0.28">
+      <path d="M266,156 C282,128 300,104 322,84 C344,64 366,40 392,14 L404,40 C380,62 360,84 340,104 C318,126 300,146 290,164 Z" fill="#e6e8f3"/>
+      <ellipse cx="338" cy="82" rx="18" ry="9" transform="rotate(-42 338 82)" fill="#f1eef2"/>
+      <ellipse cx="300" cy="124" rx="14" ry="7" transform="rotate(-52 300 124)" fill="#efedf3"/>
+    </g>
+    <g fill="#f4f2f2" opacity="0.7">
+      <circle cx="306" cy="112" r="0.5"/><circle cx="312" cy="104" r="0.45"/><circle cx="318" cy="98" r="0.5"/><circle cx="326" cy="92" r="0.45"/>
+      <circle cx="332" cy="84" r="0.5"/><circle cx="340" cy="78" r="0.45"/><circle cx="346" cy="72" r="0.5"/><circle cx="352" cy="64" r="0.45"/>
+      <circle cx="360" cy="58" r="0.5"/><circle cx="368" cy="50" r="0.45"/><circle cx="376" cy="42" r="0.5"/><circle cx="296" cy="128" r="0.45"/>
+      <circle cx="316" cy="92" r="0.4"/><circle cx="336" cy="92" r="0.4"/><circle cx="344" cy="66" r="0.4"/><circle cx="364" cy="66" r="0.4"/>
+      <circle cx="300" cy="118" r="0.4"/><circle cx="322" cy="100" r="0.4"/><circle cx="356" cy="54" r="0.4"/><circle cx="384" cy="36" r="0.4"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 星星：乡间这边才看得见 -->
+      <g fill="#fdf7e4">
+        <circle cx="252" cy="22" r="0.8" opacity="0.6"/><circle cx="244" cy="58" r="0.7" opacity="0.5"/><circle cx="262" cy="84" r="0.8" opacity="0.6"/>
+        <circle cx="274" cy="40" r="1"/><circle cx="286" cy="16" r="0.9"/><circle cx="296" cy="62" r="1.1"/><circle cx="304" cy="34" r="0.8"/>
+        <circle cx="316" cy="14" r="1.2"/><circle cx="322" cy="50" r="0.9"/><circle cx="332" cy="88" r="1"/><circle cx="340" cy="30" r="1.1"/>
+        <circle cx="350" cy="60" r="0.8"/><circle cx="358" cy="16" r="0.9"/><circle cx="366" cy="44" r="1.2"/><circle cx="374" cy="78" r="0.9"/>
+        <circle cx="382" cy="24" r="0.8"/><circle cx="390" cy="56" r="1"/><circle cx="386" cy="102" r="0.9"/><circle cx="360" cy="104" r="0.8"/>
+        <circle cx="344" cy="118" r="0.9"/><circle cx="312" cy="102" r="0.8"/><circle cx="284" cy="104" r="0.8"/><circle cx="300" cy="86" r="0.7"/>
+        <circle cx="328" cy="70" r="0.7"/><circle cx="346" cy="46" r="0.7"/><circle cx="372" cy="62" r="0.7"/><circle cx="392" cy="84" r="0.7"/>
+        <circle cx="354" cy="84" r="0.6"/><circle cx="318" cy="120" r="0.7"/><circle cx="372" cy="122" r="0.7"/><circle cx="394" cy="120" r="0.7"/>
+        <circle cx="336" cy="102" r="0.6"/><circle cx="308" cy="74" r="0.6"/><circle cx="290" cy="50" r="0.6"/><circle cx="330" cy="10" r="0.7"/>
+        <circle cx="378" cy="8" r="0.7"/><circle cx="268" cy="66" r="0.6" opacity="0.7"/><circle cx="280" cy="124" r="0.6"/><circle cx="356" cy="134" r="0.6"/>
+      </g>
+      <g fill="#fffbec">
+        <use href="#star4" transform="translate(326,40) scale(0.85)"/><use href="#star4" transform="translate(378,92) scale(0.7)"/>
+        <use href="#star4" transform="translate(292,28) scale(0.6)"/><use href="#star4" transform="translate(356,24) scale(0.65)"/><use href="#star4" transform="translate(304,112) scale(0.55)"/>
+      </g>
+
+      <!-- 远山（乡间） -->
+      <path d="M176,176 C204,160 230,148 258,146 C284,144 300,152 322,148 C346,144 370,132 400,130 L400,200 L176,200 Z" fill="url(#farHill)"/>
+      <g fill="#5f7396" opacity="0.9">
+        <use href="#pine" transform="translate(262,140) scale(0.5)"/><use href="#pine" transform="translate(270,143) scale(0.42)"/>
+        <use href="#pine" transform="translate(372,128) scale(0.52)"/><use href="#pine" transform="translate(381,131) scale(0.44)"/>
+      </g>
+
+      <!-- 后排楼房 -->
+      <g fill="url(#bldBack)">
+        <rect x="0" y="104" width="30" height="100"/><rect x="26" y="82" width="34" height="122"/><rect x="94" y="88" width="30" height="116"/>
+        <rect x="158" y="100" width="34" height="104"/>
+      </g>
+      <g opacity="0.85">
+        <use href="#wa" transform="translate(32,90)"/><use href="#wb" transform="translate(32,100)"/><use href="#wa" transform="translate(32,110)"/>
+        <use href="#wc3" transform="translate(100,96)"/><use href="#wc3" transform="translate(100,106)"/><use href="#wc3" transform="translate(100,116)"/>
+        <use href="#wb" transform="translate(163,108)"/><use href="#wa" transform="translate(163,118)"/>
+        <use href="#wc3" transform="translate(5,112)"/><use href="#wc3" transform="translate(5,122)"/>
+      </g>
+
+      <!-- 前排楼房 -->
+      <g fill="url(#bldFront)">
+        <rect x="14" y="116" width="40" height="90"/>
+        <rect x="52" y="68" width="38" height="138"/><rect x="69" y="56" width="2" height="12"/>
+        <rect x="86" y="122" width="34" height="84"/>
+        <rect x="116" y="94" width="36" height="112"/>
+        <rect x="148" y="128" width="32" height="78"/>
+        <rect x="178" y="146" width="28" height="60"/>
+      </g>
+      <rect x="49" y="64" width="44" height="5" fill="#b4a4b2"/>
+      <rect x="113" y="90" width="42" height="5" fill="#b4a4b2"/>
+      <!-- 窗 -->
+      <g>
+        <use href="#wa" transform="translate(21,124)"/><use href="#wb" transform="translate(21,134)"/><use href="#wa" transform="translate(21,144)"/><use href="#wb" transform="translate(21,154)"/><use href="#wa" transform="translate(21,164)"/>
+        <use href="#wb" transform="translate(59,76)"/><use href="#wa" transform="translate(59,86)"/><use href="#wb" transform="translate(59,96)"/><use href="#wa" transform="translate(59,106)"/>
+        <use href="#wa" transform="translate(59,116)"/><use href="#wb" transform="translate(59,126)"/><use href="#wa" transform="translate(59,136)"/><use href="#wb" transform="translate(59,146)"/><use href="#wa" transform="translate(59,156)"/>
+        <use href="#wa" transform="translate(91,130)"/><use href="#wb" transform="translate(91,140)"/><use href="#wa" transform="translate(91,150)"/><use href="#wb" transform="translate(91,160)"/>
+        <use href="#wb" transform="translate(122,102)"/><use href="#wa" transform="translate(122,112)"/><use href="#wb" transform="translate(122,122)"/><use href="#wa" transform="translate(122,132)"/>
+        <use href="#wb" transform="translate(122,142)"/><use href="#wa" transform="translate(122,152)"/><use href="#wb" transform="translate(122,162)"/>
+        <use href="#wc3" transform="translate(154,136)"/><use href="#wc3" transform="translate(154,146)"/><use href="#wc3" transform="translate(154,156)"/>
+        <use href="#wc3" transform="translate(183,154)"/><use href="#wc3" transform="translate(183,164)"/>
+      </g>
+      <!-- 楼顶的小红灯 -->
+      <circle cx="70" cy="55" r="1.3" fill="#f0a08a"/>
+
+      <!-- 近处的山丘和田野（乡间） -->
+      <path d="M196,214 C228,196 270,182 316,180 C352,178 380,182 400,184 L400,260 L196,260 Z" fill="url(#nearHill)"/>
+      <path d="M196,214 C228,196 270,182 316,180 C352,178 380,182 400,184" stroke="#7387a8" stroke-width="1.6" fill="none" opacity="0.8"/>
+      <!-- 乡间小屋 -->
+      <rect x="272" y="178" width="26" height="16" fill="#8d96b2"/>
+      <path d="M268,179 L285,166 L302,179 Z" fill="#7a7f9c"/>
+      <rect x="279" y="183" width="5" height="5" fill="#f7d98f"/>
+      <circle cx="281.5" cy="185.5" r="7" fill="url(#winGlow)"/>
+      <!-- 树 -->
+      <g fill="#4f6283">
+        <use href="#pine" transform="translate(312,160) scale(0.72)"/><use href="#pine" transform="translate(322,166) scale(0.56)"/>
+      </g>
+      <!-- 篱笆 -->
+      <g stroke="#7d8fae" stroke-width="1.1">
+        <line x1="220" y1="206" x2="400" y2="194"/>
+        <line x1="226" y1="201" x2="226" y2="210"/><line x1="248" y1="199" x2="248" y2="208"/><line x1="270" y1="197.6" x2="270" y2="206.6"/>
+        <line x1="292" y1="196" x2="292" y2="205"/><line x1="314" y1="194.6" x2="314" y2="203.6"/><line x1="336" y1="193" x2="336" y2="202"/>
+        <line x1="358" y1="191.6" x2="358" y2="200.6"/><line x1="380" y1="190" x2="380" y2="199"/>
+      </g>
+      <!-- 山坡上的小望远镜 -->
+      <g transform="translate(348,222)">
+        <path d="M0,0 L-6,14 M0,0 L6,14 M0,0 L0,15" stroke="#a7b2c8" stroke-width="1.2" stroke-linecap="round"/>
+        <g transform="rotate(-38)"><rect x="-10" y="-3" width="22" height="5" rx="1.5" fill="#d4d9e4"/><rect x="11" y="-3.6" width="3.6" height="6.2" rx="1" fill="#bfc7d6"/></g>
+      </g>
+
+      <!-- 从城市通往乡间的小路 -->
+      <path d="M200,236 C226,228 248,214 270,202 C276,199 280,197 284,195 L288,196 C282,200 270,208 258,218 C242,230 226,242 202,254 Z" fill="url(#road)"/>
+      <!-- 城乡交界的灌木 -->
+      <g>
+        <circle cx="210" cy="203" r="8" fill="#8a8399"/><circle cx="220" cy="199" r="7.5" fill="#827d96"/><circle cx="229" cy="203" r="6" fill="#7a7a96"/>
+        <circle cx="207" cy="197" r="4.5" fill="#9a92a6"/>
+      </g>
+      <!-- 城市的街道 -->
+      <path d="M0,204 L214,204 C206,222 200,240 198,260 L0,260 Z" fill="url(#street)"/>
+      <rect x="0" y="202" width="214" height="4" fill="#d6c6be"/>
+      <g stroke="#e4d6cd" stroke-width="2" stroke-dasharray="10 9" opacity="0.8"><line x1="0" y1="232" x2="202" y2="232"/></g>
+    </g>
+
+    <!-- 路灯的光晕 -->
+    <g>
+      <circle cx="44" cy="176" r="26" fill="url(#lampGlow)"/><circle cx="118" cy="176" r="26" fill="url(#lampGlow)"/><circle cx="184" cy="180" r="22" fill="url(#lampGlow)"/>
+      <ellipse cx="44" cy="214" rx="24" ry="6" fill="#fbe7bd" opacity="0.6"/><ellipse cx="118" cy="214" rx="24" ry="6" fill="#fbe7bd" opacity="0.6"/>
+    </g>
+    <g filter="url(#wc)">
+      <g fill="#7f7388">
+        <rect x="42.8" y="178" width="2.4" height="32"/><rect x="116.8" y="178" width="2.4" height="32"/><rect x="182.8" y="182" width="2" height="26"/>
+      </g>
+      <g fill="#fdf0c8">
+        <path d="M39,172 L49,172 L47,179 L41,179 Z"/><path d="M113,172 L123,172 L121,179 L115,179 Z"/><path d="M180,177 L188,177 L186.4,183 L181.6,183 Z"/>
+      </g>
+      <g fill="#7f7388">
+        <rect x="39" y="170" width="10" height="2.4" rx="1"/><rect x="113" y="170" width="10" height="2.4" rx="1"/><rect x="180" y="175" width="8" height="2.2" rx="1"/>
+      </g>
+      <!-- 路边的行道树 -->
+      <g>
+        <circle cx="82" cy="196" r="9" fill="#9fa68c"/><circle cx="76" cy="200" r="6" fill="#959c84"/><circle cx="88" cy="201" r="6" fill="#a8ae94"/>
+        <rect x="81" y="204" width="2" height="7" fill="#857580"/>
+        <circle cx="152" cy="197" r="8" fill="#9fa68c"/><circle cx="147" cy="201" r="5.5" fill="#959c84"/><circle cx="157" cy="201" r="5.5" fill="#a8ae94"/>
+        <rect x="151" y="204" width="2" height="7" fill="#857580"/>
+      </g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.18" fill="#5a4e5e">
+      <ellipse cx="82" cy="211" rx="11" ry="1.8"/><ellipse cx="152" cy="211" rx="10" ry="1.8"/><ellipse cx="348" cy="238" rx="10" ry="1.8"/>
+    </g>
+
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

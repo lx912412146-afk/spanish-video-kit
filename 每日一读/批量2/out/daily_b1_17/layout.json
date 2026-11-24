@@ -1,0 +1,300 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  640.203125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  648.203125
+ ],
+ "zh": [
+  96,
+  674.203125,
+  480,
+  890.328125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  245.203125,
+  131.625
+ ],
+ "header_gap": 197.5625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   549
+  ],
+  [
+   506,
+   560,
+   626,
+   578
+  ],
+  [
+   506,
+   589,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   3
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   1
+  ],
+  [
+   "11",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5,
+   "Este otoño por fin me he decidido a aprender a conducir. De"
+  ],
+  [
+   "mid",
+   3.6,
+   "momento las clases son en un aparcamiento vacío, lejos del tráfico."
+  ],
+  [
+   "mid",
+   4.2,
+   "Pilar, mi profesora, pone unos conos naranjas en el suelo para que"
+  ],
+  [
+   "mid",
+   5.2,
+   "practique cada giro. El primer día estaba tan nervioso que se me"
+  ],
+  [
+   "mid",
+   4.1,
+   "caló el coche en cuanto intenté arrancar. Pilar sonrió y me dijo que"
+  ],
+  [
+   "last",
+   3.5,
+   "a todo el mundo le pasa al principio."
+  ],
+  [
+   "mid",
+   4.8,
+   "Con el tiempo he ganado confianza y ya sé aparcar entre los"
+  ],
+  [
+   "mid",
+   6.3,
+   "conos sin tocar ninguno. Sin embargo, todavía me resulta difícil"
+  ],
+  [
+   "mid",
+   3.9,
+   "estar pendiente de los espejos mientras cambio de marcha. Pronto"
+  ],
+  [
+   "mid",
+   6.1,
+   "tendré el examen, y espero que los nervios no me jueguen una"
+  ],
+  [
+   "mid",
+   4.4,
+   "mala pasada. Según ella, es importante que duerma bien la noche"
+  ],
+  [
+   "mid",
+   6.3,
+   "anterior y que confíe en mí mismo. Cuando tenga el carné, me"
+  ],
+  [
+   "last",
+   3.5,
+   "gustaría llevar a mis abuelos de excursión a la sierra."
+  ]
+ ],
+ "es_max_gap": 6.3,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

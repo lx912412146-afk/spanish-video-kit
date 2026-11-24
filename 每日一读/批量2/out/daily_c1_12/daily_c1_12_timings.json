@@ -1,0 +1,251 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_12.mp3",
+ "duration": 55.99,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.42,
+  "sentence_max_dev_lu": 0.64,
+  "short_term_std_lu": 0.93,
+  "short_term_std_full_lu": 0.94,
+  "peak_dbfs": -1.8,
+  "buzz_hz": 5474.9,
+  "buzz_db": 6.5,
+  "comb_db": -0.68
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.18,
+   "parts": [
+    [
+     0.5,
+     2.18
+    ]
+   ],
+   "segments": [
+    "La necesidad del silencio."
+   ],
+   "text": "La necesidad del silencio.",
+   "read": "La necesidad del silencio."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.18,
+   "end": 9.01,
+   "parts": [
+    [
+     3.18,
+     5.7
+    ],
+    [
+     5.98,
+     9.01
+    ]
+   ],
+   "segments": [
+    "Un día de otoño bajé al lago antes del alba,",
+    "cuando la niebla todavía flotaba sobre el agua inmóvil."
+   ],
+   "text": "Un día de otoño bajé al lago antes del alba, cuando la niebla todavía flotaba sobre el agua inmóvil.",
+   "read": "Un día de otoño bajé al lago antes del alba, cuando la niebla todavía flotaba sobre el agua inmóvil."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.01,
+   "end": 16.82,
+   "parts": [
+    [
+     10.01,
+     12.3
+    ],
+    [
+     12.58,
+     16.82
+    ]
+   ],
+   "segments": [
+    "El embarcadero de madera estaba vacío,",
+    "y en la superficie se reflejaba la montaña con una nitidez casi irreal."
+   ],
+   "text": "El embarcadero de madera estaba vacío, y en la superficie se reflejaba la montaña con una nitidez casi irreal.",
+   "read": "El embarcadero de madera estaba vacío, y en la superficie se reflejaba la montaña con una nitidez casi irreal."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 17.82,
+   "end": 20.47,
+   "parts": [
+    [
+     17.82,
+     20.47
+    ]
+   ],
+   "segments": [
+    "Hasta el bosque parecía contener la respiración."
+   ],
+   "text": "Hasta el bosque parecía contener la respiración.",
+   "read": "Hasta el bosque parecía contener la respiración."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 21.47,
+   "end": 27.16,
+   "parts": [
+    [
+     21.47,
+     23.63
+    ],
+    [
+     23.91,
+     27.16
+    ]
+   ],
+   "segments": [
+    "Durante un largo rato no oí nada,",
+    "y aquella quietud me devolvió una calma que daba por perdida."
+   ],
+   "text": "Durante un largo rato no oí nada, y aquella quietud me devolvió una calma que daba por perdida.",
+   "read": "Durante un largo rato no oí nada, y aquella quietud me devolvió una calma que daba por perdida."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 28.16,
+   "end": 33.5,
+   "parts": [
+    [
+     28.16,
+     33.5
+    ]
+   ],
+   "segments": [
+    "Nos han enseñado a ver el silencio como un vacío incómodo que urge llenar con palabras o música."
+   ],
+   "text": "Nos han enseñado a ver el silencio como un vacío incómodo que urge llenar con palabras o música.",
+   "read": "Nos han enseñado a ver el silencio como un vacío incómodo que urge llenar con palabras o música."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 34.5,
+   "end": 41.04,
+   "parts": [
+    [
+     34.5,
+     35.24
+    ],
+    [
+     35.52,
+     37.69
+    ],
+    [
+     37.97,
+     41.04
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "es en él donde las ideas se asientan,",
+    "como el agua turbia que se aclara cuando deja de agitarse."
+   ],
+   "text": "Sin embargo, es en él donde las ideas se asientan, como el agua turbia que se aclara cuando deja de agitarse.",
+   "read": "Sin embargo, es en él donde las ideas se asientan, como el agua turbia que se aclara cuando deja de agitarse."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 42.04,
+   "end": 47.46,
+   "parts": [
+    [
+     42.04,
+     44.3
+    ],
+    [
+     44.58,
+     47.46
+    ]
+   ],
+   "segments": [
+    "No se trata de idealizar el aislamiento:",
+    "también necesitamos el bullicio de la vida compartida."
+   ],
+   "text": "No se trata de idealizar el aislamiento: también necesitamos el bullicio de la vida compartida.",
+   "read": "No se trata de idealizar el aislamiento: también necesitamos el bullicio de la vida compartida."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 48.46,
+   "end": 54.79,
+   "parts": [
+    [
+     48.46,
+     51.45
+    ],
+    [
+     51.73,
+     54.79
+    ]
+   ],
+   "segments": [
+    "Pero si nunca nos concediéramos unos minutos de silencio,",
+    "acabaríamos oyendo todas las voces menos la nuestra."
+   ],
+   "text": "Pero si nunca nos concediéramos unos minutos de silencio, acabaríamos oyendo todas las voces menos la nuestra.",
+   "read": "Pero si nunca nos concediéramos unos minutos de silencio, acabaríamos oyendo todas las voces menos la nuestra."
+  }
+ ]
+}

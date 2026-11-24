@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  642.234375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  650.234375
+ ],
+ "zh": [
+  96,
+  676.234375,
+  480,
+  938.609375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  264.890625,
+  131.625
+ ],
+ "header_gap": 143.828125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   386
+  ],
+  [
+   506,
+   397,
+   626,
+   415
+  ],
+  [
+   506,
+   426,
+   626,
+   444
+  ],
+  [
+   506,
+   455,
+   626,
+   473
+  ],
+  [
+   506,
+   484,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.6,
+   "Un viejo tocadiscos preside el salón desde un mueble bajo,"
+  ],
+  [
+   "mid",
+   5.1,
+   "junto a la lámpara de pie. Anoche, un disco que no oía desde la"
+  ],
+  [
+   "mid",
+   6.3,
+   "adolescencia me transportó de golpe a un verano junto al mar."
+  ],
+  [
+   "mid",
+   5.7,
+   "Ningún rostro sobrevivía en mi memoria, pero sí el olor a sal, la"
+  ],
+  [
+   "last",
+   3.5,
+   "arena caliente y una alegría sin motivo."
+  ],
+  [
+   "mid",
+   5.9,
+   "La música no guarda el pasado como un archivo, sino que"
+  ],
+  [
+   "mid",
+   6.5,
+   "reaviva el estado de ánimo con que lo vivimos. De ahí que su"
+  ],
+  [
+   "mid",
+   3.8,
+   "efecto sea involuntario: una melodía puede asaltarnos en cualquier"
+  ],
+  [
+   "mid",
+   3.9,
+   "parte y abrir una puerta que creíamos cerrada. Aunque los detalles"
+  ],
+  [
+   "mid",
+   7.5,
+   "se hayan desdibujado, la emoción regresa intacta, como si el"
+  ],
+  [
+   "mid",
+   7.9,
+   "tiempo no hubiera pasado por ella. Si pudiéramos elegir qué"
+  ],
+  [
+   "mid",
+   5.6,
+   "recuerdo despierta cada canción, nos privaríamos del vértigo de"
+  ],
+  [
+   "last",
+   3.5,
+   "reencontrarnos con quienes fuimos."
+  ]
+ ],
+ "es_max_gap": 7.9,
+ "es_font": [
+  13.1,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

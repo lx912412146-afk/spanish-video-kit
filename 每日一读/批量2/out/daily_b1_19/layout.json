@@ -1,0 +1,305 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  661.25
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  669.25
+ ],
+ "zh": [
+  96,
+  695.25,
+  480,
+  957.625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  223.6875,
+  131.625
+ ],
+ "header_gap": 206.421875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   3.5,
+   "Cerca de mi casa hay una callejuela que antes era bastante fea"
+  ],
+  [
+   "mid",
+   4.6,
+   "y oscura. El verano pasado, una artista del barrio cubrió casi toda"
+  ],
+  [
+   "mid",
+   3.7,
+   "una pared con un mural enorme. No representa nada concreto: son"
+  ],
+  [
+   "mid",
+   6,
+   "solo grandes manchas de amarillo, azul, verde y naranja. Desde"
+  ],
+  [
+   "mid",
+   4.6,
+   "entonces, la calle parece otra y mucha gente se detiene a mirarlo."
+  ],
+  [
+   "mid",
+   4.5,
+   "Cada sábado, además, un chico toca la guitarra delante del mural"
+  ],
+  [
+   "last",
+   3.5,
+   "con el estuche abierto en el suelo."
+  ],
+  [
+   "mid",
+   4.6,
+   "Los vecinos se sientan en el banco a escucharlo y algunos le"
+  ],
+  [
+   "mid",
+   5.3,
+   "dejan una moneda. Sin embargo, hay quien piensa que pintar en"
+  ],
+  [
+   "mid",
+   6.8,
+   "las paredes ensucia la ciudad. No creo que sea lo mismo una"
+  ],
+  [
+   "mid",
+   6.2,
+   "pintada rápida que una obra hecha con cariño. Para mí, el arte"
+  ],
+  [
+   "mid",
+   6.4,
+   "callejero acerca la belleza a quien nunca entraría en un museo."
+  ],
+  [
+   "mid",
+   7.3,
+   "Espero que otras calles grises se llenen pronto de color y de"
+  ],
+  [
+   "last",
+   0,
+   "música."
+  ]
+ ],
+ "es_max_gap": 7.3,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

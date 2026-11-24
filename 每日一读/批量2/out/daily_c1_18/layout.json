@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  642.234375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  650.234375
+ ],
+ "zh": [
+  96,
+  676.234375,
+  480,
+  892.359375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  237.25,
+  131.625
+ ],
+ "header_gap": 160.78125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   4
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   3
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.3,
+   "Cada mañana, antes de que amanezca, enciendo la lámpara"
+  ],
+  [
+   "mid",
+   7.5,
+   "y me siento ante una vieja máquina de escribir. Junto a ella"
+  ],
+  [
+   "mid",
+   5,
+   "aguardan una pila de folios en blanco, una pluma y una taza de"
+  ],
+  [
+   "mid",
+   4.2,
+   "café que acaba enfriándose. El primer borrador siempre es torpe,"
+  ],
+  [
+   "last",
+   3.6,
+   "y a menudo tacho más líneas de las que conservo."
+  ],
+  [
+   "mid",
+   6.3,
+   "Imaginamos con frecuencia al escritor como un iluminado,"
+  ],
+  [
+   "mid",
+   6.6,
+   "cuando su trabajo se parece más al de un artesano. El oficio"
+  ],
+  [
+   "mid",
+   4.7,
+   "consiste en pulir cada frase como el carpintero lija una tabla, sin"
+  ],
+  [
+   "mid",
+   4.2,
+   "saber si alguien apreciará el esfuerzo. Es cierto que la inspiración"
+  ],
+  [
+   "mid",
+   5.6,
+   "existe, pero rara vez acude a quien no la espera trabajando. Si"
+  ],
+  [
+   "mid",
+   4.7,
+   "esperase a sentirme inspirado para empezar, mis folios seguirían"
+  ],
+  [
+   "mid",
+   5.2,
+   "en blanco; por eso escribo incluso los días en que nada parece"
+  ],
+  [
+   "last",
+   0,
+   "fluir."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

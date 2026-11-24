@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_11",
+ "level": "B1",
+ "no": 11,
+ "title_es": "Las plantas en casa",
+ "title_zh": "家里的绿植",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 11 篇。原创短文。简单过去时 me mudé、compré、puse、llegaron，过去未完成时 me parecía，现在完成时 he aprendido；现在虚拟式 prefiere que la riegue、agradece que la rocíe；条件式 volvería a；连接语 por eso、así que、mientras que、por su parte、además、aunque。10 句，142 词。planta colgante 是“垂吊植物”，对应插图里的吊兰，译文照原文译作“垂吊植物”，不写成“吊兰”；第 3 句 otra con hojas tan grandes como un plato 对应插图里的龟背竹，原文不用 monstera 这类学名；第 6 句 la colgante、第 7 句 la de hojas grandes 都是省略了 planta 的说法；pulverizador 是喷雾的小水壶，对应插图里的小喷壶，释义写“喷壶”；alféizar 是窗台，estante 是架子，对应插图里的窗台和木架。第 1 句 triste 用来说房间，译作“冷清”，第 10 句 vacía y triste 呼应第 1 句。第 8 句 no a todas les gusta el sol directo 是“并不是每一盆都喜欢阳光直射”：仙人掌放在窗台上，喜欢直晒，其余几盆怕直晒，所以不说 todas 都最好别让阳光直接晒到（审校改，原稿是 pero es mejor que el sol no les dé directamente）。没有列举的逗号：第 4 句 estante, 后面是并列分句，第 6 句 agua, 后面是 mientras que 引出的分句，照常停顿。第 4 句不用 está lleno y（ll 后面紧跟 y 容易吞掉 y），改用 no cabe ni una maceta más；句末和逗号前尽量不放以 -s 结尾的复数名词。叙述者是男性：第 9 句 cansado 用阳性。词汇里 mudarse 原文是 mudé，caber 原文是 cabe，regar 原文是虚拟式 riegue，rociar 原文是 rocíe，volver a 原文是 volvería a。录音核对后改：第 9 句 me tranquiliza enseguida 被识别成 tranquiliz enseguida（词尾 a 和后面的 e 连在一起被吞），改为 me tranquiliza de inmediato，译文“立刻”不变。第二次合成后又改：me tranquiliza de inmediato 重新合成后识别成 Cuando lle cansado … tranquiliza inmediato（llego 和 de 被吞），整句改为 Cuando vuelvo cansado del trabajo, ver tanto verde me tranquiliza.（tranquiliza 放在句末），译文“立刻平静下来”→“平静下来”。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "mudarse",
+   "搬家",
+   "mudé"
+  ],
+  [
+   "vacío",
+   "空荡荡的",
+   "vacío"
+  ],
+  [
+   "alféizar",
+   "窗台",
+   "alféizar"
+  ],
+  [
+   "colgante",
+   "垂吊的",
+   "colgante"
+  ],
+  [
+   "caber",
+   "放得下",
+   "cabe"
+  ],
+  [
+   "estante",
+   "架子",
+   "estante"
+  ],
+  [
+   "requerir",
+   "需要",
+   "requiere"
+  ],
+  [
+   "así que",
+   "所以",
+   "así que"
+  ],
+  [
+   "mientras que",
+   "而",
+   "mientras que"
+  ],
+  [
+   "regar",
+   "浇水",
+   "riegue"
+  ],
+  [
+   "por su parte",
+   "至于",
+   "Por su parte"
+  ],
+  [
+   "rociar",
+   "喷水",
+   "rocíe"
+  ],
+  [
+   "pulverizador",
+   "喷壶",
+   "pulverizador"
+  ],
+  [
+   "tranquilizar",
+   "使平静",
+   "tranquiliza"
+  ],
+  [
+   "volver a",
+   "重新",
+   "volvería a"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cuando me mudé a este piso, el salón me parecía vacío y un poco triste.",
+    "zh": "刚搬进这套公寓的时候，我觉得客厅空荡荡的，还有点冷清。"
+   },
+   {
+    "es": "Por eso compré mi primera planta, un cactus que puse en el alféizar de la ventana.",
+    "zh": "所以我买了第一盆植物：一棵仙人掌，把它放在了窗台上。"
+   },
+   {
+    "es": "Más tarde llegaron una planta colgante y otra con hojas tan grandes como un plato.",
+    "zh": "后来，家里又添了一盆垂吊植物，还有一盆叶子像盘子那么大的绿植。"
+   },
+   {
+    "es": "Hoy no cabe ni una maceta más en el estante, y este rincón parece un pequeño jardín.",
+    "zh": "如今，架子上再也放不下一个花盆了，这个角落就像一座小花园。"
+   },
+   {
+    "es": "Cada planta requiere un cuidado especial, así que he aprendido a observarlas con atención.",
+    "zh": "每盆植物都需要特别的照料，所以我学会了细心地观察它们。"
+   }
+  ],
+  [
+   {
+    "es": "El cactus casi no necesita agua, mientras que la colgante prefiere que la riegue a menudo.",
+    "zh": "仙人掌几乎不需要水，而那盆垂吊植物却喜欢我经常给它浇水。"
+   },
+   {
+    "es": "Por su parte, la de hojas grandes agradece que la rocíe con un pequeño pulverizador.",
+    "zh": "至于叶子大的那盆，它很喜欢我用小喷壶给它喷水。"
+   },
+   {
+    "es": "Además, todas necesitan luz, aunque no a todas les gusta el sol directo.",
+    "zh": "此外，它们都需要光照，不过并不是每一盆都喜欢阳光直射。"
+   },
+   {
+    "es": "Cuando vuelvo cansado del trabajo, ver tanto verde me tranquiliza.",
+    "zh": "每当我下班后疲惫地回到家，满眼的绿色总能让我平静下来。"
+   },
+   {
+    "es": "Sin este rincón verde, mi casa volvería a parecer vacía y triste.",
+    "zh": "要是没有这个绿色的角落，我的家又会变得空荡而冷清。"
+   }
+  ]
+ ]
+}

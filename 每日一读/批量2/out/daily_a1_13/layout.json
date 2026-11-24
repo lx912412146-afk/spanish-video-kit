@@ -1,0 +1,301 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  578.625
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  586.625
+ ],
+ "zh": [
+  96,
+  612.625,
+  480,
+  805.625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  217.0625,
+  131.625
+ ],
+ "header_gap": 184.234375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.2,
+   "Hoy voy al zoo con mi primo Sergio. Sergio es pequeño y su"
+  ],
+  [
+   "mid",
+   3.8,
+   "animal favorito es la jirafa. Primero vamos a ver a la jirafa. La jirafa"
+  ],
+  [
+   "mid",
+   4.7,
+   "está al lado de un árbol muy grande. Tiene el cuello muy largo y"
+  ],
+  [
+   "mid",
+   6,
+   "come las hojas del árbol. Sergio mira hacia arriba con la boca"
+  ],
+  [
+   "last",
+   0,
+   "abierta."
+  ],
+  [
+   "mid",
+   4.3,
+   "A lo lejos hay un elefante gris enorme. El elefante toma agua"
+  ],
+  [
+   "mid",
+   6.1,
+   "con la trompa y luego se moja la espalda. Después vemos un"
+  ],
+  [
+   "mid",
+   6.8,
+   "león que duerme tranquilo al sol. Al mediodía comemos unos"
+  ],
+  [
+   "mid",
+   6.8,
+   "bocadillos debajo de un árbol. Sergio dice que la jirafa es su"
+  ],
+  [
+   "last",
+   3.6,
+   "mejor amiga. Al final del día estoy cansado, pero muy contento."
+  ]
+ ],
+ "es_max_gap": 6.8,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

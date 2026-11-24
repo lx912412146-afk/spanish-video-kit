@@ -1,0 +1,284 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  642.234375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  650.234375
+ ],
+ "zh": [
+  96,
+  676.234375,
+  480,
+  915.484375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  271.171875,
+  131.625
+ ],
+ "header_gap": 117.578125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   3
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.2,
+   "Un día de otoño bajé al lago antes del alba, cuando la niebla"
+  ],
+  [
+   "mid",
+   4.3,
+   "todavía flotaba sobre el agua inmóvil. El embarcadero de madera"
+  ],
+  [
+   "mid",
+   5.1,
+   "estaba vacío, y en la superficie se reflejaba la montaña con una"
+  ],
+  [
+   "mid",
+   3.6,
+   "nitidez casi irreal. Hasta el bosque parecía contener la respiración."
+  ],
+  [
+   "mid",
+   5.1,
+   "Durante un largo rato no oí nada, y aquella quietud me devolvió"
+  ],
+  [
+   "last",
+   3.6,
+   "una calma que daba por perdida."
+  ],
+  [
+   "mid",
+   4.1,
+   "Nos han enseñado a ver el silencio como un vacío incómodo"
+  ],
+  [
+   "mid",
+   6.3,
+   "que urge llenar con palabras o música. Sin embargo, es en él"
+  ],
+  [
+   "mid",
+   5.3,
+   "donde las ideas se asientan, como el agua turbia que se aclara"
+  ],
+  [
+   "mid",
+   5.3,
+   "cuando deja de agitarse. No se trata de idealizar el aislamiento:"
+  ],
+  [
+   "mid",
+   6.4,
+   "también necesitamos el bullicio de la vida compartida. Pero si"
+  ],
+  [
+   "mid",
+   3.7,
+   "nunca nos concediéramos unos minutos de silencio, acabaríamos"
+  ],
+  [
+   "last",
+   3.6,
+   "oyendo todas las voces menos la nuestra."
+  ]
+ ],
+ "es_max_gap": 6.4,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

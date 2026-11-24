@@ -1,0 +1,275 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_18.mp3",
+ "duration": 60.117,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.39,
+  "short_term_std_lu": 0.92,
+  "short_term_std_full_lu": 0.93,
+  "peak_dbfs": -1.38,
+  "buzz_hz": 10647.9,
+  "buzz_db": 3.9,
+  "comb_db": -0.19
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.49,
+   "parts": [
+    [
+     0.5,
+     2.49
+    ]
+   ],
+   "segments": [
+    "Una tarde en la biblioteca."
+   ],
+   "text": "Una tarde en la biblioteca.",
+   "read": "Una tarde en la biblioteca."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.39,
+   "end": 8.092,
+   "parts": [
+    [
+     3.39,
+     8.092
+    ]
+   ],
+   "segments": [
+    "Dentro de poco tengo exámenes y en casa hay mucho ruido."
+   ],
+   "text": "Dentro de poco tengo exámenes y en casa hay mucho ruido.",
+   "read": "Dentro de poco tengo exámenes y en casa hay mucho ruido."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.992,
+   "end": 13.423,
+   "parts": [
+    [
+     8.992,
+     13.423
+    ]
+   ],
+   "segments": [
+    "Ayer por la tarde fui a estudiar a la biblioteca pública."
+   ],
+   "text": "Ayer por la tarde fui a estudiar a la biblioteca pública.",
+   "read": "Ayer por la tarde fui a estudiar a la biblioteca pública."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.323,
+   "end": 19.403,
+   "parts": [
+    [
+     14.323,
+     19.403
+    ]
+   ],
+   "segments": [
+    "La sala de lectura tenía estanterías muy altas y un gran ventanal."
+   ],
+   "text": "La sala de lectura tenía estanterías muy altas y un gran ventanal.",
+   "read": "La sala de lectura tenía estanterías muy altas y un gran ventanal."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.303,
+   "end": 24.721,
+   "parts": [
+    [
+     20.303,
+     24.721
+    ]
+   ],
+   "segments": [
+    "Me senté a una mesa larga de madera y encendí una lámpara."
+   ],
+   "text": "Me senté a una mesa larga de madera y encendí una lámpara.",
+   "read": "Me senté a una mesa larga de madera y encendí una lámpara."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 25.621,
+   "end": 28.881,
+   "parts": [
+    [
+     25.621,
+     28.881
+    ]
+   ],
+   "segments": [
+    "Todo estaba en silencio y entraba una luz suave."
+   ],
+   "text": "Todo estaba en silencio y entraba una luz suave.",
+   "read": "Todo estaba en silencio y entraba una luz suave."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.781,
+   "end": 33.341,
+   "parts": [
+    [
+     29.781,
+     33.341
+    ]
+   ],
+   "segments": [
+    "Estudié durante dos horas sin mirar el móvil ni una vez."
+   ],
+   "text": "Estudié durante dos horas sin mirar el móvil ni una vez.",
+   "read": "Estudié durante dos horas sin mirar el móvil ni una vez."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 34.241,
+   "end": 38.321,
+   "parts": [
+    [
+     34.241,
+     38.321
+    ]
+   ],
+   "segments": [
+    "Después di una vuelta por la sala para descansar un rato."
+   ],
+   "text": "Después di una vuelta por la sala para descansar un rato.",
+   "read": "Después di una vuelta por la sala para descansar un rato."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.221,
+   "end": 44.151,
+   "parts": [
+    [
+     39.221,
+     44.151
+    ]
+   ],
+   "segments": [
+    "Por casualidad encontré una novela que me encantaba cuando era pequeño."
+   ],
+   "text": "Por casualidad encontré una novela que me encantaba cuando era pequeño.",
+   "read": "Por casualidad encontré una novela que me encantaba cuando era pequeño."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 45.051,
+   "end": 48.631,
+   "parts": [
+    [
+     45.051,
+     48.631
+    ]
+   ],
+   "segments": [
+    "La abrí sobre la mesa y la leí toda la tarde."
+   ],
+   "text": "La abrí sobre la mesa y la leí toda la tarde.",
+   "read": "La abrí sobre la mesa y la leí toda la tarde."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 49.531,
+   "end": 52.857,
+   "parts": [
+    [
+     49.531,
+     51.267
+    ],
+    [
+     51.547,
+     52.857
+    ]
+   ],
+   "segments": [
+    "Cuando levanté la vista,",
+    "ya era de noche."
+   ],
+   "text": "Cuando levanté la vista, ya era de noche.",
+   "read": "Cuando levanté la vista, ya era de noche."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 53.757,
+   "end": 58.917,
+   "parts": [
+    [
+     53.757,
+     54.887
+    ],
+    [
+     55.167,
+     58.917
+    ]
+   ],
+   "segments": [
+    "Al salir,",
+    "me llevé la novela prestada para terminarla en casa."
+   ],
+   "text": "Al salir, me llevé la novela prestada para terminarla en casa.",
+   "read": "Al salir, me llevé la novela prestada para terminarla en casa."
+  }
+ ]
+}

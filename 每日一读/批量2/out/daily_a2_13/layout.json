@@ -1,0 +1,298 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  607.828125
+ ],
+ "zh": [
+  96,
+  633.828125,
+  480,
+  826.828125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  295.28125,
+  131.625
+ ],
+ "header_gap": 107.875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.4,
+   "En enero pasé un fin de semana en la nieve con mi amigo"
+  ],
+  [
+   "mid",
+   5.1,
+   "Javier. Alquilamos una cabaña de madera al pie de la montaña."
+  ],
+  [
+   "mid",
+   5.3,
+   "Al llegar, vimos el tejado de la cabaña cubierto de nieve. Había"
+  ],
+  [
+   "mid",
+   4,
+   "pinos muy altos y no se oía ningún ruido. Javier ya sabía esquiar,"
+  ],
+  [
+   "last",
+   3.6,
+   "pero para mí era la primera vez."
+  ],
+  [
+   "mid",
+   4,
+   "El sábado por la mañana fui a mi primera clase de esquí. Me"
+  ],
+  [
+   "mid",
+   5.4,
+   "caí muchas veces en la nieve. Pero por la tarde ya podía bajar"
+  ],
+  [
+   "mid",
+   4.2,
+   "despacio sin caerme. Cuando volvimos a la cabaña, dejamos los"
+  ],
+  [
+   "mid",
+   7.5,
+   "esquís junto a la puerta. Luego nos sentamos delante de la"
+  ],
+  [
+   "mid",
+   6.3,
+   "chimenea con un chocolate caliente. Me dolía todo el cuerpo,"
+  ],
+  [
+   "last",
+   3.6,
+   "pero estaba muy contento."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  13.1,
+  0.0
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

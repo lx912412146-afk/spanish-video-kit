@@ -1,0 +1,283 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_12.mp3",
+ "duration": 58.39,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.54,
+  "sentence_max_dev_lu": 0.6,
+  "short_term_std_lu": 0.92,
+  "short_term_std_full_lu": 0.93,
+  "peak_dbfs": -1.68,
+  "buzz_hz": 8781.7,
+  "buzz_db": 4.7,
+  "comb_db": -0.35
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.78,
+   "parts": [
+    [
+     0.5,
+     1.78
+    ]
+   ],
+   "segments": [
+    "La fauna urbana."
+   ],
+   "text": "La fauna urbana.",
+   "read": "La fauna urbana."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.78,
+   "end": 7.99,
+   "parts": [
+    [
+     2.78,
+     4.64
+    ],
+    [
+     4.92,
+     7.99
+    ]
+   ],
+   "segments": [
+    "Ayer, al atardecer,",
+    "me encontré cara a cara con un zorro en el parque."
+   ],
+   "text": "Ayer, al atardecer, me encontré cara a cara con un zorro en el parque.",
+   "read": "Ayer, al atardecer, me encontré cara a cara con un zorro en el parque."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.99,
+   "end": 13.1,
+   "parts": [
+    [
+     8.99,
+     13.1
+    ]
+   ],
+   "segments": [
+    "Estaba quieto junto a un arbusto y me miraba con más curiosidad que miedo."
+   ],
+   "text": "Estaba quieto junto a un arbusto y me miraba con más curiosidad que miedo.",
+   "read": "Estaba quieto junto a un arbusto y me miraba con más curiosidad que miedo."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.1,
+   "end": 18.29,
+   "parts": [
+    [
+     14.1,
+     15.49
+    ],
+    [
+     15.77,
+     18.29
+    ]
+   ],
+   "segments": [
+    "Posados en un cable,",
+    "unos pájaros parecían vigilar la escena."
+   ],
+   "text": "Posados en un cable, unos pájaros parecían vigilar la escena.",
+   "read": "Posados en un cable, unos pájaros parecían vigilar la escena."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.29,
+   "end": 23.31,
+   "parts": [
+    [
+     19.29,
+     23.31
+    ]
+   ],
+   "segments": [
+    "Nunca habría imaginado que un animal salvaje viviera tan cerca de casa."
+   ],
+   "text": "Nunca habría imaginado que un animal salvaje viviera tan cerca de casa.",
+   "read": "Nunca habría imaginado que un animal salvaje viviera tan cerca de casa."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 24.31,
+   "end": 28.91,
+   "parts": [
+    [
+     24.31,
+     25.26
+    ],
+    [
+     25.54,
+     28.91
+    ]
+   ],
+   "segments": [
+    "En realidad,",
+    "la fauna urbana es más abundante de lo que solemos creer."
+   ],
+   "text": "En realidad, la fauna urbana es más abundante de lo que solemos creer.",
+   "read": "En realidad, la fauna urbana es más abundante de lo que solemos creer."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.91,
+   "end": 36.35,
+   "parts": [
+    [
+     29.91,
+     31.92
+    ],
+    [
+     32.2,
+     36.35
+    ]
+   ],
+   "segments": [
+    "A medida que las ciudades crecen,",
+    "muchas especies aprovechan la comida y el refugio que estas les brindan."
+   ],
+   "text": "A medida que las ciudades crecen, muchas especies aprovechan la comida y el refugio que estas les brindan.",
+   "read": "A medida que las ciudades crecen, muchas especies aprovechan la comida y el refugio que estas les brindan."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 37.35,
+   "end": 41.82,
+   "parts": [
+    [
+     37.35,
+     38.34
+    ],
+    [
+     38.62,
+     41.82
+    ]
+   ],
+   "segments": [
+    "De hecho,",
+    "es probable que aquel zorro viva de lo que tiramos a la basura."
+   ],
+   "text": "De hecho, es probable que aquel zorro viva de lo que tiramos a la basura.",
+   "read": "De hecho, es probable que aquel zorro viva de lo que tiramos a la basura."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 42.82,
+   "end": 49.55,
+   "parts": [
+    [
+     42.82,
+     44.11
+    ],
+    [
+     44.39,
+     45.6
+    ],
+    [
+     45.88,
+     47.88
+    ],
+    [
+     48.16,
+     49.55
+    ]
+   ],
+   "segments": [
+    "No obstante,",
+    "darles de comer,",
+    "aunque parezca un gesto amable,",
+    "les crea dependencia."
+   ],
+   "text": "No obstante, darles de comer, aunque parezca un gesto amable, les crea dependencia.",
+   "read": "No obstante, darles de comer, aunque parezca un gesto amable, les crea dependencia."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 50.55,
+   "end": 57.19,
+   "parts": [
+    [
+     50.55,
+     51.68
+    ],
+    [
+     51.96,
+     52.94
+    ],
+    [
+     53.22,
+     57.19
+    ]
+   ],
+   "segments": [
+    "Lo sensato,",
+    "por tanto,",
+    "es respetar su espacio y recordar que la ciudad también es su hogar."
+   ],
+   "text": "Lo sensato, por tanto, es respetar su espacio y recordar que la ciudad también es su hogar.",
+   "read": "Lo sensato, por tanto, es respetar su espacio y recordar que la ciudad también es su hogar."
+  }
+ ]
+}

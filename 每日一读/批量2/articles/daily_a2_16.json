@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_16",
+ "level": "A2",
+ "no": 16,
+ "title_es": "Un día en la granja",
+ "title_zh": "农场的一天",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 16 篇。原创短文。简单过去时叙述在农场干活的一天（visité、llegué、vi、recogimos、dimos de comer、hicimos、me enseñó），过去未完成时描写农场和状态（había、buscaban、era、estaba cansado），现在完成时 Nunca he comido 表示到现在为止的经历，结尾回到现在时 bebo、me acuerdo。11 句，117 词。没有需要不停顿的列举逗号：第 9 句 Por la tarde 后、第 10 句 pero 前、第 11 句 cuando 从句两边的逗号照常停顿。granero 是存放粮草的谷仓；dar de comer 是“喂”，原文 dimos de comer；hicimos un montón de heno 译作“堆了一大堆干草”；cercado 是围起来的栏，释义取“围栏”；栅栏按要求不用 valla（以前被认成同音的 baya），也不用第一批用过的 cerca，改用 cercado；duro 指活儿辛苦，释义取“辛苦的”；tortilla 是西班牙的鸡蛋饼，译作“煎蛋饼”；ordeñar la vaca 译作“给奶牛挤奶”；acordarse de 原文是 me acuerdo de；cansado 用阳性。词头 granja 在标题里，排在最前。红色谷仓、母鸡、奶牛、干草堆和木围栏都写进了文中。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "granja",
+   "农场",
+   "granja"
+  ],
+  [
+   "granero",
+   "谷仓",
+   "granero"
+  ],
+  [
+   "vaca",
+   "奶牛",
+   "vaca"
+  ],
+  [
+   "gallina",
+   "母鸡",
+   "gallinas"
+  ],
+  [
+   "recoger",
+   "捡",
+   "recogimos"
+  ],
+  [
+   "huevo",
+   "鸡蛋",
+   "huevos"
+  ],
+  [
+   "dar de comer",
+   "喂",
+   "dimos de comer"
+  ],
+  [
+   "montón",
+   "一大堆",
+   "montón"
+  ],
+  [
+   "heno",
+   "干草",
+   "heno"
+  ],
+  [
+   "cercado",
+   "围栏",
+   "cercado"
+  ],
+  [
+   "duro",
+   "辛苦的",
+   "duro"
+  ],
+  [
+   "mediodía",
+   "中午",
+   "mediodía"
+  ],
+  [
+   "ordeñar",
+   "挤奶",
+   "ordeñar"
+  ],
+  [
+   "al principio",
+   "起初",
+   "Al principio"
+  ],
+  [
+   "acordarse de",
+   "想起",
+   "acuerdo de"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El domingo pasado visité la granja de mi amigo Alberto.",
+    "zh": "上周日，我去了朋友阿尔贝托家的农场。"
+   },
+   {
+    "es": "Llegué muy temprano y lo primero que vi fue un granero rojo.",
+    "zh": "我到得很早，第一眼看到的是一座红色的谷仓。"
+   },
+   {
+    "es": "Al lado había una vaca y algunas gallinas que buscaban comida.",
+    "zh": "谷仓旁边有一头奶牛，还有几只正在找食吃的母鸡。"
+   },
+   {
+    "es": "Luego recogimos los huevos y dimos de comer a la vaca.",
+    "zh": "接着，我们捡了鸡蛋，又给奶牛喂了食。"
+   },
+   {
+    "es": "Más tarde hicimos un montón de heno junto al cercado de madera.",
+    "zh": "后来，我们在木头围栏旁边堆了一大堆干草。"
+   }
+  ],
+  [
+   {
+    "es": "Era un trabajo duro y a mediodía estaba muy cansado.",
+    "zh": "这活儿很辛苦，到中午我已经很累了。"
+   },
+   {
+    "es": "Su madre hizo una tortilla con los huevos de la mañana.",
+    "zh": "他妈妈用早上捡的鸡蛋做了一个煎蛋饼。"
+   },
+   {
+    "es": "Nunca he comido una tortilla tan rica.",
+    "zh": "我从来没吃过这么好吃的煎蛋饼。"
+   },
+   {
+    "es": "Por la tarde, el padre de Alberto me enseñó a ordeñar la vaca.",
+    "zh": "下午，阿尔贝托的爸爸教我给奶牛挤奶。"
+   },
+   {
+    "es": "Al principio fue difícil, pero al final lo hice bastante bien.",
+    "zh": "一开始很难，不过最后我挤得还挺不错。"
+   },
+   {
+    "es": "Ahora, cuando bebo leche, me acuerdo de aquella vaca.",
+    "zh": "现在每次喝牛奶，我都会想起那头奶牛。"
+   }
+  ]
+ ]
+}

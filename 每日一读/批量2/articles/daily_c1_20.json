@@ -1,0 +1,129 @@
+{
+ "id": "daily_c1_20",
+ "level": "C1",
+ "no": 20,
+ "title_es": "La música y la memoria",
+ "title_zh": "音乐与记忆",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 20 篇。原创短文。主要语法：过去未完成时 + desde 表“自……以来一直没有”（que no oía desde la adolescencia），de golpe，pero sí 的省略结构，no…sino que…，de ahí que + 现在虚拟式，现在完成虚拟式表让步（Aunque los detalles se hayan desdibujado），como si + 过去完成虚拟式，过去虚拟式条件句（Si pudiéramos…, nos privaríamos…），间接疑问句（qué recuerdo despierta cada canción）。7 句，132 词。第一人称叙述者是男性（讲述自己少年时代的夏天），没有用到需要变性的形容词。特别判断：第 1 句原为 …entre el sillón y la lámpara de pie, tengo un viejo tocadiscos，sillón 后紧跟 y、句末 tocadiscos 的词尾 s 都有被吞的风险，改为 Un viejo tocadiscos preside una esquina del salón, entre la lámpara de pie y el sillón；审校时对照插图，从左到右是扶手椅、落地灯、矮柜，唱机放在矮柜上，并不在落地灯和扶手椅之间，再改为 Un viejo tocadiscos preside el salón desde un mueble bajo, junto a la lámpara de pie，译文改为“一台老唱机立在落地灯旁的一只矮柜上，在客厅里占据着显要的位置”，tocadiscos 仍不在停顿前，句中也没有 ll 后紧跟 y；presidir 在这里是“占据显要位置”，选入词汇；第 3 句 el olor a sal, la arena caliente y una alegría sin motivo 是名词列举，sal 后的逗号不停顿，已登记；pero sí 后面省略了动词 sobrevivían；第 4 句 lo 指 el pasado；第 6 句 ella 指 la emoción；第 7 句 quienes fuimos 指“昔日的我们”，译作“昔日的自己”；el vértigo 是比喻义，译作“令人眩晕的悸动”。标题里的 música、memoria 太基础，没有放进词汇表。插图里的老式唱机、矮柜和落地灯对应第 1 句（扶手椅正文没有写），一摞唱片对应第 2 句的 un disco。审校另改：第 7 句原为 qué recuerdos despierta，qué 不分单复数、动词又是单数，recuerdos 的词尾 s 一旦被吞，识别出的单数也完全合语法，改为单数 qué recuerdo despierta，译文“哪些回忆”改为“哪段回忆”；第 3 句译文“滚烫的沙子，和一种……”改为“滚烫的沙子，还有一种……”，中文列举不在“和”前加逗号。词数不变。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "sal,",
+    "why": "列举：el olor a sal, la arena caliente y una alegría sin motivo（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "tocadiscos",
+   "唱机",
+   "tocadiscos"
+  ],
+  [
+   "presidir",
+   "占据显要处",
+   "preside"
+  ],
+  [
+   "lámpara de pie",
+   "落地灯",
+   "lámpara de pie"
+  ],
+  [
+   "de golpe",
+   "突然",
+   "de golpe"
+  ],
+  [
+   "rostro",
+   "面孔",
+   "rostro"
+  ],
+  [
+   "sin motivo",
+   "无缘无故",
+   "sin motivo"
+  ],
+  [
+   "reavivar",
+   "重新唤起",
+   "reaviva"
+  ],
+  [
+   "estado de ánimo",
+   "心境",
+   "estado de ánimo"
+  ],
+  [
+   "de ahí que",
+   "因此",
+   "De ahí que"
+  ],
+  [
+   "asaltar",
+   "突然袭来",
+   "asaltarnos"
+  ],
+  [
+   "desdibujarse",
+   "变模糊",
+   "desdibujado"
+  ],
+  [
+   "como si",
+   "仿佛",
+   "como si"
+  ],
+  [
+   "privarse",
+   "错失",
+   "privaríamos"
+  ],
+  [
+   "vértigo",
+   "眩晕",
+   "vértigo"
+  ],
+  [
+   "reencontrarse",
+   "重逢",
+   "reencontrarnos"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Un viejo tocadiscos preside el salón desde un mueble bajo, junto a la lámpara de pie.",
+    "zh": "一台老唱机立在落地灯旁的一只矮柜上，在客厅里占据着显要的位置。"
+   },
+   {
+    "es": "Anoche, un disco que no oía desde la adolescencia me transportó de golpe a un verano junto al mar.",
+    "zh": "昨晚，一张我自少年时代起就再没听过的唱片，一下子把我带回了某个海边的夏天。"
+   },
+   {
+    "es": "Ningún rostro sobrevivía en mi memoria, pero sí el olor a sal, la arena caliente y una alegría sin motivo.",
+    "zh": "那时的面孔已没有一张留在我的记忆里，留下的却是海盐的气味、滚烫的沙子，还有一种无缘无故的快乐。"
+   }
+  ],
+  [
+   {
+    "es": "La música no guarda el pasado como un archivo, sino que reaviva el estado de ánimo con que lo vivimos.",
+    "zh": "音乐并不像档案那样保存过去，而是重新唤起我们当时经历它的心境。"
+   },
+   {
+    "es": "De ahí que su efecto sea involuntario: una melodía puede asaltarnos en cualquier parte y abrir una puerta que creíamos cerrada.",
+    "zh": "正因如此，音乐的作用是不由自主的：一段旋律可能在任何地方突然袭来，推开一扇我们以为早已关上的门。"
+   },
+   {
+    "es": "Aunque los detalles se hayan desdibujado, la emoción regresa intacta, como si el tiempo no hubiera pasado por ella.",
+    "zh": "即使细节已经模糊，那份情感却完好如初地回来，仿佛时间从未在它身上流过。"
+   },
+   {
+    "es": "Si pudiéramos elegir qué recuerdo despierta cada canción, nos privaríamos del vértigo de reencontrarnos con quienes fuimos.",
+    "zh": "倘若我们能够选择每首歌唤起哪段回忆，便会错失与昔日的自己重逢时那种令人眩晕的悸动。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：睡前阅读（卧室床头：亮着的床头灯、一杯热茶、一副眼镜，柔软的被子上摊开一本书，小窗外是夜空和月亮；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#fbf1e0"/><stop offset="0.5" stop-color="#f3e2ca"/><stop offset="1" stop-color="#e7d1b6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78" cy="96" r="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff6de" stop-opacity="0.95"/><stop offset="0.5" stop-color="#fdf0d8" stop-opacity="0.5"/><stop offset="1" stop-color="#fdf0d8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a7ba3"/><stop offset="1" stop-color="#9ea3c0"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfc29f"/><stop offset="1" stop-color="#d5b590"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d3a97f"/><stop offset="1" stop-color="#c0946b"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fcefcb"/><stop offset="1" stop-color="#f5d791"/>
+    </linearGradient>
+    <linearGradient id="vase" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#97b495"/><stop offset="0.45" stop-color="#bcd3b6"/><stop offset="1" stop-color="#8eab8c"/>
+    </linearGradient>
+    <linearGradient id="quilt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3d1dd"/><stop offset="1" stop-color="#a7bacb"/>
+    </linearGradient>
+    <linearGradient id="pillow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf7ef"/><stop offset="1" stop-color="#ebe2d4"/>
+    </linearGradient>
+    <mask id="moon" maskUnits="userSpaceOnUse" x="310" y="24" width="40" height="40">
+      <circle cx="330" cy="44" r="9.5" fill="#fff"/><circle cx="334.5" cy="40.5" r="8" fill="#000"/>
+    </mask>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面、灯光和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect width="400" height="260" fill="url(#glow)"/>
+    <rect x="0" y="214" width="400" height="46" fill="url(#floor)"/>
+    <g stroke="#c9a67f" stroke-width="0.8" opacity="0.6">
+      <line x1="0" y1="230" x2="400" y2="230"/><line x1="0" y1="246" x2="400" y2="246"/>
+      <line x1="60" y1="214" x2="57" y2="230"/><line x1="150" y1="230" x2="147" y2="246"/><line x1="40" y1="246" x2="38" y2="260"/>
+    </g>
+    <rect x="0" y="211" width="400" height="4" fill="#e1c6a3"/>
+
+    <!-- 床在墙上的投影 -->
+    <g filter="url(#soft)" opacity="0.18" fill="#7a5a3e">
+      <rect x="176" y="104" width="14" height="110"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 小窗：夜空和月亮 -->
+      <rect x="262" y="22" width="92" height="60" fill="url(#night)"/>
+      <g filter="url(#soft2)" opacity="0.5"><circle cx="328" cy="46" r="12" fill="#c8cbe0"/></g>
+      <circle cx="330" cy="44" r="9" fill="#f8eecb" mask="url(#moon)"/>
+      <g fill="#f3e9cf"><circle cx="280" cy="36" r="0.9"/><circle cx="300" cy="56" r="0.8"/><circle cx="292" cy="30" r="0.7"/><circle cx="346" cy="66" r="0.8"/><circle cx="312" cy="70" r="0.7"/></g>
+      <g fill="none" stroke="#eedcc2"><rect x="262" y="22" width="92" height="60" stroke-width="5"/><line x1="308" y1="22" x2="308" y2="82" stroke-width="3.5"/></g>
+      <path d="M248,18 L266,18 C263,40 262,62 268,90 L248,90 Z" fill="#c9d3dd"/>
+      <path d="M368,18 L350,18 C353,40 354,62 348,90 L368,90 Z" fill="#c9d3dd"/>
+      <path d="M256,22 C256,48 257,70 260,88 M360,22 C360,48 359,70 356,88" stroke="#b5c2ce" stroke-width="1" fill="none"/>
+      <rect x="242" y="15" width="132" height="4" rx="2" fill="#d6b48c"/>
+
+      <!-- 床头板 -->
+      <path d="M186,200 L186,114 C186,104 194,98 206,98 L392,98 C402,98 406,104 406,114 L406,200 Z" fill="url(#wood)"/>
+      <path d="M194,112 C194,108 198,106 204,106 L396,106" stroke="#e0bd96" stroke-width="2" fill="none" opacity="0.8"/>
+      <g stroke="#b88c63" stroke-width="1" opacity="0.6"><line x1="250" y1="108" x2="250" y2="140"/><line x1="314" y1="108" x2="314" y2="140"/><line x1="378" y1="108" x2="378" y2="140"/></g>
+      <!-- 枕头 -->
+      <path d="M200,124 C200,115 206,111 215,111 L286,112 C296,112 301,117 301,125 L300,148 C300,154 294,158 286,158 L213,158 C205,158 200,153 200,146 Z" fill="url(#pillow)"/>
+      <path d="M308,126 C308,117 314,113 323,113 L392,114 C402,114 406,119 406,127 L406,150 C406,156 400,160 392,160 L321,160 C313,160 308,155 308,148 Z" fill="url(#pillow)"/>
+      <path d="M216,120 C236,117 266,117 286,121 M324,122 C344,119 372,119 392,123" stroke="#fffdf8" stroke-width="1.6" fill="none" opacity="0.8"/>
+      <path d="M230,152 C240,148 248,150 256,146" stroke="#e0d5c4" stroke-width="1" fill="none"/>
+      <!-- 柔软的被子 -->
+      <path d="M188,152 C232,145 330,144 406,147 L406,240 L188,240 Z" fill="url(#quilt)"/>
+      <path d="M190,150 C236,143 334,142 406,145 L406,158 C336,155 240,156 190,163 Z" fill="#f6f1e8"/>
+      <path d="M190,163 C240,156 336,155 406,158" stroke="#9eb2c4" stroke-width="1" fill="none" opacity="0.7"/>
+      <g fill="#dbe4ec" opacity="0.85">
+        <circle cx="210" cy="180" r="1.6"/><circle cx="236" cy="200" r="1.6"/><circle cx="222" cy="222" r="1.6"/><circle cx="256" cy="176" r="1.6"/><circle cx="270" cy="214" r="1.6"/>
+        <circle cx="340" cy="176" r="1.6"/><circle cx="362" cy="200" r="1.6"/><circle cx="350" cy="224" r="1.6"/><circle cx="386" cy="180" r="1.6"/><circle cx="314" cy="228" r="1.6"/><circle cx="388" cy="222" r="1.6"/><circle cx="244" cy="232" r="1.6"/>
+      </g>
+      <g stroke="#97abbe" stroke-width="1.1" fill="none" opacity="0.7">
+        <path d="M200,196 C220,188 238,192 252,184"/><path d="M330,206 C346,198 362,204 380,196"/><path d="M214,236 C232,226 250,232 266,224"/>
+      </g>
+      <path d="M188,238 L406,238 L406,262 L188,262 Z" fill="#9db1c3"/>
+      <path d="M188,238 C230,242 300,236 406,240" stroke="#c3d1dd" stroke-width="1.4" fill="none"/>
+
+      <!-- 摊开的书 -->
+      <path d="M272,180 L300,182 L328,180 L329,201 C318,197 308,198 300,202 C292,198 282,197 271,201 Z" fill="#c8735a"/>
+      <path d="M275,178 C284,174 294,174 300,178.5 L300,199 C294,195 284,195 275,198 Z" fill="#fbf6ea"/>
+      <path d="M300,178.5 C306,174 316,174 325,178 L325,198 C316,195 306,195 300,199 Z" fill="#f3ecdd"/>
+      <path d="M300,178.5 L300,199" stroke="#d9cdb8" stroke-width="0.9"/>
+      <path d="M296,180 C297,186 298,192 298.5,198" stroke="#e6dccb" stroke-width="2.4" fill="none" opacity="0.7"/>
+      <path d="M301,199 C302,204 300,208 303,212" stroke="#d9675a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+
+      <!-- 床头柜 -->
+      <path d="M28,150 L168,150 L172,160 L24,160 Z" fill="#dcb991"/>
+      <rect x="28" y="160" width="140" height="50" fill="url(#wood)"/>
+      <rect x="38" y="168" width="120" height="18" rx="2" fill="none" stroke="#b18660" stroke-width="1.2"/>
+      <rect x="38" y="190" width="120" height="16" rx="2" fill="none" stroke="#b18660" stroke-width="1.2"/>
+      <circle cx="98" cy="177" r="2.4" fill="#ecd39d"/><circle cx="98" cy="198" r="2.4" fill="#ecd39d"/>
+      <rect x="32" y="209" width="5" height="7" fill="#a98058"/><rect x="159" y="209" width="5" height="7" fill="#a98058"/>
+
+      <!-- 床头灯 -->
+      <g filter="url(#soft)" opacity="0.6"><circle cx="78" cy="100" r="34" fill="#fff1c6"/></g>
+      <g filter="url(#soft2)" opacity="0.6"><ellipse cx="80" cy="153" rx="44" ry="4" fill="#fff4d4"/></g>
+      <path d="M70,150 C63,144 63,132 70,124 L86,124 C93,132 93,144 86,150 Z" fill="url(#vase)"/>
+      <ellipse cx="73" cy="136" rx="1.8" ry="6" fill="#fff" opacity="0.3"/>
+      <rect x="76" y="116" width="4" height="9" fill="#d8c09a"/>
+      <path d="M57,118 L99,118 L91,84 L65,84 Z" fill="url(#shade)"/>
+      <path d="M57,118 L99,118" stroke="#eac27a" stroke-width="1.6"/>
+      <path d="M65,84 L91,84" stroke="#f0d49c" stroke-width="1.2"/>
+
+      <!-- 一杯茶 -->
+      <path d="M128,134 C126,128 131,124 128,118 M136,133 C139,127 134,123 137,116" stroke="#ece3d6" stroke-width="1.4" fill="none" opacity="0.8" stroke-linecap="round"/>
+      <ellipse cx="134" cy="154" rx="13" ry="3" fill="#f2ede4"/>
+      <path d="M125,140 L143,140 C143,148 140,153 134,153 C128,153 125,148 125,140 Z" fill="#f6efe4"/>
+      <path d="M125.5,143.5 C130,145 138,145 142.5,143.5" stroke="#9fb7c6" stroke-width="1.1" fill="none"/>
+      <ellipse cx="134" cy="140" rx="9" ry="2" fill="#c68b58"/>
+      <path d="M143,142.5 C149,142.5 149,149 141.5,149" stroke="#efe6d8" stroke-width="1.8" fill="none"/>
+
+      <!-- 眼镜 -->
+      <g stroke="#7d6a5a" stroke-width="1.1">
+        <ellipse cx="100" cy="156" rx="5.5" ry="2.6" fill="#e3eef1" fill-opacity="0.7"/>
+        <ellipse cx="114" cy="156" rx="5.5" ry="2.6" fill="#e3eef1" fill-opacity="0.7"/>
+        <path d="M105.5,155.5 C106.5,154 107.5,154 108.5,155.5" fill="none"/>
+        <path d="M95,155 L104,152.5 M119,155 L110,152.5" fill="none" opacity="0.8"/>
+      </g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#7a5a3e">
+      <ellipse cx="98" cy="217" rx="74" ry="3.5"/><ellipse cx="134" cy="156" rx="12" ry="1.6"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：我的弟弟——儿童房（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8eada"/><stop offset="1" stop-color="#f4e0ca"/>
+    </linearGradient>
+    <linearGradient id="low" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3ece4"/><stop offset="1" stop-color="#d6e3da"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ead2b4"/><stop offset="1" stop-color="#e0c4a2"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9cfe4"/><stop offset="1" stop-color="#d9eaf0"/>
+    </linearGradient>
+    <linearGradient id="quilt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3cfdc"/><stop offset="1" stop-color="#97b9cb"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9b48a"/><stop offset="1" stop-color="#c79f74"/>
+    </linearGradient>
+    <linearGradient id="curt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f6e3a8"/><stop offset="0.5" stop-color="#fbefc6"/><stop offset="1" stop-color="#f0d98f"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="0.38" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e6e6"/>
+    </radialGradient>
+    <path id="star" d="M0,-3 L0.9,-0.9 L3,-0.9 L1.3,0.4 L1.9,2.6 L0,1.3 L-1.9,2.6 L-1.3,0.4 L-3,-0.9 L-0.9,-0.9 Z"/>
+    <g id="cube"><polygon points="0,0 16,0 16,16 0,16"/><polygon points="0,0 6,-5 22,-5 16,0" fill="#fff" opacity="0.35"/><polygon points="16,0 22,-5 22,11 16,16" fill="#6b5040" opacity="0.15"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面、墙裙和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="150" width="400" height="48" fill="url(#low)"/>
+    <rect x="0" y="148" width="400" height="3.5" fill="#f9f3e8"/>
+    <rect x="0" y="198" width="400" height="62" fill="url(#floor)"/>
+    <g stroke="#d7b893" stroke-width="0.8" opacity="0.7">
+      <line x1="0" y1="214" x2="400" y2="214"/><line x1="0" y1="234" x2="400" y2="234"/><line x1="0" y1="254" x2="400" y2="254"/>
+      <line x1="80" y1="198" x2="77" y2="214"/><line x1="310" y1="198" x2="307" y2="214"/><line x1="200" y1="214" x2="197" y2="234"/><line x1="40" y1="234" x2="37" y2="254"/><line x1="360" y1="234" x2="357" y2="254"/>
+    </g>
+    <rect x="0" y="195" width="400" height="4" fill="#ecd9bd"/>
+
+    <g filter="url(#wc)">
+      <!-- 窗户：蓝天白云 -->
+      <rect x="240" y="44" width="96" height="88" fill="url(#sky)"/>
+      <g fill="#ffffff" opacity="0.9">
+        <ellipse cx="270" cy="70" rx="15" ry="6"/><ellipse cx="282" cy="66" rx="10" ry="6"/><ellipse cx="314" cy="98" rx="13" ry="5"/><ellipse cx="324" cy="95" rx="8" ry="4.5"/>
+      </g>
+      <g fill="none" stroke="#fbf6ee" stroke-linejoin="round">
+        <rect x="240" y="44" width="96" height="88" stroke-width="5"/><line x1="288" y1="44" x2="288" y2="132" stroke-width="3.5"/><line x1="240" y1="88" x2="336" y2="88" stroke-width="3.5"/>
+      </g>
+      <rect x="234" y="130" width="108" height="6" rx="1.5" fill="#efe0c8"/>
+      <!-- 窗帘 -->
+      <rect x="222" y="34" width="136" height="4" rx="2" fill="#c9a27a"/>
+      <path d="M224,38 L246,38 C244,70 250,104 242,140 L226,140 C230,104 222,70 224,38 Z" fill="url(#curt)"/>
+      <path d="M334,38 L356,38 C358,70 350,104 354,140 L338,140 C330,104 336,70 334,38 Z" fill="url(#curt)"/>
+      <!-- 窗台上的小仙人掌 -->
+      <path d="M266,130 L278,130 L276,122 L268,122 Z" fill="#e59b74"/>
+      <path d="M272,122 C268,122 268,110 272,108 C276,110 276,122 272,122 Z" fill="#8cbf6e"/>
+      <path d="M269,116 C266,116 265,112 266,110" stroke="#8cbf6e" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+
+      <!-- 墙上的彩旗串（没有字） -->
+      <path d="M22,64 C70,80 130,80 182,62" stroke="#c9a27a" stroke-width="1" fill="none"/>
+      <g>
+        <polygon points="30,67 42,71 34,84" fill="#f2a59c"/><polygon points="50,73 62,76 54,89" fill="#f4cf6e"/><polygon points="72,77 84,78 76,91" fill="#9cc884"/>
+        <polygon points="94,78 106,78 99,91" fill="#a9c6d6"/><polygon points="116,77 128,76 122,89" fill="#f2a59c"/><polygon points="138,74 150,72 145,85" fill="#f4cf6e"/><polygon points="160,69 172,66 168,79" fill="#9cc884"/>
+      </g>
+
+      <!-- 小床 -->
+      <rect x="22" y="112" width="12" height="96" rx="3" fill="url(#wood)"/>
+      <circle cx="28" cy="110" r="6" fill="#d9b48a"/>
+      <rect x="174" y="146" width="10" height="62" rx="3" fill="url(#wood)"/>
+      <circle cx="179" cy="144" r="5" fill="#d9b48a"/>
+      <rect x="34" y="150" width="140" height="10" fill="#f6efe3"/>
+      <!-- 枕头 -->
+      <path d="M38,140 C38,132 46,130 60,131 C74,132 82,134 82,142 C82,150 74,152 60,151 C46,150 38,148 38,140 Z" fill="#fbf7ef"/>
+      <path d="M44,139 C52,136 68,136 76,140" stroke="#ece2d2" stroke-width="1.2" fill="none"/>
+      <!-- 小熊 -->
+      <circle cx="98" cy="130" r="9" fill="#d7a77a"/><circle cx="91" cy="122" r="3.6" fill="#d7a77a"/><circle cx="105" cy="122" r="3.6" fill="#d7a77a"/>
+      <circle cx="91" cy="122" r="1.8" fill="#eccaa4"/><circle cx="105" cy="122" r="1.8" fill="#eccaa4"/>
+      <ellipse cx="98" cy="133" rx="4" ry="3" fill="#eccaa4"/><circle cx="98" cy="132" r="1" fill="#6b5446"/>
+      <circle cx="94.5" cy="128" r="1" fill="#6b5446"/><circle cx="101.5" cy="128" r="1" fill="#6b5446"/>
+      <ellipse cx="98" cy="146" rx="10" ry="9" fill="#d7a77a"/><ellipse cx="98" cy="147" rx="5.5" ry="5" fill="#eccaa4"/>
+      <!-- 被子 -->
+      <path d="M70,148 C100,144 150,144 176,148 L178,192 C150,196 100,196 70,192 Z" fill="url(#quilt)"/>
+      <path d="M34,152 L74,148 L72,194 L36,190 Z" fill="#a6c4d4"/>
+      <path d="M70,148 C100,144 150,144 176,148 L176,156 C150,152 100,152 70,156 Z" fill="#f6f1e8"/>
+      <g fill="#fbf6ea" opacity="0.9">
+        <use href="#star" transform="translate(96,168)"/><use href="#star" transform="translate(124,176) scale(0.9)"/><use href="#star" transform="translate(152,166)"/><use href="#star" transform="translate(110,186) scale(0.8)"/>
+        <use href="#star" transform="translate(162,184) scale(0.85)"/><use href="#star" transform="translate(52,170) scale(0.85)"/><use href="#star" transform="translate(58,184) scale(0.75)"/><use href="#star" transform="translate(138,188) scale(0.7)"/>
+      </g>
+      <rect x="34" y="192" width="142" height="7" rx="2" fill="#c9a27a"/>
+      <g fill="#c09670"><rect x="36" y="198" width="6" height="12"/><rect x="168" y="198" width="6" height="12"/></g>
+
+      <!-- 地毯 -->
+      <ellipse cx="262" cy="230" rx="112" ry="22" fill="#d6e5c4"/>
+      <ellipse cx="262" cy="230" rx="102" ry="18" fill="none" stroke="#c2d8ab" stroke-width="2.4"/>
+
+      <!-- 彩色积木 -->
+      <use href="#cube" transform="translate(206,220)" fill="#e87a6a"/><use href="#cube" transform="translate(224,220)" fill="#8fb6d6"/>
+      <use href="#cube" transform="translate(215,204)" fill="#f2c95a"/>
+      <use href="#cube" transform="translate(220,188) scale(0.85)" fill="#9cc884"/>
+      <use href="#cube" transform="translate(252,226) rotate(-12) scale(0.85)" fill="#f2a59c"/>
+      <g transform="translate(190,228) scale(0.75)"><polygon points="0,10 10,-6 20,10" fill="#c9b7d6"/><polygon points="10,-6 20,10 25,6 15,-10" fill="#6b5040" opacity="0.12"/></g>
+
+      <!-- 玩具小汽车 -->
+      <path d="M292,236 L292,226 C292,222 295,220 299,220 L306,220 L312,212 C313,211 315,210 317,210 L330,210 C333,210 335,211 336,214 L340,220 L344,221 C347,222 349,224 349,227 L349,236 Z" fill="#e5776a"/>
+      <path d="M309,220 L314,213.5 L322,213.5 L322,220 Z M325,220 L325,213.5 L332,213.5 L336.5,220 Z" fill="#d6e8ee"/>
+      <rect x="292" y="228" width="57" height="3" fill="#f09a8c"/>
+      <circle cx="347" cy="226" r="1.6" fill="#fbe7a6"/>
+      <circle cx="303" cy="237" r="6" fill="#6b655f"/><circle cx="303" cy="237" r="2.4" fill="#c9c4bc"/>
+      <circle cx="338" cy="237" r="6" fill="#6b655f"/><circle cx="338" cy="237" r="2.4" fill="#c9c4bc"/>
+
+      <!-- 足球 -->
+      <circle cx="122" cy="228" r="15" fill="url(#ball)"/>
+      <path d="M122,222 L127.7,226.1 L125.5,232.8 L118.5,232.8 L116.3,226.1 Z" fill="#7f8b95"/>
+      <path d="M122,213 L126,214 L122,217.2 L118,214 Z M135.5,223 L136.6,228.6 L132.4,229.2 L131.2,224.6 Z M108.5,223 L112.8,224.6 L111.6,229.2 L107.4,228.6 Z M114,240.6 L116.6,237 L120,239.6 L118.8,242.6 Z M130,240.6 L125.2,242.6 L124,239.6 L127.4,237 Z" fill="#7f8b95"/>
+      <g stroke="#b9c1c6" stroke-width="0.7" fill="none"><path d="M122,222 L122,217.2 M127.7,226.1 L131.2,224.6 M125.5,232.8 L127.4,237 M118.5,232.8 L116.6,237 M116.3,226.1 L112.8,224.6"/></g>
+      <ellipse cx="116" cy="220" rx="4" ry="2.4" fill="#fff" opacity="0.7"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="104" cy="209" rx="80" ry="4"/><ellipse cx="226" cy="237" rx="30" ry="3"/><ellipse cx="320" cy="243" rx="32" ry="3"/><ellipse cx="124" cy="244" rx="15" ry="2.6"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

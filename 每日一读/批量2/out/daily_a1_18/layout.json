@@ -1,0 +1,306 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  598.109375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  606.109375
+ ],
+ "zh": [
+  96,
+  632.109375,
+  480,
+  825.109375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  247.421875,
+  131.625
+ ],
+ "header_gap": 162.125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   1
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.4,
+   "Cada viernes Alberto y yo vamos al cine del barrio. Alberto es"
+  ],
+  [
+   "mid",
+   5.1,
+   "mi compañero de piso y le encanta el cine. El cine es pequeño y"
+  ],
+  [
+   "mid",
+   4.2,
+   "antiguo, pero muy cómodo. Dentro hay una pantalla enorme y filas"
+  ],
+  [
+   "mid",
+   4.5,
+   "de butacas de color rojo. Antes de entrar, compramos un cubo de"
+  ],
+  [
+   "mid",
+   4,
+   "palomitas para compartir. Siempre nos sentamos en el centro de la"
+  ],
+  [
+   "last",
+   0,
+   "sala."
+  ],
+  [
+   "mid",
+   3.7,
+   "Cuando se apaga la luz, la sala se queda en silencio. Entonces"
+  ],
+  [
+   "mid",
+   3.6,
+   "la pantalla se llena de luz y empieza la película. A Alberto le gusta el"
+  ],
+  [
+   "mid",
+   4.7,
+   "cine de acción, pero yo prefiero la comedia. Por eso, una semana"
+  ],
+  [
+   "mid",
+   4.3,
+   "elige él y otra semana elijo yo. Después cenamos algo y hablamos"
+  ],
+  [
+   "last",
+   3.5,
+   "de la película. Así empieza mi fin de semana."
+  ]
+ ],
+ "es_max_gap": 5.1,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

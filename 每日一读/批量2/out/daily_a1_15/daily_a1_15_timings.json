@@ -1,0 +1,287 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_15.mp3",
+ "duration": 58.792,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.42,
+  "sentence_max_dev_lu": 0.31,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.78,
+  "buzz_hz": 15000.0,
+  "buzz_db": 6.4,
+  "comb_db": -1.37
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.477,
+   "parts": [
+    [
+     0.5,
+     1.477
+    ]
+   ],
+   "segments": [
+    "El otoño."
+   ],
+   "text": "El otoño.",
+   "read": "El otoño."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.477,
+   "end": 7.037,
+   "parts": [
+    [
+     2.477,
+     3.647
+    ],
+    [
+     3.927,
+     7.037
+    ]
+   ],
+   "segments": [
+    "En otoño,",
+    "los árboles de mi barrio cambian de color."
+   ],
+   "text": "En otoño, los árboles de mi barrio cambian de color.",
+   "read": "En otoño, los árboles de mi barrio cambian de color."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.037,
+   "end": 11.228,
+   "parts": [
+    [
+     8.037,
+     11.228
+    ]
+   ],
+   "segments": [
+    "Las hojas se ponen doradas o de color naranja."
+   ],
+   "text": "Las hojas se ponen doradas o de color naranja.",
+   "read": "Las hojas se ponen doradas o de color naranja."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.228,
+   "end": 16.175,
+   "parts": [
+    [
+     12.228,
+     16.175
+    ]
+   ],
+   "segments": [
+    "Después caen al suelo y cubren el camino del parque."
+   ],
+   "text": "Después caen al suelo y cubren el camino del parque.",
+   "read": "Después caen al suelo y cubren el camino del parque."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 17.175,
+   "end": 20.605,
+   "parts": [
+    [
+     17.175,
+     20.605
+    ]
+   ],
+   "segments": [
+    "Me encanta pasear por ese camino después de clase."
+   ],
+   "text": "Me encanta pasear por ese camino después de clase.",
+   "read": "Me encanta pasear por ese camino después de clase."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 21.605,
+   "end": 24.755,
+   "parts": [
+    [
+     21.605,
+     24.755
+    ]
+   ],
+   "segments": [
+    "Las hojas secas hacen ruido cuando camino."
+   ],
+   "text": "Las hojas secas hacen ruido cuando camino.",
+   "read": "Las hojas secas hacen ruido cuando camino."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 25.755,
+   "end": 29.155,
+   "parts": [
+    [
+     25.755,
+     29.155
+    ]
+   ],
+   "segments": [
+    "Bajo un árbol muy grande hay un banco de madera."
+   ],
+   "text": "Bajo un árbol muy grande hay un banco de madera.",
+   "read": "Bajo un árbol muy grande hay un banco de madera."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 30.155,
+   "end": 33.782,
+   "parts": [
+    [
+     30.155,
+     33.782
+    ]
+   ],
+   "segments": [
+    "A veces compro castañas asadas con mi amigo Rubén."
+   ],
+   "text": "A veces compro castañas asadas con mi amigo Rubén.",
+   "read": "A veces compro castañas asadas con mi amigo Rubén."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 34.782,
+   "end": 38.162,
+   "parts": [
+    [
+     34.782,
+     38.162
+    ]
+   ],
+   "segments": [
+    "Nos sentamos en el banco y compartimos la bolsa."
+   ],
+   "text": "Nos sentamos en el banco y compartimos la bolsa.",
+   "read": "Nos sentamos en el banco y compartimos la bolsa."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 39.162,
+   "end": 43.132,
+   "parts": [
+    [
+     39.162,
+     43.132
+    ]
+   ],
+   "segments": [
+    "Las castañas tienen un sabor dulce y huelen a otoño."
+   ],
+   "text": "Las castañas tienen un sabor dulce y huelen a otoño.",
+   "read": "Las castañas tienen un sabor dulce y huelen a otoño."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 44.132,
+   "end": 47.402,
+   "parts": [
+    [
+     44.132,
+     47.402
+    ]
+   ],
+   "segments": [
+    "El aire es fresco y el cielo está azul claro."
+   ],
+   "text": "El aire es fresco y el cielo está azul claro.",
+   "read": "El aire es fresco y el cielo está azul claro."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 48.402,
+   "end": 52.052,
+   "parts": [
+    [
+     48.402,
+     52.052
+    ]
+   ],
+   "segments": [
+    "Desde allí veo las casas del otro lado del parque."
+   ],
+   "text": "Desde allí veo las casas del otro lado del parque.",
+   "read": "Desde allí veo las casas del otro lado del parque."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 53.052,
+   "end": 57.592,
+   "parts": [
+    [
+     53.052,
+     57.592
+    ]
+   ],
+   "segments": [
+    "El otoño es mi estación favorita porque todo es más tranquilo."
+   ],
+   "text": "El otoño es mi estación favorita porque todo es más tranquilo.",
+   "read": "El otoño es mi estación favorita porque todo es más tranquilo."
+  }
+ ]
+}

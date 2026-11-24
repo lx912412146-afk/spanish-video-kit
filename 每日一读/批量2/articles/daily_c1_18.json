@@ -1,0 +1,129 @@
+{
+ "id": "daily_c1_18",
+ "level": "C1",
+ "no": 18,
+ "title_es": "El oficio de escribir",
+ "title_zh": "写作这门手艺",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 18 篇。原创短文。主要语法：antes de que + 现在虚拟式，主谓倒装（aguardan una pila de folios…），acabar + 副动词（acaba enfriándose），más…de las que 的比较，cuando 表转折（实际上却），parecerse a，consistir en + 原形，sin saber si + 将来时，rara vez，过去虚拟式条件句（Si esperase…, mis folios seguirían…），esperar + 副动词（la espera trabajando）。7 句，131 词。第一人称叙述者是男性（inspirado）。特别判断：第 2 句 una pila de folios en blanco, una pluma y una taza de café 是名词列举，blanco 后的逗号不停顿，已登记；pluma 在这里是“钢笔”（插图里的钢笔），不是“羽毛”；un iluminado 指“受了神启的人”，与 un artesano 对照；第 5 句 lija 是 lijar（用砂纸打磨），pulir 用于文字是“推敲”；第 6 句 la espera trabajando 的 la 指 la inspiración，译作“没有在工作中等候它的人”。标题里的 escribir 太基础，没有放进词汇表；oficio 在第 5 句出现，排在最前；máquina de escribir 超过 18 个字符，没有收。插图里的打字机、稿纸、钢笔、咖啡和台灯对应第 1、2 句。审校改动（朗读识别）：第 7 句原为 Si esperara a sentirme，esperara 的词尾 a 和介词 a 连读会并成一个音，而 esperara sentirme（“盼望感到”）也合语法，识别时容易丢掉介词，改用 -se 形式 esperase，意思不变；第 6 句原为 rara vez visita a quien，visita 和 a 同样会并音，丢掉 a 以后 quien 会被听成主语，改为 acude a quien（acudir a 指“来到某人身边”），译文“很少光顾”不变。词数不变。",
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "blanco,",
+    "why": "列举：una pila de folios en blanco, una pluma y una taza de café（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "oficio",
+   "手艺",
+   "oficio"
+  ],
+  [
+   "aguardar",
+   "等候",
+   "aguardan"
+  ],
+  [
+   "pila",
+   "一叠",
+   "pila"
+  ],
+  [
+   "folio",
+   "稿纸",
+   "folios"
+  ],
+  [
+   "en blanco",
+   "空白的",
+   "en blanco"
+  ],
+  [
+   "pluma",
+   "钢笔",
+   "pluma"
+  ],
+  [
+   "enfriarse",
+   "变凉",
+   "enfriándose"
+  ],
+  [
+   "borrador",
+   "草稿",
+   "borrador"
+  ],
+  [
+   "torpe",
+   "笨拙的",
+   "torpe"
+  ],
+  [
+   "tachar",
+   "划掉",
+   "tacho"
+  ],
+  [
+   "iluminado",
+   "受神启的人",
+   "iluminado"
+  ],
+  [
+   "consistir en",
+   "在于",
+   "consiste en"
+  ],
+  [
+   "pulir",
+   "打磨，推敲",
+   "pulir"
+  ],
+  [
+   "lijar",
+   "用砂纸打磨",
+   "lija"
+  ],
+  [
+   "rara vez",
+   "很少",
+   "rara vez"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cada mañana, antes de que amanezca, enciendo la lámpara y me siento ante una vieja máquina de escribir.",
+    "zh": "每天清晨，天还没亮，我就打开台灯，坐到一台老式打字机前。"
+   },
+   {
+    "es": "Junto a ella aguardan una pila de folios en blanco, una pluma y una taza de café que acaba enfriándose.",
+    "zh": "打字机旁放着一叠白稿纸、一支钢笔，还有一杯最后总会放凉的咖啡。"
+   },
+   {
+    "es": "El primer borrador siempre es torpe, y a menudo tacho más líneas de las que conservo.",
+    "zh": "初稿总是笨拙的，我划掉的行数常常比留下的还多。"
+   }
+  ],
+  [
+   {
+    "es": "Imaginamos con frecuencia al escritor como un iluminado, cuando su trabajo se parece más al de un artesano.",
+    "zh": "我们常把作家想象成受了神启的人，而实际上，他的工作更像工匠的活计。"
+   },
+   {
+    "es": "El oficio consiste en pulir cada frase como el carpintero lija una tabla, sin saber si alguien apreciará el esfuerzo.",
+    "zh": "这门手艺，就在于像木匠用砂纸打磨木板那样推敲每一个句子，却不知道是否有人会体会这份苦心。"
+   },
+   {
+    "es": "Es cierto que la inspiración existe, pero rara vez acude a quien no la espera trabajando.",
+    "zh": "灵感诚然存在，但它很少光顾那些没有在工作中等候它的人。"
+   },
+   {
+    "es": "Si esperase a sentirme inspirado para empezar, mis folios seguirían en blanco; por eso escribo incluso los días en que nada parece fluir.",
+    "zh": "倘若非要等到有了灵感才动笔，我的稿纸恐怕会一直空白；所以，即便在文思滞涩的日子里，我也照样写。"
+   }
+  ]
+ ]
+}

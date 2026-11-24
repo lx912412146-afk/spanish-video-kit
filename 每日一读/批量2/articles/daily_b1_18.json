@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_18",
+ "level": "B1",
+ "no": 18,
+ "title_es": "Leer antes de dormir",
+ "title_zh": "睡前阅读",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 18 篇。原创短文。简单过去时 me di cuenta、decidí，过去未完成时 dormía、me acostaba、pasaba（过去的习惯），现在时描写现在的睡前习惯；现在虚拟式 no creo que haya；条件式 yo en tu lugar lo probaría；连接语 por eso、al cabo de、desde que；固定说法 darse cuenta de、por culpa de、cambiar de hábito、sin prisa。10 句，144 词。móvil 和 teléfono 指同一部手机，第 2 句 con él 也指手机；mesilla 是“床头柜”，edredón 是“被子”；gafas de leer 是“看书用的眼镜”，不特意译成“老花镜”；第 5 句 por donde la dejé 是“从上次停下的地方”；第 7 句 empiezan a pesarme los párpados 是“眼皮开始发沉”；第 10 句 yo en tu lugar 是“换作是我”，te cuesta 是泛指的“你”。插图里亮着的台灯、打开的书、茶杯、眼镜、被子都在正文里出现。没有列举的逗号：第 4 句 me preparo…, me tapo… y enciendo… 是三个并列分句，照常停顿；第 3 句冒号前后照常停顿。第 4 句把 la lámpara de la mesilla 放在句末，免得 mesilla 后面紧跟 y。叙述者是男性：第 8 句 descansado 用阳性。词汇里 darse cuenta de 原文是 di cuenta de，por culpa de 原文是 por culpa del，acostarse 原文是 acostaba，taparse 原文是 tapo，pesar 原文是 pesarme，descansado 释义取“休息好的”。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "darse cuenta de",
+   "意识到",
+   "di cuenta de"
+  ],
+  [
+   "por culpa de",
+   "都怪",
+   "por culpa del"
+  ],
+  [
+   "acostarse",
+   "上床睡觉",
+   "acostaba"
+  ],
+  [
+   "sin sentido",
+   "无意义的",
+   "sin sentido"
+  ],
+  [
+   "hábito",
+   "习惯",
+   "hábito"
+  ],
+  [
+   "taparse",
+   "盖上",
+   "tapo"
+  ],
+  [
+   "edredón",
+   "被子",
+   "edredón"
+  ],
+  [
+   "mesilla",
+   "床头柜",
+   "mesilla"
+  ],
+  [
+   "relajar",
+   "使放松",
+   "relaja"
+  ],
+  [
+   "al cabo de",
+   "过了",
+   "Al cabo de"
+  ],
+  [
+   "pesar",
+   "发沉",
+   "pesarme"
+  ],
+  [
+   "párpado",
+   "眼皮",
+   "párpados"
+  ],
+  [
+   "sin prisa",
+   "不慌不忙",
+   "sin prisa"
+  ],
+  [
+   "descansado",
+   "休息好的",
+   "descansado"
+  ],
+  [
+   "yo en tu lugar",
+   "换作是我",
+   "yo en tu lugar"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hace unos meses me di cuenta de que dormía mal por culpa del móvil.",
+    "zh": "几个月前，我意识到自己睡不好都是手机惹的祸。"
+   },
+   {
+    "es": "Me acostaba con él en la mano y pasaba horas mirando vídeos sin sentido.",
+    "zh": "那时我总是拿着手机上床，一连几个小时看那些毫无意义的视频。"
+   },
+   {
+    "es": "Por eso decidí cambiar de hábito: ahora dejo el teléfono en el salón antes de acostarme.",
+    "zh": "所以我决定换一种习惯：现在睡觉前，我会把手机留在客厅里。"
+   },
+   {
+    "es": "Me preparo una taza de té, me tapo con el edredón y enciendo la lámpara de la mesilla.",
+    "zh": "我给自己泡一杯茶，盖好被子，再打开床头柜上的台灯。"
+   },
+   {
+    "es": "Me pongo las gafas de leer y abro la novela por donde la dejé.",
+    "zh": "我戴上看书用的眼镜，从上次停下的地方翻开小说。"
+   }
+  ],
+  [
+   {
+    "es": "Leer en papel me relaja mucho más que cualquier pantalla.",
+    "zh": "读纸质书比看任何屏幕都更能让我放松。"
+   },
+   {
+    "es": "Al cabo de un rato empiezan a pesarme los párpados y apago la luz sin prisa.",
+    "zh": "过了一会儿，我的眼皮开始发沉，便不慌不忙地关了灯。"
+   },
+   {
+    "es": "Desde que leo antes de dormir, me duermo más rápido y me levanto más descansado.",
+    "zh": "自从睡前读书以来，我入睡更快了，早上起来也更有精神。"
+   },
+   {
+    "es": "No creo que haya una forma mejor de terminar el día.",
+    "zh": "我不认为还有比这更好的方式来结束一天。"
+   },
+   {
+    "es": "Si a ti también te cuesta dormir, yo en tu lugar lo probaría esta misma noche.",
+    "zh": "如果你也难以入睡，换作是我，今晚就会试一试。"
+   }
+  ]
+ ]
+}

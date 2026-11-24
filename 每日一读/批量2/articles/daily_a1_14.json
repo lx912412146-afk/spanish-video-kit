@@ -1,0 +1,142 @@
+{
+ "id": "daily_a1_14",
+ "level": "A1",
+ "no": 14,
+ "title_es": "Mi clase de español",
+ "title_zh": "我的西班牙语课",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 14 篇。原创短文。只用陈述式现在时，有 hay、se llama、cuando + 现在时、lo más difícil、tener que + 原形、ir a + 原形（voy a viajar）。12 句，122 词。特别判断：课桌、讲桌、黑板和窗外的树都和插图对应；插图里的黑板不写字，第 5 句说的是听不懂时老师才在黑板上画画；第 2 句 hay 后面只接不定冠词，写 una mesa para la profesora，译作“老师用的讲桌”（审校时由 la mesa de la profesora 改来）；compañero de mesa 是同桌；en grupo 译作“分小组”；lo más difícil es la pronunciación 译作“最难的是发音”；第 1 句不写 los martes y los jueves，免得 martes 的词尾在 y 前被吞，改成 todos los lunes。第 5 句 palabra,、第 6 句 ella,、第 9 句 mí,、第 11 句 mucho, 都是状语、从句前后的逗号，照常停顿；全篇没有列举，no_pause_commas 为空。词汇：clase、español 在标题里，排在最前；entender 原文是 entendemos，aburrido 原文是阴性 aburrida，tener que 原文是 Tengo que，divertirse 原文是 me divierto。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "clase",
+   "课",
+   "clase"
+  ],
+  [
+   "español",
+   "西班牙语",
+   "español"
+  ],
+  [
+   "lunes",
+   "星期一",
+   "lunes"
+  ],
+  [
+   "aula",
+   "教室",
+   "aula"
+  ],
+  [
+   "pizarra",
+   "黑板",
+   "pizarra"
+  ],
+  [
+   "entender",
+   "明白",
+   "entendemos"
+  ],
+  [
+   "palabra",
+   "词",
+   "palabra"
+  ],
+  [
+   "aburrido",
+   "枯燥的",
+   "aburrida"
+  ],
+  [
+   "canción",
+   "歌",
+   "canción"
+  ],
+  [
+   "compañero de mesa",
+   "同桌",
+   "compañero de mesa"
+  ],
+  [
+   "pronunciación",
+   "发音",
+   "pronunciación"
+  ],
+  [
+   "espejo",
+   "镜子",
+   "espejo"
+  ],
+  [
+   "tener que",
+   "必须",
+   "Tengo que"
+  ],
+  [
+   "viajar",
+   "旅行",
+   "viajar"
+  ],
+  [
+   "divertirse",
+   "玩得开心",
+   "me divierto"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Tengo clase de español todos los lunes por la tarde.",
+    "zh": "每个星期一下午，我都有西班牙语课。"
+   },
+   {
+    "es": "En el aula hay una pizarra grande y una mesa para la profesora.",
+    "zh": "教室里有一块大黑板，还有一张老师用的讲桌。"
+   },
+   {
+    "es": "Mi mesa está cerca de la ventana y desde allí veo un árbol alto.",
+    "zh": "我的课桌靠近窗户，从那儿能看到一棵高高的树。"
+   },
+   {
+    "es": "Nuestra profesora es española y se llama Teresa.",
+    "zh": "我们的老师是西班牙人，名叫特蕾莎。"
+   },
+   {
+    "es": "Cuando no entendemos una palabra, ella hace un dibujo en la pizarra.",
+    "zh": "我们听不懂哪个词的时候，她就在黑板上画一幅画。"
+   },
+   {
+    "es": "Con ella, la clase nunca es aburrida.",
+    "zh": "有她在，课堂从来都不枯燥。"
+   }
+  ],
+  [
+   {
+    "es": "En clase hablamos en grupo y a veces cantamos una canción.",
+    "zh": "课上我们分小组对话，有时候还一起唱一首歌。"
+   },
+   {
+    "es": "Mi compañero de mesa es Raúl y siempre me ayuda.",
+    "zh": "我的同桌是劳尔，他总是帮助我。"
+   },
+   {
+    "es": "Para mí, lo más difícil es la pronunciación.",
+    "zh": "对我来说，最难的是发音。"
+   },
+   {
+    "es": "Por eso practico en casa delante del espejo.",
+    "zh": "所以我在家里对着镜子练习。"
+   },
+   {
+    "es": "Tengo que estudiar mucho, porque en verano voy a viajar a España.",
+    "zh": "我得好好学习，因为夏天我要去西班牙旅行。"
+   },
+   {
+    "es": "Me gusta esta clase porque aprendo y me divierto.",
+    "zh": "我喜欢这门课，因为既能学到东西，又很开心。"
+   }
+  ]
+ ]
+}

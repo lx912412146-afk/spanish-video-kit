@@ -1,0 +1,126 @@
+{
+ "id": "daily_b2_20",
+ "level": "B2",
+ "no": 20,
+ "title_es": "Viajar con poco dinero",
+ "title_zh": "穷游",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 20 篇。原创短文。语法：过去未完成时叙述（dormía、consultaba、rellenaba、aparecía）、al + 原形（Al despertar）、无人称 se（se duerme、se mide）、名词化（la falta de dinero）、obligar a + 原形、过去完成虚拟式 + 条件完成式（Si hubiera viajado …, me habría perdido）、固定说法 brillar por su ausencia；连接语 sin duda、ahora bien、así、porque。8 句，126 词。第一人称叙述，文中没有需要变性的词；compañera de litera 是同住上下铺的女室友。albergues juveniles 是青年旅舍，literas 是上下铺，mochila 对应插图里床上的大背包，el mapa colgado en la pared 对应钉在墙上的那张打开的地图，cantimplora 对应柜子上的水壶；fuente 指街头的公共饮水处；brillar por su ausencia 意为“根本没有”，译作“无从谈起”，整个说法超过 18 个字符，词汇表不收；presupuesto ajustado 译作“有限的预算”；perderse 在这里是“错过”。第 5 句 Sin duda, 是句首状语，冒号后是说明，都照常停顿。全篇没有名词列举，no_pause_commas 为空。审校改动：第 3 句原为 desplegaba el mapa sobre la cama，插图里的地图钉在墙上，改为 consultaba el mapa colgado en la pared，译文改为“看看挂在墙上的地图”；词汇 desplegar（摊开）随之删去，换成第 1 句的 recorrer（游览，走遍），排在最前。第 4 句原为 en las fuentes e iba siempre a pie，复数词尾 s 弱，后面又是单个元音 e，容易被识别成 fuente se iba 或吞掉 e，改为 en cualquier fuente y siempre iba a pie，译文改为“见到公共饮水处就给水壶灌水”，词数不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "recorrer",
+   "游览，走遍",
+   "recorrí"
+  ],
+  [
+   "mochila",
+   "背包",
+   "mochila"
+  ],
+  [
+   "presupuesto",
+   "预算",
+   "presupuesto"
+  ],
+  [
+   "ajustado",
+   "有限的",
+   "ajustado"
+  ],
+  [
+   "litera",
+   "上下铺",
+   "literas"
+  ],
+  [
+   "albergue juvenil",
+   "青年旅舍",
+   "albergues juveniles"
+  ],
+  [
+   "desconocido",
+   "陌生人",
+   "desconocidos"
+  ],
+  [
+   "rellenar",
+   "装满",
+   "rellenaba"
+  ],
+  [
+   "cantimplora",
+   "水壶",
+   "cantimplora"
+  ],
+  [
+   "a pie",
+   "步行",
+   "a pie"
+  ],
+  [
+   "intimidad",
+   "私人空间",
+   "intimidad"
+  ],
+  [
+   "ahora bien",
+   "不过",
+   "Ahora bien"
+  ],
+  [
+   "improvisar",
+   "随机应变",
+   "improvisar"
+  ],
+  [
+   "perderse",
+   "错过",
+   "me habría perdido"
+  ],
+  [
+   "medir",
+   "衡量",
+   "mide"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Este verano recorrí varias ciudades con una mochila y un presupuesto ajustado.",
+    "zh": "今年夏天，我背着一个背包、带着有限的预算，游览了好几座城市。"
+   },
+   {
+    "es": "Dormía en literas de albergues juveniles y compartía habitación con desconocidos de todo el mundo.",
+    "zh": "我睡在青年旅舍的上下铺，和来自世界各地的陌生人同住一间房。"
+   },
+   {
+    "es": "Al despertar, consultaba el mapa colgado en la pared y decidía adónde ir.",
+    "zh": "每天醒来，我就看看挂在墙上的地图，决定去哪里。"
+   },
+   {
+    "es": "Para ahorrar, rellenaba mi cantimplora en cualquier fuente y siempre iba a pie.",
+    "zh": "为了省钱，我见到公共饮水处就给水壶灌水，而且总是步行。"
+   }
+  ],
+  [
+   {
+    "es": "Sin duda, viajar así resulta incómodo: no siempre se duerme bien y la intimidad brilla por su ausencia.",
+    "zh": "这样旅行无疑并不舒适：不一定每晚都能睡好，私人空间更是无从谈起。"
+   },
+   {
+    "es": "Ahora bien, la falta de dinero me obligó a improvisar y a conversar con la gente del lugar.",
+    "zh": "不过，正是因为缺钱，我不得不随机应变，和当地人攀谈。"
+   },
+   {
+    "es": "Así, gracias a una compañera de litera, descubrí un mercado que no aparecía en ninguna guía.",
+    "zh": "就这样，多亏了一位上下铺的室友，我发现了一个任何旅行指南上都没有的市场。"
+   },
+   {
+    "es": "Si hubiera viajado con más dinero, me habría perdido lo mejor, porque un viaje no se mide por lo que cuesta.",
+    "zh": "要是我当初带着更多钱旅行，反而会错过最精彩的部分，因为一次旅行的价值，不是用花了多少钱来衡量的。"
+   }
+  ]
+ ]
+}

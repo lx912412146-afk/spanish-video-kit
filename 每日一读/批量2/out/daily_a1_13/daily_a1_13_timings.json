@@ -1,0 +1,287 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_13.mp3",
+ "duration": 56.071,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.54,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.71,
+  "buzz_hz": 11070.6,
+  "buzz_db": 4.3,
+  "comb_db": -0.37
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.244,
+   "parts": [
+    [
+     0.5,
+     2.244
+    ]
+   ],
+   "segments": [
+    "Un día en el zoo."
+   ],
+   "text": "Un día en el zoo.",
+   "read": "Un día en el zoo."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.244,
+   "end": 5.774,
+   "parts": [
+    [
+     3.244,
+     5.774
+    ]
+   ],
+   "segments": [
+    "Hoy voy al zoo con mi primo Sergio."
+   ],
+   "text": "Hoy voy al zoo con mi primo Sergio.",
+   "read": "Hoy voy al zoo con mi primo Sergio."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 6.774,
+   "end": 10.411,
+   "parts": [
+    [
+     6.774,
+     10.411
+    ]
+   ],
+   "segments": [
+    "Sergio es pequeño y su animal favorito es la jirafa."
+   ],
+   "text": "Sergio es pequeño y su animal favorito es la jirafa.",
+   "read": "Sergio es pequeño y su animal favorito es la jirafa."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 11.411,
+   "end": 13.641,
+   "parts": [
+    [
+     11.411,
+     13.641
+    ]
+   ],
+   "segments": [
+    "Primero vamos a ver a la jirafa."
+   ],
+   "text": "Primero vamos a ver a la jirafa.",
+   "read": "Primero vamos a ver a la jirafa."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 14.641,
+   "end": 17.791,
+   "parts": [
+    [
+     14.641,
+     17.791
+    ]
+   ],
+   "segments": [
+    "La jirafa está al lado de un árbol muy grande."
+   ],
+   "text": "La jirafa está al lado de un árbol muy grande.",
+   "read": "La jirafa está al lado de un árbol muy grande."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 18.791,
+   "end": 22.151,
+   "parts": [
+    [
+     18.791,
+     22.151
+    ]
+   ],
+   "segments": [
+    "Tiene el cuello muy largo y come las hojas del árbol."
+   ],
+   "text": "Tiene el cuello muy largo y come las hojas del árbol.",
+   "read": "Tiene el cuello muy largo y come las hojas del árbol."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 23.151,
+   "end": 26.451,
+   "parts": [
+    [
+     23.151,
+     26.451
+    ]
+   ],
+   "segments": [
+    "Sergio mira hacia arriba con la boca abierta."
+   ],
+   "text": "Sergio mira hacia arriba con la boca abierta.",
+   "read": "Sergio mira hacia arriba con la boca abierta."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 27.451,
+   "end": 30.351,
+   "parts": [
+    [
+     27.451,
+     30.351
+    ]
+   ],
+   "segments": [
+    "A lo lejos hay un elefante gris enorme."
+   ],
+   "text": "A lo lejos hay un elefante gris enorme.",
+   "read": "A lo lejos hay un elefante gris enorme."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 31.351,
+   "end": 35.861,
+   "parts": [
+    [
+     31.351,
+     35.861
+    ]
+   ],
+   "segments": [
+    "El elefante toma agua con la trompa y luego se moja la espalda."
+   ],
+   "text": "El elefante toma agua con la trompa y luego se moja la espalda.",
+   "read": "El elefante toma agua con la trompa y luego se moja la espalda."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 36.861,
+   "end": 40.291,
+   "parts": [
+    [
+     36.861,
+     40.291
+    ]
+   ],
+   "segments": [
+    "Después vemos un león que duerme tranquilo al sol."
+   ],
+   "text": "Después vemos un león que duerme tranquilo al sol.",
+   "read": "Después vemos un león que duerme tranquilo al sol."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 41.291,
+   "end": 45.281,
+   "parts": [
+    [
+     41.291,
+     45.281
+    ]
+   ],
+   "segments": [
+    "Al mediodía comemos unos bocadillos debajo de un árbol."
+   ],
+   "text": "Al mediodía comemos unos bocadillos debajo de un árbol.",
+   "read": "Al mediodía comemos unos bocadillos debajo de un árbol."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 46.281,
+   "end": 49.921,
+   "parts": [
+    [
+     46.281,
+     49.921
+    ]
+   ],
+   "segments": [
+    "Sergio dice que la jirafa es su mejor amiga."
+   ],
+   "text": "Sergio dice que la jirafa es su mejor amiga.",
+   "read": "Sergio dice que la jirafa es su mejor amiga."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 50.921,
+   "end": 54.871,
+   "parts": [
+    [
+     50.921,
+     53.251
+    ],
+    [
+     53.531,
+     54.871
+    ]
+   ],
+   "segments": [
+    "Al final del día estoy cansado,",
+    "pero muy contento."
+   ],
+   "text": "Al final del día estoy cansado, pero muy contento.",
+   "read": "Al final del día estoy cansado, pero muy contento."
+  }
+ ]
+}

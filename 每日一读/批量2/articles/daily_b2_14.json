@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_14",
+ "level": "B2",
+ "no": 14,
+ "title_es": "La contaminación lumínica",
+ "title_zh": "光污染",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 14 篇。原创短文。语法：过去未完成时（llegaba a oscurecerse）、简单过去时、过去完成时（había visto、había quitado）、强调句 Fue entonces cuando、no solo … sino que、bastaría con que + 过去虚拟式（apuntaran、se apagaran）、条件式的自复被动（se ahorraría）、名词化（Recuperar la oscuridad de la noche 作主语）；连接语 por eso、además、por suerte、de paso、no … sino。9 句，125 词。第一人称叙述者为男性（me quedé asombrado）。按要求避开 rural，用 el campo 表示乡下；第 1 句的大城市和第 3 句山丘上的星空分别对应插图左半边的城市天际线和右半边的星空；用 lo mucho que 而不用 cuánto，避开 cuánto 的识别风险；de madrugada 译作“深夜”；词汇表词头 lumínico 取阳性原形，原文写法是标题和第 5 句里的 lumínica（contaminación lumínica 整个词组超过 18 个字符）。第 7 句冒号后是说明，第 8 句 Con ello, de paso, 是句首状语和插入语，都照常停顿。全篇没有名词列举，no_pause_commas 为空。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "lumínico",
+   "灯光的",
+   "lumínica"
+  ],
+  [
+   "oscurecerse",
+   "变暗",
+   "oscurecerse"
+  ],
+  [
+   "del todo",
+   "完全",
+   "del todo"
+  ],
+  [
+   "asombrado",
+   "惊讶的",
+   "asombrado"
+  ],
+  [
+   "estrellado",
+   "繁星点点",
+   "estrellado"
+  ],
+  [
+   "ocultar",
+   "遮蔽",
+   "oculta"
+  ],
+  [
+   "alterar",
+   "扰乱",
+   "altera"
+  ],
+  [
+   "desorientar",
+   "使迷失方向",
+   "desorienta"
+  ],
+  [
+   "ave migratoria",
+   "候鸟",
+   "aves migratorias"
+  ],
+  [
+   "perjudicar",
+   "损害",
+   "perjudica"
+  ],
+  [
+   "farola",
+   "路灯",
+   "farolas"
+  ],
+  [
+   "apuntar",
+   "朝向",
+   "apuntaran"
+  ],
+  [
+   "escaparate",
+   "橱窗",
+   "escaparates"
+  ],
+  [
+   "de madrugada",
+   "深夜，凌晨",
+   "de madrugada"
+  ],
+  [
+   "de paso",
+   "顺便",
+   "de paso"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Crecí en una gran ciudad donde el cielo nocturno nunca llegaba a oscurecerse del todo.",
+    "zh": "我在一座大城市长大，那里的夜空从来不会完全暗下来。"
+   },
+   {
+    "es": "Por eso, la primera vez que pasé una noche en el campo, me quedé asombrado.",
+    "zh": "所以，第一次在乡下过夜时，我惊呆了。"
+   },
+   {
+    "es": "Sobre las colinas brillaba un cielo estrellado como nunca lo había visto.",
+    "zh": "山丘上空繁星闪烁，那样的星空我从未见过。"
+   },
+   {
+    "es": "Fue entonces cuando entendí lo mucho que nos había quitado la luz artificial.",
+    "zh": "直到那时我才明白，人造光让我们失去了多少东西。"
+   }
+  ],
+  [
+   {
+    "es": "La contaminación lumínica no solo nos oculta el cielo, sino que altera nuestro sueño.",
+    "zh": "光污染不仅让我们看不见星空，还会扰乱我们的睡眠。"
+   },
+   {
+    "es": "Además, desorienta a las aves migratorias y perjudica a la fauna nocturna.",
+    "zh": "此外，它还会让候鸟迷失方向，危害夜间活动的动物。"
+   },
+   {
+    "es": "Por suerte, tiene fácil solución: bastaría con que las farolas apuntaran al suelo y los escaparates se apagaran de madrugada.",
+    "zh": "幸好，这个问题很容易解决：只要让路灯朝下照向地面，让橱窗在深夜熄灯就行了。"
+   },
+   {
+    "es": "Con ello, de paso, se ahorraría mucha energía.",
+    "zh": "这样一来，还能顺便节省大量能源。"
+   },
+   {
+    "es": "Recuperar la oscuridad de la noche no significa renunciar al progreso, sino aprender a iluminar mejor.",
+    "zh": "找回夜晚的黑暗并不意味着放弃进步，而是要学会更好地照明。"
+   }
+  ]
+ ]
+}

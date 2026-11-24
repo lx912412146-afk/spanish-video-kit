@@ -1,0 +1,283 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_11.mp3",
+ "duration": 60.71,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.52,
+  "sentence_max_dev_lu": 0.35,
+  "short_term_std_lu": 0.95,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.77,
+  "buzz_hz": 8781.0,
+  "buzz_db": 5.7,
+  "comb_db": 0.34
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.26,
+   "parts": [
+    [
+     0.5,
+     2.26
+    ]
+   ],
+   "segments": [
+    "Las energías renovables."
+   ],
+   "text": "Las energías renovables.",
+   "read": "Las energías renovables."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.26,
+   "end": 9.02,
+   "parts": [
+    [
+     3.26,
+     4.58
+    ],
+    [
+     4.86,
+     9.02
+    ]
+   ],
+   "segments": [
+    "Cuando era pequeño,",
+    "las colinas cercanas al pueblo de mi padre solo estaban cubiertas de hierba."
+   ],
+   "text": "Cuando era pequeño, las colinas cercanas al pueblo de mi padre solo estaban cubiertas de hierba.",
+   "read": "Cuando era pequeño, las colinas cercanas al pueblo de mi padre solo estaban cubiertas de hierba."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.02,
+   "end": 16.2,
+   "parts": [
+    [
+     10.02,
+     12.89
+    ],
+    [
+     13.17,
+     16.2
+    ]
+   ],
+   "segments": [
+    "Ahora varios aerogeneradores giran en lo alto,",
+    "y a sus pies los paneles solares reflejan la luz."
+   ],
+   "text": "Ahora varios aerogeneradores giran en lo alto, y a sus pies los paneles solares reflejan la luz.",
+   "read": "Ahora varios aerogeneradores giran en lo alto, y a sus pies los paneles solares reflejan la luz."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 17.2,
+   "end": 22.87,
+   "parts": [
+    [
+     17.2,
+     18.43
+    ],
+    [
+     18.71,
+     22.87
+    ]
+   ],
+   "segments": [
+    "Al principio,",
+    "muchos vecinos protestaron porque temían que el paisaje perdiera su encanto."
+   ],
+   "text": "Al principio, muchos vecinos protestaron porque temían que el paisaje perdiera su encanto.",
+   "read": "Al principio, muchos vecinos protestaron porque temían que el paisaje perdiera su encanto."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 23.87,
+   "end": 29.51,
+   "parts": [
+    [
+     23.87,
+     24.87
+    ],
+    [
+     25.15,
+     26.28
+    ],
+    [
+     26.56,
+     29.51
+    ]
+   ],
+   "segments": [
+    "Con el tiempo,",
+    "sin embargo,",
+    "la mayoría ha comprendido que el cambio valía la pena."
+   ],
+   "text": "Con el tiempo, sin embargo, la mayoría ha comprendido que el cambio valía la pena.",
+   "read": "Con el tiempo, sin embargo, la mayoría ha comprendido que el cambio valía la pena."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 30.51,
+   "end": 35.28,
+   "parts": [
+    [
+     30.51,
+     32.07
+    ],
+    [
+     32.35,
+     35.28
+    ]
+   ],
+   "segments": [
+    "A diferencia del petróleo,",
+    "las energías renovables no se agotan ni contaminan."
+   ],
+   "text": "A diferencia del petróleo, las energías renovables no se agotan ni contaminan.",
+   "read": "A diferencia del petróleo, las energías renovables no se agotan ni contaminan."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 36.28,
+   "end": 42.88,
+   "parts": [
+    [
+     36.28,
+     37.57
+    ],
+    [
+     37.85,
+     39.85
+    ],
+    [
+     40.13,
+     42.88
+    ]
+   ],
+   "segments": [
+    "No obstante,",
+    "su producción depende del tiempo:",
+    "hay días sin viento y semanas sin apenas sol."
+   ],
+   "text": "No obstante, su producción depende del tiempo: hay días sin viento y semanas sin apenas sol.",
+   "read": "No obstante, su producción depende del tiempo: hay días sin viento y semanas sin apenas sol."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 43.88,
+   "end": 48.54,
+   "parts": [
+    [
+     43.88,
+     44.38
+    ],
+    [
+     44.66,
+     48.54
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "urge desarrollar baterías capaces de almacenar la energía sobrante."
+   ],
+   "text": "Por eso, urge desarrollar baterías capaces de almacenar la energía sobrante.",
+   "read": "Por eso, urge desarrollar baterías capaces de almacenar la energía sobrante."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 49.54,
+   "end": 54.39,
+   "parts": [
+    [
+     49.54,
+     54.39
+    ]
+   ],
+   "segments": [
+    "Además, de poco serviría producir energía limpia si siguiéramos derrochándola."
+   ],
+   "text": "Además, de poco serviría producir energía limpia si siguiéramos derrochándola.",
+   "read": "Además, de poco serviría producir energía limpia si siguiéramos derrochándola."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 55.39,
+   "end": 59.51,
+   "parts": [
+    [
+     55.39,
+     56.58
+    ],
+    [
+     56.86,
+     59.51
+    ]
+   ],
+   "segments": [
+    "Al fin y al cabo,",
+    "la energía más limpia es la que no se consume."
+   ],
+   "text": "Al fin y al cabo, la energía más limpia es la que no se consume.",
+   "read": "Al fin y al cabo, la energía más limpia es la que no se consume."
+  }
+ ]
+}

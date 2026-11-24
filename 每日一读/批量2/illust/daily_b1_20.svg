@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：书市（树荫下的露天书市：一排白色帐篷顶的木摊位，书架和柜台上摆满书，书脊不写字；地上斑驳的树影，前面一张长椅；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6eff1"/><stop offset="0.7" stop-color="#f1f2e9"/><stop offset="1" stop-color="#f6f1e3"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecdfc6"/><stop offset="1" stop-color="#e2d1b3"/>
+    </linearGradient>
+    <linearGradient id="canvas" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfbf6"/><stop offset="1" stop-color="#ebe6dc"/>
+    </linearGradient>
+    <linearGradient id="woodS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4aa80"/><stop offset="1" stop-color="#c0956c"/>
+    </linearGradient>
+    <linearGradient id="slat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b088"/><stop offset="1" stop-color="#c39870"/>
+    </linearGradient>
+    <!-- 一个书摊 -->
+    <g id="stall">
+      <rect x="34" y="104" width="4" height="110" fill="#c9a57c"/><rect x="194" y="104" width="4" height="110" fill="#c9a57c"/>
+      <rect x="40" y="110" width="152" height="52" fill="#ecd8b8"/>
+      <rect x="40" y="110" width="152" height="6" fill="#dcc3a0" opacity="0.7"/>
+      <rect x="46.0" y="116.8" width="5.5" height="18.2" fill="#8fb788"/><rect x="52.1" y="120.9" width="6" height="14.1" fill="#f2d79a"/><rect x="58.7" y="121.4" width="4.5" height="13.6" fill="#a9c79a"/><rect x="67.6" y="118.2" width="7" height="16.8" fill="#9fb4c6"/><rect x="75.2" y="117.6" width="7" height="17.4" fill="#d6a6b8"/><rect x="82.6" y="121.6" width="6" height="13.4" fill="#d9805f"/><rect x="89.0" y="121.8" width="6" height="13.2" fill="#8fb788"/><rect x="95.6" y="118.9" width="4.5" height="16.1" fill="#d6a6b8"/><rect x="100.7" y="121.5" width="7" height="13.5" fill="#b9cfd9"/><rect x="108.3" y="116.0" width="6" height="19.0" fill="#e9b45f"/><rect x="115.1" y="118.9" width="4.5" height="16.1" fill="#d9805f"/><rect x="120.0" y="119.6" width="4" height="15.4" fill="#a9c79a"/><rect x="128.6" y="116.9" width="4" height="18.1" fill="#d9805f"/><rect x="133.0" y="119.2" width="4" height="15.8" fill="#b9cfd9"/><rect x="137.6" y="118.2" width="6" height="16.8" fill="#d6a6b8"/><rect x="144.2" y="120.0" width="5" height="15.0" fill="#c8735a"/><rect x="149.6" y="121.4" width="7" height="13.6" fill="#f2d79a"/><rect x="157.2" y="117.9" width="4.5" height="17.1" fill="#a7bccb"/><rect x="162.3" y="117.4" width="7" height="17.6" fill="#c8735a"/><rect x="170.1" y="119.5" width="5.5" height="15.5" fill="#a7bccb"/><rect x="176.0" y="120.2" width="6" height="14.8" fill="#e9b45f"/>
+      <path d="M63.5,135 L66.5,119.5 L70.5,120.2 L67.5,135 Z" fill="#7fb2ad"/><path d="M124.5,135 L126.5,118.5 L130,119 L128,135 Z" fill="#e7a38a"/>
+      <rect x="40" y="135" width="152" height="2.5" fill="#c49e74"/>
+      <rect x="46.0" y="142.1" width="6" height="16.9" fill="#e9b45f"/><rect x="52.4" y="143.4" width="4.5" height="15.6" fill="#d9805f"/><rect x="57.7" y="143.7" width="5" height="15.3" fill="#a9c79a"/><rect x="63.1" y="144.5" width="7" height="14.5" fill="#9fb4c6"/><rect x="70.7" y="145.2" width="5.5" height="13.8" fill="#d6a6b8"/><rect x="76.8" y="140.8" width="4.5" height="18.2" fill="#7fb2ad"/><rect x="82.1" y="141.1" width="4.5" height="17.9" fill="#a7bccb"/><rect x="87.4" y="142.2" width="7" height="16.8" fill="#f2d79a"/><rect x="94.8" y="140.7" width="5.5" height="18.3" fill="#c8735a"/><rect x="100.7" y="145.3" width="4" height="13.7" fill="#f2d79a"/><rect x="105.3" y="143.7" width="7" height="15.3" fill="#8fb788"/><rect x="113.1" y="144.9" width="6" height="14.1" fill="#b9cfd9"/><rect x="119.5" y="142.6" width="5.5" height="16.4" fill="#e7a38a"/><rect x="129.8" y="140.5" width="4.5" height="18.5" fill="#a7bccb"/><rect x="134.8" y="143.5" width="5" height="15.5" fill="#d9805f"/><rect x="140.3" y="141.5" width="6" height="17.5" fill="#e9b45f"/><rect x="148.5" y="143.8" width="5" height="15.2" fill="#9fb4c6"/><rect x="157.9" y="140.7" width="4.5" height="18.3" fill="#e7a38a"/><rect x="163.2" y="142.5" width="6" height="16.5" fill="#7fb2ad"/><rect x="174.0" y="143.2" width="4" height="15.8" fill="#e7a38a"/><rect x="178.8" y="145.9" width="4" height="13.1" fill="#d6a6b8"/>
+      <rect x="40" y="159" width="152" height="2.5" fill="#c49e74"/>
+      <!-- 柜台和平放的书 -->
+      <path d="M36,161 L196,161 L200,172 L32,172 Z" fill="#e0bc93"/>
+      <path d="M43.5,163.5 L57.5,163.5 L58.8,169 L42.0,169 Z" fill="#e7a38a"/><rect x="42.0" y="169" width="16.8" height="2" fill="#f6efe0"/><path d="M61.9,163.5 L74.9,163.5 L76.2,169 L60.4,169 Z" fill="#e9b45f"/><rect x="60.4" y="169" width="15.8" height="2" fill="#f6efe0"/><path d="M79.3,163.5 L91.3,163.5 L92.6,169 L77.8,169 Z" fill="#8fb788"/><rect x="77.8" y="169" width="14.8" height="2" fill="#f6efe0"/><path d="M95.7,163.5 L111.7,163.5 L113.0,169 L94.2,169 Z" fill="#9fb4c6"/><rect x="94.2" y="169" width="18.8" height="2" fill="#f6efe0"/><path d="M116.1,163.5 L128.1,163.5 L129.4,169 L114.6,169 Z" fill="#d9805f"/><rect x="114.6" y="169" width="14.8" height="2" fill="#f6efe0"/><path d="M132.5,163.5 L145.5,163.5 L146.8,169 L131.0,169 Z" fill="#7fb2ad"/><rect x="131.0" y="169" width="15.8" height="2" fill="#f6efe0"/><path d="M149.9,163.5 L163.9,163.5 L165.2,169 L148.4,169 Z" fill="#e9b45f"/><rect x="148.4" y="169" width="16.8" height="2" fill="#f6efe0"/><path d="M168.3,163.5 L183.3,163.5 L184.6,169 L166.8,169 Z" fill="#d6a6b8"/><rect x="166.8" y="169" width="17.8" height="2" fill="#f6efe0"/>
+      <rect x="32" y="172" width="168" height="40" fill="url(#woodS)"/>
+      <g stroke="#b08660" stroke-width="0.9" opacity="0.7"><line x1="32" y1="185" x2="200" y2="185"/><line x1="32" y1="198" x2="200" y2="198"/></g>
+      <rect x="32" y="172" width="168" height="2.5" fill="#e6c9a2"/>
+      <!-- 白色帐篷顶 -->
+      <path d="M24,106 L58,72 L174,72 L208,106 Z" fill="url(#canvas)"/>
+      <path d="M58,72 L174,72" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
+      <path d="M58,72 L30,104 M174,72 L202,104" stroke="#e2dcd0" stroke-width="1" opacity="0.8"/>
+      <path d="M24,106 L208,106 L208,112 Q198.8,119 189.6,112 Q180.4,119 171.2,112 Q162,119 152.8,112 Q143.6,119 134.4,112 Q125.2,119 116,112 Q106.8,119 97.6,112 Q88.4,119 79.2,112 Q70,119 60.8,112 Q51.6,119 42.4,112 Q33.2,119 24,112 Z" fill="#f6f2ea"/>
+      <path d="M24,112 Q33.2,119 42.4,112 Q51.6,119 60.8,112 Q70,119 79.2,112 Q88.4,119 97.6,112 Q106.8,119 116,112 Q125.2,119 134.4,112 Q143.6,119 152.8,112 Q162,119 171.2,112 Q180.4,119 189.6,112 Q198.8,119 208,112" stroke="#a7bccb" stroke-width="1.4" fill="none"/>
+      <path d="M24,106 L208,106" stroke="#d8d1c4" stroke-width="1"/>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空和地面 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+
+    <g filter="url(#wc)">
+      <!-- 远处的绿篱 -->
+      <g fill="#c3d6ad">
+        <circle cx="10" cy="160" r="16"/><circle cx="40" cy="156" r="14"/><circle cx="210" cy="164" r="14"/><circle cx="250" cy="160" r="14"/><circle cx="300" cy="166" r="14"/><circle cx="350" cy="164" r="16"/><circle cx="392" cy="160" r="14"/>
+      </g>
+      <rect x="0" y="160" width="400" height="16" fill="#c9dab3"/>
+      <rect x="0" y="170" width="400" height="90" fill="url(#ground)"/>
+
+      <!-- 大树：树干和树冠在右上 -->
+      <path d="M282,176 C284,140 280,100 286,40 L296,40 C292,100 296,140 298,176 Z" fill="#a98763"/>
+      <path d="M366,180 C368,140 364,100 370,30 L382,30 C378,100 382,140 384,180 Z" fill="#9f7e5b"/>
+      <path d="M290,70 C300,60 312,54 326,52" stroke="#a98763" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+      <g>
+        <circle cx="268" cy="10" r="22" fill="#a5c48c"/><circle cx="300" cy="20" r="30" fill="#97b97f"/><circle cx="340" cy="8" r="32" fill="#8db177"/>
+        <circle cx="384" cy="20" r="32" fill="#97b97f"/><circle cx="322" cy="44" r="18" fill="#a3c48a"/><circle cx="364" cy="48" r="20" fill="#9cbe83"/><circle cx="398" cy="54" r="18" fill="#8db177"/>
+        <circle cx="290" cy="40" r="12" fill="#a5c48c"/>
+        <circle cx="306" cy="16" r="8" fill="#b8d49d" opacity="0.7"/><circle cx="352" cy="30" r="7" fill="#b8d49d" opacity="0.7"/>
+      </g>
+
+      <!-- 三个书摊，由近到远 -->
+      <use href="#stall" transform="translate(301.5,64.3) scale(0.55)"/>
+      <use href="#stall" transform="translate(184.4,39.9) scale(0.72)"/>
+      <use href="#stall"/>
+
+      <!-- 地上斑驳的树影 -->
+      <g filter="url(#soft2)" opacity="0.35" fill="#cdb48e">
+        <ellipse cx="250" cy="214" rx="22" ry="4"/><ellipse cx="300" cy="200" rx="18" ry="3.5"/><ellipse cx="360" cy="208" rx="26" ry="4"/>
+        <ellipse cx="230" cy="246" rx="26" ry="4.5"/><ellipse cx="330" cy="252" rx="30" ry="4.5"/><ellipse cx="390" cy="236" rx="18" ry="3.5"/>
+        <ellipse cx="40" cy="232" rx="28" ry="4.5"/><ellipse cx="110" cy="244" rx="34" ry="5"/><ellipse cx="180" cy="228" rx="20" ry="3.5"/>
+        <ellipse cx="70" cy="254" rx="24" ry="4"/><ellipse cx="160" cy="256" rx="22" ry="3.5"/>
+      </g>
+      <g filter="url(#soft2)" opacity="0.6" fill="#fbf3de">
+        <ellipse cx="276" cy="226" rx="10" ry="2.5"/><ellipse cx="78" cy="238" rx="9" ry="2.2"/><ellipse cx="140" cy="232" rx="8" ry="2"/><ellipse cx="342" cy="190" rx="8" ry="2"/><ellipse cx="204" cy="232" rx="9" ry="2.2"/>
+      </g>
+
+      <!-- 长椅 -->
+      <g stroke="#8a96a0" stroke-width="2" fill="none" stroke-linecap="round">
+        <path d="M286,204 L286,234 L282,250"/><path d="M372,204 L372,234 L376,250"/>
+        <path d="M290,236 L293,250"/><path d="M368,236 L365,250"/>
+      </g>
+      <rect x="280" y="205" width="98" height="5" rx="1.8" fill="url(#slat)"/>
+      <rect x="280" y="213" width="98" height="5" rx="1.8" fill="url(#slat)"/>
+      <rect x="280" y="221" width="98" height="5" rx="1.8" fill="url(#slat)"/>
+      <path d="M277,229 L381,229 L384,234 L274,234 Z" fill="#dcb48b"/>
+      <path d="M274,235 L384,235 L386,239 L272,239 Z" fill="#d2a97f"/>
+      <!-- 长椅上放着刚买的两本书 -->
+      <path d="M300,227.5 L318,227.5 L320,231 L298,231 Z" fill="#7fb2ad"/><rect x="298" y="231" width="22" height="1.8" fill="#f6efe0"/>
+      <path d="M302,224.8 L316,224.8 L317.5,227.5 L300.5,227.5 Z" fill="#e9b45f"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#7a6a50">
+      <ellipse cx="116" cy="215" rx="92" ry="4"/><ellipse cx="268" cy="196" rx="64" ry="3"/><ellipse cx="364" cy="184" rx="48" ry="2.5"/>
+      <ellipse cx="329" cy="251" rx="54" ry="3"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

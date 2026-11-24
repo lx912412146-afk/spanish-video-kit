@@ -1,0 +1,287 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_17.mp3",
+ "duration": 58.487,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.47,
+  "short_term_std_lu": 0.91,
+  "short_term_std_full_lu": 0.94,
+  "peak_dbfs": -1.63,
+  "buzz_hz": 15000.0,
+  "buzz_db": 5.7,
+  "comb_db": -0.44
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.47,
+   "parts": [
+    [
+     0.5,
+     2.47
+    ]
+   ],
+   "segments": [
+    "El autobús de la mañana."
+   ],
+   "text": "El autobús de la mañana.",
+   "read": "El autobús de la mañana."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.47,
+   "end": 6.438,
+   "parts": [
+    [
+     3.47,
+     6.438
+    ]
+   ],
+   "segments": [
+    "Cada mañana voy en autobús a la oficina."
+   ],
+   "text": "Cada mañana voy en autobús a la oficina.",
+   "read": "Cada mañana voy en autobús a la oficina."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.438,
+   "end": 10.108,
+   "parts": [
+    [
+     7.438,
+     10.108
+    ]
+   ],
+   "segments": [
+    "La parada está muy cerca de mi casa."
+   ],
+   "text": "La parada está muy cerca de mi casa.",
+   "read": "La parada está muy cerca de mi casa."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 11.108,
+   "end": 13.703,
+   "parts": [
+    [
+     11.108,
+     13.703
+    ]
+   ],
+   "segments": [
+    "Tiene un banco y un techo para la lluvia."
+   ],
+   "text": "Tiene un banco y un techo para la lluvia.",
+   "read": "Tiene un banco y un techo para la lluvia."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 14.703,
+   "end": 18.013,
+   "parts": [
+    [
+     14.703,
+     18.013
+    ]
+   ],
+   "segments": [
+    "A esta hora la ciudad todavía está medio dormida."
+   ],
+   "text": "A esta hora la ciudad todavía está medio dormida.",
+   "read": "A esta hora la ciudad todavía está medio dormida."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 19.013,
+   "end": 21.873,
+   "parts": [
+    [
+     19.013,
+     21.873
+    ]
+   ],
+   "segments": [
+    "En la parada siempre espera la misma gente."
+   ],
+   "text": "En la parada siempre espera la misma gente.",
+   "read": "En la parada siempre espera la misma gente."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 22.873,
+   "end": 27.668,
+   "parts": [
+    [
+     22.873,
+     27.668
+    ]
+   ],
+   "segments": [
+    "Hay un señor mayor con un perro pequeño y una chica con un libro."
+   ],
+   "text": "Hay un señor mayor con un perro pequeño y una chica con un libro.",
+   "read": "Hay un señor mayor con un perro pequeño y una chica con un libro."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 28.668,
+   "end": 32.258,
+   "parts": [
+    [
+     28.668,
+     32.258
+    ]
+   ],
+   "segments": [
+    "El autobús llega por fin y la gente sube."
+   ],
+   "text": "El autobús llega por fin y la gente sube.",
+   "read": "El autobús llega por fin y la gente sube."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 33.258,
+   "end": 37.17,
+   "parts": [
+    [
+     33.258,
+     34.94
+    ],
+    [
+     35.22,
+     37.17
+    ]
+   ],
+   "segments": [
+    "Pedro, el conductor,",
+    "siempre está de buen humor."
+   ],
+   "text": "Pedro, el conductor, siempre está de buen humor.",
+   "read": "Pedro, el conductor, siempre está de buen humor."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 38.17,
+   "end": 41.41,
+   "parts": [
+    [
+     38.17,
+     41.41
+    ]
+   ],
+   "segments": [
+    "Yo busco un asiento junto a la ventanilla."
+   ],
+   "text": "Yo busco un asiento junto a la ventanilla.",
+   "read": "Yo busco un asiento junto a la ventanilla."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 42.41,
+   "end": 46.52,
+   "parts": [
+    [
+     42.41,
+     46.52
+    ]
+   ],
+   "segments": [
+    "Desde allí veo cómo la ciudad se despierta poco a poco."
+   ],
+   "text": "Desde allí veo cómo la ciudad se despierta poco a poco.",
+   "read": "Desde allí veo cómo la ciudad se despierta poco a poco."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 47.52,
+   "end": 51.02,
+   "parts": [
+    [
+     47.52,
+     51.02
+    ]
+   ],
+   "segments": [
+    "Durante el viaje escucho música y pienso en mi día."
+   ],
+   "text": "Durante el viaje escucho música y pienso en mi día.",
+   "read": "Durante el viaje escucho música y pienso en mi día."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 52.02,
+   "end": 57.287,
+   "parts": [
+    [
+     52.02,
+     57.287
+    ]
+   ],
+   "segments": [
+    "En el autobús de la mañana tengo un rato tranquilo antes del trabajo."
+   ],
+   "text": "En el autobús de la mañana tengo un rato tranquilo antes del trabajo.",
+   "read": "En el autobús de la mañana tengo un rato tranquilo antes del trabajo."
+  }
+ ]
+}

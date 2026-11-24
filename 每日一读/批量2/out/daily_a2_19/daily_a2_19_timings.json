@@ -1,0 +1,285 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_19.mp3",
+ "duration": 61.732,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.44,
+  "short_term_std_lu": 1.0,
+  "short_term_std_full_lu": 1.0,
+  "peak_dbfs": -1.54,
+  "buzz_hz": 6892.1,
+  "buzz_db": 4.5,
+  "comb_db": 0.14
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.968,
+   "parts": [
+    [
+     0.5,
+     1.968
+    ]
+   ],
+   "segments": [
+    "El jardín botánico."
+   ],
+   "text": "El jardín botánico.",
+   "read": "El jardín botánico."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.968,
+   "end": 8.043,
+   "parts": [
+    [
+     2.968,
+     4.703
+    ],
+    [
+     4.983,
+     8.043
+    ]
+   ],
+   "segments": [
+    "Como el domingo llovía,",
+    "Irene y yo fuimos al jardín botánico."
+   ],
+   "text": "Como el domingo llovía, Irene y yo fuimos al jardín botánico.",
+   "read": "Como el domingo llovía, Irene y yo fuimos al jardín botánico."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.043,
+   "end": 13.717,
+   "parts": [
+    [
+     9.043,
+     13.717
+    ]
+   ],
+   "segments": [
+    "Lo más bonito del jardín es un gran invernadero de cristal."
+   ],
+   "text": "Lo más bonito del jardín es un gran invernadero de cristal.",
+   "read": "Lo más bonito del jardín es un gran invernadero de cristal."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.717,
+   "end": 20.38,
+   "parts": [
+    [
+     14.717,
+     15.927
+    ],
+    [
+     16.207,
+     18.457
+    ],
+    [
+     18.737,
+     20.38
+    ]
+   ],
+   "segments": [
+    "Al entrar,",
+    "sentimos un calor húmedo,",
+    "como en una selva."
+   ],
+   "text": "Al entrar, sentimos un calor húmedo, como en una selva.",
+   "read": "Al entrar, sentimos un calor húmedo, como en una selva."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 21.38,
+   "end": 25.03,
+   "parts": [
+    [
+     21.38,
+     25.03
+    ]
+   ],
+   "segments": [
+    "Había palmeras tan altas que casi tocaban el techo."
+   ],
+   "text": "Había palmeras tan altas que casi tocaban el techo.",
+   "read": "Había palmeras tan altas que casi tocaban el techo."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 26.03,
+   "end": 31.066,
+   "parts": [
+    [
+     26.03,
+     31.066
+    ]
+   ],
+   "segments": [
+    "Debajo crecían helechos y una planta con hojas más grandes que mi cabeza."
+   ],
+   "text": "Debajo crecían helechos y una planta con hojas más grandes que mi cabeza.",
+   "read": "Debajo crecían helechos y una planta con hojas más grandes que mi cabeza."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 32.066,
+   "end": 36.456,
+   "parts": [
+    [
+     32.066,
+     36.456
+    ]
+   ],
+   "segments": [
+    "Luego fuimos por un caminito de grava hasta un pequeño estanque."
+   ],
+   "text": "Luego fuimos por un caminito de grava hasta un pequeño estanque.",
+   "read": "Luego fuimos por un caminito de grava hasta un pequeño estanque."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 37.456,
+   "end": 40.319,
+   "parts": [
+    [
+     37.456,
+     40.319
+    ]
+   ],
+   "segments": [
+    "Entre los nenúfares flotaba una flor rosa."
+   ],
+   "text": "Entre los nenúfares flotaba una flor rosa.",
+   "read": "Entre los nenúfares flotaba una flor rosa."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 41.319,
+   "end": 44.829,
+   "parts": [
+    [
+     41.319,
+     44.829
+    ]
+   ],
+   "segments": [
+    "Irene leía los nombres de las plantas en voz alta."
+   ],
+   "text": "Irene leía los nombres de las plantas en voz alta.",
+   "read": "Irene leía los nombres de las plantas en voz alta."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 45.829,
+   "end": 50.169,
+   "parts": [
+    [
+     45.829,
+     50.169
+    ]
+   ],
+   "segments": [
+    "Yo me senté junto al estanque y escuché el sonido del agua."
+   ],
+   "text": "Yo me senté junto al estanque y escuché el sonido del agua.",
+   "read": "Yo me senté junto al estanque y escuché el sonido del agua."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 51.169,
+   "end": 55.392,
+   "parts": [
+    [
+     51.169,
+     52.892
+    ],
+    [
+     53.172,
+     55.392
+    ]
+   ],
+   "segments": [
+    "Fuera seguía lloviendo,",
+    "pero allí dentro parecía verano."
+   ],
+   "text": "Fuera seguía lloviendo, pero allí dentro parecía verano.",
+   "read": "Fuera seguía lloviendo, pero allí dentro parecía verano."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 56.392,
+   "end": 60.532,
+   "parts": [
+    [
+     56.392,
+     60.532
+    ]
+   ],
+   "segments": [
+    "Fue como hacer un viaje a un país lejano sin salir de la ciudad."
+   ],
+   "text": "Fue como hacer un viaje a un país lejano sin salir de la ciudad.",
+   "read": "Fue como hacer un viaje a un país lejano sin salir de la ciudad."
+  }
+ ]
+}

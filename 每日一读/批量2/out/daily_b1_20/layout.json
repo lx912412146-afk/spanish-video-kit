@@ -1,0 +1,305 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  661.25
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  669.25
+ ],
+ "zh": [
+  96,
+  695.25,
+  480,
+  957.625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  220.25,
+  131.625
+ ],
+ "header_gap": 243.671875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   3
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4,
+   "Cada primavera, el parque de mi barrio acoge la feria del libro."
+  ],
+  [
+   "mid",
+   4.6,
+   "Sus casetas de madera tienen techos blancos y están repletas de"
+  ],
+  [
+   "mid",
+   6.1,
+   "novelas, cuentos y libros de viaje. El sábado pasado fui con mi"
+  ],
+  [
+   "mid",
+   3.7,
+   "amiga Laura y pasamos la mañana entera de caseta en caseta. Los"
+  ],
+  [
+   "mid",
+   5.9,
+   "libreros nos recomendaban títulos con tanto entusiasmo que era"
+  ],
+  [
+   "mid",
+   5.5,
+   "imposible no hacerles caso. Al final me llevé un libro de poemas"
+  ],
+  [
+   "last",
+   3.5,
+   "para regalárselo a mi padre."
+  ],
+  [
+   "mid",
+   6.4,
+   "En una caseta, una escritora firmaba ejemplares y charlaba"
+  ],
+  [
+   "mid",
+   4.2,
+   "con cada lector. Hicimos una larga cola, pero mereció la pena: nos"
+  ],
+  [
+   "mid",
+   3.9,
+   "escribió una dedicatoria muy simpática. Me quedaría horas en este"
+  ],
+  [
+   "mid",
+   4.6,
+   "ambiente, donde todos comparten la misma pasión por la lectura."
+  ],
+  [
+   "mid",
+   6.1,
+   "Aunque hoy leamos mucho en el móvil, no creo que el libro de"
+  ],
+  [
+   "mid",
+   3.5,
+   "papel vaya a desaparecer. El año que viene volveré con más tiempo"
+  ],
+  [
+   "last",
+   3.5,
+   "y con la mochila vacía."
+  ]
+ ],
+ "es_max_gap": 6.4,
+ "es_font": [
+  13.0,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

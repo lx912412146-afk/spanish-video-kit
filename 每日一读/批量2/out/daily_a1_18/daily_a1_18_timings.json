@@ -1,0 +1,307 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_18.mp3",
+ "duration": 64.072,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.43,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.72,
+  "buzz_hz": 5496.8,
+  "buzz_db": 4.7,
+  "comb_db": 0.17
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.29,
+   "parts": [
+    [
+     0.5,
+     2.29
+    ]
+   ],
+   "segments": [
+    "El cine de los viernes."
+   ],
+   "text": "El cine de los viernes.",
+   "read": "El cine de los viernes."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.29,
+   "end": 6.91,
+   "parts": [
+    [
+     3.29,
+     6.91
+    ]
+   ],
+   "segments": [
+    "Cada viernes Alberto y yo vamos al cine del barrio."
+   ],
+   "text": "Cada viernes Alberto y yo vamos al cine del barrio.",
+   "read": "Cada viernes Alberto y yo vamos al cine del barrio."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.91,
+   "end": 12.343,
+   "parts": [
+    [
+     7.91,
+     12.343
+    ]
+   ],
+   "segments": [
+    "Alberto es mi compañero de piso y le encanta el cine."
+   ],
+   "text": "Alberto es mi compañero de piso y le encanta el cine.",
+   "read": "Alberto es mi compañero de piso y le encanta el cine."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.343,
+   "end": 16.921,
+   "parts": [
+    [
+     13.343,
+     15.421
+    ],
+    [
+     15.701,
+     16.921
+    ]
+   ],
+   "segments": [
+    "El cine es pequeño y antiguo,",
+    "pero muy cómodo."
+   ],
+   "text": "El cine es pequeño y antiguo, pero muy cómodo.",
+   "read": "El cine es pequeño y antiguo, pero muy cómodo."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 17.921,
+   "end": 22.411,
+   "parts": [
+    [
+     17.921,
+     22.411
+    ]
+   ],
+   "segments": [
+    "Dentro hay una pantalla enorme y filas de butacas de color rojo."
+   ],
+   "text": "Dentro hay una pantalla enorme y filas de butacas de color rojo.",
+   "read": "Dentro hay una pantalla enorme y filas de butacas de color rojo."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 23.411,
+   "end": 28.641,
+   "parts": [
+    [
+     23.411,
+     24.601
+    ],
+    [
+     24.881,
+     28.641
+    ]
+   ],
+   "segments": [
+    "Antes de entrar,",
+    "compramos un cubo de palomitas para compartir."
+   ],
+   "text": "Antes de entrar, compramos un cubo de palomitas para compartir.",
+   "read": "Antes de entrar, compramos un cubo de palomitas para compartir."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 29.641,
+   "end": 33.001,
+   "parts": [
+    [
+     29.641,
+     33.001
+    ]
+   ],
+   "segments": [
+    "Siempre nos sentamos en el centro de la sala."
+   ],
+   "text": "Siempre nos sentamos en el centro de la sala.",
+   "read": "Siempre nos sentamos en el centro de la sala."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 34.001,
+   "end": 38.093,
+   "parts": [
+    [
+     34.001,
+     35.543
+    ],
+    [
+     35.823,
+     38.093
+    ]
+   ],
+   "segments": [
+    "Cuando se apaga la luz,",
+    "la sala se queda en silencio."
+   ],
+   "text": "Cuando se apaga la luz, la sala se queda en silencio.",
+   "read": "Cuando se apaga la luz, la sala se queda en silencio."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.093,
+   "end": 43.693,
+   "parts": [
+    [
+     39.093,
+     43.693
+    ]
+   ],
+   "segments": [
+    "Entonces la pantalla se llena de luz y empieza la película."
+   ],
+   "text": "Entonces la pantalla se llena de luz y empieza la película.",
+   "read": "Entonces la pantalla se llena de luz y empieza la película."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 44.693,
+   "end": 49.584,
+   "parts": [
+    [
+     44.693,
+     47.304
+    ],
+    [
+     47.584,
+     49.584
+    ]
+   ],
+   "segments": [
+    "A Alberto le gusta el cine de acción,",
+    "pero yo prefiero la comedia."
+   ],
+   "text": "A Alberto le gusta el cine de acción, pero yo prefiero la comedia.",
+   "read": "A Alberto le gusta el cine de acción, pero yo prefiero la comedia."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 50.584,
+   "end": 55.242,
+   "parts": [
+    [
+     50.584,
+     51.217
+    ],
+    [
+     51.497,
+     55.242
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "una semana elige él y otra semana elijo yo."
+   ],
+   "text": "Por eso, una semana elige él y otra semana elijo yo.",
+   "read": "Por eso, una semana elige él y otra semana elijo yo."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 56.242,
+   "end": 59.592,
+   "parts": [
+    [
+     56.242,
+     59.592
+    ]
+   ],
+   "segments": [
+    "Después cenamos algo y hablamos de la película."
+   ],
+   "text": "Después cenamos algo y hablamos de la película.",
+   "read": "Después cenamos algo y hablamos de la película."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 60.592,
+   "end": 62.872,
+   "parts": [
+    [
+     60.592,
+     62.872
+    ]
+   ],
+   "segments": [
+    "Así empieza mi fin de semana."
+   ],
+   "text": "Así empieza mi fin de semana.",
+   "read": "Así empieza mi fin de semana."
+  }
+ ]
+}

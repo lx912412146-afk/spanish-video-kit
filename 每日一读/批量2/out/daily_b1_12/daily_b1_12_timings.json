@@ -1,0 +1,287 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_12.mp3",
+ "duration": 61.69,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.44,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 1.0,
+  "peak_dbfs": -1.62,
+  "buzz_hz": 10637.7,
+  "buzz_db": 4.7,
+  "comb_db": -0.05
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.71,
+   "parts": [
+    [
+     0.5,
+     1.71
+    ]
+   ],
+   "segments": [
+    "Ir al teatro."
+   ],
+   "text": "Ir al teatro.",
+   "read": "Ir al teatro."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.71,
+   "end": 7.82,
+   "parts": [
+    [
+     2.71,
+     5.42
+    ],
+    [
+     5.7,
+     7.82
+    ]
+   ],
+   "segments": [
+    "Hasta hace poco casi nunca iba al teatro,",
+    "porque me parecía un plan aburrido."
+   ],
+   "text": "Hasta hace poco casi nunca iba al teatro, porque me parecía un plan aburrido.",
+   "read": "Hasta hace poco casi nunca iba al teatro, porque me parecía un plan aburrido."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.82,
+   "end": 13.21,
+   "parts": [
+    [
+     8.82,
+     9.56
+    ],
+    [
+     9.84,
+     13.21
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "el mes pasado mi amigo Javier me invitó a ver una comedia."
+   ],
+   "text": "Sin embargo, el mes pasado mi amigo Javier me invitó a ver una comedia.",
+   "read": "Sin embargo, el mes pasado mi amigo Javier me invitó a ver una comedia."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.21,
+   "end": 19.42,
+   "parts": [
+    [
+     14.21,
+     17.21
+    ],
+    [
+     17.49,
+     19.42
+    ]
+   ],
+   "segments": [
+    "Llegamos con tiempo y nos sentamos en primera fila,",
+    "frente a un enorme telón rojo."
+   ],
+   "text": "Llegamos con tiempo y nos sentamos en primera fila, frente a un enorme telón rojo.",
+   "read": "Llegamos con tiempo y nos sentamos en primera fila, frente a un enorme telón rojo."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.42,
+   "end": 25.56,
+   "parts": [
+    [
+     20.42,
+     21.73
+    ],
+    [
+     22.01,
+     25.56
+    ]
+   ],
+   "segments": [
+    "Mientras esperaba,",
+    "me fijé en los palcos que se asomaban a la sala desde lo alto."
+   ],
+   "text": "Mientras esperaba, me fijé en los palcos que se asomaban a la sala desde lo alto.",
+   "read": "Mientras esperaba, me fijé en los palcos que se asomaban a la sala desde lo alto."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 26.56,
+   "end": 31.94,
+   "parts": [
+    [
+     26.56,
+     28.57
+    ],
+    [
+     28.85,
+     31.94
+    ]
+   ],
+   "segments": [
+    "De repente se hizo el silencio,",
+    "el telón se abrió y un foco iluminó el escenario."
+   ],
+   "text": "De repente se hizo el silencio, el telón se abrió y un foco iluminó el escenario.",
+   "read": "De repente se hizo el silencio, el telón se abrió y un foco iluminó el escenario."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 32.94,
+   "end": 38.36,
+   "parts": [
+    [
+     32.94,
+     36.15
+    ],
+    [
+     36.43,
+     38.36
+    ]
+   ],
+   "segments": [
+    "Los actores representaban a una familia muy despistada,",
+    "y el público no paraba de reír."
+   ],
+   "text": "Los actores representaban a una familia muy despistada, y el público no paraba de reír.",
+   "read": "Los actores representaban a una familia muy despistada, y el público no paraba de reír."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.36,
+   "end": 44.98,
+   "parts": [
+    [
+     39.36,
+     42.49
+    ],
+    [
+     42.77,
+     44.98
+    ]
+   ],
+   "segments": [
+    "Además, cuando a una actriz se le cayó el sombrero,",
+    "improvisó una broma muy divertida."
+   ],
+   "text": "Además, cuando a una actriz se le cayó el sombrero, improvisó una broma muy divertida.",
+   "read": "Además, cuando a una actriz se le cayó el sombrero, improvisó una broma muy divertida."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 45.98,
+   "end": 50.92,
+   "parts": [
+    [
+     45.98,
+     48.62
+    ],
+    [
+     48.9,
+     50.92
+    ]
+   ],
+   "segments": [
+    "Lo que más me impresionó fue verlos tan cerca,",
+    "sin ninguna pantalla en medio."
+   ],
+   "text": "Lo que más me impresionó fue verlos tan cerca, sin ninguna pantalla en medio.",
+   "read": "Lo que más me impresionó fue verlos tan cerca, sin ninguna pantalla en medio."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 51.92,
+   "end": 55.59,
+   "parts": [
+    [
+     51.92,
+     55.59
+    ]
+   ],
+   "segments": [
+    "No creo que el cine pueda transmitir la emoción de un espectáculo en directo."
+   ],
+   "text": "No creo que el cine pueda transmitir la emoción de un espectáculo en directo.",
+   "read": "No creo que el cine pueda transmitir la emoción de un espectáculo en directo."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 56.59,
+   "end": 60.49,
+   "parts": [
+    [
+     56.59,
+     57.51
+    ],
+    [
+     57.79,
+     60.49
+    ]
+   ],
+   "segments": [
+    "Al salir,",
+    "le dije a Javier que me gustaría volver pronto."
+   ],
+   "text": "Al salir, le dije a Javier que me gustaría volver pronto.",
+   "read": "Al salir, le dije a Javier que me gustaría volver pronto."
+  }
+ ]
+}

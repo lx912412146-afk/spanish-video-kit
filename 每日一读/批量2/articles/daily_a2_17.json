@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_17",
+ "level": "A2",
+ "no": 17,
+ "title_es": "Mi antiguo barrio",
+ "title_zh": "我以前住的街区",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 17 篇。原创短文。过去未完成时回忆童年的街区和习惯（daba、había、compraba、regalaba），简单过去时叙述前几天回去的经过（viví、paseé、me acerqué、tardó、me abrazó、me senté、volví a ser），比较级 todavía más alto。11 句，116 词。没有需要不停顿的列举逗号：第 5 句同位语 la señora Carmen 两边、第 7 句和第 10 句 pero 前、第 11 句插入语 durante un rato 两边的逗号照常停顿。antiguo 放在名词前是“以前的”（mi antiguo barrio），不是“古老的”，所以第 1 句不用 barrio antiguo，免得同一个词在文中两种意思；dar a 是“朝向”，原文 daba a；altísimo 是 alto 的绝对最高级，释义“非常高的”；dueño 原文是阴性 dueña，指报亭的女主人，释义取“店主”；la señora Carmen 从孩子的角度译作“卡门阿姨”；la de siempre 译作“还是老样子”；tardar en 原文 Tardó en，释义写“过一会儿才”；reconocer 原文是 reconocerme；volver a ser niño 译作“又变回了小孩”。词头 antiguo、barrio 在标题里，排在最前。小广场、报亭、大树、带阳台的旧楼和长椅都写进了文中，报亭只说 kiosco，不提招牌上的字。审校改动：插图里大树和长椅在广场右边、紧挨着楼，不在广场正中，第 3 句原为 En medio de la plaza había un árbol altísimo y un banco，改成 En la plaza había un árbol altísimo y un banco，译文改为“广场上有一棵非常高的树，还有一张长椅。”；词汇 en medio de（在中间）随之去掉，换成第 2 句的 plaza（广场），排在 dar a 后面。录音核对后改：识别程序把 quiosco 一律写成 kiosco（两种拼法《西班牙语词典》都收，读音相同），第 4、8、9 句和词汇改用 kiosco，读音和译文都不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "antiguo",
+   "以前的",
+   "antiguo"
+  ],
+  [
+   "barrio",
+   "街区",
+   "barrio"
+  ],
+  [
+   "centro",
+   "市中心",
+   "centro"
+  ],
+  [
+   "piso",
+   "公寓",
+   "piso"
+  ],
+  [
+   "dar a",
+   "朝向",
+   "daba a"
+  ],
+  [
+   "plaza",
+   "广场",
+   "plaza"
+  ],
+  [
+   "altísimo",
+   "非常高的",
+   "altísimo"
+  ],
+  [
+   "periódico",
+   "报纸",
+   "periódico"
+  ],
+  [
+   "kiosco",
+   "报亭",
+   "kiosco"
+  ],
+  [
+   "esquina",
+   "街角",
+   "esquina"
+  ],
+  [
+   "dueño",
+   "店主",
+   "dueña"
+  ],
+  [
+   "caramelo",
+   "糖果",
+   "caramelo"
+  ],
+  [
+   "tardar en",
+   "过一会儿才",
+   "Tardó en"
+  ],
+  [
+   "reconocer",
+   "认出",
+   "reconocerme"
+  ],
+  [
+   "volver a ser",
+   "又变成",
+   "volví a ser"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hasta los doce años viví en un barrio tranquilo del centro.",
+    "zh": "十二岁以前，我一直住在市中心一个安静的街区。"
+   },
+   {
+    "es": "Nuestro piso tenía un balcón que daba a una pequeña plaza.",
+    "zh": "我们家的公寓有个阳台，正对着一个小广场。"
+   },
+   {
+    "es": "En la plaza había un árbol altísimo y un banco.",
+    "zh": "广场上有一棵非常高的树，还有一张长椅。"
+   },
+   {
+    "es": "Mi padre compraba el periódico en el kiosco de la esquina.",
+    "zh": "我爸爸总在街角的报亭买报纸。"
+   },
+   {
+    "es": "La dueña, la señora Carmen, siempre me regalaba un caramelo.",
+    "zh": "报亭的老板卡门阿姨每次都会送我一颗糖。"
+   }
+  ],
+  [
+   {
+    "es": "Hace unos días paseé otra vez por mi antiguo barrio.",
+    "zh": "前几天，我又去以前住的街区走了走。"
+   },
+   {
+    "es": "Había alguna tienda nueva, pero la plaza era la de siempre.",
+    "zh": "街上开了一两家新店，可广场还是老样子。"
+   },
+   {
+    "es": "El árbol era todavía más alto y el kiosco también estaba allí.",
+    "zh": "那棵树比以前更高了，报亭也还在那儿。"
+   },
+   {
+    "es": "Me acerqué al kiosco y allí estaba la señora Carmen.",
+    "zh": "我走到报亭前，卡门阿姨就在那里。"
+   },
+   {
+    "es": "Tardó en reconocerme, pero luego me abrazó.",
+    "zh": "她过了一会儿才认出我，然后拥抱了我。"
+   },
+   {
+    "es": "Me senté en el banco y, durante un rato, volví a ser niño.",
+    "zh": "我在长椅上坐下，有那么一会儿，我好像又变回了小孩。"
+   }
+  ]
+ ]
+}

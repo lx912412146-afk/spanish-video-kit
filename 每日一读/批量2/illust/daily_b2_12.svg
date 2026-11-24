@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：黄昏的城市公园边，灌木旁的狐狸，电线上的小鸟，远处的公寓楼（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6ece2"/><stop offset="0.22" stop-color="#f6e3d2"/><stop offset="0.45" stop-color="#f4d3b6"/><stop offset="0.7" stop-color="#f0c4a2"/><stop offset="1" stop-color="#eebd9c"/>
+    </linearGradient>
+    <radialGradient id="sunset" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff0d2" stop-opacity="0.95"/><stop offset="0.4" stop-color="#fbe0b8" stop-opacity="0.55"/><stop offset="1" stop-color="#f6cfa8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bldFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcc4c0"/><stop offset="1" stop-color="#cdb2b2"/>
+    </linearGradient>
+    <linearGradient id="bldNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cbb0b3"/><stop offset="1" stop-color="#b99ea6"/>
+    </linearGradient>
+    <linearGradient id="bldSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b89ca3"/><stop offset="1" stop-color="#a88f99"/>
+    </linearGradient>
+    <linearGradient id="lawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8c193"/><stop offset="1" stop-color="#a5b083"/>
+    </linearGradient>
+    <linearGradient id="hedge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#97a47a"/><stop offset="1" stop-color="#83926c"/>
+    </linearGradient>
+    <radialGradient id="bush" cx="0.6" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#a6b57f"/><stop offset="0.6" stop-color="#899c6c"/><stop offset="1" stop-color="#768a5f"/>
+    </radialGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e99a5c"/><stop offset="0.6" stop-color="#dc844a"/><stop offset="1" stop-color="#c96f3c"/>
+    </linearGradient>
+    <linearGradient id="tailG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9824a"/><stop offset="0.7" stop-color="#e5965a"/><stop offset="1" stop-color="#e29a63"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff1c6" stop-opacity="0.95"/><stop offset="0.35" stop-color="#fbe2a6" stop-opacity="0.5"/><stop offset="1" stop-color="#f8d99a" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 一排四个窗 -->
+    <g id="win4" fill="#e9d6cf"><rect width="4" height="5"/><rect x="8" width="4" height="5"/><rect x="16" width="4" height="5"/><rect x="24" width="4" height="5"/></g>
+    <g id="win3" fill="#dcc3c2"><rect width="4.5" height="5.5"/><rect x="9" width="4.5" height="5.5"/><rect x="18" width="4.5" height="5.5"/></g>
+    <!-- 停在电线上的小鸟（原点 = 脚下） -->
+    <g id="bird">
+      <path d="M-4.2,-3.6 C-4,-6 -1.6,-7.2 0.8,-6.8 C2.8,-6.4 3.8,-4.8 3.4,-3 C3,-1.4 1.2,-0.6 -0.8,-0.8 C-2.6,-1 -4.4,-2 -4.2,-3.6 Z" fill="#7d6d6d"/>
+      <circle cx="2.6" cy="-7.4" r="2.1" fill="#7d6d6d"/>
+      <path d="M4.5,-7.6 L6.1,-7 L4.5,-6.6 Z" fill="#8a7466"/>
+      <path d="M-3.8,-2.6 L-7.2,-0.6 L-6.6,0 L-3,-1.4 Z" fill="#6f6062"/>
+      <line x1="-0.4" y1="-0.8" x2="-0.6" y2="0.4" stroke="#6f6062" stroke-width="0.5"/><line x1="0.8" y1="-0.8" x2="0.8" y2="0.4" stroke="#6f6062" stroke-width="0.5"/>
+    </g>
+    <g id="birdL"><use href="#bird" transform="scale(-1,1)"/></g>
+    <g id="tuft"><path d="M0,0 C-1,-3 -3,-5 -5,-6 M0,0 C0,-3 0,-6 1,-8 M0,0 C1,-3 3,-5 5,-5" stroke="#8c9a6c" stroke-width="0.9" fill="none" stroke-linecap="round"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 黄昏的天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <circle cx="322" cy="118" r="70" fill="url(#sunset)"/>
+    <g filter="url(#soft2)" opacity="0.85">
+      <ellipse cx="318" cy="38" rx="26" ry="5" fill="#f8dccf"/><ellipse cx="334" cy="34" rx="13" ry="4.5" fill="#f9e3d6"/>
+      <ellipse cx="376" cy="58" rx="18" ry="3.5" fill="#f6d2c2"/>
+      <ellipse cx="270" cy="62" rx="16" ry="3" fill="#f7d8c6"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 远处的公寓楼（后排） -->
+      <g fill="url(#bldFar)">
+        <rect x="0" y="122" width="46" height="70"/><rect x="88" y="112" width="40" height="80"/><rect x="226" y="72" width="40" height="120"/>
+        <rect x="346" y="78" width="54" height="114"/>
+      </g>
+      <g opacity="0.85">
+        <use href="#win4" transform="translate(8,130)"/><use href="#win4" transform="translate(8,142)"/><use href="#win4" transform="translate(8,154)"/>
+        <use href="#win4" transform="translate(94,120)"/><use href="#win4" transform="translate(94,132)"/><use href="#win4" transform="translate(94,144)"/><use href="#win4" transform="translate(94,156)"/>
+        <use href="#win4" transform="translate(232,82)"/><use href="#win4" transform="translate(232,94)"/><use href="#win4" transform="translate(232,106)"/><use href="#win4" transform="translate(232,118)"/><use href="#win4" transform="translate(232,130)"/><use href="#win4" transform="translate(232,142)"/>
+        <use href="#win4" transform="translate(354,88)"/><use href="#win4" transform="translate(354,100)"/><use href="#win4" transform="translate(354,112)"/><use href="#win4" transform="translate(354,124)"/><use href="#win4" transform="translate(354,136)"/>
+        <use href="#win4" transform="translate(370,88)"/><use href="#win4" transform="translate(370,100)"/><use href="#win4" transform="translate(370,112)"/><use href="#win4" transform="translate(370,124)"/>
+      </g>
+      <!-- 前排的公寓楼 -->
+      <g>
+        <rect x="40" y="130" width="52" height="62" fill="url(#bldNear)"/>
+        <rect x="150" y="96" width="62" height="96" fill="url(#bldNear)"/><rect x="212" y="100" width="12" height="92" fill="url(#bldSide)"/>
+        <rect x="274" y="88" width="58" height="104" fill="url(#bldNear)"/><rect x="332" y="92" width="10" height="100" fill="url(#bldSide)"/>
+        <rect x="146" y="92" width="70" height="5" fill="#d6bfc0"/><rect x="270" y="84" width="66" height="5" fill="#d6bfc0"/>
+      </g>
+      <g>
+        <use href="#win3" transform="translate(48,138)"/><use href="#win3" transform="translate(48,150)"/><use href="#win3" transform="translate(48,162)"/>
+        <use href="#win3" transform="translate(158,106)"/><use href="#win3" transform="translate(158,120)"/><use href="#win3" transform="translate(158,134)"/><use href="#win3" transform="translate(158,148)"/><use href="#win3" transform="translate(158,162)"/>
+        <use href="#win3" transform="translate(186,106)"/><use href="#win3" transform="translate(186,120)"/><use href="#win3" transform="translate(186,134)"/><use href="#win3" transform="translate(186,148)"/><use href="#win3" transform="translate(186,162)"/>
+        <use href="#win3" transform="translate(282,98)"/><use href="#win3" transform="translate(282,112)"/><use href="#win3" transform="translate(282,126)"/><use href="#win3" transform="translate(282,140)"/><use href="#win3" transform="translate(282,154)"/>
+        <use href="#win3" transform="translate(306,98)"/><use href="#win3" transform="translate(306,112)"/><use href="#win3" transform="translate(306,126)"/><use href="#win3" transform="translate(306,140)"/><use href="#win3" transform="translate(306,154)"/>
+      </g>
+      <!-- 亮起来的窗 -->
+      <g fill="#f8d993">
+        <rect x="57" y="150" width="4.5" height="5.5"/><rect x="167" y="120" width="4.5" height="5.5"/><rect x="158" y="148" width="4.5" height="5.5"/>
+        <rect x="195" y="106" width="4.5" height="5.5"/><rect x="204" y="134" width="4.5" height="5.5"/><rect x="186" y="162" width="4.5" height="5.5"/>
+        <rect x="291" y="112" width="4.5" height="5.5"/><rect x="282" y="140" width="4.5" height="5.5"/><rect x="315" y="98" width="4.5" height="5.5"/>
+        <rect x="324" y="126" width="4.5" height="5.5"/><rect x="306" y="154" width="4.5" height="5.5"/>
+        <rect x="240" y="94" width="4" height="5"/><rect x="256" y="118" width="4" height="5"/><rect x="362" y="112" width="4" height="5"/><rect x="378" y="88" width="4" height="5"/>
+        <rect x="102" y="144" width="4" height="5"/><rect x="16" y="142" width="4" height="5"/>
+      </g>
+      <!-- 屋顶的小水箱和天线 -->
+      <rect x="290" y="76" width="12" height="8" rx="1" fill="#c3a8ac"/>
+      <path d="M176,92 L176,80 M172,82 L180,82" stroke="#a89299" stroke-width="1"/>
+
+      <!-- 电线杆和电线 -->
+      <rect x="364.5" y="60" width="4" height="132" fill="#9c8478"/>
+      <rect x="356" y="64" width="20" height="3" rx="1" fill="#957d72"/>
+      <g fill="none" stroke="#7f7072" stroke-width="0.9">
+        <path d="M366,66 Q200,110 0,70"/>
+        <path d="M374,66 Q220,124 0,84"/>
+      </g>
+    </g>
+
+    <!-- 电线上的鸟 -->
+    <g filter="url(#wc)">
+      <use href="#bird" transform="translate(263,84.8)"/>
+      <use href="#birdL" transform="translate(242,86.8) scale(0.95)"/>
+      <use href="#bird" transform="translate(191.5,89)"/>
+      <use href="#bird" transform="translate(147,88.2) scale(0.9)"/>
+      <use href="#birdL" transform="translate(132,87.5) scale(0.95)"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 公园的树篱 -->
+      <path d="M0,198 L0,184 C8,176 18,176 26,182 C34,174 46,174 54,181 C62,175 74,175 82,182 C92,176 104,176 112,183 C122,176 134,176 142,183 C152,176 164,177 172,183 C182,176 194,176 202,183 C212,177 224,177 232,183 C242,176 254,176 262,183 C272,177 284,177 292,183 C302,176 314,176 322,183 C332,177 344,177 352,183 C362,176 374,176 382,183 C390,178 396,178 400,180 L400,198 Z" fill="url(#hedge)"/>
+      <!-- 草地 -->
+      <path d="M0,196 C80,192 160,193 240,195 C310,196 360,193 400,192 L400,260 L0,260 Z" fill="url(#lawn)"/>
+      <!-- 小路 -->
+      <path d="M262,260 C278,236 314,214 400,204 L400,226 C342,232 312,246 304,260 Z" fill="#e4d2bc"/>
+      <path d="M268,260 C284,240 316,220 400,210" stroke="#d6c1a8" stroke-width="0.8" fill="none" opacity="0.8"/>
+
+      <!-- 路灯 -->
+      <circle cx="330" cy="132" r="30" fill="url(#lampGlow)"/>
+      <rect x="328.6" y="138" width="3" height="88" fill="#857070"/>
+      <rect x="326" y="222" width="8" height="5" rx="1" fill="#7a6767"/>
+      <path d="M323,129 L337,129 L334,140 L326,140 Z" fill="#fbe8b8"/>
+      <path d="M321,129 L339,129 L336,125 L324,125 Z" fill="#857070"/>
+      <rect x="325" y="140" width="10" height="2" fill="#857070"/>
+
+      <!-- 灌木 -->
+      <g>
+        <circle cx="40" cy="196" r="26" fill="url(#bush)"/>
+        <circle cx="74" cy="192" r="28" fill="url(#bush)"/>
+        <circle cx="104" cy="202" r="20" fill="url(#bush)"/>
+        <circle cx="20" cy="210" r="18" fill="url(#bush)"/>
+        <path d="M0,226 C30,227 80,227 112,224 C120,222 124,216 120,212 C90,218 40,217 0,214 Z" fill="#7b8f62"/>
+      </g>
+      <g fill="#b2c08a" opacity="0.8">
+        <ellipse cx="82" cy="172" rx="9" ry="5"/><ellipse cx="50" cy="176" rx="7" ry="4"/><ellipse cx="110" cy="188" rx="6" ry="3.6"/>
+      </g>
+      <g fill="#6f845a" opacity="0.7">
+        <ellipse cx="60" cy="208" rx="8" ry="4"/><ellipse cx="30" cy="218" rx="7" ry="3.5"/><ellipse cx="92" cy="214" rx="6" ry="3"/>
+      </g>
+      <!-- 灌木里的小白花 -->
+      <g fill="#f8efe4"><circle cx="66" cy="182" r="1.4"/><circle cx="88" cy="196" r="1.3"/><circle cx="36" cy="190" r="1.3"/><circle cx="102" cy="198" r="1.2"/><circle cx="20" cy="204" r="1.2"/><circle cx="54" cy="198" r="1.2"/></g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.22" fill="#6c5a4a">
+      <ellipse cx="184" cy="230" rx="44" ry="3.6"/><ellipse cx="62" cy="226" rx="62" ry="4.5"/><ellipse cx="333" cy="227" rx="9" ry="2"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 狐狸（面朝左，原点 = 前爪着地处） -->
+      <g transform="translate(150,229) scale(1.1)">
+        <!-- 远侧的腿 -->
+        <path d="M43,-22 C45,-16 46,-8 46,-1 L49.4,-1 C49.4,-8 49,-16 48,-22 Z" fill="#b8643a"/>
+        <path d="M45.8,-8 L46,-1 L49.4,-1 L49.2,-8 Z" fill="#5e4a40"/>
+        <path d="M13,-21 L13.4,-1 L16.6,-1 L16.8,-21 Z" fill="#b8643a"/>
+        <path d="M13.2,-9 L13.4,-1 L16.6,-1 L16.7,-9 Z" fill="#5e4a40"/>
+        <g transform="translate(0,-5)">
+          <!-- 尾巴 -->
+          <path d="M54,-27 C66,-30 80,-26 88,-15 C92,-9 93,-4 90,-2 C84,-6 77,-11 68,-15 C61,-18 56,-19 51,-20 Z" fill="url(#tailG)"/>
+          <path d="M84,-12 C88,-9 92,-5 90,-2 C87,-4 84,-6 81,-8 Z" fill="#f7eee2"/>
+          <!-- 身体 -->
+          <path d="M5,-27 C7,-34 18,-37 31,-36 C43,-35 52,-33 55,-26 C57,-20 53,-15 46,-15 L16,-15 C9,-15 4,-19 5,-27 Z" fill="url(#fur)"/>
+          <path d="M20,-16 C28,-14 38,-14 46,-16 C42,-19 30,-19 20,-16 Z" fill="#c36a3a" opacity="0.6"/>
+          <!-- 胸前白毛 -->
+          <path d="M3,-30 C1,-24 4,-18 9,-17 C11,-21 11,-27 8,-32 Z" fill="#f7ede0"/>
+          <!-- 脖子和头 -->
+          <path d="M-4,-37 C-2,-31 1,-26 5,-22 L12,-24 C11,-31 8,-40 4,-47 Z" fill="url(#fur)"/>
+          <path d="M6,-45 C6,-51 0,-54 -6,-53 C-11,-52 -14,-49 -17,-45 L-24,-40 C-25.2,-39 -24.4,-37.4 -22.8,-37.4 C-16,-37 -10,-35 -4,-35 C2,-35 6,-39 6,-45 Z" fill="url(#fur)"/>
+          <path d="M-22.8,-37.4 C-16,-37 -10,-35 -4,-35 C-6,-31.6 -10,-30.6 -14,-32.4 C-18,-33.6 -21,-35 -22.8,-37.4 Z" fill="#f7ede0"/>
+          <!-- 耳朵 -->
+          <path d="M-11,-50 L-13,-63 L-4,-53 Z" fill="#d7804a"/>
+          <path d="M-10.5,-52 L-11.8,-59.5 L-6.5,-53.6 Z" fill="#6a5246"/>
+          <path d="M-3,-53 L0,-64 L4.6,-50.5 Z" fill="#e08c50"/>
+          <path d="M-1.4,-53 L0.2,-60 L3,-51.6 Z" fill="#7a5c4c"/>
+          <!-- 眼、鼻 -->
+          <ellipse cx="-9.5" cy="-45.5" rx="1.1" ry="1.3" fill="#4a4038"/>
+          <circle cx="-24" cy="-39.4" r="1.2" fill="#4a4038"/>
+          <ellipse cx="-2" cy="-46" rx="3" ry="2" fill="#f2b07a" opacity="0.6"/>
+        </g>
+        <!-- 近侧的腿 -->
+        <path d="M45,-32 C53,-32 57,-25 54,-19 L53.6,-1 L50,-1 L49.6,-17 C45,-20 41,-26 45,-32 Z" fill="#d7804a"/>
+        <path d="M49.8,-8 L50,-1 L53.8,-1 L54,-8 Z" fill="#5e4a40"/>
+        <path d="M7,-24 L8,-1 L11.4,-1 L11.8,-24 Z" fill="#d7804a"/>
+        <path d="M7.8,-9 L8,-1 L11.5,-1 L11.6,-9 Z" fill="#5e4a40"/>
+      </g>
+
+      <!-- 草丛 -->
+      <use href="#tuft" transform="translate(140,240) scale(1.1)"/><use href="#tuft" transform="translate(222,236)"/><use href="#tuft" transform="translate(250,250) scale(1.2)"/>
+      <use href="#tuft" transform="translate(30,246) scale(1.2)"/><use href="#tuft" transform="translate(96,252)"/><use href="#tuft" transform="translate(360,248) scale(1.1)"/>
+      <use href="#tuft" transform="translate(196,212) scale(0.8)"/><use href="#tuft" transform="translate(282,206) scale(0.8)"/>
+      <g fill="#f3e6cf"><circle cx="122" cy="244" r="1.3"/><circle cx="236" cy="246" r="1.3"/><circle cx="72" cy="240" r="1.2"/><circle cx="380" cy="238" r="1.2"/></g>
+    </g>
+
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

@@ -1,0 +1,302 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_20.mp3",
+ "duration": 58.362,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 1.24,
+  "short_term_std_lu": 0.94,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.84,
+  "buzz_hz": 8915.8,
+  "buzz_db": 4.7,
+  "comb_db": -0.2
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.1,
+   "parts": [
+    [
+     0.5,
+     2.1
+    ]
+   ],
+   "segments": [
+    "Un día en el campo."
+   ],
+   "text": "Un día en el campo.",
+   "read": "Un día en el campo."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.1,
+   "end": 7.575,
+   "parts": [
+    [
+     3.1,
+     5.723
+    ],
+    [
+     6.003,
+     7.575
+    ]
+   ],
+   "segments": [
+    "Mi abuelo Ramón vive en el campo,",
+    "en una casa pequeña."
+   ],
+   "text": "Mi abuelo Ramón vive en el campo, en una casa pequeña.",
+   "read": "Mi abuelo Ramón vive en el campo, en una casa pequeña."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.575,
+   "end": 11.435,
+   "parts": [
+    [
+     8.575,
+     11.435
+    ]
+   ],
+   "segments": [
+    "Este sábado paso todo el día con él."
+   ],
+   "text": "Este sábado paso todo el día con él.",
+   "read": "Este sábado paso todo el día con él."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.435,
+   "end": 15.404,
+   "parts": [
+    [
+     12.435,
+     15.404
+    ]
+   ],
+   "segments": [
+    "El campo está muy verde y el aire está limpio."
+   ],
+   "text": "El campo está muy verde y el aire está limpio.",
+   "read": "El campo está muy verde y el aire está limpio."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 16.404,
+   "end": 19.214,
+   "parts": [
+    [
+     16.404,
+     19.214
+    ]
+   ],
+   "segments": [
+    "En medio de un prado hay un árbol muy grande."
+   ],
+   "text": "En medio de un prado hay un árbol muy grande.",
+   "read": "En medio de un prado hay un árbol muy grande."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 20.214,
+   "end": 23.284,
+   "parts": [
+    [
+     20.214,
+     23.284
+    ]
+   ],
+   "segments": [
+    "En el prado descansan las ovejas de mi abuelo."
+   ],
+   "text": "En el prado descansan las ovejas de mi abuelo.",
+   "read": "En el prado descansan las ovejas de mi abuelo."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 24.284,
+   "end": 26.851,
+   "parts": [
+    [
+     24.284,
+     26.851
+    ]
+   ],
+   "segments": [
+    "Él las conoce a todas por su nombre."
+   ],
+   "text": "Él las conoce a todas por su nombre.",
+   "read": "Él las conoce a todas por su nombre."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 27.851,
+   "end": 31.851,
+   "parts": [
+    [
+     27.851,
+     29.09
+    ],
+    [
+     29.37,
+     31.851
+    ]
+   ],
+   "segments": [
+    "Por la mañana,",
+    "doy de comer a las ovejas con él."
+   ],
+   "text": "Por la mañana, doy de comer a las ovejas con él.",
+   "read": "Por la mañana, doy de comer a las ovejas con él."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 32.85,
+   "end": 36.248,
+   "parts": [
+    [
+     32.85,
+     36.248
+    ]
+   ],
+   "segments": [
+    "Después subimos a una colina para ver el paisaje."
+   ],
+   "text": "Después subimos a una colina para ver el paisaje.",
+   "read": "Después subimos a una colina para ver el paisaje."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 37.248,
+   "end": 41.467,
+   "parts": [
+    [
+     37.248,
+     38.447
+    ],
+    [
+     38.727,
+     41.467
+    ]
+   ],
+   "segments": [
+    "Desde arriba,",
+    "la casa de mi abuelo parece muy pequeña."
+   ],
+   "text": "Desde arriba, la casa de mi abuelo parece muy pequeña.",
+   "read": "Desde arriba, la casa de mi abuelo parece muy pequeña."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 42.467,
+   "end": 47.336,
+   "parts": [
+    [
+     42.467,
+     47.336
+    ]
+   ],
+   "segments": [
+    "Comemos pan, queso y fruta debajo del gran árbol."
+   ],
+   "text": "Comemos pan, queso y fruta debajo del gran árbol.",
+   "read": "Comemos pan, queso y fruta debajo del gran árbol."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 48.336,
+   "end": 52.026,
+   "parts": [
+    [
+     48.336,
+     52.026
+    ]
+   ],
+   "segments": [
+    "En el campo no hay ruido y el tiempo pasa despacio."
+   ],
+   "text": "En el campo no hay ruido y el tiempo pasa despacio.",
+   "read": "En el campo no hay ruido y el tiempo pasa despacio."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 53.026,
+   "end": 57.162,
+   "parts": [
+    [
+     53.026,
+     55.856
+    ],
+    [
+     56.136,
+     57.162
+    ]
+   ],
+   "segments": [
+    "Por la noche vuelvo a la ciudad cansado,",
+    "pero muy feliz."
+   ],
+   "text": "Por la noche vuelvo a la ciudad cansado, pero muy feliz.",
+   "read": "Por la noche vuelvo a la ciudad cansado, pero muy feliz."
+  }
+ ]
+}

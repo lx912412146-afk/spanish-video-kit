@@ -1,0 +1,256 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_20.mp3",
+ "duration": 56.17,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.55,
+  "sentence_max_dev_lu": 0.29,
+  "short_term_std_lu": 0.88,
+  "short_term_std_full_lu": 0.9,
+  "peak_dbfs": -1.8,
+  "buzz_hz": 8778.8,
+  "buzz_db": 6.0,
+  "comb_db": -0.2
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.26,
+   "parts": [
+    [
+     0.5,
+     2.26
+    ]
+   ],
+   "segments": [
+    "Viajar con poco dinero."
+   ],
+   "text": "Viajar con poco dinero.",
+   "read": "Viajar con poco dinero."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.26,
+   "end": 7.49,
+   "parts": [
+    [
+     3.26,
+     7.49
+    ]
+   ],
+   "segments": [
+    "Este verano recorrí varias ciudades con una mochila y un presupuesto ajustado."
+   ],
+   "text": "Este verano recorrí varias ciudades con una mochila y un presupuesto ajustado.",
+   "read": "Este verano recorrí varias ciudades con una mochila y un presupuesto ajustado."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.49,
+   "end": 13.76,
+   "parts": [
+    [
+     8.49,
+     13.76
+    ]
+   ],
+   "segments": [
+    "Dormía en literas de albergues juveniles y compartía habitación con desconocidos de todo el mundo."
+   ],
+   "text": "Dormía en literas de albergues juveniles y compartía habitación con desconocidos de todo el mundo.",
+   "read": "Dormía en literas de albergues juveniles y compartía habitación con desconocidos de todo el mundo."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.76,
+   "end": 19.79,
+   "parts": [
+    [
+     14.76,
+     15.76
+    ],
+    [
+     16.04,
+     19.79
+    ]
+   ],
+   "segments": [
+    "Al despertar,",
+    "consultaba el mapa colgado en la pared y decidía adónde ir."
+   ],
+   "text": "Al despertar, consultaba el mapa colgado en la pared y decidía adónde ir.",
+   "read": "Al despertar, consultaba el mapa colgado en la pared y decidía adónde ir."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.79,
+   "end": 25.43,
+   "parts": [
+    [
+     20.79,
+     21.63
+    ],
+    [
+     21.91,
+     25.43
+    ]
+   ],
+   "segments": [
+    "Para ahorrar,",
+    "rellenaba mi cantimplora en cualquier fuente y siempre iba a pie."
+   ],
+   "text": "Para ahorrar, rellenaba mi cantimplora en cualquier fuente y siempre iba a pie.",
+   "read": "Para ahorrar, rellenaba mi cantimplora en cualquier fuente y siempre iba a pie."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 26.43,
+   "end": 33.77,
+   "parts": [
+    [
+     26.43,
+     27.26
+    ],
+    [
+     27.54,
+     29.54
+    ],
+    [
+     29.82,
+     33.77
+    ]
+   ],
+   "segments": [
+    "Sin duda,",
+    "viajar así resulta incómodo:",
+    "no siempre se duerme bien y la intimidad brilla por su ausencia."
+   ],
+   "text": "Sin duda, viajar así resulta incómodo: no siempre se duerme bien y la intimidad brilla por su ausencia.",
+   "read": "Sin duda, viajar así resulta incómodo: no siempre se duerme bien y la intimidad brilla por su ausencia."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 34.77,
+   "end": 40.34,
+   "parts": [
+    [
+     34.77,
+     35.6
+    ],
+    [
+     35.88,
+     40.34
+    ]
+   ],
+   "segments": [
+    "Ahora bien,",
+    "la falta de dinero me obligó a improvisar y a conversar con la gente del lugar."
+   ],
+   "text": "Ahora bien, la falta de dinero me obligó a improvisar y a conversar con la gente del lugar.",
+   "read": "Ahora bien, la falta de dinero me obligó a improvisar y a conversar con la gente del lugar."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 41.34,
+   "end": 47.2,
+   "parts": [
+    [
+     41.34,
+     44.01
+    ],
+    [
+     44.29,
+     47.2
+    ]
+   ],
+   "segments": [
+    "Así, gracias a una compañera de litera,",
+    "descubrí un mercado que no aparecía en ninguna guía."
+   ],
+   "text": "Así, gracias a una compañera de litera, descubrí un mercado que no aparecía en ninguna guía.",
+   "read": "Así, gracias a una compañera de litera, descubrí un mercado que no aparecía en ninguna guía."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 48.2,
+   "end": 54.97,
+   "parts": [
+    [
+     48.2,
+     50.45
+    ],
+    [
+     50.73,
+     52.22
+    ],
+    [
+     52.5,
+     54.97
+    ]
+   ],
+   "segments": [
+    "Si hubiera viajado con más dinero,",
+    "me habría perdido lo mejor,",
+    "porque un viaje no se mide por lo que cuesta."
+   ],
+   "text": "Si hubiera viajado con más dinero, me habría perdido lo mejor, porque un viaje no se mide por lo que cuesta.",
+   "read": "Si hubiera viajado con más dinero, me habría perdido lo mejor, porque un viaje no se mide por lo que cuesta."
+  }
+ ]
+}

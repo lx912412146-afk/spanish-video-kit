@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：公寓门口堆着的快递纸箱、外卖保温袋和门垫（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f4dfc8"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9d5bb"/><stop offset="1" stop-color="#dfc5a6"/>
+    </linearGradient>
+    <linearGradient id="door" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9fb3bf"/><stop offset="0.5" stop-color="#afc1cb"/><stop offset="1" stop-color="#97abb8"/>
+    </linearGradient>
+    <linearGradient id="panelIn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#93a8b5"/><stop offset="1" stop-color="#a9bcc7"/>
+    </linearGradient>
+    <linearGradient id="kraft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7ad7d"/><stop offset="1" stop-color="#c99b6b"/>
+    </linearGradient>
+    <linearGradient id="kraftTop" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#e6c194"/><stop offset="1" stop-color="#ddb789"/>
+    </linearGradient>
+    <linearGradient id="kraftSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bb8c5d"/><stop offset="1" stop-color="#a97c50"/>
+    </linearGradient>
+    <linearGradient id="bag" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dfad55"/><stop offset="0.5" stop-color="#e9bd68"/><stop offset="1" stop-color="#d9a64e"/>
+    </linearGradient>
+    <linearGradient id="bagSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c99442"/><stop offset="1" stop-color="#b9853a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6dc" stop-opacity="0.9"/><stop offset="0.4" stop-color="#fcefd0" stop-opacity="0.4"/><stop offset="1" stop-color="#fcefd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="220" width="400" height="40" fill="url(#floor)"/>
+    <g stroke="#d4b896" stroke-width="0.8" opacity="0.7">
+      <line x1="0" y1="232" x2="400" y2="232"/><line x1="0" y1="247" x2="400" y2="247"/>
+      <line x1="40" y1="220" x2="22" y2="260"/><line x1="120" y1="220" x2="110" y2="260"/><line x1="200" y1="220" x2="200" y2="260"/>
+      <line x1="280" y1="220" x2="290" y2="260"/><line x1="360" y1="220" x2="378" y2="260"/>
+    </g>
+    <rect x="0" y="214" width="400" height="7" fill="#ead6bb"/>
+    <rect x="0" y="213" width="400" height="1.4" fill="#dcc4a4"/>
+
+    <!-- 壁灯的光 -->
+    <circle cx="330" cy="92" r="44" fill="url(#glow)"/>
+
+    <g filter="url(#wc)">
+      <!-- 门框和门 -->
+      <rect x="198" y="52" width="96" height="170" fill="#ecdcc4"/>
+      <rect x="204" y="58" width="84" height="164" fill="#d9c4a6"/>
+      <rect x="207" y="60" width="78" height="162" fill="url(#door)"/>
+      <rect x="216" y="72" width="60" height="58" rx="1.5" fill="url(#panelIn)"/>
+      <rect x="216" y="142" width="60" height="66" rx="1.5" fill="url(#panelIn)"/>
+      <g fill="none" stroke="#c4d2da" stroke-width="1.2" opacity="0.9">
+        <path d="M216,130 L216,72 L276,72"/><path d="M216,208 L216,142 L276,142"/>
+      </g>
+      <g fill="none" stroke="#8599a6" stroke-width="1" opacity="0.8">
+        <path d="M276,72 L276,130 L216,130"/><path d="M276,142 L276,208 L216,208"/>
+      </g>
+      <!-- 猫眼、门把手、锁 -->
+      <circle cx="246" cy="98" r="2.2" fill="#c9a66e"/><circle cx="246" cy="98" r="1" fill="#7d6a58"/>
+      <rect x="270" y="134" width="5" height="18" rx="2" fill="#c9a66e"/>
+      <path d="M272,140 L262,140 C260,140 259,141.6 260,143 L272,143 Z" fill="#d6b47c"/>
+      <circle cx="272.5" cy="149" r="1" fill="#7d6a58"/>
+      <!-- 门铃 -->
+      <rect x="300" y="128" width="8" height="12" rx="1.5" fill="#efe4d2"/><circle cx="304" cy="134" r="2" fill="#d9c09a"/>
+      <!-- 壁灯 -->
+      <rect x="326" y="74" width="8" height="10" rx="1.5" fill="#c9a66e"/>
+      <path d="M321,84 L339,84 L336,104 L324,104 Z" fill="#fbecc6"/>
+      <path d="M324,104 L336,104 L335,107 L325,107 Z" fill="#c9a66e"/>
+      <!-- 开关 -->
+      <rect x="176" y="118" width="9" height="13" rx="1.5" fill="#f1e6d6"/><rect x="179" y="121" width="3" height="7" rx="1" fill="#e2d2bc"/>
+    </g>
+
+    <!-- 门垫 -->
+    <g filter="url(#wc)">
+      <path d="M208,223 L286,223 L300,246 L194,246 Z" fill="#c98466"/>
+      <path d="M214,226.5 L280,226.5 L291,242.5 L203,242.5 Z" fill="#dc9c7c"/>
+      <g stroke="#c98466" stroke-width="1" opacity="0.7">
+        <line x1="212" y1="234.5" x2="284" y2="234.5"/>
+      </g>
+      <g stroke="#e9b99c" stroke-width="0.8">
+        <path d="M196,246 L195,249 M202,246 L201,249 M208,246 L207.6,249 M214,246 L213.6,249 M220,246 L220,249 M226,246 L226,249 M232,246 L232,249 M238,246 L238,249 M244,246 L244,249 M250,246 L250,249 M256,246 L256,249 M262,246 L262,249 M268,246 L268,249 M274,246 L274,249 M280,246 L280.4,249 M286,246 L286.4,249 M292,246 L292.6,249 M298,246 L298.8,249"/>
+      </g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="148" cy="224" rx="52" ry="4.5"/><ellipse cx="90" cy="226" rx="24" ry="3"/><ellipse cx="330" cy="228" rx="32" ry="3.5"/><ellipse cx="379" cy="229" rx="14" ry="2.5"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 大纸箱 -->
+      <path d="M106,172 L178,172 L178,224 L106,224 Z" fill="url(#kraft)"/>
+      <path d="M106,172 L178,172 L190,164 L118,164 Z" fill="url(#kraftTop)"/>
+      <path d="M178,172 L190,164 L190,216 L178,224 Z" fill="url(#kraftSide)"/>
+      <path d="M138,172 L146,172 L158,164 L150,164 Z" fill="#ead2ad" opacity="0.9"/>
+      <rect x="138" y="172" width="8" height="15" fill="#e3c49a" opacity="0.9"/>
+      <rect x="114" y="198" width="22" height="14" rx="1" fill="#f4ead8" opacity="0.9"/>
+
+      <!-- 中纸箱 -->
+      <path d="M118,134 L166,134 L166,170 L118,170 Z" fill="url(#kraft)"/>
+      <path d="M118,134 L166,134 L176,127 L128,127 Z" fill="url(#kraftTop)"/>
+      <path d="M166,134 L176,127 L176,163 L166,170 Z" fill="url(#kraftSide)"/>
+      <path d="M118,148 L166,148 L176,141 L176,145 L166,152 L118,152 Z" fill="#e3c49a" opacity="0.85"/>
+      <path d="M118,134 L166,134 L176,127 L128,127 Z" fill="none" stroke="#c99f70" stroke-width="0.6"/>
+
+      <!-- 小纸箱（稍微转一点） -->
+      <g transform="rotate(-3 146 118)">
+        <path d="M130,108 L160,108 L160,132 L130,132 Z" fill="url(#kraft)"/>
+        <path d="M130,108 L160,108 L167,103 L137,103 Z" fill="url(#kraftTop)"/>
+        <path d="M160,108 L167,103 L167,127 L160,132 Z" fill="url(#kraftSide)"/>
+        <path d="M143,108 L148,108 L155,103 L150,103 Z" fill="#ead2ad"/>
+        <rect x="143" y="108" width="5" height="24" fill="#e3c49a" opacity="0.85"/>
+      </g>
+
+      <!-- 地上的小纸箱 -->
+      <path d="M66,198 L100,198 L100,225 L66,225 Z" fill="url(#kraft)"/>
+      <path d="M66,198 L100,198 L107,193 L73,193 Z" fill="url(#kraftTop)"/>
+      <path d="M100,198 L107,193 L107,220 L100,225 Z" fill="url(#kraftSide)"/>
+      <path d="M66,205 L100,205 L107,200 L107,203.5 L100,208.5 L66,208.5 Z" fill="#e3c49a" opacity="0.85"/>
+
+      <!-- 靠在箱子旁的气泡信封 -->
+      <g transform="rotate(-14 56 224)">
+        <rect x="44" y="180" width="24" height="44" rx="2" fill="#eee7da"/>
+        <path d="M44,188 L68,188" stroke="#d8cfbf" stroke-width="1"/>
+        <path d="M44,180 L68,180 L68,186 C60,189 52,189 44,186 Z" fill="#e3dacb"/>
+        <rect x="44" y="204" width="24" height="4" fill="#e8d4b0" opacity="0.8"/>
+      </g>
+
+      <!-- 外卖保温袋 -->
+      <path d="M298,180 L344,180 L344,228 L298,228 Z" fill="url(#bag)"/>
+      <path d="M298,180 L344,180 L354,173 L308,173 Z" fill="#efc977"/>
+      <path d="M344,180 L354,173 L354,221 L344,228 Z" fill="url(#bagSide)"/>
+      <path d="M298,186 L344,186 L354,179" stroke="#bf8d3d" stroke-width="1" fill="none"/>
+      <rect x="298" y="206" width="46" height="5" fill="#f5e4bc" opacity="0.9"/>
+      <path d="M344,211 L354,204 L354,199 L344,206 Z" fill="#e8cf98" opacity="0.8"/>
+      <path d="M316,176.5 C316,166 336,166 336,176.5" stroke="#a97a34" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+      <rect x="302" y="190" width="38" height="12" rx="2" fill="#e5b660" opacity="0.6"/>
+      <circle cx="340" cy="186" r="1.4" fill="#a97a34"/>
+
+      <!-- 门边的一盆虎尾兰 -->
+      <path d="M366,206 L392,206 L389,228 L369,228 Z" fill="#dfa07c"/>
+      <rect x="364" y="202" width="30" height="6" rx="1.5" fill="#e6ad8a"/>
+      <g fill="#86ad6b">
+        <path d="M372,203 C368,190 368,176 372,164 C375,176 376,190 375,203 Z"/>
+        <path d="M378,203 C377,186 379,168 384,152 C386,168 384,188 382,203 Z"/>
+        <path d="M384,203 C386,190 390,178 396,170 C395,182 391,194 388,203 Z"/>
+      </g>
+      <g fill="#a7c789" opacity="0.9">
+        <path d="M375,203 C373,190 374,178 376,170 C377,180 377,192 377,203 Z"/>
+        <path d="M381,203 C381,190 382,176 384,166 C384,178 384,190 383,203 Z"/>
+      </g>
+    </g>
+
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

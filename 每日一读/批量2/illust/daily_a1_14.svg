@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：我的西班牙语课（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f4dfc8"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ead2b4"/><stop offset="1" stop-color="#ddbf9b"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe4ee"/><stop offset="1" stop-color="#eef3ec"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fa996"/><stop offset="1" stop-color="#78937f"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efd5b0"/><stop offset="1" stop-color="#e4c398"/>
+    </linearGradient>
+    <linearGradient id="tdesk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfa77c"/><stop offset="1" stop-color="#b98f66"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="28" y="58" width="96" height="92"/></clipPath>
+    <radialGradient id="globe" cx="0.38" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#d4e8f0"/><stop offset="1" stop-color="#9fc3d2"/>
+    </radialGradient>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="160" width="400" height="100" fill="url(#floor)"/>
+    <path d="M110,160 L-70,260 M140,160 L20,260 M170,160 L110,260 M200,160 L200,260 M230,160 L290,260 M260,160 L380,260 M290,160 L470,260 M80,160 L-160,260 M320,160 L560,260 M0,182 L400,182 M0,210 L400,210 M0,244 L400,244" stroke="#d4b48e" stroke-width="0.7" opacity="0.5"/>
+    <rect x="0" y="156" width="400" height="5" fill="#e6cdaa"/>
+
+    <g filter="url(#wc)">
+      <!-- 窗户和窗外的树 -->
+      <rect x="28" y="58" width="96" height="92" fill="url(#sky)"/>
+      <g clip-path="url(#win)">
+      <g fill="#a9cd8e">
+        <circle cx="54" cy="104" r="26"/><circle cx="92" cy="96" r="22"/><circle cx="116" cy="118" r="18"/><circle cx="36" cy="130" r="16"/>
+      </g>
+      <g fill="#bedb9f"><circle cx="48" cy="96" r="14"/><circle cx="90" cy="88" r="11"/><circle cx="112" cy="112" r="8"/></g>
+      <path d="M70,150 C70,138 68,126 72,116" stroke="#a5805e" stroke-width="3" fill="none"/>
+      <g fill="#ffffff" filter="url(#soft2)" opacity="0.8"><ellipse cx="96" cy="68" rx="14" ry="4"/></g>
+      </g>
+      <g fill="none" stroke="#fbf6ee" stroke-linejoin="round">
+        <rect x="28" y="58" width="96" height="92" stroke-width="5"/>
+        <line x1="76" y1="58" x2="76" y2="150" stroke-width="3.5"/><line x1="28" y1="102" x2="124" y2="102" stroke-width="3.5"/>
+      </g>
+      <rect x="22" y="148" width="108" height="6" rx="1.5" fill="#efe0c8"/>
+
+      <!-- 黑板 -->
+      <rect x="146" y="48" width="188" height="86" rx="2" fill="#c9a27a"/>
+      <rect x="151" y="53" width="178" height="76" fill="url(#board)"/>
+      <g fill="#ffffff" opacity="0.12" filter="url(#soft2)">
+        <ellipse cx="200" cy="80" rx="34" ry="8" transform="rotate(-6 200 80)"/><ellipse cx="282" cy="106" rx="30" ry="6" transform="rotate(4 282 106)"/>
+      </g>
+      <rect x="144" y="130" width="192" height="5" rx="1.5" fill="#d4ae86"/>
+      <rect x="170" y="127.5" width="9" height="3" rx="1.4" fill="#fbf8f1"/><rect x="183" y="128" width="7" height="2.6" rx="1.3" fill="#f4dc8e"/>
+      <rect x="300" y="125" width="16" height="6" rx="1" fill="#9db1c1"/><rect x="300" y="125" width="16" height="2.4" rx="1" fill="#d8c3a6"/>
+
+      <!-- 墙上的钟（没有数字） -->
+      <circle cx="368" cy="36" r="15" fill="#d9c3a6"/><circle cx="368" cy="36" r="12.5" fill="#fbf8f1"/>
+      <g stroke="#b3a08a" stroke-width="1"><line x1="368" y1="25.5" x2="368" y2="28"/><line x1="378.5" y1="36" x2="376" y2="36"/><line x1="368" y1="46.5" x2="368" y2="44"/><line x1="357.5" y1="36" x2="360" y2="36"/></g>
+      <g stroke="#6f655c" stroke-linecap="round"><line x1="368" y1="36" x2="368" y2="28.5" stroke-width="1.4"/><line x1="368" y1="36" x2="373.5" y2="38.5" stroke-width="1.6"/></g>
+      <circle cx="368" cy="36" r="1.2" fill="#6f655c"/>
+
+      <!-- 软木板 -->
+      <rect x="346" y="66" width="48" height="60" rx="1.5" fill="#dcb98e"/>
+      <rect x="349" y="69" width="42" height="54" fill="#e6c99f"/>
+      <rect x="353" y="74" width="14" height="17" fill="#f6e7a6" transform="rotate(-4 360 82)"/>
+      <rect x="372" y="76" width="15" height="13" fill="#cfe2e6" transform="rotate(5 379 82)"/>
+      <rect x="354" y="98" width="17" height="19" fill="#fbf6ee" transform="rotate(3 362 107)"/>
+      <circle cx="362" cy="105" r="4" fill="#f2c95a"/><path d="M356,114 L362,110 L368,114 Z" fill="#e69c86"/>
+      <rect x="375" y="96" width="13" height="16" fill="#f4c7bd" transform="rotate(-6 381 104)"/>
+      <g fill="#e5675e"><circle cx="360" cy="75" r="1.3"/><circle cx="379" cy="77" r="1.3"/><circle cx="362" cy="99" r="1.3"/><circle cx="381" cy="97" r="1.3"/></g>
+
+      <!-- 讲台 -->
+      <polygon points="214,138 318,138 322,146 210,146" fill="url(#desk)"/>
+      <rect x="210" y="146" width="112" height="4" fill="#c9a27a"/>
+      <rect x="216" y="150" width="100" height="18" fill="url(#tdesk)"/>
+      <rect x="222" y="153" width="88" height="12" rx="1" fill="none" stroke="#d6b28b" stroke-width="1.2"/>
+      <!-- 讲台上的书和地球仪 -->
+      <rect x="226" y="134" width="30" height="5" rx="1" fill="#e69c86"/><rect x="228" y="129.5" width="27" height="5" rx="1" fill="#9fc0a3"/><rect x="225" y="125" width="29" height="5" rx="1" fill="#a9bfcf"/>
+      <g fill="#fbf6ee" opacity="0.7"><rect x="254" y="134.6" width="1.5" height="3.6"/><rect x="253" y="130.2" width="1.5" height="3.6"/><rect x="252.5" y="125.6" width="1.5" height="3.6"/></g>
+      <ellipse cx="294" cy="138.5" rx="8" ry="2.2" fill="#a98058"/>
+      <rect x="293" y="128" width="2.4" height="10" fill="#a98058"/>
+      <path d="M283,110 C276,118 278,130 288,134" stroke="#c9a27a" stroke-width="1.8" fill="none"/>
+      <circle cx="294" cy="120" r="11" fill="url(#globe)"/>
+      <path d="M288,114 C291,111 296,112 297,116 C295,119 292,121 289,119 Z M296,122 C299,121 302,123 301,127 C299,129 296,128 295,125 Z" fill="#b9d39a"/>
+      <ellipse cx="290" cy="115" rx="2.6" ry="1.6" fill="#fff" opacity="0.5"/>
+
+      <!-- 窗光 -->
+      <g filter="url(#soft)" opacity="0.45"><path d="M40,160 L120,160 L190,232 L80,232 Z" fill="#fffaf0"/></g>
+
+      <!-- 第一排课桌椅（远） -->
+      <g>
+        <polygon points="61,178 123,178 126,186 58,186" fill="url(#desk)"/><rect x="58" y="186" width="68" height="3" fill="#c9a27a"/><rect x="61" y="189" width="62" height="4" fill="#d0ab84"/>
+        <polygon points="169,178 231,178 234,186 166,186" fill="url(#desk)"/><rect x="166" y="186" width="68" height="3" fill="#c9a27a"/><rect x="169" y="189" width="62" height="4" fill="#d0ab84"/>
+        <polygon points="277,178 339,178 342,186 274,186" fill="url(#desk)"/><rect x="274" y="186" width="68" height="3" fill="#c9a27a"/><rect x="277" y="189" width="62" height="4" fill="#d0ab84"/>
+      </g>
+      <g fill="#9aa7ac">
+        <rect x="61" y="189" width="2.6" height="18"/><rect x="121" y="189" width="2.6" height="18"/>
+        <rect x="169" y="189" width="2.6" height="18"/><rect x="229" y="189" width="2.6" height="18"/>
+        <rect x="277" y="189" width="2.6" height="18"/><rect x="337" y="189" width="2.6" height="18"/>
+      </g>
+      <!-- 第一排桌上的东西 -->
+      <rect x="76" y="179" width="20" height="5" rx="1" fill="#9fc0a3" transform="rotate(-4 86 181)"/><rect x="102" y="180" width="12" height="3" rx="1.4" fill="#a9bfcf"/>
+      <circle cx="318" cy="179" r="4" fill="#e5675e"/><path d="M318,175 C318,173 319,172 320,171" stroke="#8a6a4c" stroke-width="0.9" fill="none"/><ellipse cx="321" cy="173" rx="2" ry="1" fill="#79b062"/>
+      <!-- 第一排椅子（从背后看：靠背、两根立柱、中间露出座板） -->
+      <g fill="#a3afb4">
+        <rect x="80" y="203" width="2" height="8"/><rect x="102" y="203" width="2" height="8"/><rect x="188" y="203" width="2" height="8"/><rect x="210" y="203" width="2" height="8"/>
+        <rect x="296" y="203" width="2" height="8"/><rect x="318" y="203" width="2" height="8"/>
+      </g>
+      <g fill="#cfa47a">
+        <rect x="76" y="200" width="32" height="4" rx="1"/><rect x="184" y="200" width="32" height="4" rx="1"/><rect x="292" y="200" width="32" height="4" rx="1"/>
+      </g>
+      <g fill="#8e9ba0">
+        <rect x="76" y="190" width="2.6" height="24"/><rect x="105.4" y="190" width="2.6" height="24"/><rect x="184" y="190" width="2.6" height="24"/><rect x="213.4" y="190" width="2.6" height="24"/>
+        <rect x="292" y="190" width="2.6" height="24"/><rect x="321.4" y="190" width="2.6" height="24"/>
+      </g>
+      <g fill="#d9ae80">
+        <rect x="74" y="189" width="36" height="7" rx="2.5"/><rect x="182" y="189" width="36" height="7" rx="2.5"/><rect x="290" y="189" width="36" height="7" rx="2.5"/>
+      </g>
+      <g fill="#eacaa2"><rect x="74" y="189" width="36" height="2" rx="1"/><rect x="182" y="189" width="36" height="2" rx="1"/><rect x="290" y="189" width="36" height="2" rx="1"/></g>
+
+      <!-- 第二排课桌椅（近） -->
+      <g>
+        <polygon points="8,210 92,210 97,222 3,222" fill="url(#desk)"/><rect x="3" y="222" width="94" height="4" fill="#c9a27a"/><rect x="7" y="226" width="86" height="5" fill="#d0ab84"/>
+        <polygon points="158,210 242,210 247,222 153,222" fill="url(#desk)"/><rect x="153" y="222" width="94" height="4" fill="#c9a27a"/><rect x="157" y="226" width="86" height="5" fill="#d0ab84"/>
+        <polygon points="308,210 392,210 397,222 303,222" fill="url(#desk)"/><rect x="303" y="222" width="94" height="4" fill="#c9a27a"/><rect x="307" y="226" width="86" height="5" fill="#d0ab84"/>
+      </g>
+      <g fill="#9aa7ac">
+        <rect x="7" y="226" width="3.4" height="26"/><rect x="90" y="226" width="3.4" height="26"/>
+        <rect x="157" y="226" width="3.4" height="26"/><rect x="240" y="226" width="3.4" height="26"/>
+        <rect x="307" y="226" width="3.4" height="26"/><rect x="390" y="226" width="3.4" height="26"/>
+      </g>
+      <!-- 第二排桌上的东西：打开的本子和铅笔 -->
+      <polygon points="182,211.5 199,211.5 199,220.5 179,220.5" fill="#fbf8f1"/><polygon points="201,211.5 218,211.5 221,220.5 201,220.5" fill="#f7f1e6"/>
+      <line x1="200" y1="211.5" x2="200" y2="220.5" stroke="#e2d6c4" stroke-width="0.9"/>
+      <g transform="rotate(-14 226 216)"><rect x="216" y="214.8" width="20" height="2.6" rx="0.8" fill="#f2c95a"/><rect x="235" y="214.8" width="3" height="2.6" rx="0.8" fill="#f0a7a7"/><path d="M216,214.8 L212.5,216.1 L216,217.4 Z" fill="#e8cfa6"/></g>
+      <rect x="330" y="212" width="26" height="5" rx="1" fill="#e69c86"/><rect x="332" y="208" width="23" height="4.4" rx="1" fill="#f2d48a"/>
+      <!-- 第二排椅子 -->
+      <g fill="#a3afb4">
+        <rect x="33" y="248" width="2.6" height="12"/><rect x="64" y="248" width="2.6" height="12"/><rect x="183" y="248" width="2.6" height="12"/><rect x="214" y="248" width="2.6" height="12"/>
+        <rect x="333" y="248" width="2.6" height="12"/><rect x="364" y="248" width="2.6" height="12"/>
+      </g>
+      <g fill="#cfa47a">
+        <rect x="27" y="244" width="46" height="5" rx="1.2"/><rect x="177" y="244" width="46" height="5" rx="1.2"/><rect x="327" y="244" width="46" height="5" rx="1.2"/>
+      </g>
+      <g fill="#8e9ba0">
+        <rect x="27" y="229" width="3.4" height="34"/><rect x="69.6" y="229" width="3.4" height="34"/><rect x="177" y="229" width="3.4" height="34"/><rect x="219.6" y="229" width="3.4" height="34"/>
+        <rect x="327" y="229" width="3.4" height="34"/><rect x="369.6" y="229" width="3.4" height="34"/>
+      </g>
+      <g fill="#d9ae80">
+        <rect x="24" y="228" width="52" height="10" rx="3"/><rect x="174" y="228" width="52" height="10" rx="3"/><rect x="324" y="228" width="52" height="10" rx="3"/>
+      </g>
+      <g fill="#eacaa2"><rect x="24" y="228" width="52" height="2.6" rx="1.3"/><rect x="174" y="228" width="52" height="2.6" rx="1.3"/><rect x="324" y="228" width="52" height="2.6" rx="1.3"/></g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.17" fill="#8a6a4a">
+      <ellipse cx="266" cy="169" rx="56" ry="3"/>
+      <ellipse cx="92" cy="208" rx="38" ry="3"/><ellipse cx="200" cy="208" rx="38" ry="3"/><ellipse cx="308" cy="208" rx="38" ry="3"/>
+      <ellipse cx="50" cy="253" rx="50" ry="4"/><ellipse cx="200" cy="253" rx="50" ry="4"/><ellipse cx="350" cy="253" rx="50" ry="4"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

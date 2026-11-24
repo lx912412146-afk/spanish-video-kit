@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_19",
+ "level": "C1",
+ "no": 19,
+ "title_es": "Los rituales cotidianos",
+ "title_zh": "日常的仪式感",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 19 篇。原创短文。主要语法：cuando apenas + 陈述式，en cuanto 表“一……就”，ir + 副动词表渐进（va ganando terreno），条件式 podría 表推测，antes de que + 现在虚拟式，no…por…sino por…，过去分词作条件状语（Repetido sin pensar…; hecho con cuidado…），lo + 形容词的名词化（lo cotidiano），过去虚拟式条件句（Si algún día me faltara…, no añoraría tanto…como…）。7 句，132 词。第一人称叙述者是男性，没有用到需要变性的形容词。特别判断：插图里的摩卡壶，正文用西语常见的说法 cafetera italiana，译作“摩卡壶”；第 4 句 ordena el día antes de que el día me desordene a mí 是交错对照，译文保留“理出头绪”和“搅乱”的对照；第 6 句两个过去分词 Repetido、hecho 都和 cualquier acto 配合，表条件；no tanto…como… 译作“与其说……不如说……”；rato 指一段时间，不写钟点。全篇没有名词列举，no_pause_commas 为 {}。标题里的 ritual 是同源词，cotidiano 在正文里是 lo cotidiano，形式和标题不同，都没有放进词汇表。插图里的窗边、摩卡壶、冒热气的杯子、小盆栽和晨光对应第 1—3 句。审校改动：词汇 en cuanto 的释义原为“一旦”，“一旦”偏重假设，en cuanto 是“一……就”，强调紧接着发生；释义只能用汉字，改为“刚一”，和译文“咖啡一咕嘟作响，我便……”对得上。录音核对后改：第 3 句 la taza humeante 被识别成 homeante，改为 la taza caliente，译文“冒着热气的杯子”→“热乎乎的杯子”；词汇 humeante 删去，按出现顺序在 desordenar 后补 distinguirse de／有别于（第 5 句 no se distingue de una rutina）。词数不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "a diario",
+   "每天",
+   "A diario"
+  ],
+  [
+   "clarear",
+   "破晓",
+   "clarea"
+  ],
+  [
+   "poner al fuego",
+   "放到火上",
+   "pongo al fuego"
+  ],
+  [
+   "cafetera",
+   "咖啡壶",
+   "cafetera"
+  ],
+  [
+   "en cuanto",
+   "刚一",
+   "En cuanto"
+  ],
+  [
+   "borbotear",
+   "咕嘟冒泡",
+   "borbotea"
+  ],
+  [
+   "de siempre",
+   "惯用的",
+   "de siempre"
+  ],
+  [
+   "alféizar",
+   "窗台",
+   "alféizar"
+  ],
+  [
+   "ganar terreno",
+   "逐渐扩展",
+   "ganando terreno"
+  ],
+  [
+   "manía",
+   "怪癖",
+   "manía"
+  ],
+  [
+   "desordenar",
+   "搅乱",
+   "desordene"
+  ],
+  [
+   "distinguirse de",
+   "有别于",
+   "se distingue de"
+  ],
+  [
+   "arraigar",
+   "使扎根",
+   "arraiga"
+  ],
+  [
+   "conferir",
+   "赋予",
+   "confiere"
+  ],
+  [
+   "añorar",
+   "怀念",
+   "añoraría"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "A diario, cuando apenas clarea, pongo al fuego la vieja cafetera italiana junto a la ventana.",
+    "zh": "每天天刚蒙蒙亮，我就在窗边把那只旧摩卡壶放到火上。"
+   },
+   {
+    "es": "En cuanto el café borbotea, lo sirvo en la taza de siempre y riego la planta del alféizar.",
+    "zh": "咖啡一咕嘟作响，我便把它倒进用惯了的那只杯子，再给窗台上那盆植物浇浇水。"
+   },
+   {
+    "es": "Luego, con la taza caliente en la mano, observo cómo la luz va ganando terreno.",
+    "zh": "然后，我手捧热乎乎的杯子，看着晨光一点点铺展开来。"
+   }
+  ],
+  [
+   {
+    "es": "Podría parecer una manía, pero este ritual ordena el día antes de que el día me desordene a mí.",
+    "zh": "这看起来也许像一种怪癖，但在一天把我搅乱之前，这个仪式先替我把这一天理出了头绪。"
+   },
+   {
+    "es": "Un ritual no se distingue de una rutina por los gestos que exige, sino por la atención con que los realizamos.",
+    "zh": "仪式与例行公事的区别，不在于它要求哪些动作，而在于我们做这些动作时的专注。"
+   },
+   {
+    "es": "Repetido sin pensar, cualquier acto se vuelve mecánico; hecho con cuidado, nos arraiga en el presente y confiere cierta solemnidad a lo cotidiano.",
+    "zh": "不假思索地重复，任何举动都会变得机械；用心去做，它便能让我们扎根于当下，并赋予日常几分庄重。"
+   },
+   {
+    "es": "Si algún día me faltara este rato, sospecho que no añoraría tanto el café como la calma que lo acompaña.",
+    "zh": "倘若有一天少了这段时光，我想自己怀念的与其说是咖啡，不如说是与之相伴的那份宁静。"
+   }
+  ]
+ ]
+}

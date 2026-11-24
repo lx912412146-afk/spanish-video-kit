@@ -1,0 +1,300 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  631.671875
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  639.671875
+ ],
+ "zh": [
+  96,
+  665.671875,
+  480,
+  904.921875
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  205.859375,
+  131.625
+ ],
+ "header_gap": 243.140625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   3
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   3.5,
+   "En mi familia, la Nochevieja es una de las noches más especiales"
+  ],
+  [
+   "mid",
+   5,
+   "del año. Cenamos todos juntos alrededor de una mesa con velas y"
+  ],
+  [
+   "mid",
+   4.5,
+   "copas de cava. Antes de medianoche, mi madre prepara un cuenco"
+  ],
+  [
+   "mid",
+   5.6,
+   "pequeño de uvas para cada persona. Según la tradición española,"
+  ],
+  [
+   "mid",
+   3.6,
+   "hay que comer doce uvas al ritmo de las campanadas del reloj. Dicen"
+  ],
+  [
+   "last",
+   3.3,
+   "que quien las termina a tiempo tendrá suerte durante todo el año."
+  ],
+  [
+   "mid",
+   3.8,
+   "Sin embargo, las campanadas suenan tan seguidas que es difícil"
+  ],
+  [
+   "mid",
+   5.2,
+   "que alguien lo consiga. El año pasado mi prima Clara aseguró que"
+  ],
+  [
+   "mid",
+   4.6,
+   "sería muy fácil, pero acabó con la boca llena. Nos reímos tanto que"
+  ],
+  [
+   "mid",
+   5.1,
+   "nadie oyó la última campanada. Después brindamos con cava, nos"
+  ],
+  [
+   "mid",
+   5.1,
+   "abrazamos y miramos los fuegos artificiales desde la ventana. Para"
+  ],
+  [
+   "mid",
+   4.6,
+   "mí, lo importante no es comerse las uvas a tiempo, sino empezar el"
+  ],
+  [
+   "last",
+   3.3,
+   "año con la gente que quiero."
+  ]
+ ],
+ "es_max_gap": 5.6,
+ "es_font": [
+  12.6,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

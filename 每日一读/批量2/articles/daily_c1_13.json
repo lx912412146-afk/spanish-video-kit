@@ -1,0 +1,126 @@
+{
+ "id": "daily_c1_13",
+ "level": "C1",
+ "no": 13,
+ "title_es": "El jardín como refugio",
+ "title_zh": "花园：心灵的庇护所",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 13 篇。原创短文。主要语法：过去分词作定语（cercado por un muro），关系从句（que lo resguarda、que cruje a cada paso），hacerse cuesta arriba，条件式 cabría 表委婉推测，no…tanto como… 的对照（与其说……不如说……），冒号引出解释，frente a，seguir + 副动词（sigue estando），过去虚拟式条件句（Si el jardín sirviera…, sería…）。8 句，134 词。第一人称叙述者是男性，没有用到需要变性的形容词（paciente 阴阳同形）。特别判断：se me hace cuesta arriba 指“让我觉得吃力、难熬”，词汇收 cuesta arriba；第 4 句 me siento 是 sentarse（坐下），不是 sentir；第 6 句 a nuestra medida 译作“合乎我们尺度的”；第 8 句 una cárcel florida 译作“开满鲜花的牢笼”，florido 选入词汇；macizo de flores 是“花坛”，原文 los macizos de flores y bordea 中间没有逗号。全篇没有名词列举，no_pause_commas 为 {}。标题里的 jardín 太基础，没有放进词汇表；refugio 在第 5 句出现，排在最前。插图里的围墙、石子小路、小水池、花丛和铁艺椅子对应第 1—4 句。审校改动：第 2 句原为 termina junto a un estanque diminuto，插图里的小路一直通到墙上的门，小水池在路的左边，改为 pasa junto a，译文“通到一方小小的水池边”改为“从一方小小的水池旁经过”；第 4 句（现编号）原为 escucho el agua，插图里是一池静水，没有喷泉，第 1 句又说围墙挡住了风，听不到水声，改为 contemplo el agua，译文“静听水声”改为“静静望着池水”；第 8 句（现编号）原为 regreso siempre al mundo más paciente，听起来像“回到更有耐心的世界”，把 más paciente 移到 al mundo 前面，指“我”变得更有耐心，译文不变。词数不变。录音核对后改：第一次合成全长只有 52.6 秒（下限 53 秒，这个音色读这篇偏快）。第 2 句后加一句 Sobre el muro asoma un limonero.（墙头探出一棵柠檬树，对应插图墙外露出的柠檬树）；为了不超过 134 词，第 1 句删去 pequeño（译文“小花园”→“花园”），第 2 句 y pasa junto a un estanque → y bordea un estanque（译文“从一方小小的水池旁经过”→“沿着一方小小的水池边绕过”），第 3 句删去 allí（译文删“那里的”）。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "refugio",
+   "庇护所",
+   "refugio"
+  ],
+  [
+   "cercar",
+   "围住",
+   "cercado"
+  ],
+  [
+   "resguardar",
+   "遮护",
+   "resguarda"
+  ],
+  [
+   "grava",
+   "碎石",
+   "grava"
+  ],
+  [
+   "crujir",
+   "沙沙作响",
+   "cruje"
+  ],
+  [
+   "macizo de flores",
+   "花坛",
+   "macizos de flores"
+  ],
+  [
+   "estanque",
+   "水池",
+   "estanque"
+  ],
+  [
+   "cuesta arriba",
+   "吃力，艰难",
+   "cuesta arriba"
+  ],
+  [
+   "hierro forjado",
+   "铁艺，锻铁",
+   "hierro forjado"
+  ],
+  [
+   "equivaler a",
+   "等于",
+   "equivale a"
+  ],
+  [
+   "enmarcar",
+   "框定",
+   "enmarca"
+  ],
+  [
+   "acotar",
+   "划定",
+   "acota"
+  ],
+  [
+   "desbordar",
+   "超出承受",
+   "desbordan"
+  ],
+  [
+   "podar",
+   "修剪",
+   "podar"
+  ],
+  [
+   "florido",
+   "开满花的",
+   "florida"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Tras mi casa se esconde un jardín cercado por un muro que lo resguarda del viento.",
+    "zh": "我家屋后藏着一座花园，四周的围墙替它挡住了风。"
+   },
+   {
+    "es": "Un sendero de grava que cruje a cada paso atraviesa los macizos de flores y bordea un estanque diminuto.",
+    "zh": "一条每走一步都沙沙作响的石子小路穿过一片片花坛，沿着一方小小的水池边绕过。"
+   },
+   {
+    "es": "Sobre el muro asoma un limonero.",
+    "zh": "墙头探出一棵柠檬树。"
+   },
+   {
+    "es": "Cuando el día se me hace cuesta arriba, me siento en una silla de hierro forjado y contemplo el agua.",
+    "zh": "每当觉得一天过得格外吃力，我就坐到一把铁艺椅子上，静静望着池水。"
+   }
+  ],
+  [
+   {
+    "es": "Cabría pensar que un refugio así equivale a una forma elegante de huir del mundo.",
+    "zh": "也许有人会认为，这样的庇护所无异于一种体面地逃避世界的方式。"
+   },
+   {
+    "es": "Sin embargo, el muro no aísla tanto como enmarca: acota un espacio a nuestra medida, donde el esfuerzo obtiene respuesta.",
+    "zh": "然而，这道墙与其说是隔绝，不如说是框定：它圈出一方合乎我们尺度的天地，在这里，付出总会得到回应。"
+   },
+   {
+    "es": "Frente a problemas que nos desbordan, podar un rosal nos recuerda que algo sigue estando a nuestro alcance.",
+    "zh": "面对那些让我们力不从心的难题，修剪一株玫瑰会提醒我们，仍有些事在我们的掌控之中。"
+   },
+   {
+    "es": "Si el jardín sirviera solo para esconderse, sería una cárcel florida; pero de él regreso siempre más paciente al mundo.",
+    "zh": "倘若花园只是用来躲藏的，它便成了一座开满鲜花的牢笼；然而每次从这里回到外面的世界，我都变得更有耐心。"
+   }
+  ]
+ ]
+}

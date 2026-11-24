@@ -1,0 +1,302 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_14.mp3",
+ "duration": 63.647,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.5,
+  "sentence_max_dev_lu": 0.42,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.98,
+  "peak_dbfs": -1.73,
+  "buzz_hz": 15000.0,
+  "buzz_db": 4.3,
+  "comb_db": 0.31
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.4,
+  "leveler_rng": 10.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.025,
+   "parts": [
+    [
+     0.5,
+     2.025
+    ]
+   ],
+   "segments": [
+    "Mi clase de español."
+   ],
+   "text": "Mi clase de español.",
+   "read": "Mi clase de español."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.025,
+   "end": 6.695,
+   "parts": [
+    [
+     3.025,
+     6.695
+    ]
+   ],
+   "segments": [
+    "Tengo clase de español todos los lunes por la tarde."
+   ],
+   "text": "Tengo clase de español todos los lunes por la tarde.",
+   "read": "Tengo clase de español todos los lunes por la tarde."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.695,
+   "end": 11.975,
+   "parts": [
+    [
+     7.695,
+     11.975
+    ]
+   ],
+   "segments": [
+    "En el aula hay una pizarra grande y una mesa para la profesora."
+   ],
+   "text": "En el aula hay una pizarra grande y una mesa para la profesora.",
+   "read": "En el aula hay una pizarra grande y una mesa para la profesora."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.975,
+   "end": 17.405,
+   "parts": [
+    [
+     12.975,
+     17.405
+    ]
+   ],
+   "segments": [
+    "Mi mesa está cerca de la ventana y desde allí veo un árbol alto."
+   ],
+   "text": "Mi mesa está cerca de la ventana y desde allí veo un árbol alto.",
+   "read": "Mi mesa está cerca de la ventana y desde allí veo un árbol alto."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.405,
+   "end": 21.955,
+   "parts": [
+    [
+     18.405,
+     21.955
+    ]
+   ],
+   "segments": [
+    "Nuestra profesora es española y se llama Teresa."
+   ],
+   "text": "Nuestra profesora es española y se llama Teresa.",
+   "read": "Nuestra profesora es española y se llama Teresa."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 22.955,
+   "end": 27.875,
+   "parts": [
+    [
+     22.955,
+     25.265
+    ],
+    [
+     25.545,
+     27.875
+    ]
+   ],
+   "segments": [
+    "Cuando no entendemos una palabra,",
+    "ella hace un dibujo en la pizarra."
+   ],
+   "text": "Cuando no entendemos una palabra, ella hace un dibujo en la pizarra.",
+   "read": "Cuando no entendemos una palabra, ella hace un dibujo en la pizarra."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 28.875,
+   "end": 32.416,
+   "parts": [
+    [
+     28.875,
+     29.901
+    ],
+    [
+     30.181,
+     32.416
+    ]
+   ],
+   "segments": [
+    "Con ella,",
+    "la clase nunca es aburrida."
+   ],
+   "text": "Con ella, la clase nunca es aburrida.",
+   "read": "Con ella, la clase nunca es aburrida."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 33.416,
+   "end": 37.856,
+   "parts": [
+    [
+     33.416,
+     37.856
+    ]
+   ],
+   "segments": [
+    "En clase hablamos en grupo y a veces cantamos una canción."
+   ],
+   "text": "En clase hablamos en grupo y a veces cantamos una canción.",
+   "read": "En clase hablamos en grupo y a veces cantamos una canción."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 38.856,
+   "end": 42.646,
+   "parts": [
+    [
+     38.856,
+     42.646
+    ]
+   ],
+   "segments": [
+    "Mi compañero de mesa es Raúl y siempre me ayuda."
+   ],
+   "text": "Mi compañero de mesa es Raúl y siempre me ayuda.",
+   "read": "Mi compañero de mesa es Raúl y siempre me ayuda."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 43.646,
+   "end": 47.656,
+   "parts": [
+    [
+     43.646,
+     44.386
+    ],
+    [
+     44.666,
+     47.656
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "lo más difícil es la pronunciación."
+   ],
+   "text": "Para mí, lo más difícil es la pronunciación.",
+   "read": "Para mí, lo más difícil es la pronunciación."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 48.656,
+   "end": 51.777,
+   "parts": [
+    [
+     48.656,
+     51.777
+    ]
+   ],
+   "segments": [
+    "Por eso practico en casa delante del espejo."
+   ],
+   "text": "Por eso practico en casa delante del espejo.",
+   "read": "Por eso practico en casa delante del espejo."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 52.777,
+   "end": 57.977,
+   "parts": [
+    [
+     52.777,
+     54.897
+    ],
+    [
+     55.177,
+     57.977
+    ]
+   ],
+   "segments": [
+    "Tengo que estudiar mucho,",
+    "porque en verano voy a viajar a España."
+   ],
+   "text": "Tengo que estudiar mucho, porque en verano voy a viajar a España.",
+   "read": "Tengo que estudiar mucho, porque en verano voy a viajar a España."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 58.977,
+   "end": 62.447,
+   "parts": [
+    [
+     58.977,
+     62.447
+    ]
+   ],
+   "segments": [
+    "Me gusta esta clase porque aprendo y me divierto."
+   ],
+   "text": "Me gusta esta clase porque aprendo y me divierto.",
+   "read": "Me gusta esta clase porque aprendo y me divierto."
+  }
+ ]
+}

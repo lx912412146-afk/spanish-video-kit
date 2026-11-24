@@ -1,0 +1,142 @@
+{
+ "id": "daily_a1_13",
+ "level": "A1",
+ "no": 13,
+ "title_es": "Un día en el zoo",
+ "title_zh": "动物园的一天",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 13 篇。原创短文。只用陈述式现在时，有 ir a + 原形（vamos a ver）、dice que + 现在时、关系从句 que duerme。12 句，111 词。特别判断：大树旁吃树叶的长颈鹿、远处的大象和绿树都和插图对应；木栅栏常说 valla，和 baya 同音，按要求不写；primo 不分堂表、长幼，第 2 句说 Sergio es pequeño，译作“表弟”；con la boca abierta 译作“嘴巴张得大大的”；toma agua con la trompa y luego se moja la espalda 说大象用鼻子吸水，再往背上浇；duerme tranquilo al sol 译作“在太阳底下安安静静地睡觉”；bocadillo 是西班牙常见的夹馅面包，译作“三明治”；第 12 句 cansado、contento 用阳性，叙述者是男性。第 12 句 cansado, pero 照常停顿；全篇没有列举，no_pause_commas 为空。词汇：zoo 在标题里，排在最前；largo 是长的，abierto 原文是阴性 abierta，a lo lejos 原文是句首的 A lo lejos，mojarse 原文是 se moja，dormir 原文是 duerme，bocadillo 原文是复数 bocadillos。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "zoo",
+   "动物园",
+   "zoo"
+  ],
+  [
+   "primo",
+   "表弟",
+   "primo"
+  ],
+  [
+   "jirafa",
+   "长颈鹿",
+   "jirafa"
+  ],
+  [
+   "cuello",
+   "脖子",
+   "cuello"
+  ],
+  [
+   "largo",
+   "长的",
+   "largo"
+  ],
+  [
+   "hacia arriba",
+   "向上",
+   "hacia arriba"
+  ],
+  [
+   "boca",
+   "嘴",
+   "boca"
+  ],
+  [
+   "abierto",
+   "张开的",
+   "abierta"
+  ],
+  [
+   "a lo lejos",
+   "在远处",
+   "A lo lejos"
+  ],
+  [
+   "elefante",
+   "大象",
+   "elefante"
+  ],
+  [
+   "trompa",
+   "象鼻",
+   "trompa"
+  ],
+  [
+   "mojarse",
+   "弄湿",
+   "se moja"
+  ],
+  [
+   "león",
+   "狮子",
+   "león"
+  ],
+  [
+   "dormir",
+   "睡觉",
+   "duerme"
+  ],
+  [
+   "bocadillo",
+   "三明治",
+   "bocadillos"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hoy voy al zoo con mi primo Sergio.",
+    "zh": "今天我和表弟塞尔希奥去动物园。"
+   },
+   {
+    "es": "Sergio es pequeño y su animal favorito es la jirafa.",
+    "zh": "塞尔希奥还小，他最喜欢的动物是长颈鹿。"
+   },
+   {
+    "es": "Primero vamos a ver a la jirafa.",
+    "zh": "我们先去看长颈鹿。"
+   },
+   {
+    "es": "La jirafa está al lado de un árbol muy grande.",
+    "zh": "长颈鹿站在一棵很大的树旁边。"
+   },
+   {
+    "es": "Tiene el cuello muy largo y come las hojas del árbol.",
+    "zh": "它的脖子很长，正在吃树上的叶子。"
+   },
+   {
+    "es": "Sergio mira hacia arriba con la boca abierta.",
+    "zh": "塞尔希奥仰着头看，嘴巴张得大大的。"
+   }
+  ],
+  [
+   {
+    "es": "A lo lejos hay un elefante gris enorme.",
+    "zh": "远处有一头灰色的大象，个子特别大。"
+   },
+   {
+    "es": "El elefante toma agua con la trompa y luego se moja la espalda.",
+    "zh": "大象用鼻子吸起水，然后往自己背上浇。"
+   },
+   {
+    "es": "Después vemos un león que duerme tranquilo al sol.",
+    "zh": "后来，我们看到一头狮子在太阳底下安安静静地睡觉。"
+   },
+   {
+    "es": "Al mediodía comemos unos bocadillos debajo de un árbol.",
+    "zh": "中午，我们在一棵树下吃三明治。"
+   },
+   {
+    "es": "Sergio dice que la jirafa es su mejor amiga.",
+    "zh": "塞尔希奥说，长颈鹿是他最好的朋友。"
+   },
+   {
+    "es": "Al final del día estoy cansado, pero muy contento.",
+    "zh": "一天下来，我很累，但是非常开心。"
+   }
+  ]
+ ]
+}

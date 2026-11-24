@@ -1,0 +1,452 @@
+[
+ {
+  "id": "daily_a1_11",
+  "level": "A1",
+  "no": 11,
+  "title_es": "La tienda de flores",
+  "title_zh": "街角的花店",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "花店门口：一桶桶鲜花（玫瑰、向日葵、郁金香）、几盆绿植、木架、条纹遮阳篷"
+ },
+ {
+  "id": "daily_a1_12",
+  "level": "A1",
+  "no": 12,
+  "title_es": "Mi calle",
+  "title_zh": "我住的街道",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "安静的小街：两旁三四层的老楼、阳台上的花盆、行道树、一家小商店的遮阳篷"
+ },
+ {
+  "id": "daily_a1_13",
+  "level": "A1",
+  "no": 13,
+  "title_es": "Un día en el zoo",
+  "title_zh": "动物园的一天",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "动物园：长颈鹿在大树旁吃树叶，远处一头大象，木栅栏和绿树"
+ },
+ {
+  "id": "daily_a1_14",
+  "level": "A1",
+  "no": 14,
+  "title_es": "Mi clase de español",
+  "title_zh": "我的西班牙语课",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "教室：几张课桌椅、讲台、空白的黑板（不写字）、窗外的树"
+ },
+ {
+  "id": "daily_a1_15",
+  "level": "A1",
+  "no": 15,
+  "title_es": "El otoño",
+  "title_zh": "秋天",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "秋天的小路：金黄和橙红的树、满地落叶、一张长椅、远处的房子"
+ },
+ {
+  "id": "daily_a1_16",
+  "level": "A1",
+  "no": 16,
+  "title_es": "Mi plato favorito",
+  "title_zh": "我最爱吃的菜",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "餐桌上一大平底锅海鲜饭、切开的柠檬、一篮面包、一壶水和杯子"
+ },
+ {
+  "id": "daily_a1_17",
+  "level": "A1",
+  "no": 17,
+  "title_es": "El autobús de la mañana",
+  "title_zh": "早上的公交车",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "清晨的公交车站：候车亭、一辆开过来的公交车（车身不写字）、行道树、远处的楼房"
+ },
+ {
+  "id": "daily_a1_18",
+  "level": "A1",
+  "no": 18,
+  "title_es": "El cine de los viernes",
+  "title_zh": "周五的电影",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "电影院里：一排排红色座椅、大银幕上只有柔和的光、前排座椅上一桶爆米花"
+ },
+ {
+  "id": "daily_a1_19",
+  "level": "A1",
+  "no": 19,
+  "title_es": "Mi hermano pequeño",
+  "title_zh": "我的弟弟",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "儿童房：小床、玩具小汽车、彩色积木、一个足球、窗外的蓝天"
+ },
+ {
+  "id": "daily_a1_20",
+  "level": "A1",
+  "no": 20,
+  "title_es": "Un día en el campo",
+  "title_zh": "在乡下的一天",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "乡间：绿色的田野、一棵大树、木栅栏、几只羊、远处的小房子和小山"
+ },
+ {
+  "id": "daily_a2_11",
+  "level": "A2",
+  "no": 11,
+  "title_es": "El día que vi el mar",
+  "title_zh": "第一次看见大海",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "从沙丘上看大海：沙丘上的草、蓝色的海和浪花、远处的帆船、地上一双小凉鞋"
+ },
+ {
+  "id": "daily_a2_12",
+  "level": "A2",
+  "no": 12,
+  "title_es": "Una boda en el pueblo",
+  "title_zh": "村里的婚礼",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "村子院子里的长桌：白桌布、花、蛋糕、杯子，头顶挂着灯串，背景是白墙房子"
+ },
+ {
+  "id": "daily_a2_13",
+  "level": "A2",
+  "no": 13,
+  "title_es": "Un fin de semana en la nieve",
+  "title_zh": "雪中的周末",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "雪山脚下的小木屋：屋顶积雪、门边靠着一副滑雪板、雪地上的松树"
+ },
+ {
+  "id": "daily_a2_14",
+  "level": "A2",
+  "no": 14,
+  "title_es": "Una noche de tormenta",
+  "title_zh": "暴风雨之夜",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "从室内看窗外的暴雨和远处的闪电，窗台上点着的蜡烛、一条毯子、一杯热饮"
+ },
+ {
+  "id": "daily_a2_15",
+  "level": "A2",
+  "no": 15,
+  "title_es": "Un partido de fútbol",
+  "title_zh": "一场足球赛",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "小足球场：草地、球门和球网、一个足球、场边的看台和几面纯色小旗"
+ },
+ {
+  "id": "daily_a2_16",
+  "level": "A2",
+  "no": 16,
+  "title_es": "Un día en la granja",
+  "title_zh": "农场的一天",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "农场：红色谷仓、几只母鸡、一头奶牛、干草堆、木栅栏"
+ },
+ {
+  "id": "daily_a2_17",
+  "level": "A2",
+  "no": 17,
+  "title_es": "Mi antiguo barrio",
+  "title_zh": "我以前住的街区",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "老街区的小广场：报亭（不写字）、一棵大树、几栋带阳台的旧楼、一张长椅"
+ },
+ {
+  "id": "daily_a2_18",
+  "level": "A2",
+  "no": 18,
+  "title_es": "Una tarde en la biblioteca",
+  "title_zh": "图书馆的一个下午",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "图书馆阅览室：高高的书架、长木桌、台灯、桌上打开的书（不写字）、大窗户"
+ },
+ {
+  "id": "daily_a2_19",
+  "level": "A2",
+  "no": 19,
+  "title_es": "El jardín botánico",
+  "title_zh": "植物园",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "植物园的玻璃温室：棕榈、蕨类、大叶植物、一条石子小路、一个小水池"
+ },
+ {
+  "id": "daily_a2_20",
+  "level": "A2",
+  "no": 20,
+  "title_es": "Mi primera carrera",
+  "title_zh": "我的第一次长跑",
+  "voice": "qwen3_M1F5_25_slow",
+  "scene": "公园里的跑步赛道：终点的彩带拱门（不写字）、路边的水杯桌、一双跑鞋、树"
+ },
+ {
+  "id": "daily_b1_11",
+  "level": "B1",
+  "no": 11,
+  "title_es": "Las plantas en casa",
+  "title_zh": "家里的绿植",
+  "voice": "qwen3_M1F5_25",
+  "scene": "明亮的客厅一角：窗台和木架上摆满各种盆栽（龟背竹、仙人掌、吊兰）、一个小喷壶"
+ },
+ {
+  "id": "daily_b1_12",
+  "level": "B1",
+  "no": 12,
+  "title_es": "Ir al teatro",
+  "title_zh": "去看戏",
+  "voice": "qwen3_M1F5_25",
+  "scene": "剧场：红色大幕半开、舞台上的灯光、一排排座椅、包厢的轮廓"
+ },
+ {
+  "id": "daily_b1_13",
+  "level": "B1",
+  "no": 13,
+  "title_es": "La Nochevieja",
+  "title_zh": "跨年夜",
+  "voice": "qwen3_M1F5_25",
+  "scene": "跨年夜的餐桌：几小碗葡萄、香槟杯、蜡烛，窗外夜空里的烟花（左上角保持明亮）"
+ },
+ {
+  "id": "daily_b1_14",
+  "level": "B1",
+  "no": 14,
+  "title_es": "El placer de la siesta",
+  "title_zh": "午睡的乐趣",
+  "voice": "qwen3_M1F5_25",
+  "scene": "午后的房间：百叶窗半掩、阳光透进来、沙发和靠垫、一本合上的书"
+ },
+ {
+  "id": "daily_b1_15",
+  "level": "B1",
+  "no": 15,
+  "title_es": "Una ruta a pie",
+  "title_zh": "徒步之旅",
+  "voice": "qwen3_M1F5_25",
+  "scene": "山间小路：一个背包、一双登山鞋、一根登山杖，远处起伏的山和小村庄"
+ },
+ {
+  "id": "daily_b1_16",
+  "level": "B1",
+  "no": 16,
+  "title_es": "Abuelos y nietos",
+  "title_zh": "祖孙之间",
+  "voice": "qwen3_M1F5_25",
+  "scene": "公园里的石桌上一盘没下完的棋、一大一小两顶帽子，树上挂着一只风筝"
+ },
+ {
+  "id": "daily_b1_17",
+  "level": "B1",
+  "no": 17,
+  "title_es": "Aprender a conducir",
+  "title_zh": "学开车",
+  "voice": "qwen3_M1F5_25",
+  "scene": "空旷的停车场：一辆小汽车（不写字、没有车标）、几个橙色路锥、远处的树"
+ },
+ {
+  "id": "daily_b1_18",
+  "level": "B1",
+  "no": 18,
+  "title_es": "Leer antes de dormir",
+  "title_zh": "睡前阅读",
+  "voice": "qwen3_M1F5_25",
+  "scene": "卧室床头：亮着的床头灯、一本打开的书（不写字）、一杯茶、眼镜、柔软的被子"
+ },
+ {
+  "id": "daily_b1_19",
+  "level": "B1",
+  "no": 19,
+  "title_es": "El arte en la calle",
+  "title_zh": "街头艺术",
+  "voice": "qwen3_M1F5_25",
+  "scene": "小街的墙上一幅色彩明快的抽象壁画（只画色块）、地上打开的吉他盒、一张长椅"
+ },
+ {
+  "id": "daily_b1_20",
+  "level": "B1",
+  "no": 20,
+  "title_es": "La feria del libro",
+  "title_zh": "书市",
+  "voice": "qwen3_M1F5_25",
+  "scene": "树荫下的露天书市：几个木摊位上摆满书（书脊不写字）、白色帐篷顶、长椅"
+ },
+ {
+  "id": "daily_b2_11",
+  "level": "B2",
+  "no": 11,
+  "title_es": "Las energías renovables",
+  "title_zh": "可再生能源",
+  "voice": "qwen3_M1F5_25",
+  "scene": "绿色山丘上的几台白色风力发电机，前景一片太阳能板，蓝天白云"
+ },
+ {
+  "id": "daily_b2_12",
+  "level": "B2",
+  "no": 12,
+  "title_es": "La fauna urbana",
+  "title_zh": "城市里的野生动物",
+  "voice": "qwen3_M1F5_25",
+  "scene": "黄昏的城市公园边：一只狐狸站在灌木旁，电线上停着几只鸟，远处的公寓楼"
+ },
+ {
+  "id": "daily_b2_13",
+  "level": "B2",
+  "no": 13,
+  "title_es": "El precio de la comodidad",
+  "title_zh": "便利的代价",
+  "voice": "qwen3_M1F5_25",
+  "scene": "公寓门口堆着几个快递纸箱（不印字）、一个外卖保温袋、门垫"
+ },
+ {
+  "id": "daily_b2_14",
+  "level": "B2",
+  "no": 14,
+  "title_es": "La contaminación lumínica",
+  "title_zh": "光污染",
+  "voice": "qwen3_M1F5_25",
+  "scene": "左半边是灯火通明的城市天际线，右半边是乡间山丘上的星空（左上角是浅色的黄昏天空）"
+ },
+ {
+  "id": "daily_b2_15",
+  "level": "B2",
+  "no": 15,
+  "title_es": "Compartir entre vecinos",
+  "title_zh": "邻里共享",
+  "voice": "qwen3_M1F5_25",
+  "scene": "公寓楼门厅里的共享木柜：书、几罐果酱、一盆植物、一个工具箱，旁边是信箱（不写字）"
+ },
+ {
+  "id": "daily_b2_16",
+  "level": "B2",
+  "no": 16,
+  "title_es": "La importancia de las abejas",
+  "title_zh": "蜜蜂的重要性",
+  "voice": "qwen3_M1F5_25",
+  "scene": "花田旁的两个木蜂箱，几只蜜蜂在薰衣草和向日葵上飞"
+ },
+ {
+  "id": "daily_b2_17",
+  "level": "B2",
+  "no": 17,
+  "title_es": "El turismo espacial",
+  "title_zh": "太空旅游",
+  "voice": "qwen3_M1F5_25",
+  "scene": "黎明时分的发射台上一枚白色火箭（不写字、不画国旗），远处的海和淡淡的星星"
+ },
+ {
+  "id": "daily_b2_18",
+  "level": "B2",
+  "no": 18,
+  "title_es": "Los trabajos del futuro",
+  "title_zh": "未来的职业",
+  "voice": "qwen3_M1F5_25",
+  "scene": "明亮的工作室：一只机械臂、一台电脑（屏幕只画色块）、一盆绿植、窗外的城市"
+ },
+ {
+  "id": "daily_b2_19",
+  "level": "B2",
+  "no": 19,
+  "title_es": "Reparar en lugar de tirar",
+  "title_zh": "修而不扔",
+  "voice": "qwen3_M1F5_25",
+  "scene": "修理工作台：一盏拆开的台灯、螺丝刀和钳子、一台旧收音机、一卷线、工具墙"
+ },
+ {
+  "id": "daily_b2_20",
+  "level": "B2",
+  "no": 20,
+  "title_es": "Viajar con poco dinero",
+  "title_zh": "穷游",
+  "voice": "qwen3_M1F5_25",
+  "scene": "青年旅舍的房间：上下铺、床上一个大背包、一张打开的地图（不写字）、一个水壶"
+ },
+ {
+  "id": "daily_c1_11",
+  "level": "C1",
+  "no": 11,
+  "title_es": "Las lenguas que se apagan",
+  "title_zh": "渐渐消失的语言",
+  "voice": "qwen3_M1F5_25",
+  "scene": "书房一角：书架上的旧词典和手稿（不写字）、桌上一台老式录音机和磁带"
+ },
+ {
+  "id": "daily_c1_12",
+  "level": "C1",
+  "no": 12,
+  "title_es": "La necesidad del silencio",
+  "title_zh": "对寂静的需要",
+  "voice": "qwen3_M1F5_25",
+  "scene": "清晨的山间湖泊：平静的水面、倒影、薄雾、一条空着的小木码头"
+ },
+ {
+  "id": "daily_c1_13",
+  "level": "C1",
+  "no": 13,
+  "title_es": "El jardín como refugio",
+  "title_zh": "花园：心灵的庇护所",
+  "voice": "qwen3_M1F5_25",
+  "scene": "被围墙环绕的小花园：石子小路、一个小水池、花丛、一张铁艺椅子"
+ },
+ {
+  "id": "daily_c1_14",
+  "level": "C1",
+  "no": 14,
+  "title_es": "El papel del azar",
+  "title_zh": "偶然的作用",
+  "voice": "qwen3_M1F5_25",
+  "scene": "木桌上一枚硬币、两颗骰子（只画圆点）、一张旧车票（不写字），窗外一条分岔的小路"
+ },
+ {
+  "id": "daily_c1_15",
+  "level": "C1",
+  "no": 15,
+  "title_es": "El atractivo de las ruinas",
+  "title_zh": "废墟的魅力",
+  "voice": "qwen3_M1F5_25",
+  "scene": "山坡上长满青草和野花的古老石拱和断墙（不是任何真实遗址），夕阳"
+ },
+ {
+  "id": "daily_c1_16",
+  "level": "C1",
+  "no": 16,
+  "title_es": "La soledad elegida",
+  "title_zh": "自己选择的独处",
+  "voice": "qwen3_M1F5_25",
+  "scene": "湖边树林里的一座小木屋，门口一把椅子、一摞木柴，烟囱冒着淡淡的烟"
+ },
+ {
+  "id": "daily_c1_17",
+  "level": "C1",
+  "no": 17,
+  "title_es": "El sentido del viaje",
+  "title_zh": "旅行的意义",
+  "voice": "qwen3_M1F5_25",
+  "scene": "老火车站的站台：一个旧皮箱、一顶帽子、长椅，远处延伸的铁轨"
+ },
+ {
+  "id": "daily_c1_18",
+  "level": "C1",
+  "no": 18,
+  "title_es": "El oficio de escribir",
+  "title_zh": "写作这门手艺",
+  "voice": "qwen3_M1F5_25",
+  "scene": "书桌：一台老式打字机、一叠稿纸（不写字）、钢笔、一杯咖啡、台灯"
+ },
+ {
+  "id": "daily_c1_19",
+  "level": "C1",
+  "no": 19,
+  "title_es": "Los rituales cotidianos",
+  "title_zh": "日常的仪式感",
+  "voice": "qwen3_M1F5_25",
+  "scene": "清晨的厨房窗边：摩卡壶、一只冒热气的杯子、一盆小植物、晨光"
+ },
+ {
+  "id": "daily_c1_20",
+  "level": "C1",
+  "no": 20,
+  "title_es": "La música y la memoria",
+  "title_zh": "音乐与记忆",
+  "voice": "qwen3_M1F5_25",
+  "scene": "客厅角落：一台老式唱机、一摞黑胶唱片（封套只画色块）、扶手椅、落地灯"
+ }
+]

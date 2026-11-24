@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_15",
+ "level": "A2",
+ "no": 15,
+ "title_es": "Un partido de fútbol",
+ "title_zh": "一场足球赛",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 15 篇。原创短文。现在时交代每周踢球的习惯（juego、es、entrenamos），过去未完成时描写比赛背景（era、había、agitaban、estaba），简单过去时叙述比赛经过（fue、marcó、empató、paré、corrieron、terminó）。11 句，113 词。没有需要不停顿的列举逗号：第 2 句、第 11 句 pero 前，第 7 句 En la primera parte 后、第 8 句 en la segunda parte 后、第 9 句 En el último minuto 后的逗号照常停顿。la primera parte、la segunda parte 是“上半场”“下半场”；jugar de portero 是“当守门员”；parar un balón 译作“扑住一个球”，parar 释义取“挡住”；empatar 是“打平、扳平比分”，第 8 句 empató 译作“扳平了比分”，第 11 句用名词 empate；grada 是“看台”，用单数，避免复数词尾在句末被吞；ilusión 在这里是“热情、干劲”；barrio vecino 译作“邻近街区”；nervioso 用阳性，和男声叙述者一致。词头 partido、fútbol 在标题里，排在最前。看台和足球在文中有交代。审校改动：插图看台顶上固定着红、黄、绿、蓝四面小旗，第 5 句原为 Mis padres agitaban unas banderas pequeñas de color verde，“几面绿色的小旗”和画面的颜色、数量对不上，改成 Mis padres agitaban una bandera pequeña，不说颜色（爸爸妈妈手里的小旗和人一样不画出来），译文改为“我爸爸妈妈挥舞着一面小旗子。”，词汇 bandera 的原文写法改为 bandera；单数 pequeña 在句末也比复数稳。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "partido",
+   "比赛",
+   "partido"
+  ],
+  [
+   "fútbol",
+   "足球",
+   "fútbol"
+  ],
+  [
+   "equipo",
+   "球队",
+   "equipo"
+  ],
+  [
+   "ilusión",
+   "热情",
+   "ilusión"
+  ],
+  [
+   "temporada",
+   "赛季",
+   "temporada"
+  ],
+  [
+   "grada",
+   "看台",
+   "grada"
+  ],
+  [
+   "agitar",
+   "挥舞",
+   "agitaban"
+  ],
+  [
+   "bandera",
+   "旗子",
+   "bandera"
+  ],
+  [
+   "portero",
+   "守门员",
+   "portero"
+  ],
+  [
+   "marcar un gol",
+   "进球",
+   "marcó un gol"
+  ],
+  [
+   "empatar",
+   "扳平",
+   "empató"
+  ],
+  [
+   "tiro",
+   "射门",
+   "tiro"
+  ],
+  [
+   "parar",
+   "挡住",
+   "paré"
+  ],
+  [
+   "balón",
+   "球",
+   "balón"
+  ],
+  [
+   "victoria",
+   "胜利",
+   "victoria"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Todos los sábados juego al fútbol con un equipo de mi barrio.",
+    "zh": "每个星期六，我都和街区里的一支球队踢足球。"
+   },
+   {
+    "es": "Nadie en el equipo es profesional, pero entrenamos con mucha ilusión.",
+    "zh": "队里没有一个人是职业球员，但我们训练起来都很有热情。"
+   },
+   {
+    "es": "El sábado pasado fue el último partido de la temporada.",
+    "zh": "上周六是这个赛季的最后一场比赛。"
+   },
+   {
+    "es": "Era contra el equipo del barrio vecino y había mucha gente en la grada.",
+    "zh": "对手是邻近街区的球队，看台上来了很多人。"
+   },
+   {
+    "es": "Mis padres agitaban una bandera pequeña.",
+    "zh": "我爸爸妈妈挥舞着一面小旗子。"
+   }
+  ],
+  [
+   {
+    "es": "Yo juego de portero y aquel día estaba muy nervioso.",
+    "zh": "我是守门员，那天我非常紧张。"
+   },
+   {
+    "es": "En la primera parte, el otro equipo marcó un gol.",
+    "zh": "上半场，对方进了一个球。"
+   },
+   {
+    "es": "Pero en la segunda parte, Diego empató con un tiro precioso.",
+    "zh": "可是到了下半场，迭戈一脚漂亮的射门扳平了比分。"
+   },
+   {
+    "es": "En el último minuto, paré un balón muy difícil.",
+    "zh": "最后一分钟，我扑住了一个很难扑的球。"
+   },
+   {
+    "es": "Mis compañeros corrieron hacia mí y me abrazaron.",
+    "zh": "队友们朝我跑过来，紧紧地抱住了我。"
+   },
+   {
+    "es": "El partido terminó en empate, pero para nosotros fue como una victoria.",
+    "zh": "比赛最后打成了平局，可对我们来说，这就像赢了一样。"
+   }
+  ]
+ ]
+}

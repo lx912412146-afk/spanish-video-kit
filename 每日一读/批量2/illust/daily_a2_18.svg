@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：图书馆的一个下午（阅览室：高高的书架、长木桌、台灯、桌上打开的书、大窗户；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f6e7d2"/><stop offset="1" stop-color="#efdbc0"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d2e5ee"/><stop offset="0.6" stop-color="#e8f0ec"/><stop offset="1" stop-color="#f5f0e0"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2c7a3"/><stop offset="1" stop-color="#d6b88f"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b98b62"/><stop offset="0.5" stop-color="#c59a70"/><stop offset="1" stop-color="#ae8159"/>
+    </linearGradient>
+    <linearGradient id="back" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcc19e"/><stop offset="1" stop-color="#d1b28c"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8ae84"/><stop offset="1" stop-color="#cba075"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9dbea6"/><stop offset="1" stop-color="#7fa38a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3cc" stop-opacity="0.9"/><stop offset="1" stop-color="#fbe7b4" stop-opacity="0"/>
+    </radialGradient>
+    <path id="clump" d="M-22,8 C-29,3 -26,-8 -17,-9 C-17,-18 -6,-22 0,-17 C6,-23 18,-19 17,-10 C26,-9 28,3 21,8 C17,14 6,13 0,12 C-8,14 -17,13 -22,8 Z"/>
+    <clipPath id="win"><path d="M148,176 L148,98 C148,77 168,62 190,62 C212,62 232,77 232,98 L232,176 Z"/></clipPath>
+    <g id="chair">
+      <rect x="-12" y="0" width="3.2" height="30" fill="#b48659"/><rect x="8.8" y="0" width="3.2" height="30" fill="#b48659"/>
+      <path d="M-13,1 C-6,-3 6,-3 13,1 L13,5 C6,1 -6,1 -13,5 Z" fill="#c69b6f"/>
+      <g fill="#bb8e62"><rect x="-5.6" y="3" width="2.4" height="24"/><rect x="-1.2" y="2.4" width="2.4" height="24.6"/><rect x="3.2" y="3" width="2.4" height="24"/></g>
+    </g>
+    <g id="lamp">
+      <ellipse cx="0" cy="0" rx="8" ry="2.2" fill="#c9a66a"/>
+      <rect x="-1" y="-20" width="2" height="20" fill="#c9a66a"/>
+      <path d="M-13,-20 C-13,-27 -8,-30 0,-30 C8,-30 13,-27 13,-20 Z" fill="url(#shade)"/>
+      <path d="M-13,-20 L13,-20 L12,-18.4 L-12,-18.4 Z" fill="#e0c37e"/>
+      <path d="M-8,-27 C-4,-29 2,-29 5,-28" stroke="#c6dccc" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="212" width="400" height="48" fill="url(#floor)"/>
+    <g stroke="#c9a983" stroke-width="0.8" opacity="0.7"><line x1="0" y1="226" x2="400" y2="226"/><line x1="0" y1="242" x2="400" y2="242"/><line x1="60" y1="212" x2="57" y2="226"/><line x1="168" y1="226" x2="166" y2="242"/><line x1="250" y1="212" x2="251" y2="226"/><line x1="96" y1="242" x2="94" y2="260"/><line x1="300" y1="242" x2="302" y2="260"/><line x1="360" y1="226" x2="362" y2="242"/></g>
+    <rect x="0" y="209" width="400" height="4" fill="#e6cfae"/>
+
+    <g filter="url(#wc)">
+      <!-- 拱形大窗 -->
+      <path d="M140,180 L140,98 C140,72 164,54 190,54 C216,54 240,72 240,98 L240,180 Z" fill="#efe1c9"/>
+      <g clip-path="url(#win)">
+        <rect x="146" y="60" width="90" height="120" fill="url(#sky)"/>
+        <g filter="url(#soft2)" fill="#ffffff" opacity="0.85"><ellipse cx="176" cy="86" rx="14" ry="4"/><ellipse cx="214" cy="104" rx="12" ry="3.4"/></g>
+        <path d="M146,150 L146,138 L160,138 L160,130 L176,130 L176,142 L196,142 L196,132 L214,126 L232,132 L236,132 L236,176 L146,176 Z" fill="#e8dccd"/>
+        <g fill="#a9c98e"><use href="#clump" transform="translate(160,156) scale(0.9)"/><use href="#clump" transform="translate(214,152) scale(1.1)"/><use href="#clump" transform="translate(188,162) scale(0.8)"/></g>
+        <g fill="#bcd6a2"><use href="#clump" transform="translate(157,152) scale(0.5)"/><use href="#clump" transform="translate(211,148) scale(0.6)"/></g>
+      </g>
+      <g fill="none" stroke="#f6ecdb" stroke-linecap="round">
+        <path d="M148,176 L148,98 C148,77 168,62 190,62 C212,62 232,77 232,98 L232,176" stroke-width="3"/>
+        <line x1="190" y1="62" x2="190" y2="176" stroke-width="2.6"/><line x1="148" y1="98" x2="232" y2="98" stroke-width="2.4"/><line x1="148" y1="138" x2="232" y2="138" stroke-width="2.4"/>
+        <path d="M190,98 L162,72 M190,98 L218,72" stroke-width="1.6"/>
+      </g>
+      <rect x="134" y="176" width="112" height="6" rx="1.5" fill="#ead9bd"/>
+
+      <!-- 左边的书架 -->
+      <rect x="8" y="54" width="122" height="6" rx="1" fill="#b4875e"/>
+      <rect x="12" y="60" width="114" height="150" fill="url(#back)"/>
+      <rect x="10" y="58" width="6" height="154" fill="url(#wood)"/><rect x="122" y="58" width="6" height="154" fill="url(#wood)"/>
+      <g><rect x="20.0" y="74.9" width="5.0" height="17.1" fill="#d99a7c"/><rect x="20.0" y="77.9" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="25.3" y="70.3" width="8.0" height="21.7" fill="#94afc4"/><rect x="25.3" y="73.3" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="33.6" y="74.2" width="6.0" height="17.8" fill="#9cb38a"/><rect x="39.9" y="68.2" width="5.0" height="23.8" fill="#e3bf7a"/><rect x="39.9" y="71.2" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="45.2" y="70.8" width="6.5" height="21.2" fill="#e3bf7a"/><rect x="52.0" y="74.1" width="8.0" height="17.9" fill="#efe3cc"/><rect x="52.0" y="77.1" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="60.3" y="74.0" width="7.0" height="18.0" fill="#9cb38a"/><rect x="60.3" y="77.0" width="7.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="67.6" y="68.6" width="6.0" height="23.4" fill="#c5b48e"/><rect x="73.9" y="71.7" width="6.0" height="20.3" fill="#7f9fae"/><rect x="80.2" y="74.3" width="5.0" height="17.7" fill="#e6cfa8"/><rect x="80.2" y="77.3" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="85.5" y="71.4" width="7.0" height="20.6" fill="#c5b48e"/><rect x="92.8" y="71.2" width="6.0" height="20.8" fill="#b7909f"/><rect x="99.1" y="75.2" width="8.0" height="16.8" fill="#94afc4"/><rect x="99.1" y="78.2" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="107.4" y="70.2" width="5.5" height="21.8" fill="#7f9fae"/>
+<rect x="20.0" y="97.1" width="4.0" height="24.9" fill="#94afc4"/><rect x="24.3" y="101.7" width="4.5" height="20.3" fill="#a8846a"/><rect x="24.3" y="104.7" width="4.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="29.1" y="99.6" width="6.0" height="22.4" fill="#e6cfa8"/><rect x="29.1" y="102.6" width="6.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="35.4" y="99.4" width="6.5" height="22.6" fill="#c5b48e"/><rect x="35.4" y="102.4" width="6.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="42.2" y="97.9" width="4.0" height="24.1" fill="#a8846a"/><rect x="42.2" y="100.9" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="46.5" y="105.9" width="7.0" height="16.1" fill="#7f9fae"/><rect x="46.5" y="108.9" width="7.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="53.8" y="105.9" width="4.5" height="16.1" fill="#c5b48e"/><rect x="53.8" y="108.9" width="4.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="58.6" y="101.7" width="7.0" height="20.3" fill="#7f9fae"/><rect x="58.6" y="104.7" width="7.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="65.9" y="104.0" width="5.0" height="18.0" fill="#94afc4"/><rect x="71.2" y="101.5" width="6.0" height="20.5" fill="#8fae94"/><rect x="77.5" y="97.2" width="5.0" height="24.8" fill="#7f9fae"/><rect x="77.5" y="100.2" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="82.8" y="104.5" width="4.5" height="17.5" fill="#c5b48e"/><rect x="87.6" y="97.7" width="5.0" height="24.3" fill="#8fae94"/><rect x="87.6" y="100.7" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="92.9" y="105.2" width="6.5" height="16.8" fill="#efe3cc"/><rect x="99.7" y="99.7" width="7.0" height="22.3" fill="#7f9fae"/><rect x="107.0" y="103.5" width="4.0" height="18.5" fill="#a8846a"/><rect x="107.0" y="106.5" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="111.3" y="102.4" width="6.0" height="19.6" fill="#8fae94"/><rect x="111.3" y="105.4" width="6.0" height="1.3" fill="#f6eedf" opacity="0.7"/>
+<rect x="20.0" y="129.8" width="5.0" height="22.2" fill="#e6cfa8"/><rect x="20.0" y="132.8" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="25.3" y="128.5" width="6.5" height="23.5" fill="#efe3cc"/><rect x="32.1" y="131.2" width="8.0" height="20.8" fill="#8fae94"/><rect x="32.1" y="134.2" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="40.4" y="128.0" width="8.0" height="24.0" fill="#b7909f"/><rect x="48.7" y="134.0" width="4.5" height="18.0" fill="#7f9fae"/><rect x="48.7" y="137.0" width="4.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="53.5" y="128.3" width="7.0" height="23.7" fill="#e6cfa8"/><rect x="62.8" y="130.1" width="5.5" height="21.9" fill="#e3bf7a" transform="rotate(14 68.3 152)"/><rect x="73.3" y="130.0" width="7.0" height="22.0" fill="#b7909f"/><rect x="80.6" y="134.1" width="6.0" height="17.9" fill="#7f9fae"/><rect x="86.9" y="127.5" width="4.0" height="24.5" fill="#e3bf7a"/><rect x="86.9" y="130.5" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="91.2" y="131.3" width="4.0" height="20.7" fill="#e6cfa8"/><rect x="95.5" y="132.3" width="6.0" height="19.7" fill="#d99a7c"/><rect x="101.8" y="135.5" width="8.0" height="16.5" fill="#c5b48e"/><rect x="101.8" y="138.5" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="110.1" y="130.5" width="4.0" height="21.5" fill="#efe3cc"/>
+<rect x="20.0" y="164.3" width="4.0" height="17.7" fill="#e6cfa8"/><rect x="24.3" y="165.8" width="5.5" height="16.2" fill="#efe3cc"/><rect x="24.3" y="168.8" width="5.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="30.1" y="165.4" width="7.0" height="16.6" fill="#7f9fae"/><rect x="30.1" y="168.4" width="7.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="37.4" y="161.9" width="5.5" height="20.1" fill="#9cb38a"/><rect x="37.4" y="164.9" width="5.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="43.2" y="164.3" width="5.5" height="17.7" fill="#d99a7c"/><rect x="43.2" y="167.3" width="5.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="49.0" y="164.8" width="6.0" height="17.2" fill="#a8846a"/><rect x="49.0" y="167.8" width="6.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="55.3" y="157.9" width="6.0" height="24.1" fill="#b7909f"/><rect x="61.6" y="160.4" width="4.5" height="21.6" fill="#94afc4"/><rect x="61.6" y="163.4" width="4.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="66.4" y="162.9" width="6.0" height="19.1" fill="#e3bf7a"/><rect x="74.7" y="164.6" width="6.5" height="17.4" fill="#b7909f" transform="rotate(14 81.2 182)"/><rect x="86.2" y="164.2" width="6.5" height="17.8" fill="#efe3cc"/><rect x="86.2" y="167.2" width="6.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="93.0" y="160.5" width="5.0" height="21.5" fill="#b7909f"/><rect x="93.0" y="163.5" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="98.3" y="164.9" width="4.0" height="17.1" fill="#b7909f"/><rect x="98.3" y="167.9" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="102.6" y="163.0" width="5.0" height="19.0" fill="#9cb38a"/><rect x="107.9" y="158.3" width="6.5" height="23.7" fill="#c5b48e"/><rect x="107.9" y="161.3" width="6.5" height="1.3" fill="#f6eedf" opacity="0.7"/></g>
+      <g fill="#bd9168"><rect x="14" y="92" width="110" height="3.4"/><rect x="14" y="122" width="110" height="3.4"/><rect x="14" y="152" width="110" height="3.4"/><rect x="14" y="182" width="110" height="3.4"/></g>
+      <rect x="14" y="185" width="110" height="25" fill="#c39870"/>
+      <g fill="none" stroke="#a97f58" stroke-width="0.9"><rect x="19" y="189" width="48" height="17"/><rect x="71" y="189" width="48" height="17"/></g>
+
+      <!-- 右边高高的书架 -->
+      <rect x="248" y="10" width="160" height="6" rx="1" fill="#b4875e"/>
+      <rect x="254" y="16" width="150" height="196" fill="url(#back)"/>
+      <rect x="250" y="14" width="7" height="198" fill="url(#wood)"/>
+      <g><rect x="258.0" y="25.9" width="6.5" height="20.1" fill="#d99a7c"/><rect x="258.0" y="28.9" width="6.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="264.8" y="25.5" width="4.5" height="20.5" fill="#94afc4"/><rect x="269.6" y="24.8" width="8.0" height="21.2" fill="#d99a7c"/><rect x="269.6" y="27.8" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="277.9" y="25.7" width="5.0" height="20.3" fill="#a8846a"/><rect x="277.9" y="28.7" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="283.2" y="19.7" width="6.0" height="26.3" fill="#d99a7c"/><rect x="283.2" y="22.7" width="6.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="289.5" y="21.7" width="4.0" height="24.3" fill="#e6cfa8"/><rect x="293.8" y="27.6" width="7.0" height="18.4" fill="#c5b48e"/><rect x="301.1" y="21.1" width="4.0" height="24.9" fill="#a8846a"/><rect x="305.4" y="24.3" width="4.5" height="21.7" fill="#c5b48e"/><rect x="310.2" y="23.7" width="6.5" height="22.3" fill="#7f9fae"/><rect x="317.0" y="20.7" width="7.0" height="25.3" fill="#7f9fae"/><rect x="324.3" y="26.0" width="4.5" height="20.0" fill="#c5b48e"/><rect x="324.3" y="29.0" width="4.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="329.1" y="24.2" width="6.0" height="21.8" fill="#e6cfa8"/><rect x="335.4" y="21.6" width="6.5" height="24.4" fill="#e6cfa8"/><rect x="335.4" y="24.6" width="6.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="342.2" y="27.8" width="6.5" height="18.2" fill="#e3bf7a"/><rect x="342.2" y="30.8" width="6.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="349.0" y="27.0" width="8.0" height="19.0" fill="#efe3cc"/><rect x="357.3" y="25.3" width="4.5" height="20.7" fill="#efe3cc"/><rect x="362.1" y="26.1" width="7.0" height="19.9" fill="#8fae94"/><rect x="362.1" y="29.1" width="7.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="369.4" y="21.5" width="5.5" height="24.5" fill="#c9725a"/><rect x="377.2" y="26.5" width="5.0" height="19.5" fill="#e6cfa8" transform="rotate(14 382.2 46)"/><rect x="387.2" y="19.2" width="5.0" height="26.8" fill="#7f9fae"/><rect x="387.2" y="22.2" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/>
+<rect x="258.0" y="56.3" width="7.0" height="21.7" fill="#b7909f"/><rect x="265.3" y="56.1" width="7.0" height="21.9" fill="#c9725a"/><rect x="272.6" y="51.9" width="8.0" height="26.1" fill="#b7909f"/><rect x="282.9" y="59.5" width="8.0" height="18.5" fill="#8fae94" transform="rotate(14 290.9 78)"/><rect x="295.9" y="58.6" width="6.0" height="19.4" fill="#e6cfa8"/><rect x="302.2" y="54.1" width="5.0" height="23.9" fill="#b7909f"/><rect x="302.2" y="57.1" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="307.5" y="59.7" width="4.0" height="18.3" fill="#efe3cc"/><rect x="311.8" y="51.3" width="8.0" height="26.7" fill="#94afc4"/><rect x="311.8" y="54.3" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="320.1" y="53.3" width="6.0" height="24.7" fill="#8fae94"/><rect x="326.4" y="51.1" width="4.5" height="26.9" fill="#efe3cc"/><rect x="331.2" y="55.0" width="5.5" height="23.0" fill="#c9725a"/><rect x="337.0" y="54.3" width="8.0" height="23.7" fill="#a8846a"/><rect x="337.0" y="57.3" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="345.3" y="54.0" width="7.0" height="24.0" fill="#efe3cc"/><rect x="352.6" y="57.2" width="4.0" height="20.8" fill="#c9725a"/><rect x="352.6" y="60.2" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="356.9" y="58.3" width="5.0" height="19.7" fill="#94afc4"/><rect x="356.9" y="61.3" width="5.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="362.2" y="53.6" width="5.5" height="24.4" fill="#c9725a"/><rect x="362.2" y="56.6" width="5.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="368.0" y="57.5" width="6.5" height="20.5" fill="#9cb38a"/><rect x="374.8" y="55.3" width="8.0" height="22.7" fill="#b7909f"/><rect x="374.8" y="58.3" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="383.1" y="53.5" width="8.0" height="24.5" fill="#b7909f"/><rect x="383.1" y="56.5" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/>
+<rect x="258.0" y="87.8" width="5.0" height="22.2" fill="#b7909f"/><rect x="263.3" y="87.5" width="5.5" height="22.5" fill="#efe3cc"/><rect x="263.3" y="90.5" width="5.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="271.1" y="85.6" width="6.0" height="24.4" fill="#c9725a" transform="rotate(14 277.1 110)"/><rect x="282.1" y="87.7" width="4.5" height="22.3" fill="#c5b48e"/><rect x="286.9" y="91.6" width="6.5" height="18.4" fill="#9cb38a"/><rect x="293.7" y="89.0" width="4.0" height="21.0" fill="#b7909f"/><rect x="298.0" y="83.0" width="5.0" height="27.0" fill="#c5b48e"/><rect x="303.3" y="84.1" width="5.0" height="25.9" fill="#e3bf7a"/><rect x="308.6" y="86.9" width="7.0" height="23.1" fill="#efe3cc"/><rect x="315.9" y="86.1" width="5.5" height="23.9" fill="#94afc4"/><rect x="315.9" y="89.1" width="5.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="321.7" y="86.7" width="7.0" height="23.3" fill="#c5b48e"/><rect x="321.7" y="89.7" width="7.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="329.0" y="86.3" width="7.0" height="23.7" fill="#c9725a"/><rect x="329.0" y="89.3" width="7.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="336.3" y="87.1" width="8.0" height="22.9" fill="#efe3cc"/><rect x="344.6" y="86.8" width="7.0" height="23.2" fill="#a8846a"/><rect x="351.9" y="87.1" width="8.0" height="22.9" fill="#d99a7c"/><rect x="360.2" y="84.2" width="4.0" height="25.8" fill="#7f9fae"/><rect x="364.5" y="85.7" width="6.0" height="24.3" fill="#c9725a"/><rect x="370.8" y="91.5" width="5.0" height="18.5" fill="#94afc4"/><rect x="376.1" y="83.9" width="4.5" height="26.1" fill="#efe3cc"/><rect x="376.1" y="86.9" width="4.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="380.9" y="84.5" width="5.5" height="25.5" fill="#c5b48e"/><rect x="380.9" y="87.5" width="5.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="386.7" y="91.9" width="8.0" height="18.1" fill="#94afc4"/><rect x="386.7" y="94.9" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/>
+<rect x="260.0" y="116.2" width="6.0" height="25.8" fill="#c5b48e" transform="rotate(14 266.0 142)"/><rect x="273.0" y="116.2" width="4.0" height="25.8" fill="#a8846a" transform="rotate(14 277.0 142)"/><rect x="282.0" y="116.2" width="5.5" height="25.8" fill="#e6cfa8"/><rect x="287.8" y="120.1" width="6.0" height="21.9" fill="#e3bf7a"/><rect x="294.1" y="116.0" width="6.0" height="26.0" fill="#a8846a"/><rect x="294.1" y="119.0" width="6.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="302.4" y="117.9" width="4.5" height="24.1" fill="#8fae94" transform="rotate(14 306.9 142)"/><rect x="311.9" y="123.5" width="7.0" height="18.5" fill="#c5b48e"/><rect x="319.2" y="121.0" width="5.0" height="21.0" fill="#8fae94"/><rect x="324.5" y="123.9" width="4.5" height="18.1" fill="#c9725a"/><rect x="324.5" y="126.9" width="4.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="329.3" y="119.9" width="8.0" height="22.1" fill="#8fae94"/><rect x="329.3" y="122.9" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="337.6" y="120.8" width="7.0" height="21.2" fill="#e3bf7a"/><rect x="344.9" y="120.6" width="7.0" height="21.4" fill="#9cb38a"/><rect x="352.2" y="122.6" width="4.0" height="19.4" fill="#7f9fae"/><rect x="352.2" y="125.6" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="356.5" y="118.2" width="8.0" height="23.8" fill="#c5b48e"/><rect x="366.8" y="117.9" width="8.0" height="24.1" fill="#e3bf7a" transform="rotate(14 374.8 142)"/><rect x="379.8" y="119.4" width="4.0" height="22.6" fill="#b7909f"/><rect x="379.8" y="122.4" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="384.1" y="120.4" width="4.5" height="21.6" fill="#7f9fae"/><rect x="384.1" y="123.4" width="4.5" height="1.3" fill="#f6eedf" opacity="0.7"/>
+<rect x="258.0" y="155.5" width="8.0" height="18.5" fill="#c9725a"/><rect x="266.3" y="147.6" width="5.5" height="26.4" fill="#c5b48e"/><rect x="272.1" y="154.8" width="4.5" height="19.2" fill="#e6cfa8"/><rect x="276.9" y="152.9" width="6.5" height="21.1" fill="#a8846a"/><rect x="292.7" y="151.4" width="5.5" height="22.6" fill="#c9725a"/><rect x="292.7" y="154.4" width="5.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="298.5" y="153.4" width="8.0" height="20.6" fill="#c9725a"/><rect x="298.5" y="156.4" width="8.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="306.8" y="151.7" width="4.0" height="22.3" fill="#c5b48e"/><rect x="311.1" y="153.3" width="4.0" height="20.7" fill="#d99a7c"/><rect x="311.1" y="156.3" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="315.4" y="150.4" width="6.5" height="23.6" fill="#b7909f"/><rect x="315.4" y="153.4" width="6.5" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="322.2" y="155.6" width="6.0" height="18.4" fill="#a8846a"/><rect x="322.2" y="158.6" width="6.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="328.5" y="155.5" width="6.0" height="18.5" fill="#e3bf7a"/><rect x="328.5" y="158.5" width="6.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="334.8" y="148.9" width="4.0" height="25.1" fill="#94afc4"/><rect x="341.1" y="155.2" width="5.5" height="18.8" fill="#d99a7c" transform="rotate(14 346.6 174)"/><rect x="351.6" y="152.5" width="6.0" height="21.5" fill="#efe3cc"/><rect x="351.6" y="155.5" width="6.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="357.9" y="148.6" width="7.0" height="25.4" fill="#e6cfa8"/><rect x="365.2" y="155.0" width="4.0" height="19.0" fill="#b7909f"/><rect x="365.2" y="158.0" width="4.0" height="1.3" fill="#f6eedf" opacity="0.7"/><rect x="369.5" y="155.9" width="4.0" height="18.1" fill="#9cb38a"/><rect x="373.8" y="152.3" width="7.0" height="21.7" fill="#c9725a"/><rect x="381.1" y="149.1" width="6.0" height="24.9" fill="#94afc4"/><rect x="387.4" y="151.9" width="5.5" height="22.1" fill="#9cb38a"/></g>
+      <g fill="#bd9168"><rect x="256" y="46" width="148" height="3.4"/><rect x="256" y="78" width="148" height="3.4"/><rect x="256" y="110" width="148" height="3.4"/><rect x="256" y="142" width="148" height="3.4"/><rect x="256" y="174" width="148" height="3.4"/></g>
+      <rect x="256" y="177" width="148" height="33" fill="#c39870"/>
+      <g fill="none" stroke="#a97f58" stroke-width="0.9"><rect x="262" y="182" width="40" height="24"/><rect x="308" y="182" width="40" height="24"/><rect x="354" y="182" width="40" height="24"/></g>
+      <!-- 书架上的铜杆和梯子 -->
+      <rect x="256" y="20" width="148" height="1.8" fill="#cfae70"/>
+      <g stroke="#b78a5f" stroke-width="3" stroke-linecap="round"><line x1="334" y1="212" x2="342" y2="20"/><line x1="356" y1="212" x2="362" y2="20"/></g>
+      <g stroke="#c29770" stroke-width="2.2"><line x1="335" y1="196" x2="356.6" y2="196"/><line x1="335.6" y1="178" x2="357.4" y2="178"/><line x1="336.4" y1="160" x2="358" y2="160"/><line x1="337.2" y1="142" x2="358.8" y2="142"/><line x1="338" y1="124" x2="359.4" y2="124"/><line x1="338.6" y1="106" x2="360" y2="106"/><line x1="339.4" y1="88" x2="360.8" y2="88"/><line x1="340.2" y1="70" x2="361.4" y2="70"/><line x1="341" y1="52" x2="362" y2="52"/><line x1="341.6" y1="34" x2="362.6" y2="34"/></g>
+      <path d="M340,22 C340,18 344,18 344,21 M360,22 C360,18 364,18 364,21" stroke="#a57b52" stroke-width="1.6" fill="none"/>
+
+      <!-- 窗外照进来的阳光 -->
+      <g filter="url(#soft)" opacity="0.45"><path d="M150,104 L232,104 L330,262 L196,262 Z" fill="#fff8e2"/></g>
+
+      <!-- 桌后的椅背 -->
+      <use href="#chair" transform="translate(126,150)"/><use href="#chair" transform="translate(272,150)"/>
+
+      <!-- 长木桌 -->
+      <polygon points="52,178 348,178 364,190 36,190" fill="url(#top)"/>
+      <rect x="36" y="190" width="328" height="6" fill="#b78a60"/>
+      <g fill="#a87d56"><rect x="42" y="196" width="8" height="42"/><rect x="350" y="196" width="8" height="42"/></g>
+      <g fill="#9e744f" opacity="0.8"><rect x="68" y="196" width="6" height="26"/><rect x="326" y="196" width="6" height="26"/></g>
+      <g stroke="#c59870" stroke-width="0.7" opacity="0.7"><line x1="60" y1="182" x2="340" y2="182"/><line x1="48" y1="186" x2="352" y2="186"/></g>
+      <!-- 台灯和灯光 -->
+      <ellipse cx="98" cy="184" rx="30" ry="6" fill="url(#glow)"/><ellipse cx="302" cy="184" rx="30" ry="6" fill="url(#glow)"/>
+      <use href="#lamp" transform="translate(98,184) scale(1.25)"/><use href="#lamp" transform="translate(302,184) scale(1.25)"/>
+      <!-- 打开的书 -->
+      <path d="M170,186 C180,183 192,183 200,187 C208,183 220,183 230,186 L232,188 C222,186 208,186 200,189.6 C192,186 178,186 168,188 Z" fill="#b5785b"/>
+      <path d="M200,187 C192,183 180,182 170,185 L173,172 C182,169.4 193,170 200,174 Z" fill="#fcf8ef"/>
+      <path d="M200,187 C208,183 220,182 230,185 L227,172 C218,169.4 207,170 200,174 Z" fill="#f8f2e5"/>
+      <path d="M200,174 L200,187" stroke="#e3d6c0" stroke-width="1"/>
+      <path d="M196,173 C197,177 197,182 196.6,186 M204,173 C203,177 203,182 203.4,186" stroke="#ece1cd" stroke-width="1.6" fill="none"/>
+      <!-- 一摞书和铅笔 -->
+      <rect x="240" y="180" width="30" height="5" rx="1" fill="#8fae94"/><rect x="240" y="181.4" width="2" height="2.6" fill="#f3ecdd"/>
+      <rect x="242" y="175" width="27" height="5" rx="1" fill="#c9725a"/><rect x="242" y="176.4" width="2" height="2.6" fill="#f3ecdd"/>
+      <rect x="239" y="170" width="28" height="5" rx="1" fill="#94afc4"/><rect x="239" y="171.4" width="2" height="2.6" fill="#f3ecdd"/>
+      <g transform="rotate(-12 150 184)"><rect x="140" y="183" width="22" height="2.2" rx="0.6" fill="#e9c16c"/><path d="M162,183 L166,184.1 L162,185.2 Z" fill="#e8cfa6"/><rect x="138" y="183" width="2.4" height="2.2" fill="#e4a39a"/></g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.18" fill="#8a6a4a">
+      <ellipse cx="200" cy="238" rx="168" ry="4"/><ellipse cx="200" cy="190" rx="40" ry="1.6"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

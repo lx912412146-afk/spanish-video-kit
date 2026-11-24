@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_16",
+ "level": "B1",
+ "no": 16,
+ "title_es": "Abuelos y nietos",
+ "title_zh": "祖孙之间",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 16 篇。原创短文。现在时描写祖孙俩每天下午的习惯，现在完成时 le ha enseñado，简单过去时叙述昨天的事（llevó、intentaron、se olvidaron、prometió）；现在虚拟式 espero que… recuerde；条件式 volvería（间接引语里过去的将来）；连接语 a cambio、mientras que；固定说法 jugar a las damas、hacer volar una cometa、un buen rato、por completo、al llegar。10 句，140 词。人名只有 Hugo，译作乌戈；叙述者是乌戈的父亲，mi padre 是乌戈的爷爷，第 3 句 el abuelo 也指他，译作“爷爷”，第 9 句 los abuelos… los nietos 和标题呼应。插图石桌上是西洋跳棋，所以第 2 句写 jugar a las damas，译作“下西洋跳棋”，第 4 句 ficha 是“棋子”，第 7 句 partida 是“一盘棋”；第 2 句把 damas 放在句中，不放在句末，免得复数词尾被吞。第 3 句 junto al tablero dejan el sombrero de paja del abuelo y la gorra de Hugo 对应插图里棋盘两边的大草帽和小棒球帽；插图里的石桌在太阳下，风筝是橙红和黄两色，所以正文不写阴凉处，也不写风筝的颜色。第 6 句 la 指风筝，sigue colgada 对应插图里挂在树上的风筝；第 7 句 se olvidaron por completo de la partida 对应石桌上没下完的棋。第 4 句 lo escucha 用 lo，不用 le。没有列举的逗号：第 6 句 árbol, 后面是并列分句，第 9 句 experiencia, 后面是 mientras que 引出的分句，照常停顿；paciencia y experiencia 之间没有逗号。第 10 句用 mi hijo，不再重复 Hugo。词汇里 jugar a las damas 是短语原形，原文就是这样写；gorra 指插图里的棒球帽，释义写“鸭舌帽”；colgado 原文是 colgada，intentar 原文是 Intentaron，aportar、devolver 原文是 aportan、devuelven；标题词 abuelo、nieto 是基础词，第一批 B1 第 6 篇也已选过 nieto，没有列入词汇；ficha、tablero 第一批 B1 第 9 篇已选过，这里也不列。审校改：原稿第 2 句 a una mesa de piedra a la sombra y juegan al ajedrez、第 3 句 Los dos llevan sombrero y el del niño es una copia pequeña del de su abuelo、第 4 句 pieza、第 5 句 una cometa roja 和插图对不上，已按插图改写，词汇 a la sombra、ajedrez、copia、pieza 换成 jugar a las damas、sombrero de paja、gorra、un buen rato。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "recoger",
+   "接",
+   "recoge"
+  ],
+  [
+   "jugar a las damas",
+   "下西洋跳棋",
+   "jugar a las damas"
+  ],
+  [
+   "sombrero de paja",
+   "草帽",
+   "sombrero de paja"
+  ],
+  [
+   "gorra",
+   "鸭舌帽",
+   "gorra"
+  ],
+  [
+   "atento",
+   "专心的",
+   "atento"
+  ],
+  [
+   "a cambio",
+   "作为回报",
+   "A cambio"
+  ],
+  [
+   "cometa",
+   "风筝",
+   "cometa"
+  ],
+  [
+   "colgado",
+   "挂着的",
+   "colgada"
+  ],
+  [
+   "intentar",
+   "试图",
+   "Intentaron"
+  ],
+  [
+   "un buen rato",
+   "好一阵子",
+   "un buen rato"
+  ],
+  [
+   "por completo",
+   "完全",
+   "por completo"
+  ],
+  [
+   "prometer",
+   "保证",
+   "prometió"
+  ],
+  [
+   "escalera",
+   "梯子",
+   "escalera"
+  ],
+  [
+   "aportar",
+   "带来",
+   "aportan"
+  ],
+  [
+   "devolver",
+   "回馈",
+   "devuelven"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cada tarde, mi padre recoge a mi hijo Hugo del colegio y se van al parque.",
+    "zh": "每天下午，我父亲都会去学校接我儿子乌戈，然后两人一起去公园。"
+   },
+   {
+    "es": "Allí se sientan a jugar a las damas en una mesa de piedra.",
+    "zh": "他们在一张石桌旁坐下，下起西洋跳棋。"
+   },
+   {
+    "es": "Junto al tablero dejan el sombrero de paja del abuelo y la gorra de Hugo.",
+    "zh": "两人把爷爷的草帽和乌戈的鸭舌帽放在棋盘旁边。"
+   },
+   {
+    "es": "Mi padre le explica con paciencia cómo se mueve cada ficha y el niño lo escucha atento.",
+    "zh": "我父亲耐心地给他讲每个棋子该怎么走，孩子听得很专心。"
+   },
+   {
+    "es": "A cambio, Hugo le ha enseñado a hacer volar una cometa.",
+    "zh": "作为回报，乌戈教会了爷爷放风筝。"
+   }
+  ],
+  [
+   {
+    "es": "Ayer el viento la llevó hasta lo alto de un árbol, y allí sigue colgada.",
+    "zh": "昨天，风把风筝吹到了一棵树的高处，它现在还挂在那里。"
+   },
+   {
+    "es": "Intentaron bajarla un buen rato y se olvidaron por completo de la partida.",
+    "zh": "他们想把它弄下来，折腾了好一阵子，把那盘棋忘得一干二净。"
+   },
+   {
+    "es": "Al llegar a casa, mi padre prometió que hoy volvería con una escalera.",
+    "zh": "回到家时，我父亲保证今天会带着梯子再去。"
+   },
+   {
+    "es": "Creo que los abuelos aportan paciencia y experiencia, mientras que los nietos les devuelven la alegría.",
+    "zh": "我觉得，祖辈带来的是耐心和经验，而孙辈回馈给他们的是欢乐。"
+   },
+   {
+    "es": "Espero que mi hijo recuerde siempre estas tardes en el parque.",
+    "zh": "我希望儿子永远记得在公园里度过的这些下午。"
+   }
+  ]
+ ]
+}

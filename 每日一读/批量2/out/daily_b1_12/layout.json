@@ -1,0 +1,300 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  642.234375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  650.234375
+ ],
+ "zh": [
+  96,
+  676.234375,
+  480,
+  915.484375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  184.34375,
+  131.625
+ ],
+ "header_gap": 270.78125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   165
+  ],
+  [
+   506,
+   176,
+   626,
+   194
+  ],
+  [
+   506,
+   205,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   3
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.3,
+   "Hasta hace poco casi nunca iba al teatro, porque me parecía"
+  ],
+  [
+   "mid",
+   3.8,
+   "un plan aburrido. Sin embargo, el mes pasado mi amigo Javier me"
+  ],
+  [
+   "mid",
+   5.3,
+   "invitó a ver una comedia. Llegamos con tiempo y nos sentamos"
+  ],
+  [
+   "mid",
+   4.7,
+   "en primera fila, frente a un enorme telón rojo. Mientras esperaba,"
+  ],
+  [
+   "mid",
+   4.2,
+   "me fijé en los palcos que se asomaban a la sala desde lo alto. De"
+  ],
+  [
+   "mid",
+   5.3,
+   "repente se hizo el silencio, el telón se abrió y un foco iluminó el"
+  ],
+  [
+   "last",
+   0,
+   "escenario."
+  ],
+  [
+   "mid",
+   4.2,
+   "Los actores representaban a una familia muy despistada, y el"
+  ],
+  [
+   "mid",
+   3.9,
+   "público no paraba de reír. Además, cuando a una actriz se le cayó"
+  ],
+  [
+   "mid",
+   4.5,
+   "el sombrero, improvisó una broma muy divertida. Lo que más me"
+  ],
+  [
+   "mid",
+   3.7,
+   "impresionó fue verlos tan cerca, sin ninguna pantalla en medio. No"
+  ],
+  [
+   "mid",
+   3.6,
+   "creo que el cine pueda transmitir la emoción de un espectáculo en"
+  ],
+  [
+   "last",
+   3.5,
+   "directo. Al salir, le dije a Javier que me gustaría volver pronto."
+  ]
+ ],
+ "es_max_gap": 5.3,
+ "es_font": [
+  13.1,
+  -0.1
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

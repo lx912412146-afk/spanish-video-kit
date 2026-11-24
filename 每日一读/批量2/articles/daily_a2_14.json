@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_14",
+ "level": "A2",
+ "no": 14,
+ "title_es": "Una noche de tormenta",
+ "title_zh": "暴风雨之夜",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 14 篇。原创短文。简单过去时叙述停电那晚的经过（hubo、se puso、empezó、se fue la luz、encendí、me tapé、me quedé），过去未完成时描写窗外和回忆童年（veía、iluminaban、no podía、me daban miedo、estaba dormido）；quedarse + 副动词 me quedé escuchando。11 句，117 词。没有需要不停顿的列举逗号：第 4 句 Después de un trueno muy fuerte 后、第 9 句 De niño 后、第 11 句 Cuando 从句后的逗号都照常停顿。irse la luz 是“停电”的固定说法，原文 se fue la luz；con fuerza 修饰 llover，译作“下起了大雨”；alféizar 是窗台，对应插图窗台上的两支蜡烛；taparse con una manta 译作“盖上一条毯子”，原文 tapé；dar miedo 原文 daban miedo；relajar 原文 relajó，释义取“使放松”；dormido 用阳性，和男声叙述者一致；Cuando volvió la luz 译作“等到来电的时候”。词头 tormenta 在标题里，排在最前。窗外的暴雨和闪电、窗台上的一大一小两支蜡烛、毯子和热饮都写进了文中，热饮写成 un té caliente。审校改动：插图窗台上点着一大一小两支蜡烛，第 5 句原为 Busqué una vela, la encendí y la dejé en el alféizar，只有一支，和画面对不上，改成 Encendí una vela grande y otra pequeña en el alféizar，译文改为“我在窗台上点起了一大一小两支蜡烛。”；不用复数 velas，免得 velas 在逗号前或 y 前词尾被吞，vela 的原文写法不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "tormenta",
+   "暴风雨",
+   "tormenta"
+  ],
+  [
+   "con fuerza",
+   "猛烈地",
+   "con fuerza"
+  ],
+  [
+   "relámpago",
+   "闪电",
+   "relámpagos"
+  ],
+  [
+   "iluminar",
+   "照亮",
+   "iluminaban"
+  ],
+  [
+   "trueno",
+   "雷声",
+   "trueno"
+  ],
+  [
+   "irse la luz",
+   "停电",
+   "fue la luz"
+  ],
+  [
+   "vela",
+   "蜡烛",
+   "vela"
+  ],
+  [
+   "alféizar",
+   "窗台",
+   "alféizar"
+  ],
+  [
+   "taparse",
+   "盖上",
+   "tapé"
+  ],
+  [
+   "manta",
+   "毯子",
+   "manta"
+  ],
+  [
+   "lluvia",
+   "雨",
+   "lluvia"
+  ],
+  [
+   "de niño",
+   "小时候",
+   "De niño"
+  ],
+  [
+   "dar miedo",
+   "让人害怕",
+   "daban miedo"
+  ],
+  [
+   "relajar",
+   "使放松",
+   "relajó"
+  ],
+  [
+   "dormido",
+   "睡着的",
+   "dormido"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El jueves pasado hubo una gran tormenta en mi ciudad.",
+    "zh": "上周四，我住的城市来了一场大暴风雨。"
+   },
+   {
+    "es": "Por la tarde todo se puso oscuro y empezó a llover con fuerza.",
+    "zh": "下午，四周一下子暗了下来，接着下起了大雨。"
+   },
+   {
+    "es": "Desde la ventana veía relámpagos que iluminaban el cielo.",
+    "zh": "从窗户望出去，我看见一道道闪电照亮了天空。"
+   },
+   {
+    "es": "Después de un trueno muy fuerte, se fue la luz en todo el edificio.",
+    "zh": "一声很响的雷过后，整栋楼都停电了。"
+   },
+   {
+    "es": "Encendí una vela grande y otra pequeña en el alféizar.",
+    "zh": "我在窗台上点起了一大一小两支蜡烛。"
+   }
+  ],
+  [
+   {
+    "es": "Luego me preparé un té caliente y me tapé con una manta.",
+    "zh": "然后，我给自己泡了一杯热茶，又盖上了一条毯子。"
+   },
+   {
+    "es": "Sin luz no podía ver la televisión ni usar el ordenador.",
+    "zh": "没有电，我既不能看电视，也不能用电脑。"
+   },
+   {
+    "es": "Entonces me quedé escuchando la lluvia contra el cristal.",
+    "zh": "于是我就一直听着雨点打在玻璃上的声音。"
+   },
+   {
+    "es": "De niño, las tormentas me daban miedo.",
+    "zh": "小时候，暴风雨总让我害怕。"
+   },
+   {
+    "es": "Pero esa noche el ruido de la lluvia me relajó mucho.",
+    "zh": "可是那天晚上，雨声却让我觉得很放松。"
+   },
+   {
+    "es": "Cuando volvió la luz, yo ya estaba dormido en el sofá.",
+    "zh": "等到来电的时候，我已经在沙发上睡着了。"
+   }
+  ]
+ ]
+}

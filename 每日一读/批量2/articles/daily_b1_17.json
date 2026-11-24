@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_17",
+ "level": "B1",
+ "no": 17,
+ "title_es": "Aprender a conducir",
+ "title_zh": "学开车",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 17 篇。原创短文。现在完成时 me he decidido、he ganado，现在时描写正在上的课，过去未完成时 estaba 和简单过去时 se me caló、intenté、sonrió 叙述第一天；将来时 tendré；现在虚拟式 para que practique、espero que… no me jueguen、es importante que duerma… y que confíe、cuando tenga；条件式 me gustaría；连接语 de momento、en cuanto、con el tiempo、sin embargo、mientras、según。10 句，145 词。人名只有 Pilar，译作皮拉尔；profesora 在驾校里译作“教练”。conducir、aparcar、aparcamiento、carné 都用西班牙的说法；calarse 是汽车“熄火”，第 4 句 se me caló el coche 是“车子（在我手里）熄火了”；arrancar 是“发动”；espejos 在车里译作“后视镜”；cambiar de marcha 是“换挡”；第 8 句 jugar una mala pasada 是“捉弄人、坏事”，译成“让我出岔子”，词汇只取 mala pasada。第 2 句 las clases son en… 表示活动的地点，用 ser。插图里的停车场、小汽车、橙色路锥都在正文里出现。没有列举的逗号：第 3 句 Pilar, mi profesora, 是同位语，两边照常停顿；第 8 句 examen, 后面是并列分句，照常停顿。叙述者是男性：nervioso、mí mismo 用阳性。词汇里 conducir 在标题里，排在最前；decidirse a 原文是 decidido a，calarse 原文是 caló，ganar confianza 原文是 ganado confianza，cambiar de marcha 原文是 cambio de marcha。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "conducir",
+   "开车",
+   "conducir"
+  ],
+  [
+   "decidirse a",
+   "下决心",
+   "decidido a"
+  ],
+  [
+   "de momento",
+   "目前",
+   "De momento"
+  ],
+  [
+   "aparcamiento",
+   "停车场",
+   "aparcamiento"
+  ],
+  [
+   "cono",
+   "路锥",
+   "conos"
+  ],
+  [
+   "giro",
+   "转弯",
+   "giro"
+  ],
+  [
+   "calarse",
+   "熄火",
+   "caló"
+  ],
+  [
+   "en cuanto",
+   "刚一",
+   "en cuanto"
+  ],
+  [
+   "arrancar",
+   "发动",
+   "arrancar"
+  ],
+  [
+   "ganar confianza",
+   "建立信心",
+   "ganado confianza"
+  ],
+  [
+   "aparcar",
+   "停车",
+   "aparcar"
+  ],
+  [
+   "estar pendiente de",
+   "留意",
+   "estar pendiente de"
+  ],
+  [
+   "cambiar de marcha",
+   "换挡",
+   "cambio de marcha"
+  ],
+  [
+   "mala pasada",
+   "捉弄",
+   "mala pasada"
+  ],
+  [
+   "carné",
+   "驾照",
+   "carné"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Este otoño por fin me he decidido a aprender a conducir.",
+    "zh": "今年秋天，我终于下定决心学开车。"
+   },
+   {
+    "es": "De momento las clases son en un aparcamiento vacío, lejos del tráfico.",
+    "zh": "目前，练车课都在一个空旷的停车场里上，远离车流。"
+   },
+   {
+    "es": "Pilar, mi profesora, pone unos conos naranjas en el suelo para que practique cada giro.",
+    "zh": "我的教练皮拉尔会在地上摆几个橙色的路锥，好让我练好每一个转弯。"
+   },
+   {
+    "es": "El primer día estaba tan nervioso que se me caló el coche en cuanto intenté arrancar.",
+    "zh": "第一天我紧张极了，刚想发动，车子就熄火了。"
+   },
+   {
+    "es": "Pilar sonrió y me dijo que a todo el mundo le pasa al principio.",
+    "zh": "皮拉尔笑了笑，对我说每个人一开始都会这样。"
+   }
+  ],
+  [
+   {
+    "es": "Con el tiempo he ganado confianza y ya sé aparcar entre los conos sin tocar ninguno.",
+    "zh": "时间一长，我渐渐有了信心，现在已经能在路锥之间停车，一个都不碰到。"
+   },
+   {
+    "es": "Sin embargo, todavía me resulta difícil estar pendiente de los espejos mientras cambio de marcha.",
+    "zh": "不过，换挡的时候还要留意后视镜，这对我来说仍然很难。"
+   },
+   {
+    "es": "Pronto tendré el examen, y espero que los nervios no me jueguen una mala pasada.",
+    "zh": "我很快就要考试了，希望到时候紧张的情绪别让我出岔子。"
+   },
+   {
+    "es": "Según ella, es importante que duerma bien la noche anterior y que confíe en mí mismo.",
+    "zh": "她说，重要的是考试前一晚要睡好，还要相信自己。"
+   },
+   {
+    "es": "Cuando tenga el carné, me gustaría llevar a mis abuelos de excursión a la sierra.",
+    "zh": "等我拿到驾照，我想带爷爷奶奶去山里郊游。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_20",
+ "level": "A1",
+ "no": 20,
+ "title_es": "Un día en el campo",
+ "title_zh": "在乡下的一天",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 20 篇。原创短文。只用陈述式现在时，有 hay、dar de comer、para + 原形、parecer + 形容词。12 句，117 词。特别判断：campo 在这里是城市以外的乡间，照选题表译作“乡下”；绿色的田野、大树、羊、远处的小房子和小山都和插图对应，插图里羊散在栅栏前后的草地上，大树在右边，所以第 5 句写 En el prado descansan las ovejas，不说在树下（审校时由 Debajo del árbol 改来）；木栅栏常说 valla，和 baya 同音，按要求不写；abuelo 不分爷爷、外公，译作“爷爷”；prado 是长满草的草地；las conoce a todas por su nombre 译作“每只羊叫什么名字，他都知道”；doy de comer 是“喂”；desde arriba 说从山上往下看；第 12 句 cansado 用阳性，叙述者是男性。第 10 句 pan, queso y fruta 是列举，pan, 登记为不停顿，三样都用单数；第 1 句 campo,、第 7 句 mañana,、第 9 句 arriba,、第 12 句 cansado, 照常停顿。词汇：campo 在标题里，排在最前；pasar 原文是 paso，en medio de 原文是句首的 En medio de，descansar 原文是 descansan，oveja 原文是复数 ovejas，dar de comer 原文是 doy de comer，desde arriba 原文是句首的 Desde arriba，parecer 原文是 parece。",
+ "no_pause_commas": {
+  "10": [
+   {
+    "after": "pan,",
+    "why": "列举：pan, queso y fruta（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "campo",
+   "乡下",
+   "campo"
+  ],
+  [
+   "abuelo",
+   "爷爷",
+   "abuelo"
+  ],
+  [
+   "pasar",
+   "度过",
+   "paso"
+  ],
+  [
+   "limpio",
+   "清新的",
+   "limpio"
+  ],
+  [
+   "en medio de",
+   "在中间",
+   "En medio de"
+  ],
+  [
+   "prado",
+   "草地",
+   "prado"
+  ],
+  [
+   "descansar",
+   "休息",
+   "descansan"
+  ],
+  [
+   "oveja",
+   "羊",
+   "ovejas"
+  ],
+  [
+   "dar de comer",
+   "喂",
+   "doy de comer"
+  ],
+  [
+   "colina",
+   "小山",
+   "colina"
+  ],
+  [
+   "paisaje",
+   "风景",
+   "paisaje"
+  ],
+  [
+   "desde arriba",
+   "从上面",
+   "Desde arriba"
+  ],
+  [
+   "parecer",
+   "显得",
+   "parece"
+  ],
+  [
+   "queso",
+   "奶酪",
+   "queso"
+  ],
+  [
+   "feliz",
+   "开心的",
+   "feliz"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Mi abuelo Ramón vive en el campo, en una casa pequeña.",
+    "zh": "我爷爷拉蒙住在乡下的一座小房子里。"
+   },
+   {
+    "es": "Este sábado paso todo el día con él.",
+    "zh": "这个星期六，我一整天都和他在一起。"
+   },
+   {
+    "es": "El campo está muy verde y el aire está limpio.",
+    "zh": "田野绿油油的，空气很清新。"
+   },
+   {
+    "es": "En medio de un prado hay un árbol muy grande.",
+    "zh": "一片草地中间，有一棵很大的树。"
+   },
+   {
+    "es": "En el prado descansan las ovejas de mi abuelo.",
+    "zh": "爷爷的羊在草地上休息。"
+   },
+   {
+    "es": "Él las conoce a todas por su nombre.",
+    "zh": "每只羊叫什么名字，他都知道。"
+   }
+  ],
+  [
+   {
+    "es": "Por la mañana, doy de comer a las ovejas con él.",
+    "zh": "上午，我和爷爷一起喂羊。"
+   },
+   {
+    "es": "Después subimos a una colina para ver el paisaje.",
+    "zh": "然后我们爬上一座小山去看风景。"
+   },
+   {
+    "es": "Desde arriba, la casa de mi abuelo parece muy pequeña.",
+    "zh": "从山上往下看，爷爷的房子显得很小。"
+   },
+   {
+    "es": "Comemos pan, queso y fruta debajo del gran árbol.",
+    "zh": "我们在那棵大树下吃面包、奶酪和水果。"
+   },
+   {
+    "es": "En el campo no hay ruido y el tiempo pasa despacio.",
+    "zh": "乡下没有吵闹声，时间过得很慢。"
+   },
+   {
+    "es": "Por la noche vuelvo a la ciudad cansado, pero muy feliz.",
+    "zh": "晚上我回到城里，虽然累了，但是非常开心。"
+   }
+  ]
+ ]
+}

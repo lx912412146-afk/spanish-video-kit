@@ -1,0 +1,141 @@
+{
+ "id": "daily_b1_15",
+ "level": "B1",
+ "no": 15,
+ "title_es": "Una ruta a pie",
+ "title_zh": "徒步之旅",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 15 篇。原创短文。简单过去时叙述徒步的经过（propuso、salimos、llegamos、nos quitamos），过去未完成时 charlábamos、parecía、me sentía 写背景和感受；现在虚拟式 es importante que lleve… y que no cargue；条件式 me gustaría；现在进行时 estamos pensando；连接语 pero、luego、aunque；固定说法 sin parar、quedarse callado、al fondo de、más… que nunca。10 句，144 词。人名只有 Diego，译作迭戈。ruta a pie 译作“徒步路线”；bastón 在这里是“登山杖”，对应插图里的登山杖，释义取文中意思写“登山杖”；botas 是登山靴；calzado 是鞋类的统称，译作“鞋”；refugio 是山里供徒步者过夜的“山间小屋”。第 5 句 el pueblo parecía un juguete al fondo del valle 对应插图里远处的小村庄。第 2 句 agua, 是列举（agua, fruta y un poco de pan），不停顿；pan, 后面是并列分句 y saqué…，照常停顿；第 5 句 cima, 后面是 desde donde 引出的从句，照常停顿。第 8 句不用 …que normalmente no vemos 结尾，免得句末的 -os 被吞。叙述者是男性：callados、sentados（和迭戈两个男性）、agotado、tranquilo 用阳性。词汇里 ruta 在标题里，排在最前；quedarse callado 原文是 quedamos callados；al fondo de 原文是 al fondo del；quitarse 原文是 quitamos；cargar 原文是虚拟式 cargue。",
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "agua,",
+    "why": "列举：agua, fruta y un poco de pan（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "ruta",
+   "路线",
+   "ruta"
+  ],
+  [
+   "proponer",
+   "提议",
+   "propuso"
+  ],
+  [
+   "bastón",
+   "登山杖",
+   "bastón"
+  ],
+  [
+   "sendero",
+   "小路",
+   "sendero"
+  ],
+  [
+   "estrecho",
+   "狭窄的",
+   "estrecho"
+  ],
+  [
+   "charlar",
+   "聊天",
+   "charlábamos"
+  ],
+  [
+   "sin parar",
+   "不停地",
+   "sin parar"
+  ],
+  [
+   "quedarse callado",
+   "沉默下来",
+   "quedamos callados"
+  ],
+  [
+   "cima",
+   "山顶",
+   "cima"
+  ],
+  [
+   "al fondo de",
+   "在深处",
+   "al fondo del"
+  ],
+  [
+   "quitarse",
+   "脱下",
+   "quitamos"
+  ],
+  [
+   "agotado",
+   "筋疲力尽的",
+   "agotado"
+  ],
+  [
+   "calzado",
+   "鞋",
+   "calzado"
+  ],
+  [
+   "cargar",
+   "背负",
+   "cargue"
+  ],
+  [
+   "refugio",
+   "山间小屋",
+   "refugio"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "La primavera pasada, mi amigo Diego me propuso hacer una ruta a pie por la montaña.",
+    "zh": "去年春天，我的朋友迭戈提议去山里走一条徒步路线。"
+   },
+   {
+    "es": "Preparé la mochila con agua, fruta y un poco de pan, y saqué mi viejo bastón.",
+    "zh": "我在背包里装了水、水果和一点面包，还拿出了我那根旧登山杖。"
+   },
+   {
+    "es": "Salimos temprano de un pequeño pueblo y empezamos a subir por un sendero estrecho.",
+    "zh": "我们一大早从一个小村庄出发，沿着一条窄窄的小路开始往上爬。"
+   },
+   {
+    "es": "Al comienzo charlábamos sin parar, pero luego nos quedamos callados para escuchar el bosque.",
+    "zh": "起初我们聊个不停，后来却都不再说话，静静地倾听森林。"
+   },
+   {
+    "es": "A mediodía llegamos a la cima, desde donde el pueblo parecía un juguete al fondo del valle.",
+    "zh": "中午我们登上了山顶，从那里望去，村庄就像山谷深处的一个玩具。"
+   }
+  ],
+  [
+   {
+    "es": "Allí nos quitamos las botas y comimos sentados sobre una roca.",
+    "zh": "我们在山顶脱下登山靴，坐在一块岩石上吃饭。"
+   },
+   {
+    "es": "Aunque terminé agotado, me sentía más tranquilo que nunca.",
+    "zh": "虽然走完时我已筋疲力尽，心里却感到前所未有的平静。"
+   },
+   {
+    "es": "Creo que andar despacio nos ayuda a mirar el mundo con más atención.",
+    "zh": "我觉得，慢慢地走能让我们更用心地看这个世界。"
+   },
+   {
+    "es": "Si alguien quiere probarlo, es importante que lleve calzado cómodo y que no cargue demasiado peso.",
+    "zh": "如果有人想试一试，重要的是穿舒适的鞋，也不要背太重的东西。"
+   },
+   {
+    "es": "Diego y yo ya estamos pensando en la próxima ruta; esta vez me gustaría dormir en un refugio.",
+    "zh": "迭戈和我已经在计划下一条路线了；这一次，我想在山间小屋里过夜。"
+   }
+  ]
+ ]
+}

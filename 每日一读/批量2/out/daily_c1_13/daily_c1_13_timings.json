@@ -1,0 +1,251 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_13.mp3",
+ "duration": 54.99,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.43,
+  "short_term_std_lu": 0.88,
+  "short_term_std_full_lu": 0.9,
+  "peak_dbfs": -1.77,
+  "buzz_hz": 13500.0,
+  "buzz_db": 6.3,
+  "comb_db": -0.6
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.03,
+   "parts": [
+    [
+     0.5,
+     2.03
+    ]
+   ],
+   "segments": [
+    "El jardín como refugio."
+   ],
+   "text": "El jardín como refugio.",
+   "read": "El jardín como refugio."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.03,
+   "end": 7.34,
+   "parts": [
+    [
+     3.03,
+     7.34
+    ]
+   ],
+   "segments": [
+    "Tras mi casa se esconde un jardín cercado por un muro que lo resguarda del viento."
+   ],
+   "text": "Tras mi casa se esconde un jardín cercado por un muro que lo resguarda del viento.",
+   "read": "Tras mi casa se esconde un jardín cercado por un muro que lo resguarda del viento."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.34,
+   "end": 13.98,
+   "parts": [
+    [
+     8.34,
+     13.98
+    ]
+   ],
+   "segments": [
+    "Un sendero de grava que cruje a cada paso atraviesa los macizos de flores y bordea un estanque diminuto."
+   ],
+   "text": "Un sendero de grava que cruje a cada paso atraviesa los macizos de flores y bordea un estanque diminuto.",
+   "read": "Un sendero de grava que cruje a cada paso atraviesa los macizos de flores y bordea un estanque diminuto."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.98,
+   "end": 16.94,
+   "parts": [
+    [
+     14.98,
+     16.94
+    ]
+   ],
+   "segments": [
+    "Sobre el muro asoma un limonero."
+   ],
+   "text": "Sobre el muro asoma un limonero.",
+   "read": "Sobre el muro asoma un limonero."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 17.94,
+   "end": 24.1,
+   "parts": [
+    [
+     17.94,
+     20.22
+    ],
+    [
+     20.5,
+     24.1
+    ]
+   ],
+   "segments": [
+    "Cuando el día se me hace cuesta arriba,",
+    "me siento en una silla de hierro forjado y contemplo el agua."
+   ],
+   "text": "Cuando el día se me hace cuesta arriba, me siento en una silla de hierro forjado y contemplo el agua.",
+   "read": "Cuando el día se me hace cuesta arriba, me siento en una silla de hierro forjado y contemplo el agua."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 25.1,
+   "end": 29.61,
+   "parts": [
+    [
+     25.1,
+     29.61
+    ]
+   ],
+   "segments": [
+    "Cabría pensar que un refugio así equivale a una forma elegante de huir del mundo."
+   ],
+   "text": "Cabría pensar que un refugio así equivale a una forma elegante de huir del mundo.",
+   "read": "Cabría pensar que un refugio así equivale a una forma elegante de huir del mundo."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 30.61,
+   "end": 38.43,
+   "parts": [
+    [
+     30.61,
+     31.35
+    ],
+    [
+     31.63,
+     33.75
+    ],
+    [
+     34.03,
+     36.02
+    ],
+    [
+     36.3,
+     38.43
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "el muro no aísla tanto como enmarca:",
+    "acota un espacio a nuestra medida,",
+    "donde el esfuerzo obtiene respuesta."
+   ],
+   "text": "Sin embargo, el muro no aísla tanto como enmarca: acota un espacio a nuestra medida, donde el esfuerzo obtiene respuesta.",
+   "read": "Sin embargo, el muro no aísla tanto como enmarca: acota un espacio a nuestra medida, donde el esfuerzo obtiene respuesta."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.43,
+   "end": 45.08,
+   "parts": [
+    [
+     39.43,
+     41.5
+    ],
+    [
+     41.78,
+     45.08
+    ]
+   ],
+   "segments": [
+    "Frente a problemas que nos desbordan,",
+    "podar un rosal nos recuerda que algo sigue estando a nuestro alcance."
+   ],
+   "text": "Frente a problemas que nos desbordan, podar un rosal nos recuerda que algo sigue estando a nuestro alcance.",
+   "read": "Frente a problemas que nos desbordan, podar un rosal nos recuerda que algo sigue estando a nuestro alcance."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 46.08,
+   "end": 53.79,
+   "parts": [
+    [
+     46.08,
+     48.73
+    ],
+    [
+     49.01,
+     50.78
+    ],
+    [
+     51.06,
+     53.79
+    ]
+   ],
+   "segments": [
+    "Si el jardín sirviera solo para esconderse,",
+    "sería una cárcel florida;",
+    "pero de él regreso siempre más paciente al mundo."
+   ],
+   "text": "Si el jardín sirviera solo para esconderse, sería una cárcel florida; pero de él regreso siempre más paciente al mundo.",
+   "read": "Si el jardín sirviera solo para esconderse, sería una cárcel florida; pero de él regreso siempre más paciente al mundo."
+  }
+ ]
+}

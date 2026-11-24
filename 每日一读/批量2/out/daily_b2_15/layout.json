@@ -1,0 +1,289 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  663.4375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  671.4375
+ ],
+ "zh": [
+  96,
+  697.4375,
+  480,
+  913.5625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  267.59375,
+  131.625
+ ],
+ "header_gap": 155.40625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   589
+  ]
+ ],
+ "vocab_wrapped": 2,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   4
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.3,
+   "El invierno pasado, mi vecina Elena colocó una estantería de"
+  ],
+  [
+   "mid",
+   4.6,
+   "madera junto a los buzones del portal. La idea era sencilla: dejar"
+  ],
+  [
+   "mid",
+   6.1,
+   "lo que ya no usábamos y llevarnos lo que nos hiciera falta. Al"
+  ],
+  [
+   "mid",
+   7.5,
+   "principio solo había algún libro suelto, pero pronto se fueron"
+  ],
+  [
+   "mid",
+   5.5,
+   "sumando tarros de mermelada, una caja de herramientas y una"
+  ],
+  [
+   "last",
+   0,
+   "planta."
+  ],
+  [
+   "mid",
+   6.1,
+   "Lo más valioso, sin embargo, han sido las conversaciones"
+  ],
+  [
+   "mid",
+   6.2,
+   "que surgen junto a la estantería. Vecinos que antes apenas se"
+  ],
+  [
+   "mid",
+   4.2,
+   "saludaban ahora se prestan libros y se echan una mano. Algunos"
+  ],
+  [
+   "mid",
+   5.8,
+   "dudaban de que la iniciativa funcionara, por miedo a que unos"
+  ],
+  [
+   "mid",
+   5.1,
+   "pocos se lo llevaran todo. Pero la experiencia ha demostrado lo"
+  ],
+  [
+   "mid",
+   7.4,
+   "contrario: la confianza se contagia. Al compartir, consumimos"
+  ],
+  [
+   "mid",
+   6.1,
+   "menos y, sobre todo, transformamos un simple edificio en una"
+  ],
+  [
+   "last",
+   0,
+   "comunidad."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

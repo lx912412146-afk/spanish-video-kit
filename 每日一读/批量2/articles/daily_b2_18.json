@@ -1,0 +1,143 @@
+{
+ "id": "daily_b2_18",
+ "level": "B2",
+ "no": 18,
+ "title_es": "Los trabajos del futuro",
+ "title_zh": "未来的职业",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 18 篇。原创短文。语法：代词式动词 encargarse de、temer que + 过去虚拟式（acabara quitándoles，acabar + 副动词）、被动态（fue despedido）、强调结构 lo que cambió fue、no … sino、将来时（tendrán、permanecerá、será、pertenecerá）、quien + 现在虚拟式（nunca deje de aprender）、名词化（la naturaleza de nuestro trabajo）；连接语 sin embargo、por lo tanto、además、como、por todo ello。9 句，126 词。第一人称叙述，文中没有需要变性的词。estudio 指工作室，brazo robótico 和插图里的机械臂、电脑、窗外的城市对应；quitar el puesto 译作“抢走饭碗”；naturaleza 在这里是“性质”，不是“自然”；destruye empleo, pero también lo crea 里的 empleo 是不可数的“就业（岗位）”，lo 指 empleo；ella 指 la máquina；pensamiento crítico 译作“批判性思维”，整个词组超过 18 个字符，词汇表词头取 pensamiento；formarse 是“进修、接受培训”。第 4 句 a diseñar, resolver imprevistos y atender a cada cliente 是原形动词的列举，第 7 句 La creatividad, la empatía y el pensamiento crítico 是名词列举，两处的逗号都不停顿。第 2 句句末原为 acabara sustituyéndolos，为避开句末 -los 的词尾 s，改为 acabara quitándoles el puesto。录音核对后改：第 1 句 En el estudio donde trabajo 被识别成 En el estudajo（estudio donde trabajo 几个音连读含混），改为 En el taller donde trabajo（taller 指工作室、作坊，和插图明亮的工作室相符），译文不变。",
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "diseñar,",
+    "why": "列举：diseñar, resolver imprevistos y atender a cada cliente（A, B y C）"
+   }
+  ],
+  "7": [
+   {
+    "after": "creatividad,",
+    "why": "列举：La creatividad, la empatía y el pensamiento crítico（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "brazo robótico",
+   "机械臂",
+   "brazo robótico"
+  ],
+  [
+   "encargarse",
+   "负责",
+   "se encarga"
+  ],
+  [
+   "montaje",
+   "组装",
+   "montaje"
+  ],
+  [
+   "acabar",
+   "最终",
+   "acabara"
+  ],
+  [
+   "despedir",
+   "解雇",
+   "despedido"
+  ],
+  [
+   "naturaleza",
+   "性质",
+   "naturaleza"
+  ],
+  [
+   "imprevisto",
+   "突发情况",
+   "imprevistos"
+  ],
+  [
+   "atender",
+   "接待",
+   "atender"
+  ],
+  [
+   "avance",
+   "进步",
+   "avance"
+  ],
+  [
+   "empleo",
+   "就业，岗位",
+   "empleo"
+  ],
+  [
+   "clave",
+   "关键",
+   "clave"
+  ],
+  [
+   "empatía",
+   "同理心",
+   "empatía"
+  ],
+  [
+   "pensamiento",
+   "思维",
+   "pensamiento"
+  ],
+  [
+   "formarse",
+   "进修",
+   "formarse"
+  ],
+  [
+   "pertenecer",
+   "属于",
+   "pertenecerá"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En el taller donde trabajo, un brazo robótico se encarga del montaje.",
+    "zh": "在我上班的工作室里，组装由一只机械臂负责。"
+   },
+   {
+    "es": "Cuando lo instalaron, varios compañeros temieron que la máquina acabara quitándoles el puesto.",
+    "zh": "刚安装它的时候，好几位同事都担心这台机器最终会抢走他们的饭碗。"
+   },
+   {
+    "es": "Sin embargo, nadie fue despedido; lo que cambió fue la naturaleza de nuestro trabajo.",
+    "zh": "然而，没有一个人被解雇；改变的是我们工作的性质。"
+   },
+   {
+    "es": "Ahora dedicamos más tiempo a diseñar, resolver imprevistos y atender a cada cliente.",
+    "zh": "现在，我们把更多时间用在设计、处理突发情况和接待每一位客户上。"
+   }
+  ],
+  [
+   {
+    "es": "La historia demuestra que cada avance técnico destruye empleo, pero también lo crea.",
+    "zh": "历史表明，每一次技术进步都会让一些岗位消失，但同时也会创造新的岗位。"
+   },
+   {
+    "es": "Por lo tanto, la clave no está en competir con la máquina, sino en desarrollar lo que ella no sabe hacer.",
+    "zh": "因此，关键不在于与机器竞争，而在于培养机器做不到的能力。"
+   },
+   {
+    "es": "La creatividad, la empatía y el pensamiento crítico tendrán cada vez más valor.",
+    "zh": "创造力、同理心和批判性思维将变得越来越有价值。"
+   },
+   {
+    "es": "Además, como ninguna profesión permanecerá igual durante toda una vida, formarse será una necesidad constante.",
+    "zh": "此外，由于没有哪种职业会一辈子一成不变，不断进修将成为一种长期的需要。"
+   },
+   {
+    "es": "Por todo ello, el futuro pertenecerá a quien nunca deje de aprender.",
+    "zh": "正因如此，未来将属于那些永不停止学习的人。"
+   }
+  ]
+ ]
+}

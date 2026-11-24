@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  631.671875
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  639.671875
+ ],
+ "zh": [
+  96,
+  665.671875,
+  480,
+  928.046875
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  280.453125,
+  131.625
+ ],
+ "header_gap": 87.953125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   386
+  ],
+  [
+   506,
+   397,
+   626,
+   415
+  ],
+  [
+   506,
+   426,
+   626,
+   444
+  ],
+  [
+   506,
+   455,
+   626,
+   473
+  ],
+  [
+   506,
+   484,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   578
+  ],
+  [
+   506,
+   589,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   3
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.6,
+   "Entre diccionarios gastados y algún manuscrito ya amarillento,"
+  ],
+  [
+   "mid",
+   7.5,
+   "conservo en mi estudio la vieja grabadora de mi padre. Siendo"
+  ],
+  [
+   "mid",
+   5.1,
+   "maestro en un valle remoto, grabó con ella a los ancianos que aún"
+  ],
+  [
+   "mid",
+   4.6,
+   "hablaban la lengua del lugar. En sus cintas sobreviven canciones de"
+  ],
+  [
+   "last",
+   3.3,
+   "cuna, refranes y nombres de hierbas que ningún diccionario registra."
+  ],
+  [
+   "mid",
+   3.5,
+   "Cuando las lenguas se apagan, no se pierde solo un vocabulario,"
+  ],
+  [
+   "mid",
+   5.2,
+   "sino una manera irrepetible de ordenar la realidad. Podría objetarse"
+  ],
+  [
+   "mid",
+   5.9,
+   "que todo puede decirse en otro idioma; aun así, hay matices que"
+  ],
+  [
+   "mid",
+   4.8,
+   "ninguna traducción logra captar por completo. Si cada lengua fuera"
+  ],
+  [
+   "mid",
+   4.3,
+   "un simple código intercambiable, su desaparición apenas importaría;"
+  ],
+  [
+   "mid",
+   4.5,
+   "pero cada una guarda la memoria de toda una comunidad. Por eso,"
+  ],
+  [
+   "mid",
+   4,
+   "cuando enciendo la grabadora, no oigo un mero documento, sino un"
+  ],
+  [
+   "last",
+   3.3,
+   "mundo que se resiste a enmudecer."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  12.6,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_11.mp3",
+ "duration": 58.97,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.31,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.89,
+  "buzz_hz": 8762.7,
+  "buzz_db": 5.9,
+  "comb_db": -1.04
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.199,
+   "parts": [
+    [
+     0.5,
+     2.199
+    ]
+   ],
+   "segments": [
+    "La tienda de flores."
+   ],
+   "text": "La tienda de flores.",
+   "read": "La tienda de flores."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.199,
+   "end": 7.769,
+   "parts": [
+    [
+     3.199,
+     5.989
+    ],
+    [
+     6.269,
+     7.769
+    ]
+   ],
+   "segments": [
+    "Hay una tienda de flores en una esquina,",
+    "al lado de mi casa."
+   ],
+   "text": "Hay una tienda de flores en una esquina, al lado de mi casa.",
+   "read": "Hay una tienda de flores en una esquina, al lado de mi casa."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.769,
+   "end": 12.459,
+   "parts": [
+    [
+     8.769,
+     12.459
+    ]
+   ],
+   "segments": [
+    "La tienda tiene un toldo de rayas encima de la puerta."
+   ],
+   "text": "La tienda tiene un toldo de rayas encima de la puerta.",
+   "read": "La tienda tiene un toldo de rayas encima de la puerta."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.459,
+   "end": 19.319,
+   "parts": [
+    [
+     13.459,
+     19.319
+    ]
+   ],
+   "segments": [
+    "En un estante de madera hay rosas, girasoles y tulipanes en cubos con agua."
+   ],
+   "text": "En un estante de madera hay rosas, girasoles y tulipanes en cubos con agua.",
+   "read": "En un estante de madera hay rosas, girasoles y tulipanes en cubos con agua."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.319,
+   "end": 23.559,
+   "parts": [
+    [
+     20.319,
+     23.559
+    ]
+   ],
+   "segments": [
+    "En la acera hay plantas verdes en maceta."
+   ],
+   "text": "En la acera hay plantas verdes en maceta.",
+   "read": "En la acera hay plantas verdes en maceta."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.559,
+   "end": 28.759,
+   "parts": [
+    [
+     24.559,
+     28.759
+    ]
+   ],
+   "segments": [
+    "La florista se llama Elena y siempre tiene una sonrisa."
+   ],
+   "text": "La florista se llama Elena y siempre tiene una sonrisa.",
+   "read": "La florista se llama Elena y siempre tiene una sonrisa."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.759,
+   "end": 33.539,
+   "parts": [
+    [
+     29.759,
+     33.539
+    ]
+   ],
+   "segments": [
+    "Hoy es el cumpleaños de mi madre y quiero comprar un ramo."
+   ],
+   "text": "Hoy es el cumpleaños de mi madre y quiero comprar un ramo.",
+   "read": "Hoy es el cumpleaños de mi madre y quiero comprar un ramo."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 34.539,
+   "end": 37.373,
+   "parts": [
+    [
+     34.539,
+     37.373
+    ]
+   ],
+   "segments": [
+    "Su flor favorita es el girasol."
+   ],
+   "text": "Su flor favorita es el girasol.",
+   "read": "Su flor favorita es el girasol."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 38.373,
+   "end": 43.74,
+   "parts": [
+    [
+     38.373,
+     43.74
+    ]
+   ],
+   "segments": [
+    "Elena prepara un ramo con una rosa roja en el centro y girasoles alrededor."
+   ],
+   "text": "Elena prepara un ramo con una rosa roja en el centro y girasoles alrededor.",
+   "read": "Elena prepara un ramo con una rosa roja en el centro y girasoles alrededor."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 44.74,
+   "end": 48.42,
+   "parts": [
+    [
+     44.74,
+     48.42
+    ]
+   ],
+   "segments": [
+    "Después lo envuelve en papel y le pone un lazo azul."
+   ],
+   "text": "Después lo envuelve en papel y le pone un lazo azul.",
+   "read": "Después lo envuelve en papel y le pone un lazo azul."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 49.42,
+   "end": 53.7,
+   "parts": [
+    [
+     49.42,
+     51.14
+    ],
+    [
+     51.42,
+     53.7
+    ]
+   ],
+   "segments": [
+    "Con el ramo en la mano,",
+    "salgo de la tienda muy contento."
+   ],
+   "text": "Con el ramo en la mano, salgo de la tienda muy contento.",
+   "read": "Con el ramo en la mano, salgo de la tienda muy contento."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 54.7,
+   "end": 57.77,
+   "parts": [
+    [
+     54.7,
+     57.77
+    ]
+   ],
+   "segments": [
+    "Estoy seguro de que a mi madre le va a gustar."
+   ],
+   "text": "Estoy seguro de que a mi madre le va a gustar.",
+   "read": "Estoy seguro de que a mi madre le va a gustar."
+  }
+ ]
+}

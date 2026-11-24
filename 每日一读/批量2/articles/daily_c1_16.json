@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_16",
+ "level": "C1",
+ "no": 16,
+ "title_es": "La soledad elegida",
+ "title_zh": "自己选择的独处",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 16 篇。原创短文。主要语法：sin más…que… 的限定结构，过去分词 sentado 作状语，ver cómo + 陈述式，hay quien + 陈述式，tener poco que ver con，被动 se（la que se padece），No niego que + 现在虚拟式，por ello，no significa…sino…，过去虚拟式条件句（Si renunciara…, me volvería…）。7 句，130 词。第一人称叙述者是男性（sentado、atento）。特别判断：标题 la soledad elegida 在第 4 句原样出现，但 soledad 太基础、elegido 一眼就懂，没有放进词汇表；第 2 句 parto 是 partir（劈开），不是“出发”，词汇收 partir leña；第 5 句 distinguirlas 的 las 指自己选择的独处和被迫承受的孤独，译文写明“二者”；中文用“独处”译自愿的 soledad，用“孤独”译被迫的 soledad，以示区别；atento con 是“对……体贴”。全篇没有名词列举，no_pause_commas 为 {}。插图里湖边树林中的小木屋、门口的椅子、一摞木柴和烟囱的淡烟对应第 1—3 句。审校改动：插图里是开着小花的绿草地，没有雪，第 1 句原为 Cada invierno，改为 Cada año，译文“每年冬天”改为“每年”；第 3 句 el aire frío 改为 el aire fresco，译文“寒冷的空气”改为“清凉的空气”，傍晚湖边微凉，也说得通烟囱冒烟；木柴码在门右边、窗下的墙边，第 2 句原为 ante la puerta，改为 contra la pared，译文“码在门前”改为“靠墙码好”。词数不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "cabaña",
+   "小木屋",
+   "cabaña"
+  ],
+  [
+   "partir leña",
+   "劈柴",
+   "parto leña"
+  ],
+  [
+   "apilar",
+   "堆放",
+   "apilo"
+  ],
+  [
+   "ceremonioso",
+   "郑重的",
+   "ceremonioso"
+  ],
+  [
+   "chimenea",
+   "烟囱",
+   "chimenea"
+  ],
+  [
+   "deshacerse",
+   "消散",
+   "se deshace"
+  ],
+  [
+   "temporada",
+   "一段时日",
+   "temporadas"
+  ],
+  [
+   "huida",
+   "逃避",
+   "huida"
+  ],
+  [
+   "tener que ver con",
+   "有关联",
+   "tiene que ver con"
+  ],
+  [
+   "padecer",
+   "遭受",
+   "padece"
+  ],
+  [
+   "imponer",
+   "强加",
+   "impuesta"
+  ],
+  [
+   "retirarse",
+   "退隐",
+   "Retirarse"
+  ],
+  [
+   "renegar de",
+   "背弃",
+   "renegar de"
+  ],
+  [
+   "tomar distancia",
+   "拉开距离",
+   "tomar distancia"
+  ],
+  [
+   "atento",
+   "体贴的",
+   "atento"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cada año paso unos días en una cabaña del bosque, junto al lago, sin más compañía que algún libro.",
+    "zh": "每年，我都会在林中湖畔的一座小木屋里住上几天，身边只有一两本书相伴。"
+   },
+   {
+    "es": "Por la mañana parto leña y la apilo contra la pared con un cuidado casi ceremonioso.",
+    "zh": "早上，我劈好木柴，带着近乎仪式般的郑重，把它们靠墙码好。"
+   },
+   {
+    "es": "Al atardecer, sentado en una silla a la entrada, veo cómo el humo de la chimenea se deshace en el aire fresco.",
+    "zh": "傍晚，我坐在门口的椅子上，看着烟囱里冒出的烟在清凉的空气中慢慢散去。"
+   }
+  ],
+  [
+   {
+    "es": "Hay quien interpreta estas temporadas como una huida, pero la soledad elegida poco tiene que ver con la que se padece.",
+    "zh": "有人把这样的日子看作一种逃避，可自己选择的独处，与被迫承受的孤独几乎毫不相干。"
+   },
+   {
+    "es": "No niego que la soledad impuesta resulte dolorosa; precisamente por ello importa distinguirlas con claridad.",
+    "zh": "我并不否认，被强加的孤独令人痛苦；正因如此，才更要把二者分辨清楚。"
+   },
+   {
+    "es": "Retirarse por voluntad propia no significa renegar de nadie, sino tomar distancia para apreciar mejor lo que nos une.",
+    "zh": "主动退隐并不意味着背弃任何人，而是拉开一段距离，好更珍视将我们联结在一起的东西。"
+   },
+   {
+    "es": "Si renunciara a estos días de retiro, creo que me volvería menos atento con las personas que quiero.",
+    "zh": "倘若放弃这几天的隐居，我想我对所爱之人会变得不那么体贴。"
+   }
+  ]
+ ]
+}

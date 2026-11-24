@@ -1,0 +1,284 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  646.5
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  654.5
+ ],
+ "zh": [
+  96,
+  680.5,
+  480,
+  896.625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  257.734375,
+  131.625
+ ],
+ "header_gap": 197.65625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   6.5,
+   "Este verano recorrí varias ciudades con una mochila y un"
+  ],
+  [
+   "mid",
+   5,
+   "presupuesto ajustado. Dormía en literas de albergues juveniles y"
+  ],
+  [
+   "mid",
+   6.8,
+   "compartía habitación con desconocidos de todo el mundo. Al"
+  ],
+  [
+   "mid",
+   7.4,
+   "despertar, consultaba el mapa colgado en la pared y decidía"
+  ],
+  [
+   "mid",
+   7.2,
+   "adónde ir. Para ahorrar, rellenaba mi cantimplora en cualquier"
+  ],
+  [
+   "last",
+   3.5,
+   "fuente y siempre iba a pie."
+  ],
+  [
+   "mid",
+   4.4,
+   "Sin duda, viajar así resulta incómodo: no siempre se duerme"
+  ],
+  [
+   "mid",
+   5.1,
+   "bien y la intimidad brilla por su ausencia. Ahora bien, la falta de"
+  ],
+  [
+   "mid",
+   3.5,
+   "dinero me obligó a improvisar y a conversar con la gente del lugar."
+  ],
+  [
+   "mid",
+   4.2,
+   "Así, gracias a una compañera de litera, descubrí un mercado que"
+  ],
+  [
+   "mid",
+   4.9,
+   "no aparecía en ninguna guía. Si hubiera viajado con más dinero,"
+  ],
+  [
+   "mid",
+   3.8,
+   "me habría perdido lo mejor, porque un viaje no se mide por lo que"
+  ],
+  [
+   "last",
+   0,
+   "cuesta."
+  ]
+ ],
+ "es_max_gap": 7.4,
+ "es_font": [
+  13.3,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

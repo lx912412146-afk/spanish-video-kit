@@ -1,0 +1,271 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  617.46875
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  625.46875
+ ],
+ "zh": [
+  96,
+  651.46875,
+  480,
+  867.59375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  270.390625,
+  131.625
+ ],
+ "header_gap": 136.984375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   194
+  ],
+  [
+   506,
+   205,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   270
+  ],
+  [
+   506,
+   281,
+   626,
+   299
+  ],
+  [
+   506,
+   310,
+   626,
+   328
+  ],
+  [
+   506,
+   339,
+   626,
+   357
+  ],
+  [
+   506,
+   368,
+   626,
+   386
+  ],
+  [
+   506,
+   397,
+   626,
+   415
+  ],
+  [
+   506,
+   426,
+   626,
+   444
+  ],
+  [
+   506,
+   455,
+   626,
+   473
+  ],
+  [
+   506,
+   484,
+   626,
+   502
+  ],
+  [
+   506,
+   513,
+   626,
+   531
+  ],
+  [
+   506,
+   542,
+   626,
+   560
+  ],
+  [
+   506,
+   571,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   3
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.6,
+   "Al caer la tarde subí a la colina donde unos arcos de piedra"
+  ],
+  [
+   "mid",
+   5.4,
+   "siguen en pie entre muros a medio derrumbar. Nadie recuerda ya"
+  ],
+  [
+   "mid",
+   3.9,
+   "qué fue aquel edificio, y la hierba y las flores silvestres han invadido"
+  ],
+  [
+   "mid",
+   4.4,
+   "cada rincón. Bajo la luz anaranjada del ocaso, las piedras parecían"
+  ],
+  [
+   "last",
+   3.4,
+   "guardar el calor de quienes las tallaron."
+  ],
+  [
+   "mid",
+   4.8,
+   "¿De dónde procede el atractivo de una ruina, si en apariencia"
+  ],
+  [
+   "mid",
+   6.2,
+   "solo habla de pérdida? Tal vez porque lo incompleto obliga a la"
+  ],
+  [
+   "mid",
+   5.2,
+   "imaginación a reconstruir lo que falta y nos hace partícipes de su"
+  ],
+  [
+   "mid",
+   4.5,
+   "historia. Además, una ruina evoca lo efímero de toda obra humana"
+  ],
+  [
+   "mid",
+   3.7,
+   "sin sumirnos en la tristeza, porque sobre ella la vida sigue brotando."
+  ],
+  [
+   "mid",
+   5.5,
+   "Si alguien la restaurara hasta dejarla como nueva, ganaríamos un"
+  ],
+  [
+   "last",
+   3.4,
+   "edificio, pero perderíamos su silencioso diálogo con el tiempo."
+  ]
+ ],
+ "es_max_gap": 6.2,
+ "es_font": [
+  12.9,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

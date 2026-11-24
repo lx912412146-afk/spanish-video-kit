@@ -1,0 +1,249 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_17.mp3",
+ "duration": 56.28,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.83,
+  "short_term_std_lu": 0.94,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.82,
+  "buzz_hz": 8778.8,
+  "buzz_db": 5.4,
+  "comb_db": -0.17
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.68,
+   "parts": [
+    [
+     0.5,
+     1.68
+    ]
+   ],
+   "segments": [
+    "El sentido del viaje."
+   ],
+   "text": "El sentido del viaje.",
+   "read": "El sentido del viaje."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.68,
+   "end": 9.36,
+   "parts": [
+    [
+     2.68,
+     3.98
+    ],
+    [
+     4.26,
+     5.6
+    ],
+    [
+     5.88,
+     9.36
+    ]
+   ],
+   "segments": [
+    "Mi vieja maleta,",
+    "con el sombrero encima,",
+    "descansa en el andén mientras yo espero un tren que se retrasa."
+   ],
+   "text": "Mi vieja maleta, con el sombrero encima, descansa en el andén mientras yo espero un tren que se retrasa.",
+   "read": "Mi vieja maleta, con el sombrero encima, descansa en el andén mientras yo espero un tren que se retrasa."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.36,
+   "end": 16.35,
+   "parts": [
+    [
+     10.36,
+     12.51
+    ],
+    [
+     12.79,
+     16.35
+    ]
+   ],
+   "segments": [
+    "Las vías se pierden en el horizonte,",
+    "y al seguirlas con la mirada me pregunto qué busco en cada viaje."
+   ],
+   "text": "Las vías se pierden en el horizonte, y al seguirlas con la mirada me pregunto qué busco en cada viaje.",
+   "read": "Las vías se pierden en el horizonte, y al seguirlas con la mirada me pregunto qué busco en cada viaje."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 17.35,
+   "end": 23.2,
+   "parts": [
+    [
+     17.35,
+     20.4
+    ],
+    [
+     20.68,
+     23.2
+    ]
+   ],
+   "segments": [
+    "Durante años viajé como quien completa una colección,",
+    "sin dejar que ningún destino me transformara."
+   ],
+   "text": "Durante años viajé como quien completa una colección, sin dejar que ningún destino me transformara.",
+   "read": "Durante años viajé como quien completa una colección, sin dejar que ningún destino me transformara."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 24.2,
+   "end": 31.8,
+   "parts": [
+    [
+     24.2,
+     24.94
+    ],
+    [
+     25.22,
+     27.93
+    ],
+    [
+     28.21,
+     31.8
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "el sentido del viaje no reside en la distancia,",
+    "sino en el extrañamiento que nos obliga a mirarlo todo de nuevo."
+   ],
+   "text": "Sin embargo, el sentido del viaje no reside en la distancia, sino en el extrañamiento que nos obliga a mirarlo todo de nuevo.",
+   "read": "Sin embargo, el sentido del viaje no reside en la distancia, sino en el extrañamiento que nos obliga a mirarlo todo de nuevo."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 32.8,
+   "end": 41.5,
+   "parts": [
+    [
+     32.8,
+     34.11
+    ],
+    [
+     34.39,
+     37.76
+    ],
+    [
+     38.04,
+     41.5
+    ]
+   ],
+   "segments": [
+    "Lejos de casa,",
+    "hasta el gesto más corriente deja de ser evidente,",
+    "y esa leve desorientación despierta una atención adormecida."
+   ],
+   "text": "Lejos de casa, hasta el gesto más corriente deja de ser evidente, y esa leve desorientación despierta una atención adormecida.",
+   "read": "Lejos de casa, hasta el gesto más corriente deja de ser evidente, y esa leve desorientación despierta una atención adormecida."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 42.5,
+   "end": 48.48,
+   "parts": [
+    [
+     42.5,
+     44.65
+    ],
+    [
+     44.93,
+     48.48
+    ]
+   ],
+   "segments": [
+    "Aunque el destino sea cercano,",
+    "basta con que nos descoloque un poco para que el viaje valga la pena."
+   ],
+   "text": "Aunque el destino sea cercano, basta con que nos descoloque un poco para que el viaje valga la pena.",
+   "read": "Aunque el destino sea cercano, basta con que nos descoloque un poco para que el viaje valga la pena."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 49.48,
+   "end": 55.08,
+   "parts": [
+    [
+     49.48,
+     52.56
+    ],
+    [
+     52.84,
+     55.08
+    ]
+   ],
+   "segments": [
+    "Si solo viajáramos para confirmar lo que ya sabemos,",
+    "daría igual partir que quedarse en casa."
+   ],
+   "text": "Si solo viajáramos para confirmar lo que ya sabemos, daría igual partir que quedarse en casa.",
+   "read": "Si solo viajáramos para confirmar lo que ya sabemos, daría igual partir que quedarse en casa."
+  }
+ ]
+}

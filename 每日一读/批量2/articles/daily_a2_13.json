@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_13",
+ "level": "A2",
+ "no": 13,
+ "title_es": "Un fin de semana en la nieve",
+ "title_zh": "雪中的周末",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 13 篇。原创短文。简单过去时叙述周末的经过（pasé、alquilamos、vimos、fui、me caí、dejamos、nos sentamos），过去未完成时描写松树和心情（había、no se oía、sabía、podía、me dolía、estaba）。11 句，117 词。没有需要不停顿的列举逗号：第 3 句 Al llegar 后、第 9 句 Cuando 从句后，第 5 句、第 11 句 pero 前的逗号照常停顿。ir a la nieve 是西班牙常说的“去雪山玩”，标题和第 1 句都用 en la nieve；al pie de la montaña 译作“山脚下”，词头 al pie de 释义写“在山脚下”；cubierto 原文是阳性 cubierto，修饰 el tejado；第 3 句原为 Cuando llegamos, la cabaña tenía…，为了不让 llegamos 的词尾 s 落在停顿前，改成 Al llegar, vimos…；no se oía ningún ruido 译作“一点声音也没有”；esquís 指滑雪板，因为第 6 句 clase de esquí 里 esquí 是“滑雪”，意思不同，所以 esquí 没有放进词汇，只收 esquiar；caerse 原文是 caí（me caí）；doler 原文是 dolía。词头 fin de semana、nieve 在标题里，排在最前。插图的雪山、屋顶积雪的小木屋、门边的滑雪板和雪地上的松树都写进了文中。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "fin de semana",
+   "周末",
+   "fin de semana"
+  ],
+  [
+   "nieve",
+   "雪",
+   "nieve"
+  ],
+  [
+   "alquilar",
+   "租",
+   "Alquilamos"
+  ],
+  [
+   "cabaña",
+   "小木屋",
+   "cabaña"
+  ],
+  [
+   "al pie de",
+   "在山脚下",
+   "al pie de"
+  ],
+  [
+   "cubierto",
+   "覆盖着的",
+   "cubierto"
+  ],
+  [
+   "pino",
+   "松树",
+   "pinos"
+  ],
+  [
+   "esquiar",
+   "滑雪",
+   "esquiar"
+  ],
+  [
+   "caerse",
+   "摔倒",
+   "caí"
+  ],
+  [
+   "bajar",
+   "滑下来",
+   "bajar"
+  ],
+  [
+   "junto a",
+   "在旁边",
+   "junto a"
+  ],
+  [
+   "chimenea",
+   "壁炉",
+   "chimenea"
+  ],
+  [
+   "caliente",
+   "热的",
+   "caliente"
+  ],
+  [
+   "doler",
+   "疼",
+   "dolía"
+  ],
+  [
+   "cuerpo",
+   "身体",
+   "cuerpo"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En enero pasé un fin de semana en la nieve con mi amigo Javier.",
+    "zh": "一月份，我和朋友哈维尔去雪山过了一个周末。"
+   },
+   {
+    "es": "Alquilamos una cabaña de madera al pie de la montaña.",
+    "zh": "我们在山脚下租了一间小木屋。"
+   },
+   {
+    "es": "Al llegar, vimos el tejado de la cabaña cubierto de nieve.",
+    "zh": "一到那里，我们就看见小木屋的屋顶上盖满了雪。"
+   },
+   {
+    "es": "Había pinos muy altos y no se oía ningún ruido.",
+    "zh": "四周是高高的松树，一点声音也没有。"
+   },
+   {
+    "es": "Javier ya sabía esquiar, pero para mí era la primera vez.",
+    "zh": "哈维尔早就会滑雪了，可我还是第一次。"
+   }
+  ],
+  [
+   {
+    "es": "El sábado por la mañana fui a mi primera clase de esquí.",
+    "zh": "星期六上午，我去上了第一节滑雪课。"
+   },
+   {
+    "es": "Me caí muchas veces en la nieve.",
+    "zh": "我在雪地里摔了好多次。"
+   },
+   {
+    "es": "Pero por la tarde ya podía bajar despacio sin caerme.",
+    "zh": "不过到了下午，我已经能慢慢地滑下来，不再摔倒了。"
+   },
+   {
+    "es": "Cuando volvimos a la cabaña, dejamos los esquís junto a la puerta.",
+    "zh": "回到小木屋以后，我们把滑雪板靠在了门边。"
+   },
+   {
+    "es": "Luego nos sentamos delante de la chimenea con un chocolate caliente.",
+    "zh": "然后，我们端着热巧克力坐在壁炉前。"
+   },
+   {
+    "es": "Me dolía todo el cuerpo, pero estaba muy contento.",
+    "zh": "我浑身都疼，可心里非常高兴。"
+   }
+  ]
+ ]
+}

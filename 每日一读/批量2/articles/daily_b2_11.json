@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_11",
+ "level": "B2",
+ "no": 11,
+ "title_es": "Las energías renovables",
+ "title_zh": "可再生能源",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 11 篇。原创短文。语法：过去未完成时叙述（estaban、temían）、temer que + 过去虚拟式（perdiera）、现在完成时（ha comprendido）、urge + 原形（urge desarrollar）、条件式 + 过去虚拟式的假设句（de poco serviría … si siguiéramos derrochándola）、名词化（su producción）、无人称被动 se（no se consume）；连接语 sin embargo、no obstante、por eso、además、al fin y al cabo。9 句，125 词。第一人称叙述者为男性（Cuando era pequeño）。aerogeneradores 是风力发电机，和插图里山丘上的白色风机对应，a sus pies los paneles solares 对应前景的太阳能板；第 4 句的 con el tiempo 是“随着时间推移”，第 6 句的 el tiempo 指天气，不是时间；sin apenas sol 译作“几乎见不到太阳”；de poco serviría 译作“无济于事”；derrochándola 的 la 指前面的 energía limpia；su producción 的 su 指可再生能源，译文补出“发电量”。标题词 energías renovables 在正文第 5 句以同样的复数出现，排在词汇表最前。为避开句末和逗号前的复数词尾，第 2 句写成 varios aerogeneradores giran en lo alto（逗号前是 alto）。第 4 句 Con el tiempo, sin embargo, 是句首状语和插入语，照常停顿。全篇没有名词列举，no_pause_commas 为空。审校改动：词汇表原有 depender de（取决于），它和英语 depend on 一样一眼就懂，换成第 4 句的 con el tiempo（随着时间推移），正好和第 6 句表示天气的 el tiempo 对照；正文和译文没有改。排版后改：第 7 句 urge que se desarrollen baterías → urge desarrollar baterías（原来第二段两端对齐有一行词间空白 8.7 px，超过 8 px；改后最大 5.9 px），译文不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "energía renovable",
+   "可再生能源",
+   "energías renovables"
+  ],
+  [
+   "aerogenerador",
+   "风力发电机",
+   "aerogeneradores"
+  ],
+  [
+   "panel solar",
+   "太阳能板",
+   "paneles solares"
+  ],
+  [
+   "reflejar",
+   "反射",
+   "reflejan"
+  ],
+  [
+   "encanto",
+   "魅力",
+   "encanto"
+  ],
+  [
+   "con el tiempo",
+   "随着时间推移",
+   "Con el tiempo"
+  ],
+  [
+   "valer la pena",
+   "值得",
+   "valía la pena"
+  ],
+  [
+   "a diferencia de",
+   "不同于",
+   "A diferencia del"
+  ],
+  [
+   "agotarse",
+   "枯竭",
+   "se agotan"
+  ],
+  [
+   "sin apenas",
+   "几乎没有",
+   "sin apenas"
+  ],
+  [
+   "urgir",
+   "迫切需要",
+   "urge"
+  ],
+  [
+   "almacenar",
+   "储存",
+   "almacenar"
+  ],
+  [
+   "sobrante",
+   "多余的",
+   "sobrante"
+  ],
+  [
+   "derrochar",
+   "浪费",
+   "derrochándola"
+  ],
+  [
+   "al fin y al cabo",
+   "归根结底",
+   "Al fin y al cabo"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cuando era pequeño, las colinas cercanas al pueblo de mi padre solo estaban cubiertas de hierba.",
+    "zh": "我小时候，父亲老家村子附近的山丘上只长着青草。"
+   },
+   {
+    "es": "Ahora varios aerogeneradores giran en lo alto, y a sus pies los paneles solares reflejan la luz.",
+    "zh": "如今，山顶上转动着好几台风力发电机，下方的太阳能板反射着阳光。"
+   },
+   {
+    "es": "Al principio, muchos vecinos protestaron porque temían que el paisaje perdiera su encanto.",
+    "zh": "起初，许多村民提出抗议，因为他们担心这里的风景会失去原有的魅力。"
+   },
+   {
+    "es": "Con el tiempo, sin embargo, la mayoría ha comprendido que el cambio valía la pena.",
+    "zh": "然而，随着时间推移，大多数人都明白了，这样的变化是值得的。"
+   }
+  ],
+  [
+   {
+    "es": "A diferencia del petróleo, las energías renovables no se agotan ni contaminan.",
+    "zh": "与石油不同，可再生能源既不会枯竭，也不会造成污染。"
+   },
+   {
+    "es": "No obstante, su producción depende del tiempo: hay días sin viento y semanas sin apenas sol.",
+    "zh": "不过，它们的发电量取决于天气：有时一连几天没有风，有时几个星期都几乎见不到太阳。"
+   },
+   {
+    "es": "Por eso, urge desarrollar baterías capaces de almacenar la energía sobrante.",
+    "zh": "因此，迫切需要研发出能够储存多余电能的电池。"
+   },
+   {
+    "es": "Además, de poco serviría producir energía limpia si siguiéramos derrochándola.",
+    "zh": "此外，如果我们继续肆意浪费，生产再多的清洁能源也无济于事。"
+   },
+   {
+    "es": "Al fin y al cabo, la energía más limpia es la que no se consume.",
+    "zh": "归根结底，最清洁的能源，就是没有被消耗掉的能源。"
+   }
+  ]
+ ]
+}

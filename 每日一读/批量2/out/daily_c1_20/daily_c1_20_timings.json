@@ -1,0 +1,234 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_20.mp3",
+ "duration": 56.76,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 0.34,
+  "short_term_std_lu": 0.81,
+  "short_term_std_full_lu": 0.83,
+  "peak_dbfs": -1.74,
+  "buzz_hz": 13500.0,
+  "buzz_db": 6.0,
+  "comb_db": -0.28
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.16,
+   "parts": [
+    [
+     0.5,
+     2.16
+    ]
+   ],
+   "segments": [
+    "La música y la memoria."
+   ],
+   "text": "La música y la memoria.",
+   "read": "La música y la memoria."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.16,
+   "end": 8.37,
+   "parts": [
+    [
+     3.16,
+     6.69
+    ],
+    [
+     6.97,
+     8.37
+    ]
+   ],
+   "segments": [
+    "Un viejo tocadiscos preside el salón desde un mueble bajo,",
+    "junto a la lámpara de pie."
+   ],
+   "text": "Un viejo tocadiscos preside el salón desde un mueble bajo, junto a la lámpara de pie.",
+   "read": "Un viejo tocadiscos preside el salón desde un mueble bajo, junto a la lámpara de pie."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.37,
+   "end": 15.1,
+   "parts": [
+    [
+     9.37,
+     15.1
+    ]
+   ],
+   "segments": [
+    "Anoche, un disco que no oía desde la adolescencia me transportó de golpe a un verano junto al mar."
+   ],
+   "text": "Anoche, un disco que no oía desde la adolescencia me transportó de golpe a un verano junto al mar.",
+   "read": "Anoche, un disco que no oía desde la adolescencia me transportó de golpe a un verano junto al mar."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 16.1,
+   "end": 23.02,
+   "parts": [
+    [
+     16.1,
+     18.58
+    ],
+    [
+     18.86,
+     23.02
+    ]
+   ],
+   "segments": [
+    "Ningún rostro sobrevivía en mi memoria,",
+    "pero sí el olor a sal, la arena caliente y una alegría sin motivo."
+   ],
+   "text": "Ningún rostro sobrevivía en mi memoria, pero sí el olor a sal, la arena caliente y una alegría sin motivo.",
+   "read": "Ningún rostro sobrevivía en mi memoria, pero sí el olor a sal, la arena caliente y una alegría sin motivo."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 24.02,
+   "end": 30.06,
+   "parts": [
+    [
+     24.02,
+     26.74
+    ],
+    [
+     27.02,
+     30.06
+    ]
+   ],
+   "segments": [
+    "La música no guarda el pasado como un archivo,",
+    "sino que reaviva el estado de ánimo con que lo vivimos."
+   ],
+   "text": "La música no guarda el pasado como un archivo, sino que reaviva el estado de ánimo con que lo vivimos.",
+   "read": "La música no guarda el pasado como un archivo, sino que reaviva el estado de ánimo con que lo vivimos."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 31.06,
+   "end": 39.14,
+   "parts": [
+    [
+     31.06,
+     33.57
+    ],
+    [
+     33.85,
+     39.14
+    ]
+   ],
+   "segments": [
+    "De ahí que su efecto sea involuntario:",
+    "una melodía puede asaltarnos en cualquier parte y abrir una puerta que creíamos cerrada."
+   ],
+   "text": "De ahí que su efecto sea involuntario: una melodía puede asaltarnos en cualquier parte y abrir una puerta que creíamos cerrada.",
+   "read": "De ahí que su efecto sea involuntario: una melodía puede asaltarnos en cualquier parte y abrir una puerta que creíamos cerrada."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 40.14,
+   "end": 47.19,
+   "parts": [
+    [
+     40.14,
+     42.41
+    ],
+    [
+     42.69,
+     44.62
+    ],
+    [
+     44.9,
+     47.19
+    ]
+   ],
+   "segments": [
+    "Aunque los detalles se hayan desdibujado,",
+    "la emoción regresa intacta,",
+    "como si el tiempo no hubiera pasado por ella."
+   ],
+   "text": "Aunque los detalles se hayan desdibujado, la emoción regresa intacta, como si el tiempo no hubiera pasado por ella.",
+   "read": "Aunque los detalles se hayan desdibujado, la emoción regresa intacta, como si el tiempo no hubiera pasado por ella."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 48.19,
+   "end": 55.56,
+   "parts": [
+    [
+     48.19,
+     51.6
+    ],
+    [
+     51.88,
+     55.56
+    ]
+   ],
+   "segments": [
+    "Si pudiéramos elegir qué recuerdo despierta cada canción,",
+    "nos privaríamos del vértigo de reencontrarnos con quienes fuimos."
+   ],
+   "text": "Si pudiéramos elegir qué recuerdo despierta cada canción, nos privaríamos del vértigo de reencontrarnos con quienes fuimos.",
+   "read": "Si pudiéramos elegir qué recuerdo despierta cada canción, nos privaríamos del vértigo de reencontrarnos con quienes fuimos."
+  }
+ ]
+}

@@ -1,0 +1,295 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_17.mp3",
+ "duration": 62.12,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.38,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.99,
+  "peak_dbfs": -1.73,
+  "buzz_hz": 13500.0,
+  "buzz_db": 4.3,
+  "comb_db": -0.94
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.2,
+   "parts": [
+    [
+     0.5,
+     2.2
+    ]
+   ],
+   "segments": [
+    "Mi antiguo barrio."
+   ],
+   "text": "Mi antiguo barrio.",
+   "read": "Mi antiguo barrio."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.2,
+   "end": 7.27,
+   "parts": [
+    [
+     3.2,
+     7.27
+    ]
+   ],
+   "segments": [
+    "Hasta los doce años viví en un barrio tranquilo del centro."
+   ],
+   "text": "Hasta los doce años viví en un barrio tranquilo del centro.",
+   "read": "Hasta los doce años viví en un barrio tranquilo del centro."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.27,
+   "end": 12.36,
+   "parts": [
+    [
+     8.27,
+     12.36
+    ]
+   ],
+   "segments": [
+    "Nuestro piso tenía un balcón que daba a una pequeña plaza."
+   ],
+   "text": "Nuestro piso tenía un balcón que daba a una pequeña plaza.",
+   "read": "Nuestro piso tenía un balcón que daba a una pequeña plaza."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.36,
+   "end": 17.29,
+   "parts": [
+    [
+     13.36,
+     17.29
+    ]
+   ],
+   "segments": [
+    "En la plaza había un árbol altísimo y un banco."
+   ],
+   "text": "En la plaza había un árbol altísimo y un banco.",
+   "read": "En la plaza había un árbol altísimo y un banco."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.29,
+   "end": 22.16,
+   "parts": [
+    [
+     18.29,
+     22.16
+    ]
+   ],
+   "segments": [
+    "Mi padre compraba el periódico en el kiosco de la esquina."
+   ],
+   "text": "Mi padre compraba el periódico en el kiosco de la esquina.",
+   "read": "Mi padre compraba el periódico en el kiosco de la esquina."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 23.16,
+   "end": 28.523,
+   "parts": [
+    [
+     23.16,
+     24.25
+    ],
+    [
+     24.53,
+     25.9
+    ],
+    [
+     26.18,
+     28.523
+    ]
+   ],
+   "segments": [
+    "La dueña,",
+    "la señora Carmen,",
+    "siempre me regalaba un caramelo."
+   ],
+   "text": "La dueña, la señora Carmen, siempre me regalaba un caramelo.",
+   "read": "La dueña, la señora Carmen, siempre me regalaba un caramelo."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.523,
+   "end": 33.136,
+   "parts": [
+    [
+     29.523,
+     33.136
+    ]
+   ],
+   "segments": [
+    "Hace unos días paseé otra vez por mi antiguo barrio."
+   ],
+   "text": "Hace unos días paseé otra vez por mi antiguo barrio.",
+   "read": "Hace unos días paseé otra vez por mi antiguo barrio."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 34.136,
+   "end": 38.596,
+   "parts": [
+    [
+     34.136,
+     36.206
+    ],
+    [
+     36.486,
+     38.596
+    ]
+   ],
+   "segments": [
+    "Había alguna tienda nueva,",
+    "pero la plaza era la de siempre."
+   ],
+   "text": "Había alguna tienda nueva, pero la plaza era la de siempre.",
+   "read": "Había alguna tienda nueva, pero la plaza era la de siempre."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.596,
+   "end": 44.386,
+   "parts": [
+    [
+     39.596,
+     44.386
+    ]
+   ],
+   "segments": [
+    "El árbol era todavía más alto y el kiosco también estaba allí."
+   ],
+   "text": "El árbol era todavía más alto y el kiosco también estaba allí.",
+   "read": "El árbol era todavía más alto y el kiosco también estaba allí."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 45.386,
+   "end": 49.286,
+   "parts": [
+    [
+     45.386,
+     49.286
+    ]
+   ],
+   "segments": [
+    "Me acerqué al kiosco y allí estaba la señora Carmen."
+   ],
+   "text": "Me acerqué al kiosco y allí estaba la señora Carmen.",
+   "read": "Me acerqué al kiosco y allí estaba la señora Carmen."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 50.286,
+   "end": 53.916,
+   "parts": [
+    [
+     50.286,
+     52.186
+    ],
+    [
+     52.466,
+     53.916
+    ]
+   ],
+   "segments": [
+    "Tardó en reconocerme,",
+    "pero luego me abrazó."
+   ],
+   "text": "Tardó en reconocerme, pero luego me abrazó.",
+   "read": "Tardó en reconocerme, pero luego me abrazó."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 54.916,
+   "end": 60.92,
+   "parts": [
+    [
+     54.916,
+     57.126
+    ],
+    [
+     57.406,
+     59.057
+    ],
+    [
+     59.337,
+     60.92
+    ]
+   ],
+   "segments": [
+    "Me senté en el banco y,",
+    "durante un rato,",
+    "volví a ser niño."
+   ],
+   "text": "Me senté en el banco y, durante un rato, volví a ser niño.",
+   "read": "Me senté en el banco y, durante un rato, volví a ser niño."
+  }
+ ]
+}

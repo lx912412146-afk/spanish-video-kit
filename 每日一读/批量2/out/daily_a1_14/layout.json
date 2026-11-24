@@ -1,0 +1,306 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  596.5625
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  604.5625
+ ],
+ "zh": [
+  96,
+  630.5625,
+  480,
+  823.5625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  238.21875,
+  131.625
+ ],
+ "header_gap": 141.390625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   1
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ],
+  [
+   "13",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   3.7,
+   "Tengo clase de español todos los lunes por la tarde. En el aula"
+  ],
+  [
+   "mid",
+   6,
+   "hay una pizarra grande y una mesa para la profesora. Mi mesa"
+  ],
+  [
+   "mid",
+   5.7,
+   "está cerca de la ventana y desde allí veo un árbol alto. Nuestra"
+  ],
+  [
+   "mid",
+   4.8,
+   "profesora es española y se llama Teresa. Cuando no entendemos"
+  ],
+  [
+   "mid",
+   5.6,
+   "una palabra, ella hace un dibujo en la pizarra. Con ella, la clase"
+  ],
+  [
+   "last",
+   3.5,
+   "nunca es aburrida."
+  ],
+  [
+   "mid",
+   3.7,
+   "En clase hablamos en grupo y a veces cantamos una canción."
+  ],
+  [
+   "mid",
+   4.9,
+   "Mi compañero de mesa es Raúl y siempre me ayuda. Para mí, lo"
+  ],
+  [
+   "mid",
+   5.2,
+   "más difícil es la pronunciación. Por eso practico en casa delante"
+  ],
+  [
+   "mid",
+   6,
+   "del espejo. Tengo que estudiar mucho, porque en verano voy a"
+  ],
+  [
+   "last",
+   3.5,
+   "viajar a España. Me gusta esta clase porque aprendo y me divierto."
+  ]
+ ],
+ "es_max_gap": 6,
+ "es_font": [
+  12.9,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

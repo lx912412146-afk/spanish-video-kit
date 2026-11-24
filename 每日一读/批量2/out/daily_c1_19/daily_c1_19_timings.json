@@ -1,0 +1,249 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_19.mp3",
+ "duration": 55.79,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.43,
+  "sentence_max_dev_lu": 0.14,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.64,
+  "buzz_hz": 8912.1,
+  "buzz_db": 5.3,
+  "comb_db": -0.7
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.22,
+   "parts": [
+    [
+     0.5,
+     2.22
+    ]
+   ],
+   "segments": [
+    "Los rituales cotidianos."
+   ],
+   "text": "Los rituales cotidianos.",
+   "read": "Los rituales cotidianos."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.22,
+   "end": 9.42,
+   "parts": [
+    [
+     3.22,
+     4.01
+    ],
+    [
+     4.29,
+     5.69
+    ],
+    [
+     5.97,
+     9.42
+    ]
+   ],
+   "segments": [
+    "A diario,",
+    "cuando apenas clarea,",
+    "pongo al fuego la vieja cafetera italiana junto a la ventana."
+   ],
+   "text": "A diario, cuando apenas clarea, pongo al fuego la vieja cafetera italiana junto a la ventana.",
+   "read": "A diario, cuando apenas clarea, pongo al fuego la vieja cafetera italiana junto a la ventana."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.42,
+   "end": 16.01,
+   "parts": [
+    [
+     10.42,
+     12.01
+    ],
+    [
+     12.29,
+     16.01
+    ]
+   ],
+   "segments": [
+    "En cuanto el café borbotea,",
+    "lo sirvo en la taza de siempre y riego la planta del alféizar."
+   ],
+   "text": "En cuanto el café borbotea, lo sirvo en la taza de siempre y riego la planta del alféizar.",
+   "read": "En cuanto el café borbotea, lo sirvo en la taza de siempre y riego la planta del alféizar."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 17.01,
+   "end": 22.16,
+   "parts": [
+    [
+     17.01,
+     19.34
+    ],
+    [
+     19.62,
+     22.16
+    ]
+   ],
+   "segments": [
+    "Luego, con la taza caliente en la mano,",
+    "observo cómo la luz va ganando terreno."
+   ],
+   "text": "Luego, con la taza caliente en la mano, observo cómo la luz va ganando terreno.",
+   "read": "Luego, con la taza caliente en la mano, observo cómo la luz va ganando terreno."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 23.16,
+   "end": 28.39,
+   "parts": [
+    [
+     23.16,
+     24.71
+    ],
+    [
+     24.99,
+     28.39
+    ]
+   ],
+   "segments": [
+    "Podría parecer una manía,",
+    "pero este ritual ordena el día antes de que el día me desordene a mí."
+   ],
+   "text": "Podría parecer una manía, pero este ritual ordena el día antes de que el día me desordene a mí.",
+   "read": "Podría parecer una manía, pero este ritual ordena el día antes de que el día me desordene a mí."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 29.39,
+   "end": 35.81,
+   "parts": [
+    [
+     29.39,
+     33.01
+    ],
+    [
+     33.29,
+     35.81
+    ]
+   ],
+   "segments": [
+    "Un ritual no se distingue de una rutina por los gestos que exige,",
+    "sino por la atención con que los realizamos."
+   ],
+   "text": "Un ritual no se distingue de una rutina por los gestos que exige, sino por la atención con que los realizamos.",
+   "read": "Un ritual no se distingue de una rutina por los gestos que exige, sino por la atención con que los realizamos."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 36.81,
+   "end": 47.36,
+   "parts": [
+    [
+     36.81,
+     38.46
+    ],
+    [
+     38.74,
+     40.84
+    ],
+    [
+     41.12,
+     42.36
+    ],
+    [
+     42.64,
+     47.36
+    ]
+   ],
+   "segments": [
+    "Repetido sin pensar,",
+    "cualquier acto se vuelve mecánico;",
+    "hecho con cuidado,",
+    "nos arraiga en el presente y confiere cierta solemnidad a lo cotidiano."
+   ],
+   "text": "Repetido sin pensar, cualquier acto se vuelve mecánico; hecho con cuidado, nos arraiga en el presente y confiere cierta solemnidad a lo cotidiano.",
+   "read": "Repetido sin pensar, cualquier acto se vuelve mecánico; hecho con cuidado, nos arraiga en el presente y confiere cierta solemnidad a lo cotidiano."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 48.36,
+   "end": 54.59,
+   "parts": [
+    [
+     48.36,
+     50.48
+    ],
+    [
+     50.76,
+     54.59
+    ]
+   ],
+   "segments": [
+    "Si algún día me faltara este rato,",
+    "sospecho que no añoraría tanto el café como la calma que lo acompaña."
+   ],
+   "text": "Si algún día me faltara este rato, sospecho que no añoraría tanto el café como la calma que lo acompaña.",
+   "read": "Si algún día me faltara este rato, sospecho que no añoraría tanto el café como la calma que lo acompaña."
+  }
+ ]
+}

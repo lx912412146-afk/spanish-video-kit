@@ -1,0 +1,142 @@
+{
+ "id": "daily_a1_18",
+ "level": "A1",
+ "no": 18,
+ "title_es": "El cine de los viernes",
+ "title_zh": "周五的电影",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 18 篇。原创短文。只用陈述式现在时，有 hay、le encanta、le gusta、cuando + 现在时、por eso。12 句，121 词。特别判断：一排排红色座椅、只有柔和光亮的大银幕、一桶爆米花都和插图对应；compañero de piso 是合租的室友；butaca 是影院的座椅；palomita 是一粒爆米花，平常用复数 palomitas，词头按词典写单数；la sala 是放映厅；se apaga la luz 译作“灯一灭”；la pantalla se llena de luz 译作“银幕亮了起来”；el cine de acción 译作“动作片”；una semana elige él y otra semana elijo yo 译作“一个星期由他来选片，另一个星期由我来选”。第 1 句 Cada viernes 后面不加逗号，免得 viernes 的词尾在停顿前被吞。第 3 句 antiguo,、第 5 句 entrar,、第 7 句 luz,、第 9 句 acción,、第 10 句 eso, 都照常停顿；全篇没有列举，no_pause_commas 为空。词汇：cine、viernes 在标题里，排在最前；butaca 原文是复数 butacas，palomita 原文是复数 palomitas，apagarse 原文是 se apaga，preferir 原文是 prefiero，por eso 原文是句首的 Por eso。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "cine",
+   "电影院",
+   "cine"
+  ],
+  [
+   "viernes",
+   "星期五",
+   "viernes"
+  ],
+  [
+   "compañero de piso",
+   "室友",
+   "compañero de piso"
+  ],
+  [
+   "cómodo",
+   "舒服的",
+   "cómodo"
+  ],
+  [
+   "pantalla",
+   "银幕",
+   "pantalla"
+  ],
+  [
+   "butaca",
+   "座椅",
+   "butacas"
+  ],
+  [
+   "entrar",
+   "进场",
+   "entrar"
+  ],
+  [
+   "palomita",
+   "爆米花",
+   "palomitas"
+  ],
+  [
+   "compartir",
+   "分享",
+   "compartir"
+  ],
+  [
+   "sala",
+   "放映厅",
+   "sala"
+  ],
+  [
+   "apagarse",
+   "熄灭",
+   "se apaga"
+  ],
+  [
+   "película",
+   "电影",
+   "película"
+  ],
+  [
+   "preferir",
+   "更喜欢",
+   "prefiero"
+  ],
+  [
+   "comedia",
+   "喜剧",
+   "comedia"
+  ],
+  [
+   "por eso",
+   "所以",
+   "Por eso"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cada viernes Alberto y yo vamos al cine del barrio.",
+    "zh": "每个星期五，我和阿尔贝托都去街区的电影院。"
+   },
+   {
+    "es": "Alberto es mi compañero de piso y le encanta el cine.",
+    "zh": "阿尔贝托是我的室友，他特别喜欢看电影。"
+   },
+   {
+    "es": "El cine es pequeño y antiguo, pero muy cómodo.",
+    "zh": "这家电影院又小又老，但是很舒服。"
+   },
+   {
+    "es": "Dentro hay una pantalla enorme y filas de butacas de color rojo.",
+    "zh": "里面有一块巨大的银幕，还有一排排红色的座椅。"
+   },
+   {
+    "es": "Antes de entrar, compramos un cubo de palomitas para compartir.",
+    "zh": "进场之前，我们买一桶爆米花，两个人一起吃。"
+   },
+   {
+    "es": "Siempre nos sentamos en el centro de la sala.",
+    "zh": "我们总是坐在放映厅的正中间。"
+   }
+  ],
+  [
+   {
+    "es": "Cuando se apaga la luz, la sala se queda en silencio.",
+    "zh": "灯一灭，放映厅里就安静下来。"
+   },
+   {
+    "es": "Entonces la pantalla se llena de luz y empieza la película.",
+    "zh": "接着，银幕亮了起来，电影开始了。"
+   },
+   {
+    "es": "A Alberto le gusta el cine de acción, pero yo prefiero la comedia.",
+    "zh": "阿尔贝托喜欢动作片，可我更喜欢喜剧片。"
+   },
+   {
+    "es": "Por eso, una semana elige él y otra semana elijo yo.",
+    "zh": "所以，一个星期由他来选片，另一个星期由我来选。"
+   },
+   {
+    "es": "Después cenamos algo y hablamos de la película.",
+    "zh": "看完以后，我们随便吃点晚饭，聊聊这部电影。"
+   },
+   {
+    "es": "Así empieza mi fin de semana.",
+    "zh": "我的周末就这样开始了。"
+   }
+  ]
+ ]
+}

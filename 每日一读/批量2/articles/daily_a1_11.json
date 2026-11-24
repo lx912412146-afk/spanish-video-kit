@@ -1,0 +1,145 @@
+{
+ "id": "daily_a1_11",
+ "level": "A1",
+ "no": 11,
+ "title_es": "La tienda de flores",
+ "title_zh": "街角的花店",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 11 篇。原创短文。只用陈述式现在时，有 hay、se llama、querer + 原形、ir a + 原形（le va a gustar）、estar seguro de que。11 句，122 词。特别判断：标题照选题表译作“街角的花店”，第 1 句 en una esquina 和标题里的“街角”对应；条纹遮阳篷 toldo de rayas、木架上一桶桶的玫瑰、向日葵、郁金香、人行道上的绿植都和插图对应（审校时按插图对调了第 3、4 句的地点：插图里花桶放在两层的木架上，绿植摆在人行道上）；plantas en maceta 是固定说法，指盆栽植物，用单数 maceta 收尾，避开句末复数；florista 是在花店卖花、扎花的人，不一定是店主，译作“店里卖花的人”，释义取“卖花人”；ramo 是花束；第 7 句 Su flor favorita 的 su 承上句指妈妈；第 8 句写 un ramo con una rosa roja en el centro y girasoles alrededor，让 girasoles 后面紧跟元音（第一次录音里 un ramo de girasoles con 的 girasoles 被识别成 girasol）；le pone un lazo 的 le 指花束，lazo 译作“蝴蝶结”；第 10 句 contento、第 11 句 Estoy seguro 用阳性，叙述者是男性。第 3 句 rosas, girasoles y tulipanes 是列举，rosas, 登记为不停顿；第 1 句 esquina, 是补充地点，第 10 句 mano, 是句首状语，照常停顿。词汇：tienda、flor 在标题里，排在最前；rosa、girasol、tulipán、cubo 原文是复数，envolver 原文是变位 envuelve，estar seguro 原文是 Estoy seguro。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "rosas,",
+    "why": "列举：rosas, girasoles y tulipanes（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "tienda",
+   "商店",
+   "tienda"
+  ],
+  [
+   "flor",
+   "花",
+   "flores"
+  ],
+  [
+   "esquina",
+   "街角",
+   "esquina"
+  ],
+  [
+   "encima de",
+   "在上方",
+   "encima de"
+  ],
+  [
+   "rosa",
+   "玫瑰",
+   "rosas"
+  ],
+  [
+   "girasol",
+   "向日葵",
+   "girasoles"
+  ],
+  [
+   "tulipán",
+   "郁金香",
+   "tulipanes"
+  ],
+  [
+   "cubo",
+   "桶",
+   "cubos"
+  ],
+  [
+   "florista",
+   "卖花人",
+   "florista"
+  ],
+  [
+   "sonrisa",
+   "微笑",
+   "sonrisa"
+  ],
+  [
+   "cumpleaños",
+   "生日",
+   "cumpleaños"
+  ],
+  [
+   "ramo",
+   "花束",
+   "ramo"
+  ],
+  [
+   "envolver",
+   "包起来",
+   "envuelve"
+  ],
+  [
+   "lazo",
+   "蝴蝶结",
+   "lazo"
+  ],
+  [
+   "estar seguro",
+   "确信",
+   "Estoy seguro"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hay una tienda de flores en una esquina, al lado de mi casa.",
+    "zh": "我家旁边的街角上，有一家花店。"
+   },
+   {
+    "es": "La tienda tiene un toldo de rayas encima de la puerta.",
+    "zh": "花店门的上方撑着一个条纹遮阳篷。"
+   },
+   {
+    "es": "En un estante de madera hay rosas, girasoles y tulipanes en cubos con agua.",
+    "zh": "木架子上摆着一个个盛着水的桶，里面插着玫瑰、向日葵和郁金香。"
+   },
+   {
+    "es": "En la acera hay plantas verdes en maceta.",
+    "zh": "人行道上摆着几盆绿植。"
+   },
+   {
+    "es": "La florista se llama Elena y siempre tiene una sonrisa.",
+    "zh": "店里卖花的人叫埃莱娜，她总是面带微笑。"
+   }
+  ],
+  [
+   {
+    "es": "Hoy es el cumpleaños de mi madre y quiero comprar un ramo.",
+    "zh": "今天是我妈妈的生日，我想买一束花。"
+   },
+   {
+    "es": "Su flor favorita es el girasol.",
+    "zh": "她最喜欢的花是向日葵。"
+   },
+   {
+    "es": "Elena prepara un ramo con una rosa roja en el centro y girasoles alrededor.",
+    "zh": "埃莱娜扎了一束花，中间是一朵红玫瑰，四周是向日葵。"
+   },
+   {
+    "es": "Después lo envuelve en papel y le pone un lazo azul.",
+    "zh": "然后她用纸把花包好，再系上一个蓝色的蝴蝶结。"
+   },
+   {
+    "es": "Con el ramo en la mano, salgo de la tienda muy contento.",
+    "zh": "我手里捧着花，高高兴兴地走出花店。"
+   },
+   {
+    "es": "Estoy seguro de que a mi madre le va a gustar.",
+    "zh": "我敢肯定，妈妈一定会喜欢。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：去看戏（暖色剧场：半开的红色大幕、舞台灯光、两侧包厢、一排排座椅；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e9d6"/><stop offset="1" stop-color="#f4dfc8"/>
+    </linearGradient>
+    <linearGradient id="carpet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2c2a6"/><stop offset="1" stop-color="#d6ae92"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1dcb4"/><stop offset="1" stop-color="#e3c48f"/>
+    </linearGradient>
+    <linearGradient id="stagebg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9eaac0"/><stop offset="0.65" stop-color="#c7c2c2"/><stop offset="1" stop-color="#e6d2b6"/>
+    </linearGradient>
+    <linearGradient id="boards" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a37c"/><stop offset="1" stop-color="#dcb98e"/>
+    </linearGradient>
+    <linearGradient id="curtL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b84b42"/><stop offset="0.2" stop-color="#d36b5b"/><stop offset="0.38" stop-color="#bd5047"/>
+      <stop offset="0.58" stop-color="#d8735f"/><stop offset="0.78" stop-color="#c2574b"/><stop offset="1" stop-color="#d77260"/>
+    </linearGradient>
+    <linearGradient id="curtR" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#b84b42"/><stop offset="0.2" stop-color="#d36b5b"/><stop offset="0.38" stop-color="#bd5047"/>
+      <stop offset="0.58" stop-color="#d8735f"/><stop offset="0.78" stop-color="#c2574b"/><stop offset="1" stop-color="#d77260"/>
+    </linearGradient>
+    <linearGradient id="val" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bf5248"/><stop offset="1" stop-color="#d66e5d"/>
+    </linearGradient>
+    <linearGradient id="boxin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98676"/><stop offset="1" stop-color="#e2ae98"/>
+    </linearGradient>
+    <linearGradient id="seatg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d77464"/><stop offset="1" stop-color="#b9534a"/>
+    </linearGradient>
+    <g id="seat">
+      <rect x="-9" y="-12" width="18" height="16" rx="4.5" fill="url(#seatg)"/>
+      <rect x="-7" y="-11" width="14" height="3" rx="1.5" fill="#e69585" opacity="0.8"/>
+      <rect x="-9" y="-1" width="18" height="5" rx="2.5" fill="#a9483f" opacity="0.35"/>
+    </g>
+    <!-- 包厢 -->
+    <g id="box">
+      <path d="M30,110 L30,84 Q60,70 90,84 L90,110 Z" fill="url(#boxin)"/>
+      <path d="M30,84 Q34,80 40,78 C38,90 35,100 30,106 Z" fill="#c45a4d"/>
+      <path d="M90,84 Q86,80 80,78 C82,90 85,100 90,106 Z" fill="#c45a4d"/>
+      <path d="M28,85 Q60,69 92,85" stroke="#e1bf88" stroke-width="2.5" fill="none"/>
+      <path d="M22,103 L98,103 C97.5,110 92,115 60,115 C28,115 22.5,110 22,103 Z" fill="url(#gold)"/>
+      <path d="M21,103 L99,103" stroke="#d6b078" stroke-width="2.4" stroke-linecap="round"/>
+      <g stroke="#d3ac74" stroke-width="1.1" opacity="0.75">
+        <line x1="30" y1="106" x2="30" y2="111"/><line x1="36" y1="106" x2="36" y2="112"/><line x1="42" y1="106" x2="42" y2="113"/><line x1="48" y1="106" x2="48" y2="113"/><line x1="54" y1="106" x2="54" y2="113.5"/><line x1="60" y1="106" x2="60" y2="113.5"/>
+        <line x1="66" y1="106" x2="66" y2="113.5"/><line x1="72" y1="106" x2="72" y2="113"/><line x1="78" y1="106" x2="78" y2="113"/><line x1="84" y1="106" x2="84" y2="112"/><line x1="90" y1="106" x2="90" y2="111"/>
+      </g>
+    </g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和观众席地面 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="186" width="400" height="74" fill="url(#carpet)"/>
+
+    <g filter="url(#wc)">
+      <!-- 两侧包厢 -->
+      <use href="#box"/>
+      <use href="#box" transform="translate(0,52)"/>
+      <use href="#box" transform="translate(400,0) scale(-1,1)"/>
+      <use href="#box" transform="translate(400,52) scale(-1,1)"/>
+
+      <!-- 舞台内景 -->
+      <path d="M120,176 L120,76 Q200,58 280,76 L280,176 Z" fill="url(#stagebg)"/>
+      <path d="M120,150 L280,150 L280,176 L120,176 Z" fill="url(#boards)"/>
+      <g stroke="#b8916a" stroke-width="0.7" opacity="0.6">
+        <line x1="120" y1="157" x2="280" y2="157"/><line x1="120" y1="166" x2="280" y2="166"/>
+      </g>
+      <!-- 布景：远山和月亮 -->
+      <circle cx="236" cy="104" r="7" fill="#f4ecd6" opacity="0.9"/>
+      <path d="M120,138 C142,124 162,122 184,132 C204,120 230,116 252,128 C262,124 272,124 280,128 L280,152 L120,152 Z" fill="#a9b8c4" opacity="0.8"/>
+      <path d="M120,146 C150,136 178,140 200,144 C224,136 256,136 280,142 L280,152 L120,152 Z" fill="#b8c7bd" opacity="0.85"/>
+      <!-- 灯光 -->
+      <g filter="url(#soft)" opacity="0.5" fill="#fff4d8">
+        <path d="M158,86 L172,86 L220,166 L180,166 Z"/>
+        <path d="M242,86 L228,86 L180,166 L220,166 Z"/>
+      </g>
+      <g filter="url(#soft2)">
+        <ellipse cx="200" cy="163" rx="30" ry="7" fill="#fff3d4" opacity="0.85"/>
+      </g>
+      <!-- 大幕 -->
+      <path d="M120,70 L172,70 C166,92 154,108 145,122 C149,140 155,158 160,176 L120,176 Z" fill="url(#curtL)"/>
+      <path d="M280,70 L228,70 C234,92 246,108 255,122 C251,140 245,158 240,176 L280,176 Z" fill="url(#curtR)"/>
+      <g fill="none" stroke-linecap="round">
+        <path d="M130,74 C131,104 129,140 128,174" stroke="#a9443c" stroke-width="1.6" opacity="0.45"/>
+        <path d="M141,74 C141,100 139,116 138,124 C138,142 141,160 144,174" stroke="#a9443c" stroke-width="1.6" opacity="0.45"/>
+        <path d="M270,74 C269,104 271,140 272,174" stroke="#a9443c" stroke-width="1.6" opacity="0.45"/>
+        <path d="M259,74 C259,100 261,116 262,124 C262,142 259,160 256,174" stroke="#a9443c" stroke-width="1.6" opacity="0.45"/>
+        <path d="M152,76 C149,96 144,110 140,120" stroke="#e8907c" stroke-width="1.3" opacity="0.6"/>
+        <path d="M248,76 C251,96 256,110 260,120" stroke="#e8907c" stroke-width="1.3" opacity="0.6"/>
+      </g>
+      <!-- 束幕绳 -->
+      <g fill="#e6c27e">
+        <ellipse cx="144" cy="122" rx="6" ry="2.6"/><path d="M146,123 L149,134 L143,134 Z"/>
+        <ellipse cx="256" cy="122" rx="6" ry="2.6"/><path d="M254,123 L257,134 L251,134 Z"/>
+      </g>
+      <!-- 顶部帷幔 -->
+      <path d="M116,64 Q200,50 284,64 L284,84 Q270,95 256,84 Q242,95 228,84 Q214,95 200,84 Q186,95 172,84 Q158,95 144,84 Q130,95 116,84 Z" fill="url(#val)"/>
+      <path d="M116,84 Q130,95 144,84 Q158,95 172,84 Q186,95 200,84 Q214,95 228,84 Q242,95 256,84 Q270,95 284,84" stroke="#ebc683" stroke-width="1.6" fill="none"/>
+
+      <!-- 台口框 -->
+      <path d="M102,180 L102,62 Q200,38 298,62 L298,180 Z M120,176 L120,76 Q200,58 280,76 L280,176 Z" fill="url(#gold)" fill-rule="evenodd"/>
+      <path d="M114,176 L114,72 Q200,52 286,72 L286,176" stroke="#d8b37a" stroke-width="1.6" fill="none"/>
+      <circle cx="200" cy="52" r="5" fill="#e9cd97"/><circle cx="200" cy="52" r="2.4" fill="#d6ae72"/>
+
+      <!-- 台唇和脚灯 -->
+      <path d="M94,176 L306,176 L310,190 L90,190 Z" fill="#c9a07a"/>
+      <rect x="94" y="175" width="212" height="3" fill="#dcb98f"/>
+      <g fill="#fff0c4">
+        <circle cx="132" cy="178" r="1.6"/><circle cx="150" cy="178" r="1.6"/><circle cx="168" cy="178" r="1.6"/><circle cx="186" cy="178" r="1.6"/>
+        <circle cx="214" cy="178" r="1.6"/><circle cx="232" cy="178" r="1.6"/><circle cx="250" cy="178" r="1.6"/><circle cx="268" cy="178" r="1.6"/>
+      </g>
+      <g filter="url(#soft2)" fill="#fff3cf" opacity="0.6">
+        <ellipse cx="200" cy="175" rx="80" ry="3"/>
+      </g>
+
+      <!-- 座椅 -->
+      <g>
+        <use href="#seat" transform="translate(5.0,201.5) scale(0.58)"/><use href="#seat" transform="translate(16.5,201.1) scale(0.58)"/><use href="#seat" transform="translate(28.0,200.7) scale(0.58)"/><use href="#seat" transform="translate(39.5,200.4) scale(0.58)"/><use href="#seat" transform="translate(51.0,200.1) scale(0.58)"/><use href="#seat" transform="translate(62.5,199.8) scale(0.58)"/><use href="#seat" transform="translate(74.0,199.5) scale(0.58)"/><use href="#seat" transform="translate(85.5,199.2) scale(0.58)"/><use href="#seat" transform="translate(97.0,199.0) scale(0.58)"/><use href="#seat" transform="translate(108.5,198.8) scale(0.58)"/><use href="#seat" transform="translate(120.0,198.6) scale(0.58)"/><use href="#seat" transform="translate(131.5,198.4) scale(0.58)"/><use href="#seat" transform="translate(143.0,198.3) scale(0.58)"/><use href="#seat" transform="translate(154.5,198.2) scale(0.58)"/><use href="#seat" transform="translate(166.0,198.1) scale(0.58)"/><use href="#seat" transform="translate(177.5,198.0) scale(0.58)"/><use href="#seat" transform="translate(189.0,198.0) scale(0.58)"/><use href="#seat" transform="translate(211.0,198.0) scale(0.58)"/><use href="#seat" transform="translate(222.5,198.0) scale(0.58)"/><use href="#seat" transform="translate(234.0,198.1) scale(0.58)"/><use href="#seat" transform="translate(245.5,198.2) scale(0.58)"/><use href="#seat" transform="translate(257.0,198.3) scale(0.58)"/><use href="#seat" transform="translate(268.5,198.4) scale(0.58)"/><use href="#seat" transform="translate(280.0,198.6) scale(0.58)"/><use href="#seat" transform="translate(291.5,198.8) scale(0.58)"/><use href="#seat" transform="translate(303.0,199.0) scale(0.58)"/><use href="#seat" transform="translate(314.5,199.2) scale(0.58)"/><use href="#seat" transform="translate(326.0,199.5) scale(0.58)"/><use href="#seat" transform="translate(337.5,199.8) scale(0.58)"/><use href="#seat" transform="translate(349.0,200.1) scale(0.58)"/><use href="#seat" transform="translate(360.5,200.4) scale(0.58)"/><use href="#seat" transform="translate(372.0,200.7) scale(0.58)"/><use href="#seat" transform="translate(383.5,201.1) scale(0.58)"/><use href="#seat" transform="translate(395.0,201.5) scale(0.58)"/>
+        <use href="#seat" transform="translate(5.7,217.6) scale(0.76)"/><use href="#seat" transform="translate(20.7,216.9) scale(0.76)"/><use href="#seat" transform="translate(35.7,216.3) scale(0.76)"/><use href="#seat" transform="translate(50.7,215.7) scale(0.76)"/><use href="#seat" transform="translate(65.7,215.2) scale(0.76)"/><use href="#seat" transform="translate(80.7,214.7) scale(0.76)"/><use href="#seat" transform="translate(95.7,214.3) scale(0.76)"/><use href="#seat" transform="translate(110.7,214.0) scale(0.76)"/><use href="#seat" transform="translate(125.7,213.7) scale(0.76)"/><use href="#seat" transform="translate(140.7,213.4) scale(0.76)"/><use href="#seat" transform="translate(155.7,213.2) scale(0.76)"/><use href="#seat" transform="translate(170.7,213.1) scale(0.76)"/><use href="#seat" transform="translate(185.7,213.0) scale(0.76)"/><use href="#seat" transform="translate(214.3,213.0) scale(0.76)"/><use href="#seat" transform="translate(229.3,213.1) scale(0.76)"/><use href="#seat" transform="translate(244.3,213.2) scale(0.76)"/><use href="#seat" transform="translate(259.3,213.4) scale(0.76)"/><use href="#seat" transform="translate(274.3,213.7) scale(0.76)"/><use href="#seat" transform="translate(289.3,214.0) scale(0.76)"/><use href="#seat" transform="translate(304.3,214.3) scale(0.76)"/><use href="#seat" transform="translate(319.3,214.7) scale(0.76)"/><use href="#seat" transform="translate(334.3,215.2) scale(0.76)"/><use href="#seat" transform="translate(349.3,215.7) scale(0.76)"/><use href="#seat" transform="translate(364.3,216.3) scale(0.76)"/><use href="#seat" transform="translate(379.3,216.9) scale(0.76)"/><use href="#seat" transform="translate(394.3,217.6) scale(0.76)"/>
+        <use href="#seat" transform="translate(5.9,237.9) scale(0.98)"/><use href="#seat" transform="translate(25.4,236.8) scale(0.98)"/><use href="#seat" transform="translate(44.9,235.8) scale(0.98)"/><use href="#seat" transform="translate(64.4,234.9) scale(0.98)"/><use href="#seat" transform="translate(83.9,234.1) scale(0.98)"/><use href="#seat" transform="translate(103.4,233.5) scale(0.98)"/><use href="#seat" transform="translate(122.9,232.9) scale(0.98)"/><use href="#seat" transform="translate(142.4,232.5) scale(0.98)"/><use href="#seat" transform="translate(161.9,232.2) scale(0.98)"/><use href="#seat" transform="translate(181.4,232.1) scale(0.98)"/><use href="#seat" transform="translate(218.6,232.1) scale(0.98)"/><use href="#seat" transform="translate(238.1,232.2) scale(0.98)"/><use href="#seat" transform="translate(257.6,232.5) scale(0.98)"/><use href="#seat" transform="translate(277.1,232.9) scale(0.98)"/><use href="#seat" transform="translate(296.6,233.5) scale(0.98)"/><use href="#seat" transform="translate(316.1,234.1) scale(0.98)"/><use href="#seat" transform="translate(335.6,234.9) scale(0.98)"/><use href="#seat" transform="translate(355.1,235.8) scale(0.98)"/><use href="#seat" transform="translate(374.6,236.8) scale(0.98)"/><use href="#seat" transform="translate(394.1,237.9) scale(0.98)"/>
+        <use href="#seat" transform="translate(5.3,263.4) scale(1.22)"/><use href="#seat" transform="translate(29.8,261.7) scale(1.22)"/><use href="#seat" transform="translate(54.3,260.1) scale(1.22)"/><use href="#seat" transform="translate(78.8,258.9) scale(1.22)"/><use href="#seat" transform="translate(103.3,257.8) scale(1.22)"/><use href="#seat" transform="translate(127.8,257.0) scale(1.22)"/><use href="#seat" transform="translate(152.3,256.4) scale(1.22)"/><use href="#seat" transform="translate(176.8,256.1) scale(1.22)"/><use href="#seat" transform="translate(223.2,256.1) scale(1.22)"/><use href="#seat" transform="translate(247.7,256.4) scale(1.22)"/><use href="#seat" transform="translate(272.2,257.0) scale(1.22)"/><use href="#seat" transform="translate(296.7,257.8) scale(1.22)"/><use href="#seat" transform="translate(321.2,258.9) scale(1.22)"/><use href="#seat" transform="translate(345.7,260.1) scale(1.22)"/><use href="#seat" transform="translate(370.2,261.7) scale(1.22)"/><use href="#seat" transform="translate(394.7,263.4) scale(1.22)"/>
+      </g>
+    </g>
+
+    <!-- 台口下的阴影 -->
+    <g filter="url(#soft2)" opacity="0.18" fill="#8a6a4a">
+      <rect x="92" y="190" width="216" height="4"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

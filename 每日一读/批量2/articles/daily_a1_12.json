@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_12",
+ "level": "A1",
+ "no": 12,
+ "title_es": "Mi calle",
+ "title_zh": "我住的街道",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 12 篇。原创短文。只用陈述式现在时，有 hay、tener、cuando + 现在时、相互的 se conocen 和最高级 la más bonita de。12 句，122 词。特别判断：街两旁的老楼、阳台上的花盆、行道树、小商店的遮阳篷都和插图对应：插图里行道树只种在街的一边，小商店在另一边，遮阳篷是绿白条纹，所以第 4 句写 Hay árboles en un lado de la calle，第 6 句写 Al otro lado hay una tienda pequeña con un toldo verde y blanco（审校时按插图改，原来写每个楼门前有一棵树、街尽头的小店是蓝色遮阳篷）；al otro lado 承第 4 句的 en un lado，译作“街的另一边”；portal 是楼房临街的大门，译作“楼门”；dan sombra 译作“遮出一片树荫”，词头写 dar sombra；la tienda es de Javier 说店是哈维尔开的；tráfico 这里指来往的车辆，hay muy poco tráfico 译作“车很少”，释义取“车流”；第 12 句 para mí es la más bonita 译作“在我看来，它是全城最美的街道”。为避开 ll 后面紧跟 y 被吞的问题，全篇不写 calle y；句末尽量用单数（en el balcón、la calle、la cena），第 4 句 árboles 后面紧跟元音开头的 en。第 7 句 fruta, pan y leche 是列举，fruta, 登记为不停顿；第 1 句 tranquila,、第 5 句 verano,、第 8 句 clase,、第 12 句 famosa, 照常停顿。词汇：calle 在标题里，排在最前；estrecho、tranquilo、famoso 原文是阴性 estrecha、tranquila、famosa，maceta 原文是复数 macetas，al otro lado 原文是句首的 Al otro lado，vender 原文是 vende，conocerse 原文是 se conocen。汇总后补改：第 5 句 dan sombra a toda la calle → dan sombra a la acera（插图里树只种在街的一边，“整条街”说过头了），译文同步。",
+ "no_pause_commas": {
+  "7": [
+   {
+    "after": "fruta,",
+    "why": "列举：fruta, pan y leche（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "calle",
+   "街道",
+   "calle"
+  ],
+  [
+   "estrecho",
+   "窄的",
+   "estrecha"
+  ],
+  [
+   "tranquilo",
+   "安静的",
+   "tranquila"
+  ],
+  [
+   "edificio",
+   "楼房",
+   "edificio"
+  ],
+  [
+   "portal",
+   "楼门",
+   "portal"
+  ],
+  [
+   "maceta",
+   "花盆",
+   "macetas"
+  ],
+  [
+   "balcón",
+   "阳台",
+   "balcón"
+  ],
+  [
+   "dar sombra",
+   "遮阴",
+   "dan sombra"
+  ],
+  [
+   "al otro lado",
+   "在另一边",
+   "Al otro lado"
+  ],
+  [
+   "toldo",
+   "遮阳篷",
+   "toldo"
+  ],
+  [
+   "vender",
+   "卖",
+   "vende"
+  ],
+  [
+   "cena",
+   "晚饭",
+   "cena"
+  ],
+  [
+   "conocerse",
+   "互相认识",
+   "se conocen"
+  ],
+  [
+   "tráfico",
+   "车流",
+   "tráfico"
+  ],
+  [
+   "famoso",
+   "有名的",
+   "famosa"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Vivo en una calle estrecha y tranquila, cerca del centro.",
+    "zh": "我住在一条又窄又安静的小街上，离市中心不远。"
+   },
+   {
+    "es": "Cada edificio es antiguo y tiene un portal de madera.",
+    "zh": "这里的每栋楼都是老房子，楼门都是木头的。"
+   },
+   {
+    "es": "Muchos vecinos tienen macetas con flores en el balcón.",
+    "zh": "很多邻居都在阳台上摆着几盆花。"
+   },
+   {
+    "es": "Hay árboles en un lado de la calle.",
+    "zh": "街的一边种着树。"
+   },
+   {
+    "es": "En verano, los árboles dan sombra a la acera.",
+    "zh": "夏天，这些树给人行道遮出一片树荫。"
+   },
+   {
+    "es": "Al otro lado hay una tienda pequeña con un toldo verde y blanco.",
+    "zh": "街的另一边有一家小商店，门口撑着绿白相间的遮阳篷。"
+   }
+  ],
+  [
+   {
+    "es": "La tienda es de Javier y vende fruta, pan y leche.",
+    "zh": "这家店是哈维尔开的，卖水果、面包和牛奶。"
+   },
+   {
+    "es": "Cuando vuelvo de clase, compro allí algo para la cena.",
+    "zh": "下课回来的时候，我在那儿买点晚饭吃的东西。"
+   },
+   {
+    "es": "Mi vecina Pilar siempre me saluda desde su balcón.",
+    "zh": "我的邻居皮拉尔总是在她家阳台上跟我打招呼。"
+   },
+   {
+    "es": "Aquí todos los vecinos se conocen.",
+    "zh": "这里的邻居们彼此都认识。"
+   },
+   {
+    "es": "Hay muy poco tráfico y por la noche todo está en silencio.",
+    "zh": "这里车很少，到了晚上，四下一片安静。"
+   },
+   {
+    "es": "Mi calle no es famosa, pero para mí es la más bonita de la ciudad.",
+    "zh": "我住的这条街并不出名，可在我看来，它是全城最美的街道。"
+   }
+  ]
+ ]
+}

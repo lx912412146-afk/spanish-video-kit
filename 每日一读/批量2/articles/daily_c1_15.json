@@ -1,0 +1,122 @@
+{
+ "id": "daily_c1_15",
+ "level": "C1",
+ "no": 15,
+ "title_es": "El atractivo de las ruinas",
+ "title_zh": "废墟的魅力",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 15 篇。原创短文。主要语法：al + 原形（Al caer la tarde），seguir en pie，a medio + 原形（a medio derrumbar），现在完成时（han invadido），间接疑问句（qué fue aquel edificio），带让步意味的 si 从句（si en apariencia solo habla de pérdida），lo + 形容词的名词化（lo incompleto、lo efímero），obligar a + 原形，sin + 原形，过去虚拟式条件句（Si alguien la restaurara…, ganaríamos…, pero perderíamos…）。7 句，132 词。第一人称叙述者是男性，没有用到需要变性的形容词。特别判断：插图里的石拱和断墙不是任何真实遗址，正文只说 unos arcos de piedra、aquel edificio，不写名称；a medio derrumbar 指“坍塌了一半”，词汇收 derrumbar；第 4 句的 si 不是条件，而是“明明、既然”的让步用法，译文作“表面上诉说的只是失去，它的魅力又从何而来”；第 7 句 la 指 una ruina，dejarla como nueva 译作“修复得焕然一新”。标题里的 ruina 是同源词，没有放进词汇表；atractivo 在第 4 句出现，排在最前。全篇没有名词列举（la hierba y las flores silvestres 只有两项、没有逗号），no_pause_commas 为 {}。插图里山坡上的石拱、断墙、青草野花和夕阳对应第 1—3 句。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "atractivo",
+   "魅力",
+   "atractivo"
+  ],
+  [
+   "al caer la tarde",
+   "傍晚时分",
+   "Al caer la tarde"
+  ],
+  [
+   "colina",
+   "小山",
+   "colina"
+  ],
+  [
+   "seguir en pie",
+   "依然屹立",
+   "siguen en pie"
+  ],
+  [
+   "derrumbar",
+   "坍塌",
+   "derrumbar"
+  ],
+  [
+   "silvestre",
+   "野生的",
+   "silvestres"
+  ],
+  [
+   "invadir",
+   "侵占，布满",
+   "invadido"
+  ],
+  [
+   "ocaso",
+   "日落",
+   "ocaso"
+  ],
+  [
+   "tallar",
+   "雕琢",
+   "tallaron"
+  ],
+  [
+   "en apariencia",
+   "表面上",
+   "en apariencia"
+  ],
+  [
+   "partícipe",
+   "参与者",
+   "partícipes"
+  ],
+  [
+   "efímero",
+   "短暂的",
+   "efímero"
+  ],
+  [
+   "sumir",
+   "使陷入",
+   "sumirnos"
+  ],
+  [
+   "brotar",
+   "萌发",
+   "brotando"
+  ],
+  [
+   "dejar como nuevo",
+   "焕然一新",
+   "dejarla como nueva"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Al caer la tarde subí a la colina donde unos arcos de piedra siguen en pie entre muros a medio derrumbar.",
+    "zh": "傍晚时分，我登上那座小山，山上几座石拱依然屹立，四周是坍塌了一半的断墙。"
+   },
+   {
+    "es": "Nadie recuerda ya qué fue aquel edificio, y la hierba y las flores silvestres han invadido cada rincón.",
+    "zh": "如今已没有人记得那曾是一座什么样的建筑，青草和野花早已长满了每一个角落。"
+   },
+   {
+    "es": "Bajo la luz anaranjada del ocaso, las piedras parecían guardar el calor de quienes las tallaron.",
+    "zh": "在落日橙红的余晖里，那些石头仿佛留存着当年雕琢它们的人的体温。"
+   }
+  ],
+  [
+   {
+    "es": "¿De dónde procede el atractivo de una ruina, si en apariencia solo habla de pérdida?",
+    "zh": "废墟表面上诉说的只是失去，它的魅力又从何而来？"
+   },
+   {
+    "es": "Tal vez porque lo incompleto obliga a la imaginación a reconstruir lo que falta y nos hace partícipes de su historia.",
+    "zh": "也许是因为，残缺迫使想象去补全所缺的部分，也让我们成了它历史的参与者。"
+   },
+   {
+    "es": "Además, una ruina evoca lo efímero de toda obra humana sin sumirnos en la tristeza, porque sobre ella la vida sigue brotando.",
+    "zh": "此外，废墟让人想到一切人类造物的短暂，却不会使我们陷入悲伤，因为生命仍在它上面不断萌发。"
+   },
+   {
+    "es": "Si alguien la restaurara hasta dejarla como nueva, ganaríamos un edificio, pero perderíamos su silencioso diálogo con el tiempo.",
+    "zh": "倘若有人把它修复得焕然一新，我们会得到一座建筑，却会失去它与时间之间无声的对话。"
+   }
+  ]
+ ]
+}

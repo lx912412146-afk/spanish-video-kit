@@ -1,0 +1,142 @@
+{
+ "id": "daily_a1_17",
+ "level": "A1",
+ "no": 17,
+ "title_es": "El autobús de la mañana",
+ "title_zh": "早上的公交车",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 17 篇。原创短文。只用陈述式现在时，有 hay、ver cómo + 现在时、poco a poco、estar de buen humor。12 句，115 词。特别判断：候车亭、开过来的公交车、行道树和远处的楼房都和插图对应；parada 是公交车站，un techo para la lluvia 是候车亭挡雨的顶棚；第 4 句 medio dormida 和第 10 句 se despierta poco a poco 前后呼应，译作“半睡半醒”“一点点醒过来”；ventanilla 是车窗，不是房子的窗户；第 1 句写 voy en autobús a la oficina，第 7 句写 El autobús llega por fin y…，都不让 autobús 落在句末或紧挨 y，免得词尾的 s 被吞；第 7 句也不写 subimos todos，免得句末 todos 的词尾被吞，改成 la gente sube；司机的名字用 Pedro，不用词尾是 s 的名字；de buen humor 译作“心情很好”；rato 是“一会儿”。第 8 句 Pedro, el conductor, 是同位语，照常停顿；全篇没有列举，no_pause_commas 为空。词汇：autobús、mañana 在标题里，排在最前；medio dormido 原文是阴性 medio dormida，esperar 原文是 espera，mismo 原文是阴性 misma，despertarse 原文是 se despierta。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "autobús",
+   "公交车",
+   "autobús"
+  ],
+  [
+   "mañana",
+   "早上",
+   "mañana"
+  ],
+  [
+   "oficina",
+   "办公室",
+   "oficina"
+  ],
+  [
+   "parada",
+   "车站",
+   "parada"
+  ],
+  [
+   "medio dormido",
+   "半睡半醒",
+   "medio dormida"
+  ],
+  [
+   "esperar",
+   "等",
+   "espera"
+  ],
+  [
+   "mismo",
+   "同样的",
+   "misma"
+  ],
+  [
+   "por fin",
+   "终于",
+   "por fin"
+  ],
+  [
+   "conductor",
+   "司机",
+   "conductor"
+  ],
+  [
+   "de buen humor",
+   "心情好",
+   "de buen humor"
+  ],
+  [
+   "asiento",
+   "座位",
+   "asiento"
+  ],
+  [
+   "ventanilla",
+   "车窗",
+   "ventanilla"
+  ],
+  [
+   "despertarse",
+   "醒来",
+   "se despierta"
+  ],
+  [
+   "poco a poco",
+   "一点点地",
+   "poco a poco"
+  ],
+  [
+   "rato",
+   "一会儿",
+   "rato"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cada mañana voy en autobús a la oficina.",
+    "zh": "每天早上，我都坐公交车去办公室上班。"
+   },
+   {
+    "es": "La parada está muy cerca de mi casa.",
+    "zh": "车站离我家很近。"
+   },
+   {
+    "es": "Tiene un banco y un techo para la lluvia.",
+    "zh": "车站有一张长椅，还有挡雨的顶棚。"
+   },
+   {
+    "es": "A esta hora la ciudad todavía está medio dormida.",
+    "zh": "这个时候，城市还半睡半醒。"
+   },
+   {
+    "es": "En la parada siempre espera la misma gente.",
+    "zh": "在车站等车的，总是那几个人。"
+   },
+   {
+    "es": "Hay un señor mayor con un perro pequeño y una chica con un libro.",
+    "zh": "有一位带着小狗的老先生，还有一个拿着书的姑娘。"
+   }
+  ],
+  [
+   {
+    "es": "El autobús llega por fin y la gente sube.",
+    "zh": "公交车终于来了，大家都上了车。"
+   },
+   {
+    "es": "Pedro, el conductor, siempre está de buen humor.",
+    "zh": "司机佩德罗总是心情很好。"
+   },
+   {
+    "es": "Yo busco un asiento junto a la ventanilla.",
+    "zh": "我找一个靠窗的座位。"
+   },
+   {
+    "es": "Desde allí veo cómo la ciudad se despierta poco a poco.",
+    "zh": "从那儿，我看着城市一点点醒过来。"
+   },
+   {
+    "es": "Durante el viaje escucho música y pienso en mi día.",
+    "zh": "一路上，我听着音乐，想一想今天要做的事。"
+   },
+   {
+    "es": "En el autobús de la mañana tengo un rato tranquilo antes del trabajo.",
+    "zh": "在早上的公交车上，上班前我能安安静静地待一会儿。"
+   }
+  ]
+ ]
+}

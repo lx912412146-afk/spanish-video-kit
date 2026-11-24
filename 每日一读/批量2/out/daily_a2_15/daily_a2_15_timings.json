@@ -1,0 +1,290 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_15.mp3",
+ "duration": 61.756,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.3,
+  "short_term_std_lu": 0.94,
+  "short_term_std_full_lu": 0.95,
+  "peak_dbfs": -1.72,
+  "buzz_hz": 15000.0,
+  "buzz_db": 4.4,
+  "comb_db": 0.2
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.246,
+   "parts": [
+    [
+     0.5,
+     2.246
+    ]
+   ],
+   "segments": [
+    "Un partido de fútbol."
+   ],
+   "text": "Un partido de fútbol.",
+   "read": "Un partido de fútbol."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.246,
+   "end": 7.286,
+   "parts": [
+    [
+     3.246,
+     7.286
+    ]
+   ],
+   "segments": [
+    "Todos los sábados juego al fútbol con un equipo de mi barrio."
+   ],
+   "text": "Todos los sábados juego al fútbol con un equipo de mi barrio.",
+   "read": "Todos los sábados juego al fútbol con un equipo de mi barrio."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.286,
+   "end": 13.896,
+   "parts": [
+    [
+     8.286,
+     11.126
+    ],
+    [
+     11.406,
+     13.896
+    ]
+   ],
+   "segments": [
+    "Nadie en el equipo es profesional,",
+    "pero entrenamos con mucha ilusión."
+   ],
+   "text": "Nadie en el equipo es profesional, pero entrenamos con mucha ilusión.",
+   "read": "Nadie en el equipo es profesional, pero entrenamos con mucha ilusión."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.896,
+   "end": 18.776,
+   "parts": [
+    [
+     14.896,
+     18.776
+    ]
+   ],
+   "segments": [
+    "El sábado pasado fue el último partido de la temporada."
+   ],
+   "text": "El sábado pasado fue el último partido de la temporada.",
+   "read": "El sábado pasado fue el último partido de la temporada."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.776,
+   "end": 24.766,
+   "parts": [
+    [
+     19.776,
+     24.766
+    ]
+   ],
+   "segments": [
+    "Era contra el equipo del barrio vecino y había mucha gente en la grada."
+   ],
+   "text": "Era contra el equipo del barrio vecino y había mucha gente en la grada.",
+   "read": "Era contra el equipo del barrio vecino y había mucha gente en la grada."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 25.766,
+   "end": 28.891,
+   "parts": [
+    [
+     25.766,
+     28.891
+    ]
+   ],
+   "segments": [
+    "Mis padres agitaban una bandera pequeña."
+   ],
+   "text": "Mis padres agitaban una bandera pequeña.",
+   "read": "Mis padres agitaban una bandera pequeña."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.891,
+   "end": 33.854,
+   "parts": [
+    [
+     29.891,
+     33.854
+    ]
+   ],
+   "segments": [
+    "Yo juego de portero y aquel día estaba muy nervioso."
+   ],
+   "text": "Yo juego de portero y aquel día estaba muy nervioso.",
+   "read": "Yo juego de portero y aquel día estaba muy nervioso."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 34.854,
+   "end": 38.87,
+   "parts": [
+    [
+     34.854,
+     36.34
+    ],
+    [
+     36.62,
+     38.87
+    ]
+   ],
+   "segments": [
+    "En la primera parte,",
+    "el otro equipo marcó un gol."
+   ],
+   "text": "En la primera parte, el otro equipo marcó un gol.",
+   "read": "En la primera parte, el otro equipo marcó un gol."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.87,
+   "end": 44.464,
+   "parts": [
+    [
+     39.87,
+     41.514
+    ],
+    [
+     41.794,
+     44.464
+    ]
+   ],
+   "segments": [
+    "Pero en la segunda parte,",
+    "Diego empató con un tiro precioso."
+   ],
+   "text": "Pero en la segunda parte, Diego empató con un tiro precioso.",
+   "read": "Pero en la segunda parte, Diego empató con un tiro precioso."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 45.464,
+   "end": 49.366,
+   "parts": [
+    [
+     45.464,
+     47.076
+    ],
+    [
+     47.356,
+     49.366
+    ]
+   ],
+   "segments": [
+    "En el último minuto,",
+    "paré un balón muy difícil."
+   ],
+   "text": "En el último minuto, paré un balón muy difícil.",
+   "read": "En el último minuto, paré un balón muy difícil."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 50.366,
+   "end": 53.986,
+   "parts": [
+    [
+     50.366,
+     53.986
+    ]
+   ],
+   "segments": [
+    "Mis compañeros corrieron hacia mí y me abrazaron."
+   ],
+   "text": "Mis compañeros corrieron hacia mí y me abrazaron.",
+   "read": "Mis compañeros corrieron hacia mí y me abrazaron."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 54.986,
+   "end": 60.556,
+   "parts": [
+    [
+     54.986,
+     57.176
+    ],
+    [
+     57.456,
+     60.556
+    ]
+   ],
+   "segments": [
+    "El partido terminó en empate,",
+    "pero para nosotros fue como una victoria."
+   ],
+   "text": "El partido terminó en empate, pero para nosotros fue como una victoria.",
+   "read": "El partido terminó en empate, pero para nosotros fue como una victoria."
+  }
+ ]
+}

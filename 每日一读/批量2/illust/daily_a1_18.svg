@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：周五的电影（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="hall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a08884"/><stop offset="1" stop-color="#7f6a68"/>
+    </linearGradient>
+    <radialGradient id="screen" cx="0.48" cy="0.5" r="0.62">
+      <stop offset="0" stop-color="#fffcf4"/><stop offset="0.6" stop-color="#fbf3e4"/><stop offset="1" stop-color="#efe1cb"/>
+    </radialGradient>
+    <linearGradient id="curtain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c06b62"/><stop offset="0.25" stop-color="#a9564f"/><stop offset="0.5" stop-color="#c77a6e"/><stop offset="0.75" stop-color="#a9564f"/><stop offset="1" stop-color="#b9645b"/>
+    </linearGradient>
+    <linearGradient id="seat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d88a7c"/><stop offset="0.5" stop-color="#c56f64"/><stop offset="1" stop-color="#a85e56"/>
+    </linearGradient>
+    <linearGradient id="bshade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.25"/><stop offset="0.5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#6b4a40" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="dim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5e4642" stop-opacity="0"/><stop offset="1" stop-color="#5e4642" stop-opacity="0.32"/>
+    </linearGradient>
+    <g id="pc"><circle r="4.2" fill="#fdf4dc"/><circle cx="2.4" cy="-1.6" r="2.8" fill="#fffaf0"/><circle cx="-2" cy="1.8" r="2.4" fill="#f6df9f"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 放映厅 -->
+    <rect width="400" height="260" fill="url(#hall)"/>
+
+    <g filter="url(#wc)">
+      <!-- 大银幕：只有柔和的光 -->
+      <rect x="-12" y="-6" width="378" height="124" fill="url(#screen)"/>
+      <g filter="url(#soft)" opacity="0.35">
+        <ellipse cx="250" cy="70" rx="60" ry="26" fill="#f6dcc4"/><ellipse cx="300" cy="96" rx="40" ry="14" fill="#d9e6ea"/>
+      </g>
+      <rect x="-12" y="116" width="378" height="4" fill="#d9c8b8"/>
+      <!-- 银幕下的台口 -->
+      <rect x="-12" y="120" width="412" height="12" fill="#a8908b"/>
+      <!-- 右边的幕布 -->
+      <rect x="360" y="-6" width="46" height="140" fill="url(#curtain)"/>
+      <path d="M360,-6 C368,40 362,90 368,134" stroke="#d48a7c" stroke-width="1.4" fill="none" opacity="0.6"/>
+      <path d="M380,-6 C386,40 380,90 386,134" stroke="#d48a7c" stroke-width="1.4" fill="none" opacity="0.6"/>
+      <rect x="-14" y="-6" width="22" height="140" fill="url(#curtain)"/>
+    </g>
+    <!-- 银幕的光洒在前面 -->
+    <ellipse cx="180" cy="128" rx="190" ry="26" fill="#fff4e2" opacity="0.28" filter="url(#soft)"/>
+
+    <g filter="url(#wc)">
+      <!-- 一排排红色座椅（从远到近） -->
+      <g fill="url(#seat)"><rect x="-8.0" y="126.1" width="20" height="26" rx="4.4"/><rect x="14.0" y="126.9" width="20" height="26" rx="4.4"/><rect x="36.0" y="127.6" width="20" height="26" rx="4.4"/><rect x="58.0" y="128.3" width="20" height="26" rx="4.4"/><rect x="80.0" y="128.8" width="20" height="26" rx="4.4"/><rect x="102.0" y="129.2" width="20" height="26" rx="4.4"/><rect x="124.0" y="129.6" width="20" height="26" rx="4.4"/><rect x="146.0" y="129.8" width="20" height="26" rx="4.4"/><rect x="168.0" y="130.0" width="20" height="26" rx="4.4"/><rect x="190.0" y="130.0" width="20" height="26" rx="4.4"/><rect x="212.0" y="130.0" width="20" height="26" rx="4.4"/><rect x="234.0" y="129.8" width="20" height="26" rx="4.4"/><rect x="256.0" y="129.6" width="20" height="26" rx="4.4"/><rect x="278.0" y="129.2" width="20" height="26" rx="4.4"/><rect x="300.0" y="128.8" width="20" height="26" rx="4.4"/><rect x="322.0" y="128.3" width="20" height="26" rx="4.4"/><rect x="344.0" y="127.6" width="20" height="26" rx="4.4"/><rect x="366.0" y="126.9" width="20" height="26" rx="4.4"/><rect x="388.0" y="126.1" width="20" height="26" rx="4.4"/></g>
+      <g fill="#eeac9c" opacity="0.8"><rect x="-6.5" y="126.9" width="17" height="2.2" rx="1.1"/><rect x="15.5" y="127.7" width="17" height="2.2" rx="1.1"/><rect x="37.5" y="128.4" width="17" height="2.2" rx="1.1"/><rect x="59.5" y="129.1" width="17" height="2.2" rx="1.1"/><rect x="81.5" y="129.6" width="17" height="2.2" rx="1.1"/><rect x="103.5" y="130.0" width="17" height="2.2" rx="1.1"/><rect x="125.5" y="130.4" width="17" height="2.2" rx="1.1"/><rect x="147.5" y="130.6" width="17" height="2.2" rx="1.1"/><rect x="169.5" y="130.8" width="17" height="2.2" rx="1.1"/><rect x="191.5" y="130.8" width="17" height="2.2" rx="1.1"/><rect x="213.5" y="130.8" width="17" height="2.2" rx="1.1"/><rect x="235.5" y="130.6" width="17" height="2.2" rx="1.1"/><rect x="257.5" y="130.4" width="17" height="2.2" rx="1.1"/><rect x="279.5" y="130.0" width="17" height="2.2" rx="1.1"/><rect x="301.5" y="129.6" width="17" height="2.2" rx="1.1"/><rect x="323.5" y="129.1" width="17" height="2.2" rx="1.1"/><rect x="345.5" y="128.4" width="17" height="2.2" rx="1.1"/><rect x="367.5" y="127.7" width="17" height="2.2" rx="1.1"/><rect x="389.5" y="126.9" width="17" height="2.2" rx="1.1"/></g>
+
+      <path d="M-10,139 C120,145 280,145 410,139 L410,150 L-10,150 Z" fill="#6e4f4a" opacity="0.35" filter="url(#soft2)"/>
+      <g fill="url(#seat)"><rect x="-23.5" y="143.5" width="27" height="31" rx="5.9"/><rect x="6.5" y="144.9" width="27" height="31" rx="5.9"/><rect x="36.5" y="146.2" width="27" height="31" rx="5.9"/><rect x="66.5" y="147.2" width="27" height="31" rx="5.9"/><rect x="96.5" y="148.0" width="27" height="31" rx="5.9"/><rect x="126.5" y="148.6" width="27" height="31" rx="5.9"/><rect x="156.5" y="148.9" width="27" height="31" rx="5.9"/><rect x="186.5" y="149.0" width="27" height="31" rx="5.9"/><rect x="216.5" y="148.9" width="27" height="31" rx="5.9"/><rect x="246.5" y="148.6" width="27" height="31" rx="5.9"/><rect x="276.5" y="148.0" width="27" height="31" rx="5.9"/><rect x="306.5" y="147.2" width="27" height="31" rx="5.9"/><rect x="336.5" y="146.2" width="27" height="31" rx="5.9"/><rect x="366.5" y="144.9" width="27" height="31" rx="5.9"/><rect x="396.5" y="143.5" width="27" height="31" rx="5.9"/></g>
+      <g fill="#eeac9c" opacity="0.8"><rect x="-22.0" y="144.3" width="24" height="3" rx="1.5"/><rect x="8.0" y="145.8" width="24" height="3" rx="1.5"/><rect x="38.0" y="147.0" width="24" height="3" rx="1.5"/><rect x="68.0" y="148.0" width="24" height="3" rx="1.5"/><rect x="98.0" y="148.8" width="24" height="3" rx="1.5"/><rect x="128.0" y="149.4" width="24" height="3" rx="1.5"/><rect x="158.0" y="149.7" width="24" height="3" rx="1.5"/><rect x="188.0" y="149.8" width="24" height="3" rx="1.5"/><rect x="218.0" y="149.7" width="24" height="3" rx="1.5"/><rect x="248.0" y="149.4" width="24" height="3" rx="1.5"/><rect x="278.0" y="148.8" width="24" height="3" rx="1.5"/><rect x="308.0" y="148.0" width="24" height="3" rx="1.5"/><rect x="338.0" y="147.0" width="24" height="3" rx="1.5"/><rect x="368.0" y="145.8" width="24" height="3" rx="1.5"/><rect x="398.0" y="144.3" width="24" height="3" rx="1.5"/></g>
+
+      <path d="M-10,161 C120,169 280,169 410,161 L410,174 L-10,174 Z" fill="#6e4f4a" opacity="0.35" filter="url(#soft2)"/>
+      <g fill="url(#seat)"><rect x="-29.0" y="167.4" width="38" height="39" rx="7.0"/><rect x="13.0" y="169.8" width="38" height="39" rx="7.0"/><rect x="55.0" y="171.6" width="38" height="39" rx="7.0"/><rect x="97.0" y="172.9" width="38" height="39" rx="7.0"/><rect x="139.0" y="173.7" width="38" height="39" rx="7.0"/><rect x="181.0" y="174.0" width="38" height="39" rx="7.0"/><rect x="223.0" y="173.7" width="38" height="39" rx="7.0"/><rect x="265.0" y="172.9" width="38" height="39" rx="7.0"/><rect x="307.0" y="171.6" width="38" height="39" rx="7.0"/><rect x="349.0" y="169.8" width="38" height="39" rx="7.0"/><rect x="391.0" y="167.4" width="38" height="39" rx="7.0"/></g>
+      <g fill="#eeac9c" opacity="0.8"><rect x="-27.5" y="168.2" width="35" height="4.3" rx="2.1"/><rect x="14.5" y="170.6" width="35" height="4.3" rx="2.1"/><rect x="56.5" y="172.4" width="35" height="4.3" rx="2.1"/><rect x="98.5" y="173.7" width="35" height="4.3" rx="2.1"/><rect x="140.5" y="174.5" width="35" height="4.3" rx="2.1"/><rect x="182.5" y="174.8" width="35" height="4.3" rx="2.1"/><rect x="224.5" y="174.5" width="35" height="4.3" rx="2.1"/><rect x="266.5" y="173.7" width="35" height="4.3" rx="2.1"/><rect x="308.5" y="172.4" width="35" height="4.3" rx="2.1"/><rect x="350.5" y="170.6" width="35" height="4.3" rx="2.1"/><rect x="392.5" y="168.2" width="35" height="4.3" rx="2.1"/></g>
+
+      <path d="M-10,194 C120,203 280,203 410,194 L410,210 L-10,210 Z" fill="#6e4f4a" opacity="0.38" filter="url(#soft2)"/>
+      <g fill="url(#seat)"><rect x="-20.0" y="201.5" width="56" height="62" rx="9"/><rect x="44.0" y="205.1" width="56" height="62" rx="9"/><rect x="108.0" y="207.3" width="56" height="62" rx="9"/><rect x="172.0" y="208.0" width="56" height="62" rx="9"/><rect x="236.0" y="207.3" width="56" height="62" rx="9"/><rect x="300.0" y="205.1" width="56" height="62" rx="9"/><rect x="364.0" y="201.5" width="56" height="62" rx="9"/></g>
+      <g fill="#eeac9c" opacity="0.8"><rect x="-18.5" y="202.3" width="53" height="5.4" rx="2.7"/><rect x="45.5" y="205.9" width="53" height="5.4" rx="2.7"/><rect x="109.5" y="208.1" width="53" height="5.4" rx="2.7"/><rect x="173.5" y="208.8" width="53" height="5.4" rx="2.7"/><rect x="237.5" y="208.1" width="53" height="5.4" rx="2.7"/><rect x="301.5" y="205.9" width="53" height="5.4" rx="2.7"/><rect x="365.5" y="202.3" width="53" height="5.4" rx="2.7"/></g>
+      <g stroke="#a9564f" stroke-width="1" opacity="0.5" fill="none">
+        <path d="M-12,226 L28,229 M52,230 L92,231 M116,232 L156,232 M180,232 L220,232 M244,232 L284,232 M308,230 L348,229 M372,226 L412,226"/>
+      </g>
+
+      <!-- 越往下越暗 -->
+      <rect x="-10" y="150" width="420" height="120" fill="url(#dim)"/>
+      <!-- 走道的小地灯 -->
+      <circle cx="10" cy="164" r="5" fill="#f8dc9a" opacity="0.5" filter="url(#soft2)"/><circle cx="10" cy="164" r="1.6" fill="#fbe7b4"/>
+      <circle cx="390" cy="198" r="5" fill="#f8dc9a" opacity="0.5" filter="url(#soft2)"/><circle cx="390" cy="198" r="1.6" fill="#fbe7b4"/>
+
+      <!-- 扶手上的一桶爆米花 -->
+      <rect x="282" y="238" width="124" height="18" rx="8" fill="#9c4e48"/>
+      <rect x="284" y="238" width="120" height="4" rx="2" fill="#c36e63"/>
+      <polygon points="309,184 363,184 357,246 315,246" fill="#fbf3e6"/>
+      <g fill="#e07f72">
+        <polygon points="309,184 318,184 322,246 315,246"/><polygon points="327,184 336,184 336,246 329,246"/><polygon points="345,184 354,184 350,246 343,246"/>
+      </g>
+      <polygon points="309,184 363,184 357,246 315,246" fill="url(#bshade)"/>
+      <ellipse cx="336" cy="246" rx="21" ry="3.4" fill="#e9d6c0"/>
+      <use href="#pc" transform="translate(312,182)"/><use href="#pc" transform="translate(322,178)"/><use href="#pc" transform="translate(334,176)"/><use href="#pc" transform="translate(346,177)"/><use href="#pc" transform="translate(358,181)"/>
+      <use href="#pc" transform="translate(318,172)"/><use href="#pc" transform="translate(329,168)"/><use href="#pc" transform="translate(341,167)"/><use href="#pc" transform="translate(352,171)"/>
+      <use href="#pc" transform="translate(324,162) scale(0.95)"/><use href="#pc" transform="translate(336,159)"/><use href="#pc" transform="translate(347,162) scale(0.95)"/><use href="#pc" transform="translate(340,152) scale(0.9)"/>
+      <use href="#pc" transform="translate(313,175) scale(0.9)"/><use href="#pc" transform="translate(358,174) scale(0.9)"/><use href="#pc" transform="translate(330,152) scale(0.85)"/><use href="#pc" transform="translate(350,154) scale(0.85)"/>
+      <use href="#pc" transform="translate(316,164) scale(0.85)"/><use href="#pc" transform="translate(356,164) scale(0.85)"/><use href="#pc" transform="translate(334,145) scale(0.8)"/><use href="#pc" transform="translate(342,170)"/><use href="#pc" transform="translate(326,184)"/><use href="#pc" transform="translate(348,185)"/>
+      <ellipse cx="336" cy="184" rx="27" ry="4.2" fill="none" stroke="#f4e6d2" stroke-width="2"/>
+      <use href="#pc" transform="translate(368,236) scale(0.8)"/><use href="#pc" transform="translate(298,238) scale(0.75)"/>
+    </g>
+
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

@@ -1,0 +1,239 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_18.mp3",
+ "duration": 53.44,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.51,
+  "sentence_max_dev_lu": 0.27,
+  "short_term_std_lu": 0.8,
+  "short_term_std_full_lu": 0.82,
+  "peak_dbfs": -1.85,
+  "buzz_hz": 15000.0,
+  "buzz_db": 5.9,
+  "comb_db": -0.68
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.69,
+   "parts": [
+    [
+     0.5,
+     1.69
+    ]
+   ],
+   "segments": [
+    "El oficio de escribir."
+   ],
+   "text": "El oficio de escribir.",
+   "read": "El oficio de escribir."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.69,
+   "end": 9.24,
+   "parts": [
+    [
+     2.69,
+     3.61
+    ],
+    [
+     3.89,
+     5.28
+    ],
+    [
+     5.56,
+     9.24
+    ]
+   ],
+   "segments": [
+    "Cada mañana,",
+    "antes de que amanezca,",
+    "enciendo la lámpara y me siento ante una vieja máquina de escribir."
+   ],
+   "text": "Cada mañana, antes de que amanezca, enciendo la lámpara y me siento ante una vieja máquina de escribir.",
+   "read": "Cada mañana, antes de que amanezca, enciendo la lámpara y me siento ante una vieja máquina de escribir."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 10.24,
+   "end": 15.88,
+   "parts": [
+    [
+     10.24,
+     15.88
+    ]
+   ],
+   "segments": [
+    "Junto a ella aguardan una pila de folios en blanco, una pluma y una taza de café que acaba enfriándose."
+   ],
+   "text": "Junto a ella aguardan una pila de folios en blanco, una pluma y una taza de café que acaba enfriándose.",
+   "read": "Junto a ella aguardan una pila de folios en blanco, una pluma y una taza de café que acaba enfriándose."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 16.88,
+   "end": 21.95,
+   "parts": [
+    [
+     16.88,
+     18.94
+    ],
+    [
+     19.22,
+     21.95
+    ]
+   ],
+   "segments": [
+    "El primer borrador siempre es torpe,",
+    "y a menudo tacho más líneas de las que conservo."
+   ],
+   "text": "El primer borrador siempre es torpe, y a menudo tacho más líneas de las que conservo.",
+   "read": "El primer borrador siempre es torpe, y a menudo tacho más líneas de las que conservo."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 22.95,
+   "end": 29.34,
+   "parts": [
+    [
+     22.95,
+     26.25
+    ],
+    [
+     26.53,
+     29.34
+    ]
+   ],
+   "segments": [
+    "Imaginamos con frecuencia al escritor como un iluminado,",
+    "cuando su trabajo se parece más al de un artesano."
+   ],
+   "text": "Imaginamos con frecuencia al escritor como un iluminado, cuando su trabajo se parece más al de un artesano.",
+   "read": "Imaginamos con frecuencia al escritor como un iluminado, cuando su trabajo se parece más al de un artesano."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 30.34,
+   "end": 37.1,
+   "parts": [
+    [
+     30.34,
+     34.5
+    ],
+    [
+     34.78,
+     37.1
+    ]
+   ],
+   "segments": [
+    "El oficio consiste en pulir cada frase como el carpintero lija una tabla,",
+    "sin saber si alguien apreciará el esfuerzo."
+   ],
+   "text": "El oficio consiste en pulir cada frase como el carpintero lija una tabla, sin saber si alguien apreciará el esfuerzo.",
+   "read": "El oficio consiste en pulir cada frase como el carpintero lija una tabla, sin saber si alguien apreciará el esfuerzo."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 38.1,
+   "end": 43.29,
+   "parts": [
+    [
+     38.1,
+     40.23
+    ],
+    [
+     40.51,
+     43.29
+    ]
+   ],
+   "segments": [
+    "Es cierto que la inspiración existe,",
+    "pero rara vez acude a quien no la espera trabajando."
+   ],
+   "text": "Es cierto que la inspiración existe, pero rara vez acude a quien no la espera trabajando.",
+   "read": "Es cierto que la inspiración existe, pero rara vez acude a quien no la espera trabajando."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 44.29,
+   "end": 52.24,
+   "parts": [
+    [
+     44.29,
+     46.8
+    ],
+    [
+     47.08,
+     49.06
+    ],
+    [
+     49.34,
+     52.24
+    ]
+   ],
+   "segments": [
+    "Si esperase a sentirme inspirado para empezar,",
+    "mis folios seguirían en blanco;",
+    "por eso escribo incluso los días en que nada parece fluir."
+   ],
+   "text": "Si esperase a sentirme inspirado para empezar, mis folios seguirían en blanco; por eso escribo incluso los días en que nada parece fluir.",
+   "read": "Si esperase a sentirme inspirado para empezar, mis folios seguirían en blanco; por eso escribo incluso los días en que nada parece fluir."
+  }
+ ]
+}

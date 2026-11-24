@@ -1,0 +1,280 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_16.mp3",
+ "duration": 60.174,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 1.18,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 1.01,
+  "peak_dbfs": -1.79,
+  "buzz_hz": 7937.3,
+  "buzz_db": 4.9,
+  "comb_db": -0.4
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.33,
+   "parts": [
+    [
+     0.5,
+     2.33
+    ]
+   ],
+   "segments": [
+    "Un día en la granja."
+   ],
+   "text": "Un día en la granja.",
+   "read": "Un día en la granja."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.33,
+   "end": 7.27,
+   "parts": [
+    [
+     3.33,
+     7.27
+    ]
+   ],
+   "segments": [
+    "El domingo pasado visité la granja de mi amigo Alberto."
+   ],
+   "text": "El domingo pasado visité la granja de mi amigo Alberto.",
+   "read": "El domingo pasado visité la granja de mi amigo Alberto."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.27,
+   "end": 12.48,
+   "parts": [
+    [
+     8.27,
+     12.48
+    ]
+   ],
+   "segments": [
+    "Llegué muy temprano y lo primero que vi fue un granero rojo."
+   ],
+   "text": "Llegué muy temprano y lo primero que vi fue un granero rojo.",
+   "read": "Llegué muy temprano y lo primero que vi fue un granero rojo."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.48,
+   "end": 18.08,
+   "parts": [
+    [
+     13.48,
+     18.08
+    ]
+   ],
+   "segments": [
+    "Al lado había una vaca y algunas gallinas que buscaban comida."
+   ],
+   "text": "Al lado había una vaca y algunas gallinas que buscaban comida.",
+   "read": "Al lado había una vaca y algunas gallinas que buscaban comida."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.08,
+   "end": 22.858,
+   "parts": [
+    [
+     19.08,
+     22.858
+    ]
+   ],
+   "segments": [
+    "Luego recogimos los huevos y dimos de comer a la vaca."
+   ],
+   "text": "Luego recogimos los huevos y dimos de comer a la vaca.",
+   "read": "Luego recogimos los huevos y dimos de comer a la vaca."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 23.858,
+   "end": 28.27,
+   "parts": [
+    [
+     23.858,
+     28.27
+    ]
+   ],
+   "segments": [
+    "Más tarde hicimos un montón de heno junto al cercado de madera."
+   ],
+   "text": "Más tarde hicimos un montón de heno junto al cercado de madera.",
+   "read": "Más tarde hicimos un montón de heno junto al cercado de madera."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.27,
+   "end": 33.12,
+   "parts": [
+    [
+     29.27,
+     33.12
+    ]
+   ],
+   "segments": [
+    "Era un trabajo duro y a mediodía estaba muy cansado."
+   ],
+   "text": "Era un trabajo duro y a mediodía estaba muy cansado.",
+   "read": "Era un trabajo duro y a mediodía estaba muy cansado."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 34.12,
+   "end": 38.06,
+   "parts": [
+    [
+     34.12,
+     38.06
+    ]
+   ],
+   "segments": [
+    "Su madre hizo una tortilla con los huevos de la mañana."
+   ],
+   "text": "Su madre hizo una tortilla con los huevos de la mañana.",
+   "read": "Su madre hizo una tortilla con los huevos de la mañana."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.06,
+   "end": 41.87,
+   "parts": [
+    [
+     39.06,
+     41.87
+    ]
+   ],
+   "segments": [
+    "Nunca he comido una tortilla tan rica."
+   ],
+   "text": "Nunca he comido una tortilla tan rica.",
+   "read": "Nunca he comido una tortilla tan rica."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 42.87,
+   "end": 47.628,
+   "parts": [
+    [
+     42.87,
+     44.098
+    ],
+    [
+     44.378,
+     47.628
+    ]
+   ],
+   "segments": [
+    "Por la tarde,",
+    "el padre de Alberto me enseñó a ordeñar la vaca."
+   ],
+   "text": "Por la tarde, el padre de Alberto me enseñó a ordeñar la vaca.",
+   "read": "Por la tarde, el padre de Alberto me enseñó a ordeñar la vaca."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 48.628,
+   "end": 53.488,
+   "parts": [
+    [
+     48.628,
+     50.738
+    ],
+    [
+     51.018,
+     53.488
+    ]
+   ],
+   "segments": [
+    "Al principio fue difícil,",
+    "pero al final lo hice bastante bien."
+   ],
+   "text": "Al principio fue difícil, pero al final lo hice bastante bien.",
+   "read": "Al principio fue difícil, pero al final lo hice bastante bien."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 54.488,
+   "end": 58.974,
+   "parts": [
+    [
+     54.488,
+     56.614
+    ],
+    [
+     56.894,
+     58.974
+    ]
+   ],
+   "segments": [
+    "Ahora, cuando bebo leche,",
+    "me acuerdo de aquella vaca."
+   ],
+   "text": "Ahora, cuando bebo leche, me acuerdo de aquella vaca.",
+   "read": "Ahora, cuando bebo leche, me acuerdo de aquella vaca."
+  }
+ ]
+}

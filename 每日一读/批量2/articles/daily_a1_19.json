@@ -1,0 +1,142 @@
+{
+ "id": "daily_a1_19",
+ "level": "A1",
+ "no": 19,
+ "title_es": "Mi hermano pequeño",
+ "title_zh": "我的弟弟",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 19 篇。原创短文。只用陈述式现在时，有 hay、se ve、reírse、dormirse、antes de + 原形。12 句，117 词。特别判断：hermano pequeño 是弟弟，照选题表译作“我的弟弟”；小床、玩具小汽车、彩色积木、足球、窗外的蓝天都和插图对应；un coche rojo 是玩具车，译作“红色的小汽车”；bloques de colores 是彩色积木；una torre alta como él 译作“跟他自己一样高”；la tira al suelo 的 la 指积木塔，译作“推倒”；grita de alegría 译作“高兴得大喊大叫”；se duerme 是“睡着”，和 dormir（睡觉）不同；travieso 译作“调皮”；lo quiero mucho 译作“我非常爱他”。第 1 句 Mateo, mi hermano pequeño, 是同位语，第 9 句 noche,、第 10 句 cuento,、第 12 句 travieso, 都照常停顿；全篇没有列举，no_pause_commas 为空。第 5 句 Con sus bloques de colores 后面不加逗号，免得 colores 的词尾在停顿前被吞。词汇：hermano pequeño 在标题里，排在最前；bloque 原文是复数 bloques，tirar 原文是 tira，reírse 原文是 se ríe，gritar 原文是 grita，dormirse 原文是 se duerme。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "hermano pequeño",
+   "弟弟",
+   "hermano pequeño"
+  ],
+  [
+   "habitación",
+   "房间",
+   "habitación"
+  ],
+  [
+   "cama",
+   "床",
+   "cama"
+  ],
+  [
+   "juguete",
+   "玩具",
+   "juguete"
+  ],
+  [
+   "bloque",
+   "积木",
+   "bloques"
+  ],
+  [
+   "torre",
+   "塔",
+   "torre"
+  ],
+  [
+   "tirar",
+   "推倒",
+   "tira"
+  ],
+  [
+   "reírse",
+   "笑",
+   "se ríe"
+  ],
+  [
+   "fútbol",
+   "足球",
+   "fútbol"
+  ],
+  [
+   "balón",
+   "球",
+   "balón"
+  ],
+  [
+   "gritar",
+   "喊叫",
+   "grita"
+  ],
+  [
+   "cuento",
+   "故事",
+   "cuento"
+  ],
+  [
+   "valiente",
+   "勇敢的",
+   "valiente"
+  ],
+  [
+   "dormirse",
+   "睡着",
+   "se duerme"
+  ],
+  [
+   "travieso",
+   "调皮的",
+   "travieso"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Mateo, mi hermano pequeño, es un niño muy alegre.",
+    "zh": "我弟弟马特奥是个非常活泼的孩子。"
+   },
+   {
+    "es": "En su habitación hay una cama pequeña y una ventana grande.",
+    "zh": "他的房间里有一张小床和一扇大窗户。"
+   },
+   {
+    "es": "Desde la ventana se ve el cielo azul.",
+    "zh": "从窗户望出去，能看到蓝蓝的天空。"
+   },
+   {
+    "es": "El juguete favorito de Mateo es un coche rojo.",
+    "zh": "马特奥最喜欢的玩具是一辆红色的小汽车。"
+   },
+   {
+    "es": "Con sus bloques de colores hace una torre alta como él.",
+    "zh": "他用彩色积木搭起一座塔，跟他自己一样高。"
+   },
+   {
+    "es": "Después la tira al suelo y se ríe mucho.",
+    "zh": "然后他把塔推倒，自己笑个不停。"
+   }
+  ],
+  [
+   {
+    "es": "Por la tarde juego con él al fútbol en el parque.",
+    "zh": "下午，我陪他在公园里踢足球。"
+   },
+   {
+    "es": "Mateo corre detrás del balón y grita de alegría.",
+    "zh": "马特奥追着球跑，高兴得大喊大叫。"
+   },
+   {
+    "es": "Por la noche, le leo un cuento antes de dormir.",
+    "zh": "晚上睡觉前，我给他读一个故事。"
+   },
+   {
+    "es": "Siempre quiere el mismo cuento, el de un perro valiente.",
+    "zh": "他总是要听同一个故事，讲的是一只勇敢的小狗。"
+   },
+   {
+    "es": "Muchas veces se duerme con su coche rojo en la mano.",
+    "zh": "他常常手里拿着那辆红色小汽车就睡着了。"
+   },
+   {
+    "es": "A veces es muy travieso, pero lo quiero mucho.",
+    "zh": "他有时候很调皮，但我非常爱他。"
+   }
+  ]
+ ]
+}

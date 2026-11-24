@@ -7,9 +7,11 @@
     python collect_batch.py <批次目录> <工具目录> <工具包根目录> <Release 目录> <桌面目录> [<路径替换.json>]
 
 任何一篇缺文件或核查没写“全部通过”就停下，什么都不复制。打印仓库里要提交的文件清单（相对工具包根目录）到 <批次目录>/files.txt。
+第二批起用环境变量指定仓库里的子目录和校验和文件名：DAILY_SUB=批量2、DAILY_SUMS=daily-reading-batch2-SHA256SUMS.txt（不设就是第一批的 批量、daily-reading-50-SHA256SUMS.txt）。
 """
 import hashlib
 import json
+import os
 import re
 import shutil
 import sys
@@ -17,6 +19,8 @@ import unicodedata
 from pathlib import Path
 
 B, TOOLS, KIT, REL, DESK = (Path(x) for x in sys.argv[1:6])
+SUB = os.environ.get('DAILY_SUB', '批量')
+SUMS = os.environ.get('DAILY_SUMS', 'daily-reading-50-SHA256SUMS.txt')
 topics = json.loads((B / '选题表.json').read_text('utf-8'))
 
 
@@ -55,7 +59,7 @@ for i, t, out, rel_name, desk_name in rows:
     shutil.copy2(out / f'{i}.mp4', REL / rel_name)
     shutil.copy2(out / f'{i}.mp4', DESK / desk_name)
     sums.append(f"{hashlib.sha256((REL / rel_name).read_bytes()).hexdigest()}  {rel_name}")
-(REL / 'daily-reading-50-SHA256SUMS.txt').write_text('\n'.join(sums) + '\n', 'utf-8')
+(REL / SUMS).write_text('\n'.join(sums) + '\n', 'utf-8')
 
 D = KIT / '每日一读'
 files = []
@@ -63,7 +67,7 @@ files = []
 
 # 说明文档里写的本机路径 → 仓库里的相对路径：批次目录、工具目录按命令行给的写法换；另有要换的写在可选的第 6 个参数（JSON：[[原文, 换成], …]）
 LOCAL = (json.loads(Path(sys.argv[6]).read_text('utf-8')) if len(sys.argv) > 6 else []) + [
-    (f'{B}/review/', '每日一读/批量/审读/'), (f'{B}/', '每日一读/批量/'), (f'{TOOLS}/', '每日一读/tools/')]
+    (f'{B}/review/', f'每日一读/{SUB}/审读/'), (f'{B}/', f'每日一读/{SUB}/'), (f'{TOOLS}/', '每日一读/tools/')]
 LEAK = re.compile(r'/tmp/|/private/|/Users/|/home/|Application\sSupport')
 
 
@@ -85,16 +89,16 @@ def put(src, rel):
 for f in sorted(TOOLS.glob('*.py')):
     put(f, f'tools/{f.name}')
 for f in ('选题表.json', '选题表.md', '编写要求.md', '插图要求.md', '样板.json', 'make_topics.py', 'style_ref.svg', 'style_ref.png', '成品一览.md'):
-    put(B / f, f'批量/{f}')
+    put(B / f, f'{SUB}/{f}')
 for f in sorted((B / 'review').glob('*.md')):
-    put(f, f'批量/审读/{f.name}')
+    put(f, f'{SUB}/审读/{f.name}')
 for i, t, out, rel_name, desk_name in rows:
-    put(B / 'articles' / f'{i}.json', f'批量/articles/{i}.json')
-    put(B / 'illust' / f'{i}.svg', f'批量/illust/{i}.svg')
-    put(out / f'{i}.mp3', f'批量/out/{i}/{i}.mp3')
-    put(out / f'{i}_timings.json', f'批量/out/{i}/{i}_timings.json')
-    put(out / f'{i}.plan.json', f'批量/out/{i}/{i}.plan.json')
-    put(out / 'page' / 'layout.json', f'批量/out/{i}/layout.json')
-    put(out / 'qa.txt', f'批量/核查/{i}.txt')
+    put(B / 'articles' / f'{i}.json', f'{SUB}/articles/{i}.json')
+    put(B / 'illust' / f'{i}.svg', f'{SUB}/illust/{i}.svg')
+    put(out / f'{i}.mp3', f'{SUB}/out/{i}/{i}.mp3')
+    put(out / f'{i}_timings.json', f'{SUB}/out/{i}/{i}_timings.json')
+    put(out / f'{i}.plan.json', f'{SUB}/out/{i}/{i}.plan.json')
+    put(out / 'page' / 'layout.json', f'{SUB}/out/{i}/layout.json')
+    put(out / 'qa.txt', f'{SUB}/核查/{i}.txt')
 (B / 'files.txt').write_text('\n'.join(files) + '\n', 'utf-8')
 print(f'归档 {len(rows)} 篇：Release 目录 {len(rows)} 个视频＋SHA256SUMS，桌面 {len(rows)} 个视频，工具包 {len(files)} 个文件')

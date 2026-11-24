@@ -1,0 +1,145 @@
+{
+ "id": "daily_b1_19",
+ "level": "B1",
+ "no": 19,
+ "title_es": "El arte en la calle",
+ "title_zh": "街头艺术",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 19 篇。原创短文。过去未完成时 era 写巷子以前的样子，简单过去时 cubrió 叙述壁画的由来，现在时描写现在的街景；现在虚拟式 no creo que sea lo mismo… que…、espero que… se llenen；条件式 nunca entraría（假设）；连接语 desde entonces、además、sin embargo；固定说法 hay quien、parecer otra。10 句，146 词。没有人名：画壁画的是 una artista del barrio，译作“街区里的一位女艺术家”，弹吉他的是 un chico。callejuela 是“小巷”；mural 是“壁画”；mancha 在抽象画里指一块块的颜色，释义取文中意思写“色块”；estuche 在这里是吉他的“琴盒”；pintada 是在墙上随手写画的“涂鸦”，和第 8 句 una obra hecha con cariño（用心创作的作品）对比；第 4 句 mirarlo 的 lo 指壁画；第 6 句 escucharlo、le dejan 的宾语都是弹吉他的小伙子。插图里墙上的色块壁画、地上打开的吉他盒、长椅都在正文里出现。插图里壁画两边还露着墙面，壁画里也有大块的绿色，所以第 2 句写 casi toda una pared，第 3 句写全 amarillo, azul, verde y naranja（审校改，原稿是 una pared entera 和 amarillo, azul y naranja；词汇 entero 换成 desde entonces）。第 3 句 amarillo, 和 azul, 是列举（amarillo, azul, verde y naranja），不停顿；第 5 句 Cada sábado, además, 中 además 是插入的连接语，两边照常停顿。词汇里 feo 原文是 fea，mancha 原文是 manchas，desde entonces 原文首字母大写，detenerse 原文是 detiene；arte callejero 含标题词 arte，但这个词组不在标题里，按正文第 9 句的位置排。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "amarillo,",
+    "why": "列举：amarillo, azul, verde y naranja（A, B, C y D）"
+   },
+   {
+    "after": "azul,",
+    "why": "列举：amarillo, azul, verde y naranja（A, B, C y D）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "callejuela",
+   "小巷",
+   "callejuela"
+  ],
+  [
+   "feo",
+   "难看的",
+   "fea"
+  ],
+  [
+   "cubrir",
+   "覆盖",
+   "cubrió"
+  ],
+  [
+   "mural",
+   "壁画",
+   "mural"
+  ],
+  [
+   "concreto",
+   "具体的",
+   "concreto"
+  ],
+  [
+   "mancha",
+   "色块",
+   "manchas"
+  ],
+  [
+   "desde entonces",
+   "从那以后",
+   "Desde entonces"
+  ],
+  [
+   "detenerse",
+   "停下",
+   "detiene"
+  ],
+  [
+   "estuche",
+   "琴盒",
+   "estuche"
+  ],
+  [
+   "moneda",
+   "硬币",
+   "moneda"
+  ],
+  [
+   "hay quien",
+   "有人",
+   "hay quien"
+  ],
+  [
+   "ensuciar",
+   "弄脏",
+   "ensucia"
+  ],
+  [
+   "pintada",
+   "涂鸦",
+   "pintada"
+  ],
+  [
+   "arte callejero",
+   "街头艺术",
+   "arte callejero"
+  ],
+  [
+   "acercar",
+   "使接近",
+   "acerca"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cerca de mi casa hay una callejuela que antes era bastante fea y oscura.",
+    "zh": "我家附近有一条小巷，以前又难看又昏暗。"
+   },
+   {
+    "es": "El verano pasado, una artista del barrio cubrió casi toda una pared con un mural enorme.",
+    "zh": "去年夏天，街区里的一位女艺术家用一幅巨大的壁画盖住了几乎一整面墙。"
+   },
+   {
+    "es": "No representa nada concreto: son solo grandes manchas de amarillo, azul, verde y naranja.",
+    "zh": "壁画并不描绘任何具体的东西：只有一大片一大片的黄色、蓝色、绿色和橙色。"
+   },
+   {
+    "es": "Desde entonces, la calle parece otra y mucha gente se detiene a mirarlo.",
+    "zh": "从那以后，这条街仿佛换了个样子，很多人都会停下脚步看看这幅壁画。"
+   },
+   {
+    "es": "Cada sábado, además, un chico toca la guitarra delante del mural con el estuche abierto en el suelo.",
+    "zh": "而且每个星期六，都会有一个小伙子在壁画前弹吉他，琴盒打开着放在地上。"
+   }
+  ],
+  [
+   {
+    "es": "Los vecinos se sientan en el banco a escucharlo y algunos le dejan una moneda.",
+    "zh": "邻居们坐在长椅上听他弹奏，有人还会给他留下一枚硬币。"
+   },
+   {
+    "es": "Sin embargo, hay quien piensa que pintar en las paredes ensucia la ciudad.",
+    "zh": "然而，也有人认为在墙上画画会弄脏城市。"
+   },
+   {
+    "es": "No creo que sea lo mismo una pintada rápida que una obra hecha con cariño.",
+    "zh": "我不认为随手的涂鸦和用心创作的作品是一回事。"
+   },
+   {
+    "es": "Para mí, el arte callejero acerca la belleza a quien nunca entraría en un museo.",
+    "zh": "在我看来，街头艺术把美带给了那些从不会走进博物馆的人。"
+   },
+   {
+    "es": "Espero que otras calles grises se llenen pronto de color y de música.",
+    "zh": "我希望其他灰暗的街道也能早日充满色彩和音乐。"
+   }
+  ]
+ ]
+}

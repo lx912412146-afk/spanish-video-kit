@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_12",
+ "level": "B1",
+ "no": 12,
+ "title_es": "Ir al teatro",
+ "title_zh": "去看戏",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 12 篇。原创短文。过去未完成时 iba、me parecía、esperaba、representaban、no paraba de（过去的背景和习惯），简单过去时 me invitó、se hizo、se abrió、se le cayó、improvisó（事件）；现在虚拟式 no creo que… pueda；条件式 me gustaría（间接引语里的愿望）；连接语 sin embargo、mientras、de repente、además；固定说法 hasta hace poco、con tiempo、fijarse en、parar de。10 句，144 词。人名只有 Javier，译作哈维尔。telón 是剧场的“大幕”；palco 是“包厢”，第 4 句 se asomaban a la sala desde lo alto 译成“从高处俯瞰着观众席”；foco 在这里是舞台的“聚光灯”，对应插图里舞台上的灯光；despistado 是“糊里糊涂的”；第 7 句 se le cayó 是“（东西）意外掉落”的结构；第 8 句 verlos 指演员；en directo 是“现场的”。插图里的红色大幕、舞台灯光、座椅、包厢都在正文里出现（座椅用 en primera fila 带出）。没有列举的逗号：第 5 句 se hizo el silencio, el telón se abrió y un foco iluminó el escenario 是三个并列分句，照常停顿；第 7 句 cuando 从句两边照常停顿。第 3 句不用 butacas,、第 5 句不用 luces,，是为了不让以 -s 结尾的复数名词落在逗号前。词汇里 hasta hace poco 原文首字母大写；fijarse en 原文是 fijé en，caerse 原文是 cayó，parar de 原文是 paraba de。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "hasta hace poco",
+   "直到不久前",
+   "Hasta hace poco"
+  ],
+  [
+   "con tiempo",
+   "提前",
+   "con tiempo"
+  ],
+  [
+   "primera fila",
+   "第一排",
+   "primera fila"
+  ],
+  [
+   "telón",
+   "大幕",
+   "telón"
+  ],
+  [
+   "fijarse en",
+   "注意到",
+   "fijé en"
+  ],
+  [
+   "palco",
+   "包厢",
+   "palcos"
+  ],
+  [
+   "foco",
+   "聚光灯",
+   "foco"
+  ],
+  [
+   "escenario",
+   "舞台",
+   "escenario"
+  ],
+  [
+   "representar",
+   "扮演",
+   "representaban"
+  ],
+  [
+   "despistado",
+   "糊涂的",
+   "despistada"
+  ],
+  [
+   "parar de",
+   "停止",
+   "paraba de"
+  ],
+  [
+   "caerse",
+   "掉落",
+   "cayó"
+  ],
+  [
+   "improvisar",
+   "即兴发挥",
+   "improvisó"
+  ],
+  [
+   "impresionar",
+   "打动",
+   "impresionó"
+  ],
+  [
+   "en directo",
+   "现场的",
+   "en directo"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hasta hace poco casi nunca iba al teatro, porque me parecía un plan aburrido.",
+    "zh": "直到不久前，我还几乎从不去剧院，因为我觉得看戏是件乏味的事。"
+   },
+   {
+    "es": "Sin embargo, el mes pasado mi amigo Javier me invitó a ver una comedia.",
+    "zh": "然而上个月，我的朋友哈维尔邀请我去看一出喜剧。"
+   },
+   {
+    "es": "Llegamos con tiempo y nos sentamos en primera fila, frente a un enorme telón rojo.",
+    "zh": "我们提前到了，坐在第一排，正对着一幅巨大的红色大幕。"
+   },
+   {
+    "es": "Mientras esperaba, me fijé en los palcos que se asomaban a la sala desde lo alto.",
+    "zh": "等候开场的时候，我注意到了那些从高处俯瞰着观众席的包厢。"
+   },
+   {
+    "es": "De repente se hizo el silencio, el telón se abrió y un foco iluminó el escenario.",
+    "zh": "突然，全场安静下来，大幕拉开，一束聚光灯照亮了舞台。"
+   }
+  ],
+  [
+   {
+    "es": "Los actores representaban a una familia muy despistada, y el público no paraba de reír.",
+    "zh": "演员们扮演一个糊里糊涂的家庭，观众笑个不停。"
+   },
+   {
+    "es": "Además, cuando a una actriz se le cayó el sombrero, improvisó una broma muy divertida.",
+    "zh": "而且，一位女演员的帽子掉下来时，她当场即兴开了个十分有趣的玩笑。"
+   },
+   {
+    "es": "Lo que más me impresionó fue verlos tan cerca, sin ninguna pantalla en medio.",
+    "zh": "最打动我的，是能离演员这么近，中间没有隔着任何屏幕。"
+   },
+   {
+    "es": "No creo que el cine pueda transmitir la emoción de un espectáculo en directo.",
+    "zh": "我不认为电影能传达出现场演出的那种感动。"
+   },
+   {
+    "es": "Al salir, le dije a Javier que me gustaría volver pronto.",
+    "zh": "散场出来时，我对哈维尔说，我很想早点再来。"
+   }
+  ]
+ ]
+}

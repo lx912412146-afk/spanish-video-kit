@@ -1,0 +1,280 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_20.mp3",
+ "duration": 61.66,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.47,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.99,
+  "peak_dbfs": -1.81,
+  "buzz_hz": 12999.8,
+  "buzz_db": 5.7,
+  "comb_db": -0.32
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.71,
+   "parts": [
+    [
+     0.5,
+     1.71
+    ]
+   ],
+   "segments": [
+    "La feria del libro."
+   ],
+   "text": "La feria del libro.",
+   "read": "La feria del libro."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.71,
+   "end": 6.7,
+   "parts": [
+    [
+     2.71,
+     3.67
+    ],
+    [
+     3.95,
+     6.7
+    ]
+   ],
+   "segments": [
+    "Cada primavera,",
+    "el parque de mi barrio acoge la feria del libro."
+   ],
+   "text": "Cada primavera, el parque de mi barrio acoge la feria del libro.",
+   "read": "Cada primavera, el parque de mi barrio acoge la feria del libro."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.7,
+   "end": 13.64,
+   "parts": [
+    [
+     7.7,
+     13.64
+    ]
+   ],
+   "segments": [
+    "Sus casetas de madera tienen techos blancos y están repletas de novelas, cuentos y libros de viaje."
+   ],
+   "text": "Sus casetas de madera tienen techos blancos y están repletas de novelas, cuentos y libros de viaje.",
+   "read": "Sus casetas de madera tienen techos blancos y están repletas de novelas, cuentos y libros de viaje."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.64,
+   "end": 19.66,
+   "parts": [
+    [
+     14.64,
+     19.66
+    ]
+   ],
+   "segments": [
+    "El sábado pasado fui con mi amiga Laura y pasamos la mañana entera de caseta en caseta."
+   ],
+   "text": "El sábado pasado fui con mi amiga Laura y pasamos la mañana entera de caseta en caseta.",
+   "read": "El sábado pasado fui con mi amiga Laura y pasamos la mañana entera de caseta en caseta."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.66,
+   "end": 26.14,
+   "parts": [
+    [
+     20.66,
+     26.14
+    ]
+   ],
+   "segments": [
+    "Los libreros nos recomendaban títulos con tanto entusiasmo que era imposible no hacerles caso."
+   ],
+   "text": "Los libreros nos recomendaban títulos con tanto entusiasmo que era imposible no hacerles caso.",
+   "read": "Los libreros nos recomendaban títulos con tanto entusiasmo que era imposible no hacerles caso."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 27.14,
+   "end": 30.62,
+   "parts": [
+    [
+     27.14,
+     30.62
+    ]
+   ],
+   "segments": [
+    "Al final me llevé un libro de poemas para regalárselo a mi padre."
+   ],
+   "text": "Al final me llevé un libro de poemas para regalárselo a mi padre.",
+   "read": "Al final me llevé un libro de poemas para regalárselo a mi padre."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.62,
+   "end": 36.62,
+   "parts": [
+    [
+     31.62,
+     32.75
+    ],
+    [
+     33.03,
+     36.62
+    ]
+   ],
+   "segments": [
+    "En una caseta,",
+    "una escritora firmaba ejemplares y charlaba con cada lector."
+   ],
+   "text": "En una caseta, una escritora firmaba ejemplares y charlaba con cada lector.",
+   "read": "En una caseta, una escritora firmaba ejemplares y charlaba con cada lector."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 37.62,
+   "end": 43.68,
+   "parts": [
+    [
+     37.62,
+     39.08
+    ],
+    [
+     39.36,
+     40.75
+    ],
+    [
+     41.03,
+     43.68
+    ]
+   ],
+   "segments": [
+    "Hicimos una larga cola,",
+    "pero mereció la pena:",
+    "nos escribió una dedicatoria muy simpática."
+   ],
+   "text": "Hicimos una larga cola, pero mereció la pena: nos escribió una dedicatoria muy simpática.",
+   "read": "Hicimos una larga cola, pero mereció la pena: nos escribió una dedicatoria muy simpática."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 44.68,
+   "end": 50.04,
+   "parts": [
+    [
+     44.68,
+     46.7
+    ],
+    [
+     46.98,
+     50.04
+    ]
+   ],
+   "segments": [
+    "Me quedaría horas en este ambiente,",
+    "donde todos comparten la misma pasión por la lectura."
+   ],
+   "text": "Me quedaría horas en este ambiente, donde todos comparten la misma pasión por la lectura.",
+   "read": "Me quedaría horas en este ambiente, donde todos comparten la misma pasión por la lectura."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 51.04,
+   "end": 56.16,
+   "parts": [
+    [
+     51.04,
+     53.3
+    ],
+    [
+     53.58,
+     56.16
+    ]
+   ],
+   "segments": [
+    "Aunque hoy leamos mucho en el móvil,",
+    "no creo que el libro de papel vaya a desaparecer."
+   ],
+   "text": "Aunque hoy leamos mucho en el móvil, no creo que el libro de papel vaya a desaparecer.",
+   "read": "Aunque hoy leamos mucho en el móvil, no creo que el libro de papel vaya a desaparecer."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 57.16,
+   "end": 60.46,
+   "parts": [
+    [
+     57.16,
+     60.46
+    ]
+   ],
+   "segments": [
+    "El año que viene volveré con más tiempo y con la mochila vacía."
+   ],
+   "text": "El año que viene volveré con más tiempo y con la mochila vacía.",
+   "read": "El año que viene volveré con más tiempo y con la mochila vacía."
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "daily_b2_15",
+ "level": "B2",
+ "no": 15,
+ "title_es": "Compartir entre vecinos",
+ "title_zh": "邻里共享",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 15 篇。原创短文。语法：过去未完成时（era、usábamos、había、dudaban）、关系从句里的过去虚拟式（lo que nos hiciera falta）、ir + 副动词（se fueron sumando）、现在完成时（han sido、ha demostrado）、dudar de que / por miedo a que + 过去虚拟式（funcionara、se lo llevaran）、表示相互的代词式动词（se saludaban、se prestan、se echan una mano）、al + 原形（Al compartir）；连接语 sin embargo、pero、sobre todo。8 句，128 词。叙述者用 usábamos、consumimos 把自己算在邻居里，文中没有需要变性的词。人名只有埃莱娜（Elena）。portal 是公寓楼的门厅，junto a los buzones 和插图里的信箱对应，第 3 句的书、果酱罐、工具箱和植物对应架子上的东西；algún libro suelto 译作“零零散散几本书”；echar una mano 译作“帮忙”；Lo más valioso … han sido las conversaciones：表语是复数名词，系动词随表语用复数。第 3 句 tarros de mermelada, una caja de herramientas y una planta 是名词列举，mermelada 后的逗号不停顿；herramientas 放在列举中间、后面紧跟 y，避开句末的复数词尾。第 7 句冒号后是说明，照常停顿。审校改动：插图里是一个没有柜门的敞开式木架，armario 是带门的柜子，和画面对不上，所以第 1 句 un armario 改为 una estantería（译作“木制置物架”），第 4 句 junto al armario 改为 junto a la estantería，第 3、4 句译文的“柜子”相应改为“架子”。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "mermelada,",
+    "why": "列举：tarros de mermelada, una caja de herramientas y una planta（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "compartir",
+   "分享",
+   "compartir"
+  ],
+  [
+   "colocar",
+   "放置",
+   "colocó"
+  ],
+  [
+   "buzón",
+   "信箱",
+   "buzones"
+  ],
+  [
+   "portal",
+   "门厅",
+   "portal"
+  ],
+  [
+   "hacer falta",
+   "需要",
+   "hiciera falta"
+  ],
+  [
+   "suelto",
+   "零散的",
+   "suelto"
+  ],
+  [
+   "tarro",
+   "罐子",
+   "tarros"
+  ],
+  [
+   "valioso",
+   "珍贵的",
+   "valioso"
+  ],
+  [
+   "saludarse",
+   "打招呼",
+   "se saludaban"
+  ],
+  [
+   "echar una mano",
+   "帮忙",
+   "echan una mano"
+  ],
+  [
+   "dudar de",
+   "怀疑",
+   "dudaban de"
+  ],
+  [
+   "por miedo a",
+   "生怕",
+   "por miedo a"
+  ],
+  [
+   "confianza",
+   "信任",
+   "confianza"
+  ],
+  [
+   "contagiarse",
+   "传染",
+   "se contagia"
+  ],
+  [
+   "sobre todo",
+   "更重要的是",
+   "sobre todo"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El invierno pasado, mi vecina Elena colocó una estantería de madera junto a los buzones del portal.",
+    "zh": "去年冬天，我的邻居埃莱娜在门厅的信箱旁放了一个木制置物架。"
+   },
+   {
+    "es": "La idea era sencilla: dejar lo que ya no usábamos y llevarnos lo que nos hiciera falta.",
+    "zh": "想法很简单：把自己不再用的东西放进去，再把需要的东西拿走。"
+   },
+   {
+    "es": "Al principio solo había algún libro suelto, pero pronto se fueron sumando tarros de mermelada, una caja de herramientas y una planta.",
+    "zh": "起初架子上只有零零散散几本书，但很快，果酱罐、工具箱和一盆植物也陆续出现了。"
+   }
+  ],
+  [
+   {
+    "es": "Lo más valioso, sin embargo, han sido las conversaciones que surgen junto a la estantería.",
+    "zh": "不过，最可贵的还是人们在架子旁的一次次交谈。"
+   },
+   {
+    "es": "Vecinos que antes apenas se saludaban ahora se prestan libros y se echan una mano.",
+    "zh": "以前见面几乎不打招呼的邻居，如今会互相借书，彼此帮忙。"
+   },
+   {
+    "es": "Algunos dudaban de que la iniciativa funcionara, por miedo a que unos pocos se lo llevaran todo.",
+    "zh": "有些人曾怀疑这个做法能否行得通，生怕少数人会把东西全都拿走。"
+   },
+   {
+    "es": "Pero la experiencia ha demostrado lo contrario: la confianza se contagia.",
+    "zh": "但事实证明恰恰相反：信任是会传染的。"
+   },
+   {
+    "es": "Al compartir, consumimos menos y, sobre todo, transformamos un simple edificio en una comunidad.",
+    "zh": "通过分享，我们减少了消费；更重要的是，一栋普通的楼变成了一个社区。"
+   }
+  ]
+ ]
+}

@@ -2,9 +2,12 @@
 
     python summary_batch.py <批次目录> <输出.md>
 
+标题行默认“每日一读 50 篇成品一览”；第二批起用环境变量 DAILY_HEAD 指定（例如 DAILY_HEAD=每日一读第二批 50 篇成品一览）。
+
 每篇一行：级别、标题、音色、句数、正文词数、时长、句间停顿、整体响度、短时响度波动、西语字号和字距、最大词间空白、底部留白、核查项数。
 """
 import json
+import os
 import re
 import statistics
 import sys
@@ -37,7 +40,7 @@ for t in topics:
                 f"{T['loudness']['short_term_std_lu']} | {L['es_font'][0]} / {L['es_font'][1]:+g} | {L['es_max_gap']} | "
                 f"{1008 - bottom:.0f} | {n_ok}/{len(checks)} |")
 alld = [d for v in durs.values() for d in v]
-head = ['# 每日一读 50 篇成品一览', '',
+head = ['# ' + os.environ.get('DAILY_HEAD', '每日一读 50 篇成品一览'), '',
         f"共 {len(rows)} 篇，每级 10 篇。时长 {min(alld):.1f}—{max(alld):.1f} 秒，平均 {statistics.mean(alld):.1f} 秒；"
         + '，'.join(f'{lv} 平均 {statistics.mean(v):.1f} 秒' for lv, v in durs.items()) + '。', '',
         '- 词数：正文（不含标题）；时长：MP4 视频时长；停顿：句间停顿（先试 1.0 秒，不过才用 0.9、0.8 秒）。',

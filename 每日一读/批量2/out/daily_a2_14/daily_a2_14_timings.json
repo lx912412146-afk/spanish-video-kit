@@ -1,0 +1,280 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_14.mp3",
+ "duration": 58.909,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.46,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.82,
+  "buzz_hz": 13500.0,
+  "buzz_db": 4.6,
+  "comb_db": -0.8
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.346,
+   "parts": [
+    [
+     0.5,
+     2.346
+    ]
+   ],
+   "segments": [
+    "Una noche de tormenta."
+   ],
+   "text": "Una noche de tormenta.",
+   "read": "Una noche de tormenta."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.346,
+   "end": 6.924,
+   "parts": [
+    [
+     3.346,
+     6.924
+    ]
+   ],
+   "segments": [
+    "El jueves pasado hubo una gran tormenta en mi ciudad."
+   ],
+   "text": "El jueves pasado hubo una gran tormenta en mi ciudad.",
+   "read": "El jueves pasado hubo una gran tormenta en mi ciudad."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.924,
+   "end": 12.769,
+   "parts": [
+    [
+     7.924,
+     12.769
+    ]
+   ],
+   "segments": [
+    "Por la tarde todo se puso oscuro y empezó a llover con fuerza."
+   ],
+   "text": "Por la tarde todo se puso oscuro y empezó a llover con fuerza.",
+   "read": "Por la tarde todo se puso oscuro y empezó a llover con fuerza."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.769,
+   "end": 17.889,
+   "parts": [
+    [
+     13.769,
+     17.889
+    ]
+   ],
+   "segments": [
+    "Desde la ventana veía relámpagos que iluminaban el cielo."
+   ],
+   "text": "Desde la ventana veía relámpagos que iluminaban el cielo.",
+   "read": "Desde la ventana veía relámpagos que iluminaban el cielo."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.889,
+   "end": 24.295,
+   "parts": [
+    [
+     18.889,
+     21.235
+    ],
+    [
+     21.515,
+     24.295
+    ]
+   ],
+   "segments": [
+    "Después de un trueno muy fuerte,",
+    "se fue la luz en todo el edificio."
+   ],
+   "text": "Después de un trueno muy fuerte, se fue la luz en todo el edificio.",
+   "read": "Después de un trueno muy fuerte, se fue la luz en todo el edificio."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 25.295,
+   "end": 29.135,
+   "parts": [
+    [
+     25.295,
+     29.135
+    ]
+   ],
+   "segments": [
+    "Encendí una vela grande y otra pequeña en el alféizar."
+   ],
+   "text": "Encendí una vela grande y otra pequeña en el alféizar.",
+   "read": "Encendí una vela grande y otra pequeña en el alféizar."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 30.135,
+   "end": 34.113,
+   "parts": [
+    [
+     30.135,
+     34.113
+    ]
+   ],
+   "segments": [
+    "Luego me preparé un té caliente y me tapé con una manta."
+   ],
+   "text": "Luego me preparé un té caliente y me tapé con una manta.",
+   "read": "Luego me preparé un té caliente y me tapé con una manta."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 35.113,
+   "end": 39.233,
+   "parts": [
+    [
+     35.113,
+     39.233
+    ]
+   ],
+   "segments": [
+    "Sin luz no podía ver la televisión ni usar el ordenador."
+   ],
+   "text": "Sin luz no podía ver la televisión ni usar el ordenador.",
+   "read": "Sin luz no podía ver la televisión ni usar el ordenador."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 40.233,
+   "end": 43.812,
+   "parts": [
+    [
+     40.233,
+     43.812
+    ]
+   ],
+   "segments": [
+    "Entonces me quedé escuchando la lluvia contra el cristal."
+   ],
+   "text": "Entonces me quedé escuchando la lluvia contra el cristal.",
+   "read": "Entonces me quedé escuchando la lluvia contra el cristal."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 44.812,
+   "end": 48.43,
+   "parts": [
+    [
+     44.812,
+     45.847
+    ],
+    [
+     46.127,
+     48.43
+    ]
+   ],
+   "segments": [
+    "De niño,",
+    "las tormentas me daban miedo."
+   ],
+   "text": "De niño, las tormentas me daban miedo.",
+   "read": "De niño, las tormentas me daban miedo."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 49.43,
+   "end": 52.877,
+   "parts": [
+    [
+     49.43,
+     52.877
+    ]
+   ],
+   "segments": [
+    "Pero esa noche el ruido de la lluvia me relajó mucho."
+   ],
+   "text": "Pero esa noche el ruido de la lluvia me relajó mucho.",
+   "read": "Pero esa noche el ruido de la lluvia me relajó mucho."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 53.877,
+   "end": 57.709,
+   "parts": [
+    [
+     53.877,
+     55.119
+    ],
+    [
+     55.399,
+     57.709
+    ]
+   ],
+   "segments": [
+    "Cuando volvió la luz,",
+    "yo ya estaba dormido en el sofá."
+   ],
+   "text": "Cuando volvió la luz, yo ya estaba dormido en el sofá.",
+   "read": "Cuando volvió la luz, yo ya estaba dormido en el sofá."
+  }
+ ]
+}

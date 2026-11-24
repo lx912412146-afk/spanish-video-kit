@@ -1,0 +1,149 @@
+{
+ "id": "daily_a1_16",
+ "level": "A1",
+ "no": 16,
+ "title_es": "Mi plato favorito",
+ "title_zh": "我最爱吃的菜",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 16 篇。原创短文。只用陈述式现在时，有 llevar（菜里放的料）、hacer、nos sentamos、比较级 todavía más rico、saber a。12 句，119 词。特别判断：一大锅海鲜饭、切开的柠檬、一篮面包都和插图对应；paella de marisco 译作“海鲜饭”；paellera 是做海鲜饭的平底大锅，释义取“海鲜饭锅”；tía 不分姑姑、姨妈，按口语译作“姑姑”；la paella lleva arroz… 的 llevar 是“里面放了”；cada uno come… directamente de la paellera 是一家人围着锅直接吃的习惯；repetir 在这里是“再添一份”；estoy muy lleno 用阳性，叙述者是男性；sabe a mar y a domingo 译作“有大海的味道，也有星期天的味道”。marisco、verdura 用集合名词单数，让列举里没有复数词尾。第 4 句 arroz, marisco y un poco de verdura 是列举，arroz, 登记为不停顿；第 3 句 casa,、第 7 句 comer,、第 10 句 limón, 照常停顿。词汇：plato、favorito 在标题里，排在最前；aplaudir 原文是 aplauden，cada uno 原文是句首的 Cada uno，repetir 原文是 repito，saber a 原文是 sabe a。录音核对后改：第 12 句 sabe a mar y a domingo 被识别成 sabe a María Domingo（mar y a 连成 María），改为 sabe a domingo en familia，译文同步，词汇 saber a 不变。",
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "arroz,",
+    "why": "列举：arroz, marisco y un poco de verdura（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "plato",
+   "菜",
+   "plato"
+  ],
+  [
+   "favorito",
+   "最喜欢的",
+   "favorito"
+  ],
+  [
+   "paella",
+   "海鲜饭",
+   "paella"
+  ],
+  [
+   "marisco",
+   "海鲜",
+   "marisco"
+  ],
+  [
+   "tía",
+   "姑姑",
+   "tía"
+  ],
+  [
+   "mar",
+   "大海",
+   "mar"
+  ],
+  [
+   "arroz",
+   "大米",
+   "arroz"
+  ],
+  [
+   "verdura",
+   "蔬菜",
+   "verdura"
+  ],
+  [
+   "paellera",
+   "海鲜饭锅",
+   "paellera"
+  ],
+  [
+   "limón",
+   "柠檬",
+   "limón"
+  ],
+  [
+   "aplaudir",
+   "鼓掌",
+   "aplauden"
+  ],
+  [
+   "cada uno",
+   "每个人",
+   "Cada uno"
+  ],
+  [
+   "repetir",
+   "再添一份",
+   "repito"
+  ],
+  [
+   "lleno",
+   "饱的",
+   "lleno"
+  ],
+  [
+   "saber a",
+   "尝起来像",
+   "sabe a"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Mi plato favorito es la paella de marisco.",
+    "zh": "我最爱吃的菜是海鲜饭。"
+   },
+   {
+    "es": "La mejor paella es la de mi tía Marta.",
+    "zh": "最好吃的海鲜饭是我姑姑玛尔塔做的。"
+   },
+   {
+    "es": "Los domingos comemos en su casa, cerca del mar.",
+    "zh": "每个星期天，我们都去她家吃饭，她家离海很近。"
+   },
+   {
+    "es": "La paella lleva arroz, marisco y un poco de verdura.",
+    "zh": "海鲜饭里放了大米、海鲜和一点蔬菜。"
+   },
+   {
+    "es": "Mi tía la hace en una paellera muy grande.",
+    "zh": "姑姑用一口很大的海鲜饭锅来做。"
+   },
+   {
+    "es": "Mi trabajo es cortar un limón y poner el pan en una cesta.",
+    "zh": "我的任务是切一个柠檬，再把面包放进篮子里。"
+   }
+  ],
+  [
+   {
+    "es": "A la hora de comer, nos sentamos todos a la mesa.",
+    "zh": "到了吃饭的时候，大家都围着桌子坐下。"
+   },
+   {
+    "es": "Mi tía pone la paellera en el centro y todos aplauden.",
+    "zh": "姑姑把海鲜饭锅放在桌子正中间，大家都鼓起掌来。"
+   },
+   {
+    "es": "Cada uno come con su cuchara directamente de la paellera.",
+    "zh": "每个人都拿着自己的勺子，直接从锅里吃。"
+   },
+   {
+    "es": "Con un poco de limón, el arroz está todavía más rico.",
+    "zh": "挤上一点柠檬汁，米饭就更好吃了。"
+   },
+   {
+    "es": "Siempre repito y al final estoy muy lleno.",
+    "zh": "我每次都要再添一份，最后吃得饱饱的。"
+   },
+   {
+    "es": "La paella de mi tía sabe a domingo en familia.",
+    "zh": "姑姑做的海鲜饭，有一家人一起过星期天的味道。"
+   }
+  ]
+ ]
+}

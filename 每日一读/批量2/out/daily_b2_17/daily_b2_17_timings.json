@@ -1,0 +1,268 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_17.mp3",
+ "duration": 60.05,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.52,
+  "sentence_max_dev_lu": 0.42,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 1.01,
+  "peak_dbfs": -1.6,
+  "buzz_hz": 8779.5,
+  "buzz_db": 5.9,
+  "comb_db": -0.37
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.86,
+   "parts": [
+    [
+     0.5,
+     1.86
+    ]
+   ],
+   "segments": [
+    "El turismo espacial."
+   ],
+   "text": "El turismo espacial.",
+   "read": "El turismo espacial."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.86,
+   "end": 7.28,
+   "parts": [
+    [
+     2.86,
+     3.7
+    ],
+    [
+     3.98,
+     7.28
+    ]
+   ],
+   "segments": [
+    "De niño,",
+    "soñaba con viajar al espacio y ver la Tierra desde lo alto."
+   ],
+   "text": "De niño, soñaba con viajar al espacio y ver la Tierra desde lo alto.",
+   "read": "De niño, soñaba con viajar al espacio y ver la Tierra desde lo alto."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.28,
+   "end": 13.08,
+   "parts": [
+    [
+     8.28,
+     13.08
+    ]
+   ],
+   "segments": [
+    "Entonces parecía impensable que alguien que no fuera astronauta pudiera hacer algo así."
+   ],
+   "text": "Entonces parecía impensable que alguien que no fuera astronauta pudiera hacer algo así.",
+   "read": "Entonces parecía impensable que alguien que no fuera astronauta pudiera hacer algo así."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.08,
+   "end": 18.14,
+   "parts": [
+    [
+     14.08,
+     15.08
+    ],
+    [
+     15.36,
+     18.14
+    ]
+   ],
+   "segments": [
+    "Hoy, en cambio,",
+    "el turismo espacial ha dejado de ser ciencia ficción."
+   ],
+   "text": "Hoy, en cambio, el turismo espacial ha dejado de ser ciencia ficción.",
+   "read": "Hoy, en cambio, el turismo espacial ha dejado de ser ciencia ficción."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.14,
+   "end": 24.67,
+   "parts": [
+    [
+     19.14,
+     24.67
+    ]
+   ],
+   "segments": [
+    "Algunos viajeros han sido lanzados al espacio y han regresado tras unos minutos de ingravidez."
+   ],
+   "text": "Algunos viajeros han sido lanzados al espacio y han regresado tras unos minutos de ingravidez.",
+   "read": "Algunos viajeros han sido lanzados al espacio y han regresado tras unos minutos de ingravidez."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 25.67,
+   "end": 31.91,
+   "parts": [
+    [
+     25.67,
+     31.91
+    ]
+   ],
+   "segments": [
+    "Sus defensores sostienen que los vuelos espaciales impulsan la tecnología y despiertan el interés por la ciencia."
+   ],
+   "text": "Sus defensores sostienen que los vuelos espaciales impulsan la tecnología y despiertan el interés por la ciencia.",
+   "read": "Sus defensores sostienen que los vuelos espaciales impulsan la tecnología y despiertan el interés por la ciencia."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 32.91,
+   "end": 38.55,
+   "parts": [
+    [
+     32.91,
+     34.2
+    ],
+    [
+     34.48,
+     38.55
+    ]
+   ],
+   "segments": [
+    "No obstante,",
+    "cada lanzamiento contamina la atmósfera y cuesta una auténtica fortuna."
+   ],
+   "text": "No obstante, cada lanzamiento contamina la atmósfera y cuesta una auténtica fortuna.",
+   "read": "No obstante, cada lanzamiento contamina la atmósfera y cuesta una auténtica fortuna."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.55,
+   "end": 46.68,
+   "parts": [
+    [
+     39.55,
+     40.89
+    ],
+    [
+     41.17,
+     42.15
+    ],
+    [
+     42.43,
+     46.68
+    ]
+   ],
+   "segments": [
+    "Cabe preguntarse,",
+    "por tanto,",
+    "si este lujo tiene sentido mientras la Tierra pide a gritos nuestra atención."
+   ],
+   "text": "Cabe preguntarse, por tanto, si este lujo tiene sentido mientras la Tierra pide a gritos nuestra atención.",
+   "read": "Cabe preguntarse, por tanto, si este lujo tiene sentido mientras la Tierra pide a gritos nuestra atención."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 47.68,
+   "end": 51.93,
+   "parts": [
+    [
+     47.68,
+     51.93
+    ]
+   ],
+   "segments": [
+    "Quizá algún día viajar al espacio sea más barato y menos contaminante."
+   ],
+   "text": "Quizá algún día viajar al espacio sea más barato y menos contaminante.",
+   "read": "Quizá algún día viajar al espacio sea más barato y menos contaminante."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 52.93,
+   "end": 58.85,
+   "parts": [
+    [
+     52.93,
+     54.31
+    ],
+    [
+     54.59,
+     57.17
+    ],
+    [
+     57.45,
+     58.85
+    ]
+   ],
+   "segments": [
+    "Hasta que llegue ese día,",
+    "seguiré mirando las estrellas desde la playa,",
+    "como cuando era niño."
+   ],
+   "text": "Hasta que llegue ese día, seguiré mirando las estrellas desde la playa, como cuando era niño.",
+   "read": "Hasta que llegue ese día, seguiré mirando las estrellas desde la playa, como cuando era niño."
+  }
+ ]
+}

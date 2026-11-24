@@ -1,0 +1,287 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_14.mp3",
+ "duration": 61.44,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.31,
+  "short_term_std_lu": 0.93,
+  "short_term_std_full_lu": 0.94,
+  "peak_dbfs": -1.64,
+  "buzz_hz": 8781.0,
+  "buzz_db": 6.3,
+  "comb_db": -0.28
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.06,
+   "parts": [
+    [
+     0.5,
+     2.06
+    ]
+   ],
+   "segments": [
+    "El placer de la siesta."
+   ],
+   "text": "El placer de la siesta.",
+   "read": "El placer de la siesta."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.06,
+   "end": 6.94,
+   "parts": [
+    [
+     3.06,
+     6.94
+    ]
+   ],
+   "segments": [
+    "Durante años pensé que dormir la siesta era una pérdida de tiempo."
+   ],
+   "text": "Durante años pensé que dormir la siesta era una pérdida de tiempo.",
+   "read": "Durante años pensé que dormir la siesta era una pérdida de tiempo."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.94,
+   "end": 13.51,
+   "parts": [
+    [
+     7.94,
+     8.68
+    ],
+    [
+     8.96,
+     10.97
+    ],
+    [
+     11.25,
+     13.51
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "desde que tengo un horario flexible,",
+    "se ha convertido en un pequeño placer."
+   ],
+   "text": "Sin embargo, desde que tengo un horario flexible, se ha convertido en un pequeño placer.",
+   "read": "Sin embargo, desde que tengo un horario flexible, se ha convertido en un pequeño placer."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.51,
+   "end": 19.77,
+   "parts": [
+    [
+     14.51,
+     15.67
+    ],
+    [
+     15.95,
+     19.77
+    ]
+   ],
+   "segments": [
+    "Después de comer,",
+    "bajo un poco la persiana y dejo que entre solo una luz suave."
+   ],
+   "text": "Después de comer, bajo un poco la persiana y dejo que entre solo una luz suave.",
+   "read": "Después de comer, bajo un poco la persiana y dejo que entre solo una luz suave."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.77,
+   "end": 25.71,
+   "parts": [
+    [
+     20.77,
+     22.35
+    ],
+    [
+     22.63,
+     25.71
+    ]
+   ],
+   "segments": [
+    "Luego me tumbo en el sofá,",
+    "pongo un cojín bajo la cabeza y abro una novela."
+   ],
+   "text": "Luego me tumbo en el sofá, pongo un cojín bajo la cabeza y abro una novela.",
+   "read": "Luego me tumbo en el sofá, pongo un cojín bajo la cabeza y abro una novela."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 26.71,
+   "end": 30.67,
+   "parts": [
+    [
+     26.71,
+     30.67
+    ]
+   ],
+   "segments": [
+    "Al poco rato se me cierran los ojos y dejo el libro cerrado a un lado."
+   ],
+   "text": "Al poco rato se me cierran los ojos y dejo el libro cerrado a un lado.",
+   "read": "Al poco rato se me cierran los ojos y dejo el libro cerrado a un lado."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.67,
+   "end": 35.54,
+   "parts": [
+    [
+     31.67,
+     32.99
+    ],
+    [
+     33.27,
+     35.54
+    ]
+   ],
+   "segments": [
+    "Duermo poco tiempo,",
+    "pero me despierto con mucha más energía."
+   ],
+   "text": "Duermo poco tiempo, pero me despierto con mucha más energía.",
+   "read": "Duermo poco tiempo, pero me despierto con mucha más energía."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 36.54,
+   "end": 41.14,
+   "parts": [
+    [
+     36.54,
+     41.14
+    ]
+   ],
+   "segments": [
+    "Además, he notado que por la tarde me concentro mejor y trabajo con más calma."
+   ],
+   "text": "Además, he notado que por la tarde me concentro mejor y trabajo con más calma.",
+   "read": "Además, he notado que por la tarde me concentro mejor y trabajo con más calma."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 42.14,
+   "end": 48.69,
+   "parts": [
+    [
+     42.14,
+     42.93
+    ],
+    [
+     43.21,
+     45.54
+    ],
+    [
+     45.82,
+     48.69
+    ]
+   ],
+   "segments": [
+    "Eso sí,",
+    "es importante que la siesta sea breve,",
+    "porque si duermes demasiado te levantas aturdido."
+   ],
+   "text": "Eso sí, es importante que la siesta sea breve, porque si duermes demasiado te levantas aturdido.",
+   "read": "Eso sí, es importante que la siesta sea breve, porque si duermes demasiado te levantas aturdido."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 49.69,
+   "end": 52.82,
+   "parts": [
+    [
+     49.69,
+     52.82
+    ]
+   ],
+   "segments": [
+    "Algunos amigos se ríen de mí y me llaman perezoso."
+   ],
+   "text": "Algunos amigos se ríen de mí y me llaman perezoso.",
+   "read": "Algunos amigos se ríen de mí y me llaman perezoso."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 53.82,
+   "end": 60.24,
+   "parts": [
+    [
+     53.82,
+     56.41
+    ],
+    [
+     56.69,
+     57.82
+    ],
+    [
+     58.1,
+     60.24
+    ]
+   ],
+   "segments": [
+    "Pero yo no creo que descansar sea perder el tiempo;",
+    "al contrario,",
+    "sin esta pausa no rendiría igual."
+   ],
+   "text": "Pero yo no creo que descansar sea perder el tiempo; al contrario, sin esta pausa no rendiría igual.",
+   "read": "Pero yo no creo que descansar sea perder el tiempo; al contrario, sin esta pausa no rendiría igual."
+  }
+ ]
+}

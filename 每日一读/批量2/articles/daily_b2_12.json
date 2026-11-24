@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_12",
+ "level": "B2",
+ "no": 12,
+ "title_es": "La fauna urbana",
+ "title_zh": "城市里的野生动物",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 12 篇。原创短文。语法：简单过去时与过去未完成时叙述（me encontré、estaba、miraba）、条件完成式 + 过去虚拟式（Nunca habría imaginado que … viviera）、比较结构 más … de lo que、a medida que、es probable que + 现在虚拟式（viva）、aunque + 现在虚拟式（parezca）、lo + 形容词（Lo sensato）；连接语 en realidad、de hecho、no obstante、por tanto。9 句，126 词。第一人称叙述，文中没有需要变性的形容词或分词。fauna urbana 指生活在城市里的野生动物，词汇表释义写“城市野生动物”，和中文标题一致；黄昏、公园、灌木旁的狐狸、电线上的鸟和插图对应，Posados en un cable 用单数 cable，避开逗号前的复数词尾；第 6 句 que estas les brindan 的 estas 指 las ciudades，les 指 especies；les crea dependencia 译作“让它们产生依赖”；lo sensato 译作“明智的做法”。全篇没有名词列举，no_pause_commas 为空。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "fauna urbana",
+   "城市野生动物",
+   "fauna urbana"
+  ],
+  [
+   "al atardecer",
+   "黄昏时",
+   "al atardecer"
+  ],
+  [
+   "cara a cara",
+   "面对面",
+   "cara a cara"
+  ],
+  [
+   "zorro",
+   "狐狸",
+   "zorro"
+  ],
+  [
+   "quieto",
+   "一动不动",
+   "quieto"
+  ],
+  [
+   "arbusto",
+   "灌木",
+   "arbusto"
+  ],
+  [
+   "posarse",
+   "停落",
+   "Posados"
+  ],
+  [
+   "vigilar",
+   "注视",
+   "vigilar"
+  ],
+  [
+   "salvaje",
+   "野生的",
+   "salvaje"
+  ],
+  [
+   "especie",
+   "物种",
+   "especies"
+  ],
+  [
+   "aprovechar",
+   "利用",
+   "aprovechan"
+  ],
+  [
+   "refugio",
+   "栖身之所",
+   "refugio"
+  ],
+  [
+   "brindar",
+   "提供",
+   "brindan"
+  ],
+  [
+   "crear dependencia",
+   "造成依赖",
+   "crea dependencia"
+  ],
+  [
+   "sensato",
+   "明智的",
+   "sensato"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Ayer, al atardecer, me encontré cara a cara con un zorro en el parque.",
+    "zh": "昨天黄昏，我在公园里和一只狐狸迎面相遇。"
+   },
+   {
+    "es": "Estaba quieto junto a un arbusto y me miraba con más curiosidad que miedo.",
+    "zh": "它一动不动地站在灌木旁，望着我的眼神里好奇多于害怕。"
+   },
+   {
+    "es": "Posados en un cable, unos pájaros parecían vigilar la escena.",
+    "zh": "几只鸟停在电线上，仿佛在注视着这一幕。"
+   },
+   {
+    "es": "Nunca habría imaginado que un animal salvaje viviera tan cerca de casa.",
+    "zh": "我从没想过，一只野生动物竟会住得离我家这么近。"
+   }
+  ],
+  [
+   {
+    "es": "En realidad, la fauna urbana es más abundante de lo que solemos creer.",
+    "zh": "其实，城市里的野生动物比我们通常以为的要多。"
+   },
+   {
+    "es": "A medida que las ciudades crecen, muchas especies aprovechan la comida y el refugio que estas les brindan.",
+    "zh": "随着城市不断扩张，许多物种开始利用城市为它们提供的食物和栖身之所。"
+   },
+   {
+    "es": "De hecho, es probable que aquel zorro viva de lo que tiramos a la basura.",
+    "zh": "事实上，那只狐狸很可能就靠我们扔掉的垃圾为生。"
+   },
+   {
+    "es": "No obstante, darles de comer, aunque parezca un gesto amable, les crea dependencia.",
+    "zh": "然而，给它们喂食虽然看似是一种善举，却会让它们产生依赖。"
+   },
+   {
+    "es": "Lo sensato, por tanto, es respetar su espacio y recordar que la ciudad también es su hogar.",
+    "zh": "因此，明智的做法是尊重它们的空间，并且记住：城市也是它们的家园。"
+   }
+  ]
+ ]
+}

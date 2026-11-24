@@ -1,0 +1,298 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  607.828125
+ ],
+ "zh": [
+  96,
+  633.828125,
+  480,
+  826.828125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  232.46875,
+  131.625
+ ],
+ "header_gap": 181,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   3
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   4.3,
+   "Hay una tienda de flores en una esquina, al lado de mi casa."
+  ],
+  [
+   "mid",
+   6.5,
+   "La tienda tiene un toldo de rayas encima de la puerta. En un"
+  ],
+  [
+   "mid",
+   4.4,
+   "estante de madera hay rosas, girasoles y tulipanes en cubos con"
+  ],
+  [
+   "mid",
+   5.9,
+   "agua. En la acera hay plantas verdes en maceta. La florista se"
+  ],
+  [
+   "last",
+   3.6,
+   "llama Elena y siempre tiene una sonrisa."
+  ],
+  [
+   "mid",
+   6.8,
+   "Hoy es el cumpleaños de mi madre y quiero comprar un"
+  ],
+  [
+   "mid",
+   3.6,
+   "ramo. Su flor favorita es el girasol. Elena prepara un ramo con una"
+  ],
+  [
+   "mid",
+   4.8,
+   "rosa roja en el centro y girasoles alrededor. Después lo envuelve"
+  ],
+  [
+   "mid",
+   3.8,
+   "en papel y le pone un lazo azul. Con el ramo en la mano, salgo de"
+  ],
+  [
+   "mid",
+   4.7,
+   "la tienda muy contento. Estoy seguro de que a mi madre le va a"
+  ],
+  [
+   "last",
+   0,
+   "gustar."
+  ]
+ ],
+ "es_max_gap": 6.8,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

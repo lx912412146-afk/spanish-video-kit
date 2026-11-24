@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：绿色山丘上的风力发电机，前景一片太阳能板，蓝天白云（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe4ee"/><stop offset="0.38" stop-color="#d6e9f0"/><stop offset="0.6" stop-color="#e9f1ec"/><stop offset="1" stop-color="#f6f1e2"/>
+    </linearGradient>
+    <linearGradient id="farHill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c4d8c8"/><stop offset="1" stop-color="#b6cfbb"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9d79a"/><stop offset="1" stop-color="#a3c985"/>
+    </linearGradient>
+    <linearGradient id="midHill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9fc77f"/><stop offset="0.5" stop-color="#acd08b"/><stop offset="1" stop-color="#94bf76"/>
+    </linearGradient>
+    <linearGradient id="meadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe3a6"/><stop offset="1" stop-color="#bcd68f"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbfbf7"/><stop offset="0.5" stop-color="#eeefea"/><stop offset="1" stop-color="#c8ccc7"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9dcd7"/><stop offset="0.5" stop-color="#fdfdfa"/><stop offset="1" stop-color="#eceee9"/>
+    </linearGradient>
+    <linearGradient id="pv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a98b8"/><stop offset="0.6" stop-color="#8eaac6"/><stop offset="1" stop-color="#a7bfd5"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffaea" stop-opacity="0.95"/><stop offset="0.45" stop-color="#fdf3d8" stop-opacity="0.5"/><stop offset="1" stop-color="#fdf3d8" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 风机：塔筒（顶端在原点，高 62）和三片叶片 -->
+    <path id="towerP" d="M-1.3,0 L1.3,0 L2.5,62 L-2.5,62 Z"/>
+    <path id="bladeP" d="M-1.3,-2.5 C-2.6,-10 -2,-24 -0.3,-32 C0.1,-32.6 0.6,-32.4 0.7,-31.8 C1.5,-23 1.7,-10 1.3,-2.5 Z"/>
+    <g id="rotor">
+      <use href="#bladeP" fill="url(#blade)" stroke="#c3c8c4" stroke-width="0.6"/>
+      <use href="#bladeP" fill="url(#blade)" stroke="#c3c8c4" stroke-width="0.6" transform="rotate(120)"/>
+      <use href="#bladeP" fill="url(#blade)" stroke="#c3c8c4" stroke-width="0.6" transform="rotate(240)"/>
+      <circle r="2.4" fill="#f4f4ef" stroke="#c9ccc7" stroke-width="0.5"/>
+    </g>
+    <g id="nacelle"><rect x="-2.4" y="-2.2" width="8.6" height="4.4" rx="2" fill="#e7e8e3"/></g>
+    <!-- 一块太阳能板（未变形，靠 skewX 斜放） -->
+    <g id="panel">
+      <rect width="34" height="18" fill="url(#pv)"/>
+      <g stroke="#b8cbdc" stroke-width="0.45" opacity="0.85">
+        <line x1="8.5" y1="0" x2="8.5" y2="18"/><line x1="17" y1="0" x2="17" y2="18"/><line x1="25.5" y1="0" x2="25.5" y2="18"/>
+        <line x1="0" y1="6" x2="34" y2="6"/><line x1="0" y1="12" x2="34" y2="12"/>
+      </g>
+      <path d="M6,0 L16,0 L8,18 L-2,18 Z" fill="#ffffff" opacity="0.16" transform="translate(4,0)"/>
+      <rect width="34" height="18" fill="none" stroke="#e4ebef" stroke-width="1"/>
+    </g>
+    <g id="tuft"><path d="M0,0 C-1,-3 -3,-5 -5,-6 M0,0 C0,-3 0,-6 1,-8 M0,0 C1,-3 3,-5 5,-5" stroke="#8fb874" stroke-width="0.9" fill="none" stroke-linecap="round"/></g>
+    <g id="daisy"><circle r="1.6" fill="#fbf7ec"/><circle r="0.7" fill="#efc95e"/></g>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <circle cx="368" cy="22" r="46" fill="url(#sun)"/>
+    <g filter="url(#soft2)" fill="#ffffff" opacity="0.9">
+      <ellipse cx="292" cy="40" rx="24" ry="6.5"/><ellipse cx="306" cy="35" rx="14" ry="6.5"/><ellipse cx="282" cy="37" rx="9" ry="4.5"/>
+      <ellipse cx="142" cy="70" rx="22" ry="5"/><ellipse cx="154" cy="66" rx="11" ry="5"/>
+      <ellipse cx="384" cy="76" rx="16" ry="4"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 远处蓝绿色的山 -->
+      <path d="M0,124 C24,112 46,106 70,110 C92,113 104,104 126,100 C150,96 170,104 196,106 C226,108 246,98 270,96 C300,93 330,100 360,98 C378,97 392,100 400,102 L400,150 L0,150 Z" fill="url(#farHill)"/>
+      <!-- 风机所在的山脊 -->
+      <path d="M0,128 C20,124 44,121 72,122 C98,123 112,119 128,119 C152,118 170,117 188,117 C214,116 232,112 252,111 C278,109 300,106 326,107 C352,108 376,112 400,116 L400,260 L0,260 Z" fill="url(#ridge)"/>
+
+      <!-- 风机（由远到近） -->
+      <g transform="translate(72,104) scale(0.29)"><use href="#towerP" fill="url(#tower)"/><use href="#nacelle"/><use href="#rotor" transform="rotate(28)"/></g>
+      <g transform="translate(128,99) scale(0.34)"><use href="#towerP" fill="url(#tower)"/><use href="#nacelle"/><use href="#rotor" transform="rotate(64)"/></g>
+      <g transform="translate(188,89) scale(0.45)"><use href="#towerP" fill="url(#tower)"/><use href="#nacelle"/><use href="#rotor" transform="rotate(8)"/></g>
+      <g transform="translate(254,73) scale(0.62)"><use href="#towerP" fill="url(#tower)"/><use href="#nacelle"/><use href="#rotor" transform="rotate(46)"/></g>
+      <g transform="translate(328,46) scale(0.98)"><use href="#towerP" fill="url(#tower)"/><use href="#nacelle"/><use href="#rotor" transform="rotate(22)"/></g>
+
+      <!-- 山脊上的小树 -->
+      <g fill="#86b46c">
+        <circle cx="22" cy="126" r="4.5"/><circle cx="29" cy="125" r="3.6"/><circle cx="100" cy="122" r="3.8"/>
+        <circle cx="222" cy="115" r="4"/><circle cx="229" cy="114" r="3.2"/><circle cx="372" cy="112" r="4.6"/><circle cx="380" cy="113" r="3.6"/>
+      </g>
+      <g fill="#9cc67f"><circle cx="21" cy="124" r="2.4"/><circle cx="221" cy="113" r="2.2"/><circle cx="371" cy="110" r="2.4"/></g>
+
+      <!-- 中景山丘 -->
+      <path d="M0,158 C40,146 90,142 140,148 C190,154 230,156 270,150 C320,142 360,138 400,140 L400,260 L0,260 Z" fill="url(#midHill)"/>
+      <path d="M0,158 C40,146 90,142 140,148 C190,154 230,156 270,150 C320,142 360,138 400,140 L400,146 C360,144 320,148 270,156 C230,162 190,160 140,154 C90,148 40,152 0,164 Z" fill="#c2dc9e" opacity="0.6"/>
+      <!-- 树丛 -->
+      <g fill="#7aa962">
+        <circle cx="300" cy="146" r="7"/><circle cx="310" cy="143" r="8"/><circle cx="320" cy="146" r="6.5"/>
+        <circle cx="56" cy="150" r="6"/><circle cx="64" cy="148" r="6.5"/>
+      </g>
+      <g fill="#93c278"><circle cx="307" cy="139" r="4"/><circle cx="62" cy="145" r="3.4"/></g>
+      <g stroke="#8a6f55" stroke-width="1.2"><line x1="310" y1="150" x2="310" y2="155"/><line x1="61" y1="154" x2="61" y2="158"/></g>
+
+      <!-- 前景草地 -->
+      <path d="M0,184 C60,176 140,176 210,180 C280,184 340,178 400,174 L400,260 L0,260 Z" fill="url(#meadow)"/>
+      <path d="M0,184 C60,176 140,176 210,180 C280,184 340,178 400,174" stroke="#b5d28e" stroke-width="2" fill="none" opacity="0.7"/>
+      <!-- 通往山丘的小路 -->
+      <path d="M296,262 C300,242 324,228 332,214 C338,202 330,190 320,181 L326,181 C338,190 346,202 342,214 C336,230 322,246 324,262 Z" fill="#eadfbd"/>
+      <path d="M300,262 C304,244 326,230 334,216" stroke="#d9c99f" stroke-width="0.8" fill="none" opacity="0.8"/>
+    </g>
+
+    <!-- 太阳能板下的阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#5f7a4a">
+      <path d="M36,200 L222,200 L226,206 L30,206 Z"/>
+      <path d="M12,236 L262,236 L266,244 L6,244 Z"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 后排太阳能板 -->
+      <g stroke="#8e969a" stroke-width="1.3" stroke-linecap="round">
+        <line x1="44" y1="196" x2="44" y2="203"/><line x1="98" y1="196" x2="98" y2="203"/><line x1="152" y1="196" x2="152" y2="203"/><line x1="206" y1="196" x2="206" y2="203"/>
+      </g>
+      <g transform="translate(40,178)">
+        <use href="#panel" transform="skewX(-26)"/><use href="#panel" transform="translate(36,0) skewX(-26)"/><use href="#panel" transform="translate(72,0) skewX(-26)"/>
+        <use href="#panel" transform="translate(108,0) skewX(-26)"/><use href="#panel" transform="translate(144,0) skewX(-26)"/>
+      </g>
+      <rect x="31" y="195.5" width="184" height="1.8" fill="#b9c2c6"/>
+
+      <!-- 前排太阳能板 -->
+      <g stroke="#8e969a" stroke-width="1.7" stroke-linecap="round">
+        <line x1="22" y1="232" x2="22" y2="241"/><line x1="92" y1="232" x2="92" y2="241"/><line x1="162" y1="232" x2="162" y2="241"/><line x1="232" y1="232" x2="232" y2="241"/>
+      </g>
+      <g transform="translate(26,206)">
+        <use href="#panel" transform="skewX(-26) scale(1.38)"/><use href="#panel" transform="translate(48,0) skewX(-26) scale(1.38)"/><use href="#panel" transform="translate(96,0) skewX(-26) scale(1.38)"/>
+        <use href="#panel" transform="translate(144,0) skewX(-26) scale(1.38)"/><use href="#panel" transform="translate(192,0) skewX(-26) scale(1.38)"/>
+      </g>
+      <rect x="12" y="230.5" width="246" height="2.2" fill="#b9c2c6"/>
+
+      <!-- 草丛和小花 -->
+      <g>
+        <use href="#tuft" transform="translate(284,214)"/><use href="#tuft" transform="translate(312,232) scale(1.2)"/><use href="#tuft" transform="translate(350,206)"/>
+        <use href="#tuft" transform="translate(372,240) scale(1.3)"/><use href="#tuft" transform="translate(268,246) scale(1.1)"/><use href="#tuft" transform="translate(236,196) scale(0.8)"/>
+        <use href="#tuft" transform="translate(20,190) scale(0.8)"/><use href="#tuft" transform="translate(334,190) scale(0.8)"/>
+      </g>
+      <g>
+        <use href="#daisy" transform="translate(296,222)"/><use href="#daisy" transform="translate(322,214) scale(0.9)"/><use href="#daisy" transform="translate(344,234)"/>
+        <use href="#daisy" transform="translate(364,220) scale(0.85)"/><use href="#daisy" transform="translate(386,228)"/><use href="#daisy" transform="translate(276,234) scale(0.9)"/>
+        <use href="#daisy" transform="translate(300,198) scale(0.75)"/><use href="#daisy" transform="translate(376,200) scale(0.75)"/>
+      </g>
+      <g fill="#f0c95c"><circle cx="308" cy="244" r="1.5"/><circle cx="356" cy="248" r="1.5"/><circle cx="262" cy="222" r="1.3"/><circle cx="388" cy="246" r="1.4"/><circle cx="340" cy="204" r="1.2"/></g>
+    </g>
+
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

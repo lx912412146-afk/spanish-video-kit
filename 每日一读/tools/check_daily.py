@@ -2,7 +2,7 @@
 
 逐篇检查格式、字符、句数、词数、估算时长、重点词汇、中文标点、逗号停顿登记，全部通过打印 OK；-v 另外打印每句的朗读分段
 （| 是停顿 0.28 秒的地方，列举里的逗号应该已经登记成不停顿）。有 ✗ 就要改；“提醒”要自己判断。
-选题表（工具目录旁边的 批量/选题表.json；工作目录里叫 batch/）里的编号、级别、音色必须一致；标题可以微调，但会提醒。
+选题表（工具目录旁边的 批量/、批量2/ 里的 选题表.json；工作目录里叫 batch/、batch2/）里的编号、级别、音色必须一致；标题可以微调，但会提醒。
 """
 import json
 import re
@@ -10,8 +10,8 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-TOPICS_FILE = next(f for f in (HERE.parent / '批量' / '选题表.json', HERE.parent / 'batch' / '选题表.json') if f.exists())
-TOPICS = {t['id']: t for t in json.loads(TOPICS_FILE.read_text('utf-8'))}
+TOPICS_FILES = [f for d in ('批量', 'batch', '批量2', 'batch2') for f in [HERE.parent / d / '选题表.json'] if f.exists()]
+TOPICS = {t['id']: t for f in TOPICS_FILES for t in json.loads(f.read_text('utf-8'))}   # 第一批 01—10、第二批 11—20，编号不重
 SLOGAN = '每日一读 积少成多'
 # 级别：句数、正文词数、每句最多词数、估算每词秒数（含逗号停顿；A1—A2 是 0.8 倍速）
 LEVEL = {'A1': ((11, 13), (108, 124), 15, 0.385), 'A2': ((10, 12), (105, 120), 16, 0.40),
@@ -22,7 +22,8 @@ WORD = re.compile(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+")
 CLAUSE = re.compile(r'(?<=[,;:])\s+(?=\S)')
 ZH_BAD = re.compile(r'[A-Za-z0-9,.;:!?()\[\]"\'<>]')
 RISKY = {'dependienta': '曾被读成 dependiente', 'prohib': 'prohibir 词尾曾被吞', 'rural': 'zonas rurales 曾被连读',
-         'cuánt': 'cuánto/cuántas 后面的名词曾读不出', 'pícnic': '识别会写成 picnic', 'picnic': '外来词'}
+         'cuánt': 'cuánto/cuántas 后面的名词曾读不出', 'pícnic': '识别会写成 picnic', 'picnic': '外来词',
+         'agricultores': '复数词尾曾被吞成 agricultor', 'preguntaos': '曾被认成 preguntados'}
 VERBOSE = '-v' in sys.argv
 
 

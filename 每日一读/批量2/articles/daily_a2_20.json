@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_20",
+ "level": "A2",
+ "no": 20,
+ "title_es": "Mi primera carrera",
+ "title_zh": "我的第一次长跑",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 20 篇。原创短文。简单过去时叙述开始跑步和比赛当天的经过（empecé、mejoré、me animó、me compré、salí、bebí、respiré、seguí、vi、crucé、me sentí），过去未完成时描写背景和状态（me cansaba、tenía、era、estaba agotado、había、marcaba），比较级 más sano、más fuerte que nunca。11 句，118 词。没有需要不停顿的列举逗号：第 8 句 Bebí un poco, respiré hondo y seguí corriendo 是三个动作的并列谓语，逗号照常停顿；第 2 句、第 10 句 pero 前，第 7 句 Por suerte 后的逗号也照常停顿。第 5 句 Una semana antes 后面不加逗号，免得 antes 的词尾 s 在停顿前被吞掉。carrera popular 是普通人都能报名的长跑比赛，译作“大众长跑”；Tenía cinco kilómetros 的主语是这场比赛，译作“全程五公里”；salir 在比赛里指起跑，salí demasiado rápido 译作“起跑太快”；cansarse 原文是 cansaba（me cansaba）；zapatillas para correr 是跑鞋，zapatilla 释义取“运动鞋”；respirar hondo 原文 respiré hondo；agotado、el primero 用阳性，和男声叙述者一致；el arco con cintas de colores que marcaba la meta 对应插图终点挂着彩带的拱门，cintas de colores 放在句中，避开句末复数。审校改动：第 9 句原为 el arco de cintas de colores，de 会让人理解成“彩带扎成的拱门”，插图里的拱门是充气拱门，上面挂着彩带和小三角旗，所以改用 con，也免得一连三个 de；译文本来就是“挂着彩带的拱门”，不变。词头 carrera 在标题里，排在最前；标题的 primera 太基础，没有收进词汇。公园里的赛道、彩带拱门、路边的水杯桌、跑鞋和树都写进了文中。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "carrera",
+   "赛跑",
+   "carrera"
+  ],
+  [
+   "sano",
+   "健康的",
+   "sano"
+  ],
+  [
+   "cansarse",
+   "感到累",
+   "cansaba"
+  ],
+  [
+   "enseguida",
+   "马上",
+   "enseguida"
+  ],
+  [
+   "poco a poco",
+   "渐渐地",
+   "poco a poco"
+  ],
+  [
+   "mejorar",
+   "进步",
+   "mejoré"
+  ],
+  [
+   "animar",
+   "鼓励",
+   "animó"
+  ],
+  [
+   "participar",
+   "参加",
+   "participar"
+  ],
+  [
+   "zapatilla",
+   "运动鞋",
+   "zapatillas"
+  ],
+  [
+   "agotado",
+   "筋疲力尽的",
+   "agotado"
+  ],
+  [
+   "por suerte",
+   "幸好",
+   "Por suerte"
+  ],
+  [
+   "respirar hondo",
+   "深呼吸",
+   "respiré hondo"
+  ],
+  [
+   "arco",
+   "拱门",
+   "arco"
+  ],
+  [
+   "meta",
+   "终点",
+   "meta"
+  ],
+  [
+   "sonrisa",
+   "笑容",
+   "sonrisa"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Hace un año empecé a correr para estar más sano.",
+    "zh": "一年前，我为了让身体更健康，开始跑步。"
+   },
+   {
+    "es": "Los primeros días me cansaba enseguida, pero poco a poco mejoré.",
+    "zh": "刚开始那几天，我很快就累了，但慢慢地越跑越好。"
+   },
+   {
+    "es": "Mi amigo Pablo me animó a participar en una carrera popular.",
+    "zh": "我的朋友巴勃罗鼓励我参加一场大众长跑。"
+   },
+   {
+    "es": "Tenía cinco kilómetros y era en el parque de mi barrio.",
+    "zh": "全程五公里，就在我们街区的公园里举行。"
+   },
+   {
+    "es": "Una semana antes me compré unas zapatillas nuevas para correr.",
+    "zh": "比赛前一个星期，我给自己买了一双新跑鞋。"
+   }
+  ],
+  [
+   {
+    "es": "El día de la carrera salí demasiado rápido y pronto estaba agotado.",
+    "zh": "比赛那天，我起跑太快，没过多久就筋疲力尽了。"
+   },
+   {
+    "es": "Por suerte, junto al camino había una mesa con vasos de agua.",
+    "zh": "幸好，路边有一张桌子，上面摆着一杯杯水。"
+   },
+   {
+    "es": "Bebí un poco, respiré hondo y seguí corriendo.",
+    "zh": "我喝了几口，深吸一口气，又接着往前跑。"
+   },
+   {
+    "es": "Por fin vi el arco con cintas de colores que marcaba la meta.",
+    "zh": "终于，我看到了终点那座挂着彩带的拱门。"
+   },
+   {
+    "es": "No llegué el primero, pero crucé la meta con una gran sonrisa.",
+    "zh": "我不是第一个到的，但我是笑着冲过终点的。"
+   },
+   {
+    "es": "Aquel día me sentí más fuerte que nunca.",
+    "zh": "那一天，我觉得自己从来没有这么强壮过。"
+   }
+  ]
+ ]
+}

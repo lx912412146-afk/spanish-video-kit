@@ -1,0 +1,137 @@
+{
+ "id": "daily_b2_16",
+ "level": "B2",
+ "no": 16,
+ "title_es": "La importancia de las abejas",
+ "title_zh": "蜜蜂的重要性",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 16 篇。原创短文。语法：según + 动词（Según me explicó）、hacer mucho más que、permitir que + 现在虚拟式（den fruto）、过去虚拟式 + 条件式的假设句（Si desaparecieran, … dejaría de llegar）、自复被动（se reduce）、主谓倒装（destacan el cambio climático …）、原形动词作主语（Plantar flores … o comprar miel … son …；cuidar a las abejas es cuidar …）、名词化（la pérdida de su hábitat）；连接语 sin embargo、por lo tanto、como。9 句，123 词。叙述者只以 mi tío 出现，文中没有需要变性的词。人名只有胡利安（Julián），tío 译作“叔叔”。不写具体统计数字，用 buena parte de lo que comemos（我们吃的很多东西）；dos colmenas de madera、campo de girasoles y lavanda 和插图里的两个木蜂箱、向日葵和薰衣草对应，girasoles 放在 y 前，句末落在单数的 lavanda 上；destacar 在这里是“（在原因中）最为突出”，释义取“突出”；miel de la zona 译作“本地产的蜂蜜”。第 6 句 el cambio climático, los pesticidas y la pérdida de su hábitat 是名词列举，climático 后的逗号不停顿。",
+ "no_pause_commas": {
+  "6": [
+   {
+    "after": "climático,",
+    "why": "列举：el cambio climático, los pesticidas y la pérdida de su hábitat（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "abeja",
+   "蜜蜂",
+   "abejas"
+  ],
+  [
+   "colmena",
+   "蜂箱",
+   "colmenas"
+  ],
+  [
+   "girasol",
+   "向日葵",
+   "girasoles"
+  ],
+  [
+   "lavanda",
+   "薰衣草",
+   "lavanda"
+  ],
+  [
+   "según",
+   "据，按照",
+   "Según"
+  ],
+  [
+   "miel",
+   "蜂蜜",
+   "miel"
+  ],
+  [
+   "de flor en flor",
+   "在花间穿梭",
+   "de flor en flor"
+  ],
+  [
+   "polen",
+   "花粉",
+   "polen"
+  ],
+  [
+   "dar fruto",
+   "结果实",
+   "den fruto"
+  ],
+  [
+   "buena parte",
+   "很大一部分",
+   "buena parte"
+  ],
+  [
+   "reducirse",
+   "减少",
+   "se reduce"
+  ],
+  [
+   "año tras año",
+   "年复一年",
+   "año tras año"
+  ],
+  [
+   "destacar",
+   "突出",
+   "destacan"
+  ],
+  [
+   "pesticida",
+   "杀虫剂",
+   "pesticidas"
+  ],
+  [
+   "hábitat",
+   "栖息地",
+   "hábitat"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Mi tío Julián tiene dos colmenas de madera junto a un campo de girasoles y lavanda.",
+    "zh": "我的叔叔胡利安在一片向日葵和薰衣草花田旁有两个木蜂箱。"
+   },
+   {
+    "es": "Según me explicó, sus abejas hacen mucho más que producir miel.",
+    "zh": "据他说，他的蜜蜂所做的远远不止酿蜜。"
+   },
+   {
+    "es": "Al ir de flor en flor, transportan el polen que permite que las plantas den fruto.",
+    "zh": "它们在花丛间穿梭，传播花粉，让植物得以结出果实。"
+   },
+   {
+    "es": "Si desaparecieran, buena parte de lo que comemos dejaría de llegar a la mesa.",
+    "zh": "要是蜜蜂消失了，我们吃的很多东西就再也上不了餐桌。"
+   }
+  ],
+  [
+   {
+    "es": "Sin embargo, su población se reduce año tras año.",
+    "zh": "然而，蜜蜂的数量却在逐年减少。"
+   },
+   {
+    "es": "Entre las causas destacan el cambio climático, los pesticidas y la pérdida de su hábitat.",
+    "zh": "其中最主要的原因是气候变化、杀虫剂以及栖息地的丧失。"
+   },
+   {
+    "es": "Por lo tanto, protegerlas es una responsabilidad de toda la sociedad.",
+    "zh": "因此，保护蜜蜂是全社会的责任。"
+   },
+   {
+    "es": "Plantar flores en el balcón o comprar miel de la zona son pequeñas acciones que marcan la diferencia.",
+    "zh": "在阳台上种些花，或者买本地产的蜂蜜，这些小小的举动都能带来改变。"
+   },
+   {
+    "es": "Como dice mi tío, cuidar a las abejas es cuidar nuestro propio futuro.",
+    "zh": "正如叔叔所说，爱护蜜蜂，就是守护我们自己的未来。"
+   }
+  ]
+ ]
+}

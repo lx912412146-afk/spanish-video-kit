@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_18",
+ "level": "A2",
+ "no": 18,
+ "title_es": "Una tarde en la biblioteca",
+ "title_zh": "图书馆的一个下午",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 18 篇。原创短文。现在时交代背景（tengo、hay），简单过去时叙述在图书馆的一个下午（fui、me senté、encendí、estudié、di una vuelta、encontré、levanté、me llevé），过去未完成时描写阅览室和回忆（tenía、estaba、entraba、me encantaba、era pequeño、era de noche）。11 句，118 词。没有需要不停顿的列举逗号：第 10 句 Cuando 从句后、第 11 句 Al salir 后的逗号照常停顿。dentro de poco 是“不久以后”，第 1 句译作“我快要考试了”；sala de lectura 是“阅览室”；ventanal 是大窗户，对应插图的大窗；sentarse a una mesa 是“在桌旁坐下”；ni una vez 是“一次也没有”；dar una vuelta 原文 di una vuelta，译作“转了一圈”；第 7 句原为 Después, para descansar un rato, di una vuelta…，为了不让 Después 的词尾 s 落在停顿前，去掉逗号，把 para descansar un rato 放到句末；levantar la vista 是“抬起头来”；prestado 原文是阴性 prestada，修饰 la novela，me llevé la novela prestada 译作“把那本小说借回了家”；pequeño 用阳性。词头 biblioteca 在标题里，排在最前。原想加一句 voy a volver muchas tardes 收尾，为了避开句末复数 tardes，没有用。高高的书架、长木桌、台灯、桌上打开的书和大窗户都写进了文中，书里写了什么不提。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "biblioteca",
+   "图书馆",
+   "biblioteca"
+  ],
+  [
+   "dentro de poco",
+   "不久以后",
+   "Dentro de poco"
+  ],
+  [
+   "examen",
+   "考试",
+   "exámenes"
+  ],
+  [
+   "público",
+   "公共的",
+   "pública"
+  ],
+  [
+   "sala de lectura",
+   "阅览室",
+   "sala de lectura"
+  ],
+  [
+   "estantería",
+   "书架",
+   "estanterías"
+  ],
+  [
+   "ventanal",
+   "大窗户",
+   "ventanal"
+  ],
+  [
+   "lámpara",
+   "台灯",
+   "lámpara"
+  ],
+  [
+   "suave",
+   "柔和的",
+   "suave"
+  ],
+  [
+   "ni una vez",
+   "一次也没",
+   "ni una vez"
+  ],
+  [
+   "dar una vuelta",
+   "转一圈",
+   "di una vuelta"
+  ],
+  [
+   "por casualidad",
+   "偶然",
+   "Por casualidad"
+  ],
+  [
+   "novela",
+   "小说",
+   "novela"
+  ],
+  [
+   "levantar la vista",
+   "抬头",
+   "levanté la vista"
+  ],
+  [
+   "prestado",
+   "借来的",
+   "prestada"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Dentro de poco tengo exámenes y en casa hay mucho ruido.",
+    "zh": "我快要考试了，可家里很吵。"
+   },
+   {
+    "es": "Ayer por la tarde fui a estudiar a la biblioteca pública.",
+    "zh": "昨天下午，我去公共图书馆学习。"
+   },
+   {
+    "es": "La sala de lectura tenía estanterías muy altas y un gran ventanal.",
+    "zh": "阅览室里有很高的书架，还有一扇大窗户。"
+   },
+   {
+    "es": "Me senté a una mesa larga de madera y encendí una lámpara.",
+    "zh": "我在一张长长的木桌旁坐下，打开了一盏台灯。"
+   },
+   {
+    "es": "Todo estaba en silencio y entraba una luz suave.",
+    "zh": "四周非常安静，柔和的光线照了进来。"
+   }
+  ],
+  [
+   {
+    "es": "Estudié durante dos horas sin mirar el móvil ni una vez.",
+    "zh": "我学了两个小时，一次手机也没看。"
+   },
+   {
+    "es": "Después di una vuelta por la sala para descansar un rato.",
+    "zh": "后来我在阅览室里转了一圈，休息一会儿。"
+   },
+   {
+    "es": "Por casualidad encontré una novela que me encantaba cuando era pequeño.",
+    "zh": "我偶然发现了一本小时候特别喜欢的小说。"
+   },
+   {
+    "es": "La abrí sobre la mesa y la leí toda la tarde.",
+    "zh": "我把它摊在桌上，读了一整个下午。"
+   },
+   {
+    "es": "Cuando levanté la vista, ya era de noche.",
+    "zh": "等我抬起头来，天已经黑了。"
+   },
+   {
+    "es": "Al salir, me llevé la novela prestada para terminarla en casa.",
+    "zh": "离开的时候，我把那本小说借回了家，想在家里把它读完。"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,295 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a2_11.mp3",
+ "duration": 61.849,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.44,
+  "sentence_max_dev_lu": 0.31,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.79,
+  "buzz_hz": 9342.0,
+  "buzz_db": 4.7,
+  "comb_db": 0.91
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.978,
+   "parts": [
+    [
+     0.5,
+     1.978
+    ]
+   ],
+   "segments": [
+    "El día que vi el mar."
+   ],
+   "text": "El día que vi el mar.",
+   "read": "El día que vi el mar."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.978,
+   "end": 8.938,
+   "parts": [
+    [
+     2.978,
+     4.218
+    ],
+    [
+     4.498,
+     7.088
+    ],
+    [
+     7.368,
+     8.938
+    ]
+   ],
+   "segments": [
+    "Cuando era niño,",
+    "vivía en un pueblo del interior,",
+    "lejos de la costa."
+   ],
+   "text": "Cuando era niño, vivía en un pueblo del interior, lejos de la costa.",
+   "read": "Cuando era niño, vivía en un pueblo del interior, lejos de la costa."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.938,
+   "end": 12.777,
+   "parts": [
+    [
+     9.938,
+     12.777
+    ]
+   ],
+   "segments": [
+    "Solo conocía el mar por la televisión."
+   ],
+   "text": "Solo conocía el mar por la televisión.",
+   "read": "Solo conocía el mar por la televisión."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.777,
+   "end": 18.327,
+   "parts": [
+    [
+     13.777,
+     14.917
+    ],
+    [
+     15.197,
+     18.327
+    ]
+   ],
+   "segments": [
+    "Un verano,",
+    "mis padres me llevaron por fin a la playa."
+   ],
+   "text": "Un verano, mis padres me llevaron por fin a la playa.",
+   "read": "Un verano, mis padres me llevaron por fin a la playa."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.327,
+   "end": 23.786,
+   "parts": [
+    [
+     19.327,
+     23.786
+    ]
+   ],
+   "segments": [
+    "Llegamos por la tarde y subimos a una duna cubierta de hierba."
+   ],
+   "text": "Llegamos por la tarde y subimos a una duna cubierta de hierba.",
+   "read": "Llegamos por la tarde y subimos a una duna cubierta de hierba."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.786,
+   "end": 28.426,
+   "parts": [
+    [
+     24.786,
+     25.986
+    ],
+    [
+     26.266,
+     28.426
+    ]
+   ],
+   "segments": [
+    "Desde arriba,",
+    "vi el mar por primera vez."
+   ],
+   "text": "Desde arriba, vi el mar por primera vez.",
+   "read": "Desde arriba, vi el mar por primera vez."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 29.426,
+   "end": 32.994,
+   "parts": [
+    [
+     29.426,
+     32.994
+    ]
+   ],
+   "segments": [
+    "Era mucho más grande y más azul que en la televisión."
+   ],
+   "text": "Era mucho más grande y más azul que en la televisión.",
+   "read": "Era mucho más grande y más azul que en la televisión."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 33.994,
+   "end": 38.214,
+   "parts": [
+    [
+     33.994,
+     38.214
+    ]
+   ],
+   "segments": [
+    "Las olas se rompían en la orilla con mucha espuma blanca."
+   ],
+   "text": "Las olas se rompían en la orilla con mucha espuma blanca.",
+   "read": "Las olas se rompían en la orilla con mucha espuma blanca."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 39.214,
+   "end": 43.334,
+   "parts": [
+    [
+     39.214,
+     43.334
+    ]
+   ],
+   "segments": [
+    "En el horizonte navegaban un velero grande y otro pequeño."
+   ],
+   "text": "En el horizonte navegaban un velero grande y otro pequeño.",
+   "read": "En el horizonte navegaban un velero grande y otro pequeño."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 44.334,
+   "end": 49.414,
+   "parts": [
+    [
+     44.334,
+     49.414
+    ]
+   ],
+   "segments": [
+    "Dejé mis pequeñas sandalias en la duna y bajé corriendo hasta el agua."
+   ],
+   "text": "Dejé mis pequeñas sandalias en la duna y bajé corriendo hasta el agua.",
+   "read": "Dejé mis pequeñas sandalias en la duna y bajé corriendo hasta el agua."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 50.414,
+   "end": 54.588,
+   "parts": [
+    [
+     50.414,
+     52.678
+    ],
+    [
+     52.958,
+     54.588
+    ]
+   ],
+   "segments": [
+    "El agua estaba fría y salada,",
+    "pero yo no quería salir."
+   ],
+   "text": "El agua estaba fría y salada, pero yo no quería salir.",
+   "read": "El agua estaba fría y salada, pero yo no quería salir."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 55.588,
+   "end": 60.649,
+   "parts": [
+    [
+     55.588,
+     57.889
+    ],
+    [
+     58.169,
+     60.649
+    ]
+   ],
+   "segments": [
+    "He vuelto muchas veces a la playa,",
+    "pero nunca he olvidado aquel día."
+   ],
+   "text": "He vuelto muchas veces a la playa, pero nunca he olvidado aquel día.",
+   "read": "He vuelto muchas veces a la playa, pero nunca he olvidado aquel día."
+  }
+ ]
+}

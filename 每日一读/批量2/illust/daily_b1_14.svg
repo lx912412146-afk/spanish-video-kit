@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：午睡的乐趣（午后的房间：半放下的百叶窗、斜照进来的阳光、沙发和靠垫、一本合上的书、小边桌上的一杯水；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf3e6"/><stop offset="0.6" stop-color="#f8e8d4"/><stop offset="1" stop-color="#f3dcc2"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8cdac"/><stop offset="1" stop-color="#dfbf9b"/>
+    </linearGradient>
+    <linearGradient id="out" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf1d6"/><stop offset="1" stop-color="#f6e6c0"/>
+    </linearGradient>
+    <linearGradient id="sofab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9cad5"/><stop offset="1" stop-color="#a1b5c3"/>
+    </linearGradient>
+    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a3b6c4"/><stop offset="0.5" stop-color="#b8c9d4"/><stop offset="1" stop-color="#9aaebd"/>
+    </linearGradient>
+    <linearGradient id="terra" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaa889"/><stop offset="1" stop-color="#cf7d5c"/>
+    </linearGradient>
+    <linearGradient id="mustard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d38f"/><stop offset="1" stop-color="#dcaf5f"/>
+    </linearGradient>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 墙面和地板 -->
+    <rect width="400" height="260" fill="url(#wall)"/>
+    <rect x="0" y="204" width="400" height="56" fill="url(#floor)"/>
+    <g stroke="#d4b38e" stroke-width="0.8" opacity="0.65">
+      <line x1="0" y1="220" x2="400" y2="220"/><line x1="0" y1="238" x2="400" y2="238"/><line x1="0" y1="255" x2="400" y2="255"/>
+      <line x1="90" y1="204" x2="86" y2="220"/><line x1="320" y1="204" x2="317" y2="220"/><line x1="210" y1="220" x2="206" y2="238"/><line x1="360" y1="238" x2="357" y2="255"/>
+    </g>
+    <rect x="0" y="201" width="400" height="4" fill="#e5cba9"/>
+
+    <g filter="url(#wc)">
+      <!-- 窗户和半放下的百叶窗 -->
+      <rect x="270" y="30" width="100" height="120" fill="url(#out)"/>
+      <g filter="url(#soft2)" opacity="0.8">
+        <ellipse cx="300" cy="140" rx="26" ry="16" fill="#d3e2b4"/><ellipse cx="346" cy="136" rx="22" ry="18" fill="#c8dba8"/>
+      </g>
+      <rect x="270" y="30" width="100" height="74" fill="#f1e1c6"/>
+      <g stroke="#d9c19d" stroke-width="1">
+        <line x1="270" y1="35" x2="370" y2="35"/><line x1="270" y1="40" x2="370" y2="40"/><line x1="270" y1="45" x2="370" y2="45"/><line x1="270" y1="50" x2="370" y2="50"/>
+        <line x1="270" y1="55" x2="370" y2="55"/><line x1="270" y1="60" x2="370" y2="60"/><line x1="270" y1="65" x2="370" y2="65"/><line x1="270" y1="70" x2="370" y2="70"/>
+        <line x1="270" y1="75" x2="370" y2="75"/><line x1="270" y1="80" x2="370" y2="80"/><line x1="270" y1="85" x2="370" y2="85"/><line x1="270" y1="90" x2="370" y2="90"/>
+        <line x1="270" y1="95" x2="370" y2="95"/>
+      </g>
+      <g stroke="#fff8e6" stroke-width="1.1" opacity="0.9">
+        <line x1="270" y1="37.5" x2="370" y2="37.5"/><line x1="270" y1="47.5" x2="370" y2="47.5"/><line x1="270" y1="57.5" x2="370" y2="57.5"/>
+        <line x1="270" y1="67.5" x2="370" y2="67.5"/><line x1="270" y1="77.5" x2="370" y2="77.5"/><line x1="270" y1="87.5" x2="370" y2="87.5"/><line x1="270" y1="97.5" x2="370" y2="97.5"/>
+      </g>
+      <rect x="268" y="100" width="104" height="5" rx="1.5" fill="#e2cba6"/>
+      <line x1="358" y1="105" x2="358" y2="126" stroke="#cdb38c" stroke-width="0.8"/>
+      <circle cx="358" cy="128" r="2" fill="#d9be94"/>
+      <g fill="none" stroke="#eedbc0" stroke-linejoin="round"><rect x="270" y="30" width="100" height="120" stroke-width="6"/></g>
+      <rect x="264" y="148" width="112" height="6" rx="1.5" fill="#efdcc2"/>
+
+      <!-- 小边桌和一杯水 -->
+      <ellipse cx="290" cy="178" rx="19" ry="4.2" fill="#d2ab80"/>
+      <path d="M271,178 C271,180 280,182.5 290,182.5 C300,182.5 309,180 309,178 L309,180 C309,182.5 300,185 290,185 C280,185 271,182.5 271,180 Z" fill="#c29b70"/>
+      <path d="M284,184 L280,208 M296,184 L300,208 M290,185 L290,208" stroke="#b48d63" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M284,160 L296,160 L295,177 L285,177 Z" fill="#eef2ef" opacity="0.75" stroke="#cfd6d2" stroke-width="0.7"/>
+      <path d="M284.5,166 L295.5,166 L295,177 L285,177 Z" fill="#cfe4e6" opacity="0.8"/>
+      <line x1="286" y1="162" x2="286" y2="175" stroke="#fff" stroke-width="0.8" opacity="0.8"/>
+
+      <!-- 沙发 -->
+      <path d="M52,126 C52,118 58,114 66,114 L222,114 C230,114 236,118 236,126 L236,170 L52,170 Z" fill="url(#sofab)"/>
+      <g stroke="#93a8b7" stroke-width="1" opacity="0.7"><line x1="114" y1="117" x2="114" y2="166"/><line x1="174" y1="117" x2="174" y2="166"/></g>
+      <path d="M60,118 L228,118" stroke="#c9d7df" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+      <rect x="50" y="162" width="188" height="25" rx="7" fill="#afc2cf"/>
+      <g stroke="#93a8b7" stroke-width="1" opacity="0.7"><line x1="114" y1="164" x2="114" y2="186"/><line x1="174" y1="164" x2="174" y2="186"/></g>
+      <path d="M56,165 L232,165" stroke="#c6d4dd" stroke-width="1.6" opacity="0.8" stroke-linecap="round"/>
+      <rect x="46" y="184" width="196" height="18" rx="4" fill="#9db1c0"/>
+      <path d="M34,146 C34,136 40,132 48,132 L58,132 C64,132 68,136 68,144 L68,202 L34,202 Z" fill="url(#arm)"/>
+      <path d="M220,146 C220,136 224,132 232,132 L242,132 C250,132 254,136 254,146 L254,202 L220,202 Z" fill="url(#arm)"/>
+      <rect x="40" y="202" width="5" height="6" fill="#9c7552"/><rect x="243" y="202" width="5" height="6" fill="#9c7552"/>
+
+      <!-- 盖毯搭在扶手上 -->
+      <path d="M30,141 C33,131 52,128 66,133 C70,135 72,140 72,146 L73,192 C67,196 61,191 55,196 C49,200 42,195 34,198 C33,180 32,160 30,141 Z" fill="#f5ecdc"/>
+      <g stroke="#dea48a" stroke-width="1.6" opacity="0.85" fill="none"><path d="M32,173 C44,176 58,176 72.5,173"/><path d="M32.5,180 C44,183 58,183 72.8,180"/></g>
+      <g stroke="#e3d1b6" stroke-width="0.9"><line x1="37" y1="197" x2="36" y2="203"/><line x1="43" y1="196" x2="42.5" y2="202"/><line x1="50" y1="197" x2="50" y2="203"/><line x1="56" y1="195" x2="56.5" y2="201"/><line x1="62" y1="193" x2="62.5" y2="199"/><line x1="68" y1="194" x2="69" y2="200"/></g>
+      <path d="M40,138 C44,150 46,170 44,193" stroke="#e8dcc6" stroke-width="1" fill="none"/>
+      <path d="M36,134 C46,130 58,130 66,134" stroke="#fffaf0" stroke-width="1.4" fill="none" opacity="0.8"/>
+
+      <!-- 靠垫 -->
+      <path d="M78,132 C88,129 102,129 112,133 C114,144 114,156 111,166 C100,169 88,169 77,165 C74,154 74,143 78,132 Z" fill="url(#terra)"/>
+      <circle cx="94" cy="149" r="1.8" fill="#c06e50"/>
+      <path d="M80,136 C90,134 102,134 109,137" stroke="#f3c2a8" stroke-width="1.2" fill="none" opacity="0.7"/>
+      <path d="M182,134 C192,130 206,131 215,136 C216,147 215,158 211,167 C200,169 189,168 180,164 C178,154 178,144 182,134 Z" fill="url(#mustard)"/>
+      <g stroke="#f7e3b4" stroke-width="1.3" opacity="0.85" fill="none"><path d="M181,145 C192,144 204,145 215,148"/><path d="M180,155 C191,154 203,155 214,158"/></g>
+      <!-- 合上的书 -->
+      <path d="M128,169 L160,164 L170,170 L138,175.5 Z" fill="#7fa9a3"/>
+      <path d="M138,175.5 L170,170 L170,173 L138,178.5 Z" fill="#f6efe0"/>
+      <path d="M128,169 L138,175.5 L138,178.5 L128,172 Z" fill="#6b958f"/>
+      <path d="M152,168 L155,178 L157,175.5 L159,177" stroke="#d9675a" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+
+      <!-- 地毯 -->
+      <path d="M40,214 L262,214 L280,244 L22,244 Z" fill="#efd9c6"/>
+      <path d="M48,219 L256,219 L270,239 L32,239 Z" fill="none" stroke="#dba28a" stroke-width="1.3" opacity="0.8"/>
+      <g stroke="#e9c9b1" stroke-width="0.9"><line x1="26" y1="244" x2="24" y2="249"/><line x1="40" y1="244" x2="39" y2="249"/><line x1="54" y1="244" x2="53.5" y2="249"/><line x1="250" y1="244" x2="250.5" y2="249"/><line x1="264" y1="244" x2="265" y2="249"/><line x1="276" y1="244" x2="277.5" y2="249"/></g>
+    </g>
+
+    <!-- 阳光：从窗口斜照进来，穿过百叶窗落在沙发和地上 -->
+    <g filter="url(#soft)" opacity="0.25" fill="#fff4d6">
+      <ellipse cx="318" cy="104" rx="70" ry="64"/>
+    </g>
+    <g filter="url(#soft2)" opacity="0.5" fill="#fff3d0">
+      <path d="M270,100 L270,108 L150,258 L143.6,258 Z"/>
+      <path d="M270,113 L270,121 L160.4,258 L154,258 Z"/>
+      <path d="M270,126 L270,134 L170.8,258 L164.4,258 Z"/>
+      <path d="M270,139 L270,150 L183.6,258 L174.8,258 Z"/>
+    </g>
+    <g filter="url(#soft2)" opacity="0.4" fill="#fff1c8">
+      <path d="M150,214 L272,214 L252,252 L118,252 Z"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#8a6a4a">
+      <ellipse cx="146" cy="209" rx="112" ry="3.5"/><ellipse cx="290" cy="209" rx="16" ry="2.5"/>
+      <rect x="266" y="156" width="108" height="4"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

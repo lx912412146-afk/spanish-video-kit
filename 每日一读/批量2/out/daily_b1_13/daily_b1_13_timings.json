@@ -1,0 +1,282 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_13.mp3",
+ "duration": 61.29,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.78,
+  "short_term_std_lu": 0.98,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.78,
+  "buzz_hz": 15000.0,
+  "buzz_db": 5.6,
+  "comb_db": -0.64
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.48,
+   "parts": [
+    [
+     0.5,
+     1.48
+    ]
+   ],
+   "segments": [
+    "La Nochevieja."
+   ],
+   "text": "La Nochevieja.",
+   "read": "La Nochevieja."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.48,
+   "end": 7.05,
+   "parts": [
+    [
+     2.48,
+     3.57
+    ],
+    [
+     3.85,
+     7.05
+    ]
+   ],
+   "segments": [
+    "En mi familia,",
+    "la Nochevieja es una de las noches más especiales del año."
+   ],
+   "text": "En mi familia, la Nochevieja es una de las noches más especiales del año.",
+   "read": "En mi familia, la Nochevieja es una de las noches más especiales del año."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.05,
+   "end": 12.32,
+   "parts": [
+    [
+     8.05,
+     12.32
+    ]
+   ],
+   "segments": [
+    "Cenamos todos juntos alrededor de una mesa con velas y copas de cava."
+   ],
+   "text": "Cenamos todos juntos alrededor de una mesa con velas y copas de cava.",
+   "read": "Cenamos todos juntos alrededor de una mesa con velas y copas de cava."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 13.32,
+   "end": 18.51,
+   "parts": [
+    [
+     13.32,
+     14.62
+    ],
+    [
+     14.9,
+     18.51
+    ]
+   ],
+   "segments": [
+    "Antes de medianoche,",
+    "mi madre prepara un cuenco pequeño de uvas para cada persona."
+   ],
+   "text": "Antes de medianoche, mi madre prepara un cuenco pequeño de uvas para cada persona.",
+   "read": "Antes de medianoche, mi madre prepara un cuenco pequeño de uvas para cada persona."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 19.51,
+   "end": 24.93,
+   "parts": [
+    [
+     19.51,
+     21.37
+    ],
+    [
+     21.65,
+     24.93
+    ]
+   ],
+   "segments": [
+    "Según la tradición española,",
+    "hay que comer doce uvas al ritmo de las campanadas del reloj."
+   ],
+   "text": "Según la tradición española, hay que comer doce uvas al ritmo de las campanadas del reloj.",
+   "read": "Según la tradición española, hay que comer doce uvas al ritmo de las campanadas del reloj."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 25.93,
+   "end": 29.51,
+   "parts": [
+    [
+     25.93,
+     29.51
+    ]
+   ],
+   "segments": [
+    "Dicen que quien las termina a tiempo tendrá suerte durante todo el año."
+   ],
+   "text": "Dicen que quien las termina a tiempo tendrá suerte durante todo el año.",
+   "read": "Dicen que quien las termina a tiempo tendrá suerte durante todo el año."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 30.51,
+   "end": 35.32,
+   "parts": [
+    [
+     30.51,
+     31.25
+    ],
+    [
+     31.53,
+     35.32
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "las campanadas suenan tan seguidas que es difícil que alguien lo consiga."
+   ],
+   "text": "Sin embargo, las campanadas suenan tan seguidas que es difícil que alguien lo consiga.",
+   "read": "Sin embargo, las campanadas suenan tan seguidas que es difícil que alguien lo consiga."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 36.32,
+   "end": 41.58,
+   "parts": [
+    [
+     36.32,
+     39.67
+    ],
+    [
+     39.95,
+     41.58
+    ]
+   ],
+   "segments": [
+    "El año pasado mi prima Clara aseguró que sería muy fácil,",
+    "pero acabó con la boca llena."
+   ],
+   "text": "El año pasado mi prima Clara aseguró que sería muy fácil, pero acabó con la boca llena.",
+   "read": "El año pasado mi prima Clara aseguró que sería muy fácil, pero acabó con la boca llena."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 42.58,
+   "end": 45.8,
+   "parts": [
+    [
+     42.58,
+     45.8
+    ]
+   ],
+   "segments": [
+    "Nos reímos tanto que nadie oyó la última campanada."
+   ],
+   "text": "Nos reímos tanto que nadie oyó la última campanada.",
+   "read": "Nos reímos tanto que nadie oyó la última campanada."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 46.8,
+   "end": 52.7,
+   "parts": [
+    [
+     46.8,
+     48.65
+    ],
+    [
+     48.93,
+     52.7
+    ]
+   ],
+   "segments": [
+    "Después brindamos con cava,",
+    "nos abrazamos y miramos los fuegos artificiales desde la ventana."
+   ],
+   "text": "Después brindamos con cava, nos abrazamos y miramos los fuegos artificiales desde la ventana.",
+   "read": "Después brindamos con cava, nos abrazamos y miramos los fuegos artificiales desde la ventana."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 53.7,
+   "end": 60.09,
+   "parts": [
+    [
+     53.7,
+     54.31
+    ],
+    [
+     54.59,
+     57.34
+    ],
+    [
+     57.62,
+     60.09
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "lo importante no es comerse las uvas a tiempo,",
+    "sino empezar el año con la gente que quiero."
+   ],
+   "text": "Para mí, lo importante no es comerse las uvas a tiempo, sino empezar el año con la gente que quiero.",
+   "read": "Para mí, lo importante no es comerse las uvas a tiempo, sino empezar el año con la gente que quiero."
+  }
+ ]
+}

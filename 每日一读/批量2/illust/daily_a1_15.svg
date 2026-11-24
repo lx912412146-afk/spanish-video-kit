@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：秋天的小路（水彩风格，纯 SVG 手绘，无外部素材） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dae7ec"/><stop offset="0.6" stop-color="#eef0e6"/><stop offset="1" stop-color="#f7eedc"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8dfb4"/><stop offset="1" stop-color="#dccb95"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3e8d0"/><stop offset="1" stop-color="#ead8b6"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9b765a"/><stop offset="0.45" stop-color="#b8916e"/><stop offset="1" stop-color="#8a664b"/>
+    </linearGradient>
+    <path id="lf" d="M0,-5 C3,-3 3.2,2 0,5 C-3.2,2 -3,-3 0,-5 Z"/>
+    <path id="ml" d="M0,3.2 C-1.8,4.2 -3.8,4.4 -5,3.4 L-3.2,1.4 C-5.8,0.6 -7,-1.4 -6.4,-2.8 L-3.4,-2 C-4.2,-4.8 -3.4,-6.8 -2,-7.2 L0,-4.6 L2,-7.2 C3.4,-6.8 4.2,-4.8 3.4,-2 L6.4,-2.8 C7,-1.4 5.8,0.6 3.2,1.4 L5,3.4 C3.8,4.4 1.8,4.2 0,3.2 Z M-0.4,3 L0.4,3 L0.6,7 L-0.6,7 Z"/>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <g filter="url(#soft2)" fill="#ffffff" opacity="0.8">
+      <ellipse cx="190" cy="62" rx="24" ry="6"/><ellipse cx="204" cy="58" rx="13" ry="5.5"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 远山 -->
+      <path d="M0,128 C60,114 120,116 180,126 C230,134 280,118 340,116 C370,115 390,120 400,124 L400,160 L0,160 Z" fill="#e6dcbc"/>
+      <path d="M0,138 C70,130 140,132 210,138 C280,142 340,132 400,134 L400,160 L0,160 Z" fill="#e1d4aa"/>
+      <!-- 远处的房子 -->
+      <rect x="171" y="120" width="28" height="22" fill="#f7efe2"/>
+      <polygon points="166,122 185,106 204,122" fill="#d99a7a"/>
+      <rect x="181" y="129" width="6" height="7" fill="#c9d8dc"/><rect x="191" y="132" width="5" height="10" fill="#c49e7e"/>
+      <rect x="204" y="126" width="30" height="16" fill="#f3e6d2"/>
+      <polygon points="200,128 219,114 238,128" fill="#cf8c6e"/>
+      <rect x="226" y="114" width="4" height="8" fill="#c48466"/>
+      <rect x="210" y="131" width="6" height="6" fill="#c9d8dc"/><rect x="222" y="131" width="6" height="6" fill="#c9d8dc"/>
+      <!-- 远处的小树 -->
+      <rect x="152" y="130" width="2.4" height="14" fill="#a98466"/>
+      <g fill="#dc9a62"><circle cx="153" cy="126" r="9"/><circle cx="147" cy="131" r="6"/><circle cx="159" cy="131" r="6"/></g>
+      <rect x="245" y="128" width="2.4" height="16" fill="#a98466"/>
+      <g fill="#e8c06a"><circle cx="246" cy="124" r="9"/><circle cx="240" cy="129" r="6"/><circle cx="252" cy="129" r="6"/></g>
+
+      <!-- 草地和小路 -->
+      <path d="M0,142 C80,138 300,138 400,142 L400,260 L0,260 Z" fill="url(#grass)"/>
+      <path d="M196,142 L212,142 C222,160 214,178 236,200 C254,220 272,240 286,262 L120,262 C142,240 168,218 178,196 C188,176 186,160 196,142 Z" fill="url(#path)"/>
+      <!-- 树下的落叶堆 -->
+      <g filter="url(#soft2)" opacity="0.55">
+        <ellipse cx="90" cy="198" rx="58" ry="10" fill="#efb067"/><ellipse cx="340" cy="214" rx="70" ry="12" fill="#f0c36a"/><ellipse cx="272" cy="154" rx="28" ry="5" fill="#ecc06c"/>
+      </g>
+
+      <!-- 中间的小黄树 -->
+      <path d="M270,154 C271,140 270,126 272,114 L276,114 C276,128 275,142 278,154 Z" fill="url(#trunk)"/>
+      <g fill="#e3b15a"><circle cx="274" cy="104" r="20"/><circle cx="258" cy="114" r="13"/><circle cx="290" cy="114" r="14"/></g>
+      <g fill="#efc571"><circle cx="268" cy="98" r="12"/><circle cx="286" cy="108" r="8"/></g>
+      <circle cx="265" cy="94" r="6" fill="#f7dc98" opacity="0.7" filter="url(#soft2)"/>
+
+      <!-- 左边的红橙色树 -->
+      <path d="M80,202 C84,176 84,150 82,124 C80,116 74,108 66,102 L70,98 C78,104 84,110 87,118 C90,108 96,100 106,94 L109,98 C100,106 94,116 93,128 C92,152 94,176 100,202 Z" fill="url(#trunk)"/>
+      <g fill="#d97a4d"><circle cx="88" cy="94" r="34"/><circle cx="56" cy="114" r="24"/><circle cx="120" cy="112" r="26"/><circle cx="90" cy="124" r="22"/></g>
+      <g fill="#e6916a"><circle cx="80" cy="86" r="22"/><circle cx="112" cy="100" r="16"/><circle cx="58" cy="108" r="14"/></g>
+      <g fill="#f3b48d" opacity="0.7" filter="url(#soft2)"><circle cx="74" cy="78" r="10"/><circle cx="106" cy="92" r="7"/></g>
+      <g fill="#c96a42" opacity="0.6"><circle cx="96" cy="128" r="10"/><circle cx="66" cy="126" r="8"/></g>
+
+      <!-- 右边的金黄大树 -->
+      <path d="M326,218 C332,184 334,150 332,112 C330,100 322,88 310,80 L314,76 C326,84 334,94 338,104 C342,92 352,80 366,72 L369,76 C356,86 348,100 346,114 C346,150 348,186 356,218 Z" fill="url(#trunk)"/>
+      <path d="M333,120 C322,112 306,108 292,108" stroke="#9b765a" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <g fill="#e3a94f"><circle cx="338" cy="66" r="44"/><circle cx="294" cy="92" r="28"/><circle cx="382" cy="90" r="32"/><circle cx="340" cy="104" r="30"/><circle cx="306" cy="56" r="24"/></g>
+      <g fill="#efbf63"><circle cx="330" cy="56" r="30"/><circle cx="372" cy="76" r="20"/><circle cx="298" cy="86" r="16"/><circle cx="352" cy="96" r="14"/></g>
+      <g fill="#f7da93" opacity="0.7" filter="url(#soft2)"><circle cx="322" cy="44" r="13"/><circle cx="366" cy="66" r="9"/><circle cx="296" cy="78" r="7"/></g>
+      <g fill="#cf8e40" opacity="0.5"><circle cx="344" cy="116" r="12"/><circle cx="308" cy="106" r="10"/><circle cx="384" cy="108" r="12"/></g>
+
+      <!-- 长椅 -->
+      <g fill="#c49a6c">
+        <rect x="236" y="168" width="70" height="4.5" rx="1.4"/><rect x="236" y="175" width="70" height="4.5" rx="1.4"/>
+      </g>
+      <polygon points="236,186 306,186 311,193 231,193" fill="#d6ae80"/>
+      <rect x="231" y="192.5" width="80" height="3.4" rx="1" fill="#ad8259"/>
+      <g stroke="#6d665d" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M240,166 L240,208"/><path d="M302,166 L302,208"/>
+        <path d="M240,182 C234,181 231,184 232,189 L233,195"/><path d="M302,182 C308,181 311,184 310,189 L309,195"/>
+        <path d="M234,196 L233,208"/><path d="M308,196 L309,208"/>
+      </g>
+      <use href="#ml" transform="translate(258,188) rotate(20) scale(0.75)" fill="#e58b5a"/><use href="#lf" transform="translate(286,189) rotate(70) scale(0.8)" fill="#f0c36a"/>
+
+      <!-- 地上的落叶 -->
+      <g fill="#e9a94f"><use href="#lf" transform="translate(246,225) rotate(57) scale(0.84)"/><use href="#lf" transform="translate(303,189) rotate(185) scale(0.54)"/><use href="#lf" transform="translate(383,201) rotate(305) scale(0.64)"/><use href="#lf" transform="translate(386,196) rotate(273) scale(0.60)"/><use href="#lf" transform="translate(241,256) rotate(208) scale(1.10)"/><use href="#lf" transform="translate(119,196) rotate(26) scale(0.60)"/><use href="#lf" transform="translate(261,209) rotate(222) scale(0.71)"/><use href="#lf" transform="translate(367,191) rotate(73) scale(0.56)"/><use href="#lf" transform="translate(165,172) rotate(90) scale(0.40)"/><use href="#lf" transform="translate(31,209) rotate(309) scale(0.70)"/><use href="#lf" transform="translate(5,200) rotate(26) scale(0.63)"/><use href="#lf" transform="translate(54,185) rotate(126) scale(0.51)"/><use href="#lf" transform="translate(393,242) rotate(163) scale(0.98)"/><use href="#lf" transform="translate(54,168) rotate(164) scale(0.36)"/></g>
+      <g fill="#e58b5a"><use href="#lf" transform="translate(25,241) rotate(13) scale(0.97)"/><use href="#lf" transform="translate(47,224) rotate(151) scale(0.83)"/><use href="#lf" transform="translate(363,180) rotate(294) scale(0.47)"/><use href="#lf" transform="translate(288,182) rotate(25) scale(0.48)"/><use href="#lf" transform="translate(148,182) rotate(206) scale(0.48)"/><use href="#lf" transform="translate(276,225) rotate(210) scale(0.84)"/><use href="#lf" transform="translate(27,173) rotate(112) scale(0.41)"/><use href="#lf" transform="translate(374,170) rotate(265) scale(0.38)"/><use href="#lf" transform="translate(241,169) rotate(173) scale(0.37)"/><use href="#lf" transform="translate(100,202) rotate(228) scale(0.65)"/><use href="#lf" transform="translate(380,230) rotate(100) scale(0.88)"/></g>
+      <g fill="#d9704a"><use href="#lf" transform="translate(307,172) rotate(144) scale(0.40)"/><use href="#lf" transform="translate(270,184) rotate(121) scale(0.50)"/><use href="#lf" transform="translate(255,185) rotate(6) scale(0.51)"/><use href="#lf" transform="translate(95,253) rotate(254) scale(1.07)"/><use href="#lf" transform="translate(55,174) rotate(162) scale(0.42)"/><use href="#lf" transform="translate(369,219) rotate(171) scale(0.79)"/><use href="#lf" transform="translate(102,249) rotate(4) scale(1.04)"/><use href="#lf" transform="translate(245,179) rotate(187) scale(0.46)"/><use href="#lf" transform="translate(177,225) rotate(321) scale(0.84)"/><use href="#lf" transform="translate(154,245) rotate(210) scale(1.01)"/></g>
+      <g fill="#f0c36a"><use href="#lf" transform="translate(224,207) rotate(333) scale(0.69)"/><use href="#lf" transform="translate(246,209) rotate(67) scale(0.71)"/><use href="#lf" transform="translate(238,223) rotate(143) scale(0.83)"/><use href="#lf" transform="translate(208,242) rotate(231) scale(0.98)"/><use href="#lf" transform="translate(34,166) rotate(236) scale(0.35)"/><use href="#lf" transform="translate(371,185) rotate(19) scale(0.51)"/><use href="#lf" transform="translate(283,178) rotate(4) scale(0.45)"/><use href="#lf" transform="translate(71,238) rotate(201) scale(0.95)"/><use href="#lf" transform="translate(394,212) rotate(277) scale(0.73)"/><use href="#lf" transform="translate(354,193) rotate(76) scale(0.58)"/><use href="#lf" transform="translate(181,199) rotate(345) scale(0.63)"/><use href="#lf" transform="translate(229,244) rotate(225) scale(1.00)"/><use href="#lf" transform="translate(374,196) rotate(250) scale(0.60)"/><use href="#lf" transform="translate(189,176) rotate(333) scale(0.43)"/></g>
+      <g fill="#c98a4b"><use href="#lf" transform="translate(342,207) rotate(68) scale(0.69)"/><use href="#lf" transform="translate(311,220) rotate(117) scale(0.80)"/><use href="#lf" transform="translate(346,166) rotate(351) scale(0.35)"/><use href="#lf" transform="translate(85,255) rotate(93) scale(1.09)"/><use href="#lf" transform="translate(63,231) rotate(226) scale(0.89)"/><use href="#lf" transform="translate(380,184) rotate(318) scale(0.50)"/><use href="#lf" transform="translate(19,173) rotate(39) scale(0.41)"/><use href="#lf" transform="translate(362,204) rotate(177) scale(0.67)"/><use href="#lf" transform="translate(335,206) rotate(30) scale(0.68)"/><use href="#lf" transform="translate(228,230) rotate(111) scale(0.88)"/></g>
+      <g fill="#e7b25c"><use href="#lf" transform="translate(36,193) rotate(291) scale(0.58)"/><use href="#lf" transform="translate(398,256) rotate(302) scale(1.10)"/><use href="#lf" transform="translate(159,254) rotate(26) scale(1.09)"/><use href="#lf" transform="translate(54,241) rotate(139) scale(0.97)"/><use href="#lf" transform="translate(385,229) rotate(8) scale(0.88)"/><use href="#lf" transform="translate(30,256) rotate(197) scale(1.10)"/><use href="#lf" transform="translate(366,237) rotate(127) scale(0.94)"/><use href="#lf" transform="translate(397,224) rotate(317) scale(0.83)"/><use href="#lf" transform="translate(45,252) rotate(281) scale(1.07)"/><use href="#lf" transform="translate(208,200) rotate(242) scale(0.64)"/><use href="#lf" transform="translate(111,241) rotate(219) scale(0.97)"/></g>
+      <!-- 前景的几片枫叶 -->
+      <use href="#ml" transform="translate(132,236) rotate(-20) scale(1.3)" fill="#e0794f"/><use href="#ml" transform="translate(320,246) rotate(30) scale(1.4)" fill="#eab04f"/><use href="#ml" transform="translate(196,222) rotate(10) scale(1.1)" fill="#d9704a"/>
+      <!-- 飘落的叶子 -->
+      <use href="#lf" transform="translate(252,128) rotate(40) scale(0.9)" fill="#efbf63"/><use href="#lf" transform="translate(150,152) rotate(-30) scale(0.8)" fill="#e58b5a"/>
+      <use href="#ml" transform="translate(296,150) rotate(15) scale(0.8)" fill="#e9a94f"/><use href="#lf" transform="translate(370,148) rotate(70) scale(0.8)" fill="#e3a94f"/>
+      <use href="#lf" transform="translate(42,150) rotate(-60) scale(0.8)" fill="#d97a4d"/><use href="#ml" transform="translate(212,104) rotate(-25) scale(0.7)" fill="#efbf63"/>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.18" fill="#8a6a4a">
+      <ellipse cx="90" cy="203" rx="30" ry="3.5"/><ellipse cx="340" cy="219" rx="34" ry="4"/><ellipse cx="271" cy="208" rx="44" ry="3"/><ellipse cx="274" cy="155" rx="12" ry="2"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

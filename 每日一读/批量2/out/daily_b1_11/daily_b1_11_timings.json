@@ -1,0 +1,295 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_11.mp3",
+ "duration": 62.47,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.46,
+  "sentence_max_dev_lu": 0.67,
+  "short_term_std_lu": 0.92,
+  "short_term_std_full_lu": 0.94,
+  "peak_dbfs": -1.75,
+  "buzz_hz": 15000.0,
+  "buzz_db": 5.3,
+  "comb_db": 0.17
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 1.0,
+  "leveler_rng": 4.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.97,
+   "parts": [
+    [
+     0.5,
+     1.97
+    ]
+   ],
+   "segments": [
+    "Las plantas en casa."
+   ],
+   "text": "Las plantas en casa.",
+   "read": "Las plantas en casa."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.97,
+   "end": 7.85,
+   "parts": [
+    [
+     2.97,
+     4.69
+    ],
+    [
+     4.97,
+     7.85
+    ]
+   ],
+   "segments": [
+    "Cuando me mudé a este piso,",
+    "el salón me parecía vacío y un poco triste."
+   ],
+   "text": "Cuando me mudé a este piso, el salón me parecía vacío y un poco triste.",
+   "read": "Cuando me mudé a este piso, el salón me parecía vacío y un poco triste."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.85,
+   "end": 14.05,
+   "parts": [
+    [
+     8.85,
+     10.87
+    ],
+    [
+     11.15,
+     14.05
+    ]
+   ],
+   "segments": [
+    "Por eso compré mi primera planta,",
+    "un cactus que puse en el alféizar de la ventana."
+   ],
+   "text": "Por eso compré mi primera planta, un cactus que puse en el alféizar de la ventana.",
+   "read": "Por eso compré mi primera planta, un cactus que puse en el alféizar de la ventana."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.05,
+   "end": 19.63,
+   "parts": [
+    [
+     15.05,
+     19.63
+    ]
+   ],
+   "segments": [
+    "Más tarde llegaron una planta colgante y otra con hojas tan grandes como un plato."
+   ],
+   "text": "Más tarde llegaron una planta colgante y otra con hojas tan grandes como un plato.",
+   "read": "Más tarde llegaron una planta colgante y otra con hojas tan grandes como un plato."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.63,
+   "end": 25.52,
+   "parts": [
+    [
+     20.63,
+     22.98
+    ],
+    [
+     23.26,
+     25.52
+    ]
+   ],
+   "segments": [
+    "Hoy no cabe ni una maceta más en el estante,",
+    "y este rincón parece un pequeño jardín."
+   ],
+   "text": "Hoy no cabe ni una maceta más en el estante, y este rincón parece un pequeño jardín.",
+   "read": "Hoy no cabe ni una maceta más en el estante, y este rincón parece un pequeño jardín."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 26.52,
+   "end": 31.55,
+   "parts": [
+    [
+     26.52,
+     28.76
+    ],
+    [
+     29.04,
+     31.55
+    ]
+   ],
+   "segments": [
+    "Cada planta requiere un cuidado especial,",
+    "así que he aprendido a observarlas con atención."
+   ],
+   "text": "Cada planta requiere un cuidado especial, así que he aprendido a observarlas con atención.",
+   "read": "Cada planta requiere un cuidado especial, así que he aprendido a observarlas con atención."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 32.55,
+   "end": 38.0,
+   "parts": [
+    [
+     32.55,
+     34.71
+    ],
+    [
+     34.99,
+     38.0
+    ]
+   ],
+   "segments": [
+    "El cactus casi no necesita agua,",
+    "mientras que la colgante prefiere que la riegue a menudo."
+   ],
+   "text": "El cactus casi no necesita agua, mientras que la colgante prefiere que la riegue a menudo.",
+   "read": "El cactus casi no necesita agua, mientras que la colgante prefiere que la riegue a menudo."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.0,
+   "end": 44.23,
+   "parts": [
+    [
+     39.0,
+     39.98
+    ],
+    [
+     40.26,
+     44.23
+    ]
+   ],
+   "segments": [
+    "Por su parte,",
+    "la de hojas grandes agradece que la rocíe con un pequeño pulverizador."
+   ],
+   "text": "Por su parte, la de hojas grandes agradece que la rocíe con un pequeño pulverizador.",
+   "read": "Por su parte, la de hojas grandes agradece que la rocíe con un pequeño pulverizador."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 45.23,
+   "end": 50.3,
+   "parts": [
+    [
+     45.23,
+     47.51
+    ],
+    [
+     47.79,
+     50.3
+    ]
+   ],
+   "segments": [
+    "Además, todas necesitan luz,",
+    "aunque no a todas les gusta el sol directo."
+   ],
+   "text": "Además, todas necesitan luz, aunque no a todas les gusta el sol directo.",
+   "read": "Además, todas necesitan luz, aunque no a todas les gusta el sol directo."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 51.3,
+   "end": 55.45,
+   "parts": [
+    [
+     51.3,
+     53.32
+    ],
+    [
+     53.6,
+     55.45
+    ]
+   ],
+   "segments": [
+    "Cuando vuelvo cansado del trabajo,",
+    "ver tanto verde me tranquiliza."
+   ],
+   "text": "Cuando vuelvo cansado del trabajo, ver tanto verde me tranquiliza.",
+   "read": "Cuando vuelvo cansado del trabajo, ver tanto verde me tranquiliza."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 56.45,
+   "end": 61.27,
+   "parts": [
+    [
+     56.45,
+     58.14
+    ],
+    [
+     58.42,
+     61.27
+    ]
+   ],
+   "segments": [
+    "Sin este rincón verde,",
+    "mi casa volvería a parecer vacía y triste."
+   ],
+   "text": "Sin este rincón verde, mi casa volvería a parecer vacía y triste.",
+   "read": "Sin este rincón verde, mi casa volvería a parecer vacía y triste."
+  }
+ ]
+}

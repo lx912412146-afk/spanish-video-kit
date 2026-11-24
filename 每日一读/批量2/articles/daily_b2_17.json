@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_17",
+ "level": "B2",
+ "no": 17,
+ "title_es": "El turismo espacial",
+ "title_zh": "太空旅游",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 17 篇。原创短文。语法：过去未完成时（soñaba、parecía）、parecer impensable que + 过去虚拟式（fuera、pudiera）、现在完成时（ha dejado de ser）和现在完成时被动态（han sido lanzados）、无人称结构 cabe + 原形（Cabe preguntarse）、quizá + 现在虚拟式（sea）、hasta que + 现在虚拟式（llegue）、将来时（seguiré mirando）；连接语 en cambio、no obstante、por tanto、mientras。9 句，128 词。第一人称叙述者为男性（De niño、como cuando era niño）。按要求不提任何真实的公司、国家和人物，只说 algunos viajeros；ingravidez 译作“失重”；pide a gritos 是固定说法“迫切需要”；la Tierra 指地球，首字母大写；caber 本义是“容得下”，cabe + 原形是“可以、不妨”，Cabe preguntarse 译作“我们不妨问一问”；末句的海边和星空呼应插图里黎明的发射台、远处的海和淡淡的星星。第 7 句 por tanto 两边是插入语，照常停顿。全篇没有名词列举，no_pause_commas 为空。审校改动：caber 的释义原为“值得，可以”，第 7 句原译“我们不禁要思考”，“不禁”不是 cabe 的意思，和释义也对不上，改为释义“可以，不妨”、译文“我们不妨问一问”；西语没有改。排版后改：第 5 句 estos vuelos → los vuelos espaciales（原来第二段第一行 Sus defensores … impulsan la 两端对齐词间空白 8.1 px，超过 8 px；改后最大 6.0 px），译文“这类飞行”→“太空飞行”。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "turismo espacial",
+   "太空旅游",
+   "turismo espacial"
+  ],
+  [
+   "soñar con",
+   "梦想",
+   "soñaba con"
+  ],
+  [
+   "desde lo alto",
+   "从高处",
+   "desde lo alto"
+  ],
+  [
+   "impensable",
+   "不可想象",
+   "impensable"
+  ],
+  [
+   "dejar de ser",
+   "不再是",
+   "dejado de ser"
+  ],
+  [
+   "ciencia ficción",
+   "科幻",
+   "ciencia ficción"
+  ],
+  [
+   "lanzar",
+   "发射",
+   "lanzados"
+  ],
+  [
+   "ingravidez",
+   "失重",
+   "ingravidez"
+  ],
+  [
+   "defensor",
+   "支持者",
+   "defensores"
+  ],
+  [
+   "sostener",
+   "主张",
+   "sostienen"
+  ],
+  [
+   "impulsar",
+   "推动",
+   "impulsan"
+  ],
+  [
+   "fortuna",
+   "巨款",
+   "fortuna"
+  ],
+  [
+   "caber",
+   "可以，不妨",
+   "Cabe"
+  ],
+  [
+   "pedir a gritos",
+   "迫切需要",
+   "pide a gritos"
+  ],
+  [
+   "hasta que",
+   "直到",
+   "Hasta que"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "De niño, soñaba con viajar al espacio y ver la Tierra desde lo alto.",
+    "zh": "小时候，我梦想着飞向太空，从高处俯瞰地球。"
+   },
+   {
+    "es": "Entonces parecía impensable que alguien que no fuera astronauta pudiera hacer algo así.",
+    "zh": "那时候，一个不是宇航员的人能做到这一点，简直不可想象。"
+   },
+   {
+    "es": "Hoy, en cambio, el turismo espacial ha dejado de ser ciencia ficción.",
+    "zh": "如今，太空旅游却已不再是科幻小说里的情节。"
+   },
+   {
+    "es": "Algunos viajeros han sido lanzados al espacio y han regresado tras unos minutos de ingravidez.",
+    "zh": "已经有一些游客被送上太空，在体验了几分钟的失重之后返回了地面。"
+   }
+  ],
+  [
+   {
+    "es": "Sus defensores sostienen que los vuelos espaciales impulsan la tecnología y despiertan el interés por la ciencia.",
+    "zh": "支持者认为，太空飞行能推动技术发展，激发人们对科学的兴趣。"
+   },
+   {
+    "es": "No obstante, cada lanzamiento contamina la atmósfera y cuesta una auténtica fortuna.",
+    "zh": "然而，每一次发射都会污染大气，而且耗资巨大。"
+   },
+   {
+    "es": "Cabe preguntarse, por tanto, si este lujo tiene sentido mientras la Tierra pide a gritos nuestra atención.",
+    "zh": "因此，我们不妨问一问：当地球迫切需要我们关注的时候，这样的奢侈是否真有意义。"
+   },
+   {
+    "es": "Quizá algún día viajar al espacio sea más barato y menos contaminante.",
+    "zh": "也许有一天，太空旅行会变得更便宜，污染也更少。"
+   },
+   {
+    "es": "Hasta que llegue ese día, seguiré mirando las estrellas desde la playa, como cuando era niño.",
+    "zh": "在那一天到来之前，我会像小时候那样，继续在海边仰望星空。"
+   }
+  ]
+ ]
+}

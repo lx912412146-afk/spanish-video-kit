@@ -1,0 +1,272 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_17.mp3",
+ "duration": 58.08,
+ "sentence_pause": 0.8,
+ "loudness": {
+  "integrated_lufs": -16.45,
+  "sentence_max_dev_lu": 0.54,
+  "short_term_std_lu": 0.94,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.7,
+  "buzz_hz": 5474.9,
+  "buzz_db": 5.5,
+  "comb_db": -0.27
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.8,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.1,
+   "parts": [
+    [
+     0.5,
+     2.1
+    ]
+   ],
+   "segments": [
+    "Aprender a conducir."
+   ],
+   "text": "Aprender a conducir.",
+   "read": "Aprender a conducir."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.9,
+   "end": 6.29,
+   "parts": [
+    [
+     2.9,
+     6.29
+    ]
+   ],
+   "segments": [
+    "Este otoño por fin me he decidido a aprender a conducir."
+   ],
+   "text": "Este otoño por fin me he decidido a aprender a conducir.",
+   "read": "Este otoño por fin me he decidido a aprender a conducir."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.09,
+   "end": 11.66,
+   "parts": [
+    [
+     7.09,
+     10.01
+    ],
+    [
+     10.29,
+     11.66
+    ]
+   ],
+   "segments": [
+    "De momento las clases son en un aparcamiento vacío,",
+    "lejos del tráfico."
+   ],
+   "text": "De momento las clases son en un aparcamiento vacío, lejos del tráfico.",
+   "read": "De momento las clases son en un aparcamiento vacío, lejos del tráfico."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.46,
+   "end": 17.98,
+   "parts": [
+    [
+     12.46,
+     14.14
+    ],
+    [
+     14.42,
+     17.98
+    ]
+   ],
+   "segments": [
+    "Pilar, mi profesora,",
+    "pone unos conos naranjas en el suelo para que practique cada giro."
+   ],
+   "text": "Pilar, mi profesora, pone unos conos naranjas en el suelo para que practique cada giro.",
+   "read": "Pilar, mi profesora, pone unos conos naranjas en el suelo para que practique cada giro."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 18.78,
+   "end": 23.25,
+   "parts": [
+    [
+     18.78,
+     23.25
+    ]
+   ],
+   "segments": [
+    "El primer día estaba tan nervioso que se me caló el coche en cuanto intenté arrancar."
+   ],
+   "text": "El primer día estaba tan nervioso que se me caló el coche en cuanto intenté arrancar.",
+   "read": "El primer día estaba tan nervioso que se me caló el coche en cuanto intenté arrancar."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 24.05,
+   "end": 27.38,
+   "parts": [
+    [
+     24.05,
+     27.38
+    ]
+   ],
+   "segments": [
+    "Pilar sonrió y me dijo que a todo el mundo le pasa al principio."
+   ],
+   "text": "Pilar sonrió y me dijo que a todo el mundo le pasa al principio.",
+   "read": "Pilar sonrió y me dijo que a todo el mundo le pasa al principio."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 28.18,
+   "end": 33.1,
+   "parts": [
+    [
+     28.18,
+     33.1
+    ]
+   ],
+   "segments": [
+    "Con el tiempo he ganado confianza y ya sé aparcar entre los conos sin tocar ninguno."
+   ],
+   "text": "Con el tiempo he ganado confianza y ya sé aparcar entre los conos sin tocar ninguno.",
+   "read": "Con el tiempo he ganado confianza y ya sé aparcar entre los conos sin tocar ninguno."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 33.9,
+   "end": 39.22,
+   "parts": [
+    [
+     33.9,
+     34.64
+    ],
+    [
+     34.92,
+     39.22
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "todavía me resulta difícil estar pendiente de los espejos mientras cambio de marcha."
+   ],
+   "text": "Sin embargo, todavía me resulta difícil estar pendiente de los espejos mientras cambio de marcha.",
+   "read": "Sin embargo, todavía me resulta difícil estar pendiente de los espejos mientras cambio de marcha."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 40.02,
+   "end": 44.73,
+   "parts": [
+    [
+     40.02,
+     41.7
+    ],
+    [
+     41.98,
+     44.73
+    ]
+   ],
+   "segments": [
+    "Pronto tendré el examen,",
+    "y espero que los nervios no me jueguen una mala pasada."
+   ],
+   "text": "Pronto tendré el examen, y espero que los nervios no me jueguen una mala pasada.",
+   "read": "Pronto tendré el examen, y espero que los nervios no me jueguen una mala pasada."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 45.53,
+   "end": 51.12,
+   "parts": [
+    [
+     45.53,
+     46.53
+    ],
+    [
+     46.81,
+     51.12
+    ]
+   ],
+   "segments": [
+    "Según ella,",
+    "es importante que duerma bien la noche anterior y que confíe en mí mismo."
+   ],
+   "text": "Según ella, es importante que duerma bien la noche anterior y que confíe en mí mismo.",
+   "read": "Según ella, es importante que duerma bien la noche anterior y que confíe en mí mismo."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 51.92,
+   "end": 56.88,
+   "parts": [
+    [
+     51.92,
+     53.24
+    ],
+    [
+     53.52,
+     56.88
+    ]
+   ],
+   "segments": [
+    "Cuando tenga el carné,",
+    "me gustaría llevar a mis abuelos de excursión a la sierra."
+   ],
+   "text": "Cuando tenga el carné, me gustaría llevar a mis abuelos de excursión a la sierra.",
+   "read": "Cuando tenga el carné, me gustaría llevar a mis abuelos de excursión a la sierra."
+  }
+ ]
+}

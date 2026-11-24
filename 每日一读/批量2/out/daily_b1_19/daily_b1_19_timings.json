@@ -1,0 +1,280 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_19.mp3",
+ "duration": 61.88,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.49,
+  "sentence_max_dev_lu": 0.43,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.99,
+  "peak_dbfs": -1.79,
+  "buzz_hz": 8781.7,
+  "buzz_db": 6.9,
+  "comb_db": -0.31
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.4,
+  "leveler_rng": 10.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.69,
+   "parts": [
+    [
+     0.5,
+     1.69
+    ]
+   ],
+   "segments": [
+    "El arte en la calle."
+   ],
+   "text": "El arte en la calle.",
+   "read": "El arte en la calle."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.69,
+   "end": 6.75,
+   "parts": [
+    [
+     2.69,
+     6.75
+    ]
+   ],
+   "segments": [
+    "Cerca de mi casa hay una callejuela que antes era bastante fea y oscura."
+   ],
+   "text": "Cerca de mi casa hay una callejuela que antes era bastante fea y oscura.",
+   "read": "Cerca de mi casa hay una callejuela que antes era bastante fea y oscura."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 7.75,
+   "end": 13.76,
+   "parts": [
+    [
+     7.75,
+     8.94
+    ],
+    [
+     9.22,
+     13.76
+    ]
+   ],
+   "segments": [
+    "El verano pasado,",
+    "una artista del barrio cubrió casi toda una pared con un mural enorme."
+   ],
+   "text": "El verano pasado, una artista del barrio cubrió casi toda una pared con un mural enorme.",
+   "read": "El verano pasado, una artista del barrio cubrió casi toda una pared con un mural enorme."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 14.76,
+   "end": 21.24,
+   "parts": [
+    [
+     14.76,
+     16.55
+    ],
+    [
+     16.83,
+     21.24
+    ]
+   ],
+   "segments": [
+    "No representa nada concreto:",
+    "son solo grandes manchas de amarillo, azul, verde y naranja."
+   ],
+   "text": "No representa nada concreto: son solo grandes manchas de amarillo, azul, verde y naranja.",
+   "read": "No representa nada concreto: son solo grandes manchas de amarillo, azul, verde y naranja."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 22.24,
+   "end": 27.17,
+   "parts": [
+    [
+     22.24,
+     23.55
+    ],
+    [
+     23.83,
+     27.17
+    ]
+   ],
+   "segments": [
+    "Desde entonces,",
+    "la calle parece otra y mucha gente se detiene a mirarlo."
+   ],
+   "text": "Desde entonces, la calle parece otra y mucha gente se detiene a mirarlo.",
+   "read": "Desde entonces, la calle parece otra y mucha gente se detiene a mirarlo."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 28.17,
+   "end": 34.51,
+   "parts": [
+    [
+     28.17,
+     29.21
+    ],
+    [
+     29.49,
+     34.51
+    ]
+   ],
+   "segments": [
+    "Cada sábado,",
+    "además, un chico toca la guitarra delante del mural con el estuche abierto en el suelo."
+   ],
+   "text": "Cada sábado, además, un chico toca la guitarra delante del mural con el estuche abierto en el suelo.",
+   "read": "Cada sábado, además, un chico toca la guitarra delante del mural con el estuche abierto en el suelo."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 35.51,
+   "end": 39.86,
+   "parts": [
+    [
+     35.51,
+     39.86
+    ]
+   ],
+   "segments": [
+    "Los vecinos se sientan en el banco a escucharlo y algunos le dejan una moneda."
+   ],
+   "text": "Los vecinos se sientan en el banco a escucharlo y algunos le dejan una moneda.",
+   "read": "Los vecinos se sientan en el banco a escucharlo y algunos le dejan una moneda."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 40.86,
+   "end": 44.94,
+   "parts": [
+    [
+     40.86,
+     41.6
+    ],
+    [
+     41.88,
+     44.94
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "hay quien piensa que pintar en las paredes ensucia la ciudad."
+   ],
+   "text": "Sin embargo, hay quien piensa que pintar en las paredes ensucia la ciudad.",
+   "read": "Sin embargo, hay quien piensa que pintar en las paredes ensucia la ciudad."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 45.94,
+   "end": 50.1,
+   "parts": [
+    [
+     45.94,
+     50.1
+    ]
+   ],
+   "segments": [
+    "No creo que sea lo mismo una pintada rápida que una obra hecha con cariño."
+   ],
+   "text": "No creo que sea lo mismo una pintada rápida que una obra hecha con cariño.",
+   "read": "No creo que sea lo mismo una pintada rápida que una obra hecha con cariño."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 51.1,
+   "end": 55.66,
+   "parts": [
+    [
+     51.1,
+     51.71
+    ],
+    [
+     51.99,
+     55.66
+    ]
+   ],
+   "segments": [
+    "Para mí,",
+    "el arte callejero acerca la belleza a quien nunca entraría en un museo."
+   ],
+   "text": "Para mí, el arte callejero acerca la belleza a quien nunca entraría en un museo.",
+   "read": "Para mí, el arte callejero acerca la belleza a quien nunca entraría en un museo."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 56.66,
+   "end": 60.68,
+   "parts": [
+    [
+     56.66,
+     60.68
+    ]
+   ],
+   "segments": [
+    "Espero que otras calles grises se llenen pronto de color y de música."
+   ],
+   "text": "Espero que otras calles grises se llenen pronto de color y de música.",
+   "read": "Espero que otras calles grises se llenen pronto de color y de música."
+  }
+ ]
+}

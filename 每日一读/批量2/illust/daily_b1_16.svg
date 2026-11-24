@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 260" width="400" height="260">
+  <!-- 原创插图：祖孙之间（公园石桌上一盘没下完的跳棋、一大一小两顶帽子，旁边树上挂着一只风筝；水彩风格，纯 SVG 手绘） -->
+  <defs>
+    <filter id="wc" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="0.35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.3  0 0 0 0.09 0"/>
+    </filter>
+    <filter id="edge" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="260">
+      <rect x="7" y="7" width="386" height="246" rx="4" fill="#fff" filter="url(#edge)"/>
+    </mask>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e4eef0"/><stop offset="0.6" stop-color="#f0f2e8"/><stop offset="1" stop-color="#f6f1e2"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe0ae"/><stop offset="1" stop-color="#bcd296"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ebe6dc"/><stop offset="1" stop-color="#d6cfc2"/>
+    </linearGradient>
+    <linearGradient id="stoneS" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c3bbad"/><stop offset="0.4" stop-color="#d8d1c4"/><stop offset="1" stop-color="#b8b0a2"/>
+    </linearGradient>
+    <linearGradient id="straw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dfc287"/><stop offset="0.45" stop-color="#f0dba8"/><stop offset="1" stop-color="#d6b87c"/>
+    </linearGradient>
+    <linearGradient id="bark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9a7656"/><stop offset="0.5" stop-color="#b48f6b"/><stop offset="1" stop-color="#8f6c4e"/>
+    </linearGradient>
+    <g id="pr"><ellipse cx="0" cy="1" rx="2.8" ry="1.3" fill="#a9483f"/><ellipse cx="0" cy="0" rx="2.8" ry="1.3" fill="#d6705d"/></g>
+    <g id="pc"><ellipse cx="0" cy="1" rx="2.8" ry="1.3" fill="#cbbb9f"/><ellipse cx="0" cy="0" rx="2.8" ry="1.3" fill="#faf4e6"/></g>
+    <g id="stool">
+      <path d="M-16,0 L16,0 L13,20 L-13,20 Z" fill="url(#stoneS)"/>
+      <ellipse cx="0" cy="20" rx="13" ry="3" fill="#bdb5a7"/>
+      <ellipse cx="0" cy="0" rx="16" ry="4.5" fill="url(#stone)"/>
+    </g>
+    <path id="bow" d="M0,0 L-4,-2.5 L-4,2.5 Z M0,0 L4,-2.5 L4,2.5 Z"/>
+  </defs>
+
+  <g mask="url(#fade)">
+    <!-- 天空和草地 -->
+    <rect width="400" height="260" fill="url(#sky)"/>
+    <g filter="url(#soft2)" fill="#ffffff" opacity="0.8">
+      <ellipse cx="236" cy="40" rx="20" ry="5.5"/><ellipse cx="250" cy="36" rx="12" ry="5.5"/>
+    </g>
+
+    <g filter="url(#wc)">
+      <!-- 远处的树和绿篱 -->
+      <g opacity="0.9">
+        <circle cx="20" cy="112" r="20" fill="#bcd3aa"/><circle cx="52" cy="104" r="24" fill="#b2cba0"/><circle cx="88" cy="116" r="18" fill="#c2d7ae"/>
+        <circle cx="150" cy="114" r="20" fill="#b9d1a6"/><circle cx="184" cy="108" r="22" fill="#b2cba0"/><circle cx="218" cy="118" r="16" fill="#c2d7ae"/>
+        <circle cx="252" cy="116" r="18" fill="#b9d1a6"/>
+      </g>
+      <rect x="0" y="122" width="400" height="20" fill="#c7dbb0"/>
+      <rect x="0" y="134" width="400" height="126" fill="url(#grass)"/>
+      <!-- 远处的路灯 -->
+      <line x1="112" y1="84" x2="112" y2="138" stroke="#8f9aa3" stroke-width="2"/>
+      <path d="M106,86 L118,86 L116,78 L108,78 Z" fill="#9aa5ae"/><rect x="109" y="86" width="6" height="5" fill="#f6e7bf"/>
+      <!-- 碎石小广场 -->
+      <ellipse cx="190" cy="214" rx="168" ry="38" fill="#ecdfc6"/>
+      <g fill="#dccbad" opacity="0.8"><ellipse cx="70" cy="214" rx="2" ry="1"/><ellipse cx="120" cy="236" rx="2.4" ry="1.1"/><ellipse cx="300" cy="230" rx="2.2" ry="1"/><ellipse cx="330" cy="206" rx="2" ry="1"/><ellipse cx="200" cy="246" rx="2.4" ry="1.1"/></g>
+
+      <!-- 大树 -->
+      <path d="M332,226 C334,200 330,170 334,132 L346,132 C344,170 348,200 352,226 Z" fill="url(#bark)"/>
+      <path d="M336,150 C326,136 312,124 298,118" stroke="#a5805d" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M344,140 C350,124 362,112 376,106" stroke="#a5805d" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <g>
+        <circle cx="330" cy="76" r="40" fill="#97b97f"/><circle cx="292" cy="96" r="26" fill="#a5c58c"/><circle cx="372" cy="90" r="32" fill="#8db177"/>
+        <circle cx="318" cy="44" r="24" fill="#a3c48a"/><circle cx="356" cy="50" r="24" fill="#94b67c"/><circle cx="300" cy="118" r="16" fill="#9cbe83"/>
+        <circle cx="356" cy="118" r="20" fill="#93b67b"/>
+        <circle cx="312" cy="62" r="9" fill="#b8d49d" opacity="0.7"/><circle cx="286" cy="90" r="7" fill="#b8d49d" opacity="0.7"/>
+      </g>
+
+      <!-- 挂在树上的风筝 -->
+      <g transform="rotate(-14 296 98)">
+        <path d="M296,76 L310,96 L296,96 Z" fill="#f2c46d"/><path d="M296,76 L282,96 L296,96 Z" fill="#ec917c"/>
+        <path d="M282,96 L296,96 L296,122 Z" fill="#f2c46d"/><path d="M310,96 L296,96 L296,122 Z" fill="#ec917c"/>
+        <g stroke="#a98058" stroke-width="0.9"><line x1="296" y1="76" x2="296" y2="122"/><line x1="282" y1="96" x2="310" y2="96"/></g>
+      </g>
+      <path d="M302,121 C306,130 298,138 302,146 C306,154 300,160 302,168" stroke="#a98058" stroke-width="0.8" fill="none"/>
+      <use href="#bow" transform="translate(303,130)" fill="#7fb2ad"/><use href="#bow" transform="translate(302,144)" fill="#ec917c"/><use href="#bow" transform="translate(302,158)" fill="#f2c46d"/>
+      <circle cx="288" cy="86" r="9" fill="#9cbe83"/><circle cx="304" cy="84" r="5" fill="#a5c58c"/>
+
+      <!-- 石凳 -->
+      <use href="#stool" transform="translate(84,200)"/>
+      <use href="#stool" transform="translate(278,202)"/>
+
+      <!-- 石桌 -->
+      <path d="M166,186 L194,186 L190,222 L170,222 Z" fill="url(#stoneS)"/>
+      <ellipse cx="180" cy="223" rx="22" ry="4.5" fill="#c3bbad"/>
+      <path d="M100,170 A80,20 0 0 0 260,170 L260,177 A80,20 0 0 1 100,177 Z" fill="#cbc3b5"/>
+      <ellipse cx="180" cy="170" rx="80" ry="20" fill="url(#stone)"/>
+      <path d="M112,163 C140,154 220,154 250,163" stroke="#f6f2ea" stroke-width="1.6" fill="none" opacity="0.7"/>
+
+      <!-- 棋盘 -->
+      <path d="M150,155.5 L204,155.5 L217,178.5 L137,178.5 Z" fill="#a98058"/>
+      <path d="M152,157 L202,157 L214,177 L140,177 Z" fill="#efdfc0"/>
+      <path d="M158.2,157.0 L164.5,157.0 L163.8,159.5 L157.1,159.5Z M170.8,157.0 L177.0,157.0 L177.0,159.5 L170.4,159.5Z M183.2,157.0 L189.5,157.0 L190.2,159.5 L183.6,159.5Z M195.8,157.0 L202.0,157.0 L203.5,159.5 L196.9,159.5Z M150.5,159.5 L157.1,159.5 L156.0,162.0 L149.0,162.0Z M163.8,159.5 L170.4,159.5 L170.0,162.0 L163.0,162.0Z M177.0,159.5 L183.6,159.5 L184.0,162.0 L177.0,162.0Z M190.2,159.5 L196.9,159.5 L198.0,162.0 L191.0,162.0Z M156.0,162.0 L163.0,162.0 L162.2,164.5 L154.9,164.5Z M170.0,162.0 L177.0,162.0 L177.0,164.5 L169.6,164.5Z M184.0,162.0 L191.0,162.0 L191.8,164.5 L184.4,164.5Z M198.0,162.0 L205.0,162.0 L206.5,164.5 L199.1,164.5Z M147.5,164.5 L154.9,164.5 L153.8,167.0 L146.0,167.0Z M162.2,164.5 L169.6,164.5 L169.2,167.0 L161.5,167.0Z M177.0,164.5 L184.4,164.5 L184.8,167.0 L177.0,167.0Z M191.8,164.5 L199.1,164.5 L200.2,167.0 L192.5,167.0Z M153.8,167.0 L161.5,167.0 L160.8,169.5 L152.6,169.5Z M169.2,167.0 L177.0,167.0 L177.0,169.5 L168.9,169.5Z M184.8,167.0 L192.5,167.0 L193.2,169.5 L185.1,169.5Z M200.2,167.0 L208.0,167.0 L209.5,169.5 L201.4,169.5Z M144.5,169.5 L152.6,169.5 L151.5,172.0 L143.0,172.0Z M160.8,169.5 L168.9,169.5 L168.5,172.0 L160.0,172.0Z M177.0,169.5 L185.1,169.5 L185.5,172.0 L177.0,172.0Z M193.2,169.5 L201.4,169.5 L202.5,172.0 L194.0,172.0Z M151.5,172.0 L160.0,172.0 L159.2,174.5 L150.4,174.5Z M168.5,172.0 L177.0,172.0 L177.0,174.5 L168.1,174.5Z M185.5,172.0 L194.0,172.0 L194.8,174.5 L185.9,174.5Z M202.5,172.0 L211.0,172.0 L212.5,174.5 L203.6,174.5Z M141.5,174.5 L150.4,174.5 L149.2,177.0 L140.0,177.0Z M159.2,174.5 L168.1,174.5 L167.8,177.0 L158.5,177.0Z M177.0,174.5 L185.9,174.5 L186.2,177.0 L177.0,177.0Z M194.8,174.5 L203.6,174.5 L204.8,177.0 L195.5,177.0Z" fill="#c09a74"/>
+      <!-- 没下完的棋子 -->
+      <use href="#pc" transform="translate(160.9,157.6) scale(0.85)"/><use href="#pc" transform="translate(186.7,157.6) scale(0.85)"/>
+      <use href="#pc" transform="translate(166.8,160.2) scale(0.9)"/><use href="#pc" transform="translate(194,160.2) scale(0.9)"/>
+      <use href="#pc" transform="translate(159,162.6) scale(0.92)"/><use href="#pc" transform="translate(173.4,162.6) scale(0.92)"/>
+      <use href="#pc" transform="translate(180.8,165.2) scale(0.95)"/>
+      <use href="#pr" transform="translate(188.9,167.6)"/><use href="#pr" transform="translate(164.5,170.2)"/><use href="#pr" transform="translate(197.8,170.2)"/>
+      <use href="#pr" transform="translate(172.7,172.6) scale(1.05)"/><use href="#pr" transform="translate(207.4,172.6) scale(1.05)"/><use href="#pr" transform="translate(145.3,175.2) scale(1.08)"/>
+      <!-- 吃掉的棋子摞在一边 -->
+      <use href="#pr" transform="translate(141,184.5) scale(1.1)"/><use href="#pr" transform="translate(141,182.3) scale(1.1)"/>
+      <use href="#pc" transform="translate(224,184.5) scale(1.1)"/><use href="#pc" transform="translate(224,182.3) scale(1.1)"/><use href="#pc" transform="translate(224,180.1) scale(1.1)"/>
+
+      <!-- 大帽子：爷爷的草帽 -->
+      <g transform="translate(124,169) scale(1.18) translate(-124,-169)">
+      <ellipse cx="124" cy="168" rx="17" ry="5" fill="#dcc083"/>
+      <path d="M113,167 C112,157 116,150 124,150 C132,150 136,157 135,167 Z" fill="url(#straw)"/>
+      <path d="M119,152 C122,155 126,155 129,152" stroke="#c9ab70" stroke-width="0.9" fill="none"/>
+      <path d="M113.3,162 L134.7,162 L135,167 L113,167 Z" fill="#b9634a"/>
+      <path d="M107,169 C115,173.5 133,173.5 141,169" stroke="#ead3a0" stroke-width="1.4" fill="none"/>
+
+      </g>
+
+      <!-- 小帽子：孙子的棒球帽 -->
+      <g transform="translate(240,171) scale(0.92) translate(-240,-171)">
+      <path d="M229,170 C229,160 249,160 249,170 Z" fill="#7fb2ad"/>
+      <path d="M239,161 L239,170" stroke="#6a9d98" stroke-width="0.7"/>
+      <path d="M247,168 C255,166.5 262,168 263,171 C258,172.5 251,172 247,171 Z" fill="#ebbd63"/>
+      <circle cx="239" cy="160.5" r="1.2" fill="#ebbd63"/>
+      <path d="M232,165 C234,162 237,161 239,161" stroke="#a8d0ca" stroke-width="1" fill="none" opacity="0.8"/>
+      </g>
+    </g>
+
+    <!-- 地面阴影 -->
+    <g filter="url(#soft2)" opacity="0.2" fill="#6f6a4a">
+      <ellipse cx="180" cy="226" rx="46" ry="5"/><ellipse cx="124" cy="176" rx="18" ry="2.2"/><ellipse cx="84" cy="221" rx="18" ry="3"/><ellipse cx="278" cy="223" rx="18" ry="3"/><ellipse cx="342" cy="228" rx="28" ry="4"/>
+    </g>
+    <!-- 纸纹 -->
+    <rect width="400" height="260" filter="url(#grain)"/>
+  </g>
+</svg>

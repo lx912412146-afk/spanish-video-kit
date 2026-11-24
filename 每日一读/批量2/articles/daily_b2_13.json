@@ -1,0 +1,130 @@
+{
+ "id": "daily_b2_13",
+ "level": "B2",
+ "no": 13,
+ "title_es": "El precio de la comodidad",
+ "title_zh": "便利的代价",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 13 篇。原创短文。语法：过去未完成时叙述（pedía、se amontonaban、resultaba、generaba）、简单过去时（me sentí、comprendí）、pararse a + 原形、cuanto menos … más … 的比较结构、过去虚拟式 + 条件式的假设句（Si cada pedido mostrara …, nos lo pensaríamos mejor）、seguir + 副动词（Sigo pidiendo）、siempre que + 陈述式（只要、每当）、名词化（cada envío）；连接语 entonces、además、pero。9 句，122 词。第一人称叙述者为男性（me sentí avergonzado）。pedir 在本文指在手机上下单，不提任何平台和品牌；rellano 是公寓门外的楼梯平台，aquella montaña de cartón 和插图里门口堆着的纸箱对应，bolsa térmica 对应外卖保温袋；pensárselo mejor 译作“三思”；peligra el pequeño comercio 译作“小商店的处境就越危险”。第 8 句句末原想用 pediríamos mucho menos，menos 的词尾 s 容易被吞，改为 nos lo pensaríamos mejor。第 9 句 pero, siempre que puedo, 两个逗号隔开插入的从句，照常停顿。全篇没有名词列举，no_pause_commas 为空。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "comodidad",
+   "便利",
+   "comodidad"
+  ],
+  [
+   "temporada",
+   "一段时间",
+   "temporada"
+  ],
+  [
+   "amontonarse",
+   "堆积",
+   "se amontonaban"
+  ],
+  [
+   "cartón",
+   "纸板",
+   "cartón"
+  ],
+  [
+   "bolsa térmica",
+   "保温袋",
+   "bolsa térmica"
+  ],
+  [
+   "pararse a pensar",
+   "停下来想",
+   "me paraba a pensar"
+  ],
+  [
+   "rellano",
+   "楼梯平台",
+   "rellano"
+  ],
+  [
+   "avergonzado",
+   "惭愧的",
+   "avergonzado"
+  ],
+  [
+   "envío",
+   "配送",
+   "envío"
+  ],
+  [
+   "generar",
+   "产生",
+   "generaba"
+  ],
+  [
+   "residuo",
+   "废弃物",
+   "residuos"
+  ],
+  [
+   "repartidor",
+   "配送员",
+   "repartidores"
+  ],
+  [
+   "peligrar",
+   "处境危险",
+   "peligra"
+  ],
+  [
+   "pequeño comercio",
+   "小商店",
+   "pequeño comercio"
+  ],
+  [
+   "siempre que",
+   "只要，每当",
+   "siempre que"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En una temporada de mucho trabajo, lo pedía todo desde el móvil.",
+    "zh": "有一段时间工作特别忙，我什么都用手机下单。"
+   },
+   {
+    "es": "Junto a mi puerta se amontonaban cajas de cartón, y cada noche llegaba la cena en una bolsa térmica.",
+    "zh": "我家门口堆满了纸箱，每天晚上，晚饭都装在保温袋里送上门来。"
+   },
+   {
+    "es": "Todo resultaba tan cómodo que nunca me paraba a pensar si lo necesitaba de verdad.",
+    "zh": "一切都那么方便，我从来没有停下来想一想，自己是否真的需要这些东西。"
+   },
+   {
+    "es": "Un día, al ver aquella montaña de cartón en el rellano, me sentí avergonzado.",
+    "zh": "有一天，看到门外楼梯平台上堆成小山的纸箱，我感到很惭愧。"
+   }
+  ],
+  [
+   {
+    "es": "Comprendí entonces que aquella comodidad tenía un precio.",
+    "zh": "那时我才明白，这种便利是有代价的。"
+   },
+   {
+    "es": "Cada envío generaba residuos y tráfico, y los repartidores trabajaban bajo una presión constante.",
+    "zh": "每一次配送都会产生垃圾、增加车流，而配送员们则一直在高压下工作。"
+   },
+   {
+    "es": "Además, cuanto menos compramos en el barrio, más peligra el pequeño comercio.",
+    "zh": "此外，我们在街区里买得越少，小商店的处境就越危险。"
+   },
+   {
+    "es": "Si cada pedido mostrara su verdadero coste, seguramente nos lo pensaríamos mejor.",
+    "zh": "如果每一笔订单都标出它真正的代价，我们下单前想必会三思。"
+   },
+   {
+    "es": "Sigo pidiendo cuando lo necesito, pero, siempre que puedo, bajo a la tienda de la esquina.",
+    "zh": "需要的时候我仍会下单，但只要有可能，我就下楼去街角的小店买。"
+   }
+  ]
+ ]
+}

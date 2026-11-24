@@ -1,0 +1,276 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  634.109375
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  642.109375
+ ],
+ "zh": [
+  96,
+  668.109375,
+  480,
+  907.359375
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  220.34375,
+  131.625
+ ],
+ "header_gap": 195.671875,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   3
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   3
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   3
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   3
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   7.6,
+   "Sobre la mesa, frente a una ventana que da a un camino"
+  ],
+  [
+   "mid",
+   5.1,
+   "bifurcado, descansan una moneda, dos dados y un viejo billete de"
+  ],
+  [
+   "mid",
+   6.5,
+   "tren. Es el billete de un tren que tomé por pura casualidad, tras"
+  ],
+  [
+   "mid",
+   4,
+   "perder el mío por apenas un minuto. En aquel vagón conocí a Clara,"
+  ],
+  [
+   "last",
+   3.4,
+   "que con el tiempo se convertiría en mi esposa."
+  ],
+  [
+   "mid",
+   3.5,
+   "Tendemos a narrar nuestra vida como una cadena de decisiones"
+  ],
+  [
+   "mid",
+   7.3,
+   "en la que cada paso conduce necesariamente al siguiente. Esa"
+  ],
+  [
+   "mid",
+   3.4,
+   "coherencia tranquiliza, aunque suele ser una reconstrucción posterior"
+  ],
+  [
+   "mid",
+   4.1,
+   "que deja en la sombra el papel del azar. Si no hubiera perdido aquel"
+  ],
+  [
+   "mid",
+   5.9,
+   "tren, quizá habría llevado una existencia igualmente feliz, pero sin"
+  ],
+  [
+   "mid",
+   6.1,
+   "duda distinta. Reconocer el peso de lo imprevisto no menoscaba"
+  ],
+  [
+   "mid",
+   4.7,
+   "nuestra libertad; más bien nos enseña a acoger con gratitud lo que"
+  ],
+  [
+   "last",
+   3.4,
+   "no elegimos."
+  ]
+ ],
+ "es_max_gap": 7.6,
+ "es_font": [
+  12.7,
+  -0.15
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

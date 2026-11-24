@@ -1,0 +1,134 @@
+{
+ "id": "daily_b1_13",
+ "level": "B1",
+ "no": 13,
+ "title_es": "La Nochevieja",
+ "title_zh": "跨年夜",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 13 篇。原创短文。现在时描写一家人跨年夜的习惯，简单过去时叙述去年的事（aseguró、acabó、nadie oyó）；将来时 tendrá；现在虚拟式 es difícil que alguien lo consiga；条件式 sería（间接引语里过去的将来）；连接语 según、sin embargo、después、no… sino。10 句，144 词。人名只有 Clara，译作克拉拉；prima 译作“表妹”。习俗照要求只写数字单词 doce（doce uvas），不写钟点：第 3 句用 antes de medianoche，第 4 句用 al ritmo de las campanadas del reloj。cava 是西班牙的起泡酒，译作“起泡酒”，对应插图里的香槟杯；campanada 是钟敲的“一响”，译作“钟声”；第 6 句 suenan tan seguidas 是“一声紧接一声”；第 7 句 acabó con la boca llena 是“结果塞了满嘴”，暗示她没能按时吃完。第 9 句译文写“用起泡酒干杯”，不写“举起起泡酒干杯”，免得“起起”连在一起像错字（审校改）。插图里的小碗葡萄、酒杯、蜡烛、窗外的烟花都在正文里出现。没有列举的逗号：第 9 句 brindamos con cava, nos abrazamos y miramos… 是三个并列分句，照常停顿；第 2 句 velas y copas 之间没有逗号。第 4 句不说 doce uvas, una con cada campanada，免得 uvas 落在逗号前被吞掉词尾 s。词汇里 Nochevieja 在标题里，排在最前；fuego artificial 原文是复数 fuegos artificiales；conseguir 原文是虚拟式 consiga；seguido 原文是 seguidas。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "Nochevieja",
+   "跨年夜",
+   "Nochevieja"
+  ],
+  [
+   "alrededor de",
+   "围绕",
+   "alrededor de"
+  ],
+  [
+   "vela",
+   "蜡烛",
+   "velas"
+  ],
+  [
+   "copa",
+   "高脚杯",
+   "copas"
+  ],
+  [
+   "cava",
+   "起泡酒",
+   "cava"
+  ],
+  [
+   "medianoche",
+   "午夜",
+   "medianoche"
+  ],
+  [
+   "uva",
+   "葡萄",
+   "uvas"
+  ],
+  [
+   "al ritmo de",
+   "随着节奏",
+   "al ritmo de"
+  ],
+  [
+   "campanada",
+   "钟声",
+   "campanadas"
+  ],
+  [
+   "a tiempo",
+   "按时",
+   "a tiempo"
+  ],
+  [
+   "seguido",
+   "接连的",
+   "seguidas"
+  ],
+  [
+   "conseguir",
+   "做到",
+   "consiga"
+  ],
+  [
+   "asegurar",
+   "声称",
+   "aseguró"
+  ],
+  [
+   "brindar",
+   "干杯",
+   "brindamos"
+  ],
+  [
+   "fuego artificial",
+   "烟花",
+   "fuegos artificiales"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En mi familia, la Nochevieja es una de las noches más especiales del año.",
+    "zh": "在我家，跨年夜是一年中最特别的夜晚之一。"
+   },
+   {
+    "es": "Cenamos todos juntos alrededor de una mesa con velas y copas de cava.",
+    "zh": "我们全家人围坐在一张摆着蜡烛和起泡酒杯的桌子旁，一起吃晚饭。"
+   },
+   {
+    "es": "Antes de medianoche, mi madre prepara un cuenco pequeño de uvas para cada persona.",
+    "zh": "午夜之前，妈妈会为每个人准备一小碗葡萄。"
+   },
+   {
+    "es": "Según la tradición española, hay que comer doce uvas al ritmo de las campanadas del reloj.",
+    "zh": "按照西班牙的传统，要跟着时钟的钟声吃下十二颗葡萄。"
+   },
+   {
+    "es": "Dicen que quien las termina a tiempo tendrá suerte durante todo el año.",
+    "zh": "据说，能按时吃完的人，这一整年都会有好运。"
+   }
+  ],
+  [
+   {
+    "es": "Sin embargo, las campanadas suenan tan seguidas que es difícil que alguien lo consiga.",
+    "zh": "然而，钟声一声紧接着一声，谁都很难做到。"
+   },
+   {
+    "es": "El año pasado mi prima Clara aseguró que sería muy fácil, pero acabó con la boca llena.",
+    "zh": "去年，我的表妹克拉拉信誓旦旦地说这很容易，结果却塞了满满一嘴葡萄。"
+   },
+   {
+    "es": "Nos reímos tanto que nadie oyó la última campanada.",
+    "zh": "我们笑得太厉害，谁都没听见最后一声钟响。"
+   },
+   {
+    "es": "Después brindamos con cava, nos abrazamos y miramos los fuegos artificiales desde la ventana.",
+    "zh": "随后，我们用起泡酒干杯，互相拥抱，又在窗前观赏烟花。"
+   },
+   {
+    "es": "Para mí, lo importante no es comerse las uvas a tiempo, sino empezar el año con la gente que quiero.",
+    "zh": "对我来说，重要的不是按时吃完葡萄，而是和我爱的人一起开始新的一年。"
+   }
+  ]
+ ]
+}

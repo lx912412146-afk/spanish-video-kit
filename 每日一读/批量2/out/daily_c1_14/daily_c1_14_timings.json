@@ -1,0 +1,239 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_c1_14.mp3",
+ "duration": 56.87,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.5,
+  "sentence_max_dev_lu": 0.29,
+  "short_term_std_lu": 0.93,
+  "short_term_std_full_lu": 0.96,
+  "peak_dbfs": -1.76,
+  "buzz_hz": 5474.9,
+  "buzz_db": 5.1,
+  "comb_db": -0.16
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.72,
+   "parts": [
+    [
+     0.5,
+     1.72
+    ]
+   ],
+   "segments": [
+    "El papel del azar."
+   ],
+   "text": "El papel del azar.",
+   "read": "El papel del azar."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.72,
+   "end": 11.14,
+   "parts": [
+    [
+     2.72,
+     3.9
+    ],
+    [
+     4.18,
+     6.98
+    ],
+    [
+     7.26,
+     11.14
+    ]
+   ],
+   "segments": [
+    "Sobre la mesa,",
+    "frente a una ventana que da a un camino bifurcado,",
+    "descansan una moneda, dos dados y un viejo billete de tren."
+   ],
+   "text": "Sobre la mesa, frente a una ventana que da a un camino bifurcado, descansan una moneda, dos dados y un viejo billete de tren.",
+   "read": "Sobre la mesa, frente a una ventana que da a un camino bifurcado, descansan una moneda, dos dados y un viejo billete de tren."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 12.14,
+   "end": 17.91,
+   "parts": [
+    [
+     12.14,
+     15.41
+    ],
+    [
+     15.69,
+     17.91
+    ]
+   ],
+   "segments": [
+    "Es el billete de un tren que tomé por pura casualidad,",
+    "tras perder el mío por apenas un minuto."
+   ],
+   "text": "Es el billete de un tren que tomé por pura casualidad, tras perder el mío por apenas un minuto.",
+   "read": "Es el billete de un tren que tomé por pura casualidad, tras perder el mío por apenas un minuto."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 18.91,
+   "end": 23.65,
+   "parts": [
+    [
+     18.91,
+     20.86
+    ],
+    [
+     21.14,
+     23.65
+    ]
+   ],
+   "segments": [
+    "En aquel vagón conocí a Clara,",
+    "que con el tiempo se convertiría en mi esposa."
+   ],
+   "text": "En aquel vagón conocí a Clara, que con el tiempo se convertiría en mi esposa.",
+   "read": "En aquel vagón conocí a Clara, que con el tiempo se convertiría en mi esposa."
+  },
+  {
+   "k": 5,
+   "para": 3,
+   "start": 24.65,
+   "end": 30.87,
+   "parts": [
+    [
+     24.65,
+     30.87
+    ]
+   ],
+   "segments": [
+    "Tendemos a narrar nuestra vida como una cadena de decisiones en la que cada paso conduce necesariamente al siguiente."
+   ],
+   "text": "Tendemos a narrar nuestra vida como una cadena de decisiones en la que cada paso conduce necesariamente al siguiente.",
+   "read": "Tendemos a narrar nuestra vida como una cadena de decisiones en la que cada paso conduce necesariamente al siguiente."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 31.87,
+   "end": 38.82,
+   "parts": [
+    [
+     31.87,
+     33.95
+    ],
+    [
+     34.23,
+     38.82
+    ]
+   ],
+   "segments": [
+    "Esa coherencia tranquiliza,",
+    "aunque suele ser una reconstrucción posterior que deja en la sombra el papel del azar."
+   ],
+   "text": "Esa coherencia tranquiliza, aunque suele ser una reconstrucción posterior que deja en la sombra el papel del azar.",
+   "read": "Esa coherencia tranquiliza, aunque suele ser una reconstrucción posterior que deja en la sombra el papel del azar."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 39.82,
+   "end": 46.79,
+   "parts": [
+    [
+     39.82,
+     41.6
+    ],
+    [
+     41.88,
+     44.82
+    ],
+    [
+     45.1,
+     46.79
+    ]
+   ],
+   "segments": [
+    "Si no hubiera perdido aquel tren,",
+    "quizá habría llevado una existencia igualmente feliz,",
+    "pero sin duda distinta."
+   ],
+   "text": "Si no hubiera perdido aquel tren, quizá habría llevado una existencia igualmente feliz, pero sin duda distinta.",
+   "read": "Si no hubiera perdido aquel tren, quizá habría llevado una existencia igualmente feliz, pero sin duda distinta."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 47.79,
+   "end": 55.67,
+   "parts": [
+    [
+     47.79,
+     51.71
+    ],
+    [
+     51.99,
+     55.67
+    ]
+   ],
+   "segments": [
+    "Reconocer el peso de lo imprevisto no menoscaba nuestra libertad;",
+    "más bien nos enseña a acoger con gratitud lo que no elegimos."
+   ],
+   "text": "Reconocer el peso de lo imprevisto no menoscaba nuestra libertad; más bien nos enseña a acoger con gratitud lo que no elegimos.",
+   "read": "Reconocer el peso de lo imprevisto no menoscaba nuestra libertad; más bien nos enseña a acoger con gratitud lo que no elegimos."
+  }
+ ]
+}

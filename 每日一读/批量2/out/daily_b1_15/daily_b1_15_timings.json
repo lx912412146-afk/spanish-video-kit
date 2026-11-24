@@ -1,0 +1,277 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b1_15.mp3",
+ "duration": 61.97,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.47,
+  "sentence_max_dev_lu": 1.06,
+  "short_term_std_lu": 0.99,
+  "short_term_std_full_lu": 1.02,
+  "peak_dbfs": -1.82,
+  "buzz_hz": 8775.1,
+  "buzz_db": 4.7,
+  "comb_db": -0.49
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ]
+  ],
+  "leveler_win": 0.5,
+  "leveler_rng": 8.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.81,
+   "parts": [
+    [
+     0.5,
+     1.81
+    ]
+   ],
+   "segments": [
+    "Una ruta a pie."
+   ],
+   "text": "Una ruta a pie.",
+   "read": "Una ruta a pie."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.81,
+   "end": 8.22,
+   "parts": [
+    [
+     2.81,
+     4.33
+    ],
+    [
+     4.61,
+     8.22
+    ]
+   ],
+   "segments": [
+    "La primavera pasada,",
+    "mi amigo Diego me propuso hacer una ruta a pie por la montaña."
+   ],
+   "text": "La primavera pasada, mi amigo Diego me propuso hacer una ruta a pie por la montaña.",
+   "read": "La primavera pasada, mi amigo Diego me propuso hacer una ruta a pie por la montaña."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.22,
+   "end": 14.51,
+   "parts": [
+    [
+     9.22,
+     12.53
+    ],
+    [
+     12.81,
+     14.51
+    ]
+   ],
+   "segments": [
+    "Preparé la mochila con agua, fruta y un poco de pan,",
+    "y saqué mi viejo bastón."
+   ],
+   "text": "Preparé la mochila con agua, fruta y un poco de pan, y saqué mi viejo bastón.",
+   "read": "Preparé la mochila con agua, fruta y un poco de pan, y saqué mi viejo bastón."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.51,
+   "end": 20.57,
+   "parts": [
+    [
+     15.51,
+     20.57
+    ]
+   ],
+   "segments": [
+    "Salimos temprano de un pequeño pueblo y empezamos a subir por un sendero estrecho."
+   ],
+   "text": "Salimos temprano de un pequeño pueblo y empezamos a subir por un sendero estrecho.",
+   "read": "Salimos temprano de un pequeño pueblo y empezamos a subir por un sendero estrecho."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 21.57,
+   "end": 26.66,
+   "parts": [
+    [
+     21.57,
+     23.44
+    ],
+    [
+     23.72,
+     26.66
+    ]
+   ],
+   "segments": [
+    "Al comienzo charlábamos sin parar,",
+    "pero luego nos quedamos callados para escuchar el bosque."
+   ],
+   "text": "Al comienzo charlábamos sin parar, pero luego nos quedamos callados para escuchar el bosque.",
+   "read": "Al comienzo charlábamos sin parar, pero luego nos quedamos callados para escuchar el bosque."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 27.66,
+   "end": 33.15,
+   "parts": [
+    [
+     27.66,
+     29.65
+    ],
+    [
+     29.93,
+     33.15
+    ]
+   ],
+   "segments": [
+    "A mediodía llegamos a la cima,",
+    "desde donde el pueblo parecía un juguete al fondo del valle."
+   ],
+   "text": "A mediodía llegamos a la cima, desde donde el pueblo parecía un juguete al fondo del valle.",
+   "read": "A mediodía llegamos a la cima, desde donde el pueblo parecía un juguete al fondo del valle."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 34.15,
+   "end": 38.08,
+   "parts": [
+    [
+     34.15,
+     38.08
+    ]
+   ],
+   "segments": [
+    "Allí nos quitamos las botas y comimos sentados sobre una roca."
+   ],
+   "text": "Allí nos quitamos las botas y comimos sentados sobre una roca.",
+   "read": "Allí nos quitamos las botas y comimos sentados sobre una roca."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 39.08,
+   "end": 42.93,
+   "parts": [
+    [
+     39.08,
+     40.54
+    ],
+    [
+     40.82,
+     42.93
+    ]
+   ],
+   "segments": [
+    "Aunque terminé agotado,",
+    "me sentía más tranquilo que nunca."
+   ],
+   "text": "Aunque terminé agotado, me sentía más tranquilo que nunca.",
+   "read": "Aunque terminé agotado, me sentía más tranquilo que nunca."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 43.93,
+   "end": 47.55,
+   "parts": [
+    [
+     43.93,
+     47.55
+    ]
+   ],
+   "segments": [
+    "Creo que andar despacio nos ayuda a mirar el mundo con más atención."
+   ],
+   "text": "Creo que andar despacio nos ayuda a mirar el mundo con más atención.",
+   "read": "Creo que andar despacio nos ayuda a mirar el mundo con más atención."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 48.55,
+   "end": 54.45,
+   "parts": [
+    [
+     48.55,
+     50.24
+    ],
+    [
+     50.52,
+     54.45
+    ]
+   ],
+   "segments": [
+    "Si alguien quiere probarlo,",
+    "es importante que lleve calzado cómodo y que no cargue demasiado peso."
+   ],
+   "text": "Si alguien quiere probarlo, es importante que lleve calzado cómodo y que no cargue demasiado peso.",
+   "read": "Si alguien quiere probarlo, es importante que lleve calzado cómodo y que no cargue demasiado peso."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 55.45,
+   "end": 60.77,
+   "parts": [
+    [
+     55.45,
+     58.19
+    ],
+    [
+     58.47,
+     60.77
+    ]
+   ],
+   "segments": [
+    "Diego y yo ya estamos pensando en la próxima ruta;",
+    "esta vez me gustaría dormir en un refugio."
+   ],
+   "text": "Diego y yo ya estamos pensando en la próxima ruta; esta vez me gustaría dormir en un refugio.",
+   "read": "Diego y yo ya estamos pensando en la próxima ruta; esta vez me gustaría dormir en un refugio."
+  }
+ ]
+}

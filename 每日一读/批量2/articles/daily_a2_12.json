@@ -1,0 +1,141 @@
+{
+ "id": "daily_a2_12",
+ "level": "A2",
+ "no": 12,
+ "title_es": "Una boda en el pueblo",
+ "title_zh": "村里的婚礼",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 12 篇。原创短文。简单过去时叙述婚礼当天的经过（se casó、fuimos、comimos、conocí、se encendieron、aplaudimos、tocó），过去未完成时描写院子和气氛（había、colgaban、parecía），结尾用最高级 la más alegre de mi vida。10 句，113 词。第 4 句 un mantel blanco, flores y copas de cristal 是名词列举，blanco 后的逗号不停顿；第 1 句 El mes pasado 后、第 2 句 Después de la ceremonia 后、第 3 句插入语 en el centro 两边、第 10 句 pero 前的逗号照常停顿。第 2 句 los invitados fuimos 是“我们这些客人”的说法，主语 los invitados 配第一人称复数动词，译作“我们这些客人”；婚礼在妈妈的村子里办，prima 译作“表姐”，tío 译作“舅舅”；primos de mi madre 译作“妈妈的几位表亲”；copa 是有脚的杯子，释义取“高脚杯”；luces 指头顶挂的一串串小灯，释义取“灯”；encenderse 原文是 se encendieron，取“亮起来”；mágico 取“梦幻的”；novios 指新郎新娘，译作“新人”。第 8 句原想写 los novios cortaron la tarta y todos aplaudimos，为了不让 aplaudimos 落在句末，改成 Luego todos aplaudimos cuando los novios cortaron la tarta。词头 boda、pueblo 在标题里，排在最前。白墙房子、院子里的长桌、白桌布、花、蛋糕、杯子和头顶的灯串都写进了文中。",
+ "no_pause_commas": {
+  "4": [
+   {
+    "after": "blanco,",
+    "why": "列举：un mantel blanco, flores y copas de cristal（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "boda",
+   "婚礼",
+   "boda"
+  ],
+  [
+   "pueblo",
+   "村子",
+   "pueblo"
+  ],
+  [
+   "casarse",
+   "结婚",
+   "casó"
+  ],
+  [
+   "ceremonia",
+   "仪式",
+   "ceremonia"
+  ],
+  [
+   "invitado",
+   "客人",
+   "invitados"
+  ],
+  [
+   "patio",
+   "院子",
+   "patio"
+  ],
+  [
+   "mantel",
+   "桌布",
+   "mantel"
+  ],
+  [
+   "copa",
+   "高脚杯",
+   "copas"
+  ],
+  [
+   "colgar",
+   "挂",
+   "colgaban"
+  ],
+  [
+   "luz",
+   "灯",
+   "luces"
+  ],
+  [
+   "encenderse",
+   "亮起来",
+   "encendieron"
+  ],
+  [
+   "mágico",
+   "梦幻的",
+   "mágico"
+  ],
+  [
+   "aplaudir",
+   "鼓掌",
+   "aplaudimos"
+  ],
+  [
+   "tocar",
+   "弹奏",
+   "tocó"
+  ],
+  [
+   "sencillo",
+   "简单的",
+   "sencilla"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "El mes pasado, mi prima Lucía se casó en el pueblo de mi madre.",
+    "zh": "上个月，我表姐露西娅在我妈妈老家的村子里结婚了。"
+   },
+   {
+    "es": "Después de la ceremonia, los invitados fuimos a comer a un patio.",
+    "zh": "仪式结束后，我们这些客人去一个院子里吃饭。"
+   },
+   {
+    "es": "Alrededor había casas blancas y, en el centro, una mesa muy larga.",
+    "zh": "院子四周是白色的房子，中间摆着一张很长的桌子。"
+   },
+   {
+    "es": "Sobre la mesa había un mantel blanco, flores y copas de cristal.",
+    "zh": "桌上铺着白桌布，摆着鲜花和玻璃高脚杯。"
+   },
+   {
+    "es": "Encima de nosotros colgaban luces pequeñas de una casa a otra.",
+    "zh": "我们头顶上挂着一串串小灯，从一座房子拉到另一座房子。"
+   }
+  ],
+  [
+   {
+    "es": "Comimos durante horas y conocí a unos primos de mi madre.",
+    "zh": "我们吃了好几个小时，我还认识了妈妈的几位表亲。"
+   },
+   {
+    "es": "Por la noche se encendieron las luces y todo parecía mágico.",
+    "zh": "到了晚上，灯都亮了起来，一切都显得那么梦幻。"
+   },
+   {
+    "es": "Luego todos aplaudimos cuando los novios cortaron la tarta.",
+    "zh": "后来新人切蛋糕的时候，大家都鼓起掌来。"
+   },
+   {
+    "es": "Mi tío tocó la guitarra y bailamos hasta muy tarde.",
+    "zh": "我舅舅弹起了吉他，我们一直跳舞跳到很晚。"
+   },
+   {
+    "es": "Fue una boda sencilla, pero la más alegre de mi vida.",
+    "zh": "那是一场简单的婚礼，却是我这辈子最欢乐的一场。"
+   }
+  ]
+ ]
+}

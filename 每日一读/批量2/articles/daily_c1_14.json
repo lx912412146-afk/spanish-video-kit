@@ -1,0 +1,129 @@
+{
+ "id": "daily_c1_14",
+ "level": "C1",
+ "no": 14,
+ "title_es": "El papel del azar",
+ "title_zh": "偶然的作用",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 C1 第 14 篇。原创短文。主要语法：关系从句（que da a un camino bifurcado），主谓倒装（descansan una moneda…），tras + 原形，过去时中的条件式表“过去的将来”（se convertiría），tender a + 原形，介词 + 关系代词（en la que），aunque + 陈述式表事实让步，过去完成虚拟式条件句（Si no hubiera perdido…, quizá habría llevado…），más bien 修正前文。7 句，134 词。第一人称叙述者是男性（mi esposa），没有用到需要变性的形容词。特别判断：人名只用一个 Clara，译作“克拉拉”；第 1 句 una moneda, dos dados y un viejo billete de tren 是名词列举，moneda 后的逗号不停顿，已登记；前面 mesa、bifurcado 后的逗号隔开插入的地点状语，照常停顿；dos 是简单数词，un minuto 表示差距，不是钟点；第 2 句 el mío 指“我原本要坐的那班车”；deja en la sombra 是比喻“使隐而不见”，词汇收整个说法；más bien 在这里是“毋宁说”，不是“相当”。第一批 c1_07 已收 imprevisto，这里的 lo imprevisto 不再收。插图里的硬币、骰子、旧车票和窗外分岔的小路对应第 1、2 句。",
+ "no_pause_commas": {
+  "1": [
+   {
+    "after": "moneda,",
+    "why": "列举：una moneda, dos dados y un viejo billete de tren（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "papel",
+   "作用",
+   "papel"
+  ],
+  [
+   "azar",
+   "偶然",
+   "azar"
+  ],
+  [
+   "bifurcado",
+   "分岔的",
+   "bifurcado"
+  ],
+  [
+   "dado",
+   "骰子",
+   "dados"
+  ],
+  [
+   "casualidad",
+   "巧合",
+   "casualidad"
+  ],
+  [
+   "vagón",
+   "车厢",
+   "vagón"
+  ],
+  [
+   "narrar",
+   "讲述",
+   "narrar"
+  ],
+  [
+   "cadena",
+   "一连串",
+   "cadena"
+  ],
+  [
+   "necesariamente",
+   "必然",
+   "necesariamente"
+  ],
+  [
+   "tranquilizar",
+   "使人安心",
+   "tranquiliza"
+  ],
+  [
+   "dejar en la sombra",
+   "使隐没",
+   "deja en la sombra"
+  ],
+  [
+   "menoscabar",
+   "削弱",
+   "menoscaba"
+  ],
+  [
+   "más bien",
+   "毋宁说",
+   "más bien"
+  ],
+  [
+   "acoger",
+   "接纳",
+   "acoger"
+  ],
+  [
+   "gratitud",
+   "感激",
+   "gratitud"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Sobre la mesa, frente a una ventana que da a un camino bifurcado, descansan una moneda, dos dados y un viejo billete de tren.",
+    "zh": "桌子正对着一扇望得见岔路的窗，桌上放着一枚硬币、两颗骰子和一张旧火车票。"
+   },
+   {
+    "es": "Es el billete de un tren que tomé por pura casualidad, tras perder el mío por apenas un minuto.",
+    "zh": "那张车票属于一趟我纯属偶然才搭上的火车：当时我只差一分钟，没赶上原本要坐的那班。"
+   },
+   {
+    "es": "En aquel vagón conocí a Clara, que con el tiempo se convertiría en mi esposa.",
+    "zh": "我在那节车厢里认识了克拉拉，后来她成了我的妻子。"
+   }
+  ],
+  [
+   {
+    "es": "Tendemos a narrar nuestra vida como una cadena de decisiones en la que cada paso conduce necesariamente al siguiente.",
+    "zh": "我们往往把自己的人生讲述成一连串的抉择，其中每一步都必然引向下一步。"
+   },
+   {
+    "es": "Esa coherencia tranquiliza, aunque suele ser una reconstrucción posterior que deja en la sombra el papel del azar.",
+    "zh": "这种连贯性令人安心，但它往往是事后的重构，让偶然所起的作用隐没在阴影里。"
+   },
+   {
+    "es": "Si no hubiera perdido aquel tren, quizá habría llevado una existencia igualmente feliz, pero sin duda distinta.",
+    "zh": "倘若当初没有错过那班车，我或许也会过上同样幸福的生活，但那必定是另一种人生。"
+   },
+   {
+    "es": "Reconocer el peso de lo imprevisto no menoscaba nuestra libertad; más bien nos enseña a acoger con gratitud lo que no elegimos.",
+    "zh": "承认意外之事的分量，并不会削弱我们的自由；毋宁说，它教会我们心怀感激地接纳那些并非自己选择的东西。"
+   }
+  ]
+ ]
+}

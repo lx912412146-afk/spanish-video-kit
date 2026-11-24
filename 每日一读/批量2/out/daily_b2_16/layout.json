@@ -1,0 +1,282 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  618
+ ],
+ "zh": [
+  96,
+  644,
+  480,
+  837
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  293.109375,
+  131.625
+ ],
+ "header_gap": 92.265625,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   444
+  ],
+  [
+   506,
+   455,
+   626,
+   473
+  ],
+  [
+   506,
+   484,
+   626,
+   520
+  ],
+  [
+   506,
+   531,
+   626,
+   549
+  ],
+  [
+   506,
+   560,
+   626,
+   578
+  ],
+  [
+   506,
+   589,
+   626,
+   607
+  ]
+ ],
+ "vocab_wrapped": 3,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   3
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   3.6,
+   "Mi tío Julián tiene dos colmenas de madera junto a un campo"
+  ],
+  [
+   "mid",
+   7.5,
+   "de girasoles y lavanda. Según me explicó, sus abejas hacen"
+  ],
+  [
+   "mid",
+   4.9,
+   "mucho más que producir miel. Al ir de flor en flor, transportan el"
+  ],
+  [
+   "mid",
+   5.4,
+   "polen que permite que las plantas den fruto. Si desaparecieran,"
+  ],
+  [
+   "last",
+   3.6,
+   "buena parte de lo que comemos dejaría de llegar a la mesa."
+  ],
+  [
+   "mid",
+   4.4,
+   "Sin embargo, su población se reduce año tras año. Entre las"
+  ],
+  [
+   "mid",
+   4.9,
+   "causas destacan el cambio climático, los pesticidas y la pérdida"
+  ],
+  [
+   "mid",
+   4.1,
+   "de su hábitat. Por lo tanto, protegerlas es una responsabilidad de"
+  ],
+  [
+   "mid",
+   4.2,
+   "toda la sociedad. Plantar flores en el balcón o comprar miel de la"
+  ],
+  [
+   "mid",
+   6.9,
+   "zona son pequeñas acciones que marcan la diferencia. Como"
+  ],
+  [
+   "last",
+   3.6,
+   "dice mi tío, cuidar a las abejas es cuidar nuestro propio futuro."
+  ]
+ ],
+ "es_max_gap": 7.5,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

@@ -1,0 +1,301 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  578.625
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  586.625
+ ],
+ "zh": [
+  96,
+  612.625,
+  480,
+  828.75
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  221.953125,
+  131.625
+ ],
+ "header_gap": 181.953125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   321
+  ],
+  [
+   506,
+   332,
+   626,
+   350
+  ],
+  [
+   506,
+   361,
+   626,
+   379
+  ],
+  [
+   506,
+   390,
+   626,
+   408
+  ],
+  [
+   506,
+   419,
+   626,
+   437
+  ],
+  [
+   506,
+   448,
+   626,
+   466
+  ],
+  [
+   506,
+   477,
+   626,
+   495
+  ],
+  [
+   506,
+   506,
+   626,
+   524
+  ],
+  [
+   506,
+   535,
+   626,
+   553
+  ]
+ ],
+ "vocab_wrapped": 0,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   1
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   1
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "13",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   3.7,
+   "Mi plato favorito es la paella de marisco. La mejor paella es la"
+  ],
+  [
+   "mid",
+   5.4,
+   "de mi tía Marta. Los domingos comemos en su casa, cerca del"
+  ],
+  [
+   "mid",
+   4.2,
+   "mar. La paella lleva arroz, marisco y un poco de verdura. Mi tía la"
+  ],
+  [
+   "mid",
+   4.2,
+   "hace en una paellera muy grande. Mi trabajo es cortar un limón y"
+  ],
+  [
+   "last",
+   3.6,
+   "poner el pan en una cesta."
+  ],
+  [
+   "mid",
+   5.7,
+   "A la hora de comer, nos sentamos todos a la mesa. Mi tía"
+  ],
+  [
+   "mid",
+   5.1,
+   "pone la paellera en el centro y todos aplauden. Cada uno come"
+  ],
+  [
+   "mid",
+   6.9,
+   "con su cuchara directamente de la paellera. Con un poco de"
+  ],
+  [
+   "mid",
+   6.5,
+   "limón, el arroz está todavía más rico. Siempre repito y al final"
+  ],
+  [
+   "last",
+   3.6,
+   "estoy muy lleno. La paella de mi tía sabe a domingo en familia."
+  ]
+ ],
+ "es_max_gap": 6.9,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

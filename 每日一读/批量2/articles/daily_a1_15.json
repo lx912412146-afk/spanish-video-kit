@@ -1,0 +1,142 @@
+{
+ "id": "daily_a1_15",
+ "level": "A1",
+ "no": 15,
+ "title_es": "El otoño",
+ "title_zh": "秋天",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A1 第 15 篇。原创短文。只用陈述式现在时，有 hay、ponerse + 形容词、cambiar de color、oler a、比较级 más tranquilo。12 句，114 词。特别判断：金黄和橙红的树、满地落叶、长椅、远处的房子都和插图对应，第 10 句 el cielo está azul claro 和插图里淡蓝的天空一致（审校时由 muy azul 改来）；se ponen doradas 说树叶变黄，ponerse 释义取“变得”；cubren el camino 译作“铺满了小路”；hacen ruido cuando camino 译作“沙沙作响”；castañas asadas 是西班牙秋天街头常见的烤栗子；compartimos la bolsa 是两人分吃一袋栗子；huelen a otoño 译作“闻起来满是秋天的味道”；fresco 在这里说空气凉爽，不是“新鲜”。第 1 句 otoño, 是句首状语，照常停顿；全篇没有列举，no_pause_commas 为空。词汇：otoño 在标题里，排在最前；cambiar de color 原文是 cambian de color，hoja 原文是复数 hojas，ponerse 原文是 se ponen，dorado、seco、asado 原文是阴性复数 doradas、secas、asadas，caer、cubrir 原文是 caen、cubren，oler a 原文是 huelen a。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "otoño",
+   "秋天",
+   "otoño"
+  ],
+  [
+   "cambiar de color",
+   "变色",
+   "cambian de color"
+  ],
+  [
+   "hoja",
+   "叶子",
+   "hojas"
+  ],
+  [
+   "ponerse",
+   "变得",
+   "se ponen"
+  ],
+  [
+   "dorado",
+   "金黄的",
+   "doradas"
+  ],
+  [
+   "caer",
+   "落下",
+   "caen"
+  ],
+  [
+   "cubrir",
+   "铺满",
+   "cubren"
+  ],
+  [
+   "pasear",
+   "散步",
+   "pasear"
+  ],
+  [
+   "seco",
+   "干的",
+   "secas"
+  ],
+  [
+   "ruido",
+   "响声",
+   "ruido"
+  ],
+  [
+   "castaña",
+   "栗子",
+   "castañas"
+  ],
+  [
+   "asado",
+   "烤的",
+   "asadas"
+  ],
+  [
+   "sabor",
+   "味道",
+   "sabor"
+  ],
+  [
+   "oler a",
+   "闻起来像",
+   "huelen a"
+  ],
+  [
+   "fresco",
+   "凉爽的",
+   "fresco"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "En otoño, los árboles de mi barrio cambian de color.",
+    "zh": "一到秋天，我们街区的树就变了颜色。"
+   },
+   {
+    "es": "Las hojas se ponen doradas o de color naranja.",
+    "zh": "树叶变成金黄色或者橙色。"
+   },
+   {
+    "es": "Después caen al suelo y cubren el camino del parque.",
+    "zh": "后来，树叶落到地上，铺满了公园的小路。"
+   },
+   {
+    "es": "Me encanta pasear por ese camino después de clase.",
+    "zh": "我特别喜欢下课以后在那条小路上散步。"
+   },
+   {
+    "es": "Las hojas secas hacen ruido cuando camino.",
+    "zh": "我走路的时候，干树叶沙沙作响。"
+   },
+   {
+    "es": "Bajo un árbol muy grande hay un banco de madera.",
+    "zh": "一棵大树下面有一张木头长椅。"
+   }
+  ],
+  [
+   {
+    "es": "A veces compro castañas asadas con mi amigo Rubén.",
+    "zh": "有时候我和朋友鲁本一起买烤栗子。"
+   },
+   {
+    "es": "Nos sentamos en el banco y compartimos la bolsa.",
+    "zh": "我们坐在长椅上，一起分着吃那一袋栗子。"
+   },
+   {
+    "es": "Las castañas tienen un sabor dulce y huelen a otoño.",
+    "zh": "栗子甜甜的，闻起来满是秋天的味道。"
+   },
+   {
+    "es": "El aire es fresco y el cielo está azul claro.",
+    "zh": "空气凉爽，天空是淡蓝色的。"
+   },
+   {
+    "es": "Desde allí veo las casas del otro lado del parque.",
+    "zh": "从那儿，我能看到公园另一边的房子。"
+   },
+   {
+    "es": "El otoño es mi estación favorita porque todo es más tranquilo.",
+    "zh": "秋天是我最喜欢的季节，因为这时候一切都更安静。"
+   }
+  ]
+ ]
+}

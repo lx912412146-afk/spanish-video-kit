@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_11",
+ "level": "A2",
+ "no": 11,
+ "title_es": "El día que vi el mar",
+ "title_zh": "第一次看见大海",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 11 篇。原创短文。过去未完成时回忆童年、描写海景（vivía、conocía、era、se rompían、navegaban、estaba），简单过去时叙述第一次看海的经过（llevaron、subimos、vi、dejé、bajé），比较级 más grande y más azul que，结尾用现在完成时 he vuelto、he olvidado。11 句，120 词。没有需要不停顿的列举逗号：第 1 句 Cuando era niño 后和 lejos de la costa 前、第 3 句 Un verano 后、第 5 句 Desde arriba 后的逗号是状语，第 10、11 句 pero 前是转折，都照常停顿。pueblo del interior 指离海很远的内陆小地方，译作“内陆的一个小镇”；Solo conocía el mar por la televisión 意思是只通过电视认识大海，译作“只在电视上见过大海”；第 7 句 Las olas se rompían en la orilla con mucha espuma blanca 译作“海浪在岸边碎开，泛起一大片白色的浪花”，espuma 释义取“浪花”；原句是 llegaban a la orilla y se rompían…，orilla 后面紧跟 y，按录音经验 y 容易被吞，改了说法；bajé corriendo hasta el agua 译作“一路跑到了水边”；salado 原文是 salada，修饰阴性名词 el agua；词头 mar 在标题里，排在最前。第 9 句写 mis pequeñas sandalias，对应插图地上的小凉鞋，也合孩子的身份，复数 sandalias 放在句中，不在逗号前或句末。沙丘上的草、蓝色的海和浪花、远处的帆船、小凉鞋都写进了文中。审校改动：插图远处有一大一小两艘帆船，第 8 句原为 En el horizonte navegaba un pequeño velero，和画面的数量对不上，改成 En el horizonte navegaban un velero grande y otro pequeño，译文同步改为“一大一小两艘帆船”；不用复数 veleros，免得复数词尾被吞，velero 的原文写法不变。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "mar",
+   "大海",
+   "mar"
+  ],
+  [
+   "interior",
+   "内陆",
+   "interior"
+  ],
+  [
+   "costa",
+   "海边",
+   "costa"
+  ],
+  [
+   "por fin",
+   "终于",
+   "por fin"
+  ],
+  [
+   "duna",
+   "沙丘",
+   "duna"
+  ],
+  [
+   "hierba",
+   "青草",
+   "hierba"
+  ],
+  [
+   "por primera vez",
+   "第一次",
+   "por primera vez"
+  ],
+  [
+   "ola",
+   "海浪",
+   "olas"
+  ],
+  [
+   "orilla",
+   "岸边",
+   "orilla"
+  ],
+  [
+   "espuma",
+   "浪花",
+   "espuma"
+  ],
+  [
+   "horizonte",
+   "海平线",
+   "horizonte"
+  ],
+  [
+   "velero",
+   "帆船",
+   "velero"
+  ],
+  [
+   "sandalia",
+   "凉鞋",
+   "sandalias"
+  ],
+  [
+   "salado",
+   "咸的",
+   "salada"
+  ],
+  [
+   "olvidar",
+   "忘记",
+   "olvidado"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cuando era niño, vivía en un pueblo del interior, lejos de la costa.",
+    "zh": "我小时候住在内陆的一个小镇上，离海边很远。"
+   },
+   {
+    "es": "Solo conocía el mar por la televisión.",
+    "zh": "我只在电视上见过大海。"
+   },
+   {
+    "es": "Un verano, mis padres me llevaron por fin a la playa.",
+    "zh": "有一年夏天，爸爸妈妈终于带我去了海边。"
+   },
+   {
+    "es": "Llegamos por la tarde y subimos a una duna cubierta de hierba.",
+    "zh": "我们下午到了那里，爬上了一座长满青草的沙丘。"
+   },
+   {
+    "es": "Desde arriba, vi el mar por primera vez.",
+    "zh": "站在沙丘顶上，我第一次看见了大海。"
+   }
+  ],
+  [
+   {
+    "es": "Era mucho más grande y más azul que en la televisión.",
+    "zh": "它比电视里的大得多，也蓝得多。"
+   },
+   {
+    "es": "Las olas se rompían en la orilla con mucha espuma blanca.",
+    "zh": "海浪在岸边碎开，泛起一大片白色的浪花。"
+   },
+   {
+    "es": "En el horizonte navegaban un velero grande y otro pequeño.",
+    "zh": "远处的海平线上，一大一小两艘帆船正在航行。"
+   },
+   {
+    "es": "Dejé mis pequeñas sandalias en la duna y bajé corriendo hasta el agua.",
+    "zh": "我把小凉鞋留在沙丘上，一路跑到了水边。"
+   },
+   {
+    "es": "El agua estaba fría y salada, pero yo no quería salir.",
+    "zh": "海水又凉又咸，可我一点也不想上岸。"
+   },
+   {
+    "es": "He vuelto muchas veces a la playa, pero nunca he olvidado aquel día.",
+    "zh": "后来我又去过很多次海边，但从来没有忘记那一天。"
+   }
+  ]
+ ]
+}

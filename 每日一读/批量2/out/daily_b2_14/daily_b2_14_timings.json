@@ -1,0 +1,273 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_14.mp3",
+ "duration": 58.98,
+ "sentence_pause": 0.9,
+ "loudness": {
+  "integrated_lufs": -16.48,
+  "sentence_max_dev_lu": 0.53,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.7,
+  "buzz_hz": 8780.3,
+  "buzz_db": 5.6,
+  "comb_db": -0.13
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 0.9,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.3,
+  "leveler_rng": 12.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.49,
+   "parts": [
+    [
+     0.5,
+     2.49
+    ]
+   ],
+   "segments": [
+    "La contaminación lumínica."
+   ],
+   "text": "La contaminación lumínica.",
+   "read": "La contaminación lumínica."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.39,
+   "end": 8.43,
+   "parts": [
+    [
+     3.39,
+     8.43
+    ]
+   ],
+   "segments": [
+    "Crecí en una gran ciudad donde el cielo nocturno nunca llegaba a oscurecerse del todo."
+   ],
+   "text": "Crecí en una gran ciudad donde el cielo nocturno nunca llegaba a oscurecerse del todo.",
+   "read": "Crecí en una gran ciudad donde el cielo nocturno nunca llegaba a oscurecerse del todo."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 9.33,
+   "end": 14.33,
+   "parts": [
+    [
+     9.33,
+     9.83
+    ],
+    [
+     10.11,
+     12.59
+    ],
+    [
+     12.87,
+     14.33
+    ]
+   ],
+   "segments": [
+    "Por eso,",
+    "la primera vez que pasé una noche en el campo,",
+    "me quedé asombrado."
+   ],
+   "text": "Por eso, la primera vez que pasé una noche en el campo, me quedé asombrado.",
+   "read": "Por eso, la primera vez que pasé una noche en el campo, me quedé asombrado."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.23,
+   "end": 19.16,
+   "parts": [
+    [
+     15.23,
+     19.16
+    ]
+   ],
+   "segments": [
+    "Sobre las colinas brillaba un cielo estrellado como nunca lo había visto."
+   ],
+   "text": "Sobre las colinas brillaba un cielo estrellado como nunca lo había visto.",
+   "read": "Sobre las colinas brillaba un cielo estrellado como nunca lo había visto."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 20.06,
+   "end": 24.16,
+   "parts": [
+    [
+     20.06,
+     24.16
+    ]
+   ],
+   "segments": [
+    "Fue entonces cuando entendí lo mucho que nos había quitado la luz artificial."
+   ],
+   "text": "Fue entonces cuando entendí lo mucho que nos había quitado la luz artificial.",
+   "read": "Fue entonces cuando entendí lo mucho que nos había quitado la luz artificial."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 25.06,
+   "end": 30.62,
+   "parts": [
+    [
+     25.06,
+     28.34
+    ],
+    [
+     28.62,
+     30.62
+    ]
+   ],
+   "segments": [
+    "La contaminación lumínica no solo nos oculta el cielo,",
+    "sino que altera nuestro sueño."
+   ],
+   "text": "La contaminación lumínica no solo nos oculta el cielo, sino que altera nuestro sueño.",
+   "read": "La contaminación lumínica no solo nos oculta el cielo, sino que altera nuestro sueño."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 31.52,
+   "end": 36.35,
+   "parts": [
+    [
+     31.52,
+     36.35
+    ]
+   ],
+   "segments": [
+    "Además, desorienta a las aves migratorias y perjudica a la fauna nocturna."
+   ],
+   "text": "Además, desorienta a las aves migratorias y perjudica a la fauna nocturna.",
+   "read": "Además, desorienta a las aves migratorias y perjudica a la fauna nocturna."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 37.25,
+   "end": 45.33,
+   "parts": [
+    [
+     37.25,
+     38.23
+    ],
+    [
+     38.51,
+     39.92
+    ],
+    [
+     40.2,
+     45.33
+    ]
+   ],
+   "segments": [
+    "Por suerte,",
+    "tiene fácil solución:",
+    "bastaría con que las farolas apuntaran al suelo y los escaparates se apagaran de madrugada."
+   ],
+   "text": "Por suerte, tiene fácil solución: bastaría con que las farolas apuntaran al suelo y los escaparates se apagaran de madrugada.",
+   "read": "Por suerte, tiene fácil solución: bastaría con que las farolas apuntaran al suelo y los escaparates se apagaran de madrugada."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 46.23,
+   "end": 50.5,
+   "parts": [
+    [
+     46.23,
+     47.23
+    ],
+    [
+     47.51,
+     48.43
+    ],
+    [
+     48.71,
+     50.5
+    ]
+   ],
+   "segments": [
+    "Con ello,",
+    "de paso,",
+    "se ahorraría mucha energía."
+   ],
+   "text": "Con ello, de paso, se ahorraría mucha energía.",
+   "read": "Con ello, de paso, se ahorraría mucha energía."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 51.4,
+   "end": 57.78,
+   "parts": [
+    [
+     51.4,
+     55.48
+    ],
+    [
+     55.76,
+     57.78
+    ]
+   ],
+   "segments": [
+    "Recuperar la oscuridad de la noche no significa renunciar al progreso,",
+    "sino aprender a iluminar mejor."
+   ],
+   "text": "Recuperar la oscuridad de la noche no significa renunciar al progreso, sino aprender a iluminar mejor.",
+   "read": "Recuperar la oscuridad de la noche no significa renunciar al progreso, sino aprender a iluminar mejor."
+  }
+ ]
+}

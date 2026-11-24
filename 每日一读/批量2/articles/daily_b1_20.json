@@ -1,0 +1,141 @@
+{
+ "id": "daily_b1_20",
+ "level": "B1",
+ "no": 20,
+ "title_es": "La feria del libro",
+ "title_zh": "书市",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B1 第 20 篇。原创短文。现在时描写书市，简单过去时叙述上周六（fui、pasamos、me llevé、hicimos、mereció la pena），过去未完成时 recomendaban、era、firmaba、charlaba 写当时的情景；现在虚拟式 aunque… leamos、no creo que… vaya a desaparecer；条件式 me quedaría；将来时 volveré；连接语 al final、pero、aunque；固定说法 de caseta en caseta、hacer caso、hacer cola、merecer la pena。10 句，144 词。人名只有 Laura，译作劳拉。feria del libro 译作“书市”；caseta 是书市里一个个的木头小摊位，对应插图里的木摊位，techos blancos 对应白色的帐篷顶；cuento 译作“短篇故事”；libros de viaje 是“游记”；librero 是“书商”，不是“书架”；第 6 句 firmaba ejemplares 是“在书上签名”，ejemplar 释义写“册”；dedicatoria 是作者签名时写的“题词”；第 10 句 con la mochila vacía 是“背着空背包（好装新书）”。第 2 句 novelas, 是列举（novelas, cuentos y libros de viaje），不停顿；第 7 句 cola, 后面是并列分句，冒号前后照常停顿；第 9 句 aunque 从句后的逗号照常停顿。第 9 句用 en el móvil，不用 en pantallas,，免得复数词尾落在逗号前。词汇里 feria del libro 在标题里，排在最前；acoger 原文是 acoge，repleto 原文是 repletas，hacer caso 原文是 hacerles caso，llevarse 原文是 llevé，merecer la pena 原文是 mereció la pena。",
+ "no_pause_commas": {
+  "2": [
+   {
+    "after": "novelas,",
+    "why": "列举：novelas, cuentos y libros de viaje（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "feria del libro",
+   "书市",
+   "feria del libro"
+  ],
+  [
+   "acoger",
+   "举办",
+   "acoge"
+  ],
+  [
+   "caseta",
+   "摊位",
+   "casetas"
+  ],
+  [
+   "repleto",
+   "摆满的",
+   "repletas"
+  ],
+  [
+   "cuento",
+   "短篇故事",
+   "cuentos"
+  ],
+  [
+   "librero",
+   "书商",
+   "libreros"
+  ],
+  [
+   "hacer caso",
+   "听从",
+   "hacerles caso"
+  ],
+  [
+   "llevarse",
+   "买下",
+   "llevé"
+  ],
+  [
+   "firmar",
+   "签名",
+   "firmaba"
+  ],
+  [
+   "ejemplar",
+   "册",
+   "ejemplares"
+  ],
+  [
+   "cola",
+   "队伍",
+   "cola"
+  ],
+  [
+   "merecer la pena",
+   "值得",
+   "mereció la pena"
+  ],
+  [
+   "dedicatoria",
+   "题词",
+   "dedicatoria"
+  ],
+  [
+   "ambiente",
+   "氛围",
+   "ambiente"
+  ],
+  [
+   "desaparecer",
+   "消失",
+   "desaparecer"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cada primavera, el parque de mi barrio acoge la feria del libro.",
+    "zh": "每年春天，我们街区的公园都会举办书市。"
+   },
+   {
+    "es": "Sus casetas de madera tienen techos blancos y están repletas de novelas, cuentos y libros de viaje.",
+    "zh": "书市的木头摊位搭着白色的顶棚，摆满了小说、短篇故事和游记。"
+   },
+   {
+    "es": "El sábado pasado fui con mi amiga Laura y pasamos la mañana entera de caseta en caseta.",
+    "zh": "上周六，我和朋友劳拉一起去了，整个上午都在一个摊位接一个摊位地逛。"
+   },
+   {
+    "es": "Los libreros nos recomendaban títulos con tanto entusiasmo que era imposible no hacerles caso.",
+    "zh": "书商们推荐书目时热情洋溢，让人没法不听他们的。"
+   },
+   {
+    "es": "Al final me llevé un libro de poemas para regalárselo a mi padre.",
+    "zh": "最后，我买了一本诗集，准备送给我父亲。"
+   }
+  ],
+  [
+   {
+    "es": "En una caseta, una escritora firmaba ejemplares y charlaba con cada lector.",
+    "zh": "在一个摊位上，一位女作家正在给书签名，还和每位读者聊天。"
+   },
+   {
+    "es": "Hicimos una larga cola, pero mereció la pena: nos escribió una dedicatoria muy simpática.",
+    "zh": "我们排了很长的队，不过很值得：她给我们写了一段很亲切的题词。"
+   },
+   {
+    "es": "Me quedaría horas en este ambiente, donde todos comparten la misma pasión por la lectura.",
+    "zh": "我真想在这种氛围里待上好几个小时，这里的每个人都怀着对阅读的同样热爱。"
+   },
+   {
+    "es": "Aunque hoy leamos mucho en el móvil, no creo que el libro de papel vaya a desaparecer.",
+    "zh": "尽管如今我们常在手机上阅读，但我不认为纸质书会消失。"
+   },
+   {
+    "es": "El año que viene volveré con más tiempo y con la mochila vacía.",
+    "zh": "明年我还要再来，留出更多的时间，背上一个空背包。"
+   }
+  ]
+ ]
+}

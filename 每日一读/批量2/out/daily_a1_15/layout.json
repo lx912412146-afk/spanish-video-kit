@@ -1,0 +1,301 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  578.625
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  586.625
+ ],
+ "zh": [
+  96,
+  612.625,
+  480,
+  805.625
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  170.921875,
+  131.625
+ ],
+ "header_gap": 300.453125,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   194
+  ],
+  [
+   506,
+   205,
+   626,
+   223
+  ],
+  [
+   506,
+   234,
+   626,
+   252
+  ],
+  [
+   506,
+   263,
+   626,
+   281
+  ],
+  [
+   506,
+   292,
+   626,
+   310
+  ],
+  [
+   506,
+   321,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ],
+  [
+   "13",
+   1
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   1
+  ],
+  [
+   "7",
+   2
+  ],
+  [
+   "8",
+   1
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   1
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ],
+  [
+   "13",
+   2
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   6.7,
+   "En otoño, los árboles de mi barrio cambian de color. Las"
+  ],
+  [
+   "mid",
+   6.9,
+   "hojas se ponen doradas o de color naranja. Después caen al"
+  ],
+  [
+   "mid",
+   4.3,
+   "suelo y cubren el camino del parque. Me encanta pasear por ese"
+  ],
+  [
+   "mid",
+   5.4,
+   "camino después de clase. Las hojas secas hacen ruido cuando"
+  ],
+  [
+   "last",
+   3.6,
+   "camino. Bajo un árbol muy grande hay un banco de madera."
+  ],
+  [
+   "mid",
+   4.5,
+   "A veces compro castañas asadas con mi amigo Rubén. Nos"
+  ],
+  [
+   "mid",
+   7.3,
+   "sentamos en el banco y compartimos la bolsa. Las castañas"
+  ],
+  [
+   "mid",
+   4,
+   "tienen un sabor dulce y huelen a otoño. El aire es fresco y el cielo"
+  ],
+  [
+   "mid",
+   4.4,
+   "está azul claro. Desde allí veo las casas del otro lado del parque."
+  ],
+  [
+   "last",
+   3.6,
+   "El otoño es mi estación favorita porque todo es más tranquilo."
+  ]
+ ],
+ "es_max_gap": 7.3,
+ "es_font": [
+  13.1,
+  -0.05
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}

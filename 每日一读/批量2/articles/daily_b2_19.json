@@ -1,0 +1,137 @@
+{
+ "id": "daily_b2_19",
+ "level": "B2",
+ "no": 19,
+ "title_es": "Reparar en lugar de tirar",
+ "title_zh": "修而不扔",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25",
+ "_说明": "西班牙语每日一读 B2 第 19 篇。原创短文。语法：se me + 简单过去时（se me estropeó，表示不是有意造成的）、estar a punto de、hay que 的过去未完成时（había que）、seguir + 副动词（seguir funcionando）、soler + 原形、de manera que + 现在虚拟式（puedan，表目的）、自复被动（se fabrican）、sería deseable que + 过去虚拟式（diseñaran）；连接语 sin embargo、por desgracia、además、por consiguiente、entretanto。9 句，124 词。第一人称叙述，文中没有需要变性的词。人名只有拉蒙（Ramón）。banco de trabajo 是工作台，第 3、4 句的旧收音机、钳子、一卷电线、螺丝刀和拆开的台灯对应插图；第 4 句用 desmontar la lámpara 而不用 desmontarla，因为前一句的 una radio 也是阴性，避免指代不清；标题词 en lugar de、tirar 在第 9 句原样出现，排在词汇表最前；ganamos autonomía 译作“多了一分自主”。第 3 句 una radio antigua, unos alicates y un rollo de cable 是名词列举，antigua 后的逗号不停顿；alicates 放在 y 前，避开逗号前和句末的复数词尾。",
+ "no_pause_commas": {
+  "3": [
+   {
+    "after": "antigua,",
+    "why": "列举：una radio antigua, unos alicates y un rollo de cable（A, B y C）"
+   }
+  ]
+ },
+ "vocab": [
+  [
+   "en lugar de",
+   "而不是",
+   "en lugar de"
+  ],
+  [
+   "tirar",
+   "扔掉",
+   "tirar"
+  ],
+  [
+   "estropearse",
+   "坏掉",
+   "estropeó"
+  ],
+  [
+   "a punto de",
+   "差点",
+   "a punto de"
+  ],
+  [
+   "banco de trabajo",
+   "工作台",
+   "banco de trabajo"
+  ],
+  [
+   "alicate",
+   "钳子",
+   "alicates"
+  ],
+  [
+   "desmontar",
+   "拆开",
+   "desmontar"
+  ],
+  [
+   "destornillador",
+   "螺丝刀",
+   "destornillador"
+  ],
+  [
+   "diminuto",
+   "极小的",
+   "diminuta"
+  ],
+  [
+   "por desgracia",
+   "遗憾的是",
+   "Por desgracia"
+  ],
+  [
+   "de manera que",
+   "使得",
+   "de manera que"
+  ],
+  [
+   "por consiguiente",
+   "因此",
+   "Por consiguiente"
+  ],
+  [
+   "deseable",
+   "可取的",
+   "deseable"
+  ],
+  [
+   "duradero",
+   "耐用的",
+   "duraderos"
+  ],
+  [
+   "entretanto",
+   "与此同时",
+   "Entretanto"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Cuando se me estropeó la lámpara del escritorio, estuve a punto de tirarla.",
+    "zh": "书桌上的台灯坏了的时候，我差点就把它扔掉了。"
+   },
+   {
+    "es": "Mi vecino Ramón, sin embargo, me invitó a repararla en su taller.",
+    "zh": "不过，我的邻居拉蒙邀请我到他的工作间去修。"
+   },
+   {
+    "es": "Sobre su banco de trabajo había una radio antigua, unos alicates y un rollo de cable.",
+    "zh": "他的工作台上放着一台旧收音机、一把钳子和一卷电线。"
+   },
+   {
+    "es": "Tras desmontar la lámpara con un destornillador, descubrimos que solo había que cambiar una pieza diminuta.",
+    "zh": "我们用螺丝刀把台灯拆开，发现只需要换一个很小的零件。"
+   }
+  ],
+  [
+   {
+    "es": "Aquella tarde comprendí que tiramos muchos objetos que podrían seguir funcionando.",
+    "zh": "那天下午我明白了：我们扔掉的很多东西其实还能继续用。"
+   },
+   {
+    "es": "Por desgracia, arreglar un aparato suele costar más que comprar uno nuevo.",
+    "zh": "遗憾的是，修一件电器往往比买一件新的还贵。"
+   },
+   {
+    "es": "Además, muchos productos se fabrican de manera que no puedan abrirse con facilidad.",
+    "zh": "此外，许多产品在制造时就被设计得很难拆开。"
+   },
+   {
+    "es": "Por consiguiente, sería deseable que los fabricantes diseñaran objetos más duraderos y fáciles de reparar.",
+    "zh": "因此，要是厂家能设计出更耐用、更容易修理的产品就好了。"
+   },
+   {
+    "es": "Entretanto, cada vez que decidimos reparar en lugar de tirar, generamos menos basura y ganamos autonomía.",
+    "zh": "与此同时，每当我们选择修理而不是扔掉，就能少制造一些垃圾，也多了一分自主。"
+   }
+  ]
+ ]
+}

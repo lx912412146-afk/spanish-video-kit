@@ -1,0 +1,278 @@
+{
+ "voice": "qwen3_M1F5_25",
+ "file": "daily_b2_18.mp3",
+ "duration": 61.2,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.51,
+  "sentence_max_dev_lu": 0.25,
+  "short_term_std_lu": 0.96,
+  "short_term_std_full_lu": 0.97,
+  "peak_dbfs": -1.74,
+  "buzz_hz": 5474.9,
+  "buzz_db": 5.8,
+  "comb_db": -0.06
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B（克隆合成音色 Supertonic 3 M1+F5 0.25：更细、稍高的西语男声；真人感最强，2026-10-15 自然度机测 4.26，Supertonic 约 3.4）。2026-11-10 分级阅读第二批（原速）：加 safe_short_term 0.97 和 leveler_ladder，短时响度波动超过安全线时只对这一篇依次加强慢速电平再试（同 qwen3_M1F5_25_slow；默认一档 1.0 秒 ±4 dB 不变，已通过的篇目结果不变）。2026-11-24 每日一读第二批：leveler_ladder 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同 qwen3_M1F5_25_slow；B1-16 在句间 0.8 秒、前四档的短时响度波动是 1.11—1.00 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    6.0
+   ],
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ],
+  "leveler_win": 0.4,
+  "leveler_rng": 10.0
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 2.03,
+   "parts": [
+    [
+     0.5,
+     2.03
+    ]
+   ],
+   "segments": [
+    "Los trabajos del futuro."
+   ],
+   "text": "Los trabajos del futuro.",
+   "read": "Los trabajos del futuro."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 3.03,
+   "end": 7.44,
+   "parts": [
+    [
+     3.03,
+     4.72
+    ],
+    [
+     5.0,
+     7.44
+    ]
+   ],
+   "segments": [
+    "En el taller donde trabajo,",
+    "un brazo robótico se encarga del montaje."
+   ],
+   "text": "En el taller donde trabajo, un brazo robótico se encarga del montaje.",
+   "read": "En el taller donde trabajo, un brazo robótico se encarga del montaje."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.44,
+   "end": 14.23,
+   "parts": [
+    [
+     8.44,
+     9.76
+    ],
+    [
+     10.04,
+     14.23
+    ]
+   ],
+   "segments": [
+    "Cuando lo instalaron,",
+    "varios compañeros temieron que la máquina acabara quitándoles el puesto."
+   ],
+   "text": "Cuando lo instalaron, varios compañeros temieron que la máquina acabara quitándoles el puesto.",
+   "read": "Cuando lo instalaron, varios compañeros temieron que la máquina acabara quitándoles el puesto."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 15.23,
+   "end": 20.77,
+   "parts": [
+    [
+     15.23,
+     15.97
+    ],
+    [
+     16.25,
+     17.63
+    ],
+    [
+     17.91,
+     20.77
+    ]
+   ],
+   "segments": [
+    "Sin embargo,",
+    "nadie fue despedido;",
+    "lo que cambió fue la naturaleza de nuestro trabajo."
+   ],
+   "text": "Sin embargo, nadie fue despedido; lo que cambió fue la naturaleza de nuestro trabajo.",
+   "read": "Sin embargo, nadie fue despedido; lo que cambió fue la naturaleza de nuestro trabajo."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 21.77,
+   "end": 27.12,
+   "parts": [
+    [
+     21.77,
+     27.12
+    ]
+   ],
+   "segments": [
+    "Ahora dedicamos más tiempo a diseñar, resolver imprevistos y atender a cada cliente."
+   ],
+   "text": "Ahora dedicamos más tiempo a diseñar, resolver imprevistos y atender a cada cliente.",
+   "read": "Ahora dedicamos más tiempo a diseñar, resolver imprevistos y atender a cada cliente."
+  },
+  {
+   "k": 6,
+   "para": 3,
+   "start": 28.12,
+   "end": 33.25,
+   "parts": [
+    [
+     28.12,
+     31.72
+    ],
+    [
+     32.0,
+     33.25
+    ]
+   ],
+   "segments": [
+    "La historia demuestra que cada avance técnico destruye empleo,",
+    "pero también lo crea."
+   ],
+   "text": "La historia demuestra que cada avance técnico destruye empleo, pero también lo crea.",
+   "read": "La historia demuestra que cada avance técnico destruye empleo, pero también lo crea."
+  },
+  {
+   "k": 7,
+   "para": 3,
+   "start": 34.25,
+   "end": 40.49,
+   "parts": [
+    [
+     34.25,
+     35.0
+    ],
+    [
+     35.28,
+     37.68
+    ],
+    [
+     37.96,
+     40.49
+    ]
+   ],
+   "segments": [
+    "Por lo tanto,",
+    "la clave no está en competir con la máquina,",
+    "sino en desarrollar lo que ella no sabe hacer."
+   ],
+   "text": "Por lo tanto, la clave no está en competir con la máquina, sino en desarrollar lo que ella no sabe hacer.",
+   "read": "Por lo tanto, la clave no está en competir con la máquina, sino en desarrollar lo que ella no sabe hacer."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 41.49,
+   "end": 46.27,
+   "parts": [
+    [
+     41.49,
+     46.27
+    ]
+   ],
+   "segments": [
+    "La creatividad, la empatía y el pensamiento crítico tendrán cada vez más valor."
+   ],
+   "text": "La creatividad, la empatía y el pensamiento crítico tendrán cada vez más valor.",
+   "read": "La creatividad, la empatía y el pensamiento crítico tendrán cada vez más valor."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 47.27,
+   "end": 54.47,
+   "parts": [
+    [
+     47.27,
+     51.68
+    ],
+    [
+     51.96,
+     54.47
+    ]
+   ],
+   "segments": [
+    "Además, como ninguna profesión permanecerá igual durante toda una vida,",
+    "formarse será una necesidad constante."
+   ],
+   "text": "Además, como ninguna profesión permanecerá igual durante toda una vida, formarse será una necesidad constante.",
+   "read": "Además, como ninguna profesión permanecerá igual durante toda una vida, formarse será una necesidad constante."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 55.47,
+   "end": 60.0,
+   "parts": [
+    [
+     55.47,
+     56.45
+    ],
+    [
+     56.73,
+     60.0
+    ]
+   ],
+   "segments": [
+    "Por todo ello,",
+    "el futuro pertenecerá a quien nunca deje de aprender."
+   ],
+   "text": "Por todo ello, el futuro pertenecerá a quien nunca deje de aprender.",
+   "read": "Por todo ello, el futuro pertenecerá a quien nunca deje de aprender."
+  }
+ ]
+}

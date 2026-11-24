@@ -1,0 +1,302 @@
+{
+ "voice": "qwen3_M1F5_25_slow",
+ "file": "daily_a1_12.mp3",
+ "duration": 62.226,
+ "sentence_pause": 1.0,
+ "loudness": {
+  "integrated_lufs": -16.5,
+  "sentence_max_dev_lu": 1.18,
+  "short_term_std_lu": 0.97,
+  "short_term_std_full_lu": 1.02,
+  "peak_dbfs": -1.81,
+  "buzz_hz": 13500.0,
+  "buzz_db": 4.9,
+  "comb_db": 0.21
+ },
+ "voice_cfg": {
+  "label": "Qwen3-TTS 1.7B 克隆音色 M1F5_25，0.8 倍速、音高 +1 半音（2026-10-18 用户要求：语速慢到 0.8 倍、声音稍微高一些；合成后用 soxr 重采样 + ffmpeg atempo 处理，原始合成和 qwen3_M1F5_25 共用缓存；逗号停顿保持 0.28 秒、慢速电平改为 0.75 秒窗 ±6 dB：放慢后短时响度波动在 es02 上从 1.06 降到 0.95 LU（上限 1.0））。2026-11-10 分级阅读第二批：leveler_ladder 末尾加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（a2_18 加了一句以后，前三档的短时响度波动是 1.01–1.06 LU，0.4 秒 ±10 dB 降到 0.96 LU）；只有前面各档都不过才会用到，已通过的篇目结果不变",
+  "engine": "worker",
+  "python": "self",
+  "script": "qwen3tts.py",
+  "mode": "clone",
+  "model_dir": "西班牙语/models/qwen3-base",
+  "language": "spanish",
+  "seed": 1234,
+  "num_threads": 4,
+  "dtype": "float32",
+  "ref_audio": "西班牙语/配音选型/参考音色/M1F5_25.wav",
+  "lead_in": 0.5,
+  "sentence_pause": 1.0,
+  "tail": 1.2,
+  "clause_pause": 0.28,
+  "lufs": -16.0,
+  "kbps": 128,
+  "debuzz": [],
+  "tempo": 0.8,
+  "pitch_cents": 100,
+  "leveler_win": 0.75,
+  "leveler_rng": 6.0,
+  "safe_short_term": 0.97,
+  "leveler_ladder": [
+   [
+    0.75,
+    8.0
+   ],
+   [
+    0.5,
+    8.0
+   ],
+   [
+    0.4,
+    10.0
+   ],
+   [
+    0.3,
+    12.0
+   ]
+  ]
+ },
+ "sentences": [
+  {
+   "k": 1,
+   "para": 1,
+   "start": 0.5,
+   "end": 1.7,
+   "parts": [
+    [
+     0.5,
+     1.7
+    ]
+   ],
+   "segments": [
+    "Mi calle."
+   ],
+   "text": "Mi calle.",
+   "read": "Mi calle."
+  },
+  {
+   "k": 2,
+   "para": 2,
+   "start": 2.7,
+   "end": 7.51,
+   "parts": [
+    [
+     2.7,
+     5.52
+    ],
+    [
+     5.8,
+     7.51
+    ]
+   ],
+   "segments": [
+    "Vivo en una calle estrecha y tranquila,",
+    "cerca del centro."
+   ],
+   "text": "Vivo en una calle estrecha y tranquila, cerca del centro.",
+   "read": "Vivo en una calle estrecha y tranquila, cerca del centro."
+  },
+  {
+   "k": 3,
+   "para": 2,
+   "start": 8.51,
+   "end": 11.87,
+   "parts": [
+    [
+     8.51,
+     11.87
+    ]
+   ],
+   "segments": [
+    "Cada edificio es antiguo y tiene un portal de madera."
+   ],
+   "text": "Cada edificio es antiguo y tiene un portal de madera.",
+   "read": "Cada edificio es antiguo y tiene un portal de madera."
+  },
+  {
+   "k": 4,
+   "para": 2,
+   "start": 12.87,
+   "end": 16.97,
+   "parts": [
+    [
+     12.87,
+     16.97
+    ]
+   ],
+   "segments": [
+    "Muchos vecinos tienen macetas con flores en el balcón."
+   ],
+   "text": "Muchos vecinos tienen macetas con flores en el balcón.",
+   "read": "Muchos vecinos tienen macetas con flores en el balcón."
+  },
+  {
+   "k": 5,
+   "para": 2,
+   "start": 17.97,
+   "end": 20.169,
+   "parts": [
+    [
+     17.97,
+     20.169
+    ]
+   ],
+   "segments": [
+    "Hay árboles en un lado de la calle."
+   ],
+   "text": "Hay árboles en un lado de la calle.",
+   "read": "Hay árboles en un lado de la calle."
+  },
+  {
+   "k": 6,
+   "para": 2,
+   "start": 21.169,
+   "end": 25.198,
+   "parts": [
+    [
+     21.169,
+     22.148
+    ],
+    [
+     22.428,
+     25.198
+    ]
+   ],
+   "segments": [
+    "En verano,",
+    "los árboles dan sombra a la acera."
+   ],
+   "text": "En verano, los árboles dan sombra a la acera.",
+   "read": "En verano, los árboles dan sombra a la acera."
+  },
+  {
+   "k": 7,
+   "para": 2,
+   "start": 26.198,
+   "end": 30.626,
+   "parts": [
+    [
+     26.198,
+     30.626
+    ]
+   ],
+   "segments": [
+    "Al otro lado hay una tienda pequeña con un toldo verde y blanco."
+   ],
+   "text": "Al otro lado hay una tienda pequeña con un toldo verde y blanco.",
+   "read": "Al otro lado hay una tienda pequeña con un toldo verde y blanco."
+  },
+  {
+   "k": 8,
+   "para": 3,
+   "start": 31.626,
+   "end": 35.856,
+   "parts": [
+    [
+     31.626,
+     35.856
+    ]
+   ],
+   "segments": [
+    "La tienda es de Javier y vende fruta, pan y leche."
+   ],
+   "text": "La tienda es de Javier y vende fruta, pan y leche.",
+   "read": "La tienda es de Javier y vende fruta, pan y leche."
+  },
+  {
+   "k": 9,
+   "para": 3,
+   "start": 36.856,
+   "end": 41.177,
+   "parts": [
+    [
+     36.856,
+     38.607
+    ],
+    [
+     38.887,
+     41.177
+    ]
+   ],
+   "segments": [
+    "Cuando vuelvo de clase,",
+    "compro allí algo para la cena."
+   ],
+   "text": "Cuando vuelvo de clase, compro allí algo para la cena.",
+   "read": "Cuando vuelvo de clase, compro allí algo para la cena."
+  },
+  {
+   "k": 10,
+   "para": 3,
+   "start": 42.177,
+   "end": 45.802,
+   "parts": [
+    [
+     42.177,
+     45.802
+    ]
+   ],
+   "segments": [
+    "Mi vecina Pilar siempre me saluda desde su balcón."
+   ],
+   "text": "Mi vecina Pilar siempre me saluda desde su balcón.",
+   "read": "Mi vecina Pilar siempre me saluda desde su balcón."
+  },
+  {
+   "k": 11,
+   "para": 3,
+   "start": 46.802,
+   "end": 49.331,
+   "parts": [
+    [
+     46.802,
+     49.331
+    ]
+   ],
+   "segments": [
+    "Aquí todos los vecinos se conocen."
+   ],
+   "text": "Aquí todos los vecinos se conocen.",
+   "read": "Aquí todos los vecinos se conocen."
+  },
+  {
+   "k": 12,
+   "para": 3,
+   "start": 50.331,
+   "end": 54.646,
+   "parts": [
+    [
+     50.331,
+     54.646
+    ]
+   ],
+   "segments": [
+    "Hay muy poco tráfico y por la noche todo está en silencio."
+   ],
+   "text": "Hay muy poco tráfico y por la noche todo está en silencio.",
+   "read": "Hay muy poco tráfico y por la noche todo está en silencio."
+  },
+  {
+   "k": 13,
+   "para": 3,
+   "start": 55.646,
+   "end": 61.026,
+   "parts": [
+    [
+     55.646,
+     57.656
+    ],
+    [
+     57.936,
+     61.026
+    ]
+   ],
+   "segments": [
+    "Mi calle no es famosa,",
+    "pero para mí es la más bonita de la ciudad."
+   ],
+   "text": "Mi calle no es famosa, pero para mí es la más bonita de la ciudad.",
+   "read": "Mi calle no es famosa, pero para mí es la más bonita de la ciudad."
+  }
+ ]
+}

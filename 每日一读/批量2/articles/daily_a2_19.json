@@ -1,0 +1,138 @@
+{
+ "id": "daily_a2_19",
+ "level": "A2",
+ "no": 19,
+ "title_es": "El jardín botánico",
+ "title_zh": "植物园",
+ "slogan": "每日一读 积少成多",
+ "voice": "qwen3_M1F5_25_slow",
+ "_说明": "西班牙语每日一读 A2 第 19 篇。原创短文。简单过去时叙述参观的经过（fuimos、sentimos、me senté、escuché），过去未完成时描写温室里的景物和天气（llovía、había、tocaban、crecían、flotaba、leía、seguía lloviendo、parecía），现在时 es 说明温室至今仍是植物园最美的地方；结构 tan altas que 和比较级 más grandes que。11 句，116 词。没有需要不停顿的列举逗号：第 1 句 Como 从句后、第 3 句 Al entrar 后和 como en una selva 前、第 10 句 pero 前的逗号照常停顿。selva 译作“热带丛林”；techo 指温室的玻璃顶，释义取“屋顶”；helechos 是蕨类植物，释义“蕨类植物”；第 5 句写 una planta con hojas más grandes que mi cabeza，用单数 una planta，避开句末复数；caminito 是 camino 的指小词，caminito de grava 译作“碎石小路”；estanque 释义“水池”；seguir + 副动词 seguía lloviendo 译作“还在下雨”，seguir 释义取“仍在”；Irene 是叙述者的朋友，文中不涉及性别配合。词头 jardín botánico 在标题里，排在最前。玻璃温室、棕榈、蕨类、大叶植物、石子小路、小水池和池里的睡莲都写进了文中。审校改动：插图的小水池里只有三片睡莲叶和一朵粉色的花，没有鱼，第 7 句原为 En el agua nadaban unos peces de color naranja，改成 Entre los nenúfares flotaba una flor rosa，译文改为“睡莲中间漂着一朵粉色的花。”；词汇加 nenúfar（睡莲），去掉 A1 就学过的 calor。",
+ "no_pause_commas": {},
+ "vocab": [
+  [
+   "jardín botánico",
+   "植物园",
+   "jardín botánico"
+  ],
+  [
+   "llover",
+   "下雨",
+   "llovía"
+  ],
+  [
+   "invernadero",
+   "温室",
+   "invernadero"
+  ],
+  [
+   "húmedo",
+   "潮湿的",
+   "húmedo"
+  ],
+  [
+   "selva",
+   "丛林",
+   "selva"
+  ],
+  [
+   "palmera",
+   "棕榈树",
+   "palmeras"
+  ],
+  [
+   "techo",
+   "屋顶",
+   "techo"
+  ],
+  [
+   "crecer",
+   "生长",
+   "crecían"
+  ],
+  [
+   "helecho",
+   "蕨类植物",
+   "helechos"
+  ],
+  [
+   "grava",
+   "碎石",
+   "grava"
+  ],
+  [
+   "estanque",
+   "水池",
+   "estanque"
+  ],
+  [
+   "nenúfar",
+   "睡莲",
+   "nenúfares"
+  ],
+  [
+   "en voz alta",
+   "大声地",
+   "en voz alta"
+  ],
+  [
+   "seguir",
+   "仍在",
+   "seguía"
+  ],
+  [
+   "lejano",
+   "遥远的",
+   "lejano"
+  ]
+ ],
+ "paras": [
+  [
+   {
+    "es": "Como el domingo llovía, Irene y yo fuimos al jardín botánico.",
+    "zh": "星期天下雨，我和伊雷内就去了植物园。"
+   },
+   {
+    "es": "Lo más bonito del jardín es un gran invernadero de cristal.",
+    "zh": "植物园里最漂亮的是一座很大的玻璃温室。"
+   },
+   {
+    "es": "Al entrar, sentimos un calor húmedo, como en una selva.",
+    "zh": "一走进去，我们就感到一股湿热，像在热带丛林里一样。"
+   },
+   {
+    "es": "Había palmeras tan altas que casi tocaban el techo.",
+    "zh": "里面的棕榈树高得几乎碰到了屋顶。"
+   },
+   {
+    "es": "Debajo crecían helechos y una planta con hojas más grandes que mi cabeza.",
+    "zh": "树下长着蕨类植物，还有一株叶子比我的脑袋还大的植物。"
+   }
+  ],
+  [
+   {
+    "es": "Luego fuimos por un caminito de grava hasta un pequeño estanque.",
+    "zh": "后来，我们沿着一条碎石小路走到一个小水池边。"
+   },
+   {
+    "es": "Entre los nenúfares flotaba una flor rosa.",
+    "zh": "睡莲中间漂着一朵粉色的花。"
+   },
+   {
+    "es": "Irene leía los nombres de las plantas en voz alta.",
+    "zh": "伊雷内大声念着那些植物的名字。"
+   },
+   {
+    "es": "Yo me senté junto al estanque y escuché el sonido del agua.",
+    "zh": "我在水池边坐下，听着水声。"
+   },
+   {
+    "es": "Fuera seguía lloviendo, pero allí dentro parecía verano.",
+    "zh": "外面还在下雨，可温室里却像夏天一样。"
+   },
+   {
+    "es": "Fue como hacer un viaje a un país lejano sin salir de la ciudad.",
+    "zh": "这就像不出城就去了一趟遥远的国度。"
+   }
+  ]
+ ]
+}

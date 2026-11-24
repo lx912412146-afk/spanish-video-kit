@@ -1,0 +1,298 @@
+{
+ "header": [
+  96,
+  44,
+  626,
+  75
+ ],
+ "ill": [
+  96,
+  95,
+  480,
+  344.59375
+ ],
+ "es": [
+  96,
+  358.59375,
+  480,
+  599.828125
+ ],
+ "aside": [
+  506,
+  95,
+  626,
+  607.828125
+ ],
+ "zh": [
+  96,
+  633.828125,
+  480,
+  826.828125
+ ],
+ "ill_title": [
+  115.1875,
+  115.625,
+  237.109375,
+  131.625
+ ],
+ "header_gap": 148.234375,
+ "vocab": [
+  [
+   506,
+   129,
+   626,
+   147
+  ],
+  [
+   506,
+   158,
+   626,
+   176
+  ],
+  [
+   506,
+   187,
+   626,
+   205
+  ],
+  [
+   506,
+   216,
+   626,
+   234
+  ],
+  [
+   506,
+   245,
+   626,
+   263
+  ],
+  [
+   506,
+   274,
+   626,
+   292
+  ],
+  [
+   506,
+   303,
+   626,
+   339
+  ],
+  [
+   506,
+   350,
+   626,
+   368
+  ],
+  [
+   506,
+   379,
+   626,
+   397
+  ],
+  [
+   506,
+   408,
+   626,
+   426
+  ],
+  [
+   506,
+   437,
+   626,
+   455
+  ],
+  [
+   506,
+   466,
+   626,
+   484
+  ],
+  [
+   506,
+   495,
+   626,
+   513
+  ],
+  [
+   506,
+   524,
+   626,
+   542
+  ],
+  [
+   506,
+   553,
+   626,
+   571
+  ]
+ ],
+ "vocab_wrapped": 1,
+ "vocab_out": 0,
+ "overflow": 0,
+ "fonts": [
+  "\"Helvetica Neue\", \"PingFang SC\", sans-serif",
+  "\"PingFang SC\", sans-serif"
+ ],
+ "sentences": [
+  [
+   "1",
+   1
+  ],
+  [
+   "2",
+   2
+  ],
+  [
+   "3",
+   1
+  ],
+  [
+   "4",
+   2
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   2
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   2
+  ],
+  [
+   "2",
+   1
+  ],
+  [
+   "3",
+   2
+  ],
+  [
+   "4",
+   1
+  ],
+  [
+   "5",
+   2
+  ],
+  [
+   "6",
+   2
+  ],
+  [
+   "7",
+   1
+  ],
+  [
+   "8",
+   2
+  ],
+  [
+   "9",
+   1
+  ],
+  [
+   "10",
+   2
+  ],
+  [
+   "11",
+   2
+  ],
+  [
+   "12",
+   1
+  ]
+ ],
+ "es_gaps": [
+  [
+   "mid",
+   5.2,
+   "Cuando era niño, vivía en un pueblo del interior, lejos de la"
+  ],
+  [
+   "mid",
+   7.4,
+   "costa. Solo conocía el mar por la televisión. Un verano, mis"
+  ],
+  [
+   "mid",
+   5.9,
+   "padres me llevaron por fin a la playa. Llegamos por la tarde y"
+  ],
+  [
+   "mid",
+   5.2,
+   "subimos a una duna cubierta de hierba. Desde arriba, vi el mar"
+  ],
+  [
+   "last",
+   3.6,
+   "por primera vez."
+  ],
+  [
+   "mid",
+   4.7,
+   "Era mucho más grande y más azul que en la televisión. Las"
+  ],
+  [
+   "mid",
+   6.4,
+   "olas se rompían en la orilla con mucha espuma blanca. En el"
+  ],
+  [
+   "mid",
+   4.7,
+   "horizonte navegaban un velero grande y otro pequeño. Dejé mis"
+  ],
+  [
+   "mid",
+   4.1,
+   "pequeñas sandalias en la duna y bajé corriendo hasta el agua. El"
+  ],
+  [
+   "mid",
+   7.2,
+   "agua estaba fría y salada, pero yo no quería salir. He vuelto"
+  ],
+  [
+   "last",
+   3.6,
+   "muchas veces a la playa, pero nunca he olvidado aquel día."
+  ]
+ ],
+ "es_max_gap": 7.4,
+ "es_font": [
+  13.1,
+  0.0
+ ],
+ "scroll": [
+  720,
+  1008
+ ]
+}
