@@ -291,6 +291,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`课件/第三册/`](课件/第三册/)：第三册（老版）第 1–18 课的分课课件，版式同上（第 6、12、18 课按复习课处理）。PPTX 和 PDF 在 Release `courseware-book3`。
   - [`课件/第三册/单词表/`](课件/第三册/单词表/)：接着第一、二册单词表按课整理，671 个词条（单词、词性、中文释义，前两册学过的词有了新意思的单列），各课第一次出现的动词形式和原形，200 个新动词的完整变位表（含虚拟式过去未完成时 -ra、-se 形式），书后附前两册动词的虚拟式过去未完成时。Word、PDF（204 页）和 CSV 在 Release `book3-vocab`。
 - [`课件/第四册/`](课件/第四册/)：第四册（老版）第 1–18 课的分课课件，版式同上。PPTX 和 PDF 在 Release `courseware-book4`。
+  - [`课件/第四册/单词表/`](课件/第四册/单词表/)：接着第一、二、三册单词表按课整理，640 个词条（单词、词性、中文释义，前三册学过的词有了新意思的单列），各课第一次出现的动词形式和原形，192 个新动词的完整变位表，书后附前三册动词变位表索引。Word、PDF（195 页）和 CSV 在 Release `book4-vocab`。
 
 ## 学习白皮书
 
@@ -399,6 +400,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `courseware-book3` | 第三册分课课件：`book3_L01.pptx` … `book3_L18.pptx` 和同名 PDF、`courseware-book3-SHA256SUMS.txt` |
 | `book3-vocab` | 第三册分课单词表：`book3-vocab.docx`、`book3-vocab.pdf`、`book3-vocab-words.csv`、`book3-vocab-verbs.csv`、`book3-vocab-SHA256SUMS.txt` |
 | `courseware-book4` | 第四册分课课件：`book4_L01.pptx` … `book4_L18.pptx` 和同名 PDF、`courseware-book4-SHA256SUMS.txt` |
+| `book4-vocab` | 第四册分课单词表：`book4-vocab.docx`、`book4-vocab.pdf`、`book4-vocab-words.csv`、`book4-vocab-verbs.csv`、`book4-vocab-SHA256SUMS.txt` |
 | `whitepaper` | 西班牙语学习白皮书：`es-whitepaper.docx`、`es-whitepaper.pdf`、`whitepaper-SHA256SUMS.txt` |
 | `dele-whitepaper` | DELE 考试白皮书（A1–C2）：`dele-whitepaper.docx`、`dele-whitepaper.pdf`、`dele-whitepaper-SHA256SUMS.txt` |
 | `siele-whitepaper` | SIELE 考试白皮书（A1–C1）：`siele-whitepaper.docx`、`siele-whitepaper.pdf`、`siele-whitepaper-SHA256SUMS.txt` |
@@ -487,3 +489,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 新增 `试卷/SIELE模拟卷/第四套/`（SIELE 模拟卷第四套的内容、考试规格、审校记录、插图和程序）和 Release `siele-mock-4`。
     - 新增 `试卷/SIELE模拟卷/第三套/`（SIELE 模拟卷第三套的内容、考试规格、审校记录、插图和程序）和 Release `siele-mock-3`。
     - 新增 `试卷/SIELE模拟卷/第五套/`（SIELE 模拟卷第五套的内容、考试规格、审校记录、插图和程序）和 Release `siele-mock-5`。
+  - 2026-11-24：
+    - 新增 `课件/第四册/单词表/`（第四册分课单词表的数据和生成程序）和 Release `book4-vocab`。
