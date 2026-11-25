@@ -1,0 +1,220 @@
+{
+ "tempo": {
+  "es": 0.95,
+  "zh": 0.92
+ },
+ "voices": {
+  "1": {
+   "女": "女2",
+   "男": "男2"
+  },
+  "2": {
+   "男": "男1",
+   "女": "女3"
+  },
+  "3": {
+   "女": "女1",
+   "男": "男2"
+  },
+  "4": {
+   "男": "男1",
+   "女": "女4"
+  },
+  "5": {
+   "男": "男2",
+   "女": "女2"
+  },
+  "6": {
+   "女": "女1",
+   "男": "男2"
+  },
+  "7": {
+   "男": "男1",
+   "女": "女3"
+  },
+  "8": {
+   "女": "女4",
+   "男": "男1"
+  },
+  "9": {
+   "男": "男2",
+   "女": "女2"
+  }
+ },
+ "tracks": [
+  {
+   "file": "听力_完整.mp3",
+   "duration": 1000.4,
+   "loudness": {
+    "integrated_lufs": -16.46,
+    "sentence_max_dev_lu": 2.04,
+    "short_term_std_lu": 1.56,
+    "short_term_std_full_lu": 1.56,
+    "peak_dbfs": -1.63,
+    "buzz_hz": 13500.0,
+    "buzz_db": 5.8,
+    "comb_db": -1.2,
+    "short_term_std_speech_lu": 0.57
+   },
+   "check_errors": [],
+   "fallback": null
+  },
+  {
+   "file": "Texto_1.mp3",
+   "duration": 24.9,
+   "loudness": {
+    "integrated_lufs": -16.42,
+    "sentence_max_dev_lu": 0.44,
+    "short_term_std_lu": 0.85,
+    "short_term_std_full_lu": 0.88,
+    "peak_dbfs": -1.8,
+    "buzz_hz": 15000.0,
+    "buzz_db": 6.8,
+    "comb_db": -0.98,
+    "short_term_std_speech_lu": 0.35
+   },
+   "check_errors": [],
+   "fallback": null
+  },
+  {
+   "file": "Texto_2.mp3",
+   "duration": 20.8,
+   "loudness": {
+    "integrated_lufs": -16.48,
+    "sentence_max_dev_lu": 0.85,
+    "short_term_std_lu": 1.12,
+    "short_term_std_full_lu": 1.1,
+    "peak_dbfs": -1.86,
+    "buzz_hz": 8778.8,
+    "buzz_db": 7.5,
+    "comb_db": -0.28,
+    "short_term_std_speech_lu": 0.33
+   },
+   "check_errors": [],
+   "fallback": null
+  },
+  {
+   "file": "Texto_3.mp3",
+   "duration": 21.9,
+   "loudness": {
+    "integrated_lufs": -16.47,
+    "sentence_max_dev_lu": 0.5,
+    "short_term_std_lu": 0.75,
+    "short_term_std_full_lu": 0.77,
+    "peak_dbfs": -1.91,
+    "buzz_hz": 8816.2,
+    "buzz_db": 6.4,
+    "comb_db": -0.8,
+    "short_term_std_speech_lu": 0.37
+   },
+   "check_errors": [],
+   "fallback": null
+  },
+  {
+   "file": "Texto_4.mp3",
+   "duration": 20.9,
+   "loudness": {
+    "integrated_lufs": -16.39,
+    "sentence_max_dev_lu": 0.43,
+    "short_term_std_lu": 0.78,
+    "short_term_std_full_lu": 0.75,
+    "peak_dbfs": -1.91,
+    "buzz_hz": 8818.4,
+    "buzz_db": 7.0,
+    "comb_db": -1.05,
+    "short_term_std_speech_lu": 0.19
+   },
+   "check_errors": [],
+   "fallback": null
+  },
+  {
+   "file": "Texto_5.mp3",
+   "duration": 25.9,
+   "loudness": {
+    "integrated_lufs": -16.49,
+    "sentence_max_dev_lu": 1.43,
+    "short_term_std_lu": 0.7,
+    "short_term_std_full_lu": 0.78,
+    "peak_dbfs": -1.86,
+    "buzz_hz": 12500.2,
+    "buzz_db": 6.9,
+    "comb_db": -0.57,
+    "short_term_std_speech_lu": 0.46
+   },
+   "check_errors": [],
+   "fallback": {
+    "post_notch": [
+     12000
+    ]
+   }
+  },
+  {
+   "file": "Texto_6.mp3",
+   "duration": 52.0,
+   "loudness": {
+    "integrated_lufs": -16.38,
+    "sentence_max_dev_lu": 0.98,
+    "short_term_std_lu": 0.9,
+    "short_term_std_full_lu": 0.86,
+    "peak_dbfs": -1.83,
+    "buzz_hz": 13500.0,
+    "buzz_db": 6.5,
+    "comb_db": -1.14,
+    "short_term_std_speech_lu": 0.5
+   },
+   "check_errors": [],
+   "fallback": null
+  },
+  {
+   "file": "Texto_7.mp3",
+   "duration": 64.0,
+   "loudness": {
+    "integrated_lufs": -16.48,
+    "sentence_max_dev_lu": 1.38,
+    "short_term_std_lu": 0.91,
+    "short_term_std_full_lu": 0.96,
+    "peak_dbfs": -1.7,
+    "buzz_hz": 7371.1,
+    "buzz_db": 4.8,
+    "comb_db": 0.06,
+    "short_term_std_speech_lu": 0.54
+   },
+   "check_errors": [],
+   "fallback": null
+  },
+  {
+   "file": "Texto_8.mp3",
+   "duration": 59.4,
+   "loudness": {
+    "integrated_lufs": -16.44,
+    "sentence_max_dev_lu": 0.52,
+    "short_term_std_lu": 0.51,
+    "short_term_std_full_lu": 0.68,
+    "peak_dbfs": -1.84,
+    "buzz_hz": 15000.0,
+    "buzz_db": 5.8,
+    "comb_db": 0.09,
+    "short_term_std_speech_lu": 0.36
+   },
+   "check_errors": [],
+   "fallback": null
+  },
+  {
+   "file": "Texto_9.mp3",
+   "duration": 59.7,
+   "loudness": {
+    "integrated_lufs": -16.49,
+    "sentence_max_dev_lu": 1.95,
+    "short_term_std_lu": 0.86,
+    "short_term_std_full_lu": 0.83,
+    "peak_dbfs": -1.78,
+    "buzz_hz": 13500.0,
+    "buzz_db": 6.8,
+    "comb_db": -0.22,
+    "short_term_std_speech_lu": 0.46
+   },
+   "check_errors": [],
+   "fallback": null
+  }
+ ]
+}

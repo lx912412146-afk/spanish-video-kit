@@ -1,0 +1,1156 @@
+{
+ "pieces": [
+  {
+   "voice": "中",
+   "text": "听下面五段录音，每段录音后有一道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "asr": "听下面五段录音每段录音后有一道小题从题中所给的 a b c 三个选项中选出最佳选项",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听下面四段录音，每段录音后有几道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "asr": "听下面四段录音每段录音后有几道小题从题中所给的 a b c 三个选项中选出最佳选项",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听力考试正式开始。",
+   "asr": "听力考试正式开始",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听力部分到此结束。",
+   "asr": "听力部分到此结束",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听第七段录音，回答第九至十二题。",
+   "asr": "听第七段录音回答第九至十二题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听第九段录音，回答第十七至二十题。",
+   "asr": "听第九段录音回答第十七至二十题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听第八段录音，回答第十三至十六题。",
+   "asr": "听第八段录音回答第十三至十六题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听第六段录音，回答第六至八题。",
+   "asr": "听第六段录音回答第六至八题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "播放后，每小题有五秒钟作答。",
+   "asr": "播放后每小题有五秒钟作答",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "每段录音后有十秒钟，用来作答和阅读下一小题。",
+   "asr": "每段录音后有十秒钟用来作答和阅读下一小题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放两遍。",
+   "asr": "每段录音播放两遍",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放前，有时间阅读小题，每小题五秒钟；",
+   "asr": "每段录音播放前有时间阅读小题每小题五秒钟",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在是听力试音时间。",
+   "asr": "现在是听力试音时间",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有两分钟的时间将试卷上的答案转涂到答题卡上。",
+   "asr": "现在你有两分钟的时间将试卷上的答案转图到答题卡上",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "asr": "现在你有二十秒钟的时间阅读这四道小题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有五秒钟的时间阅读第一小题。",
+   "asr": "现在你有五秒钟的时间阅读第一小题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有十五秒钟的时间阅读这三道小题。",
+   "asr": "现在你有十五秒钟的时间阅读这三道小题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第一段录音。",
+   "asr": "第一段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第三段录音。",
+   "asr": "第三段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第二段录音。",
+   "asr": "第二段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第二节。",
+   "asr": "第二节",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第五段录音。",
+   "asr": "第五段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第四段录音。",
+   "asr": "第四段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "试音到此结束。",
+   "asr": "试音到此结束",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "请看第一部分听力第一节。",
+   "asr": "请看第一部分听力第一节",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Así los chicos españoles conocen nuestra comida.",
+   "asr": "Así los chicos españoles conocen nuestra comida.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Entonces, ¿la fiesta es el martes?",
+   "asr": "Entonces, ¿la fiesta es el martes?",
+   "errors": 0,
+   "diff": [],
+   "seed": 2000
+  },
+  {
+   "voice": "女1",
+   "text": "Espero que me ayudes a elegir una canción española.",
+   "asr": "Espero que me ayudes a elegir una canción española.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "La directora quiere que toque el piano.",
+   "asr": "La directora quiere que toque el piano.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Muy bien.",
+   "asr": "Muy bien.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "No, este año no canto ni bailo.",
+   "asr": "No, este año no canto ni bailo.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Todavía no.",
+   "asr": "Todavía no.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Vale.",
+   "asr": "Vale.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¡Qué buena idea!",
+   "asr": "¡Qué buena idea!",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿La pedimos a un restaurante?",
+   "asr": "¿La pedimos a un restaurante?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y la comida?",
+   "asr": "¿Y la comida?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y qué quieres que haga yo?",
+   "asr": "¿Y qué quieres que haga yo?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Íñigo, ¿ya está todo listo para la fiesta de bienvenida de los estudiantes de Salamanca?",
+   "asr": "Íñigo, ¿ya está todo listo para la fiesta de bienvenida de los estudiantes de Salamanca?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Arturo, el profesor Vicente se marcha a Sevilla el viernes.",
+   "asr": "Arturo, el profesor Vicente, se marcha a Sevilla el viernes.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Así no se olvida de nosotros.",
+   "asr": "Así no se olvida de nosotros.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Así puedes preparar nuestros platos allí.",
+   "asr": "Así puedes preparar nuestros platos allí.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Enrique, ¿es verdad que te marchas a México?",
+   "asr": "Enrique, ¿es verdad que te marchas a México?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Gracias.",
+   "asr": "Gracias.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Me alegro mucho por ti, pero siento que te vayas tan lejos.",
+   "asr": "Me alegro mucho por ti, pero siento que te vayas tan lejos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Muy largo, pero bien.",
+   "asr": "Muy largo, pero bien.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Sí, soy yo.",
+   "asr": "Sí, soy yo.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Tienes razón.",
+   "asr": "Tienes razón.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Toma, este regalo es de parte de toda la clase.",
+   "asr": "Toma, este regalo es de parte de toda la clase.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Vale, pero yo quiero que me llames todos los domingos.",
+   "asr": "Vale, pero yo quiero que me llames todos los domingos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Y no te olvides de nosotros.",
+   "asr": "Y no te olvides de nosotros.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Ya tengo todo mi equipaje.",
+   "asr": "Ya tengo todo mi equipaje.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¡Buena idea!",
+   "asr": "Buena idea.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¿Qué le regalamos?",
+   "asr": "¿Qué le regalamos?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¿Usted es del instituto?",
+   "asr": "Ustedes del instituto.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y cuánto tiempo vas a estar allí?",
+   "asr": "¿Y cuánto tiempo vas a estar allí?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y un libro de fotos de Pekín?",
+   "asr": "¿Y un libro de fotos de Pekín?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "A las once.",
+   "asr": "A las once.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Claro.",
+   "asr": "Claro.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Es verdad, Hernán.",
+   "asr": "Es verdad, Hernán.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Habla con tu padre.",
+   "asr": "Habla con tu padre.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Llevamos seis años estudiando en la misma clase.",
+   "asr": "Llevamos seis años estudiando en la misma clase.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Mis padres son médicos y a mí también me encanta ayudar a la gente.",
+   "asr": "Mis padres son médicos y a mí también me encanta ayudar a la gente.",
+   "errors": 0,
+   "diff": [],
+   "seed": 2000
+  },
+  {
+   "voice": "女3",
+   "text": "No, voy a estudiar Medicina en Salamanca.",
+   "asr": "No, voy a estudiar medicina en Salamanca.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Perfecto.",
+   "asr": "Perfecto.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Pero tiene que estar en el aeropuerto dos horas antes.",
+   "asr": "Pero tiene que estar en el aeropuerto dos horas antes.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Pues es importante que estudies lo que te gusta.",
+   "asr": "Pues es importante que estudies lo que te gusta.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Te espero a las ocho delante de la puerta.",
+   "asr": "Te espero a las 8 delante de la puerta.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Y no te olvides de traer la guitarra.",
+   "asr": "Y no te olvides de traer la guitarra.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "¿Por qué?",
+   "asr": "¿Por qué?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "¿Qué lenguas te interesan?",
+   "asr": "¿Qué lenguas te interesan?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "¿Qué quiere tu familia?",
+   "asr": "¿Qué quiere tu familia?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Estará en el autobús, porque hoy llueve mucho.",
+   "asr": "Estará en el autobús, porque hoy llueve mucho.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Los viernes sale de la oficina a las siete.",
+   "asr": "Los viernes sale de la oficina a las 7.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "No lo sé.",
+   "asr": "No lo sé.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "No, en casa nadie contesta al teléfono.",
+   "asr": "No, en casa nadie contesta al teléfono.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Buenos días, queridos alumnos, y bienvenidos a Valencia.",
+   "asr": "Buenos días, queridos alumnos y bienvenidos a Valencia.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Carolina, el viernes es nuestro último día en el instituto.",
+   "asr": "Carolina, el viernes es nuestro último día en el instituto.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "El chino y el francés.",
+   "asr": "El chino y el francés.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Entonces lo llevo yo en mi coche.",
+   "asr": "Entonces lo llevo yo en mi coche.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Es importante que habléis español todo el tiempo, también en la calle y en casa.",
+   "asr": "Es importante que habléis español todo el tiempo, también en la calle y en casa.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Espero que aprendáis mucho y que os sintáis aquí como en vuestra casa.",
+   "asr": "Espero que aprendáis mucho y que os sintáis aquí como en vuestra casa.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Esta es la prueba de sonido del examen de español.",
+   "asr": "Esta es la prueba de sonido del examen de español.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Estamos muy contentos de que vosotros estéis hoy aquí.",
+   "asr": "Estamos muy contentos de que vosotros estéis hoy aquí.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Este verano tenemos alumnos de doce países, y muchos de ellos son de China.",
+   "asr": "Este verano tenemos alumnos de 12 países, y muchos de ellos son de China.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Hola a todos.",
+   "asr": "Hola a todos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "La cena de despedida empieza a las nueve.",
+   "asr": "La cena de despedida empieza a las 9.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "La oficina de la escuela está abierta todos los días de ocho a seis.",
+   "asr": "La oficina de la escuela está abierta todos los días de 8 a 6.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Las clases empiezan mañana a las nueve y terminan a la una.",
+   "asr": "Las clases empiezan mañana a las 9 y terminan a la 1.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Marina, ¿a qué hora sale mañana el avión de Germán?",
+   "asr": "Marina, ¿a qué hora sale mañana el avión de Germán?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Me llamo Ernesto y soy el director de esta escuela de español.",
+   "asr": "Me llamo Ernesto y soy el director de esta escuela de español.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Mi padre quiere que trabaje con él en su tienda, pero yo prefiero estudiar lenguas.",
+   "asr": "Mi padre quiere que trabaje con él en su tienda, pero yo prefiero estudiar lenguas.",
+   "errors": 0,
+   "diff": [],
+   "seed": 2000
+  },
+  {
+   "voice": "男1",
+   "text": "Muchas gracias.",
+   "asr": "Muchas gracias.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "No te preocupes.",
+   "asr": "No te preocupes.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Nuestra escuela lleva treinta años enseñando español a extranjeros.",
+   "asr": "Nuestra escuela lleva 30 años enseñando español a extranjeros.",
+   "errors": 0,
+   "diff": [],
+   "seed": 5000
+  },
+  {
+   "voice": "男1",
+   "text": "Oye, ¿vienes el viernes a la cena de despedida?",
+   "asr": "Oye, ¿vienes el viernes a la cena de despedida?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Permitidme que os dé la bienvenida en nombre de todos los profesores.",
+   "asr": "Permitidme que os dé la bienvenida en nombre de todos los profesores.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Por eso, cada uno de vosotros va a vivir con una familia de la ciudad.",
+   "asr": "Por eso, cada uno de vosotros va a vivir con una familia de la ciudad.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Por las tardes visitamos museos y tenemos clases de cocina valenciana.",
+   "asr": "Por las tardes visitamos museos y tenemos clases de cocina valenciana.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Quiero ser traductor.",
+   "asr": "Quiero ser traductor.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Si tenéis algún problema, no os preocupéis.",
+   "asr": "Si tenéis algún problema, no os preocupéis.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Sí, esta noche hablo con él.",
+   "asr": "Sí, esta noche hablo con él.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Ya la tengo preparada.",
+   "asr": "Ya la tengo preparada.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Yo todavía no lo tengo claro.",
+   "asr": "Yo todavía no lo tengo claro.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¡Qué bien!",
+   "asr": "¡Qué bien!",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¡Qué rápido pasan los años!",
+   "asr": "Qué rápido pasan los años.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Dónde estará Pilar?",
+   "asr": "¿Dónde estará Pilar?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Estará todavía en casa?",
+   "asr": "Estará todavía en casa.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Paso por tu casa a las ocho?",
+   "asr": "¿Paso por tu casa a las 8?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Seguirás estudiando en Madrid?",
+   "asr": "¿Seguirás estudiando en Madrid?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Y qué vas a hacer ahora?",
+   "asr": "¿Y qué vas a hacer ahora?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Casi todo.",
+   "asr": "Casi todo.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Claro.",
+   "asr": "Claro.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Daniela, quiero que prepares un programa de canciones chinas.",
+   "asr": "Daniela, quiero que prepares un programa de canciones chinas.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "De acuerdo.",
+   "asr": "De acuerdo.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Dos años.",
+   "asr": "Dos años.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "El coche está delante de la puerta.",
+   "asr": "El coche está delante de la puerta.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "El director va a dar el discurso de bienvenida.",
+   "asr": "El director va a dar el discurso de bienvenida.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "El viernes os invito a todos a una cena.",
+   "asr": "El viernes os invito a todos a una cena.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Es mejor regalarle una foto de toda la clase.",
+   "asr": "Es mejor regalarle una foto de toda la clase.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Lidia, ¿vas a cantar en la fiesta de fin de curso, como el año pasado?",
+   "asr": "Lidia, ¿vas a cantar en la fiesta de fin de curso, como el año pasado?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Llegan el lunes y empiezan las clases el miércoles.",
+   "asr": "Llegan el lunes y empiezan las clases el miércoles.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Lo importante es que se sientan como en casa.",
+   "asr": "Lo importante es que se sientan como en casa.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Me voy el sábado por la mañana.",
+   "asr": "Me voy el sábado por la mañana.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Mi hermano vive allí desde hace tres años y me va a ayudar.",
+   "asr": "Mi hermano vive allí desde hace tres años y me va a ayudar.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Muchas gracias, es muy bonito.",
+   "asr": "Muchas gracias, es muy bonito.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Muy bien.",
+   "asr": "Muy bien.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "No, es mejor que cada familia traiga un plato típico de casa.",
+   "asr": "No, es mejor que cada familia traiga un plato típico de casa.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Os voy a mandar fotos de Guadalajara.",
+   "asr": "Os voy a mandar fotos de Guadalajara.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Perdone, ¿es usted la señora Castillo?",
+   "asr": "Perdone, ¿es usted la señora Castillo?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Primero la llevo al hotel.",
+   "asr": "Primero la llevo al hotel.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, Noelia.",
+   "asr": "Sí, Noelia.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, el martes por la tarde, en el salón del instituto.",
+   "asr": "Sí, el martes por la tarde, en el salón del instituto.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, me llamo Sergio.",
+   "asr": "Sí, me llamo Sergio.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Te llamo cada domingo por la noche.",
+   "asr": "Te llamo cada domingo por la noche.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Voy a trabajar en una escuela de Guadalajara.",
+   "asr": "Voy a trabajar en una escuela de Guadalajara.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Ya tiene muchos libros.",
+   "asr": "Ya tiene muchos libros.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Yo pensaba en unas flores, pero no puede llevarlas en el avión.",
+   "asr": "Yo pensaba en unas flores, pero no puede llevarlas en el avión.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Yo también estoy un poco triste.",
+   "asr": "Yo también estoy un poco triste.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¡Bienvenida a Pekín!",
+   "asr": "Bienvenida Pekín.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¡Claro que no!",
+   "asr": "Claro que no.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¡Qué bien!",
+   "asr": "Qué bien.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¡Un libro de cocina española!",
+   "asr": "Un libro de cocina española.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Qué tal el viaje en avión?",
+   "asr": "¿Qué tal el viaje en avión?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Y ya sabes qué vas a tocar?",
+   "asr": "Y ya sabes que vas a tocar.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  }
+ ]
+}

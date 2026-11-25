@@ -1,0 +1,2499 @@
+{
+ "total_s": 973.53,
+ "texts": [
+  {
+   "texto": 1,
+   "play": 1,
+   "start": 47.02,
+   "end": 67.72
+  },
+  {
+   "texto": 1,
+   "play": 2,
+   "start": 70.72,
+   "end": 91.42
+  },
+  {
+   "texto": 2,
+   "play": 1,
+   "start": 103.44,
+   "end": 122.55
+  },
+  {
+   "texto": 2,
+   "play": 2,
+   "start": 125.55,
+   "end": 144.66
+  },
+  {
+   "texto": 3,
+   "play": 1,
+   "start": 156.63,
+   "end": 181.8
+  },
+  {
+   "texto": 3,
+   "play": 2,
+   "start": 184.8,
+   "end": 209.97
+  },
+  {
+   "texto": 4,
+   "play": 1,
+   "start": 222.1,
+   "end": 242.74
+  },
+  {
+   "texto": 4,
+   "play": 2,
+   "start": 245.74,
+   "end": 266.37
+  },
+  {
+   "texto": 5,
+   "play": 1,
+   "start": 278.33,
+   "end": 296.15
+  },
+  {
+   "texto": 5,
+   "play": 2,
+   "start": 299.15,
+   "end": 316.97
+  },
+  {
+   "texto": 6,
+   "play": 1,
+   "start": 369.98,
+   "end": 417.68
+  },
+  {
+   "texto": 6,
+   "play": 2,
+   "start": 420.68,
+   "end": 468.39
+  },
+  {
+   "texto": 7,
+   "play": 1,
+   "start": 511.02,
+   "end": 576.5
+  },
+  {
+   "texto": 7,
+   "play": 2,
+   "start": 579.5,
+   "end": 644.99
+  },
+  {
+   "texto": 8,
+   "play": 1,
+   "start": 692.81,
+   "end": 737.97
+  },
+  {
+   "texto": 8,
+   "play": 2,
+   "start": 740.97,
+   "end": 786.12
+  },
+  {
+   "texto": 9,
+   "play": 1,
+   "start": 834.16,
+   "end": 887.7
+  },
+  {
+   "texto": 9,
+   "play": 2,
+   "start": 890.7,
+   "end": 944.24
+  }
+ ],
+ "items": [
+  {
+   "voice": "中",
+   "text": "现在是听力试音时间。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 1.5,
+   "end": 3.53
+  },
+  {
+   "voice": "男1",
+   "text": "Hola a todos.",
+   "where": "试音",
+   "lang": "es",
+   "start": 4.53,
+   "end": 5.91
+  },
+  {
+   "voice": "男1",
+   "text": "Esta es la prueba de sonido del examen de español.",
+   "where": "试音",
+   "lang": "es",
+   "start": 6.26,
+   "end": 8.95
+  },
+  {
+   "voice": "中",
+   "text": "试音到此结束。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 10.45,
+   "end": 11.866
+  },
+  {
+   "voice": "中",
+   "text": "听力考试正式开始。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 13.866,
+   "end": 15.786
+  },
+  {
+   "voice": "中",
+   "text": "请看第一部分听力第一节。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 16.236,
+   "end": 18.586
+  },
+  {
+   "voice": "中",
+   "text": "听下面五段录音，每段录音后有一道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 19.386,
+   "end": 27.936
+  },
+  {
+   "voice": "中",
+   "text": "每段录音后有十秒钟，用来作答和阅读下一小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 28.386,
+   "end": 33.076
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放两遍。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 33.526,
+   "end": 35.317
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有五秒钟的时间阅读第一小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 36.317,
+   "end": 39.906
+  },
+  {
+   "voice": "中",
+   "text": "第一段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 44.906,
+   "end": 46.216
+  },
+  {
+   "voice": "女2",
+   "text": "Esteban, el taxi vendrá a las seis.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 47.016,
+   "end": 49.533
+  },
+  {
+   "voice": "女2",
+   "text": "¿Ya tienes la maleta hecha?",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 49.883,
+   "end": 51.297
+  },
+  {
+   "voice": "男2",
+   "text": "Casi.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 51.897,
+   "end": 52.477
+  },
+  {
+   "voice": "男2",
+   "text": "La ropa y los zapatos ya están dentro.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 52.827,
+   "end": 55.737
+  },
+  {
+   "voice": "男2",
+   "text": "Solo me faltan los libros.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 56.087,
+   "end": 58.107
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y el pasaporte?",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 58.707,
+   "end": 59.594
+  },
+  {
+   "voice": "女2",
+   "text": "No lo metas en la maleta.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 59.944,
+   "end": 61.327
+  },
+  {
+   "voice": "女2",
+   "text": "Llévalo contigo.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 61.677,
+   "end": 62.562
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, claro.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 63.162,
+   "end": 64.186
+  },
+  {
+   "voice": "男2",
+   "text": "Lo llevaré conmigo, con el billete de avión.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 64.536,
+   "end": 67.718
+  },
+  {
+   "voice": "女2",
+   "text": "Esteban, el taxi vendrá a las seis.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 70.718,
+   "end": 73.235
+  },
+  {
+   "voice": "女2",
+   "text": "¿Ya tienes la maleta hecha?",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 73.585,
+   "end": 74.999
+  },
+  {
+   "voice": "男2",
+   "text": "Casi.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 75.599,
+   "end": 76.179
+  },
+  {
+   "voice": "男2",
+   "text": "La ropa y los zapatos ya están dentro.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 76.529,
+   "end": 79.439
+  },
+  {
+   "voice": "男2",
+   "text": "Solo me faltan los libros.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 79.789,
+   "end": 81.809
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y el pasaporte?",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 82.409,
+   "end": 83.296
+  },
+  {
+   "voice": "女2",
+   "text": "No lo metas en la maleta.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 83.646,
+   "end": 85.029
+  },
+  {
+   "voice": "女2",
+   "text": "Llévalo contigo.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 85.379,
+   "end": 86.264
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, claro.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 86.864,
+   "end": 87.888
+  },
+  {
+   "voice": "男2",
+   "text": "Lo llevaré conmigo, con el billete de avión.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 88.238,
+   "end": 91.42
+  },
+  {
+   "voice": "中",
+   "text": "第二段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 101.42,
+   "end": 102.643
+  },
+  {
+   "voice": "男1",
+   "text": "Cristina, ¿a qué hora sale tu avión para Lima?",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 103.443,
+   "end": 106.403
+  },
+  {
+   "voice": "女3",
+   "text": "A las once de la noche.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 107.003,
+   "end": 108.79
+  },
+  {
+   "voice": "女3",
+   "text": "Tengo que estar en el aeropuerto a las nueve.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 109.14,
+   "end": 112.11
+  },
+  {
+   "voice": "男1",
+   "text": "Entonces saldremos de casa a las siete y media.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 112.71,
+   "end": 115.74
+  },
+  {
+   "voice": "男1",
+   "text": "Con el tráfico, tardaremos una hora.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 116.09,
+   "end": 118.46
+  },
+  {
+   "voice": "女3",
+   "text": "Muy bien.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 119.06,
+   "end": 120.25
+  },
+  {
+   "voice": "女3",
+   "text": "Así llegaremos con tiempo.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 120.6,
+   "end": 122.55
+  },
+  {
+   "voice": "男1",
+   "text": "Cristina, ¿a qué hora sale tu avión para Lima?",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 125.55,
+   "end": 128.51
+  },
+  {
+   "voice": "女3",
+   "text": "A las once de la noche.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 129.11,
+   "end": 130.896
+  },
+  {
+   "voice": "女3",
+   "text": "Tengo que estar en el aeropuerto a las nueve.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 131.246,
+   "end": 134.216
+  },
+  {
+   "voice": "男1",
+   "text": "Entonces saldremos de casa a las siete y media.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 134.816,
+   "end": 137.846
+  },
+  {
+   "voice": "男1",
+   "text": "Con el tráfico, tardaremos una hora.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 138.196,
+   "end": 140.566
+  },
+  {
+   "voice": "女3",
+   "text": "Muy bien.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 141.166,
+   "end": 142.356
+  },
+  {
+   "voice": "女3",
+   "text": "Así llegaremos con tiempo.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 142.706,
+   "end": 144.656
+  },
+  {
+   "voice": "中",
+   "text": "第三段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 154.656,
+   "end": 155.826
+  },
+  {
+   "voice": "女1",
+   "text": "Buenos días.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 156.626,
+   "end": 157.596
+  },
+  {
+   "voice": "女1",
+   "text": "Vengo a recoger mi visado.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 157.946,
+   "end": 159.49
+  },
+  {
+   "voice": "女1",
+   "text": "Me llamo Raquel Gómez.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 159.84,
+   "end": 161.243
+  },
+  {
+   "voice": "男2",
+   "text": "Lo siento, señora.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 161.843,
+   "end": 163.533
+  },
+  {
+   "voice": "男2",
+   "text": "Su visado todavía no está listo.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 163.883,
+   "end": 166.203
+  },
+  {
+   "voice": "女1",
+   "text": "¡Vaya!",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 166.803,
+   "end": 167.503
+  },
+  {
+   "voice": "女1",
+   "text": "Me marcho a Pekín el sábado.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 167.853,
+   "end": 169.773
+  },
+  {
+   "voice": "女1",
+   "text": "¿Estará listo el jueves?",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 170.123,
+   "end": 171.785
+  },
+  {
+   "voice": "男2",
+   "text": "El jueves no, pero el viernes por la mañana ya estará listo.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 172.385,
+   "end": 176.954
+  },
+  {
+   "voice": "女1",
+   "text": "Bueno, entonces vendré el viernes.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 177.554,
+   "end": 180.229
+  },
+  {
+   "voice": "女1",
+   "text": "Muchas gracias.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 180.579,
+   "end": 181.799
+  },
+  {
+   "voice": "女1",
+   "text": "Buenos días.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 184.799,
+   "end": 185.769
+  },
+  {
+   "voice": "女1",
+   "text": "Vengo a recoger mi visado.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 186.119,
+   "end": 187.662
+  },
+  {
+   "voice": "女1",
+   "text": "Me llamo Raquel Gómez.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 188.012,
+   "end": 189.416
+  },
+  {
+   "voice": "男2",
+   "text": "Lo siento, señora.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 190.016,
+   "end": 191.706
+  },
+  {
+   "voice": "男2",
+   "text": "Su visado todavía no está listo.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 192.056,
+   "end": 194.376
+  },
+  {
+   "voice": "女1",
+   "text": "¡Vaya!",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 194.976,
+   "end": 195.676
+  },
+  {
+   "voice": "女1",
+   "text": "Me marcho a Pekín el sábado.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 196.026,
+   "end": 197.946
+  },
+  {
+   "voice": "女1",
+   "text": "¿Estará listo el jueves?",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 198.296,
+   "end": 199.957
+  },
+  {
+   "voice": "男2",
+   "text": "El jueves no, pero el viernes por la mañana ya estará listo.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 200.557,
+   "end": 205.127
+  },
+  {
+   "voice": "女1",
+   "text": "Bueno, entonces vendré el viernes.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 205.727,
+   "end": 208.402
+  },
+  {
+   "voice": "女1",
+   "text": "Muchas gracias.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 208.752,
+   "end": 209.972
+  },
+  {
+   "voice": "中",
+   "text": "第四段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 219.972,
+   "end": 221.304
+  },
+  {
+   "voice": "男1",
+   "text": "Sonia, ¿qué harás al terminar la carrera?",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 222.104,
+   "end": 224.576
+  },
+  {
+   "voice": "男1",
+   "text": "¿Serás profesora, como tu madre?",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 224.926,
+   "end": 227.136
+  },
+  {
+   "voice": "女4",
+   "text": "No, no lo creo.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 227.736,
+   "end": 229.486
+  },
+  {
+   "voice": "女4",
+   "text": "A mí me interesa más traducir libros.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 229.836,
+   "end": 232.682
+  },
+  {
+   "voice": "男1",
+   "text": "Entonces serás traductora.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 233.282,
+   "end": 235.102
+  },
+  {
+   "voice": "男1",
+   "text": "Mi hermano quiere ser diplomático.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 235.452,
+   "end": 237.682
+  },
+  {
+   "voice": "女4",
+   "text": "Sí, ya lo sé.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 238.282,
+   "end": 239.788
+  },
+  {
+   "voice": "女4",
+   "text": "Él habla muy bien inglés y francés.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 240.138,
+   "end": 242.738
+  },
+  {
+   "voice": "男1",
+   "text": "Sonia, ¿qué harás al terminar la carrera?",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 245.738,
+   "end": 248.209
+  },
+  {
+   "voice": "男1",
+   "text": "¿Serás profesora, como tu madre?",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 248.559,
+   "end": 250.769
+  },
+  {
+   "voice": "女4",
+   "text": "No, no lo creo.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 251.369,
+   "end": 253.119
+  },
+  {
+   "voice": "女4",
+   "text": "A mí me interesa más traducir libros.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 253.469,
+   "end": 256.315
+  },
+  {
+   "voice": "男1",
+   "text": "Entonces serás traductora.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 256.915,
+   "end": 258.735
+  },
+  {
+   "voice": "男1",
+   "text": "Mi hermano quiere ser diplomático.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 259.085,
+   "end": 261.315
+  },
+  {
+   "voice": "女4",
+   "text": "Sí, ya lo sé.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 261.915,
+   "end": 263.421
+  },
+  {
+   "voice": "女4",
+   "text": "Él habla muy bien inglés y francés.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 263.771,
+   "end": 266.371
+  },
+  {
+   "voice": "中",
+   "text": "第五段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 276.371,
+   "end": 277.531
+  },
+  {
+   "voice": "女2",
+   "text": "Son las diez y Iván todavía no está aquí.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 278.331,
+   "end": 280.801
+  },
+  {
+   "voice": "女2",
+   "text": "¿Dónde estará?",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 281.151,
+   "end": 281.972
+  },
+  {
+   "voice": "男2",
+   "text": "Estará en el aeropuerto.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 282.572,
+   "end": 284.312
+  },
+  {
+   "voice": "男2",
+   "text": "Su avión llega de Lima a las nueve y media.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 284.662,
+   "end": 287.894
+  },
+  {
+   "voice": "女2",
+   "text": "Entonces no llegará a tiempo a la reunión.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 288.494,
+   "end": 290.891
+  },
+  {
+   "voice": "男2",
+   "text": "No, pero no te preocupes.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 291.491,
+   "end": 293.621
+  },
+  {
+   "voice": "男2",
+   "text": "Lo esperaremos hasta las once.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 293.971,
+   "end": 296.152
+  },
+  {
+   "voice": "女2",
+   "text": "Son las diez y Iván todavía no está aquí.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 299.152,
+   "end": 301.622
+  },
+  {
+   "voice": "女2",
+   "text": "¿Dónde estará?",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 301.972,
+   "end": 302.793
+  },
+  {
+   "voice": "男2",
+   "text": "Estará en el aeropuerto.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 303.393,
+   "end": 305.133
+  },
+  {
+   "voice": "男2",
+   "text": "Su avión llega de Lima a las nueve y media.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 305.483,
+   "end": 308.715
+  },
+  {
+   "voice": "女2",
+   "text": "Entonces no llegará a tiempo a la reunión.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 309.315,
+   "end": 311.712
+  },
+  {
+   "voice": "男2",
+   "text": "No, pero no te preocupes.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 312.312,
+   "end": 314.442
+  },
+  {
+   "voice": "男2",
+   "text": "Lo esperaremos hasta las once.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 314.792,
+   "end": 316.973
+  },
+  {
+   "voice": "中",
+   "text": "第二节。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 326.973,
+   "end": 327.773
+  },
+  {
+   "voice": "中",
+   "text": "听下面四段录音，每段录音后有几道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 328.223,
+   "end": 336.073
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放前，有时间阅读小题，每小题五秒钟；",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 336.523,
+   "end": 340.983
+  },
+  {
+   "voice": "中",
+   "text": "播放后，每小题有五秒钟作答。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 341.283,
+   "end": 344.243
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放两遍。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 344.693,
+   "end": 346.484
+  },
+  {
+   "voice": "中",
+   "text": "听第六段录音，回答第六至八题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 347.484,
+   "end": 350.663
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有十五秒钟的时间阅读这三道小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 351.113,
+   "end": 354.983
+  },
+  {
+   "voice": "男2",
+   "text": "Patricia, acabo de comprar los billetes para Bogotá.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 369.983,
+   "end": 373.813
+  },
+  {
+   "voice": "女1",
+   "text": "¡Qué bien!",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 374.413,
+   "end": 375.123
+  },
+  {
+   "voice": "女1",
+   "text": "¿Cuándo saldremos?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 375.473,
+   "end": 376.905
+  },
+  {
+   "voice": "女1",
+   "text": "¿El lunes?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 377.255,
+   "end": 378.045
+  },
+  {
+   "voice": "男2",
+   "text": "No, el lunes no.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 378.645,
+   "end": 380.072
+  },
+  {
+   "voice": "男2",
+   "text": "Saldremos el martes por la mañana.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 380.422,
+   "end": 383.032
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y el hotel?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 383.632,
+   "end": 384.445
+  },
+  {
+   "voice": "女1",
+   "text": "¿Lo reservarás tú?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 384.795,
+   "end": 386.12
+  },
+  {
+   "voice": "男2",
+   "text": "No, lo reservará Gustavo.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 386.72,
+   "end": 388.93
+  },
+  {
+   "voice": "男2",
+   "text": "Él conoce muy bien la ciudad.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 389.28,
+   "end": 391.45
+  },
+  {
+   "voice": "女1",
+   "text": "Vale.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 392.05,
+   "end": 392.74
+  },
+  {
+   "voice": "女1",
+   "text": "¿Cuántos días estaremos allí?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 393.09,
+   "end": 394.889
+  },
+  {
+   "voice": "男2",
+   "text": "Cinco días.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 395.489,
+   "end": 396.809
+  },
+  {
+   "voice": "男2",
+   "text": "Tendremos tres reuniones con otras empresas.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 397.159,
+   "end": 400.189
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y qué tengo que preparar yo?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 400.789,
+   "end": 402.625
+  },
+  {
+   "voice": "男2",
+   "text": "Los documentos para las reuniones.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 403.225,
+   "end": 405.795
+  },
+  {
+   "voice": "男2",
+   "text": "Los necesitaremos el miércoles.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 406.145,
+   "end": 408.655
+  },
+  {
+   "voice": "女1",
+   "text": "De acuerdo.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 409.255,
+   "end": 410.655
+  },
+  {
+   "voice": "女1",
+   "text": "Esta tarde los prepararé y mañana te los daré.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 411.005,
+   "end": 414.105
+  },
+  {
+   "voice": "男2",
+   "text": "Muy bien.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 414.705,
+   "end": 415.485
+  },
+  {
+   "voice": "男2",
+   "text": "Y no olvides el pasaporte.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 415.835,
+   "end": 417.685
+  },
+  {
+   "voice": "男2",
+   "text": "Patricia, acabo de comprar los billetes para Bogotá.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 420.685,
+   "end": 424.515
+  },
+  {
+   "voice": "女1",
+   "text": "¡Qué bien!",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 425.115,
+   "end": 425.825
+  },
+  {
+   "voice": "女1",
+   "text": "¿Cuándo saldremos?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 426.175,
+   "end": 427.607
+  },
+  {
+   "voice": "女1",
+   "text": "¿El lunes?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 427.957,
+   "end": 428.747
+  },
+  {
+   "voice": "男2",
+   "text": "No, el lunes no.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 429.347,
+   "end": 430.773
+  },
+  {
+   "voice": "男2",
+   "text": "Saldremos el martes por la mañana.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 431.123,
+   "end": 433.733
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y el hotel?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 434.333,
+   "end": 435.147
+  },
+  {
+   "voice": "女1",
+   "text": "¿Lo reservarás tú?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 435.497,
+   "end": 436.822
+  },
+  {
+   "voice": "男2",
+   "text": "No, lo reservará Gustavo.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 437.422,
+   "end": 439.632
+  },
+  {
+   "voice": "男2",
+   "text": "Él conoce muy bien la ciudad.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 439.982,
+   "end": 442.152
+  },
+  {
+   "voice": "女1",
+   "text": "Vale.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 442.752,
+   "end": 443.442
+  },
+  {
+   "voice": "女1",
+   "text": "¿Cuántos días estaremos allí?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 443.792,
+   "end": 445.59
+  },
+  {
+   "voice": "男2",
+   "text": "Cinco días.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 446.19,
+   "end": 447.51
+  },
+  {
+   "voice": "男2",
+   "text": "Tendremos tres reuniones con otras empresas.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 447.86,
+   "end": 450.89
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y qué tengo que preparar yo?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 451.49,
+   "end": 453.327
+  },
+  {
+   "voice": "男2",
+   "text": "Los documentos para las reuniones.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 453.927,
+   "end": 456.497
+  },
+  {
+   "voice": "男2",
+   "text": "Los necesitaremos el miércoles.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 456.847,
+   "end": 459.356
+  },
+  {
+   "voice": "女1",
+   "text": "De acuerdo.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 459.956,
+   "end": 461.356
+  },
+  {
+   "voice": "女1",
+   "text": "Esta tarde los prepararé y mañana te los daré.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 461.706,
+   "end": 464.806
+  },
+  {
+   "voice": "男2",
+   "text": "Muy bien.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 465.406,
+   "end": 466.186
+  },
+  {
+   "voice": "男2",
+   "text": "Y no olvides el pasaporte.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 466.536,
+   "end": 468.386
+  },
+  {
+   "voice": "中",
+   "text": "听第七段录音，回答第九至十二题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 483.386,
+   "end": 486.506
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 486.956,
+   "end": 491.016
+  },
+  {
+   "voice": "女3",
+   "text": "Hola, Fernando.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 511.016,
+   "end": 512.088
+  },
+  {
+   "voice": "女3",
+   "text": "Soy Yolanda.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 512.438,
+   "end": 513.938
+  },
+  {
+   "voice": "女3",
+   "text": "Te llamo por mi viaje a Madrid.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 514.288,
+   "end": 516.013
+  },
+  {
+   "voice": "男1",
+   "text": "¡Hola, Yolanda!",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 516.613,
+   "end": 517.703
+  },
+  {
+   "voice": "男1",
+   "text": "¿Qué día llegas?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 518.053,
+   "end": 519.173
+  },
+  {
+   "voice": "女3",
+   "text": "El jueves a las seis de la tarde.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 519.773,
+   "end": 521.815
+  },
+  {
+   "voice": "女3",
+   "text": "Salgo de Shanghái el miércoles.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 522.165,
+   "end": 524.451
+  },
+  {
+   "voice": "男1",
+   "text": "Muy bien.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 525.051,
+   "end": 525.861
+  },
+  {
+   "voice": "男1",
+   "text": "Iré a buscarte al aeropuerto con mi hermana.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 526.211,
+   "end": 528.637
+  },
+  {
+   "voice": "女3",
+   "text": "Gracias.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 529.237,
+   "end": 530.54
+  },
+  {
+   "voice": "女3",
+   "text": "Oye, ¿qué tiempo hace ahora en Madrid?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 530.89,
+   "end": 533.682
+  },
+  {
+   "voice": "男1",
+   "text": "Hace mucho frío, sobre todo por las noches.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 534.282,
+   "end": 537.222
+  },
+  {
+   "voice": "男1",
+   "text": "Trae un abrigo.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 537.572,
+   "end": 538.894
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y llueve mucho?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 539.494,
+   "end": 540.765
+  },
+  {
+   "voice": "女3",
+   "text": "¿Tengo que llevar paraguas?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 541.115,
+   "end": 543.094
+  },
+  {
+   "voice": "男1",
+   "text": "No, casi no llueve.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 543.694,
+   "end": 545.144
+  },
+  {
+   "voice": "男1",
+   "text": "No traigas paraguas, aquí tenemos dos.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 545.494,
+   "end": 548.584
+  },
+  {
+   "voice": "女3",
+   "text": "Vale.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 549.184,
+   "end": 549.724
+  },
+  {
+   "voice": "女3",
+   "text": "Llevaré dos maletas grandes.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 550.074,
+   "end": 552.224
+  },
+  {
+   "voice": "女3",
+   "text": "¿Cabrán en tu coche?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 552.574,
+   "end": 553.734
+  },
+  {
+   "voice": "男1",
+   "text": "Claro, no habrá ningún problema.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 554.334,
+   "end": 556.354
+  },
+  {
+   "voice": "男1",
+   "text": "Mi coche es bastante grande.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 556.704,
+   "end": 558.794
+  },
+  {
+   "voice": "女3",
+   "text": "¡Qué bien!",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 559.394,
+   "end": 560.123
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y dónde viviré?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 560.473,
+   "end": 561.841
+  },
+  {
+   "voice": "女3",
+   "text": "¿En un hotel?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 562.191,
+   "end": 562.991
+  },
+  {
+   "voice": "男1",
+   "text": "No, en una residencia cerca de la universidad.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 563.591,
+   "end": 566.648
+  },
+  {
+   "voice": "男1",
+   "text": "Los hoteles del centro son muy caros.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 566.998,
+   "end": 569.488
+  },
+  {
+   "voice": "女3",
+   "text": "De acuerdo.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 570.088,
+   "end": 570.903
+  },
+  {
+   "voice": "女3",
+   "text": "Muchas gracias por todo, Fernando.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 571.253,
+   "end": 573.791
+  },
+  {
+   "voice": "男1",
+   "text": "De nada.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 574.391,
+   "end": 575.255
+  },
+  {
+   "voice": "男1",
+   "text": "¡Buen viaje!",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 575.605,
+   "end": 576.505
+  },
+  {
+   "voice": "女3",
+   "text": "Hola, Fernando.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 579.505,
+   "end": 580.576
+  },
+  {
+   "voice": "女3",
+   "text": "Soy Yolanda.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 580.926,
+   "end": 582.426
+  },
+  {
+   "voice": "女3",
+   "text": "Te llamo por mi viaje a Madrid.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 582.776,
+   "end": 584.501
+  },
+  {
+   "voice": "男1",
+   "text": "¡Hola, Yolanda!",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 585.101,
+   "end": 586.191
+  },
+  {
+   "voice": "男1",
+   "text": "¿Qué día llegas?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 586.541,
+   "end": 587.661
+  },
+  {
+   "voice": "女3",
+   "text": "El jueves a las seis de la tarde.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 588.261,
+   "end": 590.303
+  },
+  {
+   "voice": "女3",
+   "text": "Salgo de Shanghái el miércoles.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 590.653,
+   "end": 592.939
+  },
+  {
+   "voice": "男1",
+   "text": "Muy bien.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 593.539,
+   "end": 594.349
+  },
+  {
+   "voice": "男1",
+   "text": "Iré a buscarte al aeropuerto con mi hermana.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 594.699,
+   "end": 597.126
+  },
+  {
+   "voice": "女3",
+   "text": "Gracias.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 597.726,
+   "end": 599.028
+  },
+  {
+   "voice": "女3",
+   "text": "Oye, ¿qué tiempo hace ahora en Madrid?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 599.378,
+   "end": 602.171
+  },
+  {
+   "voice": "男1",
+   "text": "Hace mucho frío, sobre todo por las noches.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 602.771,
+   "end": 605.711
+  },
+  {
+   "voice": "男1",
+   "text": "Trae un abrigo.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 606.061,
+   "end": 607.383
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y llueve mucho?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 607.983,
+   "end": 609.254
+  },
+  {
+   "voice": "女3",
+   "text": "¿Tengo que llevar paraguas?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 609.604,
+   "end": 611.582
+  },
+  {
+   "voice": "男1",
+   "text": "No, casi no llueve.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 612.182,
+   "end": 613.632
+  },
+  {
+   "voice": "男1",
+   "text": "No traigas paraguas, aquí tenemos dos.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 613.982,
+   "end": 617.072
+  },
+  {
+   "voice": "女3",
+   "text": "Vale.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 617.672,
+   "end": 618.213
+  },
+  {
+   "voice": "女3",
+   "text": "Llevaré dos maletas grandes.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 618.563,
+   "end": 620.713
+  },
+  {
+   "voice": "女3",
+   "text": "¿Cabrán en tu coche?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 621.063,
+   "end": 622.223
+  },
+  {
+   "voice": "男1",
+   "text": "Claro, no habrá ningún problema.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 622.823,
+   "end": 624.843
+  },
+  {
+   "voice": "男1",
+   "text": "Mi coche es bastante grande.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 625.193,
+   "end": 627.283
+  },
+  {
+   "voice": "女3",
+   "text": "¡Qué bien!",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 627.883,
+   "end": 628.611
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y dónde viviré?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 628.961,
+   "end": 630.33
+  },
+  {
+   "voice": "女3",
+   "text": "¿En un hotel?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 630.68,
+   "end": 631.48
+  },
+  {
+   "voice": "男1",
+   "text": "No, en una residencia cerca de la universidad.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 632.08,
+   "end": 635.137
+  },
+  {
+   "voice": "男1",
+   "text": "Los hoteles del centro son muy caros.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 635.487,
+   "end": 637.977
+  },
+  {
+   "voice": "女3",
+   "text": "De acuerdo.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 638.577,
+   "end": 639.392
+  },
+  {
+   "voice": "女3",
+   "text": "Muchas gracias por todo, Fernando.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 639.742,
+   "end": 642.279
+  },
+  {
+   "voice": "男1",
+   "text": "De nada.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 642.879,
+   "end": 643.743
+  },
+  {
+   "voice": "男1",
+   "text": "¡Buen viaje!",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 644.093,
+   "end": 644.993
+  },
+  {
+   "voice": "中",
+   "text": "听第八段录音，回答第十三至十六题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 664.993,
+   "end": 668.303
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 668.753,
+   "end": 672.813
+  },
+  {
+   "voice": "男1",
+   "text": "Me llamo Joaquín y hace tres años que estudio chino en la universidad.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 692.813,
+   "end": 696.773
+  },
+  {
+   "voice": "男1",
+   "text": "Antes me parecía una lengua muy difícil, pero poco a poco la voy aprendiendo.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 697.123,
+   "end": 701.901
+  },
+  {
+   "voice": "男1",
+   "text": "El año que viene iré a Shanghái para estudiar un año en una universidad china.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 702.251,
+   "end": 706.681
+  },
+  {
+   "voice": "男1",
+   "text": "Viviré en una residencia con otros estudiantes extranjeros.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 707.031,
+   "end": 710.561
+  },
+  {
+   "voice": "男1",
+   "text": "Mis padres son profesores y piensan que yo también seré profesor.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 710.911,
+   "end": 714.801
+  },
+  {
+   "voice": "男1",
+   "text": "Pero yo prefiero el comercio exterior.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 715.151,
+   "end": 717.191
+  },
+  {
+   "voice": "男1",
+   "text": "Mi tío tiene una empresa que vende vino español en China.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 717.541,
+   "end": 720.664
+  },
+  {
+   "voice": "男1",
+   "text": "Al terminar la carrera, trabajaré con él.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 721.014,
+   "end": 723.66
+  },
+  {
+   "voice": "男1",
+   "text": "Lo bueno de ese trabajo es que viajaré mucho y conoceré a mucha gente.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 724.01,
+   "end": 728.16
+  },
+  {
+   "voice": "男1",
+   "text": "Lo malo es que pasaré poco tiempo con mi familia.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 728.51,
+   "end": 731.36
+  },
+  {
+   "voice": "男1",
+   "text": "Pero mi mejor amiga también estudiará en Shanghái el año que viene.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 731.71,
+   "end": 735.66
+  },
+  {
+   "voice": "男1",
+   "text": "Seguro que nos veremos mucho allí.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 736.01,
+   "end": 737.966
+  },
+  {
+   "voice": "男1",
+   "text": "Me llamo Joaquín y hace tres años que estudio chino en la universidad.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 740.966,
+   "end": 744.926
+  },
+  {
+   "voice": "男1",
+   "text": "Antes me parecía una lengua muy difícil, pero poco a poco la voy aprendiendo.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 745.276,
+   "end": 750.053
+  },
+  {
+   "voice": "男1",
+   "text": "El año que viene iré a Shanghái para estudiar un año en una universidad china.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 750.403,
+   "end": 754.833
+  },
+  {
+   "voice": "男1",
+   "text": "Viviré en una residencia con otros estudiantes extranjeros.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 755.183,
+   "end": 758.713
+  },
+  {
+   "voice": "男1",
+   "text": "Mis padres son profesores y piensan que yo también seré profesor.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 759.063,
+   "end": 762.953
+  },
+  {
+   "voice": "男1",
+   "text": "Pero yo prefiero el comercio exterior.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 763.303,
+   "end": 765.343
+  },
+  {
+   "voice": "男1",
+   "text": "Mi tío tiene una empresa que vende vino español en China.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 765.693,
+   "end": 768.816
+  },
+  {
+   "voice": "男1",
+   "text": "Al terminar la carrera, trabajaré con él.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 769.166,
+   "end": 771.812
+  },
+  {
+   "voice": "男1",
+   "text": "Lo bueno de ese trabajo es que viajaré mucho y conoceré a mucha gente.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 772.162,
+   "end": 776.312
+  },
+  {
+   "voice": "男1",
+   "text": "Lo malo es que pasaré poco tiempo con mi familia.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 776.662,
+   "end": 779.512
+  },
+  {
+   "voice": "男1",
+   "text": "Pero mi mejor amiga también estudiará en Shanghái el año que viene.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 779.862,
+   "end": 783.812
+  },
+  {
+   "voice": "男1",
+   "text": "Seguro que nos veremos mucho allí.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 784.162,
+   "end": 786.118
+  },
+  {
+   "voice": "中",
+   "text": "听第九段录音，回答第十七至二十题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 806.118,
+   "end": 809.648
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 810.098,
+   "end": 814.158
+  },
+  {
+   "voice": "女2",
+   "text": "Hola, Ricardo.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 834.158,
+   "end": 834.998
+  },
+  {
+   "voice": "女2",
+   "text": "¿Qué tal el viaje a Shanghái?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 835.348,
+   "end": 836.756
+  },
+  {
+   "voice": "男2",
+   "text": "Muy bien, Alicia, pero al llegar me resfrié.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 837.356,
+   "end": 840.516
+  },
+  {
+   "voice": "男2",
+   "text": "En el avión hacía mucho frío.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 840.866,
+   "end": 842.956
+  },
+  {
+   "voice": "女2",
+   "text": "¡Vaya!",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 843.556,
+   "end": 844.246
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y fuiste al médico?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 844.596,
+   "end": 845.765
+  },
+  {
+   "voice": "男2",
+   "text": "No hizo falta.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 846.365,
+   "end": 847.593
+  },
+  {
+   "voice": "男2",
+   "text": "Tomé unas pastillas y dormí mucho.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 847.943,
+   "end": 851.063
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y las reuniones con las empresas chinas?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 851.663,
+   "end": 853.762
+  },
+  {
+   "voice": "女2",
+   "text": "¿Fueron bien?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 854.112,
+   "end": 854.842
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, sus directores vendrán a Madrid en mayo.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 855.442,
+   "end": 858.722
+  },
+  {
+   "voice": "女2",
+   "text": "Muy bien.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 859.322,
+   "end": 859.942
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y tú volverás a Shanghái?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 860.292,
+   "end": 861.922
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, en septiembre.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 862.522,
+   "end": 864.812
+  },
+  {
+   "voice": "男2",
+   "text": "Y esta vez irás tú conmigo.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 865.162,
+   "end": 867.142
+  },
+  {
+   "voice": "女2",
+   "text": "¿Yo?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 867.742,
+   "end": 868.141
+  },
+  {
+   "voice": "女2",
+   "text": "¿De verdad?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 868.491,
+   "end": 869.222
+  },
+  {
+   "voice": "女2",
+   "text": "¡Qué bien!",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 869.572,
+   "end": 870.29
+  },
+  {
+   "voice": "女2",
+   "text": "Pero no tengo visado.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 870.64,
+   "end": 871.877
+  },
+  {
+   "voice": "男2",
+   "text": "No te preocupes.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 872.477,
+   "end": 873.787
+  },
+  {
+   "voice": "男2",
+   "text": "Lo pedirás en la embajada.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 874.137,
+   "end": 876.057
+  },
+  {
+   "voice": "男2",
+   "text": "Tardan solo una semana.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 876.407,
+   "end": 878.257
+  },
+  {
+   "voice": "女2",
+   "text": "Vale.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 878.857,
+   "end": 879.387
+  },
+  {
+   "voice": "女2",
+   "text": "Entonces empezaré a estudiar un poco de chino.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 879.737,
+   "end": 882.477
+  },
+  {
+   "voice": "男2",
+   "text": "Buena idea.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 883.077,
+   "end": 884.087
+  },
+  {
+   "voice": "男2",
+   "text": "Yo te ayudaré.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 884.437,
+   "end": 885.497
+  },
+  {
+   "voice": "男2",
+   "text": "¡Lo pasaremos muy bien!",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 885.847,
+   "end": 887.697
+  },
+  {
+   "voice": "女2",
+   "text": "Hola, Ricardo.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 890.697,
+   "end": 891.537
+  },
+  {
+   "voice": "女2",
+   "text": "¿Qué tal el viaje a Shanghái?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 891.887,
+   "end": 893.295
+  },
+  {
+   "voice": "男2",
+   "text": "Muy bien, Alicia, pero al llegar me resfrié.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 893.895,
+   "end": 897.055
+  },
+  {
+   "voice": "男2",
+   "text": "En el avión hacía mucho frío.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 897.405,
+   "end": 899.495
+  },
+  {
+   "voice": "女2",
+   "text": "¡Vaya!",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 900.095,
+   "end": 900.785
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y fuiste al médico?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 901.135,
+   "end": 902.303
+  },
+  {
+   "voice": "男2",
+   "text": "No hizo falta.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 902.903,
+   "end": 904.132
+  },
+  {
+   "voice": "男2",
+   "text": "Tomé unas pastillas y dormí mucho.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 904.482,
+   "end": 907.602
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y las reuniones con las empresas chinas?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 908.202,
+   "end": 910.301
+  },
+  {
+   "voice": "女2",
+   "text": "¿Fueron bien?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 910.651,
+   "end": 911.381
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, sus directores vendrán a Madrid en mayo.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 911.981,
+   "end": 915.261
+  },
+  {
+   "voice": "女2",
+   "text": "Muy bien.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 915.861,
+   "end": 916.481
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y tú volverás a Shanghái?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 916.831,
+   "end": 918.461
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, en septiembre.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 919.061,
+   "end": 921.351
+  },
+  {
+   "voice": "男2",
+   "text": "Y esta vez irás tú conmigo.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 921.701,
+   "end": 923.681
+  },
+  {
+   "voice": "女2",
+   "text": "¿Yo?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 924.281,
+   "end": 924.679
+  },
+  {
+   "voice": "女2",
+   "text": "¿De verdad?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 925.029,
+   "end": 925.761
+  },
+  {
+   "voice": "女2",
+   "text": "¡Qué bien!",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 926.111,
+   "end": 926.829
+  },
+  {
+   "voice": "女2",
+   "text": "Pero no tengo visado.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 927.179,
+   "end": 928.416
+  },
+  {
+   "voice": "男2",
+   "text": "No te preocupes.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 929.016,
+   "end": 930.326
+  },
+  {
+   "voice": "男2",
+   "text": "Lo pedirás en la embajada.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 930.676,
+   "end": 932.596
+  },
+  {
+   "voice": "男2",
+   "text": "Tardan solo una semana.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 932.946,
+   "end": 934.796
+  },
+  {
+   "voice": "女2",
+   "text": "Vale.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 935.396,
+   "end": 935.926
+  },
+  {
+   "voice": "女2",
+   "text": "Entonces empezaré a estudiar un poco de chino.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 936.276,
+   "end": 939.016
+  },
+  {
+   "voice": "男2",
+   "text": "Buena idea.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 939.616,
+   "end": 940.626
+  },
+  {
+   "voice": "男2",
+   "text": "Yo te ayudaré.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 940.976,
+   "end": 942.036
+  },
+  {
+   "voice": "男2",
+   "text": "¡Lo pasaremos muy bien!",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 942.386,
+   "end": 944.236
+  },
+  {
+   "voice": "中",
+   "text": "听力部分到此结束。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 964.236,
+   "end": 965.996
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有两分钟的时间将试卷上的答案转涂到答题卡上。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 966.446,
+   "end": 971.525
+  }
+ ]
+}

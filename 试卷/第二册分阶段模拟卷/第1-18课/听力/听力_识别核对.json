@@ -1,0 +1,1116 @@
+{
+ "pieces": [
+  {
+   "voice": "中",
+   "text": "听下面五段录音，每段录音后有一道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "asr": "听下面五段录音每段录音后有一道小题从题中所给的 a b c 三个选项中选出最佳选项",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听下面四段录音，每段录音后有几道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "asr": "听下面四段录音每段录音后有几道小题从题中所给的 a b c 三个选项中选出最佳选项",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听力考试正式开始。",
+   "asr": "听力考试正式开始",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听力部分到此结束。",
+   "asr": "听力部分到此结束",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听第七段录音，回答第九至十二题。",
+   "asr": "听第七段录音回答第九至十二题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听第九段录音，回答第十七至二十题。",
+   "asr": "听第九段录音回答第十七至二十题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听第八段录音，回答第十三至十六题。",
+   "asr": "听第八段录音回答第十三至十六题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "听第六段录音，回答第六至八题。",
+   "asr": "听第六段录音回答第六至八题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "播放后，每小题有五秒钟作答。",
+   "asr": "播放后每小题有五秒钟作答",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "每段录音后有十秒钟，用来作答和阅读下一小题。",
+   "asr": "每段录音后有十秒钟用来作答和阅读下一小题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放两遍。",
+   "asr": "每段录音播放两遍",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放前，有时间阅读小题，每小题五秒钟；",
+   "asr": "每段录音播放前有时间阅读小题每小题五秒钟",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在是听力试音时间。",
+   "asr": "现在是听力试音时间",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有两分钟的时间将试卷上的答案转涂到答题卡上。",
+   "asr": "现在你有两分钟的时间将试卷上的答案转图到答题卡上",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "asr": "现在你有二十秒钟的时间阅读这四道小题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有五秒钟的时间阅读第一小题。",
+   "asr": "现在你有五秒钟的时间阅读第一小题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有十五秒钟的时间阅读这三道小题。",
+   "asr": "现在你有十五秒钟的时间阅读这三道小题",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第一段录音。",
+   "asr": "第一段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第三段录音。",
+   "asr": "第三段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第二段录音。",
+   "asr": "第二段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第二节。",
+   "asr": "第二节",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第五段录音。",
+   "asr": "第五段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "第四段录音。",
+   "asr": "第四段录音",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "试音到此结束。",
+   "asr": "试音到此结束",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "中",
+   "text": "请看第一部分听力第一节。",
+   "asr": "请看第一部分听力第一节",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Muy bien.",
+   "asr": "Muy bien.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Nada especial, Valentín.",
+   "asr": "Nada especial, Valentín.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "Perdone, ¿podría decirme dónde está la oficina de turismo?",
+   "asr": "Perdone, ¿podría decirme dónde está la oficina de turismo?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¡Qué bien!",
+   "asr": "Qué bien.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¡Qué interesante!",
+   "asr": "¡Qué interesante!",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿A qué hora salimos?",
+   "asr": "¿A qué hora salimos?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Algo para cenar?",
+   "asr": "¿Algo para cenar?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Detrás de la iglesia?",
+   "asr": "Detrás de la iglesia,",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿En la plaza Mayor?",
+   "asr": "En la plaza mayor",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Hay autobús?",
+   "asr": "¿Hay autobús?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿La Noche de los Cuentos?",
+   "asr": "La noche de los cuentos",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Por qué?",
+   "asr": "¿Por qué?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Qué es eso?",
+   "asr": "¿Qué es eso?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Tengo que llevar algo?",
+   "asr": "¿Tengo que llevar algo?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y cómo vamos?",
+   "asr": "¿Y cómo vamos?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Antes de irse, había dejado en su laboratorio unos platitos con microbios, sin lavar.",
+   "asr": "Antes de irse, había dejado en su laboratorio unos platitos con microbios sin lavar.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Armando, ¿qué tal la visita al castillo ayer?",
+   "asr": "Armando, ¿qué tal la visita al castillo ayer?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Claro, Octavio.",
+   "asr": "Claro, Octavio.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "El jueves que viene, a primera hora.",
+   "asr": "El jueves que viene, a primera hora.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "En el verano de mil novecientos veintiocho, el médico se fue de vacaciones un mes.",
+   "asr": "En el verano de 1928, el médico se fue de vacaciones un mes.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "No lo sabía.",
+   "asr": "No lo sabía.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Sí, ha ayudado a muchísimos enfermos.",
+   "asr": "Sí, ha ayudado a muchísimos enfermos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Sí, voy a hablar de la penicilina y de cómo la descubrió un médico en Londres.",
+   "asr": "Sí, voy a hablar de la penicilina y de cómo la descubrió un médico en Londres.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Tú podrías buscar fotos y yo escribo el texto.",
+   "asr": "Tú podrías buscar fotos y yo escribo el texto.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Vio algo verde en uno de los platitos.",
+   "asr": "Vio algo verde en uno de los platitos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Y cerca de esa cosa verde, los microbios habían muerto.",
+   "asr": "Y cerca de esa cosa verde los microbios habían muerto.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "Y el médico la descubrió casi por error.",
+   "asr": "Y el médico la descubrió casi por error.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¡Ah, lo siento!",
+   "asr": "Ah, lo siento.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¡Qué bien!",
+   "asr": "Qué bien.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¡Vaya!",
+   "asr": "Vaya.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¿Llegasteis después de las seis?",
+   "asr": "¿Llegasteis después de las seis?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y dónde está la tienda?",
+   "asr": "¿Y dónde está la tienda?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y en las otras salas?",
+   "asr": "Y en las otras salas.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Claro.",
+   "asr": "Claro.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "El guía los espera allí.",
+   "asr": "El guía los espera allí.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "En la puerta del castillo.",
+   "asr": "En la puerta del castillo,",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Entonces son veinte euros en total.",
+   "asr": "Entonces son 20 euros en total.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Es de mil cuatrocientos noventa.",
+   "asr": "Es de 1490.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Hay visitas todos los días menos los lunes, a las diez y a las cinco.",
+   "asr": "Hay visitas todos los días menos los lunes, a las diez y a las cinco.",
+   "errors": 0,
+   "diff": [],
+   "seed": 10000
+  },
+  {
+   "voice": "女3",
+   "text": "La plaza de delante se hizo un siglo después.",
+   "asr": "La plaza de delante se hizo un siglo después.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "La primera iglesia fue construida en mil doscientos diez, pero fue destruida en una guerra.",
+   "asr": "La primera iglesia fue construida en 1210, pero fue destruida en una guerra.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Los niños menores de doce años pagan cuatro euros.",
+   "asr": "Los niños menores de 12 años pagan 4 euros.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Ocho euros por persona.",
+   "asr": "8 euros por persona.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Oficina de turismo de Peñaflor, buenos días.",
+   "asr": "Oficina de Turismo de Peña Flor. Buenos días.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Por la tarde están cerradas.",
+   "asr": "Por la tarde están cerradas.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女3",
+   "text": "Sí, pero solo en la visita de la mañana.",
+   "asr": "Sí, pero solo en la visita de la mañana.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Al volver, vio a mi madre sentada junto a la mesa.",
+   "asr": "Al volver, vio a mi madre sentada junto a la mesa.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Anoche oí a alguien tocar el piano en el piso de arriba.",
+   "asr": "Anoche oí a alguien tocar el piano en el piso de arriba.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "De pronto entró una vecina en la tienda y mi abuela salió a hablar con ella.",
+   "asr": "De pronto entró una vecina en la tienda y mi abuela salió a hablar con ella.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Desde entonces, se hacen dulces de naranja en todas las casas del pueblo.",
+   "asr": "Desde entonces, se hacen dulces de naranja en todas las casas del pueblo.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "En mil novecientos sesenta y dos, mi abuela tenía una panadería en la plaza.",
+   "asr": "En 1962, mi abuela tenía una panadería en la plaza.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Esta mañana la he visto en la escalera y me lo ha dicho.",
+   "asr": "Esta mañana la he visto en la escalera y me lo ha dicho.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Hoy mi pueblo es famoso por sus dulces de naranja, pero todo empezó por un error.",
+   "asr": "Hoy mi pueblo es famoso por sus dulces de naranja, pero todo empezó por un error.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Lucas y sus padres están de viaje.",
+   "asr": "Lucas y sus padres están de viaje.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Me llamo Remedios y vivo en un pueblecito de las montañas.",
+   "asr": "Me llamo Remedios y vivo en un pueblecito de las montañas.",
+   "errors": 0,
+   "diff": [],
+   "seed": 4000
+  },
+  {
+   "voice": "女4",
+   "text": "Mi abuela no tenía tiempo para hacer otros y los llevó así a la escuela.",
+   "asr": "Mi abuela no tenía tiempo para hacer otros y los llevó así a la escuela.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "No puede ser.",
+   "asr": "No puede ser.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Pensaba que a nadie le iban a gustar.",
+   "asr": "Pensaba que a nadie le iban a gustar.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Pero los niños y los profesores se los comieron todos y le pidieron más.",
+   "asr": "Pero los niños y los profesores se los comieron todos y le pidieron más.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Solo tenía cuatro años.",
+   "asr": "Solo tenía cuatro años.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Sí, era ella.",
+   "asr": "Sí, era ella.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Un día estaba preparando dulces para la fiesta de fin de curso de la escuela.",
+   "asr": "Un día estaba preparando dulces para la fiesta de fin de curso de la escuela.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "Y cada año, en mayo, celebramos la Fiesta del Dulce.",
+   "asr": "Y cada año, en mayo, celebramos la fiesta del dulce.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "女4",
+   "text": "¡Y había echado su zumo de naranja en los dulces!",
+   "asr": "Y había echado su zumo de naranja en los dulces.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Buenos días.",
+   "asr": "Buenos días.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Entonces iremos el sábado a las diez.",
+   "asr": "Entonces iremos el sábado a las 10.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Entonces sería su abuela.",
+   "asr": "Entonces sería su abuela.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Esta es la prueba de sonido del examen de español.",
+   "asr": "Esta es la prueba de sonido del examen de español.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Hola a todos.",
+   "asr": "Hola a todos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Me gustaría visitar el castillo con guía.",
+   "asr": "Me gustaría visitar el castillo con guía.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Muchas gracias.",
+   "asr": "Muchas gracias.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Perdone, ¿cuándo fue construida esta iglesia?",
+   "asr": "Perdone, ¿cuándo fue construida esta iglesia?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Sería Lucas, el hijo de los vecinos.",
+   "asr": "Sería Lucas, el hijo de los vecinos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Vamos mi mujer, mi hijo de diez años y yo.",
+   "asr": "Vamos mi mujer, mi hijo de 10 años y yo.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "Vive con ellos.",
+   "asr": "Vive con ellos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Cuánto cuesta?",
+   "asr": "¿Cuánto cuesta?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Podría darme información?",
+   "asr": "¿Podría darme información?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Se pueden ver las habitaciones del rey?",
+   "asr": "¿Se pueden ver las habitaciones del rey?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Y dónde empieza la visita?",
+   "asr": "¿Y dónde empieza la visita?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男1",
+   "text": "¿Y la que vemos ahora?",
+   "asr": "Y la que vemos ahora.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "A las siete, desde mi casa.",
+   "asr": "A las 7 desde mi casa.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Antes estaba al lado de la estación, pero ahora está en la plaza Mayor.",
+   "asr": "Antes estaba al lado de la estación, pero ahora está en la plaza mayor.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Cuando llegamos, ya lo habían cerrado.",
+   "asr": "Cuando llegamos, ya lo habían cerrado.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "En el primer piso, al lado de la salida del museo.",
+   "asr": "En el primer piso, al lado de la salida del museo.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "En el pueblo de mis abuelos celebran la Noche de los Cuentos.",
+   "asr": "En el pueblo de mis abuelos celebran la noche de los cuentos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Es una fiesta muy antigua.",
+   "asr": "Es una fiesta muy antigua.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Es una medicina muy importante, ¿no?",
+   "asr": "Es una medicina muy importante, ¿no?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Esperanza, ¿qué haces el sábado por la noche?",
+   "asr": "Esperanza, que haces el sábado por la noche.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Esta tarde voy a la biblioteca.",
+   "asr": "Esta tarde voy a la biblioteca.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Está a cinco minutos a pie.",
+   "asr": "Está a cinco minutos a pie.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Fatal.",
+   "asr": "Fatal.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Matilde, ¿ya sabes de qué vas a hablar en la presentación de historia?",
+   "asr": "Matilde, ya sabes de qué vas a hablar en la presentación de historia.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Mi hermano nos lleva en su coche.",
+   "asr": "Mi hermano nos lleva en su coche.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "No, cenamos en casa de mis abuelos.",
+   "asr": "No, cenamos en casa de mis abuelos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "No, justo enfrente de la iglesia.",
+   "asr": "No, justo enfrente de la iglesia.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "No, llegamos a la una.",
+   "asr": "No, llegamos a la una.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Normalmente cierran a las seis, pero ayer cerraron a las doce por la fiesta.",
+   "asr": "Normalmente cierran a las seis, pero ayer cerraron a las doce por la fiesta.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Perdone, señora, aquí no se pueden hacer fotos.",
+   "asr": "Perdone, señora, aquí no se pueden hacer fotos.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Pero en la tienda venden fotos de todos los cuadros.",
+   "asr": "Pero en la tienda venden fotos de todos los cuadros.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Pero lleva una chaqueta: allí hace mucho frío por la noche.",
+   "asr": "Pero lleva una chaqueta. Allí hace mucho frío por la noche.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Por la noche no hay.",
+   "asr": "Por la noche no hay.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Tampoco.",
+   "asr": "Tampoco.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Unos actores cuentan historias del pueblo por las calles.",
+   "asr": "Unos actores cuentan historias del pueblo por las calles.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "Vale.",
+   "asr": "Vale.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¡Qué interesante!",
+   "asr": "¡Qué interesante!",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¡Vaya!",
+   "asr": "Vaya.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Cuándo es la presentación?",
+   "asr": "¿Cuándo es la presentación?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Cómo fue?",
+   "asr": "¿Cómo fue?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿La penicilina?",
+   "asr": "La penicilina",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Por error?",
+   "asr": "¿Por error?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Puedo ayudarte con la presentación?",
+   "asr": "Puedo ayudarte con la presentación.",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Te gustaría venir conmigo?",
+   "asr": "¿Te gustaría venir conmigo?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Y qué encontró al volver?",
+   "asr": "¿Y qué encontró al volver?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  },
+  {
+   "voice": "男2",
+   "text": "¿Y qué pasó?",
+   "asr": "¿Y qué pasó?",
+   "errors": 0,
+   "diff": [],
+   "seed": null
+  }
+ ]
+}

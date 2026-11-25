@@ -272,6 +272,9 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 - [`试卷/Metodo1-2高考模拟卷/`](试卷/Metodo1-2高考模拟卷/)：《Método de español》第 1–2 册（按 A1、A2 理解）的高考西班牙语模拟卷，按 2024 年起的新课标卷题型原创，满分 150 分、120 分钟。
   - 原文是 `试卷.md`；试卷、答题卡、答案与评分说明（Word 和 PDF，A4）和听力 MP3 在 Release `exam-metodo12`。
   - 听力按高考格式：试音、中文指令语、读题时间、每段播两遍、作答停顿；每句都用语音识别核对过，成品 MP3 又逐句复核。
+- [`试卷/第二册分阶段模拟卷/`](试卷/第二册分阶段模拟卷/)：《现代西班牙语》第二册（老版）的 7 套分阶段高考模拟卷，范围分别是第 1–2、1–4、1–6、1–8、1–10、1–14、1–18 课，每套都加上第一册全部。题型、题量和分值同 Método 卷：满分 150 分、120 分钟，含听力。
+  - 每套一个文件夹，原文是 `试卷.md`，另有审校记录和两次盲做的答案；`出题要求.md`、`审校要求.md` 是出题和审校的规则；`tools/` 里是格式自检、查超范围（按课次）、听力和排版程序。
+  - 每套都经过独立审校和两次盲做；听力每句用语音识别核对，成品 MP3 又逐句复核。试卷、答题卡、答案与评分说明（Word 和 PDF）和听力 MP3 在 Release `exam-book2-stages`。
 - [`试卷/SIELE模拟卷/`](试卷/SIELE模拟卷/)：按 SIELE Global 公开的考试结构出的一整套原创模拟卷（非官方，与 SIELE、塞万提斯学院无关），阅读、听力、写作、口语四项，每项的 tarea、题型、题量、时间和计分都按考试规格（`考试规格.md`）。考生试题册 21 页、答题卡 4 页、教师用书 28 页（答案、解析、听力原文和译文、写作和口语的评分标准和范文、成绩换算），听力约 45 分钟、口语提问约 26 分钟。
   - 内容是 `content/` 里的四个 JSON，`tools/build_pdf.py` 排成 PDF；录音由 `tools/make_audio.py` 用本仓库的 Qwen3-TTS 合成，逐句语音识别核对，成品再逐句复核（461 句）。PDF 和录音在 Release `siele-mock-1`。
   - [`试卷/SIELE模拟卷/第二套/`](试卷/SIELE模拟卷/第二套/)：第二套（非官方），结构、题型和计分同第一套，话题全部不同；考生试题册 21 页、答题卡 4 页、教师用书 29 页，听力约 46 分钟、口语提问约 26 分钟，录音成品逐句复核 493 句。PDF 和录音在 Release `siele-mock-2`。
@@ -396,6 +399,7 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
 | `siele-mock-5` | SIELE 模拟卷（第五套，非官方）：`siele-mock-5-candidate.pdf`（考生试题册）、`siele-mock-5-answer-sheet.pdf`（答题卡）、`siele-mock-5-teacher.pdf`（教师用书）、听力 `SIELE5_CA_T1.mp3` … `SIELE5_CA_T6.mp3` 和连播 `SIELE5_CA_completa.mp3`、口语 `SIELE5_EIO_*.mp3`（6 条）、`siele-mock-5-audio.zip`、`siele-mock-5-audio-checks.json`、`siele-mock-5-SHA256SUMS.txt` |
 | `dele-mock-a1-c1` | DELE 模拟卷 A1—C1（非官方，已完成 A1、A2、B1、B2、C1）：每级 `dele-<级别>-candidate.pdf`（考生题册）、`dele-<级别>-answer-sheet.pdf`（答题卡）、`dele-<级别>-teacher.pdf`（教师用书）、听力分段音轨 `DELE_<级别>_CA_T*.mp3` 和连播 `DELE_<级别>_CA_completa.mp3`（B2、C1 另有写作录音 `DELE_<级别>_EIE_T1.mp3`）、`dele-<级别>-audio.zip`、`dele-<级别>-audio-checks.json`；`dele-mock-SHA256SUMS.txt` |
 | `exam-metodo12` | Método 1–2 册高考模拟卷：试卷 `exam-metodo12-paper.docx/.pdf`、答题卡 `exam-metodo12-answer-sheet.docx/.pdf`、答案与评分说明 `exam-metodo12-key.docx/.pdf`、整套听力 `exam-metodo12-listening.mp3`、分段听力 `exam-metodo12-texto_1.mp3` … `texto_9.mp3`、核对报告 `exam-metodo12-asr-check.json`、`exam-metodo12-final-check.json`、`exam-metodo12-SHA256SUMS.txt` |
+| `exam-book2-stages` | 《现代西班牙语》第二册分阶段高考模拟卷 7 套，文件名以卷号开头（`B2-L01-02` … `B2-L01-18`）：试卷 `_paper.docx/.pdf`、答题卡 `_answer-sheet.docx/.pdf`、答案与评分说明 `_key.docx/.pdf`、整套听力 `_listening.mp3`、分段听力 `_texto_1.mp3` … `_texto_9.mp3`；`exam-book2-stages-SHA256SUMS.txt` |
 | `lesson-videos` | 教学视频：`book1_lesson01_quien_es_el.mp4`（第一册第一课）、`lesson-videos-SHA256SUMS.txt` |
 | `courseware-book1` | 第一册分课课件：`book1_L01.pptx` … `book1_L24.pptx` 和同名 PDF、`courseware-book1-SHA256SUMS.txt` |
 | `book1-vocab` | 第一册分课单词表：`book1-vocab.docx`、`book1-vocab.pdf`、`book1-vocab-words.csv`、`book1-vocab-verbs.csv`、`book1-vocab-SHA256SUMS.txt` |
@@ -499,3 +503,5 @@ Qwen3 每一段的原始合成都缓存在 `西班牙语/audio/_合成缓存/`�
     - 每日一读第二批 50 篇（A1—C1 各级第 11—20 篇，原创短文和插图，逐句高亮版）和 Release `daily-reading-batch2`；新增 `每日一读/批量2/`（选题表、编写和插图要求、文章、插图、朗读、核查报告、审读记录、成品一览）。
     - `每日一读/tools/`：新增 `trygap.py`（离线试排，比较词间空白的改法）；`check_daily.py` 同时读第一批、第二批的选题表，容易读错的词加上 agricultores、preguntaos；`collect_batch.py`、`summary_batch.py` 可以用环境变量指定批次子目录、校验和文件名和标题。
     - `西班牙语/tools/voices.json`：`qwen3_M1F5_25`（原速）的 `leveler_ladder` 末尾也加 0.4 秒 ±10 dB、0.3 秒 ±12 dB 两档（同慢速音色）。只有前面各档都不过才会用到，已通过的篇目结果不变。
+  - 2026-11-25：
+    - 新增 `试卷/第二册分阶段模拟卷/`（《现代西班牙语》第二册 7 套分阶段高考模拟卷的原文、审校记录、两次盲做的答案、听力核对报告和程序）和 Release `exam-book2-stages`。

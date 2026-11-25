@@ -1,0 +1,2259 @@
+{
+ "total_s": 1001.82,
+ "texts": [
+  {
+   "texto": 1,
+   "play": 1,
+   "start": 47.02,
+   "end": 67.17
+  },
+  {
+   "texto": 1,
+   "play": 2,
+   "start": 70.17,
+   "end": 90.32
+  },
+  {
+   "texto": 2,
+   "play": 1,
+   "start": 102.34,
+   "end": 120.28
+  },
+  {
+   "texto": 2,
+   "play": 2,
+   "start": 123.28,
+   "end": 141.22
+  },
+  {
+   "texto": 3,
+   "play": 1,
+   "start": 153.19,
+   "end": 171.66
+  },
+  {
+   "texto": 3,
+   "play": 2,
+   "start": 174.66,
+   "end": 193.13
+  },
+  {
+   "texto": 4,
+   "play": 1,
+   "start": 205.26,
+   "end": 223.08
+  },
+  {
+   "texto": 4,
+   "play": 2,
+   "start": 226.08,
+   "end": 243.91
+  },
+  {
+   "texto": 5,
+   "play": 1,
+   "start": 255.87,
+   "end": 277.04
+  },
+  {
+   "texto": 5,
+   "play": 2,
+   "start": 280.04,
+   "end": 301.2
+  },
+  {
+   "texto": 6,
+   "play": 1,
+   "start": 354.21,
+   "end": 405.47
+  },
+  {
+   "texto": 6,
+   "play": 2,
+   "start": 408.47,
+   "end": 459.72
+  },
+  {
+   "texto": 7,
+   "play": 1,
+   "start": 502.35,
+   "end": 562.68
+  },
+  {
+   "texto": 7,
+   "play": 2,
+   "start": 565.68,
+   "end": 626.01
+  },
+  {
+   "texto": 8,
+   "play": 1,
+   "start": 673.83,
+   "end": 737.49
+  },
+  {
+   "texto": 8,
+   "play": 2,
+   "start": 740.49,
+   "end": 804.16
+  },
+  {
+   "texto": 9,
+   "play": 1,
+   "start": 852.2,
+   "end": 910.86
+  },
+  {
+   "texto": 9,
+   "play": 2,
+   "start": 913.86,
+   "end": 972.53
+  }
+ ],
+ "items": [
+  {
+   "voice": "中",
+   "text": "现在是听力试音时间。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 1.5,
+   "end": 3.53
+  },
+  {
+   "voice": "男1",
+   "text": "Hola a todos.",
+   "where": "试音",
+   "lang": "es",
+   "start": 4.53,
+   "end": 5.91
+  },
+  {
+   "voice": "男1",
+   "text": "Esta es la prueba de sonido del examen de español.",
+   "where": "试音",
+   "lang": "es",
+   "start": 6.26,
+   "end": 8.95
+  },
+  {
+   "voice": "中",
+   "text": "试音到此结束。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 10.45,
+   "end": 11.866
+  },
+  {
+   "voice": "中",
+   "text": "听力考试正式开始。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 13.866,
+   "end": 15.786
+  },
+  {
+   "voice": "中",
+   "text": "请看第一部分听力第一节。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 16.236,
+   "end": 18.586
+  },
+  {
+   "voice": "中",
+   "text": "听下面五段录音，每段录音后有一道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 19.386,
+   "end": 27.936
+  },
+  {
+   "voice": "中",
+   "text": "每段录音后有十秒钟，用来作答和阅读下一小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 28.386,
+   "end": 33.076
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放两遍。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 33.526,
+   "end": 35.317
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有五秒钟的时间阅读第一小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 36.317,
+   "end": 39.906
+  },
+  {
+   "voice": "中",
+   "text": "第一段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 44.906,
+   "end": 46.216
+  },
+  {
+   "voice": "女2",
+   "text": "Leandro, anoche te llamé a las diez.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 47.016,
+   "end": 49.422
+  },
+  {
+   "voice": "女2",
+   "text": "¿Ya estabas durmiendo?",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 49.772,
+   "end": 50.901
+  },
+  {
+   "voice": "男2",
+   "text": "No, Julia.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 51.501,
+   "end": 52.691
+  },
+  {
+   "voice": "男2",
+   "text": "Me acosté a las doce.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 53.041,
+   "end": 54.498
+  },
+  {
+   "voice": "男2",
+   "text": "A las diez estaba cenando con mis abuelos.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 54.848,
+   "end": 57.748
+  },
+  {
+   "voice": "女2",
+   "text": "¿En casa?",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 58.348,
+   "end": 59.058
+  },
+  {
+   "voice": "女2",
+   "text": "¿No estabais viendo la televisión, como siempre?",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 59.408,
+   "end": 62.208
+  },
+  {
+   "voice": "男2",
+   "text": "No, esta vez cenamos en un restaurante y había mucho ruido.",
+   "where": "Texto 1 第1遍",
+   "lang": "es",
+   "start": 62.808,
+   "end": 67.168
+  },
+  {
+   "voice": "女2",
+   "text": "Leandro, anoche te llamé a las diez.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 70.168,
+   "end": 72.574
+  },
+  {
+   "voice": "女2",
+   "text": "¿Ya estabas durmiendo?",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 72.924,
+   "end": 74.053
+  },
+  {
+   "voice": "男2",
+   "text": "No, Julia.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 74.653,
+   "end": 75.843
+  },
+  {
+   "voice": "男2",
+   "text": "Me acosté a las doce.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 76.193,
+   "end": 77.65
+  },
+  {
+   "voice": "男2",
+   "text": "A las diez estaba cenando con mis abuelos.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 78.0,
+   "end": 80.9
+  },
+  {
+   "voice": "女2",
+   "text": "¿En casa?",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 81.5,
+   "end": 82.21
+  },
+  {
+   "voice": "女2",
+   "text": "¿No estabais viendo la televisión, como siempre?",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 82.56,
+   "end": 85.36
+  },
+  {
+   "voice": "男2",
+   "text": "No, esta vez cenamos en un restaurante y había mucho ruido.",
+   "where": "Texto 1 第2遍",
+   "lang": "es",
+   "start": 85.96,
+   "end": 90.32
+  },
+  {
+   "voice": "中",
+   "text": "第二段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 100.32,
+   "end": 101.543
+  },
+  {
+   "voice": "男1",
+   "text": "Blanca, ¿la velada de Nochevieja es en el salón de la residencia otra vez?",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 102.343,
+   "end": 107.071
+  },
+  {
+   "voice": "女3",
+   "text": "No, este año es en el bar de la universidad.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 107.671,
+   "end": 110.888
+  },
+  {
+   "voice": "女3",
+   "text": "Es más grande.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 111.238,
+   "end": 112.404
+  },
+  {
+   "voice": "男1",
+   "text": "¿Y la fiesta de Sebastián?",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 113.004,
+   "end": 114.674
+  },
+  {
+   "voice": "男1",
+   "text": "¿No era en su casa?",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 115.024,
+   "end": 116.324
+  },
+  {
+   "voice": "女3",
+   "text": "Sí, pero su fiesta es el día uno por la tarde.",
+   "where": "Texto 2 第1遍",
+   "lang": "es",
+   "start": 116.924,
+   "end": 120.284
+  },
+  {
+   "voice": "男1",
+   "text": "Blanca, ¿la velada de Nochevieja es en el salón de la residencia otra vez?",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 123.284,
+   "end": 128.012
+  },
+  {
+   "voice": "女3",
+   "text": "No, este año es en el bar de la universidad.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 128.612,
+   "end": 131.828
+  },
+  {
+   "voice": "女3",
+   "text": "Es más grande.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 132.178,
+   "end": 133.344
+  },
+  {
+   "voice": "男1",
+   "text": "¿Y la fiesta de Sebastián?",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 133.944,
+   "end": 135.614
+  },
+  {
+   "voice": "男1",
+   "text": "¿No era en su casa?",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 135.964,
+   "end": 137.264
+  },
+  {
+   "voice": "女3",
+   "text": "Sí, pero su fiesta es el día uno por la tarde.",
+   "where": "Texto 2 第2遍",
+   "lang": "es",
+   "start": 137.864,
+   "end": 141.224
+  },
+  {
+   "voice": "中",
+   "text": "第三段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 151.224,
+   "end": 152.394
+  },
+  {
+   "voice": "女1",
+   "text": "César, hablas muy bien español.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 153.194,
+   "end": 155.914
+  },
+  {
+   "voice": "女1",
+   "text": "¿Aprendiste viendo películas?",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 156.264,
+   "end": 158.364
+  },
+  {
+   "voice": "男2",
+   "text": "No, casi nunca veo películas.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 158.964,
+   "end": 161.324
+  },
+  {
+   "voice": "女1",
+   "text": "¿Entonces hablando con amigos españoles?",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 161.924,
+   "end": 164.341
+  },
+  {
+   "voice": "男2",
+   "text": "Tampoco.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 164.941,
+   "end": 165.771
+  },
+  {
+   "voice": "男2",
+   "text": "Lo aprendí leyendo cuentos para niños.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 166.121,
+   "end": 169.301
+  },
+  {
+   "voice": "男2",
+   "text": "Leía uno cada noche.",
+   "where": "Texto 3 第1遍",
+   "lang": "es",
+   "start": 169.651,
+   "end": 171.661
+  },
+  {
+   "voice": "女1",
+   "text": "César, hablas muy bien español.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 174.661,
+   "end": 177.381
+  },
+  {
+   "voice": "女1",
+   "text": "¿Aprendiste viendo películas?",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 177.731,
+   "end": 179.831
+  },
+  {
+   "voice": "男2",
+   "text": "No, casi nunca veo películas.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 180.431,
+   "end": 182.791
+  },
+  {
+   "voice": "女1",
+   "text": "¿Entonces hablando con amigos españoles?",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 183.391,
+   "end": 185.808
+  },
+  {
+   "voice": "男2",
+   "text": "Tampoco.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 186.408,
+   "end": 187.238
+  },
+  {
+   "voice": "男2",
+   "text": "Lo aprendí leyendo cuentos para niños.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 187.588,
+   "end": 190.768
+  },
+  {
+   "voice": "男2",
+   "text": "Leía uno cada noche.",
+   "where": "Texto 3 第2遍",
+   "lang": "es",
+   "start": 191.118,
+   "end": 193.128
+  },
+  {
+   "voice": "中",
+   "text": "第四段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 203.128,
+   "end": 204.461
+  },
+  {
+   "voice": "男1",
+   "text": "Rocío, ayer llegaste muy tarde a clase.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 205.261,
+   "end": 208.111
+  },
+  {
+   "voice": "男1",
+   "text": "¿Perdiste el autobús?",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 208.461,
+   "end": 209.587
+  },
+  {
+   "voice": "女4",
+   "text": "No, el autobús llegó a tiempo.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 210.187,
+   "end": 212.747
+  },
+  {
+   "voice": "女4",
+   "text": "Pero me dormí en él.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 213.097,
+   "end": 214.607
+  },
+  {
+   "voice": "男1",
+   "text": "¿Y no bajaste en la universidad?",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 215.207,
+   "end": 216.927
+  },
+  {
+   "voice": "女4",
+   "text": "No.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 217.527,
+   "end": 218.108
+  },
+  {
+   "voice": "女4",
+   "text": "Bajé en el centro.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 218.458,
+   "end": 219.879
+  },
+  {
+   "voice": "女4",
+   "text": "No me perdí, pero tuve que volver a pie.",
+   "where": "Texto 4 第1遍",
+   "lang": "es",
+   "start": 220.229,
+   "end": 223.084
+  },
+  {
+   "voice": "男1",
+   "text": "Rocío, ayer llegaste muy tarde a clase.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 226.084,
+   "end": 228.934
+  },
+  {
+   "voice": "男1",
+   "text": "¿Perdiste el autobús?",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 229.284,
+   "end": 230.411
+  },
+  {
+   "voice": "女4",
+   "text": "No, el autobús llegó a tiempo.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 231.011,
+   "end": 233.571
+  },
+  {
+   "voice": "女4",
+   "text": "Pero me dormí en él.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 233.921,
+   "end": 235.43
+  },
+  {
+   "voice": "男1",
+   "text": "¿Y no bajaste en la universidad?",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 236.03,
+   "end": 237.75
+  },
+  {
+   "voice": "女4",
+   "text": "No.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 238.35,
+   "end": 238.932
+  },
+  {
+   "voice": "女4",
+   "text": "Bajé en el centro.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 239.282,
+   "end": 240.703
+  },
+  {
+   "voice": "女4",
+   "text": "No me perdí, pero tuve que volver a pie.",
+   "where": "Texto 4 第2遍",
+   "lang": "es",
+   "start": 241.053,
+   "end": 243.907
+  },
+  {
+   "voice": "中",
+   "text": "第五段录音。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 253.907,
+   "end": 255.067
+  },
+  {
+   "voice": "男2",
+   "text": "Buenos días, señora.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 255.867,
+   "end": 257.447
+  },
+  {
+   "voice": "男2",
+   "text": "¿Qué le pasa?",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 257.797,
+   "end": 258.787
+  },
+  {
+   "voice": "女2",
+   "text": "Me duele mucho la garganta, doctor.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 259.387,
+   "end": 261.356
+  },
+  {
+   "voice": "女2",
+   "text": "Pero no tengo fiebre.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 261.706,
+   "end": 262.936
+  },
+  {
+   "voice": "男2",
+   "text": "A ver.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 263.536,
+   "end": 264.506
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, la tiene muy roja.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 264.856,
+   "end": 267.006
+  },
+  {
+   "voice": "男2",
+   "text": "Tome estas pastillas y no beba nada frío.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 267.356,
+   "end": 270.506
+  },
+  {
+   "voice": "女2",
+   "text": "¿Tengo que quedarme en casa?",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 271.106,
+   "end": 272.556
+  },
+  {
+   "voice": "男2",
+   "text": "No, puede ir a trabajar.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 273.156,
+   "end": 275.086
+  },
+  {
+   "voice": "男2",
+   "text": "Pero no hable mucho.",
+   "where": "Texto 5 第1遍",
+   "lang": "es",
+   "start": 275.436,
+   "end": 277.036
+  },
+  {
+   "voice": "男2",
+   "text": "Buenos días, señora.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 280.036,
+   "end": 281.616
+  },
+  {
+   "voice": "男2",
+   "text": "¿Qué le pasa?",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 281.966,
+   "end": 282.956
+  },
+  {
+   "voice": "女2",
+   "text": "Me duele mucho la garganta, doctor.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 283.556,
+   "end": 285.524
+  },
+  {
+   "voice": "女2",
+   "text": "Pero no tengo fiebre.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 285.874,
+   "end": 287.104
+  },
+  {
+   "voice": "男2",
+   "text": "A ver.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 287.704,
+   "end": 288.674
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, la tiene muy roja.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 289.024,
+   "end": 291.174
+  },
+  {
+   "voice": "男2",
+   "text": "Tome estas pastillas y no beba nada frío.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 291.524,
+   "end": 294.674
+  },
+  {
+   "voice": "女2",
+   "text": "¿Tengo que quedarme en casa?",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 295.274,
+   "end": 296.724
+  },
+  {
+   "voice": "男2",
+   "text": "No, puede ir a trabajar.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 297.324,
+   "end": 299.254
+  },
+  {
+   "voice": "男2",
+   "text": "Pero no hable mucho.",
+   "where": "Texto 5 第2遍",
+   "lang": "es",
+   "start": 299.604,
+   "end": 301.204
+  },
+  {
+   "voice": "中",
+   "text": "第二节。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 311.204,
+   "end": 312.004
+  },
+  {
+   "voice": "中",
+   "text": "听下面四段录音，每段录音后有几道小题，从题中所给的A、B、C三个选项中选出最佳选项。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 312.454,
+   "end": 320.304
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放前，有时间阅读小题，每小题五秒钟；",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 320.754,
+   "end": 325.214
+  },
+  {
+   "voice": "中",
+   "text": "播放后，每小题有五秒钟作答。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 325.514,
+   "end": 328.474
+  },
+  {
+   "voice": "中",
+   "text": "每段录音播放两遍。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 328.924,
+   "end": 330.716
+  },
+  {
+   "voice": "中",
+   "text": "听第六段录音，回答第六至八题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 331.716,
+   "end": 334.894
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有十五秒钟的时间阅读这三道小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 335.344,
+   "end": 339.214
+  },
+  {
+   "voice": "女1",
+   "text": "Ignacio, ¿qué vas a hacer en la velada del viernes?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 354.214,
+   "end": 357.784
+  },
+  {
+   "voice": "女1",
+   "text": "¿Vas a tocar la guitarra otra vez?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 358.134,
+   "end": 360.193
+  },
+  {
+   "voice": "男2",
+   "text": "No, este año voy a contar una historia divertida.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 360.793,
+   "end": 364.523
+  },
+  {
+   "voice": "男2",
+   "text": "Pero estoy muy nervioso.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 364.873,
+   "end": 366.723
+  },
+  {
+   "voice": "女1",
+   "text": "¿Tú, nervioso?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 367.323,
+   "end": 368.654
+  },
+  {
+   "voice": "女1",
+   "text": "¡Pero si eres muy divertido!",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 369.004,
+   "end": 370.846
+  },
+  {
+   "voice": "男2",
+   "text": "Con mis amigos, sí.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 371.446,
+   "end": 373.246
+  },
+  {
+   "voice": "男2",
+   "text": "Pero esta vez voy a hablar delante de cien personas.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 373.596,
+   "end": 377.106
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y ya sabes qué historia vas a contar?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 377.706,
+   "end": 379.864
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, la del perro que habla por teléfono.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 380.464,
+   "end": 383.614
+  },
+  {
+   "voice": "女1",
+   "text": "Esa es buenísima.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 384.214,
+   "end": 385.627
+  },
+  {
+   "voice": "女1",
+   "text": "Pero no la cuentes tan rápido como siempre.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 385.977,
+   "end": 388.747
+  },
+  {
+   "voice": "女1",
+   "text": "Cuéntala más lentamente.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 389.097,
+   "end": 391.057
+  },
+  {
+   "voice": "男2",
+   "text": "Vale.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 391.657,
+   "end": 392.19
+  },
+  {
+   "voice": "男2",
+   "text": "¿Algo más?",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 392.54,
+   "end": 393.444
+  },
+  {
+   "voice": "女1",
+   "text": "Sí, no te rías antes del final.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 394.044,
+   "end": 396.72
+  },
+  {
+   "voice": "女1",
+   "text": "Y mira a la gente, no mires al suelo.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 397.07,
+   "end": 399.657
+  },
+  {
+   "voice": "男2",
+   "text": "Gracias, Mercedes.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 400.257,
+   "end": 401.847
+  },
+  {
+   "voice": "男2",
+   "text": "Esta noche voy a contársela primero a mi hermana.",
+   "where": "Texto 6 第1遍",
+   "lang": "es",
+   "start": 402.197,
+   "end": 405.467
+  },
+  {
+   "voice": "女1",
+   "text": "Ignacio, ¿qué vas a hacer en la velada del viernes?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 408.467,
+   "end": 412.037
+  },
+  {
+   "voice": "女1",
+   "text": "¿Vas a tocar la guitarra otra vez?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 412.387,
+   "end": 414.446
+  },
+  {
+   "voice": "男2",
+   "text": "No, este año voy a contar una historia divertida.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 415.046,
+   "end": 418.776
+  },
+  {
+   "voice": "男2",
+   "text": "Pero estoy muy nervioso.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 419.126,
+   "end": 420.976
+  },
+  {
+   "voice": "女1",
+   "text": "¿Tú, nervioso?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 421.576,
+   "end": 422.907
+  },
+  {
+   "voice": "女1",
+   "text": "¡Pero si eres muy divertido!",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 423.257,
+   "end": 425.099
+  },
+  {
+   "voice": "男2",
+   "text": "Con mis amigos, sí.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 425.699,
+   "end": 427.499
+  },
+  {
+   "voice": "男2",
+   "text": "Pero esta vez voy a hablar delante de cien personas.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 427.849,
+   "end": 431.359
+  },
+  {
+   "voice": "女1",
+   "text": "¿Y ya sabes qué historia vas a contar?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 431.959,
+   "end": 434.116
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, la del perro que habla por teléfono.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 434.716,
+   "end": 437.866
+  },
+  {
+   "voice": "女1",
+   "text": "Esa es buenísima.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 438.466,
+   "end": 439.88
+  },
+  {
+   "voice": "女1",
+   "text": "Pero no la cuentes tan rápido como siempre.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 440.23,
+   "end": 443.0
+  },
+  {
+   "voice": "女1",
+   "text": "Cuéntala más lentamente.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 443.35,
+   "end": 445.31
+  },
+  {
+   "voice": "男2",
+   "text": "Vale.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 445.91,
+   "end": 446.443
+  },
+  {
+   "voice": "男2",
+   "text": "¿Algo más?",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 446.793,
+   "end": 447.696
+  },
+  {
+   "voice": "女1",
+   "text": "Sí, no te rías antes del final.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 448.296,
+   "end": 450.973
+  },
+  {
+   "voice": "女1",
+   "text": "Y mira a la gente, no mires al suelo.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 451.323,
+   "end": 453.909
+  },
+  {
+   "voice": "男2",
+   "text": "Gracias, Mercedes.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 454.509,
+   "end": 456.099
+  },
+  {
+   "voice": "男2",
+   "text": "Esta noche voy a contársela primero a mi hermana.",
+   "where": "Texto 6 第2遍",
+   "lang": "es",
+   "start": 456.449,
+   "end": 459.719
+  },
+  {
+   "voice": "中",
+   "text": "听第七段录音，回答第九至十二题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 474.719,
+   "end": 477.839
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 478.289,
+   "end": 482.349
+  },
+  {
+   "voice": "男1",
+   "text": "Fátima, ¿sabes qué le pasó la semana pasada a mi tío Emilio?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 502.349,
+   "end": 506.219
+  },
+  {
+   "voice": "女3",
+   "text": "No, cuéntamelo.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 506.819,
+   "end": 508.123
+  },
+  {
+   "voice": "女3",
+   "text": "Tu tío siempre tiene historias divertidas.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 508.473,
+   "end": 510.963
+  },
+  {
+   "voice": "男1",
+   "text": "Fue al aeropuerto a buscar a un amigo mexicano.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 511.563,
+   "end": 514.447
+  },
+  {
+   "voice": "男1",
+   "text": "Lo esperó dos horas, pero su amigo no salía.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 514.797,
+   "end": 517.647
+  },
+  {
+   "voice": "女3",
+   "text": "¿Llegó tarde el avión?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 518.247,
+   "end": 519.827
+  },
+  {
+   "voice": "女3",
+   "text": "¿O su amigo lo perdió?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 520.177,
+   "end": 521.735
+  },
+  {
+   "voice": "男1",
+   "text": "Ni una cosa ni la otra.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 522.335,
+   "end": 524.225
+  },
+  {
+   "voice": "男1",
+   "text": "Su amigo llegaba al día siguiente.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 524.575,
+   "end": 526.443
+  },
+  {
+   "voice": "男1",
+   "text": "¡Mi tío leyó mal la fecha!",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 526.793,
+   "end": 528.433
+  },
+  {
+   "voice": "女3",
+   "text": "¡Qué divertido!",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 529.033,
+   "end": 530.027
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y volvió a casa muy triste?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 530.377,
+   "end": 532.547
+  },
+  {
+   "voice": "男1",
+   "text": "No, él nunca está triste.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 533.147,
+   "end": 535.387
+  },
+  {
+   "voice": "男1",
+   "text": "Volvió a casa riéndose de sí mismo.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 535.737,
+   "end": 538.084
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y al día siguiente fue otra vez al aeropuerto?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 538.684,
+   "end": 541.714
+  },
+  {
+   "voice": "男1",
+   "text": "Sí, y esta vez encontró a su amigo rápidamente.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 542.314,
+   "end": 545.764
+  },
+  {
+   "voice": "女3",
+   "text": "Entonces todo salió bien al final.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 546.364,
+   "end": 548.874
+  },
+  {
+   "voice": "男1",
+   "text": "Casi.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 549.474,
+   "end": 550.124
+  },
+  {
+   "voice": "男1",
+   "text": "Luego no recordaba dónde estaba su coche.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 550.474,
+   "end": 553.091
+  },
+  {
+   "voice": "女3",
+   "text": "¡No me digas!",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 553.691,
+   "end": 554.621
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y qué hicieron?",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 554.971,
+   "end": 556.201
+  },
+  {
+   "voice": "男1",
+   "text": "Lo buscaron media hora.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 556.801,
+   "end": 558.237
+  },
+  {
+   "voice": "男1",
+   "text": "Al final volvieron a casa en taxi, porque no pasaba ningún autobús.",
+   "where": "Texto 7 第1遍",
+   "lang": "es",
+   "start": 558.587,
+   "end": 562.677
+  },
+  {
+   "voice": "男1",
+   "text": "Fátima, ¿sabes qué le pasó la semana pasada a mi tío Emilio?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 565.677,
+   "end": 569.547
+  },
+  {
+   "voice": "女3",
+   "text": "No, cuéntamelo.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 570.147,
+   "end": 571.451
+  },
+  {
+   "voice": "女3",
+   "text": "Tu tío siempre tiene historias divertidas.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 571.801,
+   "end": 574.291
+  },
+  {
+   "voice": "男1",
+   "text": "Fue al aeropuerto a buscar a un amigo mexicano.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 574.891,
+   "end": 577.775
+  },
+  {
+   "voice": "男1",
+   "text": "Lo esperó dos horas, pero su amigo no salía.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 578.125,
+   "end": 580.975
+  },
+  {
+   "voice": "女3",
+   "text": "¿Llegó tarde el avión?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 581.575,
+   "end": 583.155
+  },
+  {
+   "voice": "女3",
+   "text": "¿O su amigo lo perdió?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 583.505,
+   "end": 585.063
+  },
+  {
+   "voice": "男1",
+   "text": "Ni una cosa ni la otra.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 585.663,
+   "end": 587.553
+  },
+  {
+   "voice": "男1",
+   "text": "Su amigo llegaba al día siguiente.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 587.903,
+   "end": 589.771
+  },
+  {
+   "voice": "男1",
+   "text": "¡Mi tío leyó mal la fecha!",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 590.121,
+   "end": 591.761
+  },
+  {
+   "voice": "女3",
+   "text": "¡Qué divertido!",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 592.361,
+   "end": 593.355
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y volvió a casa muy triste?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 593.705,
+   "end": 595.875
+  },
+  {
+   "voice": "男1",
+   "text": "No, él nunca está triste.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 596.475,
+   "end": 598.715
+  },
+  {
+   "voice": "男1",
+   "text": "Volvió a casa riéndose de sí mismo.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 599.065,
+   "end": 601.412
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y al día siguiente fue otra vez al aeropuerto?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 602.012,
+   "end": 605.042
+  },
+  {
+   "voice": "男1",
+   "text": "Sí, y esta vez encontró a su amigo rápidamente.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 605.642,
+   "end": 609.092
+  },
+  {
+   "voice": "女3",
+   "text": "Entonces todo salió bien al final.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 609.692,
+   "end": 612.202
+  },
+  {
+   "voice": "男1",
+   "text": "Casi.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 612.802,
+   "end": 613.452
+  },
+  {
+   "voice": "男1",
+   "text": "Luego no recordaba dónde estaba su coche.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 613.802,
+   "end": 616.419
+  },
+  {
+   "voice": "女3",
+   "text": "¡No me digas!",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 617.019,
+   "end": 617.949
+  },
+  {
+   "voice": "女3",
+   "text": "¿Y qué hicieron?",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 618.299,
+   "end": 619.529
+  },
+  {
+   "voice": "男1",
+   "text": "Lo buscaron media hora.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 620.129,
+   "end": 621.565
+  },
+  {
+   "voice": "男1",
+   "text": "Al final volvieron a casa en taxi, porque no pasaba ningún autobús.",
+   "where": "Texto 7 第2遍",
+   "lang": "es",
+   "start": 621.915,
+   "end": 626.005
+  },
+  {
+   "voice": "中",
+   "text": "听第八段录音，回答第十三至十六题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 646.005,
+   "end": 649.315
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 649.765,
+   "end": 653.825
+  },
+  {
+   "voice": "女4",
+   "text": "Me llamo Dolores y soy maestra en un pueblo cerca de Granada.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 673.825,
+   "end": 678.19
+  },
+  {
+   "voice": "女4",
+   "text": "Hoy quiero hablaros de mi abuelo Fermín.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 678.54,
+   "end": 681.135
+  },
+  {
+   "voice": "女4",
+   "text": "Mi abuelo no era maestro ni médico.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 681.485,
+   "end": 684.089
+  },
+  {
+   "voice": "女4",
+   "text": "Trabajaba en el campo de la mañana a la noche.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 684.439,
+   "end": 687.519
+  },
+  {
+   "voice": "女4",
+   "text": "Pero en el pueblo todos lo conocían por sus cuentos.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 687.869,
+   "end": 691.482
+  },
+  {
+   "voice": "女4",
+   "text": "Todos los sábados por la tarde, los niños nos reuníamos con él en la plaza.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 691.832,
+   "end": 697.202
+  },
+  {
+   "voice": "女4",
+   "text": "Mis padres me leían cuentos en casa por las noches.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 697.552,
+   "end": 701.042
+  },
+  {
+   "voice": "女4",
+   "text": "Pero los cuentos del abuelo eran diferentes.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 701.392,
+   "end": 704.422
+  },
+  {
+   "voice": "女4",
+   "text": "Él nunca los leía en un libro: los tenía todos en la cabeza.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 704.772,
+   "end": 709.352
+  },
+  {
+   "voice": "女4",
+   "text": "Los contaba poniendo una voz diferente para cada animal.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 709.702,
+   "end": 713.319
+  },
+  {
+   "voice": "女4",
+   "text": "Cuando hablaba el oso, ponía una voz muy fuerte.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 713.669,
+   "end": 717.366
+  },
+  {
+   "voice": "女4",
+   "text": "Entonces los niños pequeños se acercaban a sus padres, asustados.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 717.716,
+   "end": 722.841
+  },
+  {
+   "voice": "女4",
+   "text": "Sus historias siempre terminaban con una lección, pero nunca nos aburríamos.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 723.191,
+   "end": 728.211
+  },
+  {
+   "voice": "女4",
+   "text": "Mi abuelo murió hace diez años.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 728.561,
+   "end": 731.151
+  },
+  {
+   "voice": "女4",
+   "text": "Ahora yo les cuento sus cuentos a mis alumnos.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 731.501,
+   "end": 734.321
+  },
+  {
+   "voice": "女4",
+   "text": "Algún día quiero escribirlos en un libro.",
+   "where": "Texto 8 第1遍",
+   "lang": "es",
+   "start": 734.671,
+   "end": 737.491
+  },
+  {
+   "voice": "女4",
+   "text": "Me llamo Dolores y soy maestra en un pueblo cerca de Granada.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 740.491,
+   "end": 744.855
+  },
+  {
+   "voice": "女4",
+   "text": "Hoy quiero hablaros de mi abuelo Fermín.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 745.205,
+   "end": 747.801
+  },
+  {
+   "voice": "女4",
+   "text": "Mi abuelo no era maestro ni médico.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 748.151,
+   "end": 750.755
+  },
+  {
+   "voice": "女4",
+   "text": "Trabajaba en el campo de la mañana a la noche.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 751.105,
+   "end": 754.185
+  },
+  {
+   "voice": "女4",
+   "text": "Pero en el pueblo todos lo conocían por sus cuentos.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 754.535,
+   "end": 758.148
+  },
+  {
+   "voice": "女4",
+   "text": "Todos los sábados por la tarde, los niños nos reuníamos con él en la plaza.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 758.498,
+   "end": 763.868
+  },
+  {
+   "voice": "女4",
+   "text": "Mis padres me leían cuentos en casa por las noches.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 764.218,
+   "end": 767.708
+  },
+  {
+   "voice": "女4",
+   "text": "Pero los cuentos del abuelo eran diferentes.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 768.058,
+   "end": 771.088
+  },
+  {
+   "voice": "女4",
+   "text": "Él nunca los leía en un libro: los tenía todos en la cabeza.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 771.438,
+   "end": 776.018
+  },
+  {
+   "voice": "女4",
+   "text": "Los contaba poniendo una voz diferente para cada animal.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 776.368,
+   "end": 779.984
+  },
+  {
+   "voice": "女4",
+   "text": "Cuando hablaba el oso, ponía una voz muy fuerte.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 780.334,
+   "end": 784.032
+  },
+  {
+   "voice": "女4",
+   "text": "Entonces los niños pequeños se acercaban a sus padres, asustados.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 784.382,
+   "end": 789.506
+  },
+  {
+   "voice": "女4",
+   "text": "Sus historias siempre terminaban con una lección, pero nunca nos aburríamos.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 789.856,
+   "end": 794.876
+  },
+  {
+   "voice": "女4",
+   "text": "Mi abuelo murió hace diez años.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 795.226,
+   "end": 797.816
+  },
+  {
+   "voice": "女4",
+   "text": "Ahora yo les cuento sus cuentos a mis alumnos.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 798.166,
+   "end": 800.986
+  },
+  {
+   "voice": "女4",
+   "text": "Algún día quiero escribirlos en un libro.",
+   "where": "Texto 8 第2遍",
+   "lang": "es",
+   "start": 801.336,
+   "end": 804.156
+  },
+  {
+   "voice": "中",
+   "text": "听第九段录音，回答第十七至二十题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 824.156,
+   "end": 827.687
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有二十秒钟的时间阅读这四道小题。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 828.137,
+   "end": 832.197
+  },
+  {
+   "voice": "女2",
+   "text": "Gabriel, ¿qué tal tu primer trabajo como intérprete?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 852.197,
+   "end": 855.319
+  },
+  {
+   "voice": "男2",
+   "text": "Muy bien.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 855.919,
+   "end": 856.699
+  },
+  {
+   "voice": "男2",
+   "text": "Acompañé tres días a unos profesores colombianos.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 857.049,
+   "end": 860.841
+  },
+  {
+   "voice": "女2",
+   "text": "¿Tuviste algún problema?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 861.441,
+   "end": 862.678
+  },
+  {
+   "voice": "女2",
+   "text": "¿Perdiste el pasaporte, como yo el año pasado?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 863.028,
+   "end": 865.638
+  },
+  {
+   "voice": "男2",
+   "text": "No, eso no.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 866.238,
+   "end": 867.602
+  },
+  {
+   "voice": "男2",
+   "text": "Pero el primer día olvidé el diccionario en el hotel.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 867.952,
+   "end": 871.172
+  },
+  {
+   "voice": "女2",
+   "text": "¡Vaya!",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 871.772,
+   "end": 872.462
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y qué hiciste?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 872.812,
+   "end": 873.762
+  },
+  {
+   "voice": "男2",
+   "text": "Trabajé sin él.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 874.362,
+   "end": 875.842
+  },
+  {
+   "voice": "男2",
+   "text": "Pero en la última cena pasó algo muy divertido.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 876.192,
+   "end": 879.662
+  },
+  {
+   "voice": "女2",
+   "text": "¿Qué pasó?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 880.262,
+   "end": 880.972
+  },
+  {
+   "voice": "男2",
+   "text": "Uno de los profesores contó un cuento muy largo en español.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 881.572,
+   "end": 885.362
+  },
+  {
+   "voice": "女2",
+   "text": "Y tú no lo entendiste, claro.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 885.962,
+   "end": 887.632
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, lo entendí.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 888.232,
+   "end": 890.072
+  },
+  {
+   "voice": "男2",
+   "text": "Pero en chino no era nada divertido.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 890.422,
+   "end": 893.214
+  },
+  {
+   "voice": "女2",
+   "text": "¿Entonces qué les dijiste a los invitados chinos?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 893.814,
+   "end": 896.378
+  },
+  {
+   "voice": "男2",
+   "text": "Que el profesor acababa de contar un cuento muy divertido y que tenían que reírse.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 896.978,
+   "end": 901.868
+  },
+  {
+   "voice": "女2",
+   "text": "¡No me digas!",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 902.468,
+   "end": 903.268
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y se rieron?",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 903.618,
+   "end": 904.555
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, todos se rieron muchísimo.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 905.155,
+   "end": 908.052
+  },
+  {
+   "voice": "男2",
+   "text": "Y el profesor se puso muy contento.",
+   "where": "Texto 9 第1遍",
+   "lang": "es",
+   "start": 908.402,
+   "end": 910.862
+  },
+  {
+   "voice": "女2",
+   "text": "Gabriel, ¿qué tal tu primer trabajo como intérprete?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 913.862,
+   "end": 916.985
+  },
+  {
+   "voice": "男2",
+   "text": "Muy bien.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 917.585,
+   "end": 918.365
+  },
+  {
+   "voice": "男2",
+   "text": "Acompañé tres días a unos profesores colombianos.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 918.715,
+   "end": 922.506
+  },
+  {
+   "voice": "女2",
+   "text": "¿Tuviste algún problema?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 923.106,
+   "end": 924.344
+  },
+  {
+   "voice": "女2",
+   "text": "¿Perdiste el pasaporte, como yo el año pasado?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 924.694,
+   "end": 927.304
+  },
+  {
+   "voice": "男2",
+   "text": "No, eso no.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 927.904,
+   "end": 929.268
+  },
+  {
+   "voice": "男2",
+   "text": "Pero el primer día olvidé el diccionario en el hotel.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 929.618,
+   "end": 932.838
+  },
+  {
+   "voice": "女2",
+   "text": "¡Vaya!",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 933.438,
+   "end": 934.128
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y qué hiciste?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 934.478,
+   "end": 935.428
+  },
+  {
+   "voice": "男2",
+   "text": "Trabajé sin él.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 936.028,
+   "end": 937.508
+  },
+  {
+   "voice": "男2",
+   "text": "Pero en la última cena pasó algo muy divertido.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 937.858,
+   "end": 941.328
+  },
+  {
+   "voice": "女2",
+   "text": "¿Qué pasó?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 941.928,
+   "end": 942.638
+  },
+  {
+   "voice": "男2",
+   "text": "Uno de los profesores contó un cuento muy largo en español.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 943.238,
+   "end": 947.028
+  },
+  {
+   "voice": "女2",
+   "text": "Y tú no lo entendiste, claro.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 947.628,
+   "end": 949.298
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, lo entendí.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 949.898,
+   "end": 951.738
+  },
+  {
+   "voice": "男2",
+   "text": "Pero en chino no era nada divertido.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 952.088,
+   "end": 954.879
+  },
+  {
+   "voice": "女2",
+   "text": "¿Entonces qué les dijiste a los invitados chinos?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 955.479,
+   "end": 958.043
+  },
+  {
+   "voice": "男2",
+   "text": "Que el profesor acababa de contar un cuento muy divertido y que tenían que reírse.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 958.643,
+   "end": 963.533
+  },
+  {
+   "voice": "女2",
+   "text": "¡No me digas!",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 964.133,
+   "end": 964.933
+  },
+  {
+   "voice": "女2",
+   "text": "¿Y se rieron?",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 965.283,
+   "end": 966.22
+  },
+  {
+   "voice": "男2",
+   "text": "Sí, todos se rieron muchísimo.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 966.82,
+   "end": 969.718
+  },
+  {
+   "voice": "男2",
+   "text": "Y el profesor se puso muy contento.",
+   "where": "Texto 9 第2遍",
+   "lang": "es",
+   "start": 970.068,
+   "end": 972.528
+  },
+  {
+   "voice": "中",
+   "text": "听力部分到此结束。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 992.528,
+   "end": 994.288
+  },
+  {
+   "voice": "中",
+   "text": "现在，你有两分钟的时间将试卷上的答案转涂到答题卡上。",
+   "where": "指令语",
+   "lang": "zh",
+   "start": 994.738,
+   "end": 999.817
+  }
+ ]
+}
